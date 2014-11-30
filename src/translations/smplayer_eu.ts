@@ -1434,7 +1434,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bigarren bidea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -1454,27 +1454,27 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="4590"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Elkarketa hutsegitea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4591"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Eskatu duzun bideoak HTTPS elkarketa bat irekitzea behar du.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4592"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zorigaitzez openssl osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4593"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mesedez, ikusi %1 arazo hau nola zuzendu jakiteko.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4594"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>lotura hau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4604"/>
@@ -3720,10 +3720,6 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <translation>Eslobakiera</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Eslobeniera</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoaera</translation>
@@ -4289,7 +4285,7 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Eslobeniera</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -7277,27 +7273,27 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (eta beste gune batzuk)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gaitu Youtube barneko sostengua</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurketa &amp;ontasuna</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Erabiltzaile ordezkaria</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Irakurri bideoak jario guneetatik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7352,57 +7348,57 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu Youtube barneko sostengua</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautaturik badago, SMPlayer bideoak Youtube URL-etatik irakurtzen saiatuko da.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Youtube ontasuna</translation>
+        <translation>Youtube ontasuna</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Hautatu youtube bideoentzako ontasun hobetsia.</translation>
+        <translation>Hautatu zure ontasun hobetsia youtube bideoentzat.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabiltzaile ordezkaria</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarri SMPlayer-ek Youtube-ra elkartzerakoan erabiliko duen erabiltzaile ordezkaria.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurri bideoak jario guneetatik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautaturik badago, SMPlayer Youtube, Dailymotion, Vimeo, Vevo, etab. bezalako jario guneetatik bideoak irakurtzen saiatuko da.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>mpv eta youtube-dl behar du.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxya</translation>
+        <translation>Proxya</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7778,18 +7774,6 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>T&amp;B-rako katxea:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube ontasuna</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Hautatu youtube bideoentzako ontasun hobetsia.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">&amp;Youtube ontasuna</translation>
     </message>
 </context>
 <context>

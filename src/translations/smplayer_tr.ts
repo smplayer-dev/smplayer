@@ -161,17 +161,17 @@
     <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Kullanılıyor</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer %1 ve %2 için bir grafik arayüz.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Altyazılar hizmeti %1 tarafından desteklenmektedir</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">Arapça - Suriye</translation>
+        <translation>Arapça - Suriye</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -1262,7 +1262,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1672"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation>Özel stil kullan</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -1434,7 +1434,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>İkincil parça</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -1454,12 +1454,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4590"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Bağlantı başarısız oldu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4591"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>İstenen video HTTPS bağlantı açması gerekiyor.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4592"/>
@@ -1469,12 +1469,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4593"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lütfen, %1 Bu sorunu nasıl düzelteceğinizi öğrenmek için ziyaret edin.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4594"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu bağlantı</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4604"/>
@@ -3719,10 +3719,6 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <translation>Slovakça</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovence</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoaca</translation>
@@ -4288,7 +4284,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovence</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4453,7 +4449,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Arama çubuğu</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
@@ -5379,7 +5375,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="915"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekran görüntüleri için şablon</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="929"/>
@@ -5439,12 +5435,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Genel ses ekolayzır</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bu seçenek seçili ise, tüm medya dosyalarını ses ekolayzırda paylaşır.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
@@ -5494,7 +5490,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>Şab%lon:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
@@ -5514,7 +5510,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="700"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Genel ses e%kolayzırı</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="819"/>
@@ -7275,7 +7271,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (ve diğer siteler)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
@@ -7310,12 +7306,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Makine:</translation>
+        <translation>&amp;Makine:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port:</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="166"/>
@@ -7350,7 +7346,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
@@ -7365,12 +7361,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Youtube kalitesi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Youtube video kalite tercihini seçin.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7400,7 +7396,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Vekil sunucu</translation>
+        <translation>Vekil sunucu</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7776,18 +7772,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>&amp;TV için önbellek:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube kalitesi</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Youtube video kalite tercihini seçin.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Youtube kalitesi</translation>
     </message>
 </context>
 <context>
@@ -8312,7 +8296,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Özel stil kullan</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>

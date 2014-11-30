@@ -1434,7 +1434,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Fai&amp;xa secundária</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -1454,27 +1454,27 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="4590"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha na conexão</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4591"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>O vídeo requisitado precisa abrir uma conexão HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4592"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Infelizmente, o componente openssl, necessário para isso, não está disponível em seu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4593"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por favor, visite %1 para saber como reparar esse problema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4594"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>esse link</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4604"/>
@@ -3720,10 +3720,6 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <translation>Eslovaco</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Esloveno</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoano</translation>
@@ -4289,7 +4285,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Esloveno</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -7277,27 +7273,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (e outros sites)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Habilitar suporte interno ao Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Qualidade da reprodução</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;User agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Reproduzir vídeos de sites de streaming</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7352,57 +7348,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar suporte interno ao Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se essa opção estiver marcada, o SMPlayer tentará reproduzir vídeos de URLs do Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Qualidade do Youtube</translation>
+        <translation>Qualidade do Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Selecione a qualidade preferida para os vídeos do YouTube</translation>
+        <translation>Selecione a qualidade preferida para os vídeos do YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>User agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Configure o user agent que o SMPlayer usará quando se conectar ao Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir vídeos de sites de streaming</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se essa opção estiver marcada, o SMPlayer tentará reproduzir vídeos de sites de streaming como o Youtube, Vimeo, Vevo, etc.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Requer mpv e youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7778,18 +7774,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Cache para &amp;TV:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Qualidade do Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Selecione a qualidade preferida para os vídeos do YouTube</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">&amp;Qualidade do YouTube</translation>
     </message>
 </context>
 <context>

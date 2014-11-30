@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>Chinesisch (Kurzzeichen)</translation>
+        <translation>Vereinfachtes Chinesisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -141,7 +141,7 @@
     <message>
         <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>Chinesisch (Langzeichen)</translation>
+        <translation>Traditionelles Chinesisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -176,7 +176,7 @@
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Arabisch (Saudi-Arabien)</translation>
+        <translation>Arabisch - Saudi-Arabien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
@@ -266,7 +266,7 @@
     <message>
         <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation>Thai</translation>
+        <translation>Thailändisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="201"/>
@@ -329,7 +329,7 @@
     <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
-        <translation>Tragbare Version</translation>
+        <translation>Portable Edition</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="57"/>
@@ -474,7 +474,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="179"/>
         <source>Audio Equalizer</source>
-        <translation>Ton-Equalizer</translation>
+        <translation>Audio-Equalizer</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="182"/>
@@ -685,17 +685,17 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1535"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Abspiellisten …</translation>
+        <translation>&amp;Wiedergabeliste …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD im Laufwerk</translation>
+        <translation>&amp;DVD vom Laufwerk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1539"/>
         <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD-Ordner …</translation>
+        <translation>D&amp;VD vom Ordner …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1544"/>
@@ -914,17 +914,17 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1645"/>
         <source>Volume &amp;-</source>
-        <translation>Lau&amp;tstärke −</translation>
+        <translation>Lautstärke &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1646"/>
         <source>Volume &amp;+</source>
-        <translation>&amp;Lautstärke &amp;+</translation>
+        <translation>Lautstärke &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1647"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;Verzögerung −</translation>
+        <translation>&amp;Verzögerung -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1648"/>
@@ -944,7 +944,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>Delay &amp;-</source>
-        <translation>Verzögerung &amp;−</translation>
+        <translation>Verzögerung &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1662"/>
@@ -979,7 +979,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1697"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Abspielliste</translation>
+        <translation>&amp;Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
@@ -1031,7 +1031,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="3863"/>
         <source>Playlists</source>
-        <translation>Abspiellisten</translation>
+        <translation>Wiedergabelisten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3864"/>
@@ -1045,7 +1045,7 @@ Möchten Sie sie Überschreiben?</translation>
         <location filename="../basegui.cpp" line="4072"/>
         <location filename="../basegui.cpp" line="4093"/>
         <source>Choose a file</source>
-        <translation>Datei wählen</translation>
+        <translation>Datei auswählen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1701"/>
@@ -1168,7 +1168,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1614"/>
         <source>Zoom &amp;-</source>
-        <translation>Verkleinern &amp;−</translation>
+        <translation>Verkleinern &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1615"/>
@@ -1183,22 +1183,22 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1620"/>
         <source>Move &amp;left</source>
-        <translation>&amp;Nach links bewegen</translation>
+        <translation>Nach &amp;links bewegen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1621"/>
         <source>Move &amp;right</source>
-        <translation>&amp;Nach rechts bewegen</translation>
+        <translation>Nach &amp;rechts bewegen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1622"/>
         <source>Move &amp;up</source>
-        <translation>&amp;Hoch bewegen</translation>
+        <translation>Nach &amp;oben bewegen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1623"/>
         <source>Move &amp;down</source>
-        <translation>&amp;Runter bewegen</translation>
+        <translation>Nach &amp;unten bewegen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1669"/>
@@ -1215,7 +1215,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="2018"/>
         <location filename="../basegui.cpp" line="2019"/>
         <source>-%1</source>
-        <translation>−%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2021"/>
@@ -1232,12 +1232,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation>&amp;Blu-ray im Laufwerk</translation>
+        <translation>&amp;Blu-ray vom Laufwerk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>&amp;Blu-ray-Ordner …</translation>
+        <translation>Blu-&amp;ray vom Ordner …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1574"/>
@@ -1303,12 +1303,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
         <source>OSD - Next level</source>
-        <translation>Bildschirmanzeige – Nächste Stufe</translation>
+        <translation>Bildschirmanzeige - Nächste Stufe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
         <source>Dec contrast</source>
-        <translation>Kontrast −</translation>
+        <translation>Kontrast -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1755"/>
@@ -1318,7 +1318,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1756"/>
         <source>Dec brightness</source>
-        <translation>Helligkeit −</translation>
+        <translation>Helligkeit -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1757"/>
@@ -1328,7 +1328,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1758"/>
         <source>Dec hue</source>
-        <translation>Farbe −</translation>
+        <translation>Farbe -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -1338,17 +1338,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>Dec saturation</source>
-        <translation>Sättigung −</translation>
+        <translation>Sättigung -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1762"/>
         <source>Dec gamma</source>
-        <translation>Gamma −</translation>
+        <translation>Gamma -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1765"/>
         <source>Next audio</source>
-        <translation>Nächste Tondatei</translation>
+        <translation>Nächste Audiodatei</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
@@ -1434,7 +1434,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sekundäre Spur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -1454,27 +1454,27 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4590"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbindung fehlgeschlagen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4591"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das von Ihnen angeforderte Video muss eine HTTPS-Verbindung öffnen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4592"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Leider ist die openssl-Komponente, welche erforderlich ist, nicht in Ihrem System ferfügbar.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4593"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte %1 aufrufen, um zu erfahren, wie das Problem gelöst werden kann.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4594"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>diesen Verweis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4604"/>
@@ -1510,7 +1510,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="5395"/>
         <source>Be sure %1 is installed.</source>
-        <translation>Beachten Sie, dass %1 installiert ist.</translation>
+        <translation>Achten Sie darauf, dass %1 installiert ist.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1987"/>
@@ -1556,7 +1556,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1650"/>
         <source>&amp;Load external file...</source>
-        <translation>&amp;Externe Datei laden …</translation>
+        <translation>Externe Datei &amp;laden …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
@@ -1601,7 +1601,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1666"/>
         <source>S&amp;ize -</source>
-        <translation>&amp;Größe −</translation>
+        <translation>&amp;Größe -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1667"/>
@@ -1731,7 +1731,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1771"/>
         <source>Reset audio equalizer</source>
-        <translation>Ton-Equalizer zurücksetzen</translation>
+        <translation>Audio-Equalizer zurücksetzen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
@@ -1741,12 +1741,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1873"/>
         <source>&amp;Auto</source>
-        <translation>&amp;Auto</translation>
+        <translation>&amp;Automatisch</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1597"/>
         <source>Speed -&amp;4%</source>
-        <translation>Geschwindigkeit −&amp;4 %</translation>
+        <translation>Geschwindigkeit -&amp;4 %</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1598"/>
@@ -1756,7 +1756,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1599"/>
         <source>Speed -&amp;1%</source>
-        <translation>Geschwindigkeit −&amp;1 %</translation>
+        <translation>Geschwindigkeit -&amp;1 %</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1600"/>
@@ -1853,7 +1853,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1976"/>
         <source>DVD &amp;menu</source>
-        <translation>&amp;DVD-Menü</translation>
+        <translation>DVD-&amp;Menü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
@@ -1908,13 +1908,13 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4189"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer – Spulen</translation>
+        <translation>SMPlayer - Spulen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4200"/>
         <location filename="../basegui.cpp" line="4204"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer – Tonverzögerung</translation>
+        <translation>SMPlayer - Audioverzögerung</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4201"/>
@@ -1926,7 +1926,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="4216"/>
         <location filename="../basegui.cpp" line="4220"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer – Untertitelverzögerung</translation>
+        <translation>SMPlayer - Untertitelverzögerung</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4217"/>
@@ -1963,7 +1963,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1966"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation>&amp;Programm</translation>
+        <translation>P&amp;rogramm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
@@ -2130,7 +2130,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <source>An error happened writing %1</source>
-        <translation>Ein Fehler trat auf beim Schreiben von %1</translation>
+        <translation>Ein Fehler trat beim Schreiben von %1 auf</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
@@ -3721,10 +3721,6 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
         <translation>Slowakisch</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slowenisch</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoanisch</translation>
@@ -4290,7 +4286,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slowenisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -5303,7 +5299,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation>DVD-M&amp;enüs aktivieren (experimentell)</translation>
+        <translation>DVD-&amp;Menüs aktivieren (experimentell)</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
@@ -6020,7 +6016,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer executable:</source>
-        <translation>&amp;Ausführbare MPlayer-Datei:</translation>
+        <translation>Ausführbare &amp;MPlayer-Datei:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7281,27 +7277,27 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (und weitere Seiten)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Interne Youtube-Unterstützung aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe&amp;qualität</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Benutzerkennung</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Videos von Streaming-Seiten &amp;wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7356,57 +7352,57 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Interne Youtube-Unterstützung aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option ausgewählt ist, wird SMPlayer die Videos von Youtube-Adressen abspielen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Youtube-Qualität</translation>
+        <translation>Youtube-Qualität</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Die bevorzugte Qualität für Youtube-Videos auswählen.</translation>
+        <translation>Wählen Sie die bevorzugte Qualität für Youtube-Videos aus.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>Benutzerkennung</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Benutzerkennung einstellen, die benutzt werden soll, wenn SMPlayer sich mit Youtube verbindet.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Videos von Streaming-Seiten wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option ausgewählt ist, dann wird SMPlayer versuchen Videos von Datenstromseiten wie Youtube, Dailymotion, Vimeo, Vevo, usw. abzuspielen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Benötigt mpv und youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7782,18 +7778,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Zwischenspeicher für &amp;TV:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube-Qualität</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Die bevorzugte Qualität für Youtube-Videos auswählen.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Youtube-&amp;Qualität</translation>
     </message>
 </context>
 <context>

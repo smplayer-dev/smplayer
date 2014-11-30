@@ -1434,7 +1434,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>第二轨道(&amp;k)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -3717,10 +3717,6 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>斯洛伐克语</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">斯洛文尼亚语</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -7365,12 +7361,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">YouTube 质量</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">选择首选 YouTube 视频质量。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7776,18 +7772,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>电视缓存(&amp;T):</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">YouTube 质量</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">选择首选 YouTube 视频质量。</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">YouTube 质量(&amp;Q)</translation>
     </message>
 </context>
 <context>

@@ -1434,7 +1434,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodatni podnaslo&amp;v</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -3719,10 +3719,6 @@ Molim, provjerite dozvole te mape.</translation>
         <location filename="../languages.cpp" line="332"/>
         <source>Slovak</source>
         <translation>Slovački</translation>
-    </message>
-    <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenski</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="170"/>
@@ -7368,12 +7364,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Youtube kvaliteta video snimaka</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Odaberite kvalitetu prikazivanja Youtube video snimaka.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7779,18 +7775,6 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Priručna memorija za &amp;TV:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube kvaliteta video snimaka</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Odaberite kvalitetu prikazivanja Youtube video snimaka.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">&amp;Youtube kvaliteta video snimaka</translation>
     </message>
 </context>
 <context>

@@ -1242,7 +1242,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1574"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"></translation>
+        <translation>コマ戻し(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
@@ -1262,7 +1262,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1672"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished">カスタム スタイルを使用する(&amp;M)</translation>
+        <translation>カスタム スタイルの使用(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -1434,7 +1434,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>セカンダリ トラック(&amp;K)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -1454,27 +1454,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4590"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>接続が失敗しました</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4591"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>要求したビデオは HTTPS 接続を開く必要があります。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4592"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>残念ながらそれに必要な openssl コンポーネントはお使いのシステムで利用できません。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4593"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>この問題を解決する方法については%1にアクセスしてください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4594"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>このリンク</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4604"/>
@@ -3719,10 +3719,6 @@ Please check the permissions of that folder.</source>
         <translation>スロバキア語</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">スロベニア語</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>サモア語</translation>
@@ -4288,7 +4284,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>スロベニア語</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -5379,7 +5375,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.cpp" line="915"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>スクリーンショットのテンプレート</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="929"/>
@@ -5494,7 +5490,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>テンプレート(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
@@ -7276,27 +7272,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube (およびその他のサイト)(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube の内部サポートを有効にする(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>再生の品質(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー エージェント(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>ストリーミング サイトからのビデオを再生する(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7351,57 +7347,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube の内部サポートを有効にする</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は YouTube の URL からのビデオの再生を試行します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">YouTube の品質</translation>
+        <translation>YouTube の品質</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">優先される YouTube 動画の品質を選択します。</translation>
+        <translation>優先される YouTube 動画の品質を選択します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>ユーザー エージェント</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer が YouTube への接続時に使用するユーザー エージェントを設定します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>ストリーミング サイトからのビデオを再生する</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は YouTube、Dailymotion、Vimeo、Vevo などのストリーミング サイトからの動画の再生を試行します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>mpv および youtube-dl を必要とします。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">プロキシ</translation>
+        <translation>プロキシ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7778,18 +7774,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Cache for &amp;TV:</source>
         <translation>TV のキャッシュ(&amp;T):</translation>
     </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">YouTube の品質</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">優先される YouTube 動画の品質を選択します。</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">YouTube の品質(&amp;Q)</translation>
-    </message>
 </context>
 <context>
     <name>PrefPlaylist</name>
@@ -7981,7 +7965,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>ASS ライブラリを使用する(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
@@ -8113,17 +8097,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>ASS ライブラリを使用する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは複数の色やフォント付きの字幕の表示を可能にする ASS ライブラリを有効にします。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>通常このオプションを無効にしてはなりません。お使いの MPlayer が freetype サポートなしでコンパイルされている場合のみしてください。&lt;b&gt;このオプションを無効にすると字幕が全く動作しなくなります!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8953,7 +8937,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"></translation>
+        <translation>タイトルのスクロール(&amp;S)</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="447"/>

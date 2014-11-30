@@ -1242,7 +1242,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1574"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"></translation>
+        <translation>Langkah undur bi&amp;ngkai</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
@@ -1262,7 +1262,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1672"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished">Guna gaya s&amp;uai</translation>
+        <translation>Guna gaya s&amp;uai</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -1434,7 +1434,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1946"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Tre&amp;k sekunder</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
@@ -3719,10 +3719,6 @@ Sila semak keizinan folder tersebut.</translation>
         <translation>Slovak</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenia</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoa</translation>
@@ -5379,7 +5375,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="915"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Templat untuk cekupan skrin</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="929"/>
@@ -5494,7 +5490,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>Temp&amp;lat:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
@@ -7366,12 +7362,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Kualiti Youtube</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Pilih kualiti yang digemari untuk video youtube.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7778,18 +7774,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <source>Cache for &amp;TV:</source>
         <translation>Cache untuk &amp;TV:</translation>
     </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Kualiti Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Pilih kualiti yang digemari untuk video youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Kua&amp;liti Youtube</translation>
-    </message>
 </context>
 <context>
     <name>PrefPlaylist</name>
@@ -7981,7 +7965,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Guna pustaka &amp;ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
@@ -8113,17 +8097,17 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>Guna pustaka ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini membolehkan pustaka Ass, yang membolehkan pemaparan sarikata dengan warna, fon berbilang...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Kebiasaannya, anda sepatutnya tidak lumpuhkan pilihan ini. Hanya dibuat jika MPlayer anda dikompil tanpa sokongan freetype. &lt;b&gt;Melumpuhkan pilihan ini menjadikan sarikata tidak berfungsi langsung!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8953,7 +8937,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"></translation>
+        <translation>Tajuk &amp;tatal</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="447"/>
