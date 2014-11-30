@@ -49,8 +49,8 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	yt_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	yt_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
 #else
-	int i = tab_widget->indexOf(youtube_page);
-	if (i != -1) tab_widget->removeTab(i);
+	yt_support_check->hide();
+	youtube_widget->hide();
 #endif
 
 	createHelp();
