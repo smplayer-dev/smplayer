@@ -1035,10 +1035,12 @@ void Core::initPlaying(int seek) {
 	if (seek > -1) start_sec = seek;
 
 #ifdef YOUTUBE_SUPPORT
-	// Avoid to pass to mplayer the youtube page url
-	if (mdat.type == TYPE_STREAM) {
-		if (mdat.filename == yt->origUrl()) {
-			mdat.filename = yt->latestPreferredUrl();
+	if (pref->enable_yt_support) {
+		// Avoid to pass to mplayer the youtube page url
+		if (mdat.type == TYPE_STREAM) {
+			if (mdat.filename == yt->origUrl()) {
+				mdat.filename = yt->latestPreferredUrl();
+			}
 		}
 	}
 #endif
@@ -1153,11 +1155,13 @@ void Core::finishRestart() {
 	}
 
 #ifdef YOUTUBE_SUPPORT
-	// Change the real url with the youtube page url and set the title
-	if (mdat.type == TYPE_STREAM) {
-		if (mdat.filename == yt->latestPreferredUrl()) {
-			mdat.filename = yt->origUrl();
-			mdat.stream_title = yt->urlTitle();
+	if (pref->enable_yt_support) {
+		// Change the real url with the youtube page url and set the title
+		if (mdat.type == TYPE_STREAM) {
+			if (mdat.filename == yt->latestPreferredUrl()) {
+				mdat.filename = yt->origUrl();
+				mdat.stream_title = yt->urlTitle();
+			}
 		}
 	}
 #endif
