@@ -264,6 +264,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	else
 	if (option_name == "vc") {
 		qDebug() << "MPVProcess::setOption: video codec ignored";
+		#ifdef Q_OS_LINUX
+		QString codec = value.toString();
+		if (codec.contains("vdpau")) {
+			arg << "--hwdec=vdpau";
+		}
+		#endif
 	}
 	else
 	if (option_name == "ac") {
