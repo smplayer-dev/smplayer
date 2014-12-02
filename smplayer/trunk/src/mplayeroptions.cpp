@@ -71,9 +71,9 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		// Not supported
 	}
 	else
-	if (option_name == "keepaspect") {
+	if (option_name == "keepaspect" || option_name == "dr" || option_name == "double") {
 		bool b = value.toBool();
-		if (b) arg << "-keepaspect"; else arg << "-nokeepaspect";
+		if (b) arg << "-" + option_name; else arg << "-no" + option_name;
 	}
 	else {
 		arg << "-" + option_name;
