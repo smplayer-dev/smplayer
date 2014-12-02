@@ -1588,15 +1588,15 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 
 	if (pref->fullscreen && pref->use_mplayer_window) {
-		proc->addArgument("-fs");
+		proc->setOption("fs", true);
 	} else {
 		// No mplayer fullscreen mode
-#if !USE_MPLAYER_PANSCAN
-		proc->addArgument("-nofs");
-#else
+		#if !USE_MPLAYER_PANSCAN
+		proc->setOption("fs", false);
+		#else
 		// The command 'panscan' requires -fs
-		proc->addArgument("-fs");
-#endif
+		proc->setOption("fs", true);
+		#endif
 	}
 
 #if !ALLOW_DEMUXER_CODEC_CHANGE
