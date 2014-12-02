@@ -224,6 +224,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		// Ignore
 	}
 	else
+	if (option_name == "dr" || option_name == "double") {
+		// Ignore
+	}
+	else
 	if (option_name == "tsprog") {
 		// Unsupported
 	}

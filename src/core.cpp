@@ -1778,17 +1778,8 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("mc", QString::number(pref->mc_value));
 	}
 
-	if (pref->use_direct_rendering) {
-		proc->addArgument("-dr");
-	} else {
-		proc->addArgument("-nodr");
-	}
-
-	if (pref->use_double_buffer) {
-		proc->addArgument("-double");
-	} else {
-		proc->addArgument("-nodouble");
-	}
+	proc->setOption("dr", pref->use_direct_rendering);
+	proc->setOption("double", pref->use_double_buffer);
 
 #ifdef Q_WS_X11
 	proc->setOption("stop-xscreensaver", pref->disable_screensaver);
