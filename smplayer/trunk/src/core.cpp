@@ -2358,8 +2358,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 		qDebug("Core::startMplayer: edl file: '%s'", edl_f.toUtf8().data());
 		if (!edl_f.isEmpty()) {
-			proc->addArgument("-edl");
-			proc->addArgument(edl_f);
+			proc->setOption("edl", edl_f);
 		}
 	}
 
