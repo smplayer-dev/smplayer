@@ -127,6 +127,7 @@ signals:
 	void receivedConnectingToMessage(QString);
 	void receivedResolvingMessage(QString);
 	void receivedBuffering();
+	void receivedPlaying();
 	void receivedScreenshot(QString);
 	void receivedUpdatingFontCache();
 	void receivedScanningFont(QString);

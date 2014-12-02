@@ -134,6 +134,8 @@ static QRegExp rx_mpv_videoinfo("^\\[vd\\] VIDEO: .* (\\d+)x(\\d+) .* ([0-9.]+) 
 static QRegExp rx_mpv_switch_title("^\\[dvdnav\\] DVDNAV, switched to title: (\\d+)");
 #endif
 
+static QRegExp rx_mpv_playing("^Playing:.*|^\\[ytdl_hook\\].*");
+
 static QRegExp rx_mpv_generic("^(.*)=(.*)");
 
 void MPVProcess::parseLine(QByteArray ba) {
@@ -470,6 +472,12 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 		else
 #endif
+
+		//Playing
+		if (rx_mpv_playing.indexIn(line) > -1) {
+			emit receivedPlaying();
+		}
+		else
 
 		//Generic things
 		if (rx_mpv_generic.indexIn(line) > -1) {
