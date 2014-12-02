@@ -1785,9 +1785,7 @@ void Core::startMplayer( QString file, double seek ) {
 #if USE_COLORKEY
 		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		if ((pref->vo.startsWith("directx")) || (pref->vo.startsWith("kva")) || (pref->vo.isEmpty())) {
-			proc->addArgument("-colorkey");
-			//proc->addArgument( "0x"+QString::number(pref->color_key, 16) );
-			proc->addArgument( ColorUtils::colorToRGB(pref->color_key) );
+			proc->setOption("colorkey", ColorUtils::colorToRGB(pref->color_key));
 		} else {
 		#endif
 			/*
