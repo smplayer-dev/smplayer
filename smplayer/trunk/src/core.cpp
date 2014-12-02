@@ -1702,8 +1702,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 #if USE_ADAPTER
 	if (pref->adapter > -1) {
-		proc->addArgument("-adapter");
-		proc->addArgument(QString::number(pref->adapter));
+		proc->setOption("adapter", QString::number(pref->adapter));
 	}
 #endif
 
