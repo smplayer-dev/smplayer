@@ -220,19 +220,11 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--sub-forced-only";
 	}
 	else
-	if (option_name == "prefer-ipv4" || option_name == "prefer-ipv6") {
-		// Ignore
-	}
-	else
-	if (option_name == "dr" || option_name == "double") {
-		// Ignore
-	}
-	else
-	if (option_name == "adapter") {
-		// Ignore
-	}
-	else
-	if (option_name == "edl") {
+	if (option_name == "prefer-ipv4" || option_name == "prefer-ipv6" ||
+	    option_name == "dr" || option_name == "double" ||
+	    option_name == "adapter" || option_name == "edl" ||
+	    option_name == "slices")
+	{
 		// Ignore
 	}
 	else

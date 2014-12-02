@@ -2271,9 +2271,9 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// slices
 	if ((pref->use_slices) && (!force_noslices)) {
-		proc->addArgument("-slices");
+		proc->setOption("slices", true);
 	} else {
-		proc->addArgument("-noslices");
+		proc->setOption("slices", false);
 	}
 
 
