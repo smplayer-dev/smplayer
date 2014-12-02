@@ -250,9 +250,9 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--vd-lavc-skiploopfilter=all";
 	}
 	else
-	if (option_name == "keepaspect") {
+	if (option_name == "keepaspect" || option_name == "fs") {
 		bool b = value.toBool();
-		if (b) arg << "--keepaspect"; else arg << "--no-keepaspect";
+		if (b) arg << "--" + option_name; else arg << "--no-" + option_name;
 	}
 	else
 	if (option_name == "ao") {
