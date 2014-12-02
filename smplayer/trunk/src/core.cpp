@@ -1682,22 +1682,9 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->setOption("sub-fuzziness", pref->subfuzziness);
 
-	if (MplayerVersion::isMplayerAtLeast(27667)) {
-		// From r27667 the number of chapters can be obtained from ID_CHAPTERS
-		mset.current_chapter_id = 0; // Reset chapters
-	} else {
-		// We need this to get info about mkv chapters
-		if (is_mkv) {
-			proc->addArgument("-msglevel");
-			proc->addArgument("demux=6");
-
-			// **** Reset chapter *** 
-			// Select first chapter, otherwise we cannot
-			// resume playback at the same point
-			// (time would be relative to chapter)
-			mset.current_chapter_id = 0;
-		}
-	}
+	// From mplayer SVN r27667 the number of chapters can be obtained from ID_CHAPTERS
+	mset.current_chapter_id = 0; // Reset chapters
+	// TODO: I think the current_chapter_id thing has to be deleted
 
 	if (!pref->vo.isEmpty()) {
 		proc->setOption("vo", pref->vo );
