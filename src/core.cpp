@@ -1873,10 +1873,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	if (mset.closed_caption_channel > 0) {
-		proc->addArgument("-subcc");
-		if (MplayerVersion::isMplayerAtLeast(32607)) {
-			proc->addArgument( QString::number( mset.closed_caption_channel ) );
-		}
+		proc->setOption("subcc", QString::number(mset.closed_caption_channel));
 	}
 
 	if (pref->use_forced_subs_only) {
