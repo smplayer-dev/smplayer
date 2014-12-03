@@ -2230,7 +2230,6 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addVF("subs_on_screenshots", "ass");
 		} else {
 			proc->addVF("subs_on_screenshots");
-			//proc->addArgument("-noslices");
 			force_noslices = true;
 		}
 	}
