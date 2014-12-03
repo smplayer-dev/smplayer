@@ -37,7 +37,7 @@ public:
 
 	// Command line options
 	void addArgument(const QString & a);
-	void setMedia(const QString & media);
+	void setMedia(const QString & media, bool is_playlist = false);
 	void disableInput();
 	void setFixedOptions();
 	void setOption(const QString & option_name, const QVariant & value = QVariant());

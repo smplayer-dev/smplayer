@@ -52,7 +52,7 @@ dheight=${=dheight}
 sub=${=sub}
 */
 
-void MPVProcess::setMedia(const QString & media) {
+void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	arg << "--term-playing-msg="
 			"MPV_VERSION=${=mpv-version:}\n"
 			"INFO_VIDEO_WIDTH=${=width}\nINFO_VIDEO_HEIGHT=${=height}\n"
@@ -86,7 +86,11 @@ void MPVProcess::setMedia(const QString & media) {
 
 			"INFO_MEDIA_TITLE=${=media-title:}\n";
 
-	arg << media;
+	if (is_playlist) {
+		arg << "--playlist=" + media;
+	} else {
+		arg << media;
+	}
 }
 
 void MPVProcess::setFixedOptions() {
