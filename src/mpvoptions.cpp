@@ -86,15 +86,15 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 
 			"INFO_MEDIA_TITLE=${=media-title:}\n";
 
+#ifdef CUSTOM_STATUS
+	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=length:0} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle}";
+#endif
+
 	if (is_playlist) {
 		arg << "--playlist=" + media;
 	} else {
 		arg << media;
 	}
-
-#ifdef CUSTOM_STATUS
-	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=length:0} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle}";
-#endif
 }
 
 void MPVProcess::setFixedOptions() {
