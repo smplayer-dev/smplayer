@@ -19,8 +19,9 @@
 #include "subtracks.h"
 #include <QDebug>
 
-void MplayerProcess::setMedia(const QString & media) {
-	addArgument(media);
+void MplayerProcess::setMedia(const QString & media, bool is_playlist) {
+	if (is_playlist) arg << "-playlist";
+	arg << media;
 }
 
 void MplayerProcess::setFixedOptions() {
