@@ -29,6 +29,8 @@
 
 using namespace Global;
 
+#define CUSTOM_STATUS
+
 #define TOO_CHAPTERS_WORKAROUND
 
 MPVProcess::MPVProcess(QObject * parent)
@@ -106,7 +108,12 @@ bool MPVProcess::start() {
 	return waitForStarted();
 }
 
+#ifdef CUSTOM_STATUS
+static QRegExp rx_mpv_av("^STATUS: ([0-9\\.]+) / ([0-9\\.]+) P: (yes|no) B: (yes|no) I: (yes|no)");
+#else
 static QRegExp rx_mpv_av("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
+#endif
+
 static QRegExp rx_mpv_dsize("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
 static QRegExp rx_mpv_vo("^VO: \\[(.*)\\]");
 static QRegExp rx_mpv_ao("^AO: \\[(.*)\\]");
@@ -159,8 +166,40 @@ void MPVProcess::parseLine(QByteArray ba) {
 	/* line = line.replace("[statusline] ", ""); */
 
 	// Parse A: V: line
-	//qDebug("%s", line.toUtf8().data());
+	//qDebug("MPVProcess::parseLine: %s", line.toUtf8().data());
 	if (rx_mpv_av.indexIn(line) > -1) {
+		#ifdef CUSTOM_STATUS
+		double sec = rx_mpv_av.cap(1).toDouble();
+		double length = rx_mpv_av.cap(2).toDouble();
+		bool paused = (rx_mpv_av.cap(3) == "yes");
+		bool buffering = (rx_mpv_av.cap(4) == "yes");
+		bool idle = (rx_mpv_av.cap(5) == "yes");
+
+		if (length != md.duration) {
+			md.duration = length;
+			emit receivedDuration(length);
+		}
+
+		if (paused) {
+			qDebug("MPVProcess::parseLine: paused");
+			receivedPause();
+			return;
+		}
+		else
+		if (buffering) {
+			qDebug("MPVProcess::parseLine: buffering");
+			receivedBuffering();
+			return;
+		}
+		else
+		if (idle) {
+			qDebug("MPVProcess::parseLine: idle");
+			receivedBuffering();
+			return;
+		}
+
+		#else
+
 		//qDebug() << rx_mpv_av.cap(1);
 		//qDebug() << rx_mpv_av.cap(2);
 
@@ -195,6 +234,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (!status.isEmpty()) {
 			qDebug() << "MPVProcess::parseLine: status:" << status;
 		}
+
+		#endif
 
 #if NOTIFY_SUB_CHANGES
 		if (notified_mplayer_is_running) {
