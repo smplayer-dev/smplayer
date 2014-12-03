@@ -24,7 +24,7 @@
 #include <QDir>
 #include <QTextCodec>
 #include <QWidget>
-//#include <QDebug>
+#include <QDebug>
 #include "config.h"
 #include "extensions.h"
 
@@ -60,15 +60,19 @@ QString Helper::dvdForPref(const QString & dvd_id, int title) {
 */
 
 QString Helper::formatTime(int secs) {
-	int t = secs;
-    int hours = (int) t / 3600;
-    t -= hours*3600;
-    int minutes = (int) t / 60;
-    t -= minutes*60;
-    int seconds = t;
+	bool negative = (secs < 0);
+	secs = abs(secs);
 
-    QString tf;
-    return tf.sprintf("%02d:%02d:%02d",hours,minutes,seconds);
+	int t = secs;
+	int hours = (int) t / 3600;
+	t -= hours*3600;
+	int minutes = (int) t / 60;
+	t -= minutes*60;
+	int seconds = t;
+
+	//qDebug() << "Helper::formatTime:" << hours << ":" << minutes << ":" << seconds;
+
+	return QString("%1%2:%3:%4").arg(negative ? "-" : "").arg(hours, 2, 10, QChar('0')).arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0'));
 }
 
 QString Helper::timeForJumps(int secs) {
