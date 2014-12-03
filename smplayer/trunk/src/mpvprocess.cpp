@@ -109,7 +109,7 @@ bool MPVProcess::start() {
 }
 
 #ifdef CUSTOM_STATUS
-static QRegExp rx_mpv_av("^STATUS: ([0-9\\.]+) / ([0-9\\.]+) P: (yes|no) B: (yes|no) I: (yes|no)");
+static QRegExp rx_mpv_av("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no)");
 #else
 static QRegExp rx_mpv_av("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
 #endif
