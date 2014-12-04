@@ -455,7 +455,7 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 }
 
 void MPVProcess::quit() {
-	writeToStdin("quit");
+	writeToStdin("quit 0");
 }
 
 void MPVProcess::setVolume(int v) {
