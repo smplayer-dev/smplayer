@@ -40,6 +40,8 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 		eq[n] = new EqSlider(this);
 		eq[n]->setIcon( QPixmap() );
 		eq[n]->sliderWidget()->setRange(-120, 120);
+		eq[n]->sliderWidget()->setTracking(false);
+		connect(eq[n], SIGNAL(valueChanged(int)), this, SLOT(updatePresetCombo()));
 		bl->addWidget(eq[n]);
 	}
 
@@ -228,9 +230,7 @@ void AudioEqualizer::retranslateStrings() {
 }
 
 void AudioEqualizer::reset() {
-	for (int n = 0; n < 10; n++) {
-		eq[n]->setValue(0);
-	}
+	setValues(preset_list[Flat]);
 	presets_combo->setCurrentIndex(presets_combo->findData(Flat));
 }
 
@@ -261,8 +261,12 @@ void AudioEqualizer::setValues(AudioEqualizerList l) {
 	qDebug("AudioEqualizer::setValues");
 
 	for (int n = 0; n < 10; n++) {
+		eq[n]->blockSignals(true);
 		eq[n]->setValue(l[n].toInt());
+		eq[n]->blockSignals(false);
 	}
+
+	emit valuesChanged(l);
 }
 
 void AudioEqualizer::presetChanged(int index) {
@@ -287,6 +291,21 @@ void AudioEqualizer::applyButtonClicked() {
 		l << eq[n]->value();
 	}
 	emit applyClicked( l );
+}
+
+void AudioEqualizer::updatePresetCombo() {
+	qDebug("AudioEqualizer::updatePresetCombo");
+
+	AudioEqualizerList l;
+	for (int n = 0; n < 10; n++) {
+		l << eq[n]->value();
+	}
+
+	int p = findPreset(l);
+	int index = presets_combo->findData(p);
+	if (index != 1) {
+		presets_combo->setCurrentIndex(index);
+	}
 }
 
 void AudioEqualizer::hideEvent( QHideEvent * ) {

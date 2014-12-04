@@ -2240,6 +2240,9 @@ void BaseGui::createAudioEqualizer() {
 	connect( audio_equalizer, SIGNAL(applyClicked(AudioEqualizerList)), 
              core, SLOT(setAudioAudioEqualizerRestart(AudioEqualizerList)) );
 
+	connect( audio_equalizer, SIGNAL(valuesChanged(AudioEqualizerList)),
+             core, SLOT(setAudioEqualizer(AudioEqualizerList)) );
+
 	connect( audio_equalizer, SIGNAL(visibilityChanged()),
              this, SLOT(updateWidgets()) );
 }

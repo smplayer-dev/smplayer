@@ -3221,16 +3221,13 @@ void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
 	}
 
 	if (!restart) {
-		if (!MplayerVersion::isMplayerAtLeast(32505)) {
-			tellmp("af_eq_set_bands " + Helper::equalizerListToString(values));
-		} else {
-			proc->setAudioEqualizer(Helper::equalizerListToString(values));
-		}
+		proc->setAudioEqualizer(Helper::equalizerListToString(values));
 	} else {
 		restartPlay();
 	}
 
-	emit audioEqualizerNeedsUpdate();
+	// Infinite recursion
+	//emit audioEqualizerNeedsUpdate();
 }
 
 void Core::updateAudioEqualizer() {
