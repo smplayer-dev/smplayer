@@ -1498,8 +1498,6 @@ void Core::startMplayer( QString file, double seek ) {
 	yt->close();
 #endif
 
-	bool is_mkv = (QFileInfo(file).suffix().toLower() == "mkv");
-
 	// DVD
 	QString dvd_folder;
 	int dvd_title = -1;
