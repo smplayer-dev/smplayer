@@ -119,6 +119,7 @@ private:
 	int mplayer_svn;
 
 	QString mpv_version;
+	bool verbose;
 
 #if NOTIFY_SUB_CHANGES
 	SubTracks subs;

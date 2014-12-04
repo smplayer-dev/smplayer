@@ -39,6 +39,7 @@ MPVProcess::MPVProcess(QObject * parent)
 	, received_end_of_file(false)
 	, last_sub_id(-1)
 	, mplayer_svn(-1) // Not found yet
+	, verbose(false)
 #if NOTIFY_SUB_CHANGES
 	, subtitle_info_received(false)
 	, subtitle_info_changed(false)
@@ -163,7 +164,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 	#endif
 #endif
 
-	/* line = line.replace("[statusline] ", ""); */
+	if (verbose) {
+		line = line.replace("[statusline] ", "");
+		line = line.replace("[cplayer] ", "");
+	}
 
 	// Parse A: V: line
 	//qDebug("MPVProcess::parseLine: %s", line.toUtf8().data());
@@ -637,7 +641,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			}
 			else
 			if (tag == "INFO_MEDIA_TITLE") {
-				if (!value.isEmpty() && md.clip_name.isEmpty()) {
+				if (!value.isEmpty() /*&& md.clip_name.isEmpty()*/) {
 					md.clip_name = value;
 				}
 			}

@@ -1584,7 +1584,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifdef LOG_MPLAYER
 	if (pref->verbose_log) {
-		proc->addArgument("-v");
+		proc->setOption("verbose");
 	}
 #endif
 
