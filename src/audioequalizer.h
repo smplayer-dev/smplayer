@@ -49,6 +49,7 @@ public:
 signals:
 	void visibilityChanged();
 	void applyClicked(AudioEqualizerList new_values);
+	void valuesChanged(AudioEqualizerList values);
 
 public slots:
 	void reset();
@@ -57,6 +58,7 @@ public slots:
 protected slots:
 	void applyButtonClicked();
 	void presetChanged(int index);
+	void updatePresetCombo();
 
 protected:
 	virtual void hideEvent( QHideEvent * );

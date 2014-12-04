@@ -25,14 +25,14 @@
 
 class EqSlider : public QWidget, public Ui::EqSlider
 {
-    Q_OBJECT
+	Q_OBJECT
 	Q_PROPERTY(QPixmap icon READ icon WRITE setIcon)
 	Q_PROPERTY(QString label READ label WRITE setLabel)
 	Q_PROPERTY(int value READ value WRITE setValue)
 
 public:
-    EqSlider( QWidget* parent = 0, Qt::WindowFlags f = 0 );
-    ~EqSlider();
+	EqSlider( QWidget* parent = 0, Qt::WindowFlags f = 0 );
+	~EqSlider();
 
 public slots:
 	void setIcon( QPixmap i);
