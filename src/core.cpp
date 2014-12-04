@@ -591,7 +591,10 @@ void Core::loadSub(const QString & sub ) {
 		just_loaded_external_subs = true;
 
 		QFileInfo fi(sub);
-		if ((pref->fast_load_sub) && (fi.suffix().toLower() != "idx") && (mset.external_subtitles_fps == MediaSettings::SFPS_None)) {
+		bool is_idx = (fi.suffix().toLower() == "idx");
+		if (proc->isMPV()) is_idx = false; // Hack to ignore the idx extension with mpv
+
+		if ((pref->fast_load_sub) && (!is_idx) && (mset.external_subtitles_fps == MediaSettings::SFPS_None)) {
 			QString sub_file = sub;
 			#ifdef Q_OS_WIN
 			if (pref->use_short_pathnames) {
@@ -1914,7 +1917,10 @@ void Core::startMplayer( QString file, double seek ) {
 		just_loaded_external_subs = true; // Big ugly hack :(
 	}
 	if (!mset.external_subtitles.isEmpty()) {
-		if (QFileInfo(mset.external_subtitles).suffix().toLower()=="idx") {
+		bool is_idx = (QFileInfo(mset.external_subtitles).suffix().toLower()=="idx");
+		if (proc->isMPV()) is_idx = false; // Hack to ignore the idx extension with mpv
+
+		if (is_idx) {
 			// sub/idx subtitles
 			QFileInfo fi;
 
@@ -1927,8 +1933,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 			QString s = fi.path() +"/"+ fi.completeBaseName();
 			qDebug("Core::startMplayer: subtitle file without extension: '%s'", s.toUtf8().data());
-			proc->addArgument("-vobsub");
-			proc->addArgument( s );
+			proc->setOption("vobsub", s);
 		} else {
 			#ifdef Q_OS_WIN
 			if (pref->use_short_pathnames)
@@ -4351,9 +4356,12 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 		qDebug("Core::initSubtitleTrack: just_loaded_external_subs: true");
 		restore_subs = false;
 		just_loaded_external_subs = false;
-		
+
 		QFileInfo fi(mset.external_subtitles);
-		if (fi.suffix().toLower() != "idx") {
+		bool is_idx = (fi.suffix().toLower() == "idx");
+		if (proc->isMPV()) is_idx = false; // Hack to ignore the idx extension with mpv
+
+		if (!is_idx) {
 			// The loaded subtitle file is the last one, so
 			// try to select that one.
 			if (mdat.subs.numItems() > 0) {

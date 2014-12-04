@@ -232,7 +232,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "dr" || option_name == "double" ||
 	    option_name == "adapter" || option_name == "edl" ||
 	    option_name == "slices" || option_name == "colorkey" ||
-	    option_name == "subcc")
+	    option_name == "subcc" || option_name == "vobsub")
 	{
 		// Ignore
 	}
