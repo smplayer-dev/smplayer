@@ -108,8 +108,10 @@
 
 #include "updatechecker.h"
 
-#ifdef YT_USE_SCRIPT
-#include "codedownloader.h"
+#ifdef YOUTUBE_SUPPORT
+  #ifdef YT_USE_SCRIPT
+  #include "codedownloader.h"
+  #endif
 #endif
 
 #ifdef REMINDER_ACTIONS
