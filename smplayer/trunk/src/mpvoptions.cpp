@@ -298,6 +298,11 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		if (value.toBool()) arg << "--ytdl";
 	}
 	else
+	if (option_name == "verbose") {
+		arg << "-v";
+		verbose = true;
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
@@ -338,6 +343,9 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 
 void MPVProcess::addUserOption(const QString & option) {
 	arg << option;
+	if (option == "-v") {
+		verbose = true;
+	}
 }
 
 void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
