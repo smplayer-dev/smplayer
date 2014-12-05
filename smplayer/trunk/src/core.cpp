@@ -2190,10 +2190,8 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Postprocessing
 	if (mset.postprocessing_filter) {
-		proc->addArgument("-vf-add");
-		proc->addArgument("pp");
-		proc->addArgument("-autoq");
-		proc->addArgument( QString::number(pref->autoq) );
+		proc->addVF("pp");
+		proc->setOption("autoq", QString::number(pref->autoq));
 	}
 
 
