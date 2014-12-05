@@ -94,6 +94,7 @@ public:
 	void setTSProgram(int ID);
 #endif
 	void toggleDeinterlace();
+	void askForLength();
 
 	QString mpvVersion() { return mpv_version; };
 

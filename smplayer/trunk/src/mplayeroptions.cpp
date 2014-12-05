@@ -334,3 +334,7 @@ void MplayerProcess::toggleDeinterlace() {
 	writeToStdin("step_property deinterlace");
 }
 
+void MplayerProcess::askForLength() {
+	writeToStdin(pausing_prefix + " get_property length");
+}
+

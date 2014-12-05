@@ -101,6 +101,7 @@ public:
 	virtual void setTSProgram(int ID) = 0;
 #endif
 	virtual void toggleDeinterlace() = 0;
+	virtual void askForLength() = 0;
 
 	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
 
