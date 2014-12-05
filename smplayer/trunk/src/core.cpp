@@ -2047,11 +2047,10 @@ void Core::startMplayer( QString file, double seek ) {
 
 	/*
 	if (mset.current_chapter_id > 0) {
-		proc->addArgument("-chapter");
 		int chapter = mset.current_chapter_id;
 		// Fix for older versions of mplayer:
 		if ((mdat.type == TYPE_DVD) && (firstChapter() == 0)) chapter++;
-		proc->addArgument( QString::number( chapter ) );
+		proc->setOption("chapter", QString::number(chapter));
 	}
 	*/
 
