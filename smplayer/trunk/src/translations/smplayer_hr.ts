@@ -332,7 +332,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>Koristi se Qt %1 (kompajlirano sa Qt %2)</translation>
+        <translation>Koristi se Qt %1 (kompajlirano s Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>

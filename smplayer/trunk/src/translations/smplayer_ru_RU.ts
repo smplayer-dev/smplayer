@@ -4510,7 +4510,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Previous file in playlist</source>
-        <translation>Предыдущий элемент списка</translation>
+        <translation>Предыдущий файл списка</translation>
     </message>
 </context>
 <context>
@@ -4586,7 +4586,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1301"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Введите имя, которое будет соответствовать в списке этому файлу:</translation>
+        <translation>Введите имя, которое будет отображаться для этого файла в списке:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="295"/>
@@ -8644,7 +8644,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="147"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>главное окно будет закрыто после окончания воспроизведения.</translation>
+        <translation>главное окно закроется по окончании файла/списка.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="511"/>
@@ -8675,7 +8675,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="150"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>Главное окно не будет закрыто, по окончании файла/списка.</translation>
+        <translation>главное окно не закроется по окончании файла/списка.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="153"/>
