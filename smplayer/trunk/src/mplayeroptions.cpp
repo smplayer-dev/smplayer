@@ -25,9 +25,7 @@ void MplayerProcess::setMedia(const QString & media, bool is_playlist) {
 }
 
 void MplayerProcess::setFixedOptions() {
-	addArgument("-noquiet");
-	addArgument("-slave");
-	addArgument("-identify");
+	arg << "-noquiet" << "-slave" << "-identify";
 }
 
 void MplayerProcess::disableInput() {
