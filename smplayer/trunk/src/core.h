@@ -345,9 +345,6 @@ public:
 #endif
 
 protected:
-	// Pass a command to mplayer by stdin:
-	 void tellmp(const QString & command);
-
 	//! Returns the prefix to keep pausing on slave commands
 	QString pausing_prefix();
 	void seek_cmd(double secs, int mode);
