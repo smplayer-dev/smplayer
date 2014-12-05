@@ -450,7 +450,7 @@ void PrefGeneral::updateDriverCombos() {
 }
 
 void PrefGeneral::setMplayerPath( QString path ) {
-	mplayerbin_edit->setText( path );	
+	mplayerbin_edit->setText( path );
 }
 
 QString PrefGeneral::mplayerPath() {
@@ -876,11 +876,9 @@ void PrefGeneral::createHelp() {
 
 	addSectionTitle(tr("General"));
 
-	setWhatsThis(mplayerbin_edit, tr("MPlayer executable"), 
-		tr("Here you must specify the mplayer "
-           "executable that SMPlayer will use.<br>"
-           "SMPlayer requires at least MPlayer 1.0rc1 (although a recent "
-           "revision from SVN is highly recommended).") + "<br><b>" +
+	setWhatsThis(mplayerbin_edit, tr("MPlayer/MPV executable"), 
+		tr("Here you must specify the MPlayer or mpv "
+           "executable that SMPlayer will use.") + "<br><b>" +
         tr("If this setting is wrong, SMPlayer won't be able to play "
            "anything!") + "</b>");
 
