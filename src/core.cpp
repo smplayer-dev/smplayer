@@ -404,17 +404,6 @@ void Core::updateWidgets() {
 }
 
 
-void Core::tellmp(const QString & command) {
-	qDebug("Core::tellmp: '%s'", command.toUtf8().data());
-
-    //qDebug("Command: '%s'", command.toUtf8().data());
-    if (proc->isRunning()) {
-		proc->writeToStdin( command );
-    } else {
-		qWarning(" tellmp: no process running: %s", command.toUtf8().data());
-    }
-}
-
 void Core::changeFullscreenMode(bool b) {
 	proc->setFullscreen(b);
 }
