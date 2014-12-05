@@ -1592,12 +1592,7 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("fs", true);
 	} else {
 		// No mplayer fullscreen mode
-		#if !USE_MPLAYER_PANSCAN
 		proc->setOption("fs", false);
-		#else
-		// The command 'panscan' requires -fs
-		proc->setOption("fs", true);
-		#endif
 	}
 
 #if !ALLOW_DEMUXER_CODEC_CHANGE
@@ -3949,27 +3944,6 @@ void Core::decZoom() {
 	qDebug("Core::decZoom");
 	changeZoom( mset.zoom_factor - ZOOM_STEP );
 }
-
-#if USE_MPLAYER_PANSCAN
-void Core::changePanscan(double p) {
-	 qDebug("Core::changePanscan: %f", p);
-
-	if (p < 0.1) p = 0;
-	if (p > 1) p = 1;
-
-	mset.panscan_factor = p;
-	tellmp(QString("panscan %1 1").arg(mset.panscan_factor));
-	displayMessage( QString("Panscan: %1").arg(mset.panscan_factor) );
-}
-
-void Core::incPanscan() {
-	changePanscan(mset.panscan_factor + .1);
-}
-
-void Core::decPanscan() {
-	changePanscan(mset.panscan_factor - .1);
-}
-#endif
 
 void Core::showFilenameOnOSD() {
 	proc->showFilenameOnOSD();
