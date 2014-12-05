@@ -1713,7 +1713,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	if (pref->vo.startsWith("x11")) {
-		proc->addArgument( "-zoom");
+		proc->setOption("zoom");
 	}
 #endif
 
