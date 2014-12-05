@@ -76,7 +76,8 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	else
 	if (option_name == "keepaspect" ||
 	    option_name == "dr" || option_name == "double" ||
-	    option_name == "fs" || option_name == "slices")
+	    option_name == "fs" || option_name == "slices" ||
+	    option_name == "flip-hebrew")
 	{
 		bool b = value.toBool();
 		if (b) arg << "-" + option_name; else arg << "-no" + option_name;
