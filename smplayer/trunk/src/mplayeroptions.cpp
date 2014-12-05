@@ -330,3 +330,7 @@ void MplayerProcess::setTSProgram(int ID) {
 }
 #endif
 
+void MplayerProcess::toggleDeinterlace() {
+	writeToStdin("step_property deinterlace");
+}
+

@@ -93,6 +93,7 @@ public:
 #if PROGRAM_SWITCH
 	void setTSProgram(int ID);
 #endif
+	void toggleDeinterlace();
 
 	QString mpvVersion() { return mpv_version; };
 
