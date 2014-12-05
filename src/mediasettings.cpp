@@ -96,10 +96,6 @@ void MediaSettings::reset() {
 
 	zoom_factor = pref->initial_zoom_factor; // 1.0;
 
-#if USE_MPLAYER_PANSCAN
-	panscan_factor = 0;
-#endif
-
 	starting_time = -1; // Not set yet.
 
 	rotate = NoRotate;
@@ -244,10 +240,6 @@ void MediaSettings::list() {
 
 	qDebug("  zoom_factor: %f", zoom_factor);
 
-#if USE_MPLAYER_PANSCAN
-	qDebug("  panscan_factor: %f", zoom_factor);
-#endif
-
 	qDebug("  rotate: %d", rotate);
 	qDebug("  flip: %d", flip);
 	qDebug("  mirror: %d", mirror);
@@ -371,10 +363,6 @@ void MediaSettings::save(QSettings * set, int player_id) {
 
 	set->setValue( "zoom_factor", zoom_factor);
 
-#if USE_MPLAYER_PANSCAN
-	set->setValue( "panscan_factor", zoom_factor);
-#endif
-
 	set->setValue( "rotate", rotate );
 	set->setValue( "flip", flip);
 	set->setValue( "mirror", mirror);
@@ -486,10 +474,6 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	stereo_mode = set->value( "stereo_mode", stereo_mode).toInt();
 
 	zoom_factor = set->value( "zoom_factor", zoom_factor).toDouble();
-
-#if USE_MPLAYER_PANSCAN
-	panscan_factor = set->value( "panscan_factor", panscan_factor).toDouble();
-#endif
 
 	rotate = set->value( "rotate", rotate).toInt();
 	flip = set->value( "flip", flip).toBool();
