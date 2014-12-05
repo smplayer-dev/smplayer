@@ -4412,8 +4412,11 @@ void Core::durationChanged(double length) {
 }
 
 void Core::askForInfo() {
-	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:")) && (proc->isMPlayer())) {
-		tellmp( pausing_prefix() + " get_property length");
+	if (proc->isMPlayer()) {
+		if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:"))) {
+			proc->setPausingPrefix(pausing_prefix());
+			proc->askForLength();
+		}
 	}
 }
 

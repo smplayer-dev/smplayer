@@ -659,3 +659,7 @@ void MPVProcess::setTSProgram(int ID) {
 void MPVProcess::toggleDeinterlace() {
 	writeToStdin("cycle deinterlace");
 }
+
+void MPVProcess::askForLength() {
+	writeToStdin("print_text \"INFO_LENGTH=${=length}\"");
+}
