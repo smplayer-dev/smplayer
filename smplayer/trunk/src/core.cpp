@@ -3364,28 +3364,17 @@ void Core::changeSubtitle(int ID) {
 	
 	qDebug("Core::changeSubtitle: ID: %d", ID);
 
-	bool use_new_commands = (pref->use_new_sub_commands == Preferences::Enabled);
-	if (pref->use_new_sub_commands == Preferences::Detect) {
-		use_new_commands = (MplayerVersion::isMplayerAtLeast(25158));
-	}
-
-	if (!use_new_commands) {
-		// Old command sub_select
-		tellmp( "sub_select " + QString::number(ID) );
+	int real_id = -1;
+	if (ID == -1) {
+		proc->disableSubtitles();
 	} else {
-		// New commands
-		int real_id = -1;
-		if (ID == -1) {
-			proc->disableSubtitles();
+		bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
+		if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
+		if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
+			real_id = mdat.subs.itemAt(ID).ID();
+			proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id);
 		} else {
-			bool valid_item = ( (ID >= 0) && (ID < mdat.subs.numItems()) );
-			if (!valid_item) qWarning("Core::changeSubtitle: ID: %d is not valid!", ID);
-			if ( (mdat.subs.numItems() > 0) && (valid_item) ) {
-				real_id = mdat.subs.itemAt(ID).ID();
-				proc->setSubtitle(mdat.subs.itemAt(ID).type(), real_id);
-			} else {
-				qWarning("Core::changeSubtitle: subtitle list is empty!");
-			}
+			qWarning("Core::changeSubtitle: subtitle list is empty!");
 		}
 	}
 
