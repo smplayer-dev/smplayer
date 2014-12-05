@@ -426,12 +426,12 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
         tr("Select the aspect ratio of your monitor.") );
 
-	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer in its own window"),
-        tr("If you check this option, the MPlayer video window won't be "
+	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer/MPV in its own window"),
+        tr("If you check this option, the MPlayer/MPV video window won't be "
            "embedded in SMPlayer's main window but instead it will use its "
            "own window. Note that mouse and keyboard events will be handled "
-           "directly by MPlayer, that means key shortcuts and mouse clicks "
-           "probably won't work as expected when the MPlayer window has the "
+           "directly by MPlayer/MPV, that means key shortcuts and mouse clicks "
+           "probably won't work as expected when the MPlayer/MPV window has the "
            "focus.") );
 
 	setWhatsThis(idx_check, tr("Rebuild index if needed"),
@@ -442,9 +442,7 @@ void PrefAdvanced::createHelp() {
            "<b>Note:</b> the creation of the index may take some time.") );
 
 	setWhatsThis(lavf_demuxer_check, tr("Use the lavf demuxer by default"),
-		tr("If this option is checked, the lavf demuxer will be used for all formats.") +" "+
-		tr("Notice: mplayer2 already uses the lavf demuxer by default so "
-		   "enabling this option with mplayer2 won't have any effect."));
+		tr("If this option is checked, the lavf demuxer will be used for all formats."));
 
 #ifdef Q_OS_WIN
 	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),
@@ -462,13 +460,13 @@ void PrefAdvanced::createHelp() {
 #endif
 
 	setWhatsThis(mplayer_crashes_check, 
-		tr("Report MPlayer crashes"),
+		tr("Report MPlayer/MPV crashes"),
 		tr("If this option is checked, a window will appear to inform "
-           "about MPlayer crashes. Otherwise those failures will be "
+           "about MPlayer/MPV crashes. Otherwise those failures will be "
            "silently ignored.") );
 
 	setWhatsThis(correct_pts_combo, tr("Correct pts"),
-		tr("Switches MPlayer to an experimental mode where timestamps for "
+		tr("Switches MPlayer/MPV to an experimental mode where timestamps for "
            "video frames are calculated differently and video filters which "
            "add new frames or modify timestamps of existing ones are "
            "supported. The more accurate timestamps can be visible for "
@@ -501,18 +499,18 @@ void PrefAdvanced::createHelp() {
 		   "shown in window title. "
            "Otherwise only the filename will be shown.") );
 
-	addSectionTitle(tr("Options for MPlayer"));
+	addSectionTitle(tr("Options for MPlayer/MPV"));
 
 	setWhatsThis(mplayer_args_edit, tr("Options"),
-        tr("Here you can type options for MPlayer. Write them separated "
+        tr("Here you can type options for MPlayer or MPV. Write them separated "
            "by spaces.") );
 
 	setWhatsThis(mplayer_vfilters_edit, tr("Video filters"),
-        tr("Here you can add video filters for MPlayer. Write them separated "
+        tr("Here you can add video filters for MPlayer/MPV. Write them separated "
            "by commas. Don't use spaces!") );
 
 	setWhatsThis(mplayer_afilters_edit, tr("Audio filters"),
-        tr("Here you can add audio filters for MPlayer. Write them separated "
+        tr("Here you can add audio filters for MPlayer/MPV. Write them separated "
            "by commas. Don't use spaces!") );
 
 	addSectionTitle(tr("Network"));
@@ -539,21 +537,21 @@ void PrefAdvanced::createHelp() {
 #endif
 
 #ifdef LOG_MPLAYER
-	setWhatsThis(log_mplayer_check, tr("Log MPlayer output"),
-		tr("If checked, SMPlayer will store the output of MPlayer "
-           "(you can see it in <b>Options -> View logs -> MPlayer</b>). "
+	setWhatsThis(log_mplayer_check, tr("Log MPlayer/MPV output"),
+		tr("If checked, SMPlayer will store the output of MPlayer/MPV "
+           "(you can see it in <b>Options -> View logs -> MPlayer/MPV</b>). "
            "In case of problems this log can contain important information, "
            "so it's recommended to keep this option checked.") );
 
-	setWhatsThis(log_mplayer_save_check, tr("Autosave MPlayer log"),
-		tr("If this option is checked, the MPlayer log will be saved to the "
+	setWhatsThis(log_mplayer_save_check, tr("Autosave MPlayer/MPV log"),
+		tr("If this option is checked, the MPlayer/MPV log will be saved to the "
            "specified file every time a new file starts to play. "
            "It's intended for external applications, so they can get "
            "info about the file you're playing.") );
 
-	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer log filename"),
+	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer/MPV log filename"),
  		tr("Enter here the path and filename that will be used to save the "
-           "MPlayer log.") );
+           "MPlayer/MPV log.") );
 #endif
 
 #ifdef LOG_SMPLAYER

@@ -1692,7 +1692,7 @@ void BaseGui::retranslateStrings() {
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
-	showLogMplayerAct->change( "MPlayer" );
+	showLogMplayerAct->change( "MPlayer/MPV" );
 #endif
 #ifdef LOG_SMPLAYER
 	showLogSmplayerAct->change( "SMPlayer" );
