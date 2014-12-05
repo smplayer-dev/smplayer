@@ -246,7 +246,6 @@ void Preferences::reset() {
 
 	subtitles_on_screenshots = false;
 
-	use_new_sub_commands = Detect;
 	change_sub_scale_should_restart = Detect;
 
 	fast_load_sub = true;
@@ -735,7 +734,6 @@ void Preferences::save() {
 
 	set->setValue("subtitles_on_screenshots", subtitles_on_screenshots);
 
-	set->setValue("use_new_sub_commands", use_new_sub_commands);
 	set->setValue("change_sub_scale_should_restart", change_sub_scale_should_restart);
 
 	set->setValue("fast_load_sub", fast_load_sub);
@@ -1248,7 +1246,6 @@ void Preferences::load() {
 
 	subtitles_on_screenshots = set->value("subtitles_on_screenshots", subtitles_on_screenshots).toBool();
 
-	use_new_sub_commands = (OptionState) set->value("use_new_sub_commands", use_new_sub_commands).toInt();
 	change_sub_scale_should_restart = (OptionState) set->value("change_sub_scale_should_restart", change_sub_scale_should_restart).toInt();
 
 	fast_load_sub = set->value("fast_load_sub", fast_load_sub).toBool();

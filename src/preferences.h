@@ -230,9 +230,6 @@ public:
 
 	bool subtitles_on_screenshots;
 
-	//! Use the new sub_vob, sub_demux and sub_file commands
-	//! instead of sub_select
-	OptionState use_new_sub_commands; 
 	OptionState change_sub_scale_should_restart;
 
 	//! If true, loading an external subtitle will be done
