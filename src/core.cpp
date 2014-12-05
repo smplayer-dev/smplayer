@@ -3977,8 +3977,7 @@ void Core::showFilenameOnOSD() {
 
 void Core::toggleDeinterlace() {
 	qDebug("Core::toggleDeinterlace");
-
-	tellmp("step_property deinterlace");
+	proc->toggleDeinterlace();
 }
 
 void Core::changeUseCustomSubStyle(bool b) {

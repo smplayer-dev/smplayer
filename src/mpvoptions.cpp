@@ -655,3 +655,7 @@ void MPVProcess::setTSProgram(int ID) {
 	qDebug("MPVProcess::setTSProgram: function not supported");
 }
 #endif
+
+void MPVProcess::toggleDeinterlace() {
+	writeToStdin("cycle deinterlace");
+}
