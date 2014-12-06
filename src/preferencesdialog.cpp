@@ -65,6 +65,7 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	//help_window->adjustSize();
 	help_window->setWindowTitle( tr("SMPlayer - Help") );
 	help_window->setWindowIcon( Images::icon("logo") );
+	help_window->setOpenExternalLinks(true);
 
 	page_general = new PrefGeneral;
 	addSection( page_general );
