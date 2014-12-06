@@ -911,7 +911,13 @@ void PrefGeneral::createHelp() {
            "screenshot feature will be disabled.") );
 
 	setWhatsThis(screenshot_template_edit, tr("Template for screenshots"),
-		"TO DO: explain this option (works only with mpv)" );
+		tr("This option specifies the filename template used to save screenshots.") + " " +
+		tr("For example %F_%04n would save the screenshot as 'moviename_0001.png'.") + "<br>" +
+		tr("%F specifies the filename without the extension, %04n adds a 4 digit number padded with zeros.") + " " +
+		tr("For a full list of the template specifiers visit this link:") + 
+		" <a href=\"http://mpv.io/manual/stable/#options-screenshot-template\">"
+		"http://mpv.io/manual/stable/#options-screenshot-template</a>" + "<br>" +
+		tr("This option only works with mpv.") );
 
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
 		tr("If this option is enabled, the file will be paused when the "
