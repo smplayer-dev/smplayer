@@ -472,150 +472,150 @@ Có nên ghi đè lên không?</translation>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="179"/>
+        <location filename="../audioequalizer.cpp" line="181"/>
         <source>Audio Equalizer</source>
         <translation>Audio Equalizer</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="182"/>
-        <location filename="../audioequalizer.cpp" line="183"/>
         <location filename="../audioequalizer.cpp" line="184"/>
         <location filename="../audioequalizer.cpp" line="185"/>
         <location filename="../audioequalizer.cpp" line="186"/>
+        <location filename="../audioequalizer.cpp" line="187"/>
+        <location filename="../audioequalizer.cpp" line="188"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="187"/>
-        <location filename="../audioequalizer.cpp" line="188"/>
         <location filename="../audioequalizer.cpp" line="189"/>
         <location filename="../audioequalizer.cpp" line="190"/>
         <location filename="../audioequalizer.cpp" line="191"/>
+        <location filename="../audioequalizer.cpp" line="192"/>
+        <location filename="../audioequalizer.cpp" line="193"/>
         <source>%1 kHz</source>
         <translation>%1 KHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="193"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Preset</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="194"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <source>&amp;Apply</source>
         <translation>&amp;Áp dụng</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="195"/>
+        <location filename="../audioequalizer.cpp" line="197"/>
         <source>&amp;Reset</source>
         <translation>Đặt &amp;lại</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="196"/>
+        <location filename="../audioequalizer.cpp" line="198"/>
         <source>&amp;Set as default values</source>
         <translation>Đặt làm giá trị &amp;mặc định</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="201"/>
+        <location filename="../audioequalizer.cpp" line="203"/>
         <source>Flat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="202"/>
+        <location filename="../audioequalizer.cpp" line="204"/>
         <source>Classical</source>
         <translation>Nhạc cổ điển</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="203"/>
+        <location filename="../audioequalizer.cpp" line="205"/>
         <source>Club</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="204"/>
+        <location filename="../audioequalizer.cpp" line="206"/>
         <source>Dance</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="205"/>
+        <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full bass</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="206"/>
+        <location filename="../audioequalizer.cpp" line="208"/>
         <source>Full bass and treble</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="207"/>
+        <location filename="../audioequalizer.cpp" line="209"/>
         <source>Full treble</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="208"/>
+        <location filename="../audioequalizer.cpp" line="210"/>
         <source>Headphones</source>
         <translation>Tai nghe</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="209"/>
+        <location filename="../audioequalizer.cpp" line="211"/>
         <source>Large hall</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="210"/>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Live</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="211"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
         <source>Party</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="212"/>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Pop</source>
         <translation>Nhạc Pop</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="213"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
         <source>Reggae</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="214"/>
+        <location filename="../audioequalizer.cpp" line="216"/>
         <source>Rock</source>
         <translation>Nhạc Rock</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="215"/>
+        <location filename="../audioequalizer.cpp" line="217"/>
         <source>Ska</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="216"/>
+        <location filename="../audioequalizer.cpp" line="218"/>
         <source>Soft</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="217"/>
+        <location filename="../audioequalizer.cpp" line="219"/>
         <source>Soft rock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="218"/>
+        <location filename="../audioequalizer.cpp" line="220"/>
         <source>Techno</source>
         <translation>Nhạc điện tử</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="219"/>
+        <location filename="../audioequalizer.cpp" line="221"/>
         <source>Custom</source>
         <translation>Tùy chỉnh</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="224"/>
+        <location filename="../audioequalizer.cpp" line="226"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Dùng giá trị hiện giờ làm giá trị mặc định cho các video mới.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="226"/>
+        <location filename="../audioequalizer.cpp" line="228"/>
         <source>Set all controls to zero.</source>
         <translation>Đặt mọi điều khiển về không.</translation>
     </message>
@@ -633,1430 +633,1430 @@ Có nên ghi đè lên không?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>&amp;Open</source>
         <translation>&amp;Mở</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Play</source>
         <translation>&amp;Chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>&amp;Video</source>
         <translation>&amp;Hình Ảnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>&amp;Audio</source>
         <translation>Âm th&amp;anh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>&amp;Browse</source>
         <translation>&amp;Duyệt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1794"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>Op&amp;tions</source>
         <translation>Chọn &amp;lựa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1784"/>
         <source>&amp;Help</source>
         <translation>&amp;Trợ giúp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1533"/>
+        <location filename="../basegui.cpp" line="1527"/>
         <source>&amp;File...</source>
         <translation>&amp;Tập tin...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1534"/>
+        <location filename="../basegui.cpp" line="1528"/>
         <source>D&amp;irectory...</source>
         <translation>Thư &amp;mục...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1529"/>
         <source>&amp;Playlist...</source>
         <translation>Danh &amp;sách chơi...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1532"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD từ ổ đĩa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1539"/>
+        <location filename="../basegui.cpp" line="1533"/>
         <source>D&amp;VD from folder...</source>
         <translation>&amp;DVD từ thư mục...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1544"/>
+        <location filename="../basegui.cpp" line="1538"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>&amp;Clear</source>
         <translation>&amp;Xóa sạch</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1809"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Recent files</source>
         <translation>Các tập tin đã &amp;mở</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1568"/>
+        <location filename="../basegui.cpp" line="1562"/>
         <source>P&amp;lay</source>
         <translation>C&amp;hơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1571"/>
+        <location filename="../basegui.cpp" line="1565"/>
         <source>&amp;Pause</source>
         <translation>Tạ&amp;m dừng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1566"/>
         <source>&amp;Stop</source>
         <translation>&amp;Ngừng chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1567"/>
         <source>&amp;Frame step</source>
         <translation>Nhảy &amp;frame</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1592"/>
+        <location filename="../basegui.cpp" line="1586"/>
         <source>&amp;Normal speed</source>
         <translation>Tốc độc &amp;bình thường</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1594"/>
+        <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;Double speed</source>
         <translation>Tốc độ &amp;gấp đôi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1595"/>
+        <location filename="../basegui.cpp" line="1589"/>
         <source>Speed &amp;-10%</source>
         <translation>Tốc độ &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1596"/>
+        <location filename="../basegui.cpp" line="1590"/>
         <source>Speed &amp;+10%</source>
         <translation>Tốc độ &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1682"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;Tắt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>Sp&amp;eed</source>
         <translation>&amp;Tốc độ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1587"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Lặp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1603"/>
+        <location filename="../basegui.cpp" line="1597"/>
         <source>&amp;Fullscreen</source>
         <translation>Toàn màn hình(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1604"/>
+        <location filename="../basegui.cpp" line="1598"/>
         <source>&amp;Compact mode</source>
         <translation>&amp;Chế độ gọn</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1837"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>Si&amp;ze</source>
         <translation>&amp;Kích cỡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1847"/>
+        <location filename="../basegui.cpp" line="1836"/>
         <source>&amp;Aspect ratio</source>
         <translation>Tỷ lệ &amp;aspect</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1886"/>
-        <location filename="../basegui.cpp" line="3264"/>
-        <location filename="../basegui.cpp" line="3277"/>
+        <location filename="../basegui.cpp" line="1875"/>
+        <location filename="../basegui.cpp" line="3256"/>
+        <location filename="../basegui.cpp" line="3269"/>
         <source>&amp;None</source>
         <translation>&amp;Không</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1887"/>
+        <location filename="../basegui.cpp" line="1876"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1890"/>
+        <location filename="../basegui.cpp" line="1879"/>
         <source>Linear &amp;Blend</source>
         <translation>Linear &amp;Blend</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1850"/>
+        <location filename="../basegui.cpp" line="1839"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Deinterlace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1620"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprocessing</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1632"/>
+        <location filename="../basegui.cpp" line="1621"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;Tự động dò pha</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1633"/>
+        <location filename="../basegui.cpp" line="1622"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1623"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1636"/>
+        <location filename="../basegui.cpp" line="1625"/>
         <source>Add n&amp;oise</source>
         <translation>Thêm &amp;nhiễu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1853"/>
+        <location filename="../basegui.cpp" line="1842"/>
         <source>F&amp;ilters</source>
         <translation>Các bộ &amp;lọc</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1605"/>
+        <location filename="../basegui.cpp" line="1599"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;Equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1606"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;Chụp màn hình</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>S&amp;tay on top</source>
         <translation>Luôn ở &amp;trên cùng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1654"/>
+        <location filename="../basegui.cpp" line="1643"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Extrastereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1655"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1920"/>
+        <location filename="../basegui.cpp" line="1909"/>
         <source>&amp;Filters</source>
         <translation>Các bộ &amp;lọc</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1930"/>
-        <location filename="../basegui.cpp" line="1936"/>
+        <location filename="../basegui.cpp" line="1919"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1931"/>
+        <location filename="../basegui.cpp" line="1920"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 Surround</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1923"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>&amp;Channels</source>
         <translation>&amp;Các kênh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1926"/>
         <source>&amp;Left channel</source>
         <translation>Kênh &amp;trái</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1927"/>
         <source>&amp;Right channel</source>
         <translation>Kênh &amp;phải</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1926"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>&amp;Stereo mode</source>
         <translation>Chế độ &amp;Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1633"/>
         <source>&amp;Mute</source>
         <translation>&amp;Câm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>Volume &amp;-</source>
         <translation>Âm lượng &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>Volume &amp;+</source>
         <translation>Âm lượng &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>&amp;Delay -</source>
         <translation>&amp;Trễ -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1648"/>
+        <location filename="../basegui.cpp" line="1637"/>
         <source>D&amp;elay +</source>
         <translation>T&amp;rễ +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1943"/>
+        <location filename="../basegui.cpp" line="1932"/>
         <source>&amp;Select</source>
         <translation>Lựa &amp;chọn</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1659"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>&amp;Load...</source>
         <translation>&amp;Nạp...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>Delay &amp;-</source>
         <translation>Trễ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1662"/>
+        <location filename="../basegui.cpp" line="1651"/>
         <source>Delay &amp;+</source>
         <translation>Trễ &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1664"/>
+        <location filename="../basegui.cpp" line="1653"/>
         <source>&amp;Up</source>
         <translation>&amp;Lên</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1654"/>
         <source>&amp;Down</source>
         <translation>&amp;Xuống</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1956"/>
+        <location filename="../basegui.cpp" line="1945"/>
         <source>&amp;Title</source>
         <translation>&amp;Tựa đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1959"/>
+        <location filename="../basegui.cpp" line="1948"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Chương</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1962"/>
+        <location filename="../basegui.cpp" line="1951"/>
         <source>&amp;Angle</source>
         <translation>&amp;Góc nhìn</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1697"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Danh sách chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1884"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>&amp;Disabled</source>
         <translation>Đã &amp;bị tắt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1983"/>
+        <location filename="../basegui.cpp" line="1972"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1992"/>
+        <location filename="../basegui.cpp" line="1981"/>
         <source>&amp;View logs</source>
         <translation>&amp;Xem logs</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>P&amp;references</source>
         <translation>Tùy &amp;biến</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>About &amp;SMPlayer</source>
         <translation>Chuyển ngữ bởi Phan Anh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3299"/>
-        <location filename="../basegui.cpp" line="3315"/>
-        <location filename="../basegui.cpp" line="3331"/>
-        <location filename="../basegui.cpp" line="3346"/>
-        <location filename="../basegui.cpp" line="3380"/>
-        <location filename="../basegui.cpp" line="3400"/>
-        <location filename="../basegui.cpp" line="3444"/>
+        <location filename="../basegui.cpp" line="3291"/>
+        <location filename="../basegui.cpp" line="3307"/>
+        <location filename="../basegui.cpp" line="3323"/>
+        <location filename="../basegui.cpp" line="3338"/>
+        <location filename="../basegui.cpp" line="3372"/>
+        <location filename="../basegui.cpp" line="3392"/>
+        <location filename="../basegui.cpp" line="3436"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;không có dữ liệu&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3861"/>
+        <location filename="../basegui.cpp" line="3853"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3862"/>
-        <location filename="../basegui.cpp" line="4095"/>
+        <location filename="../basegui.cpp" line="3854"/>
+        <location filename="../basegui.cpp" line="4087"/>
         <source>Audio</source>
         <translation>Âm thanh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3863"/>
+        <location filename="../basegui.cpp" line="3855"/>
         <source>Playlists</source>
         <translation>Các danh sách chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3864"/>
-        <location filename="../basegui.cpp" line="4075"/>
-        <location filename="../basegui.cpp" line="4096"/>
+        <location filename="../basegui.cpp" line="3856"/>
+        <location filename="../basegui.cpp" line="4067"/>
+        <location filename="../basegui.cpp" line="4088"/>
         <source>All files</source>
         <translation>Mọi tập tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3859"/>
-        <location filename="../basegui.cpp" line="4072"/>
-        <location filename="../basegui.cpp" line="4093"/>
+        <location filename="../basegui.cpp" line="3851"/>
+        <location filename="../basegui.cpp" line="4064"/>
+        <location filename="../basegui.cpp" line="4085"/>
         <source>Choose a file</source>
         <translation>Chọn một tập tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>&amp;YouTube%1 browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1713"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3911"/>
+        <location filename="../basegui.cpp" line="3903"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - thông tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3912"/>
+        <location filename="../basegui.cpp" line="3904"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Ổ đĩa CDROM/DVD vẫn chưa được cấu hình.
 Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực hiện.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4025"/>
+        <location filename="../basegui.cpp" line="4017"/>
         <source>Select the Blu-ray folder</source>
         <translation>Chọn thư mục Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4038"/>
+        <location filename="../basegui.cpp" line="4030"/>
         <source>Choose a directory</source>
         <translation>Chọn một thư mục</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4074"/>
+        <location filename="../basegui.cpp" line="4066"/>
         <source>Subtitles</source>
         <translation>Các phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4500"/>
         <source>New version available</source>
         <translation>Phiên bản mới sẵn sàng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4509"/>
+        <location filename="../basegui.cpp" line="4501"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Phiên bản mới hơn của SMPlayer đã có</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4510"/>
+        <location filename="../basegui.cpp" line="4502"/>
         <source>Installed version: %1</source>
         <translation>Phiên bản đã cài đặt: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4511"/>
+        <location filename="../basegui.cpp" line="4503"/>
         <source>Available version: %1</source>
         <translation>Phiên bản sẵn có: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4512"/>
+        <location filename="../basegui.cpp" line="4504"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Bạn có muốn biết nhiều hơn về phiên bản mới?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4649"/>
+        <location filename="../basegui.cpp" line="4641"/>
         <source>Error detected</source>
         <translation>Lỗi được tìm thấy</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4650"/>
+        <location filename="../basegui.cpp" line="4642"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Không may là video này không thể phát được.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4838"/>
+        <location filename="../basegui.cpp" line="4830"/>
         <source>Playing %1</source>
         <translation>Đang chơi %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4839"/>
+        <location filename="../basegui.cpp" line="4831"/>
         <source>Pause</source>
         <translation>Tạm dừng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4840"/>
+        <location filename="../basegui.cpp" line="4832"/>
         <source>Stop</source>
         <translation>Ngừng chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1570"/>
         <source>Play / Pause</source>
         <translation>Chơi / Dừng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1579"/>
+        <location filename="../basegui.cpp" line="1573"/>
         <source>Pause / Frame step</source>
         <translation>Dừng / Nhảy frame</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1651"/>
-        <location filename="../basegui.cpp" line="1660"/>
+        <location filename="../basegui.cpp" line="1640"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>U&amp;nload</source>
         <translation>&amp;Bỏ đi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1530"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1545"/>
+        <location filename="../basegui.cpp" line="1539"/>
         <source>C&amp;lose</source>
         <translation>Đó&amp;ng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>View &amp;info and properties...</source>
         <translation>Xem thông t&amp;in và các thuộc tính...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1614"/>
+        <location filename="../basegui.cpp" line="1608"/>
         <source>Zoom &amp;-</source>
         <translation>Thu nhỏ &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1615"/>
+        <location filename="../basegui.cpp" line="1609"/>
         <source>Zoom &amp;+</source>
         <translation>Phóng to &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1616"/>
+        <location filename="../basegui.cpp" line="1610"/>
         <source>&amp;Reset</source>
         <translation>Đặt &amp;lại</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1620"/>
+        <location filename="../basegui.cpp" line="1614"/>
         <source>Move &amp;left</source>
         <translation>Chuyển sang &amp;trái</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1621"/>
+        <location filename="../basegui.cpp" line="1615"/>
         <source>Move &amp;right</source>
         <translation>Chuyển sang &amp;phải</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1622"/>
+        <location filename="../basegui.cpp" line="1616"/>
         <source>Move &amp;up</source>
         <translation>Chuyển &amp;lên</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1623"/>
+        <location filename="../basegui.cpp" line="1617"/>
         <source>Move &amp;down</source>
         <translation>Chuyển &amp;xuống</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1658"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>Dòng &amp;trước trong các phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>Dòng &amp;sau trong các phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2017"/>
-        <location filename="../basegui.cpp" line="2018"/>
-        <location filename="../basegui.cpp" line="2019"/>
+        <location filename="../basegui.cpp" line="2006"/>
+        <location filename="../basegui.cpp" line="2007"/>
+        <location filename="../basegui.cpp" line="2008"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2021"/>
-        <location filename="../basegui.cpp" line="2022"/>
-        <location filename="../basegui.cpp" line="2023"/>
+        <location filename="../basegui.cpp" line="2010"/>
+        <location filename="../basegui.cpp" line="2011"/>
+        <location filename="../basegui.cpp" line="2012"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1747"/>
+        <location filename="../basegui.cpp" line="1736"/>
         <source>Dec volume (2)</source>
         <translation>Giảm âm lượng (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1535"/>
         <source>&amp;Blu-ray from drive</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1542"/>
+        <location filename="../basegui.cpp" line="1536"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1568"/>
         <source>Fra&amp;me back step</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1593"/>
+        <location filename="../basegui.cpp" line="1587"/>
         <source>&amp;Half speed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1609"/>
+        <location filename="../basegui.cpp" line="1603"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1635"/>
+        <location filename="../basegui.cpp" line="1624"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Tách nhóm (&amp;gradun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1661"/>
         <source>Use custo&amp;m style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1677"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation type="unfinished">&amp;Mặc định</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1702"/>
         <source>First Steps &amp;Guide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1708"/>
         <source>Update &amp;Youtube code</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;Mở thư mục cấu hình</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>Inc volume (2)</source>
         <translation>Tăng âm lượng (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1751"/>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>Exit fullscreen</source>
         <translation>Toàn màn hình</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1753"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>OSD - Next level</source>
         <translation>OSD - Chế độ tiếp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1743"/>
         <source>Dec contrast</source>
         <translation>Giảm tương phản</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1744"/>
         <source>Inc contrast</source>
         <translation>Tăng tương phản</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>Dec brightness</source>
         <translation>Giảm độ sáng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1757"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>Inc brightness</source>
         <translation>Tăng độ sáng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1747"/>
         <source>Dec hue</source>
         <translation>Giảm màu s</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>Inc hue</source>
         <translation>Tăng màu sắc</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>Dec saturation</source>
         <translation>Giảm bão hòa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>Dec gamma</source>
         <translation>Giảm gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>Next audio</source>
         <translation>Âm thanh kế</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>Next subtitle</source>
         <translation>Phụ đề kế</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1756"/>
         <source>Next chapter</source>
         <translation>Chương kế</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1757"/>
         <source>Previous chapter</source>
         <translation>Chương trước</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1856"/>
         <source>De&amp;noise</source>
         <translation>De&amp;noise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1859"/>
         <source>Blur/S&amp;harp</source>
         <translation>Blur/S&amp;harp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;Tắt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1883"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;Bình thường</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1895"/>
+        <location filename="../basegui.cpp" line="1884"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;Dịu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1897"/>
+        <location filename="../basegui.cpp" line="1886"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Không</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1887"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Mờ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1899"/>
+        <location filename="../basegui.cpp" line="1888"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Sắc nét</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1933"/>
+        <location filename="../basegui.cpp" line="1922"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 Vòm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1934"/>
+        <location filename="../basegui.cpp" line="1923"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 Vòm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1928"/>
         <source>&amp;Mono</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1929"/>
         <source>Re&amp;verse</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1946"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>Secondary trac&amp;k</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1952"/>
+        <location filename="../basegui.cpp" line="1941"/>
         <source>F&amp;rames per second</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2001"/>
+        <location filename="../basegui.cpp" line="1990"/>
         <source>SMPlayer - MPlayer log</source>
         <translation>SMPlayer - nhật ký MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2004"/>
+        <location filename="../basegui.cpp" line="1993"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - nhật ký SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4590"/>
+        <location filename="../basegui.cpp" line="4582"/>
         <source>Connection failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4591"/>
+        <location filename="../basegui.cpp" line="4583"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4592"/>
+        <location filename="../basegui.cpp" line="4584"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4593"/>
+        <location filename="../basegui.cpp" line="4585"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4594"/>
+        <location filename="../basegui.cpp" line="4586"/>
         <source>this link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4604"/>
+        <location filename="../basegui.cpp" line="4596"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Do có sự thay đổi từ Youtube, nên video &apos;%1&apos; không thể được phát hoặc ghi lại.</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4603"/>
         <location filename="../basegui.cpp" line="4611"/>
-        <location filename="../basegui.cpp" line="4619"/>
         <source>Problems with Youtube</source>
         <translation>Xảy ra lỗi với Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4607"/>
+        <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Do có sự thay đổi từ Youtube, nên video &apos;%1&apos; không thể được phát hoặc ghi lại.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4613"/>
+        <location filename="../basegui.cpp" line="4605"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4621"/>
+        <location filename="../basegui.cpp" line="4613"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Có thể cập nhật SMPlayer sẽ xử lý được vấn đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5394"/>
+        <location filename="../basegui.cpp" line="5386"/>
         <source>The YouTube Browser couldn&apos;t be launched.</source>
         <translation>Trình duyện YouTube không thể mở</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5395"/>
+        <location filename="../basegui.cpp" line="5387"/>
         <source>Be sure %1 is installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1987"/>
+        <location filename="../basegui.cpp" line="1976"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2989"/>
-        <location filename="../basegui.cpp" line="3674"/>
+        <location filename="../basegui.cpp" line="2981"/>
+        <location filename="../basegui.cpp" line="3666"/>
         <source>Information</source>
         <translation>Thông tin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2990"/>
+        <location filename="../basegui.cpp" line="2982"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Bạn cần khởi động lại SMPlayer để sử dụng GUI mới.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3452"/>
+        <location filename="../basegui.cpp" line="3444"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Xác nhận thao tác xóa - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3453"/>
+        <location filename="../basegui.cpp" line="3445"/>
         <source>Delete the list of recent files?</source>
         <translation>Xóa danh sách các tập tin gần đây?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3675"/>
+        <location filename="../basegui.cpp" line="3667"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Dùng giá trị hiện giờ đã được dùng làm giá trị mặc định.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1750"/>
         <source>Inc saturation</source>
         <translation>Tăng bão hòa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1752"/>
         <source>Inc gamma</source>
         <translation>Tăng gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1650"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;Nạp tập tin bên ngoài...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1877"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (bình thường)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1889"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (tốc độ hình gấp đôi)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1737"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>&amp;Next</source>
         <translation>&amp;Tiếp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1738"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Pre&amp;vious</source>
         <translation>T&amp;rước</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1656"/>
+        <location filename="../basegui.cpp" line="1645"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;Chuẩn hóa âm lượng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1531"/>
         <source>&amp;Audio CD</source>
         <translation>Đĩa CD &amp;tiếng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1758"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;Bật cỡ gấp đôi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1655"/>
         <source>S&amp;ize -</source>
         <translation>&amp;Cỡ-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1667"/>
+        <location filename="../basegui.cpp" line="1656"/>
         <source>Si&amp;ze +</source>
         <translation>&amp;Cỡ+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1626"/>
         <source>Add &amp;black borders</source>
         <translation>Thêm khung đ&amp;en</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1627"/>
         <source>Soft&amp;ware scaling</source>
         <translation>Phóng đại bằng phần mề&amp;m</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1703"/>
         <source>&amp;FAQ</source>
         <translation>&amp;FAQ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;Command line options</source>
         <translation>Các lựa &amp;chọn ở câu lệnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4115"/>
+        <location filename="../basegui.cpp" line="4107"/>
         <source>SMPlayer command line options</source>
         <translation>Các lựa chọn ở câu lệnh của SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1662"/>
         <source>&amp;Forced subtitles only</source>
         <translation>&amp;Chỉ dùng phụ đề bắt buộc</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1770"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>Reset video equalizer</source>
         <translation>Đặt lại bộ cân bằng video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4651"/>
+        <location filename="../basegui.cpp" line="4643"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Máy chủ đáp lại &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5293"/>
+        <location filename="../basegui.cpp" line="5285"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer thoát ra bất ngờ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5294"/>
+        <location filename="../basegui.cpp" line="5286"/>
         <source>Exit code: %1</source>
         <translation>Mã thoát: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5313"/>
+        <location filename="../basegui.cpp" line="5305"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer không chạy.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5314"/>
+        <location filename="../basegui.cpp" line="5306"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Xin hãy kiểm tra đường dẫn tới MPlayer ở trong tùy biến.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5316"/>
+        <location filename="../basegui.cpp" line="5308"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer vừa bị lỗi.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5317"/>
+        <location filename="../basegui.cpp" line="5309"/>
         <source>See the log for more info.</source>
         <translation>Xem trong nhật ký để biết thêm thông tin.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1845"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Xoay</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1890"/>
         <source>&amp;Off</source>
         <translation>&amp;Tắt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1891"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Xoay 90 độ theo chiều kim đồng hồ và lật</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1903"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>Xoay 90 độ &amp;theo chiều kim đồng hồ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1893"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Xoay 90 độ theo &amp;ngược chiều kim đồng hồ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
+        <location filename="../basegui.cpp" line="1894"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Xoay 90 độ ngược chiều kim đồng hồ và &amp;lật</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1589"/>
+        <location filename="../basegui.cpp" line="1583"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;Nhảy tới...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>Show context menu</source>
         <translation>Hiện trình đơn ngữ cảnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3860"/>
+        <location filename="../basegui.cpp" line="3852"/>
         <source>Multimedia</source>
         <translation>Đa phương tiện</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1630"/>
         <source>E&amp;qualizer</source>
         <translation>Bộ &amp;cân chỉnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>Reset audio equalizer</source>
         <translation>Đặt lại bộ cân chỉnh âm thanh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1668"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>Tải &amp;phụ đề lên OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1862"/>
         <source>&amp;Auto</source>
         <translation>&amp;Tự động</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1597"/>
+        <location filename="../basegui.cpp" line="1591"/>
         <source>Speed -&amp;4%</source>
         <translation>Tốc độ -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1598"/>
+        <location filename="../basegui.cpp" line="1592"/>
         <source>&amp;Speed +4%</source>
         <translation>Tốc độ +&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1599"/>
+        <location filename="../basegui.cpp" line="1593"/>
         <source>Speed -&amp;1%</source>
         <translation>Tốc độ -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1600"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>S&amp;peed +1%</source>
         <translation>Tốc độ +&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1863"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>Scree&amp;n</source>
         <translation>Màn &amp;hình</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>&amp;Default</source>
         <translation>&amp;Mặc định</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1612"/>
+        <location filename="../basegui.cpp" line="1606"/>
         <source>Mirr&amp;or image</source>
         <translation>Ảnh &amp;gương</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1753"/>
         <source>Next video</source>
         <translation>Video tiếp theo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1834"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Track</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1917"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Track</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4489"/>
+        <location filename="../basegui.cpp" line="4481"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Cảnh báo - đang dùng MPlayer cũ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4490"/>
+        <location filename="../basegui.cpp" line="4482"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Phiên bản MPlayer (%1) cài trên hệ thống của bạn đã hết thời. SMPlayer không thể hoạt động tốt với nó: một vài lựa chọn sẽ không làm việc, chọn phụ đề có thể không được...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4495"/>
+        <location filename="../basegui.cpp" line="4487"/>
         <source>Please, update your MPlayer.</source>
         <translation>Xin hãy cập nhật MPlayer của bạn.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4497"/>
+        <location filename="../basegui.cpp" line="4489"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Cảnh báo này sẽ không hiện ra thêm nữa)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1773"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>Next aspect ratio</source>
         <translation>Tỷ lệ màn hình kế tiếp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1617"/>
+        <location filename="../basegui.cpp" line="1611"/>
         <source>&amp;Auto zoom</source>
         <translation>&amp;Tự động phóng/thu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1618"/>
+        <location filename="../basegui.cpp" line="1612"/>
         <source>Zoom for &amp;16:9</source>
         <translation>Phóng đại cho độ phần giải &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1619"/>
+        <location filename="../basegui.cpp" line="1613"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>Phóng đại cho độ phần giải &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1907"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>&amp;Always</source>
         <translation>Luôn &amp;luôn</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1897"/>
         <source>&amp;Never</source>
         <translation>&amp;Không bao giờ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1909"/>
+        <location filename="../basegui.cpp" line="1898"/>
         <source>While &amp;playing</source>
         <translation>Trong khi đang &amp;chơi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1976"/>
+        <location filename="../basegui.cpp" line="1965"/>
         <source>DVD &amp;menu</source>
         <translation>&amp;Trình đơn DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1978"/>
+        <location filename="../basegui.cpp" line="1967"/>
         <source>DVD &amp;previous menu</source>
         <translation>Trình đơn DVD t&amp;rước</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1972"/>
+        <location filename="../basegui.cpp" line="1961"/>
         <source>DVD menu, move up</source>
         <translation>Trình đơn DVD, di chuyển lên</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="1962"/>
         <source>DVD menu, move down</source>
         <translation>Trình đơn DVD, di chuyển xuống</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1974"/>
+        <location filename="../basegui.cpp" line="1963"/>
         <source>DVD menu, move left</source>
         <translation>Trình đơn DVD, di chuyển trái</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="1964"/>
         <source>DVD menu, move right</source>
         <translation>Trình đơn DVD, di chuyển phải</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1966"/>
         <source>DVD menu, select option</source>
         <translation>Trình đơn DVD, chọn</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1979"/>
+        <location filename="../basegui.cpp" line="1968"/>
         <source>DVD menu, mouse click</source>
         <translation>Trình đơn DVD, nháy chuột</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1649"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>Set dela&amp;y...</source>
         <translation>Đặt độ t&amp;rễ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1663"/>
+        <location filename="../basegui.cpp" line="1652"/>
         <source>Se&amp;t delay...</source>
         <translation>Đặt độ &amp;trễ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4188"/>
+        <location filename="../basegui.cpp" line="4180"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Nhảy tới:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4189"/>
+        <location filename="../basegui.cpp" line="4181"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Tua</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4200"/>
-        <location filename="../basegui.cpp" line="4204"/>
+        <location filename="../basegui.cpp" line="4192"/>
+        <location filename="../basegui.cpp" line="4196"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Độ chễ tiếng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4201"/>
-        <location filename="../basegui.cpp" line="4205"/>
+        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4197"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Độ trễ tiếng (theo mili giây):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4216"/>
-        <location filename="../basegui.cpp" line="4220"/>
+        <location filename="../basegui.cpp" line="4208"/>
+        <location filename="../basegui.cpp" line="4212"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Độ trễ phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4217"/>
-        <location filename="../basegui.cpp" line="4221"/>
+        <location filename="../basegui.cpp" line="4209"/>
+        <location filename="../basegui.cpp" line="4213"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Độ trễ phụ đề (theo mili giây):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>Toggle stay on top</source>
         <translation>Nút thay đổi ở trên cùng</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4984"/>
+        <location filename="../basegui.cpp" line="4976"/>
         <source>Jump to %1</source>
         <translation>Nhảy tới %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1607"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>Bắt đầu/ngừng chụp màn hình</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>Subtitle &amp;visibility</source>
         <translation>Phụ đề &amp;hiển thị</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>Next wheel function</source>
         <translation>Tính năng bánh xe kế tiếp</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1966"/>
+        <location filename="../basegui.cpp" line="1955"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>Chương &amp;trình</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1823"/>
+        <location filename="../basegui.cpp" line="1812"/>
         <source>Radi&amp;o</source>
         <translation>Đà&amp;i</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>Subtitles onl&amp;y</source>
         <translation>Ch&amp;ỉ phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>Volume + &amp;Seek</source>
         <translation>Âm lượng + &amp;Tìm kiếm</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Âm lượng + Tìm kiếm +&amp;Đồng hồ bấm giờ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1773"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Âm lượng + Tìm kiếm + Đồng hồ bấm giờ + T&amp;ổng thời gian</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1490"/>
+        <location filename="../basegui.cpp" line="1484"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>Bộ lọc video bị vô hiệu khi dử dụng vdpau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1611"/>
+        <location filename="../basegui.cpp" line="1605"/>
         <source>Fli&amp;p image</source>
         <translation>Trượ&amp;t ảnh</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>Zoo&amp;m</source>
         <translation>Phóng t&amp;o</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1776"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>Show filename on OSD</source>
         <translation>Hiển thị tên tài liệu trên OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1584"/>
+        <location filename="../basegui.cpp" line="1578"/>
         <source>Set &amp;A marker</source>
         <translation>Thiết lập &amp;bộ đánh dấu A</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1585"/>
+        <location filename="../basegui.cpp" line="1579"/>
         <source>Set &amp;B marker</source>
         <translation>Thiết lập &amp;bộ đánh dấu B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1586"/>
+        <location filename="../basegui.cpp" line="1580"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;Xóa bộ đánh dấu A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1830"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;A-B section</source>
         <translation>&amp;Phạm vi phát A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>Toggle deinterlacing</source>
         <translation>Chuyển đổi chế độ chống quét mành</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1949"/>
+        <location filename="../basegui.cpp" line="1938"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;Đóng lại lời chú thích</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1813"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>&amp;Disc</source>
         <translation>&amp;Ổ đĩa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1817"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>F&amp;avorites</source>
         <translation>Ư&amp;a thích</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>Check for &amp;updates</source>
         <translation>Kiểm tra cập nhật</translation>
     </message>
@@ -2141,143 +2141,148 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2868"/>
+        <location filename="../core.cpp" line="2824"/>
         <source>Brightness: %1</source>
         <translation>Độ sáng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2884"/>
+        <location filename="../core.cpp" line="2840"/>
         <source>Contrast: %1</source>
         <translation>Độ tương phản: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2899"/>
+        <location filename="../core.cpp" line="2855"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2914"/>
+        <location filename="../core.cpp" line="2870"/>
         <source>Hue: %1</source>
         <translation>Sắc độ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2929"/>
+        <location filename="../core.cpp" line="2885"/>
         <source>Saturation: %1</source>
         <translation>Độ bão hòa: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3058"/>
+        <location filename="../core.cpp" line="3014"/>
         <source>Volume: %1</source>
         <translation>Âm lượng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3898"/>
+        <location filename="../core.cpp" line="3840"/>
         <source>Zoom: %1</source>
         <translation>Phóng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4141"/>
+        <location filename="../core.cpp" line="4061"/>
         <source>Buffering...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3176"/>
-        <location filename="../core.cpp" line="3187"/>
+        <location filename="../core.cpp" line="3132"/>
+        <location filename="../core.cpp" line="3143"/>
         <source>Font scale: %1</source>
         <translation>Tỷ lệ phông: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3763"/>
+        <location filename="../core.cpp" line="3705"/>
         <source>Aspect ratio: %1</source>
         <translation>Tỷ lệ độ phân giải: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4137"/>
+        <location filename="../core.cpp" line="4057"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Cập nhật kho lưu phông. Có thể cần vài giây...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3101"/>
+        <location filename="../core.cpp" line="3057"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Độ trễ phụ đề: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3119"/>
+        <location filename="../core.cpp" line="3075"/>
         <source>Audio delay: %1 ms</source>
         <translation>Đỗ trễ âm thanh: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2983"/>
+        <location filename="../core.cpp" line="2939"/>
         <source>Speed: %1</source>
         <translation>Tốc độ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="558"/>
+        <location filename="../core.cpp" line="550"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="562"/>
+        <location filename="../core.cpp" line="554"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Không thể xác định vị trí đường dẫn url của video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3186"/>
         <source>Subtitles on</source>
         <translation>Phụ đề đang bật</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3232"/>
+        <location filename="../core.cpp" line="3188"/>
         <source>Subtitles off</source>
         <translation>Phụ đề đang tắt</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3811"/>
+        <location filename="../core.cpp" line="3753"/>
         <source>Mouse wheel seeks now</source>
         <translation>Con lăn chuột đang tìm kiếm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3814"/>
+        <location filename="../core.cpp" line="3756"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Con lăn chuột đang thay đổi âm lượng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3817"/>
+        <location filename="../core.cpp" line="3759"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Con lăn chuột đang thay đổi mức độ thu phóng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3820"/>
+        <location filename="../core.cpp" line="3762"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Con lăn chuột đang thay đổi tốc độ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1390"/>
+        <location filename="../core.cpp" line="4066"/>
+        <source>Starting...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../core.cpp" line="1389"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1403"/>
+        <location filename="../core.cpp" line="1402"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2602"/>
+        <location filename="../core.cpp" line="2558"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;A&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2619"/>
+        <location filename="../core.cpp" line="2575"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;B&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2634"/>
+        <location filename="../core.cpp" line="2590"/>
         <source>A-B markers cleared</source>
         <translation>Đã xóa bộ đánh dấu A-B</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="554"/>
+        <location filename="../core.cpp" line="546"/>
         <source>Connecting to %1</source>
         <translation>Đang kết nối đến %1</translation>
     </message>
@@ -4715,16 +4720,14 @@ Do you want to overwrite?</source>
         <translation>&amp;Cao cấp</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer crashes</source>
-        <translation>B&amp;áo lỗi MPlayer</translation>
+        <translation type="obsolete">B&amp;áo lỗi MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Tại đây bạn có thể truyền thêm lựa chọn cho Mplayer.
+        <translation type="obsolete">Tại đây bạn có thể truyền thêm lựa chọn cho Mplayer.
 Viết chúng cách nhau bởi các dấu cách.
 Ví dụ: -flip -nosound</translation>
     </message>
@@ -4745,12 +4748,11 @@ Example: resample=44100:0:0,volnorm</source>
 Ví dụ: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="542"/>
         <source>Log MPlayer output</source>
-        <translation>Lưu output của MPlayer</translation>
+        <translation type="obsolete">Lưu output của MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="529"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Log SMPlayer output</source>
         <translation>Lưu output của SMPlayer</translation>
     </message>
@@ -4760,12 +4762,42 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Lựa chọn này chủ yếu để debug ứng dụng.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="460"/>
+        <location filename="../prefadvanced.cpp" line="458"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>Đánh dấu lựa chọn này để giảm nhấp nháy, nhưng nó cũng có thể làm cho video không hiển thị đúng.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="560"/>
+        <location filename="../prefadvanced.cpp" line="540"/>
+        <source>Log MPlayer/MPV output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="541"/>
+        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="546"/>
+        <source>Autosave MPlayer/MPV log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="547"/>
+        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="552"/>
+        <source>Autosave MPlayer/MPV log filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="553"/>
+        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="558"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Bộ lọc cho log của SMPlayer</translation>
     </message>
@@ -4775,13 +4807,34 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Kính thước màn hình:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer in its own window</source>
-        <translation>&amp;Chạy MPlayer trong của sổ riêng</translation>
+        <translation type="obsolete">&amp;Chạy MPlayer trong của sổ riêng</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="105"/>
+        <source>&amp;Run MPlayer/MPV in its own window</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="140"/>
+        <source>R&amp;eport MPlayer/MPV crashes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="299"/>
+        <source>Options for MP&amp;layer/MPV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="311"/>
+        <source>Here you can pass extra options to MPlayer/MPV.
+Write them separated by spaces.
+Example: -flip -nosound</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4800,14 +4853,18 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Các bộ &amp;lọc âm thanh:</translation>
     </message>
     <message>
+        <location filename="../prefadvanced.ui" line="585"/>
+        <source>A&amp;utosave MPlayer/MPV log to file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>Phím &amp;màu:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer</source>
-        <translation>MPlayer</translation>
+        <translation type="obsolete">MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4830,52 +4887,45 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>T&amp;hay đổi...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="526"/>
+        <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Logs</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer &amp;output</source>
-        <translation>Lưu &amp;output của MPlayer</translation>
+        <translation type="obsolete">Lưu &amp;output của MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer</source>
-        <translation>Các chọn lựa cho MP&amp;layer</translation>
+        <translation type="obsolete">Các chọn lựa cho MP&amp;layer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="548"/>
         <source>Autosave MPlayer log</source>
-        <translation>Tự động lưu log của MPlayer</translation>
+        <translation type="obsolete">Tự động lưu log của MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="549"/>
         <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Nếu như chọn lựa này được đánh dấu, log của MPlayer sẽ được lưu và tập tin đã chỉ định mỗi lần một tập tin mới bắt đầu chơi. Nó để dành cho những ứng dụng bên ngoài, để chúng có thể lấy được nhưng thông tin về tập tin mà bạn đang chơi.</translation>
+        <translation type="obsolete">Nếu như chọn lựa này được đánh dấu, log của MPlayer sẽ được lưu và tập tin đã chỉ định mỗi lần một tập tin mới bắt đầu chơi. Nó để dành cho những ứng dụng bên ngoài, để chúng có thể lấy được nhưng thông tin về tập tin mà bạn đang chơi.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="554"/>
         <source>Autosave MPlayer log filename</source>
-        <translation>Tên tập tin tự động lưu log của MPlayer</translation>
+        <translation type="obsolete">Tên tập tin tự động lưu log của MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="555"/>
         <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation>Nhập đường dẫn và tên tập tin sẽ dùng để lưu log của MPlayer vào đây.</translation>
+        <translation type="obsolete">Nhập đường dẫn và tên tập tin sẽ dùng để lưu log của MPlayer vào đây.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer log to file</source>
-        <translation>Tự động lư&amp;u log của MPlayer vào tập tin</translation>
+        <translation type="obsolete">Tự động lư&amp;u log của MPlayer vào tập tin</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="450"/>
+        <location filename="../prefadvanced.cpp" line="448"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Truyền tên tập tin dạng ngắn (8+3) cho MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="451"/>
+        <location filename="../prefadvanced.cpp" line="449"/>
         <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
         <translation>Hiện tại MPlayer không thể mở tên tập tin có chứa ký tự nằm ngoài bẳng mã địa phương. Đánh dấu lựa chọn này sẽ khiến SMPlayer truyền phiên bản ngắn của tên tập tin cho MPlayer để nó có thể mở chúng.</translation>
     </message>
@@ -4895,14 +4945,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Chọn tỷ lệ cỡ của màn hình của bạn.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer in its own window</source>
-        <translation>Chạy MPlayer trong của sổ riêng</translation>
+        <translation type="obsolete">Chạy MPlayer trong của sổ riêng</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation>Nếu bạn đánh dấu lựa chọn này, của sổ video của MPlayer sẽ không bị nhúng trong của sổ chính của SMPlayer mà sẽ dùng cửa sổ riêng của nó. Chú ý là sự kiện chuột và bàn phím sẽ được quản lý trực tiếp bởi MPlayer, nghĩa là phím tắt và bấm chuột có thể không hoạt động như mong đợi khi cửa sổ MPlayer đang được chọn.</translation>
+        <translation type="obsolete">Nếu bạn đánh dấu lựa chọn này, của sổ video của MPlayer sẽ không bị nhúng trong của sổ chính của SMPlayer mà sẽ dùng cửa sổ riêng của nó. Chú ý là sự kiện chuột và bàn phím sẽ được quản lý trực tiếp bởi MPlayer, nghĩa là phím tắt và bấm chuột có thể không hoạt động như mong đợi khi cửa sổ MPlayer đang được chọn.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
@@ -4915,67 +4963,56 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="446"/>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="465"/>
         <source>Report MPlayer crashes</source>
-        <translation>Báo lỗi MPlayer</translation>
+        <translation type="obsolete">Báo lỗi MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="466"/>
         <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Nếu mục này được chọn, một cửa sổ sẽ xuất hiện để thông báo về lỗi MPlayer. Nếu không những lỗi đó sẽ bị bỏ qua.</translation>
+        <translation type="obsolete">Nếu mục này được chọn, một cửa sổ sẽ xuất hiện để thông báo về lỗi MPlayer. Nếu không những lỗi đó sẽ bị bỏ qua.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="493"/>
+        <location filename="../prefadvanced.cpp" line="491"/>
         <source>Colorkey</source>
         <translation>Phím màu</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="494"/>
+        <location filename="../prefadvanced.cpp" line="492"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>Nếu bạn thấy một phần của video trên bất ký một cửa sổ nào khác, bạn có thể thay đổi phím màu để sửa nó. Thử chọn một màu gần với màu đen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options for MPlayer</source>
-        <translation>Lựa chọn cho MPlayer</translation>
+        <translation type="obsolete">Lựa chọn cho MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="506"/>
+        <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Lựa chọn</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="507"/>
         <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation>Ở đây bạn có thể gõ và các lựa chọn cho MPlayer. Ngăn cách chúng với nhau bằng dấu cách.</translation>
+        <translation type="obsolete">Ở đây bạn có thể gõ và các lựa chọn cho MPlayer. Ngăn cách chúng với nhau bằng dấu cách.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="508"/>
         <source>Video filters</source>
         <translation>Các bộ lọc video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="511"/>
         <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Tại đây bạn có thể thêm bộ lọc video cho Mplayer. Ngăn cách chúng bằng dấu phẩy. Không dùng dấu cách!</translation>
+        <translation type="obsolete">Tại đây bạn có thể thêm bộ lọc video cho Mplayer. Ngăn cách chúng bằng dấu phẩy. Không dùng dấu cách!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="514"/>
+        <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Các bộ lọc âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="515"/>
         <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Tại đây bạn có thể thêm bộ lọc âm thanh cho Mplayer. Ngăn cách chúng bằng dấu phẩy. Không dùng dấu cách!</translation>
+        <translation type="obsolete">Tại đây bạn có thể thêm bộ lọc âm thanh cho Mplayer. Ngăn cách chúng bằng dấu phẩy. Không dùng dấu cách!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="459"/>
+        <location filename="../prefadvanced.cpp" line="457"/>
         <source>Repaint the background of the video window</source>
         <translation>Vẽ lại nền của cửa sổ video</translation>
     </message>
@@ -4985,22 +5022,67 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Vẽ lại &amp;nền của cửa sổ video</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="520"/>
+        <location filename="../prefadvanced.cpp" line="429"/>
+        <source>Run MPlayer/MPV in its own window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="430"/>
+        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="463"/>
+        <source>Report MPlayer/MPV crashes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="464"/>
+        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="469"/>
+        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="502"/>
+        <source>Options for MPlayer/MPV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="505"/>
+        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="509"/>
+        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="513"/>
+        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="518"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="521"/>
+        <location filename="../prefadvanced.cpp" line="519"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>Dùng IPv4 với các kết nối mạng. Quay lại IPv6 tự động.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="523"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="522"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>Dùng IPv6 với các kết nối mạng. Quay lại IPv4 tự động.</translation>
     </message>
@@ -5035,47 +5117,45 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Tạo lại chỉ &amp;mục nếu cần thiết</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="528"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Nếu được đánh dấu, SMPlayer sẽ lưu các thông điệp của MPlayer (bạn có thể kiểm tra trong &lt;b&gt;Lựa chọn-&gt;Xem logs-&gt;SMPlayer&lt;/b&gt;). Các thông tin này có thể hữu ích cho người phát triển nếu như bạn tìm ra bug.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="543"/>
         <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Nếu được đánh dấu, SMPlayer sẽ lưu output của MPlayer (bạn có thể kiểm tra trong &lt;b&gt;Lựa chọn-&gt;Xem logs-&gt;MPlayer&lt;/b&gt;). Trong trường hợp gặp vấn đề, log này có thể chứa thông tin quan trọng, vì thế khuyến khích nên đánh dấu lựa chọn này.</translation>
+        <translation type="obsolete">Nếu được đánh dấu, SMPlayer sẽ lưu output của MPlayer (bạn có thể kiểm tra trong &lt;b&gt;Lựa chọn-&gt;Xem logs-&gt;MPlayer&lt;/b&gt;). Trong trường hợp gặp vấn đề, log này có thể chứa thông tin quan trọng, vì thế khuyến khích nên đánh dấu lựa chọn này.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Lựa chọn này cho phép lọc các thông điệp của SMPlayer sẽ được lưu vào log. Ở đây bạn có thể dùng regular expresson bất kỳ. &lt;bf&gt;Ví dụ: &lt;i&gt;^Core::.*&lt;/i&gt; sẽ chỉ hiện những dòng bắt đầu với &lt;i&gt;Core::&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="470"/>
+        <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Hiệu chỉnh pts</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="471"/>
         <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Chuyển MPlayer về chế độ thí nghiệm trong đó timestamps cho mỗi frame video được tính theo cách khác và các bộ lọc video hỗ trợ thêm frame hay thay đổi timestamp của những frame có sẵn được hỗ trợ.  Các timestamp chính xác hơn có thế thấy được khi dùng các phụ đề đặt đúng thời gian chuyển cảnh với thư viện SSA/ASS được dùng. Không có pts chính xác các phụ đề thường bị lệch vài frame. Lựa chọn này không hoạt động đúng với vài demuxers và codecs.</translation>
+        <translation type="obsolete">Chuyển MPlayer về chế độ thí nghiệm trong đó timestamps cho mỗi frame video được tính theo cách khác và các bộ lọc video hỗ trợ thêm frame hay thay đổi timestamp của những frame có sẵn được hỗ trợ.  Các timestamp chính xác hơn có thế thấy được khi dùng các phụ đề đặt đúng thời gian chuyển cảnh với thư viện SSA/ASS được dùng. Không có pts chính xác các phụ đề thường bị lệch vài frame. Lựa chọn này không hoạt động đúng với vài demuxers và codecs.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="480"/>
+        <location filename="../prefadvanced.cpp" line="478"/>
         <source>Actions list</source>
         <translation>Danh sách các hành động</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="481"/>
+        <location filename="../prefadvanced.cpp" line="479"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Ở đây bạn có thể chỉ ra danh sách &lt;i&gt;các hành động&lt;/i&gt; sẽ chạy mỗi khi một tập tin được mở ra. Bạn sẽ thấy tất cả các hành động có thể trong phần soạn thảo phím tắt trong mục &lt;b&gt;Bàn phím và chuột&lt;/b&gt;. Các hành động phải cách nhau bằng dấu cách. Các hành động có thể đánh dấu được có thể kèm theo &lt;i&gt;true&lt;/i&gt; hay &lt;i&gt;false&lt;/i&gt; để cho phép hay vô hiệu hóa hành động.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="488"/>
+        <location filename="../prefadvanced.cpp" line="486"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>Hạn chế: các hành động được chạy chỉ khi một tập tin được mở ra chứ không phải khi tiến trình mplayer bắt đầu (ví dụ bạn chọn một bộ lọc âm thanh hay video).</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
+        <location filename="../prefadvanced.cpp" line="516"/>
         <source>Network</source>
         <translation>Mạng</translation>
     </message>
@@ -5090,7 +5170,7 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Mạng</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="487"/>
+        <location filename="../prefadvanced.cpp" line="485"/>
         <source>Example:</source>
         <translation>Ví dụ:</translation>
     </message>
@@ -5105,17 +5185,27 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>H&amp;iệu chỉnh PTS:</translation>
     </message>
     <message>
+        <location filename="../prefadvanced.ui" line="540"/>
+        <source>MPlayer/MPV</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.ui" line="546"/>
+        <source>Log MPlayer/MPV &amp;output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>&amp;Verbose</source>
         <translation>&amp;Dài dòng</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="536"/>
+        <location filename="../prefadvanced.cpp" line="534"/>
         <source>Save SMPlayer log to file</source>
         <translation>Lưu nhật ký SMPlayer vào tập tin</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="537"/>
+        <location filename="../prefadvanced.cpp" line="535"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>Nếu mục này được chọn, nhật ký SMPlayer sẽ được ghi lại đến %1</translation>
     </message>
@@ -5125,12 +5215,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Lư&amp;u nhật ký SMPlayer vào một tập tin</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="499"/>
+        <location filename="../prefadvanced.cpp" line="497"/>
         <source>Show tag info in window title</source>
         <translation>Hiển thị thông tin về thẻ đánh dấu trong tiêu đề trên cửa sổ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="500"/>
+        <location filename="../prefadvanced.cpp" line="498"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
         <translation>Nếu tùy chọn này được bật, thông tin về các thẻ đánh dấu sẽ được hiển thị trong tiêu đề cửa sổ. Nếu không, chỉ hiển thị tên tập tin đang phát.</translation>
     </message>
@@ -5326,12 +5416,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Các thiết lập media</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>Start videos in fullscreen</source>
         <translation>Bắt đầu xem phim ở chế độ toàn màn hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Disable screensaver</source>
         <translation>Tăt trình bảo vệ màn hình</translation>
     </message>
@@ -5366,107 +5456,131 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Chọn một thư mục</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="879"/>
         <source>MPlayer executable</source>
-        <translation>Tập tin chạy MPlayer</translation>
+        <translation type="obsolete">Tập tin chạy MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="910"/>
+        <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Thư mục chứa screenshots</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
+        <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="929"/>
+        <location filename="../prefgeneral.cpp" line="934"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="935"/>
+        <location filename="../prefgeneral.cpp" line="940"/>
         <source>Video output driver</source>
         <translation>Đầu ra video</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Audio output driver</source>
         <translation>Đầu ra âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Select the audio output driver.</source>
         <translation>Chọn đầu ra audio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="887"/>
+        <location filename="../prefgeneral.cpp" line="885"/>
         <source>Remember settings</source>
         <translation>Nhớ các thiết lập</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1110"/>
+        <location filename="../prefgeneral.cpp" line="1115"/>
         <source>Preferred audio language</source>
         <translation>Ngôn ngữ âm thanh ưa dùng</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1120"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Preferred subtitle language</source>
         <translation>Ngôn ngữ phụ đề ưa dùng</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="973"/>
+        <location filename="../prefgeneral.cpp" line="978"/>
         <source>Software video equalizer</source>
         <translation>Bộ điều chỉnh video bằng phần mềm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="928"/>
+        <location filename="../prefgeneral.cpp" line="879"/>
+        <source>MPlayer/MPV executable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="880"/>
+        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="914"/>
+        <source>This option specifies the filename template used to save screenshots.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="918"/>
+        <source>For a full list of the template specifiers visit this link:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="921"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="933"/>
         <source>Shut down computer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="974"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Bạn có thể đánh dấu lựa chọn này nếu như bộ điều chỉnh video không được hỗ trợ bởi cạc đồ họa của bạn hay là đầu ra video đang dùng.&lt;br&lt;b&gt;Chú ý:&lt;/b&gt; lựa chọn này có thể không tương thích với một số đầu ra video.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="996"/>
+        <location filename="../prefgeneral.cpp" line="1001"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Nếu như lựa chọn này được đánh dấu, mọi video được chơi sẽ bắt đầu ở chế độ toàn màn hình.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Global audio equalizer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1057"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1058"/>
+        <location filename="../prefgeneral.cpp" line="1063"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Software volume control</source>
         <translation>Bộ điều khiển âm thanh mềm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1088"/>
+        <location filename="../prefgeneral.cpp" line="1093"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Đánh dấu lựa chọn này để dùng mixer mềm, thay vì dùng mixer của cạc âm thanh.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="959"/>
+        <location filename="../prefgeneral.cpp" line="964"/>
         <source>Postprocessing quality</source>
         <translation>Chất lượng sau xử lý</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="960"/>
+        <location filename="../prefgeneral.cpp" line="965"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Thay đổi tự động mức độ của xử lý sau tùy thuộc vào thời gian nhàn rỗi của CPU. Số bạn chỉ định là mức tối đa sẽ dùng. Nói chung bạn có thể dùng một số lớn.</translation>
     </message>
@@ -5489,6 +5603,11 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Chất lượng:</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="35"/>
+        <source>&amp;MPlayer/MPV executable:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5531,12 +5650,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="979"/>
+        <location filename="../prefgeneral.cpp" line="984"/>
         <source>Direct rendering</source>
         <translation>Hiển thị trực tiếp</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="984"/>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>Double buffering</source>
         <translation>Gấp đôi bộ đệm</translation>
     </message>
@@ -5551,7 +5670,7 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Gấp đôi bộ đệm</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Tăng gấp đôi bộ đệm chữa lỗi nháy hình bằng cách lưu hai khung hình trong bộ nhớ, và hiển thị một cái trong khi giải mã cái kia. Nếu như tắt chức năng này thì có thể ảnh hưởng xấu tới OSD, nhưng thường chữa lỗi nháy OSD.</translation>
     </message>
@@ -5566,12 +5685,12 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>Mặc định bật &amp;tái chuẩn hóa âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="923"/>
+        <location filename="../prefgeneral.cpp" line="928"/>
         <source>Close when finished</source>
         <translation>Đóng khi kết thúc</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="924"/>
+        <location filename="../prefgeneral.cpp" line="929"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Nếu như chọn lựa này được đánh dấu, cửa sổ chính sẽ tự động đóng khi tập tin/danh sách chơi hiện thời kết thúc.</translation>
     </message>
@@ -5601,68 +5720,68 @@ Ví dụ: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Tạm dừng khi thu bé</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="918"/>
+        <location filename="../prefgeneral.cpp" line="923"/>
         <source>Pause when minimized</source>
         <translation>Tạm dừng khi thu bé</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="956"/>
+        <location filename="../prefgeneral.cpp" line="961"/>
         <source>Enable postprocessing by default</source>
         <translation>Mặc định bật chức năng xử lý chất lượng sau</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Max. Amplification</source>
         <translation>Mức khuyếch đại lớn nhất</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS chuyển qua S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1098"/>
+        <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Volume normalization by default</source>
         <translation>Mặc định tái chuẩn hóa âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1099"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Cực đại âm lượng mà không làm méo tiếng.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Channels by default</source>
         <translation>Các kênh mặc định</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1092"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Đặt mức độ khuếch đại theo phần trăm (mặc định là: 110). Giá trị 200 sẽ cho phép bạn chỉnh âm lượng lên tới mức tối đa gấp đôi mức độ hiện thời. Với giá trị dưới 100, giá trị ban đầu (tức là 100%) sẽ cao hơn mức tối đa, khi đó OSD sẽ không thể hiển thị đúng được.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="957"/>
+        <location filename="../prefgeneral.cpp" line="962"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Hậu xử lý sẽ được dùng mặc định với những tập tin mới mở.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1130"/>
+        <location filename="../prefgeneral.cpp" line="1135"/>
         <source>Audio track</source>
         <translation>Rãnh âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Chỉ ra rãnh âm thanh mặc định sẽ dùng khi chơi một tập tin mới. Nếu như rãnh không tồn tại, rãnh đầu tiên sẽ được dùng.
 &lt;br&gt;&lt;b&gt;Chú ý:&lt;/b&gt; Chọn lựa &lt;i&gt;&quot;ngôn ngữ ưa chuộng&quot;&lt;/i&gt; có mức độ ưu tiên cao hơn chọn lựa này.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>Subtitle track</source>
         <translation>Rãnh phụ đề</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1142"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Chỉ ra rãnh phụ đề mặc định sẽ dùng khi mở một tập tin mới. Nếu như rãnh không tồn tại, rãnh đầu tiên sẽ được dùng.
 &lt;br&gt;&lt;b&gt;Chú ý:&lt;/b&gt; Chọn lựa &lt;i&gt;&quot;ngôn ngữ ưa chuộng&quot;&lt;/i&gt; có mức độ ưu tiên cao hơn chọn lựa này.</translation>
@@ -5710,12 +5829,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Chơi tốc độ cao mà không hay đổi cao độ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>High speed playback without altering pitch</source>
         <translation>Chơi tốc độ cao mà không hay đổi cao độ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1078"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
         <translation>Cho phép thay đổi tốc độ cao mà không làm thay đổi cao độ. Cần ít nhất là phiên bản MPlayer dev-SVN-r24924.</translation>
     </message>
@@ -5740,17 +5859,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Âm lượng</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="933"/>
+        <location filename="../prefgeneral.cpp" line="938"/>
         <source>Video</source>
         <translation>Hình ảnh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1031"/>
+        <location filename="../prefgeneral.cpp" line="1036"/>
         <source>Audio</source>
         <translation>Âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1108"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Preferred audio and subtitles</source>
         <translation>Âm thanh và phụ đề ưa thích</translation>
     </message>
@@ -5785,17 +5904,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="964"/>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Mặc định chỉnh lệch dòng</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="965"/>
+        <location filename="../prefgeneral.cpp" line="970"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Chọn bộ lọc chỉnh lệch dòng mà bạn muốn dùng cho hình ảnh mới mở.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="892"/>
+        <location filename="../prefgeneral.cpp" line="890"/>
         <source>Remember time position</source>
         <translation>Nhớ vị trí thời gian</translation>
     </message>
@@ -5805,12 +5934,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nhớ vị trí &amp;thời gian</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>Enable the audio equalizer</source>
         <translation>Bật bộ cân bằng âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1054"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Đánh dấu lựa chọn này nếu bạn muốn dùng bộ cân bằng âm thanh.</translation>
     </message>
@@ -5820,12 +5949,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Bật bộ cân bằng âm thanh</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="989"/>
+        <location filename="../prefgeneral.cpp" line="994"/>
         <source>Draw video using slices</source>
         <translation>Vẽ hình ảnh dùng từng lát</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Bật/tắt vẽ hình ảnh bằng lát/dải 16-điểm ảnh. Nếu bị tắt, toàn bộ khung hình được vẽ trong một lượt. Có thể nhanh hơn hay chậm hơn tuy theo cạc màn hình và bộ đệm có sẵn. Nó chỉ có tác dụng với codec libmpeg2 và libavcodec.</translation>
     </message>
@@ -5864,12 +5993,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Người dùng định nghĩa...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="969"/>
+        <location filename="../prefgeneral.cpp" line="974"/>
         <source>Default zoom</source>
         <translation>Phóng mặc định</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="970"/>
+        <location filename="../prefgeneral.cpp" line="975"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Lựa chọn này đặt mức độ phóng mặc định sẽ dùng cho phim ảnh mới mở.</translation>
     </message>
@@ -5879,47 +6008,46 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Phóng mặc định:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="880"/>
         <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation>Ở đây bạn phải chỉ ra tập tin chạy mplayer mà SMPlayer sẽ dùng.&lt;br&gt;SMPlayer cần ít nhất phiên bản MPlayer 1.0rc1 (tuy nhiên phiên bản gần đây từ SVN được khuyến khích hơn cả).</translation>
+        <translation type="obsolete">Ở đây bạn phải chỉ ra tập tin chạy mplayer mà SMPlayer sẽ dùng.&lt;br&gt;SMPlayer cần ít nhất phiên bản MPlayer 1.0rc1 (tuy nhiên phiên bản gần đây từ SVN được khuyến khích hơn cả).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="884"/>
+        <location filename="../prefgeneral.cpp" line="882"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Nếu đặt sai thiết lập này, SMPlayer sẽ không thể chơi bất cứ cái gì!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="936"/>
+        <location filename="../prefgeneral.cpp" line="941"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>Chọn thiết bị đưa hình ảnh ra. %1 cho ra tốc độ tốt nhất.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1044"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 là lựa chọn được khuyến khích. Tránh dùng %2 và %3, chúng chậm và có thể làm ảnh hưởng đến tốc độ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="888"/>
+        <location filename="../prefgeneral.cpp" line="886"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Thường thường SMPlayer sẽ nhớ các thiết lập cho mỗi tập tin bạn chơi (rãnh âm thanh đã chọn, âm lượng, các bộ lọc...). Tắt chọn lựa này nếu bạn không thích chức năng này.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="919"/>
+        <location filename="../prefgeneral.cpp" line="924"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Nếu như chọn lựa này được bật, tập tin sẽ bị dừng khi mà cửa sổ chính bị dấu đi. Khi cửa sổ được khôi phục, chơi sẽ lại tiếp tục.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Đánh dấu lựa chọn này để tắt bộ bảo vệ màn hình khi đang chơi.&lt;br&gt;Bộ bảo vệ màn hình sẽ được bật trở lại khi chơi xong.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Tại đây bạn có thể lựa chọn ngôn ngữ ưa thích cho các luồng âm thanh. Khi một môi trường có nhiều dòng âm thanh khác nhau, SMPlayer sẽ thử dùng ngôn ngữ bạn ưa thích. Việc này chỉ có thể làm được nếu như môi trường đó có chứa thông tin về ngôn ngữ trong các luồng âm thanh, như là các đĩa DVD và các tập tin dạng mkv. &lt;br&gt;Những trường này chấp nhận regular expressions. Ví dụ: &lt;b&gt;es|esp|spa&lt;/b&gt; sẽ chọn các rãnh có chứa &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; hay là &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Tại đây bạn có thể lựa chọn ngôn ngữ ưa thích cho các luồng phụ đề. Khi một môi trường có nhiều dòng âm thanh khác nhau, SMPlayer sẽ thử dùng ngôn ngữ bạn ưa thích. Việc này chỉ có thể làm được nếu như môi trường đó có chứa thông tin về ngôn ngữ trong các luồng phụ đề, như là các đĩa DVD và các tập tin dạng mkv. &lt;br&gt;Những trường này chấp nhận regular expressions. Ví dụ: &lt;b&gt;es|esp|spa&lt;/b&gt; sẽ chọn các rãnh có chứa &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; hay là &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
@@ -5930,12 +6058,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Thiết bị đầu &amp;ra:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="999"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
         <source>Add black borders on fullscreen</source>
         <translation>Thêm viền đen khi toàn màn hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="1005"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Nếu chức năng này được chọn, các viền đen sẽ được thêm vào hình ảnh khi ở chế độ toàn màn hình. Điều này cho phép phụ đề hiển thị trên viền đen.</translation>
     </message>
@@ -5955,22 +6083,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nhiều tệp ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="897"/>
+        <location filename="../prefgeneral.cpp" line="895"/>
         <source>Method to store the file settings</source>
         <translation>Phương pháp lưu cấu hình cho từng tệp</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="898"/>
+        <location filename="../prefgeneral.cpp" line="896"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Lựa chọn này cho phép thay đổi cách lưu cấu hình cho từng tệp. Các lựa chọn sau đây được dùng:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="900"/>
+        <location filename="../prefgeneral.cpp" line="898"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;một tệp ini&lt;/b&gt;: các cấu hình cho mọi tệp đã chơi sẽ được lưu trong một tệp ini duy nhất (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="904"/>
+        <location filename="../prefgeneral.cpp" line="902"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Cách sau có thể nhanh hơn nếu như phải lưu thông tin của rất nhiều tệp.</translation>
     </message>
@@ -5980,44 +6108,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Lưu cấu hình trong</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="902"/>
+        <location filename="../prefgeneral.cpp" line="900"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;nhiều tệp ini&lt;/b&gt;: một tên ini sẽ được dùng cho mỗi tệp đã chơi. Những tệp ini này sẽ được lưu ở trong thư mục %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="893"/>
+        <location filename="../prefgeneral.cpp" line="891"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Nếu như bạn đánh dấu lựa chọn này, SMPlayer sẽ ghi nhớ vị trí cuối cùng của tệp bạn đang mở khi bạn mở lại nó lần nữa. Lựa chọn này chỉ dùng với tệp bình thường (không phải với DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="980"/>
+        <location filename="../prefgeneral.cpp" line="985"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Nếu được đánh dấu, sẽ bật chữ năng hiển thị trực tiếp (không được hỗ trợ bởi mọi codecs và đầu ra hình ảnh)&lt;br&gt;&lt;b&gt;Lưu ý:&lt;/b&gt; Có thể làm lỗi OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Yêu cầu số kênh chơi. MPlayer yêu cầu decoder decode âm thanh thành số kênh như đã chỉ ra. Khi đó sẽ tùy thuộc và decoder để thực hiện yêu cầu. Điểu này thường chỉ quan trọng khi chơi hình ảnh với âm thanh AC3 (như là đĩa DVD). Trong trường hợp đó liba52 sẽ decode theo mặc định rồi mới trộn các kênh lại theo số kênh yêu cầu. &lt;b&gt;Chú ý&lt;/b&gt;: Lựa chọn này áp dụng cho codecs (chỉ với AC3), các bộ lọc (vòm) và thiết bị ra tiếng (ít nhất là OSS). </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="906"/>
+        <location filename="../prefgeneral.cpp" line="904"/>
         <source>Enable screenshots</source>
         <translation>Bật chế độ chụp ảnh màn hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="907"/>
+        <location filename="../prefgeneral.cpp" line="905"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Bạn có thể sử dụng tùy chọn này để bật hoặc vô hiệu hoá tính năng chụp ảnh trên màn hình.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="911"/>
+        <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Tại đây bạn sẽ thiết lập thư mục dùng để lưu trữ các hình ảnh được chụp từ chương trình. Nếu thư mục không hợp lệ thì tính năng chụp ảnh màn hình sẽ bị vô hiệu hóa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer executable:</source>
-        <translation>&amp;Thực thị MPlayer:</translation>
+        <translation type="obsolete">&amp;Thực thị MPlayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -6035,17 +6162,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Thư mục:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Global volume</source>
         <translation>Âm lượng chung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Nếu tùy chọn này được bật, cùng một loại âm lượng sẽ được áp dụng với toàn bộ các tập tin mà bạn phát. Nếu không được chọn, thì mỗi tập tin phát sẽ được gắn với một loại âm lượng khác nhau do bạn chọn.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1085"/>
+        <location filename="../prefgeneral.cpp" line="1090"/>
         <source>This option also applies for the mute control.</source>
         <translation>Tùy chọn này cũng áp dụng với tính năng tắt âm thanh.</translation>
     </message>
@@ -6055,22 +6182,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Â&amp;m lượng chung</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1009"/>
+        <location filename="../prefgeneral.cpp" line="1014"/>
         <source>Switch screensaver off</source>
         <translation>Tắt chế độ hiển thị trình bảo vệ màn hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="1015"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Tùy chọn này sẽ tắt chế độ hiển thị các trình bảo vệ màn hình của hệ điêu fhành trước khi bắt đầu phát một tập tin và chuyển lại chế độ bảo vệ màn hình khi việc phát tập tin đã kết thúc. Nếu tùy chọn này được bật, thì trình bảo vệ màn hình sẽ không được kích hoạt kể cả khi các đoạn audio hay video hoặc một tập tin nào đó bị tạm dừng.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1016"/>
+        <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Avoid screensaver</source>
         <translation>Tránh hiển thị trình bảo vệ màn hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1017"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Khi đánh vào lựa chọn này, SMPlayer sẽ chặn việc hiển thị trình bảo vệ màn hình khi đang phát một tập tin video. Trình bảo vệ màn hình sẽ được hiển thị nếu phần mềm phát một tập tin âm thanh hoặc đang ở chế độ tạm ngừng. Lựa chọn này chỉ có hiệu lực nếu cửa sổ SMPlayer đang hiển thị trên màn hình.</translation>
     </message>
@@ -6090,22 +6217,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tránh hiển thị &amp;trình bảo vệ màn hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1106"/>
         <source>Audio/video auto synchronization</source>
         <translation>Tự đồng bộ tiếng/hình</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Từ từ chỉnh đồng bộ H/T dựa trên đo lường độ trễ của âm thanh.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1105"/>
+        <location filename="../prefgeneral.cpp" line="1110"/>
         <source>A-V sync correction</source>
         <translation>Hiệu chỉnh đồng bộ T-H</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Hiệu chỉnh đồng bộ T-H tối đa mỗi khung hình (theo giây)</translation>
     </message>
@@ -6135,7 +6262,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hiệu chỉnh &amp;tối đa:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="967"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Lưu ý:&lt;/b&gt; Lựa chọn này sẽ không được sử dụng cho các kênh TV.</translation>
     </message>
@@ -6145,12 +6272,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Mặc định chỉnh lệch&amp; dòng (ngoại trừ TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Sử dụng cơ chế quét phần cứng dạng AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Lưu ý:&lt;/b&gt;sẽ không có bộ lọc âm thành nào được sử dụng khi lựa chọn này được bật.</translation>
     </message>
@@ -6175,7 +6302,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
         <translation>%1 là lựa chọn được đề nghị. %2 chỉ có trên các bản MPlayer cũ hơn (trước phiên bản %3)</translation>
     </message>
@@ -8625,27 +8752,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>PreferencesDialog</name>
     <message>
         <location filename="../preferencesdialog.cpp" line="66"/>
-        <location filename="../preferencesdialog.cpp" line="138"/>
+        <location filename="../preferencesdialog.cpp" line="139"/>
         <source>SMPlayer - Help</source>
         <translation>Trợ giúp - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="142"/>
+        <location filename="../preferencesdialog.cpp" line="143"/>
         <source>OK</source>
         <translation>Được</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="143"/>
+        <location filename="../preferencesdialog.cpp" line="144"/>
         <source>Cancel</source>
         <translation>Hủy bỏ</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="144"/>
+        <location filename="../preferencesdialog.cpp" line="145"/>
         <source>Apply</source>
         <translation>Áp dụng</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="145"/>
+        <location filename="../preferencesdialog.cpp" line="146"/>
         <source>Help</source>
         <translation>Trợ giúp</translation>
     </message>
@@ -8760,23 +8887,23 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>chỉ định tập tin phụ đề để nạp cho video đầu tiên.</translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="79"/>
-        <location filename="../helper.cpp" line="85"/>
+        <location filename="../helper.cpp" line="83"/>
+        <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
         <translation>
             <numerusform>%n giây</numerusform>
         </translation>
     </message>
     <message numerus="yes">
-        <location filename="../helper.cpp" line="82"/>
-        <location filename="../helper.cpp" line="84"/>
+        <location filename="../helper.cpp" line="86"/>
+        <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
         <translation>
             <numerusform>%n phút</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../helper.cpp" line="86"/>
+        <location filename="../helper.cpp" line="90"/>
         <source>%1 and %2</source>
         <translation>%1 and %2</translation>
     </message>
@@ -8786,19 +8913,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>chỉ ra thư mục nơi SMPlayer sẽ lưu các tập tin cấu hình (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="168"/>
+        <location filename="../mediasettings.cpp" line="164"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>bỏ qua</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="179"/>
+        <location filename="../mediasettings.cpp" line="175"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>tự động</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="180"/>
+        <location filename="../mediasettings.cpp" line="176"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>không rõ</translation>
