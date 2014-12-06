@@ -912,8 +912,9 @@ void PrefGeneral::createHelp() {
 
 	setWhatsThis(screenshot_template_edit, tr("Template for screenshots"),
 		tr("This option specifies the filename template used to save screenshots.") + " " +
-		tr("For example %F_%04n would save the screenshot as 'moviename_0001.png'.") + "<br>" +
-		tr("%F specifies the filename without the extension, %04n adds a 4 digit number padded with zeros.") + " " +
+		tr("For example %1 would save the screenshot as 'moviename_0001.png'.").arg("%F_%04n") + "<br>" +
+		tr("%1 specifies the filename of the video without the extension, "
+		   "%2 adds a 4 digit number padded with zeros.").arg("%F").arg("%04n") + " " +
 		tr("For a full list of the template specifiers visit this link:") + 
 		" <a href=\"http://mpv.io/manual/stable/#options-screenshot-template\">"
 		"http://mpv.io/manual/stable/#options-screenshot-template</a>" + "<br>" +
