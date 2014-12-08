@@ -1,4 +1,8 @@
 @echo off
+
+:: Reset working dir especially when using 'Run as administrator'
+@cd /d "%~dp0"
+
 echo This batch file can help you to create a packages for SMPlayer and MPlayer.
 echo.
 echo Note: It will temporarily rename the smplayer-build or mplayer directory.
@@ -33,10 +37,22 @@ set MAKENSIS_EXE_PATH=
 set USER_CHOICE=
 
 :: NSIS path
-if exist "%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe" (
-  set MAKENSIS_EXE_PATH="%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe"
-) else if exist "%PROGRAMFILES%\NSIS\Unicode\makensis.exe" (
-  set MAKENSIS_EXE_PATH="%PROGRAMFILES%\NSIS\Unicode\makensis.exe"
+if exist "nsis_path" (
+  ::set /P MAKENSIS_EXE_PATH=<nsis_path
+  for /f "tokens=*" %%y in ('type nsis_path') do set MAKENSIS_EXE_PATH="%%y"
+) else (
+  for %%x in ("%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe" "%PROGRAMFILES%\NSIS\Unicode\makensis.exe") do if exist %%x set MAKENSIS_EXE_PATH=%%x
+)
+
+if not exist %MAKENSIS_EXE_PATH% (
+  echo Warning: Unable to locate NSIS in the default path, create the file ^'nsis_path^' with the full correct path
+  echo to makensis.exe or the existing ^'nsis_path^' may be incorrect.
+  echo.
+)
+
+where /q 7za.exe || (
+echo Warning: 7za.exe not found in path or current directory!
+echo.
 )
 
 set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
@@ -58,6 +74,7 @@ if "%USER_CHOICE%" == "6"  goto pkgver
 if "%USER_CHOICE%" == "10"  goto pkgver
 if "%USER_CHOICE%" == "11"  goto pkgver
 if "%USER_CHOICE%" == "20"  goto pkgver
+if "%USER_CHOICE%" == ""  goto superend
 goto reask
 
 :pkgver
@@ -356,3 +373,5 @@ goto end
 :end
 
 pause
+
+:superend
