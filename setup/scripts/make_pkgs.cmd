@@ -38,13 +38,14 @@ set USER_CHOICE=
 
 :: NSIS path
 if exist "nsis_path" (
-  ::set /P MAKENSIS_EXE_PATH=<nsis_path
-  for /f "tokens=*" %%y in ('type nsis_path') do set MAKENSIS_EXE_PATH="%%y"
-) else (
+  for /f "tokens=*" %%y in ('type nsis_path') do if exist %%y set MAKENSIS_EXE_PATH="%%y"
+)
+
+if not defined MAKENSIS_EXE_PATH (
   for %%x in ("%PROGRAMFILES(X86)%\NSIS\Unicode\makensis.exe" "%PROGRAMFILES%\NSIS\Unicode\makensis.exe") do if exist %%x set MAKENSIS_EXE_PATH=%%x
 )
 
-if not exist ""%MAKENSIS_EXE_PATH%"" (
+if not defined MAKENSIS_EXE_PATH (
   echo Warning: Unable to locate NSIS in the default path, create the file ^'nsis_path^' with the full correct path
   echo to makensis.exe or the existing ^'nsis_path^' may be incorrect.
   echo.
