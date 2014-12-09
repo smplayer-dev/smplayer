@@ -161,17 +161,17 @@
     <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Menggunakan %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer adalah tampilan grafis untuk %1 dan %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Layanan subtitle dipersembahkan oleh %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">Arab - Suria</translation>
+        <translation>Arab Suriah</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -256,22 +256,22 @@
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Tamil</source>
-        <translation type="unfinished">Tamil</translation>
+        <translation>Tamill</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
         <source>Malayalam</source>
-        <translation type="unfinished">Malayalam</translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation type="unfinished">Thai</translation>
+        <translation>Thailand</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="201"/>
         <source>Persian</source>
-        <translation type="unfinished">Iran</translation>
+        <translation>Persia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="226"/>
@@ -1242,7 +1242,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1568"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"></translation>
+        <translation>Lompati fra&amp;me kebelakang</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1587"/>
@@ -1262,7 +1262,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation>Gunakan gaya kusto&amp;m</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1667"/>
@@ -1434,7 +1434,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1935"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Tre&amp;k sekunder</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
@@ -1454,27 +1454,27 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="4582"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Koneksi gagal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4583"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Video yang anda minta perlu membuka koneksi HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4584"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sayangnya komponen openssl dibutuhkan, layanan ini tidak tersedia pada sistem anda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4585"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Harap kunjungi %1 untuk memperbaiki masalah ini.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4586"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>tautan ini</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4596"/>
@@ -2255,7 +2255,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../core.cpp" line="4066"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Memulai...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -2767,12 +2767,12 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="156"/>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Macam</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
         <source>Number of &amp;retries:</source>
-        <translation type="unfinished"></translation>
+        <translation>Jumla&amp;h pengulangan:</translation>
     </message>
 </context>
 <context>
@@ -3725,10 +3725,6 @@ Harap periksa ijin dari folder tersebut.</translation>
         <translation>Slovakia</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenia</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoa</translation>
@@ -4294,7 +4290,7 @@ Harap periksa ijin dari folder tersebut.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovenia</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4722,18 +4718,6 @@ Apakah anda ingin menimpanya?</translation>
         <translation>Lebih l&amp;anjut</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">Lap&amp;orkan kerusakan MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Disini anda dapat memasukkan opsi tambahan untuk MPlayer.
-Tulis perintahnya secara terpisah dengan spasi.
-Contoh: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4748,10 +4732,6 @@ Conton: scale=512:-2,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>Dan terakhirnya filter audio. Aturannya sama seperti untuk filter video.
 Contoh: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">keluaran catatan MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4771,32 +4751,32 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Catatan keluaran MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bila dicentang, SMPlayer akan menyimpan catatan keluaran MPlayer/MPV (anda bisa melihatnya do &lt;b&gt;Pilihan -&gt; Lihat catatan -&gt; MPlayer/MPV&lt;/b&gt;). Dalam beberapa kasuk catatan ini bisa memiliki informasi penting, jadi disarankan untuk membiarkan pilihan ini apa adanya.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"></translation>
+        <translation>Simpan otomatis catatan MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bila opsi ini dicentang, catatan MPlayer/MPV akan disimpan pada lokasi yang telah ditentukan setiap kali sebuah berkas baru dibuka. Hal ini juga berguna untuk aplikasi eksternal, sehingga aplikasi tersebut bisa mendapat informasi mengenai berkas yang anda mainkan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Simpan otomatis nama berkas MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Masukkan alamat dan nama berkas yang akan digunakan untuk menyimpan catatan MPlayer/MPV disini.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4809,13 +4789,9 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Aspek &amp;monitor:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">Jalankan MPlayer pada jendelanya sendi&amp;ri</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Jalankan MPlayer/MPV  pada jendelanya sendi&amp;ri</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4825,19 +4801,21 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Laporkan k&amp;erusakan MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan untuk MP&amp;layer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>Anda bisa memasukkan opsi untuk MPlayer/MPV disini.
+Gunakan spasi untuk memisahkan opsi nya.
+Contoh: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4857,16 +4835,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Simpan otomatis catatan MPlayer/MPV ke s&amp;uatu berkas</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>Kunci &amp;warna:</translation>
-    </message>
-    <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4894,34 +4868,6 @@ Example: -flip -nosound</source>
         <translation>Catatan</translation>
     </message>
     <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Catatan &amp;keluaran MPlayer</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">Opsi untuk MP&amp;layer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Simpan otomatis catatan MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">JIka opsi ini dipilih, catatan MPlayer akan disimpan di tempat yang dipilih setiap kali sebuah berkas dimainkan. Ini dimaksudkan untuk aplikasi eksternal, jadi aplikasi itu dapat menerima informasi tentang berkas yang anda mainkan.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Simpan otomatis catatan nama berkas pada MPlayer</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Masukkan disini alamat dan nama berkas yang akan anda gunakan untuk menyimpan catatan MPlayer.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">Simpan oto&amp;matis catatan MPlayer ke berkas</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="448"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Masukkan penciutan nama berkas (8+3) untuk MPlayer</translation>
@@ -4947,14 +4893,6 @@ Example: -flip -nosound</source>
         <translation>Pilih aspek rasio dari monitor anda</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Jalankan MPlayer pada jendelanya sendiri</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">JIka anda menyetujui opsi ini, jendela video dari MPlayer tidak akan menyatu pada jendela utama SMPlayer namun menggunakan jendela MPlayer sendiri. Catat bahwa tetikus dan keyboard akan secara langsung dikendalikan oleh MPlayer, yang artinya tombol pintasan dan klik dari tetikus mungkin saja tidak akan bekerja seperti ketika jendela Mplayer memfokuskan dirinya</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>Gunakan demuxer lavf sebagai bawaan</translation>
@@ -4963,18 +4901,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Apabila pilihan ini dipilih, demuxer lavf akan digunakan pada semua format.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">Catatan: mplayer2 sudah menggunakan demuxer lavf sebagai bawaan sehingga pilihan ini dengan mplayer2 tidak akan memberi perubahan apapun.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Laporkan kerusakan MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">JIka opsi ini </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4987,17 +4913,9 @@ Example: -flip -nosound</source>
         <translation>JIka anda melihat bagian dari video melewati jendela lain, anda dapat mengubah kunci warna nya untuk memperbaikinya. Cobalah untuk memilih warna menutup menjadi hitam.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Opsi untuk MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Opsi</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Disini anda dapat memasukkan opsi untuk MPlayer. Tulislah terpisah dengan spasi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5005,17 +4923,9 @@ Example: -flip -nosound</source>
         <translation>FIlter video</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Disini anda dapat menambah filter video untuk MPlayer. Tulislah terpisah dengan koma. Jangan gunakan spasi!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Filter audio</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Disini anda dapat menambahkan filter audio untuk MPlayer. Tulislah terpisah menggunakan koma. Jangan gunakan spasi!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5030,7 +4940,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Simpan otomatis catatan MPlayer/MPV ke suatu berkas</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
@@ -5128,10 +5038,6 @@ Example: -flip -nosound</source>
         <translation>Jika pilihan ini diisi, SMPlayer akan mengembalikan pesan debugging yang ada pada keluaran SMPlayer. (anda dapat melihatnya pada catatan di &lt;b&gt;Opsi -&gt; LIhat catatan -&gt; SMPlayer&lt;/b&gt;). Informasi ini dapat bermanfaan bagi para mengembang yang menemukan bug.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">JIka diisi, SMPlayer akan mengembalikan keluaran MPlayer (anda dapat melihatnya pada &lt;b&gt;Opsi -&gt; LIhat catatan -&gt; MPlayer&lt;/b&gt;). Dalam permasalah ini catatan memiliki informasi penting, jadi hal ini direkomendasikan untuk tetap membiarkan opsi ini diisi</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Opsi ini megijinkan penyaringan pesan SMPlayer yang akan disimpan di catatan. Disini anda dapat menulis macam-macam perintah.&lt;br&gt;Misalkan: &lt;i&gt;^Core::.*&lt;/i&gt; hanya akan menampilkan baris yang dimulai dengan &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5140,10 +5046,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Koreksi point</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Mengalihkan MPlayer ke mode eksperimental dimana penanda waktu untuk bingkai video dikalkulasi berbeda dan video filter yang menambahkan frame baru atau penanda waktu yang termodifikasi yang ada didukung. Penanda waktu yang lebih akutar dapat diperlihatkan contohnya ketika memainkan takarir dengan perpindahan waktu pada scene dengan SSA/ASS library yang aktif. Tanpa koreksi poin penepatan waktu subtitle akan dimatikan beberapa frame. Opsi ini tidak bekerja dengan baik pada beberapa demuxer dan kodek.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5462,10 +5364,6 @@ Example: -flip -nosound</source>
         <translation>Pilih sebuah direktori</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">MPlayer yang dapat dieksekusi</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Folder screenshot</translation>
@@ -5473,6 +5371,16 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5908,16 +5816,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Deinterlace secara default</translation>
@@ -6010,10 +5908,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>Pembesaran ba&amp;waan:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Disini anda harus menjabarkan mplayer yang dadap dieksekusi yang akan digunakan SMPlayer.&lt;br&gt;SMPlayer memerlukan setidaknya MPlayer 1.0rc1 (walaupun versi terbaru dari SVN sangat direkomendasikan).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6145,10 +6039,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Disini anda dapat merincikan folder dimana screenshot yang diambil oleh SMPlayer akan disimpan. Jika folder tidak benar, fitur screenshot akan dimatikan.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">&amp;MPlayer yang dapat dieksekusi:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7498,12 +7388,12 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Kualitas Youtube</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Pilih kualitas yang diutamakan untuk video di Youtube.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7909,18 +7799,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Cache untuk &amp;TV:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Kualitas Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Pilih kualitas yang diutamakan untuk video di Youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Kualitas &amp;Youtube</translation>
     </message>
 </context>
 <context>
@@ -8445,7 +8323,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Gunakan gaya kusto&amp;m</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
