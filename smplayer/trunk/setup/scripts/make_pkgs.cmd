@@ -51,9 +51,12 @@ if not defined MAKENSIS_EXE_PATH (
   echo.
 )
 
-where /q 7za.exe || (
-echo Warning: 7za.exe not found in path or current directory!
-echo.
+:: Works only in Vista+
+where /q where.exe 2>NUL && (
+  where /q 7za.exe 2>NUL || (
+  echo Warning: 7za.exe not found in path or current directory!
+  echo.
+  )
 )
 
 set SMPLAYER_DIR=%TOP_LEVEL_DIR%\smplayer-build
