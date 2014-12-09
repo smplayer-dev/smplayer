@@ -3725,10 +3725,6 @@ Tjek rettighederne for den mappe.</translation>
         <translation>Slovakisk</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovensk</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoansk</translation>
@@ -4722,18 +4718,6 @@ Vil du overskrive den?</translation>
         <translation>&amp;Avanceret</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">MPlayer er brudt sammen.</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Her kan du sende ekstra tilvalg til MPlayer.
-Skriv dem adskilt af mellemrum.
-Eksempel: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4748,10 +4732,6 @@ Eksempel: scale=512:-2,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>Og endelig lydfiltre. Samme regel som for videofiltre.
 Eksempel: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Log MPlayers output</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4809,10 +4789,6 @@ Eksempel: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Skærmens billedformat:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">&amp;Kør MPlayer i sit eget vindue</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
         <translation type="unfinished"></translation>
@@ -4865,10 +4841,6 @@ Example: -flip -nosound</source>
         <translation>&amp;Farvenøgle:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4892,34 +4864,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Logge</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Log MPlayers &amp;output</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">Tilvalg til MP&amp;layer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Gem automatisk MPlayer-log</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Hvis denne indstilling markeres vil MPlayers log blive gemt til den angivne fil hver gang afspilning af en ny fil påbegyndes. Det er tiltænkt til eksterne programmer, så dkan få info om den fil du afspiller.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Filnavn til automatisk gemning af MPlayer-log</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Angiv sti og filnavn der skal bruges til at gemme MPlayer-loggen her.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">Gem a&amp;utomatisk MPlayer-log til fil</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4948,14 +4892,6 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <translation>Vælg din skærms billedformat.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Kør MPlayer i sit eget vindue</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Hvis du markerer denne indstilling vil MPlayers videovindue ikke blive indlejret i SMPlayers hovedvindue, men i stedet vil det bruge sit eget vindue. Bemærk at mus- og tastaturhændelser vil blive håndteret direkte af MPlayer, hvilket betyder at tastaturgenveje og museklik formentlig ikke vil virke som forventet når MPlayer-vinduet har fokus.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation type="unfinished"></translation>
@@ -4964,14 +4900,6 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Rapporter MPlayer fejl</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Hvis denne option er markeret, vil der er fremkomme et vindue, som vil informere omkring MPlayer fejl. Ellers vil disse bliver ignoreret.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4984,17 +4912,9 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <translation>Hvis du ser dele af videoen over andre vinduer, kan du ændre farvenøglen for at løse det. Prøv at vælge en farve tæt på sort.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Tilvalg til MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Tilvalg</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Her kan du angive tilvalg til MPlayer. Skriv dem adskilt af mellemrum.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5002,17 +4922,9 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <translation>Videofiltre</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Her kan du føje videofiltre til MPlayer. Skriv dem adskilt af kommaer. Brug ikke mellemrum!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Lydfiltre</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Her kan du tilføje lydfiltre til MPlayer. Skriv dem adskilt af kommaer. Brug ikke mellemrum!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5125,10 +5037,6 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <translation>Hvis denne indstilling markeres vil SMPlayer gemme fejlsøgningsmeddelelser som SMPlayer-outputter (du kan se loggen i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Hvis markeret vil SMPlayer gemme outputtet fra MPlayer (du kan se det i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; MPlayer&lt;/b&gt;). I tilfælde af problemer kan denne log indeholde vigtig information, så det anbefales at holde denne indstilling markeret.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Denne indstilling muliggør filtrering af SMPlayers meddelelser der gemmes i loggen. Her kan du skrive et regulært udtryk.&lt;br&gt;For eksempel vil &lt;i&gt;^Core::.*&lt;/i&gt; kun vise de linjer der begynder med &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5137,10 +5045,6 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Korrigér pts</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Skifter MPlayer til en eksperimentel tilstand hvor tidsstempler på videobilleder beregnes anderledes og videofiltre som tilføjer nye billeder eller ændrer tidsstempler på ekisterende billeder understøttes. Mere præcise tidsstempler kan f.eks. være synligt når der afspilles undertekster som er timet ift. sceneskift med SSA-/ASS-biblioteket aktiveret. Uden korrekt pts vil timingen af underteksten typisk være unøjagtig med nogle få billeder. Denne indstilling virker ikke korrekt med nogle demuxere og codecs.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5459,10 +5363,6 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <translation>Vælg en mappe</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Kørbar fil for MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Mappe til skærmbilleder</translation>
@@ -5470,6 +5370,16 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5904,16 +5814,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Deinterlace som standard</translation>
@@ -6006,10 +5906,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>Standard-&amp;zoom:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Her skal du angive den kørbare mplayer-fil som SMPlayer skal bruge.&lt;br&gt;SMPlayer kræver mindst MPlayer 1.0rc1 (selvom en nylig version fra SVN er stærkt anbefalet).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6141,10 +6037,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Her kan du angive en mappe hvor skærmbilleder der tages af SMPlayer skal gemmes. Hvis mappen ikke er gyldig vil skærmbillede-funktionen blive deaktiveret.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">Kørbar fil for &amp;MPlayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7499,7 +7391,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Vælg den ønskede kvalitet for Youtube videoer</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7905,14 +7797,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Cache til &amp;tv:</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Vælg den ønskede kvalitet for Youtube videoer</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Youtupe &amp;kvalitet</translation>
     </message>
 </context>
 <context>

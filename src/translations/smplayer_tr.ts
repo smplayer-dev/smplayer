@@ -4717,18 +4717,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Gelişmiş</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">MPlayer çökme r&amp;aporu</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Burada mplayer&apos;a fazladan özellikler ekleyebilirsiniz.
-Özellikler arasında boşluk bırakmayı unutmayın.
-Örnek: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4743,10 +4731,6 @@ Süzgeçleri &quot;,&quot; ile ayırın. Boşluk kullanmayın!
 Example: resample=44100:0:0,volnorm</source>
         <translation>Ve son olarak ses süzgeçleri. Video süzgeçlerinde geçerli olan kurallar burada da geçerli.
 Örnek: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">MPlayer çıktısının kaydını tut</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4804,10 +4788,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Ekra&amp;n en/boy oranı:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">MPlayer&apos;ı kendi penceresinde çalıştı&amp;r</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
         <translation type="unfinished"></translation>
@@ -4860,10 +4840,6 @@ Example: -flip -nosound</source>
         <translation>Renk anahtar&amp;ı:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4887,34 +4863,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Kayıtlar</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">MPlayer çıktısının kaydını t&amp;ut</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">MP&amp;layer seçenekleri</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">MPlayer kaydını otomatik olarak kaydet</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Bu seçeneği işaretlerseniz, yeni bir dosyanın oynamaya başladığı her seferde MPlayer kaydı belirlenen dosyaya kaydedilecek. Bu seçenek, harici uygulamaların oynatılan dosya hakkında bilgi edinmesini sağlayacaktır.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">MPlayer kaydının dosya ismini otomatik olarak kaydet</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">MPlayer kaydının tutulacağı dosyanın klasör yolunu ve adını yazın.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">MPlayer kaydını &amp;otomatik olarak dosyaya kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4942,14 +4890,6 @@ Example: -flip -nosound</source>
         <translation>Ekranınızın en boy oranını seçin.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">MPlayer&apos;ı kendi penceresinde çalıştır</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Eğer bunu seçerseniz MPlayer video penceresi SMPlayer&apos;ın ana penceresine gömülmek yerine kendi penceresini kullanacak. Bu seçenek seçiliyken, fare ve klavye tuşları için atadığınız kısa yollar SMPlayer seçeneklerinde belirlediğiniz gibi değil MPlayer&apos;a uygun olarak çalışacağı için kısayolların kullanımı beklediğiniz gibi olmayacaktır.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>Varsayılan olarak lavf demuxeri kullan</translation>
@@ -4958,14 +4898,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Eğer bu seçeneği seçerseniz, lavf demuxer tüm türlerde kullanılacak.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">MPlayer çökme raporu</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Bu seçeneği işaretlerseniz, bir pencere MPlayer çökmesi hakkında bilgilendirmek için görünür. Aksi takdirde bu hatalar sessizce göz ardı edilecektir.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4978,17 +4910,9 @@ Example: -flip -nosound</source>
         <translation>Eğer diğer pencereler üzerinde oynattığınız videodan parçalar görüyorsanız, bu durumu düzeltmek için renk anahtarını değiştirebilirsiniz. Siyaha yakın renkler seçmeyi deneyin.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">MPlayer seçenekleri</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Seçenekler</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Burada MPlayer için seçenekler hazırlayabilirsiniz. Seçenekleri aralarında boşluk bırakarak yazınız.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -4996,17 +4920,9 @@ Example: -flip -nosound</source>
         <translation>Video süzgeçleri</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Burada MPlayer&apos;a video süzgeçleri ekleyebilirsiniz. Süzgeçleri virgülle ayırınız. Aralarında boşluk bırakmayınız!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Ses süzgeçleri</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Burada MPlayer&apos;a ses süzgeçleri ekleyebilirsiniz. Süzgeçleri virgülle ayırınız. Aralarında boşluk bırakmayınız!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5117,10 +5033,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>Bunu seçerseniz, SMPlayer sadece SMPlayer çıktısı olan hata düzeltme mesajlarını kaydeder (kaydı, &lt;b&gt;Seçenekler -&gt; Kayıtlara bak -&gt; SMPlayer&lt;/b&gt;&apos;da görebilirsiniz). Programda bir hata bulmanız durumunda, bu bilgi geliştiriciye hatayı çözmede yardımcı olabilir.</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Bunu seçerseniz, SMPlayer sadece MPlayer çıktısı olan hata düzeltme mesajlarını kaydeder (kaydı, &lt;b&gt;Seçenekler -&gt; Kayıtlara bak -&gt; MPlayer&lt;/b&gt;&apos;da görebilirsiniz). Bu kayıt programda çıkabilecek sorunların çözülmesi için gerekli önemli bilgileri içerebileceği için seçili tutmanızı tavsiye ediyoruz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="559"/>
@@ -5449,10 +5361,6 @@ Example: -flip -nosound</source>
         <translation>Bir klasör seçin</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Çalıştırılabilir MPlayer dosyası</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Yakalanan ekran görüntülerinin klasörü</translation>
@@ -5461,6 +5369,16 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
         <translation>Ekran görüntüleri için şablon</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
@@ -5894,16 +5812,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Öntanımlı deinterlace yap</translation>
@@ -5996,10 +5904,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>Öntanımlı &amp;yakınlaştırma:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Burada SMPlayer&apos;ın kullanacağı çalıştırılabilir MPlayer dosyasını seçmelisiniz.&lt;br&gt;SMPlayer en azından MPlayer 1.0rc1&apos;e gerek duymaktadır (SVN şiddetle tavsiye edilir).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6131,10 +6035,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Burada SMPlayer tarafından alınan ekran görüntülerinin saklanacağı bir klasör belirtebilirsiniz. Klasör geçerli değilse ekran görüntüsü alma özelliği devre dışı bırakılır.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">&amp;MPlayer çalıştırılabilir dosyası:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>

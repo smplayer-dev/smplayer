@@ -2254,7 +2254,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4066"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -4719,18 +4719,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Дополнительно</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">От&amp;чёт о сбоях MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Здесь можно указать дополнительные параметры для MPlayer.
-Указывайте их разделяя пробелами.
-Например: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4745,10 +4733,6 @@ Example: scale=512:-2,eq2=1.1</source>
 Example: resample=44100:0:0,volnorm</source>
         <translation>Аудио фильтры. Используются аналогично фильтрам видео.
 Пример: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Отчёт вывода MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4768,32 +4752,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Отчёт вывода MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если выбрано, SMPlayer будет сохранять вывод MPlayer/MPV (его можно посмотреть в &lt;b&gt;Инструменты -&gt; Смотреть отчёты -&gt; MPlayer&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"></translation>
+        <translation>Автосохранение отчёта MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если отмечено, отчёт MPlayer/MPV будет сохранён в специальный файл каждый раз, когда начнётся воспроизведение нового файла. Это может требоваться для внешних приложений, которые получают информацию о воспроизводимом файле.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Имя файла отчёта MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Введите путь и имя файла для сохранения отчёта MPlayer/MPV.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4806,13 +4790,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Соотношение сторон монитора:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">&amp;Запускать MPlayer в отдельном окне</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Запускать MPlayer/MPV в отдельном окне</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4822,19 +4802,21 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>У&amp;ведомлять о cбоях MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Параметры MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь можно указать дополнительные параметры для MPlayer/MPV.
+Указывайте их, разделяя пробелами.
+Например: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4854,16 +4836,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Автосохранение отчёта MPlayer/MPV в файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>&amp;Код цвета:</translation>
-    </message>
-    <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4891,34 +4869,6 @@ Example: -flip -nosound</source>
         <translation>Отчёты</translation>
     </message>
     <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Отчёт выво&amp;да MPlayer</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">&amp;Настройки MPlayer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Автосохранение отчёта MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Если отмечено, отчёт MPlayer будет сохранён в специальный файл каждый раз, когда начнётся воспроизведение нового файла. Это может требоваться для внешних приложений, которые получают информацию о воспроизводимом файле.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Автосохранение имени файла отчёта MPlayer</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Введите путь и имя файла, используемого для сохранения отчёта MPlayer.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">&amp;Автосохранение отчёта MPlayer в файл</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="448"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>Передавать MPlayer-у короткие (8+3) имена</translation>
@@ -4944,14 +4894,6 @@ Example: -flip -nosound</source>
         <translation>Выберите соотношение сторон монитора.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Запускать MPlayer в отдельном окне</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">При выборе этой опции окно MPlayer не будет встроено в главное окно SMPlayer, а будет использовать своё собственное окно. Обратите внимание, что события клавиатуры и мыши будут переданы непосредственно MPlayer, что означает, что назначенные горячие клавиши и события мыши могут не работать как нужно, если окно MPlayer находится в фокусе.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>По умолчанию использовать демультиплексор lavf</translation>
@@ -4960,18 +4902,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Если эта опция включена, для всех форматов будет использоваться демультиплексор lavf.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">Внимание: mplayer2 по умолчанию уже использует демультиплекор lavf, поэтому включение этой опции для mplayer2 ни на что не повлияет.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Отчёт о сбоях MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Если эта опция отмечена, появится окно с информацией о сбое MPlayer. В другом случае, подобные ошибки будут проигнорированы.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4984,17 +4914,9 @@ Example: -flip -nosound</source>
         <translation>Если вы видите, некоторые части видео на других окнах, вы можете изменить код цвета чтобы исправить это. Попытайтесь выбрать цвет близкий к чёрному.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Настройки MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Инструменты</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Здесь можно ввести параметры MPlayer, разделяя их пробелами.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5002,17 +4924,9 @@ Example: -flip -nosound</source>
         <translation>Видеофильтры</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Здесь можно добавить видеофильтры, используемые MPlayer. Перечислите их, разделяя запятыми. Не используйте пробелы!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Аудио фильтры</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Здесь можно добавить аудиофильтры, используемые MPlayer. Перечислите их, разделяя запятыми. Не используйте пробелы!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5027,47 +4941,47 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Запускать MPlayer/MPV в отдельном окне</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>При выборе этой опции окно MPlayer/MPV не будет встроено в главное окно SMPlayer, а будет использовать своё собственное окно. Обратите внимание, что события клавиатуры и мыши будут переданы непосредственно MPlayer, иными словами, назначенные горячие клавиши и события мыши могут не работать как нужно, если окно MPlayer находится в фокусе.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Уведомлять о cбоях MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если эта опция отмечена, появится окно с информацией о сбое MPlayer/MPV. В ином случае подобные ошибки будут проигнорированы.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Переключает MPlayer/MPV в экспериментальный режим, в котором тайминг видео кадров рассчитывается независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении субтитров, привязанных к смене сцены, при включенной библиотеке SSA/ASS. Без данных о метках времени, тайминг субтитров будет неверен для некоторых кадров. Эта опция работает некорректно с отдельными демультиплексорами и кодеками.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Параметры MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь можно ввести параметры MPlayer или MPV, разделяя их пробелами.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь можно добавить видеофильтры MPlayer или MPV, разделяя их запятыми. Не используйте пробелы!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь можно добавить аудиофильтры MPlayer или MPV, разделяя их запятыми. Не используйте пробелы!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -5125,10 +5039,6 @@ Example: -flip -nosound</source>
         <translation>Если эта опция отмечена, SMPlayer сохранит отладочные сообщения в выводе SMPlayer (их можно увидеть в &lt;b&gt;Настройка -&gt; Смотреть отчёты -&gt; SMPlayer&lt;/b&gt;). Эта информация может быть полезна разработчикам, если вы нашли баг.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Если выбрано, SMPlayer будет сохранять сообщения MPlayer (их можно просмотреть в &lt;b&gt;Инструменты -&gt; Смотреть отчёты -&gt; MPlayer&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Эта опция позволяет фильтровать сообщения SMPlayer, которые сохраняются в отчёте. Здесь вы можете записать любое регулярное выражение. &lt;br&gt;Для примера: &lt;i&gt;^Core::.*&lt;/i&gt; будет отображать только строки, начинающиеся с &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5137,10 +5047,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Точные метки времени</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Переключает MPlayer в экспериментальный режим, в котором тайминг видео кадров рассчитываются независимо, и тем самым поддерживаются видео фильтры, добавляющие новые кадры или меняющие тайминг существующих. Более точный тайминг может быть заметен, например, при воспроизведении с опцией −ass субтитров, привязанных к смене сцены, Без −correct−pts тайминг субтитров, как правило, будет отключен некоторыми кадрами. С некоторыми демультиплексорами и кодеками эта опция работает некорректно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5190,12 +5096,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Отчёт &amp;вывода MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5459,10 +5365,6 @@ Example: -flip -nosound</source>
         <translation>Выбрать каталог</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Исполняемый файл MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Каталог снимков</translation>
@@ -5471,6 +5373,16 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
         <translation>Шаблон имени сриншотов</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation>Например %1 сохранит снимок как &apos;имяфильма_0001.png&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation>%1 указывает имя видео-файла без расширения, %2 добавляет четырёхзначный номер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
@@ -5515,27 +5427,27 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="879"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Исполняемый файл MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="880"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Здесь вы должны указать исполняемый файл MPlayer или MPV, который будет использовать SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Данный параметр указывает шаблон имени сохраняемых снимков.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>Полный список параметров шаблона представлен тут: </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Эта опция работает только с MPV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
@@ -5610,7 +5522,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Исполняемый файл MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5905,16 +5817,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Адаптивное (mplayer)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Удаление &quot;гребёнки&quot; по умолчанию</translation>
@@ -6007,10 +5909,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>У&amp;величение по умолчанию:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Здесь вы должны указать исполняемый файл mplayer, который будет использовать SMPlayer.&lt;br&gt;для SMPlayer необходим как минимум MPlayer 1.0rc1 (хотя рекомендуются последние ревизии из SVN).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6142,10 +6040,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Здесь можно указать каталог, куда будут сохраняться снимки экрана, сделанные SMPlayer-ом. Если каталог не указан, возможность получения скриншотов будет отключена.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">Пут&amp;ь к mplayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>

@@ -3717,10 +3717,6 @@ Please check the permissions of that folder.</source>
         <translation>Slovakisht</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovenisht</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoan</translation>
@@ -4727,10 +4723,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Log-o output-in e MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Log SMPlayer output</source>
         <translation>Log-o output-in e SMPlayer</translation>
@@ -4838,10 +4830,6 @@ Example: -flip -nosound</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4865,10 +4853,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Log-ët</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Log-o output-in e MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4914,10 +4898,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Opcione per MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="504"/>
@@ -7805,10 +7785,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Cache për &amp;TV:</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">&amp;Qualiteti i Youtube</translation>
     </message>
 </context>
 <context>

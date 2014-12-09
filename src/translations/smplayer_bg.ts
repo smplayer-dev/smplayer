@@ -3726,10 +3726,6 @@ Please check the permissions of that folder.</source>
         <translation>Словашки</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Словенски</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Самоански</translation>
@@ -4723,18 +4719,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Разширени настройки</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">&amp;Отчитане сривовете на MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Можете да добавяте команди за MPlayer.
-Отделяйте ги с интервали.
-Пример: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4750,10 +4734,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Можете също да добавяте и филтри за звука. 
 Правилото е същото като за видео филтрите.
 Пример: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Резултат на MPlayer-отчет</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4811,10 +4791,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Съотношение на монитора:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">&amp;Изп. на MPlayer в собствен прозорец</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
         <translation type="unfinished"></translation>
@@ -4867,10 +4843,6 @@ Example: -flip -nosound</source>
         <translation>&amp;Цветен код:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4894,34 +4866,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Отчети</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Резу&amp;лтат на MPlayer-отчет</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">Опции з&amp;а MPlayer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Автоматичен запис отчетите на MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Ако тази опция е отметната, отечтът на MPlayer ще бъде запаметен в различен файл всеки път, когато се възпроизвежда нов файл. Това е предназначено за външни приложения, така че да могат да извлекат информация за файла, който се възпроизвежда.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Авто. запис името на файла от MPlayer-отчета</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Тук въведете пътя и името на файла, в който ще се запазва отчета на MPlayer.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">Авто. запис отчета на MPlayer във файл.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4949,14 +4893,6 @@ Example: -flip -nosound</source>
         <translation>Изберете съотношението на монитора.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Пусни MPlayer в собствен прозорец</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Ако отметнете тази опция, видеопрозорецът на MPlayer няма да е вграден в SMPlayer, а ще използва собствен. Знайте, че действията с мишката и клавиатурата ще бъдат улавяни от MPlayer, това означава, че когато прозорецът на MPlayer е на фокус клавишни комбинации и кликове с мишката вероятно няма да робят, според очакваното.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>Използвай lavf демултиплексор по подразбиране</translation>
@@ -4965,18 +4901,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Ако тази опция е отметната, lavf демултиплексорът ще се използва за всички формати.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">Забележете: mplayer2 вече използва lavf демултиплексор по подразбиране, така че активирането на тази опция с mplayer2 няма да има ефект.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Съобщи за сривове на MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Ако тази опция е отметната, прозорецът ще изскача в известие за сривове на MPlayer. В противен случай ще бъдат ингорирани.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4989,17 +4913,9 @@ Example: -flip -nosound</source>
         <translation>Ако виждате части от видео върху друг прозорец, можете да го поправите като смените цветния ключ. Опитайте да изберете цвят близък до черно.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Опции за MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Опции</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Тук можете да въвеждате опций за MPlayer. Отделяйте ги с интервали.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5007,17 +4923,9 @@ Example: -flip -nosound</source>
         <translation>Филтри за видео</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Тук можете да добавяте видео филтри за MPlayer. Отделяйте ги със запетая. Не използвайте интервали!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Филтри за звук</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Тук можете да добавяте филтри за звук към MPlayer. Отделяйте ги със запетая. Не използвайте интервали!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5130,10 +5038,6 @@ Example: -flip -nosound</source>
         <translation>Ако тази опция е отметната, SMPlayer ще складира съобщенията с грешки, които излизат от програмата (може да видите отчета от &lt;b&gt;Опции -&gt; Преглед на отчети -&gt; SMPlayer&lt;/b&gt;). Тази информация може да е полезна за разработчик.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Ако е отметната, SMPlayer ще складира изхода от MPlayer (може да го видите от &lt;b&gt;Опции -&gt; Преглед на отчети -&gt; MPlayer&lt;/b&gt;). В случай на проблеми този отчет може да съдържа важна информациая, затова се препоръчва да запазите опцията активна.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Тази опция позволява да филтрирате съобщенията от SMPlayer, които ще се складират в отчета. Тук можете да запишете всякакви регулярни изрази. &lt;br&gt;Например: &lt;i&gt;^Core::.*&lt;/i&gt; ще извежда само редовете, започващи с &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5142,10 +5046,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Поправка на времевия ход</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Включване на експерименталния режим на MPlayer, за който се поддържат времевите отпечатъци за видео рамките, изчислени различно и видео филтрите, които добавят нови рамки или променят времевите отпечатъци на съществуващите. По-прецизни отпечатъци могат да се видят, например когато се изпълняват субтитри, чиито промени се извършват с SSA/ASS библиотека. Без правилните отпечатъци времевото разпределение на субтитрите няма да съвпада с рамките. Към момента тази опция не работи, както се очаква, с някои демултиплексори и кодеци.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5464,10 +5364,6 @@ Example: -flip -nosound</source>
         <translation>Избор на директория</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Изпълним файл на MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Папка за снимки на екрана</translation>
@@ -5475,6 +5371,16 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5910,16 +5816,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Компенсиране по подразбиране</translation>
@@ -6012,10 +5908,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>Стандартно &amp;увеличение:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Тук се задава файлът на mplayer, който SMPlayer ще използва.&lt;br&gt;SMPlayer изисква най-малко версия 1.0rc1 на MPlayer (последна версия от SVN е високо препоръчителна).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6147,10 +6039,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Тук можете да зададете папка, където снимките на екрана взети от SMPlayer ще бъдат сахранени. Ако тази папка не е валидна, възможността за снимки на екрана ще бъде забранена.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">&amp;MPlayer - изпълним файл:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7500,12 +7388,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Качество за Youtube</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Изберете предпочитано качество за youtube видеоклипове.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7912,18 +7800,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>Складиране за &amp;ТВ:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Качество за Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Изберете предпочитано качество за youtube видеоклипове.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Ка&amp;чество за Youtube</translation>
     </message>
 </context>
 <context>

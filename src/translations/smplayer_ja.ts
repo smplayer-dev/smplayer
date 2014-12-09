@@ -2254,7 +2254,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4066"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>開始しています...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -4717,18 +4717,6 @@ Do you want to overwrite?</source>
         <translation>詳細設定(&amp;A)</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">MPlayer のクラッシュを報告する(&amp;E)</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">ここでは MPlayer への追加オプションを渡すことができます。
-スペースで区切って書き込みます。
-例: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4743,10 +4731,6 @@ Example: scale=512:-2,eq2=1.1</source>
 Example: resample=44100:0:0,volnorm</source>
         <translation>そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
 例: resample=44100:0:0,volnorm&lt;byte value=&quot;x9&quot;/&gt;</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">MPlayer の出力を記録します</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4766,32 +4750,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV の出力を記録する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックされている場合、SMPlayer は MPlayer/MPV の出力を格納します (&lt;b&gt;オプション -&gt; ログの表示 -&gt; MPlayer&lt;/b&gt; でご覧になれます)。問題がある場合にこのログは重要な情報を含むことがあるので、このオプションのチェックを維持することが推奨されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV のログを自動保存する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、MPlayer/MPV のログは新しいファイルが再生を開始するごとに指定されたファイルへ保存されます。外部アプリケーションが再生空のファイルについての情報を取得できるように意図されています。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>自動保存する MPlayer/MPV のログのファイル名</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4804,13 +4788,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>モニターのアスペクト(&amp;M):</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">独自のウィンドウで MPlayer を実行する(&amp;R)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>独自のウィンドウで MPlayer/MPV を実行する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4820,19 +4800,21 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV のクラッシュを報告する(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV のオプション(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer/MPV への追加オプションを渡すことができます。
+スペースで区切って書き込みます。
+例: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4852,16 +4834,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルへ MPlayer/MPV のログを自動保存する(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>カラーキー(&amp;C):</translation>
-    </message>
-    <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4889,34 +4867,6 @@ Example: -flip -nosound</source>
         <translation>ログ</translation>
     </message>
     <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">MPlayer の出力を記録する(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">MPlayer のオプション(&amp;L)</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">MPlayer のログを自動保存する</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、MPlayer のログは新しいファイルが再生を開始するごとに指定されたファイルへ保存されます。外部のアプリケーションに意図されています、なので再生しているファイルについての情報を取得できます。</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">MPlayer のログのファイル名を自動保存する</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">MPlayer のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">ファイルへ MPlayer のログを自動保存する(&amp;U)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="448"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>MPlayer へ短いファイル名 (8+3) を渡す</translation>
@@ -4942,14 +4892,6 @@ Example: -flip -nosound</source>
         <translation>モニターのアスペクト比を選択します。</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">独自のウィンドウで MPlayer を実行する</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">このオプションをチェックすると、MPlayer のビデオ ウィンドウは SMPlayer のメイン ウィンドウに埋め込まれず代わりに独自のウィンドウを使用します。マウスとキーボードのイベントは MPlayer によって直接ハンドルされ、それがキー ショートカットとマウス クリックがおそらく MPlayer のウィンドウにフォーカスがあるとき予期したとおり動作しないことに注意します。</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>既定で lavf デミュクサーを使用する</translation>
@@ -4958,18 +4900,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>このオプションがチェックされている場合、lavf デミュクサーがすべてのフォーマットに使用されます。</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">注意: MPlayer2 は既に既定で lavf デミュクサーを使用しますので MPlayer2 でこのオプションを有効にしても効果はありません。</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">MPlayer のクラッシュを報告する</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、MPlayer のクラッシュについて知らせるウィンドウが表示されます。チェックされていない場合これらの失敗は無視されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4982,17 +4912,9 @@ Example: -flip -nosound</source>
         <translation>何かその他のウィンドウを超えてビデオの部分が見える場合は、修正するのにカラーキーを変更できます。黒に近い色の選択を試行します。</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">MPlayer のオプション</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>オプション</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">ここでは MPlayer のオプションを入力できます。スペースで区切って書き込みます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5000,17 +4922,9 @@ Example: -flip -nosound</source>
         <translation>ビデオ フィルター</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">ここでは MPlayer のビデオ フィルターを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>オーディオ フィルター</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">ここでは MPlayer のオーディオ フィルターを追加できます。コンマで区切って書き込みます。スペースを使用しません!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5025,47 +4939,47 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>独自のウィンドウで MPlayer/MPV を実行する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションをチェックすると、MPlayer/MPV のビデオ ウィンドウは SMPlayer のメイン ウィンドウに埋め込まれず代わりに独自のウィンドウを使用します。マウスとキーボードのイベントは MPlayer/MPV によって直接ハンドルされ、したがってキー ショートカットとマウス クリックがおそらく MPlayer/MPV ウィンドウにフォーカスがあるときに期待通り動作しないことにご注意ください。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV のクラッシュを報告する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、MPlayer/MPV のクラッシュについて知らせるウィンドウが表示されます。チェックされていない場合、これらの失敗は無視されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ フレームのタイムスタンプが異なって計算され新しいフレームを追加するか既存のフレームのタイムスタンプを変更するビデオ フィルターがサポートされている試験的なモードへ MPlayer/MPV を切り替えます。たとえば SSA/ASS ライブラリが有効でシーンの切り替わりに時間が合った字幕を再生するときにより正確なタイムスタンプが表示されます。PTS の修正なしでは字幕のタイミングは通常いくつかのフレームでオフになります。このオプションは一部のデミュクサーとコーデックでは正しく動作しません。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV のオプション</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer または MPV のオプションを入力できます。スペースで区切って書き込みます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer/MPV のビデオ フィルターを追加できます。カンマで区切って書き込みます。スペースは使用しないでください!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは MPlayer/MPV のオーディオ フィルターを追加できます。カンマで区切って書き込みます。スペースは使用しないでください!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -5120,11 +5034,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="528"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>このオプションがチェックされている場合、SMPlayer は SMPlayer が出力するデバッグ メッセージ (&lt;b&gt;オプション -&gt; ログの表示 -&gt; SMPlayer&lt;/b&gt; でログをご覧になれます) を格納します。この情報はバグを見つける場合に開発者に非常に有用です。</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">チェックされている場合、SMPlayer は MPlayer の出力 (&lt;b&gt;オプション -&gt; ログの表示 -&gt; MPlayer&lt;/b&gt; でご覧になれます) を格納します。問題の場合にこのログは重要な情報を含むことがあるので、このオプションのチェックを維持することが推奨されます。</translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は SMPlayer が出力するデバッグ メッセージを格納します (&lt;b&gt;オプション -&gt; ログの表示 -&gt; SMPlayer&lt;/b&gt; でログをご覧になれます)。この情報はバグを見つける場合に開発者に非常に有用です。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="559"/>
@@ -5135,10 +5045,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>PTS を修正する</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">ビデオ フレームのタイムスタンプが異なって計算され新しいフレームを追加するか既存のものを変更するビデオ フィルターがサポートされている試験的なモードへ MPlayer を切り替えます。より正確なタイムスタンプはたとえば SSA/ASS ライブラリが有効でシーンの変更に合わせられた字幕を再生するときに可視にできます。PTS の修正なしでは字幕のタイミングが通常いくつかのフレームでオフになります。このオプションは一部のデミュクサーとコーデックでは動作しません。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5188,12 +5094,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV の出力を記録する(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5355,7 +5261,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>SMPlayer が既定では CDROM または DVD デバイスを選択しません。なので実際に CD または DVD を再生する前に使用したいデバイスを選択する必要があります (同じにできます)。</translation>
+        <translation>SMPlayer が既定では CDROM または DVD デバイスを選択しません。したがって実際に CD または DVD を再生する前に使用したいデバイスを選択する必要があります (同じにできます)。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
@@ -5457,10 +5363,6 @@ Example: -flip -nosound</source>
         <translation>ディレクトリの選択</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">MPlayer 実行ファイル</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>スクリーンショット フォルダー</translation>
@@ -5469,6 +5371,16 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
         <translation>スクリーンショットのテンプレート</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation>たとえば %1 は &apos;moviename_0001.png&apos; としてスクリーンショットを保存します。</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation>%1 は拡張子なしでビデオのファイル名を指定し、%2 は 0 で埋められた 4 桁の数字を追加します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
@@ -5513,27 +5425,27 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="879"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 実行ファイル</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="880"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここで SMPlayer が使用する MPlayer または MPV の実行ファイルを指定する必要があります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはスクリーンショットの保存に使用されるファイル名のテンプレートを指定します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>テンプレート指定子の完全な一覧のためにはこのリンクにアクセスします:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションは MPV でのみ動作します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
@@ -5608,7 +5520,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 実行ファイル(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5903,16 +5815,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>既定でのインターレース解除</translation>
@@ -6005,10 +5907,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>既定の拡大率(&amp;Z):</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">ここでは SMPlayer が使用する mplayer 実行ファイルを指定する必要があります。&lt;br&gt;SMPlayer は少なくとも MPlayer 1.0rc1 を必要とします (しかし SVN からの最近のリビジョンは強く推奨されます)。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6140,10 +6038,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>ここでは SMPlayer によって取得されるスクリーンショットが格納されるフォルダーを指定できます。フォルダーが有効でない場合スクリーンショット機能は無効になります。</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">MPlayer 実行ファイル(&amp;M):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -8026,12 +7920,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>ディレクトリの追加が再帰的にサブディレクトリのファイルも追加することがよい場合はこのオプションをチェックします。チェックしないと選択されたディレクトリのファイルのみ追加されます。</translation>
+        <translation>ディレクトリを追加して再帰的にサブディレクトリのファイルも追加したい場合はこのオプションをチェックします。チェックしないと選択されたディレクトリ内のファイルのみ追加されます。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="144"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>プレイリストに追加されるファイルにいくつかの情報を問い合わせるにはこのオプションをチェックします。それはファイルのタイトル名 (利用可能なら) と長さの表示を許可します。チェックしないとこの情報はファイルが実際に再生されるまで利用できなくなります。ご注意ください: このオプションは特に多くのファイルを追加する場合、低速になることがあります。</translation>
+        <translation>プレイリストに追加されるファイルにいくつかの情報を問い合わせるにはこのオプションをチェックします。これはファイルのタイトル名 (利用可能なら) と長さの表示を許可します。チェックしないとこの情報はファイルが実際に再生されるまで利用できなくなります。ご注意ください: このオプションは特に多くのファイルを追加する場合、低速になることがあります。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>

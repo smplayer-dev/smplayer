@@ -4717,18 +4717,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>L&amp;anjutan</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">&amp;Lapor kerosakan MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Disini anda boleh lepasi pilihan tambahan ke MPlayer.
-Tulis ia secara berasingan dengan berjarak.
-Contoh: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4743,10 +4731,6 @@ Contoh: scale=512:-2,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>Dan akhir sekali penapis audio. Peraturan yang serupa seperti penapis video.
 Contoh: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Log output MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4804,10 +4788,6 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Nisbah &amp;monitor:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">&amp;Jalankan MPlayer di dalam tetingkapnya sendiri</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
         <translation type="unfinished"></translation>
@@ -4860,10 +4840,6 @@ Example: -flip -nosound</source>
         <translation>Kunci &amp;warna:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4887,34 +4863,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Log</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Log &amp;output MPlayer</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">Pilihan untuk MP&amp;layer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Simpan-sendiri log MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Jika pilihan ini ditanda, log MPlayer akan disimpan ke fail yang dinyatakan setiap kali fail baru mula dimainkan. Ia bertujuan untuk aplikasi luaran, supaya ia boleh mendapat maklumat mengenai fail yang anda mainkan.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Nama fail log MPlayer simpan-sendiri</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Masukkan disini laluan dan nama fail yang akan digunakan untuk menyimpan log MPlayer.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">S&amp;impan-sendiri log MPlayer ke fail</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4942,14 +4890,6 @@ Example: -flip -nosound</source>
         <translation>pilih nisbah bidang monitor anda.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Jalankan MPlayer di dalam tetingkapnya sendiri</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Jika anda tanda pilihan ini, tetingkap video MPlayer tidak akan dibenamkan dalam tetingkap utama SMPlayer tetapi ia akan digunakan tetingkapnya sendiri. Perhatian peristiwa tetikus dan papan kekunci akan dikendali secara terus oleh MPlayer, ini bermakna pintasan kekunci dan klik tetikus tidak akan berfungsi sepertimana yang diharapkan bila tetingkap MPlayer telah difokuskan.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>Nyahselang-seli secara lalai</translation>
@@ -4958,18 +4898,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Jika pilihan ini ditanda, demuxer akan digunakan untuk semua format.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">Perhatian: mplayer sudah gunakan demuxer lavf secara lalai jadi membenarkan pilihan ini dengan mplayer2 tidak akan memberi apa-apa kesan.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Lapor kerosakan MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">JIka pilihan ini ditanda, satu tetingkap akan muncul untuk memaklumkan mengenai kerosakan MPlayer. Jika tidak kegagalan tersebut akan diabaikan secara senyap.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4982,17 +4910,9 @@ Example: -flip -nosound</source>
         <translation>JIka anda lihat bahagian video pada tetingkap lain, anda boleh ubah kunci warna untuk membaikinya. Cuba pilih warna yang menghampiri warna hitam.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Pilihan untuk MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Pilihan</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Disini anda taipkan pilihan untuk MPlayer. Tulis ia secara berasingan dengan berjarak.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5000,17 +4920,9 @@ Example: -flip -nosound</source>
         <translation>Penapis video</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Disini anda boleh tambah penapis video untuk MPlayer. Tulis ia secara berasingan dengan tanda koma. Jangan guna jarak!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Penapis audio</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Disini anda boleh tambah penapis audio untuk MPlayer. Tulis ia secara berasingan dengan tanda koma. Jangan guna jarak!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5123,10 +5035,6 @@ Example: -flip -nosound</source>
         <translation>Jika pilihan ini ditanda, SMPlayer akan menyimpan mesej penyahpepijat yang outputkan SMPlayer (anda boleh lihat lognya di dalam &lt;b&gt;Pilihan -&gt; Papar log -&gt; SMPlayer&lt;/b&gt;). Maklumat ini berguna untuk pembangun jika anda menghadapi pepijat.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Jika ditanda, SMPlayer akan menyimpan output MPlayer (anda boleh melihatnya di dalam &lt;b&gt;Pilihan -&gt; Papar log -&gt; MPlayer&lt;/b&gt;). Jika menghadapi masalah log ini akan mengandungi maklumat penting, oleh itu disarankan pilihan ini ditanda.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Pilihan ini membenarkan penapisan mesej SMPlayer yang akan disimpan dalam log. Disini anda boleh tulis sebarang ungkapan nalar.&lt;br&gt;Contohnya: &lt;i&gt;^Core::.*&lt;/i&gt; akan paparkan baris yang bermula dengan &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5135,10 +5043,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Pembetulan pts</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Tukar MPlayer dimana setem masa bagi bingkai video dikiran secara berasingan dan penapis video ditambah bingkai baru atau diubahsuai setem masa sedia ada yang tersokong. Lebih tepat setem masa boleh dikelihatankan contohnya bila memainkan sarikata bermasa pada adegan yang berubah dengan pustaka SSA/ASS dibenarkan. Tanpa pts yang dibetulkan pemasaan sarikata akan dimatikan oleh sesetengah bingkai. Pilihaan ini tidak berfungsi baik dengan beberapa jenis demuxer dan kodeks.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5457,10 +5361,6 @@ Example: -flip -nosound</source>
         <translation>Pilih satu direktori</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Bolehlaku MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Folder cekupan skrin</translation>
@@ -5469,6 +5369,16 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
         <translation>Templat untuk cekupan skrin</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
@@ -5903,16 +5813,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Nyahselang-seli secara lalai</translation>
@@ -6005,10 +5905,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>&amp;Zum lalai:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Disini anda mesti nyatakan bolehlaku mplayer yang mana SMPlayer akan gunakan.&lt;br&gt;SMPlayer memerlukan sekurang-kurangnya MPlayer 1.0rc1 (walaupun revisi terkini dari SVN sangat disarankan).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6140,10 +6036,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Disini anda boleh nyatakan folder dimana cekupan skrin yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur cekupan skrin akan dilumpuhkan.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">Bolehlaku &amp;MPlayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>

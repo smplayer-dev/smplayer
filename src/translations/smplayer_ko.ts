@@ -2254,7 +2254,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4066"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>시작하는 중...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -4717,18 +4717,6 @@ Do you want to overwrite?</source>
         <translation>고급</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">MPlayer 크래시 보고하기</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">여기에서 MPlayer에 추가 옵션을 전달할 수 있습니다.
-공백으로 구분하여 입력하세요.
-예: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4743,10 +4731,6 @@ Example: scale=512:-2,eq2=1.1</source>
 Example: resample=44100:0:0,volnorm</source>
         <translation>오디오 필터도 전달할 수 있습니다. 쉼표로 구분합니다.
 예: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">MPlayer 출력 기록하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4766,32 +4750,32 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Mplayer/MPV 출력 기록하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 SMPlayer는 MPlayer/MPV의 출력을 저장합니다. (&lt;b&gt;설정 -&gt; 로그 보기 -&gt; MPlayer/MPV&lt;/b&gt; 에서 볼 수 있습니다) 문제가 생겼을 때 이 로그는 중요한 정보를 담고 있을 수 있으므로 이 옵션을 사용하길 권장합니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 로그 자동저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 선택하면, 새로운 파일을 재생할 때마다 MPlayer/MPV 로그를 지정한 파일에 저장합니다. 재생중인 파일정보를 외부 프로그램이 알 수 있도록 하기 위한 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 로그 파일명 자동저장하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 로그를 저장할 경로와 파일명을 여기에 입력하세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4804,13 +4788,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>모니터 비율:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">MPlayer를 별도의 창에서 실행하기</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV를 별도의 창에서 실행하기(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4820,19 +4800,21 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 크래쉬 보고하기(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 옵션(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 MPlayer/MPV에 전달할 추가 옵션을 사용할 수 있습니다.
+공백으로 구분하여 입력하십시요.
+(예: -flip -nosound)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4852,16 +4834,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 로그를 파일에 자동저장하기(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>컬러키:</translation>
-    </message>
-    <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4889,34 +4867,6 @@ Example: -flip -nosound</source>
         <translation>로그</translation>
     </message>
     <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">MPlayer 출력 기록하기</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">MPlayer 옵션</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">MPlayer 로그 자동저장하기</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">이 옵션을 선택하면 새 파일을 재생할 때마다 MPlayer 로그를 지정한 파일에 기록할 것입니다. 외부 프로그램을 위한 것인데, 당신이 재생하고 있는 파일에 대한 정보를 얻기 위한 것입니다.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">MPlayer 로그 파일명 자동저장하기</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">여기에 MPlayer 로그를 저장할 경로와 파일명을 입력하세요.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">MPlayer 로그를 파일에 자동저장하기</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="448"/>
         <source>Pass short filenames (8+3) to MPlayer</source>
         <translation>MPlayer에 짧은 파일명(8+3)으로 전달하기</translation>
@@ -4942,14 +4892,6 @@ Example: -flip -nosound</source>
         <translation>모니터의 화면 비율을 선택하세요.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">MPlayer를 별도의 창에서 실행하기</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">이 옵션에 체크하면 MPlayer 동영상 창은 SMPlayer의 메인 창이 아니라 그 자신의 창을 별도로 사용할 것입니다. 이 경우 마우스와 키보드 이벤트는 MPlayer가 직접 처리하게 됩니다. 다시 말해 MPlayer 단독 창에 포커스가 있을 때 단축키와 마우스 클릭은 SMPlayer에서 설정한 대로 동작하지 않습니다.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>기본적으로 lavf 디먹서를 사용합니다</translation>
@@ -4958,18 +4900,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>이 옵션 사용시 모든 형식의 동영상에 lavf 디먹서를 사용할 것입니다.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">알림: mplayer2는 이미 lavf 디먹서를 기본값으로 사용하기 때문에, 이 옵션을 mplayer2에서 사용해도 아무런 효과가 없습니다.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">MPlayer 크래시 보고하기</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">이 옵션에 체크하면 MPlayer 크래시를 알리는 창이 뜰 것입니다. 그렇지 않으면 이 크래시는 조용히 무시됩니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4982,17 +4912,9 @@ Example: -flip -nosound</source>
         <translation>다른 창 밑에서 재생중인 동영상이 비춰 보일 때, 문제 해결을 위해 컬러키를 변경할 수 있습니다. 검정에 가까운 색을 선택해 보세요.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">MPlayer 옵션</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>옵션</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">여기에서 MPlayer 옵션을 입력할 수 있습니다. 공백으로 구분하여 입력하세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5000,17 +4922,9 @@ Example: -flip -nosound</source>
         <translation>비디오 필터</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">여기에 MPlayer용 비디오 필터를 추가할 수 있습니다. 콤마로 구분해서 입력하세요. 공백이 아닙니다!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>오디오 필터</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">여기에 MPlayer용 오디오 필터를 추가할 수 있습니다. 콤마로 구분해서 입력하세요. 공백이 아닙니다!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5025,47 +4939,47 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV를 별도의 창에서 실행하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 MPlayer/MPV 동영상 창은 SMPlayer의 메인 창이 아니라 그 자신의 창을 별도로 사용할 것입니다. 이 경우 마우스와 키보드 이벤트는 MPlayer/MPV가 직접 처리하게 됩니다. 다시 말해 MPlayer/MPV 단독 창에 포커스가 있을 때 단축키와 마우스 클릭은 SMPlayer에서 설정한 대로 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 크래쉬 보고하기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션에 체크하면 MPlayer/MPV가 다운될 때 정보창이 뜰 것입니다. 그렇지 않으면 이 크래쉬는 조용히 무시될 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 프레임의 타임스탬프를 다르게 계산하고, 새로운 프레임을 추가하거나 존재하는 프레임의 타임스탬프를 변경하는 비디오 필터를 지원하는 실험적인 모드로 MPlayer/MPV를 전환합니다. 예를 들면 SSA/ASS 라이브러리를 사용해서 장면 변화에 맞춘 자막을 재생할 때 더 정교한 타임스탬프를 볼 수 있습니다. pts를 교정하지 않으면 자막 타이밍은 일반적으로 몇 프레임이 떨어집니다. 이 옵션은 몇몇 디먹서와 코덱에서 정상적으로 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 옵션</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에서 MPlayer/MPV 옵션을 입력할 수 있습니다. 공백으로 구분하여 입력하세요.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 MPlayer/MPV용 영상 필터를 추가할 수 있습니다. 콤마로 구분해서 입력하세요. 공백이 아닙니다!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 MPlayer/MPV용 음성 필터를 추가할 수 있습니다. 콤마로 구분하여 입력하세요. 공백이 아닙니다!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -5123,10 +5037,6 @@ Example: -flip -nosound</source>
         <translation>이 옵션 사용시 SMPlayer는 SMPlayer가 출력하는 디버깅 메시지를 저장합니다. (설정 -&gt; 로그 보기 -&gt; SMPlayer 에서 로그를 볼 수 있습니다) 이것은 당신이 버그를 발견한 경우 개발자에게 매우 유용한 정보입니다.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">이 옵션 사용시 SMPlayer는 MPlayer의 출력을 저장합니다. (설정 -&gt; 로그 보기 -&gt; MPlayer 에서 볼 수 있습니다) 문제가 생겼을 때 이 로그는 중요한 정보를 담고 있을 수 있으므로 이 옵션을 사용하길 권장합니다.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>이 옵션은 로그에 저장되는 SMPlayer 메시지를 골라냅니다. 정규식을 사용할 수 있습니다. 예:  &lt;i&gt;^Core::.*&lt;/i&gt; 는 &lt;i&gt;Core::&lt;/i&gt;로 시작하는 줄만 출력합니다.</translation>
@@ -5135,10 +5045,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>pts 교정하기</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">비디오 프레임의 타임스탬프를 다르게 계산하고 새로운 프레임을 추가하거나 존재하는 프레임의 타임스탬프를 변경하는 비디오 필터를 지원하는 실험적인 모드로 MPlayer를 전환합니다. 예를 들면 SSA/ASS 라이브러리를 사용해서 장면 변화에 맞춘 자막을 재생할 때 더 정교한 타임스탬프를 볼 수 있습니다. pts를 교정하지 않으면 자막 타이밍은 일반적으로 몇 프레임이 떨어집니다. 이 옵션은 몇몇 디먹서와 코덱에서 정상적으로 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5188,12 +5094,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer 출력 기록하기(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5457,10 +5363,6 @@ Example: -flip -nosound</source>
         <translation>폴더 선택하기</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">MPlayer 실행 파일</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>스크린샷 폴더</translation>
@@ -5469,6 +5371,16 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
         <translation>스크린샷 템플릿</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation>예를 들어 %1 은 스크린샷을 &apos;moviename_0001.png&apos; 로 저장합니다.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation>%1 은 확장자 없는 동영상의 파일명이고, %2는 0으로 채운 네자리 숫자를 파일명 뒤에 추가합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="934"/>
@@ -5513,27 +5425,27 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="879"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV 실행 파일</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="880"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>여기에 SMPlayer가 사용할 MPlayer나 MPV 실행파일의 위치를 지정해야 합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 스크린샷을 저장하는데 사용되는 파일명 템플릿을 지정합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>템플릿 지정자의 전체목록은 이 링크를 방문하세요:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 MPV에서만 동작합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
@@ -5608,7 +5520,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;MPlayer/MPV 실행 파일:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5903,16 +5815,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>기본 디인터레이스</translation>
@@ -6005,10 +5907,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>기본 확대:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">여기에 SMPlayer가 사용할 mplayer 실행 파일을 지정해야 합니다.&lt;br&gt;SMPlayer는 최소한 1.0rc1을 필요로 합니다. (물론 SVN의 최신 버전을 강력히 추천합니다)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6140,10 +6038,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>여기에 SMPlayer가 찍은 스크린샷을 저장할 폴더를 지정할 수 있습니다. 지정한 폴더가 없으면 스크린샷 기능은 동작하지 않습니다.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">MPlayer 실행 파일:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>

@@ -1380,19 +1380,19 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <location filename="../basegui.cpp" line="1882"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spento</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1883"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Normale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Morbido</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -1410,7 +1410,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <location filename="../basegui.cpp" line="1888"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Accentuato</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
@@ -1455,27 +1455,27 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="4582"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Connessione mancante</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4583"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Il video richiesto ha bisogno di aprire una connessione HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4584"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sfortunatamente il componente openssl, richiesto allo scopo, non è presente nel sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4585"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prego, visitare %1 per sapere come aggiustare questo problema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4586"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>questo collegamento</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4596"/>
@@ -1516,7 +1516,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1976"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Condividi SMPlayer con i tuoi amici</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2981"/>
@@ -2255,7 +2255,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../core.cpp" line="4066"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Avvio...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -2407,7 +2407,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Ops, qualcosa è andato storto</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -3726,10 +3726,6 @@ Controllarne i relativi permessi.</translation>
         <translation>Slovacco</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Sloveno</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoano</translation>
@@ -4408,7 +4404,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Modulo</translation>
     </message>
 </context>
 <context>
@@ -4460,7 +4456,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Seek bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Barra di ricerca</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
@@ -4505,7 +4501,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Riproduci / Pausa</translation>
+        <translation>Riproduci / Pausa</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
@@ -4723,18 +4719,6 @@ Vuoi sovrascriverlo?</translation>
         <translation>&amp;Avanzate</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">S&amp;egnala i crash di MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Qui è possibile passare opzioni addizionali a MPlayer.
-Scriverle separate da spazi.
-Esempio: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4749,10 +4733,6 @@ Esempio: resize=512:384,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>E infine i filtri audio. Stessa regola dei filtri video.
 Esempio: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Registra l&apos;output di MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4772,7 +4752,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Registra l&apos;output di MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
@@ -4782,7 +4762,7 @@ Esempio: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"></translation>
+        <translation>Salva automaticamente il registro di MPlayer su file</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
@@ -4808,10 +4788,6 @@ Esempio: resample=44100:0:0,volnorm</translation>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
         <translation>Rapporto del &amp;monitor:</translation>
-    </message>
-    <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">&amp;Esegui MPlayer nella sua finestra</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
@@ -4866,10 +4842,6 @@ Example: -flip -nosound</source>
         <translation>&amp;Chiave colore:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4893,34 +4865,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Registri</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Abilita il registro di &amp;MPlayer</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">Opzioni per MP&amp;layer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Salva automaticamente il registro di MPlayer su file</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Selezionando questa opzione, l&apos;output di MPlayer verrà salvato automaticamente nel file specificato ogni volta che viene riprodotto un nuovo file.Utile per applicazioni esterne, per avere informazioni sul file in riproduzione.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Nome del file di registro di MPlayer</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Inserire nome e percorso del file che verrà usato come registro di MPlayer.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">Salva au&amp;tomaticamente il registro di MPlayer su file</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4948,14 +4892,6 @@ Example: -flip -nosound</source>
         <translation>Selezionare il rapporto d&apos;aspetto del monitor in uso.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Esegui MPlayer nella sua finestra</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Selezionando questa opzione, la finestra di MPlayer non sarà contenuta in quella di SMPlayer. Eventi da mouse e tastiera saranno gestiti direttamente da MPlayer, quindi le opzioni in preferenze potrebbero non funzionare.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation type="unfinished"></translation>
@@ -4964,14 +4900,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Segnala i crash di MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Se si seleziona questa opzione, apparirà una finestra per fornire informazioni riguardo i crash di MPlayer. Altrimenti essi verranno ignorati.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4984,17 +4912,9 @@ Example: -flip -nosound</source>
         <translation>Se si visualizzano parti del video al di sopra di altre finestre, si può cambiare la chiave colore. Provare a selezionare un colore vicino al nero.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Opzioni per MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Opzioni</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Qui si possono passare opzioni a MPlayer. Scriverle separate da spazi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5002,17 +4922,9 @@ Example: -flip -nosound</source>
         <translation>Filtri video</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Qui si possono aggiungere filtri video a MPlayer. Scrivili separati da virgole. Non usare spazi!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Filtri audio</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Qui si possono aggiungere filtri audio a MPlayer. Scrivili separati da virgole. Non usare spazi!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5052,7 +4964,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Opzioni per MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
@@ -5125,10 +5037,6 @@ Example: -flip -nosound</source>
         <translation>Se questa opzione è selezionata, SMPlayer salverà i messaggi di debug (puoi visualizzarlo in &lt;b&gt;Opzioni -&gt; Vedi registri -&gt; SMPlayer&lt;/b&gt;). Queste informazioni possono essere utili per gli sviluppatori nel caso si trovi un bug.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Se selezionata, SMPlayer salverà l&apos;output di MPlayer (puoi visualizzarlo in &lt;b&gt;Opzioni -&gt; Vedi registri -&gt; MPlayer&lt;/b&gt;). In caso di problemi, questo registro può contenere informazioni importanti, si raccomanda quindi di tenere selezionata questa opzione.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Questa opzione permette di filtrare i messaggi di SMPlayer che saranno salvati nel registro. Potete inserire qualsiasi espressione regolare. &lt;br&gt;Per esempio: &lt;i&gt;^Core::.*&lt;/i&gt; mostrerà solo le linee che iniziano con &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5137,10 +5045,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Correggi pts</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Applica una modalità sperimentale di MPlayer dove i timestamp per i fotogrammi video sono calcolati in modo differente e sono supportati i filtri video che aggiungono fotogrammi o modificano i timestamp di quelli presenti. Timestamp più precisi possono vedersi per esempio quando si riproducono sottotitoli temporizzati ai cambi di scena con la libreria SSA/ASS abilitata. Senza correct pts la temporizzazione dei sottotitoli sarà tipicamente spostata di qualche fotogramma. Questa opzione non funzionerà correttamente con alcuni demuxer e codec.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5190,7 +5094,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
@@ -5225,7 +5129,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="498"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata, le informazioni dai tags saranno mostrate nel titolo della finestra. Altrimenti sarà mostrato soltanto il nome dei file.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="275"/>
@@ -5337,7 +5241,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se si abilita l&apos;opzione, smplayer riprodurrà i DVD usando dvdnav. Richiede una versione recente di mplayer compilata con il supporto a dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -5441,7 +5345,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="112"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished">6 (5.1 Surround) {8 (7.1 ?}</translation>
+        <translation>8 (7.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="140"/>
@@ -5459,10 +5363,6 @@ Example: -flip -nosound</source>
         <translation>Seleziona una cartella</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Eseguibile MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Cartella per il salvataggio schermate</translation>
@@ -5470,6 +5370,16 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
+        <translation>Modello per schermate</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5515,12 +5425,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="879"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Eseguibile MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="880"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Qui si deve specificare l&apos;eseguibile MPlayer o MPV che  utilizzerà SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="914"/>
@@ -5535,7 +5445,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione funziona solo con mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
@@ -5555,7 +5465,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equalizzatore Audio globale</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1062"/>
@@ -5610,7 +5520,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>Eseguibile MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5904,16 +5814,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Deinterlacciamento predefinito</translation>
@@ -6006,10 +5906,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>&amp;Zoom predefinito:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Qui è necessario specificare l&apos;eseguibile mplayer che SMPlayer userà.&lt;br&gt;SMPlayer richiede almeno MPlayer 1.0rc1 (tuttavia si consiglia una versione più recente presa da SVN).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6141,10 +6037,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Qui puoi specificare una cartella dove verranno salvate le schermate prese in SMPlayer. Se la cartella non esiste la funzionalità di cattura schermate verrà disattivata.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">Eseguibile &amp;Mplayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7077,7 +6969,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
         <source>Move the window when the video area is dragged</source>
-        <translation type="unfinished"></translation>
+        <translation>Spostare la finestra quando l&apos;area video viene trascinata</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
@@ -7204,7 +7096,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata, il controllo mobile verrà visualizzato anche in modalità compatta.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="763"/>
@@ -7219,7 +7111,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="767"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo per nascondere il controllo</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
@@ -7366,27 +7258,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="654"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Nascondere finestra video durante la riproduzione di file audio</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="655"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata la finestra video sarà nascosta durante la riproduzione di file audio.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nascondere finestra video durante la riproduzione di file audio</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="719"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricerca precisa</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="720"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata, le ricerche sono più accurate, ma possono essere anche un po&apos; più lente. Può non funzionare con alcuni formati video.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="722"/>
@@ -7396,7 +7288,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="568"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ricerca precisa</translation>
     </message>
 </context>
 <context>
@@ -7404,17 +7296,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (ed altri siti)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Attivare supporto interno per Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduzione &amp;qualità</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
@@ -7429,37 +7321,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="120"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">&amp;Abilita proxy</translation>
+        <translation>&amp;Abilita proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Host:</translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Porta:</translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="166"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Nome utente:</translation>
+        <translation>&amp;Nome utente:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="179"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">Pa&amp;ssword:</translation>
+        <translation>Pa&amp;ssword:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="196"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Tipo:</translation>
+        <translation>&amp;Tipo:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
@@ -7479,27 +7371,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita supporto interno per Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è attiva, SMPlayer proverà a riprodurre video da URL di Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Qualità Youtube</translation>
+        <translation>Qualità Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Selezionare la qualità preferita per i video Youtube.</translation>
+        <translation>Selezionare la qualità preferita per i video Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7514,7 +7406,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduzione di video da siti di streaming</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -7524,22 +7416,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Richiede mpv e youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="158"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished">Abilita/disabilita l&apos;uso del proxy.</translation>
+        <translation>Abilita/disabilita l&apos;uso del proxy.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
@@ -7549,22 +7441,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="161"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished">Il nome host del proxy.</translation>
+        <translation>Il nome host del proxy.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="164"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">La porta del proxy.</translation>
+        <translation>La porta del proxy.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome utente</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
@@ -7574,7 +7466,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Password</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="170"/>
@@ -7584,7 +7476,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>Type</source>
-        <translation type="unfinished">Tipo</translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
@@ -7906,18 +7798,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Cache for &amp;TV:</source>
         <translation>Cache per la &amp;TV:</translation>
     </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Qualità Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Selezionare la qualità preferita per i video Youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">&amp;Qualità Youtube</translation>
-    </message>
 </context>
 <context>
     <name>PrefPlaylist</name>
@@ -7939,22 +7819,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation type="unfinished">Nessuno</translation>
+        <translation>Nessuno</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"></translation>
+        <translation>File video</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>File audio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>File video e audio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
@@ -7964,12 +7844,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="125"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiunta files da cartella</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="126"/>
         <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione permette di aggiungere files automaticamente alla playlist:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="127"/>
@@ -7999,7 +7879,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="133"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduci files dall&apos;inizio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="134"/>
@@ -8009,17 +7889,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="143"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>Ottieni automaticamente le info sui file aggiunti</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="150"/>
         <source>Save copy of playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Salva una copia della playlist in uscita</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="151"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è selezionata, una copia della playlist verrà salvata nella configurazione smplayer quando è chiuso, e sarà ricaricato automaticamente quando smplayer viene eseguito di nuovo.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8246,12 +8126,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione attiva la libreria ASS, che permette di mostrare sottotitoli con colori multipli, caratteri...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente non dovresti disabilitare questa opzione, a meno che la tua versione di MPlayer sia priva del supporto freetype. &lt;b&gt;Disabilitando questa opzione potresti rendere i sottotitoli non funzionanti!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8261,7 +8141,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata il sistema di caratteri di Windows sarà disponibile per i sottotitoli. C&apos;è un inconveniente: una cache di carattere deve essere creata, che può richiedere un certo tempo.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
@@ -9078,7 +8958,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="435"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished">Info &amp;Video</translation>
+        <translation>Info &amp;Video</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
@@ -9093,12 +8973,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="448"/>
         <source>Pause</source>
-        <translation type="unfinished">Pausa</translation>
+        <translation>Pausa</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="449"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
 </context>
 <context>
@@ -9191,7 +9071,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(separatore)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
@@ -9242,12 +9122,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"></translation>
+        <translation>Proprietà VDPAU</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona i codecs vdpau da utilizzare. Non tutti possono funzionare.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
@@ -9285,7 +9165,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Equalizzatore Video</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>

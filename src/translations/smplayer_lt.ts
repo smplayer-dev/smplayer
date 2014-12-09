@@ -3726,10 +3726,6 @@ Patikrinkite prieigos teises.</translation>
         <translation>Slovakų</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Slovėnų</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samojiečių</translation>
@@ -4723,18 +4719,6 @@ Norite perrašyti?</translation>
         <translation>P&amp;apildomai</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">&amp;Pranešti apie Mplayer lūžius</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Čia galima nurodyti papildomas MPlayer parinktis.
-Įrašai turi būti atskirti tarpais.
-Pavyzdžiui: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4749,10 +4733,6 @@ Pavyzdžiui: scale=512:-2,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>Audio filtrai nurodomi kaip ir video filtrai.
 Pavyzdžiui: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Įrašyti MPlayer išvestį į žurnalą</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4810,10 +4790,6 @@ Pavyzdžiui: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Monitoriaus kraštinių santykis:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">Paleisti MPlayer atski&amp;rame lange</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
         <translation type="unfinished"></translation>
@@ -4866,10 +4842,6 @@ Example: -flip -nosound</source>
         <translation>Spalvos &amp;kodas:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4893,34 +4865,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Žurnalai</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">MPlayer &amp;išvesties žurnalas</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">MP&amp;layer parinktys</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Automatinis MPlayer žurnalo išsaugojimas</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Jei pažymėta, MPlayer žurnalas bus išsaugotas specialiame faile kiekvieną kartą, kai bus pradėtas naujo failo atkūrimas. Tai gali būti reikalinga išoriniams priedams, kurie gauna informaciją apie atkuriamą failą.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Automatiškai išsaugoti Mplayer žurnalo failo pavadinimą</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Čia įveskite failo, kuriame bus išsaugotas MPlayer žurnalas, pavadinimą ir kelią iki jo.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">A&amp;utomatiškai išsaugoti MPlayer ataskaitą faile</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4948,14 +4892,6 @@ Example: -flip -nosound</source>
         <translation>Parinkite kraštinių santykį savo monitoriui.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Paleisti MPlayer atskirame lange</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Jei pažymėta, MPlayer langas nebus įterptas į pagrindinį SMPlayer langą, bet naudos savo atskirą langą. Atkreipkite dėmesį, kad pelės ir klaviatūros įvykiai bus perduoti tiesiogiai MPlayer, t. y. nustatyti karštieji klavišai ir pelės paspaudimai gali veikti ne taip, jei MPlayer langas aktyvuotas.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>Pagal nutylėjimą naudoti lavf demukserį</translation>
@@ -4964,18 +4900,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Jei pasirinkta ši parinktis, lavf demukseris bus naudojamas visiems formatams.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">Pastaba: mplayer2 jau ir taip naudoja lavf demukserį pagal nutylėjimą, taigi mplayer2 tai neturės jokios įtakos.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Pranešti Mplayer lūžius</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Jei ši parinktis pažymėta, pasirodys langas su pranšimu apie MPlayer lūžį. Kitu atveju tie lūžiai bus tyliai nepaisomi.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -4988,17 +4912,9 @@ Example: -flip -nosound</source>
         <translation>Jei kai kurias video dalis matote ant kitų langų, kad tai ištaisyti, galite pakeisti spalvos kodą. Pabandykite parinkti spalvą, artimą juodai.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">MPlayer parinktys</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Parinktys</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Čia galima įvesti parinktis MPlayer. Atskirkite jas tarpais.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5006,17 +4922,9 @@ Example: -flip -nosound</source>
         <translation>Video filtrai</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Čia galima pridėti video filtrus MPlayer. Rašydami atskirkite juos kableliais. Nenaudokite tarpų!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Audio filtrai</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Čia galima pridėti audio filtrus MPlayer. Rašydami atskirkite juos kableliais. Nenaudokite tarpų!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5129,10 +5037,6 @@ Example: -flip -nosound</source>
         <translation>Jei pažymėta, SMPlayer ataskaitas apie įvykusias klaidas išsaugos savo išvestyje (jas galima pamatyti &lt;b&gt;Parinktys -&gt; Rodyti žurnalus -&gt; SMPlayer&lt;/b&gt;). Jei radote klaidą, ši informacija gali būti naudinga programos kūrėjams.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Jei pažymėta, SMPlayer žurnalus apie įvykusias klaidas išsaugos MPlayer išvestyje (jas galima pamatyti &lt;b&gt;Parinktys -&gt; Rodyti žurnalus -&gt; MPlayer&lt;/b&gt;). Žurnaluose gali būti svarbios informacijos apie iškilusias problemas, todėl rekomenduojama šią parinktį palikti įjungtą.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Ši parinktis leidžia filtruoti žinutes, kurias SMPlayer išsaugo ataskaitoje. Čia galima užrašyti bet kokią reguliarią išraišką. &lt;br&gt;Pavyzdžiui: &lt;i&gt;Core::.*&lt;/i&gt; bus rodomos tik eilutės, prasidedančios &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5141,10 +5045,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Tikslios laiko žymės</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Perjungia MPlayer į eksperimentinį režimą, kuriame kadrų laikas apskaičiuojamas kitaip, palaikomi video filtrai, pridedantys naujus kadrus arba keičiantys jau egzistuojančių kadrų laiką. Tikslesnis laiko skaičiavimas gali būti pastebimas, pavyzdžiui, atkuriant subtitrus, susietus su scenų pasikeitimu su įjungta SSA/ASS biblioteka. Be subtitrų pts korekcijos kai kuriems kadrams laiko skaičiavimas būtų išjungtas. Ši parinktis su kai kuriais demukseriais ir kodekais neveikia korektiškai.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5463,10 +5363,6 @@ Example: -flip -nosound</source>
         <translation>Pasirinkite katalogą</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Vykdomoji MPlayer programa</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="908"/>
         <source>Screenshots folder</source>
         <translation>Momentinių vaizdų katalogas</translation>
@@ -5474,6 +5370,16 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Template for screenshots</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="915"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="916"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5908,16 +5814,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Adaptuota</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="916"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="969"/>
         <source>Deinterlace by default</source>
         <translation>Pašalinti „šukas“ neklausiant</translation>
@@ -6010,10 +5906,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>Numatytasis &amp;mastelis:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Čia reikia nurodyti vykdomąjį mplayer failą, kurį naudos SMPlayer. &lt;br&gt;SMPlayer reikalingas bent MPlayer 1.0rc1 (rekomenduojama naujausia SVN revizija).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -6145,10 +6037,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="909"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Čia galite nurodyti katalogą, kuriame bus išsaugoti SMPlayer padaryti momentiniai vaizdai. Jei katalogas nurodytas neteisingai, momentinių vaizdų darymas neveiks.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">Vykdomoji &amp;MPlayer programa:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7498,12 +7386,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished">Youtube kokybė</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished">Pasirinkite youtube vaizdelių kokybę.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7909,18 +7797,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefperformance.ui" line="501"/>
         <source>Cache for &amp;TV:</source>
         <translation>&amp;TV podėlis:</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube kokybė</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Pasirinkite youtube vaizdelių kokybę.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Youtube &amp;kokybė</translation>
     </message>
 </context>
 <context>
