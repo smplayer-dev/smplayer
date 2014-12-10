@@ -379,18 +379,15 @@ goto end
 
 set SymbolicTestDir1=SymbolicTestDir1-%RANDOM%
 set SymbolicTestDir2=SymbolicTestDir2-%RANDOM%
-mkdir %TEMP%\%SymbolicTestDir1% >nul
-mklink /D %TEMP%\%SymbolicTestDir2% %TEMP%\%SymbolicTestDir1% >nul
-
-if not exist %TEMP%\%SymbolicTestDir2% (
-  echo This option requires elevated privileges to create needed symbolic links. Run the script elevated ^(Right-click -^> Run as administrator^) or enable SeCreateSymbolicLinkPrivilege on your account in the Local Security Policy Editor.
-  goto end
-) else (
-  if "%USER_CHOICE%" == "30"  goto portablempv
-  if "%USER_CHOICE%" == "31"  goto portablempv64
-  :: Should not happen
+mkdir "%TEMP%\%SymbolicTestDir1%" >NUL 2>&1
+mklink /D "%TEMP%\%SymbolicTestDir2%" "%TEMP%\%SymbolicTestDir1%" >NUL 2>&1 || (
+  echo Unable to create symbolic links. Run the script elevated ^(Right-click -^> Run as administrator^), enable SeCreateSymbolicLinkPrivilege on your account in the Local Security Policy Editor, or support may be missing from your OS.
   goto end
 )
+
+if "%USER_CHOICE%" == "30"  goto portablempv
+if "%USER_CHOICE%" == "31"  goto portablempv64
+goto end
 
 :portablempv
 echo --- SMPlayer Portable Package [32-bit] ---
@@ -555,8 +552,8 @@ goto end
 
 :end
 
-rmdir %TEMP%\%SymbolicTestDir1% 2>nul
-rmdir %TEMP%\%SymbolicTestDir2% 2>nul
+rmdir "%TEMP%\%SymbolicTestDir1%" 2>nul
+rmdir "%TEMP%\%SymbolicTestDir2%" 2>nul
 
 pause
 
