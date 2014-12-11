@@ -37,8 +37,16 @@ public:
 	void setName(QString name) { _name = name; };
 	void setDesc(QString desc) { _desc = desc; };
 
-	QString name() { return _name; };
-	QString desc() { return _desc; };
+	QString name() const { return _name; };
+	QString desc() const { return _desc; };
+
+	bool operator<(const InfoData & other) const {
+		return name() < other.name();
+	}
+
+	bool operator==(const InfoData & other) const {
+		return name() == other.name();
+	}
 
 private:
 	QString _name, _desc;
