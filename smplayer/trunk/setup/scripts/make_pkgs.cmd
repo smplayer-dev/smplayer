@@ -1,5 +1,6 @@
-if not exist "turnon_echo" (
-  @echo off
+@echo off
+if exist "turnon_echo" (
+  @echo on
 )
 
 :: Reset working dir especially when using 'Run as administrator'
