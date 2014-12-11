@@ -138,6 +138,9 @@ static QRegExp rx_mpv_trackinfo("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(
 static QRegExp rx_mpv_videoinfo("^\\[vd\\] VIDEO: .* (\\d+)x(\\d+) .* ([0-9.]+) fps"); // [vd] VIDEO:  624x352  25.000 fps  1018.5 kbps (127.3 kB/s)
 #endif
 
+static QRegExp rx_mpv_videocodec("^INFO_VIDEO_CODEC=(.*) \\[(.*)\\]");
+static QRegExp rx_mpv_audiocodec("^INFO_AUDIO_CODEC=(.*) \\[(.*)\\]");
+
 #if DVDNAV_SUPPORT
 static QRegExp rx_mpv_switch_title("^\\[dvdnav\\] DVDNAV, switched to title: (\\d+)");
 #endif
@@ -524,6 +527,17 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 		else
 
+		if (rx_mpv_videocodec.indexIn(line) > -1) {
+			md.video_codec = rx_mpv_videocodec.cap(2);
+			qDebug("MPVProcess::parseLine: md.video_codec '%s'", md.video_codec.toUtf8().constData());
+		}
+		else
+		if (rx_mpv_audiocodec.indexIn(line) > -1) {
+			md.audio_codec = rx_mpv_audiocodec.cap(2);
+			qDebug("MPVProcess::parseLine: md.audio_codec '%s'", md.audio_codec.toUtf8().constData());
+		}
+		else
+
 		//Generic things
 		if (rx_mpv_generic.indexIn(line) > -1) {
 			tag = rx_mpv_generic.cap(1);
@@ -567,6 +581,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 				md.video_fps = value;
 			}
 			else
+			/*
 			if (tag == "INFO_VIDEO_CODEC") {
 				md.video_codec = value;
 			}
@@ -575,6 +590,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 				md.audio_codec = value;
 			}
 			else
+			*/
 			if (tag == "INFO_AUDIO_BITRATE") {
 				md.audio_bitrate = value.toInt();
 			}
