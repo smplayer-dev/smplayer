@@ -102,6 +102,10 @@ void FilePropertiesDialog::setCodecs(InfoList vc, InfoList ac, InfoList demuxer)
 	aclist = ac;
 	demuxerlist = demuxer;
 
+	qSort(vclist);
+	qSort(aclist);
+	qSort(demuxerlist);
+
 	vc_listbox->clear();
 	ac_listbox->clear();
 	demuxer_listbox->clear();
@@ -120,7 +124,7 @@ void FilePropertiesDialog::setCodecs(InfoList vc, InfoList ac, InfoList demuxer)
 		demuxer_listbox->addItem( (*it).name() +" - "+ (*it).desc() );
 	}
 
-	codecs_set = true;	
+	codecs_set = true;
 }
 
 void FilePropertiesDialog::setDemuxer(QString demuxer, QString original_demuxer) {
