@@ -1,4 +1,6 @@
-@echo off
+if not exist "turnon_echo" (
+  @echo off
+)
 
 :: Reset working dir especially when using 'Run as administrator'
 @cd /d "%~dp0"
@@ -15,8 +17,10 @@ echo 4 - Portable [64-bit]
 echo 5 - Without MPlayer
 echo 6 - Without MPlayer [64-bit]
 echo.
-echo 30 - Portable MPV
-echo 31 - Portable MPV [64-bit]
+echo 31 - NSIS MPV                     40 - NSIS MPV [32-bit/64-bit]
+echo 32 - NSIS MPV [64-bit]            41 - Portable MPV [32-bit/64-bit]
+echo 33 - Portable MPV
+echo 34 - Portable MPV [64-bit]
 echo.
 
 :: Relative directory of all the source files to this script
@@ -30,7 +34,6 @@ set VER_BUILD=
 set VER_REVISION=
 set VER_REV_CMD=
 set MAKENSIS_EXE_PATH=
-set USER_CHOICE=
 
 :: NSIS path
 if exist "nsis_path" (
@@ -63,20 +66,11 @@ set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
 set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
 
 :reask
+set USER_CHOICE=
 set /P USER_CHOICE="Choose an action: "
 echo.
 
-if "%USER_CHOICE%" == "1"  goto pkgver
-if "%USER_CHOICE%" == "2"  goto pkgver
-if "%USER_CHOICE%" == "3"  goto pkgver
-if "%USER_CHOICE%" == "4"  goto pkgver
-if "%USER_CHOICE%" == "5"  goto pkgver
-if "%USER_CHOICE%" == "6"  goto pkgver
-if "%USER_CHOICE%" == "30"  goto pkgver
-if "%USER_CHOICE%" == "31"  goto pkgver
-if "%USER_CHOICE%" == "10"  goto pkgver
-if "%USER_CHOICE%" == "11"  goto pkgver
-if "%USER_CHOICE%" == "20"  goto pkgver
+for %%z in (1 2 3 4 5 6 10 11 20 31 32 33 34 40 41) do if "%USER_CHOICE%" == "%%z" goto pkgver
 if "%USER_CHOICE%" == ""  goto superend
 goto reask
 
@@ -129,8 +123,10 @@ if "%USER_CHOICE%" == "3"  goto portable
 if "%USER_CHOICE%" == "4"  goto portable64
 if "%USER_CHOICE%" == "5"  goto nomplayer
 if "%USER_CHOICE%" == "6"  goto nomplayer64
-if "%USER_CHOICE%" == "30"  goto testsymboliclink
 if "%USER_CHOICE%" == "31"  goto testsymboliclink
+if "%USER_CHOICE%" == "32"  goto testsymboliclink
+if "%USER_CHOICE%" == "33"  goto testsymboliclink
+if "%USER_CHOICE%" == "34"  goto testsymboliclink
 if "%USER_CHOICE%" == "10"  goto nsispkg
 if "%USER_CHOICE%" == "11"  goto portable
 if "%USER_CHOICE%" == "20"  goto portablesfx
@@ -385,8 +381,44 @@ mklink /D "%TEMP%\%SymbolicTestDir2%" "%TEMP%\%SymbolicTestDir1%" >NUL 2>&1 || (
   goto end
 )
 
-if "%USER_CHOICE%" == "30"  goto portablempv
-if "%USER_CHOICE%" == "31"  goto portablempv64
+if not exist %MPV_DIR% (
+  echo MPV directory not found!
+  goto end
+)
+
+if "%USER_CHOICE%" == "31"  goto nsispkgmpv
+if "%USER_CHOICE%" == "32"  goto nsispkgmpv64
+if "%USER_CHOICE%" == "33"  goto portablempv
+if "%USER_CHOICE%" == "34"  goto portablempv64
+goto end
+
+:nsispkgmpv
+echo --- SMPlayer NSIS MPV Package [32-bit] ---
+echo.
+
+ren %SMPLAYER_DIR%\mplayer mplayer.bak
+mklink /D %SMPLAYER_DIR%\mplayer %MPV_DIR%
+
+%MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
+
+rmdir %SMPLAYER_DIR%\mplayer
+ren %SMPLAYER_DIR%\mplayer.bak mplayer
+
+if not "%USER_CHOICE%" == "40" goto end
+goto end
+
+:nsispkgmpv64
+echo --- SMPlayer NSIS MPV Package [64-bit] ---
+echo.
+
+ren %SMPLAYER_DIR64%\mplayer mplayer.bak
+mklink /D %SMPLAYER_DIR64%\mplayer %MPV_DIR%
+
+%MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+
+rmdir %SMPLAYER_DIR64%\mplayer
+ren %SMPLAYER_DIR%\mplayer.bak mplayer
+
 goto end
 
 :portablempv
@@ -401,11 +433,6 @@ if not exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
 
 if not exist %PORTABLE_EXE_DIR%\smtube-portable.exe (
   echo Warning: SMTube portable EXE not found!
-)
-
-if not exist %MPV_DIR% (
-  echo MPV directory not found!
-  goto end
 )
 
 ren %SMPLAYER_DIR% smplayer-mpv-portable-%ALL_PKG_VER%
@@ -436,9 +463,6 @@ copy /y %PORTABLE_EXE_DIR%\smtube-portable.exe %SMPLAYER_PORTABLE_DIR%\smtube.ex
 
 ::
 echo Creating symbolic link to MPV...
-rem xcopy %MPV_DIR% %SMPLAYER_PORTABLE_DIR%\mplayer\ /E
-rem Requires SeCreateSymbolicLinkPrivilege
-rem mklink included by default Vista+, additional download on XP
 mklink /D %SMPLAYER_PORTABLE_DIR%\mplayer %MPV_DIR%
 
 ::
@@ -451,9 +475,6 @@ echo.
 rem DO NOT use 'rmdir /q /s' to delete directory symbolic links
 rmdir %SMPLAYER_PORTABLE_DIR%\mplayer
 rmdir %SMPLAYER_PORTABLE_DIR%\screenshots
-REM rmdir %SMPLAYER_PORTABLE_DIR%\screenshots
-REM del %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-REM del %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 del %SMPLAYER_PORTABLE_DIR%\smplayer.exe
 del %SMPLAYER_PORTABLE_DIR%\smtube.exe
 ren %SMPLAYER_PORTABLE_DIR%\smplayer.bak smplayer.exe
@@ -462,6 +483,8 @@ ren %SMPLAYER_PORTABLE_DIR%\mplayer.bak mplayer
 ren %SMPLAYER_PORTABLE_DIR% smplayer-build
 
 goto end
+
+if not "%USER_CHOICE%" == "41"  goto end
 
 :portablempv64
 echo --- SMPlayer Portable Package [64-bit] ---
@@ -475,11 +498,6 @@ if not exist %PORTABLE_EXE_DIR%\smplayer-portable64.exe (
 
 if not exist %PORTABLE_EXE_DIR%\smtube-portable64.exe (
   echo Warning: SMTube portable EXE not found!
-)
-
-if not exist %MPV_DIR% (
-  echo MPV directory not found!
-  goto end
 )
 
 for %%F in (%MPV_DIR%\mpv64.exe %MPV_DIR%\mpv64.com) do if not exist %%F (
@@ -515,9 +533,6 @@ copy /y %PORTABLE_EXE_DIR%\smtube-portable64.exe %SMPLAYER_PORTABLE_DIR%\smtube.
 
 ::
 echo Creating symbolic link to MPV...
-rem xcopy %MPV_DIR% %SMPLAYER_PORTABLE_DIR%\mplayer\ /E
-rem Requires SeCreateSymbolicLinkPrivilege
-rem mklink included by default Vista+, additional download on XP
 mklink /D %SMPLAYER_PORTABLE_DIR%\mplayer %MPV_DIR%
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mpv.exe mpv.exe.bak32
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mpv.com mpv.com.bak32
@@ -531,9 +546,6 @@ echo Finalizing package...
 echo.
 echo Restoring source folder(s) back to its original state...
 echo.
-REM rmdir %SMPLAYER_PORTABLE_DIR%\screenshots
-REM del %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-REM del %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
 del %SMPLAYER_PORTABLE_DIR%\smplayer.exe
 del %SMPLAYER_PORTABLE_DIR%\smtube.exe
 ren %SMPLAYER_PORTABLE_DIR%\mplayer\mpv.exe mpv64.exe
@@ -552,8 +564,8 @@ goto end
 
 :end
 
-rmdir "%TEMP%\%SymbolicTestDir1%" 2>nul
-rmdir "%TEMP%\%SymbolicTestDir2%" 2>nul
+rmdir "%TEMP%\%SymbolicTestDir1%" 2>NUL
+rmdir "%TEMP%\%SymbolicTestDir2%" 2>NUL
 
 pause
 
