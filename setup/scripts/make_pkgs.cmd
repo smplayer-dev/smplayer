@@ -406,7 +406,6 @@ rmdir %SMPLAYER_DIR%\mplayer
 ren %SMPLAYER_DIR%\mplayer.bak mplayer
 
 if not "%USER_CHOICE%" == "40" goto end
-goto end
 
 :nsispkgmpv64
 echo --- SMPlayer NSIS MPV Package [64-bit] ---
@@ -418,7 +417,7 @@ mklink /D %SMPLAYER_DIR64%\mplayer %MPV_DIR%
 %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
 
 rmdir %SMPLAYER_DIR64%\mplayer
-ren %SMPLAYER_DIR%\mplayer.bak mplayer
+ren %SMPLAYER_DIR64%\mplayer.bak mplayer
 
 goto end
 
@@ -482,8 +481,6 @@ ren %SMPLAYER_PORTABLE_DIR%\smplayer.bak smplayer.exe
 ren %SMPLAYER_PORTABLE_DIR%\smtube.bak smtube.exe
 ren %SMPLAYER_PORTABLE_DIR%\mplayer.bak mplayer
 ren %SMPLAYER_PORTABLE_DIR% smplayer-build
-
-goto end
 
 if not "%USER_CHOICE%" == "41"  goto end
 
