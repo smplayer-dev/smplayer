@@ -883,6 +883,14 @@ void BaseGui::createActions() {
              this, SLOT(shareSMPlayer()) );
 #endif
 
+	// OSD
+	incOSDScaleAct = new MyAction(Qt::SHIFT | Qt::Key_U, this, "inc_osd_scale");
+	connect(incOSDScaleAct, SIGNAL(triggered()), core, SLOT(incOSDScale()));
+
+	decOSDScaleAct = new MyAction(Qt::SHIFT | Qt::Key_Y, this, "dec_osd_scale");
+	connect(decOSDScaleAct, SIGNAL(triggered()), core, SLOT(decOSDScale()));
+
+
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
 	playNextAct->addShortcut(Qt::Key_MediaNext); // MCE remote key
@@ -1721,6 +1729,10 @@ void BaseGui::retranslateStrings() {
 	hotmailAct->change("&Hotmail");
 	yahooAct->change("&Yahoo!");
 #endif
+
+	// OSD
+	incOSDScaleAct->change(tr("Size &+"));
+	decOSDScaleAct->change(tr("Size &-"));
 
 	// Playlist
 	playNextAct->change( tr("&Next") );
@@ -2679,6 +2691,10 @@ void BaseGui::createMenus() {
 	osd_menu = new QMenu(this);
 	osd_menu->menuAction()->setObjectName("osd_menu");
 	osd_menu->addActions(osdGroup->actions());
+	osd_menu->addSeparator();
+	osd_menu->addAction(decOSDScaleAct);
+	osd_menu->addAction(incOSDScaleAct);
+
 
 	optionsMenu->addMenu(osd_menu);
 

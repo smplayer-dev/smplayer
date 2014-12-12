@@ -95,6 +95,7 @@ public:
 #endif
 	void toggleDeinterlace();
 	void askForLength();
+	void setOSDScale(double value);
 
 protected slots:
 	void parseLine(QByteArray ba);

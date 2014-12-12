@@ -320,6 +320,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "ass-styles" || option_name == "ass-force-style" ||
 	    option_name == "ass-line-spacing" ||
 	    option_name == "embeddedfonts" ||
+	    option_name == "osd-scale" ||
 	    option_name == "speed" ||
 	    option_name == "contrast" || option_name == "brightness" ||
 	    option_name == "hue" || option_name == "saturation" || option_name == "gamma" ||
@@ -662,4 +663,8 @@ void MPVProcess::toggleDeinterlace() {
 
 void MPVProcess::askForLength() {
 	writeToStdin("print_text \"INFO_LENGTH=${=length}\"");
+}
+
+void MPVProcess::setOSDScale(double value) {
+	writeToStdin("set osd-scale " + QString::number(value));
 }

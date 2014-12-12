@@ -1792,6 +1792,9 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	// OSD
+	proc->setOption("osd-scale", proc->isMPlayer() ? mset.subfont_osd_scale : mset.osd_scale);
+
 	// Subtitles fonts
 	if ((pref->use_ass_subtitles) && (pref->freetype_support)) {
 		// ASS:
@@ -3164,6 +3167,40 @@ void Core::decSubScale() {
 	} else {
 		if (subscale_need_restart()) step = 1;
 		changeSubScale( mset.sub_scale - step );
+	}
+}
+
+void Core::changeOSDScale(double value) {
+	qDebug("Core::changeOSDScale: %f", value);
+
+	if (value < 0) value = 0;
+
+	if (proc->isMPlayer()) {
+		if (value != mset.subfont_osd_scale) {
+			mset.subfont_osd_scale = value;
+			restartPlay();
+		}
+	} else {
+		if (value != mset.osd_scale) {
+			mset.osd_scale = value;
+			proc->setOSDScale(mset.osd_scale);
+		}
+	}
+}
+
+void Core::incOSDScale() {
+	if (proc->isMPlayer()) {
+		changeOSDScale(mset.subfont_osd_scale + 1);
+	} else {
+		changeOSDScale(mset.osd_scale + 0.20);
+	}
+}
+
+void Core::decOSDScale() {
+	if (proc->isMPlayer()) {
+		changeOSDScale(mset.subfont_osd_scale - 1);
+	} else {
+		changeOSDScale(mset.osd_scale - 0.20);
 	}
 }
 

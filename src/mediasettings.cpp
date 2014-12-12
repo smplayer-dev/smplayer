@@ -59,6 +59,8 @@ void MediaSettings::reset() {
 	sub_pos = pref->initial_sub_pos; // 100% by default
 	sub_scale = pref->initial_sub_scale; 
 	sub_scale_ass = pref->initial_sub_scale_ass;
+	osd_scale = 1;
+	subfont_osd_scale = 3;
 
 	closed_caption_channel = 0; // disabled
 
@@ -206,6 +208,8 @@ void MediaSettings::list() {
 	qDebug("  sub_pos: %d", sub_pos);
 	qDebug("  sub_scale: %f", sub_scale);
 	qDebug("  sub_scale_ass: %f", sub_scale_ass);
+	qDebug("  osd_scale: %f", osd_scale);
+	qDebug("  subfont_osd_scale: %f", subfont_osd_scale);
 
 	qDebug("  closed_caption_channel: %d", closed_caption_channel);
 
@@ -327,6 +331,8 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "sub_pos", sub_pos);
 	set->setValue( "sub_scale", sub_scale);
 	set->setValue( "sub_scale_ass", sub_scale_ass);
+	set->setValue( "osd_scale", osd_scale);
+	set->setValue( "subfont_osd_scale", subfont_osd_scale);
 
 	set->setValue( "closed_caption_channel", closed_caption_channel);
 
@@ -439,6 +445,8 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	sub_pos = set->value( "sub_pos", sub_pos).toInt();
 	sub_scale = set->value( "sub_scale", sub_scale).toDouble();
 	sub_scale_ass = set->value( "sub_scale_ass", sub_scale_ass).toDouble();
+	osd_scale = set->value( "osd_scale", osd_scale).toDouble();
+	subfont_osd_scale = set->value( "subfont_osd_scale", subfont_osd_scale).toDouble();
 
 	closed_caption_channel = set->value( "closed_caption_channel", closed_caption_channel).toInt();
 

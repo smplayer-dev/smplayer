@@ -62,6 +62,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		if (o.contains("decoder")) arg << "-hardframedrop";
 	}
 	else
+	if (option_name == "osd-scale") {
+		arg << "-subfont-osd-scale" << value.toString();
+	}
+	else
 	if (option_name == "verbose") {
 		arg << "-v";
 	}
@@ -338,3 +342,7 @@ void MplayerProcess::askForLength() {
 	writeToStdin(pausing_prefix + " get_property length");
 }
 
+void MplayerProcess::setOSDScale(double value) {
+	// not available
+	//writeToStdin("set_property subfont-osd-scale " + QString::number(value)); 
+}

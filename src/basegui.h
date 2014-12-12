@@ -532,6 +532,10 @@ protected:
 	MyAction * yahooAct;
 #endif
 
+	// OSD
+	MyAction * incOSDScaleAct;
+	MyAction * decOSDScaleAct;
+
 	// Playlist
 	MyAction * playPrevAct;
 	MyAction * playNextAct;
