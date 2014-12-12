@@ -233,6 +233,10 @@ public slots:
 	void incSubScale();
 	void decSubScale();
 
+	void changeOSDScale(double value);
+	void incOSDScale();
+	void decOSDScale();
+
 	//! Select next line in subtitle file
 	void incSubStep();
 	//! Select previous line in subtitle file

@@ -93,6 +93,8 @@ public:
 	int sub_pos;
 	double sub_scale;
 	double sub_scale_ass;
+	double osd_scale; // mpv
+	double subfont_osd_scale; // mplayer
 
 	int closed_caption_channel; // 0 = disabled
 

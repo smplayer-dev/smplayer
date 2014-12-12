@@ -95,6 +95,7 @@ public:
 #endif
 	void toggleDeinterlace();
 	void askForLength();
+	void setOSDScale(double value);
 
 	QString mpvVersion() { return mpv_version; };
 
