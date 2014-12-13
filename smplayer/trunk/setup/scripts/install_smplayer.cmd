@@ -11,7 +11,6 @@ if "%QTVER%"=="" set QTVER=4.8.6
 set OUTPUT_DIR=smplayer-build
 
 set SMPLAYER_DIR=svn\smplayer
-set SMTUBE_DIR=svn\smtube
 set SMPLAYER_THEMES_DIR=svn\smplayer-themes
 set SMPLAYER_SKINS_DIR=svn\smplayer-skins
 set MPLAYER_DIR=mplayer
@@ -174,13 +173,5 @@ echo.
 echo ######           MPlayer           #######
 echo.
 xcopy %MPLAYER_DIR% %OUTPUT_DIR%\mplayer\ /E
-
-echo.
-echo ######           SMTUBE           #######
-echo.
-copy %SMTUBE_DIR%\src\release\smtube.exe %OUTPUT_DIR%
-copy %SMTUBE_DIR%\src\translations\*.qm %OUTPUT_DIR%\translations
-mkdir %OUTPUT_DIR%\docs\smtube
-copy %SMTUBE_DIR%\*.txt %OUTPUT_DIR%\docs\smtube
 
 echo.
