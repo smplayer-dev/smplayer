@@ -5399,8 +5399,8 @@ void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser: '%s'", exec.toUtf8().constData());
 	if (!QProcess::startDetached(exec, QStringList())) {
 		QMessageBox::warning(this, "SMPlayer",
-			tr("The YouTube Browser couldn't be launched.") +"<br>"+ 
-			tr("Be sure %1 is installed.").arg("SMTube"));
+			tr("The YouTube Browser is not installed.") +"<br>"+ 
+			tr("Visit %1 to get it.").arg("<a href=http://www.smtube.org>http://www.smtube.org</a>"));
 	}
 }
 #endif
