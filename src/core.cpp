@@ -1671,18 +1671,20 @@ void Core::startMplayer( QString file, double seek ) {
 	mset.current_chapter_id = 0; // Reset chapters
 	// TODO: I think the current_chapter_id thing has to be deleted
 
-	if (!pref->vo.isEmpty()) {
-		proc->setOption("vo", pref->vo );
-	} else {
-#ifdef Q_OS_WIN
-		if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
-			proc->setOption("vo", "direct3d,");
+	if (pref->vo != "player_default") {
+		if (!pref->vo.isEmpty()) {
+			proc->setOption("vo", pref->vo );
 		} else {
-			proc->setOption("vo", "directx,");
+			#ifdef Q_OS_WIN
+			if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
+				proc->setOption("vo", "direct3d,");
+			} else {
+				proc->setOption("vo", "directx,");
+			}
+			#else
+			proc->setOption("vo", "xv,");
+			#endif
 		}
-#else
-		proc->setOption("vo", "xv,");
-#endif
 	}
 
 #if USE_ADAPTER
@@ -1691,8 +1693,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	if (!pref->ao.isEmpty()) {
-		proc->setOption("ao", pref->ao );
+	if (pref->vo != "player_default") {
+		if (!pref->ao.isEmpty()) {
+			proc->setOption("ao", pref->ao );
+		}
 	}
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
