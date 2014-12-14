@@ -353,6 +353,9 @@ void PrefGeneral::updateDriverCombos() {
 	vo_combo->clear();
 	ao_combo->clear();
 
+	vo_combo->addItem(tr("Default"), "player_default");
+	ao_combo->addItem(tr("Default"), "player_default");
+
 	QString vo;
 	for ( int n = 0; n < vo_list.count(); n++ ) {
 		vo = vo_list[n].name();
