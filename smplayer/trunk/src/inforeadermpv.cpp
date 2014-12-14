@@ -25,13 +25,9 @@
 
 InfoReaderMPV::InfoReaderMPV( QString mplayer_bin, QObject * parent )
 	: QObject(parent)
-	, proc(0)
 	, mplayer_svn(0)
 {
 	mplayerbin = mplayer_bin;
-
-	proc = new QProcess(this);
-	proc->setProcessChannelMode( QProcess::MergedChannels );
 }
 
 InfoReaderMPV::~InfoReaderMPV() {
@@ -47,18 +43,19 @@ void InfoReaderMPV::getInfo() {
 #endif
 	mplayer_svn = -1;
 
-	vo_list = run("--vo help");
-	ao_list = run("--ao help");
+	vo_list = getList(run("--vo help"));
+	ao_list = getList(run("--ao help"));
 #if ALLOW_DEMUXER_CODEC_CHANGE
-	demuxer_list = run("--demuxer help");
-	vc_list = run("--vd help");
-	ac_list = run("--ad help");
+	demuxer_list = getList(run("--demuxer help"));
+	vc_list = getList(run("--vd help"));
+	ac_list = getList(run("--ad help"));
 #endif
 
-	InfoList i = run("--version");
+	QList<QByteArray> lines = run("--version");
+
 	QString mpv_version_line;
-	if (i.count() >= 1) {
-		mpv_version_line = i[0].name();
+	if (lines.count() >= 1) {
+		mpv_version_line = lines[0];
 		mplayer_svn = MplayerVersion::mplayerVersion(mpv_version_line);
 		mpv_version = MplayerVersion::mpvVersion();
 	}
@@ -103,44 +100,41 @@ void InfoReaderMPV::list() {
 
 }
 
-InfoList InfoReaderMPV::run(QString options) {
+QList<QByteArray> InfoReaderMPV::run(QString options) {
 	qDebug("InfoReaderMPV::run: '%s'", options.toUtf8().data());
 
-	InfoList l;
+	QList<QByteArray> r;
 
-	if (proc->state() == QProcess::Running) {
-		qWarning("InfoReaderMPV::run: process already running");
-		return l;
-	}
+	QProcess proc(this);
+	proc.setProcessChannelMode( QProcess::MergedChannels );
 
 	QStringList args = options.split(" ");
 
-	proc->start(mplayerbin, args);
-	if (!proc->waitForStarted()) {
+	proc.start(mplayerbin, args);
+	if (!proc.waitForStarted()) {
 		qWarning("InfoReaderMPV::run: process can't start!");
-		return l;
+		return r;
 	}
 
 	//Wait until finish
-	if (!proc->waitForFinished()) {
+	if (!proc.waitForFinished()) {
 		qWarning("InfoReaderMPV::run: process didn't finish. Killing it...");
-		proc->kill();
+		proc.kill();
 	}
 
-	qDebug("InfoReaderMPV::run : terminating");
+	QByteArray data = proc.readAll().replace("\r", "");
+	r = data.split('\n');
+	return r;
+}
 
-	QByteArray line;
-	QList<QByteArray> f;
-	while (proc->canReadLine()) {
-		line = proc->readLine();
+InfoList InfoReaderMPV::getList(const QList<QByteArray> & lines) {
+	InfoList l;
+
+	foreach(QByteArray line, lines) {
+		qDebug() << "InfoReaderMPV::getList: line:" << line;
+
 		line.replace("\n", "");
-		line.replace("\r", "");
 		line = line.simplified();
-		if (line.startsWith("mpv")) {
-			l.clear();
-			l.append(InfoData(line,""));
-			return l;
-		}
 		if (line.startsWith("Available") || line.startsWith("demuxer:") ||
 			line.startsWith("Video decoders:") || line.startsWith("Audio decoders:"))
 		{
@@ -153,7 +147,7 @@ InfoList InfoReaderMPV::run(QString options) {
 				if (name.endsWith(':')) name = name.left(name.count()-1);
 				QString desc = line.mid(pos+1);
 				desc = desc.replace(": ", "").replace("- ", "");
-				qDebug() << "InfoReaderMPV::run: name:" << name << "desc:" << desc;
+				qDebug() << "InfoReaderMPV::getList: name:" << name << "desc:" << desc;
 				l.append(InfoData(name, desc));
 			}
 		}

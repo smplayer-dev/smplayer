@@ -48,11 +48,11 @@ public:
 	QString mpvVersion() { return mpv_version; };
 
 protected:
-	InfoList run(QString options);
+	QList<QByteArray> run(QString options);
+	InfoList getList(const QList<QByteArray> &);
 	void list();
 
 protected:
-	QProcess * proc;
 	QString mplayerbin;
 
 	InfoList vo_list;
