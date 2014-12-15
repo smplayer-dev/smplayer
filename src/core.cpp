@@ -1693,7 +1693,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	if (pref->vo != "player_default") {
+	if (pref->ao != "player_default") {
 		if (!pref->ao.isEmpty()) {
 			proc->setOption("ao", pref->ao );
 		}
