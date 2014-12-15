@@ -98,6 +98,8 @@ void InfoReader::getInfo() {
 			vc_list = convertListToInfoList(set.value("vc_list").toStringList());
 			ac_list = convertListToInfoList(set.value("ac_list").toStringList());
 			#endif
+			option_list = set.value("option_list").toStringList();
+			//qDebug() << "InfoReader::getInfo: option_list:" << option_list;
 			mplayer_svn = set.value("mplayer_svn").toInt();
 			mpv_version = set.value("mpv_version").toString();
 			mplayer2_version = set.value("mplayer2_version").toString();
@@ -122,6 +124,7 @@ void InfoReader::getInfo() {
 		vc_list = ir.vcList();
 		ac_list = ir.acList();
 		#endif
+		option_list = ir.optionList();
 		mplayer_svn = ir.mplayerSVN();
 		mpv_version = ir.mpvVersion();
 		mplayer2_version = "";
@@ -157,6 +160,7 @@ void InfoReader::getInfo() {
 		set.setValue("vc_list", convertInfoListToList(vc_list));
 		set.setValue("ac_list", convertInfoListToList(ac_list));
 		#endif
+		set.setValue("option_list", option_list);
 		set.setValue("mplayer_svn", mplayer_svn);
 		set.setValue("mpv_version", mpv_version);
 		set.setValue("mplayer2_version", mplayer2_version);

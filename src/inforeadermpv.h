@@ -23,6 +23,7 @@
 #include "inforeader.h"
 #include <QObject>
 #include <QList>
+#include <QStringList>
 
 class QProcess;
 
@@ -44,12 +45,15 @@ public:
 	InfoList acList() { return ac_list; };
 #endif
 
+	QStringList optionList() { return option_list; };
+
 	int mplayerSVN() { return mplayer_svn; };
 	QString mpvVersion() { return mpv_version; };
 
 protected:
 	QList<QByteArray> run(QString options);
 	InfoList getList(const QList<QByteArray> &);
+	QStringList getOptionsList(const QList<QByteArray> &);
 	void list();
 
 protected:
@@ -63,6 +67,8 @@ protected:
 	InfoList vc_list;
 	InfoList ac_list;
 #endif
+
+	QStringList option_list;
 
 	int mplayer_svn;
 	QString mpv_version;

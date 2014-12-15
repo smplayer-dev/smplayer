@@ -22,6 +22,7 @@
 
 #include <QObject>
 #include <QList>
+#include <QStringList>
 #include "config.h"
 
 class InfoData {
@@ -77,6 +78,8 @@ public:
 	InfoList acList() { return ac_list; };
 #endif
 
+	QStringList optionList() { return option_list; };
+
 	int mplayerSVN() { return mplayer_svn; };
 	QString mpvVersion() { return mpv_version; };
 	QString mplayer2Version() { return mplayer2_version; };
@@ -100,6 +103,8 @@ protected:
 	InfoList vc_list;
 	InfoList ac_list;
 #endif
+
+	QStringList option_list;
 
 	int mplayer_svn;
 	QString mpv_version;
