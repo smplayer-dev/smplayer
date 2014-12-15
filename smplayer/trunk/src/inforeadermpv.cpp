@@ -63,6 +63,8 @@ void InfoReaderMPV::getInfo() {
 	qDebug() << "InfoReaderMPV::getInfo: version_line" << mpv_version_line;
 	qDebug() << "InfoReaderMPV::getInfo: mplayer_svn" << mplayer_svn;
 
+	option_list = getOptionsList(run("--list-options"));
+
 	//list();
 }
 
@@ -149,6 +151,26 @@ InfoList InfoReaderMPV::getList(const QList<QByteArray> & lines) {
 				desc = desc.replace(": ", "").replace("- ", "");
 				qDebug() << "InfoReaderMPV::getList: name:" << name << "desc:" << desc;
 				l.append(InfoData(name, desc));
+			}
+		}
+	}
+
+	return l;
+}
+
+QStringList InfoReaderMPV::getOptionsList(const QList<QByteArray> & lines) {
+	QStringList l;
+
+	foreach(QByteArray line, lines) {
+		qDebug() << "InfoReaderMPV::getOptionsList: line:" << line;
+		line.replace("\n", "");
+		line = line.simplified();
+		if (line.startsWith("--")) {
+			int pos = line.indexOf(' ');
+			if (pos > -1) {
+				QString option_name = line.left(pos);
+				qDebug() << "InfoReaderMPV::getOptionsList: option:" << option_name;
+				l << option_name;
 			}
 		}
 	}
