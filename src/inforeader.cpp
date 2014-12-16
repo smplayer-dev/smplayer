@@ -28,6 +28,8 @@
 #include <QSettings>
 #include <QDebug>
 
+#define INFOREADER_SAVE_VERSION 1
+
 using namespace Global;
 
 InfoReader * InfoReader::static_obj = 0;
@@ -78,6 +80,8 @@ void InfoReader::getInfo() {
 	QString inifile = Paths::configPath() + "/player_info.ini";
 	QSettings set(inifile, QSettings::IniFormat);
 
+	QString version_group = "version_" + QString::number(INFOREADER_SAVE_VERSION);
+
 	QString sname = mplayerbin;
 	sname = sname.replace("/", "_").replace("\\", "_").replace(".", "_").replace(":", "_");
 	QFileInfo fi(mplayerbin);
@@ -88,7 +92,7 @@ void InfoReader::getInfo() {
 
 		// Check if we already have info about the player in the ini file
 		bool got_info = false;
-		set.beginGroup(sname);
+		set.beginGroup(version_group +"/"+ sname);
 		if (set.value("size", -1).toInt() == fi.size()) {
 			got_info = true;
 			vo_list = convertListToInfoList(set.value("vo_list").toStringList());
@@ -141,6 +145,7 @@ void InfoReader::getInfo() {
 		vc_list = ir.vcList();
 		ac_list = ir.acList();
 		#endif
+		option_list.clear();
 		mplayer_svn = ir.mplayerSVN();
 		mpv_version = "";
 		mplayer2_version = ir.mplayer2Version();
@@ -150,7 +155,7 @@ void InfoReader::getInfo() {
 
 	if (fi.exists()) {
 		qDebug() << "InfoReader::getInfo: saving info to" << inifile;
-		set.beginGroup(sname);
+		set.beginGroup(version_group +"/"+ sname);
 		set.setValue("size", fi.size());
 		set.setValue("date", fi.lastModified());
 		set.setValue("vo_list", convertInfoListToList(vo_list));
