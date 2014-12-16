@@ -6,32 +6,6 @@
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
 !endif
 
-; See http://nsis.sourceforge.net/Check_if_a_file_exists_at_compile_time for documentation
-!macro !defineifexist _VAR_NAME _FILE_NAME
-  !tempfile _TEMPFILE
-  !ifdef NSIS_WIN32_MAKENSIS
-    ; Windows - cmd.exe
-    !system 'if exist "${_FILE_NAME}" echo !define ${_VAR_NAME} > "${_TEMPFILE}"'
-  !else
-    ; Posix - sh
-    !system 'if [ -e "${_FILE_NAME}" ]; then echo "!define ${_VAR_NAME}" > "${_TEMPFILE}"; fi'
-  !endif
-  !include '${_TEMPFILE}'
-  !delfile '${_TEMPFILE}'
-  !undef _TEMPFILE
-!macroend
-!define !defineifexist "!insertmacro !defineifexist"
-
-!ifdef WIN64
-${!defineifexist} USE_MPV smplayer-build64\mplayer\mpv64.exe
-!else
-${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
-!endif
-
-!ifdef WIN64 | USE_MPV
-  !define DISABLE_CODECS
-!endif
-
 ;--------------------------------
 ;Compressor
 
@@ -68,7 +42,11 @@ ${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
-  !define CODEC_VERSION "windows-essential-20071007"
+!ifdef WIN64
+  !define MPV_FILENAME "mpv-x86_64-latest.7z"
+!else
+  !define MPV_FILENAME "mpv-i686-latest.7z"
+!endif
 
 ;--------------------------------
 ;General
@@ -77,17 +55,9 @@ ${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  !ifdef USE_MPV
-    OutFile "output\smplayer-mpv-${SMPLAYER_VERSION}-x64.exe"
-  !else
     OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
-  !endif
 !else
-  !ifdef USE_MPV
-    OutFile "output\smplayer-mpv-${SMPLAYER_VERSION}-win32.exe"
-  !else
     OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
-  !endif
 !endif
 
   ;Version tab properties
@@ -135,9 +105,8 @@ ${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
   Var Reinstall_Uninstall
   Var Reinstall_UninstallButton
   Var Reinstall_UninstallButton_State
-!ifndef DISABLE_CODECS
-  Var Restore_Codecs
-!endif
+  Var Restore_MPV
+  Var Restore_SMTube
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
@@ -203,6 +172,8 @@ ${!defineifexist} USE_MPV smplayer-build\mplayer\mpv.exe
 
 ;--------------------------------
 ;Pages
+
+  !define MUI_CUSTOMFUNCTION_GUIINIT newGuiInit
 
   ;Install pages
   #Welcome
@@ -332,9 +303,8 @@ Section $(Section_SMPlayer) SecSMPlayer
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
 
-!ifndef DISABLE_CODECS
-      Call Backup_Codecs
-!endif
+      Call Backup_MPV
+      Call Backup_SMTube
 
       ${If} "$INSTDIR" == "$SMPlayer_Path"
         ExecWait '"$SMPlayer_UnStrPath" /S /R _?=$SMPlayer_Path'
@@ -360,10 +330,8 @@ Section $(Section_SMPlayer) SecSMPlayer
   File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
 
   ;Open fonts
-  !ifndef USE_MPV
   SetOutPath "$INSTDIR\open-fonts"
   File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
-  !endif
 
   ;Qt platforms (Qt 5+)
   SetOutPath "$INSTDIR\platforms"
@@ -373,10 +341,13 @@ Section $(Section_SMPlayer) SecSMPlayer
   SetOutPath "$INSTDIR\shortcuts"
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
-!ifndef DISABLE_CODECS
+  ${If} $Restore_SMTube == 1
+    DetailPrint "Restoring SMTube"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\*" "$INSTDIR"
+  ${EndIf}
+
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
-!endif
 
   ;Initialize to 0 if don't exist (based on error flag)
   ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
@@ -384,9 +355,9 @@ Section $(Section_SMPlayer) SecSMPlayer
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x0
   ${EndIf}
 
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs
+  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPV
   ${If} ${Errors}
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
+    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x0
   ${EndIf}
 
 SectionEnd
@@ -408,7 +379,9 @@ SectionGroup $(ShortcutGroupTitle)
     !insertmacro MUI_STARTMENU_WRITE_BEGIN SMP_SMenu
       CreateDirectory "$SMPROGRAMS\$SMPlayer_StartMenuFolder"
       CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer.lnk" "$INSTDIR\smplayer.exe"
-      ;CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk" "$INSTDIR\smtube.exe"
+      ${If} $Restore_SMTube == 1
+        CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMTube.lnk" "$INSTDIR\smtube.exe"
+      ${EndIf}
       WriteINIStr    "$SMPROGRAMS\$SMPlayer_StartMenuFolder\SMPlayer on the Web.url" "InternetShortcut" "URL" "http://smplayer.sourceforge.net"
       CreateShortCut "$SMPROGRAMS\$SMPlayer_StartMenuFolder\Uninstall SMPlayer.lnk" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
     !insertmacro MUI_STARTMENU_WRITE_END
@@ -418,91 +391,82 @@ SectionGroup $(ShortcutGroupTitle)
 SectionGroupEnd
 
 ;--------------------------------
-;MPlayer & MPlayer Codecs
-SectionGroup $(MPlayerGroupTitle)
+;MPlayer & MPV
+SectionGroup "Playback Components"
 
-  Section $(Section_MPlayer) SecMPlayer
-
-    SectionIn RO
+  Section "MPlayer" SecMPlayer
 
     SetOutPath "$INSTDIR\mplayer"
-    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x buildinfo /x buildinfo64 /x mpv.exe /x mpv64.exe /x mpv.com /x mpv64.com "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
+    File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x buildinfo /x buildinfo64 "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 !ifdef WIN64
-    !ifdef USE_MPV
-      File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mplayer\mpv64.exe"
-      File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mplayer\mpv64.com"
-    !else
-      File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
-    !endif
+    File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
 !else
-    !ifdef USE_MPV
-      File "${SMPLAYER_BUILD_DIR}\mplayer\mpv.exe"
-      File "${SMPLAYER_BUILD_DIR}\mplayer\mpv.com"
-    !else
-      File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
-    !endif
+    File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
 !endif
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
   SectionEnd
 
-!ifndef DISABLE_CODECS
-  Section /o $(Section_MPlayerCodecs) SecCodecs
+  Section /o "MPV" SecMPV
 
-    AddSize 22931
+    AddSize 30000
 
-    ${If} $Restore_Codecs == 1
-      DetailPrint $(Info_Codecs_Restore)
-      CopyFiles /SILENT "$PLUGINSDIR\codecbak\*" "$INSTDIR\mplayer\codecs"
-      Goto check_codecs
-    ${ElseIf} ${FileExists} "$EXEDIR\${CODEC_VERSION}.zip"
-      CopyFiles /SILENT "$EXEDIR\${CODEC_VERSION}.zip" "$PLUGINSDIR"
-      Goto extract_codecs
+    ${If} $Restore_MPV == 1
+      DetailPrint "Restoring MPV"
+      CopyFiles /SILENT "$PLUGINSDIR\mpvbak\*" "$INSTDIR\mplayer"
+      Goto check_mpv
+    ${ElseIf} ${FileExists} "$EXEDIR\${MPV_FILENAME}"
+      CopyFiles /SILENT "$EXEDIR\${MPV_FILENAME}" "$PLUGINSDIR\mpv.7z"
+      Goto extract_mpv
     ${EndIf}
 
-    retry_codecs_dl:
+    retry_mpv_dl:
 
-    DetailPrint $(Codecs_DL_Msg)
+    DetailPrint "Downloading MPV..."
 !ifdef USE_INETC
-    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(Codecs_DL_Msg) /CAPTION $(Codecs_DL_Msg) \
-    "http://www.mplayerhq.hu/MPlayer/releases/codecs/${CODEC_VERSION}.zip" \
-    "$PLUGINSDIR\${CODEC_VERSION}.zip" /END
+    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER "Downloading MPV..." /CAPTION "Downloading MPV..." \
+    "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
+    "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
     StrCmp $R0 OK +4 0
 !else
     NSISdl::download /TIMEOUT=15000 \
-    "http://www.mplayerhq.hu/MPlayer/releases/codecs/${CODEC_VERSION}.zip" \
-    "$PLUGINSDIR\${CODEC_VERSION}.zip" /END
+    "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
+    "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
     StrCmp $R0 "success" +4 0
 !endif
-      DetailPrint $(Codecs_DL_Failed)
-      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(Codecs_DL_Retry) /SD IDCANCEL IDRETRY retry_codecs_dl
-      Goto check_codecs
+      DetailPrint "MPV download failed"
+      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "Try again?" /SD IDCANCEL IDRETRY retry_mpv_dl
+      Goto check_mpv
 
-    extract_codecs:
+    extract_mpv:
 
-    DetailPrint $(Info_Files_Extract)
-    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\${CODEC_VERSION}.zip" -y -o"$PLUGINSDIR"'
+    DetailPrint "Extracting MPV..."
+    CreateDirectory "$INSTDIR\mplayer"
+    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\mpv.7z" -y -o"$INSTDIR\mplayer"'
 
-    CreateDirectory "$INSTDIR\mplayer\codecs"
-    CopyFiles /SILENT "$PLUGINSDIR\${CODEC_VERSION}\*" "$INSTDIR\mplayer\codecs"
+    check_mpv:
 
-    check_codecs:
+    IfFileExists "$INSTDIR\mplayer\mpv*.exe" 0 mpvInstFailed
+        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x1
+        Goto dl_youtube-dl
+      mpvInstFailed:
+        Abort "Failed to install MPV."
 
-    IfFileExists "$INSTDIR\mplayer\codecs\*.dll" 0 codecsInstFailed
-        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x1
-        Goto done
-      codecsInstFailed:
-        DetailPrint $(Codecs_Inst_Failed)
-        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_Codecs 0x0
-        Sleep 5000
-
-    done:
+    dl_youtube-dl:
+    ${IfNot} ${FileExists} "$INSTDIR\mplayer\youtube-dl.exe"
+      NSISdl::download /TIMEOUT=15000 \
+      "http://yt-dl.org/latest/youtube-dl.exe" \
+      "$INSTDIR\mplayer\youtube-dl.exe" /END
+      Pop $R0
+      StrCmp $R0 "success" +3 0
+        DetailPrint "YouTube-DL download failed."
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "Try again?" /SD IDCANCEL IDRETRY dl_youtube-dl
+    ${EndIf}
 
   SectionEnd
-!endif
 
 SectionGroupEnd
 
@@ -558,7 +522,7 @@ Section -Post
 !endif
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://forum.smplayer.info"
+  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "HelpLink" "http://smplayer.sourceforge.net/forum"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "Publisher" "Ricardo Villalba"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "UninstallString" "$INSTDIR\${SMPLAYER_UNINST_EXE}"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLInfoAbout" "http://smplayer.sourceforge.net"
@@ -583,9 +547,7 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} $(Section_DesktopShortcut_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(Section_StartMenu_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
-!ifndef DISABLE_CODECS
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecCodecs} $(Section_MPlayerCodecs_Desc)
-!endif
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPV} "A feature-rich fork of MPlayer && MPlayer2"
   !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecResetSettings} $(Section_ResetSettings_Desc)
@@ -745,6 +707,12 @@ FunctionEnd
 ;--------------------------------
 ;Installer functions
 
+Function newGUIInit
+
+  StrCpy $1 ${SecMPlayer}
+
+FunctionEnd
+
 Function .onInit
 
   ${Unless} ${AtLeastWinXP}
@@ -837,6 +805,15 @@ Function .onInstFailed
 
 FunctionEnd
 
+Function .onSelChange
+
+  !insertmacro StartRadioButtons $1
+    !insertmacro RadioButton ${SecMPlayer}
+    !insertmacro RadioButton ${SecMPV}
+  !insertmacro EndRadioButtons
+
+FunctionEnd
+
 Function CheckPreviousVersion
 
   ClearErrors
@@ -874,35 +851,48 @@ Function CheckPreviousVersion
 
 FunctionEnd
 
-!ifndef DISABLE_CODECS
-Function Backup_Codecs
+Function Backup_MPV
 
-  ${IfNot} ${SectionIsSelected} ${SecCodecs}
+  ${IfNot} ${SectionIsSelected} ${SecMPV}
     Return
   ${EndIf}
 
-  IfFileExists "$SMPlayer_Path\mplayer\codecs\*.dll" 0 NoBackup
-    DetailPrint $(Info_Codecs_Backup)
-    CreateDirectory "$PLUGINSDIR\codecbak"
-    CopyFiles /SILENT "$SMPlayer_Path\mplayer\codecs\*" "$PLUGINSDIR\codecbak"
-    StrCpy $Restore_Codecs 1
+  IfFileExists "$SMPlayer_Path\mplayer\mpv*.exe" 0 NoBackup
+    DetailPrint "Backing up MPV..."
+    CreateDirectory "$PLUGINSDIR\mpvbak"
+    CopyFiles /SILENT "$SMPlayer_Path\mplayer\*" "$PLUGINSDIR\mpvbak"
+    StrCpy $Restore_MPV 1
     Return
   NoBackup:
-    StrCpy $Restore_Codecs 0
+    StrCpy $Restore_MPV 0
 
 FunctionEnd
-!endif
+
+Function Backup_SMTube
+
+  IfFileExists "$SMPlayer_Path\smtube.exe" 0 NoBackup
+    DetailPrint "Backing up SMTube..."
+    CreateDirectory "$PLUGINSDIR\smtubebak\translations"
+    CreateDirectory "$PLUGINSDIR\smtubebak\docs\smtube"
+    CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
+    CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
+    StrCpy $Restore_SMTube 1
+    Return
+  NoBackup:
+    StrCpy $Restore_SMTube 0
+
+FunctionEnd
 
 Function LoadPreviousSettings
 
-  ;MPlayer codecs section doesn't use Memento so we need to restore it manually
-  ;32-bit only
-!ifndef DISABLE_CODECS
-    ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_Codecs"
-    ${If} $R0 == 1
-      !insertmacro SelectSection ${SecCodecs}
-    ${EndIf}
-!endif
+  ;MPV section doesn't use Memento so we need to restore it manually
+  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_MPV"
+  ${If} $R0 == 1
+    StrCpy $1 ${SecMPV}
+    !insertmacro UnSelectSection ${SecMPlayer}
+    !insertmacro SelectSection ${SecMPV}
+  ${EndIf}
 
   ;Gets start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
