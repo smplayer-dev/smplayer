@@ -17,6 +17,7 @@
 */
 
 #include <QDebug>
+#include "inforeader.h"
 
 void MPVProcess::addArgument(const QString & a) {
 }
@@ -112,6 +113,13 @@ void MPVProcess::disableInput() {
 	arg << "--input-x11-keyboard=no";
 	arg << "--no-input-cursor";
 	arg << "--cursor-autohide=no";
+}
+
+bool MPVProcess::isOptionAvailable(const QString & option) {
+	InfoReader * ir = InfoReader::obj(executable());
+	ir->getInfo();
+	//qDebug() << "MPVProcess::isOptionAvailable: option_list:" << ir->optionList();
+	return ir->optionList().contains(option);
 }
 
 void MPVProcess::setOption(const QString & option_name, const QVariant & value) {
@@ -297,7 +305,9 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "enable_streaming_sites_support") {
-		if (value.toBool()) arg << "--ytdl";
+		if (isOptionAvailable("--ytdl")) {
+			if (value.toBool()) arg << "--ytdl"; else arg << "--ytdl=no";
+		}
 	}
 	else
 	if (option_name == "verbose") {

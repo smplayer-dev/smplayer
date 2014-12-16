@@ -99,6 +99,9 @@ public:
 
 	QString mpvVersion() { return mpv_version; };
 
+protected:
+	bool isOptionAvailable(const QString & option);
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
