@@ -83,6 +83,18 @@ echo.
 
 mkdir %OUTPUT_DIR%\themes\
 
+mkdir %OUTPUT_DIR%\themes\Faenza
+copy %SMPLAYER_THEMES_DIR%\themes\Faenza\Faenza.rcc %OUTPUT_DIR%\themes\Faenza\
+copy %SMPLAYER_THEMES_DIR%\themes\Faenza\README.txt %OUTPUT_DIR%\themes\Faenza\
+
+mkdir %OUTPUT_DIR%\themes\Faenza-Darkest
+copy %SMPLAYER_THEMES_DIR%\themes\Faenza-Darkest\Faenza-Darkest.rcc %OUTPUT_DIR%\themes\Faenza-Darkest\
+copy %SMPLAYER_THEMES_DIR%\themes\Faenza-Darkest\README.txt %OUTPUT_DIR%\themes\Faenza-Darkest\
+
+mkdir %OUTPUT_DIR%\themes\Faenza-Silver
+copy %SMPLAYER_THEMES_DIR%\themes\Faenza-Silver\Faenza-Silver.rcc %OUTPUT_DIR%\themes\Faenza-Silver\
+copy %SMPLAYER_THEMES_DIR%\themes\Faenza-Silver\README.txt %OUTPUT_DIR%\themes\Faenza-Silver\
+
 mkdir %OUTPUT_DIR%\themes\Gartoon
 copy %SMPLAYER_THEMES_DIR%\themes\Gartoon\Gartoon.rcc %OUTPUT_DIR%\themes\Gartoon\
 copy %SMPLAYER_THEMES_DIR%\themes\Gartoon\README.txt %OUTPUT_DIR%\themes\Gartoon\
@@ -118,6 +130,10 @@ copy %SMPLAYER_THEMES_DIR%\themes\Oxygen\README.txt %OUTPUT_DIR%\themes\Oxygen\
 mkdir %OUTPUT_DIR%\themes\Oxygen-Air
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Air\Oxygen-Air.rcc %OUTPUT_DIR%\themes\Oxygen-Air\
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Air\README.txt %OUTPUT_DIR%\themes\Oxygen-Air\
+
+mkdir %OUTPUT_DIR%\themes\Oxygen-KDE
+copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-KDE\Oxygen-KDE.rcc %OUTPUT_DIR%\themes\Oxygen-KDE\
+copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-KDE\README.txt %OUTPUT_DIR%\themes\Oxygen-KDE\
 
 mkdir %OUTPUT_DIR%\themes\Oxygen-Refit
 copy %SMPLAYER_THEMES_DIR%\themes\Oxygen-Refit\Oxygen-Refit.rcc %OUTPUT_DIR%\themes\Oxygen-Refit\
