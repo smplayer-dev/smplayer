@@ -184,8 +184,8 @@ echo Creating smplayer.ini...
 echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
-echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
-echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo [smplayer]>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo check_if_upgraded=false>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 
 ::
 echo Creating smplayer_orig.ini...
@@ -193,8 +193,8 @@ echo Creating smplayer_orig.ini...
 echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
-echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
-echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo [smplayer]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo check_if_upgraded=false>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 
 ::
 echo Creating mplayer config...
@@ -267,8 +267,8 @@ echo Creating smplayer.ini...
 echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
-echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
-echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo [smplayer]>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo check_if_upgraded=false>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 
 ::
 echo Creating smplayer_orig.ini...
@@ -276,8 +276,8 @@ echo Creating smplayer_orig.ini...
 echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
-echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
-echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo [smplayer]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo check_if_upgraded=false>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 
 ::
 echo Creating mplayer config...
