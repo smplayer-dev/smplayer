@@ -150,19 +150,19 @@ goto end
 echo --- SMPlayer Portable Package [32-bit] ---
 echo.
 
-if not exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
+if not exist "%PORTABLE_EXE_DIR%\smplayer-portable.exe" (
   echo SMPlayer portable EXE not found!
   goto end
 )
 
-if not exist %PORTABLE_EXE_DIR%\smtube-portable.exe (
-  echo Warning: SMTube portable EXE not found!
-)
+::if not exist "%PORTABLE_EXE_DIR%\smtube-portable.exe" (
+::  echo Warning: SMTube portable EXE not found!
+::)
 
-ren %SMPLAYER_DIR% smplayer-portable-%ALL_PKG_VER%
-set SMPLAYER_PORTABLE_DIR=%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%
+ren "%SMPLAYER_DIR%" "smplayer-portable-%ALL_PKG_VER%"
+set SMPLAYER_PORTABLE_DIR="%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%"
 
-if not exist %TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER% (
+if not exist "%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%" (
   echo Oops! Unable to find renamed directory, make sure no files are opened.
   goto end
 )
@@ -170,59 +170,59 @@ if not exist %TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER% (
 ::
 echo Backing up files...
 
-ren %SMPLAYER_PORTABLE_DIR%\smplayer.exe smplayer.bak
-ren %SMPLAYER_PORTABLE_DIR%\smtube.exe smtube.bak
+ren "%SMPLAYER_PORTABLE_DIR%\smplayer.exe" smplayer.bak
+::ren "%SMPLAYER_PORTABLE_DIR%\smtube.exe" smtube.bak
 
 ::
 echo Creating screenshots dir...
 
-mkdir %SMPLAYER_PORTABLE_DIR%\screenshots
+mkdir "%SMPLAYER_PORTABLE_DIR%\screenshots"
 
 ::
 echo Creating smplayer.ini...
 
-echo [%%General]> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 
 ::
 echo Creating smplayer_orig.ini...
 
-echo [%%General]> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 
 ::
 echo Creating mplayer config...
 
-echo ^<cachedir^>../fontconfig^</cachedir^>> %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
+echo ^<cachedir^>../fontconfig^</cachedir^>> "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 
 ::
 echo Copying portable .exe...
 
-copy /y %PORTABLE_EXE_DIR%\smplayer-portable.exe %SMPLAYER_PORTABLE_DIR%\smplayer.exe
-copy /y %PORTABLE_EXE_DIR%\smtube-portable.exe %SMPLAYER_PORTABLE_DIR%\smtube.exe
+copy /y "%PORTABLE_EXE_DIR%\smplayer-portable.exe" "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
+::copy /y "%PORTABLE_EXE_DIR%\smtube-portable.exe" "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
 
 ::
 echo Finalizing package...
-7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!buildinfo -xr!buildinfo64 -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!buildinfo -xr!buildinfo64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
 echo.
-rmdir %SMPLAYER_PORTABLE_DIR%\screenshots
-del %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-del %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-del %SMPLAYER_PORTABLE_DIR%\smplayer.exe
-del %SMPLAYER_PORTABLE_DIR%\smtube.exe
-del %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
-ren %SMPLAYER_PORTABLE_DIR%\smplayer.bak smplayer.exe
-ren %SMPLAYER_PORTABLE_DIR%\smtube.bak smtube.exe
-ren %SMPLAYER_PORTABLE_DIR% smplayer-build
+rmdir "%SMPLAYER_PORTABLE_DIR%\screenshots"
+del "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+del "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+del "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
+::del "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
+del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
+ren "%SMPLAYER_PORTABLE_DIR%\smplayer.bak" smplayer.exe
+::ren "%SMPLAYER_PORTABLE_DIR%\smtube.bak" smtube.exe
+ren "%SMPLAYER_PORTABLE_DIR%" smplayer-build
 
 if not "%USER_CHOICE%" == "11"  goto end
 
@@ -231,19 +231,19 @@ echo --- SMPlayer Portable Package [64-bit] ---
 echo.
 
 :: Check for portable exes
-if not exist %PORTABLE_EXE_DIR%\smplayer-portable64.exe (
+if not exist "%PORTABLE_EXE_DIR%\smplayer-portable64.exe" (
   echo SMPlayer portable EXE not found!
   goto end
 )
 
-if not exist %PORTABLE_EXE_DIR%\smtube-portable64.exe (
-  echo Warning: SMTube portable EXE not found!
-)
+::if not exist %PORTABLE_EXE_DIR%\smtube-portable64.exe (
+::  echo Warning: SMTube portable EXE not found!
+::)
 
-ren %SMPLAYER_DIR64% smplayer-portable-%ALL_PKG_VER%-x64
-set SMPLAYER_PORTABLE_DIR=%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64
+ren "%SMPLAYER_DIR64%" "smplayer-portable-%ALL_PKG_VER%-x64"
+set SMPLAYER_PORTABLE_DIR="%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64"
 
-if not exist %TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64 (
+if not exist "%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64" (
   echo Oops! Unable to find renamed directory, make sure no files are opened.
   goto end
 )
@@ -251,63 +251,63 @@ if not exist %TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64 (
 ::
 echo Backing up files...
 
-ren %SMPLAYER_PORTABLE_DIR%\smplayer.exe smplayer.bak
-ren %SMPLAYER_PORTABLE_DIR%\smtube.exe smtube.bak
-ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe mplayer.exe.bak32
-ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer64.exe mplayer.exe
+ren "%SMPLAYER_PORTABLE_DIR%\smplayer.exe" smplayer.bak
+::ren "%SMPLAYER_PORTABLE_DIR%\smtube.exe" smtube.bak
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe" mplayer.exe.bak32
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer64.exe" mplayer.exe
 
 ::
 echo Creating screenshots dir...
 
-mkdir %SMPLAYER_PORTABLE_DIR%\screenshots
+mkdir "%SMPLAYER_PORTABLE_DIR%\screenshots"
 
 ::
 echo Creating smplayer.ini...
 
-echo [%%General]> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer.ini
+echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 
 ::
 echo Creating smplayer_orig.ini...
 
-echo [%%General]> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo screenshot_directory=.\\screenshots>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo.>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo [advanced]>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-echo mplayer_additional_options=-nofontconfig>> %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
+echo [%%General]> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo screenshot_directory=.\\screenshots>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo.>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo [advanced]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+echo mplayer_additional_options=-nofontconfig>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 
 ::
 echo Creating mplayer config...
 
-echo ^<cachedir^>../fontconfig^</cachedir^>> %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
+echo ^<cachedir^>../fontconfig^</cachedir^>> "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 
 ::
 echo Copying portable .exe...
 
-copy /y %PORTABLE_EXE_DIR%\smplayer-portable64.exe %SMPLAYER_PORTABLE_DIR%\smplayer.exe
-copy /y %PORTABLE_EXE_DIR%\smtube-portable64.exe %SMPLAYER_PORTABLE_DIR%\smtube.exe
+copy /y "%PORTABLE_EXE_DIR%\smplayer-portable64.exe" "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
+::copy /y "%PORTABLE_EXE_DIR%\smtube-portable64.exe" "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
 
 ::
 echo Finalizing package...
-7za a -t7z %OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z %SMPLAYER_PORTABLE_DIR% -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!codecs -xr!buildinfo -xr!buildinfo64 -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!codecs -xr!buildinfo -xr!buildinfo64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
 echo.
-rmdir %SMPLAYER_PORTABLE_DIR%\screenshots
-del %SMPLAYER_PORTABLE_DIR%\smplayer.ini
-del %SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini
-del %SMPLAYER_PORTABLE_DIR%\smplayer.exe
-del %SMPLAYER_PORTABLE_DIR%\smtube.exe
-ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe mplayer64.exe
-ren %SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe.bak32 mplayer.exe
-del %SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf
-ren %SMPLAYER_PORTABLE_DIR%\smplayer.bak smplayer.exe
-ren %SMPLAYER_PORTABLE_DIR%\smtube.bak smtube.exe
-ren %SMPLAYER_PORTABLE_DIR% smplayer-build64
+rmdir "%SMPLAYER_PORTABLE_DIR%\screenshots"
+del "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
+del "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
+del "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
+::del "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe" mplayer64.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe.bak32" mplayer.exe
+del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
+ren "%SMPLAYER_PORTABLE_DIR%\smplayer.bak" smplayer.exe
+::ren "%SMPLAYER_PORTABLE_DIR%\smtube.bak" smtube.exe
+ren "%SMPLAYER_PORTABLE_DIR%" smplayer-build64
 
 goto end
 
