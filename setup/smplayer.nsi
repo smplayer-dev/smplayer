@@ -344,7 +344,7 @@ Section $(Section_SMPlayer) SecSMPlayer
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
   ${If} $Restore_SMTube == 1
-    DetailPrint "Restoring SMTube"
+    DetailPrint "Restoring SMTube from previous installation..."
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\*" "$INSTDIR"
   ${EndIf}
 
@@ -415,7 +415,7 @@ SectionGroup "Playback Components"
     AddSize 30000
 
     ${If} $Restore_MPV == 1
-      DetailPrint "Restoring MPV"
+      DetailPrint "Restoring MPV from previous installation..."
       CopyFiles /SILENT "$PLUGINSDIR\mpvbak\*" "$INSTDIR\mplayer"
       Goto check_mpv
     ${ElseIf} ${FileExists} "$EXEDIR\${MPV_FILENAME}"
@@ -439,8 +439,8 @@ SectionGroup "Playback Components"
     Pop $R0
     StrCmp $R0 "success" +4 0
 !endif
-      DetailPrint "MPV download failed"
-      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "Try again?" /SD IDCANCEL IDRETRY retry_mpv_dl
+      DetailPrint "Failed to download MPV: '$R0'."
+      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "MPV was not successfully installed. Retry?" /SD IDCANCEL IDRETRY retry_mpv_dl
       Goto check_mpv
 
     extract_mpv:
@@ -464,8 +464,8 @@ SectionGroup "Playback Components"
       "$INSTDIR\mplayer\youtube-dl.exe" /END
       Pop $R0
       StrCmp $R0 "success" +3 0
-        DetailPrint "YouTube-DL download failed."
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "Try again?" /SD IDCANCEL IDRETRY dl_youtube-dl
+        DetailPrint "Failed to download Youtube-DL: '$R0'."
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "YouTube-DL was not successfully installed. Retry?" /SD IDCANCEL IDRETRY dl_youtube-dl
     ${EndIf}
 
   SectionEnd
