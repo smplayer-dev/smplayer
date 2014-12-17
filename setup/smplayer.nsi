@@ -95,6 +95,7 @@
   Var Inst_Type
   Var Previous_Version
   Var Previous_Version_State
+  Var ReadReg_Installed_MPV
   Var Reinstall_ChgSettings
   Var Reinstall_ChgSettings_State
   Var Reinstall_Message
@@ -107,6 +108,7 @@
   Var Reinstall_UninstallButton_State
   Var Restore_MPV
   Var Restore_SMTube
+  Var SecRadioButton
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
@@ -709,7 +711,14 @@ FunctionEnd
 
 Function newGUIInit
 
-  StrCpy $1 ${SecMPlayer}
+  ReadRegDWORD $ReadReg_Installed_MPV HKLM "${SMPLAYER_REG_KEY}" "Installed_MPV"
+  ${If} $ReadReg_Installed_MPV == 1
+    StrCpy $SecRadioButton ${SecMPV}
+    !insertmacro UnSelectSection ${SecMPlayer}
+    !insertmacro SelectSection ${SecMPV}
+  ${Else}
+    StrCpy $SecRadioButton ${SecMPlayer}
+  ${EndIf}
 
 FunctionEnd
 
@@ -807,7 +816,7 @@ FunctionEnd
 
 Function .onSelChange
 
-  !insertmacro StartRadioButtons $1
+  !insertmacro StartRadioButtons $SecRadioButton
     !insertmacro RadioButton ${SecMPlayer}
     !insertmacro RadioButton ${SecMPV}
   !insertmacro EndRadioButtons
@@ -886,15 +895,7 @@ FunctionEnd
 
 Function LoadPreviousSettings
 
-  ;MPV section doesn't use Memento so we need to restore it manually
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" "Installed_MPV"
-  ${If} $R0 == 1
-    StrCpy $1 ${SecMPV}
-    !insertmacro UnSelectSection ${SecMPlayer}
-    !insertmacro SelectSection ${SecMPV}
-  ${EndIf}
-
-  ;Gets start menu folder name
+  ;Gets previous start menu folder name
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
 
   ${MementoSectionRestore}
