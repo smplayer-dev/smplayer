@@ -1843,6 +1843,7 @@ void Core::startMplayer( QString file, double seek ) {
 	} else {
 		// NO ASS:
 		if (pref->freetype_support) proc->setOption("noass");
+		proc->setOption("subfont-text-scale", QString::number(mset.sub_scale));
 	}
 
 	// Subtitle encoding
