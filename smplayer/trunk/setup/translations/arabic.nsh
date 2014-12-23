@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "سيرشدك برنامج الإعداد أ�
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "الإختصارات"
 ${LangFileString} MPlayerGroupTitle "مكونات MPlayer"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (مطلوب)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer و مكتبات المشاركَة و الوثائق."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "المرمِّزات الثنائ�
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "مرمِّزات اختيارية لـ MPlayer. (تتطلب اتصال انترنت للتثبيت)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "برنامج مُرافِق لـ MPlayer و يمكن استخدامه لترميز أو تحويل دفقات الصوت أو الفيديو المدعومة."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "حذف الإختصارات..."
 ${LangFileString} Info_Rest_Assoc "استعادة ارتباطات الملفات..."
 ${LangFileString} Info_RollBack "عكس التغييرات..."
 ${LangFileString} Info_Files_Extract "استخراج الملفات..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

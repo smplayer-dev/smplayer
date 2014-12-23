@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Instalator poprowadzi Cię przez proces inst
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Skróty"
 ${LangFileString} MPlayerGroupTitle "Komponenty MPlayera"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (wymagany)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, biblioteki współdzielone, dokumentacja."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeki binarne nie są obsługiwan
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera. (Wymagane połączenie z internetem)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Jest to prosty koder (kompresor) filmów, zaprojektowany do kodowania filmów otwieralnych MPlayerem do innych obsługiwanych formatów"
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Usuwanie Skrótów..."
 ${LangFileString} Info_Rest_Assoc "Przywracanie skojarzeń plików..."
 ${LangFileString} Info_RollBack "Cofanie zmian..."
 ${LangFileString} Info_Files_Extract "Wypakowywanie plików..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

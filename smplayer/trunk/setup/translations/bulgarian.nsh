@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Инсталаторът ще Ви упът�
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Преки пътища"
 ${LangFileString} MPlayerGroupTitle "Компоненти на MPlayer"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (необходим)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, споделени библиотеки и документация."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Бинарните кодеци н
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Допълнителни кодеци за MPlayer. (За инсталацията се изисква връзка с Интернет)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Допълваща програма на MPlayer, която може да кодира или пренася поддържани звукови или видео потоци."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Изтриване на преки път�
 ${LangFileString} Info_Rest_Assoc "Възстановяване на файлови асоциации..."
 ${LangFileString} Info_RollBack "Връщане на промените..."
 ${LangFileString} Info_Files_Extract "Разархивиране на файлове..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

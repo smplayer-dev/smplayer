@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Setup will guide you through the installatio
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Sneltoetsen"
 ${LangFileString} MPlayerGroupTitle "MPlayer-componenten"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (vereist)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, gedeelde bibliotheken en documentatie."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Optionele codecs voor MPlayer. (Internetverbinding vereist voor installatie)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Deleting Shortcuts..."
 ${LangFileString} Info_Rest_Assoc "Restoring file associations..."
 ${LangFileString} Info_RollBack "Rolling back changes..."
 ${LangFileString} Info_Files_Extract "Extracting files..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

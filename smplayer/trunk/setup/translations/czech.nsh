@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Nastavení vás provede instalací $(^NameDA
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Zástupci"
 ${LangFileString} MPlayerGroupTitle "Součásti MPlayeru"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (vyžadován)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, sdílené knihovny a dokumentace."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Binární kodeky nejsou v této ve
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Přídavné kodeky MPlayeru. (Pro instalaci je potřeba připojení k Internetu)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Dodatkový program pro MPlayer, který se využívá k enkódování nebo transformaci audio/video souborů."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Mažu zástupce..."
 ${LangFileString} Info_Rest_Assoc "Obnovuji asociace souborů..."
 ${LangFileString} Info_RollBack "Beru zpět změny..."
 ${LangFileString} Info_Files_Extract "Extrahuji soubory..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
