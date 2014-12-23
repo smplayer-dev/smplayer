@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "A continuación se procederá a la instalaci
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Accesos"
 ${LangFileString} MPlayerGroupTitle "Componentes de MPlayer"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (requerido)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, librerías compartidas y documentación."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Los códecs binarios no están dis
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Códecs opcionales para MPlayer. (Se necesita conexión a internet para la instalación)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Un programa opcional que puede ser usado para recodificar vídeos."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Borrando accesos..."
 ${LangFileString} Info_Rest_Assoc "Restaurando asociaciones de ficheros..."
 ${LangFileString} Info_RollBack "Deshaciendo cambios..."
 ${LangFileString} Info_Files_Extract "Extrayendo ficheros..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

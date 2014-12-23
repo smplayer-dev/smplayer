@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Ezartzaileak $(^NameDA)-ren ezarpenean zehar
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Lasterbideak"
 ${LangFileString} MPlayerGroupTitle "MPlayer Osagaiak"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (beharrezkoa)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, elkarbanatutako liburutegiak, eta agiritza."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Binario kodekak ez daude sostengat
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayer-entzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Lasterbideak Ezabatzen..."
 ${LangFileString} Info_Rest_Assoc "Agiri elkarketak leheneratzen..."
 ${LangFileString} Info_RollBack "Aldaketak desegiten..."
 ${LangFileString} Info_Files_Extract "Agiriak ateratzen..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

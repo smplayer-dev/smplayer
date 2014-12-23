@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Programi i instalimit do ju ndihmoj hap pas 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Shortcuts"
 ${LangFileString} MPlayerGroupTitle "Komponentet e MPlayer."
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (nevojitet)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, libraritë dinamike, dhe dokumentacioni."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Codec-ët binary nuk suportohen n�
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Codec-ët shtesë për MPlayer. (Nevojitet Lidhje në Internet për instalimin)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Nje program qe perdor MPlayer mund te perdoret per te enkoduar ose transformuar file audio ose video te suportuar."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Duke fshire Shortcuts..."
 ${LangFileString} Info_Rest_Assoc "Duke gjetur file associations..."
 ${LangFileString} Info_RollBack "Kthimi mbrapa i ndryshimeve..."
 ${LangFileString} Info_Files_Extract "Ekstratimi i file..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

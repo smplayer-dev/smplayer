@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "设置程序将引导您完成安装 $(^Name
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "快捷方式"
 ${LangFileString} MPlayerGroupTitle "MPlayer 组件"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (必需)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer、共享库和文档。"
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "此版本不支持二进制解码�
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "适用于 MPlayer 的可选解码器。(安装需要使用网络连接)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer 的配套程序，可以用来编码或转换支持的音频/视频流。"
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "正在删除快捷方式..."
 ${LangFileString} Info_Rest_Assoc "正在恢复文件关联..."
 ${LangFileString} Info_RollBack "正在回滚更改..."
 ${LangFileString} Info_Files_Extract "正在提取文件..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

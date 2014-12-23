@@ -23,6 +23,7 @@ ${LangFileString} WelcomePage_Text "Persediaan akan bantu anda melalui pemasanga
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Pintasan"
 ${LangFileString} MPlayerGroupTitle "Komponen MPlayer"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (diperlukan)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, pustaka terkongsi, dan dokumentasi."
@@ -42,6 +43,8 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks binari tidak disokong dalam
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk pemasangan)"
 !endif
+
+${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Program yang diperlukan oleh MPlayer yang dapat digunakan untuk mengenkod atau jelma audio disokong atau strim video."
 
@@ -100,3 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Memadam Pintasan..."
 ${LangFileString} Info_Rest_Assoc "Memulihkan perkaitan fail..."
 ${LangFileString} Info_RollBack "Mengembali perubahan..."
 ${LangFileString} Info_Files_Extract "Mengekstrak fail..."
+${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
+${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_MPV_Backup "Backing up MPV..."
+${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+
+; MPV
+${LangFileString} MPV_DL_Msg "Downloading MPV..."
+${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+
+; YouTube-DL
+${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."

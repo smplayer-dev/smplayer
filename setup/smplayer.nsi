@@ -344,7 +344,7 @@ Section $(Section_SMPlayer) SecSMPlayer
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
   ${If} $Restore_SMTube == 1
-    DetailPrint "Restoring SMTube from previous installation..."
+    DetailPrint $(Info_SMTube_Restore)
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\*" "$INSTDIR"
   ${EndIf}
 
@@ -394,7 +394,7 @@ SectionGroupEnd
 
 ;--------------------------------
 ;MPlayer & MPV
-SectionGroup "Playback Components"
+SectionGroup $(MPlayerMPVGroupTitle)
 
   Section "MPlayer" SecMPlayer
 
@@ -415,7 +415,7 @@ SectionGroup "Playback Components"
     AddSize 30000
 
     ${If} $Restore_MPV == 1
-      DetailPrint "Restoring MPV from previous installation..."
+      DetailPrint $(Info_MPV_Restore)
       CopyFiles /SILENT "$PLUGINSDIR\mpvbak\*" "$INSTDIR\mplayer"
       Goto check_mpv
     ${ElseIf} ${FileExists} "$EXEDIR\${MPV_FILENAME}"
@@ -425,9 +425,9 @@ SectionGroup "Playback Components"
 
     retry_mpv_dl:
 
-    DetailPrint "Downloading MPV..."
+    DetailPrint $(MPV_DL_Msg)
 !ifdef USE_INETC
-    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER "Downloading MPV..." /CAPTION "Downloading MPV..." \
+    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(MPV_DL_Msg) /CAPTION $(MPV_DL_Msg) \
     "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
     "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
@@ -439,13 +439,13 @@ SectionGroup "Playback Components"
     Pop $R0
     StrCmp $R0 "success" +4 0
 !endif
-      DetailPrint "Failed to download MPV: '$R0'."
-      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "MPV was not successfully installed. Retry?" /SD IDCANCEL IDRETRY retry_mpv_dl
+      DetailPrint $(MPV_DL_Failed)
+      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPV_DL_Retry) /SD IDCANCEL IDRETRY retry_mpv_dl
       Goto check_mpv
 
     extract_mpv:
 
-    DetailPrint "Extracting MPV..."
+    DetailPrint $(Info_Files_Extract)
     CreateDirectory "$INSTDIR\mplayer"
     nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\mpv.7z" -y -o"$INSTDIR\mplayer"'
 
@@ -455,7 +455,7 @@ SectionGroup "Playback Components"
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x1
         Goto dl_youtube-dl
       mpvInstFailed:
-        Abort "Failed to install MPV."
+        Abort $(MPV_Inst_Failed)
 
     dl_youtube-dl:
     ${IfNot} ${FileExists} "$INSTDIR\mplayer\youtube-dl.exe"
@@ -464,8 +464,8 @@ SectionGroup "Playback Components"
       "$INSTDIR\mplayer\youtube-dl.exe" /END
       Pop $R0
       StrCmp $R0 "success" +3 0
-        DetailPrint "Failed to download Youtube-DL: '$R0'."
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION "YouTube-DL was not successfully installed. Retry?" /SD IDCANCEL IDRETRY dl_youtube-dl
+        DetailPrint $(YTDL_DL_Failed)
+        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY dl_youtube-dl
     ${EndIf}
 
   SectionEnd
@@ -549,7 +549,7 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${SecDesktopShortcut} $(Section_DesktopShortcut_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecStartMenuShortcut} $(Section_StartMenu_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPlayer} $(Section_MPlayer_Desc)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPV} "A feature-rich fork of MPlayer && MPlayer2"
+  !insertmacro MUI_DESCRIPTION_TEXT ${SecMPV} $(Section_MPV_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecResetSettings} $(Section_ResetSettings_Desc)
@@ -867,7 +867,7 @@ Function Backup_MPV
   ${EndIf}
 
   IfFileExists "$SMPlayer_Path\mplayer\mpv*.exe" 0 NoBackup
-    DetailPrint "Backing up MPV..."
+    DetailPrint $(Info_MPV_Backup)
     CreateDirectory "$PLUGINSDIR\mpvbak"
     CopyFiles /SILENT "$SMPlayer_Path\mplayer\*" "$PLUGINSDIR\mpvbak"
     StrCpy $Restore_MPV 1
@@ -880,7 +880,7 @@ FunctionEnd
 Function Backup_SMTube
 
   IfFileExists "$SMPlayer_Path\smtube.exe" 0 NoBackup
-    DetailPrint "Backing up SMTube..."
+    DetailPrint $(Info_SMTube_Backup)
     CreateDirectory "$PLUGINSDIR\smtubebak\translations"
     CreateDirectory "$PLUGINSDIR\smtubebak\docs\smtube"
     CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
