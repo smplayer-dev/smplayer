@@ -1523,14 +1523,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>บางทีการอัพเดต SMPlayer สามารถแก้ปัญหาได้</translation>
     </message>
     <message>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="obsolete">เบราว์เซอร์ YouTube ไม่สามารถเริ่มต้นได้</translation>
-    </message>
-    <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">โปรดแน่ใจว่า %1 ได้ถูกติดตั้งไว้</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1988"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>แบ่ง&amp;ปัน SMPlayer กับเพื่อนๆ</translation>
@@ -2159,73 +2151,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>Brightness: %1</source>
         <translation>ความสว่าง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2847"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>Contrast: %1</source>
         <translation>ความตัดกัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Gamma: %1</source>
         <translation>แกมมา: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2878"/>
         <source>Hue: %1</source>
         <translation>สีสัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2893"/>
         <source>Saturation: %1</source>
         <translation>ความอิ่มตัว: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3022"/>
         <source>Volume: %1</source>
         <translation>ความดัง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3881"/>
+        <location filename="../core.cpp" line="3882"/>
         <source>Zoom: %1</source>
         <translation>ขยาย: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4102"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Buffering...</source>
         <translation>กำลังบัฟเฟอร์...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3151"/>
         <source>Font scale: %1</source>
         <translation>มาตราอักษร: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3746"/>
+        <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
         <translation>อัตราส่วนภาพ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4098"/>
+        <location filename="../core.cpp" line="4099"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>กำลังอัพเดตแคชอักษร ซึ่งอาจใช้เวลาสักครู่...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3064"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>หน่วงศัพท์บรรยาย: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Audio delay: %1 ms</source>
         <translation>หน่วงเสียง: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2946"/>
+        <location filename="../core.cpp" line="2947"/>
         <source>Speed: %1</source>
         <translation>ความเร็ว: %1</translation>
     </message>
@@ -2240,37 +2232,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ไม่สามารถหาที่ตั้ง URL ของวิดีโอได้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Subtitles on</source>
         <translation>เปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles off</source>
         <translation>ปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3794"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>หมุนเมาส์เลื่อนหาตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>หมุนเมาส์เปลี่ยนความดังตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>หมุนเมาส์เปลี่ยนระดับขยายตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>หมุนเมาส์เปลี่ยนความเร็วตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4107"/>
+        <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2285,17 +2277,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ภาพหน้าจอไม่ถูกจับ เพราะโฟลเดอร์ยังไม่ถูกกำหนดไว้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2566"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>จุด &quot;A&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2582"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>จุด &quot;B&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2597"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>A-B markers cleared</source>
         <translation>ช่วง A-B ถูกล้างแล้ว</translation>
     </message>

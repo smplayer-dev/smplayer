@@ -1523,14 +1523,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>也許 SMPlayer 的更新可以解決這個問題。</translation>
     </message>
     <message>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="obsolete">YouTube 瀏覽器可能無法啟動。</translation>
-    </message>
-    <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">請確保 %1 已安裝。</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1988"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>與您的朋友分享 SMPlayer(&amp;H)</translation>
@@ -2159,73 +2151,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2847"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2878"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2893"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3022"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3881"/>
+        <location filename="../core.cpp" line="3882"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4102"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Buffering...</source>
         <translation>緩衝中...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3151"/>
         <source>Font scale: %1</source>
         <translation>字體縮放：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3746"/>
+        <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
         <translation>長寬比：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4098"/>
+        <location filename="../core.cpp" line="4099"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>更新字型快取。這可能需要幾秒鐘時間...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3064"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Audio delay: %1 ms</source>
         <translation>音訊延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2946"/>
+        <location filename="../core.cpp" line="2947"/>
         <source>Speed: %1</source>
         <translation>速度：%1</translation>
     </message>
@@ -2240,37 +2232,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>無法找到該影片的網址</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Subtitles on</source>
         <translation>開啟字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles off</source>
         <translation>關閉字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3794"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>滑鼠滾輪尋找</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>滑鼠滾輪更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>滑鼠滾輪更改縮放等級</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>滑鼠滾輪更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4107"/>
+        <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2285,17 +2277,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2566"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>標誌 &quot;A&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2582"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>標誌 &quot;B&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2597"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>A-B markers cleared</source>
         <translation>A-B 標記清除</translation>
     </message>

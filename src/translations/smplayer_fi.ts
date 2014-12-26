@@ -1523,10 +1523,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>SMPlayerin päivittämisen saattaa korjata ongelman.</translation>
     </message>
     <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">Varmista, että %1 on asennettu.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1988"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>Jaa SMPlayer yst&amp;ävillesi</translation>
@@ -2155,73 +2151,73 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>Brightness: %1</source>
         <translation>Kirkkaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2847"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>Contrast: %1</source>
         <translation>Kontrasti: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2878"/>
         <source>Hue: %1</source>
         <translation>Värisävy: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2893"/>
         <source>Saturation: %1</source>
         <translation>Kyllästys: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3022"/>
         <source>Volume: %1</source>
         <translation>Äänen voimakkuus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3881"/>
+        <location filename="../core.cpp" line="3882"/>
         <source>Zoom: %1</source>
         <translation>Zoomaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4102"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Buffering...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3151"/>
         <source>Font scale: %1</source>
         <translation>Fontin koko: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3746"/>
+        <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
         <translation>Kuvasuhde: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4098"/>
+        <location filename="../core.cpp" line="4099"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Päivitetään kirjasin välimuistia. Se saattaa kestää hieman...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3064"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Tekstityksen viive: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Audio delay: %1 ms</source>
         <translation>Äänen viive: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2946"/>
+        <location filename="../core.cpp" line="2947"/>
         <source>Speed: %1</source>
         <translation>Nopeus: %1</translation>
     </message>
@@ -2236,37 +2232,37 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Subtitles on</source>
         <translation>Tekstitys päälle</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles off</source>
         <translation>Tekstitys pois</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3794"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>Hiiren rulla etsii</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Hiiren rulla vaihtaa äänen voimakkuutta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Hiiren rulla vaihtaa zoomauksen tasoa</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Hiiren rulla vaihtaa nopeutta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4107"/>
+        <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2281,17 +2277,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Ruutukaappausta EI otettu, kansiota ei ole määritelty</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2566"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; merkki asetettu %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2582"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; merkki asetettu %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2597"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>A-B markers cleared</source>
         <translation>A-B merkit tyhjennetty</translation>
     </message>

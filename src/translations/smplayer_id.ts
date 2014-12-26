@@ -1523,14 +1523,6 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Mungkin memutakhirkan SMPlayer dapat memperbaiki masalah</translation>
     </message>
     <message>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="obsolete">Peramban YouTube tidak bisa diluncurkan.</translation>
-    </message>
-    <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">Pastikan %1 terpasang.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1988"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>Ba&amp;gikan SMPlayer dengan teman-teman anda</translation>
@@ -2160,73 +2152,73 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>Brightness: %1</source>
         <translation>Kecerahan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2847"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>Contrast: %1</source>
         <translation>Kontras: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2878"/>
         <source>Hue: %1</source>
         <translation>Corak: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2893"/>
         <source>Saturation: %1</source>
         <translation>Kejenuhan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3022"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3881"/>
+        <location filename="../core.cpp" line="3882"/>
         <source>Zoom: %1</source>
         <translation>Perbesar: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4102"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Buffering...</source>
         <translation>Buffering...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3151"/>
         <source>Font scale: %1</source>
         <translation>Skala Font: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3746"/>
+        <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
         <translation>Rasio Aspek: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4098"/>
+        <location filename="../core.cpp" line="4099"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Memperbaharui tembolok font. Mungkin ini akan memakan beberapa detik</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3064"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Keterlambatan subtitle: %1 m</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Audio delay: %1 ms</source>
         <translation>Keterlambatan Audio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2946"/>
+        <location filename="../core.cpp" line="2947"/>
         <source>Speed: %1</source>
         <translation>Kecepatan: %1</translation>
     </message>
@@ -2241,37 +2233,37 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Tidak dapat menemukan tautan dari video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Subtitles on</source>
         <translation>Subtitle aktif</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles off</source>
         <translation>Subtitle tidak aktif</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3794"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>Berpindah posisi menggunakan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Mengubah volume dengan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Mengubah tingkat perbesaran dengan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Mengubah percepatan menggunakan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4107"/>
+        <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
         <translation>Memulai...</translation>
     </message>
@@ -2286,17 +2278,17 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Screenshot TIDAK dibuat, folder belum diatur</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2566"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Penanda &quot;A&quot; diatur ke %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2582"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Penanda &quot;B&quot; diatur ke %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2597"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>A-B markers cleared</source>
         <translation>Penanda A-B dibersihkan</translation>
     </message>

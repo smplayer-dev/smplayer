@@ -1293,12 +1293,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Saiz &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Saiz &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1464,27 +1464,27 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4598"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Sambungan gagal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Video yang anda pinta perlukan sambungan HTTPS terbuka.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4600"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Malangnya komponen openssl, diperlukan tetapi tidak tersedia dalam sistem anda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4601"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Sila, lawati %1 untuk ketahui cara membaiki masalah ini.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4602"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>pautan ini</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4612"/>
@@ -1500,12 +1500,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pelayar YouTube tidak dipasang.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lawati %1 untuk mendapatkannya.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4615"/>
@@ -1521,14 +1521,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <location filename="../basegui.cpp" line="4629"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Dengan mengemaskini SMPlayer dapat membaiki masalah tersebut.</translation>
-    </message>
-    <message>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="obsolete">Pelayar YouTube tidak dapat dilancarkan.</translation>
-    </message>
-    <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">Pastikan %1 telah dipasang.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1988"/>
@@ -2159,73 +2151,73 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>Brightness: %1</source>
         <translation>Kecerahan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2847"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>Contrast: %1</source>
         <translation>Beza jelas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2878"/>
         <source>Hue: %1</source>
         <translation>Rona: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2893"/>
         <source>Saturation: %1</source>
         <translation>Ketepuan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3022"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3881"/>
+        <location filename="../core.cpp" line="3882"/>
         <source>Zoom: %1</source>
         <translation>Zum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4102"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Buffering...</source>
         <translation>Menimbal...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3151"/>
         <source>Font scale: %1</source>
         <translation>Skala fon: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3746"/>
+        <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
         <translation>Nisbah bidang: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4098"/>
+        <location filename="../core.cpp" line="4099"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Mengemaskini cache fon. Ia mungkin mengambil masa beberapa saat...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3064"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Lengahan sarikata: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lengahan audio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2946"/>
+        <location filename="../core.cpp" line="2947"/>
         <source>Speed: %1</source>
         <translation>Kelajuan: %1</translation>
     </message>
@@ -2240,39 +2232,39 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Tidak dapat cari URL video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Subtitles on</source>
         <translation>Sarikata dihidupkan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles off</source>
         <translation>Sarikata dimatikan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3794"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kini jangkau roda tetikus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kini roda tetikus mengubah volum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kini roda tetikus mengubah aras zum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kini roda tetikus mengubah kelajuan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4107"/>
+        <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Memulakan...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -2285,17 +2277,17 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Cekupan skrin TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2566"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Penanda &quot;A&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2582"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Penanda &quot;B&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2597"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>A-B markers cleared</source>
         <translation>Penanda A-B dikosongkan</translation>
     </message>
@@ -4307,7 +4299,7 @@ Sila semak keizinan folder tersebut.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovena</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4768,32 +4760,32 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Log output MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika ditanda, SMPlayer akan menyimpan output MPlayer/MPV (anda boleh melihatnya di dalam &lt;b&gt;Pilihan -&gt; Lihat log -&gt; MPlayer/MPV&lt;/b&gt;). Jika menghadapi masalah log ini akan mengandungi maklumat penting, oleh itu disarankan pilihan ini ditanda.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto-simpan log MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini ditanda, log MPlayer/MPV akan disimpan ke fail yang dinyatakan setiap kali fail baru mula dimainkan. Ia bertujuan untuk aplikasi luaran, supaya ia boleh mendapat maklumat mengenai fail yang anda mainkan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto-simpan nama fail log MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Masukkan di sini laluan dan nama fail yang akan digunakan untuk menyimpan log MPlayer/MPV.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4808,7 +4800,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jalankan MPlayer/MPV dalam tetingkapnya sendiri</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4818,19 +4810,21 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lapor kerosakan MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan untuk MP&amp;layer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"></translation>
+        <translation>Di sini anda boleh lepasi pilihan tambahan ke MPlayer/MPV.
+Tulis ia secara berasingan dengan tanda jarak.
+Contohnya: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4850,7 +4844,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto-s&amp;impan log MPlayer/MPV ke fail</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4955,47 +4949,47 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Jalankan MPlayer/MPV dalam tetingkapnya sendiri</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika anda tanda pilihan ini, tetingkap video MPlayer/MPV tidak akan dibenamkan dalam tetingkap utama SMPlayer tetapi ia akan digunakan tetingkapnya sendiri. Perhatian peristiwa tetikus dan papan kekunci akan dikendali secara terus oleh MPlayer/MPV, ini bermakna pintasan kekunci dan klik tetikus tidak akan berfungsi sepertimana yang diharapkan bila tetingkap MPlayer/MPV telah difokuskan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Lapor kerosakan MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>JIka pilihan ini ditanda, satu tetingkap akan muncul untuk memaklumkan mengenai kerosakan MPlayer/MPV. Jika tidak kegagalan tersebut akan diabaikan secara senyap.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tukar MPlayer/MPV ke mod eksperimental dimana setem masa bagi bingkai video dikiran secara berasingan dan penapis video ditambah bingkai baru atau diubahsuai setem masa sedia ada yang tersokong. Lebih tepat setem masa boleh dikelihatankan contohnya bila memainkan sarikata bermasa pada adegan yang berubah dengan pustaka SSA/ASS dibenarkan. Tanpa pts yang dibetulkan pemasaan sarikata akan dimatikan oleh sesetengah bingkai. Pilihaan ini tidak berfungsi baik dengan beberapa jenis demuxer dan kodeks.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan untuk MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Di sini anda boleh taip pilihan untuk MPlayer atau MPV. Tulis ia secara berasingan dengan tanda jarak.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Di sini anda boleh tambah penapis video untuk MPlayer/MPV. Tulis ia secara berasingan dengan tanda koma. Jangan guna tanda jarak!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Disini anda boleh tambah penapis audio untuk MPlayer/MPV. Tulis ia secara berasingan dengan tanda koma. Jangan guna jarak!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -5110,12 +5104,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Log &amp;output MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5382,7 +5376,7 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation type="unfinished">Lalai</translation>
+        <translation>Lalai</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5397,12 +5391,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Contohnya %1 akan menyimpan cekupan skrin sebagai &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 menyatakan nama fail video tanpa sambungan, %2 tambah 4 nombor digit yang dipadatkan dengan sifar.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5447,27 +5441,27 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Bolehlaku MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Di sini anda mesti nyatakan bolehlaku MPlayer atau mpv yang SMPlayer akan gunakan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="917"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih ini menyatakan templat nama fail yang digunakan untuk menyimpan cekupan skrin.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>Untuk senarai penuh penerang templat lawati pautan ini:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini hanya berfungsi dengan mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
@@ -5542,7 +5536,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bolehlaku &amp;MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -7319,27 +7313,27 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (dan lain-lain laman)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>B&amp;enarkan sokongan dalaman Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kua&amp;liti mainbalik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>Ejen pengg&amp;una</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Main video dari laman penstriman</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7394,57 +7388,57 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Benarkan sokongan dalaman Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini ditanda, SMPlayer akan cuba memainkan video dari URL Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kualiti Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih kualiti yang dikehendaki untuk video youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>Ejen pengguna</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tetapkan ejen pengguna yang mana SMPlayer akan guna bila menyambung ke Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Main video dari laman penstriman</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini ditanda, SMPlayer akan cuba mainkan video dari laman penstriman seperti Youtube, Dailymotion, Vimeo, Vevo, dll.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Perlukan mpv dan youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proksi</translation>
+        <translation>Proksi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
