@@ -1293,12 +1293,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Größe &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1500,12 +1500,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der YouTube-Browser ist nicht installiert.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 besuchen, um es zu erhalten.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4615"/>
@@ -1521,14 +1521,6 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="4629"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Vielleicht könnte eine Aktualisierung des SMPlayers das Problem beheben.</translation>
-    </message>
-    <message>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="obsolete">Der YouTube-Browser konnte nicht gestartet werden.</translation>
-    </message>
-    <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">Achten Sie darauf, dass %1 installiert ist.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1988"/>
@@ -2159,73 +2151,73 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2831"/>
+        <location filename="../core.cpp" line="2832"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2847"/>
+        <location filename="../core.cpp" line="2848"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2862"/>
+        <location filename="../core.cpp" line="2863"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2877"/>
+        <location filename="../core.cpp" line="2878"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2892"/>
+        <location filename="../core.cpp" line="2893"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3022"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3881"/>
+        <location filename="../core.cpp" line="3882"/>
         <source>Zoom: %1</source>
         <translation>Vergrößerung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4102"/>
+        <location filename="../core.cpp" line="4103"/>
         <source>Buffering...</source>
         <translation>Pufferung …</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
-        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3140"/>
+        <location filename="../core.cpp" line="3151"/>
         <source>Font scale: %1</source>
         <translation>Schriftskalierung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3746"/>
+        <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
         <translation>Seitenverhältnis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4098"/>
+        <location filename="../core.cpp" line="4099"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Der Schriftzwischenspeicher wird aktualisiert. Das kann einige Sekunden dauern …</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3064"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Untertitelverzögerung: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3083"/>
         <source>Audio delay: %1 ms</source>
         <translation>Tonverzögerung: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2946"/>
+        <location filename="../core.cpp" line="2947"/>
         <source>Speed: %1</source>
         <translation>Geschwindigkeit: %1</translation>
     </message>
@@ -2240,37 +2232,37 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>Die Adresse des Videos kann nicht gefunden werden</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3227"/>
+        <location filename="../core.cpp" line="3228"/>
         <source>Subtitles on</source>
         <translation>Untertitel An</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3229"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles off</source>
         <translation>Untertitel Aus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3794"/>
+        <location filename="../core.cpp" line="3795"/>
         <source>Mouse wheel seeks now</source>
         <translation>Mausrad wird nun für das Spulen verwendet</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3798"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Mausrad ändert nun die Lautstärke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3801"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Mausrad ändert die Vergrößerungsstufe</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3804"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Mausrad ändert nun die Geschwindigkeit</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4107"/>
+        <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
         <translation>Wird gestartet …</translation>
     </message>
@@ -2285,17 +2277,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>Keine Bildschirmfotos aufgenommen, da der Order nicht konfiguriert ist</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2565"/>
+        <location filename="../core.cpp" line="2566"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>„A“-Markierung ist eingestellt auf %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2582"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>„B“-Markierung ist eingestellt auf %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2597"/>
+        <location filename="../core.cpp" line="2598"/>
         <source>A-B markers cleared</source>
         <translation>A-B-Markierungen gelöscht</translation>
     </message>
@@ -4811,7 +4803,7 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation>MPlayer/MPV in eigenem Fenste&amp;r ausführen</translation>
+        <translation>MPlayer/MPV in eigenem Fenster &amp;ausführen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4821,12 +4813,12 @@ Beispiel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation>MPlayer/MPV-Abstürze m&amp;elden</translation>
+        <translation>MPlayer/MPV-&amp;Abstürze melden</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation>Optionen für MP&amp;layer/MPV</translation>
+        <translation>Optionen für &amp;MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4965,7 +4957,7 @@ Beispiel: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation>Wenn diese Option aktiviert ist, wird das MPlayer/MPV-Fenster nicht im SMPlayer-Fenster eingebettet, sondern die Ausgabe erfolgt direkt über MPlayer/MPV. Maus und Tastatur werden direkt von MPlayer/MPV abgefragt, was bedeutet, dass die SMPlayer-Tastaturkurz- und Maustasten-Befehle wahrscheinlich nicht wie erwartet funktionieren werden, wenn das MPlayer/MPV-Fenster den Fokus hat.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird das MPlayer/MPV-Fenster nicht im SMPlayer-Fenster eingebettet, sondern die Ausgabe erfolgt direkt über MPlayer/MPV. Maus und Tastatur werden direkt von MPlayer/MPV abgefragt, was bedeutet, dass die SMPlayer-Tastenkürzel und Mausklicks wahrscheinlich nicht wie erwartet funktionieren werden, wenn das MPlayer/MPV-Fenster den Fokus hat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
@@ -5387,7 +5379,7 @@ Beispiel: -flip -nosound</translation>
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation type="unfinished">Standard</translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5402,7 +5394,7 @@ Beispiel: -flip -nosound</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation>Zum Beispiel %1 würde das Bildschirmfoto als &apos;moviename_0001.png&apos; speichern.</translation>
+        <translation>Zum Beispiel %1 würde das Bildschirmfoto als »Dateiname_0001.png« speichern.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
