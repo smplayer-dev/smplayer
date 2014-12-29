@@ -60,6 +60,19 @@ set MPLAYER_DIR=%TOP_LEVEL_DIR%\mplayer
 set OUTPUT_DIR=%TOP_LEVEL_DIR%\output
 set PORTABLE_EXE_DIR=%TOP_LEVEL_DIR%\portable
 
+:cmdline_parsing
+if "%1" == ""               goto reask
+for %%w in (1 2 3 4 5 6 10 11 20) do (
+  if "%1" == "%%w" (
+    set USER_CHOICE=%%w
+    goto pkgver
+  )
+)
+
+echo Unknown option: "%1"
+echo.
+goto superend
+
 :reask
 set USER_CHOICE=
 set /P USER_CHOICE="Choose an action: "
@@ -146,10 +159,15 @@ if exist %TOP_LEVEL_DIR%\smplayer-build64 (
 goto end
 
 :portable
-:: Check for portable exes
 echo --- SMPlayer Portable Package [32-bit] ---
 echo.
 
+if not exist %SMPLAYER_DIR% (
+  echo SMPlayer sources missing.
+  goto end
+)
+
+:: Check for portable exes
 if not exist "%PORTABLE_EXE_DIR%\smplayer-portable.exe" (
   echo SMPlayer portable EXE not found!
   goto end
@@ -229,6 +247,11 @@ if not "%USER_CHOICE%" == "11"  goto end
 :portable64
 echo --- SMPlayer Portable Package [64-bit] ---
 echo.
+
+if not exist %SMPLAYER_DIR64% (
+  echo SMPlayer sources missing.
+  goto end
+)
 
 :: Check for portable exes
 if not exist "%PORTABLE_EXE_DIR%\smplayer-portable64.exe" (
