@@ -328,6 +328,14 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	#ifndef VP_USE_PNG_OUTDIR
 	p.setWorkingDirectory(full_output_dir);
 	#endif
+
+	// Set the fontconfig file
+	if (!mplayer_font_file.isEmpty()) {
+		QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
+		env.insert("FONTCONFIG_FILE", mplayer_font_file);
+		p.setProcessEnvironment(env);
+	}
+
 	p.start(mplayer_bin, args);
 	if (!p.waitForFinished()) {
 		qDebug("VideoPreview::runMplayer: error running process");
@@ -491,6 +499,13 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 		args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet";
 		if (!prop.dvd_device.isEmpty()) args << "-dvd-device" << prop.dvd_device;
 		args << filename;
+	}
+
+	// Set the fontconfig file
+	if (!mplayer_font_file.isEmpty()) {
+		QProcessEnvironment env = QProcessEnvironment::systemEnvironment();
+		env.insert("FONTCONFIG_FILE", mplayer_font_file);
+		p.setProcessEnvironment(env);
 	}
 
 	p.start(mplayer_path, args);
