@@ -5384,9 +5384,6 @@ void BaseGui::showVideoPreviewDialog() {
 	}
 
 	video_preview->setMplayerPath(pref->mplayer_bin);
-	#ifdef Q_OS_WIN
-	video_preview->setMplayerFontFile(Paths::configPath() + "/fonts.conf");
-	#endif
 
 	if ( (video_preview->showConfigDialog(this)) && (video_preview->createThumbnails()) ) {
 		video_preview->show();
