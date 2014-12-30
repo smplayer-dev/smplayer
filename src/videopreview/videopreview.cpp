@@ -311,6 +311,10 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 			args << "-dvd-device" << prop.dvd_device;
 		}
 
+		#ifdef Q_OS_WIN
+		args << "-nofontconfig";
+		#endif
+
 		/*
 		if (display_osd) {
 			args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
@@ -490,6 +494,11 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 		// MPlayer
 		args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet";
 		if (!prop.dvd_device.isEmpty()) args << "-dvd-device" << prop.dvd_device;
+
+		#ifdef Q_OS_WIN
+		args << "-nofontconfig";
+		#endif
+
 		args << filename;
 	}
 
