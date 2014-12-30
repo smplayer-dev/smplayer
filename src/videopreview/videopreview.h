@@ -71,6 +71,9 @@ public:
 	void setDVDDevice(const QString & dvd_device) { prop.dvd_device = dvd_device; };
 	QString DVDDevice() { return prop.dvd_device; };
 
+	void setMplayerFontFile(const QString & file) { mplayer_font_file = file; };
+	QString MplayerFontFile() { return mplayer_font_file; };
+
 	void setCols(int cols) { prop.n_cols = cols; };
 	int cols() { return prop.n_cols; };
 
@@ -136,6 +139,7 @@ protected:
 	QDialogButtonBox * button_box;
 
 	QString mplayer_bin;
+	QString mplayer_font_file;
 
 	QString output_dir;
 	QString full_output_dir;
