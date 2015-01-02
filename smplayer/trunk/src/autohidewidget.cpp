@@ -41,7 +41,7 @@ AutohideWidget::AutohideWidget(QWidget * parent)
 	, animation(0)
 #endif
 {
-	setBackgroundRole(QPalette::Base);
+	setBackgroundRole(QPalette::Window);
 	setAutoFillBackground(true);
 	setLayoutDirection(Qt::LeftToRight);
 
