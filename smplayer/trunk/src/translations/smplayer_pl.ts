@@ -7334,9 +7334,13 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Klient &amp;użytkownika</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation>&amp;Odtwórz filmy z serwisów strumieniowych</translation>
+        <translation type="obsolete">&amp;Odtwórz filmy z serwisów strumieniowych</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="93"/>
+        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7424,9 +7428,13 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Ustaw klient użytkownika, którego SMPlayer będzie używał podczas połączenia się z serwisem YouTube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation>Odtwórz filmy z serwisów strumieniowych</translation>
+        <translation type="obsolete">Odtwórz filmy z serwisów strumieniowych</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="150"/>
+        <source>Enable MPV&apos;s support for streaming sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -9243,7 +9251,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="433"/>
         <source>Video preview</source>
         <translation>Podgląd filmu</translation>
     </message>
@@ -9268,27 +9276,27 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Tworzenie miniaturek...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="413"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>Size: %1 MB</source>
         <translation>Rozmiar: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="415"/>
+        <location filename="../videopreview/videopreview.cpp" line="419"/>
         <source>Length: %1</source>
         <translation>Długość: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="576"/>
+        <location filename="../videopreview/videopreview.cpp" line="585"/>
         <source>Save file</source>
         <translation>Zapisz plik</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="589"/>
+        <location filename="../videopreview/videopreview.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Błąd zapisu pliku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="590"/>
+        <location filename="../videopreview/videopreview.cpp" line="599"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Plik nie może zostać zapisany</translation>
     </message>
@@ -9308,42 +9316,42 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Katalog tymczasowy (%1) nie może zostać utworzony</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="334"/>
+        <location filename="../videopreview/videopreview.cpp" line="338"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Proces mplayera nie wystartował</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="414"/>
+        <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>Resolution: %1x%2</source>
         <translation>Rozdzielczość: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>Video format: %1</source>
         <translation>Format obrazu: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="419"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>Frames per second: %1</source>
         <translation>Klatek na sekundę: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="420"/>
+        <location filename="../videopreview/videopreview.cpp" line="424"/>
         <source>Aspect ratio: %1</source>
         <translation>Współczynnik proporcji: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="352"/>
+        <location filename="../videopreview/videopreview.cpp" line="356"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Plik %1 nie może zostać załadowany</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="455"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
         <source>No filename</source>
         <translation>Brak nazwy pliku</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="534"/>
+        <location filename="../videopreview/videopreview.cpp" line="543"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Proces mplayera nie wystartował podczas próby pobrania informacji o pliku</translation>
     </message>
@@ -9358,38 +9366,38 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Plik %1 nie istnieje</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="577"/>
+        <location filename="../videopreview/videopreview.cpp" line="586"/>
         <source>Images</source>
         <translation>Obrazki</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="406"/>
         <source>No info</source>
         <translation>Brak informacji</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="405"/>
-        <location filename="../videopreview/videopreview.cpp" line="406"/>
+        <location filename="../videopreview/videopreview.cpp" line="409"/>
+        <location filename="../videopreview/videopreview.cpp" line="410"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="407"/>
+        <location filename="../videopreview/videopreview.cpp" line="411"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="427"/>
         <source>Video bitrate: %1</source>
         <translation>Bitrate wideo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="424"/>
+        <location filename="../videopreview/videopreview.cpp" line="428"/>
         <source>Audio bitrate: %1</source>
         <translation>Bitrate audio: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="425"/>
+        <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>Audio rate: %1</source>
         <translation>Szybkość audio: %1</translation>
     </message>

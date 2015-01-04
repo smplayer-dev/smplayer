@@ -7327,7 +7327,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
-        <source>&amp;Play videos from streaming sites</source>
+        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -7417,7 +7417,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
-        <source>Play videos from streaming sites</source>
+        <source>Enable MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9231,7 +9231,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="433"/>
         <source>Video preview</source>
         <translation>Videó előnézet</translation>
     </message>
@@ -9256,27 +9256,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Bélyegképek létrehozása...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="413"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>Size: %1 MB</source>
         <translation>Méret: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="415"/>
+        <location filename="../videopreview/videopreview.cpp" line="419"/>
         <source>Length: %1</source>
         <translation>Hossz: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="576"/>
+        <location filename="../videopreview/videopreview.cpp" line="585"/>
         <source>Save file</source>
         <translation>Fájl mentése</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="589"/>
+        <location filename="../videopreview/videopreview.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>Hiba a fájl mentése közben</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="590"/>
+        <location filename="../videopreview/videopreview.cpp" line="599"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>A fájlt nem lehetett menteni</translation>
     </message>
@@ -9296,42 +9296,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Az átmeneti könyvtár (%1) nem hozható létre</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="334"/>
+        <location filename="../videopreview/videopreview.cpp" line="338"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Az mplayer folyamat nem futott</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="414"/>
+        <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>Resolution: %1x%2</source>
         <translation>Felbontás: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>Video format: %1</source>
         <translation>Videó formátum: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="419"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>Frames per second: %1</source>
         <translation>Képkocka / másodperc: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="420"/>
+        <location filename="../videopreview/videopreview.cpp" line="424"/>
         <source>Aspect ratio: %1</source>
         <translation>Méretarány: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="352"/>
+        <location filename="../videopreview/videopreview.cpp" line="356"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>A %1 fájl nem lehet betölteni</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="455"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
         <source>No filename</source>
         <translation>Nincs fájlnév</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="534"/>
+        <location filename="../videopreview/videopreview.cpp" line="543"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Az mplayer folyamat nem indult el a videó információinak lekérdezése közben</translation>
     </message>
@@ -9346,38 +9346,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 fájl nem létezik</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="577"/>
+        <location filename="../videopreview/videopreview.cpp" line="586"/>
         <source>Images</source>
         <translation>Képek</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="406"/>
         <source>No info</source>
         <translation>Nincs információ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="405"/>
-        <location filename="../videopreview/videopreview.cpp" line="406"/>
+        <location filename="../videopreview/videopreview.cpp" line="409"/>
+        <location filename="../videopreview/videopreview.cpp" line="410"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="407"/>
+        <location filename="../videopreview/videopreview.cpp" line="411"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="427"/>
         <source>Video bitrate: %1</source>
         <translation>Videó bitráta: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="424"/>
+        <location filename="../videopreview/videopreview.cpp" line="428"/>
         <source>Audio bitrate: %1</source>
         <translation>Hang bitráta: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="425"/>
+        <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>Audio rate: %1</source>
         <translation>Hang mintavételezés: %1</translation>
     </message>

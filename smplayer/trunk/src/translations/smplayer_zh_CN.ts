@@ -7330,9 +7330,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>用户代理 (&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="93"/>
         <source>&amp;Play videos from streaming sites</source>
-        <translation>从流媒体网站播放视频 (&amp;P)</translation>
+        <translation type="obsolete">从流媒体网站播放视频 (&amp;P)</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="93"/>
+        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7420,9 +7424,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>设置连接 Youtube 时使用的代理。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="150"/>
         <source>Play videos from streaming sites</source>
-        <translation>从流媒体网站播放视频</translation>
+        <translation type="obsolete">从流媒体网站播放视频</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="150"/>
+        <source>Enable MPV&apos;s support for streaming sites</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -9235,7 +9243,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="433"/>
         <source>Video preview</source>
         <translation>视频预览</translation>
     </message>
@@ -9260,27 +9268,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>正在创建缩略图...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="413"/>
+        <location filename="../videopreview/videopreview.cpp" line="417"/>
         <source>Size: %1 MB</source>
         <translation>大小: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="415"/>
+        <location filename="../videopreview/videopreview.cpp" line="419"/>
         <source>Length: %1</source>
         <translation>长度: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="576"/>
+        <location filename="../videopreview/videopreview.cpp" line="585"/>
         <source>Save file</source>
         <translation>保存文件</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="589"/>
+        <location filename="../videopreview/videopreview.cpp" line="598"/>
         <source>Error saving file</source>
         <translation>保存文件时出错</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="590"/>
+        <location filename="../videopreview/videopreview.cpp" line="599"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>无法保存该文件</translation>
     </message>
@@ -9300,42 +9308,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>无法创建临时目录(%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="334"/>
+        <location filename="../videopreview/videopreview.cpp" line="338"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>MPlayer 进程没有运行</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="414"/>
+        <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>Resolution: %1x%2</source>
         <translation>分辨率: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>Video format: %1</source>
         <translation>视频格式: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="419"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>Frames per second: %1</source>
         <translation>每秒帧数: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="420"/>
+        <location filename="../videopreview/videopreview.cpp" line="424"/>
         <source>Aspect ratio: %1</source>
         <translation>纵横比: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="352"/>
+        <location filename="../videopreview/videopreview.cpp" line="356"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>无法加载文件 %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="455"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
         <source>No filename</source>
         <translation>没有文件名</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="534"/>
+        <location filename="../videopreview/videopreview.cpp" line="543"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>试图获取视频信息时，MPlayer 进程没有启动</translation>
     </message>
@@ -9350,38 +9358,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>文件 %1 不存在</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="577"/>
+        <location filename="../videopreview/videopreview.cpp" line="586"/>
         <source>Images</source>
         <translation>图像</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="402"/>
+        <location filename="../videopreview/videopreview.cpp" line="406"/>
         <source>No info</source>
         <translation>无信息</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="405"/>
-        <location filename="../videopreview/videopreview.cpp" line="406"/>
+        <location filename="../videopreview/videopreview.cpp" line="409"/>
+        <location filename="../videopreview/videopreview.cpp" line="410"/>
         <source>%1 kbps</source>
         <translation>%1kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="407"/>
+        <location filename="../videopreview/videopreview.cpp" line="411"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="427"/>
         <source>Video bitrate: %1</source>
         <translation>视频比特率: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="424"/>
+        <location filename="../videopreview/videopreview.cpp" line="428"/>
         <source>Audio bitrate: %1</source>
         <translation>音频比特率: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="425"/>
+        <location filename="../videopreview/videopreview.cpp" line="429"/>
         <source>Audio rate: %1</source>
         <translation>音频采样率: %1</translation>
     </message>
