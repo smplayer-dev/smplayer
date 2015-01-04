@@ -147,7 +147,7 @@ void PrefNetwork::createHelp() {
 		tr("Set the user agent that SMPlayer will use when connecting to Youtube.") );
 #endif
 
-	setWhatsThis(streaming_check, tr("Play videos from streaming sites"),
+	setWhatsThis(streaming_check, tr("Enable MPV's support for streaming sites"),
 		tr("If this option is checked, SMPlayer will try to play videos from "
            "streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.") + "<br>"+
 		tr("Requires mpv and youtube-dl.") );

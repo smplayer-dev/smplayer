@@ -90,7 +90,7 @@
        <item>
         <widget class="QCheckBox" name="streaming_check">
          <property name="text">
-          <string>&amp;Play videos from streaming sites</string>
+          <string>Enable &amp;MPV's support for streaming sites</string>
          </property>
         </widget>
        </item>
