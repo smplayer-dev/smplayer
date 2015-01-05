@@ -7331,10 +7331,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Ejen pengg&amp;una</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Main video dari laman penstriman</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7423,10 +7419,6 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Tetapkan ejen pengguna yang mana SMPlayer akan guna bila menyambung ke Youtube.</translation>
-    </message>
-    <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Main video dari laman penstriman</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>

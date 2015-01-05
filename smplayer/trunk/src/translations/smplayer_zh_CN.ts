@@ -7330,13 +7330,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>用户代理 (&amp;U)</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">从流媒体网站播放视频 (&amp;P)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>启用 &amp;MPV 流媒体网站支持</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7424,13 +7420,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>设置连接 Youtube 时使用的代理。</translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">从流媒体网站播放视频</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>启用 MPV 流媒体网站支持</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>

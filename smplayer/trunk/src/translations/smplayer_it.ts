@@ -7420,10 +7420,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Riproduzione di video da siti di streaming</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>

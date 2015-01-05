@@ -7336,13 +7336,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Benutzerkennung</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">Videos von Streaming-Seiten &amp;wiedergeben</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;MPVs Unterstützung für Streaming-Seiten aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7430,13 +7426,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Die Benutzerkennung einstellen, die benutzt werden soll, wenn SMPlayer sich mit Youtube verbindet.</translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Videos von Streaming-Seiten wiedergeben</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>MPVs Unterstützung für Streaming-Seiten aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>

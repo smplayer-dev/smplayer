@@ -7337,13 +7337,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Кориснички агент</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Репродукуј видео са стриминг сајтова</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Омогући &amp;МПВ подршку за стриминг сајтове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7431,13 +7427,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Подеси кориснички агент који ће SMPlayer користити када се повеже са Youtube.</translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Репродукуј видео са стриминг сајтова</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Омогући МПВ подршку за стриминг сајтове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>

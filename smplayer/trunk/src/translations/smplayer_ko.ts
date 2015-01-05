@@ -7331,10 +7331,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>사용자 에이전트</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">스트리밍 사이트에서 동영상 재생하기</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7423,10 +7419,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>SMPlayer가 유투브에 접속할 때 사용할 사용자 에이전트를 설정하세요.</translation>
-    </message>
-    <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">스트리밍 사이트에서 동영상 재생하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>

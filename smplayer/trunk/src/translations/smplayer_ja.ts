@@ -7331,13 +7331,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ユーザー エージェント(&amp;U)</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">ストリーミング サイトからのビデオを再生する(&amp;P)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>MPV のストリーミング サイトへの対応を有効にする(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7425,13 +7421,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>SMPlayer が YouTube への接続時に使用するユーザー エージェントを設定します。</translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">ストリーミング サイトからのビデオを再生する</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>MPV のストリーミング サイトへの対応を有効にする</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
