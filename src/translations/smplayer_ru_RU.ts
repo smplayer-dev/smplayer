@@ -7333,13 +7333,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Проигрывать потоковое видео с сайтов</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Вклю&amp;чить поддержку потоковых сайтов в MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7427,13 +7423,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Пропишите user agent, который будет использоваться SMPlayer при подключении к Youtube.</translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Проигрывать потоковое видео с сайтов</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Включить поддержку потоковых сайтов в MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>

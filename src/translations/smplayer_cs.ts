@@ -7333,10 +7333,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Přehrát videa ze stránek, které nabízejí streaming.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7425,10 +7421,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Nastavte user agent, který se použije při spojení s Youtube.</translation>
-    </message>
-    <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Přehrát videa ze streamovacích stránek</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>

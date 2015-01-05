@@ -7334,10 +7334,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Klient &amp;użytkownika</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Odtwórz filmy z serwisów strumieniowych</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7426,10 +7422,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Ustaw klient użytkownika, którego SMPlayer będzie używał podczas połączenia się z serwisem YouTube.</translation>
-    </message>
-    <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Odtwórz filmy z serwisów strumieniowych</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>

@@ -7332,13 +7332,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>&amp;Erabiltzaile ordezkaria</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Irakurri bideoak jario guneetatik</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu &amp;MPV-ren sostengua jario guneetarako</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7426,13 +7422,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Ezarri SMPlayer-ek Youtube-ra elkartzerakoan erabiliko duen erabiltzaile ordezkaria.</translation>
     </message>
     <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Irakurri bideoak jario guneetatik</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu MPV-ren sostengua jario guneetarako</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
