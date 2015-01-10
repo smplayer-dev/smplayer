@@ -8689,7 +8689,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>the main window will be closed when the file/playlist finishes.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>This is SMPlayer v. %1 running on %2</translation>
     </message>

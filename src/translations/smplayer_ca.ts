@@ -8896,7 +8896,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principal es tancarà quan acabi el fitxer/llista de reproducció.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Això és l&apos;SMPlayer v. %1 executant-se en %2</translation>
     </message>

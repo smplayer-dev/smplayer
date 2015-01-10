@@ -8693,7 +8693,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a xanela principal pecharase cando o ficheiro ou a lista de reprodución remate.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Este é o SMPlayer v. %1 executándose en %2</translation>
     </message>

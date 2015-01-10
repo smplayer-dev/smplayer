@@ -8693,7 +8693,7 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Jendela utama akan ditutup ketika berkas/daftar main berakhir.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v, %1 ini berjalan pada %2</translation>
     </message>

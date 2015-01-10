@@ -8691,7 +8691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>het hoofdvenster zal na afloop van het bestand of de afspeellijst worden afgesloten.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Dit is SMPlayer v. %1 draaiend op %2</translation>
     </message>

@@ -9066,7 +9066,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>το κύριο παράθυρο θα κλείσει όταν το αρχείο/λίστα τελειώσει.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Είναι ο SMPlayer v. %1 ενεργό για %2</translation>
     </message>

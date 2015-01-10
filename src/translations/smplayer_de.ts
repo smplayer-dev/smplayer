@@ -8697,7 +8697,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Das Hauptfenster wird geschlossen, wenn das Abspielen der Datei/Abspielliste abgeschlossen ist.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Das ist SMPlayer Version %1, ausgeführt auf %2</translation>
     </message>

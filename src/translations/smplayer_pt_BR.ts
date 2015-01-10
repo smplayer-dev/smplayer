@@ -8693,7 +8693,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a janela principal será fechada ao terminar o arquivo/lista de reprodução.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v.%1 executando em %2</translation>
     </message>

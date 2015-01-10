@@ -8691,7 +8691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>pagrindinis langas bus užvertas, kai failas/grojaraštis bus baigtas.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Šis SMPlayer v. %1 veikia %2</translation>
     </message>

@@ -8691,7 +8691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>文件/播放列表结束时，主窗口将被关闭。</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>这是运行在 %2 上的 SMPlayer v. %1</translation>
     </message>

@@ -786,7 +786,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1848"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Bildeformat</translation>
+        <translation>&amp;Høgde/Breidde-format</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1887"/>
@@ -823,7 +823,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1630"/>
         <source>&amp;Deblock</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Deblock</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1631"/>
@@ -1278,7 +1278,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1710"/>
         <source>First Steps &amp;Guide</source>
-        <translation>Fyrste steg &amp;guide</translation>
+        <translation>Kom i &amp;gang</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
@@ -1293,12 +1293,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Storleik &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Storleik &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1464,12 +1464,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4598"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Mislukka tilkopling</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Videoen du førspurde må opna eit HTTPS-samband.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4600"/>
@@ -1484,7 +1484,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4602"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>denne lenkja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4612"/>
@@ -1500,12 +1500,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube-lesaren er ikkje installert.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå til %1 for å få det.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4615"/>
@@ -1632,17 +1632,17 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;Spørsmål/svar</translation>
+        <translation>&amp;Ofte stilte spørsmål - FAQ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Command line options</source>
-        <translation>&amp;Terminal kommando val</translation>
+        <translation>&amp;Terminalkommandoval</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4123"/>
         <source>SMPlayer command line options</source>
-        <translation>Terminal kommando val for SMPlayer</translation>
+        <translation>Terminalkommandoval for SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
@@ -1829,7 +1829,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>Next aspect ratio</source>
-        <translation>Neste bilete proporsjon</translation>
+        <translation>Neste høgde/breidde-format</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1619"/>
@@ -1958,7 +1958,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../basegui.cpp" line="1609"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Start/stop - takin&amp;g av skjermbilete</translation>
+        <translation>Start/Stopp - takin&amp;g av skjermbilete</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1672"/>
@@ -2087,7 +2087,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../baseguiplus.cpp" line="221"/>
         <source>&amp;Hide</source>
-        <translation>&amp;Skjul</translation>
+        <translation>&amp;Gøym</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="223"/>
@@ -2200,7 +2200,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../core.cpp" line="3747"/>
         <source>Aspect ratio: %1</source>
-        <translation>Bilete proporsjon: %1</translation>
+        <translation>Høgde/Breidde-format: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4099"/>
@@ -2265,12 +2265,12 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../core.cpp" line="4108"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Startar …</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Skjermbilete ikkje teke, plassering ikkje konfigurert.</translation>
+        <translation>Skjermbilete ikkje teke, mappe ikkje konfigurert.</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1402"/>
@@ -2395,7 +2395,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
         <source>Hide log</source>
-        <translation>Skjul logg</translation>
+        <translation>Gøym logg</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="91"/>
@@ -2417,7 +2417,7 @@ Dette kan løyse problemet. </translation>
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation>Ein feil oppstod</translation>
+        <translation>Oops, det skjedde noko gale</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2543,7 +2543,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>&amp;Legg til noverande medium</translation>
+        <translation>&amp;Legg til spelande medium</translation>
     </message>
 </context>
 <context>
@@ -3084,7 +3084,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="110"/>
         <source>Aspect ratio</source>
-        <translation>Bilete proporsjon</translation>
+        <translation>Høgde/Breidde-format</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="111"/>
@@ -3107,7 +3107,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Frames per second</source>
-        <translation>Bilete per sekund</translation>
+        <translation>Bilete pr. sekund</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -3222,7 +3222,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Skriv inn MPlayer-versjon</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
@@ -4057,42 +4057,42 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"></translation>
+        <translation>Cree</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"></translation>
+        <translation>Church</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"></translation>
+        <translation>Tsjuvasjisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"></translation>
+        <translation>Maldivisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"></translation>
+        <translation>Dzongkha</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"></translation>
+        <translation>Ewe</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"></translation>
+        <translation>Fulfulde</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"></translation>
+        <translation>Fijiansk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
@@ -4107,7 +4107,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"></translation>
+        <translation>Hiri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
@@ -4117,97 +4117,97 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"></translation>
+        <translation>Herero</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"></translation>
+        <translation>Chamorro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"></translation>
+        <translation>Igbo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"></translation>
+        <translation>Sichuan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"></translation>
+        <translation>Inupiak</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"></translation>
+        <translation>Ido</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"></translation>
+        <translation>Kongo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"></translation>
+        <translation>Kikuyu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"></translation>
+        <translation>Kuanyama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished">Khmer</translation>
+        <translation>Khmer</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanuri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"></translation>
+        <translation>Komi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"></translation>
+        <translation>Kornisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"></translation>
+        <translation>Luxemburgsk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"></translation>
+        <translation>Ganda</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"></translation>
+        <translation>Limburgsk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"></translation>
+        <translation>Laotisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"></translation>
+        <translation>Luba-Katanga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"></translation>
+        <translation>Marshallesisk</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
@@ -4218,67 +4218,67 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndebele</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"></translation>
+        <translation>Navaho</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"></translation>
+        <translation>Chichewa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"></translation>
+        <translation>Ojibwa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"></translation>
+        <translation>Oromo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"></translation>
+        <translation>Ossetisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"></translation>
+        <translation>Panjabi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"></translation>
+        <translation>Pali</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasjto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"></translation>
+        <translation>Retoromansk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"></translation>
+        <translation>Rundi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"></translation>
+        <translation>Sardisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
@@ -4288,53 +4288,53 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"></translation>
+        <translation>Sango</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Singalesisk</translation>
+        <translation>Singalesisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovensk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"></translation>
+        <translation>Swati</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"></translation>
+        <translation>Sotho</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"></translation>
+        <translation>Setswana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"></translation>
+        <translation>Tahitisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"></translation>
+        <translation>Venda</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"></translation>
+        <translation>Volapyk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"></translation>
+        <translation>Vallonsk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="314"/>
@@ -4420,7 +4420,7 @@ Vil du skrive over?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Bland spelelista</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
@@ -4645,7 +4645,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../playlist.cpp" line="311"/>
         <source>S&amp;huffle</source>
-        <translation type="unfinished"></translation>
+        <translation>B&amp;land</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="314"/>
@@ -4744,7 +4744,7 @@ Døme: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
         <source>Log SMPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg SMPlayer utdata</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="672"/>
@@ -4759,7 +4759,7 @@ Døme: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg MPlayer/MPV utdata</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
@@ -4856,7 +4856,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="611"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation type="unfinished"></translation>
+        <translation>Logg &amp;SMPlayer utdata</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="682"/>
@@ -4896,7 +4896,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="427"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Vel skjerm proporsjon.</translation>
+        <translation>Vel Høgde/Breidde-format for monitoren din.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
@@ -4956,7 +4956,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapporter MPlayer/MPV-krasj</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
@@ -4971,7 +4971,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Innstillingar for MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
@@ -5373,7 +5373,7 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation type="unfinished">Standard</translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5776,7 +5776,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="610"/>
         <source>A&amp;udio</source>
-        <translation>Døme:</translation>
+        <translation>L&amp;yd</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="795"/>
@@ -6885,7 +6885,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="907"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Hugs siste mappe</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="45"/>
@@ -7016,7 +7016,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel stilen du føretrekkjer for programmet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="688"/>
@@ -7026,12 +7026,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan endra skrift for programmet her.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
         <source>Seeking</source>
-        <translation type="unfinished"></translation>
+        <translation>Søkjer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="693"/>
@@ -7073,7 +7073,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="705"/>
         <source>Mouse wheel jump</source>
-        <translation type="unfinished"></translation>
+        <translation>Musehjulhopp</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="706"/>
@@ -7148,7 +7148,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Hugs siste mappe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="783"/>
@@ -7634,7 +7634,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="259"/>
         <source>Skip loop filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Hopp over sløyfefilter</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="191"/>
@@ -7709,12 +7709,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="66"/>
         <source>Skip only on HD videos</source>
-        <translation>Hopp over berre for HD-videoar</translation>
+        <translation>Hopp over berre i HD-videoar</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="205"/>
         <source>Loop &amp;filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Sløyfe-&amp;filter</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="256"/>
@@ -7734,17 +7734,17 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="268"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Slått på&lt;/b&gt;: sløyfefilteret er ikkje hoppa over</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="269"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Hopp over (alltid)&lt;/b&gt;: Sløyfefilteret er hoppa over same kva oppløysing videoen har</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="271"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;Hopp over berre i HD-videoar&lt;/b&gt;: Sløyfe-filteret vert hoppa over berre i videoar der høgda er %1 eller høgare.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
@@ -7927,7 +7927,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Automatisk legg til filer i spelelista</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="138"/>
@@ -7962,7 +7962,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="117"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"></translation>
+        <translation>Få &amp;info automatisk om filer som er lagde til (sakte)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="124"/>
@@ -8199,7 +8199,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spesifiser venstre marg i piksel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
@@ -8209,7 +8209,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spesifiser høgre margin i piksel.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8229,7 +8229,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>Spesifiser horisontal tilpassing. Verdiane er venstre, sentrert og høgre.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="485"/>
@@ -8608,7 +8608,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opna ei infoside etter ei oppgradering</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8638,12 +8638,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>Opna ei infoside etter ei oppgradering</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om dette valet er slått på vert ei infoside om SMPlayer opna etter ei oppgradering.</translation>
     </message>
 </context>
 <context>
@@ -8693,7 +8693,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8928,7 +8928,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Slår av datamaskina</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
@@ -8938,12 +8938,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>Datamaskina vil slå seg av om %1 sekund.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>Trykk &lt;b&gt;Avbryt&lt;/b&gt; for å ikkje slå av datamaskina</translation>
     </message>
 </context>
 <context>
@@ -9326,7 +9326,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="424"/>
         <source>Aspect ratio: %1</source>
-        <translation>Bilete proporsjon: %1</translation>
+        <translation>Høgde/Breidde-format: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="356"/>
@@ -9420,7 +9420,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="136"/>
         <source>&amp;Aspect ratio:</source>
-        <translation>&amp;Bilete proporsjon</translation>
+        <translation>&amp;Høgde/Breidde-format:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
@@ -9456,7 +9456,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>Om video bilete proporsjonen er feil kan ein endra han her.</translation>
+        <translation>Om Høgde/Breidde-formatet er feil, kan du endra det her.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
@@ -9501,7 +9501,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"></translation>
+        <translation>Hugs mappa som er brukt til å &amp;lagra førehandsvisinga</translation>
     </message>
 </context>
 <context>

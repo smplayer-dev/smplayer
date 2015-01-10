@@ -8691,7 +8691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>hovedvinduet vil blive lukket når filen/spillelisten er færdig.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Dette er SMPlayer v. %1 som kører på %2</translation>
     </message>

@@ -8687,7 +8687,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a főablak bezáródik, ha a fájl/lejátszási lista véget ért.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ez az SMPlayer v. %1 ami %2 -n fut</translation>
     </message>

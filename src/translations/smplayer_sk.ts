@@ -8763,7 +8763,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>hlavné okno programu bude zotvorené po skončení prehrávania aktuálneho súboru/playlistu.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Toto je SMPlayer v. %1 spustená na %2</translation>
     </message>

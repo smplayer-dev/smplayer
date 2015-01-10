@@ -8691,7 +8691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la finestra principale sarà chiusa alla fine della riproduzione del file/lista di riproduzione.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer versione %1 in esecuzione su %2</translation>
     </message>

@@ -8692,7 +8692,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>メイン ウィンドウはファイル/プレイリストの完了時に閉じられます。</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>これは %2 で実行中の SMPlayer v. %1 です</translation>
     </message>

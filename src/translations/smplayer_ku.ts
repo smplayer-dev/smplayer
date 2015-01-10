@@ -8765,7 +8765,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>paeya mak piştî xelasbûna pelê/Lîsteyê wê bê girtin.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ev SMPlayer e v. %1 dixebite ser %2</translation>
     </message>

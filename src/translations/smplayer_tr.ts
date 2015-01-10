@@ -8689,7 +8689,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ana pencere oynatılan dosya/oynatma listesi bittiğinde kapatılacak.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>%2&apos;de çalışan SMPlayer&apos;ın v. %1. sürümü</translation>
     </message>

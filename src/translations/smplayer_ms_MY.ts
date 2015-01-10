@@ -7333,7 +7333,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Benarkan sokongan MPV untuk laman penstriman</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7423,7 +7423,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Benarkan sokongan MPV untuk laman penstriman</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -8692,7 +8692,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>tetingkap utama akan ditutup bila fail/senarai main selesai.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ini adalah SMPlayer v. %1 dijalankan dalam %2</translation>
     </message>
