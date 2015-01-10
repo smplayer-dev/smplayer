@@ -8695,7 +8695,7 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <translation>po skončení přehrávání souboru/playlistu se hlavní okno ukončí.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Tohle je SMPlayer v. %1 běžící na systému %2</translation>
     </message>

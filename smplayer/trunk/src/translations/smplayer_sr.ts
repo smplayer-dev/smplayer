@@ -8699,7 +8699,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>главни прозор ће бити затворен када заврши репродукција фајла/пописа извођења.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ово је СМПлејер и. %1 покренут на %2</translation>
     </message>

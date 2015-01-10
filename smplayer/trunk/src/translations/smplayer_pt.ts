@@ -4940,12 +4940,12 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>Repaint the background of the video window</source>
-        <translation>Recriar o fundo da janela de vídeo</translation>
+        <translation>Recriar fundo da janela de vídeo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Recriar o fun&amp;do da janela de vídeo</translation>
+        <translation>Recriar fun&amp;do da janela de vídeo</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
@@ -7826,7 +7826,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="119"/>
         <source>Automatically add files to playlist</source>
-        <translation>Adicionar ficheiros automaticamente  à lista de reprodução</translation>
+        <translation>Adicionar ficheiros à lista de reprodução automaticamente</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="120"/>
@@ -7836,7 +7836,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="28"/>
         <source>None</source>
-        <translation>Nada</translation>
+        <translation>Nenhum</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
@@ -8692,7 +8692,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>a janela principal será fechada ao terminar o ficheiro/lista de reprodução.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v. %1 executando em %2</translation>
     </message>

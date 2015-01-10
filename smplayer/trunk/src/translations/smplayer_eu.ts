@@ -8693,7 +8693,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>leiho nagusia itxi egingo da agiria/irakur-zerrenda amaitzean.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer %1 bertsioa %2-n abiarazita</translation>
     </message>

@@ -7336,7 +7336,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz obsługę &amp;MPV dla stron strumieniujących</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7426,7 +7426,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz obsługę MPV dla stron strumieniujących</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -8695,7 +8695,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>okno główne zostanie zamknięte, gdy zakończy się plik/lista odtwarzania.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>To jest SMPlayer wer. %1 uruchomiony na %2</translation>
     </message>

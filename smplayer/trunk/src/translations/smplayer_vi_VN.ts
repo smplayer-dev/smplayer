@@ -8691,7 +8691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>cửa sổ chính sẽ được đóng khi mà tập tin/danh sách chơi đã hết.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Đây là SMPlayer v.%1 chạy trên %2</translation>
     </message>

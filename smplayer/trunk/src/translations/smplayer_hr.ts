@@ -8694,7 +8694,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>glavni prozor će biti zatvoren kada završi reprodukcija datoteke/popisa izvođenja.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ovo je SMPlayer i. %1 pokrenut na %2</translation>
     </message>

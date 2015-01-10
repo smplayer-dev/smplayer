@@ -7333,7 +7333,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>스트리밍 사이트에 &amp;MPV 사용하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7423,7 +7423,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>스트리밍 사이트에 MPV 사용하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -8692,7 +8692,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>파일이나 재생 목록이 끝나면 창이 닫힙니다.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer 버전 %1 - %2 에서 실행 중입니다</translation>
     </message>

@@ -8893,7 +8893,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>главниот прозорец ќе биде затворен кога датотеката/листата со нумери ќе заврши.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ова е SMPlayer в.%1 која работи на %2</translation>
     </message>

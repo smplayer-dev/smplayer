@@ -8693,7 +8693,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>la fenêtre principale sera fermée lorsque le fichier ou la liste de lecture sera fini(e).</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="511"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v. %1 fonctionnant sur %2</translation>
     </message>
