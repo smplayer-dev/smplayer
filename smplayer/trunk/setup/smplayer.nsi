@@ -106,6 +106,9 @@
   Var Reinstall_Uninstall
   Var Reinstall_UninstallButton
   Var Reinstall_UninstallButton_State
+!ifndef WIN64
+  Var Restore_Codecs
+!endif
   Var Restore_MPV
   Var Restore_SMTube
   Var SecRadioButton
@@ -305,6 +308,9 @@ Section $(Section_SMPlayer) SecSMPlayer
       Quit
     ${ElseIf} $Reinstall_OverwriteButton_State == 1
 
+!ifndef WIN64
+      Call Backup_Codecs
+!endif
       Call Backup_MPV
       Call Backup_SMTube
 
@@ -342,11 +348,6 @@ Section $(Section_SMPlayer) SecSMPlayer
   ;SMPlayer key shortcuts
   SetOutPath "$INSTDIR\shortcuts"
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
-
-  ${If} $Restore_SMTube == 1
-    DetailPrint $(Info_SMTube_Restore)
-    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\*" "$INSTDIR"
-  ${EndIf}
 
   SetOutPath "$PLUGINSDIR"
   File 7za.exe
@@ -493,6 +494,22 @@ ${MementoSectionEnd}
 Section /o $(Reinstall_Msg5) SecResetSettings
 
     NsExec::Exec '"$INSTDIR\smplayer.exe" -delete-config'
+
+SectionEnd
+
+Section -RestorePrograms
+
+  ${If} $Restore_SMTube == 1
+    DetailPrint $(Info_SMTube_Restore)
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\*" "$INSTDIR"
+  ${EndIf}
+
+!ifndef WIN64
+  ${If} $Restore_Codecs == 1
+    DetailPrint $(Info_Codecs_Restore)
+    CopyFiles /SILENT "$PLUGINSDIR\codecbak\*" "$INSTDIR\mplayer\codecs"
+  ${EndIf}
+!endif
 
 SectionEnd
 
@@ -859,6 +876,25 @@ Function CheckPreviousVersion
   ${EndIf}
 
 FunctionEnd
+
+!ifndef WIN64
+Function Backup_Codecs
+
+  ${IfNot} ${SectionIsSelected} ${SecMPlayer}
+    Return
+  ${EndIf}
+
+  IfFileExists "$SMPlayer_Path\mplayer\codecs\*.dll" 0 NoBackup
+    DetailPrint $(Info_Codecs_Backup)
+    CreateDirectory "$PLUGINSDIR\codecbak"
+    CopyFiles /SILENT "$SMPlayer_Path\mplayer\codecs\*" "$PLUGINSDIR\codecbak"
+    StrCpy $Restore_Codecs 1
+    Return
+  NoBackup:
+    StrCpy $Restore_Codecs 0
+
+FunctionEnd
+!endif
 
 Function Backup_MPV
 
