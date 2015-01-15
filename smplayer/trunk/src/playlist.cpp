@@ -932,9 +932,13 @@ void Playlist::playNext() {
 	if (shuffleAct->isChecked()) {
 		// Shuffle
 		int chosen_item = chooseRandomItem();
+		qDebug("Playlist::playNext: chosen_item: %d", chosen_item);
 		if (chosen_item == -1) {
 			clearPlayedTag();
-			if (repeatAct->isChecked()) chosen_item = chooseRandomItem();
+			if (repeatAct->isChecked()) {
+				chosen_item = chooseRandomItem();
+				if (chosen_item == -1) chosen_item = 0;
+			}
 		}
 		playItem( chosen_item );
 	} else {
@@ -967,7 +971,7 @@ void Playlist::resumePlay() {
 }
 
 void Playlist::getMediaInfo() {
-	qDebug("Playlist:: getMediaInfo");
+	qDebug("Playlist::getMediaInfo");
 
 	QString filename = core->mdat.filename;
 	double duration = core->mdat.duration;
@@ -1200,35 +1204,31 @@ void Playlist::removeAll() {
 }
 
 void Playlist::clearPlayedTag() {
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		(*it).setPlayed(false);
+	for (int n = 0; n < pl.count(); n++) {
+		pl[n].setPlayed(false);
 	}
 	updateView();
 }
 
 int Playlist::chooseRandomItem() {
 	qDebug( "Playlist::chooseRandomItem");
-	QList <int> fi; //List of not played items (free items)
 
-	int n=0;
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		if (! (*it).played() ) fi.append(n);
-		n++;
+	QList <int> fi; //List of not played items (free items)
+	for (int n = 0; n < pl.count(); n++) {
+		if (!pl[n].played()) fi.append(n);
 	}
 
-	qDebug(" * free items: %d", fi.count() );
+	qDebug("Playlist::chooseRandomItem: free items: %d", fi.count() );
 
-	if (fi.count()==0) return -1; // none free
+	if (fi.count() == 0) return -1; // none free
 
-	qDebug(" * items: ");
-	for (int i=0; i < fi.count(); i++) {
-		qDebug("   * item: %d", fi[i]);
+	qDebug("Playlist::chooseRandomItem: items: ");
+	for (int i = 0; i < fi.count(); i++) {
+		qDebug("Playlist::chooseRandomItem: * item: %d", fi[i]);
 	}
 
 	int selected = (int) ((double) fi.count() * rand()/(RAND_MAX+1.0));
-	qDebug(" * selected item: %d (%d)", selected, fi[selected]);
+	qDebug("Playlist::chooseRandomItem: selected item: %d (%d)", selected, fi[selected]);
 	return fi[selected];
 }
 
