@@ -74,7 +74,9 @@ void RetrieveYoutubeUrl::fetchPage(const QString & url) {
 void RetrieveYoutubeUrl::fetchVideoInfoPage(QString url) {
 	if (url.isEmpty()) {
 		QString scheme = use_https_vi ? "https" : "http";
-		url = QString("%2://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id).arg(scheme);
+		//url = QString("%2://www.youtube.com/get_video_info?el=detailpage&ps=default&eurl=&gl=US&hl=en&video_id=%1").arg(video_id).arg(scheme);
+		QString ga = QString("%2://youtube.googleapis.com/v/%1").arg(video_id).arg(scheme);
+		url = QString("%2://www.youtube.com/get_video_info?video_id=%1&eurl=%3&gl=US&hl=en").arg(video_id).arg(scheme).arg(ga);
 	}
 	qDebug("RetrieveYoutubeUrl::fetchVideoInfoPage: url: %s...", url.left(20).toUtf8().constData());
 
@@ -415,6 +417,12 @@ void RetrieveYoutubeUrl::parseVideoInfo(QByteArray text) {
 	/*
 	qDebug("fmtArray: %s", fmtArray.constData());
 	return;
+	*/
+
+	/*
+	if (fmtArray.isEmpty()) {
+		qDebug("RetrieveYoutubeUrl::parseVideoInfo: text: %s", text.constData());
+	}
 	*/
 
 	bool failed_to_decrypt_signature = false;
