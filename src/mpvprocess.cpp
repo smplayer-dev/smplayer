@@ -141,6 +141,8 @@ static QRegExp rx_mpv_videoinfo("^\\[vd\\] VIDEO: .* (\\d+)x(\\d+) .* ([0-9.]+) 
 static QRegExp rx_mpv_videocodec("^INFO_VIDEO_CODEC=(.*) \\[(.*)\\]");
 static QRegExp rx_mpv_audiocodec("^INFO_AUDIO_CODEC=(.*) \\[(.*)\\]");
 
+static QRegExp rx_mpv_forbidden("HTTP error 403 Forbidden");
+
 #if DVDNAV_SUPPORT
 static QRegExp rx_mpv_switch_title("^\\[dvdnav\\] DVDNAV, switched to title: (\\d+)");
 #endif
@@ -537,6 +539,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 			qDebug("MPVProcess::parseLine: md.audio_codec '%s'", md.audio_codec.toUtf8().constData());
 		}
 		else
+
+		if (rx_mpv_forbidden.indexIn(line) > -1) {
+			qDebug("MVPProcess::parseLine: 403 forbidden");
+			emit receivedForbiddenText();
+		}
 
 		//Generic things
 		if (rx_mpv_generic.indexIn(line) > -1) {
