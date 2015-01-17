@@ -122,6 +122,19 @@ bool MPVProcess::isOptionAvailable(const QString & option) {
 	return ir->optionList().contains(option);
 }
 
+void MPVProcess::addVFIfAvailable(const QString & vf, const QString & value) {
+	InfoReader * ir = InfoReader::obj(executable());
+	ir->getInfo();
+	if (ir->vfList().contains(vf)) {
+		QString s = "--vf-add=" + vf;
+		if (!value.isEmpty()) s += "=" + value;
+		arg << s;
+	} else {
+		QString f = vf +"="+ value;
+		qDebug("MPVProcess::addVFIfAvailable: filter %s is not used because it's not available", f.toLatin1().constData());
+	}
+}
+
 void MPVProcess::setOption(const QString & option_name, const QVariant & value) {
 	if (option_name == "cache") {
 		int cache = value.toInt();
@@ -385,7 +398,7 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "deblock") {
-		arg << "--vf-add=pp=" + option;
+		addVFIfAvailable("pp", option);
 	}
 	else
 	if (filter_name == "yadif") {
@@ -427,9 +440,13 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		}
 	}
 	else {
-		QString s = filter_name;
-		if (!option.isEmpty()) s += "=" + option;
-		arg << "--vf-add=" + s;
+		if (filter_name == "pp") {
+			addVFIfAvailable("pp", option);
+		} else {
+			QString s = filter_name;
+			if (!option.isEmpty()) s += "=" + option;
+			arg << "--vf-add=" + s;
+		}
 	}
 }
 
