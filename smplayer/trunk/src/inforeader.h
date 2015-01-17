@@ -77,7 +77,7 @@ public:
 	InfoList vcList() { return vc_list; };
 	InfoList acList() { return ac_list; };
 #endif
-
+	QStringList vfList() { return vf_list; };
 	QStringList optionList() { return option_list; };
 
 	int mplayerSVN() { return mplayer_svn; };
@@ -103,8 +103,7 @@ protected:
 	InfoList vc_list;
 	InfoList ac_list;
 #endif
-	InfoList vf_list;
-
+	QStringList vf_list;
 	QStringList option_list;
 
 	int mplayer_svn;
