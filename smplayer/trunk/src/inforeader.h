@@ -103,6 +103,7 @@ protected:
 	InfoList vc_list;
 	InfoList ac_list;
 #endif
+	InfoList vf_list;
 
 	QStringList option_list;
 

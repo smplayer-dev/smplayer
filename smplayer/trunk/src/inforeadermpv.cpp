@@ -41,6 +41,7 @@ void InfoReaderMPV::getInfo() {
 	vc_list.clear();
 	ac_list.clear();
 #endif
+	vf_list.clear();
 	mplayer_svn = -1;
 
 	vo_list = getList(run("--vo help"));
@@ -50,6 +51,7 @@ void InfoReaderMPV::getInfo() {
 	vc_list = getList(run("--vd help"));
 	ac_list = getList(run("--ad help"));
 #endif
+	vf_list = getList(run("--vf help"));
 
 	QList<QByteArray> lines = run("--version");
 
@@ -99,6 +101,11 @@ void InfoReaderMPV::list() {
 		qDebug( "codec: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
 	}
 #endif
+
+	qDebug(" vf_list:");
+	for ( it = vf_list.begin(); it != vf_list.end(); ++it ) {
+		qDebug( "video filter: '%s', desc: '%s'", (*it).name().toUtf8().data(), (*it).desc().toUtf8().data());
+	}
 
 }
 

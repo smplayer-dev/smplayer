@@ -28,7 +28,7 @@
 #include <QSettings>
 #include <QDebug>
 
-#define INFOREADER_SAVE_VERSION 1
+#define INFOREADER_SAVE_VERSION 2
 
 using namespace Global;
 
@@ -102,6 +102,7 @@ void InfoReader::getInfo() {
 			vc_list = convertListToInfoList(set.value("vc_list").toStringList());
 			ac_list = convertListToInfoList(set.value("ac_list").toStringList());
 			#endif
+			vf_list = convertListToInfoList(set.value("vf_list").toStringList());
 			option_list = set.value("option_list").toStringList();
 			//qDebug() << "InfoReader::getInfo: option_list:" << option_list;
 			mplayer_svn = set.value("mplayer_svn").toInt();
@@ -128,6 +129,7 @@ void InfoReader::getInfo() {
 		vc_list = ir.vcList();
 		ac_list = ir.acList();
 		#endif
+		vf_list = ir.vfList();
 		option_list = ir.optionList();
 		mplayer_svn = ir.mplayerSVN();
 		mpv_version = ir.mpvVersion();
@@ -145,6 +147,7 @@ void InfoReader::getInfo() {
 		vc_list = ir.vcList();
 		ac_list = ir.acList();
 		#endif
+		vf_list.clear();
 		option_list.clear();
 		mplayer_svn = ir.mplayerSVN();
 		mpv_version = "";
@@ -165,6 +168,7 @@ void InfoReader::getInfo() {
 		set.setValue("vc_list", convertInfoListToList(vc_list));
 		set.setValue("ac_list", convertInfoListToList(ac_list));
 		#endif
+		set.setValue("vf_list", convertInfoListToList(vf_list));
 		set.setValue("option_list", option_list);
 		set.setValue("mplayer_svn", mplayer_svn);
 		set.setValue("mpv_version", mpv_version);
