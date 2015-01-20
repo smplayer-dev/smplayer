@@ -1665,6 +1665,8 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	if (!pref->hwdec.isEmpty()) proc->setOption("hwdec", pref->hwdec);
+
 	proc->setOption("sub-fuzziness", pref->subfuzziness);
 
 	// From mplayer SVN r27667 the number of chapters can be obtained from ID_CHAPTERS

@@ -207,6 +207,7 @@ void Preferences::reset() {
 #endif
 
 	threads = 1;
+	hwdec = "no";
 
 	cache_for_files = 2048;
 	cache_for_streams = 2048;
@@ -687,6 +688,7 @@ void Preferences::save() {
 #endif
 
 	set->setValue("threads", threads);
+	set->setValue("hwdec", hwdec);
 
 	set->setValue("cache_for_files", cache_for_files);
 	set->setValue("cache_for_streams", cache_for_streams);
@@ -1199,6 +1201,7 @@ void Preferences::load() {
 #endif
 
 	threads = set->value("threads", threads).toInt();
+	hwdec = set->value("hwdec", hwdec).toString();
 
 	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
 	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
