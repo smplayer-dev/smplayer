@@ -29,6 +29,20 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+	hwdec_combo->addItem(tr("None"), "no");
+	hwdec_combo->addItem(tr("Auto"), "auto");
+	#ifdef Q_OS_LINUX
+	hwdec_combo->addItem("vdpau", "vdpau");
+	hwdec_combo->addItem("vaapi", "vaapi");
+	hwdec_combo->addItem("vaapi-copy", "vaapi-copy");
+	#endif
+	#ifdef Q_OS_OSX
+	hwdec_combo->addItem("vda", "vda");
+	#endif
+	#ifdef Q_OS_WIN
+	hwdec_combo->addItem("dxva2-copy", "dxva2-copy");
+	#endif
+
 	// Priority is only for windows, so we disable for other systems
 #ifndef Q_OS_WIN
 	priority_group->hide();
@@ -89,6 +103,7 @@ void PrefPerformance::setData(Preferences * pref) {
 #endif
 	setFastAudioSwitching( pref->fast_audio_change );
 	setThreads( pref->threads );
+	setHwdec( pref->hwdec );
 }
 
 void PrefPerformance::getData(Preferences * pref) {
@@ -111,6 +126,7 @@ void PrefPerformance::getData(Preferences * pref) {
 #endif
 	pref->fast_audio_change = fastAudioSwitching();
 	TEST_AND_SET(pref->threads, threads());
+	TEST_AND_SET(pref->hwdec, hwdec());
 }
 
 void PrefPerformance::setCacheForFiles(int n) {
@@ -227,6 +243,16 @@ int PrefPerformance::threads() {
 	return threads_spin->value();
 }
 
+void PrefPerformance::setHwdec(const QString & v) {
+	int idx = hwdec_combo->findData(v);
+	if (idx < 0) idx = 0;
+	hwdec_combo->setCurrentIndex(idx);
+}
+
+QString PrefPerformance::hwdec() {
+	int idx = hwdec_combo->currentIndex();
+	return hwdec_combo->itemData(idx).toString();
+}
 
 void PrefPerformance::createHelp() {
 	clearHelp();

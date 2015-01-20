@@ -26,7 +26,7 @@
       <attribute name="title">
        <string>&amp;Performance</string>
       </attribute>
-      <layout class="QVBoxLayout">
+      <layout class="QVBoxLayout" name="verticalLayout_2">
        <item>
         <widget class="QGroupBox" name="priority_group">
          <property name="title">
@@ -140,50 +140,89 @@
         </widget>
        </item>
        <item>
-        <layout class="QHBoxLayout">
-         <property name="spacing">
-          <number>6</number>
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="title">
+          <string>Decoding</string>
          </property>
-         <property name="margin">
-          <number>0</number>
-         </property>
-         <item>
-          <widget class="QLabel" name="label_13">
-           <property name="text">
-            <string>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</string>
-           </property>
-           <property name="buddy">
-            <cstring>threads_spin</cstring>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <widget class="QSpinBox" name="threads_spin">
-           <property name="minimum">
-            <number>1</number>
-           </property>
-           <property name="maximum">
-            <number>16</number>
-           </property>
-           <property name="value">
-            <number>1</number>
-           </property>
-          </widget>
-         </item>
-         <item>
-          <spacer>
-           <property name="orientation">
-            <enum>Qt::Horizontal</enum>
-           </property>
-           <property name="sizeHint" stdset="0">
-            <size>
-             <width>40</width>
-             <height>20</height>
-            </size>
-           </property>
-          </spacer>
-         </item>
-        </layout>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <layout class="QHBoxLayout">
+            <property name="spacing">
+             <number>6</number>
+            </property>
+            <property name="margin">
+             <number>0</number>
+            </property>
+            <item>
+             <widget class="QLabel" name="label_13">
+              <property name="text">
+               <string>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</string>
+              </property>
+              <property name="buddy">
+               <cstring>threads_spin</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSpinBox" name="threads_spin">
+              <property name="minimum">
+               <number>1</number>
+              </property>
+              <property name="maximum">
+               <number>16</number>
+              </property>
+              <property name="value">
+               <number>1</number>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout">
+            <item>
+             <widget class="QLabel" name="label_16">
+              <property name="text">
+               <string>Hardware &amp;decoding</string>
+              </property>
+              <property name="buddy">
+               <cstring>hwdec_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="hwdec_combo"/>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
        </item>
        <item>
         <widget class="QGroupBox" name="groupBox">
@@ -564,6 +603,7 @@
   <tabstop>framedrop_check</tabstop>
   <tabstop>hardframedrop_check</tabstop>
   <tabstop>threads_spin</tabstop>
+  <tabstop>hwdec_combo</tabstop>
   <tabstop>loopfilter_combo</tabstop>
   <tabstop>coreavc_check</tabstop>
   <tabstop>fast_audio_combo</tabstop>
