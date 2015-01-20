@@ -89,6 +89,9 @@ protected:
 	void setCoreavcUsage(bool b);
 	bool coreavcUsage();
 
+	void setHwdec(const QString & v);
+	QString hwdec();
+
 protected:
 	virtual void retranslateStrings();
 };
