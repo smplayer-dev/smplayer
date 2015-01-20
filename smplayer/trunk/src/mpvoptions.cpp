@@ -300,12 +300,6 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	else
 	if (option_name == "vc") {
 		qDebug() << "MPVProcess::setOption: video codec ignored";
-		#ifdef Q_OS_LINUX
-		QString codec = value.toString();
-		if (codec.contains("vdpau")) {
-			arg << "--hwdec=vdpau";
-		}
-		#endif
 	}
 	else
 	if (option_name == "ac") {
@@ -352,6 +346,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "softvol-max" ||
 	    option_name == "framedrop" ||
 	    option_name == "priority" ||
+	    option_name == "hwdec" ||
 	    option_name == "autosync" ||
 	    option_name == "dvd-device" || option_name == "cdrom-device" ||
 	    option_name == "demuxer" ||

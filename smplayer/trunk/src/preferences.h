@@ -192,6 +192,7 @@ public:
 #endif
 
 	int threads; //!< number of threads to use for decoding (-lavdopts threads <1-8>)
+	QString hwdec; //!< hardware video decoding (mpv only)
 
 	int cache_for_files;
 	int cache_for_streams;
