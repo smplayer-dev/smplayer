@@ -278,9 +278,19 @@ void PrefPerformance::createHelp() {
 		tr("Sets the number of threads to use for decoding. Only for "
            "MPEG-1/2 and H.264") );
 
-	setWhatsThis(coreavc_check, tr("Use CoreAVC if no other codec specified"),
-		tr("Try to use non-free CoreAVC codec when no other codec is specified "
-           "and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support."));
+	setWhatsThis(hwdec_combo, tr("Hardware decoding"),
+		tr("Sets the hardware video decoding API. "
+		   "If hardware decoding is not possible, software decoding will be used instead.") + " " +
+		tr("Available options:") +
+			"<ul>"
+			"<li>" + tr("None: only software decoding will be used.") + "</li>"
+			"<li>" + tr("Auto: it tries to automatically enable hardware decoding using the first available method.") + "</li>"
+			"<li>" + tr("vdpau: for the vdpau and opengl video outputs.") + "</li>"
+			"<li>" + tr("vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.") + "</li>"
+			"<li>" + tr("vaapi-copy: it copies video back into system RAM. For Intel GPUs only.") + "</li>"
+			"<li>" + tr("dxva2-copy: it copies video back to system RAM. Experimental.") + "</li>"
+			"</ul>" +
+		tr("This option only works with mpv."));
 
 	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
 		tr("This option allows to skips the loop filter (AKA deblocking) "
@@ -297,6 +307,10 @@ void PrefPerformance::createHelp() {
            tr("<b>Skip only on HD videos</b>: the loop filter will be "
            "skipped only on videos which height is %1 or "
            "greater.").arg(pref->HD_height) +"<br>" );
+
+	setWhatsThis(coreavc_check, tr("Use CoreAVC if no other codec specified"),
+		tr("Try to use non-free CoreAVC codec when no other codec is specified "
+           "and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support."));
 
 	setWhatsThis(fast_audio_combo, tr("Fast audio track switching"),
 		tr("Possible values:<br> "
