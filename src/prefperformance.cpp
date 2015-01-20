@@ -285,10 +285,14 @@ void PrefPerformance::createHelp() {
 			"<ul>"
 			"<li>" + tr("None: only software decoding will be used.") + "</li>"
 			"<li>" + tr("Auto: it tries to automatically enable hardware decoding using the first available method.") + "</li>"
+			#ifdef Q_OS_LINUX
 			"<li>" + tr("vdpau: for the vdpau and opengl video outputs.") + "</li>"
 			"<li>" + tr("vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.") + "</li>"
 			"<li>" + tr("vaapi-copy: it copies video back into system RAM. For Intel GPUs only.") + "</li>"
+			#endif
+			#ifdef Q_OS_WIN
 			"<li>" + tr("dxva2-copy: it copies video back to system RAM. Experimental.") + "</li>"
+			#endif
 			"</ul>" +
 		tr("This option only works with mpv."));
 
