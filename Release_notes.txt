@@ -11,7 +11,7 @@ Version 14.9.0.6672
  * The Windows installer now allows to choose the playback engine to install:
    mplayer or mpv.
  * Fix for Youtube.
- * Possibility to to set a proxy.
+ * Possibility to set a proxy.
 
 
 Version 14.9.
