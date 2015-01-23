@@ -1,3 +1,79 @@
+[b]Version 14.9.0.6672[/b]:
+
+(2015-01-21)
+ * Add a combobox in Preferences -> Performance to select the hardware
+   decoding option (mpv only).
+
+(2015-01-18)
+ * (mpv) Don't use the pp filter if it's not available 
+
+(2015-01-16)
+ * Fix for Youtube.
+
+(2014-12-31)
+ * (Videopreview) Use -nofontconfig to prevent to create the font cache.
+
+(2014-12-16)
+ * New version of the installer, which offers the user the possibility
+   to install mpv (will be downloaded). By redxii.
+
+(2014-12-12)
+ * Add an option to change the size of the OSD.
+
+(2014-11-29)
+ * Add an option to enable or disable the internal Youtube support.
+ * Add an option to enable streaming sites (requires mpv and youtube-dl).
+
+(2014-11-27)
+ * (Windows) Replace / with \ in the screenshot folder name.
+ * Move the Youtube options from the performance section to the network
+   section.
+
+(2014-11-26)
+ * Add the possibility to select a secondary subtitle track, which is 
+   displayed on top of the screen. (mpv only)
+
+(2014-11-25)
+ * Add an option to disable the scroll of the title in the skingui.
+
+(2014-11-20)
+ * Replace the option 'Use SSA/ASS library' in the subtitles menu with 
+   'Use custom style'.
+
+(2014-11-18)
+ * Add an option to go back one frame (frame_back_step). Only works with mpv.
+ * Add an option in Preferences -> General to set the template for screenshots
+  (works only with mpv).
+
+(2014-11-16)
+ * Add support for mpv.
+   It took 25 days. 6983 lines were changed.
+   It's not complete yet, some things may not work yet, but
+   I think the most important things work.
+   Notice: it requires mpv 0.6.2 or greater.
+ * During the process of adding support for mpv, the options to customize
+   the non ASS font were removed.
+ * Add the Albanian translation.
+ * Add Notes_about_mpv.txt.
+
+(2014-10-08)
+ * (Bugfix) Prevent to pass the filename twice to mplayer when using
+   use_short_pathnames.
+
+(2014-09-25)
+ * Add options in Preferences -> Network to set a proxy.
+
+(2014-09-14)
+ * (Qt 5) Fix the option pause when minimized.
+
+(2014-09-10)
+ * Open https URLs with ffmpeg://
+ * (Themes and skins) Now if the resource file (*.rcc) is not found
+   the images will be loaded from PNGs files, as in previous versions.
+   This will make easier for users to customize themes, since they
+   won't need to create the rcc files.
+
+
 [b]Version 14.9.0[/b]:
 
 (2014-08-20)
