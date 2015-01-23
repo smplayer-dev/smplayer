@@ -1,3 +1,19 @@
+Version 14.9.0.6672
+
+ * We added support for mpv, which is a player based on MPlayer with
+   new features and bug fixes.
+ * Now it's possible to select a secondary subtitle track which is
+   displayed on top of the screen (mpv only).
+ * New option to set a template for screenshots (mpv only).
+ * Now it's possible to play videos from streaming sites (besides Youtube)
+   like DailyMotion, Vimeo, Vevo and many more (mpv only).
+ * Option to step back one frame (mpv only).
+ * The Windows installer now allows to choose the playback engine to install:
+   mplayer or mpv.
+ * Fix for Youtube.
+ * Possibility to to set a proxy.
+
+
 Version 14.9.
 
  * Fix for Youtube.
