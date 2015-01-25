@@ -393,7 +393,7 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "deblock") {
-		addVFIfAvailable("pp", option);
+		addVFIfAvailable("lavfi", "[pp=" + option +"]");
 	}
 	else
 	if (filter_name == "yadif") {
@@ -436,7 +436,9 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else {
 		if (filter_name == "pp") {
-			addVFIfAvailable("pp", option);
+			QString s;
+			if (option.isEmpty()) s = "[pp]"; else s = "[pp=" + option + "]";
+			addVFIfAvailable("lavfi", s);
 		} else {
 			QString s = filter_name;
 			if (!option.isEmpty()) s += "=" + option;
