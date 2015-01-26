@@ -115,10 +115,6 @@ private:
 	static InfoReader * static_obj;
 	static QStringList convertInfoListToList(InfoList l);
 	static InfoList convertListToInfoList(QStringList l);
-
-#ifdef Q_OS_LINUX
-	static QString findApp(const QString & appname);
-#endif
 };
 
 #endif

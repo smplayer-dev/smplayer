@@ -68,7 +68,7 @@ void InfoReader::setPlayerBin(const QString & bin) {
 	}
 #ifdef Q_OS_LINUX
 	else {
-		QString fplayer = findApp(mplayerbin);
+		QString fplayer = Helper::findExecutable(mplayerbin);
 		qDebug() << "InfoReader::setPlayerBin: fplayer:" << fplayer;
 		if (!fplayer.isEmpty()) mplayerbin = fplayer;
 	}
@@ -211,21 +211,5 @@ InfoList InfoReader::convertListToInfoList(QStringList l) {
 	}
 	return r;
 }
-
-#ifdef Q_OS_LINUX
-QString InfoReader::findApp(const QString & appname) {
-	QString res;
-
-	QProcess p;
-	p.start("which", QStringList() << appname);
-	bool success = p.waitForFinished();
-	if (success) {
-		res = p.readAll();
-		res = res.trimmed();
-	}
-
-	return res;
-}
-#endif
 
 #include "moc_inforeader.cpp"
