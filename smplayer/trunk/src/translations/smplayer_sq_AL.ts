@@ -161,7 +161,7 @@
     <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Duke përdorur %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
@@ -181,7 +181,7 @@
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished">Arabisht - Siri</translation>
+        <translation>Arabisht - Siri</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
@@ -1261,7 +1261,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1669"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation>Perdorë një stil te vecantë</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1675"/>
@@ -1277,7 +1277,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1710"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndihma per hapat e pare</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
@@ -1292,12 +1292,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Përmasat &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Përmasat &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1463,7 +1463,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4598"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Lidhja deshtoj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
@@ -1483,7 +1483,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4602"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>ky link</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4612"/>
@@ -1499,12 +1499,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube Browser nuk është installuar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vizitoni %1 per ta marre ate.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4615"/>
@@ -1524,7 +1524,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1988"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Tregoji m&amp;iqeve mbi SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2997"/>
@@ -1540,7 +1540,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3460"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Konfirmo fshirjen - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3461"/>
@@ -1655,7 +1655,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Server-i u përgjigjë me &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5301"/>
@@ -1857,7 +1857,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>While &amp;playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjate play-iy</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1977"/>
@@ -1935,7 +1935,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4224"/>
         <location filename="../basegui.cpp" line="4228"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Vonesa e titrave</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4225"/>
@@ -2150,73 +2150,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>Bardhesia: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>Kontrasti: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2863"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2878"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2893"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3022"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>Volumi: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3882"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>Zmadho %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>Duke bufferizuar...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
-        <location filename="../core.cpp" line="3151"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3747"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4099"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3065"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonesa e titrave: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Vonesa e zërit: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2947"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>Shpejtësi %1</translation>
     </message>
@@ -2231,39 +2231,39 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Titrat aktive</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Titrat jo aktive</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3795"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3801"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Duke filluar</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -2276,17 +2276,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Shenjestra &quot;A&quot; u vendos tek %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Shenjestra &quot;B&quot; u vendos tek %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2496,12 +2496,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Objekt i ri</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"></translation>
+        <translation>Nën Menu e &amp;re</translation>
     </message>
 </context>
 <context>
@@ -3954,7 +3954,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="302"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>Europa Jug-Lindore</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="303"/>
@@ -4292,7 +4292,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovenishtë</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4426,7 +4426,7 @@ Deshironi ta mbishkruani?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"></translation>
+        <translation>Paneli i medias</translation>
     </message>
 </context>
 <context>
@@ -4576,17 +4576,17 @@ Do you want to overwrite?</source>
 Deshironi ta mbishkruani?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1036"/>
+        <location filename="../playlist.cpp" line="1040"/>
         <source>All files</source>
         <translation>Te gjithe file-at</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1033"/>
+        <location filename="../playlist.cpp" line="1037"/>
         <source>Select one or more files to open</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1093"/>
         <source>Choose a directory</source>
         <translation>Zgjidh një direktori</translation>
     </message>
@@ -4618,7 +4618,7 @@ Deshironi ta mbishkruani?</translation>
     <message>
         <location filename="../playlist.cpp" line="301"/>
         <source>Pre&amp;vious</source>
-        <translation type="unfinished">I meparshmi</translation>
+        <translation>I &amp;meparshmi</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="307"/>
@@ -4696,7 +4696,7 @@ Deshironi ta mbishkruani?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1035"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -4750,7 +4750,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation type="unfinished"></translation>
+        <translation>Log-o output-in e MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
@@ -4857,7 +4857,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="250"/>
         <source>C&amp;hange...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndrysho</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
@@ -4882,7 +4882,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="426"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>Aspekti i monitoritë</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="427"/>
@@ -4962,7 +4962,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>Opcione per MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
@@ -5092,12 +5092,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Log-o output-in e MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5190,7 +5190,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.ui" line="98"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mos zgjidh gjë</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
@@ -5244,7 +5244,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zgjidh &amp;CD-në:</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="176"/>
@@ -5524,7 +5524,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Programi i egzekutueshëm i MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5694,7 +5694,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1144"/>
         <source>Subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Titrat</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1145"/>
@@ -5714,7 +5714,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="1129"/>
         <source>Preferred language:</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjuha e preferuar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1021"/>
@@ -5830,7 +5830,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
         <source>Remember time position</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mbaj mend kohën e fundit</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="93"/>
@@ -5899,7 +5899,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Default zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zmadhimi fillestar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
@@ -6075,7 +6075,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="804"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Volumi gl&amp;obal</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1017"/>
@@ -6276,7 +6276,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.ui" line="171"/>
         <source>&amp;Double click</source>
-        <translation type="unfinished"></translation>
+        <translation>Click i dyfishtë</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="292"/>
@@ -6631,7 +6631,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="416"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Change speed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ndrysho shpejtësin</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
@@ -6695,7 +6695,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="145"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Autodetect&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="196"/>
@@ -6732,7 +6732,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinterface.ui" line="805"/>
         <location filename="../prefinterface.cpp" line="772"/>
         <source>Recent files</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;File-t e fundit</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="660"/>
@@ -6958,7 +6958,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="676"/>
         <source>Icon set</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema e Ikonave.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="204"/>
@@ -7201,7 +7201,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>gjeresia</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
@@ -7335,12 +7335,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Host:</translation>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port:</translation>
+        <translation>&amp;Porta:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="166"/>
@@ -7360,27 +7360,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
-        <translation type="unfinished">HTTP</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="64"/>
         <source>Network</source>
-        <translation type="unfinished">Rrjeti</translation>
+        <translation>Rrjeti</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivizo suportinë e brëndshëm të Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
@@ -7390,7 +7390,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kualiteti i Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
@@ -7400,7 +7400,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>User agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
@@ -7425,12 +7425,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivizo proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="158"/>
@@ -7440,7 +7440,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Host</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="161"/>
@@ -7450,17 +7450,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Porta</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="164"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished">Porta e proxy-it.</translation>
+        <translation>Porta e proxy-it.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Emri i përdoruesitë</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
@@ -7470,7 +7470,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Fjalëkalimi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="170"/>
@@ -7480,7 +7480,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>Type</source>
-        <translation type="unfinished">Tipi</translation>
+        <translation>Tipi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
@@ -7491,8 +7491,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="49"/>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="63"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Performance</source>
         <translation>Performanca</translation>
     </message>
@@ -7503,7 +7503,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Priority</source>
         <translation>Prioriteti</translation>
     </message>
@@ -7520,7 +7520,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="82"/>
         <source>high</source>
-        <translation type="unfinished"></translation>
+        <translation>I lartë</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="87"/>
@@ -7540,47 +7540,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="102"/>
         <source>idle</source>
+        <translation>I lirë</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="145"/>
+        <source>Decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
-        <location filename="../prefperformance.ui" line="370"/>
-        <location filename="../prefperformance.ui" line="407"/>
-        <location filename="../prefperformance.ui" line="444"/>
-        <location filename="../prefperformance.ui" line="481"/>
-        <location filename="../prefperformance.ui" line="518"/>
+        <location filename="../prefperformance.ui" line="199"/>
+        <source>Hardware &amp;decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="306"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Allow frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
         <source>Priorit&amp;y:</source>
-        <translation type="unfinished"></translation>
+        <translation>Priorit&amp;eti:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="131"/>
@@ -7593,212 +7603,272 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="251"/>
+        <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Skip loop filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="230"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="276"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Cache for files</source>
         <translation>Cache për file-ët</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for streams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for DVDs</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="300"/>
+        <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
         <translation>&amp;Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Cache për &amp;DVDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="316"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>Cache për &amp;local files:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation>Cache për &amp;streams:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="64"/>
+        <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="65"/>
+        <location filename="../prefperformance.cpp" line="79"/>
         <source>Skip (always)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="66"/>
+        <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="205"/>
+        <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
-        <source>Possible values:</source>
+        <location filename="../prefperformance.cpp" line="32"/>
+        <source>None</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
-        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
+        <location filename="../prefperformance.cpp" line="33"/>
+        <source>Auto</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
-        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
+        <location filename="../prefperformance.cpp" line="281"/>
+        <source>Hardware decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
-        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
+        <location filename="../prefperformance.cpp" line="282"/>
+        <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="284"/>
+        <source>Available options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="286"/>
+        <source>None: only software decoding will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="287"/>
+        <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="289"/>
+        <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
-        <source>Cache</source>
-        <translation>Cache</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="305"/>
-        <source>Cache for audio CDs</source>
-        <translation>Cache për audio CDs</translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="306"/>
-        <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
+        <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
-        <source>Cache for &amp;audio CDs:</source>
+        <location filename="../prefperformance.cpp" line="291"/>
+        <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="294"/>
+        <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="297"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="307"/>
+        <source>Possible values:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="308"/>
+        <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
+        <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="311"/>
+        <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="334"/>
+        <source>Cache</source>
+        <translation>Cache</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="349"/>
+        <source>Cache for audio CDs</source>
+        <translation>Cache për audio CDs</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="350"/>
+        <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="466"/>
+        <source>Cache for &amp;audio CDs:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for VCDs</source>
         <translation>Cache për VCDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>Cache për &amp;VCDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="153"/>
+        <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="233"/>
+        <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation>Cache për &amp;TV:</translation>
     </message>
@@ -7908,7 +7978,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">&amp;Playlista</translation>
+        <translation>&amp;Playlista</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
@@ -7933,7 +8003,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>Shto file nga direktoria</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -7962,12 +8032,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="60"/>
         <location filename="../prefsubtitles.cpp" line="382"/>
         <source>Subtitles</source>
-        <translation type="unfinished">Titrat</translation>
+        <translation>Titrat</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="30"/>
         <source>&amp;Subtitles</source>
-        <translation type="unfinished">Titrat</translation>
+        <translation>Titrat</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
@@ -8010,7 +8080,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Size</source>
-        <translation type="unfinished">Përmasat</translation>
+        <translation>Përmasat</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
@@ -8285,12 +8355,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="559"/>
         <source>&amp;Right:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Djathtas</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="575"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verti&amp;kalë:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="607"/>
@@ -8315,7 +8385,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="679"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nenvizimi:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="699"/>
@@ -8325,7 +8395,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Perdorë një stil te vecantë</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8372,7 +8442,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="119"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished">Nenvizo</translation>
+        <translation>Nenvizo</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="120"/>
@@ -8681,7 +8751,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Ky është SMPlayer v. %1 duke u egzekutuar nën %2</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="132"/>
@@ -8814,12 +8884,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../mediasettings.cpp" line="178"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"></translation>
+        <translation>i panjohur</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
-        <translation type="unfinished"></translation>
+        <translation>hap GUI-në mpc.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
@@ -8947,12 +9017,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="425"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">Toolbar-i &amp;Kryesor</translation>
+        <translation>Toolbar-i &amp;Kryesor</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished">Modifiko &amp;toolbar-in Kryesore</translation>
+        <translation>Modifiko &amp;toolbar-in Kryesore</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="431"/>
@@ -9005,7 +9075,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="75"/>
         <source>Select None</source>
-        <translation type="unfinished"></translation>
+        <translation>Mos zgjidh gjë</translation>
     </message>
 </context>
 <context>
@@ -9013,7 +9083,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation type="unfinished"></translation>
+        <translation>Editor-i i kanaleve </translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
@@ -9026,7 +9096,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Kerce tek:</translation>
+        <translation>&amp;Kerce tek:</translation>
     </message>
 </context>
 <context>
@@ -9075,7 +9145,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../toolbareditor.cpp" line="87"/>
         <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
-        <translation type="unfinished"></translation>
+        <translation>(ndarësi)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="239"/>
@@ -9090,7 +9160,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
-        <translation type="unfinished"></translation>
+        <translation>Shfaq kohën</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="245"/>
@@ -9108,7 +9178,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tristatecombo.cpp" line="34"/>
         <source>Auto</source>
-        <translation type="unfinished">&amp;Auto</translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../tristatecombo.cpp" line="35"/>
@@ -9242,7 +9312,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="145"/>
         <source>Generated by SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjeneruar nga SMPlayer</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="234"/>
@@ -9257,7 +9327,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="419"/>
         <source>Length: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Gjatësia: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="585"/>
@@ -9267,12 +9337,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="598"/>
         <source>Error saving file</source>
-        <translation type="unfinished">Gabim në ruajtjen e file-it</translation>
+        <translation>Gabim në ruajtjen e file-it</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="599"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation type="unfinished">File-i nuk mund te ruhej</translation>
+        <translation>File-i nuk mund te ruhej</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="190"/>
@@ -9297,12 +9367,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="418"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"></translation>
+        <translation>Rezolucioni: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>Video format: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Format i videos: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="423"/>

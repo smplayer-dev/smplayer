@@ -690,7 +690,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD frå plate</translation>
+        <translation>&amp;DVD frå lagringseining</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
@@ -1787,7 +1787,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../basegui.cpp" line="1614"/>
         <source>Mirr&amp;or image</source>
-        <translation>Speg&amp;l bilete</translation>
+        <translation>Spege&amp;lvend biletet</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1765"/>
@@ -2014,7 +2014,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../basegui.cpp" line="1613"/>
         <source>Fli&amp;p image</source>
-        <translation>Snu &amp;om bilete</translation>
+        <translation>Snu &amp;biletet opp ned</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1845"/>
@@ -2054,7 +2054,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../basegui.cpp" line="1950"/>
         <source>&amp;Closed captions</source>
-        <translation>&amp;Lyd transkripsjon</translation>
+        <translation>&amp;Lydtranskripsjon</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
@@ -2152,73 +2152,73 @@ Dette kan løyse problemet. </translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>Ljosstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2863"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2878"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>Fargetone: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2893"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>Metting: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3022"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3882"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>Mellomlagrar </translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
-        <location filename="../core.cpp" line="3151"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>Skrift storleik: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3747"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>Høgde/Breidde-format: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4099"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Oppdaterer mellomlager for skrift. Dette vil ta nokre sekund...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3065"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Undertekst forseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lydforseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2947"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>Fart: %1</translation>
     </message>
@@ -2233,37 +2233,37 @@ Dette kan løyse problemet. </translation>
         <translation>Kunne ikkje finne videoen sin URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Undertekstar på</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Undertekstar av</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3795"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>Museskroll - navigering no</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Museskroll - endring av lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3801"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Museskroll - endring av zoom nivå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Museskroll - endring av tempo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
         <translation>Startar …</translation>
     </message>
@@ -2278,17 +2278,17 @@ Dette kan løyse problemet. </translation>
         <translation>Skjermbileta ikkje tekne, plassering ikkje konfigurert.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation>A-B punkta fjerna</translation>
     </message>
@@ -2458,7 +2458,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="114"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Du kan redigere, slette, sortere og leggja til nye punkt; dobbel klikk i sellen for å endra innhaldet.</translation>
+        <translation>Du kan redigere, slette, sortere og leggja til nye element. Dobbelklikk i cella for å redigera innhaldet.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="345"/>
@@ -2543,7 +2543,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>&amp;Legg til spelande medium</translation>
+        <translation>&amp;Legg til spelande radiokanal</translation>
     </message>
 </context>
 <context>
@@ -2587,7 +2587,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="65"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>&amp;Vel kva demuxar ein vil nytta på denne fila:</translation>
+        <translation>&amp;Vel demuxar for denne fila:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="105"/>
@@ -2614,7 +2614,7 @@ Dette kan løyse problemet. </translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="189"/>
         <source>&amp;Select the audio codec:</source>
-        <translation>&amp;Vel audio-kodar:</translation>
+        <translation>&amp;Vel audio-kodek:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="239"/>
@@ -2721,7 +2721,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
-        <translation>Vel kva mellomtenar ein vil bruka. </translation>
+        <translation>Vel mellomtenartype.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -3118,7 +3118,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="119"/>
         <source>Initial Audio Stream</source>
-        <translation>Opphaveleg lyd straum</translation>
+        <translation>Opphaveleg lydstraum</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="122"/>
@@ -3138,7 +3138,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="129"/>
         <source>Audio Streams</source>
-        <translation>Lyd straum</translation>
+        <translation>Lydstraumar</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="133"/>
@@ -3209,7 +3209,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation>Du kan spela ein DVD frå harddisken din. Berre vel mappa som inneheld VIDEO_TS og AUDIO_TS.</translation>
+        <translation>Du kan spela av ein DVD frå harddisken din. Berre vel mappa som inneheld VIDEO_TS og AUDIO_TS.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -4583,17 +4583,17 @@ Do you want to overwrite?</source>
 Vil du overskrive?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1036"/>
+        <location filename="../playlist.cpp" line="1040"/>
         <source>All files</source>
         <translation>Alle filer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1033"/>
+        <location filename="../playlist.cpp" line="1037"/>
         <source>Select one or more files to open</source>
         <translation>Vel ei eller fleire filer å opna</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1093"/>
         <source>Choose a directory</source>
         <translation>Vel ei mappe</translation>
     </message>
@@ -4703,7 +4703,7 @@ Vil du overskrive?</translation>
         <translation>Det finst ulagra endringar. Vil du lagra spelelista?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1035"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -5308,7 +5308,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation>&amp;Skann etter CD/DVD-einingar</translation>
+        <translation>&amp;Skann etter CD/DVD-lagringseiningar</translation>
     </message>
 </context>
 <context>
@@ -7499,14 +7499,14 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Vel kva mellomtenar ein vil bruka. </translation>
+        <translation type="unfinished">Vel mellomtenartype.</translation>
     </message>
 </context>
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="49"/>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="63"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Performance</source>
         <translation>Yting</translation>
     </message>
@@ -7517,7 +7517,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Priority</source>
         <translation>Prioritet</translation>
     </message>
@@ -7557,37 +7557,47 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation>inaktiv</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
-        <location filename="../prefperformance.ui" line="370"/>
-        <location filename="../prefperformance.ui" line="407"/>
-        <location filename="../prefperformance.ui" line="444"/>
-        <location filename="../prefperformance.ui" line="481"/>
-        <location filename="../prefperformance.ui" line="518"/>
+        <location filename="../prefperformance.ui" line="145"/>
+        <source>Decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="199"/>
+        <source>Hardware &amp;decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="306"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Allow frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Allow hard frame drop</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation type="unfinished"></translation>
     </message>
@@ -7607,212 +7617,272 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="251"/>
+        <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Fast audio track switching</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Fast seek to chapters in dvds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Skip loop filter</source>
         <translation>Hopp over sløyfefilter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="230"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="276"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Cache for files</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for streams</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for DVDs</source>
         <translation>Snøgglager for DVD-ar</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="300"/>
+        <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
         <translation>&amp;Snøgglager</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Snøgglager for &amp;DVD-ar:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="316"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>Snøgglager for &amp;lokale filers:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="64"/>
+        <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
         <translation>Påslått</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="65"/>
+        <location filename="../prefperformance.cpp" line="79"/>
         <source>Skip (always)</source>
         <translation>Hopp over (alltid)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="66"/>
+        <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
         <translation>Hopp over berre i HD-videoar</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="205"/>
+        <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Sløyfe-&amp;filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="32"/>
+        <source>None</source>
+        <translation type="unfinished">Ingen</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="33"/>
+        <source>Auto</source>
+        <translation type="unfinished">Auto</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="281"/>
+        <source>Hardware decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="282"/>
+        <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="284"/>
+        <source>Available options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="286"/>
+        <source>None: only software decoding will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="287"/>
+        <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="289"/>
+        <source>vdpau: for the vdpau and opengl video outputs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="290"/>
+        <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="291"/>
+        <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="294"/>
+        <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="297"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Possible values:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Slått på&lt;/b&gt;: sløyfefilteret er ikkje hoppa over</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Hopp over (alltid)&lt;/b&gt;: Sløyfefilteret er hoppa over same kva oppløysing videoen har</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Hopp over berre i HD-videoar&lt;/b&gt;: Sløyfe-filteret vert hoppa over berre i videoar der høgda er %1 eller høgare.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Cache</source>
         <translation>Mellomlager</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="349"/>
         <source>Cache for audio CDs</source>
         <translation>Mellomlager for lyd CD-ar</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for VCDs</source>
         <translation>Mellomlager for VCD-ar</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="153"/>
+        <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="233"/>
+        <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation>Mellomlager for &amp;TV:</translation>
     </message>
@@ -8788,18 +8858,18 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekund</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n minutt</numerusform>
+            <numerusform>%n minutt</numerusform>
         </translation>
     </message>
     <message>
@@ -9481,7 +9551,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sekund å hoppa over i byrjinga:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>

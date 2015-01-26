@@ -2151,73 +2151,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>Яркость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>Контрастность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2863"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>Гамма: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2878"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>Оттенок: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2893"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>Насыщенность: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3022"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>Громкость: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3882"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>Увеличение: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>Буферизация...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
-        <location filename="../core.cpp" line="3151"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3747"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>Соотношение сторон: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4099"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Обновление кэша шрифтов. Это может занять несколько секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3065"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Задержка субтитров: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>A-V задержка: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2947"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>Скорость: %1</translation>
     </message>
@@ -2232,37 +2232,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Невозможно определить URL адрес видео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Субтитры включены</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Субтитры отключены</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3795"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>Колесо мыши: перемотка</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Колесо мыши: громкость</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3801"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Колесо мыши: масштабирование</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Колесо мыши: скорость</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
         <translation>Запуск...</translation>
     </message>
@@ -2277,17 +2277,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Скриншоты не получены, каталог не настроен</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Маркер &quot;A&quot; установлен в %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Маркер &quot;B&quot; установлен в %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation>Маркеры A-B очищены</translation>
     </message>
@@ -4585,17 +4585,17 @@ Do you want to overwrite?</source>
 Перезаписать?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1036"/>
+        <location filename="../playlist.cpp" line="1040"/>
         <source>All files</source>
         <translation>Все файлы</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1033"/>
+        <location filename="../playlist.cpp" line="1037"/>
         <source>Select one or more files to open</source>
         <translation>Выберите один или более файлов</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1093"/>
         <source>Choose a directory</source>
         <translation>Выбрать каталог</translation>
     </message>
@@ -4705,7 +4705,7 @@ Do you want to overwrite?</source>
         <translation>Есть несохранённые изменения, желаете сохранить список воспроизведения?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1035"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Multimedia</source>
         <translation>Мультимедиа</translation>
     </message>
@@ -7506,8 +7506,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="49"/>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="63"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Performance</source>
         <translation>Быстродействие</translation>
     </message>
@@ -7518,7 +7518,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Priority</source>
         <translation>Приоритет</translation>
     </message>
@@ -7558,37 +7558,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>низкий</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
-        <location filename="../prefperformance.ui" line="370"/>
-        <location filename="../prefperformance.ui" line="407"/>
-        <location filename="../prefperformance.ui" line="444"/>
-        <location filename="../prefperformance.ui" line="481"/>
-        <location filename="../prefperformance.ui" line="518"/>
+        <location filename="../prefperformance.ui" line="145"/>
+        <source>Decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="199"/>
+        <source>Hardware &amp;decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>Кб</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="306"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Установки кэша могут улучшить или ухудшить быстродействие</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Allow frame drop</source>
         <translation>Допускать выпадение кадров</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Пропускать кадры для поддержки аудио/видео синхронизации.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Allow hard frame drop</source>
         <translation>Допускать жесткое выпадение кадров</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Более жесткое пропускание кадров (рваное воспроизведение). Приводит к искажению картинки!</translation>
     </message>
@@ -7608,212 +7618,272 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Допускать &amp;жесткое выпадение кадров (изображение может исказиться)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="251"/>
+        <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Быстрое переключение звуковых дорожек</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Быстрый &amp;поиск по главам на DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Fast audio track switching</source>
         <translation>Быстрое переключение звуковых дорожек</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Быстрый поиск по главам на DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Если отмечено, SMPlayer попытается использовать более быстрый метод для поиска по главам, но эта опция может не работать с некоторыми дисками.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Skip loop filter</source>
         <translation>Пропустить петлевой фильтр</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="230"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="276"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Возможные значения: &lt;br&gt; &lt;b&gt;Да&lt;/b&gt;: будет использован наиболее быстрый метод переключения аудио дорожек (может не работать с некоторыми форматами).&lt;br&gt; &lt;b&gt;Нет&lt;/b&gt;: процесс MPlayer будет перезапущен при изменении звуковой дорожки.&lt;br&gt; &lt;b&gt;Авто&lt;/b&gt;: SMPlayer решит самостоятельно, основываясь на версии MPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Cache for files</source>
         <translation>Кэширование файлов</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования файлов.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for streams</source>
         <translation>Кэширование потоков</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for DVDs</source>
         <translation>Кэшировать DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования DVD.&lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Перемотка может работать неправильно (в том числе и обзор глав) при использовании кэширования DVD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="300"/>
+        <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
         <translation>&amp;Кэш</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;Кэш DVD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="316"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>Кэш локальных &amp;файлов:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation>Кэш &amp;потоков:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="64"/>
+        <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
         <translation>Включено</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="65"/>
+        <location filename="../prefperformance.cpp" line="79"/>
         <source>Skip (always)</source>
         <translation>Пропускать (всегда)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="66"/>
+        <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
         <translation>Пропускать только для HD видео</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="205"/>
+        <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Петлевой &amp;фильтр</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation>Попытаться использовать несвободный CoreAVC кодек, если не указаны другие кодеки и выбран не VDPAU видео выход. Требует сборки MPlayer с поддержкой CoreAVC.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Эта опция позволяет пропускать фильтр loop (он же debloking) во время декодирования H.264. Поскольку фильтрованный кадр предполагается использовать в качестве ссылки для декодирования зависимых кадров, то качество, например, у MPEG-2, будет хуже, чем если бы deblocking не производился вообще. Но, как минимум, для HDTV с высоким битрейтом это даёт значительный прирост производительности без видимой потери качества.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="32"/>
+        <source>None</source>
+        <translation type="unfinished">Ничего</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="33"/>
+        <source>Auto</source>
+        <translation type="unfinished">Авто</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="281"/>
+        <source>Hardware decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="282"/>
+        <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="284"/>
+        <source>Available options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="286"/>
+        <source>None: only software decoding will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="287"/>
+        <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="289"/>
+        <source>vdpau: for the vdpau and opengl video outputs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="290"/>
+        <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="291"/>
+        <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="294"/>
+        <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="297"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished">Эта опция работает только с MPV.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Possible values:</source>
         <translation>Возможные значения:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Включено&lt;/b&gt;: фильтр loop не пропускается</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Пропускать (всегда)&lt;/b&gt;: фильтр loop не применяется вне зависимости от разрешения видео</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Включено&lt;/b&gt;: фильтр loop пропускается только для видео с высотой картинки %1 или выше.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Cache</source>
         <translation>Кэш</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="349"/>
         <source>Cache for audio CDs</source>
         <translation>Кэшировать аудио CD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования аудио CD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>Кэш &amp;аудио CD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for VCDs</source>
         <translation>Кэшировать видео CD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Эта опция определяет количество памяти (в кБайтах), используемых для предварительного кэширования видео CD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>Кэш &amp;видео CD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
         <translation>Потоки декодирования</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Установите количество потоков для декодирования. Только для MPEG-1/2 и H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="153"/>
+        <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Потоков декодирования (только для MPEG-1/2 и H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Устанавливает приоритет процесса mplayer согласно предопределённым приоритетам, доступным для Windows.&lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Использование приоритета реального времени может сильно замедлить работу системы.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Использовать CoreAVC, если другой кодек не указан</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="233"/>
+        <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation>И&amp;спользовать CoreAVC, если другой кодек не указан</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation>Кэш для &amp;ТВ:</translation>
     </message>

@@ -2151,73 +2151,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>对比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2863"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>伽玛: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2878"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>色调: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2893"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>饱和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3022"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3882"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>缓冲中...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
-        <location filename="../core.cpp" line="3151"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>字体缩放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3747"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>纵横比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4099"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字体缓存。这可能需要几秒钟...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3065"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>音频延迟: %1毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2947"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2232,37 +2232,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法定位视频的URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>字幕开启</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>字幕关闭</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3795"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>鼠标滚轮定位</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>鼠标滚轮更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3801"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>鼠标滚轮更改缩放等级</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>鼠标滚轮更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
         <translation>正在开始...</translation>
     </message>
@@ -2277,17 +2277,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>无法进行屏幕截图，没有配置文件夹</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot;标记设置到 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation>A-B 标记已清除</translation>
     </message>
@@ -4583,17 +4583,17 @@ Do you want to overwrite?</source>
 您想要覆盖吗?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1036"/>
+        <location filename="../playlist.cpp" line="1040"/>
         <source>All files</source>
         <translation>所有文件</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1033"/>
+        <location filename="../playlist.cpp" line="1037"/>
         <source>Select one or more files to open</source>
         <translation>选择一个或多个要打开的文件</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1093"/>
         <source>Choose a directory</source>
         <translation>选择一个目录</translation>
     </message>
@@ -4703,7 +4703,7 @@ Do you want to overwrite?</source>
         <translation>有未保存的更改，您想要保存该播放列表吗?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1035"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Multimedia</source>
         <translation>多媒体</translation>
     </message>
@@ -7503,8 +7503,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="49"/>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="63"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Performance</source>
         <translation>性能</translation>
     </message>
@@ -7515,7 +7515,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Priority</source>
         <translation>优先级</translation>
     </message>
@@ -7555,37 +7555,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>空闲</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
-        <location filename="../prefperformance.ui" line="370"/>
-        <location filename="../prefperformance.ui" line="407"/>
-        <location filename="../prefperformance.ui" line="444"/>
-        <location filename="../prefperformance.ui" line="481"/>
-        <location filename="../prefperformance.ui" line="518"/>
+        <location filename="../prefperformance.ui" line="145"/>
+        <source>Decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="199"/>
+        <source>Hardware &amp;decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="306"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>设置缓存可能会提高慢速媒体的性能</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Allow frame drop</source>
         <translation>允许丢帧</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>跳过显示一些帧从而在缓慢的系统上保持 A/V 同步。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Allow hard frame drop</source>
         <translation>允许严重丢帧</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>更加强烈的丢帧(中断解码过程)。将导致图像失真!</translation>
     </message>
@@ -7605,212 +7615,272 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>允许严重丢帧(可导致图像失真)(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="251"/>
+        <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
         <translation>快速切换音轨(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>快速定位到 DVD 章节(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Fast audio track switching</source>
         <translation>快速切换音轨</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>快速定位到 DVD 章节</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>如果勾选，它将尝试以最快的方法定位到章节，但它可能无法工作于某些光盘。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Skip loop filter</source>
         <translation>跳过环路过滤器</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="230"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="276"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>可允许的值:&lt;br&gt; &lt;b&gt;是&lt;/b&gt;: 它将尝试以最快的方法来切换音轨(它可能无法工作于某些格式)。&lt;br&gt; &lt;b&gt;否&lt;/b&gt;: 每当您更改音轨，MPlayer 进程将重新启动。&lt;br&gt; &lt;b&gt;自动&lt;/b&gt;: SMPlayer 将根据 MPlayer 版本来决定如何做。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Cache for files</source>
         <translation>本地文件缓存</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>此选项可指定预缓存文件时要使用多少内存(以 KB 为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for streams</source>
         <translation>流缓存</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>此选项可指定预缓存 URL 时要使用多少内存(以 KB 为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for DVDs</source>
         <translation>DVD 缓存</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>此选项可指定预缓存 DVD 时要使用多少内存(以 KB 为单位)。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; 使用 DVD 缓存时定位可能无法正常工作(包括章节切换)。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="300"/>
+        <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
         <translation>缓存(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>DVD 缓存(&amp;D):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="316"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>本地文件缓存(&amp;L):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation>流缓存(&amp;S):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="64"/>
+        <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
         <translation>启用</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="65"/>
+        <location filename="../prefperformance.cpp" line="79"/>
         <source>Skip (always)</source>
         <translation>跳过(始终)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="66"/>
+        <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
         <translation>仅跳过高清视频</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="205"/>
+        <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>环路过滤器(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation>没有指定其他编解码器和选择了非 VDPAU 视频输出时，将尝试使用非自由的 CoreAVC 编解码器。需要 MPlayer 构建有 CoreAVC 支持。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>此选项允许在 H.264 解码期间跳过环路过滤器(也叫做&quot;去块&quot;)。因为经过过滤的帧会被当作解码依赖帧引用，而在质量上这比不对视频(例如 MPEG-2)进行去块的效果更差。但是去块至少对高比特率的 HDTV 提供了不损失视觉品质的大幅加速。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="32"/>
+        <source>None</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="33"/>
+        <source>Auto</source>
+        <translation type="unfinished">自动</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="281"/>
+        <source>Hardware decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="282"/>
+        <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="284"/>
+        <source>Available options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="286"/>
+        <source>None: only software decoding will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="287"/>
+        <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="289"/>
+        <source>vdpau: for the vdpau and opengl video outputs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="290"/>
+        <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="291"/>
+        <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="294"/>
+        <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="297"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished">此选项仅适用于mpv。</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Possible values:</source>
         <translation>可允许的值:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;启用&lt;/b&gt;: 不跳过环路过滤器</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;跳过(始终)&lt;/b&gt;: 跳过环路过滤器，不论视频的分辨率</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;仅跳过高清视频&lt;/b&gt;: 仅在视频高度是 %1 或更高时环路过滤器将被跳过。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Cache</source>
         <translation>缓存</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="349"/>
         <source>Cache for audio CDs</source>
         <translation>音频 CD 缓存</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>此选项可指定预缓存音频 CD 时要使用多少内存(以 KB 为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>音频 CD 缓存(&amp;A):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for VCDs</source>
         <translation>VCD 缓存</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>此选项可指定预缓存 VCD 时要使用多少内存(以 KB 为单位)。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>VCD 缓存(&amp;V):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
         <translation>解码线程</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>设置要用于解码的线程数。仅适用于 MPEG-1/2 和 H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="153"/>
+        <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>解码线程(仅 MPEG-1/2 和 H.264)(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>根据 Windows 下可用的预定义优先级设置 MPlayer 进程的优先级。&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; 使用实时优先级会导致系统锁死。</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>没有指定其他编解码器时使用 CoreAVC</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="233"/>
+        <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation>没有指定其他编解码器时使用 CoreAVC(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation>电视缓存(&amp;T):</translation>
     </message>

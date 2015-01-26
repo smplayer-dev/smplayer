@@ -71,7 +71,7 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation>Mnogo ljudi je doprinjelo sa prijevodima.</translation>
+        <translation>Mnogo ljudi je doprinjelo s prijevodima.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
@@ -86,7 +86,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Trenutni prevoditelji sa transifex timova:</translation>
+        <translation>Trenutni prevoditelji s transifex timova:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -690,12 +690,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1540"/>
         <source>&amp;DVD from drive</source>
-        <translation>&amp;DVD sa diska</translation>
+        <translation>&amp;DVD s diska</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>D&amp;VD from folder...</source>
-        <translation>D&amp;VD sa mape...</translation>
+        <translation>D&amp;VD s mape...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1546"/>
@@ -1066,8 +1066,8 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="3920"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CDROM / DVD pogoni još nisu podešeni.
-Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translation>
+        <translation>CDROM / DVD pogoni još nisu postavljeni.
+Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4033"/>
@@ -1232,12 +1232,12 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
     <message>
         <location filename="../basegui.cpp" line="1543"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation>&amp;Blu-ray sa diska</translation>
+        <translation>&amp;Blu-ray s diska</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1544"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>Blu-&amp;ray sa mape...</translation>
+        <translation>Blu-&amp;ray s mape...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
@@ -1495,7 +1495,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <location filename="../basegui.cpp" line="4619"/>
         <location filename="../basegui.cpp" line="4627"/>
         <source>Problems with Youtube</source>
-        <translation>Problemi sa Youtubom</translation>
+        <translation>Problemi s Youtubom</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
@@ -2151,73 +2151,73 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>Svjetlina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2863"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2878"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>Ton boje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2893"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>Zasićenje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3022"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>Glasnoća zvuka: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3882"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>Zumiranje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>Međuspremanje...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
-        <location filename="../core.cpp" line="3151"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>Promjena veličine slova: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3747"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4099"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Ažuriram priručnu memoriju slova. Ovo može potrajati nekoliko sekundi...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3065"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje podnasalova: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje zvuka: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2947"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>Brzina: %1</translation>
     </message>
@@ -2232,37 +2232,37 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Nemoguće pronalažanje URL video snimke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Podnaslovi uključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Podnaslovi isključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3795"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kotačić miša trenutno pretražuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kotačić miša trenutno mijenja glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3801"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kotačić miša trenutno mijenja razinu zumiranja</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kotačić miša trenutno mijenja brzinu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
         <translation>Pokretanje...</translation>
     </message>
@@ -2277,17 +2277,17 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <translation>Snimke zaslona NISU snimljene, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation>A-B odabir uklonjen</translation>
     </message>
@@ -2517,7 +2517,7 @@ Dijalog podešavanja sada će biti prikazan stoga ih možete podesiti.</translat
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation>Za skok upišite broj odabrane stavke sa popisa:</translation>
+        <translation>Za skok upišite broj odabrane stavke s popisa:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -4585,17 +4585,17 @@ Do you want to overwrite?</source>
 Želite ju prepisati?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1036"/>
+        <location filename="../playlist.cpp" line="1040"/>
         <source>All files</source>
         <translation>Sve datoteke</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1033"/>
+        <location filename="../playlist.cpp" line="1037"/>
         <source>Select one or more files to open</source>
         <translation>Odaberi jednu ili više datoteka za otvoriti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1093"/>
         <source>Choose a directory</source>
         <translation>Odaberi direktorij</translation>
     </message>
@@ -4705,7 +4705,7 @@ Do you want to overwrite?</source>
         <translation>Postoje nespremljene promjene, želite li spremiti popis izvođenja?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1035"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Multimedia</source>
         <translation>Multimedija</translation>
     </message>
@@ -5116,7 +5116,7 @@ Npr.: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>&amp;Verbose</source>
-        <translation>&amp;Verbalno</translation>
+        <translation>&amp;Opširnije</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="534"/>
@@ -5473,7 +5473,7 @@ Npr.: -flip -nosound</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="982"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Možete odabrati ovu mogućnost ako ekvalizator slike ne podržava vaša grafička kartica ili odabrani upravljački program video izlaza&lt;br&gt;&lt;b&gt;Napomena:&lt;/b&gt; ova mogućnost može biti inkompatibilna sa nekim upravljačkim programima video izlaza.</translation>
+        <translation>Možete odabrati ovu mogućnost ako ekvalizator slike ne podržava vaša grafička kartica ili odabrani upravljački program video izlaza&lt;br&gt;&lt;b&gt;Napomena:&lt;/b&gt; ova mogućnost može biti nekompatibilna s nekim upravljačkim programima video izlaza.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1004"/>
@@ -5688,7 +5688,7 @@ Npr.: -flip -nosound</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Postavite maks. razinu pojačanja u postocima (zadano: 110). Vrijednost od 200 dopustit će vam da prilagodite glasnoću zvuka maksimalno do dvostrukog od trenutne razine. Sa vrijednostima ispod 100 početna glasnoća zvuka (koja je 100%) biti će iznad maksimuma, koji npr. OSD ne može prikazati ispravno.</translation>
+        <translation>Postavite maks. razinu pojačanja u postocima (zadano: 110). Vrijednost od 200 dopustit će vam da prilagodite glasnoću zvuka maksimalno do dvostrukog od trenutne razine. S vrijednostima ispod 100 početna glasnoća zvuka (koja je 100%) biti će iznad maksimuma, koji npr. OSD ne može prikazati ispravno.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="965"/>
@@ -6040,7 +6040,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Zahtijeva broj kanala reprodukcije. MPlayer pita dekôder da dekôdira zvuk u onoliko kanala koliko ih je postavljeno. Tada je do dekôdera da ispuni postavljeno. Ovo je obično važno kada se reproduciraju video zapisi sa AC3 zvučnim zapisom (poput DVD-a). U tom slučaju liba52 dekôdira i ispravno obrađuje zvučni zapis u željeni broj kanala. &lt;b&gt;Napomena&lt;/b&gt;: Ova mogućnost je podržana kôdekima (AC3 samo), filtrima (surround) i izlaznog zvučnog upravljačkog programa (barem OSS-a).</translation>
+        <translation>Zahtijeva broj kanala reprodukcije. MPlayer pita dekôder da dekôdira zvuk u onoliko kanala koliko ih je postavljeno. Tada je do dekôdera da ispuni postavljeno. Ovo je obično važno kada se reproduciraju video zapisi s AC3 zvučnim zapisom (poput DVD-a). U tom slučaju liba52 dekôdira i ispravno obrađuje zvučni zapis u željeni broj kanala. &lt;b&gt;Napomena&lt;/b&gt;: Ova mogućnost je podržana kôdekima (AC3 samo), filtrima (surround) i izlaznog zvučnog upravljačkog programa (barem OSS-a).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="907"/>
@@ -6276,12 +6276,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Ovdje možete promijeniti bilo koju tipku prečaca. Za izmjenu dvostruko kliknite ili pritisnite tipku &apos;Enter&apos; na polju prečaca. Po izboru možete spremiti popis i podijeliti ga sa drugim ljudima ili ga učitati na drugom računalu.</translation>
+        <translation>Ovdje možete promijeniti bilo koju tipku prečaca. Za izmjenu dvostruko kliknite ili pritisnite tipku &apos;Enter&apos; na polju prečaca. Po izboru možete spremiti popis i podijeliti ga s drugim ljudima ili ga učitati na drugom računalu.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="156"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Ovdje možete promijeniti bilo koju tipku prečaca. Za izmjenu dvostruko kliknite ili počnite tipkati na polju prečaca. Po izboru možete spremiti popis i podijeliti ga sa drugim ljudima ili ga učitati na drugom računalu.</translation>
+        <translation>Ovdje možete promijeniti bilo koju tipku prečaca. Za izmjenu dvostruko kliknite ili počnite tipkati na polju prečaca. Po izboru možete spremiti popis i podijeliti ga s drugim ljudima ili ga učitati na drugom računalu.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="148"/>
@@ -7166,7 +7166,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefinterface.cpp" line="714"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Postavite na koji će se način koristiti klizač prilikom pretraživanja. Potpuno pretraživanje je malo preciznije, dok jednostavno pretraživanje radi bolje sa datotekama koje imaju pogrešno upisano vrijeme trajanja.</translation>
+        <translation>Postavite na koji će se način koristiti klizač prilikom pretraživanja. Potpuno pretraživanje je malo preciznije, dok jednostavno pretraživanje radi bolje s datotekama koje imaju pogrešno upisano vrijeme trajanja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
@@ -7211,7 +7211,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Ako je ova mogućnost odabrana, lebdeća kontrola će se pojaviti sa animacijom.</translation>
+        <translation>Ako je ova mogućnost odabrana, lebdeća kontrola će se pojaviti s animacijom.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
@@ -7506,8 +7506,8 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="49"/>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="63"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Performance</source>
         <translation>Performanse</translation>
     </message>
@@ -7518,7 +7518,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Priority</source>
         <translation>Prioritet</translation>
     </message>
@@ -7558,37 +7558,47 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>mirovanje</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
-        <location filename="../prefperformance.ui" line="370"/>
-        <location filename="../prefperformance.ui" line="407"/>
-        <location filename="../prefperformance.ui" line="444"/>
-        <location filename="../prefperformance.ui" line="481"/>
-        <location filename="../prefperformance.ui" line="518"/>
+        <location filename="../prefperformance.ui" line="145"/>
+        <source>Decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="199"/>
+        <source>Hardware &amp;decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="306"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Postavljanje priručne memorije može poboljšati performanse sporijih medija</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Allow frame drop</source>
         <translation>Dopusti preskok sličica</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Preskače prikaz nekih sličica da bi se održala usklađena Slika/Zvuk.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Allow hard frame drop</source>
         <translation>Dopusti veći preskok sličica</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Veći preskok sličica (prekida dekôdiranje). Uzrokuje izobličenje slike!</translation>
     </message>
@@ -7608,212 +7618,272 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Dopusti &amp;veći preskok sličica (uzrokuje izobličenje slike)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="251"/>
+        <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Brzo prebacivanje zvučnih zapisa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Brzo &amp;traženje poglavlja na DVD-ima</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Fast audio track switching</source>
         <translation>Brzo prebacivanje zvučnih zapisa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Brzo traženje poglavlja na DVD-ima</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Ako je odabrano, pokušat će upotrijebiti najbrži način traženja poglavlja, ali to neće raditi na nekim diskovima.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Skip loop filter</source>
         <translation>Preskoči filter petlje</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="230"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="276"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Moguće vrijednosti:&lt;br&gt; &lt;b&gt;Da&lt;/b&gt;: to će pokušati izvesti najbrži način za prebacivanje zvučnog zapisa (možda neće raditi sa nekim formatima).&lt;br&gt; &lt;b&gt;Ne&lt;/b&gt;: MPlayer proces biti će ponovno pokrenut svaki puta kada promijenite zvučni zapis.&lt;br&gt; &lt;b&gt;Automatski&lt;/b&gt;: SMPlayer će sam odlučiti što da učini ovisno o MPlayer inačici.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Cache for files</source>
         <translation>Priručna memorija za datoteke</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Ova mogućnost određuje koliko memorije (u kBajtima) se koristi za priručnu memoriju datoteke.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for streams</source>
         <translation>Priručna memorija za streamove</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Ova mogućnost određuje koliko memorije (u kBajtima) se koristi za priručnu memoriju URL-a.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for DVDs</source>
         <translation>Priručna memorija za DVD-ove</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Ova mogućnost određuje koliko memorije (u kBajtima) se koristi za priručnu memoriju DVD-a.&lt;br&gt;&lt;b&gt;Upozorenje:&lt;/b&gt; Traženje možda neće raditi ispravno (uključujući i prebacivanje poglavlja) kada se koristi priručna memorija za DVD-e.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="300"/>
+        <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
         <translation>&amp;Priručna memorija</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Priručna memorija za &amp;DVD-e:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="316"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>Priručna memorija za &amp;lokalne datoteke:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation>Priručna memorija za &amp;streamove:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="64"/>
+        <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
         <translation>Omogućeno</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="65"/>
+        <location filename="../prefperformance.cpp" line="79"/>
         <source>Skip (always)</source>
         <translation>Preskoči (uvijek)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="66"/>
+        <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
         <translation>Preskoči samo na HD video zapisima</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="205"/>
+        <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Filter &amp;petlje</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation>Pokušaj koristiti neslobodne CoreAVC kôdeke ako nema zadanih nekih drugih kôdeka i ako nije odabran VDPAU video izlaz. Potreban je MPlayer izgrađen sa CoreAVC podrškom.</translation>
+        <translation>Pokušaj koristiti neslobodne CoreAVC kôdeke ako nema zadanih nekih drugih kôdeka i ako nije odabran VDPAU video izlaz. Potreban je MPlayer izgrađen s CoreAVC podrškom.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ova mogućnost dopušta vam preskakanje filtra petlje (poznato kao &apos;deblocking&apos;) prilikom H.264 dekôdiranja. Budući da se filtrirana sličica koristi kao polazna vrijednost za dekôdiranje zavisnih sličica to lošije utječe na kvalitetu nego da se &apos;deblocking&apos; ne izvodi na npr. MPEG-2 video zapisima. Ali za video zapise visokih brzina prijenosa HDTV to daje veliko ubrzanje bez vidljivog gubitka kvalitete.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="32"/>
+        <source>None</source>
+        <translation type="unfinished">Nepoznato</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="33"/>
+        <source>Auto</source>
+        <translation type="unfinished">Automatski</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="281"/>
+        <source>Hardware decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="282"/>
+        <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="284"/>
+        <source>Available options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="286"/>
+        <source>None: only software decoding will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="287"/>
+        <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="289"/>
+        <source>vdpau: for the vdpau and opengl video outputs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="290"/>
+        <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="291"/>
+        <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="294"/>
+        <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="297"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished">Ova mogućnost radi samo s mpv.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Possible values:</source>
         <translation>Moguće vrijednosti:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Omogućeno&lt;/b&gt;: filter petlje nije preskočen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Preskoči (uvijek)&lt;/b&gt;: filter petlje je preskočen bez obzira na razlučivost video zapisa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Preskoči samo na HD video zapisima&lt;/b&gt;: filter petlje biti će preskočen samo na video zapisima čija je visina %1 ili veća.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Cache</source>
         <translation>Priručna memorija</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="349"/>
         <source>Cache for audio CDs</source>
         <translation>Priručna memorija za Glazbene CD-e</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Ova mogućnost određuje koliko će se memorije (u kBajtima) koristiti za priručnu memoriju Glazbenog CD-a.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>Priručna memorija za &amp;Glazbene CD-e:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for VCDs</source>
         <translation>Priručna memorija za VCD-e</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Ova mogućnost određuje koliko će se memorije (u kBajtima) koristiti za priručnu memoriju VCD-a.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>Priručna memorija za &amp;VCD-e:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
         <translation>Nizovi za dekôdiranje</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Postavite broj nizova za korištenje dekôdiranja. Samo za MPEG-1/2 i H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="153"/>
+        <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Nizovi za korištenje dekôdiranja (Samo za MPEG-1/2 i H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Postavite priortet procesa Mplayera prema predefiniranim prioritetima dostupnih u Windowsima.&lt;br&gt;&lt;b&gt;Upozorenje:&lt;/b&gt; Koristeći prioritet u stvarnom vremenu može uzrokovati blokadu sustava.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Koristi CoreAVC ako nema drugih zadanih kôdeka</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="233"/>
+        <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation>&amp;Koristi CoreAVC ako nema drugih zadanih kôdeka</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation>Priručna memorija za &amp;TV:</translation>
     </message>
@@ -7903,7 +7973,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefplaylist.cpp" line="134"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>Ako je ova mogućnost odabrana, sve datoteke sa popisa izvođenja reproducirat će se ispočetka umjesto sa zadnjeg prekinutog položaja.</translation>
+        <translation>Ako je ova mogućnost odabrana, sve datoteke s popisa izvođenja reproducirat će se ispočetka umjesto sa zadnjeg prekinutog položaja.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="143"/>
@@ -8105,7 +8175,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>Kada je ova mogućnost odabrana, kôdiranje podnaslova probat će se automatski otkriti za zadani jezik. Vratit će se na zadano kôdiranje ako automatsko otkrivanje ne uspije. Ova mogućnost zahtijeva MPlayer kompajliran sa ENCA podrškom.</translation>
+        <translation>Kada je ova mogućnost odabrana, kôdiranje podnaslova probat će se automatski otkriti za zadani jezik. Vratit će se na zadano kôdiranje ako automatsko otkrivanje ne uspije. Ova mogućnost zahtijeva MPlayer kompajliran s ENCA podrškom.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="404"/>
@@ -8701,7 +8771,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>pokušava se povezati sa drugim pokrenutim primjerkom i poslati mu određenu radnju. Npr.: -send-action pause Ostale mogućnosti (ako postoje) bit će zanemarene i aplikacija će se zatvoriti. Vratit će 0 ako je uspješno ili -1 ako je neuspješno.</translation>
+        <translation>pokušava se povezati s drugim pokrenutim primjerkom i poslati mu određenu radnju. Npr.: -send-action pause Ostale mogućnosti (ako postoje) bit će zanemarene i aplikacija će se zatvoriti. Vratit će 0 ako je uspješno ili -1 ako je neuspješno.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="139"/>
@@ -8851,7 +8921,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
-        <translation>otvara grafičko sučelje sa podrškom za presvlake.</translation>
+        <translation>otvara grafičko sučelje s podrškom za presvlake.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="162"/>
@@ -9494,7 +9564,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Unesite ovdje DVD uređaj ili mapu sa DVD slikom.</translation>
+        <translation>Unesite ovdje DVD uređaj ili mapu s DVD slikom.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>

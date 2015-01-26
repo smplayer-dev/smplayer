@@ -16,32 +16,32 @@
     <message>
         <location filename="../about.cpp" line="60"/>
         <source>Official website:</source>
-        <translation type="unfinished"></translation>
+        <translation>Officiële website:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="61"/>
         <source>Support forum:</source>
-        <translation type="unfinished"></translation>
+        <translation>Forum voor ondersteuning:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="151"/>
         <source>Spanish</source>
-        <translation type="unfinished">Spaans</translation>
+        <translation>Spaans</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation type="unfinished">Portugees</translation>
+        <translation>Portugees</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation type="unfinished"></translation>
+        <translation>Vereenvoudigd Chinees</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation type="unfinished">Indonesisch</translation>
+        <translation>Indonesisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="175"/>
@@ -71,22 +71,22 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"></translation>
+        <translation>Veel mensen hebben bijgedragen met vertalen.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"></translation>
+        <translation>U kunt ook helpen SMPlayer te vertalen naar uw eigen taal.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bezoek %1 en neem deel aan een vertaalteam.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Huidige vertalers van de Transifex-teams:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -106,7 +106,7 @@
     <message>
         <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation>Noors</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="183"/>
@@ -151,12 +151,12 @@
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation type="unfinished">Hebreeuws</translation>
+        <translation>Hebreeuws</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation>Maleisisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -166,112 +166,112 @@
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer is een grafische interface voor %1 en %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ondertitelingsdienst mede mogelijk gemaakt door %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisch - Saudi-Arabië</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisch - Syrië</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinhalees</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation type="unfinished">Grieks</translation>
+        <translation>Grieks</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation type="unfinished">Ests</translation>
+        <translation>Ests</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko&apos;s</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation type="unfinished">Italiaans</translation>
+        <translation>Italiaans</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation type="unfinished">Oezbeeks</translation>
+        <translation>Oezbeeks</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation type="unfinished">Catalaans</translation>
+        <translation>Catalaans</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="191"/>
         <source>Slovak</source>
-        <translation type="unfinished">Slowaaks</translation>
+        <translation>Slowaaks</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="192"/>
         <source>British English</source>
-        <translation type="unfinished"></translation>
+        <translation>Brits Engels</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="193"/>
         <source>Albanian</source>
-        <translation type="unfinished">Albanees</translation>
+        <translation>Albanees</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
         <source>Dutch</source>
-        <translation type="unfinished">Nederlands</translation>
+        <translation>Nederlands</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="195"/>
         <source>Romanian</source>
-        <translation type="unfinished">Roemeens</translation>
+        <translation>Roemeens</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="196"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation>Khmers</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="197"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation>Telugu&apos;s</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="198"/>
         <source>Tamil</source>
-        <translation type="unfinished">Tamil</translation>
+        <translation>Tamil</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="199"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation>Malayalam</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation type="unfinished">Thais</translation>
+        <translation>Thais</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="201"/>
         <source>Persian</source>
-        <translation type="unfinished">Perzisch</translation>
+        <translation>Perzisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="226"/>
@@ -286,7 +286,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Pagina</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -364,12 +364,12 @@
     <message>
         <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
-        <translation type="unfinished">Deens</translation>
+        <translation>Deens</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
-        <translation type="unfinished">Kroatisch</translation>
+        <translation>Kroatisch</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -517,42 +517,42 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>Flat</source>
-        <translation type="unfinished"></translation>
+        <translation>Vlak</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
         <source>Classical</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassiek</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Club</source>
-        <translation type="unfinished"></translation>
+        <translation>Club</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>Dance</source>
-        <translation type="unfinished"></translation>
+        <translation>Dance</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full bass</source>
-        <translation type="unfinished"></translation>
+        <translation>Volle bas</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
         <source>Full bass and treble</source>
-        <translation type="unfinished"></translation>
+        <translation>Volle bas en treble</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="209"/>
         <source>Full treble</source>
-        <translation type="unfinished"></translation>
+        <translation>Volle treble</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="210"/>
         <source>Headphones</source>
-        <translation type="unfinished"></translation>
+        <translation>Koptelefoon</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="211"/>
@@ -567,27 +567,27 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Party</source>
-        <translation type="unfinished"></translation>
+        <translation>Party</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
         <source>Reggae</source>
-        <translation type="unfinished"></translation>
+        <translation>Reggae</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
         <source>Ska</source>
-        <translation type="unfinished"></translation>
+        <translation>Ska</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="218"/>
@@ -597,12 +597,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Soft rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Soft rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="220"/>
         <source>Techno</source>
-        <translation type="unfinished"></translation>
+        <translation>Techno</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="221"/>
@@ -1112,12 +1112,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="4657"/>
         <source>Error detected</source>
-        <translation type="unfinished"></translation>
+        <translation>Fout gedetecteerd</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4658"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze video kan helaas niet worden afgespeeld.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4846"/>
@@ -1267,7 +1267,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1675"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoek ondertiteling op &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
@@ -1484,23 +1484,23 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="4602"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>deze link</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4612"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Door wijzigingen op de YouTube pagina kan deze video helaas niet worden afgespeeld.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4619"/>
         <location filename="../basegui.cpp" line="4627"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>Problemen met YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>De YouTube browser is niet geïnstalleerd.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
@@ -1531,22 +1531,22 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../basegui.cpp" line="2997"/>
         <location filename="../basegui.cpp" line="3682"/>
         <source>Information</source>
-        <translation type="unfinished">Informatie</translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2998"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"></translation>
+        <translation>U moet SMPlayer opnieuw opstarten om de nieuwe GUI te gebruiken.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3460"/>
         <source>Confirm deletion - SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Bevestig verwijderen - SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3461"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"></translation>
+        <translation>Verwijder de lijst van recente bestanden?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3683"/>
@@ -2109,7 +2109,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation type="unfinished">Bezig met downloaden...</translation>
+        <translation>Bezig met downloaden...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
@@ -2119,7 +2119,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation type="unfinished"></translation>
+        <translation>De YouTube-code is succesvol bijgewerkt.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
@@ -2129,13 +2129,13 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelukt</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
         <location filename="../youtube/codedownloader.cpp" line="136"/>
         <source>Error</source>
-        <translation type="unfinished">Foutmelding</translation>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="131"/>
@@ -2151,143 +2151,143 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2832"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>Helderheid: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2848"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>Contrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2863"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2878"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>Tint: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2893"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>Verzadiging: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3022"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3882"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4103"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
-        <translation type="unfinished"></translation>
+        <translation>Buffering...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3140"/>
-        <location filename="../core.cpp" line="3151"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>Lettertype-schaal: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3747"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspectverhouding: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4099"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Lettertypebuffer bijwerken. Dit kan even duren...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3065"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Ondertitelvertraging: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>Geluidsvertraging: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2947"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>Snelheid: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="550"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"></translation>
+        <translation>Niet in staat om de YouTube pagina te halen</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="554"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"></translation>
+        <translation>Niet in staat om de URL van de video vast te stellen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3228"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Ondertiteling aan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Ondertiteling uit</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3795"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>Muiswiel zoekt nu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3798"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Muiswiel wijzigt nu het volume</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3801"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Muiswiel wijzigt nu het zoomniveau</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3804"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Muiswiel wijzigt nu de snelheid</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4108"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Beginnen...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermafdruk NIET genomen, map niet geconfigureerd</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1402"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation type="unfinished"></translation>
+        <translation>Schermafdrukken NIET genomen, map niet geconfigureerd</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2566"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2583"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2598"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2416,7 +2416,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../errordialog.ui" line="43"/>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
-        <translation type="unfinished"></translation>
+        <translation>Oops, er is iets mis gegaan.</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2511,7 +2511,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../favorites.cpp" line="373"/>
         <location filename="../favorites.cpp" line="377"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Spring naar item</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="374"/>
@@ -2686,12 +2686,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2731,7 +2731,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
         <source>Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Server</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
@@ -2819,7 +2819,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"></translation>
+        <translation>Portugees - Brazilië</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
@@ -2834,12 +2834,12 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Inloggen op opensubtitles.org is mislukt</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
         <source>Search has failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoeken is mislukt</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
@@ -2852,7 +2852,7 @@ Voorbeeld: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"></translation>
+        <translation>Het repareren van de ondertiteling is mislukt</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2975,7 +2975,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer is aan het initialiseren</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
@@ -3210,7 +3210,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"></translation>
+        <translation>U kunt een DVD vanaf uw harde schijf afspelen. Kies hiervoor de map die de submappen VIDEO_TS en AUDIO_TS bevat.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3614,7 +3614,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="128"/>
         <source>Malayalam</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Malayalam</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="129"/>
@@ -3634,7 +3634,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Malay</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Maleisisch</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
@@ -3665,7 +3665,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Noors</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -3783,7 +3783,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="181"/>
         <source>Telugu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Telugu&apos;s</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="182"/>
@@ -3902,7 +3902,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Arabisch - Syrië</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="289"/>
@@ -4163,7 +4163,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Khmers</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
@@ -4294,7 +4294,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Sinhalees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
@@ -4421,12 +4421,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Shuffle afspeellijst</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspeellijst herhalen</translation>
     </message>
 </context>
 <context>
@@ -4505,32 +4505,32 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Forward</source>
-        <translation type="unfinished"></translation>
+        <translation>Voorwaarts</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Afspelen / Pauzeren</translation>
+        <translation>Afspelen / Pauzeren</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Opnemen</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Volgende bestand in de Afspeellijst</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorige bestand in de afspeellijst</translation>
     </message>
 </context>
 <context>
@@ -4584,17 +4584,17 @@ Do you want to overwrite?</source>
 Wilt u het overschrijven?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1036"/>
+        <location filename="../playlist.cpp" line="1040"/>
         <source>All files</source>
         <translation>Alle bestanden</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1033"/>
+        <location filename="../playlist.cpp" line="1037"/>
         <source>Select one or more files to open</source>
         <translation>Kies één of meerdere bestanden om te openen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1089"/>
+        <location filename="../playlist.cpp" line="1093"/>
         <source>Choose a directory</source>
         <translation>Kies een map</translation>
     </message>
@@ -4704,9 +4704,9 @@ Wilt u het overschrijven?</translation>
         <translation>Er zijn niet-opgeslagen wijzigingen, wilt u de afspeellijst opslaan?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1035"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Multimedia</source>
-        <translation type="unfinished">Multimedia</translation>
+        <translation>Multimedia</translation>
     </message>
 </context>
 <context>
@@ -4853,7 +4853,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="611"/>
@@ -5375,7 +5375,7 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation type="unfinished">Standaard</translation>
+        <translation>Standaard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5385,7 +5385,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Sjabloon voor schermafdrukken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
@@ -5460,12 +5460,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie werkt alleen met mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Computer uitschakelen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="982"/>
@@ -5480,7 +5480,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1064"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Globale audio-equalizer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1065"/>
@@ -7372,12 +7372,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="64"/>
@@ -7503,8 +7503,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="49"/>
-        <location filename="../prefperformance.cpp" line="234"/>
+        <location filename="../prefperformance.cpp" line="63"/>
+        <location filename="../prefperformance.cpp" line="260"/>
         <source>Performance</source>
         <translation>Prestaties</translation>
     </message>
@@ -7515,7 +7515,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="238"/>
+        <location filename="../prefperformance.cpp" line="264"/>
         <source>Priority</source>
         <translation>Prioriteit</translation>
     </message>
@@ -7555,37 +7555,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>idle</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="333"/>
-        <location filename="../prefperformance.ui" line="370"/>
-        <location filename="../prefperformance.ui" line="407"/>
-        <location filename="../prefperformance.ui" line="444"/>
-        <location filename="../prefperformance.ui" line="481"/>
-        <location filename="../prefperformance.ui" line="518"/>
+        <location filename="../prefperformance.ui" line="145"/>
+        <source>Decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="199"/>
+        <source>Hardware &amp;decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>KB</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="306"/>
+        <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
         <translation>Een cache instellen kan de prestaties van trage media verbeteren</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="244"/>
+        <location filename="../prefperformance.cpp" line="270"/>
         <source>Allow frame drop</source>
         <translation>Framedrops toestaan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="245"/>
+        <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Weergeven van sommige frames overslaan om A/V sync te behouden op trage systemen.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="247"/>
+        <location filename="../prefperformance.cpp" line="273"/>
         <source>Allow hard frame drop</source>
         <translation>Harde framedrops toestaan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="248"/>
+        <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenser framedroppen (onderbreekt decodering). Leidt tot beeldvervorming!</translation>
     </message>
@@ -7605,212 +7615,272 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Harde framedrops toestaan (kan leiden tot beeldvervorming)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="251"/>
+        <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
         <translation>&amp;Snel wisselen van audiospoor</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="279"/>
+        <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
         <translation>Snel &amp;zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="275"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Fast audio track switching</source>
         <translation>Snel wisselen van audiospoor</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="285"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Snel zoeken naar hoofdstukken in DVD&apos;s</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Indien aangevinkt, zal het proberen de snelste methode te gebruiken om naar hoofdstukken te zoeken, maar het is mogelijk dat dit met sommige schijven niet werkt.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="259"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Skip loop filter</source>
         <translation>Loopfilter overslaan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="191"/>
+        <location filename="../prefperformance.ui" line="230"/>
         <source>H.264</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="276"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Mogelijke waarden:&lt;br&gt; &lt;b&gt;Ja&lt;/b&gt;: het zal proberen de snelste methode voor het wisselen van het audiospoor te gebruiken (het werkt mogelijk niet met bepaalde indelingen).&lt;br&gt; &lt;b&gt;Nee&lt;/b&gt;: het MPlayer proces zal worden herstart zodra u van audiospoor wisselt.&lt;br&gt; &lt;b&gt;Automatisch&lt;/b&gt;: SMPlayer beslist zelf wat het doet, afhankelijk van de MPlayer versie.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="292"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Cache for files</source>
         <translation>Bestandscache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="293"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een bestand.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>Cache for streams</source>
         <translation>Streamcache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Cache for DVDs</source>
         <translation>DVD-cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een DVD.&lt;br&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; Het is mogelijk dat zoeken niet correct werkt (inclusief wisselen van hoofdstuk) indien er een buffer voor DVD&apos;s wordt gebruikt..</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="300"/>
+        <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
         <translation>&amp;Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="390"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>&amp;DVD-cache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="316"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>&amp;Locale bestandscache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="353"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation>&amp;Streamcache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="64"/>
+        <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
         <translation>Geactiveerd</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="65"/>
+        <location filename="../prefperformance.cpp" line="79"/>
         <source>Skip (always)</source>
         <translation>Overslaan (altijd)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="66"/>
+        <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
         <translation>Alleen bij HD video&apos;s overslaan</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="205"/>
+        <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Loop&amp;filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="256"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Met deze optie kunt u tijdens het decoderen van H.264 media het loopfilter overslaan (ook deblocking genoemd). Omdat het gefilterde frame eigenlijk gebruikt zou worden als vergelijkingsmateriaal voor het decoderen van afhankelijke frames, heeft dit een slechter effect op de kwaliteit dan het niet toepassen van deblocking op bijv. MPEG-2 video. Maar voor HDTV met een hoge bitrate biedt dit in elk geval wel een grote snelheidswinst zonder zichtbaar kwaliteitsverlies.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="267"/>
+        <location filename="../prefperformance.cpp" line="32"/>
+        <source>None</source>
+        <translation type="unfinished">Geen</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="33"/>
+        <source>Auto</source>
+        <translation type="unfinished">Automatisch</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="281"/>
+        <source>Hardware decoding</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="282"/>
+        <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="284"/>
+        <source>Available options:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="286"/>
+        <source>None: only software decoding will be used.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="287"/>
+        <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="289"/>
+        <source>vdpau: for the vdpau and opengl video outputs.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="290"/>
+        <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="291"/>
+        <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="294"/>
+        <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="297"/>
+        <source>This option only works with mpv.</source>
+        <translation type="unfinished">Deze optie werkt alleen met mpv.</translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Possible values:</source>
         <translation>Mogelijke waarden:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="268"/>
+        <location filename="../prefperformance.cpp" line="308"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Geactiveerd&lt;/b&gt;: het loopfilter wordt niet overgeslagen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="269"/>
+        <location filename="../prefperformance.cpp" line="309"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Overslaan (altijd)&lt;/b&gt;: het loopfilter wordt overgeslagen, ongeacht de resolutie van de video</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Alleen bij HD video&apos;s overslaan&lt;/b&gt;: het loopfilter wordt alleen overgeslagen bij video&apos;s waarvan de hoogte %1 of groter is.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="334"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="349"/>
         <source>Cache for audio CDs</source>
         <translation>Audio CD-cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="306"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een audio CD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="427"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>&amp;Audio CD-cache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Cache for VCDs</source>
         <translation>VCD-cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="310"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Deze optie bepaalt hoeveel geheugen (in kBytes) gebruikt moet worden bij het bufferen van een VCD.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="464"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>&amp;VCD-cache:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="251"/>
+        <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
         <translation>Threads voor decoderen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="252"/>
+        <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Stelt het aantal threads in gebruikt voor het decoderen. Alleen voor MPEG-1/2 en H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="153"/>
+        <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Threads voor decoderen (alleen MPEG-1/2 en H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="239"/>
+        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="255"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="233"/>
+        <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="501"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation type="unfinished"></translation>
     </message>
