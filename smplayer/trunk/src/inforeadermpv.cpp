@@ -139,7 +139,7 @@ InfoList InfoReaderMPV::getList(const QList<QByteArray> & lines) {
 	InfoList l;
 
 	foreach(QByteArray line, lines) {
-		qDebug() << "InfoReaderMPV::getList: line:" << line;
+		//qDebug() << "InfoReaderMPV::getList: line:" << line;
 
 		line.replace("\n", "");
 		line = line.simplified();
@@ -155,7 +155,7 @@ InfoList InfoReaderMPV::getList(const QList<QByteArray> & lines) {
 				if (name.endsWith(':')) name = name.left(name.count()-1);
 				QString desc = line.mid(pos+1);
 				desc = desc.replace(": ", "").replace("- ", "");
-				qDebug() << "InfoReaderMPV::getList: name:" << name << "desc:" << desc;
+				//qDebug() << "InfoReaderMPV::getList: name:" << name << "desc:" << desc;
 				l.append(InfoData(name, desc));
 			}
 		}
@@ -168,14 +168,14 @@ QStringList InfoReaderMPV::getOptionsList(const QList<QByteArray> & lines) {
 	QStringList l;
 
 	foreach(QByteArray line, lines) {
-		qDebug() << "InfoReaderMPV::getOptionsList: line:" << line;
+		//qDebug() << "InfoReaderMPV::getOptionsList: line:" << line;
 		line.replace("\n", "");
 		line = line.simplified();
 		if (line.startsWith("--")) {
 			int pos = line.indexOf(' ');
 			if (pos > -1) {
 				QString option_name = line.left(pos);
-				qDebug() << "InfoReaderMPV::getOptionsList: option:" << option_name;
+				//qDebug() << "InfoReaderMPV::getOptionsList: option:" << option_name;
 				l << option_name;
 			}
 		}
