@@ -24,6 +24,7 @@
 #include "urlhistory.h"
 #include "filters.h"
 #include "autohidewidget.h"
+#include "helper.h"
 
 #include <QSettings>
 #include <QFileInfo>
@@ -1635,6 +1636,26 @@ void Preferences::load() {
 		}
 		if (fixed) {
 			qWarning("mplayer_bin changed to '%s'", mplayer_bin.toLatin1().constData());
+		}
+	}
+#endif
+#ifdef Q_OS_LINUX
+	if (!QFile::exists(mplayer_bin)) {
+		QString app_path = Helper::findExecutable(mplayer_bin);
+		//qDebug("Preferences::load: app_path: %s", app_path.toUtf8().constData());
+		if (!app_path.isEmpty()) {
+			mplayer_bin = app_path;
+		} else {
+			// Executable not found, try to find an alternative
+			if (mplayer_bin.startsWith("mplayer")) {
+				app_path = Helper::findExecutable("mpv");
+				if (!app_path.isEmpty()) mplayer_bin = app_path;
+			}
+			else
+			if (mplayer_bin.startsWith("mpv")) {
+				app_path = Helper::findExecutable("mplayer");
+				if (!app_path.isEmpty()) mplayer_bin = app_path;
+			}
 		}
 	}
 #endif
