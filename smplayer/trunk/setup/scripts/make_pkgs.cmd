@@ -90,8 +90,14 @@ if exist "pkg_version" (
 
 echo Format: VER_MAJOR.VER_MINOR.VER_BUILD[.VER_REVISION]
 echo VER_REVISION is optional (set to 0 if blank)
-echo.
 :pkgver_manual
+echo.
+set ALL_PKG_VER=
+set VER_MAJOR=
+set VER_MINOR=
+set VER_BUILD=
+set VER_REVISION=
+set VER_REV_CMD=
 set /p ALL_PKG_VER="Version: "
 echo.
 
@@ -101,28 +107,33 @@ for /f "tokens=2 delims=." %%k in ("%ALL_PKG_VER%")  do set VER_MINOR=%%k
 for /f "tokens=3 delims=." %%l in ("%ALL_PKG_VER%")  do set VER_BUILD=%%l
 for /f "tokens=4 delims=." %%m in ("%ALL_PKG_VER%")  do set VER_REVISION=%%m
 
-if [%VER_MAJOR%]==[] (
-  echo Major Version # must be specified [#.x.x]
-  echo.
-  goto pkgver_manual
+echo %VER_MAJOR%|findstr /r /c:"^[0-9][0-9]*$" >nul
+if errorlevel 1 (
+  echo Invalid version string. VER_MAJOR is not defined or is not a number [#.x.x]
+  goto pkgver_manual & ver>nul
 )
 
-if [%VER_MINOR%]==[] (
-  echo Minor Version # must be specified [x.#.x]
-  echo.
-  goto pkgver_manual
+echo %VER_MINOR%|findstr /r /c:"^[0-9][0-9]*$" >nul
+if errorlevel 1 (
+  echo Invalid version string. VER_MINOR is not defined or is not a number [x.#.x]
+  goto pkgver_manual & ver>nul
+)
+echo %VER_BUILD%|findstr /r /c:"^[0-9][0-9]*$" >nul
+if errorlevel 1 (
+  echo Invalid version string. VER_BUILD is not defined or is not a number [x.x.#]
+  goto pkgver_manual & ver>nul
 )
 
-if [%VER_BUILD%]==[] (
-  echo Build Version # must be specified [x.x.#]
-  echo.
-  goto pkgver_manual
-)
-
-if [%VER_REVISION%]==[] (
-  set VER_REV_CMD=
+if defined VER_REVISION (
+  echo %VER_REVISION%|findstr /r /c:"^[0-9][0-9]*$" >nul
+  if errorlevel 1 (
+    echo Invalid version string. VER_REVISION is not a number [x.x.x.#]
+    goto pkgver_manual & ver>nul
+  ) else (
+    set VER_REV_CMD=/DVER_REVISION=%VER_REVISION% & ver>nul
+  )
 ) else (
-  set VER_REV_CMD= /DVER_REVISION=%VER_REVISION%
+  set VER_REV_CMD=
 )
 
 if "%USER_CHOICE%" == "1"  goto nsispkg
@@ -143,7 +154,7 @@ echo --- SMPlayer NSIS Package [32-bit] ---
 echo.
 
 if exist %TOP_LEVEL_DIR%\smplayer-build (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 if not "%USER_CHOICE%" == "10"  goto end
@@ -153,7 +164,7 @@ echo --- SMPlayer NSIS Package [64-bit] ---
 echo.
 
 if exist %TOP_LEVEL_DIR%\smplayer-build64 (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 goto end
@@ -337,13 +348,13 @@ goto end
 :portablesfx
 if exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
   if exist %TOP_LEVEL_DIR%\smplayer-build (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% %TOP_LEVEL_DIR%\smportable.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %TOP_LEVEL_DIR%\smportable.nsi
   )
 )
 
 if exist %PORTABLE_EXE_DIR%\smplayer-portable64.exe (
   if exist %TOP_LEVEL_DIR%\smplayer-build64 (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD%%VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smportable.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smportable.nsi
   )
 )
 
@@ -390,3 +401,8 @@ goto end
 pause
 
 :superend
+set ALL_PKG_VER=
+set VER_MAJOR=
+set VER_MINOR=
+set VER_BUILD=
+set VER_REVISION=
