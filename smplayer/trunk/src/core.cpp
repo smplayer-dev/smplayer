@@ -2113,9 +2113,17 @@ void Core::startMplayer( QString file, double seek ) {
 	bool force_noslices = false;
 
 #ifndef Q_OS_WIN
-	if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
-		qDebug("Core::startMplayer: using vdpau, video filters are ignored");
-		goto end_video_filters;
+	if (proc->isMPlayer()) {
+		if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
+			qDebug("Core::startMplayer: using vdpau, video filters are ignored");
+			goto end_video_filters;
+		}
+	} else {
+		// MPV
+		if (!pref->hwdec.isEmpty() && pref->hwdec != "no") {
+			qDebug("Core::startMplayer: hardware decoding is enabled. The video filters will be ignored");
+			goto end_video_filters;
+		}
 	}
 #endif
 
