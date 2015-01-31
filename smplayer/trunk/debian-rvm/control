@@ -9,14 +9,14 @@ Package: smplayer
 Architecture: any
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: ${shlibs:Depends}, mplayer | mplayer-nogui | mpv (>= 0.6.2)
-Conflicts: mplayer2
 Recommends: smplayer-themes, smplayer-skins, smtube, alsa-utils, x11-utils
 Replaces: smplayer-translations, smplayer-l10n
 Provides: smplayer-translations, smplayer-l10n
-Description: A great front-end for MPlayer
- SMPlayer intends to be a complete front-end for MPlayer, from basic features
- like playing videos, DVDs, and VCDs to more advanced features like support
- for MPlayer filters and more. One of the main features is the ability to
- remember the state of a played file, so when you play it later it will resume
- at the same point and with the same settings. smplayer is developed with
- the Qt toolkit, so it's multi-platform.
+Description: A great media player
+ SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
+ and also for mpv. But apart from providing access for the most common
+ and useful options of mplayer and mpv, SMPlayer adds other interesting features
+ like the possibility to play Youtube videos or search and download subtitles.
+ One of the main features is the ability to remember the state of a
+ played file, so when you play it later it will be resumed at the same point
+ and with the same settings.
