@@ -53,6 +53,10 @@ msgstr ""
 msgid "MPlayer Components"
 msgstr ""
 
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
+
 # Section_SMPlayer
 msgid "SMPlayer (required)"
 msgstr ""
@@ -91,6 +95,10 @@ msgstr ""
 
 # Section_MPlayerCodecs_Desc
 msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr ""
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr ""
 
 # Section_MEncoder_Desc
@@ -253,3 +261,46 @@ msgstr ""
 msgid "Extracting files..."
 msgstr ""
 
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr ""
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr ""
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr ""
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr ""
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr ""
+
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr ""

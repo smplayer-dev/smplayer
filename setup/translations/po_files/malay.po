@@ -1,303 +1,368 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: SMPlayer\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "Pemasang sudah berjalan."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr "Anda mesti mendaftar masuk sebagai pentadbir bila memasang program ini."
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "Satu kejadian SMPlayer sedang berjalan. Sila keluar SMPlayer dan cuba lagi."
-
-# OS_Not_Supported
-msgid "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.[:n:]Do you really want to continue with the installation?"
-msgstr "Sistem pengoperasian tidak disokong.[:n:]SMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan baik pada sistem anda.[:n:]Anda pasti mahu teruskan pemasangan?"
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "Sistem pengoperasian Windows 64-bit diperlukan untuk memasang perisian ini."
-
-# Existing_32bitInst
-msgid "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-msgstr "Pemasangan 32-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 32-bit dahulu."
-
-# Existing_64bitInst
-msgid "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
-msgstr "Pemasangan 64-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 64-bit dahulu."
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "Persediaan $(^NameDA)"
-
-# WelcomePage_Text
-msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "Persediaan akan bantu anda melalui pemasangan $(^NameDA).[:r:][:n:][:r:][:n:]Adalah disarankan anda tutup semua kejadian SMPlayer sebelum memulakan persediaan. Ia bertujuan untuk mengemaskini fail program yang berkaitan tanpa perlu membut semula komputer anda.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Pintasan"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "Komponen MPlayer"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr ""
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (diperlukan)"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, pustaka terkongsi, dan dokumentasi."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr ""
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Cipta pintasan pada SMPlayer pada desktop."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Menu Mula"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Cipta masukan Menu Mula untuk SMPlayer."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (diperlukan)"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; diperlukan untuk mainbalik."
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Kodeks Binari"
-
 # Section_MPlayerCodecs_Desc
-msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr "Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk pemasangan)"
+msgid "Binary codecs are not supported in this version."
+msgstr "Kodeks binari tidak disokong dalam versi ini."
 
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
-
-# Section_MEncoder_Desc
-msgid "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
-msgstr "Program yang diperlukan oleh MPlayer yang dapat digunakan untuk mengenkod atau jelma audio disokong atau strim video."
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Tema Ikon"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Tema ikon tambahan untuk SMPlayer."
-
-# Section_Translations
-msgid "Languages"
-msgstr "Bahasa"
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Fail bahasa Bukan-Inggeris untuk SMPlayer."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "Padam baki keutamaan SMPlayer dari pemasangan terdahulu."
-
-# MPlayer_Codec_Msg
-msgid "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.[:n:]Note that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
-msgstr "Pakej kodeks binari menambah sokongan untuk kodeks yang belum lagi dilaksana secara tabii, seperti varians RealVideo lebih baharu dan banyak lagi format bukan umum..[:n:]Perhatian format tersebut tidaklah diperlukan untuk memainkan kebanyakan format umum seperti DVDs, MPEG-1/2/4, dll."
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Pilih Jenis Pemasangan"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "Pilih mod Tulis-ganti atau Nyahpasang."
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Anda sudah mempunyai pemasangan SMPlayer di dalam folder berikut:"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "Sila pilih bagaimana hendak diteruskan:"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "Tulis-ganti pemasangan sedia ada ($Inst_Type)"
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Nyapasang (buang) pemasangan sedia ada"
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "Klik Mula bila sedia diteruskan."
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "Klik Berikutnya bila sedia diteruskan."
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "Klik Nyahpasang bila sedia diteruskan."
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "Ubah Tetapan Pemasangan"
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "Tetap semula konfigurasi SMPlayer saya"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "pasang semula"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "nyahtatar"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "tatar"
-
-# StartBtn
-msgid "Start"
-msgstr "Mula"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "Memuat Turun Kodeks MPlayer..."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Kodeks MPlayer gagal dipasang. Cuba lagi?"
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Gagal memuat turun kodeks MPlayer: '$R0'."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "Gagal memasang kodeks MPlayer."
-
-# Uninstaller_No_Admin
-msgid "This installation can only be uninstalled by a user with administrator privileges."
-msgstr "Pemasangan ini hanya boleh dinyahpasang oleh pengguna dengan kelayakan pentadbir."
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Nyahpasang dihenti-paksa oleh pengguna."
-
-# Uninstaller_NotInstalled
-msgid "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr "Kelihatan SMPlayer tidak dipasang dalam direktori '$INSTDIR'.[:r:][:n:]Teruskan jua (tidak disarankan)?"
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "Pemasangan SMPlayer tidak ditemui."
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "Pemasangan ini hanya boleh dinyahpasang pada Windows 64-bit."
-
-# Application_Description
-msgid "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
-msgstr "SMPlayer merupakan bahagian-hadapan MPlayer, dari fitur asas seperti memainkan video, DVD. VCD sehinggalah fitur lanjutan seperti sokongan untuk penapis MPlayer, senarai edl, dan banyak lagi."
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "Menyandar kodeks dari pemasangan terdahulu..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "Memulihkan kodeks dari pemasangan terdahulu..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "Memadam Fail..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "Memadam Kunci Registry..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "Memadam Pintasan..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "Memulihkan perkaitan fail..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "Mengembali perubahan..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "Mengekstrak fail..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr ""
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr ""
-
-# Info_MPV_Backup
-msgid "Backing up MPV..."
-msgstr ""
-
-# Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
-msgstr ""
-
-# MPV_DL_Msg
-msgid "Downloading MPV..."
-msgstr ""
-
-# MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
-msgstr ""
-
-# MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
-msgstr ""
-
-# MPV_Inst_Failed
-msgid "Failed to install MPV."
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
 msgstr ""
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
 msgstr ""
 
-# YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
 msgstr ""
 
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr ""
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr ""
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Mengekstrak fail..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Mengembali perubahan..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Memulihkan perkaitan fail..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Memadam Pintasan..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Memadam Kunci Registry..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Memadam Fail..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "Memulihkan kodeks dari pemasangan terdahulu..."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "Menyandar kodeks dari pemasangan terdahulu..."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr ""
+"SMPlayer merupakan bahagian-hadapan MPlayer, dari fitur asas seperti "
+"memainkan video, DVD. VCD sehinggalah fitur lanjutan seperti sokongan untuk "
+"penapis MPlayer, senarai edl, dan banyak lagi."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Pemasangan ini hanya boleh dinyahpasang pada Windows 64-bit."
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "Pemasangan SMPlayer tidak ditemui."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
+"r:][:n:]Continue anyway (not recommended)?"
+msgstr ""
+"Kelihatan SMPlayer tidak dipasang dalam direktori '$INSTDIR'.[:r:][:n:]"
+"Teruskan jua (tidak disarankan)?"
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Nyahpasang dihenti-paksa oleh pengguna."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr ""
+"Pemasangan ini hanya boleh dinyahpasang oleh pengguna dengan kelayakan "
+"pentadbir."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "Gagal memasang kodeks MPlayer."
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "Gagal memuat turun kodeks MPlayer: '$R0'."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "Kodeks MPlayer gagal dipasang. Cuba lagi?"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "Memuat Turun Kodeks MPlayer..."
+
+# StartBtn
+msgid "Start"
+msgstr "Mula"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "tatar"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "nyahtatar"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "pasang semula"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "Tetap semula konfigurasi SMPlayer saya"
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Ubah Tetapan Pemasangan"
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Klik Nyahpasang bila sedia diteruskan."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Klik Berikutnya bila sedia diteruskan."
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Klik Mula bila sedia diteruskan."
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Nyapasang (buang) pemasangan sedia ada"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Tulis-ganti pemasangan sedia ada ($Inst_Type)"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Sila pilih bagaimana hendak diteruskan:"
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Anda sudah mempunyai pemasangan SMPlayer di dalam folder berikut:"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Pilih mod Tulis-ganti atau Nyahpasang."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Pilih Jenis Pemasangan"
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr ""
+"Pakej kodeks binari menambah sokongan untuk kodeks yang belum lagi dilaksana "
+"secara tabii, seperti varians RealVideo lebih baharu dan banyak lagi format "
+"bukan umum..[:n:]Perhatian format tersebut tidaklah diperlukan untuk "
+"memainkan kebanyakan format umum seperti DVDs, MPEG-1/2/4, dll."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "Padam baki keutamaan SMPlayer dari pemasangan terdahulu."
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Fail bahasa Bukan-Inggeris untuk SMPlayer."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Bahasa"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Tema ikon tambahan untuk SMPlayer."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Tema Ikon"
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr ""
+"Program yang diperlukan oleh MPlayer yang dapat digunakan untuk mengenkod "
+"atau jelma audio disokong atau strim video."
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr ""
+
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr ""
+"Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk "
+"pemasangan)"
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Kodeks Binari"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; diperlukan untuk mainbalik."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (diperlukan)"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Cipta masukan Menu Mula untuk SMPlayer."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Menu Mula"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Cipta pintasan pada SMPlayer pada desktop."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Desktop"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, pustaka terkongsi, dan dokumentasi."
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (diperlukan)"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "Komponen MPlayer"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Pintasan"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMPlayer before "
+"starting setup. This will make it possible to update relevant program files "
+"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"Persediaan akan bantu anda melalui pemasangan $(^NameDA).[:r:][:n:][:r:][:n:]"
+"Adalah disarankan anda tutup semua kejadian SMPlayer sebelum memulakan "
+"persediaan. Ia bertujuan untuk mengemaskini fail program yang berkaitan "
+"tanpa perlu membut semula komputer anda.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "Persediaan $(^NameDA)"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
+"bit SMPlayer first."
+msgstr ""
+"Pemasangan 64-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 64-"
+"bit dahulu."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
+"bit SMPlayer first."
+msgstr ""
+"Pemasangan 32-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 32-"
+"bit dahulu."
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"Sistem pengoperasian Windows 64-bit diperlukan untuk memasang perisian ini."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"Sistem pengoperasian tidak disokong.[:n:]SMPlayer ${SMPLAYER_VERSION} "
+"memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan "
+"baik pada sistem anda.[:n:]Anda pasti mahu teruskan pemasangan?"
+
+# SMPlayer_Is_Running
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr ""
+"Satu kejadian SMPlayer sedang berjalan. Sila keluar SMPlayer dan cuba lagi."
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr ""
+"Anda mesti mendaftar masuk sebagai pentadbir bila memasang program ini."
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Pemasang sudah berjalan."
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# abuyop <abuyop@gmail.com>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2014-02-26 14:12+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"Language-Team: Malay (Malaysia) (http://www.transifex.com/projects/p/"
+"smplayer/language/ms_MY/)\n"
+"Language: ms_MY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
