@@ -1,285 +1,3 @@
-# Section_MPlayerCodecs_Desc 
-msgid "Binary codecs are not supported in this version."
-msgstr ""
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr ""
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr ""
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr ""
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr ""
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr ""
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr ""
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr ""
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr ""
-
-# Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-"Az SMPlayer egy komplett felület az MPlayerhez, mindent támogat az alap "
-"funkcióktól kezdve, mint a videók, DVDk, VCDk lejátszása, haladó funkciókig, "
-"mint az MPlayer szűrők, edl listák és még sok más."
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr ""
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-"Nem úgy néz ki, mint ha az SMPlayer ebbe a könyvtárba lett volna telepítve: "
-"'$INSTDIR'.[:r:][:n:]Mégis folytassam (nem ajánlott)?"
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Az eltávolítást a felhasználó megszakította."
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr "A program eltávolításához rendszergazda jogosultság szükséges."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "Az MPlayer kodekek telepítése nem sikerült."
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Az MPlayer kodekek letöltése nem sikerült: '$R0'."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Az MPlayer kodekek telepítése nem sikerült. Újra próbáljam?"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "MPlayer kodekek letöltése..."
-
-# StartBtn
-msgid "Start"
-msgstr ""
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr ""
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr ""
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr ""
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr ""
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr ""
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr ""
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr ""
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr ""
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr ""
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr ""
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr ""
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr ""
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr ""
-
-# MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
-msgstr ""
-"A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott "
-"kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.[:n:]"
-"Nem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, "
-"MPEG-1/2/4, stb."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr ""
-
-# Section_Translations
-msgid "Languages"
-msgstr ""
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr ""
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr ""
-
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr ""
-
-# Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr ""
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr ""
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr ""
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr ""
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr ""
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr ""
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr ""
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr ""
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr ""
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr ""
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr ""
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr ""
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr ""
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr ""
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr ""
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "A telepítő már fut."
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
@@ -290,3 +8,296 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "A telepítő már fut."
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
+
+# SMPlayer_Is_Running
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr ""
+
+# OS_Not_Supported
+msgid "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.[:n:]Do you really want to continue with the installation?"
+msgstr ""
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+
+# Existing_32bitInst
+msgid "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
+msgstr ""
+
+# Existing_64bitInst
+msgid "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
+msgstr ""
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr ""
+
+# WelcomePage_Text
+msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr ""
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr ""
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr ""
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr ""
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr ""
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr ""
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr ""
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr ""
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr ""
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr ""
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr ""
+
+# Section_MPlayerCodecs_Desc
+msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr ""
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr ""
+
+# Section_MEncoder_Desc
+msgid "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+msgstr ""
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr ""
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr ""
+
+# Section_Translations
+msgid "Languages"
+msgstr ""
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr ""
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr ""
+
+# MPlayer_Codec_Msg
+msgid "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.[:n:]Note that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+msgstr "A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.[:n:]Nem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, MPEG-1/2/4, stb."
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr ""
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr ""
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr ""
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr ""
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr ""
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr ""
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr ""
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr ""
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr ""
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr ""
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr ""
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr ""
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr ""
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr ""
+
+# StartBtn
+msgid "Start"
+msgstr ""
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "MPlayer kodekek letöltése..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "Az MPlayer kodekek telepítése nem sikerült. Újra próbáljam?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "Az MPlayer kodekek letöltése nem sikerült: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "Az MPlayer kodekek telepítése nem sikerült."
+
+# Uninstaller_No_Admin
+msgid "This installation can only be uninstalled by a user with administrator privileges."
+msgstr "A program eltávolításához rendszergazda jogosultság szükséges."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Az eltávolítást a felhasználó megszakította."
+
+# Uninstaller_NotInstalled
+msgid "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "Nem úgy néz ki, mint ha az SMPlayer ebbe a könyvtárba lett volna telepítve: '$INSTDIR'.[:r:][:n:]Mégis folytassam (nem ajánlott)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr ""
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr ""
+
+# Application_Description
+msgid "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+msgstr "Az SMPlayer egy komplett felület az MPlayerhez, mindent támogat az alap funkcióktól kezdve, mint a videók, DVDk, VCDk lejátszása, haladó funkciókig, mint az MPlayer szűrők, edl listák és még sok más."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr ""
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr ""
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr ""
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr ""
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr ""
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr ""
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr ""
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr ""
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr ""
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr ""
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr ""
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr ""
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr ""
+

@@ -1,57 +1,40 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# rvm <rvm@users.sourceforge.net>, 2014
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-24 21:42+0000\n"
-"Last-Translator: rvm <rvm@users.sourceforge.net>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/smplayer/language/es/)\n"
+"Project-Id-Version: SMPlayer\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Installer_Is_Running
 msgid "The installer is already running."
 msgstr "La instalación ya se está ejecutando."
 
 # Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
+msgid "You must be logged in as an administrator when installing this program."
 msgstr "Debes tener permisos de administrador para instalar este programa."
 
 # SMPlayer_Is_Running
-msgid ""
-"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 msgstr "SMPlayer se está ejecutando. Por favor, ciérralo e inténtalo de nuevo."
 
 # OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
+msgid "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.[:n:]Do you really want to continue with the installation?"
 msgstr "Sistema operativo no soportado.[:n:]SMPlayer ${SMPLAYER_VERSION} requiere al menos Windows XP y podría no funcionar correctamente en este sistema.[:n:]¿Realmente quieres continuar con la instalación?"
 
 # Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
+msgid "A 64-bit Windows operating system is required to install this software."
 msgstr "Se necesita un Windows de 64 bits para instalar este programa."
 
 # Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall "
-"32-bit SMPlayer first."
+msgid "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
 msgstr "Existe una versión de 32 bits instalada. Debes desinstalarla primero."
 
 # Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall "
-"64-bit SMPlayer first."
+msgid "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
 msgstr "Existe una versión de 64 bits instalada. Debes desinstalarla primero."
 
 # WelcomePage_Title
@@ -59,12 +42,7 @@ msgid "$(^NameDA) Setup"
 msgstr "Instalación de $(^NameDA)"
 
 # WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMPlayer before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr "A continuación se procederá a la instalación de $(^NameDA).[:r:][:n:][:r:][:n:]Se recomienda cerrar todos los procesos de SMPlayer antes de comenzar con la instalación. De esta manera será posible actualizar los ficheros del programa sin tener que reiniciar el ordenador.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
@@ -74,6 +52,10 @@ msgstr "Accesos"
 # MPlayerGroupTitle
 msgid "MPlayer Components"
 msgstr "Componentes de MPlayer"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Motor Multimedia"
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
@@ -112,14 +94,15 @@ msgid "Binary Codecs"
 msgstr "Códecs Binarios"
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
 msgstr "Códecs opcionales para MPlayer. (Se necesita conexión a internet para la instalación)"
 
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "Reproductor basado en MPlayer y MPlayer2 con nuevas opciones"
+
 # Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
+msgid "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 msgstr "Un programa opcional que puede ser usado para recodificar vídeos."
 
 # Section_IconThemes
@@ -143,11 +126,7 @@ msgid "Deletes SMPlayer preferences leftover from previous installations."
 msgstr "Borra la configuración de SMPlayer de instalaciones anteriores."
 
 # MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
+msgid "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.[:n:]Note that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 msgstr "El paquete de códecs binarios añade soporte para códecs que todavía no se han implementado nativamente, como como las nuevas variantes de RealVideo y algunos formatos poco comunes.[:n:]Ten en cuenta de que no son necesarios para reproducir los formatos más comunes como DVDs, MPEG-1/2/4, etc."
 
 # Reinstall_Header_Text
@@ -227,9 +206,7 @@ msgid "Failed to install MPlayer codecs."
 msgstr "Ha fallado la instalación del los códecs del MPlayer."
 
 # Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
+msgid "This installation can only be uninstalled by a user with administrator privileges."
 msgstr "Este programa sólo se puede desinstalar por un usuario con permisos de administrador."
 
 # Uninstaller_Aborted
@@ -237,9 +214,7 @@ msgid "Uninstall aborted by user."
 msgstr "Desinstalación cancelada por el usuario."
 
 # Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory "
-"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgid "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
 msgstr "No parece que el SMPlayer esté instalado en el directorio '$INSTDIR'.[:r:][:n:]¿Continuar de todos modos (no recomendado)?"
 
 # Uninstaller_InvalidDirectory
@@ -251,10 +226,7 @@ msgid "This installation can only be uninstalled on 64-bit Windows."
 msgstr "Esta instalación sólo se puede desinstalar en Windows de 64 bits."
 
 # Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
+msgid "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
 msgstr "SMPlayer pretende ser un interfaz completo para MPlayer, con opciones para cosas básicas, como reproducir vídeos, DVDs y VCDs hasta opciones más avanzadas como soporte para los filtros del MPlayer y mucho más."
 
 # Info_Codecs_Backup
@@ -289,6 +261,43 @@ msgstr "Deshaciendo cambios..."
 msgid "Extracting files..."
 msgstr "Extrayendo ficheros..."
 
-# Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Los códecs binarios no están disponibles en esta versión."
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "Creando una copia de SMTube..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "Restaurando SMTube desde una instalación anterior..."
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr "Creando una copia de MPV..."
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr "Restaurando MPV desde una instalación anterior..."
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr "Descargando MPV..."
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr "MPV no se ha instalado correctamente. ¿Reintentar?"
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr "No se ha podido descargar MPV: '$R0'."
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr "No se ha podido instalar MPV."
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr "YouTube-DL no se ha instalado correctamente. ¿Reintentar?"
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr "No se ha podido descargar Youtube-DL: '$R0'."
+

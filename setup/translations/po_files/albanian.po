@@ -1,79 +1,61 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# rigels.gordani <rgordani@gmail.com>, 2014
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-13 10:47+0000\n"
-"Last-Translator: rigels.gordani <rgordani@gmail.com>\n"
-"Language-Team: Albanian (Albania) (http://www.transifex.com/projects/p/smplayer/language/sq_AL/)\n"
+"Project-Id-Version: SMPlayer\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sq_AL\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 # Installer_Is_Running
 msgid "The installer is already running."
 msgstr "Instaluesi eshte ne egzekutim."
 
 # Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
+msgid "You must be logged in as an administrator when installing this program."
 msgstr "Ju duhet te jeni loguar si administator per te instaluar kete program."
 
 # SMPlayer_Is_Running
-msgid ""
-"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 msgstr "Një instancë e SMPlayer është në egzekutim. Ju lutem mbyllni SMPlayer dhe riprovoni."
 
 # OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
+msgid "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.[:n:]Do you really want to continue with the installation?"
 msgstr "Ky sistem operativë nuk suportohet.[:n:]SMPlayer ${SMPLAYER_VERSION} kërkon të paktën Windows XP dhe mund të mos punoj në mënyrë korrekte në sistemin tuaj.[:n:]Dëshironi akoma të vazhdoni me installimin?"
 
 # Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
+msgid "A 64-bit Windows operating system is required to install this software."
 msgstr "Një sistem operativë Windows 64-bit nevojitet për të instaluar këtë software."
 
 # Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall "
-"32-bit SMPlayer first."
+msgid "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
 msgstr "Egziston një installim 32-bit i SMPlayer. Duhet të disinstaloni më parë SMPlayer 32-bit."
 
 # Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall "
-"64-bit SMPlayer first."
+msgid "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
 msgstr "Egziston një installim 64-bit i SMPlayer. Duhet të disinstaloni më parë SMPlayer 64-bit."
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Setup"
+msgstr ""
 
 # WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMPlayer before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr "Programi i instalimit do ju ndihmoj hap pas hapi ne instalimin e $(^NameDA).[:r:][:n:][:r:][:n:]Rekomandohet qe te mbyllni te gjitha dritaret e hapura te SMPlayer perpara se te filloni instalimin. Kjo do te bej te mundur instalimin e update-ve pa pasur nevoj te riavioni/ristartoni kompjuterin tuaj.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
-msgstr "Shortcuts"
+msgstr ""
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
 msgstr "Komponentet e MPlayer."
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
@@ -85,7 +67,7 @@ msgstr "SMPlayer, libraritë dinamike, dhe dokumentacioni."
 
 # Section_DesktopShortcut
 msgid "Desktop"
-msgstr "Desktop"
+msgstr ""
 
 # Section_DesktopShortcut_Desc
 msgid "Creates a shortcut to SMPlayer on the desktop."
@@ -112,14 +94,15 @@ msgid "Binary Codecs"
 msgstr "Codec-et binare."
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
 msgstr "Codec-ët shtesë për MPlayer. (Nevojitet Lidhje në Internet për instalimin)"
 
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr ""
+
 # Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
+msgid "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 msgstr "Nje program qe perdor MPlayer mund te perdoret per te enkoduar ose transformuar file audio ose video te suportuar."
 
 # Section_IconThemes
@@ -143,11 +126,7 @@ msgid "Deletes SMPlayer preferences leftover from previous installations."
 msgstr "Fshij file e preferencave te instalimit te meparshem te SMPlayer."
 
 # MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
+msgid "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.[:n:]Note that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 msgstr "Paketa software e codec-ve binare shton suportin per codec-et qe nuk jane implementuar akoma ne menyre native, si versione e reja te RealVideo dhe shume formateve video jo te famshem.[:n:]Shenim: keto codec-ek nuk jane te domosdoshem per te pare/shikuar file video me formate te famshem si DVDs, MPEG-1/2/4, etj."
 
 # Reinstall_Header_Text
@@ -200,11 +179,11 @@ msgstr "riinstallo"
 
 # Type_Downgrade
 msgid "downgrade"
-msgstr "downgrade"
+msgstr ""
 
 # Type_Upgrade
 msgid "upgrade"
-msgstr "upgrade"
+msgstr ""
 
 # StartBtn
 msgid "Start"
@@ -227,9 +206,7 @@ msgid "Failed to install MPlayer codecs."
 msgstr "Dështim gjatë instalimit të MPlayer codecs."
 
 # Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
+msgid "This installation can only be uninstalled by a user with administrator privileges."
 msgstr "Ky instalim mund të disinstalohet nga një përdorues me të drejta administratori."
 
 # Uninstaller_Aborted
@@ -237,9 +214,7 @@ msgid "Uninstall aborted by user."
 msgstr "Disinstalimi u ndërpre nga përdoruesi."
 
 # Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory "
-"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgid "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
 msgstr "SMPlayer nuk është instaluar në këtë direktori '$INSTDIR'.[:r:][:n:]Dëshironi të vazhdoni gjithsesi (nuk rekomandohet)?"
 
 # Uninstaller_InvalidDirectory
@@ -251,10 +226,7 @@ msgid "This installation can only be uninstalled on 64-bit Windows."
 msgstr "Ky instalim mund të disinstalohet vetëm në 64-bit Windows."
 
 # Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
+msgid "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
 msgstr "SMPlayer mbështet tek MPlayer, nga veprimtaritë bazë si shikimi i video-ve, DVD-ve, VCD-ve deri te veprimtaritë më të avancuara të MPlayer, si filtratë, listat edl, etj."
 
 # Info_Codecs_Backup
@@ -289,6 +261,43 @@ msgstr "Kthimi mbrapa i ndryshimeve..."
 msgid "Extracting files..."
 msgstr "Ekstratimi i file..."
 
-# Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Codec-ët binary nuk suportohen në këtë version."
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr ""
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr ""
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr ""
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr ""
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr ""
+
