@@ -1,303 +1,372 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-msgid ""
-msgstr ""
-"Project-Id-Version: SMPlayer\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "インストーラーは既に実行中です。"
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr "このプログラムをインストールするときは管理者としてログインする必要があります。"
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "SMPlayer のインスタンスが実行中です。SMPlayer を終了してやり直してください。"
-
-# OS_Not_Supported
-msgid "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.[:n:]Do you really want to continue with the installation?"
-msgstr "サポートされていないオペレーティング システムです。[:n:]SMPlayer ${SMPLAYER_VERSION} は Windows XP 以上を必要とし、お使いのシステムでは正常に動作しない可能性があります。[:n:]本当にインストールを続行しますか?"
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "このソフトウェアをインストールするには 64 ビットの Windows オペレーティング システムが必要です。"
-
-# Existing_32bitInst
-msgid "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
-msgstr "32 ビットの SMPlayer が既にインストールされています。先に 32 ビットの SMPlayer をアンインストールする必要があります。"
-
-# Existing_64bitInst
-msgid "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
-msgstr "64 ビットの SMPlayer が既にインストールされています。先に 64 ビットの SMPlayer をアンインストールする必要があります。"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) のセットアップ"
-
-# WelcomePage_Text
-msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "セットアップは $(^NameDA) のインストールをご案内します。[:r:][:n:][:r:][:n:]セットアップの開始前にすべての SMPlayer のインスタンスを閉じることが推奨されます。これによりお使いのコンピューターを再起動する必要なく関連するプログラム ファイルを更新することが可能になります。[:r:][:n:][:r:][:n:]$_CLICK"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "ショートカット"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "MPlayer コンポーネント"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr ""
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (必須)"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer、共有ライブラリ、およびドキュメントです。"
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "デスクトップ"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "デスクトップに SMPlayer へのショートカットを作成します。"
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "[スタート] メニュー"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "SMPlayer の [スタート] メニュー エントリを作成します。"
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (必須)"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "再生のために必要な MPlayer です。"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "バイナリ コーデック"
-
 # Section_MPlayerCodecs_Desc
-msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
+msgid "Binary codecs are not supported in this version."
+msgstr "バイナリ コーデックはこのバージョンではサポートされていません。"
 
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
-
-# Section_MEncoder_Desc
-msgid "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
-msgstr "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
-
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "アイコン テーマ"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "SMPlayer の追加アイコン テーマです。"
-
-# Section_Translations
-msgid "Languages"
-msgstr "言語"
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "SMPlayer の英語以外のの言語ファイルです。"
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "前のインストールから残っている SMPlayer の環境設定を削除します。"
-
-# MPlayer_Codec_Msg
-msgid "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.[:n:]Note that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
-msgstr "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。[:n:]DVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "インストールの種類の選択"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "上書きまたはアンインストール モードを選択します。"
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "以下のフォルダーに既存 SMPlayer のインストールがあります:"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "続行する方法を選択してください:"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "既存のインストールを上書き ($Inst_Type) する"
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "既存のインストールをアンインストール (削除) する"
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "続行するには [開始] をクリックします。"
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "続行するには [次へ] をクリックします。"
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "続行するには [アンインストール] をクリックします。"
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "インストール構成を変更する"
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "SMPlayer の設定をリセットする"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "再インストール"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "ダウングレード"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "アップグレード"
-
-# StartBtn
-msgid "Start"
-msgstr "開始"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "MPlayer コーデックをダウンロードしています..."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "MPlayer コーデックは正常にインストールされませんでした。再試行しますか?"
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "MPlayer コーデックのダウンロードに失敗しました: '$R0'。"
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "MPlayer コーデックのインストールに失敗しました。"
-
-# Uninstaller_No_Admin
-msgid "This installation can only be uninstalled by a user with administrator privileges."
-msgstr "このインストールは管理者特権のあるユーザーによってのみアンインストールできます。"
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "アンインストールはユーザーによって中止されました。"
-
-# Uninstaller_NotInstalled
-msgid "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr "ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えません。[:r:][:n:]このまま続行しますか (推奨されません)?"
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "SMPlayer のインストールが見つかりません。"
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "このインストールは 64 ビットの Windows でのみアンインストールできます。"
-
-# Application_Description
-msgid "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
-msgstr "SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィルター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロントエンドです。"
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "以前のインストールからのコーデックをバックアップしています..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "以前のインストールからのコーデックを復元しています..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "ファイルを削除しています..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "レジストリ キーを削除しています..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "ショートカットを削除しています..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "ファイルの関連付けを復元しています..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "変更を元に戻しています..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "ファイルを展開しています..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr ""
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr ""
-
-# Info_MPV_Backup
-msgid "Backing up MPV..."
-msgstr ""
-
-# Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
-msgstr ""
-
-# MPV_DL_Msg
-msgid "Downloading MPV..."
-msgstr ""
-
-# MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
-msgstr ""
-
-# MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
-msgstr ""
-
-# MPV_Inst_Failed
-msgid "Failed to install MPV."
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
 msgstr ""
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
 msgstr ""
 
-# YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
 msgstr ""
 
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr ""
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr ""
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "ファイルを展開しています..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "変更を元に戻しています..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "ファイルの関連付けを復元しています..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "ショートカットを削除しています..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "レジストリ キーを削除しています..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "ファイルを削除しています..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "以前のインストールからのコーデックを復元しています..."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "以前のインストールからのコーデックをバックアップしています..."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr ""
+"SMPlayer はビデオ、DVD、VCD の再生のような基本的な機能から MPlayer フィル"
+"ター、edl リストなどへのサポートのような高度な機能まで、MPlayer の完全なフロ"
+"ントエンドです。"
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr ""
+"このインストールは 64 ビットの Windows でのみアンインストールできます。"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "SMPlayer のインストールが見つかりません。"
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
+"r:][:n:]Continue anyway (not recommended)?"
+msgstr ""
+"ディレクトリ '$INSTDIR' に SMPlayer がインストールされているように見えませ"
+"ん。[:r:][:n:]このまま続行しますか (推奨されません)?"
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "アンインストールはユーザーによって中止されました。"
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr ""
+"このインストールは管理者特権のあるユーザーによってのみアンインストールできま"
+"す。"
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "MPlayer コーデックのインストールに失敗しました。"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "MPlayer コーデックのダウンロードに失敗しました: '$R0'。"
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr ""
+"MPlayer コーデックは正常にインストールされませんでした。再試行しますか?"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "MPlayer コーデックをダウンロードしています..."
+
+# StartBtn
+msgid "Start"
+msgstr "開始"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "アップグレード"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "ダウングレード"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "再インストール"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "SMPlayer の設定をリセットする"
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "インストール構成を変更する"
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "続行するには [アンインストール] をクリックします。"
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "続行するには [次へ] をクリックします。"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "続行するには [開始] をクリックします。"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "既存のインストールをアンインストール (削除) する"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "既存のインストールを上書き ($Inst_Type) する"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "続行する方法を選択してください:"
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "以下のフォルダーに既存 SMPlayer のインストールがあります:"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "上書きまたはアンインストール モードを選択します。"
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "インストールの種類の選択"
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr ""
+"バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマッ"
+"トなど、まだ自然には実装されていないコーデックへのサポートを追加します。[:n:]"
+"DVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注"
+"意ください。"
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "前のインストールから残っている SMPlayer の環境設定を削除します。"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "SMPlayer の英語以外のの言語ファイルです。"
+
+# Section_Translations
+msgid "Languages"
+msgstr "言語"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "SMPlayer の追加アイコン テーマです。"
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "アイコン テーマ"
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr ""
+"サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用でき"
+"る MPlayer の姉妹プログラムです。"
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr ""
+
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr ""
+"MPlayer のオプション コーデックです。(インストールにはインターネット接続が必"
+"要です)"
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "バイナリ コーデック"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "再生のために必要な MPlayer です。"
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (必須)"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "SMPlayer の [スタート] メニュー エントリを作成します。"
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "[スタート] メニュー"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "デスクトップに SMPlayer へのショートカットを作成します。"
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "デスクトップ"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer、共有ライブラリ、およびドキュメントです。"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (必須)"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "MPlayer コンポーネント"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "ショートカット"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMPlayer before "
+"starting setup. This will make it possible to update relevant program files "
+"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+"セットアップは $(^NameDA) のインストールをご案内します。[:r:][:n:][:r:][:n:]"
+"セットアップの開始前にすべての SMPlayer のインスタンスを閉じることが推奨され"
+"ます。これによりお使いのコンピューターを再起動する必要なく関連するプログラム "
+"ファイルを更新することが可能になります。[:r:][:n:][:r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) のセットアップ"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
+"bit SMPlayer first."
+msgstr ""
+"64 ビットの SMPlayer が既にインストールされています。先に 64 ビットの "
+"SMPlayer をアンインストールする必要があります。"
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
+"bit SMPlayer first."
+msgstr ""
+"32 ビットの SMPlayer が既にインストールされています。先に 32 ビットの "
+"SMPlayer をアンインストールする必要があります。"
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"このソフトウェアをインストールするには 64 ビットの Windows オペレーティング "
+"システムが必要です。"
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"サポートされていないオペレーティング システムです。[:n:]SMPlayer "
+"${SMPLAYER_VERSION} は Windows XP 以上を必要とし、お使いのシステムでは正常に"
+"動作しない可能性があります。[:n:]本当にインストールを続行しますか?"
+
+# SMPlayer_Is_Running
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr ""
+"SMPlayer のインスタンスが実行中です。SMPlayer を終了してやり直してください。"
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr ""
+"このプログラムをインストールするときは管理者としてログインする必要がありま"
+"す。"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "インストーラーは既に実行中です。"
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# nardog <hysknrs@hotmail.co.jp>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2014-02-25 11:19+0000\n"
+"Last-Translator: nardog <hysknrs@hotmail.co.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/smplayer/"
+"language/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
