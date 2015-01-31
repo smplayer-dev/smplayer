@@ -1,57 +1,40 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# miroslav <miroslav031@yandex.com>, 2014
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-28 09:27+0000\n"
-"Last-Translator: miroslav <miroslav031@yandex.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/smplayer/language/sr/)\n"
+"Project-Id-Version: SMPlayer\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: sr\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 # Installer_Is_Running
 msgid "The installer is already running."
 msgstr "Инсталациони програм је већ покренут."
 
 # Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
+msgid "You must be logged in as an administrator when installing this program."
 msgstr "Морате бити пријављени као администратор када инсталирате овај програм."
 
 # SMPlayer_Is_Running
-msgid ""
-"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 msgstr "СМПлејер је већ покренут. Затворите СМПлејер и покушајте поново."
 
 # OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
+msgid "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.[:n:]Do you really want to continue with the installation?"
 msgstr "Неподржан оперативни систем.[:n:]СМПлејер ${SMPLAYER_VERSION} захтева најмање Windows XP и можда неће радити на вашем систему.[:n:]Да ли стварно желите наставити инсталацију?"
 
 # Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
+msgid "A 64-bit Windows operating system is required to install this software."
 msgstr "64-битни Windows оперативни систем је потребан за инсталацију овог програма."
 
 # Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall "
-"32-bit SMPlayer first."
+msgid "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-bit SMPlayer first."
 msgstr "Тренутно је инсталирана 32-битна верзија СМПлејера. Морате прво деинсталирати 32-битни СМПлејер."
 
 # Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall "
-"64-bit SMPlayer first."
+msgid "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-bit SMPlayer first."
 msgstr "Тренутно је инсталирана 64-битна верзија СМПлејера. Морате прво деинсталирати 64-битни СМПлејер."
 
 # WelcomePage_Title
@@ -59,12 +42,7 @@ msgid "$(^NameDA) Setup"
 msgstr "$(^NameDA) програм инсталације"
 
 # WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMPlayer before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgid "Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr "Програм инсталације ће вас водити кроз инсталацију $(^NameDA).[:r:][:n:][:r:][:n:]Препорука је да затворите претходно отворени СМПлејер пре почетка инсталације. То ће омогућити ажурирање битних фајлова без потребе за поновним покретањем вашег рачунара.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # ShortcutGroupTitle
@@ -74,6 +52,10 @@ msgstr "Пречице"
 # MPlayerGroupTitle
 msgid "MPlayer Components"
 msgstr "МПлејер компоненте"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr ""
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
@@ -112,14 +94,15 @@ msgid "Binary Codecs"
 msgstr "Бинарни кодеци"
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Optional codecs for MPlayer. (Internet Connection required for installation)"
 msgstr "Опциони кодеци за МПлејер. (Интернет веза је потребна за инсталацију)"
 
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr ""
+
 # Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
+msgid "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 msgstr "Пратећи програм за МПлејер који се може користити за енкодовање или трансформацију подржаних звучних или видео стримова."
 
 # Section_IconThemes
@@ -143,11 +126,7 @@ msgid "Deletes SMPlayer preferences leftover from previous installations."
 msgstr "Уклања СМПлејер подешавања заостала од претходних инсталација."
 
 # MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
+msgid "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.[:n:]Note that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
 msgstr "Пакет бинарних кодека даје подршку за кодеке који још нису изворно уграђени, попут новијих RealVideo верзија и још много неуобичајених формата.[:n:]Имајте на уму да нужно не морају репродуковати уобичајене формате попут ДВД-a, МПЕГ-1/2/4, итд."
 
 # Reinstall_Header_Text
@@ -227,9 +206,7 @@ msgid "Failed to install MPlayer codecs."
 msgstr "Неуспела инсталација МПлејер кодека."
 
 # Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
+msgid "This installation can only be uninstalled by a user with administrator privileges."
 msgstr "Ову инсталацију може деинсталирати само корисник са админ овлашћењима."
 
 # Uninstaller_Aborted
@@ -237,9 +214,7 @@ msgid "Uninstall aborted by user."
 msgstr "Деинсталацију прекинуо корисник."
 
 # Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory "
-"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgid "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
 msgstr "Чини се да СМПлејер није инсталиран у фасцикли '$INSTDIR'.[:r:][:n:]Ипак настављате (није препоручљиво)?"
 
 # Uninstaller_InvalidDirectory
@@ -251,10 +226,7 @@ msgid "This installation can only be uninstalled on 64-bit Windows."
 msgstr "Ова инсталације може бити деинсталирана само на 64-битном Windowsu."
 
 # Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
+msgid "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
 msgstr "СМПлејер је комплетно сучеље за МПлејер, са основним функцијама попут репродукције видео снимака, ДВД-а,ВЦД-а, до напреднијих као што су подршке за МПлејер филтере, едл листе и још много тога."
 
 # Info_Codecs_Backup
@@ -289,6 +261,43 @@ msgstr "Враћање промена..."
 msgid "Extracting files..."
 msgstr "Распакивање фајлова..."
 
-# Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Бинарни кодеци нису подржани у овој верзији."
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr ""
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr ""
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr ""
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr ""
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr ""
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr ""
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr ""
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr ""
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr ""
+
