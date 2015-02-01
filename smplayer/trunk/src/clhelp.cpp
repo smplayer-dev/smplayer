@@ -86,6 +86,7 @@ QString CLHelp::help(bool html) {
 	QString options = QString("%1 [-minigui] [-defaultgui] [-mpcgui] [-config-path %2] "
                         "[-send-action %3] [-actions %4] "
                         "[-close-at-end] [-no-close-at-end] [-fullscreen] [-no-fullscreen] "
+                        "[-ontop] [-no-ontop] "
                         "[-sub %5] [-pos x y] [-size %6 %7] "
                         "[-add-to-playlist] [-help|--help|-h|-?] "
                         "[%8] [%8]...")
@@ -155,6 +156,12 @@ QString CLHelp::help(bool html) {
 
 	s += formatHelp( "-no-fullscreen", QObject::tr(
 		"the video will be played in window mode."), html );
+
+	s += formatHelp( "-ontop", QObject::tr(
+		"sets the stay on top option to always."), html );
+
+	s += formatHelp( "-no-ontop", QObject::tr(
+		"sets the stay on top option to never."), html );
 
 	s += formatHelp( "-sub", QObject::tr(
 		"specifies the subtitle file to be loaded for the first video."), html );

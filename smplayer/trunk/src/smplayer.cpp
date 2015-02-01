@@ -342,6 +342,14 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 		if (argument == "-defaultgui") {
 			gui_to_use = "DefaultGUI";
 		}
+		else
+		if (argument == "-ontop") {
+			pref->stay_on_top = Preferences::AlwaysOnTop;
+		}
+		else
+		if (argument == "-no-ontop") {
+			pref->stay_on_top = Preferences::NeverOnTop;
+		}
 #ifdef SKINS
 		else
 		if (argument == "-skingui") {
