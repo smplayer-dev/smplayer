@@ -1,4 +1,8 @@
-[b]Version 14.9.0.6672[/b]:
+[b]Version 14.9.0.x[/b]:
+
+(2015-01-31)
+ * Add the options -ontop and -no-ontop for the command line.
+   They just change the "Stay on top" options in the preferences.
 
 (2015-01-21)
  * Add a combobox in Preferences -> Performance to select the hardware
