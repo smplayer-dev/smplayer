@@ -44,6 +44,9 @@ public:
 	void setDefaultActions(QStringList action_names) { default_actions = action_names; }
 	QStringList defaultActions() { return default_actions; }
 
+	void setIconSize(int size);
+	int iconSize();
+
 	//! Save the widget's list of actions into a QStringList 
 	static QStringList save(QWidget *w);
 

@@ -236,7 +236,7 @@ void SkinGui::createMainToolBars() {
 	toolbar1 = new EditableToolbar( this );
 	toolbar1->setObjectName("toolbar");
 	toolbar1->setMovable(false);
-	toolbar1->setFixedHeight(35);
+	//toolbar1->setFixedHeight(35);
 	addToolBar(Qt::TopToolBarArea, toolbar1);
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList toolbar1_actions;
@@ -577,6 +577,13 @@ void SkinGui::saveConfig() {
 	#endif
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
 	set->endGroup();
+
+	set->beginGroup("toolbars_icon_size");
+	set->setValue("toolbar1", toolbar1->iconSize());
+	#if defined(SKIN_EDITABLE_CONTROL)
+	set->setValue("floating_control", iw->iconSize());
+	#endif
+	set->endGroup();
 #endif
 
 	set->endGroup();
@@ -627,6 +634,13 @@ void SkinGui::loadConfig() {
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();
+	#endif
+	set->endGroup();
+
+	set->beginGroup("toolbars_icon_size");
+	toolbar1->setIconSize(set->value("toolbar1", toolbar1->iconSize()).toSize());
+	#if defined(SKIN_EDITABLE_CONTROL)
+	iw->setIconSize(set->value("floating_control", iw->iconSize()).toSize());
 	#endif
 	set->endGroup();
 #endif

@@ -754,6 +754,13 @@ void DefaultGui::saveConfig() {
 	set->setValue("floating_control", iw->actionsToStringList() );
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
 	set->endGroup();
+
+	set->beginGroup("toolbars_icon_size");
+	set->setValue("toolbar1", toolbar1->iconSize());
+	set->setValue("controlwidget", controlwidget->iconSize());
+	set->setValue("controlwidget_mini", controlwidget_mini->iconSize());
+	set->setValue("floating_control", iw->iconSize());
+	set->endGroup();
 #endif
 
 	set->endGroup();
@@ -807,6 +814,13 @@ void DefaultGui::loadConfig() {
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();
+	set->endGroup();
+
+	set->beginGroup("toolbars_icon_size");
+	toolbar1->setIconSize(set->value("toolbar1", toolbar1->iconSize()).toSize());
+	controlwidget->setIconSize(set->value("controlwidget", controlwidget->iconSize()).toSize());
+	controlwidget_mini->setIconSize(set->value("controlwidget_mini", controlwidget_mini->iconSize()).toSize());
+	iw->setIconSize(set->value("floating_control", iw->iconSize()).toSize());
 	set->endGroup();
 #endif
 

@@ -255,6 +255,11 @@ void MiniGui::saveConfig() {
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	set->setValue("floating_control", iw->actionsToStringList() );
 	set->endGroup();
+
+	set->beginGroup("toolbars_icon_size");
+	set->setValue("controlwidget", controlwidget->iconSize());
+	set->setValue("floating_control", iw->iconSize());
+	set->endGroup();
 #endif
 
 	set->endGroup();
@@ -290,6 +295,11 @@ void MiniGui::loadConfig() {
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
 	floating_control->adjustSize();
+	set->endGroup();
+
+	set->beginGroup("toolbars_icon_size");
+	controlwidget->setIconSize(set->value("controlwidget", controlwidget->iconSize()).toSize());
+	iw->setIconSize(set->value("floating_control", iw->iconSize()).toSize());
 	set->endGroup();
 #endif
 

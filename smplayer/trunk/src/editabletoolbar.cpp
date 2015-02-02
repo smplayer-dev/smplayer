@@ -54,11 +54,14 @@ void EditableToolbar::edit() {
 	e.setAllActions(allActions());
 	e.setActiveActions(this->actions());
 	e.setDefaultActions(defaultActions());
+	e.setIconSize(iconSize().width());
 
 	if (e.exec() == QDialog::Accepted) {
 		QStringList r = e.activeActionsToStringList();
 		qDebug("EditableToolbar::edit: list: %s", r.join(",").toUtf8().constData());
 		setActionsFromStringList(r);
+		resize(width(), e.iconSize());
+		setIconSize(QSize(e.iconSize(), e.iconSize()));
 	}
 }
 
