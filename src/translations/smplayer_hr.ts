@@ -2151,73 +2151,73 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2834"/>
+        <location filename="../core.cpp" line="2842"/>
         <source>Brightness: %1</source>
         <translation>Svjetlina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2850"/>
+        <location filename="../core.cpp" line="2858"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2865"/>
+        <location filename="../core.cpp" line="2873"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2880"/>
+        <location filename="../core.cpp" line="2888"/>
         <source>Hue: %1</source>
         <translation>Ton boje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2895"/>
+        <location filename="../core.cpp" line="2903"/>
         <source>Saturation: %1</source>
         <translation>Zasićenje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3024"/>
+        <location filename="../core.cpp" line="3032"/>
         <source>Volume: %1</source>
         <translation>Glasnoća zvuka: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3884"/>
+        <location filename="../core.cpp" line="3892"/>
         <source>Zoom: %1</source>
         <translation>Zumiranje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4105"/>
+        <location filename="../core.cpp" line="4113"/>
         <source>Buffering...</source>
         <translation>Međuspremanje...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3142"/>
-        <location filename="../core.cpp" line="3153"/>
+        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3161"/>
         <source>Font scale: %1</source>
         <translation>Promjena veličine slova: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3749"/>
+        <location filename="../core.cpp" line="3757"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4101"/>
+        <location filename="../core.cpp" line="4109"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Ažuriram priručnu memoriju slova. Ovo može potrajati nekoliko sekundi...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3067"/>
+        <location filename="../core.cpp" line="3075"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje podnasalova: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3085"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Audio delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje zvuka: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2949"/>
+        <location filename="../core.cpp" line="2957"/>
         <source>Speed: %1</source>
         <translation>Brzina: %1</translation>
     </message>
@@ -2232,37 +2232,37 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Nemoguće pronalažanje URL video snimke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Subtitles on</source>
         <translation>Podnaslovi uključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3232"/>
+        <location filename="../core.cpp" line="3240"/>
         <source>Subtitles off</source>
         <translation>Podnaslovi isključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3805"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kotačić miša trenutno pretražuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3808"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kotačić miša trenutno mijenja glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3811"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kotačić miša trenutno mijenja razinu zumiranja</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3806"/>
+        <location filename="../core.cpp" line="3814"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kotačić miša trenutno mijenja brzinu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4110"/>
+        <location filename="../core.cpp" line="4118"/>
         <source>Starting...</source>
         <translation>Pokretanje...</translation>
     </message>
@@ -2277,17 +2277,17 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Snimke zaslona NISU snimljene, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2568"/>
+        <location filename="../core.cpp" line="2576"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2585"/>
+        <location filename="../core.cpp" line="2593"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2600"/>
+        <location filename="../core.cpp" line="2608"/>
         <source>A-B markers cleared</source>
         <translation>A-B odabir uklonjen</translation>
     </message>
@@ -7560,12 +7560,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Dekôdiranje</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardversko &amp;dekôdiranje</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="372"/>
@@ -7740,62 +7740,62 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
         <source>None</source>
-        <translation type="unfinished">Nepoznato</translation>
+        <translation>Isključeno</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>Auto</source>
-        <translation type="unfinished">Automatski</translation>
+        <translation>Automatsko</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Hardversko dekôdiranje</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavite API hardverskog video dekôdiranja. Ako hardversko dekôdiranje nije moguće koristit će se softversko dekôdiranje.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Available options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupne mogućnosti:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Isključeno: koristit će se samo softversko dekôdiranje.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatsko: pokušat će automatski omogućiti hardversko dekôdiranje koristeći prvi dostupan način.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="289"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>vdpau: za vdpau i opengl video izlaze.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi: za opengl i vaapi video izlaze. Samo za Intel GPU.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi-copy: kopira video natrag u RAM sustav. Samo za Intel GPU.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"></translation>
+        <translation>dxva2-copy: kopira video natrag u RAM sustav. Eksperimentalno.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished">Ova mogućnost radi samo s mpv.</translation>
+        <translation>Ova mogućnost radi samo s mpv.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8754,53 +8754,53 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="168"/>
+        <location filename="../clhelp.cpp" line="175"/>
         <source>will show this message and then will exit.</source>
         <translation>će prikazati ovu poruku i onda izaći.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="147"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>glavni prozor će biti zatvoren kada završi reprodukcija datoteke/popisa izvođenja.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="514"/>
+        <location filename="../smplayer.cpp" line="522"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ovo je SMPlayer i. %1 pokrenut na %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="132"/>
+        <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>pokušava se povezati s drugim pokrenutim primjerkom i poslati mu određenu radnju. Npr.: -send-action pause Ostale mogućnosti (ako postoje) bit će zanemarene i aplikacija će se zatvoriti. Vratit će 0 ako je uspješno ili -1 ako je neuspješno.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>popis_radnji je popis radnji odvojenih razmacima. Radnje će biti pokrenute nakon učitavanja datoteke (ako postoje) istim redosljedom koji ste unijeli. Za provjerljive radnje možete postaviti &apos;true&apos; ili &apos;false&apos; kao parametar. Npr.: -actions &quot;fullscreen compact true&quot;. Navodnici su potrebni u slučaju ako ste postavili više od jedne radnje.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
-        <location filename="../clhelp.cpp" line="177"/>
+        <location filename="../clhelp.cpp" line="99"/>
+        <location filename="../clhelp.cpp" line="184"/>
         <source>media</source>
         <translation>medij</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>ako je pokrenut drugi primjerak SMplayera, medijska datoteka će biti dodana popisu izvođenja tog primjerka. Ako drugi primjerak SMplayera nije pokrenut, ova mogućnost biti će zanemarena i datoteke će biti otvorene u novom primjerku SMplayera.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="150"/>
+        <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>glavni prozor neće biti zatvoren kada završi reprodukcija datoteke/popisa izvođenja.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="153"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>video snimka će biti reproducirana u cijelozaslonskom načinu prikaza.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="156"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>the video will be played in window mode.</source>
         <translation>video snimka će biti reproducirana u prozorskom načinu prikaza.</translation>
     </message>
@@ -8810,48 +8810,48 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Dodaj na SMPlayer popis izvođenja</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>otvara minimalno grafičko sučelje umjesto uobičajenog sučelja.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Vraća stara pridruženja datoteka i čisti registar.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="103"/>
-        <location filename="../clhelp.cpp" line="106"/>
+        <location filename="../clhelp.cpp" line="104"/>
+        <location filename="../clhelp.cpp" line="107"/>
         <source>Usage:</source>
         <translation>Iskorišteno:</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="93"/>
+        <location filename="../clhelp.cpp" line="94"/>
         <source>directory</source>
         <translation>direktorij</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="94"/>
+        <location filename="../clhelp.cpp" line="95"/>
         <source>action_name</source>
         <translation>naziv_radnje</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="95"/>
+        <location filename="../clhelp.cpp" line="96"/>
         <source>action_list</source>
         <translation>popis_radnje</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>otvara uobičajeno grafičko sučelje.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="96"/>
+        <location filename="../clhelp.cpp" line="97"/>
         <source>subtitle_file</source>
         <translation>datoteka_podnsalova</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="159"/>
+        <location filename="../clhelp.cpp" line="166"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>određuje datoteku podnaslova koja će biti učitana za prvi video zapis.</translation>
     </message>
@@ -8881,7 +8881,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>%1 i %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="128"/>
+        <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>određuje direktorij gdje će Smplayer spremiti svoje datoteke podešavanja (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -8904,37 +8904,47 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>nepoznat</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>otvara &apos;mpc&apos; grafičko sučelje.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="97"/>
+        <location filename="../clhelp.cpp" line="98"/>
         <source>width</source>
         <translation>širina</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="97"/>
+        <location filename="../clhelp.cpp" line="98"/>
         <source>height</source>
         <translation>visina</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>opens the gui with support for skins.</source>
         <translation>otvara grafičko sučelje s podrškom za presvlake.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="162"/>
+        <location filename="../clhelp.cpp" line="160"/>
+        <source>sets the stay on top option to always.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="163"/>
+        <source>sets the stay on top option to never.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="169"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
         <translation>određuje koordinate gdje će glavni prozor biti prikazan.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>specifies the size of the main window.</source>
         <translation>određuje veličinu glavnog prozora.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="177"/>
+        <location filename="../clhelp.cpp" line="184"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medij&apos; je bilo koja vrsta datoteke koju SMPlayer može reproducirati. Može biti lokalna datoteka, DVD (npr. dvd://1), Internet stream (npr. mms://....) ili lokalni popis izvođenja u formatu &apos;m3u&apos; ili &apos;pls&apos;.</translation>
     </message>
@@ -9154,38 +9164,43 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Tre&amp;nutne radnje:</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="143"/>
+        <location filename="../toolbareditor.ui" line="130"/>
+        <source>&amp;Icon size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../toolbareditor.ui" line="156"/>
         <source>Add &amp;separator</source>
         <translation>Dodaj &amp;razdjelnik</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="87"/>
-        <location filename="../toolbareditor.cpp" line="180"/>
+        <location filename="../toolbareditor.cpp" line="95"/>
+        <location filename="../toolbareditor.cpp" line="188"/>
         <source>(separator)</source>
         <translation>(razdjelnik)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="239"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>Time slider</source>
         <translation>Vremenski klizač</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="241"/>
+        <location filename="../toolbareditor.cpp" line="249"/>
         <source>Volume slider</source>
         <translation>Klizač glasnoće zvuka</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="243"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Display time</source>
         <translation>Prikaži vrijeme</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="245"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>3 in 1 rewind</source>
         <translation>3 u 1 premotavanje unazad</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>3 in 1 forward</source>
         <translation>3 u 1 premotavanje unaprijed</translation>
     </message>

@@ -2151,73 +2151,73 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2834"/>
+        <location filename="../core.cpp" line="2842"/>
         <source>Brightness: %1</source>
         <translation>Độ sáng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2850"/>
+        <location filename="../core.cpp" line="2858"/>
         <source>Contrast: %1</source>
         <translation>Độ tương phản: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2865"/>
+        <location filename="../core.cpp" line="2873"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2880"/>
+        <location filename="../core.cpp" line="2888"/>
         <source>Hue: %1</source>
         <translation>Sắc độ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2895"/>
+        <location filename="../core.cpp" line="2903"/>
         <source>Saturation: %1</source>
         <translation>Độ bão hòa: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3024"/>
+        <location filename="../core.cpp" line="3032"/>
         <source>Volume: %1</source>
         <translation>Âm lượng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3884"/>
+        <location filename="../core.cpp" line="3892"/>
         <source>Zoom: %1</source>
         <translation>Phóng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4105"/>
+        <location filename="../core.cpp" line="4113"/>
         <source>Buffering...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3142"/>
-        <location filename="../core.cpp" line="3153"/>
+        <location filename="../core.cpp" line="3150"/>
+        <location filename="../core.cpp" line="3161"/>
         <source>Font scale: %1</source>
         <translation>Tỷ lệ phông: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3749"/>
+        <location filename="../core.cpp" line="3757"/>
         <source>Aspect ratio: %1</source>
         <translation>Tỷ lệ độ phân giải: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4101"/>
+        <location filename="../core.cpp" line="4109"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Cập nhật kho lưu phông. Có thể cần vài giây...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3067"/>
+        <location filename="../core.cpp" line="3075"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Độ trễ phụ đề: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3085"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Audio delay: %1 ms</source>
         <translation>Đỗ trễ âm thanh: %1 mili giây</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2949"/>
+        <location filename="../core.cpp" line="2957"/>
         <source>Speed: %1</source>
         <translation>Tốc độ: %1</translation>
     </message>
@@ -2232,37 +2232,37 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Không thể xác định vị trí đường dẫn url của video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3230"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Subtitles on</source>
         <translation>Phụ đề đang bật</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3232"/>
+        <location filename="../core.cpp" line="3240"/>
         <source>Subtitles off</source>
         <translation>Phụ đề đang tắt</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3797"/>
+        <location filename="../core.cpp" line="3805"/>
         <source>Mouse wheel seeks now</source>
         <translation>Con lăn chuột đang tìm kiếm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3800"/>
+        <location filename="../core.cpp" line="3808"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Con lăn chuột đang thay đổi âm lượng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3803"/>
+        <location filename="../core.cpp" line="3811"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Con lăn chuột đang thay đổi mức độ thu phóng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3806"/>
+        <location filename="../core.cpp" line="3814"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Con lăn chuột đang thay đổi tốc độ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4110"/>
+        <location filename="../core.cpp" line="4118"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2277,17 +2277,17 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Màn hình KHÔNG được chụp, tập tin không được định dạng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2568"/>
+        <location filename="../core.cpp" line="2576"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;A&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2585"/>
+        <location filename="../core.cpp" line="2593"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Bộ đánh dấu &quot;B&quot; được thiết lập đến %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2600"/>
+        <location filename="../core.cpp" line="2608"/>
         <source>A-B markers cleared</source>
         <translation>Đã xóa bộ đánh dấu A-B</translation>
     </message>
@@ -8751,53 +8751,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="168"/>
+        <location filename="../clhelp.cpp" line="175"/>
         <source>will show this message and then will exit.</source>
         <translation>Sẽ hiển thị thông điệp này rồi thoát.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="147"/>
+        <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>cửa sổ chính sẽ được đóng khi mà tập tin/danh sách chơi đã hết.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="514"/>
+        <location filename="../smplayer.cpp" line="522"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Đây là SMPlayer v.%1 chạy trên %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="132"/>
+        <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>thử kết nối đến một bản khác đang chạy và gửi đi một hành động nhất định. Ví dụ -send-action pause Các tùy chọn còn lại (nếu có) sẽ bị bỏ qua và ứng dụng sẽ thoát. Nó sẽ trả về 0 nếu thành công hoặc -1 nếu thất bại.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="139"/>
+        <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list là một danh sách các hành động ngăn cách bởi dấu cách. Các hành động sẽ được thực thi ngay sau nạp tập tin (nếu có) theo đúng thứ tự bạn nhập chúng. Với những hàng động kiểm tra được bạn có thể chuyền tham số true hay false. Ví dụ: -action: &quot;fullscreen compact true&quot;. Ngoặc kép là bắt buộc nếu bạn truyền nhiều hơn một hành động.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
-        <location filename="../clhelp.cpp" line="177"/>
+        <location filename="../clhelp.cpp" line="99"/>
+        <location filename="../clhelp.cpp" line="184"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="171"/>
+        <location filename="../clhelp.cpp" line="178"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>Nếu như có một bản của ứng dụng đang chạy, media sẽ được thêm vào trong danh sách chơi của bản đó. Nếu như không có bản nào đang chạy, tùy chọn này sẽ bị bỏ qua và tập tin sẽ được mở trong bản mới.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="150"/>
+        <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>cửa sổ chính sẽ không bị đóng khi mà tập tin/danh sách chơi đã hết.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="153"/>
+        <location filename="../clhelp.cpp" line="154"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>video sẽ được chạy ở chế độ toàn màn hình.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="156"/>
+        <location filename="../clhelp.cpp" line="157"/>
         <source>the video will be played in window mode.</source>
         <translation>video sẽ được chạy ở chế độ cửa sổ.</translation>
     </message>
@@ -8807,48 +8807,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Vào hàng đợi trong SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="114"/>
+        <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>mở gui nhỏ thay vì gui mặc định.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="111"/>
+        <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Khôi phục các kết hợp cũ và dọn sạch bản ghi.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="103"/>
-        <location filename="../clhelp.cpp" line="106"/>
+        <location filename="../clhelp.cpp" line="104"/>
+        <location filename="../clhelp.cpp" line="107"/>
         <source>Usage:</source>
         <translation>Cách dùng:</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="93"/>
+        <location filename="../clhelp.cpp" line="94"/>
         <source>directory</source>
         <translation>thư mục</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="94"/>
+        <location filename="../clhelp.cpp" line="95"/>
         <source>action_name</source>
         <translation>tên_động tác</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="95"/>
+        <location filename="../clhelp.cpp" line="96"/>
         <source>action_list</source>
         <translation>danh sách_động tác</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="120"/>
+        <location filename="../clhelp.cpp" line="121"/>
         <source>opens the default gui.</source>
         <translation>mở gui mặc định.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="96"/>
+        <location filename="../clhelp.cpp" line="97"/>
         <source>subtitle_file</source>
         <translation>tập tin_phụ đề</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="159"/>
+        <location filename="../clhelp.cpp" line="166"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>chỉ định tập tin phụ đề để nạp cho video đầu tiên.</translation>
     </message>
@@ -8874,7 +8874,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 and %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="128"/>
+        <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>chỉ ra thư mục nơi SMPlayer sẽ lưu các tập tin cấu hình (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -8897,37 +8897,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>không rõ</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="117"/>
+        <location filename="../clhelp.cpp" line="118"/>
         <source>opens the mpc gui.</source>
         <translation>mở cái gui mpc.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="97"/>
+        <location filename="../clhelp.cpp" line="98"/>
         <source>width</source>
         <translation>bề rộng</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="97"/>
+        <location filename="../clhelp.cpp" line="98"/>
         <source>height</source>
         <translation>chiều cao</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="124"/>
+        <location filename="../clhelp.cpp" line="125"/>
         <source>opens the gui with support for skins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="162"/>
+        <location filename="../clhelp.cpp" line="160"/>
+        <source>sets the stay on top option to always.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="163"/>
+        <source>sets the stay on top option to never.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../clhelp.cpp" line="169"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
         <translation>định rõ tọa độ nơi cửa sổ chính sẽ được hiển thị.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="165"/>
+        <location filename="../clhelp.cpp" line="172"/>
         <source>specifies the size of the main window.</source>
         <translation>định rõ kích thước của cửa sổ chính.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="177"/>
+        <location filename="../clhelp.cpp" line="184"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;media&apos; là bất kỳ dạng tập tin nào mà SMPlayer có thể mở. Đó có thể là một tập tin nội bộ, một DVD (ví dụ dvd://1), một luồng dữ liệu internet (ví dụ mms://...) hoặc một danh sách chơi nội bộ ở định dạng m3u hoặc pls.</translation>
     </message>
@@ -9147,38 +9157,43 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Các động tác hiện &amp;thời:</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="143"/>
+        <location filename="../toolbareditor.ui" line="130"/>
+        <source>&amp;Icon size:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../toolbareditor.ui" line="156"/>
         <source>Add &amp;separator</source>
         <translation>Thêm &amp;bộ tách</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="87"/>
-        <location filename="../toolbareditor.cpp" line="180"/>
+        <location filename="../toolbareditor.cpp" line="95"/>
+        <location filename="../toolbareditor.cpp" line="188"/>
         <source>(separator)</source>
         <translation>(bộ tách)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="239"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>Time slider</source>
         <translation>Trượt thời gian</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="241"/>
+        <location filename="../toolbareditor.cpp" line="249"/>
         <source>Volume slider</source>
         <translation>Trượt âm lượng</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="243"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Display time</source>
         <translation>Hiển thị thời gian</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="245"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>3 in 1 rewind</source>
         <translation>Quay lại 3 trong 1</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>3 in 1 forward</source>
         <translation>Tiến lên 3 trong 1</translation>
     </message>
