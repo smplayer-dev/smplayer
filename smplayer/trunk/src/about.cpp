@@ -174,7 +174,7 @@ QString About::getTranslators() {
 		trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos")) +
 		trad(tr("German"), QStringList() << "Shaggy" << QString::fromUtf8("Michał Trzebiatowski") << "Eclipse" << "j5lx" << "Tobias Bannert" << "Ettore Atalan") +
 		trad(tr("Traditional Chinese"), QStringList() << "Taijuin Lee" << "Wpliao" << "Jeff Huang" << "cges30901") +
-		trad(tr("Bulgarian"), QStringList() << "Ivailo Monev" << QString::fromUtf8("Радослав") << "Elusiv_man" << "Kiril Kirilov") +
+		trad(tr("Bulgarian"), QStringList() << "Ivailo Monev" << QString::fromUtf8("Радослав") << "Elusiv_man" << "Kiril Kirilov" << QString::fromUtf8("Иван Костадинов")) +
 		trad(tr("Norwegian Nynorsk"), QStringList() << "Bjorni" << "F_Sauce") +
 		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson" << "Patrik Nilsson" << "Kristian" << "Johan Forsberg") +
 		trad(tr("Arabic"), QStringList() << "Riyadh" << "Muhammad Fawwaz Orabi" << "Mohamed Sakhri" << QString::fromUtf8("طاهر") << "Mosaab Alzoubi" << "Leonelle Marks" << "Muhammad EL-SEED") +
