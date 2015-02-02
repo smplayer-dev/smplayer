@@ -66,6 +66,14 @@ ToolbarEditor::ToolbarEditor( QWidget* parent, Qt::WindowFlags f )
 ToolbarEditor::~ToolbarEditor() {
 }
 
+void ToolbarEditor::setIconSize(int size) {
+	iconsize_spin->setValue(size);
+}
+
+int ToolbarEditor::iconSize() {
+	return iconsize_spin->value();
+}
+
 void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list, bool add_separators) {
 	w->clear();
 
