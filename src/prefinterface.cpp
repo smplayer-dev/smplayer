@@ -177,15 +177,15 @@ void PrefInterface::retranslateStrings() {
 	seek4->setLabel( tr("Mouse &wheel jump") );
 
 	if (qApp->isLeftToRight()) {
-		seek1->setIcon( Images::icon("forward10s") );
-		seek2->setIcon( Images::icon("forward1m") );
-		seek3->setIcon( Images::icon("forward10m") );
+		seek1->setIcon( Images::icon("forward10s", 32) );
+		seek2->setIcon( Images::icon("forward1m", 32) );
+		seek3->setIcon( Images::icon("forward10m", 32) );
 	} else {
-		seek1->setIcon( Images::flippedIcon("forward10s") );
-		seek2->setIcon( Images::flippedIcon("forward1m") );
-		seek3->setIcon( Images::flippedIcon("forward10m") );
+		seek1->setIcon( Images::flippedIcon("forward10s", 32) );
+		seek2->setIcon( Images::flippedIcon("forward1m", 32) );
+		seek3->setIcon( Images::flippedIcon("forward10m", 32) );
 	}
-	seek4->setIcon( Images::icon("mouse", seek1->icon()->width()) );
+	seek4->setIcon( Images::icon("mouse",32) );
 
 	// Language combo
 	int language_item = language_combo->currentIndex();
