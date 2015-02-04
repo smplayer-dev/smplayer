@@ -4643,6 +4643,12 @@ void BaseGui::YTUpdateScript() {
 
 void BaseGui::gotForbidden() {
 	qDebug("BaseGui::gotForbidden");
+
+	if (!pref->report_mplayer_crashes) {
+		qDebug("BaseGui::gotForbidden: not displaying error dialog");
+		return;
+	}
+
 	static bool busy = false;
 
 	if (busy) return;
@@ -5311,7 +5317,7 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 	qDebug("BaseGui::showErrorFromMplayer");
 
 	if (!pref->report_mplayer_crashes) {
-		qDebug("showErrorFromMplayer: not displaying error dialog");
+		qDebug("BaseGui::showErrorFromMplayer: not displaying error dialog");
 		return;
 	}
 
