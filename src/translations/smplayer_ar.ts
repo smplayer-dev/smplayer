@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1262,7 +1260,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1669"/>
         <source>Use custo&amp;m style</source>
-        <translation>استخدم نمطًا مُخ&amp;صّصًا</translation>
+        <translation>استخدم طرازاً مُخ&amp;صّصًا</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1675"/>
@@ -1293,12 +1291,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>حجم &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>حجم &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1444,7 +1442,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>م&amp;سار ثانوي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1953"/>
@@ -1474,7 +1472,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4600"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>للأسف نظامك لا يحوي المكون openssl الضروري له.</translation>
+        <translation>للأسف، المكون openssl الضروري له، غير متوفر في نظامك.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4601"/>
@@ -1500,12 +1498,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation>متصفح يوتيوب YouTube Browser غير مثبَّت.</translation>
+        <translation>مستعرض يوتيوب YouTube Browser غير مثبَّت.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>Visit %1 to get it.</source>
-        <translation>زُر %1 للحصول علي.</translation>
+        <translation>زُر %1 للحصول عليه.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4615"/>
@@ -2151,73 +2149,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2842"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>السطوع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2858"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>التباين: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2873"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>غاما: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2888"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>التدرج: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2903"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>التشبع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3032"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>حجم الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3892"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>التقريب: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4113"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>تخزين مخبئي...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3150"/>
-        <location filename="../core.cpp" line="3161"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>تحجيم الخطّ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3757"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4109"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>يُحدِّث الذاكرة الخبيئة للخطوط. قد يستغرق هذا بعض الثواني...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3075"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>تأخير الترجمة: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3093"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>تأخير الصوت: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>السرعة: %1</translation>
     </message>
@@ -2232,37 +2230,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>أُظهرت الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>أُخفيتِ الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3805"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>تحريك عجلة الفأرة الآن يتنقّل في المقطع</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3808"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر حجم الصوت</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3811"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>تحريك عجلة الفأرة  الآن يغيّر درجة التقريب</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3814"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر السرعة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4118"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
         <translation>البدأ...</translation>
     </message>
@@ -2277,17 +2275,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>لم تُلتقط الصور، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2576"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;أ&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2593"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;ب&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2608"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation>مُسحت الإشارتان &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
@@ -2704,12 +2702,12 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
-        <translation>اسم مضيف الوسيط.</translation>
+        <translation>اسم مستضيف الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
-        <translation>منفذ الوسيط.</translation>
+        <translation>منفذ الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
@@ -2754,7 +2752,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="61"/>
         <source>&amp;Host:</source>
-        <translation>المُ&amp;ضيف:</translation>
+        <translation>المُست&amp;ضيف:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
@@ -2784,7 +2782,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
         <source>Number of &amp;retries:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;مرات المحاولة:</translation>
     </message>
 </context>
 <context>
@@ -2847,14 +2845,7 @@ resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>استخرجت %n ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
-            <numerusform>استُخرجت ترجمتان</numerusform>
-            <numerusform>استُخرجت %n ترجمات</numerusform>
-            <numerusform>استُخرجت %n ترجمةً</numerusform>
-            <numerusform>استُخرجت %n ترجمة</numerusform>
-        </translation>
+        <translation><numerusform>استخرجت %n ترجمة</numerusform><numerusform>استُخرجت ترجمة وحيدة</numerusform><numerusform>استُخرجت ترجمتان</numerusform><numerusform>استُخرجت %n ترجمات</numerusform><numerusform>استُخرجت %n ترجمةً</numerusform><numerusform>استُخرجت %n ترجمة</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2952,7 +2943,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -4773,7 +4764,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>إن مُكن هذا، سيخزن SMPlayer مخرَجات المشغل MPlayer/MPV (بامكانك مشاهدتها في &lt;b&gt;الخيارات -&gt; اعرض السجلات -&gt; المشغل MPlayer/MPV&lt;/b&gt;). عند حصول المشاكل يمكن ان يحوي هذا السجل معلومات مهمة، لذا يُستحسَن الإبقاء على تمكين هذا الخيار.</translation>
+        <translation>إن مُكن هذا، سيخزن SMPlayer مخرَجات المشغل MPlayer/MPV (بامكانك مشاهدتها في &lt;b&gt;خيارات -&gt; اعرض السجلات -&gt;  MPlayer/MPV&lt;/b&gt;). عند حصول المشاكل يمكن ان يحوي هذا السجل معلومات مهمة، لذا يُستحسَن الإبقاء على تمكين هذا الخيار.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
@@ -4783,7 +4774,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>إن مُكن هذا الخيار، سيُحفَظ سجلّ  MPlayer/MPV في الملف المحدد في كل مرة يبدأ فيها تشغيل ملف جديد. هذا مُعَدّ للتطبيقات الخارجية لتحصل لى معلومات عن الملف الذي تشغّله.</translation>
+        <translation>إن مُكن هذا الخيار، سيُحفَظ سجلّ  MPlayer/MPV في الملف المحدد في كل مرة يبدأ فيها تشغيل ملف جديد. هذا مُعَدّ للتطبيقات الخارجية لتحصل على معلومات عن الملف الذي تشغّله.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
@@ -4808,7 +4799,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>ش&amp;غّل MPlayer/MPV في نافذته الخاصة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4818,12 +4809,12 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>بلّغ عن ان&amp;هيارات MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>خيا&amp;رات لـ  MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4831,7 +4822,7 @@ resample=44100:0:0,volnorm</translation>
 Write them separated by spaces.
 Example: -flip -nosound</source>
         <translation>يمكنك هنا أن تمرّر خيارات إضافية الى MPlayer/MPV.
-اكتبها مفصولة بفراغات.
+اكتبها مفصولة بمسافات.
 مثال: -flip -nosound</translation>
     </message>
     <message>
@@ -4852,7 +4843,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تلقائياً احفظ سجلّ المشغّل MPlayer/MPV الى ملفّ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4957,47 +4948,47 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation>شغّل MPlayer/MPV في نافذته الخاصة.</translation>
+        <translation>شغّل MPlayer/MPV في نافذته الخاصة</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أشّرت هذا الخيار، فإن نافذة فيديو MPlayer/MPV لن تكون متضمَّنة في النافذة الرئيسية لـ SMPlayer لكنها ستستخدم نافذتها الخاصة بها بدلا عن ذلك. لاحِظ أن الأحداث المرتبطة بالفأرة و لوحة المفاتيح سيجري التعامل معها من  MPlayer/MPV مباشرة، مما يعني أن اختصارات المفاتيح و نقرات الفأرة ربما لن تعمل كما متوقع مقارنة بحالة استحواذ نافذة MPlayer/MPV  على العَرض.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>التبليغ عن انهيارات MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>اذا أُشّر هذا الخيار، فستظهر نافذة للتبليغ عن انهيارات MPlayer/MPV. خلافاً لذلك ستُهمَل هذه الانهيارات بصمت.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>يبدّل MPlayer/MPV الى نمط تجريبي يتم فيه احتساب بصمات الوقت لإطارات الفيديو بصورة مختلفة، و مرشحات الفيديو التي تضيف إطارات جديدة أو التي تعدّل بصمات الوقت للإطارات الموجودة تكون مدعومة. بصمات الوقت الأكثر دقة تكون مرئية مثلا عند تشغيل الترجمات المتواقتة مع تغيرات المشهد و ذات مكتبات SSA/ASS مفعَّلة. بدون بصمة وقت عَرض pts صحيحة ستكون تواقتات الترجمة عادة متأخرة ببضعة إطارات. لا يعمل هذا الخيار بصورة صحيحة مع بعض ملغيات التضميم و المرمزات.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات لـ  MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>بامكانك هنا كتابة الخيارات لـ MPlayer أو MPV. اكتبها مفصولة بمسافات.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>بامكانك هنا اضافة مرشحات فيديو لـ MPlayer/MPV. اكتبها مفصولة بفوارز. لا تستخدم المسافات!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>بامكانك هنا اضافة مرشحات صوت لـ MPlayer/MPV. اكتبها مفصولة بفوارز. لا تستخدم المسافات!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -5062,7 +5053,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
-        <translation>صحّح PTS</translation>
+        <translation>تصحيح PTS</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5112,12 +5103,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>المشغلات MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>سجّل م&amp;خرَجات MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5384,7 +5375,7 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation type="unfinished">المبدئي</translation>
+        <translation>المبدئي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5394,17 +5385,17 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>قالب للصور الملتقَطة</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>مثلاً %1 ستحفظ الصورة الملتقَطة بإسم &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
+        <translation>الجزء %1 يحدد اسم ملف الفيديو بدون الإمتداد، أما %2 فيضيف رقماً بأربعة مراتب مملوءة بأصفار ابتداءاً.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5449,27 +5440,27 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف التنفيذي لـ MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>يجب أن تحدد هنا الملف التنفيذي لـ MPlayer أو mpv و الذي سيستخدمه SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="917"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يحدد  قالب اسم الملف المستخدَم لحفظ الصور الملتقَطة.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>للإطلاع على لائحة كاملة لمحددات القالب، زُر هذا الرابط:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يعمل مع mpv فقط.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
@@ -5544,12 +5535,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>الملف التن&amp;فيذي لـ MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;قالب:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
@@ -7321,27 +7312,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;يوتيوب Youtube (و مواقع أخرى)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>تمكين ال&amp;دعم الداخلي لليوتيوب Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>نوعية ال&amp;تشغيل</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;وسيط من المستخدِم</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>تمكين دعم MPV لمواقع بث الد&amp;فق</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7351,12 +7342,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="120"/>
         <source>&amp;Enable proxy</source>
-        <translation>م&amp;كن الخادوم الوسيط</translation>
+        <translation>م&amp;كّن الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
-        <translation>المُ&amp;ضيف:</translation>
+        <translation>المُست&amp;ضيف:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="146"/>
@@ -7396,57 +7387,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>يوتيوب Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>تمكين الدعم الداخلي لليوتيوب Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>إن مُكِّن هذا الخيار، سيحاول SMPlayer تشغيل الفيديوات من روابط يوتيوب Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>نوعية يوتيوب Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر النوعية المفضلة لفيديوات يوتيوب Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>وسيط من المستخدِم</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>أعِدَّ البرنامج الوسيط من المستخدِم و الذي سيستخدمه عند الإتصال باليوتيوب Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>تمكين دعم MPV لمواقع بث الدفق</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشّر هذا الخيار فسيحاول SMPlayer تشغيل الفيديوات من مواقع بث الدفق مثل اليوتيوب Youtube و ديلي موشن Dailymotion و فيميو Vimeo و فيفو Vevo و غيرها.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>يتطلب وجود  mpv و  youtube-d.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">الخادوم الوسيط</translation>
+        <translation>الخادوم الوسيط</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7456,37 +7447,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="158"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation>مكن/عطل استخدام الخادوم الوسيط.</translation>
+        <translation>مكن/عطّل استخدام الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
         <source>Host</source>
-        <translation>المُضيف:</translation>
+        <translation>المُستضيف</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="161"/>
         <source>The host name of the proxy.</source>
-        <translation>اسم مضيف الوسيط.</translation>
+        <translation>اسم مستضيف الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
-        <translation>المنفذ:</translation>
+        <translation>المنفذ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="164"/>
         <source>The port of the proxy.</source>
-        <translation>منفذ الوسيط.</translation>
+        <translation>منفذ الخادوم الوسيط.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
-        <translation>ا&amp;سم المستخدم:</translation>
+        <translation>اسم المستخدم</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation>إن احتاج الوسيط إلى استيثاق، فهذا يعين اسم المستخدم.</translation>
+        <translation>إذا احتاج الخادوم الوسيط إلى استيثاق، فهذا يعين اسم المستخدم.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
@@ -7496,7 +7487,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="170"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation>كلمة المرور إلى الخادم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير ضمن ملف الضبط.</translation>
+        <translation>كلمة المرور للخادم الوسيط. &lt;b&gt;تحذير:&lt;/b&gt; ستُخزن كلمة المرور كنص مجرّد بلا تشفير ضمن ملف الضبط..</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
@@ -7506,7 +7497,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>Select the proxy type to be used.</source>
-        <translation>اختر نوع الوسيط المُستعمل.</translation>
+        <translation>اختر نوع الخادوم الوسيط المُستعمل.</translation>
     </message>
 </context>
 <context>
@@ -7566,12 +7557,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>فك الترميز</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;فك الترميز بجهاز</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="372"/>
@@ -7746,62 +7737,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>بدون</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>Auto</source>
-        <translation type="unfinished">تلقائي</translation>
+        <translation>تلقائي</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>فك الترميز بجهاز</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>يعدّ واجهة برمجة تطبيق فك ترميز الفيديو باستخدام جهاز. اذا لم يكن فك الترميز بالجهاز ممكناً، فسيُستخدَم فك الترميز البرمجي بدلا عنه.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Available options:</source>
-        <translation type="unfinished"></translation>
+        <translation>الخيارات المتوفرة:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>بدون: سيُستخدَم فك الترميز البرمجي فقط.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"></translation>
+        <translation>تلقائي: يحاول تلقائيا تمكين فك الترميز بالجهاز باستخدام أول طريقة متوفرة.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="289"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>واجهة vdpau: لمُخرَجات vdpau و  opengl من الفيديو.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>واجهة vaapi: لمُخرَجات opengl و  vaapi من الفيديو. لوحدات المعالجة الصورية من Intel فقط.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>واجهة نَسخ vaapi: تعيد نَسخ الفيديو الى الذاكرة العشوائية RAM للنظام. لوحدات المعالجة الصورية من Intel فقط.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"></translation>
+        <translation>نَسخ dxva2: تعيد نَسخ الفيديو الى الذاكرة العشوائية RAM للنظام. تجريبي.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يعمل مع mpv فقط.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8084,7 +8075,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>ا&amp;ستخدم مكتبة ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
@@ -8216,17 +8207,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدم مكتبة ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>هذا الخيار يمكّن مكتبة ASS، و التي تسمح بعَرض الترجمات بمختلف الألوان و الخطوط و...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>في المعتاد يتوجب عليك أن لا تعطّل هذا الخيار. عطّله فقط اذا كانت نسختك من MPlayer قد جُمّعت بلا دعم لـ freetype. &lt;b&gt;يمكن أن يؤدي تعطيل هذا الخيار الى منع الترجمات من العمل نهائيا!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8416,7 +8407,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished">استخدم نمطًا مُخ&amp;صّصًا</translation>
+        <translation>استخدم طرازاً مُخ&amp;صّصًا</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8685,7 +8676,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation>ا&amp;فتح صفحة المعلومات بعد كل ترقية</translation>
+        <translation>ا&amp;فتح صفحة معلومات بعد كل ترقية</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8715,12 +8706,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation>افتح صفحة المعلومات بعد كل ترقية</translation>
+        <translation>افتح صفحة معلومات بعد كل ترقية</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation>إن مُكن هذا الخيار فستُفتح صفحة معلومات عن استخدام SMPlayer بعد الترقية.</translation>
+        <translation>إن مُكن هذا الخيار فستُفتح صفحة معلومات عن SMPlayer بعد الترقية.</translation>
     </message>
 </context>
 <context>
@@ -8760,53 +8751,53 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="175"/>
+        <location filename="../clhelp.cpp" line="168"/>
         <source>will show this message and then will exit.</source>
         <translation>سيعرض هذه الرسالة ثم يُنهي.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="147"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>سيتُغلَق النافذة الرئيسة عند انتهاء الملف أو قائمة التشغيل.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="522"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>هذا SMPlayer (الإصدار %1) يعمل على %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="133"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>يحاول أن يتصل بنسخة أخرى مشتغلة ويُرسل إليها اللإجراء المُعيَّن. مثال: -send-cation pause. ستُتجاهل الخيارات الأخرى إن وجدت ثم سُينهى التطبيق. ستُعاد القيمة 0 إذا نجح و-1 إذا فشل.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="140"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>تمثل &quot;action_list&quot; قائمة من الإجراءات المفصولة بمسافات. ستنفذ هذه الإجراءات فوراً بعد تحميل الملف (إن وُجد) بنفس الترتيب الذي أدخلت به. للإجراءات التي تقبل التمكين أو التعطيل، بإمكانك تمرير true أو false كمُعامل. مثال: -actions &quot;fullscreen compact true&quot;. كتابة إشارات الاقتباس ضرورية إذا أردت إمرار أكثر من إجراء واحد. </translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="99"/>
-        <location filename="../clhelp.cpp" line="184"/>
+        <location filename="../clhelp.cpp" line="98"/>
+        <location filename="../clhelp.cpp" line="177"/>
         <source>media</source>
         <translation>وسائط</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="178"/>
+        <location filename="../clhelp.cpp" line="171"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>إن وُجدت نسخة أخرى مشتغلة، سيضاف المقطع إلى قائمة التشغيل في تلك النسخة. إن لم توجد نسخة أخرى، سيُتجاهَل هذا الخيار وستُفتح الملفات في نُسخة جديدة.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="150"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>لن تُغلَق النافذة الرئيسة عند انتهاء الملف أو قائمة التشغيل.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="153"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>سيُشغل الفيديو في وضع ملءَ الشاشة.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in window mode.</source>
         <translation>سُيشغل الفيديو في وضع النافذة.</translation>
     </message>
@@ -8816,48 +8807,48 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>أضفه إلى طابور SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="115"/>
+        <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>يفتح الواجهة الرسومية المصغرة بدل المبدئية.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>يستعيد الإلحاقات القديمة وينظف مخزن التسجيل.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="104"/>
-        <location filename="../clhelp.cpp" line="107"/>
+        <location filename="../clhelp.cpp" line="103"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>الاستخدام:</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="94"/>
+        <location filename="../clhelp.cpp" line="93"/>
         <source>directory</source>
         <translation>دليل ملفات</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="95"/>
+        <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
         <translation>action_name</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="96"/>
+        <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
         <translation>action_list</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="121"/>
+        <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
         <translation>يفتح الواجهة الرسومية المبدئية.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="97"/>
+        <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
         <translation>subtitle_file</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="166"/>
+        <location filename="../clhelp.cpp" line="159"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>يُعين ملف الترجمة الذي سيُحمل لمقطع الفيديو الأول.</translation>
     </message>
@@ -8865,27 +8856,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8893,7 +8870,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>%1 و%2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="129"/>
+        <location filename="../clhelp.cpp" line="128"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>يُعين دليل ملفات الذي سيحفظ فيه SMPlayer ملفات ضبطه (smplayer.ini، smplayer_files.ini...)</translation>
     </message>
@@ -8916,47 +8893,37 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>مجهولة</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="118"/>
+        <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
         <translation>يفتح واجهة  المشغل التقليدي Mpc الرسومية.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
+        <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
         <translation>العُرض</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
+        <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
         <translation>الارتفاع</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="125"/>
+        <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
         <translation>يفتح الواجهة الرسومية الداعمة للمظهر.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="160"/>
-        <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="163"/>
-        <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="169"/>
+        <location filename="../clhelp.cpp" line="162"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
         <translation>يعيِّن إحداثيات مكان عَرض النافذة الرئيسة.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="172"/>
+        <location filename="../clhelp.cpp" line="165"/>
         <source>specifies the size of the main window.</source>
         <translation>يعيّن قياس النافذة الرئيسة.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="184"/>
+        <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>تمثل &quot;وسائط&quot; أي نوع من الملفات يستطيع SMPlayer فتحه. يمكن أن تكون ملفاً محلياً أو قرص DVD (مثل dvd://1) أو دفقاً من الإنترنت (مثل mms://...) أو قائمة تشغيل محلية بصيغة m3u أو pls.</translation>
     </message>
@@ -9076,7 +9043,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;لفّ العنوان</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="447"/>
@@ -9176,43 +9143,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>الإجراءات ال&amp;حالية:</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="130"/>
-        <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="156"/>
+        <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
         <translation>أضف فا&amp;صلاً</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="87"/>
+        <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
         <translation>(فاصل)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
         <translation>مُمرِّر الوقت</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
         <translation>مُمرِّر علوّ الصوت</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
         <translation>اعرض الوقت</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
         <translation>إرجاع (3 أوامر في واحد)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
         <translation>تقديم (3 أوامر في واحد)</translation>
     </message>
