@@ -481,10 +481,20 @@ void SMPlayer::createFontFile() {
 	}
 
 	QString input = Paths::appPath() + "/mplayer/fonts/fonts.conf";
-	qDebug("SMPlayer::createFontFile: input: %s", input.toLatin1().constData());
+	if (!QFile::exists(input)) {
+		qDebug("SMPlayer::createFontFile: %s doesn't exist", input.toUtf8().constData());
+		input = Paths::appPath() + "/mplayer/mpv/fonts.conf";
+		if (!QFile::exists(input)) {
+			qDebug("SMPlayer::createFontFile: %s doesn't exist", input.toUtf8().constData());
+			qWarning("SMPlayer::createFontFile: failed to create fonts.conf");
+			return;
+		}
+	}
+	qDebug("SMPlayer::createFontFile: input: %s", input.toUtf8().constData());
 	QFile infile(input);
 	if (infile.open(QIODevice::ReadOnly | QIODevice::Text)) {
 		QString text = infile.readAll();
+		text = text.replace("<!-- <dir>WINDOWSFONTDIR</dir> -->", "<dir>WINDOWSFONTDIR</dir>");
 		text = text.replace("<dir>WINDOWSFONTDIR</dir>", "<dir>" + Paths::fontPath() + "</dir>");
 		//qDebug("SMPlayer::createFontFile: %s", text.toUtf8().constData());
 
