@@ -54,6 +54,9 @@ public:
 	void setPlayFilesFromStart(bool b);
 	bool playFilesFromStart();
 
+	void setIgnorePlayerErrors(bool b);
+	bool ignorePlayerErrors();
+
 protected:
 	virtual void createHelp();
 

@@ -113,6 +113,14 @@ bool PrefPlaylist::playFilesFromStart() {
 	return play_from_start_check->isChecked();
 }
 
+void PrefPlaylist::setIgnorePlayerErrors(bool b) {
+	ignore_errors_check->setChecked(b);
+}
+
+bool PrefPlaylist::ignorePlayerErrors() {
+	return ignore_errors_check->isChecked();
+}
+
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
@@ -151,6 +159,10 @@ void PrefPlaylist::createHelp() {
 		tr("If this option is checked, a copy of the playlist will be saved "
            "in the smplayer configuration when smplayer is closed, and it will "
            "reloaded automatically when smplayer is run again."));
+
+	setWhatsThis(ignore_errors_check, tr("Play next file even if the previous file failed"),
+		tr("If this option is enabled, the playlist will ignore playback errors from a previous file "
+           "and will play the next file in the list.") );
 }
 
 #include "moc_prefplaylist.cpp"
