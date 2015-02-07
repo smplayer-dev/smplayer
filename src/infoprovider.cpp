@@ -38,6 +38,9 @@ MediaData InfoProvider::getInfo(QString mplayer_bin, QString filename) {
 	proc->setOption("frames", "1");
 	proc->setOption("vo", "null");
 	proc->setOption("ao", "null");
+	#ifdef Q_OS_WIN
+	proc->setOption("fontconfig", false);
+	#endif
 	proc->setMedia(filename);
 
 	QString commandline = proc->arguments().join(" ");
