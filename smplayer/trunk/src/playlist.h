@@ -23,6 +23,7 @@
 #include <QList>
 #include <QStringList>
 #include <QWidget>
+#include <QProcess>
 
 class PlaylistItem {
 
@@ -137,12 +138,14 @@ public slots:
 	void setAutoGetInfo(bool b) { automatically_get_info = b; };
 	void setSavePlaylistOnExit(bool b) { save_playlist_in_config = b; };
 	void setPlayFilesFromStart(bool b) { play_files_from_start = b; };
+	void setIgnorePlayerErrors(bool b) { ignore_player_errors = b; };
 
 public:
 	bool directoryRecursion() { return recursive_add_directory; };
 	bool autoGetInfo() { return automatically_get_info; };
 	bool savePlaylistOnExit() { return save_playlist_in_config; };
 	bool playFilesFromStart() { return play_files_from_start; };
+	bool ignorePlayerErrors() { return ignore_player_errors; };
 
 	QList<PlaylistItem> playlist(){return pl;};
 
@@ -181,6 +184,9 @@ protected slots:
 	virtual void loadSettings();
 
 	virtual void maybeSaveSettings();
+
+	void playerFailed(QProcess::ProcessError);
+	void playerFinishedWithError(int);
 
 protected:
 	void createTable();
@@ -243,10 +249,11 @@ private:
 	bool recursive_add_directory;
 	bool automatically_get_info;
 	bool save_playlist_in_config;
-	bool play_files_from_start; 
+	bool play_files_from_start;
 	int row_spacing;
 
 	bool automatically_play_next;
+	bool ignore_player_errors;
 };
 
 

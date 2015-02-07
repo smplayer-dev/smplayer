@@ -126,6 +126,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="ignore_errors_check">
+         <property name="text">
+          <string>Play &amp;next file even if the previous file failed</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>

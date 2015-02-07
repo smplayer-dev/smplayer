@@ -1,5 +1,12 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-02-06)
+ * Add new option in the playlist section in preferences:
+   "Play next file even if the previous file failed"
+   If the option is enabled, when a file fails to play (mplayer crashes or
+   exits with an error code), the playlist will play the next file in the
+   list.
+
 (2015-02-01)
  * Add an option in the toolbar editor to set the size of the icons.
    (Currently it doesn't look good if you increase the size of the icons
