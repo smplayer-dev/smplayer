@@ -317,6 +317,13 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		}
 	}
 	else
+	if (option_name == "fontconfig") {
+		if (isOptionAvailable("--use-text-osd")) {
+			bool b = value.toBool();
+			if (b) arg << "--use-text-osd=yes"; else arg << "--use-text-osd=no";
+		}
+	}
+	else
 	if (option_name == "verbose") {
 		arg << "-v";
 		verbose = true;
