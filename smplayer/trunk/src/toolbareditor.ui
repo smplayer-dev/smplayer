@@ -135,7 +135,14 @@
       </widget>
      </item>
      <item>
-      <widget class="QSpinBox" name="iconsize_spin"/>
+      <widget class="QSpinBox" name="iconsize_spin">
+       <property name="minimum">
+        <number>24</number>
+       </property>
+       <property name="maximum">
+        <number>256</number>
+       </property>
+      </widget>
      </item>
      <item>
       <spacer name="horizontalSpacer">
