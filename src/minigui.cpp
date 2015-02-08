@@ -294,13 +294,14 @@ void MiniGui::loadConfig() {
 	controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
-	floating_control->adjustSize();
 	set->endGroup();
 
 	set->beginGroup("toolbars_icon_size");
 	controlwidget->setIconSize(set->value("controlwidget", controlwidget->iconSize()).toSize());
 	iw->setIconSize(set->value("floating_control", iw->iconSize()).toSize());
 	set->endGroup();
+
+	floating_control->adjustSize();
 #endif
 
 	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
