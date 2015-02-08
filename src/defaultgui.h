@@ -91,6 +91,8 @@ protected slots:
 	virtual void disableActionsOnStop();
 #endif
 
+	void adjustFloatingControlSize();
+
 protected:
 	void reconfigureFloatingControl();
 

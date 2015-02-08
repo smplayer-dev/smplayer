@@ -49,6 +49,8 @@ protected slots:
 	virtual void disableActionsOnStop();
 #endif
 
+	void adjustFloatingControlSize();
+
 protected:
 	virtual void retranslateStrings();
 #if USE_CONFIGURABLE_TOOLBARS
