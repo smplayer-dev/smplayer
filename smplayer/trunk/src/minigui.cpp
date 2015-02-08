@@ -124,6 +124,7 @@ void MiniGui::createFloatingControl() {
 
 	EditableToolbar * iw = new EditableToolbar(floating_control);
 	iw->setObjectName("floating_control");
+	connect(iw, SIGNAL(iconSizeChanged(const QSize &)), this, SLOT(adjustFloatingControlSize()));
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
@@ -234,6 +235,16 @@ QSize MiniGui::minimumSizeHint() const {
 }
 #endif
 
+void MiniGui::adjustFloatingControlSize() {
+	qDebug("MiniGui::adjustFloatingControlSize");
+	//floating_control->adjustSize();
+	QWidget *iw = floating_control->internalWidget();
+	QSize iws = iw->size();
+	QMargins m = floating_control->contentsMargins();
+	int new_height = iws.height() + m.top() + m.bottom();
+	if (new_height < 32) new_height = 32;
+	floating_control->resize(floating_control->width(), new_height);
+}
 
 void MiniGui::saveConfig() {
 	QSettings * set = settings;
