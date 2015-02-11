@@ -1717,5 +1717,8 @@ void Preferences::setupScreenshotFolder() {
 			screenshot_directory = default_screenshot_path;
 		}
 	}
+	else {
+		screenshot_directory = QDir::toNativeSeparators(screenshot_directory);
+	}
 #endif
 }
