@@ -1703,10 +1703,7 @@ void Preferences::setupScreenshotFolder() {
 			qWarning("Preferences::setupScreenshotFolder: folder '%s' does not exist. Using /tmp as fallback", pdir.toUtf8().constData());
 			pdir = "/tmp";
 		}
-		QString default_screenshot_path = pdir + "/smplayer_screenshots";
-		#ifdef Q_OS_WIN
-		default_screenshot_path = default_screenshot_path.replace('/', '\\');
-		#endif
+		QString default_screenshot_path = QDir::toNativeSeparators(pdir + "/smplayer_screenshots");
 		if (!QFile::exists(default_screenshot_path)) {
 			qDebug("Preferences::setupScreenshotFolder: creating '%s'", default_screenshot_path.toUtf8().constData());
 			if (!QDir().mkdir(default_screenshot_path)) {
