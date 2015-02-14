@@ -61,6 +61,7 @@
 #endif
 
 #define DRAG_ITEMS 0
+#define PL_ALLOW_DUPLICATES 1
 
 #define COL_PLAY 0
 #define COL_NAME 1
@@ -458,6 +459,7 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 	filename = Helper::changeSlashes(filename);
 	#endif
 
+#if !PL_ALLOW_DUPLICATES
 	// Test if already is in the list
 	bool exists = false;
 	for ( int n = 0; n < pl.count(); n++) {
@@ -476,6 +478,7 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 	}
 
 	if (!exists) {
+#endif
 		if (name.isEmpty()) {
 			QFileInfo fi(filename);
 			// Let's see if it looks like a file (no dvd://1 or something)
@@ -489,9 +492,11 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 		}
 		pl.append( PlaylistItem(filename, name, duration) );
 		//setModified( true ); // Better set the modified on a higher level
+#if !PL_ALLOW_DUPLICATES
 	} else {
 		qDebug("Playlist::addItem: item not added, already in the list");
 	}
+#endif
 }
 
 // EDIT BY NEO -->
@@ -999,29 +1004,23 @@ void Playlist::getMediaInfo() {
 	}
 	if (!artist.isEmpty()) name = artist + " - " + name;
 
-	int pos=0;
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		/* qDebug("Playlist:: getMediaInfo: f1: %s f2: %s", (*it).filename().toUtf8().constData(), filename.toUtf8().constData()); */
-		if ( (*it).filename() == filename ) {
-			/* qDebug("Playlist:: getMediaInfo: duration: %f", (*it).duration()); */
-			if ((*it).duration()<1) {
+	for (int n = 0; n < pl.count(); n++) {
+		if (pl[n].filename() == filename) {
+			// Found item
+			if (pl[n].duration() < 1) {
 				if (!name.isEmpty()) {
-					(*it).setName(name);
+					pl[n].setName(name);
 				}
-				(*it).setDuration(duration);
-				//setModified( true );
-			} 
-			else 
-			// Edited name (sets duration to 1)
-			if ((*it).duration()==1) {
-				(*it).setDuration(duration);
-				//setModified( true );
+				pl[n].setDuration(duration);
 			}
-			setCurrentItem(pos);
+			else
+			// Edited name (sets duration to 1)
+			if (pl[n].duration() == 1) {
+				pl[n].setDuration(duration);
+			}
 		}
-		pos++;
 	}
+
 	updateView();
 }
 
