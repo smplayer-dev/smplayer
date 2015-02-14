@@ -1,5 +1,8 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-02-14)
+ * Allow duplicate items in the playlist.
+
 (2015-02-06)
  * Add new option in the playlist section in preferences:
    "Play next file even if the previous file failed"
