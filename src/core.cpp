@@ -1799,7 +1799,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// OSD
-	proc->setOption("osd-scale", proc->isMPlayer() ? mset.subfont_osd_scale : mset.osd_scale);
+	proc->setOption("osd-scale", proc->isMPlayer() ? pref->subfont_osd_scale : pref->osd_scale);
 
 	// Subtitles fonts
 	if ((pref->use_ass_subtitles) && (pref->freetype_support)) {
@@ -3191,31 +3191,31 @@ void Core::changeOSDScale(double value) {
 	if (value < 0) value = 0;
 
 	if (proc->isMPlayer()) {
-		if (value != mset.subfont_osd_scale) {
-			mset.subfont_osd_scale = value;
+		if (value != pref->subfont_osd_scale) {
+			pref->subfont_osd_scale = value;
 			restartPlay();
 		}
 	} else {
-		if (value != mset.osd_scale) {
-			mset.osd_scale = value;
-			proc->setOSDScale(mset.osd_scale);
+		if (value != pref->osd_scale) {
+			pref->osd_scale = value;
+			proc->setOSDScale(pref->osd_scale);
 		}
 	}
 }
 
 void Core::incOSDScale() {
 	if (proc->isMPlayer()) {
-		changeOSDScale(mset.subfont_osd_scale + 1);
+		changeOSDScale(pref->subfont_osd_scale + 1);
 	} else {
-		changeOSDScale(mset.osd_scale + 0.20);
+		changeOSDScale(pref->osd_scale + 0.20);
 	}
 }
 
 void Core::decOSDScale() {
 	if (proc->isMPlayer()) {
-		changeOSDScale(mset.subfont_osd_scale - 1);
+		changeOSDScale(pref->subfont_osd_scale - 1);
 	} else {
-		changeOSDScale(mset.osd_scale - 0.20);
+		changeOSDScale(pref->osd_scale - 0.20);
 	}
 }
 
