@@ -158,6 +158,8 @@ void Preferences::reset() {
 	min_step = 4;
 
 	osd = None;
+	osd_scale = 1;
+	subfont_osd_scale = 3;
 	osd_delay = 2200;
 
 	file_settings_method = "hash"; // Possible values: normal & hash
@@ -638,6 +640,8 @@ void Preferences::save() {
 	set->setValue("min_step", min_step);
 
 	set->setValue("osd", osd);
+	set->setValue("osd_scale", osd_scale);
+	set->setValue("subfont_osd_scale", subfont_osd_scale);
 	set->setValue("osd_delay", osd_delay);
 
 	set->setValue("file_settings_method", file_settings_method);
@@ -1151,6 +1155,8 @@ void Preferences::load() {
 	min_step = set->value("min_step", min_step).toInt();
 
 	osd = set->value("osd", osd).toInt();
+	osd_scale = set->value("osd_scale", osd_scale).toDouble();
+	subfont_osd_scale = set->value("subfont_osd_scale", subfont_osd_scale).toDouble();
 	osd_delay = set->value("osd_delay", osd_delay).toInt();
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
