@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2151,73 +2149,73 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2842"/>
+        <location filename="../core.cpp" line="2834"/>
         <source>Brightness: %1</source>
         <translation>Kecerahan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2858"/>
+        <location filename="../core.cpp" line="2850"/>
         <source>Contrast: %1</source>
         <translation>Beza jelas: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2873"/>
+        <location filename="../core.cpp" line="2865"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2888"/>
+        <location filename="../core.cpp" line="2880"/>
         <source>Hue: %1</source>
         <translation>Rona: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2903"/>
+        <location filename="../core.cpp" line="2895"/>
         <source>Saturation: %1</source>
         <translation>Ketepuan: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3032"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Volume: %1</source>
         <translation>Volum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3892"/>
+        <location filename="../core.cpp" line="3884"/>
         <source>Zoom: %1</source>
         <translation>Zum: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4113"/>
+        <location filename="../core.cpp" line="4105"/>
         <source>Buffering...</source>
         <translation>Menimbal...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3150"/>
-        <location filename="../core.cpp" line="3161"/>
+        <location filename="../core.cpp" line="3142"/>
+        <location filename="../core.cpp" line="3153"/>
         <source>Font scale: %1</source>
         <translation>Skala fon: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3757"/>
+        <location filename="../core.cpp" line="3749"/>
         <source>Aspect ratio: %1</source>
         <translation>Nisbah bidang: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4109"/>
+        <location filename="../core.cpp" line="4101"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Mengemaskini cache fon. Ia mungkin mengambil masa beberapa saat...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3075"/>
+        <location filename="../core.cpp" line="3067"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Lengahan sarikata: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3093"/>
+        <location filename="../core.cpp" line="3085"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lengahan audio: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2949"/>
         <source>Speed: %1</source>
         <translation>Kelajuan: %1</translation>
     </message>
@@ -2232,37 +2230,37 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Tidak dapat cari URL video</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3230"/>
         <source>Subtitles on</source>
         <translation>Sarikata dihidupkan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Subtitles off</source>
         <translation>Sarikata dimatikan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3805"/>
+        <location filename="../core.cpp" line="3797"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kini jangkau roda tetikus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3808"/>
+        <location filename="../core.cpp" line="3800"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kini roda tetikus mengubah volum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3811"/>
+        <location filename="../core.cpp" line="3803"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kini roda tetikus mengubah aras zum</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3814"/>
+        <location filename="../core.cpp" line="3806"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kini roda tetikus mengubah kelajuan</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4118"/>
+        <location filename="../core.cpp" line="4110"/>
         <source>Starting...</source>
         <translation>Memulakan...</translation>
     </message>
@@ -2277,17 +2275,17 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Cekupan skrin TIDAK diambil, folder tidak dikonfigur</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2576"/>
+        <location filename="../core.cpp" line="2568"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Penanda &quot;A&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2593"/>
+        <location filename="../core.cpp" line="2585"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Penanda &quot;B&quot; ditetapkan kepada %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2608"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>A-B markers cleared</source>
         <translation>Penanda A-B dikosongkan</translation>
     </message>
@@ -2844,9 +2842,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2944,7 +2940,7 @@ Contoh: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -7558,12 +7554,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Penyahkodan</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Pen&amp;yahkodan perkakasan</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="372"/>
@@ -7738,62 +7734,62 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
         <source>None</source>
-        <translation type="unfinished">Tiada</translation>
+        <translation>Tiada</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Penyahkodan perkakasan</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tetapkan API penyahkodan video perkakasan. Jika penyahkodan perkakasan tidak diperoleh, penyahkodan perisian akan digunakan sebagai ganti.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Available options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan tersedia:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tiada: hanya penyahkodan perisian akan digunakan.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Auto: ia cuba benarkan penyahkodan perkakasan secara automatik menggunakan kaedah pertama yang tersedia.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="289"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>vdpau: untuk output video vdpau dan opengl.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi: untuk output video opengl dan vaapi. Untuk GPU Intel sahaja.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi-copy: ia menyalin video kembali ke dalam RAM sistem. Untuk GPU Intel sahaja.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"></translation>
+        <translation>dxva2-copy: ia menyalin video kembali RAM sistem. Eksperimental.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished">Pilihan ini hanya berfungsi dengan mpv.</translation>
+        <translation>Pilihan ini hanya berfungsi dengan  mpv.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8752,53 +8748,53 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
 <context>
     <name>QObject</name>
     <message>
-        <location filename="../clhelp.cpp" line="175"/>
+        <location filename="../clhelp.cpp" line="168"/>
         <source>will show this message and then will exit.</source>
         <translation>akan papar mesej ini kemudian akan ditutup.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="148"/>
+        <location filename="../clhelp.cpp" line="147"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
         <translation>tetingkap utama akan ditutup bila fail/senarai main selesai.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="522"/>
+        <location filename="../smplayer.cpp" line="514"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>Ini adalah SMPlayer v. %1 dijalankan dalam %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="133"/>
+        <location filename="../clhelp.cpp" line="132"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
         <translation>cuba membuat sambungan ke kejadian lain dan hantar ke tindakan yang ditentukan. Contohnya: -send-action pause Pilihan yang lain (jika ada) akan diabaikan dan aplikasi akan ditutup. Ia akan kembali kepada 0 bila berjaya atau -1 bila mengalami kegagalan.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="140"/>
+        <location filename="../clhelp.cpp" line="139"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
         <translation>action_list merupakan satu senarai tindakan yang dipisah dengan tanda jarak. Tindakan akan dilakukan selepas memuatkan fail (jika ada) dalam tertib yang anda masukkan. Untuk tindakan boleh disemak anda boleh masukkan true atau false sebagai parameter. Contohnya:-actions &quot;fullscreen compact true&quot;. Simbol petikan adalah penting jika anda mahu masukkan lebih daripada satu tindakan. </translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="99"/>
-        <location filename="../clhelp.cpp" line="184"/>
+        <location filename="../clhelp.cpp" line="98"/>
+        <location filename="../clhelp.cpp" line="177"/>
         <source>media</source>
         <translation>media</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="178"/>
+        <location filename="../clhelp.cpp" line="171"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
         <translation>jika terdapat kejadian lain sedang berjalan, media akan ditambah ke senarai main kejadian tersebut. Jika tiada kejadian lain, pilian ini akan diabaikan dan fail akan dibuka dalam kejadian baru.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="151"/>
+        <location filename="../clhelp.cpp" line="150"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
         <translation>tetingkap utama tidak akan ditutup bila fail/senarai main selesai.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="154"/>
+        <location filename="../clhelp.cpp" line="153"/>
         <source>the video will be played in fullscreen mode.</source>
         <translation>video akan dimainkan dalam mod skrin penuh.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="157"/>
+        <location filename="../clhelp.cpp" line="156"/>
         <source>the video will be played in window mode.</source>
         <translation>video akan dimainkan dalam mod tetingkap.</translation>
     </message>
@@ -8808,48 +8804,48 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Baris gilir dalam SMPlayer</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="115"/>
+        <location filename="../clhelp.cpp" line="114"/>
         <source>opens the mini gui instead of the default one.</source>
         <translation>buka gui mini selain dari yang lalai.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="112"/>
+        <location filename="../clhelp.cpp" line="111"/>
         <source>Restores the old associations and cleans up the registry.</source>
         <translation>Pulihkan kaitan lama dan bersihkan registry.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="104"/>
-        <location filename="../clhelp.cpp" line="107"/>
+        <location filename="../clhelp.cpp" line="103"/>
+        <location filename="../clhelp.cpp" line="106"/>
         <source>Usage:</source>
         <translation>Penggunaan:</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="94"/>
+        <location filename="../clhelp.cpp" line="93"/>
         <source>directory</source>
         <translation>direktori</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="95"/>
+        <location filename="../clhelp.cpp" line="94"/>
         <source>action_name</source>
         <translation>action_name</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="96"/>
+        <location filename="../clhelp.cpp" line="95"/>
         <source>action_list</source>
         <translation>action_list</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="121"/>
+        <location filename="../clhelp.cpp" line="120"/>
         <source>opens the default gui.</source>
         <translation>buka gui lalai.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="97"/>
+        <location filename="../clhelp.cpp" line="96"/>
         <source>subtitle_file</source>
         <translation>subtitle_file</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="166"/>
+        <location filename="../clhelp.cpp" line="159"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
         <translation>tentukan fail sarikata yang dimuatkan untuk video pertama.</translation>
     </message>
@@ -8857,17 +8853,13 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8875,7 +8867,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>%1 dan %2</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="129"/>
+        <location filename="../clhelp.cpp" line="128"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
         <translation>tentukan direktori yang mana smplayer akan menyimpan fail konfigurasinya (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
@@ -8898,47 +8890,37 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>tidak diketahui</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="118"/>
+        <location filename="../clhelp.cpp" line="117"/>
         <source>opens the mpc gui.</source>
         <translation>buka gui mpc.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
+        <location filename="../clhelp.cpp" line="97"/>
         <source>width</source>
         <translation>lebar</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="98"/>
+        <location filename="../clhelp.cpp" line="97"/>
         <source>height</source>
         <translation>tinggi</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="125"/>
+        <location filename="../clhelp.cpp" line="124"/>
         <source>opens the gui with support for skins.</source>
         <translation>buka gui dengan sokongan kulit.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="160"/>
-        <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="163"/>
-        <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../clhelp.cpp" line="169"/>
+        <location filename="../clhelp.cpp" line="162"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
         <translation>tentukan koordinat yang mana tetingkap utama akan dipaparkan.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="172"/>
+        <location filename="../clhelp.cpp" line="165"/>
         <source>specifies the size of the main window.</source>
         <translation>tentukan saiz tetingkap utama.</translation>
     </message>
     <message>
-        <location filename="../clhelp.cpp" line="184"/>
+        <location filename="../clhelp.cpp" line="177"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;media&apos; adalah jenis fail yang mana SMPlayer dapat membukanya. Ia boleh jadi fail setempat, DVD (cth. dvd://1), strim Internet (cth. mms://....) atau senarai main setempat dalam format m3u atau pls.</translation>
     </message>
@@ -9158,43 +9140,38 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
         <translation>Tindakan sema&amp;sa:</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="130"/>
-        <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../toolbareditor.ui" line="156"/>
+        <location filename="../toolbareditor.ui" line="143"/>
         <source>Add &amp;separator</source>
         <translation>Tambah p&amp;emisah</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="87"/>
+        <location filename="../toolbareditor.cpp" line="180"/>
         <source>(separator)</source>
         <translation>(pemisah)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="239"/>
         <source>Time slider</source>
         <translation>Pelungsur masa</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="241"/>
         <source>Volume slider</source>
         <translation>Pelungsur volum</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="243"/>
         <source>Display time</source>
         <translation>Masa paparan</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="245"/>
         <source>3 in 1 rewind</source>
         <translation>Undur 3 dalam 1</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>3 in 1 forward</source>
         <translation>Maju 3 dalam 1</translation>
     </message>
