@@ -2407,7 +2407,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	proc->setMedia(file, url_is_playlist);
+	proc->setMedia(file, proc->isMPlayer() ? url_is_playlist : false); // Don't use playlist with mpv
 
 	// It seems the loop option must be after the filename
 	if (mset.loop) {
