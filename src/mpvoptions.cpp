@@ -22,37 +22,6 @@
 void MPVProcess::addArgument(const QString & a) {
 }
 
-/*
-filename=${=filename}
-path=${=path}
-stream_start=${=stream-start}
-stream_end=${=stream-end}
-stream_length=${=stream-length}
-demuxer=${=demuxer}
-length=${=length}
-chapters=${=chapters}
-editions=${=editions}
-titles=${=titles}
-audio=${=audio}
-audio_bitrate=${=audio-bitrate}
-audio_codec=${=audio-codec}
-audio_format=${=audio-format}
-channels=${=channels}
-samplerate=${=samplerate}
-video=${=video}
-angle=${=angle}
-video_bitrate=${=video-bitrate}
-video_codec=${=video-codec}
-video_format=${=video-format}
-video_aspect=${=video-aspect}
-fps=${=fps}
-width=${=width}
-height=${=height}
-dwidth=${=dwidth}
-dheight=${=dheight}
-sub=${=sub}
-*/
-
 void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	arg << "--term-playing-msg="
 			"MPV_VERSION=${=mpv-version:}\n"
