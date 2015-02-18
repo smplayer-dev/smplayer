@@ -3979,6 +3979,10 @@ void Core::showFilenameOnOSD() {
 	proc->showFilenameOnOSD();
 }
 
+void Core::showTimeOnOSD() {
+	proc->showTimeOnOSD();
+}
+
 void Core::toggleDeinterlace() {
 	qDebug("Core::toggleDeinterlace");
 	proc->toggleDeinterlace();

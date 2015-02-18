@@ -63,6 +63,7 @@ public:
 	void frameBackStep();
 	void showOSDText(const QString & text, int duration, int level);
 	void showFilenameOnOSD();
+	void showTimeOnOSD();
 	void setContrast(int value);
 	void setBrightness(int value);
 	void setHue(int value);

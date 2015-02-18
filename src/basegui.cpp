@@ -1018,6 +1018,9 @@ void BaseGui::createActions() {
 	showFilenameAct = new MyAction(Qt::SHIFT | Qt::Key_I, this, "show_filename");
 	connect( showFilenameAct, SIGNAL(triggered()), core, SLOT(showFilenameOnOSD()) );
 
+	showTimeAct = new MyAction(Qt::Key_I, this, "show_time");
+	connect( showTimeAct, SIGNAL(triggered()), core, SLOT(showTimeOnOSD()) );
+
 	toggleDeinterlaceAct = new MyAction(Qt::Key_D, this, "toggle_deinterlacing");
 	connect( toggleDeinterlaceAct, SIGNAL(triggered()), core, SLOT(toggleDeinterlace()) );
 
@@ -1775,6 +1778,7 @@ void BaseGui::retranslateStrings() {
 	nextWheelFunctionAct->change( Images::icon("next_wheel_function"), tr("Next wheel function") );
 
 	showFilenameAct->change( tr("Show filename on OSD") );
+	showTimeAct->change( tr("Show playback time on OSD") );
 	toggleDeinterlaceAct->change( tr("Toggle deinterlacing") );
 
 

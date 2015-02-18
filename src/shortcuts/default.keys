@@ -141,6 +141,7 @@ show_context_menu
 next_aspect	A
 next_wheel_function	
 show_filename	Shift+I
+show_time	I
 toggle_deinterlacing	D
 osd_none	
 osd_seek	
