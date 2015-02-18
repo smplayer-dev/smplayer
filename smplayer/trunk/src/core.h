@@ -307,6 +307,7 @@ public slots:
 	void autoZoomFor235();
 
 	void showFilenameOnOSD();
+	void showTimeOnOSD();
 	void toggleDeinterlace();
 
 	void changeUseCustomSubStyle(bool);

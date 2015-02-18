@@ -70,6 +70,7 @@ public:
 	virtual void frameBackStep() = 0;
 	virtual void showOSDText(const QString & text, int duration, int level) = 0;
 	virtual void showFilenameOnOSD() = 0;
+	virtual void showTimeOnOSD() = 0;
 	virtual void setContrast(int value) = 0;
 	virtual void setBrightness(int value) = 0;
 	virtual void setHue(int value) = 0;
