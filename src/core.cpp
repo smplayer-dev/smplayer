@@ -3822,6 +3822,20 @@ void Core::changeLetterbox(bool b) {
 
 	if (mset.add_letterbox != b) {
 		mset.add_letterbox = b;
+		if (proc->isMPV()) {
+			proc->enableLetterbox(b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
+		} else {
+			restartPlay();
+		}
+	}
+}
+
+void Core::changeLetterboxOnFullscreen(bool b) {
+	qDebug("Core::changeLetterboxOnFullscreen: %d", b);
+
+	if (proc->isMPV()) {
+		proc->enableLetterbox(b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
+	} else {
 		restartPlay();
 	}
 }

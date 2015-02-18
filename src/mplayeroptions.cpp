@@ -359,3 +359,7 @@ void MplayerProcess::setOSDScale(double value) {
 	// not available
 	//writeToStdin("set_property subfont-osd-scale " + QString::number(value)); 
 }
+
+void MplayerProcess::enableLetterbox(bool b, double monitor_aspect_ratio) {
+	// not supported
+}

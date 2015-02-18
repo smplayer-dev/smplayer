@@ -3,6 +3,8 @@
 (2015-02-18)
  * New action show_time (assigned by default to key I). It shows the current
    playback time, total time and percentage, for 5 seconds on the OSD.
+ * (Experimental) Now, if using mpv, the option to add black borders doesn't
+   restart mpv.
 
 (2015-02-14)
  * Allow duplicate items in the playlist.
