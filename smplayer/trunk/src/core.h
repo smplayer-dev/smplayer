@@ -170,6 +170,7 @@ public slots:
 	void changeDenoise(int);
 	void changeUnsharp(int);
 	void changeLetterbox(bool);
+	void changeLetterboxOnFullscreen(bool);
 	void changeUpscale(bool);
 
 	void seek(int secs);

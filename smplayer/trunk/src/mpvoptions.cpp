@@ -672,3 +672,13 @@ void MPVProcess::askForLength() {
 void MPVProcess::setOSDScale(double value) {
 	writeToStdin("set osd-scale " + QString::number(value));
 }
+
+void MPVProcess::enableLetterbox(bool b, double monitor_aspect_ratio) {
+	QString filter = QString("expand=aspect=%1").arg(monitor_aspect_ratio);
+	if (b) {
+		writeToStdin("vf add \"" + filter + "\"");
+	} else {
+		writeToStdin("vf del \"" + filter + "\"");
+	}
+}
+
