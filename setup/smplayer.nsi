@@ -501,7 +501,11 @@ Section -RestorePrograms
 
   ${If} $Restore_SMTube == 1
     DetailPrint $(Info_SMTube_Restore)
-    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\*" "$INSTDIR"
+    CreateDirectory "$INSTDIR\docs\smtube"
+    CreateDirectory "$INSTDIR\translations"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\smtube.exe" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
   ${EndIf}
 
 !ifndef WIN64
@@ -554,6 +558,8 @@ Section -Post
 !ifdef WIN64
   RMDir "$INSTDIR\mplayer\codecs"
 !endif
+
+  ;SetAutoClose false
 
 SectionEnd
 
