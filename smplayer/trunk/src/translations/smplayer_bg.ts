@@ -472,7 +472,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="181"/>
         <source>Audio Equalizer</source>
-        <translation>&amp;Тонкоректор</translation>
+        <translation>Тонкоректор</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="184"/>
@@ -1250,7 +1250,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1611"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>Генератор на миниатюри...</translation>
+        <translation>Гене&amp;ратор на миниатюри...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1632"/>
@@ -1928,7 +1928,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4209"/>
         <location filename="../basegui.cpp" line="4213"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation>Забавяне на звука (в милисекунди)</translation>
+        <translation>Забавяне на звука (в милисекунди):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4224"/>
@@ -1940,7 +1940,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4225"/>
         <location filename="../basegui.cpp" line="4229"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation>Забавяне на субтитрите (в милисекунди)</translation>
+        <translation>Забавяне на субтитрите (в милисекунди):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1911"/>
@@ -2403,7 +2403,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.ui" line="14"/>
         <source>MPlayer Error</source>
-        <translation>Грешка в MPlayer.</translation>
+        <translation>Грешка в MPlayer</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="22"/>
@@ -2869,7 +2869,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
         <source>Download failed: %1.</source>
-        <translation>Неуспешно изтегляне на: %1</translation>
+        <translation>Неуспешно изтегляне на: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
@@ -2963,7 +2963,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation>&amp;Опции:</translation>
+        <translation>&amp;Опции</translation>
     </message>
 </context>
 <context>
@@ -4808,12 +4808,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation>П&amp;одаване на сигнал за грешки и сривове в MPlayer/MPV</translation>
+        <translation>П&amp;одаване на сигнал за сривове в MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation>Настройки на MP&amp;layer/MPV</translation>
+        <translation>Опци&amp;и на MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4842,7 +4842,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation>А&amp;втозапис отчета на MPlayer/MPV във файл.</translation>
+        <translation>А&amp;втозапис отчета на MPlayer/MPV във файл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4857,7 +4857,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="611"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Резултат на SMPlayer-отчет</translation>
+        <translation>Резул&amp;тат на SMPlayer-отчет</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="682"/>
@@ -4937,17 +4937,17 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>Repaint the background of the video window</source>
-        <translation>Пребоядисване фона на видео прозореца.</translation>
+        <translation>Пребоядисване фона на видео прозореца</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Пребо&amp;ядисване фона на видео прозореца.</translation>
+        <translation>Пребо&amp;ядисване фона на видео прозореца</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation>Пускане на MPlayer/MPV в отделен прозорец</translation>
+        <translation>Стартиране на MPlayer/MPV в отделен прозорец</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
@@ -4957,7 +4957,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation>Подаване на сигнал за грешки и сривове в MPlayer/MPV</translation>
+        <translation>Подаване на сигнал за сривове в MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
@@ -5175,7 +5175,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="228"/>
         <source>Uncheck all file types in the list</source>
-        <translation>Демаркиране на всички видове файлове от списъка.</translation>
+        <translation>Демаркиране на всички видове файлове от списъка</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="230"/>
@@ -5374,7 +5374,7 @@ Example: -flip -nosound</source>
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation>По подразбиране</translation>
+        <translation>Стандартно</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5384,7 +5384,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
-        <translation>Екранни шаблони</translation>
+        <translation>Шаблон за снимките на екрана</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
@@ -5394,7 +5394,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation>%1 определя името файла от видеото без разширението, %2 добавя 4-цифрен номер с допълващи нули.</translation>
+        <translation>%1 извлича името на видео файла без разширението, %2 добавя 4-цифрен номер с допълващи нули.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5454,12 +5454,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation>За пълният списък на шаблоните посетете този линк:</translation>
+        <translation>За пълния списък на шаблоните посетете този линк:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation>Тази опция работи само с MPV.</translation>
+        <translation>Тази опция работи само с mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
@@ -7390,7 +7390,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation>Разрешаване на вътрешна поддръжка в Youtube</translation>
+        <translation>Активиране на вътрешна поддръжка за Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
@@ -7400,12 +7400,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation>Youtube качество</translation>
+        <translation>Качество за Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Избиране на качеството за видеоклиповете в YouTube.</translation>
+        <translation>Избиране на качество за видеоклиповете от Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7555,7 +7555,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation>Декодиране</translation>
+        <translation>Разкодиране</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
@@ -7735,7 +7735,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
         <source>None</source>
-        <translation>Нищо</translation>
+        <translation>Без</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8073,7 +8073,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation>Използване на &amp;ASS библиотека</translation>
+        <translation>Използвай &amp;ASS библиотека</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
@@ -8205,7 +8205,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="413"/>
         <source>Use the ASS library</source>
-        <translation>Използване на ASS библиотека</translation>
+        <translation>Използвай ASS библиотека</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
@@ -8674,7 +8674,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation>&amp;Отвори страница с информация след обновлението.</translation>
+        <translation>&amp;Отвори страница с информация след обновлението</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8704,7 +8704,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation>Отвори страница с информация след обновлението.</translation>
+        <translation>Отвори страница с информация след обновлението</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
