@@ -365,7 +365,7 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "noise") {
-		arg << "--vf-add=noise=9:pattern:hq";
+		arg << "--vf-add=noise=9:pattern=yes";
 	}
 	else
 	if (filter_name == "deblock") {
@@ -682,7 +682,7 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 	else
 	if (filter == "noise") {
-		f = "noise=9:pattern:hq";
+		f = "noise=9:pattern=yes";
 	}
 	else
 	if (filter == "scale" || filter == "gradfun") {
