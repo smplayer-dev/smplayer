@@ -2733,6 +2733,14 @@ void Core::setStereoMode(int mode) {
 
 
 // Video filters
+
+#define CHANGE_VF(Filter, Enable, Option) \
+	if (proc->isMPV()) { \
+		proc->changeVF(Filter, Enable, Option); \
+	} else { \
+		restartPlay(); \
+	}
+
 void Core::toggleAutophase() {
 	toggleAutophase( !mset.phase_filter );
 }
@@ -2777,11 +2785,7 @@ void Core::toggleGradfun(bool b) {
 	qDebug("Core::toggleGradfun: %d", b);
 	if ( b != mset.gradfun_filter) {
 		mset.gradfun_filter = b;
-		if (proc->isMPV()) {
-			proc->changeVF("gradfun", b, pref->filters->item("gradfun").options());
-		} else {
-			restartPlay();
-		}
+		CHANGE_VF("gradfun", b, pref->filters->item("gradfun").options());
 	}
 }
 
@@ -2793,11 +2797,7 @@ void Core::toggleNoise(bool b) {
 	qDebug("Core::toggleNoise: %d", b);
 	if ( b != mset.noise_filter ) {
 		mset.noise_filter = b;
-		if (proc->isMPV()) {
-			proc->changeVF("noise", b);
-		} else {
-			restartPlay();
-		}
+		CHANGE_VF("noise", b, QVariant());
 	}
 }
 
@@ -2833,12 +2833,8 @@ void Core::changeUpscale(bool b) {
 	qDebug( "Core::changeUpscale: %d", b );
 	if (mset.upscaling_filter != b) {
 		mset.upscaling_filter = b;
-		if (proc->isMPV()) {
-			int width = DesktopInfo::desktop_size(mplayerwindow).width();
-			proc->changeVF("scale", b, QString::number(width) + ":-2");
-		} else {
-			restartPlay();
-		}
+		int width = DesktopInfo::desktop_size(mplayerwindow).width();
+		CHANGE_VF("scale", b, QString::number(width) + ":-2");
 	}
 }
 
@@ -3835,22 +3831,13 @@ void Core::changeLetterbox(bool b) {
 
 	if (mset.add_letterbox != b) {
 		mset.add_letterbox = b;
-		if (proc->isMPV()) {
-			proc->changeVF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
-		} else {
-			restartPlay();
-		}
+		CHANGE_VF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
 	}
 }
 
 void Core::changeLetterboxOnFullscreen(bool b) {
 	qDebug("Core::changeLetterboxOnFullscreen: %d", b);
-
-	if (proc->isMPV()) {
-		proc->changeVF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
-	} else {
-		restartPlay();
-	}
+	CHANGE_VF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
 }
 
 void Core::changeOSD(int v) {
