@@ -684,6 +684,10 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	if (filter == "noise") {
 		f = "noise=9:pattern:hq";
 	}
+	else
+	if (filter == "scale" || filter == "gradfun") {
+		f = filter + "=" + option.toString();
+	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
 	}
