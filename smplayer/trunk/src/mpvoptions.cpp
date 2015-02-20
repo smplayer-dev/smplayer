@@ -530,11 +530,11 @@ void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 }
 
 void MPVProcess::showFilenameOnOSD() {
-	writeToStdin("show_text \"${filename}\" 5000 0");
+	writeToStdin("show_text \"${filename}\" 2000 0");
 }
 
 void MPVProcess::showTimeOnOSD() {
-	writeToStdin("show_text \"${time-pos} / ${length:0} (${percent-pos}%)\" 5000 0");
+	writeToStdin("show_text \"${time-pos} / ${length:0} (${percent-pos}%)\" 2000 0");
 }
 
 void MPVProcess::setContrast(int value) {

@@ -226,11 +226,11 @@ void MplayerProcess::showOSDText(const QString & text, int duration, int level) 
 }
 
 void MplayerProcess::showFilenameOnOSD() {
-	writeToStdin("osd_show_property_text \"${filename}\" 5000 0");
+	writeToStdin("osd_show_property_text \"${filename}\" 2000 0");
 }
 
 void MplayerProcess::showTimeOnOSD() {
-	writeToStdin("osd_show_property_text \"${time_pos} / ${length} (${percent_pos}%)\" 5000 0");
+	writeToStdin("osd_show_property_text \"${time_pos} / ${length} (${percent_pos}%)\" 2000 0");
 }
 
 void MplayerProcess::setContrast(int value) {
