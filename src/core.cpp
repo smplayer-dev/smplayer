@@ -2777,7 +2777,11 @@ void Core::toggleGradfun(bool b) {
 	qDebug("Core::toggleGradfun: %d", b);
 	if ( b != mset.gradfun_filter) {
 		mset.gradfun_filter = b;
-		restartPlay();
+		if (proc->isMPV()) {
+			proc->changeVF("gradfun", b, pref->filters->item("gradfun").options());
+		} else {
+			restartPlay();
+		}
 	}
 }
 
@@ -2829,7 +2833,12 @@ void Core::changeUpscale(bool b) {
 	qDebug( "Core::changeUpscale: %d", b );
 	if (mset.upscaling_filter != b) {
 		mset.upscaling_filter = b;
-		restartPlay();
+		if (proc->isMPV()) {
+			int width = DesktopInfo::desktop_size(mplayerwindow).width();
+			proc->changeVF("scale", b, QString::number(width) + ":-2");
+		} else {
+			restartPlay();
+		}
 	}
 }
 

@@ -1,5 +1,9 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-02-19)
+ * Now the following filters don't restart mpv when they are turned on/off:
+   add black borders, gradfun, add noise and software scaling.
+
 (2015-02-18)
  * New action show_time (assigned by default to key I). It shows the current
    playback time, total time and percentage, for 2 seconds on the OSD.
