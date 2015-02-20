@@ -92,7 +92,7 @@ public:
 	virtual void setLoop(int v) = 0;
 	virtual void takeScreenshot(ScreenshotType t, bool include_subtitles = false) = 0;
 	virtual void setTitle(int ID) = 0;
-	virtual void enableLetterbox(bool b, double monitor_aspect_ratio) = 0;
+	virtual void changeVF(const QString & filter, bool enable, const QVariant & option = QVariant()) = 0;
 #if DVDNAV_SUPPORT
 	virtual void discSetMousePos(int x, int y) = 0;
 	virtual void discButtonPressed(const QString & button_name) = 0;
