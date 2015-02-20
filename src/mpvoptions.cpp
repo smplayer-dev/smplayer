@@ -673,12 +673,22 @@ void MPVProcess::setOSDScale(double value) {
 	writeToStdin("set osd-scale " + QString::number(value));
 }
 
-void MPVProcess::enableLetterbox(bool b, double monitor_aspect_ratio) {
-	QString filter = QString("expand=aspect=%1").arg(monitor_aspect_ratio);
-	if (b) {
-		writeToStdin("vf add \"" + filter + "\"");
-	} else {
-		writeToStdin("vf del \"" + filter + "\"");
+void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
+	qDebug() << "MPVProcess::changeVF:" << filter << enable;
+
+	QString f;
+	if (filter == "letterbox") {
+		f = QString("expand=aspect=%1").arg(option.toDouble());
+	}
+	else
+	if (filter == "noise") {
+		f = "noise=9:pattern:hq";
+	}
+	else {
+		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
+	}
+
+	if (!f.isEmpty()) {
+		writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(f));
 	}
 }
-

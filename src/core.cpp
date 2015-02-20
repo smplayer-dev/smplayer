@@ -2787,9 +2787,13 @@ void Core::toggleNoise() {
 
 void Core::toggleNoise(bool b) {
 	qDebug("Core::toggleNoise: %d", b);
-	if ( b!= mset.noise_filter ) {
+	if ( b != mset.noise_filter ) {
 		mset.noise_filter = b;
-		restartPlay();
+		if (proc->isMPV()) {
+			proc->changeVF("noise", b);
+		} else {
+			restartPlay();
+		}
 	}
 }
 
@@ -3823,7 +3827,7 @@ void Core::changeLetterbox(bool b) {
 	if (mset.add_letterbox != b) {
 		mset.add_letterbox = b;
 		if (proc->isMPV()) {
-			proc->enableLetterbox(b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
+			proc->changeVF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
 		} else {
 			restartPlay();
 		}
@@ -3834,7 +3838,7 @@ void Core::changeLetterboxOnFullscreen(bool b) {
 	qDebug("Core::changeLetterboxOnFullscreen: %d", b);
 
 	if (proc->isMPV()) {
-		proc->enableLetterbox(b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
+		proc->changeVF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
 	} else {
 		restartPlay();
 	}

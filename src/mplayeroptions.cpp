@@ -360,6 +360,6 @@ void MplayerProcess::setOSDScale(double value) {
 	//writeToStdin("set_property subfont-osd-scale " + QString::number(value)); 
 }
 
-void MplayerProcess::enableLetterbox(bool b, double monitor_aspect_ratio) {
+void MplayerProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
 	// not supported
 }
