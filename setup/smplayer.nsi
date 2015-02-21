@@ -428,13 +428,13 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
     DetailPrint $(MPV_DL_Msg)
 !ifdef USE_INETC
-    inetc::get /CONNECTTIMEOUT 15000 /RESUME "" /BANNER $(MPV_DL_Msg) /CAPTION $(MPV_DL_Msg) \
+    inetc::get /CONNECTTIMEOUT 30000 /RESUME "" /BANNER $(MPV_DL_Msg) /CAPTION $(MPV_DL_Msg) \
     "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
     "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
     StrCmp $R0 OK +4 0
 !else
-    NSISdl::download /TIMEOUT=15000 \
+    NSISdl::download /TIMEOUT=30000 \
     "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
     "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
@@ -460,7 +460,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
     dl_youtube-dl:
     ${IfNot} ${FileExists} "$INSTDIR\mplayer\youtube-dl.exe"
-      NSISdl::download /TIMEOUT=15000 \
+      NSISdl::download /TIMEOUT=30000 \
       "http://yt-dl.org/latest/youtube-dl.exe" \
       "$INSTDIR\mplayer\youtube-dl.exe" /END
       Pop $R0
