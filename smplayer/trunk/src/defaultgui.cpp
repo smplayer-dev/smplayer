@@ -174,6 +174,18 @@ void DefaultGui::disableActionsOnStop() {
 	timeslider_action->disable();
 	volumeslider_action->disable();
 }
+
+void DefaultGui::togglePlayAction(Core::State state) {
+	qDebug("DefaultGui::togglePlayAction");
+	BaseGui::togglePlayAction(state);
+
+	if (state == Core::Playing) {
+		playOrPauseAct->setIcon(Images::icon("pause"));
+	} else {
+		playOrPauseAct->setIcon(Images::icon("play"));
+	}
+}
+
 #endif // AUTODISABLE_ACTIONS
 
 void DefaultGui::createMenus() {
@@ -514,6 +526,9 @@ void DefaultGui::createStatusBar() {
 
 void DefaultGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
+
+	// Change the icon of the play/pause action
+	playOrPauseAct->setIcon(Images::icon("play"));
 
 	toolbar_menu->menuAction()->setText( tr("&Toolbars") );
 	toolbar_menu->menuAction()->setIcon( Images::icon("toolbars") );
