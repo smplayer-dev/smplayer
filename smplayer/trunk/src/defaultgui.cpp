@@ -30,6 +30,10 @@
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
 
+#if !USE_CONFIGURABLE_TOOLBARS
+#include "favorites.h"
+#endif
+
 #if DOCK_PLAYLIST
 #include "playlistdock.h"
 #endif
@@ -238,12 +242,15 @@ void DefaultGui::createMainToolBars() {
 	toolbar1->setDefaultActions(toolbar1_actions);
 #else
 	toolbar1->addAction(openFileAct);
-	toolbar1->addAction(openDVDAct);
+	/* toolbar1->addAction(openDVDAct); */
 	toolbar1->addAction(openURLAct);
+	toolbar1->addAction(favorites->menuAction());
 	toolbar1->addSeparator();
+	/*
 	toolbar1->addAction(compactAct);
 	toolbar1->addAction(fullscreenAct);
 	toolbar1->addSeparator();
+	*/
 	toolbar1->addAction(screenshotAct);
 	toolbar1->addSeparator();
 	toolbar1->addAction(showPropertiesAct);
@@ -256,6 +263,9 @@ void DefaultGui::createMainToolBars() {
 	//toolbar1->addSeparator();
 	//toolbar1->addAction(timeslider_action);
 	//toolbar1->addAction(volumeslider_action);
+
+	QToolButton * button = qobject_cast<QToolButton *>(toolbar1->widgetForAction(favorites->menuAction()));
+	button->setPopupMode(QToolButton::InstantPopup);
 #endif
 
 	toolbar2 = new QToolBar( this );
@@ -338,7 +348,7 @@ void DefaultGui::createControlWidget() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList controlwidget_actions;
-	controlwidget_actions << "play" << "pause_and_frame_step" << "stop" << "separator";
+	controlwidget_actions << "play_or_pause" << "stop" << "separator";
 	#if MINI_ARROW_BUTTONS
 	controlwidget_actions << "rewindbutton_action";
 	#else
@@ -353,8 +363,11 @@ void DefaultGui::createControlWidget() {
 	controlwidget_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action";
 	controlwidget->setDefaultActions(controlwidget_actions);
 #else
+	/*
 	controlwidget->addAction(playAct);
 	controlwidget->addAction(pauseAndStepAct);
+	*/
+	controlwidget->addAction(playOrPauseAct);
 	controlwidget->addAction(stopAct);
 
 	controlwidget->addSeparator();
