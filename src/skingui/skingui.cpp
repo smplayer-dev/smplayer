@@ -180,6 +180,7 @@ void SkinGui::disableActionsOnStop() {
 	timeslider_action->disable();
 	volumeslider_action->disable();
 }
+#endif // AUTODISABLE_ACTIONS
 
 void SkinGui::togglePlayAction(Core::State state) {
 	qDebug("SkinGui::togglePlayAction");
@@ -192,7 +193,6 @@ void SkinGui::togglePlayAction(Core::State state) {
 		playOrPauseAct->setChecked(false);
 	}
 }
-#endif // AUTODISABLE_ACTIONS
 
 void SkinGui::createMenus() {
 	menuBar()->setObjectName("menubar");
