@@ -122,10 +122,12 @@ void DefaultGui::createActions() {
 	qDebug("DefaultGui::createActions");
 
 	timeslider_action = createTimeSliderAction(this);
-	timeslider_action->disable();
-
 	volumeslider_action = createVolumeSliderAction(this);
+
+#if AUTODISABLE_ACTIONS
+	timeslider_action->disable();
 	volumeslider_action->disable();
+#endif
 
 	// Create the time label
 	time_label_action = new TimeLabelAction(this);
@@ -178,6 +180,7 @@ void DefaultGui::disableActionsOnStop() {
 	timeslider_action->disable();
 	volumeslider_action->disable();
 }
+#endif // AUTODISABLE_ACTIONS
 
 void DefaultGui::togglePlayAction(Core::State state) {
 	qDebug("DefaultGui::togglePlayAction");
@@ -189,8 +192,6 @@ void DefaultGui::togglePlayAction(Core::State state) {
 		playOrPauseAct->setIcon(Images::icon("play"));
 	}
 }
-
-#endif // AUTODISABLE_ACTIONS
 
 void DefaultGui::createMenus() {
 	toolbar_menu = new QMenu(this);

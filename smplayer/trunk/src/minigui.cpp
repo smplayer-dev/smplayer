@@ -71,11 +71,16 @@ QMenu * MiniGui::createPopupMenu() {
 
 void MiniGui::createActions() {
 	timeslider_action = createTimeSliderAction(this);
-	timeslider_action->disable();
 
 #if USE_VOLUME_BAR
 	volumeslider_action = createVolumeSliderAction(this);
+#endif
+
+#if AUTODISABLE_ACTIONS
+	timeslider_action->disable();
+	#if USE_VOLUME_BAR
 	volumeslider_action->disable();
+	#endif
 #endif
 
 	time_label_action = new TimeLabelAction(this);
@@ -190,6 +195,7 @@ void MiniGui::disableActionsOnStop() {
 	volumeslider_action->disable();
 #endif
 }
+#endif // AUTODISABLE_ACTIONS
 
 void MiniGui::togglePlayAction(Core::State state) {
 	qDebug("MiniGui::togglePlayAction");
@@ -201,7 +207,6 @@ void MiniGui::togglePlayAction(Core::State state) {
 		playOrPauseAct->setIcon(Images::icon("play"));
 	}
 }
-#endif // AUTODISABLE_ACTIONS
 
 void MiniGui::aboutToEnterFullscreen() {
 	BaseGuiPlus::aboutToEnterFullscreen();

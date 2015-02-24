@@ -1519,15 +1519,18 @@ void BaseGui::disableActionsOnStop() {
 	playOrPauseAct->setEnabled(true);
 	stopAct->setEnabled(true);
 }
+#endif // AUTODISABLE_ACTIONS
 
 void BaseGui::togglePlayAction(Core::State state) {
 	qDebug("BaseGui::togglePlayAction");
+
+#if AUTODISABLE_ACTIONS
 	if (state == Core::Playing)
 		playAct->setEnabled(false);
 	else
 		playAct->setEnabled(true);
+#endif
 }
-#endif // AUTODISABLE_ACTIONS
 
 void BaseGui::retranslateStrings() {
 	setWindowIcon( Images::icon("logo", 64) );

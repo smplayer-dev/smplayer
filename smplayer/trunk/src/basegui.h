@@ -241,8 +241,8 @@ protected slots:
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
-	virtual void togglePlayAction(Core::State);
 #endif
+	virtual void togglePlayAction(Core::State);
 
 	void changeSizeFactor(int factor);
 	void toggleDoubleSize();
