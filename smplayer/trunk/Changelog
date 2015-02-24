@@ -1,7 +1,8 @@
 [b]Version 14.9.0.x[/b]:
 
-(2015-02-22)
- * Change the play/pause icon according to the player state in the default GUI.
+(2015-02-23)
+ * Change the play/pause icon according to the player state in the default
+   and mini GUIs.
 
 (2015-02-19)
  * Now the following filters don't restart mpv when they are turned on/off:

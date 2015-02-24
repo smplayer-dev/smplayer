@@ -47,6 +47,7 @@ protected slots:
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
+	virtual void togglePlayAction(Core::State state);
 #endif
 
 	void adjustFloatingControlSize();

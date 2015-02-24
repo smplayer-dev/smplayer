@@ -25,6 +25,7 @@
 #include "helper.h"
 #include "desktopinfo.h"
 #include "editabletoolbar.h"
+#include "images.h"
 #include <QStatusBar>
 #include <QMenu>
 
@@ -160,6 +161,9 @@ void MiniGui::createFloatingControl() {
 void MiniGui::retranslateStrings() {
 	BaseGuiPlus::retranslateStrings();
 
+	// Change the icon of the play/pause action
+	playOrPauseAct->setIcon(Images::icon("play"));
+
 	controlwidget->setWindowTitle( tr("Control bar") );
 
 #if USE_CONFIGURABLE_TOOLBARS
@@ -185,6 +189,17 @@ void MiniGui::disableActionsOnStop() {
 #if USE_VOLUME_BAR
 	volumeslider_action->disable();
 #endif
+}
+
+void MiniGui::togglePlayAction(Core::State state) {
+	qDebug("MiniGui::togglePlayAction");
+	BaseGui::togglePlayAction(state);
+
+	if (state == Core::Playing) {
+		playOrPauseAct->setIcon(Images::icon("pause"));
+	} else {
+		playOrPauseAct->setIcon(Images::icon("play"));
+	}
 }
 #endif // AUTODISABLE_ACTIONS
 
