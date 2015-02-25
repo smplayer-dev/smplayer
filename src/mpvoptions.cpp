@@ -357,11 +357,11 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "blur") {
-		arg << "--vf-add=unsharp=la=-1.5:ca=-1.5";
+		addVFIfAvailable("unsharp", "la=-1.5:ca=-1.5");
 	}
 	else
 	if (filter_name == "sharpen") {
-		arg << "--vf-add=unsharp=la=1.5:ca=1.5";
+		addVFIfAvailable("unsharp", "la=1.5:ca=1.5");
 	}
 	else
 	if (filter_name == "noise") {
