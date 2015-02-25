@@ -2824,8 +2824,25 @@ void Core::changeDenoise(int id) {
 void Core::changeUnsharp(int id) {
 	qDebug( "Core::changeUnsharp: %d", id );
 	if (id != mset.current_unsharp) {
-		mset.current_unsharp = id;
-		restartPlay();
+		if (proc->isMPlayer()) {
+			mset.current_unsharp = id;
+			restartPlay();
+		} else {
+			// MPV
+			// Remove previous filter
+			switch (mset.current_unsharp) {
+				// Current is blur
+				case 1: proc->changeVF("blur", false); break;
+				// Current if sharpen
+				case 2: proc->changeVF("sharpen", false); break;
+			}
+			// New filter
+			mset.current_unsharp = id;
+			switch (mset.current_unsharp) {
+				case 1: proc->changeVF("blur", true); break;
+				case 2: proc->changeVF("sharpen", true); break;
+			}
+		}
 	}
 }
 

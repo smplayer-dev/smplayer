@@ -1,5 +1,8 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-02-25)
+ * Change the blur and sharpen filters without restarting mpv.
+
 (2015-02-23)
  * Change the play/pause icon according to the player state in the default
    and mini GUIs.

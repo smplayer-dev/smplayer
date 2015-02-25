@@ -685,6 +685,14 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = "noise=9:pattern=yes";
 	}
 	else
+	if (filter == "blur") {
+		f = "unsharp=la=-1.5:ca=-1.5";
+	}
+	else
+	if (filter == "sharpen") {
+		f = "unsharp=la=1.5:ca=1.5";
+	}
+	else
 	if (filter == "scale" || filter == "gradfun") {
 		f = filter + "=" + option.toString();
 	}
