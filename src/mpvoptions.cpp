@@ -709,6 +709,10 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = "lavfi=[pp=dr]";
 	}
 	else
+	if (filter == "phase") {
+		f = "lavfi=[phase=" + option.toString() +"]";
+	}
+	else
 	if (filter == "flip" || filter == "mirror") {
 		f = filter;
 	}
