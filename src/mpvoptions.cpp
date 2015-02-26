@@ -717,8 +717,10 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = filter;
 	}
 	else
-	if (filter == "scale" || filter == "gradfun") {
-		f = filter + "=" + option.toString();
+	if (filter == "scale" || filter == "gradfun" || filter == "hqdn3d") {
+		f = filter;
+		QString o = option.toString();
+		if (!o.isEmpty()) f += "=" + o;
 	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
