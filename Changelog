@@ -1,7 +1,10 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-02-26)
+ * The flip and mirror options don't restart mpv.
+
 (2015-02-25)
- * Change the blur and sharpen filters without restarting mpv.
+ * The blur and sharpen filters don't restart mpv.
 
 (2015-02-23)
  * Change the play/pause icon according to the player state in the default

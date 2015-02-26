@@ -2634,34 +2634,6 @@ void Core::toggleRepeat(bool b) {
 }
 
 
-void Core::toggleFlip() {
-	qDebug("Core::toggleFlip");
-	toggleFlip( !mset.flip );
-}
-
-void Core::toggleFlip(bool b) {
-	qDebug("Core::toggleFlip: %d", b);
-
-	if (mset.flip != b) {
-		mset.flip = b;
-		if (proc->isRunning()) restartPlay();
-	}
-}
-
-void Core::toggleMirror() {
-	qDebug("Core::toggleMirror");
-	toggleMirror( !mset.mirror );
-}
-
-void Core::toggleMirror(bool b) {
-	qDebug("Core::toggleMirror: %d", b);
-
-	if (mset.mirror != b) {
-		mset.mirror = b;
-		if (proc->isRunning()) restartPlay();
-	}
-}
-
 // Audio filters
 void Core::toggleKaraoke() {
 	toggleKaraoke( !mset.karaoke_filter );
@@ -2740,6 +2712,32 @@ void Core::setStereoMode(int mode) {
 	} else { \
 		restartPlay(); \
 	}
+
+void Core::toggleFlip() {
+	qDebug("Core::toggleFlip");
+	toggleFlip( !mset.flip );
+}
+
+void Core::toggleFlip(bool b) {
+	qDebug("Core::toggleFlip: %d", b);
+	if (mset.flip != b) {
+		mset.flip = b;
+		CHANGE_VF("flip", b, QVariant());
+	}
+}
+
+void Core::toggleMirror() {
+	qDebug("Core::toggleMirror");
+	toggleMirror( !mset.mirror );
+}
+
+void Core::toggleMirror(bool b) {
+	qDebug("Core::toggleMirror: %d", b);
+	if (mset.mirror != b) {
+		mset.mirror = b;
+		CHANGE_VF("mirror", b, QVariant());
+	}
+}
 
 void Core::toggleAutophase() {
 	toggleAutophase( !mset.phase_filter );
