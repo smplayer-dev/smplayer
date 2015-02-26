@@ -376,6 +376,10 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		addVFIfAvailable("lavfi", "[pp=dr]");
 	}
 	else
+	if (filter_name == "phase") {
+		addVFIfAvailable("lavfi", "[phase=" + option +"]");
+	}
+	else
 	if (filter_name == "yadif") {
 		if (option == "1") {
 			arg << "--vf-add=yadif=field";
