@@ -2169,7 +2169,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Dering
 	if (mset.dering_filter) {
-		proc->addVF("pp", "dr");
+		proc->addVF("dering");
 	}
 
 	// Gradfun
@@ -2759,7 +2759,7 @@ void Core::toggleDeblock(bool b) {
 	qDebug("Core::toggleDeblock: %d", b);
 	if ( b != mset.deblock_filter ) {
 		mset.deblock_filter = b;
-		restartPlay();
+		CHANGE_VF("deblock", b, pref->filters->item("deblock").options());
 	}
 }
 
@@ -2771,7 +2771,7 @@ void Core::toggleDering(bool b) {
 	qDebug("Core::toggleDering: %d", b);
 	if ( b != mset.dering_filter) {
 		mset.dering_filter = b;
-		restartPlay();
+		CHANGE_VF("dering", b, QVariant());
 	}
 }
 

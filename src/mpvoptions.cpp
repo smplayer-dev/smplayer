@@ -372,6 +372,10 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		addVFIfAvailable("lavfi", "[pp=" + option +"]");
 	}
 	else
+	if (filter_name == "dering") {
+		addVFIfAvailable("lavfi", "[pp=dr]");
+	}
+	else
 	if (filter_name == "yadif") {
 		if (option == "1") {
 			arg << "--vf-add=yadif=field";
@@ -691,6 +695,14 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	else
 	if (filter == "sharpen") {
 		f = "unsharp=la=1.5:ca=1.5";
+	}
+	else
+	if (filter == "deblock") {
+		f = "lavfi=[pp=" + option.toString() +"]";
+	}
+	else
+	if (filter == "dering") {
+		f = "lavfi=[pp=dr]";
 	}
 	else
 	if (filter == "flip" || filter == "mirror") {
