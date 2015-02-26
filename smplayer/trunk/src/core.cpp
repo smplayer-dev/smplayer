@@ -2814,8 +2814,25 @@ void Core::togglePostprocessing(bool b) {
 void Core::changeDenoise(int id) {
 	qDebug( "Core::changeDenoise: %d", id );
 	if (id != mset.current_denoiser) {
-		mset.current_denoiser = id;
-		restartPlay();
+		if (proc->isMPlayer()) {
+			mset.current_denoiser = id;
+			restartPlay();
+		} else {
+			// MPV
+			QString dsoft = pref->filters->item("denoise_soft").options();
+			QString dnormal = pref->filters->item("denoise_normal").options();
+			// Remove previous filter
+			switch (mset.current_denoiser) {
+				case MediaSettings::DenoiseSoft: proc->changeVF("hqdn3d", false, dsoft); break;
+				case MediaSettings::DenoiseNormal: proc->changeVF("hqdn3d", false, dnormal); break;
+			}
+			// New filter
+			mset.current_denoiser = id;
+			switch (mset.current_denoiser) {
+				case MediaSettings::DenoiseSoft: proc->changeVF("hqdn3d", true, dsoft); break;
+				case MediaSettings::DenoiseNormal: proc->changeVF("hqdn3d", true, dnormal); break;
+			}
+		}
 	}
 }
 
