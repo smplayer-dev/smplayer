@@ -2,7 +2,7 @@
 
 (2015-02-26)
  * The flip and mirror options don't restart mpv.
- * The deblock and dering filters don't restart mpv.
+ * The deblock, dering and phase filters don't restart mpv.
 
 (2015-02-25)
  * The blur and sharpen filters don't restart mpv.

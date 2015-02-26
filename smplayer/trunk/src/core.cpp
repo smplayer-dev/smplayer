@@ -2747,7 +2747,7 @@ void Core::toggleAutophase( bool b ) {
 	qDebug("Core::toggleAutophase: %d", b);
 	if ( b != mset.phase_filter) {
 		mset.phase_filter = b;
-		restartPlay();
+		CHANGE_VF("phase", b, "A");
 	}
 }
 
