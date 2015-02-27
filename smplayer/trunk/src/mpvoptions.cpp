@@ -645,9 +645,16 @@ void MPVProcess::setTitle(int ID) {
 
 #if DVDNAV_SUPPORT
 void MPVProcess::discSetMousePos(int x, int y) {
+	qDebug("MPVProcess::discSetMousePos: %d %d", x, y);
 	//writeToStdin(QString("discnav mouse_move %1 %2").arg(x).arg(y));
-	//writeToStdin("discnav mouse_move");
 	// mouse_move doesn't accept options :?
+
+	// For some reason this doesn't work either...
+	// So it's not possible to select options in the dvd menus just
+	// because there's no way to pass the mouse position to mpv, or it
+	// ignores it.
+	writeToStdin(QString("mouse %1 %2").arg(x).arg(y));
+	//writeToStdin("discnav mouse_move");
 }
 
 void MPVProcess::discButtonPressed(const QString & button_name) {

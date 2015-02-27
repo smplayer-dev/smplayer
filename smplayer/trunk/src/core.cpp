@@ -4512,11 +4512,18 @@ void Core::askForInfo() {
 }
 
 void Core::dvdnavUpdateMousePos(QPoint pos) {
-	//qDebug("Core::dvdnavUpdateMousePos");
+	bool under_mouse = mplayerwindow->videoLayer()->underMouse();
+#if 0
+	qDebug("Core::dvdnavUpdateMousePos: %d %d", pos.x(), pos.y());
+	qDebug("Core::dvdnavUpdateMousePos: state: %d", state());
+	qDebug("Core::dvdnavUpdateMousePos: filename: %s", mdat.filename.toUtf8().constData());
+	qDebug("Core::dvdnavUpdateMousePos: dvdnav_title_is_menu: %d", dvdnav_title_is_menu);
+	qDebug("Core::dvdnavUpdateMousePos: under mouse: %d", under_mouse);
+#endif
 	if ((state() == Playing) && (mdat.filename.startsWith("dvdnav:")) && (dvdnav_title_is_menu)) {
-		if (mplayerwindow->videoLayer()->underMouse()) {
+		//if (under_mouse) {
 			proc->discSetMousePos(pos.x(), pos.y());
-		}
+		//}
 	}
 }
 
@@ -4528,7 +4535,6 @@ void Core::dvdTitleIsMenu() {
 void Core::dvdTitleIsMovie() {
 	qDebug("Core::dvdTitleIsMovie");
 	dvdnav_title_is_menu = false;
-
 }
 #endif
 
