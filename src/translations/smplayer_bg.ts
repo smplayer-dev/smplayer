@@ -1644,7 +1644,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1670"/>
         <source>&amp;Forced subtitles only</source>
-        <translation>&amp;Само наложителни субтитри</translation>
+        <translation>&amp;Само наложени субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1771"/>
