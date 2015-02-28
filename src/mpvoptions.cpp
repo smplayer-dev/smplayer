@@ -728,6 +728,25 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = "lavfi=[pp]";
 	}
 	else
+	if (filter == "rotate") {
+		QString o = option.toString();
+		if (o == "0") {
+			f = "rotate=270,flip";
+		}
+		else
+		if (o == "1") {
+			f = "rotate=90";
+		}
+		else
+		if (o == "2") {
+			f = "rotate=270";
+		}
+		else
+		if (o == "3") {
+			f = "rotate=90,flip";
+		}
+	}
+	else
 	if (filter == "flip" || filter == "mirror") {
 		f = filter;
 	}

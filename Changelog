@@ -1,5 +1,8 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-02-28)
+ * Now the rotate filter doesn't restart mpv.
+
 (2015-02-26)
  * The flip and mirror options don't restart mpv.
  * The deblock, dering, denoise and phase filters don't restart mpv.

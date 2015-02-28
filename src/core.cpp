@@ -3895,8 +3895,27 @@ void Core::changeRotate(int r) {
 	qDebug("Core::changeRotate: %d", r);
 
 	if (mset.rotate != r) {
-		mset.rotate = r;
-		restartPlay();
+		if (proc->isMPlayer()) {
+			mset.rotate = r;
+			restartPlay();
+		} else {
+			// MPV
+			// Remove previous filter
+			switch (mset.rotate) {
+				case MediaSettings::Clockwise_flip: proc->changeVF("rotate", false, MediaSettings::Clockwise_flip); break;
+				case MediaSettings::Clockwise: proc->changeVF("rotate", false, MediaSettings::Clockwise); break;
+				case MediaSettings::Counterclockwise: proc->changeVF("rotate", false, MediaSettings::Counterclockwise); break;
+				case MediaSettings::Counterclockwise_flip: proc->changeVF("rotate", false, MediaSettings::Counterclockwise_flip); break;
+			}
+			mset.rotate = r;
+			// New filter
+			switch (mset.rotate) {
+				case MediaSettings::Clockwise_flip: proc->changeVF("rotate", true, MediaSettings::Clockwise_flip); break;
+				case MediaSettings::Clockwise: proc->changeVF("rotate", true, MediaSettings::Clockwise); break;
+				case MediaSettings::Counterclockwise: proc->changeVF("rotate", true, MediaSettings::Counterclockwise); break;
+				case MediaSettings::Counterclockwise_flip: proc->changeVF("rotate", true, MediaSettings::Counterclockwise_flip); break;
+			}
+		}
 	}
 }
 
