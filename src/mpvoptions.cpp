@@ -380,6 +380,10 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 		addVFIfAvailable("lavfi", "[phase=" + option +"]");
 	}
 	else
+	if (filter_name == "postprocessing") {
+		addVFIfAvailable("lavfi", "[pp]");
+	}
+	else
 	if (filter_name == "yadif") {
 		if (option == "1") {
 			arg << "--vf-add=yadif=field";
@@ -718,6 +722,10 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	else
 	if (filter == "phase") {
 		f = "lavfi=[phase=" + option.toString() +"]";
+	}
+	else
+	if (filter == "postprocessing") {
+		f = "lavfi=[pp]";
 	}
 	else
 	if (filter == "flip" || filter == "mirror") {

@@ -2191,7 +2191,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	// Postprocessing
 	if (mset.postprocessing_filter) {
-		proc->addVF("pp");
+		proc->addVF("postprocessing");
 		proc->setOption("autoq", QString::number(pref->autoq));
 	}
 
@@ -2807,7 +2807,7 @@ void Core::togglePostprocessing(bool b) {
 	qDebug("Core::togglePostprocessing: %d", b);
 	if ( b != mset.postprocessing_filter ) {
 		mset.postprocessing_filter = b;
-		restartPlay();
+		CHANGE_VF("postprocessing", b, QVariant());
 	}
 }
 

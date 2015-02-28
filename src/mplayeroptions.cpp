@@ -120,6 +120,10 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		arg << "-vf-add" << "pp=dr";
 	}
 	else
+	if (filter_name == "postprocessing") {
+		arg << "-vf-add" << "pp";
+	}
+	else
 	if (filter_name == "subs_on_screenshots") {
 		if (option == "ass") {
 			arg << "-vf-add" << "ass";
