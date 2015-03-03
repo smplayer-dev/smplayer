@@ -124,6 +124,10 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		arg << "-vf-add" << "pp";
 	}
 	else
+	if (filter_name == "lb" || filter_name == "l5") {
+		arg << "-vf-add" << "pp=" + filter_name;
+	}
+	else
 	if (filter_name == "subs_on_screenshots") {
 		if (option == "ass") {
 			arg << "-vf-add" << "ass";
