@@ -1,5 +1,9 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-03-02)
+ * The kerndeint filter works with mpv.
+ * Changing the deinterlace filter doesn't restart mpv.
+
 (2015-02-28)
  * Now the rotate filter doesn't restart mpv.
 

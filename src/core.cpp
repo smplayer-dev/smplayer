@@ -2136,9 +2136,9 @@ void Core::startMplayer( QString file, double seek ) {
 	// Deinterlace
 	if (mset.current_deinterlacer != MediaSettings::NoDeinterlace) {
 		switch (mset.current_deinterlacer) {
-			case MediaSettings::L5: 		proc->addVF("pp", "l5"); break;
+			case MediaSettings::L5: 		proc->addVF("l5"); break;
 			case MediaSettings::Yadif: 		proc->addVF("yadif"); break;
-			case MediaSettings::LB:			proc->addVF("pp", "lb"); break;
+			case MediaSettings::LB:			proc->addVF("lb"); break;
 			case MediaSettings::Yadif_1:	proc->addVF("yadif", "1"); break;
 			case MediaSettings::Kerndeint:	proc->addVF("kerndeint", "5"); break;
 		}
@@ -3423,9 +3423,30 @@ void Core::changePause() {
 void Core::changeDeinterlace(int ID) {
 	qDebug("Core::changeDeinterlace: %d", ID);
 
-	if (ID!=mset.current_deinterlacer) {
-		mset.current_deinterlacer = ID;
-		restartPlay();
+	if (ID != mset.current_deinterlacer) {
+		if (proc->isMPlayer()) {
+			mset.current_deinterlacer = ID;
+			restartPlay();
+		} else {
+			// MPV
+			// Remove previous filter
+			switch (mset.current_deinterlacer) {
+				case MediaSettings::L5:			proc->changeVF("l5", false); break;
+				case MediaSettings::Yadif:		proc->changeVF("yadif", false); break;
+				case MediaSettings::LB:			proc->changeVF("lb", false); break;
+				case MediaSettings::Yadif_1:	proc->changeVF("yadif", false, "1"); break;
+				case MediaSettings::Kerndeint:	proc->changeVF("kerndeint", false, "5"); break;
+			}
+			mset.current_deinterlacer = ID;
+			// New filter
+			switch (mset.current_deinterlacer) {
+				case MediaSettings::L5:			proc->changeVF("l5", true); break;
+				case MediaSettings::Yadif:		proc->changeVF("yadif", true); break;
+				case MediaSettings::LB:			proc->changeVF("lb", true); break;
+				case MediaSettings::Yadif_1:	proc->changeVF("yadif", true, "1"); break;
+				case MediaSettings::Kerndeint:	proc->changeVF("kerndeint", true, "5"); break;
+			}
+		}
 	}
 }
 

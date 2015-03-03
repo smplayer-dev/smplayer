@@ -393,8 +393,11 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "kerndeint") {
-		qDebug("MPVProcess::addVF: kerndeint is not available. Using yadif instead.");
-		arg << "--vf-add=yadif";
+		addVFIfAvailable("lavfi", "[kerndeint=" + option +"]");
+	}
+	else
+	if (filter_name == "lb" || filter_name == "l5") {
+		addVFIfAvailable("lavfi", "[pp=" + filter_name +"]");
 	}
 	else
 	if (filter_name == "subs_on_screenshots") {
@@ -755,6 +758,22 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = filter;
 		QString o = option.toString();
 		if (!o.isEmpty()) f += "=" + o;
+	}
+	else
+	if (filter == "lb" || filter == "l5") {
+		f = "lavfi=[pp=" + filter +"]";
+	}
+	else
+	if (filter == "yadif") {
+		if (option.toString() == "1") {
+			f = "yadif=field";
+		} else {
+			f = "yadif";
+		}
+	}
+	else
+	if (filter == "kerndeint") {
+		f = "lavfi=[kerndeint=" + option.toString() +"]";
 	}
 	else {
 		qDebug() << "MPVProcess::changeVF: unknown filter:" << filter;
