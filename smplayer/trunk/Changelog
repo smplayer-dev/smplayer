@@ -1,5 +1,9 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-03-04)
+ * Add the possibility to use the mouse buttons for the actions
+   "next chapter" and "previous chapter".
+
 (2015-03-02)
  * The kerndeint filter works with mpv.
  * Changing the deinterlace filter doesn't restart mpv.
