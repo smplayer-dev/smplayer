@@ -633,1440 +633,1445 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1796"/>
         <source>&amp;Open</source>
         <translation>&amp;פתיחה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1797"/>
         <source>&amp;Play</source>
         <translation>&amp;נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Video</source>
         <translation>&amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>&amp;Audio</source>
         <translation>&amp;אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1800"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;כתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1794"/>
+        <location filename="../basegui.cpp" line="1801"/>
         <source>&amp;Browse</source>
         <translation>&amp;דפדוף</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>Op&amp;tions</source>
         <translation>אפ&amp;שרויות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1803"/>
         <source>&amp;Help</source>
         <translation>&amp;עזרה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1535"/>
+        <location filename="../basegui.cpp" line="1541"/>
         <source>&amp;File...</source>
         <translation>&amp;קובץ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1536"/>
+        <location filename="../basegui.cpp" line="1542"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;מדור...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1537"/>
+        <location filename="../basegui.cpp" line="1543"/>
         <source>&amp;Playlist...</source>
         <translation>רשימת &amp;נגינה...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1540"/>
+        <location filename="../basegui.cpp" line="1546"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD מתוך תקליטור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1541"/>
+        <location filename="../basegui.cpp" line="1547"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD מתוך תיקייה...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1546"/>
+        <location filename="../basegui.cpp" line="1552"/>
         <source>&amp;URL...</source>
         <translation>‏&amp;URL..‏.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Clear</source>
         <translation>&amp;טהר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1810"/>
+        <location filename="../basegui.cpp" line="1817"/>
         <source>&amp;Recent files</source>
         <translation>קבצים &amp;אחרונים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1570"/>
+        <location filename="../basegui.cpp" line="1576"/>
         <source>P&amp;lay</source>
         <translation>&amp;נגן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1579"/>
         <source>&amp;Pause</source>
         <translation>&amp;השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1574"/>
+        <location filename="../basegui.cpp" line="1580"/>
         <source>&amp;Stop</source>
         <translation>ה&amp;פסק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1575"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>&amp;Frame step</source>
         <translation>&amp;פסע מסגרת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1594"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>&amp;Normal speed</source>
         <translation>מהירות &amp;רגילה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1596"/>
+        <location filename="../basegui.cpp" line="1602"/>
         <source>&amp;Double speed</source>
         <translation>מהירות &amp;כפולה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1597"/>
+        <location filename="../basegui.cpp" line="1603"/>
         <source>Speed &amp;-10%</source>
         <translation>מהירות &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1598"/>
+        <location filename="../basegui.cpp" line="1604"/>
         <source>Speed &amp;+10%</source>
         <translation>מהירות &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1685"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;כבוי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1828"/>
+        <location filename="../basegui.cpp" line="1835"/>
         <source>Sp&amp;eed</source>
         <translation>&amp;מהירות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1589"/>
+        <location filename="../basegui.cpp" line="1595"/>
         <source>&amp;Repeat</source>
         <translation>&amp;חזור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1605"/>
+        <location filename="../basegui.cpp" line="1611"/>
         <source>&amp;Fullscreen</source>
         <translation>&amp;מסך מלא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1606"/>
+        <location filename="../basegui.cpp" line="1612"/>
         <source>&amp;Compact mode</source>
         <translation>מצב &amp;קומפקטי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1838"/>
+        <location filename="../basegui.cpp" line="1845"/>
         <source>Si&amp;ze</source>
         <translation>מי&amp;דה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
+        <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;יחס רוחב גובה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1887"/>
-        <location filename="../basegui.cpp" line="3272"/>
-        <location filename="../basegui.cpp" line="3285"/>
+        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="3281"/>
+        <location filename="../basegui.cpp" line="3294"/>
         <source>&amp;None</source>
         <translation>&amp;כלום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1895"/>
         <source>&amp;Lowpass5</source>
         <translation>‏&amp;Lowpass5‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1898"/>
         <source>Linear &amp;Blend</source>
         <translation>&amp;שילוב לינארי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1851"/>
+        <location filename="../basegui.cpp" line="1858"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;איין שזירה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1628"/>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;עובר-עיבוד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;אתר פזה אוטומטית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>&amp;Deblock</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1637"/>
         <source>De&amp;ring</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1633"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>Add n&amp;oise</source>
         <translation>הוסף &amp;רעש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1854"/>
+        <location filename="../basegui.cpp" line="1861"/>
         <source>F&amp;ilters</source>
         <translation>&amp;מסננים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1607"/>
+        <location filename="../basegui.cpp" line="1613"/>
         <source>&amp;Equalizer</source>
         <translation>מ&amp;אזן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1608"/>
+        <location filename="../basegui.cpp" line="1614"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;תצלום מסך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>S&amp;tay on top</source>
         <translation>השאר ב&amp;שיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1651"/>
+        <location filename="../basegui.cpp" line="1657"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;אקסטרה סטריאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1652"/>
+        <location filename="../basegui.cpp" line="1658"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;קריוקי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
+        <location filename="../basegui.cpp" line="1928"/>
         <source>&amp;Filters</source>
         <translation>&amp;מסננים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1931"/>
-        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1944"/>
         <source>&amp;Stereo</source>
         <translation>&amp;סטריאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1939"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1933"/>
+        <location filename="../basegui.cpp" line="1940"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1924"/>
+        <location filename="../basegui.cpp" line="1931"/>
         <source>&amp;Channels</source>
         <translation>&amp;ערוצים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1945"/>
         <source>&amp;Left channel</source>
         <translation>ערוץ &amp;שמאל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1946"/>
         <source>&amp;Right channel</source>
         <translation>ערוץ &amp;ימין</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1927"/>
+        <location filename="../basegui.cpp" line="1934"/>
         <source>&amp;Stereo mode</source>
         <translation>מצב &amp;סטריאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>&amp;Mute</source>
         <translation>הש&amp;תק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>Volume &amp;-</source>
         <translation>עוצמת שמע &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1643"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>Volume &amp;+</source>
         <translation>עוצמת שמע &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>&amp;Delay -</source>
         <translation>&amp;שיהוי -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1651"/>
         <source>D&amp;elay +</source>
         <translation>שי&amp;הוי +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1944"/>
+        <location filename="../basegui.cpp" line="1951"/>
         <source>&amp;Select</source>
         <translation>&amp;בחר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1656"/>
+        <location filename="../basegui.cpp" line="1662"/>
         <source>&amp;Load...</source>
         <translation>&amp;טען...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1658"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>Delay &amp;-</source>
         <translation>שיהוי &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1659"/>
+        <location filename="../basegui.cpp" line="1665"/>
         <source>Delay &amp;+</source>
         <translation>שיהוי &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>&amp;Up</source>
         <translation>מ&amp;עלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1662"/>
+        <location filename="../basegui.cpp" line="1668"/>
         <source>&amp;Down</source>
         <translation>מ&amp;טה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1957"/>
+        <location filename="../basegui.cpp" line="1964"/>
         <source>&amp;Title</source>
         <translation>&amp;כותרת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1960"/>
+        <location filename="../basegui.cpp" line="1967"/>
         <source>&amp;Chapter</source>
         <translation>&amp;פרק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1963"/>
+        <location filename="../basegui.cpp" line="1970"/>
         <source>&amp;Angle</source>
         <translation>&amp;זווית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>&amp;Playlist</source>
         <translation>רשימת &amp;נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1885"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;Disabled</source>
         <translation>&amp;מנוטרלת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1984"/>
+        <location filename="../basegui.cpp" line="1991"/>
         <source>&amp;OSD</source>
         <translation>‏&amp;OSD‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1993"/>
+        <location filename="../basegui.cpp" line="2000"/>
         <source>&amp;View logs</source>
         <translation>&amp;ראה יומנים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1696"/>
+        <location filename="../basegui.cpp" line="1702"/>
         <source>P&amp;references</source>
         <translation>העדפו&amp;ת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>About &amp;SMPlayer</source>
         <translation>‏אודות &amp;SMPlayer‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3307"/>
-        <location filename="../basegui.cpp" line="3323"/>
-        <location filename="../basegui.cpp" line="3339"/>
-        <location filename="../basegui.cpp" line="3354"/>
-        <location filename="../basegui.cpp" line="3388"/>
-        <location filename="../basegui.cpp" line="3408"/>
-        <location filename="../basegui.cpp" line="3452"/>
+        <location filename="../basegui.cpp" line="3316"/>
+        <location filename="../basegui.cpp" line="3332"/>
+        <location filename="../basegui.cpp" line="3348"/>
+        <location filename="../basegui.cpp" line="3363"/>
+        <location filename="../basegui.cpp" line="3397"/>
+        <location filename="../basegui.cpp" line="3417"/>
+        <location filename="../basegui.cpp" line="3461"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ריק&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3869"/>
+        <location filename="../basegui.cpp" line="3878"/>
         <source>Video</source>
         <translation>וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3870"/>
-        <location filename="../basegui.cpp" line="4103"/>
+        <location filename="../basegui.cpp" line="3879"/>
+        <location filename="../basegui.cpp" line="4112"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3871"/>
+        <location filename="../basegui.cpp" line="3880"/>
         <source>Playlists</source>
         <translation>רשימות נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3872"/>
-        <location filename="../basegui.cpp" line="4083"/>
-        <location filename="../basegui.cpp" line="4104"/>
+        <location filename="../basegui.cpp" line="3881"/>
+        <location filename="../basegui.cpp" line="4092"/>
+        <location filename="../basegui.cpp" line="4113"/>
         <source>All files</source>
         <translation>כל הקבצים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3867"/>
-        <location filename="../basegui.cpp" line="4080"/>
-        <location filename="../basegui.cpp" line="4101"/>
+        <location filename="../basegui.cpp" line="3876"/>
+        <location filename="../basegui.cpp" line="4089"/>
+        <location filename="../basegui.cpp" line="4110"/>
         <source>Choose a file</source>
         <translation>בחירת קובץ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>דפדפן &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>&amp;תרמו / שתפו עם חברים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3919"/>
+        <location filename="../basegui.cpp" line="3928"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - מידע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3920"/>
+        <location filename="../basegui.cpp" line="3929"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>התקליטורים CDROM / DVD אינם מוגדרים עדיין.
 דו שיח התצורה יוצג כעת, כך שתהיה לך האפשרות לעשות זאת.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4033"/>
+        <location filename="../basegui.cpp" line="4042"/>
         <source>Select the Blu-ray folder</source>
         <translation>בחירת תיקיית Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4046"/>
+        <location filename="../basegui.cpp" line="4055"/>
         <source>Choose a directory</source>
         <translation>בחירת מדור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4082"/>
+        <location filename="../basegui.cpp" line="4091"/>
         <source>Subtitles</source>
         <translation>כתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4516"/>
+        <location filename="../basegui.cpp" line="4526"/>
         <source>New version available</source>
         <translation>גרסא חדשה זמינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4517"/>
+        <location filename="../basegui.cpp" line="4527"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>גרסא חדשה של SMPlayer זמינה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4518"/>
+        <location filename="../basegui.cpp" line="4528"/>
         <source>Installed version: %1</source>
         <translation>גרסא מותקנת: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4519"/>
+        <location filename="../basegui.cpp" line="4529"/>
         <source>Available version: %1</source>
         <translation>גרסא זמינה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4520"/>
+        <location filename="../basegui.cpp" line="4530"/>
         <source>Would you like to know more about this new version?</source>
         <translation>האם ברצונך לדעת עוד אודות גרסא זו?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4657"/>
+        <location filename="../basegui.cpp" line="4673"/>
         <source>Error detected</source>
         <translation>שגיאה אותרה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4658"/>
+        <location filename="../basegui.cpp" line="4674"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>למרבה הצער סרטון זה לא יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4846"/>
+        <location filename="../basegui.cpp" line="4862"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו ‎%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4847"/>
+        <location filename="../basegui.cpp" line="4863"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4848"/>
+        <location filename="../basegui.cpp" line="4864"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1584"/>
         <source>Play / Pause</source>
         <translation>נגן / השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1581"/>
+        <location filename="../basegui.cpp" line="1587"/>
         <source>Pause / Frame step</source>
         <translation>השהה / פסיעת מסגרת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1648"/>
-        <location filename="../basegui.cpp" line="1657"/>
+        <location filename="../basegui.cpp" line="1654"/>
+        <location filename="../basegui.cpp" line="1663"/>
         <source>U&amp;nload</source>
         <translation>&amp;פרוק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1538"/>
+        <location filename="../basegui.cpp" line="1544"/>
         <source>V&amp;CD</source>
         <translation>תקליטור V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1547"/>
+        <location filename="../basegui.cpp" line="1553"/>
         <source>C&amp;lose</source>
         <translation>&amp;סגור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1701"/>
         <source>View &amp;info and properties...</source>
         <translation>ראה &amp;מידע ומאפיינים...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1616"/>
+        <location filename="../basegui.cpp" line="1622"/>
         <source>Zoom &amp;-</source>
         <translation>זום &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1617"/>
+        <location filename="../basegui.cpp" line="1623"/>
         <source>Zoom &amp;+</source>
         <translation>זום &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1618"/>
+        <location filename="../basegui.cpp" line="1624"/>
         <source>&amp;Reset</source>
         <translation>&amp;אפס</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1622"/>
+        <location filename="../basegui.cpp" line="1628"/>
         <source>Move &amp;left</source>
         <translation>הזז &amp;שמאלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1623"/>
+        <location filename="../basegui.cpp" line="1629"/>
         <source>Move &amp;right</source>
         <translation>הזז י&amp;מינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1624"/>
+        <location filename="../basegui.cpp" line="1630"/>
         <source>Move &amp;up</source>
         <translation>הזז מ&amp;עלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1625"/>
+        <location filename="../basegui.cpp" line="1631"/>
         <source>Move &amp;down</source>
         <translation>הזז מ&amp;טה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>שורה &amp;קודמת בכתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>שורה ב&amp;אה בכתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2018"/>
-        <location filename="../basegui.cpp" line="2019"/>
-        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="2025"/>
+        <location filename="../basegui.cpp" line="2026"/>
+        <location filename="../basegui.cpp" line="2027"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2022"/>
-        <location filename="../basegui.cpp" line="2023"/>
-        <location filename="../basegui.cpp" line="2024"/>
+        <location filename="../basegui.cpp" line="2029"/>
+        <location filename="../basegui.cpp" line="2030"/>
+        <location filename="../basegui.cpp" line="2031"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>Dec volume (2)</source>
         <translation>הנמך עוצמת שמע (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1543"/>
+        <location filename="../basegui.cpp" line="1549"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray מתוך תיקייה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1544"/>
+        <location filename="../basegui.cpp" line="1550"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>Blu-&amp;ray מתוך תיקייה...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1582"/>
         <source>Fra&amp;me back step</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1595"/>
+        <location filename="../basegui.cpp" line="1601"/>
         <source>&amp;Half speed</source>
         <translation>מהירות &amp;חצויה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1611"/>
+        <location filename="../basegui.cpp" line="1617"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>מחולל תמונות &amp;ציפורן...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1632"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1675"/>
         <source>Use custo&amp;m style</source>
         <translation>השתמש בסגנון &amp;מותאם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>מציאת כתוביות אצל &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1685"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1710"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>First Steps &amp;Guide</source>
         <translation>&amp;מדריך צעדים ראשונים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>Update &amp;Youtube code</source>
         <translation>עדכן קוד &amp;Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;פתח תיקיית תצורה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1734"/>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>Size &amp;+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1735"/>
+        <location filename="../basegui.cpp" line="1741"/>
         <source>Size &amp;-</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>Inc volume (2)</source>
         <translation>הגבר עוצמת שמע (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1758"/>
         <source>Exit fullscreen</source>
         <translation>עזוב מסך מלא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>OSD - Next level</source>
         <translation>OSD - שלב בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>Dec contrast</source>
         <translation>הנמך חדות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>Inc contrast</source>
         <translation>הגבר חדות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1757"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>Dec brightness</source>
         <translation>הנמך בהירות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1764"/>
         <source>Inc brightness</source>
         <translation>הגבר בהירות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>Dec hue</source>
         <translation>הנמך גוון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>Inc hue</source>
         <translation>הגבר גוון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>Dec saturation</source>
         <translation>הנמך רוויה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>Dec gamma</source>
         <translation>הנמך גאמה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>Next audio</source>
         <translation>אודיו בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1773"/>
         <source>Next subtitle</source>
         <translation>כתובית באה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1774"/>
         <source>Next chapter</source>
         <translation>פרק בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>Previous chapter</source>
         <translation>פרק קודם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1868"/>
+        <location filename="../basegui.cpp" line="1784"/>
+        <source>Show playback time on OSD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>De&amp;noise</source>
         <translation>דיכוי &amp;רעש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1871"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>Blur/S&amp;harp</source>
         <translation>טשטש/ח&amp;דד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;כבוי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1895"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;רגיל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;רך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;כלום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1899"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;טשטש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1907"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;חדד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1934"/>
+        <location filename="../basegui.cpp" line="1941"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="1942"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1947"/>
         <source>&amp;Mono</source>
         <translation>&amp;מונו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1941"/>
+        <location filename="../basegui.cpp" line="1948"/>
         <source>Re&amp;verse</source>
         <translation>ה&amp;פוך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1947"/>
+        <location filename="../basegui.cpp" line="1954"/>
         <source>Secondary trac&amp;k</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1953"/>
+        <location filename="../basegui.cpp" line="1960"/>
         <source>F&amp;rames per second</source>
         <translation>מס&amp;גרות לכל שנייה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2002"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>SMPlayer - MPlayer log</source>
         <translation>SMPlayer - MPlayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2005"/>
+        <location filename="../basegui.cpp" line="2012"/>
         <source>SMPlayer - SMPlayer log</source>
         <translation>SMPlayer - SMPlayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4598"/>
+        <location filename="../basegui.cpp" line="4608"/>
         <source>Connection failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4599"/>
+        <location filename="../basegui.cpp" line="4609"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4600"/>
+        <location filename="../basegui.cpp" line="4610"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4601"/>
+        <location filename="../basegui.cpp" line="4611"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4602"/>
+        <location filename="../basegui.cpp" line="4612"/>
         <source>this link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4622"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>למרבה הצער בגין שינויים בעמוד Youtube, סרטון זה ל יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4619"/>
-        <location filename="../basegui.cpp" line="4627"/>
+        <location filename="../basegui.cpp" line="4629"/>
+        <location filename="../basegui.cpp" line="4637"/>
         <source>Problems with Youtube</source>
         <translation>בעיות עם Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5402"/>
+        <location filename="../basegui.cpp" line="5418"/>
         <source>The YouTube Browser is not installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5403"/>
+        <location filename="../basegui.cpp" line="5419"/>
         <source>Visit %1 to get it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4615"/>
+        <location filename="../basegui.cpp" line="4625"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>למרבה הצער בעקבות שינויים בעמוד Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4621"/>
+        <location filename="../basegui.cpp" line="4631"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>האם ברצונך לעדכן את הקוד של Youtube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4629"/>
+        <location filename="../basegui.cpp" line="4639"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>אולי עדכון של SMPlayer עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1988"/>
+        <location filename="../basegui.cpp" line="1995"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>ש&amp;תף את SMPlayer עם חברים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2997"/>
-        <location filename="../basegui.cpp" line="3682"/>
+        <location filename="../basegui.cpp" line="3006"/>
+        <location filename="../basegui.cpp" line="3691"/>
         <source>Information</source>
         <translation>מידע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2998"/>
+        <location filename="../basegui.cpp" line="3007"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>עליך להפעיל מחדש את SMPlayer כדי להשתמש בממשק החדש.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3460"/>
+        <location filename="../basegui.cpp" line="3469"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>אימות מחיקה - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3461"/>
+        <location filename="../basegui.cpp" line="3470"/>
         <source>Delete the list of recent files?</source>
         <translation>למחוק את הרשימה של קבצים אחרונים?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3683"/>
+        <location filename="../basegui.cpp" line="3692"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>הערכים הנוכחיים אוחסנו לשימוש בתור ערכים שגרתיים.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>Inc saturation</source>
         <translation>הגבר רוויה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>Inc gamma</source>
         <translation>הגבר גאמה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1653"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;טען קובץ חיצוני...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>&amp;Kerndeint</source>
         <translation>‏&amp;Kerndeint‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1889"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (רגילה)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1890"/>
+        <location filename="../basegui.cpp" line="1897"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (שיעור מסגרת כפול)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1738"/>
+        <location filename="../basegui.cpp" line="1744"/>
         <source>&amp;Next</source>
         <translation>ה&amp;באה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1739"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;קודמת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1653"/>
+        <location filename="../basegui.cpp" line="1659"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;נורמליזציית עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1539"/>
+        <location filename="../basegui.cpp" line="1545"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;תקליטור שמע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1770"/>
+        <location filename="../basegui.cpp" line="1776"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;החלף מידה כפולה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1663"/>
+        <location filename="../basegui.cpp" line="1669"/>
         <source>S&amp;ize -</source>
         <translation>ג&amp;ודל -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1664"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>Si&amp;ze +</source>
         <translation>גו&amp;דל +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1640"/>
         <source>Add &amp;black borders</source>
         <translation>הוסף גבולות &amp;שחורים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1635"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>Soft&amp;ware scaling</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;FAQ</source>
         <translation>&amp;שו&quot;ת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;Command line options</source>
         <translation>&amp;אפשרויות שורת פקודה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4123"/>
+        <location filename="../basegui.cpp" line="4132"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer אפשרויות שורת פקודה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1670"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>&amp;Forced subtitles only</source>
         <translation>&amp;כתוביות כפויות בלבד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>Reset video equalizer</source>
         <translation>אפס מאזן וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4659"/>
+        <location filename="../basegui.cpp" line="4675"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>השרת החזיר &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5301"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer הסתיים במפתיע.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5302"/>
+        <location filename="../basegui.cpp" line="5318"/>
         <source>Exit code: %1</source>
         <translation>קוד יציאה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5321"/>
+        <location filename="../basegui.cpp" line="5337"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer נכשל להתחיל.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5322"/>
+        <location filename="../basegui.cpp" line="5338"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>אנא בדוק את הנתיב של MPlayer בתוך העדפות.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5324"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>MPlayer has crashed.</source>
         <translation>מגשר עורפי MPlayer קרס.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5325"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>See the log for more info.</source>
         <translation>ראה את היומן למידע נוסף.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>&amp;Rotate</source>
         <translation>&amp;סובב</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1909"/>
         <source>&amp;Off</source>
         <translation>&amp;כבוי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1903"/>
+        <location filename="../basegui.cpp" line="1910"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;סובב 90 מעלות בכיוון שעון והפוך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1911"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>סובב 90 מעלות ב&amp;כיוון שעון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>סובב 90 מעלות ב&amp;ניגוד לכיוון שעון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1906"/>
+        <location filename="../basegui.cpp" line="1913"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>&amp;סובב 90 מעלות בניגוד לכיוון שעון והפוך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1591"/>
+        <location filename="../basegui.cpp" line="1597"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;קפוץ אל...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1773"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>Show context menu</source>
         <translation>הצג תפריט הקשר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3868"/>
+        <location filename="../basegui.cpp" line="3877"/>
         <source>Multimedia</source>
         <translation>מולטימדיה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>E&amp;qualizer</source>
         <translation>מ&amp;אזן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>Reset audio equalizer</source>
         <translation>אפס מאזן אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>&amp;העלה כתוביות אל OpenSubtitles.org..‏.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
+        <location filename="../basegui.cpp" line="1881"/>
         <source>&amp;Auto</source>
         <translation>&amp;אוטומטית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1599"/>
+        <location filename="../basegui.cpp" line="1605"/>
         <source>Speed -&amp;4%</source>
         <translation>מהירות -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1600"/>
+        <location filename="../basegui.cpp" line="1606"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;מהירות +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1601"/>
+        <location filename="../basegui.cpp" line="1607"/>
         <source>Speed -&amp;1%</source>
         <translation>מהירות -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1602"/>
+        <location filename="../basegui.cpp" line="1608"/>
         <source>S&amp;peed +1%</source>
         <translation>מ&amp;הירות +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>Scree&amp;n</source>
         <translation>מרק&amp;ע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>&amp;Default</source>
         <translation>&amp;ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1614"/>
+        <location filename="../basegui.cpp" line="1620"/>
         <source>Mirr&amp;or image</source>
         <translation>&amp;שקף תמונה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>Next video</source>
         <translation>וידאו בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1835"/>
+        <location filename="../basegui.cpp" line="1842"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;רצועה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;רצועה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4497"/>
+        <location filename="../basegui.cpp" line="4507"/>
         <source>Warning - Using old MPlayer</source>
         <translation>אזהרה - גרסא ישנה של MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4498"/>
+        <location filename="../basegui.cpp" line="4508"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>הגרסא של MPlayer (%1) שמותקנת במערכתך הינה מיושנת. SMPlayer לא מסוגל לעבוד עם זו היטב: אפשרויות מסוימות לא יעבדו, מבחר כתובית עשוי להיכשל...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4503"/>
+        <location filename="../basegui.cpp" line="4513"/>
         <source>Please, update your MPlayer.</source>
         <translation>אנא עדכן את MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4505"/>
+        <location filename="../basegui.cpp" line="4515"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(אזהרה זו לא תוצג עוד)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>Next aspect ratio</source>
         <translation>יחס רוחב גובה בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1619"/>
+        <location filename="../basegui.cpp" line="1625"/>
         <source>&amp;Auto zoom</source>
         <translation>זום &amp;אוטומטי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1620"/>
+        <location filename="../basegui.cpp" line="1626"/>
         <source>Zoom for &amp;16:9</source>
         <translation>זום מיוחד &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1621"/>
+        <location filename="../basegui.cpp" line="1627"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>זום מיוחד &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>&amp;Always</source>
         <translation>&amp;תמיד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1909"/>
+        <location filename="../basegui.cpp" line="1916"/>
         <source>&amp;Never</source>
         <translation>&amp;אף פעם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1910"/>
+        <location filename="../basegui.cpp" line="1917"/>
         <source>While &amp;playing</source>
         <translation>במהלך &amp;נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1984"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;תפריט</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1979"/>
+        <location filename="../basegui.cpp" line="1986"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD תפריט &amp;קודם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="1980"/>
         <source>DVD menu, move up</source>
         <translation>DVD תפריט, הזז מעלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1974"/>
+        <location filename="../basegui.cpp" line="1981"/>
         <source>DVD menu, move down</source>
         <translation>DVD תפריט, הזז מטה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="1982"/>
         <source>DVD menu, move left</source>
         <translation>DVD תפריט, הזז שמאלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1976"/>
+        <location filename="../basegui.cpp" line="1983"/>
         <source>DVD menu, move right</source>
         <translation>DVD תפריט, הזז ימינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1978"/>
+        <location filename="../basegui.cpp" line="1985"/>
         <source>DVD menu, select option</source>
         <translation>DVD תפריט, בחר אפשרות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1980"/>
+        <location filename="../basegui.cpp" line="1987"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD תפריט, קליק עכבר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="1652"/>
         <source>Set dela&amp;y...</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1660"/>
+        <location filename="../basegui.cpp" line="1666"/>
         <source>Se&amp;t delay...</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4196"/>
+        <location filename="../basegui.cpp" line="4205"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;קפוץ אל:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4197"/>
+        <location filename="../basegui.cpp" line="4206"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - חיפוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4208"/>
-        <location filename="../basegui.cpp" line="4212"/>
+        <location filename="../basegui.cpp" line="4217"/>
+        <location filename="../basegui.cpp" line="4221"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - שיהוי אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4209"/>
-        <location filename="../basegui.cpp" line="4213"/>
+        <location filename="../basegui.cpp" line="4218"/>
+        <location filename="../basegui.cpp" line="4222"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>שיהוי אודיו (במאיות שניה):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4224"/>
-        <location filename="../basegui.cpp" line="4228"/>
+        <location filename="../basegui.cpp" line="4233"/>
+        <location filename="../basegui.cpp" line="4237"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - שיהוי כתובית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4225"/>
-        <location filename="../basegui.cpp" line="4229"/>
+        <location filename="../basegui.cpp" line="4234"/>
+        <location filename="../basegui.cpp" line="4238"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>שיהוי כתובית (במאיות שניה):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1911"/>
+        <location filename="../basegui.cpp" line="1918"/>
         <source>Toggle stay on top</source>
         <translation>תמיד השאר בשיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4992"/>
+        <location filename="../basegui.cpp" line="5008"/>
         <source>Jump to %1</source>
         <translation>‭%1 לא ץופק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1609"/>
+        <location filename="../basegui.cpp" line="1615"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>התחל/הפסק ל&amp;קחת תצלומי מסך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1678"/>
         <source>Subtitle &amp;visibility</source>
         <translation>&amp;ראות כתובית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1775"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>Next wheel function</source>
         <translation>פונקציית גלגל באה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1967"/>
+        <location filename="../basegui.cpp" line="1974"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>&amp;תוכנית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;TV</source>
         <translation>&amp;טלוויזיה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>Radi&amp;o</source>
         <translation>&amp;רדיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>Subtitles onl&amp;y</source>
         <translation>כתוביות &amp;בלבד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1790"/>
         <source>Volume + &amp;Seek</source>
         <translation>ויסות עוצמת שמע + &amp;חיפוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1791"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>ויסות עוצמת שמע + חיפוש + &amp;קוצב זמן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>ויסות עוצמת שמע + חיפוש + קוצב זמן + זמן &amp;כולל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1492"/>
+        <location filename="../basegui.cpp" line="1495"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>מסנני וידאו הינם מנוטרלים כאשר vdpau מצוי בשימוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1613"/>
+        <location filename="../basegui.cpp" line="1619"/>
         <source>Fli&amp;p image</source>
         <translation>&amp;הפוך תמונה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1845"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>Zoo&amp;m</source>
         <translation>&amp;זום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>Show filename on OSD</source>
         <translation>הצג שם קובץ עם OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1586"/>
+        <location filename="../basegui.cpp" line="1592"/>
         <source>Set &amp;A marker</source>
         <translation>קבע נקודת &amp;A‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1587"/>
+        <location filename="../basegui.cpp" line="1593"/>
         <source>Set &amp;B marker</source>
         <translation>קבע נקודת &amp;B‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1588"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;טהר נקודות A-B‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1831"/>
+        <location filename="../basegui.cpp" line="1838"/>
         <source>&amp;A-B section</source>
         <translation>נקודות &amp;A-B‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>Toggle deinterlacing</source>
         <translation>החלף איון שזירה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1950"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;כותרות מוסגרות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Disc</source>
         <translation>&amp;תקליטור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>F&amp;avorites</source>
         <translation>מו&amp;עדפים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1719"/>
         <source>Check for &amp;updates</source>
         <translation>&amp;בדוק עבור עדכונים</translation>
     </message>
@@ -2151,73 +2156,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2842"/>
+        <location filename="../core.cpp" line="2883"/>
         <source>Brightness: %1</source>
         <translation>‭%1 :תוריהב</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2858"/>
+        <location filename="../core.cpp" line="2899"/>
         <source>Contrast: %1</source>
         <translation>‭%1 :תודח</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2873"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Gamma: %1</source>
         <translation>‭%1 :המאג</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2888"/>
+        <location filename="../core.cpp" line="2929"/>
         <source>Hue: %1</source>
         <translation>‭%1 :ןווג</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2903"/>
+        <location filename="../core.cpp" line="2944"/>
         <source>Saturation: %1</source>
         <translation>‭%1 :היוור</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3032"/>
+        <location filename="../core.cpp" line="3073"/>
         <source>Volume: %1</source>
         <translation>‭%1 :עמש תמצוע</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3892"/>
+        <location filename="../core.cpp" line="3978"/>
         <source>Zoom: %1</source>
         <translation>‭%1 :םוז</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4113"/>
+        <location filename="../core.cpp" line="4203"/>
         <source>Buffering...</source>
         <translation>אוגר כעת...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3150"/>
-        <location filename="../core.cpp" line="3161"/>
+        <location filename="../core.cpp" line="3191"/>
+        <location filename="../core.cpp" line="3202"/>
         <source>Font scale: %1</source>
         <translation>‭%1 :ןפוג לש הדימ הנק</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3757"/>
+        <location filename="../core.cpp" line="3819"/>
         <source>Aspect ratio: %1</source>
         <translation>‭%1 :הבוג בחור סחי</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4109"/>
+        <location filename="../core.cpp" line="4199"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>מעדכן כעת מטמון גופנים. זה עשוי לקחת כמה שניות...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3075"/>
+        <location filename="../core.cpp" line="3116"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>‭ש&quot;מ %1 :תויבותכ יוהיש</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3093"/>
+        <location filename="../core.cpp" line="3134"/>
         <source>Audio delay: %1 ms</source>
         <translation>‭ש&quot;מ %1 :וידוא יוהיש</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2998"/>
         <source>Speed: %1</source>
         <translation>‭%1 :תוריהמ</translation>
     </message>
@@ -2232,37 +2237,37 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>אין אפשרות לאתר כתובת URL של וידאו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3279"/>
         <source>Subtitles on</source>
         <translation>‭קולד :תויבותכ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3281"/>
         <source>Subtitles off</source>
         <translation>‭יובכ :תויבותכ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3805"/>
+        <location filename="../core.cpp" line="3867"/>
         <source>Mouse wheel seeks now</source>
         <translation>גלגל עכבר: מחפש עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3808"/>
+        <location filename="../core.cpp" line="3870"/>
         <source>Mouse wheel changes volume now</source>
         <translation>גלגל עכבר: משנה עוצמת שמע עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3811"/>
+        <location filename="../core.cpp" line="3873"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>גלגל עכבר: משנה רמת זון עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3814"/>
+        <location filename="../core.cpp" line="3876"/>
         <source>Mouse wheel changes speed now</source>
         <translation>גלגל עכבר: משנה מהירות עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4118"/>
+        <location filename="../core.cpp" line="4208"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2300,82 +2305,82 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="501"/>
+        <location filename="../defaultgui.cpp" line="528"/>
         <source>Welcome to SMPlayer</source>
         <translation>ברוך בואך אל SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="529"/>
+        <location filename="../defaultgui.cpp" line="559"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>Subtitle</source>
         <translation>כתובית</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="523"/>
+        <location filename="../defaultgui.cpp" line="553"/>
         <source>&amp;Main toolbar</source>
         <translation>סרגל כלים &amp;ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="526"/>
+        <location filename="../defaultgui.cpp" line="556"/>
         <source>&amp;Language toolbar</source>
         <translation>סרגל כלים &amp;שפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="517"/>
+        <location filename="../defaultgui.cpp" line="547"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;סרגלי כלים</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="557"/>
+        <location filename="../defaultgui.cpp" line="587"/>
         <source>A:%1</source>
         <translation>א:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="561"/>
+        <location filename="../defaultgui.cpp" line="591"/>
         <source>B:%1</source>
         <translation>ב:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="520"/>
+        <location filename="../defaultgui.cpp" line="550"/>
         <source>Status&amp;bar</source>
         <translation>שורת &amp;מצב</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="562"/>
         <source>&amp;Video info</source>
         <translation>מידע &amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="533"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;מונה מסגרת</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="536"/>
+        <location filename="../defaultgui.cpp" line="566"/>
         <source>Edit main &amp;toolbar</source>
         <translation>ערוך &amp;סרגל כלים ראשי</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="537"/>
+        <location filename="../defaultgui.cpp" line="567"/>
         <source>Edit &amp;control bar</source>
         <translation>ערוך סרגל &amp;בקרה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="538"/>
+        <location filename="../defaultgui.cpp" line="568"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>ערוך סרגל בקרה &amp;קטן</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="539"/>
+        <location filename="../defaultgui.cpp" line="569"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="571"/>
+        <location filename="../defaultgui.cpp" line="601"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation type="unfinished"></translation>
@@ -4440,17 +4445,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="162"/>
+        <location filename="../minigui.cpp" line="172"/>
         <source>Control bar</source>
         <translation>סרגל בקרה</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="165"/>
+        <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
         <translation>ערוך סרגל &amp;בקרה</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="166"/>
+        <location filename="../minigui.cpp" line="176"/>
         <source>Edit &amp;floating control</source>
         <translation>ערוך בקרה &amp;צפה</translation>
     </message>
@@ -4536,174 +4541,174 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="293"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Name</source>
         <translation>שם</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="293"/>
+        <location filename="../playlist.cpp" line="297"/>
         <source>Length</source>
         <translation>אורך</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="298"/>
+        <location filename="../playlist.cpp" line="302"/>
         <source>&amp;Play</source>
         <translation>&amp;נגן</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="324"/>
+        <location filename="../playlist.cpp" line="328"/>
         <source>&amp;Edit</source>
         <translation>&amp;ערוך</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="809"/>
-        <location filename="../playlist.cpp" line="827"/>
+        <location filename="../playlist.cpp" line="817"/>
+        <location filename="../playlist.cpp" line="835"/>
         <source>Playlists</source>
         <translation>רשימות נגינה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="807"/>
+        <location filename="../playlist.cpp" line="815"/>
         <source>Choose a file</source>
         <translation>בחירת קובץ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="825"/>
+        <location filename="../playlist.cpp" line="833"/>
         <source>Choose a filename</source>
         <translation>בחירת שם קובץ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="836"/>
+        <location filename="../playlist.cpp" line="844"/>
         <source>Confirm overwrite?</source>
         <translation>לאמת החלפה?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="837"/>
+        <location filename="../playlist.cpp" line="845"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>הקובץ %1 כבר קיים, האם ברצונך להחליף?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1040"/>
+        <location filename="../playlist.cpp" line="1042"/>
         <source>All files</source>
         <translation>כל הקבצים</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1037"/>
+        <location filename="../playlist.cpp" line="1039"/>
         <source>Select one or more files to open</source>
         <translation>בחירת קובץ אחד או יותר לפתיחה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1093"/>
+        <location filename="../playlist.cpp" line="1095"/>
         <source>Choose a directory</source>
         <translation>בחירת מדור</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1300"/>
+        <location filename="../playlist.cpp" line="1302"/>
         <source>Edit name</source>
         <translation>עריכת שם</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1301"/>
+        <location filename="../playlist.cpp" line="1303"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>הקלד את השם שיופיע בתוך הרשימה עבור קובץ זה:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="295"/>
+        <location filename="../playlist.cpp" line="299"/>
         <source>&amp;Load</source>
         <translation>&amp;טען</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="296"/>
+        <location filename="../playlist.cpp" line="300"/>
         <source>&amp;Save</source>
         <translation>&amp;שמור</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="300"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>&amp;Next</source>
         <translation>&amp;באה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="301"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;קודמת</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="311"/>
         <source>Move &amp;up</source>
         <translation>הזז מ&amp;עלה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="308"/>
+        <location filename="../playlist.cpp" line="312"/>
         <source>Move &amp;down</source>
         <translation>הזז מ&amp;טה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="314"/>
         <source>&amp;Repeat</source>
         <translation>&amp;חזור</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="311"/>
+        <location filename="../playlist.cpp" line="315"/>
         <source>S&amp;huffle</source>
         <translation>&amp;ערבב</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="318"/>
         <source>Add &amp;current file</source>
         <translation>הוסף קובץ &amp;נוכחי</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="319"/>
         <source>Add &amp;file(s)</source>
         <translation>הוסף &amp;קבצים</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>Add &amp;directory</source>
         <translation>הוסף &amp;מדור</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="317"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>Add &amp;URL(s)</source>
         <translation>הוסף &amp;URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="320"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>Remove &amp;selected</source>
         <translation>הס&amp;ר נבחרות</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="321"/>
+        <location filename="../playlist.cpp" line="325"/>
         <source>Remove &amp;all</source>
         <translation>הסר &amp;הכל</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="334"/>
+        <location filename="../playlist.cpp" line="338"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="328"/>
+        <location filename="../playlist.cpp" line="332"/>
         <source>Add...</source>
         <translation>הוסף...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="330"/>
+        <location filename="../playlist.cpp" line="334"/>
         <source>Remove...</source>
         <translation>הסר...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="862"/>
+        <location filename="../playlist.cpp" line="870"/>
         <source>Playlist modified</source>
         <translation>רשימת נגינה שונתה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="863"/>
+        <location filename="../playlist.cpp" line="871"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>קיימים שינויים שלא נשמרו, האם ברצונך לשמור את רשימת הנגינה?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1039"/>
+        <location filename="../playlist.cpp" line="1041"/>
         <source>Multimedia</source>
         <translation>מולטימדיה</translation>
     </message>
@@ -6246,20 +6251,20 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>אל תעורר לחיצה שמאלית באמצעות ל&amp;חיצה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="143"/>
-        <location filename="../prefinput.cpp" line="354"/>
+        <location filename="../prefinput.cpp" line="145"/>
+        <location filename="../prefinput.cpp" line="356"/>
         <source>Media seeking</source>
         <translation>חיפוש מדיה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="144"/>
-        <location filename="../prefinput.cpp" line="357"/>
+        <location filename="../prefinput.cpp" line="146"/>
+        <location filename="../prefinput.cpp" line="359"/>
         <source>Volume control</source>
         <translation>בקרת עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="145"/>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="147"/>
+        <location filename="../prefinput.cpp" line="362"/>
         <source>Zoom video</source>
         <translation>וידאו זום</translation>
     </message>
@@ -6274,7 +6279,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או לחץ Enter על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או התחל להקליד על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
@@ -6294,42 +6299,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;פונקציית גלגל:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="311"/>
+        <location filename="../prefinput.cpp" line="313"/>
         <source>Shortcut editor</source>
         <translation>עורך קיצור דרך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="312"/>
+        <location filename="../prefinput.cpp" line="314"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>טבלה זו מתירה לך לשנות קיצורי דרך של רוב הפעולות הזמינות. קליק כפול או לחץ enter על פריט, או לחץ על הלחצן &lt;b&gt;שנה קיצור דרך&lt;/b&gt; כדי להיכנס אל תיבת דו שיח &lt;i&gt;התאמת קיצור דרך&lt;/i&gt;. קיימות שתי דרכים לשנות קיצור דרך: כאשר הלחצן &lt;b&gt;תפוס&lt;/b&gt; מופעל אז פשוט תלחץ את המקש או את הצירוף החדש אשר ברצונך להקצות עבוד הפעולה (למרבה הצער זו לא עובדת עבור כל המקשים). כאשר הלחצן &lt;b&gt;תפוס&lt;/b&gt; כבוי אז באפשרותך להזין את השם המלא של המקש.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="324"/>
+        <location filename="../prefinput.cpp" line="326"/>
         <source>Left click</source>
         <translation>קליק שמאלי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="325"/>
+        <location filename="../prefinput.cpp" line="327"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק שמאלי בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="327"/>
+        <location filename="../prefinput.cpp" line="329"/>
         <source>Double click</source>
         <translation>קליק כפול</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="328"/>
+        <location filename="../prefinput.cpp" line="330"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק כפול בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="339"/>
+        <location filename="../prefinput.cpp" line="341"/>
         <source>Wheel function</source>
         <translation>פונקציית גלגל</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="340"/>
+        <location filename="../prefinput.cpp" line="342"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>בחר את הפעולה עבור גלגל העכבר.</translation>
     </message>
@@ -6409,13 +6414,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ביצועים</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="142"/>
+        <location filename="../prefinput.cpp" line="144"/>
         <source>No function</source>
         <translation>אין פונקציה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="146"/>
-        <location filename="../prefinput.cpp" line="363"/>
+        <location filename="../prefinput.cpp" line="148"/>
+        <location filename="../prefinput.cpp" line="365"/>
         <source>Change speed</source>
         <translation>שנה מהירות</translation>
     </message>
@@ -6425,22 +6430,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>מהירות רגילה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="309"/>
+        <location filename="../prefinput.cpp" line="311"/>
         <source>Keyboard</source>
         <translation>מקלדת</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="322"/>
+        <location filename="../prefinput.cpp" line="324"/>
         <source>Mouse</source>
         <translation>עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="330"/>
+        <location filename="../prefinput.cpp" line="332"/>
         <source>Middle click</source>
         <translation>קליק אמצעי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="331"/>
+        <location filename="../prefinput.cpp" line="333"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק תיכוני בעכבר.</translation>
     </message>
@@ -6495,7 +6500,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>OSD - שלב בא</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Show context menu</source>
         <translation>הצג תפריט הקשר</translation>
     </message>
@@ -6515,32 +6520,32 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הנמך עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="333"/>
+        <location filename="../prefinput.cpp" line="335"/>
         <source>X Button 1</source>
         <translation>לחצן X‏ 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="334"/>
+        <location filename="../prefinput.cpp" line="336"/>
         <source>Select the action for the X button 1.</source>
         <translation>בחר פעולה עבור לחצן X‏ 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="336"/>
+        <location filename="../prefinput.cpp" line="338"/>
         <source>X Button 2</source>
         <translation>לחצן X‏ 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="337"/>
+        <location filename="../prefinput.cpp" line="339"/>
         <source>Select the action for the X button 2.</source>
         <translation>בחר פעולה עבור לחצן X‏ 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Show video equalizer</source>
         <translation>הצג מאזן וידאו</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Show audio equalizer</source>
         <translation>הצג מאזן אודיו</translation>
     </message>
@@ -6560,111 +6565,121 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>על השיא במהלך נגינה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="82"/>
+        <source>Next chapter</source>
+        <translation type="unfinished">פרק בא</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="83"/>
+        <source>Previous chapter</source>
+        <translation type="unfinished">פרק קודם</translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>הפעל אפשרות תחת עכבר בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>Return to main DVD menu</source>
         <translation>חזור אל תפריט DVD ראשי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>חזור אל תפריט קודם בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Move cursor up in DVD menus</source>
         <translation>הזז סמן מעלה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Move cursor down in DVD menus</source>
         <translation>הזז סמן מטה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="92"/>
+        <location filename="../prefinput.cpp" line="94"/>
         <source>Move cursor left in DVD menus</source>
         <translation>הזז סמן שמאלה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Move cursor right in DVD menus</source>
         <translation>הזז סמן ימינה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="94"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>הפעל אפשרות הדגשה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="342"/>
+        <location filename="../prefinput.cpp" line="344"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>אל תעורר לחיצה שמאלית באמצעות לחיצה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="343"/>
+        <location filename="../prefinput.cpp" line="345"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="346"/>
+        <location filename="../prefinput.cpp" line="348"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Change function of wheel</source>
         <translation>שנה פונקציה של גלגל</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="395"/>
-        <location filename="../prefinput.cpp" line="149"/>
+        <location filename="../prefinput.cpp" line="151"/>
         <source>Media &amp;seeking</source>
         <translation>חי&amp;פוש מדיה</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="409"/>
-        <location filename="../prefinput.cpp" line="150"/>
+        <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;הקרב וידאו</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="402"/>
-        <location filename="../prefinput.cpp" line="151"/>
+        <location filename="../prefinput.cpp" line="153"/>
         <source>&amp;Volume control</source>
         <translation>בקרת עוצמת &amp;שמע</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="416"/>
-        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="154"/>
         <source>&amp;Change speed</source>
         <translation>&amp;שנה מהירות</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="352"/>
+        <location filename="../prefinput.cpp" line="354"/>
         <source>Mouse wheel functions</source>
         <translation>פונקציות גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="355"/>
+        <location filename="../prefinput.cpp" line="357"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>סמן את זו כדי לאפשר חיפוש כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>סמן את זו כדי לאפשר שינוי עוצמה כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="361"/>
+        <location filename="../prefinput.cpp" line="363"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>סמן את זו כדי לאפשר זום כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="364"/>
+        <location filename="../prefinput.cpp" line="366"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>סמן את זו כדי לאפשר שינוי מהירות כפונקציה אחת.</translation>
     </message>
@@ -6679,12 +6694,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>בחר את הפעולות שיש להחליפן כאשר משתמשים באפשרות &quot;שנה פונקציית גלגל&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="349"/>
+        <location filename="../prefinput.cpp" line="351"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>חיפוש מדיה גלגל מהופך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="350"/>
+        <location filename="../prefinput.cpp" line="352"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>סמן את זו כדי לחפש בכיוון הנגדי.</translation>
     </message>
@@ -7891,12 +7906,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="119"/>
+        <location filename="../prefplaylist.cpp" line="127"/>
         <source>Automatically add files to playlist</source>
         <translation>הוסף קבצים אוטומטית אל רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="120"/>
+        <location filename="../prefplaylist.cpp" line="128"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>במידה ואפשרות זו מאופשרת, בכל פעם בה קובץ נפתח, SMPlayer יטהר את רשימת הנגינה תחילה ואז יוסיף אליה את הקובץ. כאשר מדובר בתקליטורים של DVD, CD וגם VCD, כל הכותרות בתקליטור יתווספו אל רשימת הנגינה.</translation>
     </message>
@@ -7926,64 +7941,74 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>קבצים עוקבים</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="125"/>
+        <location filename="../prefplaylist.cpp" line="133"/>
         <source>Add files from folder</source>
         <translation>הוספת קבצים מתוך תיקייה</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="126"/>
+        <location filename="../prefplaylist.cpp" line="134"/>
         <source>This option allows to add files automatically to the playlist:</source>
         <translation>אפשרות זו מתירה לך להוסיף קבצים אוטומטית אל רשימת הנגינה:</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="127"/>
+        <location filename="../prefplaylist.cpp" line="135"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;כלום&lt;/b&gt;: לא יתווספו קבצים</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="128"/>
+        <location filename="../prefplaylist.cpp" line="136"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;קבצי וידאו&lt;/b&gt;: כל קבצי הוידאו אשר מצויים בתוך התיקייה יתווספו</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="129"/>
+        <location filename="../prefplaylist.cpp" line="137"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;קבצי אודיו&lt;/b&gt;: כל קבצי האודיו אשר מצויים בתוך התיקייה יתווספו</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="130"/>
+        <location filename="../prefplaylist.cpp" line="138"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;קבצי וידאו וגם אודיו&lt;/b&gt;: כל קבצי הוידאו וגם האודיו אשר מצויים בתוך התיקייה יתווספו</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="131"/>
+        <location filename="../prefplaylist.cpp" line="139"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;קבצים עוקבים&lt;/b&gt;: קבצים עוקבים (כגון video_1.avi, video_2.avi) יתווספו</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="133"/>
+        <location filename="../prefplaylist.cpp" line="141"/>
         <source>Play files from start</source>
         <translation>נגן קבצים מההתחלה</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="134"/>
+        <location filename="../prefplaylist.cpp" line="142"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>במידה ואפשרות זו מאופשרת, כל הקבצים מתוך רשימת הנגינה יתחילו להתנגן מן ההתחלה במקום להמשיך מן הנגנה קודמת.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="143"/>
+        <location filename="../prefplaylist.cpp" line="151"/>
         <source>Get info automatically about files added</source>
         <translation>השג מידע אוטומטית אודות קבצים מוספים</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="150"/>
+        <location filename="../prefplaylist.cpp" line="158"/>
         <source>Save copy of playlist on exit</source>
         <translation>שמור עותק של רשימת נגינה בעת יציאה</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="151"/>
+        <location filename="../prefplaylist.cpp" line="159"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
         <translation>במידה ואפשרות זו מסומנת, העתק של רשימת הנגינה יישמר בתוך התצורה של smplayer כאשר smplayer נסגר, וזו תטען את עצמה אוטומטית כאשר smplayer מורץ שוב.</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="163"/>
+        <source>Play next file even if the previous file failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="164"/>
+        <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -7996,17 +8021,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;הוסף קבצים אוטומטית אל רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="138"/>
+        <location filename="../prefplaylist.cpp" line="146"/>
         <source>Add files in directories recursively</source>
         <translation>הוסף קבצים בתוך מדור באופן רקורסיבי</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="139"/>
+        <location filename="../prefplaylist.cpp" line="147"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>סמן את אפשרות זו אם ברצונך שהוספה של מדור תיכלול גם את הקבצים במדורי המשנה. אחרת רק הקבצים בתוך המדור הנבחר יתווספו.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="144"/>
+        <location filename="../prefplaylist.cpp" line="152"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>סמן את אפשרות זו כדי לתחקר את הקבצים להוספה אל רשימת הנגינה עבור מידע מסוים. פעולה זו מתירה להציג את שם הכותרת (אם זמינה) ואת אורך הקבצים. אחרצ מידע זה לא יהיה זמין עד אשר קובץ נתון מתנגן למעשה. היזהר: אפשרות זו עשויה להיות איטי, בייחוד אם אתה מוסיף קבצים רבים.</translation>
     </message>
@@ -8034,6 +8059,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefplaylist.ui" line="124"/>
         <source>&amp;Save copy of playlist on exit</source>
         <translation>&amp;שמור עותק של רשימת נגינה בעת יציאה</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="131"/>
+        <source>Play &amp;next file even if the previous file failed</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8759,7 +8789,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>the main window will be closed when the file/playlist finishes.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="522"/>
+        <location filename="../smplayer.cpp" line="532"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>This is SMPlayer v. %1 running on %2</translation>
     </message>
@@ -8879,19 +8909,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="166"/>
+        <location filename="../mediasettings.cpp" line="164"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>disabled</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="177"/>
+        <location filename="../mediasettings.cpp" line="175"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>auto</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="178"/>
+        <location filename="../mediasettings.cpp" line="176"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>לא ידוע</translation>
@@ -9162,7 +9192,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.ui" line="156"/>
+        <location filename="../toolbareditor.ui" line="163"/>
         <source>Add &amp;separator</source>
         <translation>הוסף &amp;חוצץ</translation>
     </message>
@@ -9320,7 +9350,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="433"/>
+        <location filename="../videopreview/videopreview.cpp" line="437"/>
         <source>Video preview</source>
         <translation>תצוגה מקדימה של וידאו</translation>
     </message>
@@ -9345,27 +9375,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>יוצר כעת תמונות ציפורן...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="417"/>
+        <location filename="../videopreview/videopreview.cpp" line="421"/>
         <source>Size: %1 MB</source>
         <translation>גודל: ‎%1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="419"/>
+        <location filename="../videopreview/videopreview.cpp" line="423"/>
         <source>Length: %1</source>
         <translation>אורך: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="585"/>
+        <location filename="../videopreview/videopreview.cpp" line="589"/>
         <source>Save file</source>
         <translation>שמור קובץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="598"/>
+        <location filename="../videopreview/videopreview.cpp" line="602"/>
         <source>Error saving file</source>
         <translation>שגיאה בשמירת קובץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="599"/>
+        <location filename="../videopreview/videopreview.cpp" line="603"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>הקובץ לא היה מסוגל להישמר</translation>
     </message>
@@ -9385,42 +9415,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>התיקייה הזמנית (%1) לא ניתנת ליצירה</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="338"/>
+        <location filename="../videopreview/videopreview.cpp" line="342"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>התהליך mplayer לא רץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>Resolution: %1x%2</source>
         <translation>רזולוציה: ‎%1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="426"/>
         <source>Video format: %1</source>
         <translation>פורמט וידאו: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="427"/>
         <source>Frames per second: %1</source>
         <translation>מסגרות לכל שניה: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="424"/>
+        <location filename="../videopreview/videopreview.cpp" line="428"/>
         <source>Aspect ratio: %1</source>
         <translation>יחס רוחב גובה: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="356"/>
+        <location filename="../videopreview/videopreview.cpp" line="360"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>הקובץ %1 לא יכול לטעינה</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="463"/>
         <source>No filename</source>
         <translation>אין שם קובץ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="543"/>
+        <location filename="../videopreview/videopreview.cpp" line="547"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>התהליך mplayer לא התחיל בעת ניסיון להשיג מידע אודות הוידאו</translation>
     </message>
@@ -9435,38 +9465,38 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הקובץ %1 לא קיים</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="586"/>
+        <location filename="../videopreview/videopreview.cpp" line="590"/>
         <source>Images</source>
         <translation>תמונות</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="406"/>
+        <location filename="../videopreview/videopreview.cpp" line="410"/>
         <source>No info</source>
         <translation>אין מידע</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="409"/>
-        <location filename="../videopreview/videopreview.cpp" line="410"/>
+        <location filename="../videopreview/videopreview.cpp" line="413"/>
+        <location filename="../videopreview/videopreview.cpp" line="414"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="411"/>
+        <location filename="../videopreview/videopreview.cpp" line="415"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="427"/>
+        <location filename="../videopreview/videopreview.cpp" line="431"/>
         <source>Video bitrate: %1</source>
         <translation>שיעור סיבית וידאו: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="428"/>
+        <location filename="../videopreview/videopreview.cpp" line="432"/>
         <source>Audio bitrate: %1</source>
         <translation>שיעור סיבית אודיו: ‎%1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="433"/>
         <source>Audio rate: %1</source>
         <translation>שיעור אודיו: ‎%1</translation>
     </message>
