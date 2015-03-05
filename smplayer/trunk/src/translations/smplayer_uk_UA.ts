@@ -1444,7 +1444,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Друга д&amp;оріжка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1953"/>
@@ -1469,17 +1469,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Запрошене вами відео потребує відкриття з&apos;єднання HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4600"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Нажаль, необхідний для цього компонент OpenSSL, відсутній у вашій системі.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4601"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Будь ласка, відвідайте %1, щоб дізнатися, як вирішити цю проблему.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4602"/>
@@ -1500,12 +1500,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5402"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation>Переглядач YouTube не встановлено</translation>
+        <translation>Переглядач YouTube не встановлено.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відвідайте %1 щоб отримати його.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4615"/>
@@ -2264,7 +2264,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4118"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Запуск...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -4301,7 +4301,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Словенська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4762,12 +4762,12 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation>Вести журнал &amp;вивидення MPlayer/MPV</translation>
+        <translation>Вести журнал вивидення MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо увімкнено, SMPlayer буде зберігати вивід MPlayer/MPV (ви можете побачити його в &lt;B&gt;Налаштування -&gt; Дивитись журнали -&gt; MPlayer/MPV&lt;/b&gt;). У разі виникнення проблем даний журнал може містити важливу інформацію, тому рекомендується залишити цю опцію увімкненою.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
@@ -5388,17 +5388,17 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Шаблон для скріншотів</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"></translation>
+        <translation>Як приклад %1 зберегти скріншот як &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 задає ім&apos;я файлу відео без розширення, %2 додає 4-значний номер, доповнений нулями.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5448,22 +5448,22 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тут ви повинні вказати виконуваний файл MPlayer чи MPV, який SMPlayer буде використовувати.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="917"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Цей параметр визначає шаблон імені для збереження скріншотів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"></translation>
+        <translation>Повний перелік параметрів шаблону зазначено тут:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція працює тільки з MPV.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
@@ -5543,7 +5543,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ша&amp;блон:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
@@ -7314,27 +7314,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (та інші сайти)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Увімкнути інутрішню підтримку Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість &amp;відтворення</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;User agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Уві&amp;мкнути підтримку потокових сайтів у MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7394,12 +7394,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути інутрішню підтримку Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо опція увімкнена, SMPlayer намагатиметься відтворювати відео з Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
@@ -7414,27 +7414,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкажіть user agent, який буде використовуватися SMPlayer при підключені до Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути підтримку потокових сайтів у MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer буде намагатися відтворювати потокове відео з сайтів Youtube, Dailymotion, Vimeo, Vevo та ін.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>Необхідні mpv та youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
@@ -7559,12 +7559,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Декодування</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Апаратне &amp;декодування</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="372"/>
@@ -7739,62 +7739,62 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
         <source>None</source>
-        <translation type="unfinished">Немає</translation>
+        <translation>Немає</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>Апаратне декодування</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"></translation>
+        <translation>Активує інтерфейс апаратного декодування. Якщо апаратне декодування неможливе, то буде використовуватися програмне декодування.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Available options:</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступні опції:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Відсутнє: буде використовуватись тільки програмне декодування.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="287"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто: автоматичне використання першого доступного апаратного метода декодуровання.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="289"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"></translation>
+        <translation>vdpau: вивід через vdpau та opengl відео виходи.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi: вивід через opengl та vaapi відео виходи. Тільки для відеокарт від Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"></translation>
+        <translation>vaapi-copy: копіює відео в системну пам&apos;ять. Тілько для відеокарт від Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"></translation>
+        <translation>dxva2-copy: копіює відео в системну пам&apos;ять. Експериментальна функція.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція працює тільки з MPV.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8214,12 +8214,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Дана опція активує бібліотеку ASS, що дозволяє використовувати субтитри з різними кольорами, шрифтами...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Зазвичай відключення цієї опції не потрібне. Вимиакйте її тільки якщо MPlayer зібраний без підтримки freetype. &lt;b&gt;Вимкнення цієї опції може призвести до непрацездатності субтитрів!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8925,12 +8925,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>встановлює опцію залишення завжди на передньому плані.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>встановлює опцію ніколи не залишатись на передньому плані.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9063,7 +9063,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Прокручувати назву</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="447"/>
@@ -9165,7 +9165,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Розмір піктограм:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="156"/>
