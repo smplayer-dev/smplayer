@@ -1378,7 +1378,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Tunjuk masa main balik dalam OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -6570,12 +6570,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Bab berikutnya</translation>
+        <translation>Bab berikutnya</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Bab terdahulu</translation>
+        <translation>Bab terdahulu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -8006,12 +8006,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Main fail berikutnya walaupun fail berikutnya mengalami kegagalan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika pilihan ini dibenarkan, senarai main akan abaikan ralat main balik daripada fail terdahulu dan akan main fail berikutnya yang ada di dalam senarai.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8066,7 +8066,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Main fail &amp;berikutnya jika fail terdahulu mengalami kegagalan</translation>
     </message>
 </context>
 <context>
@@ -8950,12 +8950,12 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>tetapkan sentiasa pilihan kekal di atas.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>tetapkan tidak sesekali pilihan kekal di atas.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9190,7 +9190,7 @@ Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lai
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Saiz &amp;ikon:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

@@ -1378,7 +1378,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokaż czas odtwarzania w menu ekranowym</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -6573,12 +6573,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Następny rozdział</translation>
+        <translation>Następny rozdział</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Poprzedni rozdział</translation>
+        <translation>Poprzedni rozdział</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -8009,12 +8009,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtwórz następny plik, nawet jeśli poprzedni plik jest uszkodzony</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jeśli ta opcja jest włączona, lista odtwarzania będzie ignorować błędy z poprzedniego pliku i odtwarzać następny plik z listy.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8069,7 +8069,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Odtwórz &amp;następny plik, nawet jeśli poprzedni plik jest uszkodzony</translation>
     </message>
 </context>
 <context>
@@ -8957,12 +8957,12 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>ustawia opcję zawsze na wierzchu na zawsze.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>ustawia opcję zawsze na wierzchu na nigdy.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9197,7 +9197,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rozmiar ikon:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

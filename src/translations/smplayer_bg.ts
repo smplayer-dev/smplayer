@@ -1378,7 +1378,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Показвай времето на възпроизвеждане в ЕИ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -6502,7 +6502,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="74"/>
         <source>OSD - Next level</source>
-        <translation>ЕИ - следващо ниво</translation>
+        <translation>Екранно известие - следващо ниво</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
@@ -6572,12 +6572,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Следваща глава</translation>
+        <translation>Следваща глава</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Предишна глава</translation>
+        <translation>Предишна глава</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -8008,12 +8008,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Възпроизведи следващия файл, независимо от предишния</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е активирана, списъкът за изпълнение ще пренебрегне грешките при възпроизвеждане от предишния файл и ще продължи със следващия от списъка.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8068,7 +8068,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Въ&amp;зпроизведи следващия файл, независимо от предишния</translation>
     </message>
 </context>
 <context>
@@ -8954,12 +8954,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>задава опцията винаги да е отгоре.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>задава опцията никога да не е отгоре.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9194,7 +9194,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Размер на икони:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

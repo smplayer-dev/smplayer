@@ -1378,7 +1378,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD に再生時間を表示</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -6570,12 +6570,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">次のチャプター</translation>
+        <translation>次のチャプター</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">前のチャプター</translation>
+        <translation>前のチャプター</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -8006,12 +8006,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>前のファイルが失敗しても次のファイルを再生する</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションが有効な場合、プレイリストは前のファイルからの再生エラーを無視して一覧の次のファイルを再生します。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8066,7 +8066,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>前のファイルが失敗しても次のファイルを再生する(&amp;N)</translation>
     </message>
 </context>
 <context>
@@ -8950,12 +8950,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>常に手前に表示します。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>常に手前に表示しません。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9190,7 +9190,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>アイコン サイズ(&amp;I):</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

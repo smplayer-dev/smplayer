@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="59"/>
         <source>Links:</source>
-        <translation>Links</translation>
+        <translation>Links:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -36,7 +36,7 @@
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>Simpel Kinesisk</translation>
+        <translation>Forenklet kinesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="170"/>
@@ -71,12 +71,12 @@
     <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
-        <translation>Følgende personer har bidraget med oversættelser:</translation>
+        <translation>Mange personer har bidraget med oversættelser.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="146"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Du kan også hjælpe med at oversætte SMPlayer til et andet sprog</translation>
+        <translation>Du kan også hjælpe med at oversætte SMPlayer til dit eget sprog.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="147"/>
@@ -86,7 +86,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Nuværende oversættere fra Transifex:</translation>
+        <translation>Nuværende oversættere fra Transifex-teams:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="155"/>
@@ -156,37 +156,37 @@
     <message>
         <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation type="unfinished">Malaysisk</translation>
+        <translation>Malaysisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ved brug af %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="67"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer er en grafisk brugerflade til %1 og %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Undertekster-tjeneste leveret %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Arabisk - Saudi Arabien</translation>
+        <translation>Arabisk - Saudi arabien</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisk - Syrisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation type="unfinished">Sinhala</translation>
+        <translation>Singalesisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="185"/>
@@ -201,7 +201,7 @@
     <message>
         <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation type="unfinished"></translation>
+        <translation>N&apos;ko</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="188"/>
@@ -286,7 +286,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"></translation>
+        <translation>Side</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -334,7 +334,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>Bruger Qt %1 (oversat med Qt %2)</translation>
+        <translation>Med Qt %1 (kompileret med Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="180"/>
@@ -374,7 +374,7 @@
     <message>
         <location filename="../about.cpp" line="86"/>
         <source>Read the entire license</source>
-        <translation>Læs de komplette licensregler</translation>
+        <translation>Læs hele licensen</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="94"/>
@@ -384,12 +384,12 @@
     <message>
         <location filename="../about.cpp" line="106"/>
         <source>Packages for Windows created by %1</source>
-        <translation>Pakke til Windows, genereret af %1</translation>
+        <translation>Pakker til Windows, skabt af %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Mange andre har hjulpet med rettelser. Læs #Changelog&quot;  for detaljer</translation>
+        <translation>Mange andre har hjulpet med rettelser. Læs detaljerne i Changelog&apos;en.</translation>
     </message>
 </context>
 <context>
@@ -497,7 +497,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="195"/>
         <source>&amp;Preset</source>
-        <translation>%Sæt</translation>
+        <translation>%Forudindstilling</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="196"/>
@@ -512,7 +512,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="198"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Sæt som standardværdier</translation>
+        <translation>&amp;Anvend som standardværdier</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
@@ -532,22 +532,22 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>Dance</source>
-        <translation type="unfinished"></translation>
+        <translation>Dance</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>Full bass</source>
-        <translation>Fuld Bass</translation>
+        <translation>Fuld bas</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
         <source>Full bass and treble</source>
-        <translation>Fuld Bass og Treble</translation>
+        <translation>Fuld bas og diskant</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="209"/>
         <source>Full treble</source>
-        <translation>Fuld Treble</translation>
+        <translation>Fuld diskant</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="210"/>
@@ -562,17 +562,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
         <source>Live</source>
-        <translation type="unfinished"></translation>
+        <translation>Live</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Party</source>
-        <translation type="unfinished"></translation>
+        <translation>Fest</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
         <source>Pop</source>
-        <translation type="unfinished"></translation>
+        <translation>Pop</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
@@ -582,7 +582,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Rock</source>
-        <translation type="unfinished"></translation>
+        <translation>Rock</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
@@ -602,12 +602,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="220"/>
         <source>Techno</source>
-        <translation type="unfinished"></translation>
+        <translation>Techno</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="221"/>
         <source>Custom</source>
-        <translation type="unfinished"></translation>
+        <translation>Brugerdefineret</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
@@ -675,7 +675,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1541"/>
         <source>&amp;File...</source>
-        <translation>&amp;Fil...</translation>
+        <translation>&amp;Filer...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1542"/>
@@ -710,7 +710,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1817"/>
         <source>&amp;Recent files</source>
-        <translation>&amp;Nylige filer</translation>
+        <translation>&amp;Seneste filer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1576"/>
@@ -740,7 +740,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1602"/>
         <source>&amp;Double speed</source>
-        <translation>&amp;Dobbel hastighed</translation>
+        <translation>&amp;Dobbelt hastighed</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1603"/>
@@ -803,7 +803,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1898"/>
         <source>Linear &amp;Blend</source>
-        <translation>Lineær &amp;blend</translation>
+        <translation>Lineær &amp;blanding</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1858"/>
@@ -818,7 +818,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Autodetect phase</source>
-        <translation>&amp;Autodetektér fase</translation>
+        <translation>&amp;Automatisk registrering af fase</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1636"/>
@@ -879,12 +879,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0-surround</translation>
+        <translation>&amp;4.0 surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1940"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1-surround</translation>
+        <translation>&amp;5.1 surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1931"/>
@@ -904,7 +904,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1934"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Stereo-tilstand</translation>
+        <translation>&amp;Stereo tilstand</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1647"/>
@@ -1050,17 +1050,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>YouTube Browser</translation>
+        <translation>&amp;YouTube%1 browser</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>Donationer / Del med venner</translation>
+        <translation>Donér / Del med dine venner</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3928"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - information</translation>
+        <translation>SMPlayer - Information</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3929"/>
@@ -1072,7 +1072,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4042"/>
         <source>Select the Blu-ray folder</source>
-        <translation>Vælg Blu-Ray biblioteket</translation>
+        <translation>Vælg Blu-Ray mappen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4055"/>
@@ -1092,7 +1092,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4527"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation>En ny version af SMPlayer er tilgængelig</translation>
+        <translation>En ny version af SMPlayer er tilgængelig.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4528"/>
@@ -1102,22 +1102,22 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4529"/>
         <source>Available version: %1</source>
-        <translation>Tilgængelige Versioner</translation>
+        <translation>Tilgængelig version: %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4530"/>
         <source>Would you like to know more about this new version?</source>
-        <translation>Ønsker De mere information om denne Version</translation>
+        <translation>Vil du vide mere om denne nye version?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4673"/>
         <source>Error detected</source>
-        <translation>Fejl Opstået</translation>
+        <translation>Fejl registeret</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4674"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation>Desværre kan denne video ikke afspilles</translation>
+        <translation>Desværre kan denne video ikke afspilles.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4862"/>
@@ -1137,12 +1137,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1584"/>
         <source>Play / Pause</source>
-        <translation>Afspil / pause</translation>
+        <translation>Afspil / Pause</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1587"/>
         <source>Pause / Frame step</source>
-        <translation>Pause / et billede ad gangen</translation>
+        <translation>Pause / Et billede ad gangen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
@@ -1153,7 +1153,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1544"/>
         <source>V&amp;CD</source>
-        <translation>V&amp;cd</translation>
+        <translation>V&amp;CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1553"/>
@@ -1252,7 +1252,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1617"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>Mini-billede Generator...</translation>
+        <translation>&amp;Miniature generator...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
@@ -1273,32 +1273,32 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
         <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
-        <translation type="unfinished">Stan&amp;dard</translation>
+        <translation>&amp;Standard</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
         <source>First Steps &amp;Guide</source>
-        <translation>Hurtig Introduktion</translation>
+        <translation>Hurtig &amp;introduktion</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
         <source>Update &amp;Youtube code</source>
-        <translation>Opdatér &amp;Youtube koden</translation>
+        <translation>Opdatér &amp;YouTube kode</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1725"/>
         <source>&amp;Open configuration folder</source>
-        <translation>%Åbn konfigurations mappe</translation>
+        <translation>%Åbn konfigurationsmappe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1741"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Størrelse &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1755"/>
@@ -1400,7 +1400,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
         <location filename="../basegui.cpp" line="1902"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation>&amp;Normal hastighed</translation>
+        <translation>&amp;Normal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1903"/>
@@ -1429,12 +1429,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1941"/>
         <source>&amp;6.1 Surround</source>
-        <translation>&amp;6.1 Surround</translation>
+        <translation>&amp;6.1 surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1942"/>
         <source>&amp;7.1 Surround</source>
-        <translation>&amp;7.1 Surround</translation>
+        <translation>&amp;7.1 surround</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1947"/>
@@ -1454,7 +1454,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1960"/>
         <source>F&amp;rames per second</source>
-        <translation>Billeder pr. sekund (fps)</translation>
+        <translation>Billeder pr. sekund</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2009"/>
@@ -1489,12 +1489,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4612"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>dette link</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4622"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation>På grund af ændringer i YouTube siden, kan denne video desværre ikke afspilles</translation>
+        <translation>På grund af ændringer i YouTube siden, kan denne video desværre ikke afspilles.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4629"/>
@@ -1515,22 +1515,22 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4625"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>På grund af ændringer i YouTube siden, kan video &apos;%1&apos; desværre ikke afspilles</translation>
+        <translation>På grund af ændringer i YouTube siden, kan video &apos;%1&apos; desværre ikke afspilles.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4631"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Ønsker De at opdatere YouTube koden. Dette kan rette fejlen.</translation>
+        <translation>Vil du opdatere YouTube koden. Dette kan måske rette problemet.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4639"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation>Måske en opdatering af SMPlayer kan afhjælpe problemet</translation>
+        <translation>Måske en opdatering af SMPlayer kan afhjælpe problemet.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1995"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>Del SMPlayer med dine venner.</translation>
+        <translation>D&amp;el SMPlayer med dine venner</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3006"/>
@@ -1551,12 +1551,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="3470"/>
         <source>Delete the list of recent files?</source>
-        <translation>Slet listen af seneste filer?</translation>
+        <translation>Slet listen over seneste filer?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3692"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Nuværende værdier er gemt som standard værdier</translation>
+        <translation>De nuværende værdier er blevet gemt for at blive brugt som standardværdier.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1768"/>
@@ -1586,7 +1586,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1897"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (dobbel billedrate)</translation>
+        <translation>Y&amp;adif (dobbelt billedhastighed)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
@@ -1636,7 +1636,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;FAQ</translation>
+        <translation>&amp;OSS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
@@ -1706,7 +1706,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1910"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>&amp;Rotér med 90 grader med uret og vend</translation>
+        <translation>&amp;Rotér 90 grader med uret og vend</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1911"/>
@@ -1813,12 +1813,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4507"/>
         <source>Warning - Using old MPlayer</source>
-        <translation>Advarsel - du bruger en gammel MPlayer</translation>
+        <translation>Advarsel - Bruger gammel MPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4508"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Den version af MPlayer (%1) som er installeret på dit system er forældet. SMPlayer kan ikke virke godt med den, nogle indstillinger vil ikke virke, valg af undertekst vil måske mislykkes...</translation>
+        <translation>Den version af MPlayer (%1) som er installeret på dit system er forældet. SMPlayer virker ikke godt med den, nogle indstillinger vil ikke virke, valg af undertekst vil måske mislykkes...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4513"/>
@@ -1843,12 +1843,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1626"/>
         <source>Zoom for &amp;16:9</source>
-        <translation>Zoom for &amp;16:9</translation>
+        <translation>Zoom til &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1627"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation>Zoom for &amp;2.35:1</translation>
+        <translation>Zoom til &amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
@@ -1863,47 +1863,47 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
         <source>While &amp;playing</source>
-        <translation>Ved af&amp;spilning</translation>
+        <translation>Under af&amp;spilning</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1984"/>
         <source>DVD &amp;menu</source>
-        <translation>Dvd-&amp;menu</translation>
+        <translation>DVD-&amp;menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1986"/>
         <source>DVD &amp;previous menu</source>
-        <translation>Dvd &amp;forrige menu</translation>
+        <translation>DVD &amp;forrige menu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1980"/>
         <source>DVD menu, move up</source>
-        <translation>Dvd-menu, flyt op</translation>
+        <translation>DVD-menu, flyt op</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1981"/>
         <source>DVD menu, move down</source>
-        <translation>Dvd-menu, flyt ned</translation>
+        <translation>DVD-menu, flyt ned</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>DVD menu, move left</source>
-        <translation>Dvd-menu, flyt til venstre</translation>
+        <translation>DVD-menu, flyt til venstre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1983"/>
         <source>DVD menu, move right</source>
-        <translation>Dvd-menu, flyt til højre</translation>
+        <translation>DVD-menu, flyt til højre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1985"/>
         <source>DVD menu, select option</source>
-        <translation>Dvd-menu, vælg indstililng</translation>
+        <translation>DVD-menu, vælg indstilling</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1987"/>
         <source>DVD menu, mouse click</source>
-        <translation>Dvd-menu, museklik</translation>
+        <translation>DVD-menu, museklik</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1652"/>
@@ -1913,7 +1913,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1666"/>
         <source>Se&amp;t delay...</source>
-        <translation>Sæ&amp;f forsinkelse...</translation>
+        <translation>Sæ&amp;t forsinkelse...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4205"/>
@@ -1923,25 +1923,25 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4206"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer - søg</translation>
+        <translation>SMPlayer - Søg</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4217"/>
         <location filename="../basegui.cpp" line="4221"/>
         <source>SMPlayer - Audio delay</source>
-        <translation>SMPlayer - forsink lyd</translation>
+        <translation>SMPlayer - Lyd forsinkelse</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4218"/>
         <location filename="../basegui.cpp" line="4222"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation>Forsink lyd (i millisekunder):</translation>
+        <translation>Lyd forsinkelse (i millisekunder):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4233"/>
         <location filename="../basegui.cpp" line="4237"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation>SMPlayer - forsink undertekst</translation>
+        <translation>SMPlayer - Forsink undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4234"/>
@@ -1962,7 +1962,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1615"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Start/stop tagnin&amp;g af skærmbilleder</translation>
+        <translation>Start/stop med at ta&amp;ge skærmbilleder</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
@@ -1983,7 +1983,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;TV</source>
-        <translation>&amp;Tv</translation>
+        <translation>&amp;TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
@@ -2038,7 +2038,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1593"/>
         <source>Set &amp;B marker</source>
-        <translation>Søt &amp;B-markør</translation>
+        <translation>Sæt &amp;B-markør</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1594"/>
@@ -2063,7 +2063,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Disc</source>
-        <translation>&amp;Drev</translation>
+        <translation>&amp;Disk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
@@ -2073,7 +2073,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1719"/>
         <source>Check for &amp;updates</source>
-        <translation>Tjek for &amp;opdateringer</translation>
+        <translation>Søg efter &amp;opdateringer</translation>
     </message>
 </context>
 <context>
@@ -2086,7 +2086,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="210"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>&amp;Vis ikon i statusområdet</translation>
+        <translation>&amp;Vis ikon på proceslinje</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="221"/>
@@ -2124,7 +2124,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube koden er blevet opdateret korrekt.</translation>
+        <translation>YouTube koden er blevet opdateret.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
@@ -2199,7 +2199,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
         <location filename="../core.cpp" line="3191"/>
         <location filename="../core.cpp" line="3202"/>
         <source>Font scale: %1</source>
-        <translation>Skrifttypeskala: %1</translation>
+        <translation>Skalér skrifttype: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3819"/>
@@ -2229,12 +2229,12 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../core.cpp" line="550"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation>Ikke i stand til at modtage YouTube siden</translation>
+        <translation>Kunne ikke hente YouTube siden</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="554"/>
         <source>Unable to locate the URL of the video</source>
-        <translation>Ikke muligt at finde Url på den ønskede video</translation>
+        <translation>Kunne ikke finde videoens URL.</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3279"/>
@@ -2362,7 +2362,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="566"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Rediger hoved værktøjslinie</translation>
+        <translation>&amp;Rediger hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="567"/>
@@ -2462,7 +2462,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="114"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Du kan redigere, slette, sortere eller tiføje nye elementer. Dobbeltklik på en celle for at redigere dens indhold.</translation>
+        <translation>Du kan redigere, slette, sortere eller tilføje nye elementer. Dobbeltklik på en celle for at redigere dens indhold.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="345"/>
@@ -2576,7 +2576,7 @@ Konfigurationsdialogen vil blive vist nu så du kan gøre det.</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="14"/>
         <source>SMPlayer - File properties</source>
-        <translation>SMPlayer - filegenskaber</translation>
+        <translation>SMPlayer - Filegenskaber</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="33"/>
@@ -2678,7 +2678,7 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="77"/>
         <source>Cancel</source>
-        <translation>Annullér</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="78"/>
@@ -2716,12 +2716,12 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation>Hvis proxyen kræver autentificering sætter dette brugernavnet.</translation>
+        <translation>Hvis proxyen kræver godkendelse, sætter dette brugernavnet.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation>Adgangskode til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden vil blive gemt som klartekst i konfigurationsfilen.</translation>
+        <translation>Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i konfigurationsfilen.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
@@ -2741,7 +2741,7 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation>&amp;Opensubtitles server:</translation>
+        <translation>&amp;OpenSubtitles server:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
@@ -2781,7 +2781,7 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="156"/>
         <source>Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Diverse</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
@@ -2839,7 +2839,7 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>Login til opensubtitles.org er fejlet</translation>
+        <translation>Login på opensubtitles.org mislykkedes</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
@@ -2857,7 +2857,7 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
         <source>Error fixing the subtitle lines</source>
-        <translation>Fejl i udrettelse af undertekst linier</translation>
+        <translation>Fejl ved udrettelse af undertekst linjer</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -3210,7 +3210,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="13"/>
         <source>SMPlayer - Play a DVD from a folder</source>
-        <translation>SMPlayer - afspil en dvd fra en mappe</translation>
+        <translation>SMPlayer - Afspil en DVD fra en mappe</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
@@ -3228,7 +3228,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../inputmplayerversion.ui" line="14"/>
         <source>SMPlayer - Enter the MPlayer version</source>
-        <translation>SMPlayer - angiv MPlayer-version</translation>
+        <translation>SMPlayer - Indtast MPlayer-versionen</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="35"/>
@@ -3266,7 +3266,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - angiv URL</translation>
+        <translation>SMPlayer - Indtast URL</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
@@ -3907,7 +3907,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="236"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Arabisk - Syrisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="289"/>
@@ -4400,7 +4400,7 @@ Vil du overskrive den?</translation>
         <location filename="../logwindowbase.ui" line="67"/>
         <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
-        <translation>Kopiér til udklipsholderen</translation>
+        <translation>Kopiér til udklipsholder</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="80"/>
@@ -4426,7 +4426,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation>Tilfældig rækkerfølge</translation>
+        <translation>Bland spilleliste</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
@@ -4497,7 +4497,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation>Skriv URL-adresser for at tilføje dem til afspillingslisten. Skriv een pr. linie.</translation>
+        <translation>Indtast URL-adresse(r) for at tilføje dem i spillelisten. En pr. linje.</translation>
     </message>
 </context>
 <context>
@@ -4558,7 +4558,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="328"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Redigér</translation>
+        <translation>&amp;Rediger</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="817"/>
@@ -4606,7 +4606,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1302"/>
         <source>Edit name</source>
-        <translation>Redigér navn</translation>
+        <translation>Rediger navn</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1303"/>
@@ -4686,7 +4686,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="338"/>
         <source>SMPlayer - Playlist</source>
-        <translation>SMPlayer - spilleliste</translation>
+        <translation>SMPlayer - Spilleliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="332"/>
@@ -5099,7 +5099,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefadvanced.cpp" line="438"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Genopbrygger indeks over filerne hvis intet indeks blev fundet, hvilket muliggør søgning. Nyttigt til defekte/ukomplette downloads eller dårligt udførte filer. Denne indstilling virker kun hvis det underliggende medie understøtter søgning (dvs. ikke med stdin, pipe, osv.).&lt;br&gt; &lt;b&gt;Bemærk:&lt;/b&gt; Oprettelse af indekset kan tage nogen tid.</translation>
+        <translation>Genopbygger indeksering af filer hvis intet indeks blev fundet, hvilket muliggør søgning. Nyttigt til defekte/ukomplette downloads eller dårligt udførte filer. Denne indstilling virker kun hvis det underliggende medie understøtter søgning (dvs. ikke med stdin, pipe, osv.).&lt;br&gt; &lt;b&gt;Bemærk:&lt;/b&gt; Oprettelse af indekset kan tage nogen tid.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="149"/>
@@ -5109,7 +5109,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
@@ -5212,7 +5212,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Markér de mediefilendelser du vil have SMPlayer til at håndtere. Når du trykker på Anvend vil de markerede filer blive associeret med SMPlayer. Hvis du afmarkerer en medietype vil filassocieringen blive genskabt.</translation>
+        <translation>Markér de mediefilendelser du vil have SMPlayer til at håndtere. Når du klikker på Anvend vil de markerede filer blive tilknyttet SMPlayer. Hvis du fravælger en medietype vil filtilknytningen blive genskabt.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5281,7 +5281,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Blu-ray enhed</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
@@ -5301,7 +5301,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;Bemærk 2&lt;/b&gt;: Du vil måske ønske at tildele handlingen &quot;aktivér indstilling i dvd-menuer&quot; til en af museknapperne.</translation>
+        <translation>&lt;b&gt;Bemærk 2&lt;/b&gt;: det kan være at du vil tildele handlingen &quot;aktivér indstilling i DVD-menuer&quot; til en af knapperne på musen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
@@ -5350,22 +5350,22 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="138"/>
         <source>Select the mplayer executable</source>
-        <translation>Vælg kørbar fil for MPlayer</translation>
+        <translation>Vælg den eksekverbare mplayer programfil</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="111"/>
         <source>7 (6.1 Surround)</source>
-        <translation>7 (6.1 Surround)</translation>
+        <translation>7 (6.1 surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="112"/>
         <source>8 (7.1 Surround)</source>
-        <translation>8 (7.1 Surround)</translation>
+        <translation>8 (7.1 surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="140"/>
         <source>Executables</source>
-        <translation>Kørbare filer</translation>
+        <translation>Eksekverbare filer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="142"/>
@@ -5381,7 +5381,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
         <location filename="../prefgeneral.cpp" line="356"/>
         <location filename="../prefgeneral.cpp" line="357"/>
         <source>Default</source>
-        <translation type="unfinished">Standard</translation>
+        <translation>Standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5391,7 +5391,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Skabelon til skærmbilleder</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
@@ -5431,12 +5431,12 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Preferred audio language</source>
-        <translation>Foretrukkent lydsprog</translation>
+        <translation>Foretrukket lydsprog</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Preferred subtitle language</source>
-        <translation>Foretrukkent undertekstsprog</translation>
+        <translation>Foretrukket undertekstsprog</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="981"/>
@@ -5471,7 +5471,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Luk computer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="982"/>
@@ -5546,12 +5546,12 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Skabelon:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Luk computer</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="552"/>
@@ -5606,7 +5606,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Dobbelt buffer undgår flimmer ved at gemme to billeder i hukommelsen og vise det ene mens det andet dekodes. Hvis deaktiveret kan det påvirke OSD negativt, men det fjerner ofte OSD-flimmer.</translation>
+        <translation>Dobbelt buffer undgår flimmer ved at gemme to billeder i hukommelsen og vise det ene mens det andet afkodes. Hvis deaktiveret kan det påvirke OSD negativt, men det fjerner ofte OSD-flimmer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="367"/>
@@ -5636,12 +5636,12 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.cpp" line="109"/>
         <source>4 (4.0 Surround)</source>
-        <translation>4 (4.0-surround)</translation>
+        <translation>4 (4.0 surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="110"/>
         <source>6 (5.1 Surround)</source>
-        <translation>6 (5.1-surround)</translation>
+        <translation>6 (5.1 surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="724"/>
@@ -5731,7 +5731,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefgeneral.ui" line="1129"/>
         <source>Preferred language:</source>
-        <translation>Foretrukkent sprog:</translation>
+        <translation>Foretrukket sprog:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1021"/>
@@ -5822,7 +5822,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="119"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (dobbel billedrate)</translation>
+        <translation>Yadif (dobbelt billedhastighed)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="120"/>
@@ -6007,7 +6007,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="899"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>Denne indstilling lader dig ændre den måde filindstillinger gemmes på. Følgender indstillinger er tilgængelige:</translation>
+        <translation>Denne indstilling lader dig ændre den måde filindstillinger gemmes på. Følgende indstillinger er tilgængelige:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="901"/>
@@ -6112,7 +6112,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation>Når denne indstilling er markeret vil SMPlayer forsøge at forhindre at pauseskærmen vises ved afspilning af videofiler. Pauseskærmen vil blive få lov til at vises hvis der afspilles lydfiler eller den er på pause. Denne indstiling virker kun hvis SMPlayer-vinduet er i forgrunden.</translation>
+        <translation>Når denne indstilling er markeret vil SMPlayer forsøge at forhindre at pauseskærmen vises ved afspilning af videofiler. Pauseskærmen vil blive få lov til at vises hvis der afspilles lydfiler eller den er på pause. Denne indstilling virker kun hvis SMPlayer-vinduet er i forgrunden.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="573"/>
@@ -6142,12 +6142,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1113"/>
         <source>A-V sync correction</source>
-        <translation>Korrigering af A-V-synk.</translation>
+        <translation>Rettelse af A-V-synk.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation>Maksimal korrigering af A/V-synk. pr. billede (i sekunder)</translation>
+        <translation>Maksimal rettelse af A/V-synk. pr. billede (i sekunder)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="880"/>
@@ -6167,12 +6167,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="953"/>
         <source>A-V sync &amp;correction</source>
-        <translation>&amp;Korrigering af A-V-synk.</translation>
+        <translation>&amp;Rettelse af A-V-synk.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="976"/>
         <source>&amp;Max. correction:</source>
-        <translation>&amp;Maks. korrektur:</translation>
+        <translation>&amp;Maks. rettelse:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="975"/>
@@ -6569,12 +6569,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Næste kapitel</translation>
+        <translation>Næste kapitel</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Forrige kapitel</translation>
+        <translation>Forrige kapitel</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -6722,7 +6722,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="145"/>
         <source>&lt;Autodetect&gt;</source>
-        <translation>&lt;Autodetektér&gt;</translation>
+        <translation>&lt;Automatisk registrering&gt;</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="196"/>
@@ -6990,12 +6990,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="204"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Grundlæggende GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="210"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"></translation>
+        <translation>Skinbar GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
@@ -7015,7 +7015,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="680"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Skin</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="681"/>
@@ -7178,7 +7178,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="714"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Sætter den metode der skal bruges ved søgning med skydeknappen. Absolut søgning kan være lidt mere præcis, hvorimod relativ søgning måske vil virke bedre med fielr med forkert længde.</translation>
+        <translation>Angiver den metode der skal bruges ved søgning med skydeknappen. Absolut søgning kan være lidt mere præcis, hvorimod relativ søgning måske vil virke bedre med filer med forkert længde.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="732"/>
@@ -7352,57 +7352,57 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="120"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">&amp;Aktivér proxy</translation>
+        <translation>&amp;Aktivér proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="133"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">&amp;Vært:</translation>
+        <translation>&amp;Vært:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="146"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port:</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="166"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">&amp;Brugernavn:</translation>
+        <translation>&amp;Brugernavn:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="179"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished">Adgang&amp;skode:</translation>
+        <translation>&amp;Adgangskode:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="196"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Type:</translation>
+        <translation>&amp;Type:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
-        <translation type="unfinished">HTTP</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="64"/>
         <source>Network</source>
-        <translation type="unfinished">Netværk</translation>
+        <translation>Netværk</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="138"/>
         <source>Youtube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
@@ -7417,7 +7417,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube kvalitet</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
@@ -7452,12 +7452,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">Proxy</translation>
+        <translation>Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivér proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="158"/>
@@ -7467,7 +7467,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Vært</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="161"/>
@@ -7477,7 +7477,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="163"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="164"/>
@@ -7487,22 +7487,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="166"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Brugernavn</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Hvis proxyen kræver autentificering sætter dette brugernavnet.</translation>
+        <translation type="unfinished">Hvis proxyen kræver godkendelse, sætter dette brugernavnet.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Adgangskode</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="170"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Adgangskode til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden vil blive gemt som klartekst i konfigurationsfilen.</translation>
+        <translation type="unfinished">Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i konfigurationsfilen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
@@ -7925,17 +7925,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation type="unfinished"></translation>
+        <translation>Videofiler</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
         <source>Audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Lydfiler</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>video- og lydfiler</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
@@ -7980,7 +7980,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="141"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>Afspil filer fra begyndelse</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="142"/>
@@ -8197,12 +8197,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="397"/>
         <source>Try to autodetect for this language</source>
-        <translation>Forsøg at autodetektere for dette sprog</translation>
+        <translation>Forsøg automatisk registrering for dette sprog</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>Når denne indstilling er aktiveret, vil tegnsæt for undertekster blive forsøgt autodetekteret for det givne sprog. Det vil falde tilbage på standardtegnsættet hvis autodetekteringen mislykkes. Denne indstilling kræver MPlayer oversat med ENCA-understøttelse.</translation>
+        <translation>Når denne indstilling er aktiveret, vil tegnsæt for undertekster blive forsøgt automatisk registreret for det givne sprog. Det vil falde tilbage på standardtegnsættet hvis automatisk registrering mislykkes. Denne indstilling kræver MPlayer oversat med ENCA-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="404"/>
@@ -8217,7 +8217,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="109"/>
         <source>Encoding</source>
-        <translation>Tegnsæt</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
@@ -8342,12 +8342,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="489"/>
         <source>Border style</source>
-        <translation>Kantstil</translation>
+        <translation>Kantens udseende</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation>Angiver kantstilen. Mulige værdier: Omrids og ugennemsigtig boks.</translation>
+        <translation>Angiver kantens udseende. Mulige værdier: Omrids og ugennemsigtig boks.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="497"/>
@@ -8495,12 +8495,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="494"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation>Hvis kantstilen er sat til &lt;i&gt;omrids&lt;/i&gt;, angiver denne indstilling bredden af omridset omkring teksten i pixels.</translation>
+        <translation>Hvis kantens udseende er sat til &lt;i&gt;omrids&lt;/i&gt;, angiver denne indstilling bredden af omridset omkring teksten i pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation>Hvis kantstilen er sat til &lt;i&gt;omrids&lt;/i&gt;, angiver denne indstilling dybden af skyggefaldet bag teksten i pixels.</translation>
+        <translation>Hvis kantens udseende er sat til &lt;i&gt;omrids&lt;/i&gt;, angiver denne indstilling dybden af skyggefaldet bag teksten i pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="434"/>
@@ -8638,7 +8638,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation>Yadif (dobbel biledrate)</translation>
+        <translation>Yadif (dobbelt billedhastighed)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
@@ -8691,12 +8691,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opdateringer</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished">Tjek for &amp;opdateringer</translation>
+        <translation type="unfinished">Søg efter &amp;opdateringer</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -8711,7 +8711,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Opdateringer</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
@@ -8750,7 +8750,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../preferencesdialog.cpp" line="66"/>
         <location filename="../preferencesdialog.cpp" line="139"/>
         <source>SMPlayer - Help</source>
-        <translation>SMPlayer - hjælp</translation>
+        <translation>SMPlayer - Hjælp</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="143"/>
@@ -8760,7 +8760,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.cpp" line="144"/>
         <source>Cancel</source>
-        <translation>Annullér</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="145"/>
@@ -8775,7 +8775,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
         <source>SMPlayer - Preferences</source>
-        <translation>SMPlayer - indstillinger</translation>
+        <translation>SMPlayer - Indstillinger</translation>
     </message>
 </context>
 <context>
@@ -8819,7 +8819,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>hovedvinduet vil ikke blive lukket når filen/spillenlisten er færdig.</translation>
+        <translation>hovedvinduet vil ikke blive lukket når filen/spillelisten er færdig.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
@@ -8844,7 +8844,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>Genskaber de gamle associationer og rydder op i registreringsdatabasen.</translation>
+        <translation>Genskaber de gamle tilknytninger og rydder op i registreringsdatabasen.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="104"/>
@@ -9036,7 +9036,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"></translation>
+        <translation>Lukker computer</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
@@ -9059,7 +9059,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="419"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished">&amp;Værktøjslinjer</translation>
+        <translation>&amp;Værktøjslinjer</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="422"/>
@@ -9069,12 +9069,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="425"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished">&amp;Hovedværktøjslinje</translation>
+        <translation>&amp;Hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="429"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Rediger hoved værktøjslinie</translation>
+        <translation>&amp;Rediger hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="431"/>
@@ -9099,12 +9099,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="448"/>
         <source>Pause</source>
-        <translation type="unfinished">Pause</translation>
+        <translation>Pause</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="449"/>
         <source>Stop</source>
-        <translation type="unfinished">Stop</translation>
+        <translation>Stop</translation>
     </message>
 </context>
 <context>
@@ -9301,12 +9301,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kontrast</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lysstyrke</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
@@ -9321,7 +9321,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gamma</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
@@ -9336,7 +9336,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished">&amp;Nulstil</translation>
+        <translation>&amp;Nulstil</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
@@ -9359,12 +9359,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="143"/>
         <source>Cancel</source>
-        <translation>Annullér</translation>
+        <translation>Annuller</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="142"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniature generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="145"/>
@@ -9513,7 +9513,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"></translation>
+        <translation>Miniature generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
@@ -9627,7 +9627,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>Toggle Fuldskærm</translation>
+        <translation>Fuldskærm til/fra</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>

@@ -1378,7 +1378,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar tempo de reprodução no ecrã</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -1479,7 +1479,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="4610"/>
         <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Infelizmente o componente necessário (openssl) não está disponível no seu sistema.</translation>
+        <translation>Infelizmente, o componente necessário (openssl) não está disponível no seu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4611"/>
@@ -1510,7 +1510,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="5419"/>
         <source>Visit %1 to get it.</source>
-        <translation>Aceda a %1 para o transferir</translation>
+        <translation>Aceda a %1 para o transferir.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4625"/>
@@ -4771,7 +4771,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Se ativar esta opção, o SMPlayer grava as informações do MPlayer/MPV (pode visualizá-la em&lt;b&gt; Opções-&gt;Ver registos-&gt;MPlayer/MPV&lt;/b&gt;). Em caso de problemas, este registo pode conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
+        <translation>Se ativar esta opção, o SMPlayer grava as informações do MPlayer/MPV (pode visualizá-las em&lt;b&gt; Opções -&gt; Ver registos -&gt; MPlayer/MPV&lt;/b&gt;). Em caso de problemas, este registo pode conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
@@ -4781,7 +4781,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se ativar esta opção, os registos do MPlayer/MPV serão gravados no ficheiro, cada vez que reproduzir um novo ficheiro. A opção é útil para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
+        <translation>Se ativar esta opção, os registos do MPlayer/MPV serão gravados no ficheiro, sempre que reproduzir um novo ficheiro. A opção é útil para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
@@ -4806,7 +4806,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation>&amp;Executar o MPlayer/MPV na sua janela</translation>
+        <translation>Executar o MPlayer/MP&amp;V na sua janela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4960,7 +4960,7 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation>Se ativar esta opção, a janela do MPlayer/MPV não será incorporada na janela principal do SMPlayer mas sim na sua. Tenha em atenção que o rato e o teclado serão geridos diretamente pelo MPlayer, o que significa que as teclas de atalho e cliques no rato podem não funcionar corretamente.</translation>
+        <translation>Se ativar esta opção, a janela do MPlayer/MPV não será incorporada na janela principal do SMPlayer e utilizará a sua própria janela. Tenha em atenção que o rato e o teclado serão geridos diretamente pelo MPlayer/MPV e as teclas de atalho e cliques no rato podem não funcionar corretamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
@@ -4975,7 +4975,7 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Troca o MPlayer/MPV para o modo experimental, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os corretos pts, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
+        <translation>Ativa o modo experimental  do MPlayer/MPV, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os pts corretos, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
@@ -5452,7 +5452,7 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation>Aqui, deve especificar os executável MPlayer/MPV utilizado pelo SMPlayer.</translation>
+        <translation>Aqui, deve especificar o executável MPlayer/MPV utilizado pelo SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="917"/>
@@ -6570,12 +6570,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Capítulo seguinte</translation>
+        <translation>Capítulo seguinte</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Capítulo anterior</translation>
+        <translation>Capítulo anterior</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -7413,7 +7413,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>Se ativar esta opção, o SMPlayer tentará reproduzir os vídeos dos URLs Youtube.</translation>
+        <translation>Se ativar esta opção, o SMPlayer tentará reproduzir os vídeos dos URL Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
@@ -7573,7 +7573,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation>Descodificaçção</translation>
+        <translation>Descodificação</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
@@ -7803,7 +7803,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation>dxva2-copy: copia o vídeo para a memória RAM do sistema. Experimental</translation>
+        <translation>dxva2-copy: copia o vídeo para a memória RAM do sistema. Experimental.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
@@ -8006,12 +8006,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir o próximo ficheiro mesmo se o anterior falhar</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, a lista de reprodução irá ignorar os erros de reprodução de um ficheiro e reproduzirá o próximo ficheiro da lista.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8066,7 +8066,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir o próximo ficheiro mesmo se o a&amp;nterior falhar</translation>
     </message>
 </context>
 <context>
@@ -8248,7 +8248,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>Esta opção não deve ser desativada. Apenas o deve fazer sem o MPlayer tiver sido compilado sem suporte freetype. &lt;b&gt;A desativação pode até implicar a não exibição de legendas!&lt;/b&gt;</translation>
+        <translation>Esta opção não deve ser desativada. Apenas o deve fazer se o MPlayer tiver sido compilado sem suporte freetype. &lt;b&gt;A desativação pode até implicar a não exibição de legendas!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8952,12 +8952,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>define a opção manter na frente como sempre.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>define a opção manter na frente como nunca.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9192,7 +9192,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>Taman&amp;ho dos ícones</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

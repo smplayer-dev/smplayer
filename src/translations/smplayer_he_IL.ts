@@ -171,7 +171,7 @@
     <message>
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"></translation>
+        <translation>שירות כתוביות ממונע על ידי %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="181"/>
@@ -1293,12 +1293,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>גודל &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1741"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>גודל &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1755"/>
@@ -1469,7 +1469,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4608"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>חיבור נכשל</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4609"/>
@@ -1484,12 +1484,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4611"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>בבקשה, בקר את %1 כדי לדעת איך לתקן את בעיה זו.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4612"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>קישור זה</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4622"/>
@@ -2269,7 +2269,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4208"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>כעת מתחיל...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -4755,7 +4755,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="672"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>אפשרות זו נועדה בעיקר לשם debugging עבור היישום.</translation>
+        <translation>אפשרות זו נועדה בעיקר לצורך debugging עבור היישום.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="458"/>
@@ -4820,7 +4820,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשרויות עבור MP&amp;layer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4952,7 +4952,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>הרץ את MPlayer/MPV בחלון משלו</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
@@ -4962,7 +4962,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>דווח על קריסות MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
@@ -4977,7 +4977,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשרויות עבור MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
@@ -5389,7 +5389,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>תבנית לתצלומי מסך</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
@@ -5464,7 +5464,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשרות זו עובדת רק עם mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
@@ -5539,12 +5539,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>מגשר עורפי &amp;MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"></translation>
+        <translation>תב&amp;נית:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="247"/>
@@ -6567,12 +6567,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">פרק בא</translation>
+        <translation>פרק הבא</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">פרק קודם</translation>
+        <translation>פרק קודם</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -7325,27 +7325,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (ואתרים אחרים)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;אפשר תמיכה פנימית Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"></translation>
+        <translation>איכות &amp;נגינה</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>סוכן &amp;משתמש</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשר תמיכת &amp;MPV עבור אתרי הזרמה</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7405,7 +7405,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="140"/>
         <source>Enable Youtube internal support</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשר תמיכה פנימית Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
@@ -7415,17 +7415,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"></translation>
+        <translation>איכות Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>בחר את האיכות המועדפת עליך לסרטוני youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>סוכן משתמש</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="147"/>
@@ -7435,7 +7435,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשר תמיכת MPV עבור אתרי הזרמה</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -7445,12 +7445,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation type="unfinished"></translation>
+        <translation>מצריך mpv וגם youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Proxy</source>
-        <translation type="unfinished">פרוקסי</translation>
+        <translation>פרוקסי</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="157"/>
@@ -7570,12 +7570,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>פענוח</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;פענוח חומרה</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="372"/>
@@ -7610,7 +7610,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="274"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>הטלה עזה יותר של מסגרת (רוצצת פיענוח). מובילה לסילוף תמונה!</translation>
+        <translation>הטלה עזה יותר של מסגרת (רוצצת פענוח). מובילה לסילוף תמונה!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
@@ -7745,7 +7745,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>אפשרות זו מתירה לדלג על מסנן לולאה (ידוע גם בשם deblocking) במשך פיענוח H.264. מאחר והמסגרת המסוננת אמורה להיות בשימוש בתור הפניה לשם פיענוח מסגרות תלויות לזו יש תוצא גרוע על איכות מאשר לא לבצע deblocking על וידאו MPEG-2 למשל. אך לפחות עבור שיעור סיבית גבוה HDTV זו מספקת הגברת מהירות גדולה בלי אובדן איכות מובהק.</translation>
+        <translation>אפשרות זו מתירה לדלג על מסנן לולאה (ידוע גם בשם deblocking) במשך פענוח H.264. מאחר והמסגרת המסוננת אמורה להיות בשימוש בתור הפניה לצורך פענוח מסגרות תלויות לזו יש תוצא גרוע על איכות מאשר לא לבצע deblocking על וידאו MPEG-2 למשל. אך לפחות עבור שיעור סיבית גבוה HDTV זו מספקת הגברת מהירות גדולה בלי אובדן איכות מובהק.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
@@ -7760,7 +7760,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"></translation>
+        <translation>פענוח חומרה</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="282"/>
@@ -7770,7 +7770,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Available options:</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשרויות זמינות:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
@@ -7805,7 +7805,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>אפשרות זו עובדת רק עם mpv.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -7865,7 +7865,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Threads for decoding</source>
-        <translation>פתילים לפיענוח</translation>
+        <translation>פתילים לפענוח</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="278"/>
@@ -8704,7 +8704,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;פתח עמוד מידע בחלוף שדרוג</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8734,7 +8734,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"></translation>
+        <translation>פתח עמוד מידע בחלוף שדרוג</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
@@ -9189,7 +9189,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;גודל סמל:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

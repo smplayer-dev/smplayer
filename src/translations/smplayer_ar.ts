@@ -1378,7 +1378,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>أظهر وقت التشغيل في لوحة الأدوات على الشاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -6578,12 +6578,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">الفصل التالي</translation>
+        <translation>الفصل التالي</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">الفصل السابق</translation>
+        <translation>الفصل السابق</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -8014,12 +8014,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>شغّل الملف التالي حتى لو فشل الملف السابق</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>اذا مُكّن هذا الخيار فستُهمِل قائمة التشغيل الأخطاء في التشغيل من الملف السابق و ستشغل الملف التالي في القائمة.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8968,12 +8968,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>يضبط خيار الإبقاء في القمّة ليكون ’دوماً‘.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>يضبط خيار الإبقاء في القمّة ليكون ’لا،أبداً‘.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
