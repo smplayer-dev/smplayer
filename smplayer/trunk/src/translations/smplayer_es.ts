@@ -327,10 +327,6 @@
         <translation>Vasco</translation>
     </message>
     <message>
-        <source>Using MPlayer %1</source>
-        <translation type="obsolete">Usando MPlayer %1</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Edición Portable</translation>
@@ -374,14 +370,6 @@
         <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
         <translation>Croata</translation>
-    </message>
-    <message>
-        <source>Using MPlayer2 %1</source>
-        <translation type="obsolete">Usando MPlayer2 %1</translation>
-    </message>
-    <message>
-        <source>SMPlayer uses the award-winning MPlayer as playback engine. See %1</source>
-        <translation type="obsolete">SMPlayer usa el MPlayer como motor de reproducción. Más información en %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -1540,14 +1528,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Quizás el problema se podría solucionar actualizando el SMPlayer.</translation>
     </message>
     <message>
-        <source>The YouTube Browser couldn&apos;t be launched.</source>
-        <translation type="obsolete">No se ha podido ejecutar el buscador de YouTube.</translation>
-    </message>
-    <message>
-        <source>Be sure %1 is installed.</source>
-        <translation type="obsolete">Asegúrate de que %1 está instalado.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1995"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>Co&amp;mparte SMPlayer con tus amigos</translation>
@@ -1627,10 +1607,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="1545"/>
         <source>&amp;Audio CD</source>
         <translation>CD de &amp;audio</translation>
-    </message>
-    <message>
-        <source>Use SSA/&amp;ASS library</source>
-        <translation type="obsolete">&amp;Usar la librería SSA/ASS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1776"/>
@@ -3764,10 +3740,6 @@ Por favor verifica los permisos de esa carpeta.</translation>
         <translation>Eslovaco</translation>
     </message>
     <message>
-        <source>Slovenian</source>
-        <translation type="obsolete">Esloveno</translation>
-    </message>
-    <message>
         <location filename="../languages.cpp" line="170"/>
         <source>Samoan</source>
         <translation>Samoano</translation>
@@ -4761,18 +4733,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Avanzado</translation>
     </message>
     <message>
-        <source>R&amp;eport MPlayer crashes</source>
-        <translation type="obsolete">&amp;Informar de fallos de MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Aquí puedes pasar opciones extra al MPlayer.
-Escríbelas separadas por espacios.
-Ejemplo: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="371"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
@@ -4787,10 +4747,6 @@ Ejemplo: scale=512:-2,eq2=1.1</translation>
 Example: resample=44100:0:0,volnorm</source>
         <translation>Y finalmente los filtros de audio. Misma norma que para los filtros de vídeo.
 Ejemplo: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
-        <source>Log MPlayer output</source>
-        <translation type="obsolete">Guardar los textos de la salida del MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="527"/>
@@ -4848,10 +4804,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Relación de aspecto del &amp;monitor:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer in its own window</source>
-        <translation type="obsolete">E&amp;jecutar el MPlayer en su propia ventana</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
         <translation>E&amp;jecutar el MPlayer/MPV en su propia ventana</translation>
@@ -4906,10 +4858,6 @@ Ejemplo: -flip -nosound</translation>
         <translation>&amp;Colorkey:</translation>
     </message>
     <message>
-        <source>MPlayer</source>
-        <translation type="obsolete">MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="605"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
@@ -4933,34 +4881,6 @@ Ejemplo: -flip -nosound</translation>
         <location filename="../prefadvanced.cpp" line="524"/>
         <source>Logs</source>
         <translation>Logs</translation>
-    </message>
-    <message>
-        <source>Log MPlayer &amp;output</source>
-        <translation type="obsolete">Guardar los text&amp;os de la salida del MPlayer</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer</source>
-        <translation type="obsolete">Opciones para el MP&amp;layer</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log</source>
-        <translation type="obsolete">Guardar automáticamente los textos de salida de MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Si esta opción está marcada, los textos de salida del MPlayer se guardarán en el fichero especificado cada vez que comience la reproducción de un fichero. La opción está pensada para programas externos de modo que puedan obtener información sobre el fichero en reproducción.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer log filename</source>
-        <translation type="obsolete">Nombre de fichero para los logs del MPlayer</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer log.</source>
-        <translation type="obsolete">Introduce la ruta completa para el fichero que se usará para guardar los textos de salida del MPlayer.</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer log to file</source>
-        <translation type="obsolete">Guardar a&amp;utomáticamente los textos de salida de MPlayer en un fichero</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="448"/>
@@ -4988,14 +4908,6 @@ Ejemplo: -flip -nosound</translation>
         <translation>Selecciona la relación de aspecto del monitor.</translation>
     </message>
     <message>
-        <source>Run MPlayer in its own window</source>
-        <translation type="obsolete">Ejecutar el MPlayer en su propia ventana</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer window has the focus.</source>
-        <translation type="obsolete">Si marcas esta opción, la ventana de vídeo de MPlayer no será empotrada en la ventana principal de SMPlayer, sino que usará la suya propia. Ten en cuenta que en este caso los eventos del ratón y teclado serán procesados directamente por MPlayer, lo que significa que los atajos de teclado y clicks del ratón probablemente no funcionarán del modo esperado cuando la ventana de MPlayer esté en primer plano.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="444"/>
         <source>Use the lavf demuxer by default</source>
         <translation>Usar el demuxer lavf por defecto</translation>
@@ -5004,18 +4916,6 @@ Ejemplo: -flip -nosound</translation>
         <location filename="../prefadvanced.cpp" line="445"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>Si se marca esta opción, se usará el demuxer lavf para todos los formatos.</translation>
-    </message>
-    <message>
-        <source>Notice: mplayer2 already uses the lavf demuxer by default so enabling this option with mplayer2 won&apos;t have any effect.</source>
-        <translation type="obsolete">Aviso: mplayer2 ya usa el demuxer lavf por defecto, así que esta opción no producirá ningún efecto con mplayer2.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer crashes</source>
-        <translation type="obsolete">Informar de fallos de MPlayer</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Si se activa esta opción, se mostrará una ventana para informar de los fallos de MPlayer. De lo contrario estos fallos se ignorarán.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
@@ -5028,17 +4928,9 @@ Ejemplo: -flip -nosound</translation>
         <translation>Si ves partes del vídeo sobre otra ventana puedes cambiar el colorkey para solucionarlo. Intenta seleccionar un color cercano al negro.</translation>
     </message>
     <message>
-        <source>Options for MPlayer</source>
-        <translation type="obsolete">Opciones para el MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="504"/>
         <source>Options</source>
         <translation>Opciones</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer. Write them separated by spaces.</source>
-        <translation type="obsolete">Aquí puedes teclear opciones para el MPlayer. Deben ir separadas por espacios.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -5046,17 +4938,9 @@ Ejemplo: -flip -nosound</translation>
         <translation>Filtros de vídeo</translation>
     </message>
     <message>
-        <source>Here you can add video filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Aquí puedes añadir filtros de vídeo para el MPlayer. Deben separarse por comas, ¡no uses espacios!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="512"/>
         <source>Audio filters</source>
         <translation>Filtros de audio</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Aquí puedes añadir filtros de audio para el MPlayer. Deben separarse por comas, ¡no uses espacios!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
@@ -5169,10 +5053,6 @@ Ejemplo: -flip -nosound</translation>
         <translation>Si esta opción está marcada, SMPlayer almacenará los mensajes de depuración que emite (puedes verlos en &lt;b&gt;Opciones -&gt; Ver logs -&gt; SMPlayer&lt;/b&gt;). Esta información puede ser muy útil para el programador en caso de que encuentres algún bug.</translation>
     </message>
     <message>
-        <source>If checked, SMPlayer will store the output of MPlayer (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Si está marcada, SMPlayer almacenará la salida del MPlayer (la puedes ver en &lt;b&gt;Opciones -&gt; Ver logs -&gt; MPlayer&lt;/b&gt;). En caso de problemas este log puede contener información importante, por tanto es recomendable mantener activada esta opción.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="559"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>Esta opción permite filtrar los mensajes que se almacenarán en el log. Aquí puedes escribir cualquier expresión regular.&lt;br&gt;Por ejemplo: &lt;i&gt;^Core::.*&lt;/i&gt; mostrará sólo las líneas que comiencen por &lt;i&gt;Core::&lt;/i&gt;</translation>
@@ -5181,10 +5061,6 @@ Ejemplo: -flip -nosound</translation>
         <location filename="../prefadvanced.cpp" line="468"/>
         <source>Correct pts</source>
         <translation>Corregir pts</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Cambia MPlayer a un modo experimental en el que las marcas de tiempo para las imágenes de vídeo se calculan de una forma diferente y se soportan los filtros de vídeo que añaden nuevas imágenes o modifican las marcas de tiempo de los existentes. Se pueden ver las marcas de tiempo mas precisas por ejemplo cuando se reproducen subtítulos sincronizados a cambios de escena con la librería SSA/ASS activada. Sin corrección de pts seguramente la sincronización irá desplazada algunas imágenes. Esta opción no funciona correctamente con algunos demuxers y codecs.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="478"/>
@@ -5503,8 +5379,10 @@ Ejemplo: -flip -nosound</translation>
         <translation>Seleccionar un directorio</translation>
     </message>
     <message>
-        <source>MPlayer executable</source>
-        <translation type="obsolete">Ejecutable del MPlayer</translation>
+        <location filename="../prefgeneral.cpp" line="356"/>
+        <location filename="../prefgeneral.cpp" line="357"/>
+        <source>Default</source>
+        <translation>Predeterminado</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
@@ -5515,6 +5393,16 @@ Ejemplo: -flip -nosound</translation>
         <location filename="../prefgeneral.cpp" line="916"/>
         <source>Template for screenshots</source>
         <translation>Plantilla para las capturas de pantalla</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="918"/>
+        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
+        <translation>Por ejemplo %1 grabará la captura de pantalla con el nombre &apos;nombre_de_la_pelicula_0001.png&apos;.</translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="919"/>
+        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
+        <translation>%1 especifica el nombre del fichero de vídeo sin la extensión, %2 añade un número de 4 dígitos rellenado con ceros.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5570,14 +5458,6 @@ Ejemplo: -flip -nosound</translation>
         <location filename="../prefgeneral.cpp" line="917"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Esta opción especifica la plantilla para los nombre de ficheros de las capturas de pantalla.</translation>
-    </message>
-    <message>
-        <source>For example %F_%04n would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="obsolete">Por ejemplo %F_%04n grabará la captura de pantalla con el nombre &apos;nombre_de_la_pelicula_0001.png&apos;.</translation>
-    </message>
-    <message>
-        <source>%F specifies the filename without the extension, %04n adds a 4 digit number padded with zeros.</source>
-        <translation type="obsolete">%F especifica el nombre del fichero sin la extensión, %04n añade un número de 4 dígitos rellenado con ceros.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="921"/>
@@ -5957,22 +5837,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="356"/>
-        <location filename="../prefgeneral.cpp" line="357"/>
-        <source>Default</source>
-        <translation>Predeterminado</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="918"/>
-        <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation>Por ejemplo %1 grabará la captura de pantalla con el nombre &apos;nombre_de_la_pelicula_0001.png&apos;.</translation>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="919"/>
-        <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation>%1 especifica el nombre del fichero de vídeo sin la extensión, %2 añade un número de 4 dígitos rellenado con ceros.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="972"/>
         <source>Deinterlace by default</source>
         <translation>Desentrelazado por defecto</translation>
@@ -6065,10 +5929,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.ui" line="457"/>
         <source>Default &amp;zoom:</source>
         <translation>&amp;Zoom por defecto:</translation>
-    </message>
-    <message>
-        <source>Here you must specify the mplayer executable that SMPlayer will use.&lt;br&gt;SMPlayer requires at least MPlayer 1.0rc1 (although a recent revision from SVN is highly recommended).</source>
-        <translation type="obsolete">Aquí debes especificar el ejecutable del mplayer que será usado por el SMPlayer.&lt;br&gt;SMPlayer requiere al menos MPlayer 1.0rc1 (aunque se recomienda una revisión reciente del SVN).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="885"/>
@@ -6200,10 +6060,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefgeneral.cpp" line="912"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Aquí puedes especificar la carpeta donde se guardarán las capturas de pantalla. Si la carpeta es inválida no se realizarán capturas de pantalla.</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer executable:</source>
-        <translation type="obsolete">Ejecutable del &amp;MPlayer:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7491,10 +7347,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <source>&amp;Play videos from streaming sites</source>
-        <translation type="obsolete">&amp;Reproducir vídeos de webs de streaming</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
         <translation>Activar el soporte de &amp;MPV para webs de streaming</translation>
@@ -7583,10 +7435,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefnetwork.cpp" line="147"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Especifica el user agent que SMPlayer usará cuando se conecte a Youtube.</translation>
-    </message>
-    <message>
-        <source>Play videos from streaming sites</source>
-        <translation type="obsolete">Reproducir vídeos de webs de streaming</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
@@ -8053,18 +7901,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>Cache for &amp;TV:</source>
         <translation>Caché para &amp;TV:</translation>
     </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Calidad de youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Selecciona la calidad preferida para los vídeos de youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube &amp;quality</source>
-        <translation type="obsolete">Calidad de &amp;youtube</translation>
-    </message>
 </context>
 <context>
     <name>PrefPlaylist</name>
@@ -8243,14 +8079,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <source>Choose a ttf file</source>
-        <translation type="obsolete">Elige un fichero ttf</translation>
-    </message>
-    <message>
-        <source>Truetype Fonts</source>
-        <translation type="obsolete">Fuentes Truetype</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="30"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Subtítulos</translation>
@@ -8287,22 +8115,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Activar los tipos de letra de &amp;Windows</translation>
     </message>
     <message>
-        <source>Position</source>
-        <translation type="obsolete">Posición</translation>
-    </message>
-    <message>
-        <source>0</source>
-        <translation type="obsolete">0</translation>
-    </message>
-    <message>
-        <source>Top</source>
-        <translation type="obsolete">Arriba</translation>
-    </message>
-    <message>
-        <source>Bottom</source>
-        <translation type="obsolete">Abajo</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="368"/>
         <location filename="../prefsubtitles.cpp" line="432"/>
         <location filename="../prefsubtitles.cpp" line="451"/>
@@ -8310,37 +8122,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tipo de letra</translation>
     </message>
     <message>
-        <source>Select the font which will be used for subtitles (and OSD):</source>
-        <translation type="obsolete">Selecciona el tipo de letra que se usará para los subtítulos (y OSD):</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="454"/>
         <source>Size</source>
         <translation>Tamaño</translation>
-    </message>
-    <message>
-        <source>No autoscale</source>
-        <translation type="obsolete">No autoescalar</translation>
-    </message>
-    <message>
-        <source>Proportional to movie height</source>
-        <translation type="obsolete">Proporcional a la altura del vídeo</translation>
-    </message>
-    <message>
-        <source>Proportional to movie width</source>
-        <translation type="obsolete">Proporcional a la anchura del vídeo</translation>
-    </message>
-    <message>
-        <source>Proportional to movie diagonal</source>
-        <translation type="obsolete">Proporcional a la diagonal del vídeo</translation>
-    </message>
-    <message>
-        <source>Subtitle position</source>
-        <translation type="obsolete">Posición de los subtítulos</translation>
-    </message>
-    <message>
-        <source>This option specifies the position of the subtitles over the video window. &lt;i&gt;100&lt;/i&gt; means the bottom, while &lt;i&gt;0&lt;/i&gt; means the top.</source>
-        <translation type="obsolete">Esta opción especifica la posición de los subtítulos en la ventana de vídeo. &lt;i&gt;100&lt;/i&gt; es abajo del todo, mientras que &lt;i&gt;0&lt;/i&gt; es la parte más alta.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
@@ -8358,25 +8142,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Codificación de los subtítulos:</translation>
     </message>
     <message>
-        <source>Default &amp;position of the subtitles on screen</source>
-        <translation type="obsolete">&amp;Posición por defecto de los subtítulos en la pantalla</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="210"/>
         <source>&amp;Include subtitles on screenshots</source>
         <translation>&amp;Incluir subtítulos en las capturas de pantalla</translation>
-    </message>
-    <message>
-        <source>&amp;TTF font:</source>
-        <translation type="obsolete">&amp;Fuente ttf: </translation>
-    </message>
-    <message>
-        <source>S&amp;ystem font:</source>
-        <translation type="obsolete">Fuente del s&amp;istema:</translation>
-    </message>
-    <message>
-        <source>A&amp;utoscale:</source>
-        <translation type="obsolete">A&amp;utoescalar:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="387"/>
@@ -8392,18 +8160,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="409"/>
         <source>Include subtitles on screenshots</source>
         <translation>Incluir subtítulos en las capturas de pantalla</translation>
-    </message>
-    <message>
-        <source>TTF font</source>
-        <translation type="obsolete">Fuente ttf</translation>
-    </message>
-    <message>
-        <source>System font</source>
-        <translation type="obsolete">Fuente del sistema</translation>
-    </message>
-    <message>
-        <source>Autoscale</source>
-        <translation type="obsolete">Autoescalar</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="463"/>
@@ -8434,10 +8190,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>Si hay uno o más subtítulos disponibles, uno de ellos será seleccionado de forma automática, normalmente el primero, aunque si alguno de ellos se corresponde con el idioma preferido por el usuario se usará ese en su lugar.</translation>
-    </message>
-    <message>
-        <source>Select the subtitle autoscaling method.</source>
-        <translation type="obsolete">Selecciona el método de escalado automático de los subtítulos.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
@@ -8475,10 +8227,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Intentar &amp;autodetección para:</translation>
     </message>
     <message>
-        <source>Here you can select a ttf font to be used for the subtitles. Usually you&apos;ll find a lot of ttf fonts in %1</source>
-        <translation type="obsolete">Aquí puedes seleccionar un tipo de letra ttf para los subtítulos. Normalmente encontrarás ficheros ttf en %1</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="493"/>
         <source>Outline</source>
         <translation>Contorno</translation>
@@ -8487,6 +8235,21 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Select the font for the subtitles.</source>
         <translation>Selecciona el tipo de letra para los subtítulos.</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="413"/>
+        <source>Use the ASS library</source>
+        <translation>Usar la librería ASS</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="414"/>
+        <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
+        <translation>Esta opción activa la librería ASS, que permite mostrar subtítulos con múltiples colores, tipos de letra...</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="418"/>
+        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
+        <translation>Normalmente no deberías desactivar esta opción. Hazlo solamente si tu MPlayer se ha compilado sin soporte para freetype. &lt;b&gt;¡Desactivar esta opción puede hacer que los subtítulos no funcionen en absoluto!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="424"/>
@@ -8502,10 +8265,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>Si la opción está desactivada entonces sólo se podrán usar unos pocos tipos de letra que se incluyen en la instalación de SMPlayer, pero esto es mucho más rápido.</translation>
-    </message>
-    <message>
-        <source>Here you can select a system font to be used for the subtitles and OSD.</source>
-        <translation type="obsolete">Aquí puedes seleccionar un tipo de letra del systema para los subtítulos y OSD.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
@@ -8736,21 +8495,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Opaco</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="413"/>
-        <source>Use the ASS library</source>
-        <translation>Usar la librería ASS</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
-        <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Esta opción activa la librería ASS, que permite mostrar subtítulos con múltiples colores, tipos de letra...</translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>Normalmente no deberías desactivar esta opción. Hazlo solamente si tu MPlayer se ha compilado sin soporte para freetype. &lt;b&gt;¡Desactivar esta opción puede hacer que los subtítulos no funcionen en absoluto!&lt;/b&gt;</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="494"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>Si el estilo del borde está establecido en &lt;i&gt;contorno&lt;/i&gt;, esta opción especifica el ancho del contorno alrededor del texto en píxeles.</translation>
@@ -8761,22 +8505,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Si el estilo del borde está establecido en &lt;i&gt;contorno&lt;/i&gt;, esta opción especifica la profundidad de la sombra tras el texto en píxeles.</translation>
     </message>
     <message>
-        <source>Enable normal subtitles</source>
-        <translation type="obsolete">Activar subtítulos normales</translation>
-    </message>
-    <message>
-        <source>Click this button to select the normal/traditional subtitles. This kind of subtitles can only display white subtitles.</source>
-        <translation type="obsolete">Pulsa este botón para seleccionar los subtítulos normales/tradicionales. Este tipo de subtítulos sólo pueden mostrar subtítulos de color blanco.</translation>
-    </message>
-    <message>
-        <source>Enable SSA/ASS subtitles</source>
-        <translation type="obsolete">Activar subtítulos SSA/ASS</translation>
-    </message>
-    <message>
-        <source>Normal subtitles</source>
-        <translation type="obsolete">Subtítulos normales</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="434"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>Esta opción NO cambia el tamaño de los subtítulos del vídeo actual. Para hacerlo, usa las opciones &lt;i&gt;Tamaño+&lt;/i&gt; y &lt;i&gt;Tamaño-&lt;/i&gt; del menú subtítulos.</translation>
@@ -8785,14 +8513,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.cpp" line="438"/>
         <source>Default scale</source>
         <translation>Escala predeterminada</translation>
-    </message>
-    <message>
-        <source>This option specifies the default font scale for normal subtitles which will be used for new opened files.</source>
-        <translation type="obsolete">Esta opción especifica la escala predeterminada para los subtítulos normales que será usada al reproducir los nuevos vídeos que se abran.</translation>
-    </message>
-    <message>
-        <source>SSA/ASS subtitles</source>
-        <translation type="obsolete">Subtítulos SSA/ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
@@ -8815,18 +8535,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Tipo de letra y colores</translation>
     </message>
     <message>
-        <source>Enable &amp;normal subtitles</source>
-        <translation type="obsolete">Activar subtítulos &amp;normales</translation>
-    </message>
-    <message>
-        <source>Enable SSA/&amp;ASS subtitles</source>
-        <translation type="obsolete">Activar subtítulos SSA/&amp;ASS</translation>
-    </message>
-    <message>
-        <source>Default s&amp;cale:</source>
-        <translation type="obsolete">Es&amp;cala predeterminada:</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
         <translation>Escala &amp;predeterminada:</translation>
@@ -8837,17 +8545,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Espaciado entre &amp;líneas:</translation>
     </message>
     <message>
-        <source>Click this button to enable the new SSA/ASS library. This allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="obsolete">Pulsa este botón para activar la nueva librería SSA/ASS. Permite mostrar subtítulos de múltiples colores, tipos de letra...</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="417"/>
         <source>Freetype support</source>
         <translation>Soporte para Freetype</translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make that subtitles won&apos;t work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">Normalmente no deberías desactivar esta opción. Hazlo solamente si tu MPlayer se ha compilado sin soporte para freetype. &lt;b&gt;¡Desactivar esta opción puede hacer que los subtítulos no funcionen en absoluto!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="237"/>
@@ -9011,10 +8711,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>A&amp;brir una página informativa tras una actualización</translation>
     </message>
     <message>
-        <source>&amp;Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">A&amp;brir la guía de primeros pasos tras una actualización</translation>
-    </message>
-    <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
         <translation>Actualizaciones</translation>
@@ -9048,14 +8744,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
         <translation>Si se activa esta opción, se mostrará una página con información interesante sobre SMPlayer tras una actualización.</translation>
-    </message>
-    <message>
-        <source>Open the first steps guide after an upgrade</source>
-        <translation type="obsolete">Abrir la guía de primeros pasos tras una actualización</translation>
-    </message>
-    <message>
-        <source>If this option is enabled, the first steps guide with info and tips about how to use SMPlayer will be opened after an upgrade.</source>
-        <translation type="obsolete">Si se activa esta opción, se mostrará la guía de primeros pasos con información y consejos sobre cómo usar SMPlayer después de cada actualización.</translation>
     </message>
 </context>
 <context>
@@ -9315,11 +9003,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
         <translation>SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos, no necesita códecs.</translation>
-    </message>
-    <message>
-        <source>Discover SMPlayer, a free media player for your PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 116 characters long</comment>
-        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos y puede descargar vídeos de Youtube.</translation>
     </message>
 </context>
 <context>

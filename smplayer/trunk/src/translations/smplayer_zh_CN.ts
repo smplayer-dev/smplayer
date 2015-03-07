@@ -1378,7 +1378,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>在 OSD 上显示播放时间</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -6569,12 +6569,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">下一个章节</translation>
+        <translation>下一个章节</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">上一个章节</translation>
+        <translation>上一个章节</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -8005,12 +8005,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>上个文件播放失败时继续播放下个文件</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果启用此项，播放列表将会忽略此错误并继续播放下个文件。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8065,7 +8065,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>上个文件播放失败时继续播放下个文件 (&amp;n)</translation>
     </message>
 </context>
 <context>
@@ -8949,12 +8949,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>设置为总是置顶。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>设置永不置顶。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9189,7 +9189,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>图标大小(&amp;I)：</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>

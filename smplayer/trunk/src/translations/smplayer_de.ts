@@ -1378,7 +1378,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabezeit auf dem Bildschirm anzeigen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
@@ -4947,12 +4947,12 @@ Beispiel: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="457"/>
         <source>Repaint the background of the video window</source>
-        <translation>Hintergrund vom Videofenster ausfüllen</translation>
+        <translation>Hintergrund vom Filmfensters ausfüllen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>&amp;Hintergrund des Videofensters ausfüllen</translation>
+        <translation>&amp;Hintergrund des Filmfensters ausfüllen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
@@ -6574,12 +6574,12 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Nächstes Kapitel</translation>
+        <translation>Nächstes Kapitel</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Vorheriges Kapitel</translation>
+        <translation>Vorheriges Kapitel</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -6839,7 +6839,7 @@ Benötigt mindestens MPlayer dev-SVN-r24924.</translation>
     <message>
         <location filename="../prefinterface.ui" line="109"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>Das Fenster &amp;verschieben, wenn der Videobereich gezogen wird</translation>
+        <translation>&amp;Das Fenster verschieben, wenn der Filmbereich gezogen wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="266"/>
@@ -7006,7 +7006,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
         <source>Move the window when the video area is dragged</source>
-        <translation>Das Fenster verschieben, wenn der Videobereich gezogen wird</translation>
+        <translation>Das Fenster verschieben, wenn der Filmbereich gezogen wird</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
@@ -7295,7 +7295,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="654"/>
         <source>Hide video window when playing audio files</source>
-        <translation>Videofenster beim Abspielen von Tondateien verstecken</translation>
+        <translation>Filmfenster beim Abspielen von Tondateien verstecken</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="655"/>
@@ -7305,7 +7305,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>Videofenster beim Abspielen von Tondateien &amp;verstecken</translation>
+        <translation>&amp;Filmfenster beim Abspielen von Tondateien verstecken</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="719"/>
@@ -8011,12 +8011,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Die nächste Datei wiedergeben, auch wenn das bei der vorherigen fehlschlug</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird die Abspielliste entstandene Wiedergabefehler einer vorherigen Datei vernachlässigen und die nächste Datei in der Liste abspielen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8061,7 +8061,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="117"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation>&amp;Automatisch Informationen über hinzugefügte Dateien erhalten (langsam)</translation>
+        <translation>Auto&amp;matisch Informationen über hinzugefügte Dateien erhalten (langsam)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="124"/>
@@ -8071,7 +8071,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Die &amp;nächste Datei wiedergeben, auch wenn das bei der vorherigen fehlschlug</translation>
     </message>
 </context>
 <context>
@@ -8957,12 +8957,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stellt »Im Vordergrund bleiben« auf immer</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stellt »Im Vordergrund bleiben« auf niemals</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -9090,7 +9090,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="435"/>
         <source>&amp;Video info</source>
-        <translation>&amp;Video-Informationen</translation>
+        <translation>&amp;Filminformationen</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="436"/>
@@ -9197,7 +9197,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Symbolgröße</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
