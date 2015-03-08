@@ -4607,7 +4607,7 @@ void BaseGui::YTNoSslSupport() {
 	qDebug("BaseGui::YTNoSslSupport");
 	QMessageBox::warning(this, tr("Connection failed"),
 		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
-		tr("Unfortunately the openssl component, required for it, it's not available in your system.") +"<br>"+
+		tr("Unfortunately the openssl component, required for it, is not available in your system.") +"<br>"+
 		tr("Please, visit %1 to know how to fix this problem.")
 			.arg("<a href=\"http://smplayer.sourceforge.net/openssl.php\">" + tr("this link") + "</a>") );
 }
