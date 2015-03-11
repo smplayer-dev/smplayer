@@ -1110,6 +1110,11 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Queres saber máis acerca desta nova versión?</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4610"/>
+        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
+        <translation>Desafortunadamente o compoñente openssl requirido non está dispoñíbel no seu sistema.</translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4673"/>
         <source>Error detected</source>
         <translation>Detectouse un erro</translation>
@@ -1475,11 +1480,6 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <location filename="../basegui.cpp" line="4609"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>O vídeo que solicitou precisa abrir unha conexión HTTPS.</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4610"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Desafortunadamente o compoñente openssl requirido non está dispoñíbel no sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4611"/>
