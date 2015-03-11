@@ -1110,6 +1110,11 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Apakah anda ingin mengetahui lebih lanjut tentang versi baru ini?</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4610"/>
+        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4673"/>
         <source>Error detected</source>
         <translation>Galat ditemukan</translation>
@@ -1475,11 +1480,6 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <location filename="../basegui.cpp" line="4609"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Video yang anda minta perlu membuka koneksi HTTPS.</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4610"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>Sayangnya komponen openssl dibutuhkan, layanan ini tidak tersedia pada sistem anda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4611"/>

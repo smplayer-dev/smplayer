@@ -1110,6 +1110,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Искате ли да знаете повече за новата версия?</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4610"/>
+        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4673"/>
         <source>Error detected</source>
         <translation>Засечена е крешка</translation>
@@ -1475,11 +1480,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4609"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Видеото, което поръчахте, изисква отварянето на HTTPS връзка.</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4610"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>За съжаление компонентът openssl, необходим за него, не е наличен на вашата система.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4611"/>

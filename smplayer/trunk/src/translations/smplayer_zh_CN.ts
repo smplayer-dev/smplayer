@@ -1110,6 +1110,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>想了解更多关于新版本的信息？</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4610"/>
+        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
+        <translation>很不幸，此功能需要openssl组件，而您的系统中没有。</translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4673"/>
         <source>Error detected</source>
         <translation>检测到错误</translation>
@@ -1475,11 +1480,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4609"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您请求的视频需要使用HTTPS连接。</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="4610"/>
-        <source>Unfortunately the openssl component, required for it, it&apos;s not available in your system.</source>
-        <translation>很不幸，此功能需要openssl组件，而您的系统中没有。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4611"/>
