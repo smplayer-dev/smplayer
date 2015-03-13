@@ -119,6 +119,8 @@ public slots:
 	virtual void sortBy(int section);
 	// <--
 
+	virtual void deleteSelectedFileFromDisk();
+
 	virtual bool maybeSave();
     virtual void load();
     virtual bool save();
@@ -240,6 +242,8 @@ protected:
 
 	MyAction * removeSelectedAct;
 	MyAction * removeAllAct;
+
+	MyAction * deleteSelectedFileFromDiskAct;
 
 private:
 	bool modified;
