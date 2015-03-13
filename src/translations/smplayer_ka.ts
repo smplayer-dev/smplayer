@@ -4555,175 +4555,215 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="302"/>
         <source>Name</source>
         <translation>დასახელება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="297"/>
+        <location filename="../playlist.cpp" line="302"/>
         <source>Length</source>
         <translation>ხანგრძლივობა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="302"/>
+        <location filename="../playlist.cpp" line="307"/>
         <source>&amp;Play</source>
         <translation>და&amp;კვრა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="328"/>
+        <location filename="../playlist.cpp" line="335"/>
         <source>&amp;Edit</source>
         <translation>რ&amp;ედაქტირება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="817"/>
-        <location filename="../playlist.cpp" line="835"/>
+        <location filename="../playlist.cpp" line="824"/>
+        <location filename="../playlist.cpp" line="842"/>
         <source>Playlists</source>
         <translation>რეპერტუარები</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="815"/>
+        <location filename="../playlist.cpp" line="822"/>
         <source>Choose a file</source>
         <translation>აირჩიეთ ფაილი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="833"/>
+        <location filename="../playlist.cpp" line="840"/>
         <source>Choose a filename</source>
         <translation>აირჩიეთ ფაილის სახელი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="844"/>
+        <location filename="../playlist.cpp" line="851"/>
         <source>Confirm overwrite?</source>
         <translation>დავადასტუროთ შეცვლა?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="845"/>
+        <location filename="../playlist.cpp" line="852"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ფაილი %1 უკვე არსებობს.
 გსურთ მისი შეცვლა?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1042"/>
+        <location filename="../playlist.cpp" line="1049"/>
         <source>All files</source>
         <translation>ყველა ფაილი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1039"/>
+        <location filename="../playlist.cpp" line="1046"/>
         <source>Select one or more files to open</source>
         <translation>გასახსნელად აირჩიეთ ერთი ან რამოდენიმე ფაილი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1095"/>
+        <location filename="../playlist.cpp" line="1102"/>
         <source>Choose a directory</source>
         <translation>აირჩიეთ დირექტორია</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1302"/>
+        <location filename="../playlist.cpp" line="1309"/>
         <source>Edit name</source>
         <translation>სახელის რედაქტირება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
+        <location filename="../playlist.cpp" line="1310"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>შეიყვანეთ სახელი რომელიც იქნება გამოსახული რეპერტუარიში ამ ფაილისთვის:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="299"/>
+        <location filename="../playlist.cpp" line="304"/>
         <source>&amp;Load</source>
         <translation>ჩა&amp;ტვირთვა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="300"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>&amp;Save</source>
         <translation>შენა&amp;ხვა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="309"/>
         <source>&amp;Next</source>
         <translation>&amp;შემდეგი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;წინა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="311"/>
+        <location filename="../playlist.cpp" line="316"/>
         <source>Move &amp;up</source>
         <translation>&amp;ზევით აწევა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="312"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>Move &amp;down</source>
         <translation>&amp;ქვევით ჩაწევა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="319"/>
         <source>&amp;Repeat</source>
         <translation>გამეო&amp;რება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="315"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>S&amp;huffle</source>
         <translation>არე&amp;ვა</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="318"/>
+        <location filename="../playlist.cpp" line="323"/>
         <source>Add &amp;current file</source>
         <translation>&amp;მიმდინარე ფაილის დამატება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;ფაილ(ებ)ის დამატება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="320"/>
+        <location filename="../playlist.cpp" line="325"/>
         <source>Add &amp;directory</source>
         <translation>&amp;დირექტორიის დამატება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="321"/>
+        <location filename="../playlist.cpp" line="326"/>
         <source>Add &amp;URL(s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="324"/>
+        <location filename="../playlist.cpp" line="329"/>
         <source>Remove &amp;selected</source>
         <translation>ა&amp;რჩეულის ამოღება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="325"/>
+        <location filename="../playlist.cpp" line="330"/>
         <source>Remove &amp;all</source>
         <translation>ყველ&amp;ას ამოღება</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="338"/>
+        <location filename="../playlist.cpp" line="332"/>
+        <source>&amp;Delete file from disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="345"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - რეპერტუარი</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="332"/>
+        <location filename="../playlist.cpp" line="1340"/>
+        <source>Confirm deletion</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1341"/>
+        <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1342"/>
+        <source>This action cannot be undone. Are you sure you want to proceed?</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1354"/>
+        <source>Deletion failed</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1355"/>
+        <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1360"/>
+        <source>Error deleting the file</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1361"/>
+        <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="339"/>
         <source>Add...</source>
         <translation>დამატება...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="334"/>
+        <location filename="../playlist.cpp" line="341"/>
         <source>Remove...</source>
         <translation>ამოღება...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="870"/>
+        <location filename="../playlist.cpp" line="877"/>
         <source>Playlist modified</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="871"/>
+        <location filename="../playlist.cpp" line="878"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1041"/>
+        <location filename="../playlist.cpp" line="1048"/>
         <source>Multimedia</source>
         <translation type="unfinished"></translation>
     </message>
