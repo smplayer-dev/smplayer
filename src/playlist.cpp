@@ -40,6 +40,7 @@
 #include <QTextCodec>
 #include <QApplication>
 #include <QMimeData>
+#include <QDebug>
 
 #include "mytablewidget.h"
 #include "myaction.h"
@@ -239,6 +240,9 @@ void Playlist::createActions() {
 	// Edit
 	editAct = new MyAction(this, "pl_edit", false);
 	connect( editAct, SIGNAL(triggered()), this, SLOT(editCurrentItem()) );
+
+	deleteSelectedFileFromDiskAct = new MyAction(this, "pl_delete_from_disk");
+	connect( deleteSelectedFileFromDiskAct, SIGNAL(triggered()), this, SLOT(deleteSelectedFileFromDisk()));
 }
 
 void Playlist::createToolbar() {
@@ -287,6 +291,7 @@ void Playlist::createToolbar() {
 	popup->addAction(playAct);
 	popup->addAction(removeSelectedAct);
 	popup->addAction(editAct);
+	popup->addAction(deleteSelectedFileFromDiskAct);
 
 	connect( listView, SIGNAL(customContextMenuRequested(const QPoint &)),
              this, SLOT(showPopup(const QPoint &)) );
@@ -323,6 +328,8 @@ void Playlist::retranslateStrings() {
 	// Remove actions
 	removeSelectedAct->change( tr("Remove &selected") );
 	removeAllAct->change( tr("Remove &all") );
+
+	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
 
 	// Edit
 	editAct->change( tr("&Edit") );
@@ -1313,6 +1320,47 @@ void Playlist::editItem(int item) {
 
 		setModified( true );
     } 
+}
+
+void Playlist::deleteSelectedFileFromDisk() {
+	qDebug("Playlist::deleteSelectedFileFromDisk");
+
+	int current = listView->currentRow();
+	if (current > -1) {
+		// If more that one row is selected, select only the current one
+		listView->clearSelection();
+		listView->setCurrentCell(current, 0);
+
+		QString filename = pl[current].filename();
+		qDebug() << "Playlist::deleteSelectedFileFromDisk: current file:" << filename;
+
+		QFileInfo fi(filename);
+		if (fi.exists() && fi.isFile() && fi.isWritable()) {
+			// Ask the user for confirmation
+			int res = QMessageBox::question(this, tr("Confirm deletion"),
+						tr("You're about to DELETE the file '%1' from your drive.").arg(filename) + "<br>"+
+						tr("This action cannot be undone. Are you sure you want to proceed?"),
+						QMessageBox::Yes, QMessageBox::No);
+
+			if (res == QMessageBox::Yes) {
+				// Delete file
+				bool success = QFile::remove(filename);
+				//bool success = false;
+
+				if (success) {
+					// Remove item from the playlist
+					removeSelected();
+				} else {
+					QMessageBox::warning(this, tr("Deletion failed"),
+						tr("It wasn't possible to delete '%1'").arg(filename));
+				}
+			}
+		} else {
+			qDebug("Playlist::deleteSelectedFileFromDisk: file doesn't exists, it's not a file or it's not writable");
+			QMessageBox::information(this, tr("Error deleting the file"),
+				tr("It's not possible to delete '%1' from the filesystem.").arg(filename));
+		}
+	}
 }
 
 // Drag&drop

@@ -1,5 +1,10 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-03-13)
+ * Add the possibility to delete a file in the playlist from the filesystem.
+   Based on a patch by capt.d.:
+   http://forum.smplayer.info/viewtopic.php?p=11220#p11220
+
 (2015-03-04)
  * Add the possibility to use the mouse buttons for the actions
    "next chapter" and "previous chapter".
