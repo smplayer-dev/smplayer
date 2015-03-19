@@ -24,49 +24,45 @@
         <translation>Forumi i ndihmes:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="149"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
-        <translation>Spanjishtë</translation>
+        <translation type="obsolete">Spanjishtë</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation>Portugalisht</translation>
+        <translation type="obsolete">Portugalisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>Kineze e thjeshte</translation>
+        <translation type="obsolete">Kineze e thjeshte</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation>Indonezisht</translation>
+        <translation type="obsolete">Indonezisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
         <source>German</source>
-        <translation>Gjermanishtë</translation>
+        <translation type="obsolete">Gjermanishtë</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
         <source>French</source>
-        <translation>Frengjisht</translation>
+        <translation type="obsolete">Frengjisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
-        <translation>Rusisht</translation>
+        <translation type="obsolete">Rusisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
         <source>Hungarian</source>
-        <translation>Hungarisht</translation>
+        <translation type="obsolete">Hungarisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
-        <translation>Polonisht</translation>
+        <translation type="obsolete">Polonisht</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -84,79 +80,64 @@
         <translation>Vizitoni %1 dhe bashkohuni me squadrën e përkthyesve.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Përkthyesit nga squadra transifex:</translation>
+        <translation type="obsolete">Përkthyesit nga squadra transifex:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
-        <translation>Japoneze</translation>
+        <translation type="obsolete">Japoneze</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
-        <translation>Ukraine</translation>
+        <translation type="obsolete">Ukraine</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
-        <translation>Portugalisht - Brazil</translation>
+        <translation type="obsolete">Portugalisht - Brazil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation>Norvegjisht Nynorsk</translation>
+        <translation type="obsolete">Norvegjisht Nynorsk</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
         <source>Georgian</source>
-        <translation>Gjeorgjisht</translation>
+        <translation type="obsolete">Gjeorgjisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
-        <translation>Cekisht</translation>
+        <translation type="obsolete">Cekisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
         <source>Bulgarian</source>
-        <translation>Bullgarisht</translation>
+        <translation type="obsolete">Bullgarisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
-        <translation>Turqisht</translation>
+        <translation type="obsolete">Turqisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
         <source>Swedish</source>
-        <translation>Suedisht</translation>
+        <translation type="obsolete">Suedisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
         <source>Serbian</source>
-        <translation>Serbisht</translation>
+        <translation type="obsolete">Serbisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>Kineze Tradicionale</translation>
+        <translation type="obsolete">Kineze Tradicionale</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
-        <translation>Finlandeze</translation>
+        <translation type="obsolete">Finlandeze</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation>Hebre</translation>
+        <translation type="obsolete">Hebre</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation>Malay</translation>
+        <translation type="obsolete">Malay</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -174,107 +155,87 @@
         <translation>Sherbimi i titrave munesohet nga %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Arabisht - Saudi Arabia</translation>
+        <translation type="obsolete">Arabisht - Saudi Arabia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation>Arabisht - Siri</translation>
+        <translation type="obsolete">Arabisht - Siri</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation>Sinhala</translation>
+        <translation type="obsolete">Sinhala</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation>Greqisht</translation>
+        <translation type="obsolete">Greqisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation>Estonisht</translation>
+        <translation type="obsolete">Estonisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation>N&apos;ko</translation>
+        <translation type="obsolete">N&apos;ko</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation>Italisht</translation>
+        <translation type="obsolete">Italisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation>Uzbek</translation>
+        <translation type="obsolete">Uzbek</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation>Katalane</translation>
+        <translation type="obsolete">Katalane</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
         <source>Slovak</source>
-        <translation>Slovakisht</translation>
+        <translation type="obsolete">Slovakisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
         <source>British English</source>
-        <translation>Anglisht Britanike</translation>
+        <translation type="obsolete">Anglisht Britanike</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
         <source>Albanian</source>
-        <translation>Shqip</translation>
+        <translation type="obsolete">Shqip</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
         <source>Dutch</source>
-        <translation>Daneze</translation>
+        <translation type="obsolete">Daneze</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
         <source>Romanian</source>
-        <translation>Rumanisht</translation>
+        <translation type="obsolete">Rumanisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
         <source>Khmer</source>
-        <translation>Khmer</translation>
+        <translation type="obsolete">Khmer</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
         <source>Telugu</source>
-        <translation>Telugu</translation>
+        <translation type="obsolete">Telugu</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
         <source>Tamil</source>
-        <translation>Tamil</translation>
+        <translation type="obsolete">Tamil</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
         <source>Malayalam</source>
-        <translation>Malayalam</translation>
+        <translation type="obsolete">Malayalam</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation>Thai</translation>
+        <translation type="obsolete">Thai</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
         <source>Persian</source>
-        <translation>Persiane</translation>
+        <translation type="obsolete">Persiane</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="226"/>
+        <location filename="../about.cpp" line="174"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -317,14 +278,12 @@
         <translation>&amp;Licensa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
-        <translation>Koreane</translation>
+        <translation type="obsolete">Koreane</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
-        <translation>Baske</translation>
+        <translation type="obsolete">Baske</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
@@ -337,14 +296,12 @@
         <translation>Duke perodur Qt %1 (kompiluar me Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
-        <translation>Arabishtë</translation>
+        <translation type="obsolete">Arabishtë</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
         <source>Galician</source>
-        <translation>Galician</translation>
+        <translation type="obsolete">Galician</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
@@ -352,24 +309,20 @@
         <translation>SMPlayer logo nga %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
-        <translation>Vietnamisht</translation>
+        <translation type="obsolete">Vietnamisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
         <source>Lithuanian</source>
-        <translation>Lituanisht</translation>
+        <translation type="obsolete">Lituanisht</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
-        <translation>Daneze</translation>
+        <translation type="obsolete">Daneze</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
-        <translation>Kroate</translation>
+        <translation type="obsolete">Kroate</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>

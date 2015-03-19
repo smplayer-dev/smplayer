@@ -24,49 +24,45 @@
         <translation>Sostengu eztabaigunea:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="149"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
-        <translation>Espainiera</translation>
+        <translation type="obsolete">Espainiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation>Portugalera</translation>
+        <translation type="obsolete">Portugalera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>Txinera Arrundua</translation>
+        <translation type="obsolete">Txinera Arrundua</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation>Indonesiera</translation>
+        <translation type="obsolete">Indonesiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
         <source>German</source>
-        <translation>Alemaniera</translation>
+        <translation type="obsolete">Alemaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
         <source>French</source>
-        <translation>Frantziera</translation>
+        <translation type="obsolete">Frantziera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
-        <translation>Errusiera</translation>
+        <translation type="obsolete">Errusiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
         <source>Hungarian</source>
-        <translation>Hungariera</translation>
+        <translation type="obsolete">Hungariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
-        <translation>Poloniera</translation>
+        <translation type="obsolete">Poloniera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -84,79 +80,64 @@
         <translation>Ikusi %1 eta bat egin itzulpen talde batean.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Oraingo itzultzaileak transifex taldeetatik:</translation>
+        <translation type="obsolete">Oraingo itzultzaileak transifex taldeetatik:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
-        <translation>Japoniera</translation>
+        <translation type="obsolete">Japoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
-        <translation>Ukrainiera</translation>
+        <translation type="obsolete">Ukrainiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
-        <translation>Potugalera - Brazilgoa</translation>
+        <translation type="obsolete">Potugalera - Brazilgoa</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation>Norbegiar Nynorskera</translation>
+        <translation type="obsolete">Norbegiar Nynorskera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
         <source>Georgian</source>
-        <translation>Georgiera</translation>
+        <translation type="obsolete">Georgiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
-        <translation>Txekiera</translation>
+        <translation type="obsolete">Txekiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
         <source>Bulgarian</source>
-        <translation>Bulgariera</translation>
+        <translation type="obsolete">Bulgariera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
-        <translation>Turkiera</translation>
+        <translation type="obsolete">Turkiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
         <source>Swedish</source>
-        <translation>Suediera</translation>
+        <translation type="obsolete">Suediera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
         <source>Serbian</source>
-        <translation>Serbiera</translation>
+        <translation type="obsolete">Serbiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>Txinera Tradizionala</translation>
+        <translation type="obsolete">Txinera Tradizionala</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
-        <translation>Finlandiera</translation>
+        <translation type="obsolete">Finlandiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation>Hebraiera</translation>
+        <translation type="obsolete">Hebraiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation>Malaiera</translation>
+        <translation type="obsolete">Malaiera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -174,107 +155,87 @@
         <translation>Azpidatzi zerbitzua %1-ek hornitua</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>Arabiera - Saudiar Arabia</translation>
+        <translation type="obsolete">Arabiera - Saudiar Arabia</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation>Arabiera - Siria</translation>
+        <translation type="obsolete">Arabiera - Siria</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation>Sinhalera</translation>
+        <translation type="obsolete">Sinhalera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation>Greziera</translation>
+        <translation type="obsolete">Greziera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation>Estoniera</translation>
+        <translation type="obsolete">Estoniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation>N&apos;koera</translation>
+        <translation type="obsolete">N&apos;koera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation>Italiera</translation>
+        <translation type="obsolete">Italiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation>Uzbekiera</translation>
+        <translation type="obsolete">Uzbekiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation>Kataluniera</translation>
+        <translation type="obsolete">Kataluniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
         <source>Slovak</source>
-        <translation>Eslobakiera</translation>
+        <translation type="obsolete">Eslobakiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
         <source>British English</source>
-        <translation>Britainiar Ingelera</translation>
+        <translation type="obsolete">Britainiar Ingelera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
         <source>Albanian</source>
-        <translation>Albaniera</translation>
+        <translation type="obsolete">Albaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
         <source>Dutch</source>
-        <translation>Herbeherera</translation>
+        <translation type="obsolete">Herbeherera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
         <source>Romanian</source>
-        <translation>Errumaniera</translation>
+        <translation type="obsolete">Errumaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
         <source>Khmer</source>
-        <translation>Khmerera</translation>
+        <translation type="obsolete">Khmerera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
         <source>Telugu</source>
-        <translation>Teluguera</translation>
+        <translation type="obsolete">Teluguera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
         <source>Tamil</source>
-        <translation>Tamilera</translation>
+        <translation type="obsolete">Tamilera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
         <source>Malayalam</source>
-        <translation>Malayalamera</translation>
+        <translation type="obsolete">Malayalamera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation>Thailandiera</translation>
+        <translation type="obsolete">Thailandiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
         <source>Persian</source>
-        <translation>Pertsiera</translation>
+        <translation type="obsolete">Pertsiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="226"/>
+        <location filename="../about.cpp" line="174"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -317,14 +278,12 @@
         <translation>&amp;Baimena</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
-        <translation>Koreaera</translation>
+        <translation type="obsolete">Koreaera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
-        <translation>Euskara</translation>
+        <translation type="obsolete">Euskara</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
@@ -337,14 +296,12 @@
         <translation>Qt %1 Erabiltzen (Qt %2-rekin bilduta)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
-        <translation>Arabiera</translation>
+        <translation type="obsolete">Arabiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
         <source>Galician</source>
-        <translation>Galiziera</translation>
+        <translation type="obsolete">Galiziera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
@@ -352,24 +309,20 @@
         <translation>SMPlayer logoaren egilea: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
-        <translation>Vietnamiera</translation>
+        <translation type="obsolete">Vietnamiera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
         <source>Lithuanian</source>
-        <translation>Lituaniera</translation>
+        <translation type="obsolete">Lituaniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
-        <translation>Daniera</translation>
+        <translation type="obsolete">Daniera</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
-        <translation>Kroaziera</translation>
+        <translation type="obsolete">Kroaziera</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -4686,7 +4639,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;zabatu agiria diskatik</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4696,37 +4649,37 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>Baieztatu ezabapena</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; agiria zure gidagailutik EZABATZEAR zaude.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Ekintza hau ezin da desegin. Zihur zaude aurrera jarraitzea nahi duzula?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1354"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezabapen hutsegitea</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezinezkoa izan da &apos;%1&apos; agiria ezabatzea</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Akatsa agiria ezabatzerakoan</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezinezkoa izan da &apos;%1&apos; agiria ezabatzea agiri-sistematik.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="339"/>
