@@ -24,49 +24,45 @@
         <translation>支援論壇：</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="149"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
-        <translation>西班牙文</translation>
+        <translation type="obsolete">西班牙文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation>葡萄牙文</translation>
+        <translation type="obsolete">葡萄牙文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>簡體中文</translation>
+        <translation type="obsolete">簡體中文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation>印尼文</translation>
+        <translation type="obsolete">印尼文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
         <source>German</source>
-        <translation>德文</translation>
+        <translation type="obsolete">德文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
         <source>French</source>
-        <translation>法文</translation>
+        <translation type="obsolete">法文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
-        <translation>俄文</translation>
+        <translation type="obsolete">俄文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
         <source>Hungarian</source>
-        <translation>匈牙利文</translation>
+        <translation type="obsolete">匈牙利文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
-        <translation>波蘭文</translation>
+        <translation type="obsolete">波蘭文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -84,79 +80,64 @@
         <translation>訪問 %1，並加入翻譯團隊。</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>目前在 Transifex 團隊中的翻譯者：</translation>
+        <translation type="obsolete">目前在 Transifex 團隊中的翻譯者：</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
-        <translation>日文</translation>
+        <translation type="obsolete">日文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
-        <translation>烏克蘭語</translation>
+        <translation type="obsolete">烏克蘭語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
-        <translation>葡萄牙文 - 巴西</translation>
+        <translation type="obsolete">葡萄牙文 - 巴西</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation>新挪威語</translation>
+        <translation type="obsolete">新挪威語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
         <source>Georgian</source>
-        <translation> 喬治亞文</translation>
+        <translation type="obsolete"> 喬治亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
-        <translation>捷克文</translation>
+        <translation type="obsolete">捷克文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
         <source>Bulgarian</source>
-        <translation>保加利亞文</translation>
+        <translation type="obsolete">保加利亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
-        <translation>土耳其語</translation>
+        <translation type="obsolete">土耳其語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
         <source>Swedish</source>
-        <translation>瑞典文</translation>
+        <translation type="obsolete">瑞典文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
         <source>Serbian</source>
-        <translation>塞爾維亞文</translation>
+        <translation type="obsolete">塞爾維亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>正體中文</translation>
+        <translation type="obsolete">正體中文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
-        <translation>芬蘭文</translation>
+        <translation type="obsolete">芬蘭文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation>希伯來語</translation>
+        <translation type="obsolete">希伯來語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation>馬來文</translation>
+        <translation type="obsolete">馬來文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -174,107 +155,87 @@
         <translation>由 %1 提供字幕服務</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>阿拉伯語 - 沙烏地阿拉伯</translation>
+        <translation type="obsolete">阿拉伯語 - 沙烏地阿拉伯</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation>阿拉伯語 - 敘利亞</translation>
+        <translation type="obsolete">阿拉伯語 - 敘利亞</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation>僧伽羅語</translation>
+        <translation type="obsolete">僧伽羅語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation>希臘文</translation>
+        <translation type="obsolete">希臘文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation>愛沙尼亞文</translation>
+        <translation type="obsolete">愛沙尼亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation>西非書面語</translation>
+        <translation type="obsolete">西非書面語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation>意大利文</translation>
+        <translation type="obsolete">意大利文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation>烏茲別克文</translation>
+        <translation type="obsolete">烏茲別克文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation>卡達隆尼亞文</translation>
+        <translation type="obsolete">卡達隆尼亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
         <source>Slovak</source>
-        <translation>斯洛伐克文</translation>
+        <translation type="obsolete">斯洛伐克文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
         <source>British English</source>
-        <translation>英式英文</translation>
+        <translation type="obsolete">英式英文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
         <source>Albanian</source>
-        <translation>阿爾巴尼亞文</translation>
+        <translation type="obsolete">阿爾巴尼亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
         <source>Dutch</source>
-        <translation>荷蘭語</translation>
+        <translation type="obsolete">荷蘭語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
         <source>Romanian</source>
-        <translation>羅馬尼亞文</translation>
+        <translation type="obsolete">羅馬尼亞文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
         <source>Khmer</source>
-        <translation>高棉語</translation>
+        <translation type="obsolete">高棉語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
         <source>Telugu</source>
-        <translation>泰盧固文</translation>
+        <translation type="obsolete">泰盧固文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
         <source>Tamil</source>
-        <translation>泰米爾語</translation>
+        <translation type="obsolete">泰米爾語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
         <source>Malayalam</source>
-        <translation>馬拉雅拉姆語</translation>
+        <translation type="obsolete">馬拉雅拉姆語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation>泰語</translation>
+        <translation type="obsolete">泰語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
         <source>Persian</source>
-        <translation>波斯語</translation>
+        <translation type="obsolete">波斯語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="226"/>
+        <location filename="../about.cpp" line="174"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -317,14 +278,12 @@
         <translation>授權(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
-        <translation>韓文</translation>
+        <translation type="obsolete">韓文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
-        <translation>巴斯克文</translation>
+        <translation type="obsolete">巴斯克文</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
@@ -337,14 +296,12 @@
         <translation>使用 Qt %1 (以 Qt %2 編譯)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
-        <translation>阿拉伯語</translation>
+        <translation type="obsolete">阿拉伯語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
         <source>Galician</source>
-        <translation>加利西亞語</translation>
+        <translation type="obsolete">加利西亞語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
@@ -352,24 +309,20 @@
         <translation>由 %1 設計出 SMPlayer 的標誌</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
-        <translation>越南文</translation>
+        <translation type="obsolete">越南文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
         <source>Lithuanian</source>
-        <translation>立陶宛文</translation>
+        <translation type="obsolete">立陶宛文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
-        <translation>丹麥文</translation>
+        <translation type="obsolete">丹麥文</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
-        <translation>克羅埃西亞語</translation>
+        <translation type="obsolete">克羅埃西亞語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>

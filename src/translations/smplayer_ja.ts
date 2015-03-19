@@ -24,49 +24,45 @@
         <translation>サポート フォーラム:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="151"/>
+        <location filename="../about.cpp" line="149"/>
+        <source>Click here to know the translators from the transifex teams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Spanish</source>
-        <translation>スペイン語</translation>
+        <translation type="obsolete">スペイン語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="157"/>
         <source>Portuguese</source>
-        <translation>ポルトガル語</translation>
+        <translation type="obsolete">ポルトガル語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="165"/>
         <source>Simplified Chinese</source>
-        <translation>簡体字中国語</translation>
+        <translation type="obsolete">簡体字中国語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="170"/>
         <source>Indonesian</source>
-        <translation>インドネシア語</translation>
+        <translation type="obsolete">インドネシア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="175"/>
         <source>German</source>
-        <translation>ドイツ語</translation>
+        <translation type="obsolete">ドイツ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
         <source>French</source>
-        <translation>フランス語</translation>
+        <translation type="obsolete">フランス語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
         <source>Russian</source>
-        <translation>ロシア語</translation>
+        <translation type="obsolete">ロシア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="172"/>
         <source>Hungarian</source>
-        <translation>ハンガリー語</translation>
+        <translation type="obsolete">ハンガリー語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
         <source>Polish</source>
-        <translation>ポーランド語</translation>
+        <translation type="obsolete">ポーランド語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -84,79 +80,64 @@
         <translation>%1 にアクセスして翻訳チームに参加してください。</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="149"/>
         <source>Current translators from the transifex teams:</source>
-        <translation>Transifex チームの現在の翻訳者:</translation>
+        <translation type="obsolete">Transifex チームの現在の翻訳者:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="155"/>
         <source>Japanese</source>
-        <translation>日本語</translation>
+        <translation type="obsolete">日本語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="159"/>
         <source>Ukrainian</source>
-        <translation>ウクライナ語</translation>
+        <translation type="obsolete">ウクライナ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="163"/>
         <source>Portuguese - Brazil</source>
-        <translation>ポルトガル語 - ブラジル</translation>
+        <translation type="obsolete">ポルトガル語 - ブラジル</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="178"/>
         <source>Norwegian Nynorsk</source>
-        <translation>ノルウェー語ニーノシュク</translation>
+        <translation type="obsolete">ノルウェー語ニーノシュク</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="183"/>
         <source>Georgian</source>
-        <translation>グルジア語</translation>
+        <translation type="obsolete">グルジア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="154"/>
         <source>Czech</source>
-        <translation>チェコ語</translation>
+        <translation type="obsolete">チェコ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="177"/>
         <source>Bulgarian</source>
-        <translation>ブルガリア語</translation>
+        <translation type="obsolete">ブルガリア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="173"/>
         <source>Turkish</source>
-        <translation>トルコ語</translation>
+        <translation type="obsolete">トルコ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="179"/>
         <source>Swedish</source>
-        <translation>スウェーデン語</translation>
+        <translation type="obsolete">スウェーデン語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="158"/>
         <source>Serbian</source>
-        <translation>セルビア語</translation>
+        <translation type="obsolete">セルビア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="176"/>
         <source>Traditional Chinese</source>
-        <translation>繁体字中国語</translation>
+        <translation type="obsolete">繁体字中国語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="174"/>
         <source>Finnish</source>
-        <translation>フィンランド語</translation>
+        <translation type="obsolete">フィンランド語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="164"/>
         <source>Hebrew</source>
-        <translation>ヘブライ語</translation>
+        <translation type="obsolete">ヘブライ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="162"/>
         <source>Malay</source>
-        <translation>マレー語</translation>
+        <translation type="obsolete">マレー語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -174,107 +155,87 @@
         <translation>字幕サービスは %1 によって提供されています</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="181"/>
         <source>Arabic - Saudi Arabia</source>
-        <translation>アラビア語 - サウジアラビア</translation>
+        <translation type="obsolete">アラビア語 - サウジアラビア</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="182"/>
         <source>Arabic - Syria</source>
-        <translation>アラビア語 - シリア</translation>
+        <translation type="obsolete">アラビア語 - シリア</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="184"/>
         <source>Sinhala</source>
-        <translation>シンハラ語</translation>
+        <translation type="obsolete">シンハラ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="185"/>
         <source>Greek</source>
-        <translation>ギリシャ語</translation>
+        <translation type="obsolete">ギリシャ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="186"/>
         <source>Estonian</source>
-        <translation>エストニア語</translation>
+        <translation type="obsolete">エストニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="187"/>
         <source>N&apos;ko</source>
-        <translation>マンデ語</translation>
+        <translation type="obsolete">マンデ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="188"/>
         <source>Italian</source>
-        <translation>イタリア語</translation>
+        <translation type="obsolete">イタリア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="189"/>
         <source>Uzbek</source>
-        <translation>ウズベク語</translation>
+        <translation type="obsolete">ウズベク語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="190"/>
         <source>Catalan</source>
-        <translation>カタロニア語</translation>
+        <translation type="obsolete">カタロニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="191"/>
         <source>Slovak</source>
-        <translation>スロバキア語</translation>
+        <translation type="obsolete">スロバキア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="192"/>
         <source>British English</source>
-        <translation>イギリス英語</translation>
+        <translation type="obsolete">イギリス英語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="193"/>
         <source>Albanian</source>
-        <translation>アルバニア語</translation>
+        <translation type="obsolete">アルバニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="194"/>
         <source>Dutch</source>
-        <translation>オランダ語</translation>
+        <translation type="obsolete">オランダ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="195"/>
         <source>Romanian</source>
-        <translation>ルーマニア語</translation>
+        <translation type="obsolete">ルーマニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
         <source>Khmer</source>
-        <translation>クメール語</translation>
+        <translation type="obsolete">クメール語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="197"/>
         <source>Telugu</source>
-        <translation>テルグ語</translation>
+        <translation type="obsolete">テルグ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="198"/>
         <source>Tamil</source>
-        <translation>タミル語</translation>
+        <translation type="obsolete">タミル語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="199"/>
         <source>Malayalam</source>
-        <translation>マラヤーラム語</translation>
+        <translation type="obsolete">マラヤーラム語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="200"/>
         <source>Thai</source>
-        <translation>タイ語</translation>
+        <translation type="obsolete">タイ語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="201"/>
         <source>Persian</source>
-        <translation>ペルシア語</translation>
+        <translation type="obsolete">ペルシア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="226"/>
+        <location filename="../about.cpp" line="174"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -317,14 +278,12 @@
         <translation>ライセンス(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="156"/>
         <source>Korean</source>
-        <translation>韓国語</translation>
+        <translation type="obsolete">韓国語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="152"/>
         <source>Basque</source>
-        <translation>バスク語</translation>
+        <translation type="obsolete">バスク語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="51"/>
@@ -337,14 +296,12 @@
         <translation>Qt %1 を使用しています (Qt %2 でコンパイルされました)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="180"/>
         <source>Arabic</source>
-        <translation>アラビア語</translation>
+        <translation type="obsolete">アラビア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="160"/>
         <source>Galician</source>
-        <translation>ガリシア語</translation>
+        <translation type="obsolete">ガリシア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
@@ -352,24 +309,20 @@
         <translation>SMPlayer のロゴ: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="166"/>
         <source>Vietnamese</source>
-        <translation>ベトナム語</translation>
+        <translation type="obsolete">ベトナム語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="161"/>
         <source>Lithuanian</source>
-        <translation>リトアニア語</translation>
+        <translation type="obsolete">リトアニア語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
         <source>Danish</source>
-        <translation>デンマーク語</translation>
+        <translation type="obsolete">デンマーク語</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="153"/>
         <source>Croatian</source>
-        <translation>クロアチア語</translation>
+        <translation type="obsolete">クロアチア語</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -4685,7 +4638,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>ディスクからファイルを削除(&amp;D)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4695,37 +4648,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>削除の確認</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>ドライブからファイル &apos;%1&apos; を削除しようとしています。</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>この動作は元に戻すことができません。続行してもよろしいですか?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1354"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>削除が失敗しました</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;%1&apos; を削除することができませんでした</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルの削除エラー</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイル システムから &apos;%1&apos; を削除することができません</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="339"/>
