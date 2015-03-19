@@ -145,61 +145,9 @@ QString About::getTranslators() {
 		 tr("Many people contributed with translations.") +" "+
 		 tr("You can also help to translate SMPlayer into your own language.") +"<p>"+
 		 tr("Visit %1 and join a translation team.").arg("<a href=\"http://www.transifex.com/projects/p/smplayer/\">http://www.transifex.com/projects/p/smplayer/</a>") +
-		"<p>" +
-		 tr("Current translators from the transifex teams:") +
-		"<p>" + 
-		trad(tr("Spanish"), "Ricardo Villalba") +
-		trad(tr("Basque"), "Xabier Aramendi") +
-		trad(tr("Croatian"), "Gogo") +
-		trad(tr("Czech"), QStringList() << QString::fromUtf8("Petr Šimáček") << QString::fromUtf8("Jakub Kožíšek")) +
-		trad(tr("Japanese"), QStringList() << "Ever_green" << "Nardog") +
-		trad(tr("Korean"), QStringList() << "ParkJS" << "Potato") +
-		trad(tr("Portuguese"), QStringList() << QString::fromUtf8("Sérgio Marques") << "Hugo Carvalho") +
-		trad(tr("Serbian"), QStringList() << QString::fromUtf8("Mladen Pejaković") << "Miroslav" << "Rancher" << QString::fromUtf8("Slobodan Simić")) +
-		trad(tr("Ukrainian"), QStringList() << "Zubr139" << "evmir2" << "vitrolov" << QString::fromUtf8("Олександр") << "Dex") +
-		trad(tr("Galician"), QStringList() << QString::fromUtf8("Adrián Chaves Fernández") << "Miguel Branco" << "antiparvos") +
-		trad(tr("Lithuanian"), QString::fromUtf8("Algimantas Margevičius")) +
-		trad(tr("Malay"), QStringList() << "Abuyop" << "inashdeen") +
-		trad(tr("Portuguese - Brazil"), QStringList() << QString::fromUtf8("Maico Sertório") << "Vinicius" << "Ronnie Dilli" << QString::fromUtf8("Lucas Simões") << "Conservador Ressurge") +
-		trad(tr("Hebrew"), QStringList() << "GenghisKhan" << "Random User") +
-		trad(tr("Simplified Chinese"), QStringList() << "OpenBDH" << "Zhangzheliuli" << "Zhangmin" << "wwj402" << "775405984" << "DefineFC") +
-		trad(tr("Vietnamese"), QStringList() << "Anh Phan" << "Biz Over" << "Thu Thao Nguyen Ngoc" << "Duy Truong Nguyen") +
-		trad(tr("Polish"), QStringList() << "Filux" << QString::fromUtf8("Łukasz Hryniuk") << QString::fromUtf8("Piotr Strębski") << QString::fromUtf8("Michał Trzebiatowski") << "Grzegorz Pruchniakowski" << "Daniel Krawczyk") +
-		trad(tr("Russian"), QStringList() << "WiseLord" << "Viktor" << "DmitryKX" << "Gleb Mekhrenin" << "ElFrio" << "Semen V. Dubina" << "Denis" << "angry_snake" << "Andrei Stepanov") +
-		trad(tr("French"), QStringList() << "Olivier Devineau" << "Ybsar" << "Janmaro" << "Guillaume 'zzd10h' Boesel" << "tneskovic" << "Calinou" << "Cajetan Bouchard") +
-		trad(tr("Indonesian"), QStringList() << "Mohamad Hasan Al Banna" << "Aulia Firdaus Simbolon" << "Muhammad Fikri Hariri") +
-		trad(tr("Danish"), "Michael Larsen") +
-		trad(tr("Hungarian"), QStringList() << "Gojko" << QString::fromUtf8("Zsolt Péter Basák") << "chris020891") +
-		trad(tr("Turkish"), QStringList() << "Emre Firat" << QString::fromUtf8("Hasan Akgöz") << QString::fromUtf8("якуп") << QString::fromUtf8("Mesut Aktaş")) +
-		trad(tr("Finnish"), QString::fromUtf8("Jiri Grönroos")) +
-		trad(tr("German"), QStringList() << "Shaggy" << QString::fromUtf8("Michał Trzebiatowski") << "Eclipse" << "j5lx" << "Tobias Bannert" << "Ettore Atalan") +
-		trad(tr("Traditional Chinese"), QStringList() << "Taijuin Lee" << "Wpliao" << "Jeff Huang" << "cges30901") +
-		trad(tr("Bulgarian"), QStringList() << "Ivailo Monev" << QString::fromUtf8("Радослав") << "Elusiv_man" << "Kiril Kirilov" << QString::fromUtf8("Иван Костадинов")) +
-		trad(tr("Norwegian Nynorsk"), QStringList() << "Bjorni" << "F_Sauce") +
-		trad(tr("Swedish"), QStringList() << "XC" << "Andreas Gustafsson" << "Patrik Nilsson" << "Kristian" << "Johan Forsberg") +
-		trad(tr("Arabic"), QStringList() << "Riyadh" << "Muhammad Fawwaz Orabi" << "Mohamed Sakhri" << QString::fromUtf8("طاهر") << "Mosaab Alzoubi" << "Leonelle Marks" << "Muhammad EL-SEED") +
-		trad(tr("Arabic - Saudi Arabia"), "Mohamed") +
-		trad(tr("Arabic - Syria"), QStringList() << "Leonelle Marks" << "Muhammad Fawwaz Orabi") +
-		trad(tr("Georgian"), "George Machitidze") +
-		trad(tr("Sinhala"), QStringList() << "Rathnayake" << "anupeiris" << "sahan777") +
-		trad(tr("Greek"), QString::fromUtf8("Γιάννης Ανθυμίδης")) +
-		trad(tr("Estonian"), QString::fromUtf8("Olav Mägi")) +
-		trad(tr("N'ko"), QStringList() << QString::fromUtf8("Kairaba Cissé") << "Youssouf Diaby" << "Lasnei Kante" << "Kante Soufiane") +
-		trad(tr("Italian"), QStringList() << "Damtux" << "Samir Hawamdeh" << "Fabio Mazza" << "Benedetto Gregorio") +
-		trad(tr("Uzbek"), "Umid Almasov") +
-		trad(tr("Catalan"), QStringList() << "Anna Fenoy" << "Jmontane") +
-		trad(tr("Slovak"), QString::fromUtf8("Ján Ďanovský")) +
-		trad(tr("British English"), "F_Sauce") +
-		trad(tr("Albanian"), "rigels.gordani") +
-		trad(tr("Dutch"), QStringList() << "CecilWesterhof" << "meijdam" << "Heimen Stoffels" << "Dragnadh") +
-		trad(tr("Romanian"), "msalajan") +
-		trad(tr("Khmer"), "Sovichet Tep") +
-		trad(tr("Telugu"), "Praveen_Illa") +
-		trad(tr("Tamil"), "vithushanth123") +
-		trad(tr("Malayalam"), "Akhilan") +
-		trad(tr("Thai"), "M. Somsak") +
-		trad(tr("Persian"), QStringList() << "Hessam Shahpouri" << "Behrooz Ramezani") +
-		"");
+		"<p><a href=\"http://smplayer.sourceforge.net/translators.php\">" +
+		 tr("Click here to know the translators from the transifex teams") +
+		"</a>");
 }
 
 QString About::trad(const QString & lang, const QString & author) {
