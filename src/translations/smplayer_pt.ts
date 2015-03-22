@@ -26,43 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Espanhol</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Português</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Mandarim simplificado</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonésio</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Alemão</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Francês</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Russo</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Húngaro</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polaco</translation>
+        <translation>Clique aqui para saber mais informações sobre as equipas transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -80,66 +44,6 @@
         <translation>Aceda a %1 e integre uma equipa de tradução.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Tradutores atuais das equipas Transifex:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japonês</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ucraniano</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Português - Brasil</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norueguês (Nynorsk)</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgiano</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Checo</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Búlgaro</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Turco</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Sueco</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Sérvio</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Mandarim tradicional</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finlândes</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebraico</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malaio</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation>Utilizando %1</translation>
@@ -153,86 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation>Legendas disponibilizadas por %1</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Árabe - Arábia Saudita</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Árabe - Síria</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Sinhala</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Grego</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estónio</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italiano</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Uzbeque</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalão</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Eslovaco</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Inglês britânico</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albanês</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandês</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Romeno</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Khmer</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Telugu</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamil</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malaialaio</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Tailandês</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Persa</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -278,14 +102,6 @@
         <translation>&amp;Licença</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">Coreano</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Basco</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Edição portátil</translation>
@@ -296,33 +112,9 @@
         <translation>A utilizar Qt %1 (compilado com Qt %2)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Árabe</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galego</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logotipo SMPlayer por %1</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamita</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Lituano</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Dinamarquês</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Croata</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -9193,33 +8985,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Adicionar &amp;separador</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(separador)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>Cursor de tempo</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>Cursor de volume</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>Mostrar tempo</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>Recuar 3 em 1</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>Avançar 3 em 1</translation>
     </message>

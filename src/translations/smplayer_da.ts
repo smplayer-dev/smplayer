@@ -26,43 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Spansk</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugisisk</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Forenklet kinesisk</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonesisk</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Tysk</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Fransk</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Russisk</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Ungarsk</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polsk</translation>
+        <translation>Klik her for at se oversætterne fra Transifex teams</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -80,66 +44,6 @@
         <translation>Besøg %1 og meld dig til et oversættelsesteam.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Nuværende oversættere fra Transifex-teams:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japansk</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrainsk</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugisisk - Brasilien</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norsk nynorsk</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgisk</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Tjekkisk</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgarsk</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Tyrkisk</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Svensk</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbisk</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditionel kinesisk</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finsk</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebræisk</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malaysisk</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation>Med %1</translation>
@@ -153,86 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation>Undertekstertjeneste leveret af %1</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arabisk - Saudi arabien</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Arabisk - Syrisk</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Singalesisk</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Græsk</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estisk</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italiensk</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Uzbekisk</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Catalansk</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovakkisk</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Britisk engelsk</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albansk</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Hollandsk</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumænsk</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Khmer</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Telugu</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamil</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malayalam</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Thailandsk</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Persisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -278,14 +102,6 @@
         <translation>&amp;Licens</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">Koreansk</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baskisk</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Mobil udgave</translation>
@@ -296,33 +112,9 @@
         <translation>Med Qt %1 (kompileret med Qt %2)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabisk</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galicisk</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer-logo af %1</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamesisk</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Litauisk</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Dansk</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Kroatisk</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -1003,7 +795,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>&amp;YouTube%1 browser</translation>
+        <translation>&amp;YouTube%1-browser</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
@@ -1210,7 +1002,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1617"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>&amp;Miniature generator...</translation>
+        <translation>&amp;Miniature-generator...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
@@ -5306,7 +5098,7 @@ version af filnavnene til MPlayer, og således vil den kunne åbne dem.</transla
     <message>
         <location filename="../prefdrives.ui" line="225"/>
         <source>&amp;Enable DVD menus (experimental)</source>
-        <translation>&amp;Aktivér DVD-menuer (eksperimentelt)</translation>
+        <translation>&amp;Aktivér DVD-menuer (eksperimental)</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
@@ -6961,7 +6753,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="669"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>Den &lt;b&gt;Skinbare GUI&lt;/b&gt; giver en brugerflade med forskellige skins.</translation>
+        <translation>&lt;b&gt;Skinbar GUI&lt;/b&gt; giver en brugerflade med forskellige skins.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
@@ -6991,7 +6783,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="210"/>
         <source>Skinnable GUI</source>
-        <translation>Skinbare GUI</translation>
+        <translation>Skinbar GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
@@ -7016,7 +6808,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="681"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation>Vælg det ønskede udseende for programmet. Kun muligt med den skinbare GUI.</translation>
+        <translation>Vælg det ønskede udseende for programmet. Kun muligt med skinbar GUI.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="684"/>
@@ -9131,7 +8923,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
-        <translation>Kanalredigering</translation>
+        <translation>Redigering af kanaler</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="95"/>
@@ -9152,7 +8944,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation>Værktøjslinje-editor</translation>
+        <translation>Redigering af værktøjslinje</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
@@ -9195,33 +8987,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tilføj &amp;separator</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(separator)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>Tidsskyder</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>Lydstykeskyder</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>Vis tid</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>3 i 1 tilbage</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>3 i 1 fremad</translation>
     </message>
@@ -9360,7 +9152,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="142"/>
         <source>Thumbnail Generator</source>
-        <translation>Miniature generator</translation>
+        <translation>Miniature-generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="145"/>
@@ -9509,7 +9301,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation>Miniature generator</translation>
+        <translation>Miniature-generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>

@@ -29,30 +29,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Hispaania</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Saksamaa</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Prantsusmaa</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Venemaa</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Ukraina</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Poola</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
         <translation type="unfinished"></translation>
@@ -66,50 +42,6 @@
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Jaapan</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ungari</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugali - Brasiilia</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgia</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Tšehhi</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgaaria</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Türgi</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Rootsi</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbia</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Traditsionaalne Hiina</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Soome</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -170,14 +102,6 @@
         <translation>&amp;Luba</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">Korea</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baski</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Kaasaskantav väljaanne</translation>
@@ -188,33 +112,9 @@
         <translation>Kasutades Qt`d %1 (ühilduvus koos Qt %2`ga)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Araabia</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galician</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer`i logo %1 poolt</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnami</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Leedu</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Taani</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Horvaatia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -9084,33 +8984,33 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation type="unfinished"></translation>
     </message>

@@ -29,42 +29,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Tiếng Tây Ban Nha</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Tiếng Bồ Đào Nha</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Tiếng Trung phổ thông</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Tiếng In Đô Nê Xia</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Tiếng Đức</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Tiếng Pháp</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Tiếng Nga</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Tiếng Hungary</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Tiếng Ba Lan</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
         <translation>Nhiều người đã đóng góp vào việc dịch thuật.</translation>
@@ -80,58 +44,6 @@
         <translation>Xem %1 và tham gia vào đội dịch thuật.</translation>
     </message>
     <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Tiếng Nhật Bản</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Tiếng Ukraina</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Tiếng Bồ Đào Nha - Brazil</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Na uy</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Tiếng Gruzia</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Tiếng Séc</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Tiếng Bungari</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Tiếng Thổ Nhĩ Kỳ</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Tiếng Thụy Điển</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Tiếng Secbia</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Tiếng Trung truyền thống</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Tiếng Phần Lan</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Tiếng Do Thái</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation type="unfinished"></translation>
@@ -145,30 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Tiếng Ả rập - Ả rập Saudi</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Tiếng Hy Lạp</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Tiếng Ex Tô Nhia</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Tiếng Ý</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Tiếng Các-ta-lăng</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Tiếng Slovakia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -214,14 +102,6 @@
         <translation>&amp;Giấy Phép</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">Tiếng Triều Tiên</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Tiếng Xứ Basque</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Phiên bản không cần cài đặt</translation>
@@ -232,33 +112,9 @@
         <translation>Dùng Qt%1 (biên dịch với Qt%2)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Tiếng Ả Rập</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Tiếng Galician</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logo SMPlayer được tạo bởi %1</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Tôi Yêu Việt Nam</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Lithuanian</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Danish</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Croatian</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -9126,33 +8982,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Thêm &amp;bộ tách</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(bộ tách)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>Trượt thời gian</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>Trượt âm lượng</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>Hiển thị thời gian</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>Quay lại 3 trong 1</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>Tiến lên 3 trong 1</translation>
     </message>
