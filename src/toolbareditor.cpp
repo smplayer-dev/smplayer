@@ -85,7 +85,11 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 				QListWidgetItem * i = new QListWidgetItem;
 				QString text = fixname(action->text(), action->objectName());
 				i->setText(text + " ("+ action->objectName() +")");
-				i->setIcon(action->icon());
+				QIcon icon = action->icon();
+				if (icon.isNull()) {
+					icon = Images::icon("empty_icon");
+				}
+				i->setIcon(icon);
 				i->setData(Qt::UserRole, action->objectName());
 				w->addItem(i);
 			}
