@@ -135,7 +135,11 @@ void Preferences::reset() {
 	vdpau.disable_video_filters = true;
 #endif
 
+#ifdef Q_OS_WIN
+	use_soft_vol = false;
+#else
 	use_soft_vol = true;
+#endif
 	softvol_max = 110; // 110 = default value in mplayer
 	use_scaletempo = Detect;
 	use_hwac3 = false;
