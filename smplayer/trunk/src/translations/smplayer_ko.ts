@@ -26,43 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">스페인어</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">포르투갈어</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">간체 중국어</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">인도네시아어</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">독일어</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">프랑스어</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">러시아어</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">헝가리어</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">폴란드어</translation>
+        <translation>Transifex 팀의 번역가를 알고 싶으면 여기를 클릭하세요</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -80,66 +44,6 @@
         <translation>%1 을 방문하고 번역 팀에 참여하세요.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Transifex 팀의 현재 번역가들:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">일본어</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">우크라이나어</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">포르투갈어 - 브라질</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">노르웨이 뉘노르스크어</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">그루지야야어</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">체코어</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">불가리아어</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">터키어</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">스웨덴어</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">세르비아어</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">번체 중국어</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">핀란드어</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">히브리어</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">말레이어</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation>%1 사용중</translation>
@@ -153,86 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation>%1의 지원을 받는 자막 서비스</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">아랍어 - 사우디 아라비아</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">아랍어 - 시리아</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">신할라어</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">그리스어</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">에스토니아어</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">응코어</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">이탈리아어</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">우즈베크어</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">카탈루냐어</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">슬로바키아어</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">영국식 영어</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">알바니아어</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">네덜란드어</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">루마니아어</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">크메르어</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">텔루구어</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">타밀어</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">말라얄람어</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">타이어</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">페르시아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -278,14 +102,6 @@
         <translation>라이센스</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">한국어</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">바스크어</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>포터블 에디션</translation>
@@ -296,33 +112,9 @@
         <translation>Qt %1 사용 (Qt %2 로 컴파일됨)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">아랍어</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">갈리시아어</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer 로고 by %1</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">베트남어</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">리투아니아어</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">덴마크어</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">크로아티아어</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -9191,33 +8983,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>분리자 추가</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(분리자)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>타임 슬라이더</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>볼륨 슬라이더</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>표시 시간</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>세가지 뒤로 감기를 하나로</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>세가지 빨리 감기를 하나로</translation>
     </message>

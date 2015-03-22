@@ -26,43 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">Španělská</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">Portugalština</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">Zjednodušená Čínská</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">Indonéská</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">Německá</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Francouzská</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Ruská</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Maďarská</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Polská</translation>
+        <translation>Klikněte zde, abyste upozornili překladatele týmů na Transifexu</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -80,66 +44,6 @@
         <translation>Navštivte %1 a připojte se k překladatelskému týmu.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Současní překladatelé týmu na Transifexu:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japonská</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukrajinská</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Portugalská - Brazílie</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">Norština Nynorsk</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Gruzínská</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Česká</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulharská</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Turecká</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Švédská</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Srbská</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Tradiční Čínská</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Finská</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">Hebrejština</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">Malajština</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation>Používá se %1</translation>
@@ -153,86 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation>Titulkovou službu přináší %1</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">Arabská - Saudská Arábie</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">Arabská - Syrská</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">Sinhalština</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">Řecká</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">Estonština</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">Italská</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">Uzbecká</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">Katalánská</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">Slovenská</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">Britská Angličtina</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">Albánština</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">Holandská</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">Rumunská</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">Kmérská</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">Telugština</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">Tamilština</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">Malajálamština</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">Thajština</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">Perština</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -278,14 +102,6 @@
         <translation>&amp;Licence</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">Korejská</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baskská</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Přenosná edice</translation>
@@ -296,33 +112,9 @@
         <translation>Používá Qt %1 (přeloženo s Qt %2)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabská</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Haličská</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>Logo SMPlayeru od %1</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnamština</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Litevština</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">Dánština</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">Chorvatská</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -4640,7 +4432,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vymazat soubor z disku</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4650,37 +4442,37 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>Potvrdit vymazání</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tímto VYMAŽETE soubor &apos;%1&apos; z vašeho disku.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Tuto akci nelze vrátit zpět. Opravdu ji chcete provést?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1354"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Vymazání selhalo</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Nebylo možné vymazat &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při mazání souboru</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Není možné vymazat &apos;%1&apos; ze souborového systému.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="339"/>
@@ -9199,33 +8991,33 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <translation>Přidat &amp;oddělovač</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(oddělovač)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>Posuvník času</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>Posuvník hlasitosti</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>Zobrazení času</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>3 na 1 zpět</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>3 na 1 vpřed</translation>
     </message>

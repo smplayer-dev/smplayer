@@ -29,26 +29,6 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>German</source>
-        <translation type="obsolete">Saksa</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">Ranska</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">Venäjä</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">Unkari</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">Puola</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="145"/>
         <source>Many people contributed with translations.</source>
         <translation>Monet ihmiset auttoivat kielikäännöksissä.</translation>
@@ -62,54 +42,6 @@
         <location filename="../about.cpp" line="147"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>Käy %1-sivustolla ja liity käännösryhmään.</translation>
-    </message>
-    <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">Nykyiset kääntäjät Transifex-ryhmistä:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">Japani</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">Ukraina</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">Brasilian portugali</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">Georgia</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">Tsekki</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">Bulgaria</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">Turkki</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">Ruotsi</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">Serbia</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">Perinteinen kiina</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">Suomi</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="45"/>
@@ -170,14 +102,6 @@
         <translation>&amp;Lisenssi</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">Korea</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">Baski</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>Siirrettävä versio</translation>
@@ -188,25 +112,9 @@
         <translation>Käytössä Qt %1 (käänetty Qt:n versiolla %2)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">Arabia</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">Galisia</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayerin logo %1</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">Vietnami</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">Liettua</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -9075,33 +8983,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(erotin)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>Näytä aika</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation type="unfinished"></translation>
     </message>

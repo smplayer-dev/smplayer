@@ -26,43 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">الإسبانية</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">البرتغالية</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">الصينية المبسطة</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">الإندونيسية</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">الألمانية</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">الفرنسية</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">الروسية</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">الهنغارية</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">البولندية</translation>
+        <translation>انقر هنا لمعرفة الترجمات من فِرَق transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -80,66 +44,6 @@
         <translation>زر %1 وانضم إلى فريق للترجمة.</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">المترجمون الحاليون من فِرَق Transifex:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">اليابانية</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">الأوكرانية</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">البرتغالية - البرازيل</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">النينورسكية النرويجية</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">الجورجية</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">التشيكية</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">البلغارية</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">التركية</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">السويدية</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">الصربية</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">الصينية التقليدية</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">الفنلندية</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">العبرية</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">المالية</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation>يستخدم %1</translation>
@@ -153,86 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation>خدمة الترجمات توفرها %1</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">العربية -المملكة العربية السعودية</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">العربية - سوريا</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">السنهالية</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">اليونانية</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">الإستونية</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">نكو</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">الإيطالية</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">الأوزبكية</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">الكاتلانية</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">السلوفاكية</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">الانغليزية البريطانية</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">الألبانية</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">الهولندية</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">الرومانية</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">الخميرية</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">التيلوغية</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">التاميلية</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">الملايلامية</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">التايلاندية</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">الفارسية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -278,14 +102,6 @@
         <translation>ال&amp;رخصة</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">الكورية</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">الباسكية</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>النسخة المحمولة</translation>
@@ -296,33 +112,9 @@
         <translation>يستخدم Qt %1 (جمّع باستخدام Qt %2)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">العربية</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">الغاليكانية</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>صمم %1 شعار SMPlayer</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">الفيتنامية</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">الليتوانية</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">الدنماركية</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">الكرواتية</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -1065,7 +857,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4610"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>للأسف المكون openssl، و الضروري لهذا، غير متوفر في نظامك.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4673"/>
@@ -4644,7 +4436,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>ح&amp;ذف الملف من القرص</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4654,37 +4446,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>أكّد الحذف</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>أنت على وشك أن تحذف الملف &apos;%1&apos; من القرص.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>لا يمكن التراجع عن هذا الإجراء. أأنت متأكد أنك تريد المتابعة؟</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1354"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل الحذف</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>لم يمكن حذف &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>خطأ عند حذف الملف</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"></translation>
+        <translation>ليس ممكناً حذف الملف &apos;%1&apos; من نظام الملفات.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="339"/>
@@ -8067,7 +7859,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغيل الملف الت&amp;الي حتى لو فشل الملف السابق</translation>
     </message>
 </context>
 <context>
@@ -9201,7 +8993,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"></translation>
+        <translation>حجم الآي&amp;قونة</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -9209,33 +9001,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>أضف فا&amp;صلاً</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(فاصل)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>مُمرِّر الوقت</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>مُمرِّر علوّ الصوت</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>اعرض الوقت</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>إرجاع (3 أوامر في واحد)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>تقديم (3 أوامر في واحد)</translation>
     </message>

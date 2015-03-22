@@ -26,43 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Spanish</source>
-        <translation type="obsolete">西班牙语</translation>
-    </message>
-    <message>
-        <source>Portuguese</source>
-        <translation type="obsolete">葡萄牙语</translation>
-    </message>
-    <message>
-        <source>Simplified Chinese</source>
-        <translation type="obsolete">简体中文</translation>
-    </message>
-    <message>
-        <source>Indonesian</source>
-        <translation type="obsolete">印度尼西亚语</translation>
-    </message>
-    <message>
-        <source>German</source>
-        <translation type="obsolete">德语</translation>
-    </message>
-    <message>
-        <source>French</source>
-        <translation type="obsolete">法语</translation>
-    </message>
-    <message>
-        <source>Russian</source>
-        <translation type="obsolete">俄语</translation>
-    </message>
-    <message>
-        <source>Hungarian</source>
-        <translation type="obsolete">匈牙利语</translation>
-    </message>
-    <message>
-        <source>Polish</source>
-        <translation type="obsolete">波兰语</translation>
+        <translation>点击这里查看 transifex 翻译团队的成员</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -80,66 +44,6 @@
         <translation>访问 %1 并加入翻译团队</translation>
     </message>
     <message>
-        <source>Current translators from the transifex teams:</source>
-        <translation type="obsolete">当前 Transifex 团队中的翻译人员:</translation>
-    </message>
-    <message>
-        <source>Japanese</source>
-        <translation type="obsolete">日语</translation>
-    </message>
-    <message>
-        <source>Ukrainian</source>
-        <translation type="obsolete">乌克兰语</translation>
-    </message>
-    <message>
-        <source>Portuguese - Brazil</source>
-        <translation type="obsolete">葡萄牙语-巴西</translation>
-    </message>
-    <message>
-        <source>Norwegian Nynorsk</source>
-        <translation type="obsolete">挪威尼诺斯克语</translation>
-    </message>
-    <message>
-        <source>Georgian</source>
-        <translation type="obsolete">格鲁吉亚语</translation>
-    </message>
-    <message>
-        <source>Czech</source>
-        <translation type="obsolete">捷克语</translation>
-    </message>
-    <message>
-        <source>Bulgarian</source>
-        <translation type="obsolete">保加利亚语</translation>
-    </message>
-    <message>
-        <source>Turkish</source>
-        <translation type="obsolete">土耳其语</translation>
-    </message>
-    <message>
-        <source>Swedish</source>
-        <translation type="obsolete">瑞典语</translation>
-    </message>
-    <message>
-        <source>Serbian</source>
-        <translation type="obsolete">塞尔维亚语</translation>
-    </message>
-    <message>
-        <source>Traditional Chinese</source>
-        <translation type="obsolete">繁体中文</translation>
-    </message>
-    <message>
-        <source>Finnish</source>
-        <translation type="obsolete">芬兰语</translation>
-    </message>
-    <message>
-        <source>Hebrew</source>
-        <translation type="obsolete">希伯来语</translation>
-    </message>
-    <message>
-        <source>Malay</source>
-        <translation type="obsolete">马来语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="45"/>
         <source>Using %1</source>
         <translation>使用 %1</translation>
@@ -153,86 +57,6 @@
         <location filename="../about.cpp" line="71"/>
         <source>Subtitles service powered by %1</source>
         <translation>字幕服务由 %1 提供</translation>
-    </message>
-    <message>
-        <source>Arabic - Saudi Arabia</source>
-        <translation type="obsolete">阿拉伯语 - 沙特阿拉伯</translation>
-    </message>
-    <message>
-        <source>Arabic - Syria</source>
-        <translation type="obsolete">阿拉伯语 - 叙利亚</translation>
-    </message>
-    <message>
-        <source>Sinhala</source>
-        <translation type="obsolete">僧加罗</translation>
-    </message>
-    <message>
-        <source>Greek</source>
-        <translation type="obsolete">希腊</translation>
-    </message>
-    <message>
-        <source>Estonian</source>
-        <translation type="obsolete">爱沙尼亚语</translation>
-    </message>
-    <message>
-        <source>N&apos;ko</source>
-        <translation type="obsolete">N&apos;ko</translation>
-    </message>
-    <message>
-        <source>Italian</source>
-        <translation type="obsolete">意大利语</translation>
-    </message>
-    <message>
-        <source>Uzbek</source>
-        <translation type="obsolete">乌兹别克语</translation>
-    </message>
-    <message>
-        <source>Catalan</source>
-        <translation type="obsolete">加泰罗尼亚语</translation>
-    </message>
-    <message>
-        <source>Slovak</source>
-        <translation type="obsolete">斯洛伐克语</translation>
-    </message>
-    <message>
-        <source>British English</source>
-        <translation type="obsolete">英国英语</translation>
-    </message>
-    <message>
-        <source>Albanian</source>
-        <translation type="obsolete">阿尔巴尼亚语</translation>
-    </message>
-    <message>
-        <source>Dutch</source>
-        <translation type="obsolete">荷兰语</translation>
-    </message>
-    <message>
-        <source>Romanian</source>
-        <translation type="obsolete">罗马尼亚语</translation>
-    </message>
-    <message>
-        <source>Khmer</source>
-        <translation type="obsolete">高棉语</translation>
-    </message>
-    <message>
-        <source>Telugu</source>
-        <translation type="obsolete">泰卢固语</translation>
-    </message>
-    <message>
-        <source>Tamil</source>
-        <translation type="obsolete">泰米尔语</translation>
-    </message>
-    <message>
-        <source>Malayalam</source>
-        <translation type="obsolete">马拉雅拉姆语</translation>
-    </message>
-    <message>
-        <source>Thai</source>
-        <translation type="obsolete">泰语</translation>
-    </message>
-    <message>
-        <source>Persian</source>
-        <translation type="obsolete">波斯语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="174"/>
@@ -278,14 +102,6 @@
         <translation>许可证(&amp;L)</translation>
     </message>
     <message>
-        <source>Korean</source>
-        <translation type="obsolete">韩国语</translation>
-    </message>
-    <message>
-        <source>Basque</source>
-        <translation type="obsolete">巴斯克语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="51"/>
         <source>Portable Edition</source>
         <translation>便携版</translation>
@@ -296,33 +112,9 @@
         <translation>正在使用 Qt %1 (用 Qt %2 编译)</translation>
     </message>
     <message>
-        <source>Arabic</source>
-        <translation type="obsolete">阿拉伯语</translation>
-    </message>
-    <message>
-        <source>Galician</source>
-        <translation type="obsolete">加利西亚语</translation>
-    </message>
-    <message>
         <location filename="../about.cpp" line="105"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer 标志由 %1 设计</translation>
-    </message>
-    <message>
-        <source>Vietnamese</source>
-        <translation type="obsolete">越南语</translation>
-    </message>
-    <message>
-        <source>Lithuanian</source>
-        <translation type="obsolete">立陶宛语</translation>
-    </message>
-    <message>
-        <source>Danish</source>
-        <translation type="obsolete">丹麦语</translation>
-    </message>
-    <message>
-        <source>Croatian</source>
-        <translation type="obsolete">克罗地亚语</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="86"/>
@@ -9190,33 +8982,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>添加分隔符(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="95"/>
-        <location filename="../toolbareditor.cpp" line="188"/>
+        <location filename="../toolbareditor.cpp" line="99"/>
+        <location filename="../toolbareditor.cpp" line="192"/>
         <source>(separator)</source>
         <translation>(分隔符)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="247"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Time slider</source>
         <translation>时间滑块</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="249"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>Volume slider</source>
         <translation>音量滑块</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>Display time</source>
         <translation>显示时间</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="257"/>
         <source>3 in 1 rewind</source>
         <translation>3合1后退</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="259"/>
         <source>3 in 1 forward</source>
         <translation>3合1前进</translation>
     </message>
