@@ -102,22 +102,22 @@ void PrefSubtitles::retranslateStrings() {
 	// Ass styles
 	int alignment_item = style_alignment_combo->currentIndex();
 	style_alignment_combo->clear();
-	style_alignment_combo->addItem(tr("Left", "horizontal alignment"), 1);
-	style_alignment_combo->addItem(tr("Centered", "horizontal alignment"), 2);
-	style_alignment_combo->addItem(tr("Right", "horizontal alignment"), 3);
+	style_alignment_combo->addItem(tr("Left", "horizontal alignment"), AssStyles::Left);
+	style_alignment_combo->addItem(tr("Centered", "horizontal alignment"), AssStyles::HCenter);
+	style_alignment_combo->addItem(tr("Right", "horizontal alignment"), AssStyles::Right);
 	style_alignment_combo->setCurrentIndex(alignment_item);
 
 	int valignment_item = style_valignment_combo->currentIndex();
 	style_valignment_combo->clear();
-	style_valignment_combo->addItem(tr("Bottom", "vertical alignment"));
-	style_valignment_combo->addItem(tr("Middle", "vertical alignment"));
-	style_valignment_combo->addItem(tr("Top", "vertical alignment"));
+	style_valignment_combo->addItem(tr("Bottom", "vertical alignment"), AssStyles::Bottom);
+	style_valignment_combo->addItem(tr("Middle", "vertical alignment"), AssStyles::VCenter);
+	style_valignment_combo->addItem(tr("Top", "vertical alignment"), AssStyles::Top);
 	style_valignment_combo->setCurrentIndex(valignment_item);
 
 	int borderstyle_item = style_border_style_combo->currentIndex();
 	style_border_style_combo->clear();
-	style_border_style_combo->addItem(tr("Outline", "border style"), 1);
-	style_border_style_combo->addItem(tr("Opaque box", "border style"), 3);
+	style_border_style_combo->addItem(tr("Outline", "border style"), AssStyles::Outline);
+	style_border_style_combo->addItem(tr("Opaque box", "border style"), AssStyles::Opaque);
 	style_border_style_combo->setCurrentIndex(borderstyle_item);
 
 	createHelp();
