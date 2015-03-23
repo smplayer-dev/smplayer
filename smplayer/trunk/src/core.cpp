@@ -1817,16 +1817,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 		if (pref->enable_ass_styles) {
 			if (!pref->force_ass_styles) {
-				// Load the styles.ass file
-				if (!QFile::exists(Paths::subtitleStyleFile())) {
-					// If file doesn't exist, create it
-					pref->ass_styles.exportStyles(Paths::subtitleStyleFile());
-				}
-				if (QFile::exists(Paths::subtitleStyleFile())) {
-					proc->setOption("ass-styles", Paths::subtitleStyleFile());
-				} else {
-					qWarning("Core::startMplayer: '%s' doesn't exist", Paths::subtitleStyleFile().toUtf8().constData());
-				}
+				proc->setSubStyles(pref->ass_styles, Paths::subtitleStyleFile());
 			} else {
 				// Force styles for ass subtitles too
 				if (!pref->user_forced_ass_style.isEmpty()) {

@@ -80,7 +80,7 @@ void AssStyles::load(QSettings * set) {
 	marginv = set->value("styles/marginv", marginv).toInt();
 }
 
-bool AssStyles::exportStyles(const QString & filename) {
+bool AssStyles::exportStyles(const QString & filename) const {
 	qDebug("AssStyles::exportStyles: filename: %s", filename.toUtf8().constData());
 
 	QFile f(filename);

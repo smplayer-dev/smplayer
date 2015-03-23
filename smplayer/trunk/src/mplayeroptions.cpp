@@ -375,3 +375,16 @@ void MplayerProcess::setOSDScale(double value) {
 void MplayerProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
 	// not supported
 }
+
+void MplayerProcess::setSubStyles(const AssStyles & styles, const QString & assStylesFile) {
+	// Load the styles.ass file
+	if (!QFile::exists(assStylesFile)) {
+		// If file doesn't exist, create it
+		styles.exportStyles(assStylesFile);
+	}
+	if (QFile::exists(assStylesFile)) {
+		setOption("ass-styles", assStylesFile);
+	} else {
+		qWarning("MplayerProcess::setSubStyles: '%s' doesn't exist", assStylesFile.toUtf8().constData());
+	}
+}

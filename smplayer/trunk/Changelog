@@ -1,5 +1,9 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-03-22)
+ * (mpv) Use the --sub-text-* options to set the style of the subtitles since
+   the option --ass-styles doesn't work anymore for this.
+
 (2015-03-13)
  * Add the possibility to delete a file in the playlist from the filesystem.
    Based on a patch by capt.d.:

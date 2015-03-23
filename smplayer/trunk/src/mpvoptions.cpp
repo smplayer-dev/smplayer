@@ -783,3 +783,36 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(f));
 	}
 }
+
+void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
+	QString font = styles.fontname;
+	arg << "--sub-text-font=" + font.replace(" ", "");
+	arg << "--sub-text-color=#" + ColorUtils::colorToRRGGBB(styles.primarycolor);
+
+	if (styles.borderstyle == 1) { // outline
+		arg << "--sub-text-shadow-color=#" + ColorUtils::colorToRRGGBB(styles.backcolor);
+	} else {
+		arg << "--sub-text-back-color=#" + ColorUtils::colorToRRGGBB(styles.outlinecolor);
+	}
+	arg << "--sub-text-border-color=#" + ColorUtils::colorToRRGGBB(styles.outlinecolor);
+
+	arg << "--sub-text-border-size=" + QString::number(styles.outline * 2.5);
+	arg << "--sub-text-shadow-offset=" + QString::number(styles.shadow * 2.5);
+
+	QString halign = "center";
+	switch (styles.halignment) {
+		case 1: halign = "left"; break;
+		case 3: halign = "right"; break;
+	}
+
+	QString valign = "bottom";
+	switch (styles.valignment) {
+		case 1: valign = "center"; break;
+		case 2: valign = "top"; break;
+	}
+
+	if (isOptionAvailable("--sub-text-align-x")) {
+		arg << "--sub-text-align-x=" + halign;
+		arg << "--sub-text-align-y=" + valign;
+	}
+}
