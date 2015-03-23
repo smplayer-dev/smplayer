@@ -30,9 +30,9 @@ AssStyles::AssStyles() {
 	outlinecolor = 0;
 	bold = false;
 	italic = false;
-	halignment = 2; // Centered
-	valignment = 0; // Bottom
-	borderstyle = 1; // Outline
+	halignment = HCenter;
+	valignment = Bottom;
+	borderstyle = Outline;
 	outline = 1;
 	shadow = 2;
 	marginl = 20;

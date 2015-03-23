@@ -789,7 +789,7 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	arg << "--sub-text-font=" + font.replace(" ", "");
 	arg << "--sub-text-color=#" + ColorUtils::colorToRRGGBB(styles.primarycolor);
 
-	if (styles.borderstyle == 1) { // outline
+	if (styles.borderstyle == AssStyles::Outline) {
 		arg << "--sub-text-shadow-color=#" + ColorUtils::colorToRRGGBB(styles.backcolor);
 	} else {
 		arg << "--sub-text-back-color=#" + ColorUtils::colorToRRGGBB(styles.outlinecolor);
@@ -801,14 +801,14 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 
 	QString halign = "center";
 	switch (styles.halignment) {
-		case 1: halign = "left"; break;
-		case 3: halign = "right"; break;
+		case AssStyles::Left: halign = "left"; break;
+		case AssStyles::Right: halign = "right"; break;
 	}
 
 	QString valign = "bottom";
 	switch (styles.valignment) {
-		case 1: valign = "center"; break;
-		case 2: valign = "top"; break;
+		case AssStyles::VCenter: valign = "center"; break;
+		case AssStyles::Top: valign = "top"; break;
 	}
 
 	if (isOptionAvailable("--sub-text-align-x")) {
