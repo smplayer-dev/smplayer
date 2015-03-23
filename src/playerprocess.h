@@ -23,6 +23,7 @@
 #include "mediadata.h"
 #include "playerid.h"
 #include "config.h"
+#include "assstyles.h"
 #include <QVariant>
 
 class PlayerProcess : public MyProcess
@@ -51,6 +52,7 @@ public:
 	virtual void addUserOption(const QString & option) = 0;
 	virtual void addVF(const QString & filter_name, const QVariant & value = QVariant()) = 0;
 	virtual void addAF(const QString & filter_name, const QVariant & value = QVariant()) = 0;
+	virtual void setSubStyles(const AssStyles & styles, const QString & assStylesFile) = 0;
 
 	// Slave commands
 	virtual void quit() = 0;

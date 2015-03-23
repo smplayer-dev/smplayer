@@ -44,6 +44,7 @@ public:
 	void addUserOption(const QString & option);
 	void addVF(const QString & filter_name, const QVariant & value = QVariant());
 	void addAF(const QString & filter_name, const QVariant & value = QVariant());
+	void setSubStyles(const AssStyles & styles, const QString & assStylesFile);
 
 	// Slave commands
 	void quit();
