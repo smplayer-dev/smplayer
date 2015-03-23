@@ -799,20 +799,22 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	arg << "--sub-text-border-size=" + QString::number(styles.outline * 2.5);
 	arg << "--sub-text-shadow-offset=" + QString::number(styles.shadow * 2.5);
 
-	QString halign = "center";
+	QString halign;
 	switch (styles.halignment) {
 		case AssStyles::Left: halign = "left"; break;
 		case AssStyles::Right: halign = "right"; break;
 	}
 
-	QString valign = "bottom";
+	QString valign;
 	switch (styles.valignment) {
 		case AssStyles::VCenter: valign = "center"; break;
 		case AssStyles::Top: valign = "top"; break;
 	}
 
-	if (isOptionAvailable("--sub-text-align-x")) {
-		arg << "--sub-text-align-x=" + halign;
-		arg << "--sub-text-align-y=" + valign;
+	if (!halign.isEmpty() || !valign.isEmpty()) {
+		if (isOptionAvailable("--sub-text-align-x")) {
+			if (!halign.isEmpty()) arg << "--sub-text-align-x=" + halign;
+			if (!valign.isEmpty()) arg << "--sub-text-align-y=" + valign;
+		}
 	}
 }
