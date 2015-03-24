@@ -377,6 +377,11 @@ void MplayerProcess::changeVF(const QString & filter, bool enable, const QVarian
 }
 
 void MplayerProcess::setSubStyles(const AssStyles & styles, const QString & assStylesFile) {
+	if (assStylesFile.isEmpty()) {
+		qWarning("MplayerProcess::setSubStyles: assStylesFile is invalid");
+		return;
+	}
+
 	// Load the styles.ass file
 	if (!QFile::exists(assStylesFile)) {
 		// If file doesn't exist, create it
