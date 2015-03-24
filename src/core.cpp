@@ -1816,14 +1816,25 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 
 		if (pref->enable_ass_styles) {
-			if (!pref->force_ass_styles) {
-				proc->setSubStyles(pref->ass_styles, Paths::subtitleStyleFile());
+			QString ass_force_style;
+			if (!pref->user_forced_ass_style.isEmpty()) {
+				ass_force_style = pref->user_forced_ass_style;
 			} else {
-				// Force styles for ass subtitles too
-				if (!pref->user_forced_ass_style.isEmpty()) {
-					proc->setOption("ass-force-style", pref->user_forced_ass_style);
+				ass_force_style = pref->ass_styles.toString();
+			}
+
+			if (proc->isMPV()) {
+				// MPV
+				proc->setSubStyles(pref->ass_styles);
+				if (pref->force_ass_styles) {
+					proc->setOption("ass-force-style", ass_force_style);
+				}
+			} else {
+				// MPlayer
+				if (!pref->force_ass_styles) {
+					proc->setSubStyles(pref->ass_styles, Paths::subtitleStyleFile());
 				} else {
-					proc->setOption("ass-force-style", pref->ass_styles.toString());
+					proc->setOption("ass-force-style", ass_force_style);
 				}
 			}
 		}
