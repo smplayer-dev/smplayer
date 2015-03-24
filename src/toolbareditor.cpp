@@ -96,7 +96,8 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 			else
 			if ((action->isSeparator()) && (add_separators)) {
 				QListWidgetItem * i = new QListWidgetItem;
-				i->setText(tr("(separator)"));
+				//i->setText(tr("(separator)"));
+				i->setText("---------");
 				i->setData(Qt::UserRole, "separator");
 				i->setIcon(Images::icon("empty_icon"));
 				w->addItem(i);
@@ -190,8 +191,10 @@ void ToolbarEditor::on_separator_button_clicked() {
 	qDebug("ToolbarEditor::on_separator_button_clicked");
 
 	QListWidgetItem * i = new QListWidgetItem;
-	i->setText(tr("(separator)"));
+	//i->setText(tr("(separator)"));
+	i->setText("---------");
 	i->setData(Qt::UserRole, "separator");
+	i->setIcon(Images::icon("empty_icon"));
 
 	int row = active_actions_list->currentRow();
 	if (row > -1) {
