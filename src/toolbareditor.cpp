@@ -98,6 +98,7 @@ void ToolbarEditor::populateList(QListWidget * w, QList<QAction *> actions_list,
 				QListWidgetItem * i = new QListWidgetItem;
 				i->setText(tr("(separator)"));
 				i->setData(Qt::UserRole, "separator");
+				i->setIcon(Images::icon("empty_icon"));
 				w->addItem(i);
 			}
 		}
