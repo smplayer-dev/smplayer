@@ -386,13 +386,31 @@ int ActionsEditor::findActionName(const QString & name) {
 	return -1;
 }
 
+bool ActionsEditor::containsShortcut(const QString & accel, const QString & shortcut) {
+	QStringList shortcut_list = accel.split(",");
+	QString s;
+	foreach(s, shortcut_list) {
+		s = s.trimmed();
+		//qDebug("ActionsEditor::containsShortcut: comparing '%s' with '%s'", s.toUtf8().constData(), shortcut.toUtf8().constData());
+		if (s == shortcut) return true;
+	}
+	return false;
+}
+
 int ActionsEditor::findActionAccel(const QString & accel, int ignoreRow) {
-	for (int row=0; row < actionsTable->rowCount(); row++) {
+	QStringList shortcuts = accel.split(",");
+	QString shortcut;
+
+	for (int row = 0; row < actionsTable->rowCount(); row++) {
 		QTableWidgetItem * i = actionsTable->item(row, COL_SHORTCUT);
-		if ( (i) && (i->text() == accel) ) {
-			if (ignoreRow == -1) return row;
-			else
-			if (ignoreRow != row) return row;
+		if (i && row != ignoreRow) {
+			if (!i->text().isEmpty()) {
+				foreach(shortcut, shortcuts) {
+					if (containsShortcut(i->text(), shortcut.trimmed())) {
+						return row;
+					}
+				}
+			}
 		}
 	}
 	return -1;
@@ -405,7 +423,7 @@ bool ActionsEditor::hasConflicts() {
 	QString accelText;
 	QTableWidgetItem *i;
 
-	for (int n=0; n < actionsTable->rowCount(); n++) {
+	for (int n = 0; n < actionsTable->rowCount(); n++) {
 		//actionsTable->setText( n, COL_CONFLICTS, " ");
 		i = actionsTable->item( n, COL_CONFLICTS );
 		if (i) i->setIcon( QPixmap() );
@@ -415,7 +433,7 @@ bool ActionsEditor::hasConflicts() {
 			accelText = i->text();
 			if (!accelText.isEmpty()) {
 				found = findActionAccel( accelText, n );
-				if ( (found != -1) && (found != n) ) {
+				if ( (found != -1) /*&& (found != n)*/ ) {
 					conflict = true;
 					//actionsTable->setText( n, COL_CONFLICTS, "!");
 					actionsTable->item( n, COL_CONFLICTS )->setIcon( Images::icon("conflict") );
