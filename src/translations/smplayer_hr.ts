@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -26,7 +24,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
+        <translation>Kliknite ovdje kako bi vidjeli prevoditelje s transifex timova</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -2594,11 +2592,7 @@ Npr: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2696,7 +2690,7 @@ Npr: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -8674,21 +8668,13 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8989,33 +8975,33 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Dodaj &amp;razdjelnik</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="99"/>
-        <location filename="../toolbareditor.cpp" line="192"/>
+        <location filename="../toolbareditor.cpp" line="95"/>
+        <location filename="../toolbareditor.cpp" line="188"/>
         <source>(separator)</source>
         <translation>(razdjelnik)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>Time slider</source>
         <translation>Vremenski klizač</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="249"/>
         <source>Volume slider</source>
         <translation>Klizač glasnoće zvuka</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Display time</source>
         <translation>Prikaži vrijeme</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="257"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>3 in 1 rewind</source>
         <translation>3 u 1 premotavanje unazad</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="259"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>3 in 1 forward</source>
         <translation>3 u 1 premotavanje unaprijed</translation>
     </message>
