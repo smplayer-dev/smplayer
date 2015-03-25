@@ -365,7 +365,7 @@ void ShortcutGetter::removeItemClicked() {
 QString ShortcutGetter::exec(const QString& s)
 {
 	// Added by rvm
-	QStringList shortcuts = s.split(",");
+	QStringList shortcuts = s.split(", ");
 	QString shortcut;
 	foreach(shortcut, shortcuts) {
 		list->addItem(shortcut.trimmed());
@@ -380,10 +380,11 @@ QString ShortcutGetter::exec(const QString& s)
 		for (int n = 0; n < list->count(); n++) {
 			QString shortcut = list->item(n)->text();
 			if (!shortcut.isEmpty()) {
+				//qDebug("ShortcutGetter::exec: shortcut: '%s'", shortcut.toUtf8().constData());
 				l << shortcut;
 			}
 		}
-		QString res = l.join(",");
+		QString res = l.join(", ");
 		if (res.isNull()) res = "";
 		return res;
 	}

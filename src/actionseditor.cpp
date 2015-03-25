@@ -102,13 +102,15 @@ QString ActionsEditor::shortcutsToString(QList <QKeySequence> shortcuts_list) {
 		if (n < (shortcuts_list.count()-1)) accelText += ", ";
 	}
 
+	//qDebug("ActionsEditor::shortcutsToString: accelText: '%s'", accelText.toUtf8().constData());
+
 	return accelText;
 }
 
 QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
 	QList <QKeySequence> shortcuts_list;
 
-	QStringList l = shortcuts.split(',');
+	QStringList l = shortcuts.split(", ");
 
 	for (int n=0; n < l.count(); n++) {
 		//qDebug("%s", l[n].toUtf8().data());
@@ -120,7 +122,7 @@ QList <QKeySequence> ActionsEditor::stringToShortcuts(QString shortcuts) {
 #else
 		QString s = QKeySequence( l[n].simplified() );
 #endif
-		
+
 		//Work-around for Simplified-Chinese
 		s.replace( QString::fromUtf8("左"), "Left");
 		s.replace( QString::fromUtf8("下"), "Down");
@@ -371,7 +373,8 @@ void ActionsEditor::editShortcut() {
 		QString result = d.exec( i->text() );
 
 		if (!result.isNull()) {
-		    QString accelText = QKeySequence(result).toString(QKeySequence::PortableText);
+			//qDebug("ActionsEditor::editShortcut: result: '%s'", result.toUtf8().constData());
+			QString accelText = QKeySequence(result).toString(QKeySequence::PortableText);
 			i->setText(accelText);
 			if (hasConflicts()) qApp->beep();
 		}
@@ -387,7 +390,7 @@ int ActionsEditor::findActionName(const QString & name) {
 }
 
 bool ActionsEditor::containsShortcut(const QString & accel, const QString & shortcut) {
-	QStringList shortcut_list = accel.split(",");
+	QStringList shortcut_list = accel.split(", ");
 	QString s;
 	foreach(s, shortcut_list) {
 		s = s.trimmed();
@@ -398,7 +401,7 @@ bool ActionsEditor::containsShortcut(const QString & accel, const QString & shor
 }
 
 int ActionsEditor::findActionAccel(const QString & accel, int ignoreRow) {
-	QStringList shortcuts = accel.split(",");
+	QStringList shortcuts = accel.split(", ");
 	QString shortcut;
 
 	for (int row = 0; row < actionsTable->rowCount(); row++) {
