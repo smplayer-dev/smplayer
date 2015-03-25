@@ -14,21 +14,22 @@
     You should have received a copy of the GNU General Public License
     along with this program; if not, write to the Free Software
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-*/
 
-/* 
     Note: The ShortcutGetter class is taken from the source code of Edyuk
-    (http://www.edyuk.org)
+    (http://www.edyuk.org/), from file 3rdparty/qcumber/qshortcutdialog.cpp
 
     Copyright (C) 2006 FullMetalCoder
     License: GPL
+
+    I modified it to support multiple shortcuts and some other few changes.
 */
 
 
-#ifndef _SHORTCUTGETTER_H_
-#define _SHORTCUTGETTER_H_
+#ifndef SHORTCUTGETTER_H
+#define SHORTCUTGETTER_H
 
 #include <QDialog>
+#include <QListWidget>
 
 class QLineEdit;
 
@@ -43,6 +44,11 @@ public:
 
 protected slots:
 	void setCaptureKeyboard(bool b);
+	void rowChanged(int row);
+	void textChanged(const QString & text);
+
+	void addItemClicked();
+	void removeItemClicked();
 
 protected:
 	bool captureKeyboard() { return capture; };
@@ -56,6 +62,10 @@ private:
 	QLineEdit *leKey;
 	QStringList lKeys;
 	bool capture;
+
+	QListWidget * list;
+	QPushButton * addItem;
+	QPushButton * removeItem;
 };
 
 #endif
