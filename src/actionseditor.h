@@ -77,6 +77,7 @@ protected:
 	int findActionName(const QString & name);
 	int findActionAccel(const QString & accel, int ignoreRow = -1);
 	bool hasConflicts();
+	static bool containsShortcut(const QString & accel, const QString & shortcut);
 
 protected slots:
 #if !USE_SHORTCUTGETTER
