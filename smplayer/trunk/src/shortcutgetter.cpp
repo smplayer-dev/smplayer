@@ -46,6 +46,7 @@
 
 
 #include "shortcutgetter.h"
+#include "images.h"
 
 #include <QLayout>
 #include <QHash>
@@ -275,12 +276,15 @@ ShortcutGetter::ShortcutGetter(QWidget *parent) : QDialog(parent)
 	vbox->addWidget(list);
 
 	QHBoxLayout *hbox = new QHBoxLayout;
-	addItem = new QPushButton(tr("Add shortcut"), this);
+	addItem = new QPushButton(Images::icon("plus"), "", this);
+	addItem->setToolTip(tr("Add shortcut"));
 	connect(addItem, SIGNAL(clicked()), this, SLOT(addItemClicked()));
 
-	removeItem = new QPushButton(tr("Remove shortcut"), this);
+	removeItem = new QPushButton(Images::icon("minus"), "", this);
+	removeItem->setToolTip(tr("Remove shortcut"));
 	connect(removeItem, SIGNAL(clicked()), this, SLOT(removeItemClicked()));
 
+	hbox->addSpacerItem(new QSpacerItem(20, 20, QSizePolicy::Expanding));
 	hbox->addWidget(addItem);
 	hbox->addWidget(removeItem);
 
