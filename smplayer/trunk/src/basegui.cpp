@@ -482,7 +482,7 @@ void BaseGui::createActions() {
 	connect( frameStepAct, SIGNAL(triggered()),
              core, SLOT(frameStep()) );
 
-	frameBackStepAct = new MyAction( Qt::Key_Colon, this, "frame_back_step" );
+	frameBackStepAct = new MyAction( Qt::Key_Comma, this, "frame_back_step" );
 	connect( frameBackStepAct, SIGNAL(triggered()),
              core, SLOT(frameBackStep()) );
 
