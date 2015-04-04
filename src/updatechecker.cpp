@@ -26,6 +26,8 @@
 #include <QRegExp>
 #include <QDate>
 #include <QDateTime>
+#include <QStringList>
+#include <QDebug>
 
 void UpdateCheckerData::save(QSettings * set) {
 	set->beginGroup("update_checker");
@@ -94,7 +96,7 @@ void UpdateChecker::gotReply() {
 				d->last_checked = QDate::currentDate();
 				//qDebug("last known: %s version: %s", d->last_known_version.toUtf8().constData(), version.toUtf8().constData());
 				//qDebug("version_with_revision: %s", Version::with_revision().toUtf8().constData());
-				if ((d->last_known_version != version) && (version > Version::with_revision())) {
+				if ((d->last_known_version != version) && (formattedVersion(version) > formattedVersion(Version::with_revision()))) {
 					qDebug("UpdateChecker::gotReply: new version found: %s", version.toUtf8().constData());
 					emit newVersionFound(version);
 				}
@@ -110,6 +112,23 @@ void UpdateChecker::gotReply() {
 
 void UpdateChecker::saveVersion(QString v) {
 	d->last_known_version = v;
+}
+
+QString UpdateChecker::formattedVersion(const QString & version) {
+	int n1 = 0, n2 = 0, n3 = 0, n4 = 0;
+	QStringList l = version.split(".");
+	int c = l.count();
+	if (c >= 1) n1 = l[0].toInt();
+	if (c >= 2) n2 = l[1].toInt();
+	if (c >= 3) n3 = l[2].toInt();
+	if (c >= 4) n4 = l[3].toInt();
+
+	QString res = QString("%1.%2.%3.%4").arg(n1, 2, 10, QChar('0'))
+										.arg(n2, 2, 10, QChar('0'))
+										.arg(n3, 2, 10, QChar('0'))
+										.arg(n4, 4, 10, QChar('0'));
+	//qDebug() << "UpdateChecker::formattedVersion:" << res;
+	return res;
 }
 
 #include "moc_updatechecker.cpp"

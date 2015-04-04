@@ -54,6 +54,8 @@ signals:
 	void newVersionFound(QString);
 
 protected:
+	static QString formattedVersion(const QString & version);
+
 	QNetworkAccessManager * net_manager;
 	UpdateCheckerData * d;
 };
