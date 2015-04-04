@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2044,7 +2042,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../core.cpp" line="546"/>
         <source>Connecting to %1</source>
-        <translation>Estabelecer ligação a %1</translation>
+        <translation>Estabelecendo ligação a %1</translation>
     </message>
 </context>
 <context>
@@ -2594,10 +2592,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2695,7 +2690,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro transferido
@@ -3011,7 +3006,7 @@ Verifique as permissões da pasta.</translation>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - Introduza URL</translation>
+        <translation>SMPlayer - Introduza o URL</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
@@ -4237,12 +4232,12 @@ Substituir?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation>Introduza o(s) URL(s)</translation>
+        <translation>Introduza o(s) URL</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation>Introduza o(s) URL(s) a adicionar à lista de reprodução. Introduza um por linha.</translation>
+        <translation>Introduza o(s) URL a adicionar à lista de reprodução. Introduza um por linha.</translation>
     </message>
 </context>
 <context>
@@ -4416,7 +4411,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="326"/>
         <source>Add &amp;URL(s)</source>
-        <translation>Adicionar &amp;URL(s)</translation>
+        <translation>Adicionar &amp;URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="329"/>
@@ -6675,7 +6670,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="856"/>
         <source>URLs</source>
-        <translation>URLs</translation>
+        <translation>URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="868"/>
@@ -6938,7 +6933,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="777"/>
         <source>Max. URLs</source>
-        <translation>URLs máximos</translation>
+        <translation>URL máximos</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
@@ -8672,19 +8667,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8985,33 +8974,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Adicionar &amp;separador</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="99"/>
-        <location filename="../toolbareditor.cpp" line="192"/>
+        <location filename="../toolbareditor.cpp" line="95"/>
+        <location filename="../toolbareditor.cpp" line="188"/>
         <source>(separator)</source>
         <translation>(separador)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>Time slider</source>
         <translation>Cursor de tempo</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="249"/>
         <source>Volume slider</source>
         <translation>Cursor de volume</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Display time</source>
         <translation>Mostrar tempo</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="257"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>3 in 1 rewind</source>
         <translation>Recuar 3 em 1</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="259"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>3 in 1 forward</source>
         <translation>Avançar 3 em 1</translation>
     </message>

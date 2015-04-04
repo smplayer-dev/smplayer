@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ru">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -598,7 +596,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
         <source>S&amp;tay on top</source>
-        <translation>Повер&amp;х других окон</translation>
+        <translation>Повер&amp;х всех окон</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -1603,7 +1601,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1916"/>
         <source>&amp;Never</source>
-        <translation>&amp;Отключено</translation>
+        <translation>&amp;Никогда</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1917"/>
@@ -1697,7 +1695,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1918"/>
         <source>Toggle stay on top</source>
-        <translation>Сменить режим &quot;Всегда наверху&quot;</translation>
+        <translation>Сменить режим &quot;Поверх всех окон&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5008"/>
@@ -2594,11 +2592,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр извлечён</numerusform>
-            <numerusform>%n субтитра извлечёны</numerusform>
-            <numerusform>%n субтитров извлечено</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр извлечён</numerusform><numerusform>%n субтитра извлечёны</numerusform><numerusform>%n субтитров извлечено</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2696,7 +2690,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Не удалось сохранить загруженный
@@ -6342,12 +6336,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="70"/>
         <source>Always on top</source>
-        <translation>Всегда наверху</translation>
+        <translation>Всегда</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="71"/>
         <source>Never on top</source>
-        <translation>Никогда наверху</translation>
+        <translation>Никогда</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="72"/>
@@ -8674,21 +8668,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунды</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунды</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минуты</numerusform>
-            <numerusform>%n минут</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минуты</numerusform><numerusform>%n минут</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8741,12 +8727,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation>устанавливает опцию всегда поверх других окон</translation>
+        <translation>устанавливает опцию всегда поверх всех окон.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation>выключает опцию всегда поверх других окон</translation>
+        <translation>выключает опцию поверх всех окон.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
@@ -8989,33 +8975,33 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Добавить &amp;разделитель</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="99"/>
-        <location filename="../toolbareditor.cpp" line="192"/>
+        <location filename="../toolbareditor.cpp" line="95"/>
+        <location filename="../toolbareditor.cpp" line="188"/>
         <source>(separator)</source>
         <translation>(разделитель)</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="251"/>
+        <location filename="../toolbareditor.cpp" line="247"/>
         <source>Time slider</source>
         <translation>Ползунок времени</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="253"/>
+        <location filename="../toolbareditor.cpp" line="249"/>
         <source>Volume slider</source>
         <translation>Ползунок громкости</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="255"/>
+        <location filename="../toolbareditor.cpp" line="251"/>
         <source>Display time</source>
         <translation>Отображение времени</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="257"/>
+        <location filename="../toolbareditor.cpp" line="253"/>
         <source>3 in 1 rewind</source>
         <translation>3 в 1 перемотка назад</translation>
     </message>
     <message>
-        <location filename="../toolbareditor.cpp" line="259"/>
+        <location filename="../toolbareditor.cpp" line="255"/>
         <source>3 in 1 forward</source>
         <translation>3 в 1 перемотка вперёд</translation>
     </message>
