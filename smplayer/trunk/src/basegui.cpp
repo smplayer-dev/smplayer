@@ -4135,8 +4135,7 @@ void BaseGui::helpCLOptions() {
 }
 
 void BaseGui::helpCheckUpdates() {
-	QString url = "http://smplayer.sourceforge.net/changes.php";
-	/* if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language); */
+	QString url = QString("http://smplayer.sourceforge.net/changes.php?version=%1").arg(Version::with_revision());
 	QDesktopServices::openUrl( QUrl(url) );
 }
 
