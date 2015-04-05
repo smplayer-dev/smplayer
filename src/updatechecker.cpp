@@ -33,11 +33,21 @@
 
 
 UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObject(parent)
+	, net_manager(0)
+	, d(0)
 {
 	d = data;
 
+	check_url = "http://updates.smplayer.info/current_version";
+	user_agent = "SMPlayer";
+
 	connect(this, SIGNAL(newVersionFound(const QString &)),
             this, SLOT(reportNewVersionAvailable(const QString &)));
+
+	connect(this, SIGNAL(noNewVersionFound(const QString &)),
+            this, SLOT(reportNoNewVersionFound(const QString &)));
+
+	net_manager = new QNetworkAccessManager(this);
 
 	QDate now = QDate::currentDate();
 	//now = now.addDays(27);
@@ -49,16 +59,23 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 
 	if ((!d->enabled) || (days < d->days_to_check)) return;
 
-	net_manager = new QNetworkAccessManager();
-	QUrl url("http://updates.smplayer.info/current_version");
-
-	QNetworkRequest req(url);
-	req.setRawHeader("User-Agent", "SMPlayer");
+	QNetworkRequest req(check_url);
+	req.setRawHeader("User-Agent", user_agent);
 	QNetworkReply *reply = net_manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReply()));
 }
 
 UpdateChecker::~UpdateChecker() {
+}
+
+// Force a check, requested by the user
+void UpdateChecker::check() {
+	qDebug("UpdateChecker::check");
+
+	QNetworkRequest req(check_url);
+	req.setRawHeader("User-Agent", user_agent);
+	QNetworkReply *reply = net_manager->get(req);
+	connect(reply, SIGNAL(finished()), this, SLOT(gotReplyFromUserRequest()));
 }
 
 void UpdateChecker::gotReply() {
@@ -93,6 +110,38 @@ void UpdateChecker::gotReply() {
 			//get http status code
 			int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
 			qDebug("UpdateChecker::gotReply: status: %d", status);
+		}
+		reply->deleteLater();
+	}
+}
+
+void UpdateChecker::gotReplyFromUserRequest() {
+	qDebug("UpdateChecker::gotReplyFromUserRequest");
+
+	QNetworkReply *reply = qobject_cast<QNetworkReply*>(sender());
+
+	if (reply) {
+		if (reply->error() == QNetworkReply::NoError) {
+			QRegExp rx_version("^version=(.*)");
+			QString version;
+			while (reply->canReadLine()) {
+				QByteArray line = reply->readLine().trimmed();
+				if (rx_version.indexIn(line) != -1) {
+					version = rx_version.cap(1);
+					break;
+				}
+			}
+			if (!version.isEmpty()) {
+				if ((formattedVersion(version) > formattedVersion(Version::with_revision()))) {
+					qDebug("UpdateChecker::gotReplyFromUserRequest: new version found: %s", version.toUtf8().constData());
+					emit newVersionFound(version);
+				} else {
+					emit noNewVersionFound(version);
+				}
+			}
+		} else {
+			int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
+			qDebug("UpdateChecker::gotReplyFromUserRequest: status: %d", status);
 		}
 		reply->deleteLater();
 	}
@@ -134,6 +183,15 @@ void UpdateChecker::reportNewVersionAvailable(const QString & new_version) {
 	}
 
 	saveVersion(new_version);
+}
+
+void UpdateChecker::reportNoNewVersionFound(const QString & version) {
+	QWidget * p = qobject_cast<QWidget*>(parent());
+
+	QMessageBox::information(p, tr("Checking for updates"),
+		tr("Congratulations, SMPlayer is up to date.") + "<br><br>" +
+		tr("Installed version: %1").arg(Version::with_revision()) + "<br>" +
+		tr("Available version: %1").arg(version));
 }
 
 #include "moc_updatechecker.cpp"

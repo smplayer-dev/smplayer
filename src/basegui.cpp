@@ -130,6 +130,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #if QT_VERSION >= 0x050000
 	, was_minimized(false)
 #endif
+#ifdef UPDATE_CHECKER
+	, update_checker(0)
+#endif
 {
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef AVOID_SCREENSAVER
@@ -4133,8 +4136,12 @@ void BaseGui::helpCLOptions() {
 }
 
 void BaseGui::helpCheckUpdates() {
+#ifdef UPDATE_CHECKER
+	update_checker->check();
+#else
 	QString url = QString("http://smplayer.sourceforge.net/changes.php?version=%1").arg(Version::with_revision());
 	QDesktopServices::openUrl( QUrl(url) );
+#endif
 }
 
 void BaseGui::helpShowConfig() {
