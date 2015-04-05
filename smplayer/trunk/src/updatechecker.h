@@ -21,6 +21,7 @@
 #define UPDATE_CHECKER_H
 
 #include <QWidget>
+#include <QUrl>
 
 class QNetworkAccessManager;
 class UpdateCheckerData;
@@ -32,20 +33,27 @@ public:
 	UpdateChecker(QWidget * parent, UpdateCheckerData * data);
 	~UpdateChecker();
 
-	void saveVersion(QString v);
+	void check();
 
 protected slots:
 	void gotReply();
+	void gotReplyFromUserRequest();
 	void reportNewVersionAvailable(const QString &);
+	void reportNoNewVersionFound(const QString &);
 
 signals:
-	void newVersionFound(const QString &);
+	void newVersionFound(const QString & new_version);
+	void noNewVersionFound(const QString & version);
 
 protected:
+	void saveVersion(QString v);
 	static QString formattedVersion(const QString & version);
 
 	QNetworkAccessManager * net_manager;
 	UpdateCheckerData * d;
+
+	QUrl check_url;
+	QByteArray user_agent;
 };
 
 #endif
