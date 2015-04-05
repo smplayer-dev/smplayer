@@ -16,36 +16,25 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
+#include "updatecheckerdata.h"
+#include "version.h"
+#include <QSettings>
 
-#ifndef UPDATE_CHECKER_H
-#define UPDATE_CHECKER_H
+void UpdateCheckerData::save(QSettings * set) {
+	set->beginGroup("update_checker");
+	set->setValue("checked_date", last_checked);
+	set->setValue("enabled", enabled);
+	set->setValue("days_to_check", days_to_check);
+	set->setValue("last_known_version", last_known_version);
+	set->endGroup();
+}
 
-#include <QObject>
-
-class QNetworkAccessManager;
-class UpdateCheckerData;
-
-class UpdateChecker : public QObject {
-	Q_OBJECT
-
-public:
-	UpdateChecker(QObject * parent, UpdateCheckerData * data);
-	~UpdateChecker();
-
-	void saveVersion(QString v);
-
-protected slots:
-	void gotReply();
-
-signals:
-	void newVersionFound(QString);
-
-protected:
-	static QString formattedVersion(const QString & version);
-
-	QNetworkAccessManager * net_manager;
-	UpdateCheckerData * d;
-};
-
-#endif
+void UpdateCheckerData::load(QSettings * set) {
+	set->beginGroup("update_checker");
+	last_checked = set->value("checked_date", 0).toDate();
+	enabled = set->value("enabled", true).toBool();
+	days_to_check = set->value("days_to_check", 7).toInt();
+	last_known_version = set->value("last_known_version", Version::with_revision()).toString();
+	set->endGroup();
+}
 
