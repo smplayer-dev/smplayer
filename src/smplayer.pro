@@ -390,8 +390,8 @@ contains( DEFINES, SKINS ) {
 
 # Update checker
 contains( DEFINES, UPDATE_CHECKER ) {
-	HEADERS += updatechecker.h
-	SOURCES += updatechecker.CPP
+	HEADERS += updatechecker.h updatecheckerdata.h
+	SOURCES += updatechecker.cpp updatecheckerdata.cpp
 }
 
 # Videopreview

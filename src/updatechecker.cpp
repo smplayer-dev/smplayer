@@ -17,8 +17,8 @@
 */
 
 #include "updatechecker.h"
+#include "updatecheckerdata.h"
 #include "version.h"
-#include <QSettings>
 #include <QUrl>
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
@@ -29,23 +29,6 @@
 #include <QStringList>
 #include <QDebug>
 
-void UpdateCheckerData::save(QSettings * set) {
-	set->beginGroup("update_checker");
-	set->setValue("checked_date", last_checked);
-	set->setValue("enabled", enabled);
-	set->setValue("days_to_check", days_to_check);
-	set->setValue("last_known_version", last_known_version);
-	set->endGroup();
-}
-
-void UpdateCheckerData::load(QSettings * set) {
-	set->beginGroup("update_checker");
-	last_checked = set->value("checked_date", 0).toDate();
-	enabled = set->value("enabled", true).toBool();
-	days_to_check = set->value("days_to_check", 7).toInt();
-	last_known_version = set->value("last_known_version", Version::with_revision()).toString();
-	set->endGroup();
-}
 
 UpdateChecker::UpdateChecker(QObject * parent, UpdateCheckerData * data) : QObject(parent)
 {

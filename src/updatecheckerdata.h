@@ -17,35 +17,24 @@
 */
 
 
-#ifndef UPDATE_CHECKER_H
-#define UPDATE_CHECKER_H
+#ifndef UPDATE_CHECKER_DATA_H
+#define UPDATE_CHECKER_DATA_H
 
-#include <QObject>
+#include <QString>
+#include <QDate>
 
-class QNetworkAccessManager;
-class UpdateCheckerData;
+class QSettings;
 
-class UpdateChecker : public QObject {
-	Q_OBJECT
-
+class UpdateCheckerData {
 public:
-	UpdateChecker(QObject * parent, UpdateCheckerData * data);
-	~UpdateChecker();
+	UpdateCheckerData() { enabled = true; days_to_check = 7; };
+	void save(QSettings * set);
+	void load(QSettings * set);
 
-	void saveVersion(QString v);
-
-protected slots:
-	void gotReply();
-
-signals:
-	void newVersionFound(QString);
-
-protected:
-	static QString formattedVersion(const QString & version);
-
-	QNetworkAccessManager * net_manager;
-	UpdateCheckerData * d;
+	QDate last_checked;
+	bool enabled;
+	int days_to_check;
+	QString last_known_version;
 };
 
 #endif
-

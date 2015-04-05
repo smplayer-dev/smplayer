@@ -30,7 +30,7 @@
 #include "assstyles.h"
 
 #ifdef UPDATE_CHECKER
-#include "updatechecker.h"
+#include "updatecheckerdata.h"
 #endif
 
 class Recents;
