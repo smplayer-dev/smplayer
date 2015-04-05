@@ -40,10 +40,12 @@ protected slots:
 	void gotReplyFromUserRequest();
 	void reportNewVersionAvailable(const QString &);
 	void reportNoNewVersionFound(const QString &);
+	void reportError(int, QString);
 
 signals:
 	void newVersionFound(const QString & new_version);
 	void noNewVersionFound(const QString & version);
+	void errorOcurred(int error_number, QString error_str);
 
 protected:
 	void saveVersion(QString v);
@@ -52,7 +54,6 @@ protected:
 	QNetworkAccessManager * net_manager;
 	UpdateCheckerData * d;
 
-	QUrl check_url;
 	QByteArray user_agent;
 };
 

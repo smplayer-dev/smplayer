@@ -38,7 +38,6 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 {
 	d = data;
 
-	check_url = "http://updates.smplayer.info/current_version";
 	user_agent = "SMPlayer";
 
 	connect(this, SIGNAL(newVersionFound(const QString &)),
@@ -46,6 +45,8 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 
 	connect(this, SIGNAL(noNewVersionFound(const QString &)),
             this, SLOT(reportNoNewVersionFound(const QString &)));
+
+	connect(this, SIGNAL(errorOcurred(int, QString)), this, SLOT(reportError(int, QString)));
 
 	net_manager = new QNetworkAccessManager(this);
 
@@ -59,7 +60,7 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 
 	if ((!d->enabled) || (days < d->days_to_check)) return;
 
-	QNetworkRequest req(check_url);
+	QNetworkRequest req(QUrl("http://updates.smplayer.info/current_version"));
 	req.setRawHeader("User-Agent", user_agent);
 	QNetworkReply *reply = net_manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReply()));
@@ -72,7 +73,8 @@ UpdateChecker::~UpdateChecker() {
 void UpdateChecker::check() {
 	qDebug("UpdateChecker::check");
 
-	QNetworkRequest req(check_url);
+	// Check for the latest version available for download in the web, not the "stable" version
+	QNetworkRequest req(QUrl("http://updates.smplayer.info/latest_version"));
 	req.setRawHeader("User-Agent", user_agent);
 	QNetworkReply *reply = net_manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReplyFromUserRequest()));
@@ -142,6 +144,7 @@ void UpdateChecker::gotReplyFromUserRequest() {
 		} else {
 			int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
 			qDebug("UpdateChecker::gotReplyFromUserRequest: status: %d", status);
+			emit errorOcurred((int)reply->error(), reply->errorString());
 		}
 		reply->deleteLater();
 	}
@@ -192,6 +195,13 @@ void UpdateChecker::reportNoNewVersionFound(const QString & version) {
 		tr("Congratulations, SMPlayer is up to date.") + "<br><br>" +
 		tr("Installed version: %1").arg(Version::with_revision()) + "<br>" +
 		tr("Available version: %1").arg(version));
+}
+
+void UpdateChecker::reportError(int error_number, QString error_str) {
+	QWidget * p = qobject_cast<QWidget*>(parent());
+	QMessageBox::warning(p, tr("Error"), 
+		tr("An error happened while trying to retrieve information about the latest version available.") +
+		"<br>" + tr("Error code: %1").arg(error_number) + "<br>" + error_str);
 }
 
 #include "moc_updatechecker.cpp"
