@@ -27,12 +27,17 @@
 #include <QDate>
 #include <QDateTime>
 #include <QStringList>
+#include <QMessageBox>
+#include <QDesktopServices>
 #include <QDebug>
 
 
-UpdateChecker::UpdateChecker(QObject * parent, UpdateCheckerData * data) : QObject(parent)
+UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObject(parent)
 {
 	d = data;
+
+	connect(this, SIGNAL(newVersionFound(const QString &)),
+            this, SLOT(reportNewVersionAvailable(const QString &)));
 
 	QDate now = QDate::currentDate();
 	//now = now.addDays(27);
@@ -112,6 +117,23 @@ QString UpdateChecker::formattedVersion(const QString & version) {
 										.arg(n4, 4, 10, QChar('0'));
 	//qDebug() << "UpdateChecker::formattedVersion:" << res;
 	return res;
+}
+
+void UpdateChecker::reportNewVersionAvailable(const QString & new_version) {
+	QWidget * p = qobject_cast<QWidget*>(parent());
+
+	QMessageBox::StandardButton button = QMessageBox::information(p, tr("New version available"),
+		tr("A new version of SMPlayer is available.") + "<br><br>" +
+		tr("Installed version: %1").arg(Version::with_revision()) + "<br>" +
+		tr("Available version: %1").arg(new_version) + "<br><br>" +
+		tr("Would you like to know more about this new version?"),
+		QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
+
+	if (button == QMessageBox::Yes) {
+		QDesktopServices::openUrl(QUrl("http://smplayer.sourceforge.net/changes.php"));
+	}
+
+	saveVersion(new_version);
 }
 
 #include "moc_updatechecker.cpp"

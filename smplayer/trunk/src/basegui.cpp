@@ -225,8 +225,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 #ifdef UPDATE_CHECKER
 	update_checker = new UpdateChecker(this, &pref->update_checker_data);
-	connect(update_checker, SIGNAL(newVersionFound(QString)), 
-            this, SLOT(reportNewVersionAvailable(QString)));
 #endif
 
 #ifdef CHECK_UPGRADED
@@ -4517,23 +4515,6 @@ void BaseGui::displayWarningAboutOldMplayer() {
 	}
 	//else
 	//statusBar()->showMessage( tr("Using an old MPlayer, please update it"), 10000 );
-}
-#endif
-
-#ifdef UPDATE_CHECKER
-void BaseGui::reportNewVersionAvailable(QString new_version) {
-	QMessageBox::StandardButton button = QMessageBox::information(this, tr("New version available"),
-		tr("A new version of SMPlayer is available.") + "<br><br>" +
-		tr("Installed version: %1").arg(Version::with_revision()) + "<br>" +
-		tr("Available version: %1").arg(new_version) + "<br><br>" +
-		tr("Would you like to know more about this new version?"),
-		QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
-
-	if (button == QMessageBox::Yes) {
-		QDesktopServices::openUrl(QUrl("http://smplayer.sourceforge.net/changes.php"));
-	}
-
-	update_checker->saveVersion(new_version);
 }
 #endif
 

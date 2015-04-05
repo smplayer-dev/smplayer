@@ -19,7 +19,7 @@
 #include "prefupdates.h"
 #include "preferences.h"
 #include "images.h"
-#include "updatechecker.h"
+#include "updatecheckerdata.h"
 
 PrefUpdates::PrefUpdates(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )

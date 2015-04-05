@@ -217,10 +217,6 @@ protected slots:
 	void displayWarningAboutOldMplayer();
 #endif
 
-#ifdef UPDATE_CHECKER
-	void reportNewVersionAvailable(QString);
-#endif
-
 #ifdef CHECK_UPGRADED
 	void checkIfUpgraded();
 #endif

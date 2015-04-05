@@ -20,7 +20,7 @@
 #ifndef UPDATE_CHECKER_H
 #define UPDATE_CHECKER_H
 
-#include <QObject>
+#include <QWidget>
 
 class QNetworkAccessManager;
 class UpdateCheckerData;
@@ -29,16 +29,17 @@ class UpdateChecker : public QObject {
 	Q_OBJECT
 
 public:
-	UpdateChecker(QObject * parent, UpdateCheckerData * data);
+	UpdateChecker(QWidget * parent, UpdateCheckerData * data);
 	~UpdateChecker();
 
 	void saveVersion(QString v);
 
 protected slots:
 	void gotReply();
+	void reportNewVersionAvailable(const QString &);
 
 signals:
-	void newVersionFound(QString);
+	void newVersionFound(const QString &);
 
 protected:
 	static QString formattedVersion(const QString & version);
