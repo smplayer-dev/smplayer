@@ -54,6 +54,7 @@ protected:
 	QNetworkAccessManager * net_manager;
 	UpdateCheckerData * d;
 
+	QUrl check_url;
 	QByteArray user_agent;
 };
 
