@@ -38,6 +38,7 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 {
 	d = data;
 
+	check_url = "http://updates.smplayer.info/version_info";
 	user_agent = "SMPlayer";
 
 	connect(this, SIGNAL(newVersionFound(const QString &)),
@@ -60,7 +61,7 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 
 	if ((!d->enabled) || (days < d->days_to_check)) return;
 
-	QNetworkRequest req(QUrl("http://updates.smplayer.info/current_version"));
+	QNetworkRequest req(check_url);
 	req.setRawHeader("User-Agent", user_agent);
 	QNetworkReply *reply = net_manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReply()));
@@ -73,8 +74,7 @@ UpdateChecker::~UpdateChecker() {
 void UpdateChecker::check() {
 	qDebug("UpdateChecker::check");
 
-	// Check for the latest version available for download in the web, not the "stable" version
-	QNetworkRequest req(QUrl("http://updates.smplayer.info/latest_version"));
+	QNetworkRequest req(check_url);
 	req.setRawHeader("User-Agent", user_agent);
 	QNetworkReply *reply = net_manager->get(req);
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReplyFromUserRequest()));
@@ -124,7 +124,7 @@ void UpdateChecker::gotReplyFromUserRequest() {
 
 	if (reply) {
 		if (reply->error() == QNetworkReply::NoError) {
-			QRegExp rx_version("^version=(.*)");
+			QRegExp rx_version("^latest_version=(.*)");
 			QString version;
 			while (reply->canReadLine()) {
 				QByteArray line = reply->readLine().trimmed();
@@ -140,6 +140,8 @@ void UpdateChecker::gotReplyFromUserRequest() {
 				} else {
 					emit noNewVersionFound(version);
 				}
+			} else {
+				emit errorOcurred(1, tr("Failed to get the latest version number") );
 			}
 		} else {
 			int status = reply->attribute(QNetworkRequest::HttpStatusCodeAttribute).toInt();
