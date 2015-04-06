@@ -106,7 +106,9 @@
 #include <QSysInfo>
 #endif
 
+#ifdef UPDATE_CHECKER
 #include "updatechecker.h"
+#endif
 
 #ifdef YOUTUBE_SUPPORT
   #ifdef YT_USE_SCRIPT
