@@ -830,26 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>כתוביות</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">גרסא חדשה זמינה</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">גרסא חדשה של SMPlayer זמינה.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">גרסא מותקנת: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">גרסא זמינה: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">האם ברצונך לדעת עוד אודות גרסא זו?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
@@ -8987,10 +8967,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>הוסף &amp;חוצץ</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(חוצץ)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>מחוון זמן</translation>
@@ -9044,12 +9020,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">גרסא חדשה זמינה</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">גרסא חדשה של SMPlayer זמינה.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9061,12 +9037,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">גרסא זמינה: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">האם ברצונך לדעת עוד אודות גרסא זו?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
