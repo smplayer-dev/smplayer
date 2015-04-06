@@ -830,26 +830,6 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Undertekstar</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Ny versjon tilgjengeleg</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Ein ny versjon av SMPlayer er tilgjengeleg.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Installert versjon: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">Tilgjengeleg versjon: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">Vil du vita meir om denne nye versjonen?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation>Den påkravde openssl-komponenten er diverre ikkje tilgjengeleg for systemet ditt.</translation>
@@ -8990,10 +8970,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation>Legg til &amp;skilje</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(skilje)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>Tidsglidebrytar</translation>
@@ -9047,12 +9023,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">Ny versjon tilgjengeleg</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">Ein ny versjon av SMPlayer er tilgjengeleg.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9064,12 +9040,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">Tilgjengeleg versjon: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">Vil du vita meir om denne nye versjonen?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>

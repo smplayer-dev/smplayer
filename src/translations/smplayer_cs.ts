@@ -830,26 +830,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Titulky</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Je k dispozici nová verze</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Je k dispozici nová verze SMPlayeru.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Nainstalovaná verze: 1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">K dispozici verze: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">Chcete vědět víc o této nové verzi?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation>Bohužel nutná součást openssl není ve vašem systému k dispozici.</translation>
@@ -8996,10 +8976,6 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <translation>Přidat &amp;oddělovač</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(oddělovač)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>Posuvník času</translation>
@@ -9053,12 +9029,12 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">Je k dispozici nová verze</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">Je k dispozici nová verze SMPlayeru.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9070,12 +9046,12 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">K dispozici verze: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">Chcete vědět víc o této nové verzi?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>

@@ -830,26 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">有新版本可用</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">有一個新的 SMPlayer 版本可用。</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">已安裝的版本：%1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">可用的版本：%1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">您想知道更多關於這個新版本嗎？</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
@@ -8986,10 +8966,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>加入分隔符號(&amp;S)</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(分隔符號)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>時間滑桿</translation>
@@ -9043,12 +9019,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">有新版本可用</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">有一個新的 SMPlayer 版本可用。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9060,12 +9036,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">可用的版本：%1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">您想知道更多關於這個新版本嗎？</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>

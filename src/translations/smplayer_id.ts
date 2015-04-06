@@ -830,26 +830,6 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Subtitle</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Versi baru telah tersedia</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Sebuah versi baru dari SMPlayer tersedia.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Versi terpasang: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">Versi yang tersedia: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">Apakah anda ingin mengetahui lebih lanjut tentang versi baru ini?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation>Sayangnya komponen opensll, membutuhkannya tapi tidak tersedia disistem anda.</translation>
@@ -8989,10 +8969,6 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <translation>Tamba&amp;hkan pembatas</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(pembatas)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>Slider waktu</translation>
@@ -9046,12 +9022,12 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">Versi baru telah tersedia</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">Sebuah versi baru dari SMPlayer tersedia.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9063,12 +9039,12 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">Versi yang tersedia: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">Apakah anda ingin mengetahui lebih lanjut tentang versi baru ini?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>

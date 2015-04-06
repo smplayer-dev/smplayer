@@ -830,26 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитры</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Доступна новая версия</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Доступна новая версия SMPlayer.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Установленная версия: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">Доступная версия: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">Хотите узнать больше об этой новой версии?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation>К сожалению, необходимый для этого компонент OpenSSL не доступен на вашей системе.</translation>
@@ -8808,12 +8788,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Добавить сочетание</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Удалить сочетание</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -8994,10 +8974,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Добавить &amp;разделитель</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(разделитель)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>Ползунок времени</translation>
@@ -9046,59 +9022,59 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="144"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>Не удалось получить номер последней версии</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">Доступна новая версия</translation>
+        <translation>Доступна новая версия</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">Доступна новая версия SMPlayer.</translation>
+        <translation>Доступна новая версия SMPlayer.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
         <location filename="../updatechecker.cpp" line="198"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Установленная версия: %1</translation>
+        <translation>Установленная версия: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">Доступная версия: %1</translation>
+        <translation>Доступная версия: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">Хотите узнать больше об этой новой версии?</translation>
+        <translation>Хотите узнать больше о новой версии?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Проверка обновлений</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Поздравляем, у вас последняя весия SMPlayer.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <source>Error</source>
-        <translation type="unfinished">Ошибка</translation>
+        <translation>Ошибка</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Возникла ошибка при попучении информации о последней доступной версии.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Код ошибки: %1</translation>
     </message>
 </context>
 <context>

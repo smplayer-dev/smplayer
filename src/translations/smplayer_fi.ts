@@ -830,26 +830,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Tekstitykset</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Uusi versio saatavilla</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Uusi versio SMPlayerista on saatavilla.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Asennettu versio: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">Saatavilla oleva versio: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">Haluatko lisätietoja uudesta versiosta?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
@@ -8988,10 +8968,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(erotin)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation type="unfinished"></translation>
@@ -9045,12 +9021,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">Uusi versio saatavilla</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">Uusi versio SMPlayerista on saatavilla.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9062,12 +9038,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">Saatavilla oleva versio: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">Haluatko lisätietoja uudesta versiosta?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>

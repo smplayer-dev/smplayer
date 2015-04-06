@@ -830,26 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Доступна нова версія</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Доступна нова версія SMPlayer.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Встановлена ​​версія: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">Доступна версія: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">Бажаєте дізнатися більше про нову версію?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
@@ -8993,10 +8973,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Додати &amp;розділювач</translation>
     </message>
     <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(розділювач)</translation>
-    </message>
-    <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
         <translation>Повнунок часу</translation>
@@ -9050,12 +9026,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished">Доступна нова версія</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished">Доступна нова версія SMPlayer.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
@@ -9067,12 +9043,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished">Доступна версія: %1</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished">Бажаєте дізнатися більше про нову версію?</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>

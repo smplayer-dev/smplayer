@@ -830,26 +830,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <source>New version available</source>
-        <translation type="obsolete">Nueva versión disponible</translation>
-    </message>
-    <message>
-        <source>A new version of SMPlayer is available.</source>
-        <translation type="obsolete">Hay disponible una nueva versión de SMPlayer.</translation>
-    </message>
-    <message>
-        <source>Installed version: %1</source>
-        <translation type="obsolete">Versión instalada: %1</translation>
-    </message>
-    <message>
-        <source>Available version: %1</source>
-        <translation type="obsolete">Versión disponible: %1</translation>
-    </message>
-    <message>
-        <source>Would you like to know more about this new version?</source>
-        <translation type="obsolete">¿Quieres más información sobre esta nueva versión?</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4599"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation>Lamentablemente el componente openssl, que es necesario para ello, no se encuentra en tu sistema.</translation>
@@ -8989,10 +8969,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../toolbareditor.ui" line="163"/>
         <source>Add &amp;separator</source>
         <translation>Añadir &amp;separador</translation>
-    </message>
-    <message>
-        <source>(separator)</source>
-        <translation type="obsolete">(separador)</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="255"/>
