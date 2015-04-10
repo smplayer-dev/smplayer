@@ -168,7 +168,7 @@ QVariantMap MediaPlayer2Player::Metadata() const
         return metaData;
 
     metaData["mpris:trackid"] = QVariant::fromValue<QDBusObjectPath>(QDBusObjectPath(makeTrackId(m_core->mdat.filename).constData()));
-    metaData["mpris:length"] = m_core->mdat.duration;
+	metaData["mpris:length"] = m_core->mdat.duration * 1000000;
 
     if (m_core->mdat.type == TYPE_STREAM)
         metaData["xesam:url"] = m_core->mdat.stream_url;
@@ -203,7 +203,7 @@ void MediaPlayer2Player::setVolume(double volume) const
 
 qlonglong MediaPlayer2Player::Position() const
 {
-    return static_cast<qlonglong>(m_core->mset.current_sec);
+	return static_cast<qlonglong>(m_core->mset.current_sec * 1000000);
 }
 
 double MediaPlayer2Player::MinimumRate() const
