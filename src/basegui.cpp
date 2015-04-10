@@ -98,6 +98,10 @@
 
 #include "constants.h"
 
+#ifdef MPRIS2
+#include "mpris2/mpris2.h"
+#endif
+
 #include "extensions.h"
 #include "version.h"
 
@@ -238,6 +242,10 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 #ifdef REMINDER_ACTIONS
 	QTimer::singleShot(1000, this, SLOT(checkReminder()));
+#endif
+
+#ifdef MPRIS2
+	new Mpris2(core, this, this);
 #endif
 }
 
