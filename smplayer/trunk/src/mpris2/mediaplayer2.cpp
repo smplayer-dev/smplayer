@@ -61,7 +61,7 @@ bool MediaPlayer2::CanQuit() const
 
 void MediaPlayer2::Quit() const
 {
-    qApp->quit();
+	m_gui->runActions("close");
 }
 
 bool MediaPlayer2::CanRaise() const
