@@ -1,5 +1,10 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-04-10)
+ * Add support for MPRIS D-Bus Interface (http://specifications.freedesktop.org/mpris-spec/latest/)
+   Based on a patch for smplayer2 (https://github.com/lachs0r/SMPlayer2/commit/cea863e6b75f00c93da95d1a73d696cf717adf78.patch)
+   and a patch by WiseLord (http://forum.smplayer.info/viewtopic.php?p=11548#p11548)
+
 (2015-03-22)
  * (mpv) Use the --sub-text-* options to set the style of the subtitles since
    the option --ass-styles doesn't work anymore for this.

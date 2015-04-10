@@ -21,6 +21,7 @@ DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
 DEFINES += MPCGUI
 DEFINES += SKINS
+DEFINES += MPRIS2
 DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
 DEFINES += REMINDER_ACTIONS
@@ -386,6 +387,16 @@ contains( DEFINES, SKINS ) {
                skingui/mediapanel.cpp skingui/volumecontrolpanel.cpp skingui/mediabarpanel.cpp \
                skingui/qpropertysetter.cpp skingui/actiontools.cpp skingui/skingui.cpp
 	FORMS += skingui/mediapanel.ui skingui/mediabarpanel.ui
+}
+
+contains( DEFINES, MPRIS2 ) {
+	INCLUDEPATH += mpris2
+	DEPENDPATH += mpris2
+
+	HEADERS += mediaplayer2.h mediaplayer2player.h mpris2.h
+	SOURCES += mediaplayer2.cpp mediaplayer2player.cpp mpris2.cpp
+
+	QT += dbus
 }
 
 # Update checker
