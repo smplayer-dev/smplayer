@@ -393,8 +393,8 @@ contains( DEFINES, MPRIS2 ) {
 	INCLUDEPATH += mpris2
 	DEPENDPATH += mpris2
 
-	HEADERS += mediaplayer2.h mediaplayer2player.h mpris2.h
-	SOURCES += mediaplayer2.cpp mediaplayer2player.cpp mpris2.cpp
+	HEADERS += mpris2/mediaplayer2.h mpris2/mediaplayer2player.h mpris2/mpris2.h
+	SOURCES += mpris2/mediaplayer2.cpp mpris2/mediaplayer2player.cpp mpris2/mpris2.cpp
 
 	QT += dbus
 }
