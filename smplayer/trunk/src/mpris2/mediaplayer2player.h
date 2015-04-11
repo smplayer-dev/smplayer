@@ -36,8 +36,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ***********************************************************************/
 
-#ifndef SMPLAYER_MEDIAPLAYER2PLAYER_H
-#define SMPLAYER_MEDIAPLAYER2PLAYER_H
+#ifndef MEDIAPLAYER2PLAYER_H
+#define MEDIAPLAYER2PLAYER_H
 
 #include <QDBusAbstractAdaptor>
 #include <QDBusObjectPath>
