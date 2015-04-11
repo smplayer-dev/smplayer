@@ -103,7 +103,7 @@ bool MediaPlayer2::HasTrackList() const
 
 QString MediaPlayer2::Identity() const
 {
-    return qAppName();
+    return QString("SMPlayer");
 }
 
 QString MediaPlayer2::DesktopEntry() const
