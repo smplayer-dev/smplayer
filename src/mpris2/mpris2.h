@@ -37,8 +37,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  ***********************************************************************/
 
-#ifndef SMPLAYER_MPRIS2_H
-#define SMPLAYER_MPRIS2_H
+#ifndef MPRIS2_H
+#define MPRIS2_H
 
 #include <QObject>
 #include <QVariantMap>

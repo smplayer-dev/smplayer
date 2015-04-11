@@ -87,3 +87,5 @@ void Mpris2::signalPropertiesChange(const QObject* adaptor, const QVariantMap& p
 
     QDBusConnection::sessionBus().send(msg);
 }
+
+#include "moc_mpris2.cpp"

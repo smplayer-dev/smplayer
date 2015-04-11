@@ -282,3 +282,5 @@ void MediaPlayer2Player::volumeChanged() const
     properties["Volume"] = Volume();
     Mpris2::signalPropertiesChange(this, properties);
 }
+
+#include "moc_mediaplayer2player.cpp"
