@@ -38,8 +38,23 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 
 	out_combo->addItem(tr("Anaglyph red/cyan gray"), "arcg");
 	out_combo->addItem(tr("Anaglyph red/cyan half colored"), "arch");
-
 	out_combo->addItem(tr("Anaglyph red/cyan color"), "arcc");
+	out_combo->addItem(tr("Anaglyph red/cyan color optimized with the least-squares projection of Dubois"), "arcd");
+
+	out_combo->addItem(tr("Anaglyph green/magenta gray"), "agmg");
+	out_combo->addItem(tr("Anaglyph green/magenta half colored"), "agmh");
+	out_combo->addItem(tr("Anaglyph green/magenta colored "), "agmc");
+
+	//out_combo->addItem(tr(""), "");
+	out_combo->addItem(tr("Anaglyph yellow/blue gray"), "aybg");
+	out_combo->addItem(tr("Anaglyph yellow/blue half colored"), "aybh");
+	out_combo->addItem(tr("Anaglyph yellow/blue colored"), "aybc");
+
+	out_combo->addItem(tr("Interleaved rows (left eye has top row)"), "irl");
+	out_combo->addItem(tr("Interleaved rows (right eye has top row)"), "irr");
+
+	out_combo->addItem(tr("Mono output (left eye only)"), "ml");
+	out_combo->addItem(tr("Mono output (right eye only)"), "mr");
 
 	adjustSize();
 }
