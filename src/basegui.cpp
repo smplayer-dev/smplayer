@@ -245,7 +245,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #endif
 
 #ifdef MPRIS2
-	new Mpris2(core, this, this);
+	new Mpris2(this, this);
 #endif
 }
 

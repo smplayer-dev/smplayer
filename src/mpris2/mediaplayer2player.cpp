@@ -40,7 +40,10 @@
 
 #include "mediaplayer2player.h"
 #include "mpris2.h"
+#include "basegui.h"
 #include "core.h"
+#include "playlist.h"
+
 #include <QCryptographicHash>
 
 static QByteArray makeTrackId(const QString& source)
@@ -50,9 +53,10 @@ static QByteArray makeTrackId(const QString& source)
             .toHex();
 }
 
-MediaPlayer2Player::MediaPlayer2Player(Core* core, QObject* parent)
+MediaPlayer2Player::MediaPlayer2Player(BaseGui * gui, QObject* parent)
     : QDBusAbstractAdaptor(parent),
-      m_core(core)
+      m_core(gui->getCore()),
+      m_playlist(gui->getPlaylist())
 {
 //     connect(m_core, SIGNAL(tick(qint64)), this, SLOT(tick(qint64)));
 //     connect(m_core, SIGNAL(seekableChanged(bool)), this, SLOT(seekableChanged(bool)));
@@ -68,20 +72,22 @@ MediaPlayer2Player::~MediaPlayer2Player()
 
 bool MediaPlayer2Player::CanGoNext() const
 {
-    return false;
+    return true;
 }
 
 void MediaPlayer2Player::Next() const
 {
+    m_playlist->playNext();
 }
 
 bool MediaPlayer2Player::CanGoPrevious() const
 {
-    return false;
+    return true;
 }
 
 void MediaPlayer2Player::Previous() const
 {
+    m_playlist->playPrev();
 }
 
 bool MediaPlayer2Player::CanPause() const

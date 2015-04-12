@@ -42,7 +42,9 @@
 #include <QDBusAbstractAdaptor>
 #include <QDBusObjectPath>
 
+class BaseGui;
 class Core;
+class Playlist;
 
 class MediaPlayer2Player : public QDBusAbstractAdaptor
 {
@@ -66,7 +68,7 @@ class MediaPlayer2Player : public QDBusAbstractAdaptor
     Q_PROPERTY(bool CanControl READ CanControl)
 
     public:
-        explicit MediaPlayer2Player(Core* core, QObject* parent);
+        explicit MediaPlayer2Player(BaseGui * gui, QObject* parent);
         ~MediaPlayer2Player();
 
         QString PlaybackStatus() const;
@@ -115,6 +117,7 @@ class MediaPlayer2Player : public QDBusAbstractAdaptor
     private:
         qint64 oldPos;
         Core* m_core;
+        Playlist* m_playlist;
 };
 
 #endif
