@@ -40,7 +40,6 @@
 #include "mpris2.h"
 #include "mediaplayer2.h"
 #include "mediaplayer2player.h"
-#include "basegui.h"
 
 #include <QDBusConnection>
 #include <QDBusMessage>
@@ -48,6 +47,10 @@
 #include <QStringList>
 
 #include <unistd.h>
+
+// basegui.h includes windows.h which creates a conflict with QDBusConnection
+// so moved here to avoid it
+#include "basegui.h"
 
 Mpris2::Mpris2(BaseGui* gui, QObject* parent)
     : QObject(parent)
