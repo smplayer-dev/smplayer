@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1008,7 +1006,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1725"/>
         <source>Update &amp;Youtube code</source>
-        <translation>Ažuriraj &amp;Youtube kôd</translation>
+        <translation>Nadopuni &amp;Youtube kôd</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
@@ -1240,12 +1238,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="4620"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Želite li ažurirati Youtube kôd? To može popraviti problem.</translation>
+        <translation>Želite li nadopuniti Youtube kôd? To može popraviti problem.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4628"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation>Možda ažuriranje SMPlayera može popraviti taj problem.</translation>
+        <translation>Možda nadopuna SMPlayera može popraviti taj problem.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1998"/>
@@ -1543,7 +1541,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="4519"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Molim, ažurirajte vaš MPlayer.</translation>
+        <translation>Molim, nadopunite vaš MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4521"/>
@@ -1793,7 +1791,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1722"/>
         <source>Check for &amp;updates</source>
-        <translation>&amp;Provjeri za nadogradnje</translation>
+        <translation>&amp;Provjeri za nadopune</translation>
     </message>
 </context>
 <context>
@@ -1844,7 +1842,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>Youtube kôd je uspješno ažuriran.</translation>
+        <translation>Youtube kôd je uspješno nadopunjen.</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="125"/>
@@ -1929,7 +1927,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../core.cpp" line="4201"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>Ažuriram priručnu memoriju slova. Ovo može potrajati nekoliko sekundi...</translation>
+        <translation>Nadopuna priručne memorije slova. Ovo može potrajati nekoliko sekundi...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3118"/>
@@ -2569,11 +2567,7 @@ Npr: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2671,7 +2665,7 @@ Npr: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -8459,7 +8453,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>Provjeri &amp;ažuriranja</translation>
+        <translation>Provjeri &amp;nadopune</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -8474,17 +8468,17 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation>Ažuriranja</translation>
+        <translation>Nadopune</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation>Provjeri ažuriranja</translation>
+        <translation>Provjeri nadopune</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Ako je ova mogućnost odabrana, SMPlayer će provjeriti ažuriranja i prikazati obavijest ako su dostupna.</translation>
+        <translation>Ako je ova mogućnost odabrana, SMPlayer će provjeriti nadopune i prikazati obavijest ako su dostupne.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -8494,7 +8488,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>Ovdje možete upisati razdoblje provjere ažuriranja (u danima).</translation>
+        <translation>Ovdje možete upisati razdoblje provjere nadopuna (u danima).</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -8649,21 +8643,13 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8788,12 +8774,12 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj prečac</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukloni prečac</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9022,59 +9008,59 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../updatechecker.cpp" line="144"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>Neuspjelo dobivanje broja posljednje inačice</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupna je nova inačica</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupna je nova inačica SMPlayera.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
         <location filename="../updatechecker.cpp" line="198"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Instalirana inačica: %1</translation>
+        <translation>Instalirana inačica: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Dostupna inačica: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Želite li saznati više o dostupnoj inačici?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Provjeravanje nadopuna</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Čestitamo, SMPlayer je najnovije inačice</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <source>Error</source>
-        <translation type="unfinished">Greška</translation>
+        <translation>Greška</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Greška se dogodila prilikom pokušaja provjere informacije o  posljednjoj dostupnoj inačici.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kôd greške: %1</translation>
     </message>
 </context>
 <context>

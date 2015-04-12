@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="cs">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="cs" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2569,11 +2567,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulky</numerusform>
-            <numerusform>získány %n titulků</numerusform>
-        </translation>
+        <translation><numerusform>získány %n titulky</numerusform><numerusform>získány %n titulky</numerusform><numerusform>získány %n titulků</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2671,7 +2665,7 @@ Příklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nelze uložit stažený soubor
@@ -8651,21 +8645,13 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekundu</numerusform>
-            <numerusform>%n sekundy</numerusform>
-            <numerusform>%n sekund</numerusform>
-        </translation>
+        <translation><numerusform>%n sekundu</numerusform><numerusform>%n sekundy</numerusform><numerusform>%n sekund</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minuty</numerusform>
-            <numerusform>%n minut</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minuty</numerusform><numerusform>%n minut</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8790,12 +8776,12 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat zkratku</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Odstranit zkratku</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9024,59 +9010,59 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
     <message>
         <location filename="../updatechecker.cpp" line="144"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>Chyba při stahování čísla nejnovější verze</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Je k dispozici nová verze</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je k dispozici nová verze SMPlayeru.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
         <location filename="../updatechecker.cpp" line="198"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Nainstalovaná verze: 1</translation>
+        <translation>Nainstalovaná verze: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>K dispozici verze: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Chcete vědět víc o této nové verzi?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Zkontrolovat aktualizace</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gratulujeme, SMPlayer je aktuální.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <source>Error</source>
-        <translation type="unfinished">Chyba</translation>
+        <translation>Chyba</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Při získávání informací o nejnovější verzi došlo k chybě.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Kód chyby: %1</translation>
     </message>
 </context>
 <context>

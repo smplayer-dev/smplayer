@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="sr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="sr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2570,11 +2568,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n превод распакован</numerusform>
-            <numerusform>%n превода распакована</numerusform>
-            <numerusform>%n превода распаковано</numerusform>
-        </translation>
+        <translation><numerusform>%n превод распакован</numerusform><numerusform>%n превода распакована</numerusform><numerusform>%n превода распаковано</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2672,7 +2666,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Није могуће чување преузетог
@@ -8654,21 +8648,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунде</numerusform>
-            <numerusform>%n секунди</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунде</numerusform><numerusform>%n секунди</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минут</numerusform>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минута</numerusform>
-        </translation>
+        <translation><numerusform>%n минут</numerusform><numerusform>%n минута</numerusform><numerusform>%n минута</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8793,12 +8779,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Додај пречицу</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Уклони пречицу</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9027,59 +9013,59 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="144"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>Није успело добијање броја последње верзије</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступна нова верзија</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Доступна је нова верзија СМПлејера.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
         <location filename="../updatechecker.cpp" line="198"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">Инсталирана верзија: %1</translation>
+        <translation>Инсталирана верзија: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Досупна верзија: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>Да ли би волели да знате више о новој верзији?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>Провери ажурирања</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>Честитамо, СМПлејер је ажуриран.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <source>Error</source>
-        <translation type="unfinished">Грешка</translation>
+        <translation>Грешка</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Грешка се догодила при покушају да се добије информација о последњој доступној верзији.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Грешка у коду: %1</translation>
     </message>
 </context>
 <context>

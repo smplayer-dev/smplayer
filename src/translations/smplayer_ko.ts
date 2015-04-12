@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2569,9 +2567,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 자막을 추출했습니다</numerusform>
-        </translation>
+        <translation><numerusform>%n 자막을 추출했습니다</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2669,7 +2665,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>다운로드한 파일을 폴더에 저장할 수 없습니다.
@@ -8647,17 +8643,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 초</numerusform>
-        </translation>
+        <translation><numerusform>%n 초</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 분</numerusform>
-        </translation>
+        <translation><numerusform>%n 분</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8782,12 +8774,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>단축키 추가</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>단축키 삭제</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9016,59 +9008,59 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="144"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"></translation>
+        <translation>최신 버전 번호를 가져오지 못했습니다</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished"></translation>
+        <translation>새 버전이 나왔습니다</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"></translation>
+        <translation>새 버전의 SMPlayer가 있습니다.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
         <location filename="../updatechecker.cpp" line="198"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished">설치된 버전: %1</translation>
+        <translation>설치된 버전: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 버전: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"></translation>
+        <translation>이 새 버전에 대해 더 알고 싶으신가요?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"></translation>
+        <translation>업데이트 검사 중</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"></translation>
+        <translation>축하합니다! SMPlayer가 최신입니다.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <source>Error</source>
-        <translation type="unfinished">오류</translation>
+        <translation>오류</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"></translation>
+        <translation>사용 가능한 최신 버전에 대한 정보를 가져오는 도중에 오류가 발생했습니다.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>오류 코드: %1</translation>
     </message>
 </context>
 <context>
