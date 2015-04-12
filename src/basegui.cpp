@@ -67,6 +67,7 @@
 #include "about.h"
 #include "errordialog.h"
 #include "timedialog.h"
+#include "stereo3ddialog.h"
 #include "clhelp.h"
 #include "mplayerversion.h"
 
@@ -625,6 +626,9 @@ void BaseGui::createActions() {
 	connect( mirrorAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleMirror(bool)) );
 
+	stereo3dAct = new MyAction( this, "stereo_3d_filter" );
+	connect( stereo3dAct, SIGNAL(triggered()),
+             this, SLOT(showStereo3dDialog()) );
 
 	// Submenu filter
 	postProcessingAct = new MyAction( this, "postprocessing" );
@@ -1306,6 +1310,7 @@ void BaseGui::setActionsEnabled(bool b) {
 	screenshotsAct->setEnabled(b);
 	flipAct->setEnabled(b);
 	mirrorAct->setEnabled(b);
+	stereo3dAct->setEnabled(b);
 	postProcessingAct->setEnabled(b);
 	phaseAct->setEnabled(b);
 	deblockAct->setEnabled(b);
@@ -1445,6 +1450,7 @@ void BaseGui::enableActionsOnPlaying() {
 		screenshotsAct->setEnabled(false);
 		flipAct->setEnabled(false);
 		mirrorAct->setEnabled(false);
+		stereo3dAct->setEnabled(false);
 		postProcessingAct->setEnabled(false);
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
@@ -1489,6 +1495,7 @@ void BaseGui::enableActionsOnPlaying() {
 		screenshotsAct->setEnabled(false);
 		flipAct->setEnabled(false);
 		mirrorAct->setEnabled(false);
+		stereo3dAct->setEnabled(false);
 		postProcessingAct->setEnabled(false);
 		phaseAct->setEnabled(false);
 		deblockAct->setEnabled(false);
@@ -1629,6 +1636,7 @@ void BaseGui::retranslateStrings() {
 #endif
 	flipAct->change( Images::icon("flip"), tr("Fli&p image") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
+	stereo3dAct->change( Images::icon("stereo3d"), tr("Stereo 3D") );
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
@@ -2522,6 +2530,7 @@ void BaseGui::createMenus() {
 
 	videoMenu->addAction(flipAct);
 	videoMenu->addAction(mirrorAct);
+	videoMenu->addAction(stereo3dAct);
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
@@ -4254,6 +4263,16 @@ void BaseGui::showSubDelayDialog() {
 	#endif
 	if (ok) {
 		core->setSubDelay(delay);
+	}
+}
+
+void BaseGui::showStereo3dDialog() {
+	Stereo3dDialog d(this);
+	d.setInputFormat(core->mset.stereo3d_in);
+	d.setOutputFormat(core->mset.stereo3d_out);
+
+	if (d.exec() == QDialog::Accepted) {
+		core->changeStereo3d(d.inputFormat(), d.outputFormat());
 	}
 }
 
