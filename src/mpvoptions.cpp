@@ -788,6 +788,11 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 }
 
+void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QString & out) {
+	QString filter = "stereo3d=" + in + ":" + out;
+	writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(filter));
+}
+
 void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString font = styles.fontname;
 	arg << "--sub-text-font=" + font.replace(" ", "");

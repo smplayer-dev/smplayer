@@ -1636,7 +1636,7 @@ void BaseGui::retranslateStrings() {
 #endif
 	flipAct->change( Images::icon("flip"), tr("Fli&p image") );
 	mirrorAct->change( Images::icon("mirror"), tr("Mirr&or image") );
-	stereo3dAct->change( Images::icon("stereo3d"), tr("Stereo 3D") );
+	stereo3dAct->change( Images::icon("stereo3d"), tr("Stereo 3D filter") );
 
 	decZoomAct->change( tr("Zoom &-") );
 	incZoomAct->change( tr("Zoom &+") );
