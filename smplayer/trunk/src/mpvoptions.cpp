@@ -438,6 +438,10 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 }
 
+void MPVProcess::addStereo3DFilter(const QString & in, const QString & out) {
+	arg << "--vf-add=stereo3d=" + in + ":" + out;
+}
+
 void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 

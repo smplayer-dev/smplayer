@@ -157,6 +157,10 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 	}
 }
 
+void MplayerProcess::addStereo3DFilter(const QString & in, const QString & out) {
+	arg << "-vf-add" << "`stereo3d=" + in + ":" + out;
+}
+
 void MplayerProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString s = filter_name;
 	if (!value.isNull()) s += "=" + value.toString();

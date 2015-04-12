@@ -172,6 +172,7 @@ public slots:
 	void changeLetterbox(bool);
 	void changeLetterboxOnFullscreen(bool);
 	void changeUpscale(bool);
+	void changeStereo3d(const QString & in, const QString & out);
 
 	void seek(int secs);
 	void sforward(); 	// + 10 seconds
