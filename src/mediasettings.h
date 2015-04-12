@@ -114,6 +114,9 @@ public:
 	int current_denoiser;
 	int current_unsharp;
 
+	QString stereo3d_in;
+	QString stereo3d_out;
+
 	bool karaoke_filter;
 	bool extrastereo_filter;
 	bool volnorm_filter;

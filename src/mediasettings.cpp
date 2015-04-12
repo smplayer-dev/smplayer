@@ -82,6 +82,9 @@ void MediaSettings::reset() {
 	current_denoiser = NoDenoise;
 	current_unsharp = 0;
 
+	stereo3d_in = QString::null;
+	stereo3d_out = QString::null;
+
 	//current_deinterlacer = NoDeinterlace;
 	current_deinterlacer = pref->initial_deinterlace;
 
@@ -227,6 +230,9 @@ void MediaSettings::list() {
 	qDebug("  current_denoiser: %d", current_denoiser);
 	qDebug("  current_unsharp: %d", current_unsharp);
 
+	qDebug("  stereo3d_in: %d", stereo3d_in.toUtf8().constData());
+	qDebug("  stereo3d_out: %d", stereo3d_out.toUtf8().constData());
+
 	qDebug("  current_deinterlacer: %d", current_deinterlacer);
 
 	qDebug("  add_letterbox: %d", add_letterbox);
@@ -350,6 +356,9 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "current_denoiser", current_denoiser);
 	set->setValue( "current_unsharp", current_unsharp);
 
+	set->setValue( "stereo3d_in", stereo3d_in);
+	set->setValue( "stereo3d_out", stereo3d_out);
+
 	set->setValue( "current_deinterlacer", current_deinterlacer);
 
 	set->setValue( "add_letterbox", add_letterbox );
@@ -461,6 +470,9 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	upscaling_filter = set->value( "upscaling_filter", upscaling_filter).toBool();
 	current_denoiser = set->value( "current_denoiser", current_denoiser).toInt();
 	current_unsharp = set->value( "current_unsharp", current_unsharp).toInt();
+
+	stereo3d_in = set->value( "stereo3d_in", stereo3d_in).toString();
+	stereo3d_out = set->value( "stereo3d_out", stereo3d_out).toString();
 
 	current_deinterlacer = set->value( "current_deinterlacer", current_deinterlacer ).toInt();
 

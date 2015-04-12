@@ -2146,6 +2146,11 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
+	// 3D stereo
+	if (!mset.stereo3d_in.isEmpty() && !mset.stereo3d_out.isEmpty()) {
+		proc->addStereo3DFilter(mset.stereo3d_in, mset.stereo3d_out);
+	}
+
 	// Denoise
 	if (mset.current_denoiser != MediaSettings::NoDenoise) {
 		if (mset.current_denoiser==MediaSettings::DenoiseSoft) {
@@ -2870,6 +2875,15 @@ void Core::changeUpscale(bool b) {
 		int width = DesktopInfo::desktop_size(mplayerwindow).width();
 		CHANGE_VF("scale", b, QString::number(width) + ":-2");
 	}
+}
+
+void Core::changeStereo3d(const QString & in, const QString & out) {
+	qDebug("Core::changeStereo3d: in: %s out: %s", in.toUtf8().constData(), out.toUtf8().constData());
+
+	mset.stereo3d_in = in;
+	mset.stereo3d_out = out;
+
+	restartPlay();
 }
 
 void Core::setBrightness(int value) {
