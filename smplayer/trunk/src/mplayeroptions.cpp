@@ -158,7 +158,9 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 }
 
 void MplayerProcess::addStereo3DFilter(const QString & in, const QString & out) {
-	arg << "-vf-add" << "`stereo3d=" + in + ":" + out;
+	QString filter = "stereo3d=" + in + ":" + out;
+	filter += ",scale"; // In my PC it doesn't work without scale :?
+	arg << "-vf-add" << filter;
 }
 
 void MplayerProcess::addAF(const QString & filter_name, const QVariant & value) {
@@ -377,6 +379,10 @@ void MplayerProcess::setOSDScale(double value) {
 }
 
 void MplayerProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
+	// not supported
+}
+
+void MplayerProcess::changeStereo3DFilter(bool enable, const QString & in, const QString & out) {
 	// not supported
 }
 

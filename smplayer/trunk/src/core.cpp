@@ -2881,10 +2881,23 @@ void Core::changeStereo3d(const QString & in, const QString & out) {
 	qDebug("Core::changeStereo3d: in: %s out: %s", in.toUtf8().constData(), out.toUtf8().constData());
 
 	if ((mset.stereo3d_in != in) || (mset.stereo3d_out != out)) {
-		mset.stereo3d_in = in;
-		mset.stereo3d_out = out;
+		if (proc->isMPlayer()) {
+			mset.stereo3d_in = in;
+			mset.stereo3d_out = out;
+			restartPlay();
+		} else {
+			// Remove previous filter
+			if (!mset.stereo3d_in.isEmpty() && !mset.stereo3d_out.isEmpty()) {
+				proc->changeStereo3DFilter(false, mset.stereo3d_in, mset.stereo3d_out);
+			}
 
-		restartPlay();
+			// New filter
+			mset.stereo3d_in = in;
+			mset.stereo3d_out = out;
+			if (!mset.stereo3d_in.isEmpty() && !mset.stereo3d_out.isEmpty()) {
+				proc->changeStereo3DFilter(true, mset.stereo3d_in, mset.stereo3d_out);
+			}
+		}
 	}
 }
 
