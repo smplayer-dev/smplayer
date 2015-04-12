@@ -161,6 +161,7 @@ public slots:
 	virtual void showGotoDialog();
 	virtual void showSubDelayDialog();
 	virtual void showAudioDelayDialog();
+	virtual void showStereo3dDialog();
 
 	virtual void exitFullscreen();
 	virtual void toggleFullscreen();
@@ -452,6 +453,7 @@ protected:
 #endif
 	MyAction * flipAct;
 	MyAction * mirrorAct;
+	MyAction * stereo3dAct;
 	MyAction * postProcessingAct;
 	MyAction * phaseAct;
 	MyAction * deblockAct;
