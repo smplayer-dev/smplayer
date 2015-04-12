@@ -87,6 +87,9 @@ public:
 	void recordSmplayerLog(QString line);
 #endif
 
+	Core * getCore() { return core; };
+	Playlist * getPlaylist() { return playlist; };
+
 public slots:
 	virtual void open(QString file); // Generic open, autodetect type.
 	virtual void openFile();

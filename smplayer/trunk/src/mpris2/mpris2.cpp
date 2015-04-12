@@ -40,6 +40,7 @@
 #include "mpris2.h"
 #include "mediaplayer2.h"
 #include "mediaplayer2player.h"
+#include "basegui.h"
 
 #include <QDBusConnection>
 #include <QDBusMessage>
@@ -48,7 +49,7 @@
 
 #include <unistd.h>
 
-Mpris2::Mpris2(Core* core, BaseGui* gui, QObject* parent)
+Mpris2::Mpris2(BaseGui* gui, QObject* parent)
     : QObject(parent)
 {
     QString mpris2Name("org.mpris.MediaPlayer2." + QLatin1String("smplayer"));
@@ -64,7 +65,7 @@ Mpris2::Mpris2(Core* core, BaseGui* gui, QObject* parent)
     if (success)
     {
         new MediaPlayer2(gui, this);
-        new MediaPlayer2Player(core, this);
+        new MediaPlayer2Player(gui, this);
         QDBusConnection::sessionBus().registerObject("/org/mpris/MediaPlayer2", this, QDBusConnection::ExportAdaptors);
     }
 }
