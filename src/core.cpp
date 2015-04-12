@@ -2880,10 +2880,12 @@ void Core::changeUpscale(bool b) {
 void Core::changeStereo3d(const QString & in, const QString & out) {
 	qDebug("Core::changeStereo3d: in: %s out: %s", in.toUtf8().constData(), out.toUtf8().constData());
 
-	mset.stereo3d_in = in;
-	mset.stereo3d_out = out;
+	if ((mset.stereo3d_in != in) || (mset.stereo3d_out != out)) {
+		mset.stereo3d_in = in;
+		mset.stereo3d_out = out;
 
-	restartPlay();
+		restartPlay();
+	}
 }
 
 void Core::setBrightness(int value) {
