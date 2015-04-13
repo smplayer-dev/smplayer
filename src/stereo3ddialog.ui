@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="label">
      <property name="text">
-      <string>&amp;Input:</string>
+      <string>&amp;3D format of the video:</string>
      </property>
      <property name="buddy">
       <cstring>in_combo</cstring>
@@ -30,7 +30,7 @@
    <item>
     <widget class="QLabel" name="label_2">
      <property name="text">
-      <string>&amp;Output:</string>
+      <string>&amp;Output format:</string>
      </property>
      <property name="buddy">
       <cstring>out_combo</cstring>
