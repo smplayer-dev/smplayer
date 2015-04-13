@@ -74,7 +74,11 @@ void Stereo3dDialog::setInputFormat(const QString & in) {
 
 void Stereo3dDialog::setOutputFormat(const QString & out) {
 	int i = out_combo->findData(out);
-	if (i == -1) i = 0;
+	if (i == -1) {
+		// Use ml as default if the output format is not found
+		i = out_combo->findData("ml");
+		if (i == -1) i = 0;
+	}
 	out_combo->setCurrentIndex(i);
 }
 
