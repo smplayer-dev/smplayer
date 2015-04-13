@@ -26,6 +26,10 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 	in_combo->addItem(tr("None"), "");
 	in_combo->addItem(tr("Side by side parallel"), "sbsl");
 	in_combo->addItem(tr("Side by side crosseye"), "sbsr");
+
+	in_combo->addItem(tr("Side by side with half width resolution (left eye left)"), "sbs2l");
+	in_combo->addItem(tr("Side by side with half width resolution (right eye left)"), "sbs2r");
+
 	in_combo->addItem(tr("Above-below (left eye above)"), "abl");
 	in_combo->addItem(tr("Above-below (right eye above)"), "abr");
 	in_combo->addItem(tr("Above-below with half height resolution (left eye above)"), "ab2l");
@@ -45,7 +49,6 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 	out_combo->addItem(tr("Anaglyph green/magenta half colored"), "agmh");
 	out_combo->addItem(tr("Anaglyph green/magenta colored "), "agmc");
 
-	//out_combo->addItem(tr(""), "");
 	out_combo->addItem(tr("Anaglyph yellow/blue gray"), "aybg");
 	out_combo->addItem(tr("Anaglyph yellow/blue half colored"), "aybh");
 	out_combo->addItem(tr("Anaglyph yellow/blue colored"), "aybc");
