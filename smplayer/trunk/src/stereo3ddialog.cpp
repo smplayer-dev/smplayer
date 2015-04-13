@@ -23,7 +23,6 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
-	in_combo->addItem(tr("None"), "");
 	in_combo->addItem(tr("Side by side parallel"), "sbsl");
 	in_combo->addItem(tr("Side by side crosseye"), "sbsr");
 
@@ -58,6 +57,8 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 
 	out_combo->addItem(tr("Mono output (left eye only)"), "ml");
 	out_combo->addItem(tr("Mono output (right eye only)"), "mr");
+
+	in_combo->insertItem(0, tr("None"), "");
 
 	adjustSize();
 }
