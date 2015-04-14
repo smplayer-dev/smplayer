@@ -93,4 +93,7 @@
        license: GPL
 
      * http://en.wikipedia.org/wiki/File:Computer_on_fire.svg
-       license: public domain
+       license: Public Domain
+
+     * http://www.pd4pic.com/anaglyph-3d-cellophane-glasses-3dimensional-movie.html
+       license: Public Domain CC0
