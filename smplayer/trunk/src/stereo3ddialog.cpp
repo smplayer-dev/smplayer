@@ -23,16 +23,15 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
-	in_combo->addItem(tr("Side by side parallel"), "sbsl");
-	in_combo->addItem(tr("Side by side crosseye"), "sbsr");
+	in_combo->addItem(tr("Side by side parallel (left eye left, right eye right)"), "sbsl");
+	in_combo->addItem(tr("Side by side crosseye (right eye left, left eye right)"), "sbsr");
+	in_combo->addItem(tr("Side by side with half width resolution (left eye left, right eye right)"), "sbs2l");
+	in_combo->addItem(tr("Side by side with half width resolution (right eye left, left eye right)"), "sbs2r");
 
-	in_combo->addItem(tr("Side by side with half width resolution (left eye left)"), "sbs2l");
-	in_combo->addItem(tr("Side by side with half width resolution (right eye left)"), "sbs2r");
-
-	in_combo->addItem(tr("Above-below (left eye above)"), "abl");
-	in_combo->addItem(tr("Above-below (right eye above)"), "abr");
-	in_combo->addItem(tr("Above-below with half height resolution (left eye above)"), "ab2l");
-	in_combo->addItem(tr("Above-below with half height resolution (right eye above)"), "ab2r");
+	in_combo->addItem(tr("Above-below (left eye above, right eye below)"), "abl");
+	in_combo->addItem(tr("Above-below (right eye above, left eye below)"), "abr");
+	in_combo->addItem(tr("Above-below with half height resolution (left eye above, right eye below)"), "ab2l");
+	in_combo->addItem(tr("Above-below with half height resolution (right eye above, left eye below)"), "ab2r");
 
 	// Copy the input formats
 	for (int n = 0; n < in_combo->count(); n++) {
@@ -52,8 +51,8 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 	out_combo->addItem(tr("Anaglyph yellow/blue half colored"), "aybh");
 	out_combo->addItem(tr("Anaglyph yellow/blue colored"), "aybc");
 
-	out_combo->addItem(tr("Interleaved rows (left eye has top row)"), "irl");
-	out_combo->addItem(tr("Interleaved rows (right eye has top row)"), "irr");
+	out_combo->addItem(tr("Interleaved rows (left eye has top row, right eye starts on next row)"), "irl");
+	out_combo->addItem(tr("Interleaved rows (right eye has top row, left eye starts on next row)"), "irr");
 
 	out_combo->addItem(tr("Mono output (left eye only)"), "ml");
 	out_combo->addItem(tr("Mono output (right eye only)"), "mr");
