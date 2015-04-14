@@ -36,6 +36,7 @@ class QWidget;
 class QLabel;
 class QKeyEvent;
 class QTimer;
+class ShareWidget;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
@@ -239,6 +240,10 @@ protected:
 
 #if LOGO_ANIMATION
 	bool animated_logo;
+#endif
+
+#ifdef SHAREWIDGET
+	ShareWidget * share_buttons;
 #endif
 
 private:
