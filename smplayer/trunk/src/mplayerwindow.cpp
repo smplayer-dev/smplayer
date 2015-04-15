@@ -133,7 +133,7 @@ MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
 	setAttribute(Qt::WA_NativeWindow);
 	#endif
 	setAttribute(Qt::WA_PaintUnclipped);
-	setAttribute(Qt::WA_PaintOnScreen);
+	//setAttribute(Qt::WA_PaintOnScreen);
 	#endif
 #endif
 }
@@ -164,9 +164,7 @@ void MplayerLayer::playingStarted() {
 	playing = true;
 
 #ifndef Q_OS_WIN
-	#if QT_VERSION >= 0x050000
 	setAttribute(Qt::WA_PaintOnScreen);
-	#endif
 #endif
 
 	Screen::playingStarted();
@@ -177,9 +175,7 @@ void MplayerLayer::playingStopped() {
 	playing = false;
 
 #ifndef Q_OS_WIN
-	#if QT_VERSION >= 0x050000
 	setAttribute(Qt::WA_PaintOnScreen, false);
-	#endif
 #endif
 
 	repaint();
