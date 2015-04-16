@@ -1,3 +1,13 @@
+QStatusBar,
+QStatusBar QLabel {
+	background: black;
+	color: white;
+}
+
+QStatusBar::item {
+	border: none;
+}
+
 ShareWidget QPushButton {
 	margin: 0px;
 	padding: 1px;
