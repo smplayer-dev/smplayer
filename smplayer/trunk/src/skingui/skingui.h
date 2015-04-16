@@ -85,8 +85,6 @@ protected slots:
 #endif
 	virtual void togglePlayAction(Core::State);
 
-	virtual void changeStyleSheet(QString style);
-
 protected:
 	MediaBarPanel* mediaBarPanel;
 	QAction * mediaBarPanelAction;

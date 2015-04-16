@@ -5145,10 +5145,10 @@ void BaseGui::exitFullscreenIfNeeded() {
 }
 
 #if ALLOW_CHANGE_STYLESHEET
-void BaseGui::loadQss(QString filename) {
+QString BaseGui::loadQss(QString filename) {
 	QFile file( filename );
 	file.open(QFile::ReadOnly);
-	QString styleSheet = QLatin1String(file.readAll());
+	QString stylesheet = QLatin1String(file.readAll());
 
 #ifdef USE_RESOURCES
 	Images::setTheme(pref->iconset);
@@ -5165,29 +5165,40 @@ void BaseGui::loadQss(QString filename) {
 	QString td = Images::themesDirectory();
 	QString path = current.relativeFilePath(td);
 #endif
-	styleSheet.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
+	stylesheet.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
 						QString("url(%1\\1)").arg(path + "/"));
-	//qDebug("BaseGui::loadQss: styeSheet: %s", styleSheet.toUtf8().constData());
-	qApp->setStyleSheet(styleSheet);
+	//qDebug("BaseGui::loadQss: styleSheet: %s", stylesheet.toUtf8().constData());
+	return stylesheet;
 }
 
 void BaseGui::changeStyleSheet(QString style) {
-	if (style.isEmpty())  {
-		qApp->setStyleSheet("");
-	} 
-	else {
-		QString qss_file = Paths::configPath() + "/themes/" + pref->iconset +"/style.qss";
-		//qDebug("BaseGui::changeStyleSheet: '%s'", qss_file.toUtf8().data());
+	// Load default stylesheet
+	QString stylesheet = loadQss(":/icons-png/style.qss");
+
+	if (!style.isEmpty()) {
+		// Check main.css
+		QString qss_file = Paths::configPath() + "/themes/" + pref->iconset + "/main.css";
 		if (!QFile::exists(qss_file)) {
-			qss_file = Paths::themesPath() +"/"+ pref->iconset +"/style.qss";
+			qss_file = Paths::themesPath() +"/"+ pref->iconset + "/main.css";
 		}
+
+		// Check style.qss
+		if (!QFile::exists(qss_file)) {
+			qss_file = Paths::configPath() + "/themes/" + pref->iconset + "/style.qss";
+			if (!QFile::exists(qss_file)) {
+				qss_file = Paths::themesPath() +"/"+ pref->iconset + "/style.qss";
+			}
+		}
+
+		// Load style file
 		if (QFile::exists(qss_file)) {
 			qDebug("BaseGui::changeStyleSheet: '%s'", qss_file.toUtf8().data());
-			loadQss(qss_file);
-		} else {
-			qApp->setStyleSheet("");
+			stylesheet += loadQss(qss_file);
 		}
 	}
+
+	//qDebug("BaseGui::changeStyleSheet: styleSheet: %s", stylesheet.toUtf8().constData());
+	qApp->setStyleSheet(stylesheet);
 }
 #endif
 
