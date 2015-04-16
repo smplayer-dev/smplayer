@@ -5173,7 +5173,7 @@ QString BaseGui::loadQss(QString filename) {
 
 void BaseGui::changeStyleSheet(QString style) {
 	// Load default stylesheet
-	QString stylesheet = loadQss(":/icons-png/style.qss");
+	QString stylesheet = loadQss(":/default-theme/style.qss");
 
 	if (!style.isEmpty()) {
 		// Check main.css

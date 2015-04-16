@@ -35,7 +35,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	setupUi(this);
 	setWindowIcon( Images::icon("logo", 64) );
 
-	logo->setPixmap( QPixmap(":/icons-png/logo.png").scaledToHeight(64, Qt::SmoothTransformation) );
+	logo->setPixmap( QPixmap(":/default-theme/logo.png").scaledToHeight(64, Qt::SmoothTransformation) );
 	contrib_icon->setPixmap( Images::icon("contributors" ) );
 	translators_icon->setPixmap( Images::icon("translators" ) );
 	license_icon->setPixmap( Images::icon("license" ) );
@@ -69,7 +69,7 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 			.arg("<a href=\"http://www.mpv.io\">MPV</a>") +
         "<br><br>" +
 		tr("Subtitles service powered by %1").arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>")
-        /* + "<br><a href=\"http://www.opensubtitles.org\"><img src=\":icons-png/opensubtitles-logo.png\"></a>" */
+        /* + "<br><a href=\"http://www.opensubtitles.org\"><img src=\":default-theme/opensubtitles-logo.png\"></a>" */
 	);
 
 

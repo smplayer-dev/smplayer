@@ -24,9 +24,9 @@
 ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
 {
-	QPushButton * donate_button = new QPushButton(QPixmap(":/icons-png/paypal.png"), "", this);
-	QPushButton * fb_button = new QPushButton(QPixmap(":/icons-png/social_facebook.png"), "", this);
-	QPushButton * twitter_button = new QPushButton(QPixmap(":/icons-png/social_twitter.png"), "", this);
+	QPushButton * donate_button = new QPushButton(QPixmap(":/default-theme/paypal.png"), "", this);
+	QPushButton * fb_button = new QPushButton(QPixmap(":/default-theme/social_facebook.png"), "", this);
+	QPushButton * twitter_button = new QPushButton(QPixmap(":/default-theme/social_twitter.png"), "", this);
 
 	donate_button->setToolTip(tr("Donate with Paypal"));
 	fb_button->setToolTip(tr("Share SMPlayer with your friends in Facebook"));
@@ -36,13 +36,6 @@ ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
 	donate_button->setIconSize(bsize);
 	fb_button->setIconSize(bsize);
 	twitter_button->setIconSize(bsize);
-
-	#if 1
-	QString st = "margin: 0px; border: 0px;";
-	donate_button->setStyleSheet(st);
-	fb_button->setStyleSheet(st);
-	twitter_button->setStyleSheet(st);
-	#endif
 
 	QHBoxLayout * layout = new QHBoxLayout(this);
 	layout->addWidget(donate_button);

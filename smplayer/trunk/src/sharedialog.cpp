@@ -26,17 +26,17 @@ ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
-	donate_button->setIcon(QPixmap(":/icons-png/paypal.png"));
+	donate_button->setIcon(QPixmap(":/default-theme/paypal.png"));
 	donate_button->setIconSize(QSize(64,64));
 	donate_button->setText(tr("Donate with Paypal"));
 	donate_button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
 
-	facebook_button->setIcon(QPixmap(":/icons-png/social_facebook.png"));
+	facebook_button->setIcon(QPixmap(":/default-theme/social_facebook.png"));
 	facebook_button->setIconSize(QSize(64,64));
 	facebook_button->setText("Facebook");
 	facebook_button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
 
-	twitter_button->setIcon(QPixmap(":/icons-png/social_twitter.png"));
+	twitter_button->setIcon(QPixmap(":/default-theme/social_twitter.png"));
 	twitter_button->setIconSize(QSize(64,64));
 	twitter_button->setText("Twitter");
 	twitter_button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
