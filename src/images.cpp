@@ -110,7 +110,7 @@ QString Images::file(const QString & name) {
 
 	//qDebug() << "Images::file:" << icon_name;
 	if ((icon_name.isEmpty()) || (!QFile::exists(icon_name))) {
-		icon_name = ":/icons-png/" + name + ".png";
+		icon_name = ":/default-theme/" + name + ".png";
 	}
 
 	//qDebug() << "Images::file:" << icon_name;
