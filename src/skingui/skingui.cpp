@@ -95,34 +95,6 @@ SkinGui::~SkinGui() {
 	saveConfig();
 }
 
-void SkinGui::changeStyleSheet(QString style) {
-	if (style.isEmpty())  {
-		qApp->setStyleSheet("");
-	} 
-	else {
-		QString qss = Images::styleSheet();
-#ifdef USE_RESOURCES
-		Images::setTheme(pref->iconset);
-		QString path;
-		if (Images::has_rcc) {
-			path = ":/" + pref->iconset;
-		} else {
-			QDir current = QDir::current();
-			QString td = Images::themesDirectory();
-			path = current.relativeFilePath(td);
-		}
-#else
-		QDir current = QDir::current();
-		QString td = Images::themesDirectory();
-		QString path = current.relativeFilePath(td);
-#endif
-		qss.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
-							QString("url(%1\\1)").arg(path + "/"));
-		//qDebug("SkinGui::changeStyleSheet: qss: %s", qss.toLatin1().constData());
-		qApp->setStyleSheet(qss);
-	}
-}
-
 void SkinGui::createActions() {
 	qDebug("SkinGui::createActions");
 

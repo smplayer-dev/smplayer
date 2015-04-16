@@ -298,7 +298,7 @@ protected slots:
 
 	// stylesheet
 #if ALLOW_CHANGE_STYLESHEET
-	virtual void loadQss(QString filename);
+	virtual QString loadQss(QString filename);
 	virtual void changeStyleSheet(QString style);
 #endif
 
