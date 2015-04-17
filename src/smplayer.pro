@@ -425,9 +425,9 @@ contains( DEFINES, REMINDER_ACTIONS ) {
 	FORMS += sharedialog.ui
 }
 
-contains( DEFINES, SHAREWIDGET ) {
-	HEADERS += sharewidget.h
-	SOURCES += sharewidget.cpp
+contains( DEFINES, SHAREWIDGET|REMINDER_ACTIONS ) {
+	HEADERS += sharewidget.h sharedata.h
+	SOURCES += sharewidget.cpp sharedata.cpp
 }
 
 contains( DEFINES, AUTO_SHUTDOWN_PC ) {

@@ -20,8 +20,10 @@
 
 #include <QPushButton>
 #include <QHBoxLayout>
+#include <QDesktopServices>
 
 #include "images.h"
+#include "sharedata.h"
 
 #define SHAREBUTTON_MIN QSize(24,24)
 #define SHAREBUTTON_MAX QSize(32,32)
@@ -93,14 +95,17 @@ void ShareWidget::setVisible(bool visible) {
 
 void ShareWidget::donate() {
 	qDebug("ShareWidget::donate");
+	QDesktopServices::openUrl( ShareData::donateUrl() );
 }
 
 void ShareWidget::facebook() {
 	qDebug("ShareWidget::facebook");
+	QDesktopServices::openUrl( ShareData::facebookUrl() );
 }
 
 void ShareWidget::twitter() {
 	qDebug("ShareWidget::twitter");
+	QDesktopServices::openUrl( ShareData::twitterUrl() );
 }
 
 #include "moc_sharewidget.cpp"
