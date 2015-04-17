@@ -17,13 +17,13 @@
 */
 
 #include "sharewidget.h"
+#include "sharedata.h"
+#include "images.h"
 
 #include <QPushButton>
 #include <QHBoxLayout>
 #include <QDesktopServices>
-
-#include "images.h"
-#include "sharedata.h"
+#include <QSettings>
 
 #define SHAREBUTTON_MIN QSize(24,24)
 #define SHAREBUTTON_MAX QSize(32,32)
@@ -57,8 +57,9 @@ void ShareButton::leaveEvent(QEvent *) {
 
 
 
-ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
+ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
+	, set(settings)
 {
 	ShareButton * donate_button = new ShareButton("paypal", "", this);
 	ShareButton * fb_button = new ShareButton("social_facebook", "", this);
@@ -88,6 +89,16 @@ ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
 ShareWidget::~ShareWidget() {
 }
 
+void ShareWidget::setActionPerformed(int action) {
+	if (set) {
+		set->beginGroup("reminder");
+		int value = set->value("action", 0).toInt();
+		value |= action;
+		set->setValue("action", value);
+		set->endGroup();
+	}
+}
+
 void ShareWidget::setVisible(bool visible) {
 	qDebug("ShareWidget::setVisible: %d", visible);
 	QWidget::setVisible(visible);
@@ -95,16 +106,19 @@ void ShareWidget::setVisible(bool visible) {
 
 void ShareWidget::donate() {
 	qDebug("ShareWidget::donate");
+	setActionPerformed(ShareData::Donate);
 	QDesktopServices::openUrl( ShareData::donateUrl() );
 }
 
 void ShareWidget::facebook() {
 	qDebug("ShareWidget::facebook");
+	setActionPerformed(ShareData::Facebook);
 	QDesktopServices::openUrl( ShareData::facebookUrl() );
 }
 
 void ShareWidget::twitter() {
 	qDebug("ShareWidget::twitter");
+	setActionPerformed(ShareData::Twitter);
 	QDesktopServices::openUrl( ShareData::twitterUrl() );
 }
 

@@ -23,6 +23,8 @@
 #include <QWidget>
 #include <QPushButton>
 
+class QSettings;
+
 class ShareButton : public QPushButton
 {
 	Q_OBJECT
@@ -44,15 +46,21 @@ class ShareWidget : public QWidget
 	Q_OBJECT
 
 public:
-	ShareWidget(QWidget * parent = 0, Qt::WindowFlags f = 0);
+	ShareWidget(QSettings * settings, QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~ShareWidget();
 
 	virtual void setVisible(bool visible);
+
+protected:
+	void setActionPerformed(int action);
 
 protected slots:
 	void donate();
 	void facebook();
 	void twitter();
+
+private:
+	QSettings * set;
 };
 
 #endif
