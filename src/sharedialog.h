@@ -26,8 +26,6 @@ class ShareDialog : public QDialog, public Ui::ShareDialog
 	Q_OBJECT
 
 public:
-	enum Action { Donate = 1, Facebook = 2, Twitter = 4 };
-
 	ShareDialog( QWidget* parent = 0, Qt::WindowFlags f = 0 );
 	~ShareDialog();
 
