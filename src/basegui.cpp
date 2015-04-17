@@ -2187,7 +2187,7 @@ void BaseGui::createMplayerWindow() {
 #endif
 
 #ifdef SHAREWIDGET
-	ShareWidget * sharewidget = new ShareWidget(mplayerwindow);
+	ShareWidget * sharewidget = new ShareWidget(Global::settings, mplayerwindow);
 	mplayerwindow->setCornerWidget(sharewidget);
 #endif
 
