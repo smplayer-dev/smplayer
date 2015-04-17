@@ -17,6 +17,7 @@
 */
 
 #include "sharedata.h"
+#include <QObject>
 
 QUrl ShareData::donateUrl() {
 	return QUrl("http://smplayer.sourceforge.net/donate.php");
