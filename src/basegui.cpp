@@ -125,6 +125,10 @@
 #include "sharedialog.h"
 #endif
 
+#ifdef SHAREWIDGET
+#include "sharewidget.h"
+#endif
+
 #ifdef AUTO_SHUTDOWN_PC
 #include "shutdowndialog.h"
 #include "shutdown.h"
@@ -2180,6 +2184,11 @@ void BaseGui::createMplayerWindow() {
 
 #if LOGO_ANIMATION
 	mplayerwindow->setAnimatedLogo( pref->animated_logo);
+#endif
+
+#ifdef SHAREWIDGET
+	ShareWidget * sharewidget = new ShareWidget(mplayerwindow);
+	mplayerwindow->setCornerWidget(sharewidget);
 #endif
 
 	QVBoxLayout * layout = new QVBoxLayout;

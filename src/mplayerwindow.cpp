@@ -40,10 +40,6 @@
 #include <QPropertyAnimation>
 #endif
 
-#ifdef SHAREWIDGET
-#include "sharewidget.h"
-#endif
-
 Screen::Screen(QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f )
 	, check_mouse_timer(0)
@@ -209,6 +205,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 #if LOGO_ANIMATION
 	, animated_logo(false)
 #endif
+	, corner_widget(0)
 	, mouse_drag_tracking(false)
 	, isMoving(false)
 	, startDrag(QPoint(0,0))
@@ -227,18 +224,6 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
 	mplayerlayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
-
-#ifdef SHAREWIDGET
-	share_buttons = new ShareWidget(this);
-
-	QHBoxLayout * blayout = new QHBoxLayout;
-	blayout->addSpacerItem(new QSpacerItem(20, 20, QSizePolicy::Expanding));
-	blayout->addWidget(share_buttons);
-
-	QVBoxLayout * layout = new QVBoxLayout(this);
-	layout->addSpacerItem(new QSpacerItem(20, 20, QSizePolicy::Expanding, QSizePolicy::Expanding));
-	layout->addLayout(blayout);
-#endif
 
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
@@ -265,6 +250,18 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 MplayerWindow::~MplayerWindow() {
 }
 
+void MplayerWindow::setCornerWidget(QWidget * w) {
+	corner_widget = w;
+
+	QHBoxLayout * blayout = new QHBoxLayout;
+	blayout->addSpacerItem(new QSpacerItem(20, 20, QSizePolicy::Expanding));
+	blayout->addWidget(corner_widget);
+
+	QVBoxLayout * layout = new QVBoxLayout(this);
+	layout->addSpacerItem(new QSpacerItem(20, 20, QSizePolicy::Expanding, QSizePolicy::Expanding));
+	layout->addLayout(blayout);
+}
+
 #if USE_COLORKEY
 void MplayerWindow::setColorKey( QColor c ) {
 	ColorUtils::setBackgroundColor( mplayerlayer, c );
@@ -279,9 +276,9 @@ void MplayerWindow::retranslateStrings() {
 }
 
 void MplayerWindow::setLogoVisible( bool b) {
-#ifdef SHAREWIDGET
-	share_buttons->setVisible(b);
-#endif
+	if (corner_widget) {
+		corner_widget->setVisible(b);
+	}
 
 #if !LOGO_ANIMATION
 	logo->setVisible(b);
