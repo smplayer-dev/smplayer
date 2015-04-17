@@ -21,6 +21,23 @@
 #define SHAREWIDGET_H
 
 #include <QWidget>
+#include <QPushButton>
+
+class ShareButton : public QPushButton
+{
+	Q_OBJECT
+
+public:
+	ShareButton(const QString icon_name, const QString & text, QWidget * parent = 0);
+	~ShareButton() {};
+
+	QSize sizeHint() const;
+
+protected:
+	void enterEvent(QEvent *);
+	void leaveEvent(QEvent *);
+};
+
 
 class ShareWidget : public QWidget
 {

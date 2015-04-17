@@ -21,32 +21,61 @@
 #include <QPushButton>
 #include <QHBoxLayout>
 
+#include "images.h"
+
+#define SHAREBUTTON_MIN QSize(24,24)
+#define SHAREBUTTON_MAX QSize(32,32)
+
+ShareButton::ShareButton(const QString icon_name, const QString & text, QWidget * parent)
+	: QPushButton(text, parent)
+{
+	setAttribute(Qt::WA_Hover, true);
+
+	setIconSize(SHAREBUTTON_MIN);
+	setIcon(Images::icon(icon_name));
+	
+}
+
+QSize ShareButton::sizeHint() const {
+	QSize s(SHAREBUTTON_MAX);
+//	s += QSize(6,6);
+	s += QSize(4,4);
+	return s;
+}
+
+void ShareButton::enterEvent(QEvent *) {
+	//qDebug("ShareButton::enterEvent");
+	setIconSize(SHAREBUTTON_MAX);
+}
+
+void ShareButton::leaveEvent(QEvent *) {
+	//qDebug("ShareButton::leaveEvent");
+	setIconSize(SHAREBUTTON_MIN);
+}
+
+
 ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
 {
-	QPushButton * donate_button = new QPushButton(QPixmap(":/default-theme/paypal.png"), "", this);
-	QPushButton * fb_button = new QPushButton(QPixmap(":/default-theme/social_facebook.png"), "", this);
-	QPushButton * twitter_button = new QPushButton(QPixmap(":/default-theme/social_twitter.png"), "", this);
+	ShareButton * donate_button = new ShareButton("paypal", "", this);
+	ShareButton * fb_button = new ShareButton("social_facebook", "", this);
+	ShareButton * twitter_button = new ShareButton("social_twitter", "", this);
 
 	donate_button->setToolTip(tr("Donate with Paypal"));
 	fb_button->setToolTip(tr("Share SMPlayer with your friends in Facebook"));
 	twitter_button->setToolTip(tr("Share SMPlayer with your friends in Twitter"));
 
-	QSize bsize = QSize(32,32);
-	donate_button->setIconSize(bsize);
-	fb_button->setIconSize(bsize);
-	twitter_button->setIconSize(bsize);
-
 	QHBoxLayout * layout = new QHBoxLayout(this);
+	layout->setSpacing(0);
 	layout->addWidget(donate_button);
 	layout->addWidget(fb_button);
 	layout->addWidget(twitter_button);
 
-	
-	//setBackgroundRole(QPalette::Window);
-	//setAutoFillBackground(true);
-	//setStyleSheet("background: black;");
-	
+	/*
+	setBackgroundRole(QPalette::Window);
+	setAutoFillBackground(true);
+	setStyleSheet("background: yellow;");
+	*/
 
 	connect(donate_button, SIGNAL(clicked()), this, SLOT(donate()));
 	connect(fb_button, SIGNAL(clicked()), this, SLOT(facebook()));
