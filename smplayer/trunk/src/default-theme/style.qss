@@ -8,22 +8,24 @@ QStatusBar::item {
 	border: none;
 }
 
-ShareWidget QPushButton {
+ShareButton {
 	margin: 0px;
 	padding: 1px;
 	background-color: black;
-	qproperty-iconSize: 32px;
 	border: 2px solid transparent;
 	outline: none;
 }
 
-ShareWidget QPushButton:hover {
+ShareButton:hover {
+	/*
 	background-color: black;
 	border: 2px solid lightblue;
 	border-radius: 6px;
+	*/
 }
 
-ShareWidget QPushButton:pressed {
-	background-color: lightblue;
-	border: 2px solid black;
+ShareButton:pressed {
+	background-color: black;
+	border: 2px solid lightblue;
+	border-radius: 6px;
 }
