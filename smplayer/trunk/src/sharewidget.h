@@ -47,6 +47,8 @@ public:
 	ShareWidget(QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~ShareWidget();
 
+	virtual void setVisible(bool visible);
+
 protected slots:
 	void donate();
 	void facebook();

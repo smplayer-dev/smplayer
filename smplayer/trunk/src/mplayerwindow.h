@@ -36,7 +36,6 @@ class QWidget;
 class QLabel;
 class QKeyEvent;
 class QTimer;
-class ShareWidget;
 
 #define ZOOM_STEP 0.05
 #define ZOOM_MIN 0.5
@@ -164,6 +163,9 @@ public:
 	bool animatedLogo() { return animated_logo; }
 #endif
 
+	void setCornerWidget(QWidget * w);
+	QWidget * cornerWidget() { return corner_widget; };
+
 public slots:
 	void setLogoVisible(bool b);
 	void showLogo() { setLogoVisible(true); };
@@ -242,9 +244,7 @@ protected:
 	bool animated_logo;
 #endif
 
-#ifdef SHAREWIDGET
-	ShareWidget * share_buttons;
-#endif
+	QWidget * corner_widget;
 
 private:
 	bool mouse_drag_tracking;

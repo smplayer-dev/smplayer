@@ -54,6 +54,7 @@ void ShareButton::leaveEvent(QEvent *) {
 }
 
 
+
 ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
 {
@@ -83,6 +84,11 @@ ShareWidget::ShareWidget(QWidget * parent, Qt::WindowFlags f)
 }
 
 ShareWidget::~ShareWidget() {
+}
+
+void ShareWidget::setVisible(bool visible) {
+	qDebug("ShareWidget::setVisible: %d", visible);
+	QWidget::setVisible(visible);
 }
 
 void ShareWidget::donate() {
