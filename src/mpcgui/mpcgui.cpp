@@ -51,8 +51,12 @@ MpcGui::MpcGui( QWidget * parent, Qt::WindowFlags flags )
 
 	if (pref->compact_mode) {
 		controlwidget->hide();
-        timeslidewidget->hide();
+		timeslidewidget->hide();
 	}
+
+#if ALLOW_CHANGE_STYLESHEET
+	changeStyleSheet(pref->iconset);
+#endif
 }
 
 MpcGui::~MpcGui() {

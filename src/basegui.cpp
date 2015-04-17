@@ -254,10 +254,6 @@ void BaseGui::initializeGui() {
 	if (pref->compact_mode) toggleCompactMode(true);
 	changeStayOnTop(pref->stay_on_top);
 
-#if ALLOW_CHANGE_STYLESHEET
-	changeStyleSheet(pref->iconset);
-#endif
-
 	updateRecents();
 
 	// Call loadActions() outside initialization of the class.
@@ -2935,9 +2931,9 @@ void BaseGui::applyNewPreferences() {
 	if (_interface->iconsetChanged()) { 
 		need_update_language = true;
 		// Stylesheet
-#if ALLOW_CHANGE_STYLESHEET
-		changeStyleSheet(pref->iconset);
-#endif
+		#if ALLOW_CHANGE_STYLESHEET
+		if (!_interface->guiChanged()) changeStyleSheet(pref->iconset);
+		#endif
 	}
 
 	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
@@ -5172,6 +5168,8 @@ QString BaseGui::loadQss(QString filename) {
 }
 
 void BaseGui::changeStyleSheet(QString style) {
+	qDebug("BaseGui::changeStyleSheet: %s", style.toUtf8().constData());
+
 	// Load default stylesheet
 	QString stylesheet = loadQss(":/default-theme/style.qss");
 
