@@ -102,6 +102,10 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 			floating_control->activate();
 		}
 	}
+
+#if ALLOW_CHANGE_STYLESHEET
+	changeStyleSheet(pref->iconset);
+#endif
 }
 
 DefaultGui::~DefaultGui() {
