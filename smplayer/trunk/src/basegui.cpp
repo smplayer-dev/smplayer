@@ -245,7 +245,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	QTimer::singleShot(2000, this, SLOT(checkIfUpgraded()));
 #endif
 
-#ifdef REMINDER_ACTIONS
+#if defined(REMINDER_ACTIONS) && !defined(SHAREWIDGET)
 	QTimer::singleShot(1000, this, SLOT(checkReminder()));
 #endif
 
@@ -4579,7 +4579,7 @@ void BaseGui::checkIfUpgraded() {
 }
 #endif
 
-#ifdef REMINDER_ACTIONS
+#if defined(REMINDER_ACTIONS) && !defined(SHAREWIDGET)
 void BaseGui::checkReminder() {
 	qDebug("BaseGui::checkReminder");
 
