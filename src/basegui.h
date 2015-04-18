@@ -225,7 +225,7 @@ protected slots:
 	void checkIfUpgraded();
 #endif
 
-#ifdef REMINDER_ACTIONS
+#if defined(REMINDER_ACTIONS) && !defined(SHAREWIDGET)
 	void checkReminder();
 #endif
 
