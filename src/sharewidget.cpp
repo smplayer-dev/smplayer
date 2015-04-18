@@ -100,8 +100,29 @@ void ShareWidget::setActionPerformed(int action) {
 }
 
 void ShareWidget::setVisible(bool visible) {
-	qDebug("ShareWidget::setVisible: %d", visible);
-	QWidget::setVisible(visible);
+	//qDebug("ShareWidget::setVisible: %d", visible);
+
+	if (!visible) {
+		QWidget::setVisible(false);
+	} else {
+		bool v = true;
+		set->beginGroup("reminder");
+		int value = set->value("action", 0).toInt();
+		int count = set->value("count", 0).toInt();
+		count++;
+		set->setValue("count", count);
+		set->endGroup();
+
+		if (value > 0) {
+			// User already clicked on a button
+			v = false;
+		} else {
+			// Display the buttons from time to time
+			if ((count % 5) != 1) v = false;
+		}
+
+		QWidget::setVisible(v);
+	}
 }
 
 void ShareWidget::donate() {
