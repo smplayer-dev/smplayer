@@ -69,11 +69,20 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 	fb_button->setToolTip(tr("Share SMPlayer with your friends in Facebook"));
 	twitter_button->setToolTip(tr("Share SMPlayer with your friends in Twitter"));
 
-	QHBoxLayout * layout = new QHBoxLayout(this);
-	layout->setSpacing(0);
-	layout->addWidget(donate_button);
-	layout->addWidget(fb_button);
-	layout->addWidget(twitter_button);
+	QPushButton * support_button = new QPushButton(tr("Support SMPlayer"), this);
+	support_button->setObjectName("support_button");
+	connect(support_button, SIGNAL(clicked()), this, SIGNAL(supportClicked()));
+
+	QHBoxLayout * hlayout = new QHBoxLayout;
+	hlayout->setSpacing(0);
+	hlayout->addWidget(donate_button);
+	hlayout->addWidget(fb_button);
+	hlayout->addWidget(twitter_button);
+
+	QVBoxLayout * vlayout = new QVBoxLayout(this);
+	vlayout->setSpacing(0);
+	vlayout->addLayout(hlayout);
+	vlayout->addWidget(support_button);
 
 	/*
 	setBackgroundRole(QPalette::Window);
@@ -101,7 +110,7 @@ void ShareWidget::setActionPerformed(int action) {
 
 void ShareWidget::setVisible(bool visible) {
 	//qDebug("ShareWidget::setVisible: %d", visible);
-
+#if 1
 	if (!visible) {
 		QWidget::setVisible(false);
 	} else {
@@ -123,6 +132,9 @@ void ShareWidget::setVisible(bool visible) {
 
 		QWidget::setVisible(v);
 	}
+#else
+	QWidget::setVisible(visible);
+#endif
 }
 
 void ShareWidget::donate() {

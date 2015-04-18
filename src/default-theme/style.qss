@@ -29,3 +29,25 @@ ShareButton:pressed {
 	border: 2px solid lightblue;
 	border-radius: 6px;
 }
+
+#support_button {
+	margin: 0px;
+	padding: 0px;
+	background-color: transparent;
+	color: white;
+	border: 2px solid transparent;
+	outline: none;
+	font-size: 12px;
+}
+
+#support_button:hover {
+	color: yellow;
+}
+
+#support_button:pressed {
+	background-color: lightblue;
+	color: black;
+	border: 2px solid lightblue;
+	border-radius: 6px;
+}
+

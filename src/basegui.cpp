@@ -2189,6 +2189,9 @@ void BaseGui::createMplayerWindow() {
 #ifdef SHAREWIDGET
 	ShareWidget * sharewidget = new ShareWidget(Global::settings, mplayerwindow);
 	mplayerwindow->setCornerWidget(sharewidget);
+	#ifdef REMINDER_ACTIONS
+	connect(sharewidget, SIGNAL(supportClicked()), this, SLOT(helpDonate()));
+	#endif
 #endif
 
 	QVBoxLayout * layout = new QVBoxLayout;

@@ -51,6 +51,9 @@ public:
 
 	virtual void setVisible(bool visible);
 
+signals:
+	void supportClicked();
+
 protected:
 	void setActionPerformed(int action);
 
