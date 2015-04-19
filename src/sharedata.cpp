@@ -31,7 +31,12 @@ QUrl ShareData::facebookUrl() {
 QUrl ShareData::twitterUrl() {
 	QString share_url = "http://smplayer.sourceforge.net";
 
+	/*
 	QString text = QObject::tr("SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.",
+					  "This text is to be published on twitter and the translation should not be more than 99 characters long");
+	*/
+
+	QString text = QObject::tr("SMPlayer is my favorite media player for my PC. Check it out!",
 					  "This text is to be published on twitter and the translation should not be more than 99 characters long");
 
 	qDebug("ShareData::twitterUrl: length: %d", text.length());
@@ -39,9 +44,11 @@ QUrl ShareData::twitterUrl() {
 		qDebug("ShareData::twitterUrl: the translation text is too long (%d), it shouldn't be longer than 99 characters. Using the English text.", text.length());
 		text = "SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.";
 	}
-	//text = text.replace("SMPlayer", "#SMPlayer");
+	text = text.replace("SMPlayer", "#SMPlayer");
+	text = text.replace("media player", "#mediaplayer");
 	text = QUrl::toPercentEncoding(text);
-	QString url = "http://twitter.com/intent/tweet?text=" + text + "&url=" + QUrl::toPercentEncoding(share_url) + "/&via=smplayer_dev"; 
+	QString url = "http://twitter.com/intent/tweet?text=" + text + "&url=" + QUrl::toPercentEncoding(share_url);
+	/* url += "/&via=smplayer_dev"; */
 	return QUrl::fromEncoded(url.toLatin1());
 }
 
