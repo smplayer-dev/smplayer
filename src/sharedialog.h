@@ -30,6 +30,8 @@ public:
 	~ShareDialog();
 
 	bool isRemindChecked();
+
+	void setActions(int a) { actions_taken = a; }
 	int actions() { return actions_taken; }
 
 	void showRemindCheck(bool b);

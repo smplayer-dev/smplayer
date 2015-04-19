@@ -62,6 +62,9 @@ class Favorites;
 class TVList;
 class UpdateChecker;
 
+#ifdef SHAREWIDGET
+class ShareWidget;
+#endif
 
 class BaseGui : public QMainWindow
 {
@@ -804,6 +807,10 @@ protected:
 
 #ifdef UPDATE_CHECKER
 	UpdateChecker * update_checker;
+#endif
+
+#ifdef SHAREWIDGET
+	ShareWidget * sharewidget;
 #endif
 
 	QStringList actions_list;
