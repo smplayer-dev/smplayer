@@ -2187,7 +2187,7 @@ void BaseGui::createMplayerWindow() {
 #endif
 
 #ifdef SHAREWIDGET
-	ShareWidget * sharewidget = new ShareWidget(Global::settings, mplayerwindow);
+	sharewidget = new ShareWidget(Global::settings, mplayerwindow);
 	mplayerwindow->setCornerWidget(sharewidget);
 	#ifdef REMINDER_ACTIONS
 	connect(sharewidget, SIGNAL(supportClicked()), this, SLOT(helpDonate()));
@@ -4179,15 +4179,24 @@ void BaseGui::helpShowConfig() {
 void BaseGui::helpDonate() {
 	ShareDialog d(this);
 	d.showRemindCheck(false);
+
+	#ifdef SHAREWIDGET
+	d.setActions(sharewidget->actions());
+	#endif
+
 	d.exec();
 	int action = d.actions();
 	qDebug("BaseGui::helpDonate: action: %d", action);
 
 	if (action > 0) {
+		#ifdef SHAREWIDGET
+		sharewidget->setActions(action);
+		#else
 		QSettings * set = Global::settings;
 		set->beginGroup("reminder");
 		set->setValue("action", action);
 		set->endGroup();
+		#endif
 	}
 }
 #endif

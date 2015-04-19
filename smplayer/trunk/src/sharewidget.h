@@ -51,6 +51,12 @@ public:
 
 	virtual void setVisible(bool visible);
 
+	void setActions(int a) { actions_taken = a; saveConfig(); }
+	int actions() { return actions_taken; }
+
+	void loadConfig();
+	void saveConfig();
+
 signals:
 	void supportClicked();
 
@@ -68,6 +74,8 @@ protected:
 	ShareButton * twitter_button;
 
 	QSettings * set;
+	int actions_taken;
+	int count;
 };
 
 #endif

@@ -58,6 +58,8 @@ void ShareButton::leaveEvent(QEvent *) {
 ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
 	, set(settings)
+	, actions_taken(0)
+	, count(0)
 {
 	donate_button = new ShareButton("paypal", tr("Donate with Paypal"), this);
 	fb_button = new ShareButton("social_facebook", tr("Share SMPlayer in Facebook"), this);
@@ -65,6 +67,7 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 
 	QPushButton * support_button = new QPushButton(tr("Support SMPlayer"), this);
 	support_button->setObjectName("support_button");
+	support_button->setToolTip(tr("Donate / Share SMPlayer with your friends"));
 	connect(support_button, SIGNAL(clicked()), this, SIGNAL(supportClicked()));
 
 	QHBoxLayout * hlayout = new QHBoxLayout;
@@ -87,19 +90,34 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 	connect(donate_button, SIGNAL(clicked()), this, SLOT(donate()));
 	connect(fb_button, SIGNAL(clicked()), this, SLOT(facebook()));
 	connect(twitter_button, SIGNAL(clicked()), this, SLOT(twitter()));
+
+	loadConfig();
 }
 
 ShareWidget::~ShareWidget() {
+	saveConfig();
+}
+
+void ShareWidget::loadConfig() {
+	if (set) {
+		set->beginGroup("reminder");
+		actions_taken = set->value("action", 0).toInt();
+		count = set->value("count", 0).toInt();
+		set->endGroup();
+	}
+}
+
+void ShareWidget::saveConfig() {
+	if (set) {
+		set->beginGroup("reminder");
+		set->setValue("action", actions_taken);
+		set->setValue("count", count);
+		set->endGroup();
+	}
 }
 
 void ShareWidget::setActionPerformed(int action) {
-	if (set) {
-		set->beginGroup("reminder");
-		int value = set->value("action", 0).toInt();
-		value |= action;
-		set->setValue("action", value);
-		set->endGroup();
-	}
+	actions_taken |= action;
 }
 
 void ShareWidget::setVisible(bool visible) {
@@ -110,17 +128,17 @@ void ShareWidget::setVisible(bool visible) {
 		QWidget::setVisible(false);
 	} else {
 		bool v = true;
-		set->beginGroup("reminder");
-		int value = set->value("action", 0).toInt();
-		int count = set->value("count", 0).toInt();
-		count++;
-		set->setValue("count", count);
-		set->endGroup();
 
-		if (value > 0) {
-			// User already clicked on a button
+		if (actions_taken == 7) {
+			// User already clicked all buttons
 			v = false;
 		} else {
+			if ((actions_taken & ShareData::Donate) > 0) donate_button->hide();
+			if ((actions_taken & ShareData::Facebook) > 0) fb_button->hide();
+			if ((actions_taken & ShareData::Twitter) > 0) twitter_button->hide();
+
+			count++;
+
 			// Display the buttons from time to time
 			if ((count % 5) != 1) v = false;
 		}
