@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="da">
 <context>
     <name>About</name>
     <message>
@@ -533,8 +535,8 @@ Vil du overskrive den?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1913"/>
-        <location filename="../basegui.cpp" line="3301"/>
-        <location filename="../basegui.cpp" line="3314"/>
+        <location filename="../basegui.cpp" line="3309"/>
+        <location filename="../basegui.cpp" line="3322"/>
         <source>&amp;None</source>
         <translation>&amp;Ingen</translation>
     </message>
@@ -750,43 +752,43 @@ Vil du overskrive den?</translation>
         <translation>Om &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3336"/>
-        <location filename="../basegui.cpp" line="3352"/>
-        <location filename="../basegui.cpp" line="3368"/>
-        <location filename="../basegui.cpp" line="3383"/>
-        <location filename="../basegui.cpp" line="3417"/>
-        <location filename="../basegui.cpp" line="3437"/>
-        <location filename="../basegui.cpp" line="3481"/>
+        <location filename="../basegui.cpp" line="3344"/>
+        <location filename="../basegui.cpp" line="3360"/>
+        <location filename="../basegui.cpp" line="3376"/>
+        <location filename="../basegui.cpp" line="3391"/>
+        <location filename="../basegui.cpp" line="3425"/>
+        <location filename="../basegui.cpp" line="3445"/>
+        <location filename="../basegui.cpp" line="3489"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tom&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3898"/>
+        <location filename="../basegui.cpp" line="3906"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3899"/>
-        <location filename="../basegui.cpp" line="4132"/>
+        <location filename="../basegui.cpp" line="3907"/>
+        <location filename="../basegui.cpp" line="4140"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3900"/>
+        <location filename="../basegui.cpp" line="3908"/>
         <source>Playlists</source>
         <translation>Spillelister</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3901"/>
-        <location filename="../basegui.cpp" line="4112"/>
-        <location filename="../basegui.cpp" line="4133"/>
+        <location filename="../basegui.cpp" line="3909"/>
+        <location filename="../basegui.cpp" line="4120"/>
+        <location filename="../basegui.cpp" line="4141"/>
         <source>All files</source>
         <translation>Alle filer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3896"/>
-        <location filename="../basegui.cpp" line="4109"/>
-        <location filename="../basegui.cpp" line="4130"/>
+        <location filename="../basegui.cpp" line="3904"/>
+        <location filename="../basegui.cpp" line="4117"/>
+        <location filename="../basegui.cpp" line="4138"/>
         <source>Choose a file</source>
         <translation>Vælg en fil</translation>
     </message>
@@ -801,59 +803,59 @@ Vil du overskrive den?</translation>
         <translation>&amp;Donér / Del med dine venner</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3948"/>
+        <location filename="../basegui.cpp" line="3956"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Information</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3949"/>
+        <location filename="../basegui.cpp" line="3957"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM- / DVD-drevene er endnu ikke sat op.
 Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4062"/>
+        <location filename="../basegui.cpp" line="4070"/>
         <source>Select the Blu-ray folder</source>
         <translation>Vælg Blu-ray mappen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4075"/>
+        <location filename="../basegui.cpp" line="4083"/>
         <source>Choose a directory</source>
         <translation>Vælg en mappe</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4111"/>
+        <location filename="../basegui.cpp" line="4119"/>
         <source>Subtitles</source>
         <translation>Undertekster</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4626"/>
+        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
         <translation>Desværre er openssl-komponenten, der er påkrævet, ikke tilgængelig på dit system.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4689"/>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Fejl registeret</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4690"/>
+        <location filename="../basegui.cpp" line="4707"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Desværre kan denne video ikke afspilles.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4878"/>
+        <location filename="../basegui.cpp" line="4895"/>
         <source>Playing %1</source>
         <translation>Afspiller %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4879"/>
+        <location filename="../basegui.cpp" line="4896"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4880"/>
+        <location filename="../basegui.cpp" line="4897"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1195,58 +1197,58 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>SMPlayer - MPlayer log</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4624"/>
+        <location filename="../basegui.cpp" line="4641"/>
         <source>Connection failed</source>
         <translation>Forbindelse mislykkedes</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4625"/>
+        <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Videoen du har anmodet om har brug for at åbne en HTTPS-forbindelse.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4627"/>
+        <location filename="../basegui.cpp" line="4644"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>Besøg venligst %1 for at vide hvordan dette problem rettes.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4628"/>
+        <location filename="../basegui.cpp" line="4645"/>
         <source>this link</source>
         <translation>dette link</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4638"/>
+        <location filename="../basegui.cpp" line="4655"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>På grund af ændringer i YouTube siden, kan denne video desværre ikke afspilles.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4645"/>
-        <location filename="../basegui.cpp" line="4653"/>
+        <location filename="../basegui.cpp" line="4662"/>
+        <location filename="../basegui.cpp" line="4670"/>
         <source>Problems with Youtube</source>
         <translation>Der er problemer med YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5434"/>
+        <location filename="../basegui.cpp" line="5464"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube-browseren er ikke installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5435"/>
+        <location filename="../basegui.cpp" line="5465"/>
         <source>Visit %1 to get it.</source>
         <translation>Besøg %1 for at hente den.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4641"/>
+        <location filename="../basegui.cpp" line="4658"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>På grund af ændringer i YouTube siden, kan video &apos;%1&apos; desværre ikke afspilles.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4647"/>
+        <location filename="../basegui.cpp" line="4664"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Vil du opdatere YouTube-koden. Det kan måske rette problemet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4655"/>
+        <location filename="../basegui.cpp" line="4672"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Måske en opdatering af SMPlayer kan afhjælpe problemet.</translation>
     </message>
@@ -1256,28 +1258,28 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>D&amp;el SMPlayer med dine venner</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3026"/>
-        <location filename="../basegui.cpp" line="3711"/>
+        <location filename="../basegui.cpp" line="3034"/>
+        <location filename="../basegui.cpp" line="3719"/>
         <source>Information</source>
         <translation>Information</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3027"/>
+        <location filename="../basegui.cpp" line="3035"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Du skal genstarte SMPlayer for at bruge den nye grafiske brugerflade.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3489"/>
+        <location filename="../basegui.cpp" line="3497"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Bekræft sletning - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3490"/>
+        <location filename="../basegui.cpp" line="3498"/>
         <source>Delete the list of recent files?</source>
         <translation>Slet listen over seneste filer?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3712"/>
+        <location filename="../basegui.cpp" line="3720"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>De nuværende værdier er blevet gemt for at blive brugt som standardværdier.</translation>
     </message>
@@ -1367,7 +1369,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>&amp;Kommandolinje indstillinger</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4152"/>
+        <location filename="../basegui.cpp" line="4160"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer kommandolinje indstillinger</translation>
     </message>
@@ -1382,37 +1384,37 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Nulstil video-equalizer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4691"/>
+        <location filename="../basegui.cpp" line="4708"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>Serveren returnerede &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5363"/>
         <source>MPlayer has finished unexpectedly.</source>
         <translation>MPlayer afsluttede uventet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5364"/>
         <source>Exit code: %1</source>
         <translation>Afslutningskode: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5353"/>
+        <location filename="../basegui.cpp" line="5383"/>
         <source>MPlayer failed to start.</source>
         <translation>MPlayer kunne ikke starte.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5354"/>
+        <location filename="../basegui.cpp" line="5384"/>
         <source>Please check the MPlayer path in preferences.</source>
         <translation>Kontroller stien til MPlayer i indstillinger.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5356"/>
+        <location filename="../basegui.cpp" line="5386"/>
         <source>MPlayer has crashed.</source>
         <translation>MPlayer er holdt op med at virke.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5357"/>
+        <location filename="../basegui.cpp" line="5387"/>
         <source>See the log for more info.</source>
         <translation>Se loggen for mere info.</translation>
     </message>
@@ -1457,7 +1459,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Vis genvejsmenu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3897"/>
+        <location filename="../basegui.cpp" line="3905"/>
         <source>Multimedia</source>
         <translation>Multimedie</translation>
     </message>
@@ -1534,22 +1536,22 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>&amp;Spor</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4540"/>
+        <location filename="../basegui.cpp" line="4557"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Advarsel - Bruger gammel MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4541"/>
+        <location filename="../basegui.cpp" line="4558"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Den version af MPlayer (%1) som er installeret på dit system er forældet. SMPlayer virker ikke godt med den, nogle indstillinger vil ikke virke, valg af undertekst vil måske mislykkes...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4546"/>
+        <location filename="../basegui.cpp" line="4563"/>
         <source>Please, update your MPlayer.</source>
         <translation>Opdater venligst din MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4548"/>
+        <location filename="../basegui.cpp" line="4565"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Denne advarsel vil ikke blive vist igen)</translation>
     </message>
@@ -1639,36 +1641,36 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Inds&amp;til forsinkelse...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4228"/>
+        <location filename="../basegui.cpp" line="4245"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Gå til:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4229"/>
+        <location filename="../basegui.cpp" line="4246"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Søg</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4240"/>
-        <location filename="../basegui.cpp" line="4244"/>
+        <location filename="../basegui.cpp" line="4257"/>
+        <location filename="../basegui.cpp" line="4261"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Lyd forsinkelse</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4241"/>
-        <location filename="../basegui.cpp" line="4245"/>
+        <location filename="../basegui.cpp" line="4258"/>
+        <location filename="../basegui.cpp" line="4262"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Lyd forsinkelse (i millisekunder):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4256"/>
-        <location filename="../basegui.cpp" line="4260"/>
+        <location filename="../basegui.cpp" line="4273"/>
+        <location filename="../basegui.cpp" line="4277"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Forsink undertekst</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4257"/>
-        <location filename="../basegui.cpp" line="4261"/>
+        <location filename="../basegui.cpp" line="4274"/>
+        <location filename="../basegui.cpp" line="4278"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Forsink undertekst (i millisekunder):</translation>
     </message>
@@ -1678,7 +1680,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Øverst til/fra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5024"/>
+        <location filename="../basegui.cpp" line="5041"/>
         <source>Jump to %1</source>
         <translation>Gå til %1</translation>
     </message>
@@ -2028,82 +2030,82 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="528"/>
+        <location filename="../defaultgui.cpp" line="532"/>
         <source>Welcome to SMPlayer</source>
         <translation>Velkommen til SMPlayer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="559"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>Subtitle</source>
         <translation>Undertekst</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="553"/>
+        <location filename="../defaultgui.cpp" line="557"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hovedværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="556"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Sprogværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="547"/>
+        <location filename="../defaultgui.cpp" line="551"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Værktøjslinjer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="587"/>
+        <location filename="../defaultgui.cpp" line="591"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="591"/>
+        <location filename="../defaultgui.cpp" line="595"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="550"/>
+        <location filename="../defaultgui.cpp" line="554"/>
         <source>Status&amp;bar</source>
         <translation>Status&amp;linje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="562"/>
+        <location filename="../defaultgui.cpp" line="566"/>
         <source>&amp;Video info</source>
         <translation>&amp;Video-info</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="563"/>
+        <location filename="../defaultgui.cpp" line="567"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Billedtæller</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="566"/>
+        <location filename="../defaultgui.cpp" line="570"/>
         <source>Edit main &amp;toolbar</source>
         <translation>&amp;Rediger hovedværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="567"/>
+        <location filename="../defaultgui.cpp" line="571"/>
         <source>Edit &amp;control bar</source>
         <translation>Rediger &amp;kommando panel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="568"/>
+        <location filename="../defaultgui.cpp" line="572"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Rediger m&amp;ini kontrol panel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="569"/>
+        <location filename="../defaultgui.cpp" line="573"/>
         <source>Edit &amp;floating control</source>
         <translation>Rediger &amp;flydende panel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="601"/>
+        <location filename="../defaultgui.cpp" line="605"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2572,7 +2574,10 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
+        <translation>
+            <numerusform>%n undertekst udpakket</numerusform>
+            <numerusform>%n undertekster udpakket</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2670,7 +2675,7 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -4165,17 +4170,17 @@ Vil du overskrive den?</translation>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="172"/>
+        <location filename="../minigui.cpp" line="176"/>
         <source>Control bar</source>
         <translation>Kontrollinje</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="175"/>
+        <location filename="../minigui.cpp" line="179"/>
         <source>Edit &amp;control bar</source>
         <translation>Rediger &amp;kommando panel</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="180"/>
         <source>Edit &amp;floating control</source>
         <translation>Rediger &amp;flydende kontrol</translation>
     </message>
@@ -4183,26 +4188,26 @@ Vil du overskrive den?</translation>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="149"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="153"/>
         <source>Control bar</source>
         <translation>Kontrollinje</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="150"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="154"/>
         <source>Seek bar</source>
         <translation>Søgelinje</translation>
-    </message>
-    <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="469"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="470"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
-        <source>-%1</source>
-        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="473"/>
         <location filename="../mpcgui/mpcgui.cpp" line="474"/>
         <location filename="../mpcgui/mpcgui.cpp" line="475"/>
+        <source>-%1</source>
+        <translation>-%1</translation>
+    </message>
+    <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="477"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="478"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="479"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -8648,13 +8653,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
+        <translation>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekunder</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minutter</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8729,6 +8740,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
         <translation>&apos;medier&apos; er alle slags filer som SMPlayer kan åbne. Det kan være en lokal fil, en DVD (eksempelvis dvd://1), en internet-stream (f.eks. mms://....) eller en lokal spilleliste i m3u-format eller pls-format.</translation>
     </message>
+    <message>
+        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
+        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
+        <translation type="obsolete">SMPlayer er en gratis medieafspiller til PC. Den afspiller alle formater og kan endda downloade YouTube-videoer.</translation>
+    </message>
+    <message>
+        <location filename="../sharedata.cpp" line="39"/>
+        <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
+        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>ShareDialog</name>
@@ -8743,20 +8765,47 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Påmind mig senere</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="31"/>
+        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
         <translation>Donér via PayPal</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="45"/>
+        <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Du kan støtte SMPlayer ved at sende en donation eller dele den med dine venner.</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="83"/>
         <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation>SMPlayer er en gratis medieafspiller til PC. Den afspiller alle formater og kan endda downloade YouTube-videoer.</translation>
+        <translation type="obsolete">SMPlayer er en gratis medieafspiller til PC. Den afspiller alle formater og kan endda downloade YouTube-videoer.</translation>
+    </message>
+</context>
+<context>
+    <name>ShareWidget</name>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with Paypal</source>
+        <translation type="unfinished">Donér via PayPal</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="65"/>
+        <source>Share SMPlayer in Facebook</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="66"/>
+        <source>Share SMPlayer in Twitter</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="68"/>
+        <source>Support SMPlayer</source>
+        <translation type="unfinished">Støt SMPlayer</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="70"/>
+        <source>Donate / Share SMPlayer with your friends</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8823,52 +8872,52 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>SkinGui</name>
     <message>
-        <location filename="../skingui/skingui.cpp" line="419"/>
+        <location filename="../skingui/skingui.cpp" line="391"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Værktøjslinjer</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="422"/>
+        <location filename="../skingui/skingui.cpp" line="394"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Statuslinje</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="425"/>
+        <location filename="../skingui/skingui.cpp" line="397"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hovedværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="429"/>
+        <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Edit main &amp;toolbar</source>
         <translation>&amp;Rediger hovedværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="431"/>
+        <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
         <translation>&amp;Rediger flydende kontroller</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="435"/>
+        <location filename="../skingui/skingui.cpp" line="407"/>
         <source>&amp;Video info</source>
         <translation>&amp;Video info</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="436"/>
+        <location filename="../skingui/skingui.cpp" line="408"/>
         <source>&amp;Scroll title</source>
         <translation>&amp;Rulletitel</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="447"/>
+        <location filename="../skingui/skingui.cpp" line="419"/>
         <source>Playing %1</source>
         <translation>Afspiller %1</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="448"/>
+        <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="449"/>
+        <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
