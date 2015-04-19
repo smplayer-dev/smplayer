@@ -30,7 +30,7 @@ class ShareButton : public QPushButton
 	Q_OBJECT
 
 public:
-	ShareButton(const QString icon_name, const QString & text, QWidget * parent = 0);
+	ShareButton(const QString icon_name, const QString & tooltip, QWidget * parent = 0);
 	~ShareButton() {};
 
 	QSize sizeHint() const;
@@ -62,7 +62,11 @@ protected slots:
 	void facebook();
 	void twitter();
 
-private:
+protected:
+	ShareButton * donate_button;
+	ShareButton * fb_button;
+	ShareButton * twitter_button;
+
 	QSettings * set;
 };
 

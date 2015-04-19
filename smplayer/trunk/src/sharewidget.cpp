@@ -20,7 +20,6 @@
 #include "sharedata.h"
 #include "images.h"
 
-#include <QPushButton>
 #include <QHBoxLayout>
 #include <QDesktopServices>
 #include <QSettings>
@@ -28,19 +27,18 @@
 #define SHAREBUTTON_MIN QSize(24,24)
 #define SHAREBUTTON_MAX QSize(32,32)
 
-ShareButton::ShareButton(const QString icon_name, const QString & text, QWidget * parent)
-	: QPushButton(text, parent)
+ShareButton::ShareButton(const QString icon_name, const QString & tooltip, QWidget * parent)
+	: QPushButton("", parent)
 {
 	setAttribute(Qt::WA_Hover, true);
 
 	setIconSize(SHAREBUTTON_MIN);
 	setIcon(Images::icon(icon_name));
-	
+	setToolTip(tooltip);
 }
 
 QSize ShareButton::sizeHint() const {
 	QSize s(SHAREBUTTON_MAX);
-//	s += QSize(6,6);
 	s += QSize(4,4);
 	return s;
 }
@@ -61,13 +59,9 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 	: QWidget(parent,f)
 	, set(settings)
 {
-	ShareButton * donate_button = new ShareButton("paypal", "", this);
-	ShareButton * fb_button = new ShareButton("social_facebook", "", this);
-	ShareButton * twitter_button = new ShareButton("social_twitter", "", this);
-
-	donate_button->setToolTip(tr("Donate with Paypal"));
-	fb_button->setToolTip(tr("Share SMPlayer with your friends in Facebook"));
-	twitter_button->setToolTip(tr("Share SMPlayer with your friends in Twitter"));
+	donate_button = new ShareButton("paypal", tr("Donate with Paypal"), this);
+	fb_button = new ShareButton("social_facebook", tr("Share SMPlayer in Facebook"), this);
+	twitter_button = new ShareButton("social_twitter", tr("Share SMPlayer in Twitter"), this);
 
 	QPushButton * support_button = new QPushButton(tr("Support SMPlayer"), this);
 	support_button->setObjectName("support_button");
@@ -110,6 +104,7 @@ void ShareWidget::setActionPerformed(int action) {
 
 void ShareWidget::setVisible(bool visible) {
 	//qDebug("ShareWidget::setVisible: %d", visible);
+
 #if 1
 	if (!visible) {
 		QWidget::setVisible(false);
