@@ -29,7 +29,7 @@ ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
 
 	donate_button->setIcon(Images::icon("paypal"));
 	donate_button->setIconSize(QSize(64,64));
-	donate_button->setText(tr("Donate with Paypal"));
+	donate_button->setText(tr("Donate with PayPal"));
 	donate_button->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
 
 	facebook_button->setIcon(Images::icon("social_facebook"));
