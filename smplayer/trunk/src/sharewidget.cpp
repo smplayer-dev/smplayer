@@ -61,7 +61,7 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 	, actions_taken(0)
 	, count(0)
 {
-	donate_button = new ShareButton("paypal", tr("Donate with Paypal"), this);
+	donate_button = new ShareButton("paypal", tr("Donate with PayPal"), this);
 	fb_button = new ShareButton("social_facebook", tr("Share SMPlayer in Facebook"), this);
 	twitter_button = new ShareButton("social_twitter", tr("Share SMPlayer in Twitter"), this);
 
