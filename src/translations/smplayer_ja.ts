@@ -800,7 +800,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1746"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>寄付 / 友人と共有(&amp;D)</translation>
+        <translation>寄付 / 友人に紹介(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3956"/>
@@ -830,9 +830,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>残念ながらそれに必要な openssl コンポーネントはお使いのシステムで利用できません。</translation>
+        <translation type="obsolete">残念ながらそれに必要な openssl コンポーネントはお使いのシステムで利用できません。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1207,6 +1206,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>要求したビデオは HTTPS 接続を開く必要があります。</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="4644"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>この問題を解決する方法については%1にアクセスしてください。</translation>
@@ -1255,7 +1259,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2014"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation>SMPlayer を友人に教える(&amp;H)</translation>
+        <translation>SMPlayer を友人に紹介(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3034"/>
@@ -4955,6 +4959,16 @@ Example: -flip -nosound</source>
         <translation>ファイルの種類の一覧</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>ファイルの種類</translation>
@@ -4985,9 +4999,8 @@ Example: -flip -nosound</source>
         <translation>選択しない</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;注意:&lt;/b&gt; (復元は Windows Vista では動作しません)。</translation>
+        <translation type="obsolete"> &lt;b&gt;注意:&lt;/b&gt; (復元は Windows Vista では動作しません)。</translation>
     </message>
 </context>
 <context>
@@ -8121,6 +8134,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>影</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>サイズ(&amp;Z):</translation>
@@ -8199,6 +8217,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>影(&amp;W):</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8364,9 +8387,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>カスタマイズ(&amp;M)...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>ASS ファイルにもスタイルを適用する</translation>
+        <translation type="obsolete">ASS ファイルにもスタイルを適用する</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8374,9 +8396,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>このオプションがチェックされている場合、上で定義されたスタイルは ASS 字幕にも適用されます。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>ASS ファイルにもスタイルを適用する(&amp;P)</translation>
+        <translation type="obsolete">ASS ファイルにもスタイルを適用する(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -8738,15 +8759,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&apos;media&apos; は SMPlayer が開けるあらゆるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u や pls のフォーマットのローカル プレイリストを受け付けます。</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer は PC 用のフリーなメディア プレーヤーです。あらゆるフォーマットを再生し、YouTube ビデオをダウンロードすることもできます。</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer は私のお気に入りの PC 用メディア プレーヤーです。試してみて!</translation>
     </message>
 </context>
 <context>
@@ -8762,47 +8778,50 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>後で通知する(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>PayPal で寄付する</translation>
+        <translation type="obsolete">PayPal で寄付する</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation>寄付やご友人との共有によって SMPlayer を支援することができます。</translation>
-    </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer は PC 用のフリーなメディア プレーヤーです。あらゆるフォーマットを再生し、YouTube ビデオをダウンロードすることもできます。</translation>
+        <translation>寄付やお友達への紹介によって SMPlayer を支援することができます。</translation>
     </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished">PayPal で寄付する</translation>
+        <translation type="obsolete">PayPal で寄付する</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Facebook で SMPlayer を紹介する</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="66"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation>Twitter で SMPlayer を紹介する</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="68"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">SMPlayer の支援</translation>
+        <translation>SMPlayer を支援してください</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="70"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>寄付したり SMPlayer をお友達に紹介したりしてください</translation>
     </message>
 </context>
 <context>

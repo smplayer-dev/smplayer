@@ -830,9 +830,8 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Undertekster</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>Desværre er openssl-komponenten, der er påkrævet, ikke tilgængelig på dit system.</translation>
+        <translation type="obsolete">Desværre er openssl-komponenten, der er påkrævet, ikke tilgængelig på dit system.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Videoen du har anmodet om har brug for at åbne en HTTPS-forbindelse.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -3272,7 +3276,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Kazakh</source>
-        <translation>Kashkisk</translation>
+        <translation>Kasakhisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="105"/>
@@ -3354,7 +3358,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="130"/>
         <source>Moldavian</source>
-        <translation>Moldavisk</translation>
+        <translation>Moldovisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="131"/>
@@ -3492,7 +3496,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="177"/>
         <source>Sundanese</source>
-        <translation>Sundansk</translation>
+        <translation>Sudansk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="178"/>
@@ -3585,7 +3589,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="197"/>
         <source>Uzbek</source>
-        <translation>Uzbekisk</translation>
+        <translation>Usbekisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="199"/>
@@ -3662,7 +3666,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="294"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation>Esperant, galicisk, maltesisk, tyrkisk</translation>
+        <translation>Esperanto, galicisk, maltesisk, tyrkisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="295"/>
@@ -3732,12 +3736,12 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="311"/>
         <source>Cyrillic Windows</source>
-        <translation>Kyrillisk, Windows</translation>
+        <translation>Kyrillisk Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="312"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Slaviske/centraleuropæiske, Windows</translation>
+        <translation>Slaviske/centraleuropæiske Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="313"/>
@@ -3828,7 +3832,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation>Gaelisk</translation>
+        <translation>Gælisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
@@ -4070,7 +4074,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="314"/>
         <source>Modern Greek Windows</source>
-        <translation>Moderne græsk, Windows</translation>
+        <translation>Moderne græsk Windows</translation>
     </message>
 </context>
 <context>
@@ -4956,6 +4960,16 @@ Eksempel: -flip -nosound</translation>
         <translation>Liste over alle filtyper</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Filtyper</translation>
@@ -4986,9 +5000,8 @@ Eksempel: -flip -nosound</translation>
         <translation>Markér ingen</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Bemærk:&lt;/b&gt; (Genskabelse virker ikke på Windows Vista).</translation>
+        <translation type="obsolete"> &lt;b&gt;Bemærk:&lt;/b&gt; (Genskabelse virker ikke på Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8122,6 +8135,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Skygge</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>Stø&amp;rrelse:</translation>
@@ -8200,6 +8218,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Sky&amp;gge:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8365,9 +8388,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Til&amp;pas...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Anvend også typografien til ass-filer</translation>
+        <translation type="obsolete">Anvend også typografien til ass-filer</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8375,9 +8397,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Hvis denne indstilling slået til, vil den stil der er defineret ovenfor også blive anvendt på ass-undertekster.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>A&amp;nvend også typografien til ass-filer</translation>
+        <translation type="obsolete">A&amp;nvend også typografien til ass-filer</translation>
     </message>
 </context>
 <context>
@@ -8741,15 +8762,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&apos;medier&apos; er alle slags filer som SMPlayer kan åbne. Det kan være en lokal fil, en DVD (eksempelvis dvd://1), en internet-stream (f.eks. mms://....) eller en lokal spilleliste i m3u-format eller pls-format.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer er en gratis medieafspiller til PC. Den afspiller alle formater og kan endda downloade YouTube-videoer.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer er min yndlings medieafspiller på min PC. Tjek den ud!</translation>
     </message>
 </context>
 <context>
@@ -8765,47 +8781,50 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Påmind mig senere</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Donér via PayPal</translation>
+        <translation type="obsolete">Donér via PayPal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Du kan støtte SMPlayer ved at sende en donation eller dele den med dine venner.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer er en gratis medieafspiller til PC. Den afspiller alle formater og kan endda downloade YouTube-videoer.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished">Donér via PayPal</translation>
+        <translation type="obsolete">Donér med PayPal</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Del SMPlayer på Facebook</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="66"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation>Del SMPlayer på Twitter</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="68"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Støt SMPlayer</translation>
+        <translation>Støt SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="70"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Donér / del SMPlayer med dine venner</translation>
     </message>
 </context>
 <context>

@@ -830,11 +830,6 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Altyazılar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Hata algılandı</translation>
@@ -1205,6 +1200,11 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>İstenen video HTTPS bağlantı açması gerekiyor.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4953,6 +4953,16 @@ Example: -flip -nosound</source>
         <translation>Dosya türleri listesi</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Dosya türleri</translation>
@@ -4983,9 +4993,8 @@ Example: -flip -nosound</source>
         <translation>Hiçbirini seçme</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>(sp)&lt;b&gt;Not:&lt;/b&gt; (Eski haline getirme Windows Vista&apos;da çalışmaz).</translation>
+        <translation type="obsolete">(sp)&lt;b&gt;Not:&lt;/b&gt; (Eski haline getirme Windows Vista&apos;da çalışmaz).</translation>
     </message>
 </context>
 <context>
@@ -8118,6 +8127,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Gölge</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Boyut:</translation>
@@ -8196,6 +8210,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>G&amp;ölge:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8361,9 +8380,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Özelleş&amp;tir...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Biçemi ass dosyalarına da uygula</translation>
+        <translation type="obsolete">Biçemi ass dosyalarına da uygula</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8371,9 +8389,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>&amp;Biçemi ass dosyalarına da uygula</translation>
+        <translation type="obsolete">&amp;Biçemi ass dosyalarına da uygula</translation>
     </message>
 </context>
 <context>
@@ -8754,9 +8771,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Beni sonra hatırla</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Paypal ile Bağış yap</translation>
+        <translation type="obsolete">Paypal ile Bağış yap</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8768,8 +8789,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">Paypal ile Bağış yap</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>

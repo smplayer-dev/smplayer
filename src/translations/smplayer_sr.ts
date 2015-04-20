@@ -831,9 +831,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Превод</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>Нажалост openssl компонента, која је потребна, није доступна на вашем систему.</translation>
+        <translation type="obsolete">Нажалост openssl компонента, која је потребна, није доступна на вашем систему.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1206,6 +1205,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Овај видео захтева отварање HTTPS везе.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4958,6 +4962,16 @@ Example: -flip -nosound</source>
         <translation>Попис  врста фајлова</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Врсте фајлова</translation>
@@ -4988,9 +5002,8 @@ Example: -flip -nosound</source>
         <translation>Одабери ништа</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Напомена:&lt;/b&gt; (Враћање не ради на Windows Vistа).</translation>
+        <translation type="obsolete"> &lt;b&gt;Напомена:&lt;/b&gt; (Враћање не ради на Windows Vistа).</translation>
     </message>
 </context>
 <context>
@@ -8128,6 +8141,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Сенка</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>Ве&amp;личина:</translation>
@@ -8206,6 +8224,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Сен&amp;ка:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8371,9 +8394,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Прила&amp;годи...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Примени изглед и на ass фајлове</translation>
+        <translation type="obsolete">Примени изглед и на ass фајлове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8381,9 +8403,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ако је ова могућност одабрана, изглед одређен изнад биће примењен и на ass преводе.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>П&amp;римени изглед и на ass фајлове</translation>
+        <translation type="obsolete">П&amp;римени изглед и на ass фајлове</translation>
     </message>
 </context>
 <context>
@@ -8749,11 +8770,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&apos;медиј&apos; је било која врста фајла коју СМПлејер може репродуковати. Може бити локални фајл, ДВД (нпр. двд://1), интернет стрим (нпр. mms://...) или локална плејлиста у формату &apos;m3u&apos; или &apos;pls&apos;.  </translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">СМПлејер је бесплатан медија плејер за ваш рачунар. Он емитује све формате и може чак преузети Youtube видео.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8773,27 +8789,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Подсети ме касније</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Донирај са Paypal</translation>
+        <translation type="obsolete">Донирај са Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Можете подржати СМПлејер слањем донације или дељењем са својим пријатељима.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">СМПлејер је бесплатан медија плејер за ваш рачунар. Он емитује све формате и може чак преузети Youtube видео.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">Донирај са Paypal</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
