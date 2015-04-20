@@ -830,9 +830,8 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Legendas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>Infelizmente, o componente necessário (openssl) não está disponível no seu sistema.</translation>
+        <translation type="obsolete">Infelizmente, o componente necessário (openssl) não está disponível no seu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>O vídeo soliticado requer uma ligação HTTPS.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4956,6 +4960,16 @@ Exemplo: -flip -nosound</translation>
         <translation>Lista do tipo de ficheiros</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Tipo de ficheiros</translation>
@@ -4986,9 +5000,8 @@ Exemplo: -flip -nosound</translation>
         <translation>Desmarcar todos</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>&lt;b&gt;Nota:&lt;/b&gt; (o restauro não funciona no Windows Vista).</translation>
+        <translation type="obsolete">&lt;b&gt;Nota:&lt;/b&gt; (o restauro não funciona no Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8121,6 +8134,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sombra</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Tamanho:</translation>
@@ -8199,6 +8217,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Som&amp;bra:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8364,9 +8387,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Perso&amp;nalizar...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Aplicar estilo aos ficheiros ass</translation>
+        <translation type="obsolete">Aplicar estilo aos ficheiros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8374,9 +8396,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Se ativar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>A&amp;plicar estilo a ficheiros ass</translation>
+        <translation type="obsolete">A&amp;plicar estilo a ficheiros ass</translation>
     </message>
 </context>
 <context>
@@ -8740,15 +8761,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>multimédia é qualquer tipo de ficheiro que o SMPlayer consiga abrir. Pode ser um ficheiro local, um DVD (ex. dvd://1), uma emissão web (ex. mms://....) ou uma lista de reprodução no formato m3u ou pls.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">O SMPlayer é um reprodutor multimédia para PC. Reproduz todos os formatos multimédia e consegue transferir os vídeos Youtube.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>O SMPlayer é o meu reprodutor multimédia preferido. Veja-o!</translation>
     </message>
 </context>
 <context>
@@ -8764,47 +8780,50 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lemb&amp;rar mais tarde</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Donativos com Paypal</translation>
+        <translation type="obsolete">Donativos com Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Pode ajudar no desenvolvimento do SMPlayer fazendo um donativo ou publicitando-o aos seu amigos.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">O SMPlayer é um reprodutor multimédia para PC. Reproduz todos os formatos multimédia e consegue transferir os vídeos Youtube.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished">Donativos com Paypal</translation>
+        <translation type="obsolete">Donativos com Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicitar o SMPlayer no Facebook</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="66"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation>Publicitar o SMPlayer no Twitter</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="68"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Ajudar o SMPlayer</translation>
+        <translation>Ajudar o SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="70"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Doar/Publicitar o SMPlayer com os seus amigos</translation>
     </message>
 </context>
 <context>
@@ -8941,42 +8960,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lado a lado paralelo (olho esquerdo à esquerda, olho direito à direita)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lado a lado cruzado (olho direito à esquerda, olho esquerdo à direita)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lado a lado com resolução de meia largura (olho esquerdo à esquerda, olho direito à direita)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Lado a lado com resolução de meia largura (olho direito à esquerda, olho esquerdo à direita)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Acima-Abaixo (olho esquerdo em cima, olho direito em baixo)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Acima-Abaixo (olho direito em cima, olho esquerdo em baixo)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Acima-Abaixo com resolução de meia largura (olho esquerdo acima, olho direito abaixo)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Acima-Abaixo com resolução de meia largura (olho direito acima, olho esquerdo abaixo)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>

@@ -830,11 +830,6 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Subtitrai</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Aptikta klaida</translation>
@@ -1204,6 +1199,11 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4955,6 +4955,16 @@ Example: -flip -nosound</source>
         <translation>Failų tipų sąrašas</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Failų tipai</translation>
@@ -4985,9 +4995,8 @@ Example: -flip -nosound</source>
         <translation>Nepažymėti nei vieno</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Pastaba:&lt;/b&gt; Susiejimų atstatymas neveikia su Windows Vista.</translation>
+        <translation type="obsolete"> &lt;b&gt;Pastaba:&lt;/b&gt; Susiejimų atstatymas neveikia su Windows Vista.</translation>
     </message>
 </context>
 <context>
@@ -8120,6 +8129,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Šešėlis</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>D&amp;ydis:</translation>
@@ -8198,6 +8212,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>&amp;Šešėlis:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8363,9 +8382,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Modifikuoti...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Pritaikyti stilių taip pat ir &lt;i&gt;ass&lt;/i&gt; failams</translation>
+        <translation type="obsolete">Pritaikyti stilių taip pat ir &lt;i&gt;ass&lt;/i&gt; failams</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8373,9 +8391,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Jei pažymėta, pasirinktas stilius bus pritaikytas taip pat ir ass formato subtitrams.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>&amp;Pritaikyti stilių taip pat ir ass failams</translation>
+        <translation type="obsolete">&amp;Pritaikyti stilių taip pat ir ass failams</translation>
     </message>
 </context>
 <context>
@@ -8741,11 +8758,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>„media“ yra betkokios rūšies failas kurį SMPlayer gali atverti. Tai gali būti vietinis failas pvz. DVD (dvd://1), interneto srautas (pvz. mms://....) arba vietinis grojaraštis, m3u ar pls formatu.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer nemokamas media grotuvas jūsų kompiuteriui. Jis atkuria visus formatus ir netgi parsiunčia video iš Youtube.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8765,27 +8777,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Priminkite vėliau</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Paaukoti per Paypal</translation>
+        <translation type="obsolete">Paaukoti per Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Galite padėti SMPlayer projektui, paaukodami arba pasidalindami juo su draugais.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer nemokamas media grotuvas jūsų kompiuteriui. Jis atkuria visus formatus ir netgi parsiunčia video iš Youtube.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">Paaukoti per Paypal</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>

@@ -943,11 +943,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="obsolete">За Qt</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation type="unfinished"></translation>
@@ -1322,6 +1317,11 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5161,6 +5161,16 @@ Example: -flip -nosound</source>
         <translation>Листа на датотечни типови</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Типови на датотеки</translation>
@@ -5191,9 +5201,8 @@ Example: -flip -nosound</source>
         <translation>Не одбирај</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Напомена:&lt;/b&gt; (Реставрацијата не работи на Windows Vista).</translation>
+        <translation type="obsolete"> &lt;b&gt;Напомена:&lt;/b&gt; (Реставрацијата не работи на Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8430,6 +8439,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation type="unfinished"></translation>
@@ -8507,6 +8521,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8633,18 +8652,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
-        <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
-        <source>A&amp;pply style to ass files too</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9080,7 +9089,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="32"/>
-        <source>Donate with Paypal</source>
+        <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -9093,7 +9102,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
+        <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

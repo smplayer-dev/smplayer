@@ -830,9 +830,8 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <translation>Napisy</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>Niestety, wymagany składnik openssl, nie jest dostępny w systemie.</translation>
+        <translation type="obsolete">Niestety, wymagany składnik openssl, nie jest dostępny w systemie.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Żądane wideo musi otworzyć połączenie HTTPS.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4958,6 +4962,16 @@ Przykład: -flip -nosound</translation>
         <translation>Lista rodzajów plików</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Rodzaj plików</translation>
@@ -4988,9 +5002,8 @@ Przykład: -flip -nosound</translation>
         <translation>Nie wybieraj nic</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;br&gt;Notka:&lt;/b&gt; (Przywrócenie nie działa w Windows Vista).</translation>
+        <translation type="obsolete"> &lt;br&gt;Notka:&lt;/b&gt; (Przywrócenie nie działa w Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8124,6 +8137,11 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Cień</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>Ro&amp;zmiar:</translation>
@@ -8202,6 +8220,11 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Cień (&amp;w):</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8367,9 +8390,8 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Dostosuj (&amp;m)...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Zastosuj styl również dla plików ASS</translation>
+        <translation type="obsolete">Zastosuj styl również dla plików ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8377,9 +8399,8 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>Jeśli ta opcja zostanie zaznaczona, styl wybrany powyżej zostanie zastosowany również dla napisów ass.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>Zastosuj style również dla &amp;plików ASS</translation>
+        <translation type="obsolete">Zastosuj style również dla &amp;plików ASS</translation>
     </message>
 </context>
 <context>
@@ -8745,11 +8766,6 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>&apos;media&apos; to każdy plik, który SMPlayer jest w stanie otworzyć. Może to być plik lokalny, DVD (np. dvd://1), strumień internetowy (np. mms://1) lub lista odtwarzania w formacie m3u lub pls.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer to darmowy odtwarzacz mediów dla komputerów PC. Odtwarza wszelkie formaty i potrafi nawet pobierać filmy z Youtube.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8769,27 +8785,30 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
         <translation>P&amp;rzypomnij mi później</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Wpłać za pomocą PayPal</translation>
+        <translation type="obsolete">Wpłać za pomocą PayPal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Możesz wesprzeć SMPlayer wysyłając darowiznę lub udostępniając go twoim przyjaciołom.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer to darmowy odtwarzacz mediów dla komputerów PC. Odtwarza wszelkie formaty i potrafi nawet pobierać filmy z Youtube.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished">Wpłać za pomocą PayPal</translation>
+        <translation type="obsolete">Wpłać za pomocą PayPal</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
@@ -8804,7 +8823,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../sharewidget.cpp" line="68"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Wesprzyj SMPlayer</translation>
+        <translation>Wesprzyj SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="70"/>
@@ -9056,7 +9075,7 @@ Do tłumaczy: nie tłumacz tego tekstu, będzie on zastąpiony innym w czasie pr
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Brak</translation>
     </message>
 </context>
 <context>

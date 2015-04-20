@@ -830,9 +830,8 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Sous-titres</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>Malheureusement, la librairie openssl est requise pour cela et n’a pas été trouvé sur votre système.</translation>
+        <translation type="obsolete">Malheureusement, la librairie openssl est requise pour cela et n’a pas été trouvé sur votre système.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>La vidéo que vous demandez nécessite d’établir une connexion HTTPS.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4956,6 +4960,16 @@ Exemple : « -flip -nosound »</translation>
         <translation>Liste des types de fichiers</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Types de fichiers</translation>
@@ -4986,9 +5000,8 @@ Exemple : « -flip -nosound »</translation>
         <translation>Sélectionner aucun</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Note :&lt;/b&gt; (La restauration ne marche pas sous Windows Vista).</translation>
+        <translation type="obsolete"> &lt;b&gt;Note :&lt;/b&gt; (La restauration ne marche pas sous Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8124,6 +8137,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ombre</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>Ta&amp;ille :</translation>
@@ -8202,6 +8220,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>O&amp;mbres :</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8367,9 +8390,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Personnalise&amp;r...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Appliquer aussi le style aux fichiers ASS</translation>
+        <translation type="obsolete">Appliquer aussi le style aux fichiers ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8377,9 +8399,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Si cette option est activée, le style défini au-dessus sera aussi appliqué aux sous-titres ASS.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>A&amp;ppliquer aussi le style aux fichiers ASS</translation>
+        <translation type="obsolete">A&amp;ppliquer aussi le style aux fichiers ASS</translation>
     </message>
 </context>
 <context>
@@ -8743,11 +8764,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>« media » est n&apos;importe quel fichier que SMPlayer peut ouvrir. Cela peut être un fichier local, un DVD (ex :  dvd://1), un flux internet (ex : mms://…) ou une liste de lecture locale au format M3U ou PLS. Si l&apos;option « -playlist » est utilisée, cela veut dire que SMPlayer donnera l&apos;option « -playlist » à MPlayer, alors MPlayer comprendra la liste de lecture, non pas SMPlayer.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer est un lecteur multimédia libre pour PC. Il joue tous les formats vidéos et peut même télécharger les vidéos Youtube.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8767,27 +8783,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Me le &amp;rappeler plus tard</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Donner avec Paypal</translation>
+        <translation type="obsolete">Donner avec Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Vous pouvez soutenir SMPlayer en envoyant un don ou en le partageant avec vos amis.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer est un lecteur multimédia libre pour PC. Il joue tous les formats vidéos et peut même télécharger les vidéos Youtube.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">Donner avec Paypal</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>

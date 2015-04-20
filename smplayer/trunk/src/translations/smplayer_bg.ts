@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
+        <translation>Кликнете тук, за да видите преводачите от екипите на Transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -830,9 +830,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">За съжаление изискваният компонент openssl, не е наличен за Вашата система.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>Видеото, което поръчахте, изисква отварянето на HTTPS връзка.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4422,7 +4426,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>Потвърдете изтриване</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
@@ -4432,12 +4436,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"></translation>
+        <translation>Това действие не може да бъде върнато. Сигурни ли сте, че искате до продължите?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1354"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Изтриването се провали</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
@@ -4447,7 +4451,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Грешка при изтриването на файла</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
@@ -4958,6 +4962,16 @@ Example: -flip -nosound</source>
         <translation>Списък с видове файлове</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Типове файл</translation>
@@ -4988,9 +5002,8 @@ Example: -flip -nosound</source>
         <translation>Няма избран</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>&lt;b&gt;Бележка:&lt;/b&gt; (Възстановяването не работи при Windows Vista).</translation>
+        <translation type="obsolete">&lt;b&gt;Бележка:&lt;/b&gt; (Възстановяването не работи при Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -7490,7 +7503,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="78"/>
         <source>Enabled</source>
-        <translation>Включено</translation>
+        <translation>Активиран</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="79"/>
@@ -7500,7 +7513,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
-        <translation>Пропускане само на HD видеоклипове</translation>
+        <translation>Пропускане само за HD видеа</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="244"/>
@@ -8123,6 +8136,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Сянка</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Размер:</translation>
@@ -8201,6 +8219,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Сянк&amp;а:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8366,9 +8389,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Моде&amp;лиране...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Прилагане на стила и върху ASS файлове</translation>
+        <translation type="obsolete">Прилагане на стила и върху ASS файлове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8376,9 +8398,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Ако тази опция е отметната, гореопределения стил ще се прилага и за ASS субтитри.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>Прила&amp;гане на стила и върху ASS файлове</translation>
+        <translation type="obsolete">Прила&amp;гане на стила и върху ASS файлове</translation>
     </message>
 </context>
 <context>
@@ -8742,11 +8763,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>„медия“ е всеки вид файл, който SMPlayer може да отвори. Може да бъде местен файл, DVD (напр. dvd://1), интернет поток (напр. mms://...) или местен списък във формат m3u или pls.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer е безплатен медиен плейър за PC. Възпроизвежда всички формати и дори изтегля Youtube видеа.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8766,27 +8782,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Напомни ми по-късно</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Дарение с Paypal</translation>
+        <translation type="obsolete">Дарение с Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Можете да подкрепите SMPlayer, като го споделите с приятели или направите дарение.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer е безплатен медиен плейър за PC. Възпроизвежда всички формати и дори изтегля Youtube видеа.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">Дарение с Paypal</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
@@ -8829,12 +8844,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Добави пряка връзка</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"></translation>
+        <translation>Премахни пряка връзка</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -8943,42 +8958,42 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Успоредно едно до друго (лявото око наляво, дясното - надясно)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Кръстосани едно до друго (дясното око наляво, лявото - надясно)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Едно до друго с половин покриване (лявото око наляво, дясното - надясно)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Едно до друго с половин покриване (дясното око наляво, лявото - надясно)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Отгоре-надолу (лявото око отгоре, дясното - отдолу)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Отгоре-надолу (дясното око отгоре, лявото - отдолу)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Отгоре-надолу с половин покриване (лявото око отгоре, дясното - отдолу)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>Отгоре-надолу с половин покриване (дясното око отгоре, лявото - отдолу)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>

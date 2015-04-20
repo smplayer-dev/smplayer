@@ -830,11 +830,6 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Các phụ đề</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Lỗi được tìm thấy</translation>
@@ -1204,6 +1199,11 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4952,6 +4952,16 @@ Example: -flip -nosound</source>
         <translation>Liệt kê mọi loại tập tin</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Các loại tập tin</translation>
@@ -4982,9 +4992,8 @@ Example: -flip -nosound</source>
         <translation>Không chọn gì</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>&lt;b&gt;Ghi chú:&lt;/b&gt; (Phục hổi không hoạt động với Windows Vista).</translation>
+        <translation type="obsolete">&lt;b&gt;Ghi chú:&lt;/b&gt; (Phục hổi không hoạt động với Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8120,6 +8129,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Bóng đổ</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>&amp;Kích cỡ:</translation>
@@ -8198,6 +8212,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Bón&amp;g đổ:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8363,9 +8382,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Tùy b&amp;iến...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Áp dụng kiểu cho các tập tin ass nữa</translation>
+        <translation type="obsolete">Áp dụng kiểu cho các tập tin ass nữa</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8373,9 +8391,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Nếu như lựa chọn này được đánh dấu, kiểu được định nghĩa trên sẽ được áp dụng cho cả các phụ đề dạng ass nữa.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>Á&amp;p dụng kiểu cho các tập tin ass nữa</translation>
+        <translation type="obsolete">Á&amp;p dụng kiểu cho các tập tin ass nữa</translation>
     </message>
 </context>
 <context>
@@ -8757,7 +8774,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="32"/>
-        <source>Donate with Paypal</source>
+        <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8770,7 +8787,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
+        <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

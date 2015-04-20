@@ -830,9 +830,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>الترجمات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>للأسف المكون openssl، و الضروري لهذا، غير متوفر في نظامك.</translation>
+        <translation type="obsolete">للأسف المكون openssl، و الضروري لهذا، غير متوفر في نظامك.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>الفيديو الذي طلبته يحتاج الى اتصال HTTPS آمن.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4963,6 +4967,16 @@ Example: -flip -nosound</source>
         <translation>لائحة بأنواع الملفات</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>أنواع الملفات</translation>
@@ -4993,9 +5007,8 @@ Example: -flip -nosound</source>
         <translation>لا تختر شيئاً</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>&lt;b&gt;ملاحظة:&lt;/b&gt; لا يمكن استعادة أنواع الملفات في Windows Vista.</translation>
+        <translation type="obsolete">&lt;b&gt;ملاحظة:&lt;/b&gt; لا يمكن استعادة أنواع الملفات في Windows Vista.</translation>
     </message>
 </context>
 <context>
@@ -8129,6 +8142,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>ظِلّ</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>ال&amp;قياس:</translation>
@@ -8207,6 +8225,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>&amp;ظِلّ:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8372,9 +8395,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>خ&amp;صّص...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>طبِّق الطراز على ملفات ass أيضاً</translation>
+        <translation type="obsolete">طبِّق الطراز على ملفات ass أيضاً</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8382,9 +8404,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>اذا أُشِّر هذا الخيار، فإن الطراز المعرَّف في أعلاه سيُطبَّق على ترجمات ass أيضاً.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>طبِّق الطراز عل&amp;ى ملفات ass أيضاً</translation>
+        <translation type="obsolete">طبِّق الطراز عل&amp;ى ملفات ass أيضاً</translation>
     </message>
 </context>
 <context>
@@ -8756,11 +8777,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>تمثل &quot;وسائط&quot; أي نوع من الملفات يستطيع SMPlayer فتحه. يمكن أن تكون ملفاً محلياً أو قرص DVD (مثل dvd://1) أو دفقاً من الإنترنت (مثل mms://...) أو قائمة تشغيل محلية بصيغة m3u أو pls.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer مشغل وسائط مجاني للحاسوب، يُشغّل كل صيغ الوسائط ويمكنه تنزيل مقاطع الفيديو من YouTube.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8780,27 +8796,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;ذكّرني لاحقاً</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>تبرّع بإستخدام Paypal</translation>
+        <translation type="obsolete">تبرّع بإستخدام Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>بإمكانك دعم SMPlayer بإرسال تبرّع أو بمشاركته مع أصدقاءك.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer مشغل وسائط مجاني للحاسوب، يُشغّل كل صيغ الوسائط ويمكنه تنزيل مقاطع الفيديو من YouTube.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">تبرّع بإستخدام Paypal</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>

@@ -830,9 +830,8 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Subtítulos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>Lamentablemente el componente openssl, que es necesario para ello, no se encuentra en tu sistema.</translation>
+        <translation type="obsolete">Lamentablemente el componente openssl, que es necesario para ello, no se encuentra en tu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>El vídeo que has solicitado necesita abrir una conexión HTTPS.</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation>Lamentablemente el componente OpenSSL, que es necesario para ello, no se encuentra en tu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4956,6 +4960,16 @@ Ejemplo: -flip -nosound</translation>
         <translation>Lista de tipos de ficheros</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation>Nota:</translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation>No es posible recuperar las asociaciones previas en Windows Vista.</translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Tipos de ficheros</translation>
@@ -4986,9 +5000,8 @@ Ejemplo: -flip -nosound</translation>
         <translation>No seleccionar ninguno</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Nota:&lt;/b&gt; (No es posible recuperar las asociaciones previas en Windows Vista).</translation>
+        <translation type="obsolete"> &lt;b&gt;Nota:&lt;/b&gt; (No es posible recuperar las asociaciones previas en Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8122,6 +8135,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Sombra</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation>Aplicar el estilo también a ficheros ASS</translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>Tamañ&amp;o:</translation>
@@ -8200,6 +8218,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>So&amp;mbra:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation>Aplicar el estilo también a &amp;ficheros ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8365,9 +8388,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Personali&amp;zar...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>Aplicar el estilo también a ficheros ass</translation>
+        <translation type="obsolete">Aplicar el estilo también a ficheros ass</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8375,9 +8397,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Si se activa esta opción, el estilo definido arriba se aplicará también a subtítulos ass.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>Aplicar el estilo también a &amp;ficheros ass</translation>
+        <translation type="obsolete">Aplicar el estilo también a &amp;ficheros ass</translation>
     </message>
 </context>
 <context>
@@ -8741,11 +8762,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&apos;medio&apos; es cualquier tipo de archivo que SMPlayer pueda abrir. Puede ser un fichero local, un DVD (p.e. dvd://1), un stream de internet (p.e mms://....) o una lista de reproduccón local en formato m3u o pls.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos, no necesita códecs.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8765,27 +8781,30 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Recordármelo más tarde</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Donar con Paypal</translation>
+        <translation type="obsolete">Donar con Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation>Donar con PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>Puedes ayudar a mejorar SMPlayer enviando un donativo o recomendándolo a tus amigos.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer es un reproductor multimedia gratuito. Reproduce todos los formatos, no necesita códecs.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
         <source>Donate with Paypal</source>
-        <translation>Donar con Paypal</translation>
+        <translation type="obsolete">Donar con Paypal</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with PayPal</source>
+        <translation>Donar con PayPal</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>

@@ -830,11 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>檢測到錯誤</translation>
@@ -1204,6 +1199,11 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4953,6 +4953,16 @@ Example: -flip -nosound</source>
         <translation>檔案類型清單</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>檔案類型</translation>
@@ -4983,9 +4993,8 @@ Example: -flip -nosound</source>
         <translation>全部不選</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>&lt;b&gt;注意：&lt;/b&gt;(還原無法在 Windows Vista 上使用)。</translation>
+        <translation type="obsolete">&lt;b&gt;注意：&lt;/b&gt;(還原無法在 Windows Vista 上使用)。</translation>
     </message>
 </context>
 <context>
@@ -8119,6 +8128,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>陰影</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>大小(&amp;Z)：</translation>
@@ -8197,6 +8211,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>陰影(&amp;W)：</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8362,9 +8381,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>自訂(&amp;M)...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>也套用樣式到 ass 檔</translation>
+        <translation type="obsolete">也套用樣式到 ass 檔</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8372,9 +8390,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>如果勾選此選項，上面定義的樣式也將被套用到 ASS 字幕。</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>也套用樣式到 ass 檔(&amp;P)</translation>
+        <translation type="obsolete">也套用樣式到 ass 檔(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -8736,11 +8753,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer 是一個用於 PC 的免費多媒體播放器。支援播放所有影音格式，甚至夠能下載 YouTube 影片。</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
@@ -8760,27 +8772,26 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>稍後提醒我(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>使用 Paypal 贊助金錢</translation>
+        <translation type="obsolete">使用 Paypal 贊助金錢</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>您可以透過贊助金錢或與您的朋友分享 SMPlayer 這個軟體來支持它。</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer 是一個用於 PC 的免費多媒體播放器。支援播放所有影音格式，甚至夠能下載 YouTube 影片。</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
-        <translation type="unfinished">使用 Paypal 贊助金錢</translation>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>

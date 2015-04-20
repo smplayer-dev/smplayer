@@ -830,11 +830,6 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <translation>Subtiitrid</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation type="unfinished"></translation>
@@ -1204,6 +1199,11 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4954,6 +4954,16 @@ Example: -flip -nosound</source>
         <translation>Failitüüpide list</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>Faili tüübid</translation>
@@ -4984,9 +4994,8 @@ Example: -flip -nosound</source>
         <translation>Vali mitte midagi</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation> &lt;b&gt;Note:&lt;/b&gt; (Taastamine ei tööta WIndows Vista all).</translation>
+        <translation type="obsolete"> &lt;b&gt;Note:&lt;/b&gt; (Taastamine ei tööta WIndows Vista all).</translation>
     </message>
 </context>
 <context>
@@ -8120,6 +8129,11 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation>Vari</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>Su&amp;urus:</translation>
@@ -8198,6 +8212,11 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>Var&amp;i:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8363,18 +8382,8 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
         <translation>Kohan&amp;da...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
-        <source>Apply style to ass files too</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
-        <source>A&amp;pply style to ass files too</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -8759,7 +8768,7 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="32"/>
-        <source>Donate with Paypal</source>
+        <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8772,7 +8781,7 @@ Tõlkijatele: ära tõlgi seda teksti, see asendatakse teise runtimega.</transla
     <name>ShareWidget</name>
     <message>
         <location filename="../sharewidget.cpp" line="64"/>
-        <source>Donate with Paypal</source>
+        <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

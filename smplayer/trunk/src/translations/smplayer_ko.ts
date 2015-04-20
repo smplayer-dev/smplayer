@@ -830,9 +830,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation>유감스럽게도 필요한 openssl 컴포넌트가 시스템에 없습니다.</translation>
+        <translation type="obsolete">유감스럽게도 필요한 openssl 컴포넌트가 시스템에 없습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4706"/>
@@ -1205,6 +1204,11 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4643"/>
+        <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4955,6 +4959,16 @@ Example: -flip -nosound</source>
         <translation>파일 형식 목록</translation>
     </message>
     <message>
+        <location filename="../prefassociations.cpp" line="234"/>
+        <source>Note:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefassociations.cpp" line="235"/>
+        <source>Restoration doesn&apos;t work on Windows Vista.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefassociations.ui" line="26"/>
         <source>File types</source>
         <translation>파일 형식</translation>
@@ -4985,9 +4999,8 @@ Example: -flip -nosound</source>
         <translation>모두 선택 해제</translation>
     </message>
     <message>
-        <location filename="../prefassociations.cpp" line="235"/>
         <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation>&lt;b&gt;참고:&lt;/b&gt; (윈도우 비스타에서는 복원이 되지 않습니다.)</translation>
+        <translation type="obsolete">&lt;b&gt;참고:&lt;/b&gt; (윈도우 비스타에서는 복원이 되지 않습니다.)</translation>
     </message>
 </context>
 <context>
@@ -8121,6 +8134,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>그림자</translation>
     </message>
     <message>
+        <location filename="../prefsubtitles.cpp" line="501"/>
+        <source>Apply style to ASS files too</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
         <translation>크기:</translation>
@@ -8199,6 +8217,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
         <translation>그림자:</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="739"/>
+        <source>A&amp;pply style to ASS files too</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8364,9 +8387,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>사용자 정의...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ass files too</source>
-        <translation>스타일을 ASS 파일에도 적용하기</translation>
+        <translation type="obsolete">스타일을 ASS 파일에도 적용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8374,9 +8396,8 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>이 옵션에 체크하면 위에서 정의한 스타일이 ASS 자막에도 적용됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ass files too</source>
-        <translation>스타일을 ASS 파일에도 적용하기</translation>
+        <translation type="obsolete">스타일을 ASS 파일에도 적용하기</translation>
     </message>
 </context>
 <context>
@@ -8738,15 +8759,10 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&apos;미디어&apos;는 SMPlayer가 열수 있는 종류의 파일입니다. 로컬 파일이나 DVD (예: dvd://1), 인터넷 스트림 (예: mms://...) 이나 m3u, pls의 로컬 재생목록이 될 수 있습니다.</translation>
     </message>
     <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer는 PC용 무료 미디어 재생기입니다. 모든 형식을 재생하고 유투브 동영상도 다운로드할 수 있습니다.</translation>
-    </message>
-    <message>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer는 내가 선호하는 재생기입니다. 확인해 보세요!</translation>
     </message>
 </context>
 <context>
@@ -8762,47 +8778,50 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>나중에 알림</translation>
     </message>
     <message>
-        <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with Paypal</source>
-        <translation>Paypal로 기부하기</translation>
+        <translation type="obsolete">Paypal로 기부하기</translation>
+    </message>
+    <message>
+        <location filename="../sharedialog.cpp" line="32"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
         <translation>기부나 친구와 공유를 통해서 SMPlayer를 지원할 수 있습니다.</translation>
     </message>
-    <message>
-        <source>SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.</source>
-        <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="obsolete">SMPlayer는 PC용 무료 미디어 재생기입니다. 모든 형식을 재생하고 유투브 동영상도 다운로드할 수 있습니다.</translation>
-    </message>
 </context>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
         <source>Donate with Paypal</source>
-        <translation type="unfinished">Paypal로 기부하기</translation>
+        <translation type="obsolete">Paypal로 기부하기</translation>
+    </message>
+    <message>
+        <location filename="../sharewidget.cpp" line="64"/>
+        <source>Donate with PayPal</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="65"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer를 페이스북으로 공유하기</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="66"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer를 트위터로 공유하기</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="68"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">SMPlayer 지원하기</translation>
+        <translation>SMPlayer 지원하기</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="70"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>기부 / 친구들과 SMPlayer 공유하기</translation>
     </message>
 </context>
 <context>
