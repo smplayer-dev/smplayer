@@ -24,6 +24,7 @@
 #include <QPushButton>
 
 class QSettings;
+class QEvent;
 
 class ShareButton : public QPushButton
 {
@@ -46,6 +47,8 @@ class ShareWidget : public QWidget
 	Q_OBJECT
 
 public:
+	enum Display { Never = 0, Random = 1, Always = 2 };
+
 	ShareWidget(QSettings * settings, QWidget * parent = 0, Qt::WindowFlags f = 0);
 	~ShareWidget();
 
@@ -62,6 +65,8 @@ signals:
 
 protected:
 	void setActionPerformed(int action);
+	void retranslateStrings();
+	virtual void changeEvent(QEvent * event);
 
 protected slots:
 	void donate();
@@ -72,10 +77,12 @@ protected:
 	ShareButton * donate_button;
 	ShareButton * fb_button;
 	ShareButton * twitter_button;
+	QPushButton * support_button;
 
 	QSettings * set;
 	int actions_taken;
 	int count;
+	int display;
 };
 
 #endif
