@@ -8773,7 +8773,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation>Ayuda a SMPlayer</translation>
+        <translation>Ayuda a mejorar SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
@@ -8819,7 +8819,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharewidget.cpp" line="68"/>
         <source>Support SMPlayer</source>
-        <translation>Ayuda a SMPlayer</translation>
+        <translation>Colabora con SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="70"/>
