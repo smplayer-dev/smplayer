@@ -830,10 +830,6 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Undertekstar</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Den påkravde openssl-komponenten er diverre ikkje tilgjengeleg for systemet ditt.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Feil oppdaga</translation>
@@ -981,7 +977,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Stereo &amp;3D-filter</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -4957,7 +4953,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Merknad:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -4993,10 +4989,6 @@ Example: -flip -nosound</source>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Vel ingen</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;Merknad:&lt;/b&gt; (Restaurering fungerer ikkje i Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8384,7 +8376,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="762"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>Til&amp;pass …</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8772,10 +8764,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation>&amp;Minn meg på det seinare</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Doner med Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
@@ -8789,27 +8777,27 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">Støtt SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>

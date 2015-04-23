@@ -830,10 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Субтитри</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">За съжаление изискваният компонент openssl, не е наличен за Вашата система.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Засечена е крешка</translation>
@@ -981,7 +977,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>3D с&amp;терео филтър</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -1208,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изисква се OpenSSL, който за съжаление не е наличен за Вашата система.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4416,7 +4412,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Изтрий файла от диска</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4431,7 +4427,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>На път сте да изтриете файлът &apos;%1&apos; от Вашият диск.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
@@ -4446,7 +4442,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"></translation>
+        <translation>Не бе възможно изтриването на &apos;%1&apos;</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
@@ -4456,7 +4452,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не е възможно изтриването на &apos;%1&apos; от файловата система.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="339"/>
@@ -4964,12 +4960,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Бележка:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>Възстановяването на работи за Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5000,10 +4996,6 @@ Example: -flip -nosound</source>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Няма избран</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">&lt;b&gt;Бележка:&lt;/b&gt; (Възстановяването не работи при Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8138,7 +8130,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Приложи стила и върху ASS файлове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8223,7 +8215,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Приложи &amp;стила и върху ASS файлове</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8389,17 +8381,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Моде&amp;лиране...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Прилагане на стила и върху ASS файлове</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Ако тази опция е отметната, гореопределения стил ще се прилага и за ASS субтитри.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">Прила&amp;гане на стила и върху ASS файлове</translation>
     </message>
 </context>
 <context>
@@ -8766,7 +8750,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer е любимият ми медиен плейър за моят компютър. Пробвайте го!</translation>
     </message>
 </context>
 <context>
@@ -8782,13 +8766,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Напомни ми по-късно</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Дарение с Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Дарение с PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8799,29 +8779,29 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Дарение чрез PayPal</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>Споделете SMPlayer във Facebook</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation>Споделете SMPlayer в Twitter</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Подкрепи SMPlayer</translation>
+        <translation>Подкрепете SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>Дарете/Споделете SMPlayer с Вашите приятели</translation>
     </message>
 </context>
 <context>
@@ -8943,7 +8923,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>3D стерео филтър</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>

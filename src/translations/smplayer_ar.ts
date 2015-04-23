@@ -830,10 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>الترجمات</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">للأسف المكون openssl، و الضروري لهذا، غير متوفر في نظامك.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>اكتُشِف خطأ</translation>
@@ -5006,10 +5002,6 @@ Example: -flip -nosound</source>
         <source>Select none</source>
         <translation>لا تختر شيئاً</translation>
     </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">&lt;b&gt;ملاحظة:&lt;/b&gt; لا يمكن استعادة أنواع الملفات في Windows Vista.</translation>
-    </message>
 </context>
 <context>
     <name>PrefDrives</name>
@@ -8395,17 +8387,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>خ&amp;صّص...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">طبِّق الطراز على ملفات ass أيضاً</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>اذا أُشِّر هذا الخيار، فإن الطراز المعرَّف في أعلاه سيُطبَّق على ترجمات ass أيضاً.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">طبِّق الطراز عل&amp;ى ملفات ass أيضاً</translation>
     </message>
 </context>
 <context>
@@ -8796,10 +8780,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;ذكّرني لاحقاً</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">تبرّع بإستخدام Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
@@ -8813,27 +8793,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">إدعم SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>

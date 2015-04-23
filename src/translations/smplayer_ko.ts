@@ -830,10 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>자막</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">유감스럽게도 필요한 openssl 컴포넌트가 시스템에 없습니다.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>오류를 발견했습니다</translation>
@@ -1208,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>유감스럽게도 필요한 OpenSSL 컴포넌트가 시스템에 없습니다.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4961,12 +4957,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>노트:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>윈도우 비스타에서 복구는 동작하지 않습니다.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -4997,10 +4993,6 @@ Example: -flip -nosound</source>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>모두 선택 해제</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">&lt;b&gt;참고:&lt;/b&gt; (윈도우 비스타에서는 복원이 되지 않습니다.)</translation>
     </message>
 </context>
 <context>
@@ -8136,7 +8128,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>ASS 파일에도 스타일 적용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8221,7 +8213,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>ASS 파일에도 스타일 적용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8387,17 +8379,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>사용자 정의...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">스타일을 ASS 파일에도 적용하기</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>이 옵션에 체크하면 위에서 정의한 스타일이 ASS 자막에도 적용됩니다.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">스타일을 ASS 파일에도 적용하기</translation>
     </message>
 </context>
 <context>
@@ -8778,13 +8762,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>나중에 알림</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Paypal로 기부하기</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>PayPal로 기부하기</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8795,31 +8775,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Paypal로 기부하기</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>PayPal로 기부하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>SMPlayer를 페이스북으로 공유하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>SMPlayer를 트위터로 공유하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>SMPlayer 지원하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>기부 / 친구들과 SMPlayer 공유하기</translation>
     </message>
