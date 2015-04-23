@@ -830,10 +830,6 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Podnaslovi</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Nažalost openssl komponenta potrebna za povezivanje, nije dostupna na vašem sustavu..</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Greška otkrivena</translation>
@@ -1208,7 +1204,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nažalost OpenSSL komponenta potrebna za povezivanje, nije dostupna na vašem sustavu.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4963,12 +4959,12 @@ Npr.: -flip -nosound</translation>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Napomena:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>Restauracija ne radi na Windows Visti.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -4999,10 +4995,6 @@ Npr.: -flip -nosound</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Odaberi ništa</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;Napomena:&lt;/b&gt; (Vraćanje ne radi na Windows Visti).</translation>
     </message>
 </context>
 <context>
@@ -8138,7 +8130,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Primijeni stil i na ASS datoteke</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8223,7 +8215,7 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;rimijeni stil i na ASS datoteke</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8389,17 +8381,9 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>Pril&amp;agdi...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Primijeni stil i na ASS datoteke</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Ako je ova mogućnost odabrana, stil određen iznad biti će primijenjen i na ass podnaslove.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">P&amp;rimijeni stil i na ass datoteke</translation>
     </message>
 </context>
 <context>
@@ -8784,13 +8768,9 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
         <translation>&amp;Podsjeti me kasnije</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donirajte Paypalom</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donirajte putem PayPala</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8801,31 +8781,27 @@ Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u v
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donirajte Paypalom</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donirajte putem PayPala</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>Podijelite SMPlayer na Facebooku</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>Podijelite SMPlayer na Twitteru</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>Podržite SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>Donirajte / Podijelite sa svojim prijateljima</translation>
     </message>

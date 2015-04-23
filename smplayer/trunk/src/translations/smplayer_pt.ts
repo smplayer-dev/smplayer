@@ -830,10 +830,6 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <translation>Legendas</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Infelizmente, o componente necessário (openssl) não está disponível no seu sistema.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Erro detetado</translation>
@@ -1208,7 +1204,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Infelizmente, o componente necessário (OpenSSL) não está disponível no seu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4535,32 +4531,32 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <source>Log MPlayer/MPV output</source>
-        <translation>Gravar registos do MPlayer/MPV</translation>
+        <translation>Gravar registos do MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Se ativar esta opção, o SMPlayer grava as informações do MPlayer/MPV (pode visualizá-las em&lt;b&gt; Opções -&gt; Ver registos -&gt; MPlayer/MPV&lt;/b&gt;). Em caso de problemas, este registo pode conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
+        <translation>Se ativar esta opção, o SMPlayer grava as informações do MPlayer/mpv (pode visualizá-las em&lt;b&gt; Opções -&gt; Ver registos -&gt; MPlayer/mpv&lt;/b&gt;). Em caso de problemas, este registo pode conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation>Gravar automaticamente os registos do Mplayer/MPV</translation>
+        <translation>Gravar automaticamente os registos do Mplayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se ativar esta opção, os registos do MPlayer/MPV serão gravados no ficheiro, sempre que reproduzir um novo ficheiro. A opção é útil para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
+        <translation>Se ativar esta opção, os registos do MPlayer/mpv serão gravados no ficheiro, sempre que reproduzir um novo ficheiro. A opção é útil para aplicações externas obterem informações sobre o ficheiro em reprodução.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Autosave MPlayer/MPV log filename</source>
-        <translation>Nome de ficheiro para os registos do Mplayer/MPV</translation>
+        <translation>Nome de ficheiro para os registos do Mplayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation>Indique aqui o caminho e o nome do ficheiro para gravar os registos do MPlayer/MPV.</translation>
+        <translation>Indique aqui o caminho e o nome do ficheiro para gravar os registos do MPlayer/mpv.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4575,7 +4571,7 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation>Executar o MPlayer/MP&amp;V na sua janela</translation>
+        <translation>Executa&amp;r o MPlayer/mpv na sua janela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4585,19 +4581,19 @@ Exemplo: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation>R&amp;eportar erros do MPlayer/MPV</translation>
+        <translation>R&amp;eportar erros do MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
         <source>Options for MP&amp;layer/MPV</source>
-        <translation>Opções do MP&amp;layer/MPV</translation>
+        <translation>Opções do MP&amp;layer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation>Aqui, pode enviar opções extra ao MPlayer/MPV.
+        <translation>Aqui, pode enviar opções extra ao MPlayer/mpv.
 Deve escrevê-las separadas por espaços.
 Exemplo: -flip -nosound</translation>
     </message>
@@ -4619,7 +4615,7 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation>Gravar a&amp;utomaticamente os registos MPlayer/MPV no ficheiro</translation>
+        <translation>Gravar a&amp;utomaticamente os registos MPlayer/mpvno ficheiro</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4724,47 +4720,47 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation>Executar o MPlayer/MPV na sua janela</translation>
+        <translation>Executar o MPlayer/mpv na sua janela</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation>Se ativar esta opção, a janela do MPlayer/MPV não será incorporada na janela principal do SMPlayer e utilizará a sua própria janela. Tenha em atenção que o rato e o teclado serão geridos diretamente pelo MPlayer/MPV e as teclas de atalho e cliques no rato podem não funcionar corretamente.</translation>
+        <translation>Se ativar esta opção, a janela do MPlayer/mpv não será incorporada na janela principal do SMPlayer e utilizará a sua própria janela. Tenha em atenção que o rato e o teclado serão geridos diretamente pelo MPlayer/mpv e as teclas de atalho e cliques no rato podem não funcionar corretamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation>Reportar erros do MPlayer/MPV</translation>
+        <translation>Reportar erros do MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Se ativar esta opção, será aberta uma janela com as informações do erro MPlayer/MPV. Se inativa, os erros serão ignorados.</translation>
+        <translation>Se ativar esta opção, será aberta uma janela com as informações do erro MPlayer/mpv. Se inativa, os erros serão ignorados.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Ativa o modo experimental  do MPlayer/MPV, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os pts corretos, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
+        <translation>Ativa o modo experimental  do MPlayer/mpv, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os pts corretos, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation>Opções do MPlayer/MPV</translation>
+        <translation>Opções do MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
         <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation>Aqui, pode escrever as opções do MPlayer/MPV. Escreva-as separadas por espaços.</translation>
+        <translation>Aqui, pode escrever as opções do MPlayer/mpv. Escreva-as separadas por espaços.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Aqui, pode adicionar os filtros de vídeo do MPlayer/MPV. Escreva-os separadas por vírgulas. Não utilize espaços!</translation>
+        <translation>Aqui, pode adicionar os filtros de vídeo do MPlayer/mpv. Escreva-os separadas por vírgulas. Não utilize espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Aqui, pode adicionar os filtros áudio do MPlayer/MPV. Escreva-os separadas por vírgulas. Não utilize espaços!</translation>
+        <translation>Aqui, pode adicionar os filtros áudio do MPlayer/mpv. Escreva-os separadas por vírgulas. Não utilize espaços!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
@@ -4879,12 +4875,12 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation>MPlayer/MPV</translation>
+        <translation>MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation>Gravar regist&amp;os do MPlayer/MPV</translation>
+        <translation>Gravar regist&amp;os do MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -4962,12 +4958,12 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>A opção de restauro na funciona no Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -4998,10 +4994,6 @@ Exemplo: -flip -nosound</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Desmarcar todos</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">&lt;b&gt;Nota:&lt;/b&gt; (o restauro não funciona no Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -5225,12 +5217,12 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
         <source>MPlayer/MPV executable</source>
-        <translation>Executável MPlayer/MPV</translation>
+        <translation>Executável MPlayer/mpv</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
         <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation>Aqui, deve especificar o executável MPlayer/MPV utilizado pelo SMPlayer.</translation>
+        <translation>Aqui, deve especificar o executável MPlayer/mpv utilizado pelo SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="917"/>
@@ -5320,7 +5312,7 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation>Executável &amp;MPlayer/MPV:</translation>
+        <translation>Executável &amp;MPlayer/mpv:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -7126,7 +7118,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation>Ativar emissões de sítios web através do &amp;MPV</translation>
+        <translation>Ativar emissões de sítios web através do &amp;mpv</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7216,7 +7208,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="150"/>
         <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation>Ativar emissões de sítios web através do MPV</translation>
+        <translation>Ativar emissões de sítios web através do mpv</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -8136,7 +8128,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplicar estilo a ficheiros ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8221,7 +8213,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;plicar estilo a ficheiros ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8387,17 +8379,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Perso&amp;nalizar...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Aplicar estilo aos ficheiros ass</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Se ativar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">A&amp;plicar estilo a ficheiros ass</translation>
     </message>
 </context>
 <context>
@@ -8780,13 +8764,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lemb&amp;rar mais tarde</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donativos com Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donativos via Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8797,31 +8777,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donativos com Paypal</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Donativos via Paypal</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>Publicitar o SMPlayer no Facebook</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>Publicitar o SMPlayer no Twitter</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>Ajudar o SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>Doar/Publicitar o SMPlayer com os seus amigos</translation>
     </message>

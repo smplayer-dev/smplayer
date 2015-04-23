@@ -4992,10 +4992,6 @@ Example: -flip -nosound</source>
         <source>Select none</source>
         <translation>ไม่เลือกเลย</translation>
     </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;หมายเหตุ:&lt;/b&gt; (การเรียกคืนค่าเดิมจะไม่ได้ผลบน Windows Vista)</translation>
-    </message>
 </context>
 <context>
     <name>PrefDrives</name>
@@ -8381,17 +8377,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;ปรับแต่งค่า...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">ใช้รูปแบบกับไฟล์ ass ด้วย</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก ลักษณะที่กำหนดด้านบนจะถูกใช้กับศัพท์บรรยาย ass ด้วย</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">ใ&amp;ช้รูปแบบกับไฟล์ ass ด้วย</translation>
     </message>
 </context>
 <context>
@@ -8772,10 +8760,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>แ&amp;จ้งเตือนฉันภายหลัง</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">บริจาคด้วย Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
@@ -8789,27 +8773,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">สนับสนุน SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>

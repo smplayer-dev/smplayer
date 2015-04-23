@@ -830,10 +830,6 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Legendas</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Infelizmente o componente openssl, requerido para a ação, não está disponível no seu sistema.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Erro detectado</translation>
@@ -1208,7 +1204,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Infelizmente, o componente OpenSSL, necessário para a ação, não está disponível em seu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4962,12 +4958,12 @@ Exemplo: -flip -nosound</translation>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>A restauração não funciona no Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -4998,10 +4994,6 @@ Exemplo: -flip -nosound</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Não selecionar nada</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">&lt;b&gt;Nota:&lt;/b&gt; (Restauro não funciona no Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8137,7 +8129,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Também aplicar estilos a arquivos ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8222,7 +8214,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Também a&amp;plicar estilos a arquivos ASS</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8388,17 +8380,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Perso&amp;nalizar...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Aplicar estilos a arquivos ass</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Se selecionar esta opção, o estilo acima definido será também aplicado às legendas.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">A&amp;plicar estilos a arquivos ass</translation>
     </message>
 </context>
 <context>
@@ -8781,13 +8765,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Lemb&amp;re-me depois</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Doe através do Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Doe através do PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8798,31 +8778,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Doar com Paypal</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Doe através do PayPal</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>Compartilhar o SMPlayer no Facebook</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>Compartilhar o SMPlayer no Twitter</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>Apoie o SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>Doar / Compartilhar o SMPlayer com seus amigos</translation>
     </message>

@@ -830,10 +830,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Sous-titres</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Malheureusement, la librairie openssl est requise pour cela et n’a pas été trouvé sur votre système.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Erreur détectée</translation>
@@ -4999,10 +4995,6 @@ Exemple : « -flip -nosound »</translation>
         <source>Select none</source>
         <translation>Sélectionner aucun</translation>
     </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;Note :&lt;/b&gt; (La restauration ne marche pas sous Windows Vista).</translation>
-    </message>
 </context>
 <context>
     <name>PrefDrives</name>
@@ -8390,17 +8382,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Personnalise&amp;r...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Appliquer aussi le style aux fichiers ASS</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Si cette option est activée, le style défini au-dessus sera aussi appliqué aux sous-titres ASS.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">A&amp;ppliquer aussi le style aux fichiers ASS</translation>
     </message>
 </context>
 <context>
@@ -8783,10 +8767,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Me le &amp;rappeler plus tard</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donner avec Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
@@ -8800,27 +8780,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">Soutenir SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>

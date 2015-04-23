@@ -830,10 +830,6 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <translation>Untertitel</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Leider ist die openssl-Komponente, welche erforderlich ist, in Ihrem System nicht verfügbar.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Fehler erkannt</translation>
@@ -1208,7 +1204,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Leider ist die erforderliche OpenSSL-Komponente auf Ihrem System nicht verfügbar.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -1848,7 +1844,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>Zu %1 wird verbunden</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="124"/>
@@ -2028,7 +2024,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="546"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>Zu %1 wird verbunden</translation>
     </message>
 </context>
 <context>
@@ -2297,7 +2293,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation>Verbinde mit %1</translation>
+        <translation>Zu %1 wird verbunden</translation>
     </message>
 </context>
 <context>
@@ -4964,12 +4960,12 @@ Beispiel: -flip -nosound</translation>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Hinweis:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiederherstellung funktioniert nicht unter Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5000,10 +4996,6 @@ Beispiel: -flip -nosound</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Nichts auswählen</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">&lt;b&gt;Hinweis:&lt;/b&gt; (Wiederherstellung funktioniert nicht mit Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8141,7 +8133,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Stil auch auf ASS-Dateien anwenden</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8226,7 +8218,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Stil auch auf ASS-Dateien anwenden</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8392,17 +8384,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Anpassen …</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Stil auch auf ASS-Dateien anwenden</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Wenn diese Option aktiviert ist, wird der oben definierte Stil auch auf ASS-Untertitel angewendet.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">&amp;Stil auch auf ASS-Dateien anwenden</translation>
     </message>
 </context>
 <context>
@@ -8769,7 +8753,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation>SMPlayer ist mein Lieblings-Medienabspieler für meinen PC. Probiere ihn aus!</translation>
+        <translation>Der SMPlayer ist mein Lieblingsmedienabspieler auf meinen PC. Probiere ihn aus!</translation>
     </message>
 </context>
 <context>
@@ -8785,13 +8769,9 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Bitte mich später erinnern</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Über Paypal spenden</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Über PayPal spenden</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8802,33 +8782,29 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Über Paypal spenden</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Über PayPal spenden</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>SMPlayer in Facebook teilen</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>SMPlayer in Twitter teilen</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>SMPlayer unterstützen</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>Spenden oder Teilen Sie SMPlayer mit Ihren Freunden</translation>
+        <translation>Für SMPlayer spenden oder mit Ihren Freunden teilen</translation>
     </message>
 </context>
 <context>

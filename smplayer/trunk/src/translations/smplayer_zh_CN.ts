@@ -830,10 +830,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">很不幸，此功能需要openssl组件，而您的系统中没有。</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>检测到错误</translation>
@@ -4998,10 +4994,6 @@ Example: -flip -nosound</source>
         <source>Select none</source>
         <translation>取消选择</translation>
     </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;注意:&lt;/b&gt; (在 Windows Vista 中无法恢复)。</translation>
-    </message>
 </context>
 <context>
     <name>PrefDrives</name>
@@ -8386,17 +8378,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>自定义(&amp;M)...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">应用样式到 ASS 文件</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>如果勾选此选项，上面定义的样式将被应用到 ASS 字幕。</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">应用样式到 ASS 文件(&amp;P)</translation>
     </message>
 </context>
 <context>
@@ -8777,10 +8761,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>稍后提醒我(&amp;R)</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">使用 Paypal 捐赠</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
@@ -8794,27 +8774,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">支持 SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>

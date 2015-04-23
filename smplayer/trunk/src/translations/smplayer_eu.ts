@@ -830,10 +830,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Azpidatziak</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Zorigaitzez openssl osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Akatsa atzeman da</translation>
@@ -1208,7 +1204,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Zorigaitzez OpenSSL osagaia, horretarako beharrezkoa dena, ez dago eskuragarri zure sisteman.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4962,12 +4958,12 @@ Adibidez: -flip -nosound</translation>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Oharra:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>Leheneratzea ez dabil Windows Vistan.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -4998,10 +4994,6 @@ Adibidez: -flip -nosound</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Ez hautatu bat ere</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete">  &lt;b&gt;Oharra:&lt;/b&gt; (Leheneratzea ez dabil Windows Vista-rekin).</translation>
     </message>
 </context>
 <context>
@@ -8137,7 +8129,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarri estiloa ASS agiriei ere</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8222,7 +8214,7 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ezarri estiloa ASS agiriei ere</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8388,17 +8380,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>Norbereratu&amp;...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Ezarri estiloa ass agiriei ere</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Aukera hau hautatu bada, gainean zehaztutako estiloa ass azpidatziei ere ezarriko zaie.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">&amp;Ezarri estiloa ass agiriei ere</translation>
     </message>
 </context>
 <context>
@@ -8781,13 +8765,9 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
         <translation>&amp;Gogoratu geroago</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Dirulaguntza Paypal-ekin</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Dirulaguntza Paypal-ekin</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8798,31 +8778,27 @@ Itzultzaileentzat: Ez itzuli idazki hau, beste batez ordezkatuko da ekinaldian.<
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Dirulaguntza Paypal-ekin</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Dirulaguntza Paypal-ekin</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>Elkarbanatu SMPlayer Facebook-en</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>Elkarbanatu SMPlayer Twitter-en</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>Sostengatu SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>Dirulaguntza / Elkarbanatu SMPlayer zure lagunekin</translation>
     </message>

@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
+        <translation>Norėdami pamatyti transifex komandų vertėjus paspauskite čia</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -962,7 +962,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"></translation>
+        <translation>Žingsnis atgal &amp;kadrais</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1619"/>
@@ -977,7 +977,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>Stereo &amp;3D filtras</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -987,7 +987,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1694"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished">Naudoti &amp;pasirinktinį stilių</translation>
+        <translation>Naudoti &amp;pasirinktinį stilių</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1700"/>
@@ -1018,12 +1018,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1759"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"></translation>
+        <translation>Dydis &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"></translation>
+        <translation>Dydis &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
@@ -1103,7 +1103,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1803"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>OSD rodyti atkūrimo laiką</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
@@ -1174,7 +1174,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1973"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"></translation>
+        <translation>Antrinis &amp;takelis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
@@ -1194,27 +1194,27 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4641"/>
         <source>Connection failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Prisijungti nepavyko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jūsų užklaustas video turi prisijungti HTTPS ryšiu.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dėja, tam reikia OpenSSL, kuris jūsų sistemoje neprieinamaas.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Norėdami pataisyti šią bėdą aplankykite %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4645"/>
         <source>this link</source>
-        <translation type="unfinished"></translation>
+        <translation>šią nuorodą</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4655"/>
@@ -1230,12 +1230,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="5464"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube naršyklė neįdiegta.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5465"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aplankykite %1 ir įdiekite.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4658"/>
@@ -1994,7 +1994,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../core.cpp" line="4239"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>Pradedama...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1389"/>
@@ -4031,7 +4031,7 @@ Patikrinkite prieigos teises.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"></translation>
+        <translation>Slovenų</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4412,7 +4412,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pašalinti failą iš disko</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4422,12 +4422,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"></translation>
+        <translation>Patvirtinkite šalinimą</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jūs ruošiatės iš savo disko PAŠALINTI failą &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
@@ -4993,10 +4993,6 @@ Example: -flip -nosound</source>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Nepažymėti nei vieno</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;Pastaba:&lt;/b&gt; Susiejimų atstatymas neveikia su Windows Vista.</translation>
     </message>
 </context>
 <context>
@@ -8382,17 +8378,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Modifikuoti...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Pritaikyti stilių taip pat ir &lt;i&gt;ass&lt;/i&gt; failams</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Jei pažymėta, pasirinktas stilius bus pritaikytas taip pat ir ass formato subtitrams.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">&amp;Pritaikyti stilių taip pat ir ass failams</translation>
     </message>
 </context>
 <context>
@@ -8777,10 +8765,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Priminkite vėliau</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Paaukoti per Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
@@ -8794,27 +8778,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">Padėkite SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>

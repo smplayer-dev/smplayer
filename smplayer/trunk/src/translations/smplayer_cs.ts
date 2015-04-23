@@ -830,10 +830,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Titulky</translation>
     </message>
     <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Bohužel nutná součást openssl není ve vašem systému k dispozici.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4706"/>
         <source>Error detected</source>
         <translation>Byla zaznamenána chyba</translation>
@@ -1208,7 +1204,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bohužel nutná součást Openssl není ve vašem systému k dispozici.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -4963,12 +4959,12 @@ Příklad: -flip -nosound</translation>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>Poznámka:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>Obnovení nefunguje ve Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -4999,10 +4995,6 @@ Příklad: -flip -nosound</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>Nevybrat žádné</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;Poznámka:&lt;/b&gt; (Obnovení nefunguje ve Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -8140,7 +8132,7 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít styl i pro ASS soubory</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8225,7 +8217,7 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>Použít styl i pro ASS soubory</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8391,17 +8383,9 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <translation>&amp;Upravit...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Použít i pro ass soubory</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Je-li tato možnost povolena, definovaný styl se použije také pro ass titulky v souboru.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">Použít st&amp;yl i pro ass soubory</translation>
     </message>
 </context>
 <context>
@@ -8786,13 +8770,9 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <translation>&amp;Připomenout později</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Darovat prostřednictvím služby Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpořit prostřednictvím služby Paypal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8803,31 +8783,27 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
 <context>
     <name>ShareWidget</name>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Přispět přes Paypal</translation>
-    </message>
-    <message>
-        <location filename="../sharewidget.cpp" line="64"/>
+        <location filename="../sharewidget.cpp" line="106"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>Podpořit prostřednictvím služby Paypal</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="65"/>
+        <location filename="../sharewidget.cpp" line="107"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>Sdílet SMPlayer na Facebooku</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="66"/>
+        <location filename="../sharewidget.cpp" line="108"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>Sdílet SMPlayer na Twitteru</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="68"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Support SMPlayer</source>
         <translation>Podpořit SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="70"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>Podpořit / Sdílet SMPlayer s přáteli</translation>
     </message>
