@@ -23,6 +23,7 @@
 #include <QHBoxLayout>
 #include <QDesktopServices>
 #include <QSettings>
+#include <QEvent>
 
 #define SHAREBUTTON_MIN QSize(24,24)
 #define SHAREBUTTON_MAX QSize(32,32)
@@ -60,21 +61,23 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 	, set(settings)
 	, actions_taken(0)
 	, count(0)
+	, display(Random)
 {
-	donate_button = new ShareButton("paypal", tr("Donate with PayPal"), this);
-	fb_button = new ShareButton("social_facebook", tr("Share SMPlayer in Facebook"), this);
-	twitter_button = new ShareButton("social_twitter", tr("Share SMPlayer in Twitter"), this);
+	donate_button = new ShareButton("paypal", "", this);
+	fb_button = new ShareButton("social_facebook", "", this);
+	twitter_button = new ShareButton("social_twitter", "", this);
 
-	QPushButton * support_button = new QPushButton(tr("Support SMPlayer"), this);
+	support_button = new QPushButton(this);
 	support_button->setObjectName("support_button");
-	support_button->setToolTip(tr("Donate / Share SMPlayer with your friends"));
 	connect(support_button, SIGNAL(clicked()), this, SIGNAL(supportClicked()));
 
 	QHBoxLayout * hlayout = new QHBoxLayout;
 	hlayout->setSpacing(0);
+	//hlayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
 	hlayout->addWidget(donate_button);
 	hlayout->addWidget(fb_button);
 	hlayout->addWidget(twitter_button);
+	//hlayout->addSpacerItem(new QSpacerItem(10,10, QSizePolicy::Expanding));
 
 	QVBoxLayout * vlayout = new QVBoxLayout(this);
 	vlayout->setSpacing(0);
@@ -91,6 +94,7 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 	connect(fb_button, SIGNAL(clicked()), this, SLOT(facebook()));
 	connect(twitter_button, SIGNAL(clicked()), this, SLOT(twitter()));
 
+	retranslateStrings();
 	loadConfig();
 }
 
@@ -98,11 +102,21 @@ ShareWidget::~ShareWidget() {
 	saveConfig();
 }
 
+void ShareWidget::retranslateStrings() {
+	donate_button->setToolTip(tr("Donate with PayPal"));
+	fb_button->setToolTip(tr("Share SMPlayer in Facebook"));
+	twitter_button->setToolTip(tr("Share SMPlayer in Twitter"));
+
+	support_button->setText(tr("Support SMPlayer"));
+	support_button->setToolTip(tr("Donate / Share SMPlayer with your friends"));
+}
+
 void ShareWidget::loadConfig() {
 	if (set) {
 		set->beginGroup("reminder");
 		actions_taken = set->value("action", 0).toInt();
 		count = set->value("count", 0).toInt();
+		display = set->value("show", Random).toInt();
 		set->endGroup();
 	}
 }
@@ -112,6 +126,7 @@ void ShareWidget::saveConfig() {
 		set->beginGroup("reminder");
 		set->setValue("action", actions_taken);
 		set->setValue("count", count);
+		set->setValue("show", display);
 		set->endGroup();
 	}
 }
@@ -128,21 +143,25 @@ void ShareWidget::setVisible(bool visible) {
 		QWidget::setVisible(false);
 	} else {
 		bool v = true;
+		switch (display) {
+			case Never: v = false; break;
+			case Always: v = visible; break;
+			case Random: {
+				if (actions_taken == 7) {
+					// User already clicked all buttons
+					v = false;
+				} else {
+					if ((actions_taken & ShareData::Donate) > 0) donate_button->hide();
+					if ((actions_taken & ShareData::Facebook) > 0) fb_button->hide();
+					if ((actions_taken & ShareData::Twitter) > 0) twitter_button->hide();
 
-		if (actions_taken == 7) {
-			// User already clicked all buttons
-			v = false;
-		} else {
-			if ((actions_taken & ShareData::Donate) > 0) donate_button->hide();
-			if ((actions_taken & ShareData::Facebook) > 0) fb_button->hide();
-			if ((actions_taken & ShareData::Twitter) > 0) twitter_button->hide();
+					count++;
 
-			count++;
-
-			// Display the buttons from time to time
-			if ((count % 5) != 1) v = false;
+					// Display the buttons from time to time
+					if ((count % 5) != 1) v = false;
+				}
+			}
 		}
-
 		QWidget::setVisible(v);
 	}
 #else
@@ -166,6 +185,15 @@ void ShareWidget::twitter() {
 	qDebug("ShareWidget::twitter");
 	setActionPerformed(ShareData::Twitter);
 	QDesktopServices::openUrl( ShareData::twitterUrl() );
+}
+
+// Language change stuff
+void ShareWidget::changeEvent(QEvent *e) {
+	if (e->type() == QEvent::LanguageChange) {
+		retranslateStrings();
+	} else {
+		QWidget::changeEvent(e);
+	}
 }
 
 #include "moc_sharewidget.cpp"
