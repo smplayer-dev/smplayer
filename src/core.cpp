@@ -3398,6 +3398,11 @@ void Core::changeCurrentSec(double sec) {
 
 	if (mset.starting_time != -1) {
 		mset.current_sec -= mset.starting_time;
+
+		// handle PTS rollover at MPEG-TS
+		if (mset.current_sec < 0 && mset.current_demuxer == "mpegts") {
+			mset.current_sec += 8589934592.0 / 90000.0;	// 2^33 / 90 kHz
+		}
 	}
 	
 	if (state() != Playing) {
