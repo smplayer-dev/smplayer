@@ -54,7 +54,7 @@ public:
 
 	virtual void setVisible(bool visible);
 
-	void setActions(int a) { actions_taken = a; saveConfig(); }
+	void setActions(int a);
 	int actions() { return actions_taken; }
 
 	void loadConfig();
@@ -65,6 +65,7 @@ signals:
 
 protected:
 	void setActionPerformed(int action);
+	void updateButtons();
 	void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
 

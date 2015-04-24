@@ -25,6 +25,8 @@
 #include <QSettings>
 #include <QEvent>
 
+//#define TEST_SHAREWIDGET
+
 #define SHAREBUTTON_MIN QSize(24,24)
 #define SHAREBUTTON_MAX QSize(32,32)
 
@@ -96,6 +98,7 @@ ShareWidget::ShareWidget(QSettings * settings, QWidget * parent, Qt::WindowFlags
 
 	retranslateStrings();
 	loadConfig();
+	updateButtons();
 }
 
 ShareWidget::~ShareWidget() {
@@ -110,6 +113,17 @@ void ShareWidget::retranslateStrings() {
 	support_button->setText(tr("Support SMPlayer"));
 	support_button->setToolTip(tr("Donate / Share SMPlayer with your friends"));
 }
+
+void ShareWidget::updateButtons() {
+	qDebug("ShareWidget::updateButtons: actions_taken: %d", actions_taken);
+
+	if ((actions_taken & ShareData::Donate) > 0) donate_button->hide();
+	if ((actions_taken & ShareData::Facebook) > 0) fb_button->hide();
+	if ((actions_taken & ShareData::Twitter) > 0) twitter_button->hide();
+
+	if (actions_taken > 0) support_button->hide();
+}
+
 
 void ShareWidget::loadConfig() {
 	if (set) {
@@ -131,8 +145,15 @@ void ShareWidget::saveConfig() {
 	}
 }
 
+void ShareWidget::setActions(int a) {
+	actions_taken = a;
+	updateButtons();
+	saveConfig();
+}
+
 void ShareWidget::setActionPerformed(int action) {
 	actions_taken |= action;
+	updateButtons();
 }
 
 void ShareWidget::setVisible(bool visible) {
@@ -151,17 +172,11 @@ void ShareWidget::setVisible(bool visible) {
 					// User already clicked all buttons
 					v = false;
 				} else {
-					if ((actions_taken & ShareData::Donate) > 0) donate_button->hide();
-					if ((actions_taken & ShareData::Facebook) > 0) fb_button->hide();
-					if ((actions_taken & ShareData::Twitter) > 0) twitter_button->hide();
-
-					count++;
-
-					// Display the buttons from time to time
-					if ((count % 5) != 1) v = false;
+					if ((qrand() % 10) != 1) v = false;
 				}
 			}
 		}
+		//qDebug("ShareWidget::setVisible: v: %d", v);
 		QWidget::setVisible(v);
 	}
 #else
@@ -172,19 +187,25 @@ void ShareWidget::setVisible(bool visible) {
 void ShareWidget::donate() {
 	qDebug("ShareWidget::donate");
 	setActionPerformed(ShareData::Donate);
+#ifndef TEST_SHAREWIDGET
 	QDesktopServices::openUrl( ShareData::donateUrl() );
+#endif
 }
 
 void ShareWidget::facebook() {
 	qDebug("ShareWidget::facebook");
 	setActionPerformed(ShareData::Facebook);
+#ifndef TEST_SHAREWIDGET
 	QDesktopServices::openUrl( ShareData::facebookUrl() );
+#endif
 }
 
 void ShareWidget::twitter() {
 	qDebug("ShareWidget::twitter");
 	setActionPerformed(ShareData::Twitter);
+#ifndef TEST_SHAREWIDGET
 	QDesktopServices::openUrl( ShareData::twitterUrl() );
+#endif
 }
 
 // Language change stuff
