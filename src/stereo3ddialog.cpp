@@ -57,7 +57,8 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 	out_combo->addItem(tr("Mono output (left eye only)"), "ml");
 	out_combo->addItem(tr("Mono output (right eye only)"), "mr");
 
-	in_combo->insertItem(0, tr("None"), "");
+	in_combo->insertItem(0, tr("None"), "none");
+	in_combo->insertItem(1, tr("Auto"), "");
 
 	adjustSize();
 }

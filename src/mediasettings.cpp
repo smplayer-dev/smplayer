@@ -82,7 +82,7 @@ void MediaSettings::reset() {
 	current_denoiser = NoDenoise;
 	current_unsharp = 0;
 
-	stereo3d_in = QString::null;
+	stereo3d_in = "none";
 	stereo3d_out = QString::null;
 
 	//current_deinterlacer = NoDeinterlace;
@@ -230,8 +230,8 @@ void MediaSettings::list() {
 	qDebug("  current_denoiser: %d", current_denoiser);
 	qDebug("  current_unsharp: %d", current_unsharp);
 
-	qDebug("  stereo3d_in: %d", stereo3d_in.toUtf8().constData());
-	qDebug("  stereo3d_out: %d", stereo3d_out.toUtf8().constData());
+	qDebug("  stereo3d_in: %s", stereo3d_in.toUtf8().constData());
+	qDebug("  stereo3d_out: %s", stereo3d_out.toUtf8().constData());
 
 	qDebug("  current_deinterlacer: %d", current_deinterlacer);
 
