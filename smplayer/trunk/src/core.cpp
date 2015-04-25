@@ -2147,7 +2147,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// 3D stereo
-	if (!mset.stereo3d_in.isEmpty() && !mset.stereo3d_out.isEmpty()) {
+	if (mset.stereo3d_in != "none" && !mset.stereo3d_out.isEmpty()) {
 		proc->addStereo3DFilter(mset.stereo3d_in, mset.stereo3d_out);
 	}
 
@@ -2887,14 +2887,14 @@ void Core::changeStereo3d(const QString & in, const QString & out) {
 			restartPlay();
 		} else {
 			// Remove previous filter
-			if (!mset.stereo3d_in.isEmpty() && !mset.stereo3d_out.isEmpty()) {
+			if (mset.stereo3d_in != "none" && !mset.stereo3d_out.isEmpty()) {
 				proc->changeStereo3DFilter(false, mset.stereo3d_in, mset.stereo3d_out);
 			}
 
 			// New filter
 			mset.stereo3d_in = in;
 			mset.stereo3d_out = out;
-			if (!mset.stereo3d_in.isEmpty() && !mset.stereo3d_out.isEmpty()) {
+			if (mset.stereo3d_in != "none" && !mset.stereo3d_out.isEmpty()) {
 				proc->changeStereo3DFilter(true, mset.stereo3d_in, mset.stereo3d_out);
 			}
 		}
