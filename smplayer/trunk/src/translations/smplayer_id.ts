@@ -1912,12 +1912,12 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4009"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>Perbesar: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4234"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation>Buffering...</translation>
     </message>
@@ -1928,12 +1928,12 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Skala Font: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3850"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>Rasio Aspek: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4230"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Memperbaharui tembolok font. Mungkin ini akan memakan beberapa detik</translation>
     </message>
@@ -1973,27 +1973,27 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Subtitle tidak aktif</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3898"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>Berpindah posisi menggunakan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3901"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Mengubah volume dengan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Mengubah tingkat perbesaran dengan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3907"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Mengubah percepatan menggunakan roda tetikus sekarang</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4239"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation>Memulai...</translation>
     </message>
@@ -8776,27 +8776,27 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="106"/>
+        <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="107"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="108"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="110"/>
+        <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">Dukungan SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="111"/>
+        <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9046,6 +9046,11 @@ Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan denga
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../stereo3ddialog.cpp" line="61"/>
+        <source>Auto</source>
+        <translation type="unfinished">Otomatis</translation>
     </message>
 </context>
 <context>

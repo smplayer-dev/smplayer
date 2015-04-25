@@ -1911,12 +1911,12 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Âm lượng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4009"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>Phóng: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4234"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1927,12 +1927,12 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Tỷ lệ phông: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3850"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>Tỷ lệ độ phân giải: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4230"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Cập nhật kho lưu phông. Có thể cần vài giây...</translation>
     </message>
@@ -1972,27 +1972,27 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Phụ đề đang tắt</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3898"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>Con lăn chuột đang tìm kiếm</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3901"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Con lăn chuột đang thay đổi âm lượng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Con lăn chuột đang thay đổi mức độ thu phóng</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3907"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Con lăn chuột đang thay đổi tốc độ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4239"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8774,27 +8774,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="106"/>
+        <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="107"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="108"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="110"/>
+        <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="111"/>
+        <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9044,6 +9044,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
         <translation type="unfinished">Trống</translation>
+    </message>
+    <message>
+        <location filename="../stereo3ddialog.cpp" line="61"/>
+        <source>Auto</source>
+        <translation type="unfinished">Tự động</translation>
     </message>
 </context>
 <context>

@@ -1911,12 +1911,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4009"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4234"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation>버퍼링...</translation>
     </message>
@@ -1927,12 +1927,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3850"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4230"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
@@ -1972,27 +1972,27 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3898"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3901"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3907"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4239"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation>시작하는 중...</translation>
     </message>
@@ -8775,27 +8775,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="106"/>
+        <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
         <translation>PayPal로 기부하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="107"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>SMPlayer를 페이스북으로 공유하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="108"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>SMPlayer를 트위터로 공유하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="110"/>
+        <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
         <translation>SMPlayer 지원하기</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="111"/>
+        <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>기부 / 친구들과 SMPlayer 공유하기</translation>
     </message>
@@ -9045,6 +9045,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
         <translation>없음</translation>
+    </message>
+    <message>
+        <location filename="../stereo3ddialog.cpp" line="61"/>
+        <source>Auto</source>
+        <translation type="unfinished">자동</translation>
     </message>
 </context>
 <context>

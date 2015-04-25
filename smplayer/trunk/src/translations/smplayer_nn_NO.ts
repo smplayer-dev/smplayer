@@ -1911,12 +1911,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4009"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4234"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation>Mellomlagrar </translation>
     </message>
@@ -1927,12 +1927,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Skrift storleik: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3850"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>Høgde/Breidde-format: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4230"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Oppdaterer mellomlager for skrift. Dette vil ta nokre sekund...</translation>
     </message>
@@ -1972,27 +1972,27 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Undertekstar av</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3898"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>Museskroll - navigering no</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3901"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Museskroll - endring av lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Museskroll - endring av zoom-nivå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3907"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Museskroll - endring av tempo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4239"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation>Startar …</translation>
     </message>
@@ -8777,27 +8777,27 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="106"/>
+        <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="107"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="108"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="110"/>
+        <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">Støtt SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="111"/>
+        <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation type="unfinished"></translation>
     </message>
@@ -9047,6 +9047,11 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
         <translation type="unfinished">Ingen</translation>
+    </message>
+    <message>
+        <location filename="../stereo3ddialog.cpp" line="61"/>
+        <source>Auto</source>
+        <translation type="unfinished">Auto</translation>
     </message>
 </context>
 <context>

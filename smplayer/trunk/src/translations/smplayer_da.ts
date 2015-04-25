@@ -1911,12 +1911,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4009"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4234"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation>Gemmer i buffer...</translation>
     </message>
@@ -1927,12 +1927,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Skalér skrifttype: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3850"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>Højde-bredde-forhold: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4230"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Opdaterer skrifttype-cache. Dette kan tage nogle sekunder...</translation>
     </message>
@@ -1972,27 +1972,27 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Undertekster fra</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3898"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>Musehjulet søger nu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3901"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Musehjulet ændrer nu lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3904"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Musehjulet ændrer nu zoom-niveau</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3907"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Musehjulet ændrer nu hastighed</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4239"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation>Starter...</translation>
     </message>
@@ -5644,17 +5644,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="997"/>
         <source>Draw video using slices</source>
-        <translation>Tegn video ved brug af slices</translation>
+        <translation>Tegn video i stykker</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="998"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Aktivér/deaktivér tegning af video i skiver/bånd á en højde på 16 pixels. Hvis deaktiveret tegnes hele billedet i én kørsel. Måske hurtigere eller langsommere afhængigt af grafikkort og tilgængelig cache. Det har kun virkning med libmpeg2 og libavcodec-codecs.</translation>
+        <translation>Aktivér/deaktivér tegning af video i stykker/bånd á en højde på 16 pixels. Hvis deaktiveret tegnes hele billedet i én kørsel. Måske hurtigere eller langsommere afhængigt af grafikkort og tilgængelig cache. Det har kun virkning med libmpeg2 og libavcodec-codecs.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>&amp;Tegn video ved brug af slices</translation>
+        <translation>&amp;Tegn video i stykker</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="215"/>
@@ -8778,27 +8778,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>ShareWidget</name>
     <message>
-        <location filename="../sharewidget.cpp" line="106"/>
+        <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
         <translation>Donér med PayPal</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="107"/>
+        <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
         <translation>Del SMPlayer på Facebook</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="108"/>
+        <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
         <translation>Del SMPlayer på Twitter</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="110"/>
+        <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
         <translation>Støt SMPlayer</translation>
     </message>
     <message>
-        <location filename="../sharewidget.cpp" line="111"/>
+        <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
         <translation>Donér / del SMPlayer med dine venner</translation>
     </message>
@@ -9048,6 +9048,11 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
         <translation>Ingen</translation>
+    </message>
+    <message>
+        <location filename="../stereo3ddialog.cpp" line="61"/>
+        <source>Auto</source>
+        <translation type="unfinished">Automatisk</translation>
     </message>
 </context>
 <context>
