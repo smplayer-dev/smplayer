@@ -27,8 +27,6 @@
 #include <QPropertyAnimation>
 #endif
 
-#include "colorutils.h"
-
 AutohideWidget::AutohideWidget(QWidget * parent)
 	: QWidget(parent)
 	, turned_on(false)
@@ -45,7 +43,6 @@ AutohideWidget::AutohideWidget(QWidget * parent)
 {
 	setBackgroundRole(QPalette::Window);
 	setAutoFillBackground(true);
-	ColorUtils::setBackgroundColor(this, QColor(0,0,0));
 	setLayoutDirection(Qt::LeftToRight);
 
 	parent->installEventFilter(this);
