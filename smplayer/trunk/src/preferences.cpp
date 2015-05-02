@@ -1628,7 +1628,7 @@ void Preferences::load() {
 #ifdef Q_OS_WIN
 	// Check if the mplayer binary exists and try to fix it
 	if (!QFile::exists(mplayer_bin)) {
-		qWarning("mplayer_bin '%s' doesn' exist", mplayer_bin.toLatin1().constData());
+		qWarning("mplayer_bin '%s' doesn't exist", mplayer_bin.toLatin1().constData());
 		bool fixed = false;
 		if (QFile::exists("mplayer/mplayer.exe")) {
 			mplayer_bin = "mplayer/mplayer.exe";

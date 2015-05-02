@@ -19,6 +19,8 @@
 #include "myapplication.h"
 #include "smplayer.h"
 
+#include <QDir>
+
 int main( int argc, char ** argv ) 
 {
 	MyApplication a( "smplayer", argc, argv );
@@ -30,6 +32,11 @@ int main( int argc, char ** argv )
 	*/
 
 	a.setQuitOnLastWindowClosed(false);
+	
+#ifdef Q_OS_WIN
+	// Change the working directory to the application path
+	QDir::setCurrent(a.applicationDirPath());
+#endif
 
 #if QT_VERSION >= 0x040400
 	// Enable icons in menus
