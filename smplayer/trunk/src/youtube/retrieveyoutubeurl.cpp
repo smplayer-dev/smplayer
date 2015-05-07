@@ -603,6 +603,12 @@ QString RetrieveYoutubeUrl::findPreferredUrl(const QMap<int, QString>& urlMap, Q
 		p_url = urlMap.value(q, QString());
 	}
 
+	// If everything fails, take the first url in the map
+	if (p_url.isEmpty()) {
+		QList<int> keys = urlMap.keys();
+		if (!keys.isEmpty()) p_url = urlMap.value(keys[0], QString());
+	}
+	
 	return p_url;
 }
 
