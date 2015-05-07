@@ -84,6 +84,24 @@ void TVList::parse_channels_conf(Services services) {
 		}
 	}
 }
+
+QString TVList::findChannelsFile() {
+	QString channels_file;
+
+	QString file = QDir::homePath() + "/.mplayer/channels.conf.ter";
+	if (QFile::exists(file)) return file;
+
+	file = QDir::homePath() + "/.mplayer/channels.conf";
+	if (QFile::exists(file)) return file;
+
+	file = QDir::homePath() + "/.mpv/channels.conf.ter";
+	if (QFile::exists(file)) return file;
+
+	file = QDir::homePath() + "/.mpv/channels.conf";
+	if (QFile::exists(file)) return file;
+
+	return QString::null;
+}
 #endif
 
 void TVList::edit() {

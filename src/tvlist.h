@@ -35,6 +35,10 @@ public:
 	~TVList();
 
 #ifndef Q_OS_WIN
+	static QString findChannelsFile();
+#endif
+
+#ifndef Q_OS_WIN
 protected:
 	void parse_channels_conf(Services services);
 #endif
