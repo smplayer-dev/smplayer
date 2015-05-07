@@ -42,6 +42,7 @@
 #include "colorutils.h"
 #include "discname.h"
 #include "filters.h"
+#include "tvlist.h"
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef Q_OS_WIN
@@ -2344,6 +2345,12 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	proc->setOption("enable_streaming_sites_support", pref->enable_streaming_sites);
+
+	if (proc->isMPV() && file.startsWith("dvb:")) {
+		QString channels_file = TVList::findChannelsFile();
+		qDebug("Core::startMplayer: channels_file: %s", channels_file.toUtf8().constData());
+		if (!channels_file.isEmpty()) proc->setChannelsFile(channels_file);
+	}
 
 	// Load edl file
 	if (pref->use_edl_files) {

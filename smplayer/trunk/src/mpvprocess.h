@@ -101,6 +101,7 @@ public:
 	void toggleDeinterlace();
 	void askForLength();
 	void setOSDScale(double value);
+	void setChannelsFile(const QString &);
 
 	QString mpvVersion() { return mpv_version; };
 

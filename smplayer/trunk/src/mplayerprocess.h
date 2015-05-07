@@ -101,6 +101,7 @@ public:
 	void toggleDeinterlace();
 	void askForLength();
 	void setOSDScale(double value);
+	void setChannelsFile(const QString &) {};
 
 protected slots:
 	void parseLine(QByteArray ba);

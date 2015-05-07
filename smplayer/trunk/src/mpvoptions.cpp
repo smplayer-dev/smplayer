@@ -827,3 +827,7 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 		}
 	}
 }
+
+void MPVProcess::setChannelsFile(const QString & filename) {
+	arg << "--dvbin-file=" + filename;
+}
