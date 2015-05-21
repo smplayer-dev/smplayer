@@ -174,6 +174,9 @@ signals:
 	void receivedTitleIsMovie();
 #endif
 
+	void receivedVideoBitrate(int);
+	void receivedAudioBitrate(int);
+
 protected:
 	MediaData md;
 	QString pausing_prefix;

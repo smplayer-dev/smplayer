@@ -321,6 +321,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 			emit receivedCurrentFrame(0); // Ugly hack: set the frame counter to 0
 
 			notified_mplayer_is_running = true;
+
+			// Wait some secs to ask for bitrate
+			QTimer::singleShot(12000, this, SLOT(requestBitrateInfo()));
 		}
 
 		emit receivedCurrentSec( sec );
@@ -569,7 +572,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 				qDebug("MPVProcess::parseLine: md.video_aspect set to %f", md.video_aspect);
 			}
 			if (tag == "INFO_VIDEO_BITRATE") {
-				md.video_bitrate = value.toInt();
+				int bitrate = value.toInt();
+				emit receivedVideoBitrate(bitrate);
 			}
 			else
 			if (tag == "INFO_LENGTH") {
@@ -599,7 +603,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 			else
 			*/
 			if (tag == "INFO_AUDIO_BITRATE") {
-				md.audio_bitrate = value.toInt();
+				int bitrate = value.toInt();
+				emit receivedAudioBitrate(bitrate);
 			}
 			else
 			if (tag == "INFO_AUDIO_RATE") {
@@ -693,6 +698,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 void MPVProcess::requestChapterInfo() {
 	writeToStdin("print_text \"INFO_CHAPTERS=${=chapters}\"");
+}
+
+void MPVProcess::requestBitrateInfo() {
+	writeToStdin("print_text INFO_VIDEO_BITRATE=${=video-bitrate}");
+	writeToStdin("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
 }
 
 #if NOTIFY_AUDIO_CHANGES
