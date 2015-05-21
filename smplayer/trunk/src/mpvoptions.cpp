@@ -29,11 +29,11 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_VIDEO_ASPECT=${=video-aspect}\n"
 //			"INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}\n"
 			"INFO_VIDEO_FPS=${=fps}\n"
-			"INFO_VIDEO_BITRATE=${=video-bitrate}\n"
+//			"INFO_VIDEO_BITRATE=${=video-bitrate}\n"
 			"INFO_VIDEO_FORMAT=${=video-format}\n"
 			"INFO_VIDEO_CODEC=${=video-codec}\n"
 
-			"INFO_AUDIO_BITRATE=${=audio-bitrate}\n"
+//			"INFO_AUDIO_BITRATE=${=audio-bitrate}\n"
 			"INFO_AUDIO_FORMAT=${=audio-format}\n"
 			"INFO_AUDIO_CODEC=${=audio-codec}\n"
 			"INFO_AUDIO_RATE=${=audio-samplerate}\n"

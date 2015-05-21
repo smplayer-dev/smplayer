@@ -114,6 +114,7 @@ protected slots:
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 	void gotError(QProcess::ProcessError);
 	void requestChapterInfo();
+	void requestBitrateInfo();
 
 protected:
 #if NOTIFY_AUDIO_CHANGES

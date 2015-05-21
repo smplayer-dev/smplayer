@@ -193,6 +193,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedStartingTime(double)),
              this, SLOT(gotStartingTime(double)) );
 
+	connect( proc, SIGNAL(receivedVideoBitrate(int)), this, SLOT(gotVideoBitrate(int)) );
+	connect( proc, SIGNAL(receivedAudioBitrate(int)), this, SLOT(gotAudioBitrate(int)) );
+
 	connect( proc, SIGNAL(receivedStreamTitle(QString)),
              this, SLOT(streamTitleChanged(QString)) );
 
@@ -3457,6 +3460,13 @@ void Core::gotStartingTime(double time) {
 	}
 }
 
+void Core::gotVideoBitrate(int b) {
+	mdat.video_bitrate = b;
+}
+
+void Core::gotAudioBitrate(int b) {
+	mdat.audio_bitrate = b;
+}
 
 void Core::changePause() {
 	qDebug("Core::changePause");

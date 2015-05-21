@@ -364,6 +364,8 @@ protected slots:
 	void gotVO(QString);
 	void gotAO(QString);
 	void gotStartingTime(double);
+	void gotVideoBitrate(int);
+	void gotAudioBitrate(int);
 
 	void finishRestart();
     void processFinished();
