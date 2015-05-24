@@ -94,10 +94,10 @@ QString TVList::findChannelsFile() {
 	file = QDir::homePath() + "/.mplayer/channels.conf";
 	if (QFile::exists(file)) return file;
 
-	file = QDir::homePath() + "/.mpv/channels.conf.ter";
+	file = QDir::homePath() + "/.config/mpv/channels.conf.ter";
 	if (QFile::exists(file)) return file;
 
-	file = QDir::homePath() + "/.mpv/channels.conf";
+	file = QDir::homePath() + "/.config/mpv/channels.conf";
 	if (QFile::exists(file)) return file;
 
 	return QString::null;
