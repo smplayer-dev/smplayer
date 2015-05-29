@@ -72,11 +72,7 @@ void MPVProcess::setFixedOptions() {
 	arg << "--no-quiet";
 	arg << "--terminal";
 	arg << "--no-msg-color";
-#ifndef Q_OS_WIN
 	arg << "--input-file=/dev/stdin";
-#else
-	arg << "--slave-broken";
-#endif
 	//arg << "--no-osc";
 	//arg << "--msg-level=vd=v";
 }
