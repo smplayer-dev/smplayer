@@ -116,6 +116,11 @@
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
 
+  Var YTDL_Version_Local
+  Var YTDL_Version_Remote
+  Var YTDL_Version_Remote_File
+  Var YTDL_Previous_Version_State
+
 ;--------------------------------
 ;Interface Settings
 
@@ -459,15 +464,36 @@ SectionGroup $(MPlayerMPVGroupTitle)
         Abort $(MPV_Inst_Failed)
 
     dl_youtube-dl:
-    ${IfNot} ${FileExists} "$INSTDIR\mplayer\youtube-dl.exe"
-      NSISdl::download /TIMEOUT=30000 \
-      "http://yt-dl.org/latest/youtube-dl.exe" \
-      "$INSTDIR\mplayer\youtube-dl.exe" /END
-      Pop $R0
-      StrCmp $R0 "success" +3 0
-        DetailPrint $(YTDL_DL_Failed)
-        MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY dl_youtube-dl
+
+    NSISdl::download_quiet /TIMEOUT=30000 \
+    "http://yt-dl.org/latest/version" \
+    "$PLUGINSDIR\version" /END
+
+    ClearErrors
+    FileOpen $YTDL_Version_Remote_File "$PLUGINSDIR\version" r
+    IfErrors YTDL
+    FileRead $YTDL_Version_Remote_File $YTDL_Version_Remote
+    FileClose $YTDL_Version_Remote_File
+
+    ClearErrors
+    ${GetFileVersion} "$INSTDIR\mplayer\youtube-dl.exe" $YTDL_Version_Local
+    IfErrors YTDL
+
+    ${VersionCompare} $YTDL_Version_Remote $YTDL_Version_Local $YTDL_Previous_Version_State
+    ${Unless} $YTDL_Previous_Version_State == 1
+      Goto skip_ytdl
     ${EndIf}
+
+    YTDL:
+    NSISdl::download /TIMEOUT=30000 \
+    "http://yt-dl.org/latest/youtube-dl.exe" \
+    "$INSTDIR\mplayer\youtube-dl.exe" /END
+    Pop $R0
+    StrCmp $R0 "success" +3 0
+      DetailPrint $(YTDL_DL_Failed)
+      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY dl_youtube-dl
+
+    skip_ytdl:
 
   SectionEnd
 
@@ -506,7 +532,7 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\smtube.exe" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
-	CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
   ${EndIf}
 
 !ifndef WIN64
