@@ -277,7 +277,7 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
 		// MPV
 		args << "--no-config" << "--no-audio" << "--no-cache";
-		args << "--frames=6" << "--start=" + QString::number(seek);
+		args << "--frames=6" << "--framedrop=no" << "--start=" + QString::number(seek);
 		if (aspect_ratio != 0) {
 			args << "--video-aspect=" + QString::number(aspect_ratio);
 		}
