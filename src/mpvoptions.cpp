@@ -34,12 +34,16 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_VIDEO_CODEC=${=video-codec}\n"
 
 //			"INFO_AUDIO_BITRATE=${=audio-bitrate}\n"
-			"INFO_AUDIO_FORMAT=${=audio-format}\n"
+//			"INFO_AUDIO_FORMAT=${=audio-format}\n"
+			"INFO_AUDIO_FORMAT=${=audio-codec-name:${=audio-format}}\n"
 			"INFO_AUDIO_CODEC=${=audio-codec}\n"
-			"INFO_AUDIO_RATE=${=audio-samplerate}\n"
-			"INFO_AUDIO_NCH=${=audio-channels}\n"
+//			"INFO_AUDIO_RATE=${=audio-samplerate}\n"
+			"INFO_AUDIO_RATE=${=audio-params/samplerate:${=audio-samplerate}}\n"
+//			"INFO_AUDIO_NCH=${=audio-channels}\n"
+			"INFO_AUDIO_NCH=${=audio-params/channel-count:${=audio-channels}}\n"
 
-			"INFO_LENGTH=${=length}\n"
+//			"INFO_LENGTH=${=length}\n"
+			"INFO_LENGTH=${=duration:${=length}}\n"
 
 			"INFO_DEMUXER=${=demuxer}\n"
 			"INFO_TITLES=${=disc-titles}\n"
@@ -57,7 +61,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_MEDIA_TITLE=${=media-title:}\n";
 
 #ifdef CUSTOM_STATUS
-	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=length:0} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle}";
+	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=duration:${=length:0}} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle}";
 #endif
 
 	if (is_playlist) {
