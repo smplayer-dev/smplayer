@@ -213,7 +213,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	}
 
 
-    QString action; // Action to be passed to running instance
+	QString action; // Action to be passed to running instance
 	bool show_help = false;
 
 	if (!pref->gui.isEmpty()) gui_to_use = pref->gui;
@@ -274,6 +274,13 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			} else {
 				printf("Error: expected parameter for -sub\r\n");
 				return ErrorArgument;
+			}
+		}
+		else
+		if (argument == "-media-title") {
+			if (n+1 < args.count()) {
+				n++;
+				if (media_title.isEmpty()) media_title = args[n];
 			}
 		}
 		else
@@ -396,6 +403,10 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 					a->sendMessage("load_sub " + subtitle_file);
 				}
 
+				if (!media_title.isEmpty()) {
+					a->sendMessage("media_title " + files_to_play[0] + " <<sep>> " + media_title);
+				}
+
 				if (!files_to_play.isEmpty()) {
 					/* a->sendMessage("open_file " + files_to_play[0]); */
 					QString command = "open_files";
@@ -432,6 +443,7 @@ void SMPlayer::start() {
 	if (!gui()->startHidden() || !files_to_play.isEmpty() ) gui()->show();
 	if (!files_to_play.isEmpty()) {
 		if (!subtitle_file.isEmpty()) gui()->setInitialSubtitle(subtitle_file);
+		if (!media_title.isEmpty()) gui()->getCore()->addForcedTitle(files_to_play[0], media_title);
 		gui()->openFiles(files_to_play);
 	}
 

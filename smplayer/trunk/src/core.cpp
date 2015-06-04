@@ -1153,6 +1153,10 @@ void Core::finishRestart() {
 		mdat.demuxer = proc->mediaData().demuxer;
 	}
 
+	if (forced_titles.contains(mdat.filename)) {
+		mdat.clip_name = forced_titles[mdat.filename];
+	}
+
 #ifdef YOUTUBE_SUPPORT
 	if (pref->enable_yt_support) {
 		// Change the real url with the youtube page url and set the title

@@ -52,10 +52,10 @@ class Core : public QObject
 public:
 	enum State { Stopped = 0, Playing = 1, Paused = 2 };
 
-    Core( MplayerWindow *mpw, QWidget* parent = 0 );
-    ~Core();
+	Core( MplayerWindow *mpw, QWidget* parent = 0 );
+	~Core();
 
-    MediaData mdat;
+	MediaData mdat;
 	MediaSettings mset;
 
 	//! Return the current state
@@ -64,6 +64,8 @@ public:
 	//! Return a string with the name of the current state,
 	//! so it can be printed on debugging messages.
 	QString stateToString();
+
+	void addForcedTitle(const QString & file, const QString & title) { forced_titles[file] = title; };
 
 protected:
 	//! Change the current state (Stopped, Playing or Paused)
@@ -523,7 +525,7 @@ protected:
 #ifdef YOUTUBE_SUPPORT
 	RetrieveYoutubeUrl * yt;
 #endif
-    
+
 private:
 	// Some variables to proper restart
 	bool we_are_restarting;
@@ -538,6 +540,8 @@ private:
 #if DVDNAV_SUPPORT
 	bool dvdnav_title_is_menu;
 #endif
+
+	QMap<QString,QString> forced_titles;
 };
-    
+
 #endif

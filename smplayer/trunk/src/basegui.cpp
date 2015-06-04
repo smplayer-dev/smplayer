@@ -321,6 +321,11 @@ void BaseGui::handleMessageFromOtherInstances(const QString& message) {
 			playlist->addFiles(file_list);
 		}
 		else
+		if (command == "media_title") {
+			QStringList list = arg.split(" <<sep>> ");
+			core->addForcedTitle(list[0], list[1]);
+		}
+		else
 		if (command == "action") {
 			processFunction(arg);
 		}
@@ -3151,7 +3156,7 @@ void BaseGui::applyFileProperties() {
 
 
 void BaseGui::updateMediaInfo() {
-    qDebug("BaseGui::updateMediaInfo");
+	qDebug("BaseGui::updateMediaInfo");
 
 	if (file_dialog) {
 		if (file_dialog->isVisible()) setDataToFileProperties();
