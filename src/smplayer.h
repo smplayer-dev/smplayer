@@ -64,6 +64,7 @@ private:
 	QString subtitle_file;
 	QString actions_list; //!< Actions to be run on startup
 	QString gui_to_use;
+	QString media_title; //!< Force a title for the first file
 
 	// Change position and size
 	bool move_gui;

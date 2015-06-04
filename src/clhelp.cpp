@@ -166,6 +166,9 @@ QString CLHelp::help(bool html) {
 	s += formatHelp( "-sub", QObject::tr(
 		"specifies the subtitle file to be loaded for the first video."), html );
 
+	s += formatHelp( "-media-title", QObject::tr(
+		"sets the media title for the first video."), html );
+
 	s += formatHelp( "-pos", QObject::tr(
 		"specifies the coordinates where the main window will be displayed."), html );
 
