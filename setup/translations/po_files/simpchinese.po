@@ -4,43 +4,43 @@ msgstr "此版本不支持二进制解码器"
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "下载 Youtube-DL 失败：'$R0'。"
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL 未安装成功。是否重试？"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "安装 MPV 失败。"
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "下载 MPV 失败： '$R0'。"
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV 未安装成功。是否重试？"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "下载 MPV 中..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "恢复上次安装的 MPV 中。"
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "备份 MPV 中..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "恢复上次安装的 SMTube 中..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "备份 SMTube 中..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -222,7 +222,7 @@ msgstr "MPlayer 的配套程序，可以用来编码或转换支持的音频/视
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "MPlayer 和 MPlayer2 的一个特性增强分支"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -267,7 +267,7 @@ msgstr "SMPlayer (必需)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "多媒体引擎"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -334,12 +334,12 @@ msgstr "安装程序已在运行。"
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# MinZhang <zm1990s@gmail.com>, 2014
+# zhangmin <zm1990s@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-25 12:37+0000\n"
-"Last-Translator: MinZhang <zm1990s@gmail.com>\n"
+"PO-Revision-Date: 2015-01-31 03:26+0000\n"
+"Last-Translator: zhangmin <zm1990s@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/projects/p/smplayer/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"

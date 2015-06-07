@@ -4,43 +4,43 @@ msgstr "Бінарні кодеки не підтримується цією в�
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Не вдалося завантажити Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "Не вдалося встановити YouTube-DL. Спробувати ще раз?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Помилка при встановленні MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Не вдалося завантажити MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "Не вдалося встановити MPV. Спробувати ще раз?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Завантаження MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Відновлення MPV з попереднього встановлення..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Backing up MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Відновлення SMTube з попереднього встановлення..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Резервується SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -48,19 +48,19 @@ msgstr "Витягнення файлів..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr ""
+msgstr "Відкочування змін..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr ""
+msgstr "Відновлення асоціяцій файлів..."
 
 # Info_Del_Shortcuts
 msgid "Deleting Shortcuts..."
-msgstr ""
+msgstr "Вилучення ярликів..."
 
 # Info_Del_Registry
 msgid "Deleting Registry Keys..."
-msgstr ""
+msgstr "Вилучення ключів реєстру..."
 
 # Info_Del_Files
 msgid "Deleting Files..."
@@ -72,7 +72,7 @@ msgstr "Відновити кодеки з попереднього встано
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr ""
+msgstr "Виконується резервне копіювання кодеків з попереднього встановлення..."
 
 # Application_Description
 msgid ""
@@ -80,30 +80,37 @@ msgid ""
 "playing videos, DVDs, VCDs to more advanced features like support for "
 "MPlayer filters, edl lists, and more."
 msgstr ""
+"SMPlayer - повноцінна оболонка для MPlayer, починаючи від базових функцій "
+"типу відтворення видивофайлів, DVD, VCD й закінчуючи просунутішими типу "
+"підтримки фільтрів MPlayer, переліків тощо."
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
+msgstr "Це встановлення може бути вилучене лише на 64-бітовій Windows."
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
-msgstr ""
+msgstr "Встановлення SMPlayer не виявлено."
 
 # Uninstaller_NotInstalled
 msgid ""
 "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
 "r:][:n:]Continue anyway (not recommended)?"
 msgstr ""
+"Не схоже, що SMPlayer встановлений у каталог '$INSTDIR'.[:r:][:n:]Продовжити "
+"все одно (не рекомендується)?"
 
 # Uninstaller_Aborted
 msgid "Uninstall aborted by user."
-msgstr "Видалення перервано користувачем."
+msgstr "Вилучення перервано користувачем."
 
 # Uninstaller_No_Admin
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
 msgstr ""
+"Це встановлення може бути вилучене лише користувачем з правами "
+"адміністратора."
 
 # Codecs_Inst_Failed
 msgid "Failed to install MPlayer codecs."
@@ -115,7 +122,7 @@ msgstr "Не вдалося завантажити кодеки MPlayer: '$R0'."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr ""
+msgstr "Кодеки MPlayer не було вдало встановлено. Повторити спробу?"
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
@@ -131,7 +138,7 @@ msgstr "оновити"
 
 # Type_Downgrade
 msgid "downgrade"
-msgstr ""
+msgstr "повернення до попередньої версії"
 
 # Type_Reinstall
 msgid "reinstall"
@@ -147,7 +154,7 @@ msgstr "Змінити параметри встановлення"
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr "Натисніть Видалити, щоб продовжити"
+msgstr "Натисніть Вилучити, щоб продовжити"
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
@@ -159,11 +166,11 @@ msgstr "Натисніть Пуск, щоб продовжити."
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
-msgstr ""
+msgstr "Деінсталювати (вилучити) існуюче встановлення"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
+msgstr "Перезаписати ($Inst_Type) існуюче встановлення"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
@@ -171,11 +178,11 @@ msgstr "Будь ласка, виберіть, як діяти далі:"
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr ""
+msgstr "Існує встановлення SMPlayer у такому каталозі:"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr "Оберіть режим Перевстановити чи Видалити"
+msgstr "Оберіть режим Перевстановити чи Вилучити"
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
@@ -188,11 +195,15 @@ msgid ""
 "formats.[:n:]Note that they are not necessary to play most common formats "
 "like DVDs, MPEG-1/2/4, etc."
 msgstr ""
+"Пакунки з двійковими кодеками додають підтримку кодеків, не вбудованих у "
+"mplayer, наприклад, RealVideo й інших нестандартних форматів.[:n:]Зверніть "
+"увагу, що ці кодеки не потрібні для відтворення більшості звичайних форматів "
+"типу DVD, MPEG-1/2/4 тощо."
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
 msgstr ""
-"Видалити SMPlayer уподобання, які залишились від попереднього встановлення."
+"Вилучити SMPlayer уподобання, які залишилися від попереднього встановлення."
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
@@ -215,10 +226,12 @@ msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
+"Супутня MPlayer проґрама, яку можна використовувати для кодування та "
+"перетворення підтримуваних аудіо та видиво потоків."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Багатий можливостями форк MPlayer і MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -265,7 +278,7 @@ msgstr "SMPlayer (обов'язково)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Рушій відтворення"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -273,7 +286,7 @@ msgstr "Компоненти MPlayer"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
-msgstr "Лейба"
+msgstr "Ярлик"
 
 # WelcomePage_Text
 msgid ""
@@ -282,28 +295,34 @@ msgid ""
 "starting setup. This will make it possible to update relevant program files "
 "without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
+"Майстер встановлення допоможе встановити $(^NameDA).[:r:][:n:][:r:][:n:]"
+"Перед початком встановлення рекомендується закрити усі працюючі копії "
+"SMPlayer. Це дозволить оновити супутні проґрамні файли без перезавантаження "
+"комп’ютера.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Встановлення"
+msgstr "Встановлення $(^NameDA)"
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
 "bit SMPlayer first."
 msgstr ""
+"Існує 64-бітове встановлення SMPlayer. Спочатку вилучіть 64-бітовий SMPlayer."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
 "bit SMPlayer first."
 msgstr ""
+"Існує 32-бітове встановлення SMPlayer. Спочатку вилучіть 32-бітовий SMPlayer."
 
 # Win64_Required
 msgid "A 64-bit Windows operating system is required to install this software."
 msgstr ""
 "64-розрядна операційна система Windows, необхідна для встановлення цього "
-"програмного забезпечення."
+"проґрамного забезпечення."
 
 # OS_Not_Supported
 msgid ""
@@ -311,16 +330,20 @@ msgid ""
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Непідтримувана версія операційної системи.[:n:]SMPlayer ${SMPLAYER_VERSION} "
+"потребує як мінімум Windows XP й може працювати неправильно на Вашій системі."
+"[:n:]Ви справді бажаєте продовжити встановлення?"
 
 # SMPlayer_Is_Running
 msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 msgstr ""
+"Запущено екземпляр SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
 
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
 msgstr ""
-"Ви повинні увійти в систему в якості адміністратора під час встановлення "
-"цієї програми."
+"Ви повинні увійти у систему в якості адміністратора під час встановлення "
+"цієї проґрами."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -333,11 +356,13 @@ msgstr "Встановлювач вже запущений."
 # Translators:
 # vitrolov <vitrolov@i.ua>, 2014
 # zubr139, 2014
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2015
+# Олександр <6c6c6.ukr@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-07-15 15:44+0000\n"
-"Last-Translator: vitrolov <vitrolov@i.ua>\n"
+"PO-Revision-Date: 2015-05-13 18:58+0000\n"
+"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/projects/p/smplayer/"
 "language/uk/)\n"
 "Language: uk\n"

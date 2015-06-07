@@ -4,43 +4,43 @@ msgstr "Kodeki binarne nie są obsługiwane w tej wersji."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Błąd pobierania Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL nie został pomyślnie zainstalowany. Ponowić?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Błąd instalacji MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Błąd pobierania MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV nie został pomyślnie zainstalowany. Ponowić?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Pobieranie MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Przywracanie MPV z poprzedniej instalacji..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Tworzenie kopii zapasowej MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Przywracanie SMTube z poprzedniej instalacji..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Tworzenie kopii zapasowej SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -205,11 +205,11 @@ msgstr "Usuwa preferencje SMPlayera pozostawione z poprzednich instalacji."
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
-msgstr "Tłumaczenia na inne języki."
+msgstr "Nieangielskie pliki językowe dla SMPlayer."
 
 # Section_Translations
 msgid "Languages"
-msgstr "Tłumaczenia"
+msgstr "Języki"
 
 # Section_IconThemes_Desc
 msgid "Additional icon themes for SMPlayer."
@@ -224,12 +224,12 @@ msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
-"Jest to prosty koder (kompresor) filmów, zaprojektowany do kodowania filmów "
-"otwieralnych MPlayerem do innych obsługiwanych formatów"
+"Konkurencyjny program dla MPlayera, który może być używany do kodowania lub "
+"przetwarzania obsługiwanych strumieni dźwięku i wideo."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Bogaty w funkcje fork MPlayera i MPlayera2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -274,7 +274,7 @@ msgstr "SMPlayer (wymagany)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Silnik multimediów"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -352,12 +352,13 @@ msgstr "Instalator już jest uruchomiony."
 #
 # Translators:
 # M T <michtrz@gmail.com>, 2014
+# Piotr Strębski <strebski@o2.pl>, 2015
 # filux <smartadminpl@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-07-04 03:40+0000\n"
-"Last-Translator: filux <smartadminpl@gmail.com>\n"
+"PO-Revision-Date: 2015-02-03 16:34+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/projects/p/smplayer/language/"
 "pl/)\n"
 "Language: pl\n"

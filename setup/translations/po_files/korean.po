@@ -4,43 +4,43 @@ msgstr "이 버전에서 바이너리 코덱은 지원하지 않습니다."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "YouTube-DL 다운로드 실패:  '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL 설치에 실패했습니다. 재시도할까요?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "MPV 설치에 실패했습니다."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "MPV 다운로드 실패:  '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV 설치에 실패했습니다. 재시도할까요?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "MPV 다운로드 중..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "MPV를 이전 설치에서 복원하는 중..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "MPV를 백업하는 중..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "SMTube는 이전 설치에서 복원하는 중..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "SMTube를 백업하는 중..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -226,7 +226,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "다기능의 MPlayer && MPlayer2를 이용한 개발"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -271,7 +271,7 @@ msgstr "SMPlayer (필수)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "멀티미디어 엔진"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -343,12 +343,12 @@ msgstr "설치 프로그램이 실행 중입니다."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# sheppaul <sheppaul@naver.com>, 2014
+# Potato <sheppaul@naver.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-25 11:45+0000\n"
-"Last-Translator: sheppaul <sheppaul@naver.com>\n"
+"PO-Revision-Date: 2015-01-31 14:40+0000\n"
+"Last-Translator: Potato <sheppaul@naver.com>\n"
 "Language-Team: Korean (http://www.transifex.com/projects/p/smplayer/language/"
 "ko/)\n"
 "Language: ko\n"

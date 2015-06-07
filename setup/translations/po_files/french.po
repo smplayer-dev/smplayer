@@ -4,43 +4,43 @@ msgstr "Les codecs binaires ne sont pas supportés dans cette version."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Échec lors du téléchargement de Youtube-DL : '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "Youtube-DL n’a pas été installé correctement. Réessayer ?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Erreur lors de l’installation de mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Échec lors du téléchargement de mpv : '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "L’installation de mpv a échoué. Réessayer ?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Téléchargement de mpv…"
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Restauration de mpv depuis une précédente installation…"
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Sauvegarde de mv…"
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Restauration de SMTube depuis une précédente installation…"
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Sauvegarde de SMTube…"
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -235,7 +235,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Une version améliorée de MPlayer et MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -250,7 +250,7 @@ msgstr "Codecs binaires"
 
 # Section_MPlayer_Desc
 msgid "MPlayer; required for playback."
-msgstr "MPlayer; requis pour la lecture."
+msgstr "MPlayer ; requis pour la lecture."
 
 # Section_MPlayer
 msgid "MPlayer (required)"
@@ -282,7 +282,7 @@ msgstr "SMPlayer (requis)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Moteur de lecture"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -361,11 +361,12 @@ msgstr "L'installateur est déjà en cours d'exécution."
 #
 # Translators:
 # tneskovic <antoine_ecuador@yahoo.fr>, 2014
+# Sébastien Picavet <sebastien.picavet@gmail.com>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-27 10:32+0000\n"
-"Last-Translator: tneskovic <antoine_ecuador@yahoo.fr>\n"
+"PO-Revision-Date: 2015-03-19 22:17+0000\n"
+"Last-Translator: Sébastien Picavet <sebastien.picavet@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/smplayer/language/"
 "fr/)\n"
 "Language: fr\n"

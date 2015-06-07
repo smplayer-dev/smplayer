@@ -354,12 +354,12 @@ msgstr "Instaluesi eshte ne egzekutim."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# rigels.gordani <rgordani@gmail.com>, 2014
+# Rigels Gordani <rgordani@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-13 10:47+0000\n"
-"Last-Translator: rigels.gordani <rgordani@gmail.com>\n"
+"PO-Revision-Date: 2015-01-31 01:55+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
 "Language-Team: Albanian (Albania) (http://www.transifex.com/projects/p/"
 "smplayer/language/sq_AL/)\n"
 "Language: sq_AL\n"

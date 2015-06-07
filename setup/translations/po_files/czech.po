@@ -4,43 +4,43 @@ msgstr "Binární kodeky nejsou v této verzi podporovány."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Nelze stáhnout Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "Instlace YouTube-DL nebyla úspěšná. Zkusit znovu?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Chyba při instalaci MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Nelze stáhnout MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "Instlace MPV nebyla úspěšná. Zkusit znovu?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Stahování MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Obnovování MPV z předchozích instalací..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Zálohování MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Obnovení SMtube z předchozí instalace..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Zálohování SMtube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -227,7 +227,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Funkcemi nabitý fork MPlayeru && MPlayeru2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -273,7 +273,7 @@ msgstr "SMPlayer (vyžadován)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Multimediální pohon"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -349,12 +349,12 @@ msgstr "Instalátor již běží."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# petr.simacek <petr.simacek@gmail.com>, 2014
+# Petr Šimáček <petr.simacek@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-09 17:38+0000\n"
-"Last-Translator: petr.simacek <petr.simacek@gmail.com>\n"
+"PO-Revision-Date: 2015-01-31 10:56+0000\n"
+"Last-Translator: Petr Šimáček <petr.simacek@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/projects/p/smplayer/language/"
 "cs/)\n"
 "Language: cs\n"
