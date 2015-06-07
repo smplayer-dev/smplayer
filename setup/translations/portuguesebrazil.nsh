@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "A configuração lhe guiará através da ins
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Atalhos"
 ${LangFileString} MPlayerGroupTitle "Componentes do MPlayer"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "Motor multimídia"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (necessário)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, bibliotecas compartilhadas e documentação."
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Codecs binários não são suporta
 ${LangFileString} Section_MPlayerCodecs_Desc "Codecs opcionais para o MPlayer. (Necessita conexão com a Internet para instalação)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Um derivado do MPlayer && MPlayer2 cheio de funcionalidades"
 
 ${LangFileString} Section_MEncoder_Desc "Um programa acompanhante do MPlayer que pode ser usado para codificar ou transformar fluxos de áudio ou vídeo suportados."
 
@@ -81,7 +81,7 @@ ${LangFileString} StartBtn "Iniciar"
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Baixando codecs do MPlayer..."
 ${LangFileString} Codecs_DL_Retry "Os codecs do Mplayer não foram instalados corretamente. Tentar novamente?"
-${LangFileString} Codecs_DL_Failed "Falha ao baixar o codecs do MPlayer: '$R0'."
+${LangFileString} Codecs_DL_Failed "Falha ao baixar os codecs do MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Falha ao instalar os codecs do MPlayer."
 
 ; Uninstaller
@@ -103,17 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Deletando atalhos..."
 ${LangFileString} Info_Rest_Assoc "Restaurando associações de arquivos..."
 ${LangFileString} Info_RollBack "Revertendo alterações..."
 ${LangFileString} Info_Files_Extract "Extraindo arquivos..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_SMTube_Backup "Fazendo backup do SMTube..."
+${LangFileString} Info_SMTube_Restore "Restaurando o SMTube da instalação anterior..."
+${LangFileString} Info_MPV_Backup "Fazendo backup do MPV..."
+${LangFileString} Info_MPV_Restore "Restaurando o MPV da instalação anterior..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "Baixando o MPV..."
+${LangFileString} MPV_DL_Retry "O MPV não foi instalado corretamente. Tentar novamente?"
+${LangFileString} MPV_DL_Failed "Falha ao baixar o MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Falha ao instalar o MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "O YouTube-DL não foi instalado corretamente. Tentar novamente?"
+${LangFileString} YTDL_DL_Failed "Falha ao baixar o Youtube-DL:'$R0'."

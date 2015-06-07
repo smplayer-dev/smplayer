@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "セットアップは $(^NameDA) のイン�
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "ショートカット"
 ${LangFileString} MPlayerGroupTitle "MPlayer コンポーネント"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "マルチメディア エンジン"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (必須)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer、共有ライブラリ、およびドキュメントです。"
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "バイナリ コーデックはこ
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer のオプション コーデックです。(インストールにはインターネット接続が必要です)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "MPlayer と MPlayer2 の機能豊富なフォークです"
 
 ${LangFileString} Section_MEncoder_Desc "サポートされたオーディオまたはビデオ ストリームのエンコードや変換に使用できる MPlayer の姉妹プログラムです。"
 
@@ -103,17 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "ショートカットを削除していま
 ${LangFileString} Info_Rest_Assoc "ファイルの関連付けを復元しています..."
 ${LangFileString} Info_RollBack "変更を元に戻しています..."
 ${LangFileString} Info_Files_Extract "ファイルを展開しています..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_SMTube_Backup "SMTube をバックアップしています..."
+${LangFileString} Info_SMTube_Restore "以前のインストールからの SMTube を復元しています..."
+${LangFileString} Info_MPV_Backup "MPV をバックアップしています..."
+${LangFileString} Info_MPV_Restore "以前のインストールからの MPV を復元しています..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "MPV をダウンロードしています..."
+${LangFileString} MPV_DL_Retry "MPV は正常にインストールされませんでした。再試行しますか?"
+${LangFileString} MPV_DL_Failed "MPV のダウンロードに失敗しました: '$R0'。"
+${LangFileString} MPV_Inst_Failed "MPV のインストールに失敗しました。"
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "YouTube-DL は正常にインストールされませんでした。再試行しますか?"
+${LangFileString} YTDL_DL_Failed "YouTube-DL のダウンロードに失敗しました: '$R0'。"
