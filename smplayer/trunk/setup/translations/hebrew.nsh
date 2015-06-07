@@ -12,18 +12,18 @@ ${LangFileString} Installer_No_Admin "עליך להתחבר בתור מנהל ב
 ${LangFileString} SMPlayer_Is_Running "תהליך של SMPlayer הינו מורץ כעת. אנא צא מתוך SMPlayer ונסה שוב."
 
 ${LangFileString} OS_Not_Supported "מערכת הפעלה לא נתמכת.$\nSMPlayer ${SMPLAYER_VERSION} מצריך לפחות Windows XP ועשוי שלא לעבוד כראוי על המערכת הנוכחית.$\nהאם אתה בטוח כי ברצונך להמשיך עם ההתקנה?"
-${LangFileString} Win64_Required "מערכת הפעלה Windows מטיפוס  64-ביט נדרשת לשם התקנת תוכנה זו."
+${LangFileString} Win64_Required "מערכת הפעלה Windows מטיפוס 64-ביט נדרשת כדי להתקין תוכנה זו."
 ${LangFileString} Existing_32bitInst "התקנה קיימת מטיפוס 32-ביט של SMPlayer זמינה. עליך לבטל התקנת SMPlayer מטיפוס 32-ביט תחילה."
 ${LangFileString} Existing_64bitInst "התקנה קיימת מטיפוס 64-ביט של SMPlayer זמינה. עליך לבטל התקנת SMPlayer מטיפוס 64-ביט תחילה."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "התקנת $(^NameDA)"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "המתקין ידריך אותך מבעד להתקנה של $(^NameDA).$\r$\n$\r$\nמומלץ לסגור את כל המאורעות שך SMPlayer בטרם התחלת מתקין. זו תהפוך עדכון של קבצי תוכנית בלי לאתחל את מחשבך לאפשרית.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "קיצורי דרך"
 ${LangFileString} MPlayerGroupTitle "רכיבי MPlayer"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "מנוע מולטימדיה"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (חובה)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, ספריות משותפות, ותיעוד."
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "קודקים של בינארי א�
 ${LangFileString} Section_MPlayerCodecs_Desc "קודקי לא מחייבים (רשות) עבור MPlayer. (חיבור אינטרנט נדרש לשם התקנה)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "הסתעפות רב-תכליתית של MPlayer ו-MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "תוכנית משותפת ליישום MPlayer אשר מסוגלת לשמש כדי לקודד או לשנות זרמי אודיו או וידאו נתמכים."
 
@@ -79,13 +79,13 @@ ${LangFileString} Type_Upgrade "שדרג"
 ${LangFileString} StartBtn "התחל"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "מוריד קודקים של MPlayer..."
-${LangFileString} Codecs_DL_Retry "קודקי MPlayer לא הותקנו בהצלחה. לנסות שוב?"
-${LangFileString} Codecs_DL_Failed "נכשל להוריד קודקי MPlayer. סיבה: '$R0'."
-${LangFileString} Codecs_Inst_Failed "נכשל להתקין קודקי MPlayer."
+${LangFileString} Codecs_DL_Msg "מוריד כעת קודקים של MPlayer..."
+${LangFileString} Codecs_DL_Retry "קודקים של MPlayer לא הותקנו בהצלחה. לנסות שוב?"
+${LangFileString} Codecs_DL_Failed "נכשל להוריד קודקים של MPlayer. סיבה: '$R0'."
+${LangFileString} Codecs_Inst_Failed "נכשל להתקין קודקים של MPlayer."
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "התקנה זו ניתנת לביטול על ידי משתמש עם הרשאות מנהל."
+${LangFileString} Uninstaller_No_Admin "התקנה זו ניתנת לביטול רק על ידי משתמש עם הרשאות מנהל."
 ${LangFileString} Uninstaller_Aborted "ביטל התקנת ננטש על ידי משתמש."
 ${LangFileString} Uninstaller_NotInstalled "לא נראה כי SMPlayer הינו מותקן בתוך התיקייה '$INSTDIR'.$\r$\nלהמשיך בכל זאת (לא מומלץ)?"
 ${LangFileString} Uninstaller_InvalidDirectory "התקנת SMPlayer לא נמצאה."
@@ -97,23 +97,23 @@ ${LangFileString} Application_Description "SMPlayer הינו מגשר-חזיתי
 ; Misc
 ${LangFileString} Info_Codecs_Backup "מגבה קודקים מתוך ההתקנה הקודמת..."
 ${LangFileString} Info_Codecs_Restore "משחזר קודקים מתוך ההתקנה הקודמת..."
-${LangFileString} Info_Del_Files "מוחק קבצים..."
-${LangFileString} Info_Del_Registry "מוחק מפתחות Registry..."
-${LangFileString} Info_Del_Shortcuts "מוחק קיצורי דרך..."
-${LangFileString} Info_Rest_Assoc "משחזר שיוכי קובץ..."
-${LangFileString} Info_RollBack "משחזר שינויים..."
-${LangFileString} Info_Files_Extract "מחלץ קבצים..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_Del_Files "מוחק כעת קבצים..."
+${LangFileString} Info_Del_Registry "מוחק כעת מפתחות Registry..."
+${LangFileString} Info_Del_Shortcuts "מוחק כעת קיצורי דרך..."
+${LangFileString} Info_Rest_Assoc "משחזר כעת שיוכי קובץ..."
+${LangFileString} Info_RollBack "משחזר כעת שינויים..."
+${LangFileString} Info_Files_Extract "מחלץ כעת קבצים..."
+${LangFileString} Info_SMTube_Backup "מגבה כעת את SMTube..."
+${LangFileString} Info_SMTube_Restore "משחזר כעת את SMTube מתוך התקנה קודמת..."
+${LangFileString} Info_MPV_Backup "מגבה כעת את MPV..."
+${LangFileString} Info_MPV_Restore "משחזר כעת את MPV מתוך התקנה קודמת..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "מוריד כעת את MPV..."
+${LangFileString} MPV_DL_Retry "MPV לא הותקן בהצלחה. לנסות שוב?"
+${LangFileString} MPV_DL_Failed "נכשל להוריד MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "נכשל להתקין MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "YouTube-DL לא הותקן בהצלחה. לנסות שוב?"
+${LangFileString} YTDL_DL_Failed "נכשל להוריד את Youtube-DL: '$R0'."

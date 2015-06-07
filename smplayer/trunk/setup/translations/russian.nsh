@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "Мастер установки поможе
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Ярлыки"
 ${LangFileString} MPlayerGroupTitle "Компоненты MPlayer"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "Движок воспроизведения"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (необходимо)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, разделяемые библиотеки и документация."
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Бинарные кодеки не
 ${LangFileString} Section_MPlayerCodecs_Desc "Дополнительные кодеки для MPlayer. (Для установки требуется подключение к сети Интернет)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Богатый возможностями форк MPlayer и MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Сопутствующая MPlayer программа, которую можно использовать для кодирования и преобразования поддерживаемых аудио и видео потоков."
 
@@ -79,10 +79,10 @@ ${LangFileString} Type_Upgrade "обновить"
 ${LangFileString} StartBtn "Старт"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Загрузка бинарных кодеков для MPlayer..."
+${LangFileString} Codecs_DL_Msg "Загрузка кодеков MPlayer..."
 ${LangFileString} Codecs_DL_Retry "Не удалось успешно установить кодеки MPlayer. Попытаться ещё раз?"
-${LangFileString} Codecs_DL_Failed "Не удалось загрузить бинарные кодеки для MPlayer: '$R0'."
-${LangFileString} Codecs_Inst_Failed "Ошибка при установке бинарных кодеков для MPlayer."
+${LangFileString} Codecs_DL_Failed "Не удалось загрузить кодеки MPlayer: '$R0'."
+${LangFileString} Codecs_Inst_Failed "Ошибка при установке кодеков MPlayer."
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Эта установка может быть удалена только пользователем с правами администратора."
@@ -103,17 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Удаление ярлыков..."
 ${LangFileString} Info_Rest_Assoc "Восстановление ассоциаций файлов..."
 ${LangFileString} Info_RollBack "Откат изменений..."
 ${LangFileString} Info_Files_Extract "Извлечение файлов..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
+${LangFileString} Info_SMTube_Backup "Резервируется SMTube..."
+${LangFileString} Info_SMTube_Restore "Восстановление SMTube из предыдущей установки..."
 ${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_MPV_Restore "Восстановление MPV из предыдущей установки..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "Загрузка MPV..."
+${LangFileString} MPV_DL_Retry "Не удалось установить MPV. Попытаться ещё раз?"
+${LangFileString} MPV_DL_Failed "Не удалось загрузить MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Ошибка при установке MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "Не удалось установить YouTube-DL. Попытаться ещё раз?"
+${LangFileString} YTDL_DL_Failed "Не удалось загрузить Youtube-DL: '$R0'."

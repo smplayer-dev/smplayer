@@ -18,12 +18,12 @@ ${LangFileString} Existing_64bitInst "Pemasangan 64-bit SMPlayer sudah wujud. An
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "Persediaan $(^NameDA)"
-${LangFileString} WelcomePage_Text "Persediaan akan bantu anda melalui pemasangan $(^NameDA).$\r$\n$\r$\nAdalah disarankan anda tutup semua kejadian SMPlayer sebelum memulakan persediaan. Ia bertujuan untuk mengemaskini fail program yang berkaitan tanpa perlu membut semula komputer anda.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Persediaan akan membantu anda melalui pemasangan $(^NameDA).$\r$\n$\r$\nAdalah disarankan anda tutup semua kejadian SMPlayer sebelum memulakan persediaan. Ia bertujuan untuk mengemaskini fail program yang berkaitan tanpa perlu membut semula komputer anda.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Pintasan"
 ${LangFileString} MPlayerGroupTitle "Komponen MPlayer"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "Enjin Multimedia"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (diperlukan)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, pustaka terkongsi, dan dokumentasi."
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks binari tidak disokong dalam
 ${LangFileString} Section_MPlayerCodecs_Desc "Kodeks pilihan untuk MPlayer. (Sambungan Internet diperlukan untuk pemasangan)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Cabang kaya-fitur bagi MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Program yang diperlukan oleh MPlayer yang dapat digunakan untuk mengenkod atau jelma audio disokong atau strim video."
 
@@ -103,17 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Memadam Pintasan..."
 ${LangFileString} Info_Rest_Assoc "Memulihkan perkaitan fail..."
 ${LangFileString} Info_RollBack "Mengembali perubahan..."
 ${LangFileString} Info_Files_Extract "Mengekstrak fail..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_SMTube_Backup "Menyandar SMTube..."
+${LangFileString} Info_SMTube_Restore "Memulihkan SMTube dari pemasangan terdahulu..."
+${LangFileString} Info_MPV_Backup "Menyandar MPV..."
+${LangFileString} Info_MPV_Restore "Memulihkan MPV dari pemasangan terdahulu..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "Memuat turun MPV..."
+${LangFileString} MPV_DL_Retry "MPV gagal dipasang. Cuba lagi?"
+${LangFileString} MPV_DL_Failed "Gagal memuat turun MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Gagal memasang MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "YouTube-DL gagal dipasang. Cuba lagi?"
+${LangFileString} YTDL_DL_Failed "Gagal memuat turun Youtube-DL: '$R0'."

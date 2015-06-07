@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "Instalator poprowadzi Cię przez proces inst
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Skróty"
 ${LangFileString} MPlayerGroupTitle "Komponenty MPlayera"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "Silnik multimediów"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (wymagany)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, biblioteki współdzielone, dokumentacja."
@@ -44,15 +44,15 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Kodeki binarne nie są obsługiwan
 ${LangFileString} Section_MPlayerCodecs_Desc "Opcjonalne kodeki do MPlayera. (Wymagane połączenie z internetem)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Bogaty w funkcje fork MPlayera i MPlayera2"
 
-${LangFileString} Section_MEncoder_Desc "Jest to prosty koder (kompresor) filmów, zaprojektowany do kodowania filmów otwieralnych MPlayerem do innych obsługiwanych formatów"
+${LangFileString} Section_MEncoder_Desc "Konkurencyjny program dla MPlayera, który może być używany do kodowania lub przetwarzania obsługiwanych strumieni dźwięku i wideo."
 
 ${LangFileString} Section_IconThemes "Zestawy Ikon"
 ${LangFileString} Section_IconThemes_Desc "Dodatkowe zestawy ikon do SMPlayera."
 
-${LangFileString} Section_Translations "Tłumaczenia"
-${LangFileString} Section_Translations_Desc "Tłumaczenia na inne języki."
+${LangFileString} Section_Translations "Języki"
+${LangFileString} Section_Translations_Desc "Nieangielskie pliki językowe dla SMPlayer."
 
 ${LangFileString} Section_ResetSettings_Desc "Usuwa preferencje SMPlayera pozostawione z poprzednich instalacji."
 
@@ -103,17 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Usuwanie Skrótów..."
 ${LangFileString} Info_Rest_Assoc "Przywracanie skojarzeń plików..."
 ${LangFileString} Info_RollBack "Cofanie zmian..."
 ${LangFileString} Info_Files_Extract "Wypakowywanie plików..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_SMTube_Backup "Tworzenie kopii zapasowej SMTube..."
+${LangFileString} Info_SMTube_Restore "Przywracanie SMTube z poprzedniej instalacji..."
+${LangFileString} Info_MPV_Backup "Tworzenie kopii zapasowej MPV..."
+${LangFileString} Info_MPV_Restore "Przywracanie MPV z poprzedniej instalacji..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "Pobieranie MPV..."
+${LangFileString} MPV_DL_Retry "MPV nie został pomyślnie zainstalowany. Ponowić?"
+${LangFileString} MPV_DL_Failed "Błąd pobierania MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Błąd instalacji MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "YouTube-DL nie został pomyślnie zainstalowany. Ponowić?"
+${LangFileString} YTDL_DL_Failed "Błąd pobierania Youtube-DL: '$R0'."

@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "Ezartzaileak $(^NameDA)-ren ezarpenean zehar
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Lasterbideak"
 ${LangFileString} MPlayerGroupTitle "MPlayer Osagaiak"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia Gailua"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (beharrezkoa)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, elkarbanatutako liburutegiak, eta agiritza."
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Binario kodekak ez daude sostengat
 ${LangFileString} Section_MPlayerCodecs_Desc "Aukerazko kodekak MPlayer-entzat. (Internet Elkarketa beharrezkoa da ezarpenerako)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "MPlayer eta MPlayer2-ren ezaugarri-aberatseko adar bat"
 
 ${LangFileString} Section_MEncoder_Desc "MPlayer laguntzen duen programa bat erabili daiteke kodeatzeko edo eraldatzeko sostengatutako audio edo bideo jarioak."
 
@@ -103,17 +103,17 @@ ${LangFileString} Info_Del_Shortcuts "Lasterbideak Ezabatzen..."
 ${LangFileString} Info_Rest_Assoc "Agiri elkarketak leheneratzen..."
 ${LangFileString} Info_RollBack "Aldaketak desegiten..."
 ${LangFileString} Info_Files_Extract "Agiriak ateratzen..."
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_SMTube_Backup "SMTube babeskopiatzen..."
+${LangFileString} Info_SMTube_Restore "SMTube aurreko ezarpenetik leheneratzen"
+${LangFileString} Info_MPV_Backup "MPV babeskopiatzen..."
+${LangFileString} Info_MPV_Restore "MPV aurreko ezarpenetik leheneratzen..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "Jeitsi MPV"
+${LangFileString} MPV_DL_Retry "MPV ez da ongi ezarri. Saiatu berriro?"
+${LangFileString} MPV_DL_Failed "Hutsegitea MPV kodekak jeisterakoan: '$R0'."
+${LangFileString} MPV_Inst_Failed "Hutsegitea MPV ezartzerakoan"
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "YouTube-DL ez da ongi ezarri? Saiatu berriro?"
+${LangFileString} YTDL_DL_Failed "Hutsegitea Youtube-DL jeisterakoan: '$R0'."

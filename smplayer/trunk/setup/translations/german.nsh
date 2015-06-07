@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "Der Einrichtungsassistent wird Sie durch die
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Verknüpfung"
 ${LangFileString} MPlayerGroupTitle "MPlayer-Komponenten"
-${LangFileString} MPlayerMPVGroupTitle "Multimedia Engine"
+${LangFileString} MPlayerMPVGroupTitle "Multimedia-Modul"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (erforderlich)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, dynamische Bibliotheken und Dokumentation."
@@ -39,12 +39,12 @@ ${LangFileString} Section_MPlayer_Desc "MPlayer – benötigt für die Wiedergab
 
 ${LangFileString} Section_MPlayerCodecs "Binärcodecs"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binär-Codecs werden in dieser Version nicht unterstützt."
+${LangFileString} Section_MPlayerCodecs_Desc "Binärcodecs werden in dieser Version nicht unterstützt."
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "Optionale Codecs für MPlayer. (Internetverbindung benötigt für Installation)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Eine funktionsreiche Abspaltung von MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "Ein Begleiterprogramm zum MPlayer, das zum codieren oder zum transformieren von unterstützten Ton- oder Video-Strömen verwendet werden kann."
 
@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "Auf Deinstallieren klicken, wenn Sie bereit 
 ${LangFileString} Reinstall_Msg4 "Installationseinstellungen ändern"
 ${LangFileString} Reinstall_Msg5 "Meine SMPlayer-Konfiguration zurücksetzen"
 
-${LangFileString} Type_Reinstall "Erneut installierten"
+${LangFileString} Type_Reinstall "Erneut installieren"
 ${LangFileString} Type_Downgrade "Herunterstufen"
 ${LangFileString} Type_Upgrade "Aktualisierung"
 
@@ -95,25 +95,25 @@ ${LangFileString} Uninstaller_64bitOnly "Diese Installation kann nur auf einem 6
 ${LangFileString} Application_Description "Der SMPlayer ist eine komplette grafische Oberfläche für den MPlayer, von grundlegenden Funktionen, wie das Abspielen von Videos, DVDs, VCDs, bis zu erweiterten Funktionen, wie die Unterstützung für MPlayer-Filter, edl-Listen und vielem mehr."
 
 ; Misc
-${LangFileString} Info_Codecs_Backup "Codecs aus vorheriger Installation sichern …"
-${LangFileString} Info_Codecs_Restore "Codecs aus vorheriger Installation wiederherstellen …"
+${LangFileString} Info_Codecs_Backup "Codecs werden aus vorheriger Installation gesichert …"
+${LangFileString} Info_Codecs_Restore "Codecs werden aus vorheriger Installation wiederhergestellt …"
 ${LangFileString} Info_Del_Files "Dateien werden gelöscht …"
 ${LangFileString} Info_Del_Registry "Registrierungsschlüssel werden gelöscht …"
 ${LangFileString} Info_Del_Shortcuts "Verknüpfungen werden gelöscht …"
 ${LangFileString} Info_Rest_Assoc "Dateizuordnungen werden wiederhergestellt …"
-${LangFileString} Info_RollBack "Zurücksetzen der Änderungen …"
+${LangFileString} Info_RollBack "Änderungen werden zurückgesetzt …"
 ${LangFileString} Info_Files_Extract "Dateien werden entpackt …"
-${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
-${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Restoring MPV from previous installation..."
+${LangFileString} Info_SMTube_Backup "SMTube wird gesichert ..."
+${LangFileString} Info_SMTube_Restore "SMTube wird aus vorheriger Installation wiederhergestellt ..."
+${LangFileString} Info_MPV_Backup "MPV wird gesichert ..."
+${LangFileString} Info_MPV_Restore "MPV wird aus vorheriger Installation wiederhergestellt..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading MPV..."
-${LangFileString} MPV_DL_Retry "MPV was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install MPV."
+${LangFileString} MPV_DL_Msg "MPV wird heruntergeladen ..."
+${LangFileString} MPV_DL_Retry "MPV ist nicht erfolgreich installiert worden. Erneut versuchen?"
+${LangFileString} MPV_DL_Failed "Fehler beim Herunterladen von MPV: »$R0«."
+${LangFileString} MPV_Inst_Failed "Fehler beim Installieren von MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "YouTube-DL ist nicht erfolgreich installiert worden. Erneut versuchen?"
+${LangFileString} YTDL_DL_Failed "Fehler beim Herunterladen von Youtube-DL: »$R0«."
