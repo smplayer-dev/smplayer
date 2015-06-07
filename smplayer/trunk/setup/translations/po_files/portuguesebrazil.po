@@ -4,43 +4,43 @@ msgstr "Codecs binários não são suportados nessa versão."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Falha ao baixar o Youtube-DL:'$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "O YouTube-DL não foi instalado corretamente. Tentar novamente?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Falha ao instalar o MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Falha ao baixar o MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "O MPV não foi instalado corretamente. Tentar novamente?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Baixando o MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Restaurando o MPV da instalação anterior..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Fazendo backup do MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Restaurando o SMTube da instalação anterior..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Fazendo backup do SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -118,7 +118,7 @@ msgstr "Falha ao instalar os codecs do MPlayer."
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Falha ao baixar o codecs do MPlayer: '$R0'."
+msgstr "Falha ao baixar os codecs do MPlayer: '$R0'."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
@@ -231,7 +231,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Um derivado do MPlayer && MPlayer2 cheio de funcionalidades"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -278,7 +278,7 @@ msgstr "SMPlayer (necessário)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Motor multimídia"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -356,12 +356,14 @@ msgstr "O instalador já está em execução."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# carlo_valente <carlo.gt.valente@gmail.com>, 2014
+# carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2015
+# carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-25 23:39+0000\n"
-"Last-Translator: carlo_valente <carlo.gt.valente@gmail.com>\n"
+"PO-Revision-Date: 2015-01-31 15:55+0000\n"
+"Last-Translator: carlo giusepe tadei valente sasaki <carlo.gt.valente@gmail."
+"com>\n"
 "Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
 "smplayer/language/pt_BR/)\n"
 "Language: pt_BR\n"

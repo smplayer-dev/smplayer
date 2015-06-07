@@ -4,43 +4,43 @@ msgstr "Binario kodekak ez daude sostengatuta bertsio honetan."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Hutsegitea Youtube-DL jeisterakoan: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL ez da ongi ezarri? Saiatu berriro?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Hutsegitea MPV ezartzerakoan"
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Hutsegitea MPV kodekak jeisterakoan: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV ez da ongi ezarri. Saiatu berriro?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Jeitsi MPV"
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "MPV aurreko ezarpenetik leheneratzen..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "MPV babeskopiatzen..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "SMTube aurreko ezarpenetik leheneratzen"
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "SMTube babeskopiatzen..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -231,7 +231,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "MPlayer eta MPlayer2-ren ezaugarri-aberatseko adar bat"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -278,7 +278,7 @@ msgstr "SMPlayer (beharrezkoa)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Multimedia Gailua"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -355,11 +355,11 @@ msgstr "Ezartzailea jadanik lanean dago."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Xabier Aramendi <azpidatziak@gmail.com>, 2014
+# Xabier Aramendi <azpidatziak@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-25 12:46+0000\n"
+"PO-Revision-Date: 2015-01-31 09:26+0000\n"
 "Last-Translator: Xabier Aramendi <azpidatziak@gmail.com>\n"
 "Language-Team: Basque (http://www.transifex.com/projects/p/smplayer/language/"
 "eu/)\n"

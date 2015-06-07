@@ -1,46 +1,46 @@
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr "Binär-Codecs werden in dieser Version nicht unterstützt."
+msgstr "Binärcodecs werden in dieser Version nicht unterstützt."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Fehler beim Herunterladen von Youtube-DL: »$R0«."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL ist nicht erfolgreich installiert worden. Erneut versuchen?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Fehler beim Installieren von MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Fehler beim Herunterladen von MPV: »$R0«."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV ist nicht erfolgreich installiert worden. Erneut versuchen?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "MPV wird heruntergeladen ..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "MPV wird aus vorheriger Installation wiederhergestellt..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "MPV wird gesichert ..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "SMTube wird aus vorheriger Installation wiederhergestellt ..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "SMTube wird gesichert ..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -48,7 +48,7 @@ msgstr "Dateien werden entpackt …"
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr "Zurücksetzen der Änderungen …"
+msgstr "Änderungen werden zurückgesetzt …"
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
@@ -68,11 +68,11 @@ msgstr "Dateien werden gelöscht …"
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
-msgstr "Codecs aus vorheriger Installation wiederherstellen …"
+msgstr "Codecs werden aus vorheriger Installation wiederhergestellt …"
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr "Codecs aus vorheriger Installation sichern …"
+msgstr "Codecs werden aus vorheriger Installation gesichert …"
 
 # Application_Description
 msgid ""
@@ -146,7 +146,7 @@ msgstr "Herunterstufen"
 
 # Type_Reinstall
 msgid "reinstall"
-msgstr "Erneut installierten"
+msgstr "Erneut installieren"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -237,7 +237,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Eine funktionsreiche Abspaltung von MPlayer && MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -283,7 +283,7 @@ msgstr "SMPlayer (erforderlich)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Multimedia-Modul"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -362,13 +362,14 @@ msgstr "Das Installationsprogramm läuft bereits."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Ettore Atalan <atalanttore@googlemail.com>, 2015
 # M T <michtrz@gmail.com>, 2014
-# to_ba, 2014
+# Tobias Bannert <tobannert@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-12 14:42+0000\n"
-"Last-Translator: to_ba\n"
+"PO-Revision-Date: 2015-03-03 20:52+0000\n"
+"Last-Translator: Tobias Bannert <tobannert@gmail.com>\n"
 "Language-Team: German (http://www.transifex.com/projects/p/smplayer/language/"
 "de/)\n"
 "Language: de\n"

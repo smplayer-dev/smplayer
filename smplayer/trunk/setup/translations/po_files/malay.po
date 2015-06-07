@@ -4,43 +4,43 @@ msgstr "Kodeks binari tidak disokong dalam versi ini."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Gagal memuat turun Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL gagal dipasang. Cuba lagi?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Gagal memasang MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Gagal memuat turun MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV gagal dipasang. Cuba lagi?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Memuat turun MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Memulihkan MPV dari pemasangan terdahulu..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Menyandar MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Memulihkan SMTube dari pemasangan terdahulu..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Menyandar SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -230,7 +230,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Cabang kaya-fitur bagi MPlayer && MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -277,7 +277,7 @@ msgstr "SMPlayer (diperlukan)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Enjin Multimedia"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -294,8 +294,8 @@ msgid ""
 "starting setup. This will make it possible to update relevant program files "
 "without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
-"Persediaan akan bantu anda melalui pemasangan $(^NameDA).[:r:][:n:][:r:][:n:]"
-"Adalah disarankan anda tutup semua kejadian SMPlayer sebelum memulakan "
+"Persediaan akan membantu anda melalui pemasangan $(^NameDA).[:r:][:n:][:r:][:"
+"n:]Adalah disarankan anda tutup semua kejadian SMPlayer sebelum memulakan "
 "persediaan. Ia bertujuan untuk mengemaskini fail program yang berkaitan "
 "tanpa perlu membut semula komputer anda.[:r:][:n:][:r:][:n:]$_CLICK"
 
@@ -353,11 +353,11 @@ msgstr "Pemasang sudah berjalan."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# abuyop <abuyop@gmail.com>, 2014
+# abuyop <abuyop@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-02-26 14:12+0000\n"
+"PO-Revision-Date: 2015-02-07 03:56+0000\n"
 "Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (Malaysia) (http://www.transifex.com/projects/p/"
 "smplayer/language/ms_MY/)\n"

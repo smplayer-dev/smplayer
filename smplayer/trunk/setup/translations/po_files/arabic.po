@@ -4,43 +4,43 @@ msgstr "المرمِّزات الثنائية غير مدعومة في هذا ا
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "فشل تنزيل Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "لم تُثبَّت YouTube-DL بنجاح. إعادة المحاولة؟"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "فشل تثبيت MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "فشل تنزيل MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "لم يُثبَّت MPV بنجاح. إعادة المحاولة؟"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "تنزيل MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "استعادة MPV من تنصيبة سابقة..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "الخزن الإحتياطي لـ MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "استعادة SMTube من تنصيبة سابقة..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "الخزن الإحتياطي لـ SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -227,7 +227,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "اقتسام غني الخواص من MPlayer && MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -272,7 +272,7 @@ msgstr "SMPlayer (مطلوب)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "محرّك متعدد الوسائط"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -343,11 +343,11 @@ msgstr "المثبِّت مشتغل سلفاً."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Riyadh, 2014
+# Riyadh, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-07 20:01+0000\n"
+"PO-Revision-Date: 2015-02-02 21:02+0000\n"
 "Last-Translator: Riyadh\n"
 "Language-Team: Arabic (http://www.transifex.com/projects/p/smplayer/language/"
 "ar/)\n"

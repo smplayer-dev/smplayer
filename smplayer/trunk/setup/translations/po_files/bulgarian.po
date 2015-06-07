@@ -4,43 +4,43 @@ msgstr "Бинарните кодеци не са поддържани за та
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Неуспех при изтеглянето на Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL не е инсталиран успешно. Искате ли да опитате отново?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Неуспех при инсталиране на MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Неуспех при изтеглянето на MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV не е инсталиран успешно. Искате ли да опитате отново?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Изтегляне на MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Възстановяване на MPV от предишна инсталация..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Създаване на резервно копие на MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Възстановяване на SMTube от предишна инсталация..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Създаване на резервно копие на SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
@@ -231,7 +231,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Обогатена обвивка за MPlayer && MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -278,7 +278,7 @@ msgstr "SMPlayer (необходим)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Мултимедиен инструмент"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -356,12 +356,12 @@ msgstr "Инсталаторът вече работи."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Радослав <reckku@gmail.com>, 2014
+# Радослав Иванов <reckku@gmail.com>, 2014-2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2014-03-16 18:01+0000\n"
-"Last-Translator: Радослав <reckku@gmail.com>\n"
+"PO-Revision-Date: 2015-02-02 16:57+0000\n"
+"Last-Translator: Радослав Иванов <reckku@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/projects/p/smplayer/"
 "language/bg/)\n"
 "Language: bg\n"
