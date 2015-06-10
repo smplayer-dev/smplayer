@@ -645,7 +645,7 @@ void DefaultGui::aboutToEnterFullscreen() {
 	// Show floating_control
 	reconfigureFloatingControl();
 	floating_control->deactivate(); // Hide the control in case it was running from compact mode
-	QTimer::singleShot(500, floating_control, SLOT(activate()));
+	QTimer::singleShot(100, floating_control, SLOT(activate()));
 
 
 	// Save visibility of toolbars
@@ -689,7 +689,7 @@ void DefaultGui::aboutToEnterCompactMode() {
 	// Show floating_control
 	if (pref->floating_display_in_compact_mode) {
 		reconfigureFloatingControl();
-		QTimer::singleShot(500, floating_control, SLOT(activate()));
+		QTimer::singleShot(100, floating_control, SLOT(activate()));
 	}
 
 
