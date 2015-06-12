@@ -33,6 +33,9 @@ isEqual(QT_MAJOR_VERSION, 5) {
 	QT += widgets gui
 	#DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x040000
 	DEFINES -= MPCGUI
+	win32 {
+		DEFINES -= MPRIS2
+	}
 }
 
 contains(QT_VERSION, ^4\\.[0-3]\\..*) {
