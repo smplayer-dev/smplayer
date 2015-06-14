@@ -537,6 +537,9 @@ void SMPlayer::showInfo() {
 		#if ((QT_VERSION >= 0x040806 && QT_VERSION < 0x050000) || (QT_VERSION >= 0x050200))
 		case QSysInfo::WV_WINDOWS8_1: win_ver = "Windows 8.1/Server 2012 R2"; break;
 		#endif
+		#if (QT_VERSION >= 0x040807 && QT_VERSION < 0x050000)
+		case QSysInfo::WV_WINDOWS10: win_ver = "Windows 10"; break;
+		#endif
 		case QSysInfo::WV_NT_based: win_ver = "NT-based Windows"; break;
 		default: win_ver = QString("Unknown/Unsupported Windows OS"); break;
 	}
