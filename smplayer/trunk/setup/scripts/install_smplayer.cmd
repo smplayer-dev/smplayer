@@ -107,7 +107,7 @@ copy %SMPLAYER_THEMES_DIR%\themes\Gnome\README.txt %OUTPUT_DIR%\themes\Gnome\
 mkdir %OUTPUT_DIR%\themes\H2O
 copy %SMPLAYER_THEMES_DIR%\themes\H2O\H2O.rcc %OUTPUT_DIR%\themes\H2O\
 copy %SMPLAYER_THEMES_DIR%\themes\H2O\README.txt %OUTPUT_DIR%\themes\H2O\
-copy %SMPLAYER_THEMES_DIR% themes\H2O\style.qss %OUTPUT_DIR%\themes\H2O\
+copy %SMPLAYER_THEMES_DIR%\themes\H2O\style.qss %OUTPUT_DIR%\themes\H2O\
 
 mkdir %OUTPUT_DIR%\themes\Monochrome
 copy %SMPLAYER_THEMES_DIR%\themes\Monochrome\Monochrome.rcc %OUTPUT_DIR%\themes\Monochrome\
