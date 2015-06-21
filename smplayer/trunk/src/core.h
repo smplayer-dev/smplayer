@@ -452,6 +452,8 @@ protected:
 	//! Returns true if changing the subscale requires to restart mplayer
 	bool subscale_need_restart();
 
+	int adjustVolume(int v, int max_vol);
+
 signals:
 	void buffering();
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer
