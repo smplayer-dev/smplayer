@@ -214,6 +214,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--softvol=yes";
 	}
 	else
+	if (option_name == "softvol-max") {
+		int v = value.toInt();
+		if (v < 100) v = 100;
+		arg << "--softvol-max=" + QString::number(v);
+	}
+	else
 	if (option_name == "subfps") {
 		arg << "--sub-fps=" + value.toString();
 	}
@@ -323,7 +329,6 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "hue" || option_name == "saturation" || option_name == "gamma" ||
 	    option_name == "monitorpixelaspect" || option_name == "monitoraspect" ||
 	    option_name == "mc" ||
-	    option_name == "softvol-max" ||
 	    option_name == "framedrop" ||
 	    option_name == "priority" ||
 	    option_name == "hwdec" ||

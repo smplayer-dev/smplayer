@@ -2013,18 +2013,12 @@ void Core::startMplayer( QString file, double seek ) {
 	if (pref->mplayer_additional_options.contains("-volume")) {
 		qDebug("Core::startMplayer: don't set volume since -volume is used");
 	} else {
-		if (pref->global_volume) {
-			if (use_volume_option) {
-				proc->setOption("volume", QString::number(pref->volume));
+		if (use_volume_option) {
+			int vol = (pref->global_volume ? pref->volume : mset.volume);
+			if (proc->isMPV()) {
+				vol = adjustVolume(vol, pref->use_soft_vol ? pref->softvol_max : 100);
 			}
-		} else {
-			if (use_volume_option) {
-				// Note: mset.volume may not be right, it can be the volume of the previous video if
-				// playing a new one, but I think it's better to use anyway the current volume on
-				// startup than set it to 0 or something.
-				// The right volume will be set later, when the video starts to play.
-				proc->setOption("volume", QString::number(mset.volume));
-			}
+			proc->setOption("volume", QString::number(vol));
 		}
 	}
 
@@ -3089,6 +3083,13 @@ void Core::normalSpeed() {
 	setSpeed(1);
 }
 
+int Core::adjustVolume(int v, int max_vol) {
+	//qDebug() << "Core::adjustVolume: v:" << v << "max_vol:" << max_vol;
+	if (max_vol < 100) max_vol = 100;
+	int vol = v * max_vol / 100;
+	return vol;
+}
+
 void Core::setVolume(int volume, bool force) {
 	qDebug("Core::setVolume: %d", volume);
 
@@ -3100,11 +3101,18 @@ void Core::setVolume(int volume, bool force) {
 	if (current_volume > 100) current_volume = 100;
 	if (current_volume < 0) current_volume = 0;
 
-	if (state() == Paused) {
-		// Change volume later, after quiting pause
-		change_volume_after_unpause = true;
+	if (proc->isMPV()) {
+		// MPV
+		int vol = adjustVolume(current_volume, pref->use_soft_vol ? pref->softvol_max : 100);
+		proc->setVolume(vol);
 	} else {
-		proc->setVolume(current_volume);
+		// MPlayer
+		if (state() == Paused) {
+			// Change volume later, after quiting pause
+			change_volume_after_unpause = true;
+		} else {
+			proc->setVolume(current_volume);
+		}
 	}
 
 	if (pref->global_volume) {
@@ -4354,7 +4362,7 @@ void Core::watchState(Core::State state) {
 	#endif
 #endif
 
-	if ((state == Playing) && (change_volume_after_unpause)) {
+	if ((proc->isMPlayer()) && (state == Playing) && (change_volume_after_unpause)) {
 		// Delayed volume change
 		qDebug("Core::watchState: delayed volume change");
 		int volume = (pref->global_volume ? pref->volume : mset.volume);
