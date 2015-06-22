@@ -1232,15 +1232,19 @@ void Core::finishRestart() {
 	if (pref->mplayer_additional_options.contains("-volume")) {
 		qDebug("Core::finishRestart: don't set volume since -volume is used");
 	} else {
+		// Code to set the volume, used when mplayer didn't have the -volume option
+		/*
 		if (pref->global_volume) {
 			bool was_muted = pref->mute;
 			setVolume( pref->volume, true);
 			if (was_muted) mute(true);
 		} else {
 			bool was_muted = mset.mute;
-			 setVolume( mset.volume, true );
+			setVolume( mset.volume, true );
 			if (was_muted) mute(true);
 		}
+		*/
+		if (pref->mute) mute(true);
 	}
 
 #if 0
@@ -2007,19 +2011,15 @@ void Core::startMplayer( QString file, double seek ) {
 		}
 	}
 
-	// Set volume, requires mplayer svn r27872
-	bool use_volume_option = (MplayerVersion::isMplayerAtLeast(27872));
 
 	if (pref->mplayer_additional_options.contains("-volume")) {
 		qDebug("Core::startMplayer: don't set volume since -volume is used");
 	} else {
-		if (use_volume_option) {
-			int vol = (pref->global_volume ? pref->volume : mset.volume);
-			if (proc->isMPV()) {
-				vol = adjustVolume(vol, pref->use_soft_vol ? pref->softvol_max : 100);
-			}
-			proc->setOption("volume", QString::number(vol));
+		int vol = (pref->global_volume ? pref->volume : mset.volume);
+		if (proc->isMPV()) {
+			vol = adjustVolume(vol, pref->use_soft_vol ? pref->softvol_max : 100);
 		}
+		proc->setOption("volume", QString::number(vol));
 	}
 
 
@@ -3618,15 +3618,17 @@ void Core::changeAudio(int ID, bool allow_restart) {
 			// Workaround too for a mplayer problem in linux,
 			// the volume is reduced if using -softvol-max.
 
-			if (pref->mplayer_additional_options.contains("-volume")) {
-				qDebug("Core::changeAudio: don't set volume since -volume is used");
-			} else {
-				if (pref->global_volume) {
-					setVolume( pref->volume, true);
-					if (pref->mute) mute(true);
+			if (proc->isMPlayer()) {
+				if (pref->mplayer_additional_options.contains("-volume")) {
+					qDebug("Core::changeAudio: don't set volume since -volume is used");
 				} else {
-					setVolume( mset.volume, true );
-					if (mset.mute) mute(true); // if muted, mute again
+					if (pref->global_volume) {
+						setVolume( pref->volume, true);
+						if (pref->mute) mute(true);
+					} else {
+						setVolume( mset.volume, true );
+						if (mset.mute) mute(true); // if muted, mute again
+					}
 				}
 			}
 			updateWidgets();
