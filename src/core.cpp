@@ -1244,6 +1244,8 @@ void Core::finishRestart() {
 			if (was_muted) mute(true);
 		}
 		*/
+		int vol = (pref->global_volume ? pref->volume : mset.volume);
+		volumeChanged(vol);
 		if (pref->mute) mute(true);
 	}
 
