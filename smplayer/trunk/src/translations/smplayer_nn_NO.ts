@@ -529,7 +529,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../basegui.cpp" line="1874"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Høgde/Breidde-format</translation>
+        <translation>&amp;Bildeformat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1913"/>
@@ -1556,7 +1556,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1799"/>
         <source>Next aspect ratio</source>
-        <translation>Neste høgde/breidde-format</translation>
+        <translation>Neste bildeformat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1644"/>
@@ -1927,7 +1927,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
-        <translation>Høgde/Breidde-format: %1</translation>
+        <translation>Bildeformat: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4235"/>
@@ -2808,7 +2808,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../infofile.cpp" line="110"/>
         <source>Aspect ratio</source>
-        <translation>Høgde/Breidde-format</translation>
+        <translation>Bildeformat</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="111"/>
@@ -4658,7 +4658,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="427"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Vel Høgde/Breidde-format for monitoren din.</translation>
+        <translation>Vel bildeformat for monitoren din.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="444"/>
@@ -9426,7 +9426,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videopreview/videopreview.cpp" line="428"/>
         <source>Aspect ratio: %1</source>
-        <translation>Høgde/Breidde-format: %1</translation>
+        <translation>Bildeformat: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="360"/>
@@ -9520,7 +9520,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="136"/>
         <source>&amp;Aspect ratio:</source>
-        <translation>&amp;Høgde/Breidde-format:</translation>
+        <translation>&amp;Bildeformat:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="200"/>
@@ -9556,7 +9556,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>Om Høgde/Breidde-formatet er feil, kan du endra det her.</translation>
+        <translation>Om bildeformatett er feil, kan du endra det her.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
