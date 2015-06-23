@@ -29,6 +29,8 @@
 #include <QStringList>
 #include <QMessageBox>
 #include <QDesktopServices>
+#include <QTemporaryFile>
+#include <QSettings>
 #include <QDebug>
 
 
@@ -87,24 +89,24 @@ void UpdateChecker::gotReply() {
 
 	if (reply) {
 		if (reply->error() == QNetworkReply::NoError) {
-			//read data from reply
-			QRegExp rx_version("^version=(.*)");
-			QString version;
-			while (reply->canReadLine()) {
-				QByteArray line = reply->readLine().trimmed();
-				//qDebug("line: %s", line.constData());
-				if (rx_version.indexIn(line) != -1) {
-					version = rx_version.cap(1);
-					//qDebug("version: %s", version.toUtf8().constData());
-					break;
-				}
-			} 
+			QTemporaryFile tf;
+			tf.open();
+			tf.write(reply->readAll());
+			tf.close();
+			QString tfile = tf.fileName();
+			//qDebug() << "UpdateChecker::gotReply: tfile:" << tfile;
+
+			QSettings set(tfile, QSettings::IniFormat);
+			set.beginGroup("info");
+			QString version = set.value("version", "").toString();
+			set.endGroup();
+
 			if (!version.isEmpty()) {
 				d->last_checked = QDate::currentDate();
-				//qDebug("last known: %s version: %s", d->last_known_version.toUtf8().constData(), version.toUtf8().constData());
-				//qDebug("version_with_revision: %s", Version::with_revision().toUtf8().constData());
+				//qDebug() << "UpdateChecker::gotReply: last known:" << d->last_known_version << "version:" << version;
+				//qDebug() << "UpdateChecker::gotReply: version_with_revision:" << Version::with_revision();
 				if ((d->last_known_version != version) && (formattedVersion(version) > formattedVersion(Version::with_revision()))) {
-					qDebug("UpdateChecker::gotReply: new version found: %s", version.toUtf8().constData());
+					qDebug() << "UpdateChecker::gotReply: new version found:" << version;
 					emit newVersionFound(version);
 				}
 			}
@@ -124,15 +126,18 @@ void UpdateChecker::gotReplyFromUserRequest() {
 
 	if (reply) {
 		if (reply->error() == QNetworkReply::NoError) {
-			QRegExp rx_version("^latest_version=(.*)");
-			QString version;
-			while (reply->canReadLine()) {
-				QByteArray line = reply->readLine().trimmed();
-				if (rx_version.indexIn(line) != -1) {
-					version = rx_version.cap(1);
-					break;
-				}
-			}
+			QTemporaryFile tf;
+			tf.open();
+			tf.write(reply->readAll());
+			tf.close();
+			QString tfile = tf.fileName();
+			//qDebug() << "UpdateChecker::gotReplyFromUserRequest: tfile:" << tfile;
+
+			QSettings set(tfile, QSettings::IniFormat);
+			set.beginGroup("info");
+			QString version = set.value("latest_version", "").toString();
+			set.endGroup();
+
 			if (!version.isEmpty()) {
 				if ((formattedVersion(version) > formattedVersion(Version::with_revision()))) {
 					qDebug("UpdateChecker::gotReplyFromUserRequest: new version found: %s", version.toUtf8().constData());
