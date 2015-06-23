@@ -40,7 +40,7 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 {
 	d = data;
 
-	check_url = "http://updates.smplayer.info/version_info";
+	check_url = "http://updates.smplayer.info/version_info.ini";
 	user_agent = "SMPlayer";
 
 	connect(this, SIGNAL(newVersionFound(const QString &)),
@@ -82,6 +82,26 @@ void UpdateChecker::check() {
 	connect(reply, SIGNAL(finished()), this, SLOT(gotReplyFromUserRequest()));
 }
 
+QString UpdateChecker::parseVersion(const QByteArray & data, const QString & name) {
+	QTemporaryFile tf;
+	tf.open();
+	tf.write(data);
+	tf.close();
+	QString tfile = tf.fileName();
+	qDebug() << "UpdateChecker::parseVersion: tfile:" << tfile;
+
+	#ifdef Q_OS_WIN
+	QString grname = "windows";
+	#else
+	QString grname = "linux";
+	#endif
+	QSettings set(tfile, QSettings::IniFormat);
+	set.beginGroup(grname);
+	QString version = set.value(name, "").toString();
+	set.endGroup();
+	return version;
+}
+
 void UpdateChecker::gotReply() {
 	qDebug("UpdateChecker::gotReply");
 
@@ -89,22 +109,11 @@ void UpdateChecker::gotReply() {
 
 	if (reply) {
 		if (reply->error() == QNetworkReply::NoError) {
-			QTemporaryFile tf;
-			tf.open();
-			tf.write(reply->readAll());
-			tf.close();
-			QString tfile = tf.fileName();
-			//qDebug() << "UpdateChecker::gotReply: tfile:" << tfile;
-
-			QSettings set(tfile, QSettings::IniFormat);
-			set.beginGroup("info");
-			QString version = set.value("version", "").toString();
-			set.endGroup();
-
+			QString version = parseVersion(reply->readAll(), "stable");
 			if (!version.isEmpty()) {
 				d->last_checked = QDate::currentDate();
-				//qDebug() << "UpdateChecker::gotReply: last known:" << d->last_known_version << "version:" << version;
-				//qDebug() << "UpdateChecker::gotReply: version_with_revision:" << Version::with_revision();
+				qDebug() << "UpdateChecker::gotReply: last known version:" << d->last_known_version << "received version:" << version;
+				qDebug() << "UpdateChecker::gotReply: installed version:" << Version::with_revision();
 				if ((d->last_known_version != version) && (formattedVersion(version) > formattedVersion(Version::with_revision()))) {
 					qDebug() << "UpdateChecker::gotReply: new version found:" << version;
 					emit newVersionFound(version);
@@ -126,18 +135,7 @@ void UpdateChecker::gotReplyFromUserRequest() {
 
 	if (reply) {
 		if (reply->error() == QNetworkReply::NoError) {
-			QTemporaryFile tf;
-			tf.open();
-			tf.write(reply->readAll());
-			tf.close();
-			QString tfile = tf.fileName();
-			//qDebug() << "UpdateChecker::gotReplyFromUserRequest: tfile:" << tfile;
-
-			QSettings set(tfile, QSettings::IniFormat);
-			set.beginGroup("info");
-			QString version = set.value("latest_version", "").toString();
-			set.endGroup();
-
+			QString version = parseVersion(reply->readAll(), "unstable");
 			if (!version.isEmpty()) {
 				if ((formattedVersion(version) > formattedVersion(Version::with_revision()))) {
 					qDebug("UpdateChecker::gotReplyFromUserRequest: new version found: %s", version.toUtf8().constData());
