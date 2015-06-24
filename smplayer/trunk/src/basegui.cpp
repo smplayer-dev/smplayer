@@ -250,7 +250,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #endif
 
 #ifdef MPRIS2
-	new Mpris2(this, this);
+	if (pref->use_mpris2) new Mpris2(this, this);
 #endif
 }
 
