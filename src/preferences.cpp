@@ -336,6 +336,10 @@ void Preferences::reset() {
 
 	time_to_kill_mplayer = 1000;
 
+#ifdef MPRIS2
+	use_mpris2 = true;
+#endif
+
 
     /* *********
        GUI stuff
@@ -820,6 +824,10 @@ void Preferences::save() {
 	set->setValue("show_tag_in_window_title", show_tag_in_window_title);
 
 	set->setValue("time_to_kill_mplayer", time_to_kill_mplayer);
+
+#ifdef MPRIS2
+	set->setValue("use_mpris2", use_mpris2);
+#endif
 
 	set->endGroup(); // advanced
 
@@ -1338,6 +1346,10 @@ void Preferences::load() {
 	show_tag_in_window_title = set->value("show_tag_in_window_title", show_tag_in_window_title).toBool();
 
 	time_to_kill_mplayer = set->value("time_to_kill_mplayer", time_to_kill_mplayer).toInt();
+
+#ifdef MPRIS2
+	use_mpris2 = set->value("use_mpris2", use_mpris2).toBool();
+#endif
 
 	set->endGroup(); // advanced
 

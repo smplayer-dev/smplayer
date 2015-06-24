@@ -323,6 +323,10 @@ public:
 
 	int time_to_kill_mplayer;
 
+#ifdef MPRIS2
+	bool use_mpris2;
+#endif
+
 
 	/* *********
 	   GUI stuff
