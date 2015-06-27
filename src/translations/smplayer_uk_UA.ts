@@ -8924,7 +8924,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation>Стерео &amp;3D фільтр</translation>
+        <translation>Стерео 3D фільтр</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
