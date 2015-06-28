@@ -1,5 +1,35 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-06-24)
+ * Possibility to disable MPRIS2 in smplayer.ini (option use_mpris2).
+
+(2015-06-22)
+ * Fix volume when using softvol with newer versions of mpv.
+
+(2015-06-12)
+ * (Windows) Disable MPRIS2 with Qt 5.
+
+(2015-06-10)
+ * Reduce the time to activate the floating control from 500ms to 100ms.
+
+(2015-06-05)
+ * Add option for command-line: -media-title
+
+(2015-06-02)
+ * Fix thumbnail creation with newer versions of mpv.
+
+(2015-05-28)
+ * (mpv) Use --input-file=/dev/stdin instead of --slave-broken.
+
+(2015-05-21)
+ * Fix the audio and video bitrate info with newer versions of mpv.
+
+(2015-04-23)
+ * Apply patch to handle PTS rollover at MPEG-TS.
+
+(2015-04-13)
+ * Add a 3D stereo filter.
+
 (2015-04-10)
  * Add support for MPRIS D-Bus Interface (http://specifications.freedesktop.org/mpris-spec/latest/)
    Based on a patch for smplayer2 (https://github.com/lachs0r/SMPlayer2/commit/cea863e6b75f00c93da95d1a73d696cf717adf78.patch)
