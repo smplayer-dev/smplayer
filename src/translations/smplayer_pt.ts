@@ -8975,12 +8975,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"/>
+        <translation>Anáglifo vermelho/ciano cor</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"/>
+        <translation>Anáglifo vermelho/ciano colorido otimizado com a projeção de mínimos quadrados de Dubois</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
@@ -9015,12 +9015,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation>Linhas entrelaçadas (linha superior para o olho esquerdo, próxima linha para o olho direito)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation>Linhas entrelaçadas (linha superior para o olho direito, próxima linha para o olho esquerdo)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
