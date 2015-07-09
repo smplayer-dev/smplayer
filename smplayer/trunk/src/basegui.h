@@ -235,7 +235,7 @@ protected slots:
 #ifdef YOUTUBE_SUPPORT
 	void YTNoSslSupport();
 	void YTNoSignature(const QString &);
-	#ifdef YT_USE_SCRIPT
+	#ifdef YT_USE_YTSIG
 	void YTUpdateScript();
 	#endif
 #endif
@@ -519,7 +519,7 @@ protected:
 	MyAction * showFAQAct;
 	MyAction * showCLOptionsAct; // Command line options
 	MyAction * showCheckUpdatesAct;
-#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_SCRIPT)
+#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
 	MyAction * updateYTAct;
 #endif
 	MyAction * showConfigAct;
