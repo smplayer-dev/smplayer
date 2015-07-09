@@ -62,7 +62,7 @@
 
 #ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
-  #ifdef YT_USE_SCRIPT
+  #ifdef YT_USE_YTSIG
   #include "ytsig.h"
   #endif
 #endif
@@ -290,7 +290,12 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	yt->setUseHttpsMain(pref->yt_use_https_main);
 	yt->setUseHttpsVi(pref->yt_use_https_vi);
 
-	connect(yt, SIGNAL(gotPreferredUrl(const QString &)), this, SLOT(openYT(const QString &)));
+	#ifdef YT_USE_SIG
+	QSettings * sigset = new QSettings(Paths::configPath() + "/sig.ini", QSettings::IniFormat, this);
+	yt->setSettings(sigset);
+	#endif
+
+	connect(yt, SIGNAL(gotPreferredUrl(const QString &, int)), this, SLOT(openYT(const QString &)));
 	connect(yt, SIGNAL(connecting(QString)), this, SLOT(connectingToYT(QString)));
 	connect(yt, SIGNAL(errorOcurred(int,QString)), this, SLOT(YTFailed(int,QString)));
 	connect(yt, SIGNAL(noSslSupport()), this, SIGNAL(noSslSupport()));
@@ -307,9 +312,9 @@ Core::~Core() {
 	saveMediaInfo();
 #endif
 
-    if (proc->isRunning()) stopMplayer();
-    proc->terminate();
-    delete proc;
+	if (proc->isRunning()) stopMplayer();
+	proc->terminate();
+	delete proc;
 
 #ifndef NO_USE_INI_FILES
 	delete file_settings;
@@ -910,7 +915,7 @@ void Core::openStream(QString name) {
 			qDebug("Core::openStream: user_agent: '%s'", pref->yt_user_agent.toUtf8().constData());
 			/*if (!pref->yt_user_agent.isEmpty()) yt->setUserAgent(pref->yt_user_agent); */
 			yt->setUserAgent(pref->yt_user_agent);
-			#ifdef YT_USE_SCRIPT
+			#ifdef YT_USE_YTSIG
 			YTSig::setScriptFile( Paths::configPath() + "/yt.js" );
 			#endif
 			yt->fetchPage(name);

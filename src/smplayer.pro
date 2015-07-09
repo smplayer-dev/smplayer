@@ -13,8 +13,7 @@ RESOURCES = icons.qrc
 DEFINES += SINGLE_INSTANCE
 DEFINES += FIND_SUBTITLES
 DEFINES += VIDEOPREVIEW
-#DEFINES += YOUTUBE_SUPPORT
-DEFINES += YT_USE_SCRIPT
+DEFINES += YOUTUBE_SUPPORT
 DEFINES += BLURAY_SUPPORT
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
@@ -357,18 +356,27 @@ contains( DEFINES, DOWNLOAD_SUBS ) {
 
 # Youtube support
 contains( DEFINES, YOUTUBE_SUPPORT ) {
+	DEFINES += YT_USE_SCRIPT
 	INCLUDEPATH += youtube
 	DEPENDPATH += youtube
 
-	HEADERS += youtube/retrieveyoutubeurl.h youtube/ytsig.h
-	SOURCES += youtube/retrieveyoutubeurl.cpp youtube/ytsig.cpp
+	HEADERS += youtube/retrieveyoutubeurl.h youtube/loadpage.h
+	SOURCES += youtube/retrieveyoutubeurl.cpp youtube/loadpage.cpp
 
 	contains( DEFINES, YT_USE_SCRIPT ) {
-		HEADERS += youtube/codedownloader.h
-		SOURCES += youtube/codedownloader.cpp
+		DEFINES += YT_USE_SIG
+		DEFINES += YT_USE_YTSIG
 		QT += script
-	} else {
-		#DEFINES += YTSIG_STATIC
+	}
+
+	contains( DEFINES, YT_USE_SIG ) {
+		HEADERS += youtube/sig.h
+		SOURCES += youtube/sig.cpp
+	}
+
+	contains( DEFINES, YT_USE_YTSIG ) {
+		HEADERS += youtube/ytsig.h youtube/codedownloader.h
+		SOURCES += youtube/ytsig.cpp youtube/codedownloader.cpp
 	}
 }
 
