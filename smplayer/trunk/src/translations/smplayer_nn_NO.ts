@@ -107,7 +107,7 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>Brukar Qt %1  (kompilert med hjelp av Qt 2%)</translation>
+        <translation>Brukar Qt %1  (kompilert med hjelp av Qt %2)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
@@ -4571,7 +4571,7 @@ Døme: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.ui" line="140"/>
         <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="unfinished"/>
+        <translation>R&amp;apporter MPlayer/MPV-krasj</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="299"/>
@@ -6451,7 +6451,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.ui" line="373"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation type="unfinished"/>
+        <translation>M&amp;usehjul-funksjonar</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="385"/>
