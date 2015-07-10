@@ -276,7 +276,7 @@ void RetrieveYoutubeUrl::processVideoPage() {
 	bool allow_https = true;
 	#endif
 
-	UrlMap url_map = extractURLs(fmtArray, allow_https);
+	UrlMap url_map = extractURLs(fmtArray, allow_https, true);
 	#ifdef YT_GET_VIDEOINFO
 	if (url_map.isEmpty()) {
 		fetchVideoInfoPage(yt_url);
@@ -310,7 +310,7 @@ void RetrieveYoutubeUrl::videoInfoPageLoaded(QByteArray page) {
 
 	//qDebug() <<"RetrieveYoutubeUrl::videoInfoPageLoaded: fmtArray:" << fmtArray;
 
-	UrlMap url_map = extractURLs(fmtArray);
+	UrlMap url_map = extractURLs(fmtArray, true, false);
 	finish(url_map);
 }
 #endif
@@ -365,7 +365,11 @@ QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player)
 	QString res;
 
 	#if defined(YT_USE_YTSIG) && !defined(YT_USE_SIG)
-	res = YTSig::aclara(text, player);
+	if (!player.isNull()) {
+		res = YTSig::aclara(text, player);
+	} else {
+		res = YTSig::aclara(text, "", "aclara_f");
+	}
 	#endif
 
 	#ifdef YT_USE_SIG
@@ -374,7 +378,11 @@ QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player)
 	}
 	#ifdef YT_USE_YTSIG
 	else {
-		res = YTSig::aclara(text, player);
+		if (!player.isNull()) {
+			res = YTSig::aclara(text, player);
+		} else {
+			res = YTSig::aclara(text, "", "aclara_f");
+		}
 	}
 	#endif
 	#endif
@@ -383,7 +391,7 @@ QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player)
 }
 #endif
 
-UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool * sigfailed) {
+UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool use_player, bool * sigfailed) {
 	UrlMap url_map;
 
 	bool failed_to_decrypt_signature = false;
@@ -427,7 +435,7 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 				#ifdef YT_USE_SIG
 				QString signature = aclara(q->queryItemValue("s"), sig.html5_player);
 				#else
-				QString signature = aclara(q->queryItemValue("s"), html5_player);
+				QString signature = aclara(q->queryItemValue("s"), use_player ? html5_player : QString::null);
 				#endif
 				if (!signature.isEmpty()) {
 					q->addQueryItem("signature", signature);
