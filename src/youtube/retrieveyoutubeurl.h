@@ -116,7 +116,7 @@ protected:
 #endif
 
 	QString getVideoID(QString video_url);
-	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player, bool * sigfailed = 0);
+	UrlMap extractURLs(QString fmtArray, bool allow_https, bool use_player);
 
 	void finish(const UrlMap & url_map);
 
@@ -153,6 +153,8 @@ private:
 	QString video_id;
 
 	QString latest_preferred_url;
+
+	bool failed_to_decrypt_signature;
 };
 
 #endif

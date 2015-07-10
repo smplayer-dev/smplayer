@@ -311,6 +311,13 @@ void RetrieveYoutubeUrl::videoInfoPageLoaded(QByteArray page) {
 	//qDebug() <<"RetrieveYoutubeUrl::videoInfoPageLoaded: fmtArray:" << fmtArray;
 
 	UrlMap url_map = extractURLs(fmtArray, true, false);
+
+	if ((url_map.count() == 0) && (failed_to_decrypt_signature)) {
+		qDebug() << "RetrieveYoutubeUrl::videoInfoPageLoaded: no url found with valid signature";
+		emit signatureNotFound(url_title);
+		return;
+	}
+
 	finish(url_map);
 }
 #endif
@@ -391,10 +398,10 @@ QString RetrieveYoutubeUrl::aclara(const QString & text, const QString & player)
 }
 #endif
 
-UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool use_player, bool * sigfailed) {
+UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool use_player) {
 	UrlMap url_map;
 
-	bool failed_to_decrypt_signature = false;
+	failed_to_decrypt_signature = false;
 
 	#if QT_VERSION >= 0x050000
 	QUrlQuery * q = new QUrlQuery();
@@ -484,8 +491,6 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 	#endif
 
 	qDebug() << "RetrieveYoutubeUrl::extractURLs: url count:" << url_map.count();
-
-	if (sigfailed != 0) *sigfailed = failed_to_decrypt_signature;
 
 	return url_map;
 }
