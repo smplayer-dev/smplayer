@@ -433,10 +433,11 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 			if (q->hasQueryItem("s")) {
 				#ifdef YT_USE_SCRIPT
 				#ifdef YT_USE_SIG
-				QString signature = aclara(q->queryItemValue("s"), sig.html5_player);
+				QString player = sig.html5_player;
 				#else
-				QString signature = aclara(q->queryItemValue("s"), use_player ? html5_player : QString::null);
+				QString player = html5_player;
 				#endif
+				QString signature = aclara(q->queryItemValue("s"), use_player ? player : QString::null);
 				if (!signature.isEmpty()) {
 					q->addQueryItem("signature", signature);
 				} else {
