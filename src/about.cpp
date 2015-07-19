@@ -23,6 +23,7 @@
 #include "preferences.h"
 #include "paths.h"
 #include "inforeader.h"
+#include "links.h"
 
 #include <QFile>
 #include <QDesktopServices>
@@ -57,8 +58,8 @@ About::About(QWidget * parent, Qt::WindowFlags f)
         tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br>" +
 		mplayer_version + "<br><br>" +
 		"<b>"+ tr("Links:") +"</b><br>"+
-		tr("Official website:") +" "+  link("http://smplayer.sourceforge.net") +"<br>"+
-		tr("Support forum:") +" "+  link("http://smplayer.sourceforge.net/forum/") +"<br>"+
+		tr("Official website:") +" "+  link(URL_HOMEPAGE) +"<br>"+
+		tr("Support forum:") +" "+  link(URL_FORUM) +"<br>"+
         "<br>" +
 		/*
 		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
@@ -145,7 +146,7 @@ QString About::getTranslators() {
 		 tr("Many people contributed with translations.") +" "+
 		 tr("You can also help to translate SMPlayer into your own language.") +"<p>"+
 		 tr("Visit %1 and join a translation team.").arg("<a href=\"http://www.transifex.com/projects/p/smplayer/\">http://www.transifex.com/projects/p/smplayer/</a>") +
-		"<p><a href=\"http://smplayer.sourceforge.net/translators.php\">" +
+		"<p><a href=\"" URL_TRANSLATORS "\">" +
 		 tr("Click here to know the translators from the transifex teams") +
 		"</a>");
 }

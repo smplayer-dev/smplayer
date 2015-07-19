@@ -87,6 +87,7 @@ contains(QT_VERSION, ^4\\.[0-3]\\..*) {
 HEADERS += guiconfig.h \
 	config.h \
 	constants.h \
+	links.h \
 	svn_revision.h \
 	version.h \
 	chapters.h \
