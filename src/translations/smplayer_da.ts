@@ -1202,7 +1202,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation>Beklageligvis fås OpenSSL-komponenten, der kræves af den, ikke til dit system.</translation>
+        <translation>Desværre fås OpenSSL-komponenten, der kræves af den, ikke til dit system.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>

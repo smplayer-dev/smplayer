@@ -8765,27 +8765,27 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Gje pengar med PayPal</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"/>
+        <translation>Del SMPlayer på Facebook</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"/>
+        <translation>Del SMPlayer på Twitter</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Støtt SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation>Doner / Del SMPlayer med venane dine</translation>
     </message>
 </context>
 <context>
@@ -8793,7 +8793,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../shortcutgetter.cpp" line="267"/>
         <source>Modify shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Endra snarveg</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="310"/>
@@ -8808,12 +8808,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Legg til snarveg</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Fjern snarveg</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9500,7 +9500,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"/>
+        <translation>Miniatyrbilde-generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
