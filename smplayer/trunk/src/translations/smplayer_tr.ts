@@ -24,7 +24,7 @@
     <message>
         <location filename="../about.cpp" line="149"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"/>
+        <translation>Transifex takımındaki çevirmenleri görmek için tıkla</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="145"/>
@@ -960,7 +960,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1600"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bir kare geri ilerle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1619"/>
@@ -975,7 +975,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"/>
+        <translation>Stereo &amp;3D filtresi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -1101,7 +1101,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1803"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Oynatma süresini OSD&apos;de göster</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
@@ -1202,7 +1202,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"/>
+        <translation>Ne yazık ki openssl bileşeni gerekli bunun için sisteminizde mevcut değil.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -1233,7 +1233,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="5465"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"/>
+        <translation>%1 almak için ziyaret edin.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4658"/>
@@ -4406,7 +4406,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="332"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Diskten dosyayı sil</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="345"/>
@@ -4416,37 +4416,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1340"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"/>
+        <translation>Silmeyi onayla</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1341"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"/>
+        <translation>&apos;%1&apos; dosyasını diskinizden silmek üzeresiniz.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1342"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"/>
+        <translation>Bu eylem geri alınamaz. Devam etmek istediğinizden emin misiniz?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1354"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"/>
+        <translation>Silme başarısız</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1355"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+        <translation>&apos;%1&apos; silme başarısız oldu</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1360"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"/>
+        <translation>Dosyayı silerken hata oluştu</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1361"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"/>
+        <translation>&apos;%1&apos; dosya sisteminizden silinemedi.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="339"/>
@@ -4531,17 +4531,17 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="541"/>
         <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"/>
+        <translation>Bunu seçerseniz, SMPlayer sadece MPlayer/MPV çıktısı olan hata düzeltme mesajlarını kaydeder (kaydı, &lt;b&gt;Seçenekler -&gt; Kayıtlara bak -&gt; MPlayer/MPV&lt;/b&gt;&apos;da görebilirsiniz). Bu kayıt programda çıkabilecek sorunların çözülmesi için gerekli önemli bilgileri içerebileceği için seçili tutmanızı tavsiye ediyoruz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
         <source>Autosave MPlayer/MPV log</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV kaydını otomatik olarak kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="547"/>
         <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçeneği işaretlerseniz, yeni bir dosyanın oynamaya başladığı her seferde MPlayer/MPV kaydı belirlenen dosyaya kaydedilecek. Bu seçenek, harici uygulamaların oynatılan dosya hakkında bilgi edinmesini sağlayacaktır.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
@@ -4551,7 +4551,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="553"/>
         <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV kaydının tutulacağı dosyanın klasör yolunu ve adını yazın.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4588,7 +4588,9 @@ Example: resample=44100:0:0,volnorm</source>
         <source>Here you can pass extra options to MPlayer/MPV.
 Write them separated by spaces.
 Example: -flip -nosound</source>
-        <translation type="unfinished"/>
+        <translation>Burada MPlayer/MPV&apos;a fazladan özellikler ekleyebilirsiniz.
+Özellikler arasında boşluk bırakmayı unutmayın.
+Örnek: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4608,7 +4610,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV kaydını &amp;otomatik olarak dosyaya kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4713,22 +4715,22 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="429"/>
         <source>Run MPlayer/MPV in its own window</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV kendi penceresinde çalıştır</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="430"/>
         <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="unfinished"/>
+        <translation>Eğer bunu seçerseniz MPlayer/MPV video penceresi SMPlayer&apos;ın ana penceresine gömülmek yerine kendi penceresini kullanacak. Bu seçenek seçiliyken, fare ve klavye tuşları için atadığınız kısa yollar SMPlayer seçeneklerinde belirlediğiniz gibi değil MPlayer/MPV&apos;a uygun olarak çalışacağı için kısayolların kullanımı beklediğiniz gibi olmayacaktır.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Report MPlayer/MPV crashes</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV çökme raporu</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="464"/>
         <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçeneği işaretlerseniz, bir pencere MPlayer/MPV çökmesi hakkında bilgilendirmek için görünür. Aksi takdirde bu hatalar sessizce göz ardı edilecektir.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
@@ -4738,7 +4740,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
         <source>Options for MPlayer/MPV</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV seçenekleri</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="505"/>
@@ -4868,12 +4870,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.ui" line="540"/>
         <source>MPlayer/MPV</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
         <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="unfinished"/>
+        <translation>MPlayer/MPV çıktısının kaydını tut</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -4951,12 +4953,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"/>
+        <translation>Not:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"/>
+        <translation>Eski haline getirme Windows Vista&apos;da çalışmaz.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5020,7 +5022,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçeneği işaretlerseniz, SMPlayer dvdnav kullanarak DVD oynayacak. Dvdnav desteği ile derlenmiş MPlayer&apos;ın yeni bir sürümünü gerektirir.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -5210,7 +5212,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
         <source>MPlayer/MPV executable</source>
-        <translation type="unfinished"/>
+        <translation>Çalıştırılabilir MPlayer/MPV dosyası</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="883"/>
@@ -5230,7 +5232,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçenek yanlız mpv ile çalışmaktadır.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="936"/>
@@ -5305,7 +5307,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;MPlayer/MPV çalıştırılabilir dosyası:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -6333,12 +6335,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="82"/>
         <source>Next chapter</source>
-        <translation type="unfinished"/>
+        <translation>Sonraki bölüm</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Previous chapter</source>
-        <translation type="unfinished"/>
+        <translation>Bir önceki bölüm</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
@@ -6404,7 +6406,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.ui" line="395"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>Media &amp;seeking</source>
-        <translation type="unfinished"/>
+        <translation>Gezi&amp;nme</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="409"/>
@@ -7101,7 +7103,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"/>
+        <translation>Oynatma &amp;kalitesi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
@@ -7181,7 +7183,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation type="unfinished"/>
+        <translation>Youtube kalitesi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
@@ -7516,12 +7518,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>Hiçbiri</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Otomatik</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="281"/>
@@ -7536,7 +7538,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="284"/>
         <source>Available options:</source>
-        <translation type="unfinished"/>
+        <translation>Kullanılabilir seçenekler:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
@@ -7571,7 +7573,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçenek yanlız mpv ile çalışmaktadır</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
@@ -8211,7 +8213,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation>Öz&amp;el stil kullan</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -8753,7 +8755,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Paypal ile Bağış yap</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8766,27 +8768,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Paypal ile Bağış yap</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer&apos;ı Facebook&apos;ta Paylaş</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer&apos;ı Twitter&apos;da Paylaş</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer Destek</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation>Bağış Yap / SMPlayer&apos;ı arkadaşlarınla paylaş</translation>
     </message>
 </context>
 <context>
@@ -8809,12 +8811,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Kısayol ekle</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Kısayolu kaldır</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -8908,7 +8910,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"/>
+        <translation>Stereo 3D filtresi</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
@@ -9033,12 +9035,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>Hiçbiri</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Otomatik</translation>
     </message>
 </context>
 <context>
@@ -9125,7 +9127,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Simge boyutu:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -9145,7 +9147,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
         <source>Display time</source>
-        <translation type="unfinished"/>
+        <translation>Görüntü süresi</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
@@ -9186,34 +9188,34 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="179"/>
         <source>New version available</source>
-        <translation type="unfinished"/>
+        <translation>Yeni sürüm mevcut</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="180"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayerın yeni sürümü mevcut.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="181"/>
         <location filename="../updatechecker.cpp" line="198"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation>Kurulu sürüm: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="182"/>
         <location filename="../updatechecker.cpp" line="199"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"/>
+        <translation>Yeni sürüm: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="183"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"/>
+        <translation>Bu yeni sürümü hakkında daha fazla bilgi edinmek ister misiniz?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"/>
+        <translation>Güncelleştirmeleri denetle</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
@@ -9223,7 +9225,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="204"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Hata</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="205"/>
@@ -9233,7 +9235,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="206"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"/>
+        <translation>Hata kodu: %1</translation>
     </message>
 </context>
 <context>
