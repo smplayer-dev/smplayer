@@ -19,6 +19,7 @@
 #include "sharedialog.h"
 #include "sharedata.h"
 #include "images.h"
+#include "links.h"
 #include <QDesktopServices>
 
 ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
@@ -50,7 +51,7 @@ ShareDialog::ShareDialog( QWidget* parent, Qt::WindowFlags f )
 	adjustSize();
 	//layout()->setSizeConstraint(QLayout::SetFixedSize);
 
-	share_url = "http://smplayer.sourceforge.net";
+	share_url = URL_HOMEPAGE;
 }
 
 ShareDialog::~ShareDialog() {

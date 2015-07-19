@@ -19,6 +19,7 @@
 #include "updatechecker.h"
 #include "updatecheckerdata.h"
 #include "version.h"
+#include "links.h"
 #include <QUrl>
 #include <QNetworkAccessManager>
 #include <QNetworkRequest>
@@ -40,7 +41,7 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 {
 	d = data;
 
-	check_url = "http://updates.smplayer.info/version_info.ini";
+	check_url = URL_VERSION_INFO;
 	user_agent = "SMPlayer";
 
 	connect(this, SIGNAL(newVersionFound(const QString &)),
@@ -187,7 +188,7 @@ void UpdateChecker::reportNewVersionAvailable(const QString & new_version) {
 		QMessageBox::Yes | QMessageBox::No, QMessageBox::Yes);
 
 	if (button == QMessageBox::Yes) {
-		QDesktopServices::openUrl(QUrl("http://smplayer.sourceforge.net/changes.php"));
+		QDesktopServices::openUrl(QUrl(URL_CHANGES));
 	}
 
 	saveVersion(new_version);

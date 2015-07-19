@@ -98,6 +98,7 @@
 #include "playlist.h"
 
 #include "constants.h"
+#include "links.h"
 
 #ifdef MPRIS2
 #include "mpris2/mpris2.h"
@@ -4149,11 +4150,11 @@ void BaseGui::loadAudioFile() {
 }
 
 void BaseGui::helpFirstSteps() {
-	QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/first-steps.php?version=%1").arg(Version::printable()));
+	QDesktopServices::openUrl(QString(URL_FIRST_STEPS "?version=%1").arg(Version::printable()));
 }
 
 void BaseGui::helpFAQ() {
-	QString url = "http://smplayer.sourceforge.net/faq.php";
+	QString url = URL_FAQ;
 	/* if (!pref->language.isEmpty()) url += QString("?tr_lang=%1").arg(pref->language); */
 	QDesktopServices::openUrl( QUrl(url) );
 }
@@ -4171,7 +4172,7 @@ void BaseGui::helpCheckUpdates() {
 #ifdef UPDATE_CHECKER
 	update_checker->check();
 #else
-	QString url = QString("http://smplayer.sourceforge.net/changes.php?version=%1").arg(Version::with_revision());
+	QString url = QString(URL_CHANGES "?version=%1").arg(Version::with_revision());
 	QDesktopServices::openUrl( QUrl(url) );
 #endif
 }
@@ -4214,7 +4215,7 @@ void BaseGui::helpAbout() {
 #ifdef SHARE_MENU
 void BaseGui::shareSMPlayer() {
 	QString text = QString("SMPlayer - Free Media Player with built-in codecs that can play and download Youtube videos").replace(" ","+");
-	QString url = "http://smplayer.sourceforge.net";
+	QString url = URL_HOMEPAGE;
 
 	if (sender() == twitterAct) {
 		QDesktopServices::openUrl(QUrl("http://twitter.com/intent/tweet?text=" + text + "&url=" + url + "/&via=smplayer_dev"));
@@ -4590,7 +4591,7 @@ void BaseGui::checkIfUpgraded() {
 		#ifdef Q_OS_LINUX
 		os = "linux";
 		#endif
-		QDesktopServices::openUrl(QString("http://smplayer.sourceforge.net/thank-you.php?version=%1&so=%2").arg(Version::printable()).arg(os));
+		QDesktopServices::openUrl(QString(URL_THANK_YOU "?version=%1&so=%2").arg(Version::printable()).arg(os));
 	}
 	pref->smplayer_stable_version = Version::stable();
 }
@@ -4647,7 +4648,7 @@ void BaseGui::YTNoSslSupport() {
 		tr("The video you requested needs to open a HTTPS connection.") +"<br>"+
 		tr("Unfortunately the OpenSSL component, required for it, is not available in your system.") +"<br>"+
 		tr("Please, visit %1 to know how to fix this problem.")
-			.arg("<a href=\"http://smplayer.sourceforge.net/openssl.php\">" + tr("this link") + "</a>") );
+			.arg("<a href=\"" URL_OPENSSL_INFO "\">" + tr("this link") + "</a>") );
 }
 
 void BaseGui::YTNoSignature(const QString & title) {
@@ -4684,7 +4685,7 @@ void BaseGui::YTUpdateScript() {
 	if (!downloader) downloader = new CodeDownloader(this);
 	downloader->saveAs(Paths::configPath() + "/yt.js");
 	downloader->show();
-	downloader->download(QUrl("http://updates.smplayer.info/yt.js"));
+	downloader->download(QUrl(URL_YT_CODE));
 }
 #endif // YT_USE_YTSIG
 #endif //YOUTUBE_SUPPORT

@@ -17,19 +17,20 @@
 */
 
 #include "sharedata.h"
+#include "links.h"
 #include <QObject>
 
 QUrl ShareData::donateUrl() {
-	return QUrl("http://smplayer.sourceforge.net/donate.php");
+	return QUrl(URL_DONATE);
 }
 
 QUrl ShareData::facebookUrl() {
-	QString share_url = "http://smplayer.sourceforge.net";
+	QString share_url = URL_HOMEPAGE;
 	return QUrl("http://www.facebook.com/sharer.php?u=" + share_url);
 }
 
 QUrl ShareData::twitterUrl() {
-	QString share_url = "http://smplayer.sourceforge.net";
+	QString share_url = URL_HOMEPAGE;
 
 	/*
 	QString text = QObject::tr("SMPlayer is a free media player for PC. It plays all formats and can even download Youtube videos.",
