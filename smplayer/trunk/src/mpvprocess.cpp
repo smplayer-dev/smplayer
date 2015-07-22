@@ -121,10 +121,13 @@ static QRegExp rx_mpv_ao("^AO: \\[(.*)\\]");
 static QRegExp rx_mpv_paused("^\\(Paused\\)");
 static QRegExp rx_mpv_endoffile("^Exiting... \\(End of file\\)");
 
-static QRegExp rx_mpv_audio("^\\[stream\\] Audio .* --aid=(\\d+)( --alang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
-static QRegExp rx_mpv_subs("^\\[stream\\] Subs .* --sid=(\\d+)( --slang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
+//static QRegExp rx_mpv_audio("^\\[stream\\] Audio .* --aid=(\\d+)( --alang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
+static QRegExp rx_mpv_audio("^.* Audio\\s+--aid=(\\d+)( --alang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
+//static QRegExp rx_mpv_subs("^\\[stream\\] Subs .* --sid=(\\d+)( --slang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
+static QRegExp rx_mpv_subs("^.* Subs\\s+--sid=(\\d+)( --slang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
 #if !NOTIFY_VIDEO_CHANGES
-static QRegExp rx_mpv_video("^\\[stream\\] Video .* --vid=(\\d+)([ \\(\\)\\*]+)('(.*)'|)");
+//static QRegExp rx_mpv_video("^\\[stream\\] Video .* --vid=(\\d+)([ \\(\\)\\*]+)('(.*)'|)");
+static QRegExp rx_mpv_video("^.* Video\\s+--vid=(\\d+)([ \\(\\)\\*]+)('(.*)'|)");
 #endif
 
 #if 0
