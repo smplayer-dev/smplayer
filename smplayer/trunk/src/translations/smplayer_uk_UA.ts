@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -134,7 +132,7 @@
     <message>
         <location filename="../about.cpp" line="107"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Багато людей внесли свій вклад своїми патчами.  Перегляньте Changelog для подробиць.</translation>
+        <translation>Багато людей внесли свій вклад своїми латками.  Перегляньте Changelog для подробиць.</translation>
     </message>
 </context>
 <context>
@@ -272,7 +270,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Club</source>
-        <translation>Клубна</translation>
+        <translation>Клюбна</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
@@ -362,7 +360,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="228"/>
         <source>Set all controls to zero.</source>
-        <translation>Скинути все на нуль.</translation>
+        <translation>Скинути усе на нуль.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="244"/>
@@ -837,7 +835,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4707"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation>На жаль, це видиво неможливо відтворити.</translation>
+        <translation>На жаль, це відео неможливо відтворити.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4895"/>
@@ -1199,7 +1197,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4642"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation>Запрошене вами видиво потребує відкриття з&apos;єднання HTTPS.</translation>
+        <translation>Запрошене Вами відео потребує відкриття з&apos;єднання HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
@@ -1219,7 +1217,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4655"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, це видиво неможливо відтворити.</translation>
+        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, це відео неможливо відтворити.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4662"/>
@@ -1240,7 +1238,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4658"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, &apos;%1&apos; видиво не може бути відтворене.</translation>
+        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, &apos;%1&apos; відео не може бути відтворене.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4664"/>
@@ -1381,7 +1379,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1796"/>
         <source>Reset video equalizer</source>
-        <translation>Скинути еквалайзер видива</translation>
+        <translation>Скинути еквалайзер відео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4708"/>
@@ -1521,7 +1519,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1790"/>
         <source>Next video</source>
-        <translation>Наступне видиво</translation>
+        <translation>Наступне відео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
@@ -1543,12 +1541,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4558"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Збірка MPlayer (%1), що встановлена у вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
+        <translation>Збірка MPlayer (%1), що встановлена у Вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4563"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Будь ласка, оновіть ваш MPlayer.</translation>
+        <translation>Будь ласка, оновіть Ваш MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4565"/>
@@ -1881,148 +1879,148 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2926"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2942"/>
+        <location filename="../core.cpp" line="2930"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2945"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2972"/>
+        <location filename="../core.cpp" line="2960"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2987"/>
+        <location filename="../core.cpp" line="2975"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3116"/>
+        <location filename="../core.cpp" line="3104"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4033"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>Мірило: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4258"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation>Буферизація...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3234"/>
-        <location filename="../core.cpp" line="3245"/>
+        <location filename="../core.cpp" line="3222"/>
+        <location filename="../core.cpp" line="3233"/>
         <source>Font scale: %1</source>
         <translation>Мірило шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3874"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3159"/>
+        <location filename="../core.cpp" line="3147"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3177"/>
+        <location filename="../core.cpp" line="3165"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3041"/>
+        <location filename="../core.cpp" line="3029"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="554"/>
+        <location filename="../core.cpp" line="550"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Не можна отримати доступ на сторінку Youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="558"/>
+        <location filename="../core.cpp" line="554"/>
         <source>Unable to locate the URL of the video</source>
-        <translation>Неможливо знайти URL з видивом</translation>
+        <translation>Неможливо знайти URL з відео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
+        <location filename="../core.cpp" line="3310"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3324"/>
+        <location filename="../core.cpp" line="3312"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3922"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3925"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3928"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює мірило</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3931"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation>Запуск...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1393"/>
+        <location filename="../core.cpp" line="1389"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Зняток екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1406"/>
+        <location filename="../core.cpp" line="1402"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Знятки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2595"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2612"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2627"/>
+        <location filename="../core.cpp" line="2615"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="550"/>
+        <location filename="../core.cpp" line="546"/>
         <source>Connecting to %1</source>
         <translation>З&apos;єднання з %1</translation>
     </message>
@@ -2077,7 +2075,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="566"/>
         <source>&amp;Video info</source>
-        <translation>Інформація &amp;видива</translation>
+        <translation>Інформація &amp;відео</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="567"/>
@@ -2328,12 +2326,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../filepropertiesdialog.ui" line="115"/>
         <source>&amp;Video codec</source>
-        <translation>&amp;Видиво кодек</translation>
+        <translation>&amp;Відео кодек</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="127"/>
         <source>&amp;Select the video codec:</source>
-        <translation>&amp;Виберіть видиво кодек:</translation>
+        <translation>&amp;Виберіть відео кодек:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="177"/>
@@ -2374,20 +2372,20 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>Ви можете також передати додаткові фильтри видива.
+        <translation>Ви можете також передати додаткові фильтри відео.
 Разділяйте їх комою. Не використовуйте пробіли!
 Приклад: scale=512:-2,eq2=1.1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="348"/>
         <source>V&amp;ideo filters:</source>
-        <translation>Фільтри в&amp;идива:</translation>
+        <translation>Фільтри в&amp;ідео:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="387"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Фільтри звуку. Використовуються так само як фільтри видива.
+        <translation>Фільтри звуку. Використовуються так само як фільтри відео.
 Приклад: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -2574,11 +2572,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2676,7 +2670,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -2706,7 +2700,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation>Ініціалізація SMPlayer</translation>
+        <translation>Ініціялізація SMPlayer</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
@@ -2811,7 +2805,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="109"/>
         <source>Resolution</source>
-        <translation>Роздільна здатність</translation>
+        <translation>Роздільність</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="110"/>
@@ -3391,7 +3385,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
         <source>Dutch</source>
-        <translation>Голландська</translation>
+        <translation>Нідерландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
@@ -4503,7 +4497,7 @@ Do you want to overwrite?</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,eq2=1.1</source>
-        <translation>Тут Ви можете передати додаткові фільтри видива.
+        <translation>Тут Ви можете передати додаткові фільтри відео.
 Разділяти комою. Не використовувати пробіли!
 Приклад: scale=512:-2,eq2=1.1</translation>
     </message>
@@ -4511,7 +4505,7 @@ Example: scale=512:-2,eq2=1.1</source>
         <location filename="../prefadvanced.ui" line="431"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: resample=44100:0:0,volnorm</source>
-        <translation>Фільтри звуку. Використовуються так само як фільтри видива.
+        <translation>Фільтри звуку. Використовуються так само як фільтри відео.
 Приклад: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
@@ -4701,7 +4695,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
         <source>Video filters</source>
-        <translation>Фільтри видива</translation>
+        <translation>Фільтри відео</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="512"/>
@@ -4741,7 +4735,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Перемикає MPlayer/MPV в експериментальний режим, у якому мітки часу для видивокадрів обчислюються інакше і підтримуються фільтри видива, що додають нові кадри або змінюють мітки часу існуючих. Більш точні мітки можна побачити, наприклад, коли відтворювані субтитри синхронізовані зі змінами сцен, з увімкненою бібліотекою SSA/ASS. Без корегування pts синхронізація субтитрів буде порушена для деяких кадрів. Ця опція не працюватиме вірно з деякими демультиплексорами та кодеками.</translation>
+        <translation>Перемикає MPlayer/MPV в експериментальний режим, у якому мітки часу для видивокадрів обчислюються інакше і підтримуються фільтри відео, що додають нові кадри або змінюють мітки часу існуючих. Більш точні мітки можна побачити, наприклад, коли відтворювані субтитри синхронізовані зі змінами сцен, з увімкненою бібліотекою SSA/ASS. Без корегування pts синхронізація субтитрів буде порушена для деяких кадрів. Ця опція не працюватиме вірно з деякими демультиплексорами та кодеками.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="502"/>
@@ -4756,7 +4750,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation>Тут Ви можете додати видивофільтри для MPlayer/MPV. Записуються через коми. Не використовуйте пробіли!</translation>
+        <translation>Тут Ви можете додати відеофільтри для MPlayer/MPV. Записуються через коми. Не використовуйте пробіли!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
@@ -4989,7 +4983,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Відзначте розширення файлів медія, які ви хочете оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медія, асоціяція файлів буде відновлена.</translation>
+        <translation>Відзначте розширення файлів медія, які ви волієте оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медія, асоціяція файлів буде відновлена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5112,7 +5106,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1003"/>
         <source>Start videos in fullscreen</source>
-        <translation>Стартувати видиво на повний екран</translation>
+        <translation>Стартувати відео у повноекранному режимі</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
@@ -5173,7 +5167,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation>%1 задає ім&apos;я файлу видива без розширення, %2 додає 4-значний номер, доповнений нулями.</translation>
+        <translation>%1 задає ім&apos;я файлу відео без розширення, %2 додає 4-значний номер, доповнений нулями.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5183,7 +5177,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="943"/>
         <source>Video output driver</source>
-        <translation>Пристрій виведення видива</translation>
+        <translation>Пристрій виведення відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1041"/>
@@ -5213,7 +5207,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="981"/>
         <source>Software video equalizer</source>
-        <translation>Проґрамний видивоеквалайзер</translation>
+        <translation>Проґрамний відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="882"/>
@@ -5248,12 +5242,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="982"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Ви можете спробувати ці опції, якщо видивоеквалайзер не підтримується Вашою відеокарткою чи вибраним драйвером виведення видива.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення видива.</translation>
+        <translation>Ви можете спробувати ці опції, якщо відеоеквалайзер не підтримується Вашою відеокарткою чи вибраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення відео.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1004"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Якщо Ви виберете цю опцію, усі видивофайли будуть стартувати на увесь екран.</translation>
+        <translation>Якщо Ви виберете цю опцію, усі відеофайли будуть стартувати на увесь екран.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1064"/>
@@ -5328,7 +5322,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.ui" line="552"/>
         <source>Start videos in &amp;fullscreen</source>
-        <translation>Стартувати видиво на повний &amp;екран</translation>
+        <translation>Стартувати відео на повний &amp;екран</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="566"/>
@@ -5363,7 +5357,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="992"/>
         <source>Double buffering</source>
-        <translation>Подвійне буферування</translation>
+        <translation>Подвійна буферизація</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="518"/>
@@ -5378,7 +5372,7 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Подвійне буферування виправляє мерехтіння тримаючи два кадри у пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
+        <translation>Подвійна буферизація виправляє мерехтіння тримаючи два кадри у пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="367"/>
@@ -5544,12 +5538,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="287"/>
         <source>&amp;Video</source>
-        <translation>&amp;Видиво</translation>
+        <translation>&amp;Відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="511"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Використовувати проґ&amp;рамний видивоеквалайзер</translation>
+        <translation>Використовувати проґ&amp;рамний відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="610"/>
@@ -5564,7 +5558,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="941"/>
         <source>Video</source>
-        <translation>Видиво</translation>
+        <translation>Відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
@@ -5614,7 +5608,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Виберіть фільтр деінтерлейсингу, який буде застосовано до нових видив при відкритті.</translation>
+        <translation>Виберіть фільтр деінтерлейсингу, який буде застосовано до нових відео при відкритті.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="893"/>
@@ -5644,17 +5638,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="997"/>
         <source>Draw video using slices</source>
-        <translation>Промальовувати видиво смугами</translation>
+        <translation>Промальовувати відео смугами</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="998"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Увімкнути/вимкнути промальовування видива смугами, висотою 16 пікселів. Якщо вимкнено, то цілий кадр малюється за раз. Може бути швидше або повільніше, у залежності відеокартки та наявного кешу. Діє лише з кодеками libmpeg2 та libavcodec.</translation>
+        <translation>Увімкнути/вимкнути промальовування відео смугами, висотою 16 пікселів. Якщо вимкнено, то цілий кадр малюється за раз. Може бути швидше або повільніше, у залежності відеокартки та наявного кешу. Діє лише з кодеками libmpeg2 та libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="532"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>Промальовувати видиво &amp;смугами</translation>
+        <translation>Промальовувати відео &amp;смугами</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="215"/>
@@ -5693,7 +5687,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Ця опція встановлює типове мірило, яке буде застосовуватися для нових видивофайлів.</translation>
+        <translation>Ця опція встановлює типове мірило, яке буде застосовуватися для нових відеофайлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="457"/>
@@ -5708,7 +5702,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="944"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
-        <translation>Виберіть драйвер виведення видива. %1 забезпечує найкращу швидкодію.</translation>
+        <translation>Виберіть драйвер виведення відео. %1 забезпечує найкращу швидкодію.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
@@ -5718,7 +5712,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="889"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>SMPlayer зазвичай запам&apos;ятовує налаштування для кожного файлу (вибрані доріжки, гучність, фільтри...). Вимкніть цю опцію, якщо вам це не подобається.</translation>
+        <translation>SMPlayer зазвичай запам&apos;ятовує налаштування для кожного файлу (вибрані доріжки, гучність, фільтри...). Вимкніть цю опцію, якщо Вам це не подобається.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="927"/>
@@ -5804,17 +5798,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation>Якщо ви виберете цю опцію, SMPlayer пам&apos;ятатиме останнє положення файлу, коли ви відкриєте його знову. Ця опція працює лише зі звичайними файлами (не з DVD, КД, URL...).</translation>
+        <translation>Якщо Ви виберете цю опцію, SMPlayer пам&apos;ятатиме останнє положення файлу, коли ви відкриєте його знову. Ця опція працює лише зі звичайними файлами (не з DVD, КД, URL...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="988"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не усіма кодеками та пристроями видивовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
+        <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не усіма кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення видива із звуком AC3 (як DVD). У цьому випадку liba52 декодує типово та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Нотатка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
+        <translation>Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). У цьому випадку liba52 декодує типово та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Нотатка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="907"/>
@@ -5884,7 +5878,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення видивофайлу. Показ зберігача екрану буде дозволений, якщо відтворюється аудіофайл або відтворення призупинене. Ця опція працює лише якщо вікно SMPlayer розрорнуте.</translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення відеофайлу. Показ зберігача екрану буде дозволений, якщо відтворюється аудіофайл або відтворення призупинене. Ця опція працює лише якщо вікно SMPlayer розрорнуте.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="573"/>
@@ -5909,17 +5903,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="1110"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation>Поступове регулювання синхронізації аудіо-видива, основане на розмірах звукових затримок.</translation>
+        <translation>Поступове регулювання синхронізації аудіо-відео, основане на розмірах звукових затримок.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1113"/>
         <source>A-V sync correction</source>
-        <translation>Коригування синхронізації аудіо-видива</translation>
+        <translation>Коригування синхронізації аудіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1114"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation>Найбільше значення коригування аудіо-видива на кадр (с)</translation>
+        <translation>Найбільше значення коригування аудіо-відео на кадр (с)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="880"/>
@@ -5929,7 +5923,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="891"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation>&amp;Автосинхронізація аудіо-видива</translation>
+        <translation>&amp;Автосинхронізація аудіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="917"/>
@@ -5939,7 +5933,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="953"/>
         <source>A-V sync &amp;correction</source>
-        <translation>&amp;Коригування синхронізації аудіо-видива</translation>
+        <translation>&amp;Коригування синхронізації аудіо-відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="976"/>
@@ -6040,7 +6034,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../prefinput.cpp" line="147"/>
         <location filename="../prefinput.cpp" line="362"/>
         <source>Zoom video</source>
-        <translation>Мірило видива</translation>
+        <translation>Мірило відео</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
@@ -6316,7 +6310,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinput.cpp" line="84"/>
         <source>Show video equalizer</source>
-        <translation>Показати видивоеквалайзер</translation>
+        <translation>Показати відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="85"/>
@@ -6772,12 +6766,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="657"/>
         <source>Move the window when the video area is dragged</source>
-        <translation>Переміщувати вікно, за область видива</translation>
+        <translation>Переміщувати вікно, за область відео</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation>Якщо ця опція увімкнена, то головне вікно буде переміщуватися при перетягуванні вказівником за область видива.</translation>
+        <translation>Якщо ця опція увімкнена, то головне вікно буде переміщуватися при перетягуванні вказівником за область відео.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -7020,7 +7014,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="760"/>
         <source>Display in compact mode too</source>
-        <translation>Показувати також в стислому режимі</translation>
+        <translation>Показувати також у стислому режимі</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="641"/>
@@ -7051,7 +7045,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.ui" line="741"/>
         <source>Display in &amp;compact mode too</source>
-        <translation>Показувати також в &amp;стислому режимі</translation>
+        <translation>Показувати також у &amp;стислому режимі</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
@@ -7061,17 +7055,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="654"/>
         <source>Hide video window when playing audio files</source>
-        <translation>Ховати вікно видива при відтворенні аудіофайлів</translation>
+        <translation>Ховати вікно відео при відтворенні аудіофайлів</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="655"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>При увімкненні цієї опції при відтворенні аудіофайлу вікно видива буде сховано.</translation>
+        <translation>При увімкненні цієї опції при відтворенні аудіофайлу вікно відео буде сховано.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="102"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>&amp;Ховати вікно видива при відтворенні аудіофайлів</translation>
+        <translation>&amp;Ховати вікно відео при відтворенні аудіофайлів</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="719"/>
@@ -7081,7 +7075,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="720"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation>При увімкненні цієї опції, перемотка буде більш точною, але може бути трішки повільнішою. Може не працювати з деякими форматами видива.</translation>
+        <translation>При увімкненні цієї опції, перемотка буде більш точною, але може бути трішки повільнішою. Може не працювати з деякими форматами відео.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="722"/>
@@ -7184,17 +7178,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="141"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>Якщо опція увімкнена, SMPlayer намагатиметься відтворювати видиво з Youtube.</translation>
+        <translation>Якщо опція увімкнена, SMPlayer намагатиметься відтворювати відео з Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="143"/>
         <source>Youtube quality</source>
-        <translation>Якість видива з YouTube</translation>
+        <translation>Якість відео з YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="144"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Оберіть бажану якість для видива з YouTube.</translation>
+        <translation>Оберіть бажану якість для відео з YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
@@ -7214,7 +7208,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer буде намагатися відтворювати потокове видиво з сайтів Youtube, Dailymotion, Vimeo, Vevo та ін.</translation>
+        <translation>Якщо ця опція увімкнена, SMPlayer буде намагатися відтворювати потокове відео з сайтів Youtube, Dailymotion, Vimeo, Vevo та ін.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="153"/>
@@ -7364,7 +7358,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Установки кешу можуть поліпшити чи погіршити швидкодію</translation>
+        <translation>Налаштування кешу можуть поліпшити чи погіршити швидкодію</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="270"/>
@@ -7504,7 +7498,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="80"/>
         <source>Skip only on HD videos</source>
-        <translation>Пропускати лише на HD видиві</translation>
+        <translation>Пропускати лише на HD відео</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="244"/>
@@ -7514,12 +7508,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation>Спробувати використати невільний кодек CoreAVC, коли не визначено жодного іншого та вибраний видивовихід non-VDPAU. Потребує, щоб MPlayer був зібраний з підтримкою CoreAVC.</translation>
+        <translation>Спробувати використати невільний кодек CoreAVC, коли не визначено жодного іншого та вибраний відеовихід non-VDPAU. Потребує, щоб MPlayer був зібраний з підтримкою CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Ця опція дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація кадрів підтримується для декодування залежних кадрів, це може погіршити якість ніж без виконання deblocking, наприклад MPEG-2 видивом. Принаймні, для високого бітрейту HDTV це забезпечує більше прискорення без видимого погіршення якості.</translation>
+        <translation>Ця опція дозволяє пропустити фільтр петлі (він же deblocking) при декодуванні H.264. Оскільки фільтрація кадрів підтримується для декодування залежних кадрів, це може погіршити якість ніж без виконання deblocking, наприклад MPEG-2 відео. Принаймні, для високого бітрейту HDTV це забезпечує більше прискорення без видимого погіршення якості.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="32"/>
@@ -7559,22 +7553,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="289"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation>vdpau: вивід через vdpau та opengl видиво виходи.</translation>
+        <translation>vdpau: вивід через vdpau та opengl відео виходи.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="290"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation>vaapi: вивід через opengl та vaapi видиво виходи. Лише для видивокарток від Intel.</translation>
+        <translation>vaapi: вивід через opengl та vaapi відео виходи. Лише для відеокарток від Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="291"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation>vaapi-copy: копіює видиво в системну пам&apos;ять. Тілько для видивокарток від Intel.</translation>
+        <translation>vaapi-copy: копіює відео у системну пам&apos;ять. Лише для відеокарток від Intel.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation>dxva2-copy: копіює видиво в системну пам&apos;ять. Експериментальна функція.</translation>
+        <translation>dxva2-copy: копіює відео у системну пам&apos;ять. Експериментальна функція.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="297"/>
@@ -7594,12 +7588,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;Пропускати (завжди)&lt;/b&gt;: фільт петлі пропущений незалежно від роздільної здатності видива</translation>
+        <translation>&lt;b&gt;Пропускати (завжди)&lt;/b&gt;: фільт петлі пропущений незалежно від роздільності відео</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="311"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;Пропускати лише на HD видиві&lt;/b&gt;: фільтр петлі буде пропущено тільки для видива з висотою %1 чи більше.</translation>
+        <translation>&lt;b&gt;Пропускати лише на HD відео&lt;/b&gt;: фільтр петлі буде пропущено лише для відео з висотою %1 чи більше.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
@@ -7649,7 +7643,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>&amp;Потоки для декодування (тільки для MPEG-1/2 та H.264):</translation>
+        <translation>&amp;Потоки для декодування (лише для MPEG-1/2 та H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
@@ -7697,7 +7691,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="29"/>
         <source>Video files</source>
-        <translation>Видиво файли</translation>
+        <translation>Відео файли</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="30"/>
@@ -7707,7 +7701,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="31"/>
         <source>Video and audio files</source>
-        <translation>Видиво та аудіо файли</translation>
+        <translation>Відео та аудіо файли</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="32"/>
@@ -7732,7 +7726,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="136"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation>&lt;b&gt;Видиво-файли&lt;/b&gt;: усі видиво-файли, знайдені у теці, будуть додані</translation>
+        <translation>&lt;b&gt;Відео-файли&lt;/b&gt;: усі відео-файли, знайдені у теці, будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="137"/>
@@ -7742,7 +7736,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="138"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Видиво- та аудіо-файли&lt;/b&gt;: усі видиво- та аудіо-файли, знайдені у теці, будуть додані</translation>
+        <translation>&lt;b&gt;Відео- та аудіо-файли&lt;/b&gt;: усі відео- та аудіо-файли, знайдені у теці, будуть додані</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="139"/>
@@ -7772,7 +7766,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="159"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation>Якщо ця опція увімкнена, копія плейлист буде зберігатися в конфігурації smplayer при закритті, і буде автоматично завантажуватися, коли smplayer запускатиметься.</translation>
+        <translation>Якщо ця опція увімкнена, копія плейлист буде зберігатися у конфігурації smplayer при закритті, і буде автоматично завантажуватися, коли smplayer запускатиметься.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
@@ -7802,12 +7796,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="147"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Виберіть цю опцію, якщо хочете, щоб додавання теки також додавало файли в підтеках рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
+        <translation>Виберіть цю опцію, якщо волієте, щоб додавання теки також додавало файли в підтеках рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="152"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Виберіть цю опцію, щоб витягти з файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні доки файл не буде дійсно програватися. Пам&apos;ятайте: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
+        <translation>Виберіть цю опцію, щоб витягти з файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні доки файл не буде справді програватися. Пам&apos;ятайте: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
@@ -8039,7 +8033,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
         <source>The size in pixels.</source>
-        <translation>Розмір в пікселях.</translation>
+        <translation>Розмір у пікселях.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="457"/>
@@ -8069,7 +8063,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation>Визначає відступ ліворуч в пікселях.</translation>
+        <translation>Визначає відступ ліворуч у пікселях.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="475"/>
@@ -8079,7 +8073,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation>Визначає відступ праворуч в пікселях.</translation>
+        <translation>Визначає відступ праворуч у пікселях.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="478"/>
@@ -8089,7 +8083,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation>Визначає відступ по вертикалі в пікселях.</translation>
+        <translation>Визначає відступ по вертикалі у пікселях.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="481"/>
@@ -8287,7 +8281,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="434"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation>Ця опція НЕ змінює розмір субтитрів в поточному видиві. Щоб це зробити, використовуйте опції &lt;i&gt;Розмір+&lt;/i&gt; та &lt;i&gt;Розмір-&lt;/i&gt; в меню субтитрів.</translation>
+        <translation>Ця опція НЕ змінює розмір субтитрів в поточному відео. Щоб це зробити, використовуйте опції &lt;i&gt;Розмір+&lt;/i&gt; та &lt;i&gt;Розмір-&lt;/i&gt; в меню субтитрів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="438"/>
@@ -8430,7 +8424,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation>Виберіть фільтр деінтерлейсингу, який ви хочете використати для каналів ТБ.</translation>
+        <translation>Виберіть фільтр деінтерлейсингу, який Ви волієте використати для каналів ТБ.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -8503,7 +8497,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>Ви можете тут задати інтервал (у днях) для перевірки оновлень.</translation>
+        <translation>Ви можете тут вказати інтервал (у днях) для перевірки оновлень.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -8555,7 +8549,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="175"/>
         <source>will show this message and then will exit.</source>
-        <translation>відобразити це повідомлення та вийти.</translation>
+        <translation>показати це повідомлення та вийти.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
@@ -8575,7 +8569,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>action_list - перелік дій, розділених пробілами. Дії будуть виконані лише після завантаження файлу (чи іншого) у порядку, вказаному вами. Для перевірки дії Ви можете передати переметр true чи false. Наприклад: -actions &quot;fullscreen compact true&quot;. Лапки потрібні, якщо Ви передаєте більше ніж один параметр.</translation>
+        <translation>action_list - перелік дій, розділених пробілами. Дії будуть виконані лише після завантаження файлу (чи іншого) у порядку, вказаному Вами. Для перевірки дії Ви можете передати переметр true чи false. Наприклад: -actions &quot;fullscreen compact true&quot;. Лапки потрібні, якщо Ви передаєте більше ніж один параметр.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="99"/>
@@ -8596,17 +8590,17 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="154"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>відтворювати видиво на повний екран.</translation>
+        <translation>відтворювати відео на повний екран.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="157"/>
         <source>the video will be played in window mode.</source>
-        <translation>відтворювати видиво у віконному режимі.</translation>
+        <translation>відтворювати відео у віконному режимі.</translation>
     </message>
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
         <source>Enqueue in SMPlayer</source>
-        <translation>Додати в чергу SMPlayer&apos;а</translation>
+        <translation>Додати до черги SMPlayer&apos;а</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="115"/>
@@ -8652,27 +8646,19 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="166"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation>визначає файл з субтитрами, що завантажується для першого видива.</translation>
+        <translation>визначає файл з субтитрами, що завантажується для першого відео.</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8896,7 +8882,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>&amp;Video info</source>
-        <translation>Інформація види&amp;ва</translation>
+        <translation>Інформація від&amp;ео</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="408"/>
@@ -8924,12 +8910,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation>Стерео 3D фільтр</translation>
+        <translation>Стерео &amp;3D фільтр</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation>&amp;3D формат видива:</translation>
+        <translation>&amp;3D формат відео:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
@@ -9067,7 +9053,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation>Цей архів містить більш ніж один файл субтитрів. Будь ласка, виберіть один, який хочете витягти.</translation>
+        <translation>Цей архів містить більш ніж один файл субтитрів. Будь ласка, виберіть один, який волієте витягти.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -9083,12 +9069,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>TVList</name>
     <message>
-        <location filename="../tvlist.cpp" line="112"/>
+        <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
         <translation>Редактор каналів</translation>
     </message>
     <message>
-        <location filename="../tvlist.cpp" line="113"/>
+        <location filename="../tvlist.cpp" line="95"/>
         <source>TV/Radio list</source>
         <translation>Перелік ТБ/Радіо</translation>
     </message>
@@ -9292,7 +9278,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation>&amp;Вимкнути проґрамні видивофільтри</translation>
+        <translation>&amp;Вимкнути проґрамні відеофільтри</translation>
     </message>
 </context>
 <context>
@@ -9345,7 +9331,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Використовувати поточні значення як типові для нового видива.</translation>
+        <translation>Використовувати поточні значення як типові для нового відео.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
@@ -9358,7 +9344,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="437"/>
         <source>Video preview</source>
-        <translation>Попередній перегляд видива</translation>
+        <translation>Попередній перегляд відео</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="143"/>
@@ -9428,12 +9414,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>Resolution: %1x%2</source>
-        <translation>Роздільна здатність: %1x%2</translation>
+        <translation>Роздільність: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="426"/>
         <source>Video format: %1</source>
-        <translation>Формат видива: %1</translation>
+        <translation>Формат відео: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="427"/>
@@ -9458,12 +9444,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="547"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
-        <translation>Процес mplayer не запустився під час спроби отримання відомостей про видиво</translation>
+        <translation>Процес mplayer не запустився під час спроби отримання відомостей про відео</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The length of the video is 0</source>
-        <translation>Довжина видива: 0</translation>
+        <translation>Довжина відео: 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="252"/>
@@ -9494,7 +9480,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreview.cpp" line="431"/>
         <source>Video bitrate: %1</source>
-        <translation>Бітрейт видива: %1</translation>
+        <translation>Бітрейт відео: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="432"/>
@@ -9547,7 +9533,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="43"/>
         <source>The preview will be created for the video you specify here.</source>
-        <translation>Попередній перегляд буде створено для видива, яке ви вкажете тут.</translation>
+        <translation>Попередній перегляд буде створено для відео, яке ви вкажете тут.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="45"/>
@@ -9573,22 +9559,22 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation>Якщо співвідношення сторін видива невірне, ви тут можете визначити інше.</translation>
+        <translation>Якщо співвідношення сторін відео невірне, Ви тут можете визначити інше.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation>Зазвичай перший кадр чорний, тому гарною думкою є пропустити декілька секунд на початку видива. Ця опція дозволяє визначити скільки секунд буде пропущено.</translation>
+        <translation>Зазвичай перший кадр чорний, тому гарною думкою є пропустити декілька секунд на початку відео. Ця опція дозволяє визначити скільки секунд буде пропущено.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation>Ця опція визначає найбільшу ширину в пікселях, що будуть мати створені мініатюри.</translation>
+        <translation>Ця опція визначає найбільшу ширину у пікселях, що будуть мати створені мініатюри.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>Деякі кадри будуть витягнені з видива в порядку створення попереднього перегляду. Тут ви можете обрати формат зображення для здобутих кадрів. PNG може дати кращу якість.</translation>
+        <translation>Деякі кадри будуть витягнені з відео у порядку створення попереднього перегляду. Тут Ви можете обрати формат зображення для здобутих кадрів. PNG може дати кращу якість.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
@@ -9631,12 +9617,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>На увесь екран вмик/вимк</translation>
+        <translation>На увесь екран увімк/вимк</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation>Видивоеквалайзер</translation>
+        <translation>Відеоеквалайзер</translation>
     </message>
 </context>
 <context>
