@@ -1,5 +1,10 @@
 [b]Version 14.9.0.x[/b]:
 
+(2015-07-24)
+ * Apply patch by Wilbert Hengs (wstudios at xs4all dot nl).
+   It prevents the action for the left mouse button to run when
+   dragging the video window.
+
 (2015-06-24)
  * Possibility to disable MPRIS2 in smplayer.ini (option use_mpris2).
 
