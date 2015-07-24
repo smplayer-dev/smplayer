@@ -42,6 +42,11 @@ class QTimer;
 
 #define DELAYED_RESIZE 0
 
+// Number of pixels the window has to be dragged at least before dragging starts
+#define DRAG_THRESHOLD 4
+
+enum TDragState {NOT_DRAGGING, START_DRAGGING, DRAGGING};
+
 //! Screen is a widget that hides the mouse cursor after some seconds if not moved.
 
 class Screen : public QWidget
@@ -247,9 +252,9 @@ protected:
 	QWidget * corner_widget;
 
 private:
+	TDragState drag_state;
+	QPoint start_drag;
 	bool mouse_drag_tracking;
-	bool isMoving;
-	QPoint startDrag;
 };
 
 #endif
