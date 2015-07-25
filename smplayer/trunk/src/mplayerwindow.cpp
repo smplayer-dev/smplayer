@@ -508,8 +508,8 @@ bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
 
         drag_state = START_DRAGGING;
         start_drag = mouseEvent->globalPos();
-        event->accept();
-        return true;
+        // Don't filter, so others can have a look at it too
+        return false;
     }
 
     if (type == QEvent::MouseButtonRelease) {
