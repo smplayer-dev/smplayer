@@ -434,13 +434,13 @@ SectionGroup $(MPlayerMPVGroupTitle)
     DetailPrint $(MPV_DL_Msg)
 !ifdef USE_INETC
     inetc::get /CONNECTTIMEOUT 30000 /RESUME "" /BANNER $(MPV_DL_Msg) /CAPTION $(MPV_DL_Msg) \
-    "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
+    "http://downloads.smplayer.info/mpv/${MPV_FILENAME}" \
     "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
     StrCmp $R0 OK +4 0
 !else
     NSISdl::download /TIMEOUT=30000 \
-    "http://mpv.srsfckn.biz/${MPV_FILENAME}" \
+    "http://downloads.smplayer.info/mpv/${MPV_FILENAME}" \
     "$PLUGINSDIR\mpv.7z" /END
     Pop $R0
     StrCmp $R0 "success" +4 0
