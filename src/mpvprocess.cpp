@@ -152,7 +152,8 @@ static QRegExp rx_mpv_switch_title("^\\[dvdnav\\] DVDNAV, switched to title: (\\
 
 static QRegExp rx_mpv_playing("^Playing:.*|^\\[ytdl_hook\\].*");
 
-static QRegExp rx_mpv_generic("^(.*)=(.*)");
+//static QRegExp rx_mpv_generic("^(.*)=(.*)");
+static QRegExp rx_mpv_generic("^([A-Z_]+)=(.*)");
 
 void MPVProcess::parseLine(QByteArray ba) {
 	//qDebug("MPVProcess::parseLine: '%s'", ba.data() );
@@ -555,6 +556,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (rx_mpv_generic.indexIn(line) > -1) {
 			tag = rx_mpv_generic.cap(1);
 			value = rx_mpv_generic.cap(2);
+			//qDebug("MPVProcess::parseLine: tag: %s", tag.toUtf8().constData());
+			//qDebug("MPVProcess::parseLine: value: %s", value.toUtf8().constData());
 
 			if (tag == "INFO_VIDEO_WIDTH") {
 				md.video_width = value.toInt();
@@ -672,7 +675,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			}
 			else
 			if (tag == "INFO_MEDIA_TITLE") {
-				if (!value.isEmpty() /*&& md.clip_name.isEmpty()*/) {
+				if (!value.isEmpty() && value != "mp4" && !value.startsWith("mp4&") /*&& md.clip_name.isEmpty()*/) {
 					md.clip_name = value;
 				}
 			}
