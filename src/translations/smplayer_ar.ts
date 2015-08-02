@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -977,7 +975,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1639"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -1204,7 +1202,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4643"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"></translation>
+        <translation>للأسف فإن OpenSSL، و هو مكون ضروري له، لا يتوفر في النظام الخاص بك.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4644"/>
@@ -1881,148 +1879,148 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2926"/>
+        <location filename="../core.cpp" line="2914"/>
         <source>Brightness: %1</source>
         <translation>السطوع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2942"/>
+        <location filename="../core.cpp" line="2930"/>
         <source>Contrast: %1</source>
         <translation>التباين: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2957"/>
+        <location filename="../core.cpp" line="2945"/>
         <source>Gamma: %1</source>
         <translation>غاما: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2972"/>
+        <location filename="../core.cpp" line="2960"/>
         <source>Hue: %1</source>
         <translation>التدرج: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2987"/>
+        <location filename="../core.cpp" line="2975"/>
         <source>Saturation: %1</source>
         <translation>التشبع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3116"/>
+        <location filename="../core.cpp" line="3104"/>
         <source>Volume: %1</source>
         <translation>حجم الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4033"/>
+        <location filename="../core.cpp" line="4014"/>
         <source>Zoom: %1</source>
         <translation>التقريب: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4258"/>
+        <location filename="../core.cpp" line="4239"/>
         <source>Buffering...</source>
         <translation>تخزين مخبئي...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3234"/>
-        <location filename="../core.cpp" line="3245"/>
+        <location filename="../core.cpp" line="3222"/>
+        <location filename="../core.cpp" line="3233"/>
         <source>Font scale: %1</source>
         <translation>تحجيم الخطّ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3874"/>
+        <location filename="../core.cpp" line="3855"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4254"/>
+        <location filename="../core.cpp" line="4235"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>يُحدِّث الذاكرة الخبيئة للخطوط. قد يستغرق هذا بعض الثواني...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3159"/>
+        <location filename="../core.cpp" line="3147"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>تأخير الترجمة: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3177"/>
+        <location filename="../core.cpp" line="3165"/>
         <source>Audio delay: %1 ms</source>
         <translation>تأخير الصوت: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3041"/>
+        <location filename="../core.cpp" line="3029"/>
         <source>Speed: %1</source>
         <translation>السرعة: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="554"/>
+        <location filename="../core.cpp" line="550"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>غير قادر على جلب صفحة YouTube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="558"/>
+        <location filename="../core.cpp" line="554"/>
         <source>Unable to locate the URL of the video</source>
         <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
+        <location filename="../core.cpp" line="3310"/>
         <source>Subtitles on</source>
         <translation>أُظهرت الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3324"/>
+        <location filename="../core.cpp" line="3312"/>
         <source>Subtitles off</source>
         <translation>أُخفيتِ الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3922"/>
+        <location filename="../core.cpp" line="3903"/>
         <source>Mouse wheel seeks now</source>
         <translation>تحريك عجلة الفأرة الآن يتنقّل في المقطع</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3925"/>
+        <location filename="../core.cpp" line="3906"/>
         <source>Mouse wheel changes volume now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر حجم الصوت</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3928"/>
+        <location filename="../core.cpp" line="3909"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>تحريك عجلة الفأرة  الآن يغيّر درجة التقريب</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3931"/>
+        <location filename="../core.cpp" line="3912"/>
         <source>Mouse wheel changes speed now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر السرعة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4244"/>
         <source>Starting...</source>
         <translation>البدأ...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1393"/>
+        <location filename="../core.cpp" line="1389"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>لم تُلتقط الصورة، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1406"/>
+        <location filename="../core.cpp" line="1402"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>لم تُلتقط الصور، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2595"/>
+        <location filename="../core.cpp" line="2583"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;أ&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2612"/>
+        <location filename="../core.cpp" line="2600"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;ب&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2627"/>
+        <location filename="../core.cpp" line="2615"/>
         <source>A-B markers cleared</source>
         <translation>مُسحت الإشارتان &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="550"/>
+        <location filename="../core.cpp" line="546"/>
         <source>Connecting to %1</source>
         <translation>يتصل بـ%1</translation>
     </message>
@@ -2577,14 +2575,7 @@ resample=44100:0:0,volnorm</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>لم تُستخرَج أية ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
-            <numerusform>استُخرجت ترجمتان</numerusform>
-            <numerusform>استُخرجت %n ترجمات</numerusform>
-            <numerusform>استُخرجت %n ترجمةً</numerusform>
-            <numerusform>استُخرجت %n ترجمة</numerusform>
-        </translation>
+        <translation><numerusform>لم تُستخرَج أية ترجمة</numerusform><numerusform>استُخرجت ترجمة وحيدة</numerusform><numerusform>استُخرجت ترجمتان</numerusform><numerusform>استُخرجت %n ترجمات</numerusform><numerusform>استُخرجت %n ترجمةً</numerusform><numerusform>استُخرجت %n ترجمة</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2682,7 +2673,7 @@ resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -4965,12 +4956,12 @@ Example: -flip -nosound</source>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"></translation>
+        <translation>ملاحظة:</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"></translation>
+        <translation>الإستعادة لا تعمل في نظام ويندوز فيزتا Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -8136,7 +8127,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8221,7 +8212,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8665,27 +8656,13 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8764,7 +8741,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <location filename="../sharedata.cpp" line="39"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"></translation>
+        <translation>المشغل SMPlayer هو مشغل الوسائط المفضل في حاسوبي. جرّبه!</translation>
     </message>
 </context>
 <context>
@@ -8782,7 +8759,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharedialog.cpp" line="32"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>تبرّع عبر بي بال PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="46"/>
@@ -8795,27 +8772,27 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../sharewidget.cpp" line="109"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"></translation>
+        <translation>تبرّع عبر بي بال PayPal</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="110"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"></translation>
+        <translation>شارك SMPlayer في فيسبوك</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="111"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"></translation>
+        <translation>شارك SMPlayer في تويتر</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">إدعم SMPlayer</translation>
+        <translation>ادعم SMPlayer</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>تبرع/ شارك SMPlayer مع اصدقائك</translation>
     </message>
 </context>
 <context>
@@ -8937,137 +8914,137 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>المرشّح 3D ستريو</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>جنبا الى جنب بالتوازي (العين اليسرى يسرى، العين اليمنى يمنى)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>جنبا الى جنب بالتقاطع (العين اليمنى يسرى، العين اليسرى يمنى)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>جنبا الى جنب مع نصف دقة العُرض (العين اليسرى يسرى، العين اليمنى يمنى)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>جنبا الى جنب مع نصف دقة العُرض (العين اليمنى يسرى، العين اليسرى يمنى)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>أعلى-أسفل (العين اليسرى أعلى، العين اليمنى أسفل)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>أعلى-أسفل (العين اليمنى أعلى، العين اليسرى أسفل)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>أعلى-أسفل مع نصف دقة الارتفاع (العين اليسرى أعلى، العين اليمنى أسفل)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>أعلى-أسفل مع نصف دقة الارتفاع (العين اليمنى أعلى، العين اليسرى أسفل)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored </source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished">تلقائي</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -9096,12 +9073,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 <context>
     <name>TVList</name>
     <message>
-        <location filename="../tvlist.cpp" line="112"/>
+        <location filename="../tvlist.cpp" line="94"/>
         <source>Channel editor</source>
         <translation>مُحرّر القنوات</translation>
     </message>
     <message>
-        <location filename="../tvlist.cpp" line="113"/>
+        <location filename="../tvlist.cpp" line="95"/>
         <source>TV/Radio list</source>
         <translation>لائحة التلفاز/المذياع</translation>
     </message>
