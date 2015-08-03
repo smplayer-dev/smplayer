@@ -1731,7 +1731,7 @@ void BaseGui::retranslateStrings() {
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
-	showLogMplayerAct->change( "MPlayer/MPV" );
+	showLogMplayerAct->change(PLAYER_NAME);
 #endif
 #ifdef LOG_SMPLAYER
 	showLogSmplayerAct->change( "SMPlayer" );
@@ -2031,7 +2031,7 @@ void BaseGui::retranslateStrings() {
 
 	// Other things
 #ifdef LOG_MPLAYER
-	mplayer_log_window->setWindowTitle( tr("SMPlayer - MPlayer log") );
+	mplayer_log_window->setWindowTitle( tr("SMPlayer - %1 log").arg(PLAYER_NAME) );
 #endif
 #ifdef LOG_SMPLAYER
 	smplayer_log_window->setWindowTitle( tr("SMPlayer - SMPlayer log") );
@@ -3274,11 +3274,11 @@ void BaseGui::autosaveMplayerLog() {
 }
 
 void BaseGui::showMplayerLog() {
-    qDebug("BaseGui::showMplayerLog");
+	qDebug("BaseGui::showMplayerLog");
 
 	exitFullscreenIfNeeded();
 
-    mplayer_log_window->setText( mplayer_log );
+	mplayer_log_window->setText( mplayer_log );
 	mplayer_log_window->show();
 }
 #endif
@@ -5366,7 +5366,8 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 
 	if (exit_code != 255 ) {
 		ErrorDialog d(this);
-		d.setText(tr("MPlayer has finished unexpectedly.") + " " + 
+		d.setWindowTitle(tr("%1 Error").arg(PLAYER_NAME));
+		d.setText(tr("%1 has finished unexpectedly.").arg(PLAYER_NAME) + " " + 
 	              tr("Exit code: %1").arg(exit_code));
 #ifdef LOG_MPLAYER
 		d.setLog( mplayer_log );
@@ -5385,11 +5386,12 @@ void BaseGui::showErrorFromMplayer(QProcess::ProcessError e) {
 
 	if ((e == QProcess::FailedToStart) || (e == QProcess::Crashed)) {
 		ErrorDialog d(this);
+		d.setWindowTitle(tr("%1 Error").arg(PLAYER_NAME));
 		if (e == QProcess::FailedToStart) {
-			d.setText(tr("MPlayer failed to start.") + " " + 
-                         tr("Please check the MPlayer path in preferences."));
+			d.setText(tr("%1 failed to start.").arg(PLAYER_NAME) + " " + 
+                         tr("Please check the %1 path in preferences.").arg(PLAYER_NAME));
 		} else {
-			d.setText(tr("MPlayer has crashed.") + " " + 
+			d.setText(tr("%1 has crashed.").arg(PLAYER_NAME) + " " + 
                       tr("See the log for more info."));
 		}
 #ifdef LOG_MPLAYER
