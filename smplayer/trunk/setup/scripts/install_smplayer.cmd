@@ -84,6 +84,14 @@ echo.
 
 mkdir %OUTPUT_DIR%\themes\
 
+mkdir %OUTPUT_DIR%\themes\Breeze
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze\Breeze.rcc %OUTPUT_DIR%\themes\Breeze\
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze\README.txt %OUTPUT_DIR%\themes\Breeze\
+
+mkdir %OUTPUT_DIR%\themes\Breeze-dark
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze-dark\Breeze-dark.rcc %OUTPUT_DIR%\themes\Breeze-dark\
+copy %SMPLAYER_THEMES_DIR%\themes\Breeze-dark\README.txt %OUTPUT_DIR%\themes\Breeze-dark\
+
 mkdir %OUTPUT_DIR%\themes\Faenza
 copy %SMPLAYER_THEMES_DIR%\themes\Faenza\Faenza.rcc %OUTPUT_DIR%\themes\Faenza\
 copy %SMPLAYER_THEMES_DIR%\themes\Faenza\README.txt %OUTPUT_DIR%\themes\Faenza\
