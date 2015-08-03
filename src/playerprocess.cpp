@@ -17,10 +17,17 @@
 */
 
 #include "playerprocess.h"
-#include "mplayerprocess.h"
-#include "mpvprocess.h"
 #include <QFileInfo>
 #include <QDebug>
+
+#ifdef MPV_SUPPORT
+#include "mpvprocess.h"
+#endif
+
+#ifdef MPLAYER_SUPPORT
+#include "mplayerprocess.h"
+#endif
+
 
 PlayerProcess::PlayerProcess(QObject * parent) : MyProcess(parent) {
 #if NOTIFY_SUB_CHANGES
@@ -52,6 +59,7 @@ void PlayerProcess::writeToStdin(QString text) {
 PlayerProcess * PlayerProcess::createPlayerProcess(const QString & player_bin, QObject * parent) {
 	PlayerProcess * proc = 0;
 
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
 	if (PlayerID::player(player_bin) == PlayerID::MPLAYER) {
 		qDebug() << "PlayerProcess::createPlayerProcess: creating MplayerProcess";
 		proc = new MplayerProcess(parent);
@@ -59,6 +67,14 @@ PlayerProcess * PlayerProcess::createPlayerProcess(const QString & player_bin, Q
 		qDebug() << "PlayerProcess::createPlayerProcess: creating MPVProcess";
 		proc = new MPVProcess(parent);
 	}
+#else
+	#ifdef MPV_SUPPORT
+	proc = new MPVProcess(parent);
+	#endif
+	#ifdef MPLAYER_SUPPORT
+	proc = new MplayerProcess(parent);
+	#endif
+#endif
 
 	return proc;
 }

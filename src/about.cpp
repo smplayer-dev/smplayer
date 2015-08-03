@@ -65,9 +65,19 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 		tr("SMPlayer uses the award-winning MPlayer as playback engine. See %1")
 		   .arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">http://www.mplayerhq.hu</a>") +
 		*/
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
 		tr("SMPlayer is a graphical interface for %1 and %2.")
 			.arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">MPlayer</a>")
-			.arg("<a href=\"http://www.mpv.io\">MPV</a>") +
+			.arg("<a href=\"http://www.mpv.io\">mpv</a>") +
+#else
+		tr("SMPlayer is a graphical interface for %1.")
+	#ifdef MPV_SUPPORT
+			.arg("<a href=\"http://www.mpv.io\">mpv</a>") +
+	#endif
+	#ifdef MPLAYER_SUPPORT
+			.arg("<a href=\"http://www.mplayerhq.hu/design7/info.html\">MPlayer</a>") +
+	#endif
+#endif
         "<br><br>" +
 		tr("Subtitles service powered by %1").arg("<a href=\"http://www.opensubtitles.org\">www.OpenSubtitles.org</a>")
         /* + "<br><a href=\"http://www.opensubtitles.org\"><img src=\":default-theme/opensubtitles-logo.png\"></a>" */

@@ -275,6 +275,7 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	QStringList args;
 
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
+		#ifdef MPV_SUPPORT
 		// MPV
 		args << "--no-config" << "--no-audio" << "--no-cache";
 		args << "--frames=6" << "--framedrop=no" << "--start=" + QString::number(seek);
@@ -288,8 +289,10 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 		#ifdef Q_OS_WIN
 		args << "--use-text-osd=no";
 		#endif
+		#endif // MPV_SUPPORT
 	}
 	else {
+		#ifdef MPLAYER_SUPPORT
 		// MPlayer
 		args << "-nosound" << "-nocache";
 
@@ -324,6 +327,7 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 			args << "-vf" << "expand=osd=1" << "-osdlevel" << "2";
 		}
 		*/
+		#endif // MPLAYER_SUPPORT
 	}
 
 	args << prop.input_video;
@@ -478,6 +482,7 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 	QStringList args;
 
 	if (PlayerID::player(mplayer_path) == PlayerID::MPV) {
+		#ifdef MPV_SUPPORT
 		// MPV
 		args << "--term-playing-msg="
                 "ID_LENGTH=${=length}\n"
@@ -493,8 +498,10 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 		args << "--vo=null" << "-ao=null" << "--frames=1" << "--no-quiet" << "--no-cache" << "--no-config";
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
 		args << filename;
+		#endif // MPV_SUPPORT
 	}
 	else {
+		#ifdef MPLAYER_SUPPORT
 		// MPlayer
 		args << "-vo" << "null" << "-ao" << "null" << "-frames" << "1" << "-identify" << "-nocache" << "-noquiet";
 		if (!prop.dvd_device.isEmpty()) args << "-dvd-device" << prop.dvd_device;
@@ -504,6 +511,7 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 		#endif
 
 		args << filename;
+		#endif // MPLAYER_SUPPORT
 	}
 
 	p.start(mplayer_path, args);
