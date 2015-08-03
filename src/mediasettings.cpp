@@ -36,7 +36,9 @@ void MediaSettings::reset() {
 	current_sec = 0;
 	//current_sub_id = SubNone; 
 	current_sub_id = NoneSelected;
+#ifdef MPV_SUPPORT
 	current_secondary_sub_id = NoneSelected;
+#endif
 #if PROGRAM_SWITCH
 	current_program_id = NoneSelected;
 #endif
@@ -187,7 +189,9 @@ void MediaSettings::list() {
 
 	qDebug("  current_sec: %f", current_sec);
 	qDebug("  current_sub_id: %d", current_sub_id);
+#ifdef MPV_SUPPORT
 	qDebug("  current_secondary_sub_id: %d", current_secondary_sub_id);
+#endif
 #if PROGRAM_SWITCH
 	qDebug("  current_program_id: %d", current_program_id);
 #endif
@@ -304,7 +308,9 @@ void MediaSettings::save(QSettings * set, int player_id) {
 
 	set->beginGroup(demuxer_section);
 	set->setValue( "current_sub_id", current_sub_id );
+	#ifdef MPV_SUPPORT
 	set->setValue( "current_secondary_sub_id", current_secondary_sub_id );
+	#endif
 	#if PROGRAM_SWITCH
 	set->setValue( "current_program_id", current_program_id );
 	#endif
@@ -419,7 +425,9 @@ void MediaSettings::load(QSettings * set, int player_id) {
 
 	set->beginGroup(demuxer_section);
 	current_sub_id = set->value( "current_sub_id", NoneSelected ).toInt();
+	#ifdef MPV_SUPPORT
 	current_secondary_sub_id = set->value( "current_secondary_sub_id", NoneSelected ).toInt();
+	#endif
 	#if PROGRAM_SWITCH
 	current_program_id = set->value( "current_program_id", NoneSelected ).toInt();
 	#endif

@@ -708,7 +708,9 @@ protected:
 	MyActionGroup * videoTrackGroup;
 	MyActionGroup * audioTrackGroup;
 	MyActionGroup * subtitleTrackGroup;
+#ifdef MPV_SUPPORT
 	MyActionGroup * secondarySubtitleTrackGroup;
+#endif
 	MyActionGroup * titleGroup;
 	MyActionGroup * angleGroup;
 	MyActionGroup * chapterGroup;
@@ -736,7 +738,9 @@ protected:
 
 	QMenu * disc_menu;
 	QMenu * subtitles_track_menu;
+#ifdef MPV_SUPPORT
 	QMenu * secondary_subtitles_track_menu;
+#endif
 #if PROGRAM_SWITCH
 	QMenu * programtrack_menu;
 #endif
