@@ -21,6 +21,7 @@
 #include <QDebug>
 
 PlayerID::Player PlayerID::player(const QString & player_bin) {
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
 	Player p;
 	QString bin_name;
 
@@ -40,4 +41,13 @@ PlayerID::Player PlayerID::player(const QString & player_bin) {
 	}
 
 	return p;
+#else
+	#ifdef MPV_SUPPORT
+	return MPV;
+	#endif
+
+	#ifdef MPLAYER_SUPPORT
+	return MPLAYER;
+	#endif
+#endif
 }

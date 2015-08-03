@@ -19,14 +19,20 @@
 #include "inforeader.h"
 #include "global.h"
 #include "preferences.h"
-#include "inforeadermplayer.h"
-#include "inforeadermpv.h"
 #include "playerprocess.h"
 #include "paths.h"
 #include <QFileInfo>
 #include <QDateTime>
 #include <QSettings>
 #include <QDebug>
+
+#ifdef MPV_SUPPORT
+#include "inforeadermpv.h"
+#endif
+
+#ifdef MPLAYER_SUPPORT
+#include "inforeadermplayer.h"
+#endif
 
 #define INFOREADER_SAVE_VERSION 2
 
@@ -119,6 +125,7 @@ void InfoReader::getInfo() {
 	}
 
 	if (PlayerID::player(mplayerbin) == PlayerID::MPV) {
+		#ifdef MPV_SUPPORT
 		qDebug("InfoReader::getInfo: mpv");
 		InfoReaderMPV ir(mplayerbin, this);
 		ir.getInfo();
@@ -136,7 +143,9 @@ void InfoReader::getInfo() {
 		mplayer2_version = "";
 		is_mplayer2 = false;
 		is_mpv = true;
+		#endif
 	} else {
+		#ifdef MPLAYER_SUPPORT
 		qDebug("InfoReader::getInfo: mplayer");
 		InfoReaderMplayer ir(mplayerbin, this);
 		ir.getInfo();
@@ -154,6 +163,7 @@ void InfoReader::getInfo() {
 		mplayer2_version = ir.mplayer2Version();
 		is_mplayer2 = ir.isMplayer2();
 		is_mpv = false;
+		#endif
 	}
 
 	if (fi.exists()) {
