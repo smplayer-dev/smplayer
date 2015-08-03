@@ -270,7 +270,9 @@ public slots:
 	void changeDeinterlace(int);
 	void changeSubtitle(int);
 	void nextSubtitle();
+#ifdef MPV_SUPPORT
 	void changeSecondarySubtitle(int);
+#endif
 	void changeAudio(int ID, bool allow_restart = true);
 	void nextAudio();
 	void changeVideo(int ID, bool allow_restart = true);

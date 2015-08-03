@@ -58,7 +58,9 @@ public:
 
 	double current_sec;
 	int current_sub_id;
+#ifdef MPV_SUPPORT
 	int current_secondary_sub_id;
+#endif
 
 #if PROGRAM_SWITCH
 	int current_program_id;

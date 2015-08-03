@@ -3575,6 +3575,7 @@ void Core::nextSubtitle() {
 	}
 }
 
+#ifdef MPV_SUPPORT
 void Core::changeSecondarySubtitle(int ID) {
 	// MPV only
 	qDebug("Core::changeSecondarySubtitle: %d", ID);
@@ -3599,6 +3600,7 @@ void Core::changeSecondarySubtitle(int ID) {
 		}
 	}
 }
+#endif
 
 void Core::changeAudio(int ID, bool allow_restart) {
 	qDebug("Core::changeAudio: ID: %d, allow_restart: %d", ID, allow_restart);
@@ -4586,7 +4588,9 @@ void Core::initSubtitleTrack(const SubTracks & subs) {
 	}
 end:
 
+#ifdef MPV_SUPPORT
 	changeSecondarySubtitle(mset.current_secondary_sub_id);
+#endif
 	updateWidgets();
 }
 
