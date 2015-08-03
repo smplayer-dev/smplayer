@@ -21,6 +21,17 @@
 
 #include <QString>
 
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
+#define PLAYER_NAME "MPlayer/mpv"
+#else
+#ifdef MPV_SUPPORT
+#define PLAYER_NAME "mpv"
+#endif
+#ifdef MPLAYER_SUPPORT
+#define PLAYER_NAME "MPlayer"
+#endif
+#endif
+
 class PlayerID
 {
 public:
