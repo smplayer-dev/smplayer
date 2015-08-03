@@ -19,8 +19,8 @@
 #ifndef LINKS_H
 #define LINKS_H
 
-#define URL_HOMEPAGE "http://www.smplayer.es"
-#define URL_FORUM URL_HOMEPAGE"/forum"
+#define URL_HOMEPAGE "http://www.smplayer.info"
+#define URL_FORUM "http://forum.smplayer.info"
 #define URL_TRANSLATORS URL_HOMEPAGE"/translators.php"
 #define URL_FIRST_STEPS URL_HOMEPAGE"/first-steps.php"
 #define URL_FAQ URL_HOMEPAGE"/faq.php"
