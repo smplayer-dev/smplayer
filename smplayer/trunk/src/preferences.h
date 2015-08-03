@@ -79,7 +79,9 @@ public:
 	QString ao; // audio output
 
 	bool use_screenshot;
+#ifdef MPV_SUPPORT
 	QString screenshot_template;
+#endif
 	QString screenshot_directory;
 
 	// SMPlayer will remember all media settings for all videos.

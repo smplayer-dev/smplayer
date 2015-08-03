@@ -2276,10 +2276,12 @@ void Core::startMplayer( QString file, double seek ) {
 	end_video_filters:
 #endif
 
+#ifdef MPV_SUPPORT
 	// Template for screenshots (only works with mpv)
 	if ((screenshot_enabled) && (!pref->screenshot_template.isEmpty())) {
 		proc->setOption("screenshot_template", pref->screenshot_template);
 	}
+#endif
 
 	// slices
 	if ((pref->use_slices) && (!force_noslices)) {
