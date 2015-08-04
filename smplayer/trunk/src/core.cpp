@@ -2354,7 +2354,9 @@ void Core::startMplayer( QString file, double seek ) {
 		proc->setOption("softvol-max", QString::number(pref->softvol_max));
 	}
 
+#ifdef MPV_SUPPORT
 	proc->setOption("enable_streaming_sites_support", pref->enable_streaming_sites);
+#endif
 
 #ifndef Q_OS_WIN
 	if (proc->isMPV() && file.startsWith("dvb:")) {
