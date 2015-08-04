@@ -53,6 +53,10 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	youtube_widget->hide();
 #endif
 
+#ifndef MPV_SUPPORT
+	streaming_check->hide();
+#endif
+
 	createHelp();
 }
 
@@ -87,7 +91,9 @@ void PrefNetwork::setData(Preferences * pref) {
 	setYTQuality( pref->yt_quality );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
+#ifdef MPV_SUPPORT
 	streaming_check->setChecked(pref->enable_streaming_sites);
+#endif
 }
 
 void PrefNetwork::getData(Preferences * pref) {
@@ -106,7 +112,9 @@ void PrefNetwork::getData(Preferences * pref) {
 	pref->yt_quality = YTQuality();
 	pref->yt_user_agent = yt_user_agent_edit->text();
 #endif
+#ifdef MPV_SUPPORT
 	pref->enable_streaming_sites = streaming_check->isChecked();
+#endif
 }
 
 void PrefNetwork::setProxyType(int type) {
@@ -147,10 +155,12 @@ void PrefNetwork::createHelp() {
 		tr("Set the user agent that SMPlayer will use when connecting to Youtube.") );
 #endif
 
+#ifdef MPV_SUPPORT
 	setWhatsThis(streaming_check, tr("Enable MPV's support for streaming sites"),
 		tr("If this option is checked, SMPlayer will try to play videos from "
            "streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.") + "<br>"+
 		tr("Requires mpv and youtube-dl.") );
+#endif
 
 	addSectionTitle(tr("Proxy"));
 

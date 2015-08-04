@@ -233,7 +233,9 @@ void Preferences::reset() {
 	yt_use_https_main = false;
 	yt_use_https_vi = false;
 #endif
+#ifdef MPV_SUPPORT
 	enable_streaming_sites = false;
+#endif
 
 
     /* *********
@@ -726,9 +728,11 @@ void Preferences::save() {
 	set->endGroup();
 #endif
 
+#ifdef MPV_SUPPORT
 	set->beginGroup("streaming");
 	set->setValue("enable_streaming_sites", enable_streaming_sites);
 	set->endGroup();
+#endif
 
 
 
@@ -1247,9 +1251,11 @@ void Preferences::load() {
 	set->endGroup();
 #endif
 
+#ifdef MPV_SUPPORT
 	set->beginGroup("streaming");
 	enable_streaming_sites = set->value("enable_streaming_sites", enable_streaming_sites).toBool();
 	set->endGroup();
+#endif
 
 
     /* *********
