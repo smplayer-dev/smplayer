@@ -922,6 +922,7 @@ void PrefGeneral::createHelp() {
            "SMPlayer will be stored. If the folder is not valid the "
            "screenshot feature will be disabled.") );
 
+#ifdef MPV_SUPPORT
 	setWhatsThis(screenshot_template_edit, tr("Template for screenshots"),
 		tr("This option specifies the filename template used to save screenshots.") + " " +
 		tr("For example %1 would save the screenshot as 'moviename_0001.png'.").arg("%F_%04n") + "<br>" +
@@ -931,6 +932,7 @@ void PrefGeneral::createHelp() {
 		" <a href=\"http://mpv.io/manual/stable/#options-screenshot-template\">"
 		"http://mpv.io/manual/stable/#options-screenshot-template</a>" + "<br>" +
 		tr("This option only works with mpv.") );
+#endif
 
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
 		tr("If this option is enabled, the file will be paused when the "
