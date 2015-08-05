@@ -88,6 +88,7 @@ void PrefAdvanced::retranslateStrings() {
 	monitoraspect_combo->setItemText(0, tr("Auto") );
 
 	mplayer_use_window_check->setText( tr("&Run %1 in its own window").arg(PLAYER_NAME) );
+	shortnames_check->setText( tr("&Pass short filenames (8+3) to %1").arg(PLAYER_NAME) );
 	mplayer_crashes_check->setText( tr("R&eport %1 crashes").arg(PLAYER_NAME) );
 	advanced_tab->setTabText(1, tr("O&ptions for %1").arg(PLAYER_NAME) );
 	options_info_label->setText( tr("Here you can pass extra options to %1.").arg(PLAYER_NAME) +"<br>"+
@@ -455,11 +456,8 @@ void PrefAdvanced::createHelp() {
 		tr("If this option is checked, the lavf demuxer will be used for all formats."));
 
 #ifdef Q_OS_WIN
-	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to MPlayer"),
-		tr("Currently MPlayer can't open filenames which contains characters "
-           "outside the local codepage. Checking this option will make "
-           "SMPlayer to pass to MPlayer the short version of the filenames, "
-           "and thus it will able to open them.") );
+	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to %1").arg(PLAYER_NAME),
+		tr("If this option is checked, SMPlayer will pass to %1 the short version of the filenames.").arg(PLAYER_NAME) );
 #endif
 
 #if REPAINT_BACKGROUND_OPTION

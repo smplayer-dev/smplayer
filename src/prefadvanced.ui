@@ -102,7 +102,7 @@
        <item>
         <widget class="QCheckBox" name="mplayer_use_window_check">
          <property name="text">
-          <string notr="true">&amp;Run MPlayer/MPV in its own window</string>
+          <string notr="true">&amp;Run PLAYER in its own window</string>
          </property>
         </widget>
        </item>
@@ -123,7 +123,7 @@
        <item>
         <widget class="QCheckBox" name="shortnames_check">
          <property name="text">
-          <string>&amp;Pass short filenames (8+3) to MPlayer</string>
+          <string notr="true">&amp;Pass short filenames (8+3) to PLAYER</string>
          </property>
         </widget>
        </item>
@@ -137,7 +137,7 @@
        <item>
         <widget class="QCheckBox" name="mplayer_crashes_check">
          <property name="text">
-          <string notr="true">R&amp;eport MPlayer/MPV crashes</string>
+          <string notr="true">R&amp;eport PLAYER crashes</string>
          </property>
         </widget>
        </item>
@@ -296,7 +296,7 @@
      </widget>
      <widget class="QWidget" name="tab2">
       <attribute name="title">
-       <string notr="true">Options for MP&amp;layer/MPV</string>
+       <string notr="true">O&amp;ptions for PLAYER</string>
       </attribute>
       <layout class="QVBoxLayout">
        <property name="spacing">
@@ -308,7 +308,7 @@
        <item>
         <widget class="QLabel" name="options_info_label">
          <property name="text">
-          <string notr="true">Here you can pass extra options to MPlayer/MPV.
+          <string notr="true">Here you can pass extra options to PLAYER.
 Write them separated by spaces.
 Example: -flip -nosound</string>
          </property>
@@ -537,13 +537,13 @@ Example: resample=44100:0:0,volnorm</string>
        <item>
         <widget class="QGroupBox" name="mplayer_log_box">
          <property name="title">
-          <string notr="true">MPlayer/MPV</string>
+          <string notr="true">PLAYER</string>
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_2">
           <item>
            <widget class="QCheckBox" name="log_mplayer_check">
             <property name="text">
-             <string notr="true">Log MPlayer/MPV &amp;output</string>
+             <string notr="true">Log PLAYER &amp;output</string>
             </property>
            </widget>
           </item>
@@ -582,7 +582,7 @@ Example: resample=44100:0:0,volnorm</string>
              <item row="1" column="1">
               <widget class="QCheckBox" name="log_mplayer_save_check">
                <property name="text">
-                <string notr="true">A&amp;utosave MPlayer/MPV log to file</string>
+                <string notr="true">A&amp;utosave PLAYER log to file</string>
                </property>
               </widget>
              </item>
