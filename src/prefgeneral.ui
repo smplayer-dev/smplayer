@@ -30,9 +30,9 @@
        <item>
         <layout class="QHBoxLayout">
          <item>
-          <widget class="QLabel" name="textLabel1_2">
+          <widget class="QLabel" name="executable_label">
            <property name="text">
-            <string>&amp;MPlayer/MPV executable:</string>
+            <string notr="true">PLAYER &amp;executable:</string>
            </property>
            <property name="wordWrap">
             <bool>false</bool>
@@ -1030,7 +1030,7 @@
        <item>
         <widget class="QLabel" name="preferred_desc">
          <property name="text">
-          <string>&lt;Here it goes an explanation text&gt;
+          <string notr="true">&lt;Here it goes an explanation text&gt;
 For translators: don't translate this text, it will be replaced with another one at runtime.</string>
          </property>
          <property name="wordWrap">

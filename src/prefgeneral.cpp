@@ -24,6 +24,7 @@
 #include "mediasettings.h"
 #include "paths.h"
 #include "vdpauproperties.h"
+#include "playerid.h"
 
 #if USE_ALSA_DEVICES || USE_DSOUND_DEVICES
 #include "deviceinfo.h"
@@ -157,6 +158,8 @@ void PrefGeneral::retranslateStrings() {
            "or mkv files.<br>These fields accept regular expressions. "
            "Example: <b>es|esp|spa</b> will select the track if it matches with "
             "<i>es</i>, <i>esp</i> or <i>spa</i>."));
+
+	executable_label->setText( tr("%1 &executable:").arg(PLAYER_NAME) );
 
 	createHelp();
 }
@@ -888,9 +891,9 @@ void PrefGeneral::createHelp() {
 
 	addSectionTitle(tr("General"));
 
-	setWhatsThis(mplayerbin_edit, tr("MPlayer/MPV executable"), 
-		tr("Here you must specify the MPlayer or mpv "
-           "executable that SMPlayer will use.") + "<br><b>" +
+	setWhatsThis(mplayerbin_edit, tr("%1 executable").arg(PLAYER_NAME),
+		tr("Here you must specify the %1 "
+           "executable that SMPlayer will use.").arg(PLAYER_NAME) + "<br><b>" +
         tr("If this setting is wrong, SMPlayer won't be able to play "
            "anything!") + "</b>");
 
