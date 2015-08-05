@@ -21,6 +21,7 @@
 #include "images.h"
 #include "preferences.h"
 #include "paths.h"
+#include "playerid.h"
 #include <QColorDialog>
 
 #define LOGS_TAB 3
@@ -85,6 +86,15 @@ void PrefAdvanced::retranslateStrings() {
 	monitor_aspect_icon->setPixmap( Images::icon("monitor") );
 
 	monitoraspect_combo->setItemText(0, tr("Auto") );
+
+	mplayer_use_window_check->setText( tr("&Run %1 in its own window").arg(PLAYER_NAME) );
+	mplayer_crashes_check->setText( tr("R&eport %1 crashes").arg(PLAYER_NAME) );
+	advanced_tab->setTabText(1, tr("O&ptions for %1").arg(PLAYER_NAME) );
+	options_info_label->setText( tr("Here you can pass extra options to %1.").arg(PLAYER_NAME) +"<br>"+
+		tr("Write them separated by spaces.") + "<br>" + tr("Example: -flip -nosound") );
+	mplayer_log_box->setTitle(PLAYER_NAME);
+	log_mplayer_check->setText( tr("Log %1 &output").arg(PLAYER_NAME) );
+	log_mplayer_save_check->setText( tr("A&utosave %1 log to file").arg(PLAYER_NAME) );
 
 	createHelp();
 }
@@ -426,13 +436,13 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
         tr("Select the aspect ratio of your monitor.") );
 
-	setWhatsThis(mplayer_use_window_check, tr("Run MPlayer/MPV in its own window"),
-        tr("If you check this option, the MPlayer/MPV video window won't be "
+	setWhatsThis(mplayer_use_window_check, tr("Run %1 in its own window").arg(PLAYER_NAME),
+        tr("If you check this option, the %1 video window won't be "
            "embedded in SMPlayer's main window but instead it will use its "
            "own window. Note that mouse and keyboard events will be handled "
-           "directly by MPlayer/MPV, that means key shortcuts and mouse clicks "
-           "probably won't work as expected when the MPlayer/MPV window has the "
-           "focus.") );
+           "directly by %1, that means key shortcuts and mouse clicks "
+           "probably won't work as expected when the %1 window has the "
+           "focus.").arg(PLAYER_NAME) );
 
 	setWhatsThis(idx_check, tr("Rebuild index if needed"),
 		tr("Rebuilds index of files if no index was found, allowing seeking. "
@@ -460,20 +470,20 @@ void PrefAdvanced::createHelp() {
 #endif
 
 	setWhatsThis(mplayer_crashes_check, 
-		tr("Report MPlayer/MPV crashes"),
+		tr("Report %1 crashes").arg(PLAYER_NAME),
 		tr("If this option is checked, a window will appear to inform "
-           "about MPlayer/MPV crashes. Otherwise those failures will be "
-           "silently ignored.") );
+           "about %1 crashes. Otherwise those failures will be "
+           "silently ignored.").arg(PLAYER_NAME) );
 
 	setWhatsThis(correct_pts_combo, tr("Correct pts"),
-		tr("Switches MPlayer/MPV to an experimental mode where timestamps for "
+		tr("Switches %1 to an experimental mode where timestamps for "
            "video frames are calculated differently and video filters which "
            "add new frames or modify timestamps of existing ones are "
            "supported. The more accurate timestamps can be visible for "
            "example when playing subtitles timed to scene changes with the "
            "SSA/ASS library enabled. Without correct pts the subtitle timing "
            "will typically be off by some frames. This option does not work "
-           "correctly with some demuxers and codecs.") );
+           "correctly with some demuxers and codecs.").arg(PLAYER_NAME) );
 
 	setWhatsThis(actions_to_run_edit, tr("Actions list"),
 		tr("Here you can specify a list of <i>actions</i> which will be "
@@ -499,19 +509,19 @@ void PrefAdvanced::createHelp() {
 		   "shown in window title. "
            "Otherwise only the filename will be shown.") );
 
-	addSectionTitle(tr("Options for MPlayer/MPV"));
+	addSectionTitle(tr("Options for %1").arg(PLAYER_NAME));
 
 	setWhatsThis(mplayer_args_edit, tr("Options"),
-        tr("Here you can type options for MPlayer or MPV. Write them separated "
-           "by spaces.") );
+        tr("Here you can type options for %1.").arg(PLAYER_NAME) +" "+
+        tr("Write them separated by spaces."));
 
 	setWhatsThis(mplayer_vfilters_edit, tr("Video filters"),
-        tr("Here you can add video filters for MPlayer/MPV. Write them separated "
-           "by commas. Don't use spaces!") );
+        tr("Here you can add video filters for %1.").arg(PLAYER_NAME) +" "+
+        tr("Write them separated by commas. Don't use spaces!"));
 
 	setWhatsThis(mplayer_afilters_edit, tr("Audio filters"),
-        tr("Here you can add audio filters for MPlayer/MPV. Write them separated "
-           "by commas. Don't use spaces!") );
+        tr("Here you can add audio filters for %1.").arg(PLAYER_NAME) +" "+
+        tr("Write them separated by commas. Don't use spaces!"));
 
 	addSectionTitle(tr("Network"));
 
@@ -537,21 +547,21 @@ void PrefAdvanced::createHelp() {
 #endif
 
 #ifdef LOG_MPLAYER
-	setWhatsThis(log_mplayer_check, tr("Log MPlayer/MPV output"),
-		tr("If checked, SMPlayer will store the output of MPlayer/MPV "
-           "(you can see it in <b>Options -> View logs -> MPlayer/MPV</b>). "
+	setWhatsThis(log_mplayer_check, tr("Log %1 output").arg(PLAYER_NAME),
+		tr("If checked, SMPlayer will store the output of %1 "
+           "(you can see it in <b>Options -> View logs -> %1</b>). "
            "In case of problems this log can contain important information, "
-           "so it's recommended to keep this option checked.") );
+           "so it's recommended to keep this option checked.").arg(PLAYER_NAME) );
 
-	setWhatsThis(log_mplayer_save_check, tr("Autosave MPlayer/MPV log"),
-		tr("If this option is checked, the MPlayer/MPV log will be saved to the "
+	setWhatsThis(log_mplayer_save_check, tr("Autosave %1 log").arg(PLAYER_NAME),
+		tr("If this option is checked, the %1 log will be saved to the "
            "specified file every time a new file starts to play. "
            "It's intended for external applications, so they can get "
-           "info about the file you're playing.") );
+           "info about the file you're playing.").arg(PLAYER_NAME) );
 
-	setWhatsThis(log_mplayer_save_name, tr("Autosave MPlayer/MPV log filename"),
+	setWhatsThis(log_mplayer_save_name, tr("Autosave %1 log filename").arg(PLAYER_NAME),
  		tr("Enter here the path and filename that will be used to save the "
-           "MPlayer/MPV log.") );
+           "%1 log.").arg(PLAYER_NAME) );
 #endif
 
 #ifdef LOG_SMPLAYER
