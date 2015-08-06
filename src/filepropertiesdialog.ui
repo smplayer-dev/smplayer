@@ -323,7 +323,7 @@ Example: -flip -nosound</string>
             <property name="text">
              <string>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</string>
+Example: scale=512:-2,mirror</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignVCenter</set>
@@ -382,7 +382,7 @@ Example: scale=512:-2,eq2=1.1</string>
            <widget class="QLabel" name="textLabel5_2">
             <property name="text">
              <string>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</string>
+Example: extrastereo,karaoke</string>
             </property>
             <property name="alignment">
              <set>Qt::AlignVCenter</set>

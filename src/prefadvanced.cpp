@@ -92,7 +92,7 @@ void PrefAdvanced::retranslateStrings() {
 	mplayer_crashes_check->setText( tr("R&eport %1 crashes").arg(PLAYER_NAME) );
 	advanced_tab->setTabText(1, tr("O&ptions for %1").arg(PLAYER_NAME) );
 	options_info_label->setText( tr("Here you can pass extra options to %1.").arg(PLAYER_NAME) +"<br>"+
-		tr("Write them separated by spaces.") + "<br>" + tr("Example: -flip -nosound") );
+		tr("Write them separated by spaces.") + "<br>" + tr("Example:") + " -volume 50 -fps 25" );
 	mplayer_log_box->setTitle(PLAYER_NAME);
 	log_mplayer_check->setText( tr("Log %1 &output").arg(PLAYER_NAME) );
 	log_mplayer_save_check->setText( tr("A&utosave %1 log to file").arg(PLAYER_NAME) );
