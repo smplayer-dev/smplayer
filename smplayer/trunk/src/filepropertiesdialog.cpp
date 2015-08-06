@@ -86,7 +86,7 @@ void FilePropertiesDialog::retranslateStrings() {
 	tabWidget->setTabText(tab_idx, tr("O&ptions for %1").arg(PLAYER_NAME) );
 	groupBox->setTitle( tr("Additional Options for %1").arg(PLAYER_NAME) );
 	options_info_label->setText( tr("Here you can pass extra options to %1.").arg(PLAYER_NAME) +"<br>"+
-		tr("Write them separated by spaces.") + "<br>" + tr("Example: -flip -nosound") );
+		tr("Write them separated by spaces.") + "<br>" + tr("Example:") + " -volume 50 -fps 25" );
 }
 
 void FilePropertiesDialog::accept() {
