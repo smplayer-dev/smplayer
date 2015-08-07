@@ -2035,10 +2035,10 @@ void BaseGui::retranslateStrings() {
 
 	// Other things
 #ifdef LOG_MPLAYER
-	mplayer_log_window->setWindowTitle( tr("SMPlayer - %1 log").arg(PLAYER_NAME) );
+	mplayer_log_window->setWindowTitle( tr("%1 log").arg(PLAYER_NAME) );
 #endif
 #ifdef LOG_SMPLAYER
-	smplayer_log_window->setWindowTitle( tr("SMPlayer - SMPlayer log") );
+	smplayer_log_window->setWindowTitle( tr("SMPlayer log") );
 #endif
 
 	updateRecents();
