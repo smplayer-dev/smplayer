@@ -1,8 +1,9 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <author>Ricardo Villalba</author>
  <class>LogWindowBase</class>
- <widget class="QWidget" name="LogWindowBase" >
-  <property name="geometry" >
+ <widget class="QWidget" name="LogWindowBase">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -10,40 +11,40 @@
     <height>541</height>
    </rect>
   </property>
-  <property name="windowTitle" >
-   <string>Log Window</string>
+  <property name="windowTitle">
+   <string notr="true">Log Window</string>
   </property>
-  <layout class="QVBoxLayout" >
-   <property name="margin" >
-    <number>11</number>
-   </property>
-   <property name="spacing" >
+  <layout class="QVBoxLayout">
+   <property name="spacing">
     <number>6</number>
    </property>
+   <property name="margin">
+    <number>11</number>
+   </property>
    <item>
-    <widget class="QTextEdit" name="browser" >
-     <property name="readOnly" >
+    <widget class="QTextEdit" name="browser">
+     <property name="readOnly">
       <bool>true</bool>
      </property>
     </widget>
    </item>
    <item>
-    <layout class="QHBoxLayout" >
-     <property name="margin" >
-      <number>0</number>
-     </property>
-     <property name="spacing" >
+    <layout class="QHBoxLayout">
+     <property name="spacing">
       <number>6</number>
+     </property>
+     <property name="margin">
+      <number>0</number>
      </property>
      <item>
       <spacer>
-       <property name="orientation" >
+       <property name="orientation">
         <enum>Qt::Horizontal</enum>
        </property>
-       <property name="sizeType" >
+       <property name="sizeType">
         <enum>QSizePolicy::Expanding</enum>
        </property>
-       <property name="sizeHint" >
+       <property name="sizeHint" stdset="0">
         <size>
          <width>191</width>
          <height>21</height>
@@ -52,31 +53,31 @@
       </spacer>
      </item>
      <item>
-      <widget class="QPushButton" name="saveButton" >
-       <property name="toolTip" >
+      <widget class="QPushButton" name="saveButton">
+       <property name="toolTip">
         <string>Save</string>
        </property>
-       <property name="text" >
+       <property name="text">
         <string>Save</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="copyButton" >
-       <property name="toolTip" >
+      <widget class="QPushButton" name="copyButton">
+       <property name="toolTip">
         <string>Copy to clipboard</string>
        </property>
-       <property name="text" >
+       <property name="text">
         <string>Copy to clipboard</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPushButton" name="closeButton" >
-       <property name="toolTip" >
+      <widget class="QPushButton" name="closeButton">
+       <property name="toolTip">
         <string>Close</string>
        </property>
-       <property name="text" >
+       <property name="text">
         <string>&amp;Close</string>
        </property>
       </widget>
@@ -85,7 +86,7 @@
    </item>
   </layout>
  </widget>
- <layoutdefault spacing="6" margin="11" />
+ <layoutdefault spacing="6" margin="11"/>
  <resources/>
  <connections>
   <connection>
@@ -94,11 +95,11 @@
    <receiver>LogWindowBase</receiver>
    <slot>close()</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>20</x>
      <y>20</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>20</x>
      <y>20</y>
     </hint>
