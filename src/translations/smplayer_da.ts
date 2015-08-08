@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer er en grafisk brugerflade til %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -938,12 +938,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2038"/>
         <source>%1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 log</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer log</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
@@ -1197,14 +1197,6 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Billede&amp;r pr. sekund</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer log</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer log</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Forbindelse mislykkedes</translation>
@@ -1244,27 +1236,27 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <location filename="../basegui.cpp" line="5381"/>
         <location filename="../basegui.cpp" line="5401"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Fejl</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5382"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 er afsluttet uventet.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kunne ikke starte.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5404"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kontrollér venligst stien %1 i indstillinger.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5406"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 er holdt op med at virke.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5484"/>
@@ -1428,25 +1420,9 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Serveren returnerede &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer afsluttede uventet.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Afslutningskode: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer kunne ikke starte.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Kontroller stien til MPlayer i indstillinger.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer er holdt op med at virke.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">&amp;MPlayer indstillinger</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Yderligere indstillinger til MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Her kan du sende ekstra parametre til MPlayer.
-Skriv dem adskilt med mellemrum.
-Eksempel: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Indstillinger:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Du kan også sende yderligere videofiltre.
-Adskil dem med &quot;,&quot;. Brug ikke mellemrum!
-Eksempel: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>V&amp;ideofiltre:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Og endelig lydfiltre. Samme regel som ved videofiltre.
-Eksempel: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -2456,27 +2402,27 @@ Eksempel: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Indstillinger for %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>Additional Options for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Yderligere indstillinger for %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Her kan du videregive ekstra indstillinger til %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv dem, adskilt med mellemrum.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Example:</source>
-        <translation type="unfinished">Eksempel:</translation>
+        <translation>Eksempel:</translation>
     </message>
 </context>
 <context>
@@ -4179,29 +4125,28 @@ Vil du overskrive den?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Log-vindue</translation>
+        <translation type="obsolete">Log-vindue</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Gem</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Kopiér til udklipsholder</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Luk</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Luk</translation>
     </message>
@@ -4566,20 +4511,6 @@ Vil du overskrive den?</translation>
         <translation>&amp;Avanceret</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Du kan også sende yderligere videofiltre.
-Adskil dem med &quot;,&quot;. Brug ikke mellemrum!
-Eksempel: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Og endelig lydfiltre. Samme regel som ved videofiltre.
-Eksempel: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Log SMPlayers output</translation>
@@ -4595,30 +4526,6 @@ Eksempel: resample=44100:0:0,volnorm</translation>
         <translation>Markering af denne indstilling kan reducere flimmer, men det kan også gøre at videoen ikke vises korrekt.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Log MPlayer/MPV output</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Hvis denne indstilling er slået til, vil SMPlayer gemme outputtet fra MPlayer/MPV (kan ses i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; MPlayer/MPV&lt;/b&gt;). Loggen kan indeholde vigtige oplysninger hvis der opstår problemer, så det anbefales at holde indstillingen slået til.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Gem automatisk MPlayer/MPV log</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Hvis denne indstilling er slået til, vil MPlayer/MPV-loggen blive gemt i den angivne fil hver gang en ny fil starter med at afspille. Det er tiltænkt eksterne programmer, så de kan få oplysninger om den fil du afspiller.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Gem automatisk MPlayer/MPV log filnavn</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Her kan du indtaste stien og filnavnet der vil blive brugt til at gemme MPlayer/MPV loggen.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter til SMPlayers logge</translation>
@@ -4629,29 +4536,9 @@ Eksempel: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Skærmens højde-bredde-forhold:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">&amp;Kør MPlayer/MPV i sit eget vindue</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Brug la&amp;vf demuxer som standard</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">R&amp;apporter MPlayer/MPV nedbrud</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">Indstillinger til MP&amp;layer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Her kan du sende ekstra parametre til MPlayer/MPV.
-Skriv dem adskilt med mellemrum.
-Eksempel: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4667,10 +4554,6 @@ Eksempel: -flip -nosound</translation>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>Lyd&amp;filtre:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">Gem a&amp;utomatisk MPlayer/MPV log til fil</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4714,18 +4597,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Logge</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Brug korte filnavne (8+3) til MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">MPlayer kan i øjeblikket ikke åbne filnavne som indeholder tegn udover den lokale kodeside. Markering af denne indstilling vil få SMPlayer til at sende den korte version af filnavnene til MPlayer, og således vil den kunne åbne dem.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">&amp;Brug korte filnavne (8+3) til MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4781,42 +4652,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Gentegn video-vinduets baggrun&amp;d</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Kør MPlayer/MPV i sit eget vindue</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Hvis denne indstilling slås til, vil MPlayer/MPV&apos;s videovindue ikke blive indlejret i SMPlayer&apos;s hovedvindue men i stedet bruge sit eget vindue. Bemærk at muse- og tastatur-begivenheder vil blive håndteret direkte af MPlayer/MPV, det betyder at tastaturgenveje og museklik sandsynligvis ikke vil virke som forventet når MPlayer/MPV-vinduet har fokus.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Rapporter MPlayer/MPV nedbrud</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Hvis denne indstilling er slået til, vil et vindue med detaljer om MPlayer/MPV nedbrud blive vist. Ellers vil disse fejl blive ignoreret.</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Skifter til en eksperimental-tilstand af MPlayer/MPV hvor tidsstempler til videobilleder udregnes anderledes og videofiltre der tilføjer nye billeder eller ændre tidsstempler på de eksisterende er understøttet. De mere præcise tidsstemplet kan være synlige for eksempel når der afspilles undertekster som er timet med sceneændringer med SSA/ASS-bibliotek aktiveret. Uden korrekt pts vil timingen af undertekst typisk være nogle billeder upræcis. Nogle demuxere og codecs virker ikke korrekt med denne indstilling.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">Indstillinger til MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Her kan du indtaste indstillinger til MPlayer eller MPV. Skriv dem adskilt med mellemrum.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Her kan du tilføje videofiltre til MPlayer/MPV. Adskil dem med kommaer. Brug ikke mellemrum!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Her du kan tilføje lydfiltre til MPlayer/MPV. Skriv dem adskilt med kommaer, Brug ikke mellemrum!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -4931,18 +4766,18 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="93"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Indstillinger for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Her kan du videregive ekstra indstillinger til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Skriv dem, adskilt med mellemrum.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
@@ -5060,14 +4895,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>K&amp;orrigér PTS:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Log MPlayer/MPV &amp;output</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5417,14 +5244,6 @@ Example: extrastereo,karaoke</source>
         <translation>Software video-equalizer</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">MPlayer/MPV-programfil</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Her skal du vælge det MPlayer eller mpv program som SMPlayer skal bruge.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Denne indstilling angiver skabelon-filnavnet som bruges til at gemme skærmbilleder.</translation>
@@ -5508,10 +5327,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kvalitet:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">&amp;MPlayer/MPV-programfil:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5717,12 +5532,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Her kan du angive dit foretrukne sprog til lyd- og undertekststreams. Når et medie med flere lyd- eller undertekststreams findes, vil SMPlayer prøve at bruge dit foretrukne sprog. Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststreams, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Disse felter accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>

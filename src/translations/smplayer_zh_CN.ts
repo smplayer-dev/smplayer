@@ -1197,14 +1197,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>每秒帧数(&amp;R)</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer 日志</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - SMPlayer 日志</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>连接失败</translation>
@@ -1428,25 +1420,9 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>服务器返回&apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer 已意外结束。</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>退出代码: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer 启动失败。</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">请检查首选项中的 MPlayer 路径。</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer 已崩溃。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">MPlayer 选项(&amp;M)</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">MPlayer 附加选项</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">在这里您可以将附加的选项传送到 MPlayer。
-请用空格隔开写它们。
-示例: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>选项(&amp;O):</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">您还可以传送附加的视频过滤器。
-请用&quot;,&quot;隔开它们。不要使用空格!
-示例: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>视频过滤器(&amp;I):</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">最后是音频过滤器。和视频过滤器的规则相同。
-示例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4178,29 +4124,28 @@ Do you want to overwrite?</source>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>日志窗口</translation>
+        <translation type="obsolete">日志窗口</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>复制到剪贴板</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>关闭(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>关闭</translation>
     </message>
@@ -4565,20 +4510,6 @@ Do you want to overwrite?</source>
         <translation>高级(&amp;A)</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">您还可以传送附加的视频过滤器。
-请用&quot;,&quot;隔开它们。不要使用空格!
-示例: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">最后是音频过滤器。和视频过滤器的规则相同。
-示例: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>记录 SMPlayer 输出</translation>
@@ -4594,30 +4525,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>勾选此选项可减少闪烁，但也可能会造成视频无法正确显示。</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">记录 MPlayer/MPV 输出</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">如果勾选，SMPlayer 将存储 MPlayer 的输出(您可以在&lt;b&gt;选项-&gt;查看日志-&gt; MPlayer/MPV&lt;/b&gt; 中看到它)。出现问题时，该日志可能包含重要的信息，因此建议保持勾选该选项。</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">自动保存 MPlayer/MPV 日志</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">如果勾选该选项，每次新文件开始播放时，MPlayer/MPV 日志将被保存到指定的文件。它是用于外部应用程序的，因此它们可以获取有关您正在播放文件的信息。</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">自动保存 MPlayer/MPV 日志的文件名</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">在这里输入将用于保存 MPlayer/MPV 日志的路径和文件名。</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer 日志筛选器</translation>
@@ -4628,29 +4535,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>显示器纵横比(&amp;M):</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">让 MPlayer/MPV 在其自己的窗口中运行(&amp;R)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>默认使用lavf 分流器(&amp;v)</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">报告 MPlayer/MPV 崩溃 (&amp;e)</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV 选项(&amp;l)</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">在这里您可以传送附加选项到 MPlayer/MPV。
-请用空格隔开写它们。
-范例: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4666,10 +4553,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>音频过滤器(&amp;F):</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">自动保存 MPlayer/MPV 日志到文件(&amp;u)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4713,18 +4596,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>日志</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">传送短文件名(8+3)到 MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">目前 MPlayer 无法打开包含本地代码页以外字符的文件名。勾选此选项将使 SMPlayer 传送给 MPlayer 短版的文件名，从而使其能够打开它们。</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">传送短文件名(8+3)到 MPlayer(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4780,42 +4651,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>重绘视频窗口背景(&amp;D)</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">让 MPlayer/MPV 在其自己的窗口中运行</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">如果勾选该选项，MPlayer/MPV 视频窗口将不会被嵌入到 SMPlayer 的主窗口中，而它会使用其自己的窗口。请注意，键盘和鼠标事件将可直接由 MPlayer/MPV 处理，这意味着当焦点在 MPlayer/MPV 窗口时快捷键和鼠标点击很可能无法按预期工作。</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">报告 MPlayer/MPV 崩溃</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">如果勾选该选项，将会出现一个窗口通知 MPlayer/MPV 崩溃。否则这些故障将被忽略。</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">切换 MPlayer/MPV 到试验模式，其中视频帧的时间戳以不同的方式计算，且支持视频过滤器添加新的帧或修改已有的时间戳。例如当正在播放的字幕计时场景变化时(启用 SSA/ASS 库)，可以看到更精确的时间戳。如果没有校正 PTS，字幕计时通常会被某些帧关闭。该选项不能与某些解复用器和编解码器一起正常工作。</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV 选项</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">在这里您可以输入 MPlayer/MPV 选项。请用空格隔开写它们。</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">在这里您可以为 MPlayer/MPV 添加视频过滤器。请用逗号隔开写它们。不要使用空格!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">在这里您可以为 MPlayer/MPV 添加音频过滤器。请用逗号隔开写它们。不要使用空格!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5059,14 +4894,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>校正 PTS(&amp;O):</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">记录 MPlayer/MPV 输出 (&amp;o)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5416,14 +5243,6 @@ Example: extrastereo,karaoke</source>
         <translation>使用软件视频均衡器</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">MPlayer/MPV 可执行文件</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">你必须在这里指定 MPlayer 或 mpv 可执行文件位置。</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>此选项定义保存视频截屏时使用的文件名模板。</translation>
@@ -5507,10 +5326,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>质量(&amp;Q):</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">MPlayer/MPV 可执行文件 (&amp;M)：</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5716,11 +5531,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>在这里您可以键入您的音频和字幕流的首选语言。当发现媒体具有多个音频或字幕流时，SMPlayer 将尝试使用您的首选语言。这仅工作于提供音频和字幕流语言信息的媒体，比如 DVD 或 MKV 文件。&lt;br&gt;这些字段接受正则表达式。示例: &lt;b&gt;es|esp|spa&lt;/b&gt; 将选择匹配 &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; 或 &lt;i&gt;spa&lt;/i&gt; 的轨道。</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>

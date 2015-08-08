@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer %1 için bir grafik arayüz.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -938,12 +938,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="2038"/>
         <source>%1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 günlük</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer günlüğü</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
@@ -1197,14 +1197,6 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>K&amp;are/saniye </translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer günlüğü</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - SMPlayer günlüğü</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Bağlantı başarısız oldu</translation>
@@ -1244,27 +1236,27 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <location filename="../basegui.cpp" line="5381"/>
         <location filename="../basegui.cpp" line="5401"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 hata</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5382"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 beklenmeyen bir şekilde kapandı.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 başlatılamadı.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5404"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Lütfen seçeneklerden %1&apos;ın konumunu kontrol edin.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5406"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 çöktü.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5484"/>
@@ -1428,25 +1420,9 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <translation>Sunucu yanıtı &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer beklenmeyen bir şekilde kapandı.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Çıkış kodu: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer başlatılamadı.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Lütfen seçeneklerden MPlayer&apos;ın konumunu kontrol edin.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer çöktü.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">&amp;MPlayer seçenekleri</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Mplayer için Ek Özellikler</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Burada mplayer&apos;a fazladan özellikler ekleyebilirsiniz.
-Özellikler arasında boşluk bırakmayı unutmayın.
-Örnek: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Seçenekler:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">İlave video süzgeçleri de ekleyebilirsiniz.
-Süzgeçleri &quot;,&quot; ile ayırın. Boşluk kullanmayın!
-Örnek: scale=512:-2,eq2=1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>V&amp;ideo süzgeçleri:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Ve son olarak ses süzgeçleri. Video süzgeçlerinde geçerli olan kurallar burada da geçerli.
-Örnek: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -2476,7 +2422,7 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Example:</source>
-        <translation type="unfinished">Örnek:</translation>
+        <translation>Örnek:</translation>
     </message>
 </context>
 <context>
@@ -4178,29 +4124,28 @@ Do you want to overwrite?</source>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Kayıt Penceresi</translation>
+        <translation type="obsolete">Kayıt Penceresi</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Kaydet</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Panoya kopyala</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Kapat</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Kapat</translation>
     </message>
@@ -4565,20 +4510,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Gelişmiş</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">İlave video süzgeçleri de ekleyebilirsiniz.
-Süzgeçleri &quot;,&quot; ile ayırın. Boşluk kullanmayın!
-Örnek: scale=512:-2,eq2=1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Ve son olarak ses süzgeçleri. Video süzgeçlerinde geçerli olan kurallar burada da geçerli.
-Örnek: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>SMPlayer çıktısının kaydını tut</translation>
@@ -4594,30 +4525,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Bu seçeneği işaretlemek görüntüdeki titremeyi azaltabilir, fakat videonun bozuk görüntülenmesine de yol açabilir.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">MPlayer/MPV çıktısının kaydını tut</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Bunu seçerseniz, SMPlayer sadece MPlayer/MPV çıktısı olan hata düzeltme mesajlarını kaydeder (kaydı, &lt;b&gt;Seçenekler -&gt; Kayıtlara bak -&gt; MPlayer/MPV&lt;/b&gt;&apos;da görebilirsiniz). Bu kayıt programda çıkabilecek sorunların çözülmesi için gerekli önemli bilgileri içerebileceği için seçili tutmanızı tavsiye ediyoruz.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">MPlayer/MPV kaydını otomatik olarak kaydet</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Bu seçeneği işaretlerseniz, yeni bir dosyanın oynamaya başladığı her seferde MPlayer/MPV kaydı belirlenen dosyaya kaydedilecek. Bu seçenek, harici uygulamaların oynatılan dosya hakkında bilgi edinmesini sağlayacaktır.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">MPlayer/MPV kaydının dosya ismini otomatik olarak kaydet</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">MPlayer/MPV kaydının tutulacağı dosyanın klasör yolunu ve adını yazın.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer kayıtları için süzgeç</translation>
@@ -4628,29 +4535,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Ekra&amp;n en/boy oranı:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">MPlayer/MPV kendi penceresinde çalıştır</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Varsayılan olara&amp;k lavf demuxeri kullan</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">MPlayer/MPV çökme raporu</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">MP&amp;layer/MPV seçenekleri</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Burada MPlayer/MPV&apos;a fazladan özellikler ekleyebilirsiniz.
-Özellikler arasında boşluk bırakmayı unutmayın.
-Örnek: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4666,10 +4553,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>Ses &amp;süzgeçleri:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">MPlayer/MPV kaydını &amp;otomatik olarak dosyaya kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4713,18 +4596,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Kayıtlar</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Kısa (8+3) dosya adlarını MPlayer&apos;a aktar</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">MPlayer yerel kod sayfası dışından karakterler içeren dosya isimlerini açamaz. Bu seçeneği işaretlerseniz SMPlayer MPlayer&apos;a dosya isimlerinin kısa halini aktararak MPlayer tarafından açılmalarını sağlayacak.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Kısa (8+3) dosya adlarını M&amp;Player&apos;a aktar</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4780,26 +4651,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Vi&amp;deo penceresinin artalanını yeniden boya</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">MPlayer/MPV kendi penceresinde çalıştır</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Eğer bunu seçerseniz MPlayer/MPV video penceresi SMPlayer&apos;ın ana penceresine gömülmek yerine kendi penceresini kullanacak. Bu seçenek seçiliyken, fare ve klavye tuşları için atadığınız kısa yollar SMPlayer seçeneklerinde belirlediğiniz gibi değil MPlayer/MPV&apos;a uygun olarak çalışacağı için kısayolların kullanımı beklediğiniz gibi olmayacaktır.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">MPlayer/MPV çökme raporu</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Bu seçeneği işaretlerseniz, bir pencere MPlayer/MPV çökmesi hakkında bilgilendirmek için görünür. Aksi takdirde bu hatalar sessizce göz ardı edilecektir.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV seçenekleri</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -4859,7 +4710,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="548"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 çıktısının kaydını tut</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
@@ -4869,7 +4720,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kaydını otomatik olarak kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="555"/>
@@ -4879,7 +4730,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kaydının dosya ismini otomatik olarak kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
@@ -4960,7 +4811,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="471"/>
         <source>Report %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 çökme raporu</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="472"/>
@@ -4990,12 +4841,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Options for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 seçenekleri</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Burada %1 için seçenekler hazırlayabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
@@ -5043,14 +4894,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>D&amp;oğru PUAN:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">MPlayer/MPV çıktısının kaydını tut</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5321,7 +5164,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="162"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;%1 çalıştırılabilir dosyası:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="368"/>
@@ -5398,10 +5241,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="995"/>
         <source>Software video equalizer</source>
         <translation>Yazılım tabanlı video ekolayzır</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">Çalıştırılabilir MPlayer/MPV dosyası</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="930"/>
@@ -5487,10 +5326,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kalite:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">&amp;MPlayer/MPV çalıştırılabilir dosyası:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>

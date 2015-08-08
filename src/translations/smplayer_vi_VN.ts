@@ -1197,14 +1197,6 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - nhật ký MPlayer</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - nhật ký SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation type="unfinished"></translation>
@@ -1428,25 +1420,9 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Máy chủ đáp lại &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer thoát ra bất ngờ.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Mã thoát: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer không chạy.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Xin hãy kiểm tra đường dẫn tới MPlayer ở trong tùy biến.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer vừa bị lỗi.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">Các chọn lựa &amp;MPlayer</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Các lựa chọn bổ xung cho MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Ở đây bạn có thể đưa ra thêm lựa chọn bổ xung cho MPlayer.
-Viết chúng cách ra nhau bởi dấu cách.
-Ví dụ như: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Chọn lựa:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Bạn cũng có thể truyển thêm bộ lọc hình.
-Cách chúng bằng &quot;,&quot;. Không dùng dấu cách!
-Ví dụ: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>Các bộ lọc hì&amp;nh:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Và bộ lọc âm thanh. Cùng một luật với bộ lọc hình ảnh.
-Ví dụ: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4178,29 +4124,28 @@ Bạn có muốn ghi đè lên?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Cửa sổ Nhật ký</translation>
+        <translation type="obsolete">Cửa sổ Nhật ký</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Lưu</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Chép vào trong clipboard</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Đóng</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Đóng</translation>
     </message>
@@ -4564,20 +4509,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Cao cấp</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Bạn cũng có thể truyền thêm những bộ lọc video.
-Ngăn cách chúng bằn &quot;,&quot;. Không dùng dấu cách!
-Ví dụ: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Và cuối cùng là các bộ lọc âm thanh. Cùng một luật với bộ lọc video.
-Ví dụ: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Lưu output của SMPlayer</translation>
@@ -4664,18 +4595,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Logs</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Truyền tên tập tin dạng ngắn (8+3) cho MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">Hiện tại MPlayer không thể mở tên tập tin có chứa ký tự nằm ngoài bẳng mã địa phương. Đánh dấu lựa chọn này sẽ khiến SMPlayer truyền phiên bản ngắn của tên tập tin cho MPlayer để nó có thể mở chúng.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">&amp;Truyền tên tập tin dạng ngắn (8+3) cho MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -5613,12 +5532,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Tại đây bạn có thể lựa chọn ngôn ngữ ưa thích cho âm thanh và phụ đề. Khi một môi trường có nhiều dòng âm thanh và phụ đề khác nhau, SMPlayer sẽ thử dùng ngôn ngữ bạn ưa thích. Việc này chỉ có thể làm được nếu như môi trường đó có chứa thông tin về ngôn ngữ trong các dòng âm thanh và phụ đề, như là các đĩa DVD và các tập tin dạng mkv. &lt;br&gt;Những trường này chấp nhận regular expressions. Ví dụ: &lt;b&gt;es|esp|spa&lt;/b&gt; sẽ chọn các rãnh có chứa &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; hay là &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>

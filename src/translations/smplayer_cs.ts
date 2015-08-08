@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer je grafické rozhraní pro %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -938,12 +938,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="2038"/>
         <source>%1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 log</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>Log SMPlayeru</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
@@ -1197,14 +1197,6 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Snímků za sekundu</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - log MPlayeru</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - log SMPlayeru</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Spojení selhalo</translation>
@@ -1244,12 +1236,12 @@ Bude zobrazeno konfigurační okno.</translation>
         <location filename="../basegui.cpp" line="5381"/>
         <location filename="../basegui.cpp" line="5401"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Chyba</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5382"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 skončil chybou.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
@@ -1428,25 +1420,9 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Server vrátil &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer skončil chybou.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Návratová hodnota: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">Nelze spustit MPlayer.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Zkontrolujte cestu k MPlayeru v nastavení.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer havaroval.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">&amp;Nastavení MPlayeru</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Přídavné volby pro MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Zde můžete zadat extra volby pro MPlayer.
-Oddělujte je mezerami.
-Příklad: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Volby:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Můžete použít další video filtry.
-Oddělujte je čárkou (&quot;,&quot;), nepoužívejte mezery!
-Příklad: scale=512:-2;eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>V&amp;ideo filtry:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">A nakonec audio filtry. Stejná pravidla jako pro video filtry.
-Příklad: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4180,29 +4126,28 @@ Chcete jej opravdu přepsat?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Log</translation>
+        <translation type="obsolete">Log</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Uložit</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Zkopírovat do schránky</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Zavřít</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Zavřít</translation>
     </message>
@@ -4567,20 +4512,6 @@ Opravdu jej chcete přepsat?</translation>
         <translation>&amp;Pokročilé</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Můžete použít další video filtry.
-Oddělujte je čárkou (&quot;,&quot;), nepoužívejte mezery!
-Příklad: scale=512:-2;eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">A nakonec audio filtry. Stejná pravidla jako pro video filtry.
-Příklad: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Logovat výstup SMPlayeru</translation>
@@ -4596,30 +4527,6 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation>Zaškrtnutím této volby můžete zmenšit blikání, ale také se výstupní video nemusí zobrazovat správně.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Logovat výstup MPlayeru/MPV</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Je-li tato volba zaškrtnuta, SMPlayer bude ukládat výstup MPlayeru/MPV (je přístupný přes &lt;b&gt;Nastavení -&gt; Zobrazit logy -&gt; MPlayer/MPV&lt;/b&gt;). V případě problémů tento log může obsahovat důležité informace, proto je doporučeno nechat volbu zaškrtnutou.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Automaticky ukládat log MPlayeru/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Zaškrtnutím této volby se log MPlayeru/MPV vždy při spuštění uloží do zvláštního souboru.  Vhodné pro externí aplikace, které potřebují zjistit informace o právě přehrávaném souboru.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Automaticky ukládat název logu MPlayeru/MPV</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Zadejte cestu, kam se má ukládat log MPlayeru/MPV.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtr pro logy SMPlayeru</translation>
@@ -4630,29 +4537,9 @@ Příklad: resample=44100:0:0,volnorm</translation>
         <translation>Poměr stran &amp;monitoru:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">&amp;Spustit MPlayer/MPV ve vlastním okně</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Použít la&amp;vf demuxer jako výchozí</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">O&amp;známit pády MPlayeru/MPV</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">Nastavení MP&amp;layeru/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Zde můžete zadat extra volby pro MPlayer./MPV
-Napište je oddělené mezerami.
-Příklad: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4668,10 +4555,6 @@ Příklad: -flip -nosound</translation>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>Audio &amp;filtry:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">A&amp;utomaticky ukládat log MPlayeru/MPV do souboru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4715,18 +4598,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Logy</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Předávat MPlayeru krátké názvy souborů (8+3)</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">MPlayer v současnosti nedokáže otevřít soubory, jejichž jména obsahují znaky jiné než lokální kódové stránky. Zaškrtnutím této volby donutíte SMPlayer, aby MPlayeru posílal krátké názvy souborů a MPlayer tak byl schopen tyto soubory otevřít.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">&amp;Předávat MPlayeru krátké názvy souborů (8+3)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4782,42 +4653,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Překreslit poza&amp;dí videa</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Spustit MPlayer/MPV ve vlastním okně</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Zaškrtnutím této možnosti se nebude výstup MPlayeru/MPV integrovat do hlavního okna SMPlayeru, ale bude mít své vlastní okno. Klávesnice a myš budou spravovány přímo MPlayerem/MPV, takže klávesové zkratky a akce myši nejspíše nebudou fungovat jak mají, pokud okno MPlayeru/MPV ztratí focus.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Oznámit pády MPlayeru/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Pokud je tato volba aktivní, zobrazí se okno s informací o pádech MPlayeru/MPV. V opačném případě budou tyto nedostatky v tichosti ignorovány.</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Přepne MPlayer do experimentálního módu, který počítá časová razítka videa jiným způsobem a je možné použít filtry, které přidávají snimky nebo upravují časová razítka. Přesnější výpočty časových razítek jsou viditelné například při přehrávání filmů s titulky časovanými podle změn ve scéně přes SSA/ASS knihovnu. Bez správného pts budou titulky většinou zobrazeny o několik snímků mimo. Tato možnost nefunguje správně s některými demuxery a kodeky.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">Nastavení MPlayeru/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Zde můžete zadat nastavení pro MPlayer nebo MPV. Oddělujte je mezerami.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Zde můžete přidávat video filtry pro MPlayer. Oddělujte je čárkami. Nepoužívejte mezery!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Zde můžete přidávat zvukové filtry pro MPlayer/MPV. Oddělujte je čárkami. Nepoužívejte mezery!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5061,14 +4896,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>&amp;Opravit PTS:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Logovat výstup MPlayeru/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5419,14 +5246,6 @@ Example: extrastereo,karaoke</source>
         <translation>Softwarový video ekvalizér</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">MPlayer/MPV spustitelný</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Zde musíte určit MPlayer nebo mpv spouštěč, který bude používat SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Tato volba určuje název souboru šablony sloužící k uložení obrazovky.</translation>
@@ -5510,10 +5329,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kvalita:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">&amp;MPlayer/MPV spouštěč:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5719,11 +5534,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Zde můžete zadat preferovaný jazyk audio stopy nebo titulků. Pokud médium obsahuje více audio stop nebo titulků, SMPlayer zkusí zvolit preferované jazyky. Toto nastavení funguje pouze pro média, která poskytují informace o zvukových stopách a titulcích, jako DVD nebo soubory mkv.&lt;br&gt;Tato pole akceptují regulární výrazy. Příklad: &lt;b&gt;es|esp|spa&lt;/b&gt; vybere stopu, pokud odpovídá jménu &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; nebo &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>

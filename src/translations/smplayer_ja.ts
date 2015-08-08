@@ -26,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer は %1 のグラフィカル インターフェイスです。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -377,7 +377,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="245"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>現在の値が既定として使用されるために格納されました。</translation>
+        <translation>現在の値が既定として使用されるために保存されました。</translation>
     </message>
 </context>
 <context>
@@ -938,12 +938,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2038"/>
         <source>%1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のログ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer のログ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
@@ -1197,14 +1197,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>1 秒あたりのフレーム数(&amp;R)</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer のログ</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - SMPlayer のログ</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>接続に失敗しました</translation>
@@ -1244,27 +1236,27 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="5381"/>
         <location filename="../basegui.cpp" line="5401"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 エラー</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5382"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 は予期せず終了しました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 が起動に失敗しました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5404"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>環境設定で %1 のパスを確認してください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5406"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 はクラッシュしました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5484"/>
@@ -1320,7 +1312,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="3738"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>現在の値が既定として使用されるために格納されました。</translation>
+        <translation>現在の値が既定として使用されるために保存されました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1795"/>
@@ -1428,25 +1420,9 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>サーバーは &apos;%1&apos; を返しました</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer は予期せず終了しています。</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>終了コード: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer が起動に失敗しました。</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">環境設定で MPlayer のパスをチェックしてください。</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer はクラッシュしました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -1833,7 +1809,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1746"/>
         <source>Check for &amp;updates</source>
-        <translation>更新のチェック(&amp;U)</translation>
+        <translation>更新の確認(&amp;U)</translation>
     </message>
 </context>
 <context>
@@ -2385,29 +2361,16 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>追加ビデオ フィルターも渡すことができます。
+&quot;,&quot; で区切ります。スペースは使用しません!
+例: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">MPlayer のオプション(&amp;M)</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">MPlayer の追加オプション</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">ここでは MPlayer へ追加オプションを渡すことができます。
-スペースで区切って書き込みます。
-例: -flip -nosound</translation>
+        <translation>最後にオーディオ フィルターです。ビデオ フィルターと同じ規則です。
+例: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2415,23 +2378,9 @@ Example: -flip -nosound</source>
         <translation>オプション(&amp;O):</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">追加ビデオ フィルターも渡すことができます。
-&quot;,&quot; で区切ります。スペースを使用しません!
-例: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>ビデオ フィルター(&amp;I):</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
-例: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -2456,27 +2405,27 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のオプション(&amp;P)</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
         <source>Additional Options for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の追加オプション</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは %1 へ追加オプションを渡すことができます。</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>スペースで区切って記述します。</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Example:</source>
-        <translation type="unfinished">例:</translation>
+        <translation>例:</translation>
     </message>
 </context>
 <context>
@@ -2747,7 +2696,7 @@ file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
 保存することができませんでした
-そのフォルダーの権限をチェックしてください。</translation>
+そのフォルダーの権限を確認してください。</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
@@ -4178,29 +4127,28 @@ Do you want to overwrite?</source>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>ログ ウィンドウ</translation>
+        <translation type="obsolete">ログ ウィンドウ</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>保存</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>クリップボードへコピー</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>閉じる(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>閉じる</translation>
     </message>
@@ -4388,7 +4336,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1046"/>
         <source>Select one or more files to open</source>
-        <translation>1 つ以上の開くファイルを選択します</translation>
+        <translation>1 つまたは複数の開くファイルを選択します</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1102"/>
@@ -4565,20 +4513,6 @@ Do you want to overwrite?</source>
         <translation>詳細設定(&amp;A)</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">追加ビデオ フィルターも渡すことができます。
-&quot;,&quot; で区切ります。スペースを使用しません!
-例: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">そして最後はオーディオ フィルターです。ビデオ フィルターと同じ規則です。
-例: resample=44100:0:0,volnorm&lt;byte value=&quot;x9&quot;/&gt;</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>SMPlayer の出力を記録します</translation>
@@ -4594,30 +4528,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>このオプションのチェックはちらつきを減少させる可能性がありますが、ビデオが適切に表示されなくなることを生む可能性もあります。</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">MPlayer/MPV の出力を記録する</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">チェックされている場合、SMPlayer は MPlayer/MPV の出力を格納します (&lt;b&gt;オプション -&gt; ログの表示 -&gt; MPlayer&lt;/b&gt; でご覧になれます)。問題がある場合にこのログは重要な情報を含むことがあるので、このオプションのチェックを維持することが推奨されます。</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">MPlayer/MPV のログを自動保存する</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、MPlayer/MPV のログは新しいファイルが再生を開始するごとに指定されたファイルへ保存されます。外部アプリケーションが再生空のファイルについての情報を取得できるように意図されています。</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">自動保存する MPlayer/MPV のログのファイル名</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">MPlayer/MPV のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer のログのフィルター</translation>
@@ -4628,29 +4538,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>モニターのアスペクト(&amp;M):</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">独自のウィンドウで MPlayer/MPV を実行する(&amp;R)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>既定で lavf デミュクサーを使用する(&amp;V)</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">MPlayer/MPV のクラッシュを報告する(&amp;E)</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV のオプション(&amp;L)</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">ここでは MPlayer/MPV へ追加オプションを渡すことができます。
-スペースで区切って書き込みます。
-例: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4668,10 +4558,6 @@ Example: -flip -nosound</source>
         <translation>オーディオ フィルター(&amp;F):</translation>
     </message>
     <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">ファイルへ MPlayer/MPV のログを自動保存する(&amp;U)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="227"/>
         <source>&amp;Colorkey:</source>
         <translation>カラーキー(&amp;C):</translation>
@@ -4681,13 +4567,16 @@ Example: -flip -nosound</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>追加ビデオ フィルターも渡すことができます。
+&quot;,&quot; で区切ります。スペースは使用しません!
+例: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="431"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>最後にオーディオ フィルターです。ビデオ フィルターと同じ規則です。
+例: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4713,18 +4602,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>ログ</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">MPlayer へ短いファイル名 (8+3) を渡す</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">現在 MPlayer はローカル コードページ外の文字を含むファイル名を開くことができません。このオプションのチェックは SMPlayer にファイル名の短いバージョンを MPlayer へ渡させ、こうして開けるようになります。</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">MPlayer へ短いファイル名 (8+3) を渡す(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4782,42 +4659,6 @@ Example: extrastereo,karaoke</source>
         <translation>ビデオ ウィンドウの背景を再描画する(&amp;D)</translation>
     </message>
     <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">独自のウィンドウで MPlayer/MPV を実行する</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">このオプションをチェックすると、MPlayer/MPV のビデオ ウィンドウは SMPlayer のメイン ウィンドウに埋め込まれず代わりに独自のウィンドウを使用します。マウスとキーボードのイベントは MPlayer/MPV によって直接ハンドルされ、したがってキー ショートカットとマウス クリックがおそらく MPlayer/MPV ウィンドウにフォーカスがあるときに期待通り動作しないことにご注意ください。</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">MPlayer/MPV のクラッシュを報告する</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、MPlayer/MPV のクラッシュについて知らせるウィンドウが表示されます。チェックされていない場合、これらの失敗は無視されます。</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">ビデオ フレームのタイムスタンプが異なって計算され新しいフレームを追加するか既存のフレームのタイムスタンプを変更するビデオ フィルターがサポートされている試験的なモードへ MPlayer/MPV を切り替えます。たとえば SSA/ASS ライブラリが有効でシーンの切り替わりに時間が合った字幕を再生するときにより正確なタイムスタンプが表示されます。PTS の修正なしでは字幕のタイミングは通常いくつかのフレームでオフになります。このオプションは一部のデミュクサーとコーデックでは正しく動作しません。</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV のオプション</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">ここでは MPlayer または MPV のオプションを入力できます。スペースで区切って書き込みます。</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">ここでは MPlayer/MPV のビデオ フィルターを追加できます。カンマで区切って書き込みます。スペースは使用しないでください!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">ここでは MPlayer/MPV のオーディオ フィルターを追加できます。カンマで区切って書き込みます。スペースは使用しないでください!</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="526"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
@@ -4870,42 +4711,42 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>このオプションがチェックされている場合、SMPlayer は SMPlayer が出力するデバッグ メッセージを格納します (&lt;b&gt;オプション -&gt; ログの表示 -&gt; SMPlayer&lt;/b&gt; でログをご覧になれます)。この情報はバグを見つける場合に開発者に非常に有用です。</translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は SMPlayer が出力するデバッグ メッセージを保存します (&lt;b&gt;オプション -&gt; ログの表示 -&gt; SMPlayer&lt;/b&gt; でログをご覧になれます)。この情報はバグを見つける場合に開発者に非常に有用です。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="548"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の出力を記録する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>チェックされている場合、SMPlayer は %1 の出力 (&lt;b&gt;オプション -&gt; ログの表示 -&gt; %1&lt;/b&gt; でご覧になれます) を格納します。問題があった場合にこのログに重要な情報が含まれている場合がありますので、このオプションのチェックを維持することが推奨されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のログを自動保存する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="555"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、%1 のログは新しいファイルが再生を開始するごとに指定されたファイルへ保存されます。外部のアプリケーションが再生中のファイルについての情報を取得できるように意図されています。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のログのファイル名を自動保存する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のログを保存するのに使用されるパスとファイル名をここに入力します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="567"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>このオプションはログに格納される SMPlayer のメッセージのフィルターを許可します。ここでは何か正規表現を書き込むことができます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; は &lt;i&gt;Core::&lt;/i&gt; で始まる行のみ表示します</translation>
+        <translation>このオプションはログに保存される SMPlayer のメッセージのフィルターを許可します。ここでは正規表現を記述できます。&lt;br&gt;例: &lt;i&gt;^Core::.*&lt;/i&gt; は &lt;i&gt;Core::&lt;/i&gt; で始まる行のみ表示します</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="476"/>
@@ -4915,78 +4756,78 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="90"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>独自のウィンドウで %1 を実行する(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="91"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へ短いファイル名 (8+3) を渡す(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="92"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のクラッシュを報告する(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="93"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のオプション(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは %1 へ追加オプションを渡すことができます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>スペースで区切って記述します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 の出力を記録する(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>ファイルへ %1 のログを自動保存する(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>独自のウィンドウで %1 を実行する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションをチェックすると、%1 のビデオ ウィンドウは SMPlayer のメイン ウィンドウに埋め込まれるのではなく独自のウィンドウを使用します。マウスとキーボードのイベントが %1 によって直接処理されるため、キー ショートカットとマウス クリックは %1 のウィンドウにフォーカスがあるとき期待通り動作しない可能性があることに注意してください。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="459"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 へ短いファイル名 (8+3) を渡す</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、SMPlayer はファイル名の短いバージョンを %1 へ渡します。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="471"/>
         <source>Report %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のクラッシュを報告する</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="472"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、%1 のクラッシュについて知らせるウィンドウが表示されます。チェックされていない場合これらの失敗は無視されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="477"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>ビデオ フレームのタイムスタンプが異なって計算され新しいフレームを追加するか既存のものを変更するビデオ フィルターがサポートされている試験的なモードへ %1 を切り替えます。より正確なタイムスタンプはたとえば SSA/ASS ライブラリが有効でシーンの変更に合わせられた字幕を再生するときに可視にできます。PTS の修正なしでは字幕のタイミングが通常いくつかのフレームでオフになります。このオプションは一部のデミュクサーとコーデックでは動作しません。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
@@ -5006,28 +4847,28 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Options for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 のオプション</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは %1 へのオプションを入力できます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは %1 のビデオ フィルターを追加できます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>カンマで区切って記述します。スペースは使用しません!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここでは %1 のオーディオ フィルターを追加できます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
@@ -5061,14 +4902,6 @@ Example: extrastereo,karaoke</source>
         <translation>PTS を修正する(&amp;O):</translation>
     </message>
     <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">MPlayer/MPV の出力を記録する(&amp;O)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>&amp;Verbose</source>
         <translation>詳細(&amp;V)</translation>
@@ -5096,7 +4929,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="506"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation>このオプションが有効な場合、タグからの情報がウィンドウ タイトルに表示されます。有効でない場合はファイル名のみ表示されます。</translation>
+        <translation>このオプションが有効な場合、タグの情報がウィンドウ タイトルに表示されます。有効でない場合はファイル名のみ表示されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="275"/>
@@ -5114,7 +4947,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.cpp" line="197"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>すべてのファイルは関連付けできませんでした。セキュリティの許可をチェックして再試行してください。</translation>
+        <translation>すべてのファイルは関連付けできませんでした。セキュリティ権限を確認して再試行してください。</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="207"/>
@@ -5159,7 +4992,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>SMPlayer によってハンドルされるメディア ファイル:</translation>
+        <translation>SMPlayer によって処理されるメディア ファイル:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -5174,7 +5007,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>SMPlayer にハンドルさせたいメディア ファイルの拡張子をチェックします。[適用] をクリックすると、チェックされたファイルは SMPlayer に関連付けされます。メディアの種類をチェック解除すると、ファイルの関連付けは復元されます。</translation>
+        <translation>SMPlayer に処理させたいメディア ファイルの拡張子をチェックします。[適用] をクリックすると、チェックされたファイルは SMPlayer に関連付けされます。メディアの種類をチェック解除すると、ファイルの関連付けは復元されます。</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5258,7 +5091,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;注意 2&lt;/b&gt;: マウス ボタンの 1 つに動作 &quot;DVD メニューのオプションをアクティブにする&quot; を割り当てたくなる可能性があります。</translation>
+        <translation>&lt;b&gt;注意 2&lt;/b&gt;: マウス ボタンの 1 つに動作 &quot;DVD メニューのオプションをアクティブにする&quot; を割り当てたくなるかもしれません。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
@@ -5337,7 +5170,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="162"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 実行ファイル(&amp;E):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="368"/>
@@ -5348,12 +5181,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>%1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 実行ファイル</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="895"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>ここで SMPlayer が使用する %1 の実行ファイルを指定する必要があります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="923"/>
@@ -5414,14 +5247,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="995"/>
         <source>Software video equalizer</source>
         <translation>ソフトウェアのビデオ イコライザー</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">MPlayer/MPV 実行ファイル</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">ここで SMPlayer が使用する MPlayer または MPV の実行ファイルを指定する必要があります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="930"/>
@@ -5509,10 +5334,6 @@ Example: extrastereo,karaoke</source>
         <translation>品質(&amp;Q):</translation>
     </message>
     <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">MPlayer/MPV 実行ファイル(&amp;M):</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>Temp&amp;late:</source>
         <translation>テンプレート(&amp;L)</translation>
@@ -5575,7 +5396,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1007"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>ダブル バッファーはメモリに 2 つのフレームが格納されるのと、別のデコード中の表示によるちらつきを修正します。無効な場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
+        <translation>ダブル バッファーはメモリに 2 つのフレームが保存されるのと、別のデコード中の表示によるちらつきを修正します。無効な場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="367"/>
@@ -5716,12 +5537,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここではオーディオおよび字幕ストリームの優先言語を入力できます。複数のオーディオまたは字幕ストリームのあるメディアが見つかると、SMPlayer は優先言語の使用を試行します。これは DVD か MKV ファイルのような、オーディオおよび字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;これらの欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合トラックを選択します。</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>
@@ -5971,12 +5786,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="910"/>
         <source>Method to store the file settings</source>
-        <translation>ファイルの設定を格納する方法</translation>
+        <translation>ファイルの設定を保存する方法</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="911"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>このオプションはファイルの設定が格納される方法の変更を許可します。以下のオプションが利用可能です:</translation>
+        <translation>このオプションはファイルの設定が保存される方法の変更を許可します。以下のオプションが利用可能です:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
@@ -5991,7 +5806,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.ui" line="105"/>
         <source>&amp;Store settings in</source>
-        <translation>設定を格納する場所(&amp;S)</translation>
+        <translation>設定を保存する場所(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="915"/>
@@ -6026,7 +5841,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>ここでは SMPlayer によって取得されるスクリーンショットが格納されるフォルダーを指定できます。フォルダーが有効でない場合スクリーンショット機能は無効になります。</translation>
+        <translation>ここでは SMPlayer によって取得されるスクリーンショットが保存されるフォルダーを指定できます。フォルダーが有効でない場合スクリーンショット機能は無効になります。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -7126,7 +6941,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefinterface.cpp" line="778"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>&lt;b&gt;[開く] -&gt; [URL]&lt;/b&gt; ダイアログが記憶するアイテムの最大数を選択します。すべての URL を格納させたくない場合は 0 に設定します。</translation>
+        <translation>&lt;b&gt;[開く] -&gt; [URL]&lt;/b&gt; ダイアログが記憶するアイテムの最大数を選択します。すべての URL を保存させたくない場合は 0 に設定します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7381,7 +7196,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="149"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>このオプションがチェックされている場合、SMPlayer は YouTube の URL からのビデオの再生を試行します。</translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は YouTube の URL のビデオの再生を試行します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -7411,7 +7226,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation>このオプションがチェックされている場合、SMPlayer は YouTube、Dailymotion、Vimeo、Vevo などのストリーミング サイトからの動画の再生を試行します。</translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は YouTube、Dailymotion、Vimeo、Vevo などのストリーミング サイトの動画の再生を試行します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="162"/>
@@ -7954,7 +7769,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="142"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>このオプションが有効な場合、プレイリストからのすべてのファイルは以前の再生から再開するのではなく最初から再生を開始します。</translation>
+        <translation>このオプションが有効な場合、プレイリストのすべてのファイルは以前の再生から再開するのではなく最初から再生を開始します。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="151"/>
@@ -7979,7 +7794,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefplaylist.cpp" line="164"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>このオプションが有効な場合、プレイリストは前のファイルからの再生エラーを無視して一覧の次のファイルを再生します。</translation>
+        <translation>このオプションが有効な場合、プレイリストは前のファイルの再生エラーを無視して一覧の次のファイルを再生します。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8156,7 +7971,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>1 つより多くの利用可能な字幕トラックがある場合、それらの 1 つが自動的に選択され、通常は最初の 1 つですが、それらの 1 つがユーザーの優先言語に一致する場合はその 1 つが代わりに使用されます。</translation>
+        <translation>1 つまたは複数の利用可能な字幕トラックがある場合、そのうちのどれか、通常最初のものが自動的に選択されますが、そのうちのどれかがユーザーの優先言語に一致する場合はそれが代わりに使用されます。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
@@ -8652,7 +8467,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation>起動時に新しいチャンネルをチェックする(&amp;C)</translation>
+        <translation>起動時に新しいチャンネルがあるか確認する(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -8665,12 +8480,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation>更新をチェックする(&amp;U)</translation>
+        <translation>更新を確認する(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
         <source>Check interval (in &amp;days)</source>
-        <translation>チェック間隔 (日)(&amp;D)</translation>
+        <translation>確認間隔 (日)(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
@@ -8685,7 +8500,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation>更新をチェックする</translation>
+        <translation>更新を確認する</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
@@ -8695,12 +8510,12 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation>チェック間隔</translation>
+        <translation>確認間隔</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>更新のチェックの間隔 (日) をここに入力します。</translation>
+        <translation>更新の確認の間隔 (日) をここに入力します。</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -8772,7 +8587,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>[動作の一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメーターとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は 1 つより多くの動作を渡す場合に必要です。</translation>
+        <translation>[動作の一覧] はスペースで区切られる動作の一覧です。動作は入力したのと同じ順序でファイル (あれば) の読み込み直後に実行されます。チェック可能な動作にはパラメーターとして true または false を渡すことができます。例: -actions &quot;fullscreen compact true&quot;。引用符は複数の動作を渡す場合に必要です。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="99"/>
@@ -8875,7 +8690,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation>SMPlayer が構成ファイル (smplayer.ini、smplayer_files.ini...) を格納するディレクトリを指定します</translation>
+        <translation>SMPlayer が構成ファイル (smplayer.ini、smplayer_files.ini...) を保存するディレクトリを指定します</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="169"/>
@@ -8928,7 +8743,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>最初のビデオに読み込まれるメディア ファイルを設定します。</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
@@ -9427,7 +9242,7 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
         <source>Checking for updates</source>
-        <translation>更新をチェックしています</translation>
+        <translation>更新を確認しています</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="201"/>

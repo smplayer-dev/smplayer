@@ -1198,14 +1198,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>С&amp;личица по секунди</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">СМПлејер - МПлејер запис</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">СМПлејер - СМПлејер запис</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Неуспело повезивање</translation>
@@ -1429,25 +1421,9 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Повратак сервера &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">МПлејер се неочекивано затворио.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Излазни код: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">МПлејер је немогуће покренути.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Проверите путању МПлејера у подешавањима.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">МПлејер се срушио.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2395,44 +2371,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">&amp;Опције МПлејера</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Додатне опције за МПлејер</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Овде можете уписати додатне опције за МПлејер.
-Упишите их одвојене размаком.
-Пример: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Опције:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Можете уписати додатне видео филтере.
-Одвојите их са &quot;,&quot;. Не користите размак!
-Пример: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>В&amp;идео филтери:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">И коначно звучни филтере. Иста правила као и за видео филтере.
-Пример: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4181,29 +4127,28 @@ Do you want to overwrite?</source>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Прозор за записе</translation>
+        <translation type="obsolete">Прозор за записе</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Сачувај</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Копирај у клипборд</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Затвори</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Затвори</translation>
     </message>
@@ -4568,20 +4513,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Напредне опције</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Можеш такође да ставиш додатне филтере
-Раздвоји их са &quot;,&quot;. Не користи размак!
-Пример: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">И коначно звучни филтери. Исто важи као и за видео филтере
-Пример: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Запис СМПлејер излаза</translation>
@@ -4597,30 +4528,6 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>Штиклирањем ове опције може да се редукује треперење, али такође може да се деси да се видео не прикаже ваљано.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Запис МПлејер/МПВ излаза</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Ако је одабрано, СМПлејер ће сачувати излаз МПлејера/МПВ (запис можете погледати у &lt;b&gt;Опције -&gt; Pogledaj zapise -&gt; MПлејер/МПВ&lt;/b&gt;). У случају проблема овај запис може садржавати корисне информације па је препоручљиво да имате ову опцију одабраном.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Аутоматски сачувај МПлејер/МПВ запис</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Ако је ова могућност означена, МПлејер/МПВ запис ће бити сачуван у одређени фајл сваки пут када се нови фајл почне репродуковати. То је намењено са спољне апликације, тако да се могу добити информације о фајлу који репродукујете.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Аутоматски сачувај МПлејер/МПВ запис</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Унесите путању и имефајла који ће бити коришћен за чување МПлејер/МПВ записа.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Филтер за СМПлејер записе</translation>
@@ -4631,29 +4538,9 @@ Example: resample=44100:0:0,volnorm</source>
         <translation>&amp;Однос слике монитора:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">&amp;Покрени МПлејер/МПВ у сопственом прозору</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Користи la&amp;vf демултиплексер као подразумеван</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">П&amp;ријавите рушење МПлејера/МПВ</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">Опције за МП&amp;лејер/МПВ</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Овде можете уписати додатне опције за МПлејер/МПВ.
-Упишите их одвојене размаком.
-Пример: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4669,10 +4556,6 @@ Example: -flip -nosound</source>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>Звучни &amp;филтери:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">А&amp;утоматски сачувај МПлејер/МПВ запис у фајл</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4716,18 +4599,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Записи</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Додај скраћено име фајла (8+3) за МПлејер</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">Тренутно МПлејер не може отворити називе фајлова које садрже знакове ван локалне кодне странице. Означавање ове могућности учиниће да СМПлејер пређе на МПлејерову краћу верзију назива фајлова и тада ће моћи да буду отворене.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">&amp;Додај скраћено име фајлова (8+3) за МПлејер</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4783,42 +4654,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Пребојите позади&amp;ну видео прозора</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Покрени МПлејер/МПВ у сопственом прозору</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Ако омогућите ову опцију, МПлејер/МПВ видео прозор неће биту уклопљен у СМПлејеров главни прозор, али уместо тога ће користити сопствени прозор. Имајте на уму да ће миш и тастатура бити управљани директно од МПлејера/МПВ, а то значи да ће пречице миша и тастатуре неће очекивано радити када је МПлејер у фокусу.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Пријавите рушење МПлејера/МПВ</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Ако је ова могућност одабрана, појавиће се информација о рушењу МПлејера/МПВ. Иначе ће та упозорења бити занемарена.</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Пребацивањем МПлејера/МПВ у експериментални начин где подаци за видео сличице су другачије израчунати филтери слике који додају нове сличице или мењају податке постојећих сличица су подржани. Тачнији подаци могу бити видљиви нпр. када су репродуковани преводи подешени према променама сцена са омогућеном SSA/ASS библиотеком. Без исправног ПТС-а трајање превода обично ће бити искључено од стране неке сличице. Ова могућност не ради исправно са неким демултиплексерима и кодецима.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">Опције за МПлејер/МПВ</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Овде можете уписати додатне опције за МПлејер или МПВ. Упишите их одвојене размаком.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Овде можете уписати додатне опције за МПлејер/МПВ. Упишите их одвојене зарезом. Не користите размаке!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Овде можете додати звучне филтере за МПлејер/МПВ. Упишите их одвојене зарезом. Не користите размак!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5062,14 +4897,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>И&amp;справи ПТС:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">МПлејер/МПВ</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Запис МПлејер/МПВ &amp;излаза</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5419,14 +5246,6 @@ Example: extrastereo,karaoke</source>
         <translation>Софтверски видео еквилајзер</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">МПлејер/МПВ извршни фајл</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Овде можете да одредите МПлејер или мпв извршним за коришћење СМПлејеру.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Ова опција одређује име шаблона за чување снимака екрана.</translation>
@@ -5510,10 +5329,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Квалитет:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">&amp;МПлејер/МПВ извршно:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5719,12 +5534,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Овде можете уписати жељени језик за звук и превод. Када је пронађен медиј са вишеструким звучним записима и преводима, СМПлејер ће пробати покренути ваш жељени језик.&lt;br&gt;Ово ће радити само са медијима који пружају информације о језику звучног записа и превода попут ДВД-а и мкв фајлова.&lt;br&gt;Ова поља примају основне изразе.Нпр.: &lt;b&gt;sr|srb|ser&lt;/b&gt; ће одабрати превод ако се подудара са &lt;i&gt;sr&lt;/i&gt;, &lt;i&gt;srb&lt;/i&gt; или &lt;i&gt;ser&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-За преводиоце: не преводите овај текст јер ће бити замењен другим текстом у време извршења.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>

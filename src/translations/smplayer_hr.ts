@@ -1197,14 +1197,6 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>S&amp;ličica u sekundi</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - mplayer zapis</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - SMplayer zapis</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Neuspjelo povezivanje</translation>
@@ -1428,25 +1420,9 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Poslužitelj je vratio &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer se zatvorio neočekivano.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Izlazni kôd: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer je nemoguće pokrenuti.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Provjerite MPlayer putanju u osobitostima.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer se srušio.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">&amp;MPlayer mogućnosti</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Dodatne mogućnosti za MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Ovdje možete upisati dodatne mogućnosti za MPlayer.
-Upišite ih odvojene razmakom.
-Npr.: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Mogućnosti:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Možete upisati i dodatne video filtre.
-Odvojite ih sa &quot;,&quot;. Ne koristite razmak!
-Npr.: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>V&amp;ideo filtri:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">I konačno zvučni filtri. Isto pravilo kao i za video filtre.
-Npr: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4180,29 +4126,28 @@ Do you want to overwrite?</source>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Prozor zapisa</translation>
+        <translation type="obsolete">Prozor zapisa</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Spremi</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Kopiraj u međuspremnik</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Zatvori</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Zatvori</translation>
     </message>
@@ -4567,20 +4512,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Napredno</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Možete upisati dodatne filtre slike.
-Odvojite ih sa &quot;,&quot;. Ne koristite razmake!
-Npr.: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">I konačno zvučni filtri. Upišite ih kao i filtre slike.
-Npr.: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Zapisuj SMPlayer izlaz</translation>
@@ -4596,30 +4527,6 @@ Npr.: resample=44100:0:0,volnorm</translation>
         <translation>Označavanje ove mogućnosti može smanjiti tepterenje slike, ali isto tako može prozročiti neispravan prikaz slike.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Zapisuj MPlayer/MPV izlaz</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Ako je omogućeno, SMPlayer će spremiti MPlayer/MPV izlaz (možete ga vidjeti u &lt;b&gt; Mogućnosti -&gt; Pogledaj zapise -&gt; MPlayer/MPV&lt;/b&gt;). U slučaju problema ovaj zapis može sadržavati važne informacije, stoga je preporučeno da imate ovu mogućnost omogućenu.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Automatski spremi MPlayer/MPV zapis</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Ako je omogućeno, MPlayer/MPV zapis će biti spremljen u određenu datoteku svaki puta kada se datoteka započne reproducirati. Ovo je namijenjeno vanjskim aplikacijama, kako bi dobile informacije o datoteci koju reproducirate.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Automatski spremi MPlayer/MPV naziv datoteke zapisa</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Ovdje upišite putanju i naziv datoteke spremanja MPlayer/MPV zapisa.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter za SMPlayer zapise</translation>
@@ -4630,29 +4537,9 @@ Npr.: resample=44100:0:0,volnorm</translation>
         <translation>&amp;Omjer slike monitora:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">&amp;Pokreni MPlayer/MPV u vlastitom prozoru</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Koristi la&amp;vf demultiplekser kao zadan</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">P&amp;rijavi MPlayer/MPV rušenja</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">MP&amp;layer/MPV mogućnosti</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Ovdje možete upisati dodatne mogućnosti za MPlayer/MPV.
-Upišite ih odvojeno razmacima.
-Npr.: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4668,10 +4555,6 @@ Npr.: -flip -nosound</translation>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>Filtri &amp;zvuka:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">A&amp;utomatski spremi MPlayer/MPV zapis u datoteku</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4715,18 +4598,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Zapisi</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Dodaj kratki naziv datoteka (8+3) za MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">Trenutno MPlayer ne može otvoriti nazive datoteka koje sadrže znakove izvan lokalne kôdne stranice. Označavanje ove mogućnosti učinit će da SMPlayer prijeđe na MPlayerovu kraću inačicu naziva datoteka, i tada će moći biti otvorene.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">&amp;Dodaj kratki naziv datoteka (8+3) za MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4782,42 +4653,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Prebojite pozadin&amp;u prozora slike</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Pokreni MPlayer/MPV u vlastitom prozoru</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Ako je omogućeno, MPlayer/MPV prozor video snimke neće biti ugrađen u SMPlayerov glavni prozor, umjesto toga će biti prikazan u vlastitom prozoru. Imajte na umu da će događaji miša i tipkovnice biti rukovani izravno s MPlayera/MPV-a, to znači da prečaci tipkovnice i klikovi miša vjerovatno neće raditi kako se očekiva kada je MPlayer/MPV prozor u fokusu.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Prijavi MPlayer/MPV rušenja</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Ako je omogućeno, prozor će se pojaviti da vas obavijesti o MPlayer/MPV rušenju. Inače će ta rušenja biti neprimjetno zanemarena.</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Prebacuje MPlayer/MPV u eksperimentalan način gdje se vremenske oznake video sličica izračunavaju drugačije, podržani su i video filtri koji dodaju nove sličice ili mijenjaju vremenske oznake postojećih sličica. Veća točnost vremenskih oznaka može biti vidljiva na primjeru kada je podnaslov usklađen s promjenom scene s omogućenom SSA/ASS knjižnicom. Bez ispravljanja PTS-a vrijeme podnaslova će u pravilu biti isključeno za neke sličice. Ova mogućnost ne radi ispravno s nekim demultiplekserima i kôdekima.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV mogućnosti</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Ovdje možete upisti mogućnosti za MPlayer ili MPV. Upišite ih odvojeno razmacima.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Ovdje možete dodati video filtre za MPlayer/MPV. Upišite ih odvojeno zarezom. Ne koristite razmake!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Ovdje možete dodati filtre zvuka za MPlayer/MPV. Upišite ih odvojeno zarezom. Ne koristite razmake!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5061,14 +4896,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>I&amp;spravi PTS:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Zapisuj MPlayer/MPV &amp;izlaz</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5418,14 +5245,6 @@ Example: extrastereo,karaoke</source>
         <translation>Softverski ekvalizator slike</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">MPlayer/MPV izvršna datoteka</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Ovdje morate odrediti MPlayer ili mpv izvršnu datoteku koju će SMPlayer koristiti.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Ova mogućnost određuje predložak naziva datoteke koji se koristi pri spremanju snimaka zaslona.</translation>
@@ -5509,10 +5328,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Kvaliteta:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">&amp;MPlayer/MPV izvršna datoteka:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5718,12 +5533,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Ovdje možete upisati željeni jezik za zvučni zapis i podnaslove. Kada je pronađen medij sa višestrukim zvučnim zapisima i podnaslovima, SMPlayer će probati pokrenuti vaš željeni jezik.&lt;br&gt;Ovo će raditi samo sa medijima koji pružaju informacije o jeziku zvučnih zapisa i podnaslova, poput DVD-a ili mkv datoteka.&lt;br&gt;Ova polja primaju osnovne izraze. Npr.: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati podnaslov ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Ovdje dolazi tekst objašnjenja&gt;
-Za prevoditelje: ne prevodite ovaj tekst, biti će zamijenjen drugim tekstom u vrijeme izvršavanja.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>

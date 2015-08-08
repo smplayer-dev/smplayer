@@ -1197,14 +1197,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Bi&amp;ngkai sesaat</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - log MPlayer</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - log SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Sambungan gagal</translation>
@@ -1428,25 +1420,9 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Pelayan kembalikan &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer telah ditamatkan tanpa dijangka.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Kod keluar: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer gagal dimulakan.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Sila sema laluan MPlayq di dalam keutamaan.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer mengalami kerosakan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2394,44 +2370,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">Pilih &amp;MPlayer</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Pilihan Tambahan untuk MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Disini anda boleh lepasi pilihan tambahan ke MPlayer.
-Tulis ia secara berasingan dengan berjarak.
-Contoh: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>Pi&amp;lihan:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Anda juga boleh lepasi penapis video tambahan.
-Asingkannya dengan tanda &quot;,&quot;. Jangan jarakkan!
-Contoh: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>Penapis v&amp;ideo:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Dan akhir sekali penapis audio. Peraturan yang serupa seperti penapis video.
-Contoh: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4178,29 +4124,28 @@ Anda hendak tulis-ganti?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Tetingkap Log</translation>
+        <translation type="obsolete">Tetingkap Log</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Simpan</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Salin ke papan keratan</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Tutup</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Tutup</translation>
     </message>
@@ -4565,20 +4510,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>L&amp;anjutan</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Anda juga boleh lepasi penapis video tambahan.
-Asingkannya dengan tanda &quot;,&quot;. Jangan jarakkan!
-Contoh: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Dan akhir sekali penapis audio. Peraturan yang serupa seperti penapis video.
-Contoh: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Log output SMPlayer</translation>
@@ -4594,30 +4525,6 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Menanda pilihan ini akan mengurangkan kerlipan, tetapi ia juga menyebabkan video tidak dapat dipaparkan dengan baik.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Log output MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Jika ditanda, SMPlayer akan menyimpan output MPlayer/MPV (anda boleh melihatnya di dalam &lt;b&gt;Pilihan -&gt; Lihat log -&gt; MPlayer/MPV&lt;/b&gt;). Jika menghadapi masalah log ini akan mengandungi maklumat penting, oleh itu disarankan pilihan ini ditanda.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Auto-simpan log MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Jika pilihan ini ditanda, log MPlayer/MPV akan disimpan ke fail yang dinyatakan setiap kali fail baru mula dimainkan. Ia bertujuan untuk aplikasi luaran, supaya ia boleh mendapat maklumat mengenai fail yang anda mainkan.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Auto-simpan nama fail log MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Masukkan di sini laluan dan nama fail yang akan digunakan untuk menyimpan log MPlayer/MPV.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Penapis untuk log SMPlayer</translation>
@@ -4628,29 +4535,9 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Nisbah &amp;monitor:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">&amp;Jalankan MPlayer/MPV dalam tetingkapnya sendiri</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Nyahselang-seli secara lalai</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">&amp;Lapor kerosakan MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">Pilihan untuk MP&amp;layer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Di sini anda boleh lepasi pilihan tambahan ke MPlayer/MPV.
-Tulis ia secara berasingan dengan tanda jarak.
-Contohnya: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4666,10 +4553,6 @@ Contohnya: -flip -nosound</translation>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>Pen&amp;apis audio:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">Auto-s&amp;impan log MPlayer/MPV ke fail</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4713,18 +4596,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Log</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Pendekkan nama fail (8+3) ke MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">Buat masa ini MPlayer tidak dapat buka nama fail yang mengandungi aksara diluar halaman kod setempat. Penandaan pilihan ini akan menjadikan SMPlayer lepasi ke versi pendek nama fail MPlayer supaya ia boleh dibuka.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">P&amp;endekkan nama fail (8+3) ke MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4780,42 +4651,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Cat semula latar &amp;belakang  tetingkap video</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Jalankan MPlayer/MPV dalam tetingkapnya sendiri</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Jika anda tanda pilihan ini, tetingkap video MPlayer/MPV tidak akan dibenamkan dalam tetingkap utama SMPlayer tetapi ia akan digunakan tetingkapnya sendiri. Perhatian peristiwa tetikus dan papan kekunci akan dikendali secara terus oleh MPlayer/MPV, ini bermakna pintasan kekunci dan klik tetikus tidak akan berfungsi sepertimana yang diharapkan bila tetingkap MPlayer/MPV telah difokuskan.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Lapor kerosakan MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">JIka pilihan ini ditanda, satu tetingkap akan muncul untuk memaklumkan mengenai kerosakan MPlayer/MPV. Jika tidak kegagalan tersebut akan diabaikan secara senyap.</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Tukar MPlayer/MPV ke mod eksperimental dimana setem masa bagi bingkai video dikiran secara berasingan dan penapis video ditambah bingkai baru atau diubahsuai setem masa sedia ada yang tersokong. Lebih tepat setem masa boleh dikelihatankan contohnya bila memainkan sarikata bermasa pada adegan yang berubah dengan pustaka SSA/ASS dibenarkan. Tanpa pts yang dibetulkan pemasaan sarikata akan dimatikan oleh sesetengah bingkai. Pilihaan ini tidak berfungsi baik dengan beberapa jenis demuxer dan kodeks.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">Pilihan untuk MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Di sini anda boleh taip pilihan untuk MPlayer atau MPV. Tulis ia secara berasingan dengan tanda jarak.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Di sini anda boleh tambah penapis video untuk MPlayer/MPV. Tulis ia secara berasingan dengan tanda koma. Jangan guna tanda jarak!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Disini anda boleh tambah penapis audio untuk MPlayer/MPV. Tulis ia secara berasingan dengan tanda koma. Jangan guna jarak!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5059,14 +4894,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>Pe&amp;mbetulan PTS:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Log &amp;output MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5416,14 +5243,6 @@ Example: extrastereo,karaoke</source>
         <translation>Penyama video perisian</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">Bolehlaku MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Di sini anda mesti nyatakan bolehlaku MPlayer atau mpv yang SMPlayer akan gunakan.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Pilih ini menyatakan templat nama fail yang digunakan untuk menyimpan cekupan skrin.</translation>
@@ -5507,10 +5326,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>K&amp;ualiti:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">Bolehlaku &amp;MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5716,12 +5531,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Disini anda boleh taip bahasa digemari anda untuk strim audio dan sarikata. Bila media dengan strim audio atau sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-Kepada penterjemah: jangan terjemah teks ini, ia akan digantikan dengan yang lain pada masa jalan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>
