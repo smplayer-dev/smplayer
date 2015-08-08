@@ -1197,14 +1197,6 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>F&amp;rame per detik</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - catatan MPlayer</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - catatan SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4659"/>
         <source>Connection failed</source>
         <translation>Sambungan gagal</translation>
@@ -1429,25 +1421,9 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
         <translation>Server dikembalikan ke &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer selesai diluar dugaan.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5383"/>
         <source>Exit code: %1</source>
         <translation>Kode Keluar: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">MPlayer gagal dimulai.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Harap periksa alamat MPlayer di preferensi.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">MPlayer mengalami kerusakan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5407"/>
@@ -2395,44 +2371,14 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">Opsi &amp;MPlayer</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Opsi tambahan untuk MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">DIsini anda dapat memasukkan opsi ekstra untuk MPlayer⏎
-Tulis perintah itu terpisah dengan spasi⏎
-Contoh: -flip -nosund</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Opsi:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Anda juga dapat memasukkan filter video tambahan⏎
-Pisahkan perintahnya menggunakan &quot;,&quot;. Jangan gunakan Spasi!⏎
-Contoh: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>Filter V&amp;ideo:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Dan terakhir filter audio. Peraturannya sama seperti filter video⏎
-Contoh: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -4179,29 +4125,28 @@ Apakah anda ingin menimpanya?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation>Jendela Catatan</translation>
+        <translation type="obsolete">Jendela Catatan</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="57"/>
-        <location filename="../logwindowbase.ui" line="60"/>
+        <location filename="../logwindowbase.ui" line="58"/>
+        <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
         <translation>Simpan</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="67"/>
-        <location filename="../logwindowbase.ui" line="70"/>
+        <location filename="../logwindowbase.ui" line="68"/>
+        <location filename="../logwindowbase.ui" line="71"/>
         <source>Copy to clipboard</source>
         <translation>Salin ke papan tempel</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="80"/>
+        <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
         <translation>&amp;Tutup</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="77"/>
+        <location filename="../logwindowbase.ui" line="78"/>
         <source>Close</source>
         <translation>Tutup</translation>
     </message>
@@ -4566,20 +4511,6 @@ Apakah anda ingin menimpanya?</translation>
         <translation>Lebih l&amp;anjut</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">Anda juga dapat memasukkan tambahan video filter
-Pisahkan perintahnya dengan &quot;,&quot;. Jangan menggunakan Spasi!
-Conton: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Dan terakhirnya filter audio. Aturannya sama seperti untuk filter video.
-Contoh: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>catatan keluaran SMPlayer</translation>
@@ -4595,30 +4526,6 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Memeriksa opsi ini mungkin dapat menurunkan efek kerlip, namun itu juga memungkinkan pembuatan video yang tidak akan ditampilkan dengan tepat.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Catatan keluaran MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Bila dicentang, SMPlayer akan menyimpan catatan keluaran MPlayer/MPV (anda bisa melihatnya do &lt;b&gt;Pilihan -&gt; Lihat catatan -&gt; MPlayer/MPV&lt;/b&gt;). Dalam beberapa kasuk catatan ini bisa memiliki informasi penting, jadi disarankan untuk membiarkan pilihan ini apa adanya.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Simpan otomatis catatan MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Bila opsi ini dicentang, catatan MPlayer/MPV akan disimpan pada lokasi yang telah ditentukan setiap kali sebuah berkas baru dibuka. Hal ini juga berguna untuk aplikasi eksternal, sehingga aplikasi tersebut bisa mendapat informasi mengenai berkas yang anda mainkan.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Simpan otomatis nama berkas MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Masukkan alamat dan nama berkas yang akan digunakan untuk menyimpan catatan MPlayer/MPV disini.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter untuk catatan SMPlayer</translation>
@@ -4629,29 +4536,9 @@ Contoh: resample=44100:0:0,volnorm</translation>
         <translation>Aspek &amp;monitor:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Jalankan MPlayer/MPV  pada jendelanya sendi&amp;ri</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Gunakan demuxer la&amp;vf sebagai bawaan</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">Laporkan k&amp;erusakan MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">Pilihan untuk MP&amp;layer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Anda bisa memasukkan opsi untuk MPlayer/MPV disini.
-Gunakan spasi untuk memisahkan opsi nya.
-Contoh: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4667,10 +4554,6 @@ Contoh: -flip -nosound</translation>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>&amp;Filter audio:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">Simpan otomatis catatan MPlayer/MPV ke s&amp;uatu berkas</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4714,18 +4597,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Catatan</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Masukkan penciutan nama berkas (8+3) untuk MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">Mplayer saat ini tidak dapat membuka berkas nama yang memiliki karakter diluar kode halaman lokal. Nyalakan opsi ini akan membuat SMPlayer memasukkan versi pendek dari nama berkas, dan dapat membuka semua berkas itu.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Masukkan &amp;penciutan nama berkas (8+3) untuk MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4781,38 +4652,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Hias ulang latar belakang jen&amp;dela video</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Simpan otomatis catatan MPlayer/MPV ke suatu berkas</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Apabila anda memilih opsi ini, jendela video MPlayer/MPV tidak akan disematkan pada jendela utama SMPlayer tetapi menggunakan jendela nya sendiri. Harap dicatat bahwa tetikus dan keyboard akan diarahkan pada MPlayer/MPV yang artinya tombol pintasan dan tombol klik pada tetikus tidak akan bekerja seperti yang diharapkan ketika jendela MPlayer/MPV sudah pada fokusnya.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Laporkan crash MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Jika opsi ini dipilih, sebuah jendela akan muncul untuk menginformasikan mengenai kerusakan MPlayer/MPV. Sebaliknya, informasi kerusakan akan disembunyikan.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">Opsi untuk MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Anda dapat menulis opsi untuk MPlayer atau MPV disini. Tulis perintahnya dengan spasi sebagai pemisahnya.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Anda dapat menambah filter video untuk MPlayer/MPV disini. Tulis perintahnya dengan koma sebagai pemisahnya. Jangan gunakan spasi!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Anda dapat menambahkan filter audio untuk MPlayer/MPV disini. Tulis perintahnya disini dengan koma sebagai pemisahnya. Jangan gunakan spasi!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5056,14 +4895,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.ui" line="149"/>
         <source>C&amp;orrect PTS:</source>
         <translation>K&amp;oreksi poin:</translation>
-    </message>
-    <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Catatan kel&amp;uaran MPlayer/MPV</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="578"/>
@@ -5413,14 +5244,6 @@ Example: extrastereo,karaoke</source>
         <translation>Ekualiser perangkat lunak video</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">MPlayer/MPV yang dapat digunakan</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Anda harus menggunakan MPlayer atau MPV yang dapat digunakan untuk SMPlayer disini.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation type="unfinished"></translation>
@@ -5709,12 +5532,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Disini anda dapat menulis bahasa yang diutamakan untuk stream audio dan subtitle. Ketika sebuah media dengan stream audio atau subtitle ganda ditemukan, SMPlayer akan mencoba untuk menggunakan bahasa yang anda utamakan. Hal ini hanya bekerja pada media yang mengerti info tentang stream audio dan subtitle seperti DVD atau berkas mkv.&lt;br&gt;Lini ini menerima masukkan yang umum. Contoh: &lt;b&gt;es|esp|spa&lt;/b&gt; akan dipilih trek jika cocok dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-Untuk penerjemah: jangan menerjemahkan teks ini, teks ini akan dipindahkan dengan yang lain pada penjalanan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>
