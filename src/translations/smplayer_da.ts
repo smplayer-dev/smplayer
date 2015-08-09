@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2361,13 +2359,16 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan også videregive yderligere videofiltre.
+Adskil dem med &quot;,&quot;. Brug ikke mellemrum!
+Eksempel: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>Og til sidst, lydfiltre. Samme regel som videofiltre.
+Eksempel: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2588,10 +2589,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n undertekst udpakket</numerusform>
-            <numerusform>%n undertekster udpakket</numerusform>
-        </translation>
+        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2689,7 +2687,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -4125,28 +4123,29 @@ Vil du overskrive den?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
+        <location filename="../logwindowbase.ui" line="14"/>
         <source>Log Window</source>
-        <translation type="obsolete">Log-vindue</translation>
+        <translation>Log-vindue</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="58"/>
-        <location filename="../logwindowbase.ui" line="61"/>
+        <location filename="../logwindowbase.ui" line="57"/>
+        <location filename="../logwindowbase.ui" line="60"/>
         <source>Save</source>
         <translation>Gem</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="68"/>
-        <location filename="../logwindowbase.ui" line="71"/>
+        <location filename="../logwindowbase.ui" line="67"/>
+        <location filename="../logwindowbase.ui" line="70"/>
         <source>Copy to clipboard</source>
         <translation>Kopiér til udklipsholder</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="81"/>
+        <location filename="../logwindowbase.ui" line="80"/>
         <source>&amp;Close</source>
         <translation>&amp;Luk</translation>
     </message>
     <message>
-        <location filename="../logwindowbase.ui" line="78"/>
+        <location filename="../logwindowbase.ui" line="77"/>
         <source>Close</source>
         <translation>Luk</translation>
     </message>
@@ -4565,13 +4564,16 @@ Vil du overskrive den?</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>Du kan også videregive yderligere videofiltre.
+Adskil dem med &quot;,&quot;. Brug ikke mellemrum!
+Eksempel: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="431"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>Og til sidst, lydfiltre. Samme regel som videofiltre.
+Eksempel: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="605"/>
@@ -4616,7 +4618,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="456"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation>Hvis denne indstilling er slået til, bruges lavf-demuxer til alle formater.</translation>
+        <translation>Hvis indstillingen er slået til, bruges lavf-demuxer til alle formater.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -4706,37 +4708,37 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayer gemme fejlsøgningsmeddelelser fra SMPlayer (du kan se loggen i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
+        <translation>Hvis indstillingen er slået til, gemmer SMPlayer fejlsøgningsmeddelelser fra SMPlayer (du kan se loggen i &lt;b&gt;Valgmuligheder -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="548"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"></translation>
+        <translation>Log %1 output</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis indstillingen er slået til, gemmer SMPlayer outputtet af %1 (Du kan se det i &lt;b&gt;Valgmuligheder -&gt; Vis logge -&gt; %1&lt;/b&gt;). Hvis der er problemer kan denne log indeholde vigtige oplysninger, så det anbefales at indstillingen er slået til.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>Gem automatisk %1 log</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="555"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis indstillingen er slået til, gemmes %1 loggen i den angivne fil, hver gang en ny fil starter afspilning. Det er tiltænkt eksterne programmer, så de kan få information om den fil du afspiller.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisk gem %1 log filnavn</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"></translation>
+        <translation>Indtast stien og filnavnet, som bruges til at gemme %1 loggen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="567"/>
@@ -4751,78 +4753,78 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="90"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kør %1 i sit eget vindue</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="91"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Videregiv korte filnavne (8+3) til %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="92"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rapportér %1 nedbrud</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="93"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished">&amp;Indstillinger for %1</translation>
+        <translation>&amp;Indstillinger/Valgmuligheder for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished">Her kan du videregive ekstra indstillinger til %1.</translation>
+        <translation>Her kan du videregive ekstra indstillinger til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished">Skriv dem, adskilt med mellemrum.</translation>
+        <translation>Skriv dem adskilt af mellemrum.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation>Log %1 &amp;output</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomatisk gem %1 log til fil</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="440"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>Kør %1 i sit eget vindue</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis du slår denne indstilling til, indlejres %1  videovinduet ikke i SMPlayer&apos;s hovedvindue, men i stedet bruges dets eget vindue. Bemærk at muse- og tastaturbegivenheder håndteres direkte af %1, hvilket betyder at tastaturgenveje og museklik formodentligt ikke virker som forventet når %1 vinduet har fokus.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="459"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Videregiv korte filnavne (8+3) til %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="460"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvid indstillingen er slået til, videregiver SMPlayer den korte udgave af filnavnene til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="471"/>
         <source>Report %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapportér %1 nedbrud</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="472"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis indstillingen er slået til, vises et vindue for at informerer dig om %1 nedbrud. Ellers ignoreres disse fejl.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="477"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Skifter %1 til en eksperimentel tilstand, hvor tidsstempler for videobilleder udregnes forskelligt og videofiltre, som tilføjer nye billeder eller ændre tidsstempler af eksisterende billeder, understøttes. De mere præcise tidsstempler kan være synlige, f.eks. når der afspilles undertekster der er timet til sceneændringer med SSA/ASS-biblioteket aktiveret. Uden korrekt pts, vil undertekst timing typisk være upræcis med nogle billeder. Indstillingen virker ikke korrekt med nogle demuxers og codecs.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
@@ -4842,28 +4844,28 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Options for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Indstillinger/Valgmuligheder for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Er kan du skrive indstillinger til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="517"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan kan du tilføje videofiltre til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>Skriv dem adskilt af kommaer. Brug ikke mellemrum!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>Her kan du tilføje lydfiltre for %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="524"/>
@@ -4889,7 +4891,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="449"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Genopbygger indeksering af filer hvis intet indeks blev fundet, hvilket muliggør søgning. Nyttigt til defekte/ufuldstændige downloads eller dårligt udførte filer. Denne indstilling virker kun hvis det underliggende medie understøtter søgning (dvs. ikke med stdin, pipe, osv.).&lt;br&gt; &lt;b&gt;Bemærk:&lt;/b&gt; Oprettelse af indekset kan tage nogen tid.</translation>
+        <translation>Genopbygger indeksering af filer hvis intet indeks blev fundet, hvilket muliggør søgning. Nyttigt til defekte/ufuldstændige downloads eller dårligt udførte filer. Denne indstilling virker kun hvis det underliggende medie understøtter søgning (dvs. ikke med stdin, pipe, osv.).&lt;br&gt; &lt;b&gt;Bemærk:&lt;/b&gt; oprettelse af indekset kan tage nogen tid.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="149"/>
@@ -4909,7 +4911,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayers log blive arkiveret i %1</translation>
+        <translation>Hvis indstillingen er slået til, gemmes SMPlayers log i %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="643"/>
@@ -5041,7 +5043,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayer bruge dvdnav til at afspille DVD&apos;er. Det kræver en nylig version af MPlayer kompileret med dvdnav-understøttelse.</translation>
+        <translation>Hvis indstillingen er slået til, afspiller SMPlayer DVD&apos;er med dvdnav. Det kræver en nylig version af MPlayer kompileret med dvdnav-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="75"/>
@@ -5165,7 +5167,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="162"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 &amp;programfil:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="368"/>
@@ -5176,12 +5178,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="894"/>
         <source>%1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 programfil</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="895"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kan skal du angive %1 programfilen som SMPlayer skal bruge.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="923"/>
@@ -5266,12 +5268,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="996"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Du kan markere denne indstilling hvis video-equalizer ikke er understøttet af dit grafikkort eller den valgte driver til video-output.&lt;br&gt;&lt;b&gt;Bemærk:&lt;/b&gt; Denne indstilling kan være inkompatibel med nogle drivere til video-output.</translation>
+        <translation>Du kan markere denne indstilling hvis video-equalizer ikke er understøttet af dit grafikkort eller den valgte driver til video-output.&lt;br&gt;&lt;b&gt;Bemærk:&lt;/b&gt; denne indstilling kan være inkompatibel med nogle drivere til video-output.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1018"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
-        <translation>Hvis denne indstilling er slået til, vil alle videoer begynde at afspille i fuldskærmtilstand.</translation>
+        <translation>Hvis indstillingen er slået til, starter alle videoer afspilning i fuldskærmstilstand.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1078"/>
@@ -5281,12 +5283,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation>Hvis denne indstillinger er slået vil, vil alle mediefiler dele lyd-equalizeren.</translation>
+        <translation>Hvis indstillingen er slået til, deler alle mediefiler lyd-equalizeren.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1080"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation>Hvis indstillingen er slået fra, vil lyd-equalizerens værdier blive gemt sammen med hver fil og indlæst igen når filen afspilles senere.</translation>
+        <translation>Hvis indstillingen er slået fra, gemmes lyd-equalizerens værdier sammen med hver fil og indlæses igen, når filen afspilles senere.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1109"/>
@@ -5411,7 +5413,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="946"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Hvis denne indstilling er slået til, vil hovedvinduet automatisk lukkes når den nuværende fil/spilleliste er færdig.</translation>
+        <translation>Hvis indstillingen er slået til, lukkes hovedvinduet automatisk når den nuværende fil/spilleliste er færdig.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="114"/>
@@ -5816,7 +5818,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1002"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>Hvis markeret, slås direkte rendering til (ikke understøttet af alle codecs og video-output)&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Kan give defekter i OSD og SUB!</translation>
+        <translation>Hvis indstillingen er slået til, aktiveres direkte rendering (ikke understøttet af alle codecs og video-output)&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; kan give fejl i OSD og undertekster!</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1089"/>
@@ -5861,7 +5863,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1104"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation>Hvis denne indstilling er slået til, vil samme lydstyrke blive brugt til alle filer du afspiller. Hvis indstillingen ikke er markeret bruger hver fil sin egen lydstyrke.</translation>
+        <translation>Hvis indstillingen er slået til, bruges samme lydstyrke for alle filer du afspiller. Hvis indstillingen er slået fra, bruger hver fil sin egen lydstyrke.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
@@ -5891,7 +5893,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation>Når denne indstilling er slået til, vil SMPlayer forsøge at forhindre at pauseskærmen vises ved afspilning af videofiler. Pauseskærmen vil blive få lov til at vises hvis der afspilles lydfiler eller den er på pause. Denne indstilling virker kun hvis SMPlayer-vinduet er i forgrunden.</translation>
+        <translation>Hvis indstillingen er slået til, forsøger SMPlayer at forhindre pauseskærmen i at blive vist ved afspilning af videofiler. Pauseskærmen vil blive få lov til at vises hvis der afspilles lydfiler eller den er på pause. Indstillingen virker kun hvis SMPlayer-vinduet er i forgrunden.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="573"/>
@@ -5956,7 +5958,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="989"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation>&lt;b&gt;Bemærk:&lt;/b&gt; Denne indstilling vil ikke blive brugt til TV-kanaler.</translation>
+        <translation>&lt;b&gt;Bemærk:&lt;/b&gt; Indstillingen bruges ikke til TV-kanaler.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="420"/>
@@ -5971,7 +5973,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1085"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation>&lt;b&gt;Bemærk:&lt;/b&gt; Ingen af lydfiltrene vil blive brugt når denne indstilling er aktiveret.</translation>
+        <translation>&lt;b&gt;Bemærk:&lt;/b&gt; ingen af lydfiltrene vil blive brugt når denne indstilling er aktiveret.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="384"/>
@@ -6784,7 +6786,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation>Hvis denne indstilling er slået til, vil hovedvinduet blive flyttet hvis du trækker markøren hen over videoområdet.</translation>
+        <translation>Hvis indstillingen er slået til, flyttes hovedvinduet hvis du trækker markøren hen over videoområdet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="677"/>
@@ -6901,7 +6903,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Hvis denne indstilling er slået til, vil det flydende kontrolelement kun blive vist når markøren flyttes til bunden af skærmen. Ellers vil kontrolelementet blive vist når markøren bevæges, lige meget hvor den er.</translation>
+        <translation>Hvis indstillingen er slået til, vises det flydende kontrolelement kun når markøren flyttes til bunden af skærmen. Ellers vil kontrolelementet blive vist når markøren bevæges, lige meget hvor den er.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
@@ -6946,7 +6948,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="783"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayer huske den mappe du sidst brugte til at åbne en fil.</translation>
+        <translation>Hvis indstillingen er slået til, husker SMPlayer den mappe du sidst brugte til at åbne en fil.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="520"/>
@@ -7191,7 +7193,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="149"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayer prøve at afspille videoer fra YouTube-URL&apos;er.</translation>
+        <translation>Hvis indstillingen er slået til, forsøger SMPlayer at afspille videoer fra YouTube-URL&apos;er.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -7221,7 +7223,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation>Hvis denne indstilling er slået til, vil SMPlayer prøve at afspille videoer fra websteder med steaming såsom YouTube, Dailymotion, Vimeo, Vevo, osv.</translation>
+        <translation>Hvis indstillingen er slået til, forsøger SMPlayer at afspille videoer fra websteder med steaming. Såsom YouTube, Dailymotion, Vimeo, Vevo, osv.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="162"/>
@@ -7431,7 +7433,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Hvis markeret, vil den hurtigste måde til at søge til kapitler blive forsøgt, men det vil måske ikke virke med visse diske.</translation>
+        <translation>Hvis indstillingen er slået til, vil den hurtigste måde til at søge til kapitler blive forsøgt, men det vil måske ikke virke med visse diske.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
@@ -7476,7 +7478,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges ved præ-caching af en dvd.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Søgning vil måske ikke virke korrekt (inklusiv skift af kapitel) ved brug af en cache til DVD&apos;er.</translation>
+        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges ved præ-caching af en dvd.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; søgning vil måske ikke virke korrekt (inklusiv skift af kapitel) ved brug af en cache til DVD&apos;er.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -7661,7 +7663,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Sæt procesprioritet for MPlayer i henhold til prædefinerede prioriteter tilgængelige under Windows.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Brug af realtidsprioritet kan få systemet til at låse.</translation>
+        <translation>Sæt procesprioritet for MPlayer i henhold til prædefinerede prioriteter tilgængelige under Windows.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; brug af realtidsprioritet kan få systemet til at låse.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -7779,7 +7781,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.cpp" line="159"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation>Hvis denne indstilling er slået til, vil en kopi af spillelisten blive gemt i SMPlayer&apos;s opsætning når programmet lukkes, og det vil automatisk blive genindlæst når programmet startes igen.</translation>
+        <translation>Hvis indstillingen er slået til, gemmes en kopi af spillelisten i SMPlayer&apos;s opsætning når programmet lukkes, og det vil automatisk blive genindlæst når programmet startes igen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="163"/>
@@ -8041,7 +8043,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="428"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation>Hvis denne indstilling er slået fra, vil kun nogle få skrifttyper som er indbygget i SMPlayer være tilgængelige, men det er hurtigere.</translation>
+        <translation>Hvis indstillingen er slået fra, kan kun nogle få skrifttyper som er indbygget i SMPlayer anvendes, men det er hurtigere.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="455"/>
@@ -8056,7 +8058,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation>Hvis markeret vil teksten blive vist med &lt;b&gt;fed&lt;/b&gt;.</translation>
+        <translation>Hvis indstillingen er slået til, vises teksten med &lt;b&gt;fed&lt;/b&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="460"/>
@@ -8066,7 +8068,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation>Hvis markeret vil teksten blive vist med &lt;i&gt;kursiv&lt;/i&gt;.</translation>
+        <translation>Hvis indstillingen er slået til, vises teksten med &lt;i&gt;kursiv&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="472"/>
@@ -8344,7 +8346,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="410"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>Hvis denne indstilling er slået til, vil undertekster vises i skærmbilleder. &lt;b&gt;Bemærk:&lt;/b&gt; Det kan nogle gange forårsage problemer.</translation>
+        <translation>Hvis indstillingen er slået til, vises underteksterne i skærmbillederne. &lt;b&gt;Bemærk:&lt;/b&gt; det kan til tider forårsage problemer.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="331"/>
@@ -8389,7 +8391,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation>Hvis denne indstilling slået til, vil den stil der er defineret ovenfor også blive anvendt på ass-undertekster.</translation>
+        <translation>Hvis indstillingen er slået til, anvendes stilen, der er defineret ovenfor, også på ass-undertekster.</translation>
     </message>
 </context>
 <context>
@@ -8665,19 +8667,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekunder</numerusform>
-        </translation>
+        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minutter</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8740,7 +8736,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>angiver medietitlen for den første video.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
