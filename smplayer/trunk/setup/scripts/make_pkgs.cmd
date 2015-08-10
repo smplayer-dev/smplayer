@@ -226,9 +226,9 @@ echo [smplayer]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 echo check_if_upgraded=false>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 
 ::
-echo Creating mplayer config...
+REM echo Creating mplayer config...
 
-echo ^<cachedir^>../fontconfig^</cachedir^>> "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
+REM echo ^<cachedir^>../fontconfig^</cachedir^>> "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 
 ::
 echo Copying portable .exe...
@@ -314,9 +314,9 @@ echo [smplayer]>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 echo check_if_upgraded=false>> "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 
 ::
-echo Creating mplayer config...
+REM echo Creating mplayer config...
 
-echo ^<cachedir^>../fontconfig^</cachedir^>> "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
+REM echo ^<cachedir^>../fontconfig^</cachedir^>> "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 
 ::
 echo Copying portable .exe...
