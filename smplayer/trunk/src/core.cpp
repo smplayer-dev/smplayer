@@ -2424,10 +2424,12 @@ void Core::startMplayer( QString file, double seek ) {
 		file = "ffmpeg://" + file;
 	}
 
+#if DVDNAV_SUPPORT
 	if (proc->isMPV() && file.startsWith("dvdnav:")) {
 		// Hack to open the DVD menu with MPV
 		file = "dvd://menu";
 	}
+#endif
 
 #ifdef Q_OS_WIN
 	if (pref->use_short_pathnames) {
