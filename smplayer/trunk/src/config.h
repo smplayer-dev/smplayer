@@ -102,8 +102,9 @@
 
 // DVDNAV_SUPPORT
 // if 1, smplayer will be compiled with support for mplayer's dvdnav
-
+#ifdef MPLAYER_SUPPORT
 #define DVDNAV_SUPPORT 1
+#endif
 
 
 // PROGRAM_SWITCH

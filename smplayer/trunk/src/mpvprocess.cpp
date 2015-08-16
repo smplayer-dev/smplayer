@@ -190,7 +190,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 		if (length != md.duration) {
 			md.duration = length;
+			#if DVDNAV_SUPPORT
 			emit receivedDuration(length);
+			#endif
 		}
 
 		if (paused) {
