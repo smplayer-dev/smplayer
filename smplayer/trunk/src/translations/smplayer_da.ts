@@ -478,7 +478,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1607"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Et billede ad gangen</translation>
+        <translation>&amp;Et billede frem</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1626"/>
@@ -865,13 +865,13 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1613"/>
         <source>Pause / Frame step</source>
-        <translation>Pause / Et billede ad gangen</translation>
+        <translation>Pause / Et billede frem</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <location filename="../basegui.cpp" line="1690"/>
         <source>U&amp;nload</source>
-        <translation>A&amp;findlæs/Aflæs/Fjern</translation>
+        <translation>Fjer&amp;n</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1570"/>
@@ -1792,7 +1792,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1986"/>
         <source>&amp;Closed captions</source>
-        <translation>&amp;Undertekster</translation>
+        <translation>&amp;Undertekster for hørehæmmende</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1848"/>
@@ -2635,7 +2635,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
         <source>%1 files available</source>
-        <translation>%1 filer tilgængelige</translation>
+        <translation>%1 tilgængelige filer</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
@@ -2650,7 +2650,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="51"/>
         <source>&amp;Subtitles for</source>
-        <translation>&amp;Undertekster til</translation>
+        <translation>&amp;Undertekster for</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="86"/>
@@ -2660,7 +2660,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation>&amp;Genopfrisk/Genindlæs/&amp;Opdater</translation>
+        <translation>&amp;Genindlæs/&amp;Opdater</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
@@ -2709,7 +2709,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation>&amp;Indstillinger1</translation>
+        <translation>&amp;Indstillinger</translation>
     </message>
 </context>
 <context>
@@ -6184,7 +6184,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
-        <translation>Pause / Et billede ad gangen</translation>
+        <translation>Pause / Et billede frem</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="75"/>
