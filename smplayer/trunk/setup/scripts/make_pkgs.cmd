@@ -248,7 +248,7 @@ del "%SMPLAYER_PORTABLE_DIR%\smplayer.ini"
 del "%SMPLAYER_PORTABLE_DIR%\smplayer_orig.ini"
 del "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
 ::del "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
-del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
+REM del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 ren "%SMPLAYER_PORTABLE_DIR%\smplayer.bak" smplayer.exe
 ::ren "%SMPLAYER_PORTABLE_DIR%\smtube.bak" smtube.exe
 ren "%SMPLAYER_PORTABLE_DIR%" smplayer-build
@@ -338,7 +338,7 @@ del "%SMPLAYER_PORTABLE_DIR%\smplayer.exe"
 ::del "%SMPLAYER_PORTABLE_DIR%\smtube.exe"
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe" mplayer64.exe
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe.bak32" mplayer.exe
-del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
+REM del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 ren "%SMPLAYER_PORTABLE_DIR%\smplayer.bak" smplayer.exe
 ::ren "%SMPLAYER_PORTABLE_DIR%\smtube.bak" smtube.exe
 ren "%SMPLAYER_PORTABLE_DIR%" smplayer-build64
