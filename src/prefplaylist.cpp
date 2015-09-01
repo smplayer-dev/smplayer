@@ -24,14 +24,7 @@ PrefPlaylist::PrefPlaylist(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
 	setupUi(this);
-
-	media_to_add_combo->addItem(tr("None"), Preferences::NoFiles);
-	media_to_add_combo->addItem(tr("Video files"), Preferences::VideoFiles);
-	media_to_add_combo->addItem(tr("Audio files"), Preferences::AudioFiles);
-	media_to_add_combo->addItem(tr("Video and audio files"), Preferences::MultimediaFiles);
-	media_to_add_combo->addItem(tr("Consecutive files"), Preferences::ConsecutiveFiles);
-
-	createHelp();
+	retranslateStrings();
 }
 
 PrefPlaylist::~PrefPlaylist()
@@ -48,6 +41,16 @@ QPixmap PrefPlaylist::sectionIcon() {
 
 void PrefPlaylist::retranslateStrings() {
 	retranslateUi(this);
+
+	int index = media_to_add_combo->currentIndex();
+	media_to_add_combo->clear();
+	media_to_add_combo->addItem(tr("None"), Preferences::NoFiles);
+	media_to_add_combo->addItem(tr("Video files"), Preferences::VideoFiles);
+	media_to_add_combo->addItem(tr("Audio files"), Preferences::AudioFiles);
+	media_to_add_combo->addItem(tr("Video and audio files"), Preferences::MultimediaFiles);
+	media_to_add_combo->addItem(tr("Consecutive files"), Preferences::ConsecutiveFiles);
+	media_to_add_combo->setCurrentIndex(index);
+
 	createHelp();
 }
 
