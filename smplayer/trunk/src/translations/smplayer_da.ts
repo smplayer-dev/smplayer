@@ -1249,7 +1249,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="5404"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation>Kontrollér venligst stien %1 i indstillinger.</translation>
+        <translation>Tjek venligst stien %1 i indstillinger.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5406"/>
@@ -4944,7 +4944,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefassociations.cpp" line="197"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>Ikke alle filer kunne filknyttes. Kontroller dine sikkerhedstilladelser og prøv igen.</translation>
+        <translation>Ikke alle filer kunne filknyttes. Tjek dine sikkerhedstilladelser og prøv igen.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="207"/>
@@ -7811,12 +7811,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="147"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Vælg denne indstilling, hvis du ønsker at tilføjelse af en mappe også skal inkludere filerne i alle dens underordnede mapper. Ellers er det kun filerne i den valgte mappe der vil blive tilføjet.</translation>
+        <translation>Slå denne indstilling til, hvis du ønsker at tilføjelse af en mappe også skal inkludere filerne i alle dens underordnede mapper. Ellers er det kun filerne i den valgte mappe der vil blive tilføjet.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="152"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Slå denne indstilling til for at anmode filerne der bliver tilføjet i spillelisten om nogle oplysninger. Det giver mulighed for at vise titelnavnet (hvis det er tilgængeligt) og filernes varighed. Ellers vil disse oplysninger ikke være tilgængelige før filen afspilles. Vær opmærksom på at denne indstilling kan være langsom, specielt hvis du tilføjer mange filer.</translation>
+        <translation>Slå denne indstilling til, for at anmode filerne der bliver tilføjet i spillelisten om nogle oplysninger. Det giver mulighed for at vise titelnavnet (hvis det er tilgængeligt) og filernes varighed. Ellers vil disse oplysninger ikke være tilgængelige før filen afspilles. Vær opmærksom på at denne indstilling kan være langsom, specielt hvis du tilføjer mange filer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
@@ -8464,7 +8464,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation>&amp;Tjek efter nye kanaler ved opstart</translation>
+        <translation>&amp;Søg efter nye kanaler ved opstart</translation>
     </message>
 </context>
 <context>
@@ -8487,7 +8487,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation>Åbn en side med &amp;oplysninger efter en opdatering</translation>
+        <translation>Åbn en side med &amp;oplysninger efter opdatering</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8517,7 +8517,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation>Åbn en side med oplysninger efter en opdatering</translation>
+        <translation>Åbn en side med oplysninger efter opdatering</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
@@ -9250,7 +9250,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../updatechecker.cpp" line="209"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation>Der opstod en fejl under forsøget på at hente oplysninger om den seneste version.</translation>
+        <translation>Der opstod en fejl under hentningen af oplysninger om den seneste version.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="210"/>
