@@ -48,6 +48,8 @@
   !define MPV_FILENAME "mpv-i686-20150616.7z"
 !endif
 
+  !define INSTALLER_VERSION "1"
+
 ;--------------------------------
 ;General
 
