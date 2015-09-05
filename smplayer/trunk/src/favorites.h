@@ -38,7 +38,15 @@ public:
 
 	void setName(QString name) { _name = name; };
 	void setFile(QString file) { _file = file; };
-	void setIcon(QString file) { _icon = file; };
+	void setIcon(QString file) {
+		// Fix wrong icon
+		if (file == ":/icons-png/openfolder.png" ||
+		    file == ":/default-theme/openfolder.png.png")
+		{
+			file = ":/default-theme/openfolder.png";
+		}
+		_icon = file;
+	};
 	void setSubentry(bool b) { is_subentry = b; }
 
 	QString name() { return _name; };
