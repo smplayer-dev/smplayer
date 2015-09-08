@@ -301,12 +301,20 @@ void RetrieveYoutubeUrl::videoInfoPageLoaded(QByteArray page) {
 	#endif
 
 	QByteArray fmtArray;
+	#if QT_VERSION >= 0x050000
+	fmtArray = all.queryItemValue("url_encoded_fmt_stream_map", QUrl::FullyDecoded).toLatin1();
+	#else
 	fmtArray = all.queryItemValue("url_encoded_fmt_stream_map").toLatin1();
+	#endif
 
-	#ifdef YT_DASH_SUPPORT
+#ifdef YT_DASH_SUPPORT
 	if (!fmtArray.isEmpty()) fmtArray += ",";
+	#if QT_VERSION >= 0x050000
+	fmtArray += all.queryItemValue("adaptive_fmts", QUrl::FullyDecoded).toLatin1();
+	#else
 	fmtArray += all.queryItemValue("adaptive_fmts").toLatin1();
 	#endif
+#endif
 
 	//qDebug() <<"RetrieveYoutubeUrl::videoInfoPageLoaded: fmtArray:" << fmtArray;
 
@@ -407,7 +415,11 @@ UrlMap RetrieveYoutubeUrl::extractURLs(QString fmtArray, bool allow_https, bool 
 	QUrlQuery * q = new QUrlQuery();
 	#endif
 
+	//qDebug() << "RetrieveYoutubeUrl::extractURLs: fmtArray:" << fmtArray;
+
 	QList<QByteArray> codeList = fmtArray.toLatin1().split(',');
+	//qDebug() << "RetrieveYoutubeUrl::extractURLs: codeList.count:" << codeList.count();
+
 	foreach(QByteArray code, codeList) {
 		code = QUrl::fromPercentEncoding(code).toLatin1();
 		//qDebug() << "RetrieveYoutubeUrl::extractURLs: code:" << code;
