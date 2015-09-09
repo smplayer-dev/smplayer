@@ -155,6 +155,9 @@ static QRegExp rx_mpv_playing("^Playing:.*|^\\[ytdl_hook\\].*");
 //static QRegExp rx_mpv_generic("^(.*)=(.*)");
 static QRegExp rx_mpv_generic("^([A-Z_]+)=(.*)");
 
+static QRegExp rx_stream_title("icy-title: (.*)");
+
+
 void MPVProcess::parseLine(QByteArray ba) {
 	//qDebug("MPVProcess::parseLine: '%s'", ba.data() );
 
@@ -397,6 +400,14 @@ void MPVProcess::parseLine(QByteArray ba) {
 				md.audios.addLang(ID, lang);
 			}
 			#endif
+		}
+		else
+
+		if (rx_stream_title.indexIn(line) > -1) {
+			QString s = rx_stream_title.cap(1);
+			qDebug("MPVProcess::parseLine: stream_title: '%s'", s.toUtf8().data());
+			md.stream_title = s;
+			emit receivedStreamTitle(s);
 		}
 		else
 

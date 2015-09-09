@@ -85,9 +85,9 @@ void MediaData::reset() {
 
 QString MediaData::displayName(bool show_tag) {
 	if (show_tag) {
-		if (!clip_name.isEmpty()) return clip_name;
-		else
 		if (!stream_title.isEmpty()) return stream_title;
+		else
+		if (!clip_name.isEmpty()) return clip_name;
 	}
 
 	QFileInfo fi(filename);
