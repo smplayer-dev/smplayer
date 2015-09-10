@@ -1,9 +1,33 @@
-[b]Version 14.9.0.x[/b]:
+[b]Version 15.9[/b]:
+
+(2015-09-08)
+ * (Qt 5) Fix YouTube (URL not found).
+
+(2015-09-05)
+ * Fix the openfolder icon in the favorites list.
+
+(2015-09-01)
+ * Use the DefaultGUI with the H2O theme as default.
+
+(2015-08-18)
+ * Apply patch to show the language in the subtitle display name.
+
+(2015-08-03)
+ * Possibility to compile without mplayer or mpv support.
 
 (2015-07-24)
  * Apply patch by Wilbert Hengs (wstudios at xs4all dot nl).
    It prevents the action for the left mouse button to run when
    dragging the video window.
+
+(2015-07-22)
+ * Fix for video track in mpv.
+
+(2015-07-19)
+ * Update the links to the SMPlayer website.
+
+(2015-07-09)
+ * New YouTube code.
 
 (2015-06-24)
  * Possibility to disable MPRIS2 in smplayer.ini (option use_mpris2).
