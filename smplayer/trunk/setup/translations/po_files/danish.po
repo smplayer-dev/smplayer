@@ -1,192 +1,155 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Michael Larsen <m_e_larsen@hotmail.com>, 2015
+# scootergrisen, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2015-08-04 01:01+0000\n"
+"Last-Translator: scootergrisen\n"
+"Language-Team: Danish (http://www.transifex.com/rvm/smplayer/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Installationsprogrammet kører allerede."
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Du skal være logget på som administrator når du installere dette program."
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "Styresystemet er ikke understøttet.[:n:]SMPlayer ${SMPLAYER_VERSION} kræver som minimum Windows XP og vil måske ikke virke korrekt på dit system.[:n:]Er du sikker på at du vil fortsætte installationen?"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Det kræver et 64-bit Windows-styresystem at installere denne software."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "Der findes allerede en 32-bit installation af SMPlayer. Du skal først afinstallere 32-bit SMPlayer."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "Der findes allerede en 64-bit installation af SMPlayer. Du skal først afinstallere 64-bit SMPlayer."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) installation"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Installationsprogrammet guider dig gennem installationen af $(^NameDA).[:r:][:n:][:r:][:n:]Det anbefales at du lukker alle forekomster af SMPlayer før installationen startes. Dermed kan de relevante programfiler opdateres uden at skulle genstarte din computer.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Genveje"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "MPlayer Komponenter"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Multimedie motor"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (påkrævet)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, delte biblioteker, og dokumentation."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Skrivebord"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Lav en genvej til SMPlayer på skrivebordet."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Menuen Start"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Tilføj SMPlayer i menuen Start."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (påkrævet)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; er påkrævet for at afspille."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Binære-codecs"
+
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
-msgstr "Binære-codecs er ikke understøttet i denne version."
-
-# YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
-msgstr "Download af YouTube-DL mislykkedes: '$R0'."
-
-# YTDL_DL_Retry
-msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr "YouTube-DL blev ikke korrekt installeret. Forsøg igen?"
-
-# MPV_Inst_Failed
-msgid "Failed to install MPV."
-msgstr "Installation af MPV mislykkedes."
-
-# MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
-msgstr "Hentning af MPV mislykkedes: '$R0'."
-
-# MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
-msgstr "MPV blev ikke korrekt installeret. Prøv igen?"
-
-# MPV_DL_Msg
-msgid "Downloading MPV..."
-msgstr "Henter MPV..."
-
-# Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
-msgstr "Gendanner MPV fra tidligere installation..."
-
-# Info_MPV_Backup
-msgid "Backing up MPV..."
-msgstr "Opretter backup af MPV..."
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr "Gendanner SMTube fra tidligere installation..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr "Opretter backup af SMTube..."
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "Udpakker filer..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr "Gendanner ændringer..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "Gendanner filtilknytninger..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "Sletter genveje..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "Sletter registreringsdatabasenøgler..."
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "Sletter filer..."
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr "Gendanner codecs fra tidligere installation..."
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr "Foretager backup af codecs fra tidligere installation..."
-
-# Application_Description
 msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-"SMPlayer er en komplet brugerflade til MPlayer, fra grundlæggende "
-"funktionalitet såsom at afspille videoer, DVD'er, VCD'er til avanceret "
-"funktionalitet såsom understøttelse af MPlayer filtre, EDL lister, og andet."
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "Yderligere codecs til MPlayer. (kræver internetforbindelse for at installere)"
 
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "Denne installation kan kun afinstalleres på 64-bit Windows."
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "En funktionsrig fork af MPlayer og MPlayer2"
 
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "SMPlayer-installation blev ikke fundet."
-
-# Uninstaller_NotInstalled
+# Section_MEncoder_Desc
 msgid ""
-"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
-"r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-"Det ser ikke ud til at SMPlayer er installeret i mappen '$INSTDIR'.[:r:][:n:]"
-"Fortsæt alligevel (anbefales ikke)?"
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr "Et medfølgende program til MPlayer der kan bruges til at indkode eller transformere understøttede lyd- og videostreams."
 
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "Afinstallation afbrudt af bruger."
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Ikon-temaer"
 
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr ""
-"Denne installation kan kun afinstalleres af en bruger med administrator "
-"tilladelser."
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Yderligere ikon-temaer til SMPlayer."
 
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "Installation af MPlayer-codecs mislykkedes."
+# Section_Translations
+msgid "Languages"
+msgstr "Sprog"
 
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Hentning af MPlayer-codecs mislykkedes: '$R0'."
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Ikke-engelske sprogfiler til SMPlayer."
 
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "MPlayer codecs blev ikke installeret korrekt. Prøv igen?"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "Henter MPlayer-codecs..."
-
-# StartBtn
-msgid "Start"
-msgstr "Start"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "opgrader"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "nedgrader"
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "geninstaller"
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "Nulstil min SMPlayer-opsætning"
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "Skift installationsindstillinger"
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "Klik på Afinstaller når du er klar til at fortsætte."
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "Klik på Næste når du er klar til at fortsætte."
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "Klik på Start når du er klar til at fortsætte."
-
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Afinstaller (fjern) den eksisterende installation"
-
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "Overskriv ($Inst_Type) den eksisterende installation"
-
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "Vælg venligst hvordan du vil fortsætte:"
-
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "Du har en eksisterende installation af SMPlayer i følgende mappe:"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "Vælg Overskriv eller Afinstaller."
-
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Vælg installationstype"
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "Sletter SMPlayer indstillinger fra tidligere installationer."
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -194,173 +157,187 @@ msgid ""
 "implemented natively, like newer RealVideo variants and a lot of uncommon "
 "formats.[:n:]Note that they are not necessary to play most common formats "
 "like DVDs, MPEG-1/2/4, etc."
-msgstr ""
-"De binære-codec pakker tilføjer understøttelse af codecs som endnu ikke er "
-"implementeret fra starten, såsom nyere RealVideo-varianter og mange "
-"ualmindelige formater.[:n:]Bemærk at de ikke kræves for at kunne afspiller "
-"de mest almindelige formater såsom DVD'er, MPEG-1/2/4, osv."
+msgstr "De binære-codec pakker tilføjer understøttelse af codecs som endnu ikke er implementeret fra starten, såsom nyere RealVideo-varianter og mange ualmindelige formater.[:n:]Bemærk at de ikke kræves for at kunne afspiller de mest almindelige formater såsom DVD'er, MPEG-1/2/4, osv."
 
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "Sletter SMPlayer indstillinger fra tidligere installationer."
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Vælg installationstype"
 
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Ikke-engelske sprogfiler til SMPlayer."
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Vælg Overskriv eller Afinstaller."
 
-# Section_Translations
-msgid "Languages"
-msgstr "Sprog"
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Du har en eksisterende installation af SMPlayer i følgende mappe:"
 
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Yderligere ikon-temaer til SMPlayer."
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Vælg venligst hvordan du vil fortsætte:"
 
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Ikon-temaer"
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Overskriv ($Inst_Type) den eksisterende installation"
 
-# Section_MEncoder_Desc
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Afinstaller (fjern) den eksisterende installation"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Klik på Start når du er klar til at fortsætte."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Klik på Næste når du er klar til at fortsætte."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Klik på Afinstaller når du er klar til at fortsætte."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Skift installationsindstillinger"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "Nulstil mine SMPlayer indstillinger"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "geninstaller"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "nedgrader"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "opgrader"
+
+# StartBtn
+msgid "Start"
+msgstr "Start"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "Henter MPlayer-codecs..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "MPlayer codecs blev ikke installeret korrekt. Prøv igen?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "Hentning af MPlayer-codecs mislykkedes: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "Installation af MPlayer-codecs mislykkedes."
+
+# Uninstaller_No_Admin
 msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
-msgstr ""
-"Et medfølgende program til MPlayer der kan bruges til at indkode eller "
-"transformere understøttede lyd- og videostreams."
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "Denne installation kan kun afinstalleres af en bruger med administrator tilladelser."
 
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "En funktionsrig fork af MPlayer og MPlayer2"
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Afinstallation afbrudt af bruger."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr "Det ser ikke ud til at SMPlayer er installeret i mappen '$INSTDIR'.[:r:][:n:]Fortsæt alligevel (anbefales ikke)?"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "SMPlayer-installation blev ikke fundet."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Denne installation kan kun afinstalleres på 64-bit Windows."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr "SMPlayer er en komplet brugerflade til MPlayer, fra grundlæggende funktionalitet såsom at afspille videoer, DVD'er, VCD'er til avanceret funktionalitet såsom understøttelse af MPlayer filtre, EDL lister, og andet."
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "Foretager backup af codecs fra tidligere installation..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "Gendanner codecs fra tidligere installation..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Sletter filer..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Sletter registreringsdatabasenøgler..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Sletter genveje..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Gendanner filtilknytninger..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Gendanner ændringer..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Udpakker filer..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "Opretter backup af SMTube..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "Gendanner SMTube fra tidligere installation..."
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr "Opretter backup af MPV..."
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr "Gendanner MPV fra tidligere installation..."
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr "Henter MPV..."
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr "MPV blev ikke korrekt installeret. Prøv igen?"
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr "Hentning af MPV mislykkedes: '$R0'."
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr "Installation af MPV mislykkedes."
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr "YouTube-DL blev ikke korrekt installeret. Forsøg igen?"
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr "Download af YouTube-DL mislykkedes: '$R0'."
 
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr ""
-"Yderligere codecs til MPlayer. (kræver internetforbindelse for at installere)"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Binære-codecs"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer; er påkrævet for at afspille."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (påkrævet)"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Tilføj SMPlayer i menuen Start."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Menuen Start"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Lav en genvej til SMPlayer på skrivebordet."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Skrivebord"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "SMPlayer, delte biblioteker, og dokumentation."
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (påkrævet)"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "Multimedie motor"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "MPlayer Komponenter"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Genveje"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
-"n:]It is recommended that you close all instances of SMPlayer before "
-"starting setup. This will make it possible to update relevant program files "
-"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-"Installationsprogrammet guider dig gennem installationen af $(^NameDA).[:r:]"
-"[:n:][:r:][:n:]Det anbefales at du lukker alle forekomster af SMPlayer før "
-"installationen startes. Dermed kan de relevante programfiler opdateres uden "
-"at skulle genstarte din computer.[:r:][:n:][:r:][:n:]$_CLICK"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) installation"
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
-"bit SMPlayer first."
-msgstr ""
-"Der findes allerede en 64-bit installation af SMPlayer. Du skal først "
-"afinstallere 64-bit SMPlayer."
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
-"bit SMPlayer first."
-msgstr ""
-"Der findes allerede en 32-bit installation af SMPlayer. Du skal først "
-"afinstallere 32-bit SMPlayer."
-
-# Win64_Required
-msgid "A 64-bit Windows operating system is required to install this software."
-msgstr "Det kræver et 64-bit Windows-styresystem at installere denne software."
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr ""
-"Styresystemet er ikke understøttet.[:n:]SMPlayer ${SMPLAYER_VERSION} kræver "
-"som minimum Windows XP og vil måske ikke virke korrekt på dit system.[:n:]Er "
-"du sikker på at du vil fortsætte installationen?"
-
-# SMPlayer_Is_Running
-msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
-
-# Installer_No_Admin
-msgid "You must be logged in as an administrator when installing this program."
-msgstr ""
-"Du skal være logget på som administrator når du installere dette program."
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "Installationsprogrammet kører allerede."
-
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Translators:
-# Michael Larsen <m_e_larsen@hotmail.com>, 2015
-# scootergrisen, 2015
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-04-01 23:26+0000\n"
-"Last-Translator: scootergrisen\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/smplayer/language/"
-"da/)\n"
-"Language: da\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+msgid "Binary codecs are not supported in this version."
+msgstr "Binære-codecs er ikke understøttet i denne version."
