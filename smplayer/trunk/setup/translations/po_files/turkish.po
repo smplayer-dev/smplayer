@@ -1,0 +1,344 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Emre FIRAT <emrefirat93@gmail.com>, 2014-2015
+# yakup <mutouk@yandex.ru>, 2014
+# yakup <mutouk@yandex.ru>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2015-07-15 03:48+0000\n"
+"Last-Translator: Emre FIRAT <emrefirat93@gmail.com>\n"
+"Language-Team: Turkish (http://www.transifex.com/rvm/smplayer/language/tr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Kurulum zaten çalışıyor."
+
+# Installer_No_Admin
+msgid ""
+"You must be logged in as an administrator when installing this program."
+msgstr "Bu programı yüklerken yönetici olarak oturum açmanız gerekir."
+
+# SMPlayer_Is_Running
+msgid ""
+"An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "SMPlayer bir örneği çalışıyor. SMPlayer'ı kapatın ve tekrar deneyin."
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr "İşletim sistemi desteklenmiyor.[:n:]SMPlayer ${SMPLAYER_VERSION} en az Windows XP gerektirir ve sisteminizde düzgün çalışmayabilir.[:n:]Gerçekten kuruluma devam etmek istiyor musunuz?"
+
+# Win64_Required
+msgid ""
+"A 64-bit Windows operating system is required to install this software."
+msgstr "Bu yazılım kurulumu için 64-bit Windows işletim sistemi gerekli."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall "
+"32-bit SMPlayer first."
+msgstr "SMPlayer için varolan bir 32-bit yükleme var. Öncelikle 32-bit SMPlayer'ı kaldırmanız gerekir."
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall "
+"64-bit SMPlayer first."
+msgstr "SMPlayer için varolan bir 64-bit yükleme var. Öncelikle 64-bit SMPlayer'ı kaldırmanız gerekir."
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Kurulum"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of "
+"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
+"instances of SMPlayer before starting setup. This will make it possible to "
+"update relevant program files without having to reboot your "
+"computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr "Kurulum $(^NameDA) 'ın kurulumunda size rehberlik edecek.[:r:][:n:][:r:][:n:]Kurulum başlamadan önce SMPlayer'ın tüm benzerlerini kapatmanız önerilir. Bu bilgisayarınızı yeniden başlatmak zorunda kalmadan ilgili program dosyalarını güncellemek mümkün olacaktır.[:r:][:n:][:r:][:n:]$_CLICK"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Kısayollar"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "MPlayer Bileşenleri"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Multimedya Motoru"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (gerekli)"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "SMPlayer, paylaşımlı kütüphaneleri, ve dökümanı."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Masaüstü"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Masaüstünde SMPlayer kısayolu oluşturacak."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Başlat Menüsü"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "SMPlayer için Başlat Menüsünde giriş oluşturulacak."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (gerekli)"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer; oynatmak için gerekli."
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "İkili Kodekleri"
+
+# Section_MPlayerCodecs_Desc
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "MPlayer için isteğe bağlı kodekler. (Kurulum için internet bağlantısı gereklidir)"
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr ""
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr ""
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Simge Temaları"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "SMPlayer için ek simge temaları."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Diller"
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "SMPlayer için ingilizce olmayan dil dosyaları."
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "SMPlayer'in önceki kurulum tercihleri silinir."
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr ""
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Kurulum Tipini Seç"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "Üzerine yazma veya kaldırma modunu seç."
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "Aşağıdaki klasörde SMPlayer'ın var olan bir kurulumu var:"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "Lütfen nasıl devam edeceğinizi seçin:"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr "Önceki kurulum ($Inst_Type) üzerine yaz"
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Varolan yüklemeyi kaldırın (sil)"
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "Hazır olduğunuzda devam etmek başlata tıklatın."
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "Hazır olduğunuzda devam etmek ileri'yi tıklatın."
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "Hazır olduğunuzda devam etmek Kaldır'ı tıklatın."
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "Kurulum Ayarlarını Değiştir"
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "SMPlayer yapılandırmasını sıfırla"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "tekrar kur"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "gerilet"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "güncelle"
+
+# StartBtn
+msgid "Start"
+msgstr "Başlat"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "MPlayer Kodekleri İndiriliyor..."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "MPlayer kodekleri kurulumu başarısız oldu. Tekrar denensin mi?"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "MPlayer kodekleri indirilmesi başarısız oldu: '$R0'."
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "MPlayer kodekleri kurulumu başarısız oldu."
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr "Bu kurulum sadece yönetici ayrıcalıklarına sahip bir kullanıcı tarafından kaldırılabilir."
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "Kaldırma kullanıcı tarafından iptal edildi."
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory "
+"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
+msgstr ""
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "SMPlayer kurulumu bulunamadı."
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "Bu yükleme yalnızca 64-bit Windows üzerinde kaldırılabilir."
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr ""
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "Önceki kurulumdan kodekler yedekleniyor..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "Önceki kurulumdaki kodekleri yenileniyor..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Dosyalar Siliniyor..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Kayıt Anahtarları Siliniyor..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Kısayollar Siliniyor..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "Dosya ilişkileri yenileniyor..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "Değişiklikler geri alınıyor..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Dosyaları ayıklanıyor..."
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "SMTube Yedekleniyor..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "SMTube önceki kurulumdan geri yükleniyor..."
+
+# Info_MPV_Backup
+msgid "Backing up MPV..."
+msgstr "MPV Yedekleniyor..."
+
+# Info_MPV_Restore
+msgid "Restoring MPV from previous installation..."
+msgstr "MPV önceki kurulumdan geri yükleniyor..."
+
+# MPV_DL_Msg
+msgid "Downloading MPV..."
+msgstr "MPV İndiriliyor..."
+
+# MPV_DL_Retry
+msgid "MPV was not successfully installed. Retry?"
+msgstr "MPV kurulamadı. Tekrar denemek ister misiniz?"
+
+# MPV_DL_Failed
+msgid "Failed to download MPV: '$R0'."
+msgstr "MPV İndirilirken bir hata oldu: '$R0'."
+
+# MPV_Inst_Failed
+msgid "Failed to install MPV."
+msgstr "MPV kurulamadı."
+
+# YTDL_DL_Retry
+msgid "YouTube-DL was not successfully installed. Retry?"
+msgstr "YouTube-DL kurulamadı. Tekrar denemek ister misiniz?"
+
+# YTDL_DL_Failed
+msgid "Failed to download Youtube-DL: '$R0'."
+msgstr "Youtube-DL İndirilemedi : '$R0'."
+
+# Section_MPlayerCodecs_Desc
+msgid "Binary codecs are not supported in this version."
+msgstr "İkili Kodekler bu sürüm için desteklenmiyor."
