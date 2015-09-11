@@ -13,87 +13,179 @@ X-KDE-StartupNotify=false
 Comment[ar]=واجهة-طرفية ممتازة للمشغل MPlayer
 GenericName[ar]=مشغل وسائط
 
-Comment[bg]=Чудесното MPlayer оформление
+Comment[bg]=Чудесната MPlayer обвивка.
 GenericName[bg]=Медиен плейър
+Name[bg]=SMPlayer
+Icon[bg]=smplayer
 
 Comment[cs]=Skvělý front-end MPlayeru
 GenericName[cs]=Přehrávač
+Name[cs]=SMPlayer
+Icon[cs]=smplayer
+
+Comment[da]=En fremragende MPlayer-brugerflade
+GenericName[da]=Medieafspiller
+Name[da]=SMPlayer
+Icon[da]=smplayer
 
 Comment[de]=Eine tolle MPlayer-Vorderseite
 GenericName[de]=Medienwiedergabe
+Name[de]=SMPlayer
+Icon[de]=smplayer
+
+Comment[el]=Ένα σπουδαίο περιβάλλον χρήστη για το MPlayer
+GenericName[el]=Αναπαραγωγέας πολυμέσων
+Name[el]=SMPlayer
+Icon[el]=smplayer
 
 Comment[en_GB]=A great MPlayer front-end
 GenericName[en_GB]=Media Player
+Name[en_GB]=SMPlayer
+Icon[en_GB]=smplayer
 
-Comment[es]=Un magnífico reproductor multimedia
+Comment[es]=Un magnífico interfaz gráfico para el MPlayer
 GenericName[es]=Reproductor multimedia
+Name[es]=SMPlayer
+Icon[es]=smplayer
 
 Comment[eu]=MPlayer aurrealde bikain bat
 GenericName[eu]=Multimedia Irakurgailua
+Name[eu]=SMPlayer
+Icon[eu]=smplayer
+
+Comment[fa]=یک رابط کاربری عالی برای MPlayer
+GenericName[fa]=پخش‌کننده رسانه
+Name[fa]=SMPlayer
+Icon[fa]=smplayer
 
 Comment[fr]=Une excellente interface pour MPlayer
 GenericName[fr]=Lecteur média
+Name[fr]=SMPlayer
+Icon[fr]=smplayer
 
 Comment[gl]=Unha excelente interface para MPlayer
 GenericName[gl]=Reprodutor multimedia
+Name[gl]=SMPlayer
+Icon[gl]=smplayer
 
 Comment[he]=מגשר חזיתי MPlayer נהדר
 GenericName[he]=נגן מדיה
 
 Comment[hr]=Odlično MPlayer grafičko sučelje
 GenericName[hr]=Medijski reproduktor
+Name[hr]=SMPlayer
+Icon[hr]=smplayer
 
 Comment[id]=MPlayer luar biasa dengan antarmuka
 GenericName[id]=Media Player
+Name[id]=SMPlayer
+Icon[id]=smplayer
+
+Comment[it]=Un grande front-end per MPlayer
+GenericName[it]=Media Player
+Name[it]=SMPlayer
+Icon[it]=smplayer
 
 Comment[ja]=高性能 MPlayer フロントエンド
 GenericName[ja]=メディア プレーヤー
+Name[ja]=SMPlayer
+Icon[ja]=smplayer
 
 Comment[ko]=뛰어난 MPlayer 프론트엔드
 GenericName[ko]=미디어 재생기
+Name[ko]=SMPlayer
+Icon[ko]=smplayer
 
 Comment[lt]=Nuostabi MPlayer sąsaja
 GenericName[lt]=Media grotuvas
+Name[lt]=SMPlayer
+Icon[lt]=smplayer
 
 Comment[sq_AL]=Nje front-end i mrekullueshem per MPlayer.
 GenericName[sq_AL]=Media Player
+Name[sq_AL]=SMPlayer
+Icon[sq_AL]=smplayer
+
+Comment[nqo]=ߡߔߑߟߋߦߊ ߢߊߞߘߐߟߊ ߓߘߍߓߊ
+GenericName[nqo]=ߞߟߋߞߟߋ  ߘߐߞߊߙߊ߲ߝߋ߲
 
 Comment[nl]=Een geweldig MPlayer-front-end
 GenericName[nl]=Mediaspeler
+Name[nl]=SMPlayer
+Icon[nl]=smplayer
 
 Comment[pl]=Świetna nakładka dla MPlayera
-GenericName[pl]=Odtwarzacz multimedialny
+GenericName[pl]=Odtwarzacz mediów
+Name[pl]=SMPlayer
+Icon[pl]=smplayer
 
 Comment[pt]=Uma interface para o MPlayer
 GenericName[pt]=Reprodutor multimédia
+Name[pt]=SMPlayer
+Icon[pt]=smplayer
 
 Comment[pt_BR]=Uma excelente interface gráfica para o MPlayer
 GenericName[pt_BR]=Reprodutor de mídias
+Name[pt_BR]=SMPlayer
+Icon[pt_BR]=smplayer
 
-Comment[ru]=Замечательная оболочка для MPlayer
+Comment[ru]=Отличная оболочка для MPlayer
 GenericName[ru]=Проигрыватель мультимедиа
+Name[ru]=SMPlayer
+Icon[ru]=smplayer
 
 Comment[sk]=Skvelá nadstavba MPlayer-u
 GenericName[sk]=Multimediálny prehrávač
+Name[sk]=SMPlayer
+Icon[sk]=smplayer
 
-Comment[sr]=Сјајно МПлејер сучеље
+Comment[sr]=Сјајно прочеље за МПлејер
 GenericName[sr]=Медија плејер
+Name[sr]=СМПлејер
+Icon[sr]=smplayer
+
+Comment[sv]=En mäktig framände till MPlayer
+GenericName[sv]=Media Spelare
+Name[sv]=SMPlayer
+Icon[sv]=smplayer
+
+Comment[th]=MPlayer front-end ที่ยอดเยี่ยม
+GenericName[th]=เครื่องเล่นสื่อ
+Name[th]=SMPlayer
+Icon[th]=smplayer
 
 Comment[tr]=MPlayer harika bir ön uç
 GenericName[tr]=Medya Oynatıcı
+Name[tr]=SMPlayer
+Icon[tr]=smplayer
 
-GenericName[uk]=Media Player
+Comment[uk]=Відмінний інтерфейс MPlayer
+GenericName[uk]=Медія-програвач
+Name[uk]=SMPlayer
+Icon[uk]=smplayer
+
+Comment[vi]=Giao diện tuyệt vời cho MPlayer/mpv
 
 Comment[zh_CN]=强大的 MPlayer 前端
 GenericName[zh_CN]=多媒体播放器
+Name[zh_CN]=SMPlayer
+Icon[zh_CN]=smplayer
 
 Comment[zh_TW]=一個優秀的 MPlayer 前端介面程式 
 GenericName[zh_TW]=媒體播放器
+Name[zh_TW]=SMPlayer
+Icon[zh_TW]=smplayer
 
 Comment[ms_MY]=Merupakan bahagian-hadapan MPlayer yang hebat
 GenericName[ms_MY]=Pemain Media
+Name[ms_MY]=SMPlayer
+Icon[ms_MY]=smplayer
 
 GenericName[km]=កម្មវិធី​ចាក់​មេឌា
+Name[km]=SMPlayer
+Icon[km]=smplayer
 
 Comment[nn_NO]=Eit fantastisk brukargrensesnitt for MPlayer
 GenericName[nn_NO]=Mediaspelar
+Name[nn_NO]=SMPlayer
+Icon[nn_NO]=smplayer
