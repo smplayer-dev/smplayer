@@ -4,7 +4,7 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
-!insertmacro LANGFILE "Indonesian" "Indonesian"
+!insertmacro LANGFILE "Indonesian" "Bahasa Indonesia"
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Pemasang telah berjalan."
