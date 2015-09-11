@@ -70,7 +70,7 @@ ${LangFileString} Reinstall_Msg3_1 "Klik på Start når du er klar til at forts�
 ${LangFileString} Reinstall_Msg3_2 "Klik på Næste når du er klar til at fortsætte."
 ${LangFileString} Reinstall_Msg3_3 "Klik på Afinstaller når du er klar til at fortsætte."
 ${LangFileString} Reinstall_Msg4 "Skift installationsindstillinger"
-${LangFileString} Reinstall_Msg5 "Nulstil min SMPlayer-opsætning"
+${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
 
 ${LangFileString} Type_Reinstall "geninstaller"
 ${LangFileString} Type_Downgrade "nedgrader"
