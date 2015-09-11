@@ -4,7 +4,7 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
-!insertmacro LANGFILE "Galician" "Galician"
+!insertmacro LANGFILE "Galician" "Galego"
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Xa se está executando o instalador."
