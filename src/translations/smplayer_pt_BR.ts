@@ -9518,7 +9518,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="33"/>
         <source>Default</source>
-        <translation>Omissão</translation>
+        <translation>Padrão</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
