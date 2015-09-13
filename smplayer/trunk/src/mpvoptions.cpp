@@ -804,7 +804,8 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 
 void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString font = styles.fontname;
-	arg << "--sub-text-font=" + font.replace(" ", "");
+	//arg << "--sub-text-font=" + font.replace(" ", "");
+	arg << "--sub-text-font=" + font;
 	arg << "--sub-text-color=#" + ColorUtils::colorToRRGGBB(styles.primarycolor);
 
 	if (styles.borderstyle == AssStyles::Outline) {
