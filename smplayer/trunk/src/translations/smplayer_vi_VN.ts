@@ -29,7 +29,7 @@
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"/>
+        <translation>Bấm vào đây để tìm hiểu về các dịch giả từ nhóm transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="156"/>
@@ -936,7 +936,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="2038"/>
         <source>%1 log</source>
-        <translation type="unfinished"/>
+        <translation>%1 bản ghi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
@@ -975,22 +975,22 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="1608"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"/>
+        <translation>Lùi khung hình</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1627"/>
         <source>&amp;Half speed</source>
-        <translation type="unfinished"/>
+        <translation>Nửa tốc độ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1643"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"/>
+        <translation>Trình tạo hình thu nhỏ...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1647"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"/>
+        <translation>Bộ lọc 3D Stereo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1665"/>
@@ -1177,22 +1177,22 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="1974"/>
         <source>&amp;Mono</source>
-        <translation type="unfinished"/>
+        <translation>Đơn kênh</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1975"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"/>
+        <translation>Đảo ngược</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"/>
+        <translation>Rãnh phụ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"/>
+        <translation>Khung trên giây</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4659"/>
@@ -1207,7 +1207,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="4661"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"/>
+        <translation>Thật không may, thành phần OpenSSL được yêu cầu không khả dụng trong hệ thống của bạn.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4662"/>
@@ -1217,7 +1217,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="4663"/>
         <source>this link</source>
-        <translation type="unfinished"/>
+        <translation>liên kết này</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4673"/>
@@ -1234,37 +1234,37 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <location filename="../basegui.cpp" line="5381"/>
         <location filename="../basegui.cpp" line="5401"/>
         <source>%1 Error</source>
-        <translation type="unfinished"/>
+        <translation>%1 Lỗi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5382"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 đã đột ngột kết thúc.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5403"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"/>
+        <translation>Không thể khởi động %1.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5404"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"/>
+        <translation>Hãy kiểm tra đường dẫn %1 trong tuỳ chọn.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5406"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"/>
+        <translation>%1 đã bị lỗi.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5484"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"/>
+        <translation>Chưa cài đặt Trình duyệt YouTube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5485"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"/>
+        <translation>Truy cập %1 để tải.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4676"/>
@@ -1274,7 +1274,7 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
     <message>
         <location filename="../basegui.cpp" line="4682"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Bạn muốn cập nhật mã Youtube? Việc này có thể khắc phục vấn đề.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4690"/>
