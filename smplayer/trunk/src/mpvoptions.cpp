@@ -366,15 +366,15 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "blur") {
-		addVFIfAvailable("unsharp", "la=-1.5:ca=-1.5");
+		addVFIfAvailable("lavfi", "[unsharp=la=-1.5:ca=-1.5]");
 	}
 	else
 	if (filter_name == "sharpen") {
-		addVFIfAvailable("unsharp", "la=1.5:ca=1.5");
+		addVFIfAvailable("lavfi", "[unsharp=la=1.5:ca=1.5]");
 	}
 	else
 	if (filter_name == "noise") {
-		arg << "--vf-add=noise=9:pattern=yes";
+		addVFIfAvailable("lavfi", "[noise=alls=9:allf=t]");
 	}
 	else
 	if (filter_name == "deblock") {
@@ -391,6 +391,12 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	else
 	if (filter_name == "postprocessing") {
 		addVFIfAvailable("lavfi", "[pp]");
+	}
+	else
+	if (filter_name == "hqdn3d") {
+		QString o;
+		if (!option.isEmpty()) o = "=" + option;
+		addVFIfAvailable("lavfi", "[hqdn3d" + o +"]");
 	}
 	else
 	if (filter_name == "yadif") {
@@ -717,15 +723,15 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	}
 	else
 	if (filter == "noise") {
-		f = "noise=9:pattern=yes";
+		f = "lavfi=[noise=alls=9:allf=t]";
 	}
 	else
 	if (filter == "blur") {
-		f = "unsharp=la=-1.5:ca=-1.5";
+		f = "lavfi=[unsharp=la=-1.5:ca=-1.5]";
 	}
 	else
 	if (filter == "sharpen") {
-		f = "unsharp=la=1.5:ca=1.5";
+		f = "lavfi=[unsharp=la=1.5:ca=1.5]";
 	}
 	else
 	if (filter == "deblock") {
@@ -742,6 +748,12 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 	else
 	if (filter == "postprocessing") {
 		f = "lavfi=[pp]";
+	}
+	else
+	if (filter == "hqdn3d") {
+		QString o = option.toString();
+		if (!o.isEmpty()) o = "=" + o;
+		f = "lavfi=[hqdn3d" + o +"]";
 	}
 	else
 	if (filter == "rotate") {
@@ -767,7 +779,7 @@ void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & 
 		f = filter;
 	}
 	else
-	if (filter == "scale" || filter == "gradfun" || filter == "hqdn3d") {
+	if (filter == "scale" || filter == "gradfun") {
 		f = filter;
 		QString o = option.toString();
 		if (!o.isEmpty()) f += "=" + o;
