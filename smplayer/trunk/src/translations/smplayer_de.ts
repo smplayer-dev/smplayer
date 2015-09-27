@@ -2041,10 +2041,6 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">Willkommen beim SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>Ton</translation>
@@ -2072,7 +2068,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Bereit</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2475,13 +2471,9 @@ Beispiel: extrastereo,karaoke</translation>
         <translation>Wählen Sie die zu verwendende Art des Proxys.</translation>
     </message>
     <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">Erweiterte Optionen</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">Optionen</translation>
+        <translation>Optionen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -4135,10 +4127,6 @@ Möchten Sie sie überschreiben?</translation>
 </context>
 <context>
     <name>LogWindowBase</name>
-    <message>
-        <source>Log Window</source>
-        <translation type="obsolete">Protokollfenster</translation>
-    </message>
     <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>

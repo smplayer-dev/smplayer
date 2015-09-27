@@ -2041,10 +2041,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">SMPlayer에 오신 것을 환영합니다</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>오디오</translation>
@@ -2072,7 +2068,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>준비완료</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2475,13 +2471,9 @@ Example: extrastereo,karaoke</source>
         <translation>사용할 프락시 형식을 선택하세요.</translation>
     </message>
     <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">고급 옵션</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">옵션</translation>
+        <translation>옵션</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -4134,10 +4126,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>LogWindowBase</name>
-    <message>
-        <source>Log Window</source>
-        <translation type="obsolete">로그 창</translation>
-    </message>
     <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>

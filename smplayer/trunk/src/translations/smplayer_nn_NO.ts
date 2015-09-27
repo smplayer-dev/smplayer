@@ -2041,10 +2041,6 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">Velkomen til SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>Lyd</translation>
@@ -2471,10 +2467,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
         <translation>Vel mellomtenartype.</translation>
-    </message>
-    <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">Avanserte val</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -4132,10 +4124,6 @@ Vil du skriva over?</translation>
 </context>
 <context>
     <name>LogWindowBase</name>
-    <message>
-        <source>Log Window</source>
-        <translation type="obsolete">Logg-vindauge</translation>
-    </message>
     <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>

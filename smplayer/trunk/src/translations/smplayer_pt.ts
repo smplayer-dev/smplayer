@@ -2041,10 +2041,6 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">Bem-vindo ao SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>Áudio</translation>
@@ -2072,7 +2068,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Preparado</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2373,7 +2369,7 @@ Exemplo: scale=512:-2,mirror</translation>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation>Finalmente os filtros de áudio. Regras iguais às dos filtros de vídeo.
+        <translation>Finalmente, os filtros de áudio. Regras iguais às dos filtros de vídeo.
 Exemplo: extrastereo,karaoke</translation>
     </message>
     <message>
@@ -2475,13 +2471,9 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>Selecione o tipo de proxy utilizado.</translation>
     </message>
     <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">Opções avançadas</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">Opções</translation>
+        <translation>Opções</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -2594,7 +2586,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
         <source>Search has failed</source>
-        <translation>Erro ao procurar</translation>
+        <translation>Erro ao pesquisar</translation>
     </message>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
@@ -4136,10 +4128,6 @@ Substituir?</translation>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <source>Log Window</source>
-        <translation type="obsolete">Janela de registos</translation>
-    </message>
-    <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
@@ -4730,7 +4718,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Se ativar esta opção, o SMPlayer guarda as informações de saída do %1 (pode ver os registos  em&lt;b&gt; Opções-&gt;Ver registos-&gt;%1&lt;/b&gt;). Em caso de problemas, este registo pode conter informação importante, por isso recomenda-se manter a opção ativa.</translation>
+        <translation>Se ativar esta opção, o SMPlayer guarda as informações de saída do %1 (pode ver os registos  em&lt;b&gt; Opções -&gt; Ver registos -&gt; %1&lt;/b&gt;). Em caso de problemas, este registo pode conter informações importantes. Por isso, recomenda-se manter a opção ativa.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
@@ -4836,7 +4824,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="477"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation>Ativa o modo experimental  do %1, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os pts corretos, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
+        <translation>Ativa o modo experimental do %1, no qual as imagens para as frames de vídeo são calculadas de forma diferente, pois os filtros de vídeo adicionam novas frames ou modificam as existentes. As imagens mais precisas podem ser vistas ao mostras legendas temporizadas que alterem as bibliotecas SSA/ASS ativas. Sem os pts corretos, esta legendas poderão sair das imagens em algumas cenas. Esta opção não funciona corretamente com alguns demuxers e codificadores.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>

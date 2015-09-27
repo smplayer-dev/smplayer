@@ -2041,10 +2041,6 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">Velkommen til SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>Lyd</translation>
@@ -2072,7 +2068,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Klar</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2475,13 +2471,9 @@ Eksempel: extrastereo,karaoke</translation>
         <translation>Vælg den type proxy der skal bruges.</translation>
     </message>
     <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">Avancerede indstillinger</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">Indstillinger2</translation>
+        <translation>Indstillinger</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -4135,10 +4127,6 @@ Vil du overskrive den?</translation>
 </context>
 <context>
     <name>LogWindowBase</name>
-    <message>
-        <source>Log Window</source>
-        <translation type="obsolete">Log-vindue</translation>
-    </message>
     <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>

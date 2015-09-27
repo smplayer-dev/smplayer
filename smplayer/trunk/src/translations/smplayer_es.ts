@@ -808,16 +808,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Donar / Compartir SMPlayer con tus amigos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2038"/>
-        <source>%1 log</source>
-        <translation>Log del %1</translation>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2041"/>
-        <source>SMPlayer log</source>
-        <translation>Log del SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="3975"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Información</translation>
@@ -843,10 +833,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../basegui.cpp" line="4138"/>
         <source>Subtitles</source>
         <translation>Subtítulos</translation>
-    </message>
-    <message>
-        <source>Unfortunately the openssl component, required for it, is not available in your system.</source>
-        <translation type="obsolete">Lamentablemente el componente openssl, que es necesario para ello, no se encuentra en tu sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4725"/>
@@ -950,8 +936,14 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Ir a línea &amp;posterior</translation>
     </message>
     <message>
-        <source>SMPlayer - %1 log</source>
-        <translation type="obsolete">SMPlayer -log del %1</translation>
+        <location filename="../basegui.cpp" line="2038"/>
+        <source>%1 log</source>
+        <translation>Log del %1</translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2041"/>
+        <source>SMPlayer log</source>
+        <translation>Log del SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
@@ -1205,14 +1197,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>Cuadros por se&amp;gundo</translation>
     </message>
     <message>
-        <source>SMPlayer - MPlayer log</source>
-        <translation type="obsolete">SMPlayer - MPlayer log</translation>
-    </message>
-    <message>
-        <source>SMPlayer - SMPlayer log</source>
-        <translation type="obsolete">SMPlayer - SMPlayer log</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="4660"/>
         <source>Connection failed</source>
         <translation>Error en la conexión</translation>
@@ -1436,25 +1420,9 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>El servidor ha devuelto &apos;%1&apos;</translation>
     </message>
     <message>
-        <source>MPlayer has finished unexpectedly.</source>
-        <translation type="obsolete">MPlayer ha finalizado inesperadamente.</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5384"/>
         <source>Exit code: %1</source>
         <translation>Código de salida: %1</translation>
-    </message>
-    <message>
-        <source>MPlayer failed to start.</source>
-        <translation type="obsolete">El MPlayer no se ha ejecutado.</translation>
-    </message>
-    <message>
-        <source>Please check the MPlayer path in preferences.</source>
-        <translation type="obsolete">Verifica la ruta al ejecutable del MPlayer en preferencias.</translation>
-    </message>
-    <message>
-        <source>MPlayer has crashed.</source>
-        <translation type="obsolete">El MPlayer ha fallado.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5408"/>
@@ -2073,10 +2041,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">Bienvenido a SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>Audio</translation>
@@ -2120,10 +2084,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../defaultgui.cpp" line="554"/>
         <source>Status&amp;bar</source>
         <translation>Barra de e&amp;stado</translation>
-    </message>
-    <message>
-        <source>Ready. Use the Open menu to open a media file.</source>
-        <translation type="obsolete">Preparado. Usa el menú Abrir para abrir un vídeo.</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="566"/>
@@ -2413,44 +2373,14 @@ Example: extrastereo,karaoke</source>
 Ejemplo: extrastereo,karaoke</translation>
     </message>
     <message>
-        <source>&amp;MPlayer options</source>
-        <translation type="obsolete">Opciones para el &amp;MPlayer</translation>
-    </message>
-    <message>
-        <source>Additional Options for MPlayer</source>
-        <translation type="obsolete">Opciones Adicionales para el MPlayer</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Aquí puedes pasar opciones extra al MPlayer.
-Escríbelas separadas por espacios.
-Ejemplo: -flip -nosound</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
         <translation>&amp;Opciones:</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">También puedes pasar filtros de vídeo adicionales.
-Sepáralos con &quot;,&quot;. ¡No uses espacios!
-Ejemplo: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
         <source>V&amp;ideo filters:</source>
         <translation>Filtros de víd&amp;eo:</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Y finalmente los filtros de audio. Misma norma que para los filtros de audio.
-Ejemplo: resample=44100:0:0,volnorm</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="406"/>
@@ -2539,10 +2469,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
         <translation>Selecciona el tipo de proxy que se usará.</translation>
-    </message>
-    <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">Opciones avanzadas</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -4202,10 +4128,6 @@ Do you want to overwrite?</source>
 <context>
     <name>LogWindowBase</name>
     <message>
-        <source>Log Window</source>
-        <translation type="obsolete">Log Window</translation>
-    </message>
-    <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>
         <source>Save</source>
@@ -4588,20 +4510,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Avanzado</translation>
     </message>
     <message>
-        <source>You can also pass additional video filters.
-Separate them with &quot;,&quot;. Do not use spaces!
-Example: scale=512:-2,eq2=1.1</source>
-        <translation type="obsolete">También puedes pasar filtros de vídeo adicionales.
-Sepáralos con &quot;,&quot;. ¡No uses espacios!
-Ejemplo: scale=512:-2,eq2=1.1</translation>
-    </message>
-    <message>
-        <source>And finally audio filters. Same rule as for video filters.
-Example: resample=44100:0:0,volnorm</source>
-        <translation type="obsolete">Y finalmente los filtros de audio. Misma norma que para los filtros de vídeo.
-Ejemplo: resample=44100:0:0,volnorm</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="535"/>
         <source>Log SMPlayer output</source>
         <translation>Guardar los textos de la salida del SMPlayer</translation>
@@ -4617,30 +4525,6 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Marcando esta opción se pueden reducir los parpadeos, pero también podría pasar que el vídeo no se mostrase correctamente.</translation>
     </message>
     <message>
-        <source>Log MPlayer/MPV output</source>
-        <translation type="obsolete">Guardar los textos de la salida del MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If checked, SMPlayer will store the output of MPlayer/MPV (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; MPlayer/MPV&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="obsolete">Si está marcada, SMPlayer almacenará la salida del MPlayer/MPV (la puedes ver en &lt;b&gt;Opciones -&gt; Ver logs -&gt; MPlayer/MPV&lt;/b&gt;). En caso de problemas este log puede contener información importante, por tanto es recomendable mantener activada esta opción.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log</source>
-        <translation type="obsolete">Guardar automáticamente los textos de salida de MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, the MPlayer/MPV log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="obsolete">Si esta opción está marcada, los textos de salida del MPlayer/MPV se guardarán en el fichero especificado cada vez que comience la reproducción de un fichero. La opción está pensada para que programas externos puedan obtener información sobre el fichero en reproducción.</translation>
-    </message>
-    <message>
-        <source>Autosave MPlayer/MPV log filename</source>
-        <translation type="obsolete">Nombre de fichero para los logs del MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Enter here the path and filename that will be used to save the MPlayer/MPV log.</source>
-        <translation type="obsolete">Introduce la ruta completa para el fichero que se usará para guardar los textos de salida del MPlayer/MPV.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="566"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtro para los logs del SMPlayer</translation>
@@ -4651,29 +4535,9 @@ Ejemplo: resample=44100:0:0,volnorm</translation>
         <translation>Relación de aspecto del &amp;monitor:</translation>
     </message>
     <message>
-        <source>&amp;Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">E&amp;jecutar el MPlayer/MPV en su propia ventana</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
         <translation>Usar el demuxer lav&amp;f por defecto</translation>
-    </message>
-    <message>
-        <source>R&amp;eport MPlayer/MPV crashes</source>
-        <translation type="obsolete">&amp;Informar de fallos de MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Options for MP&amp;layer/MPV</source>
-        <translation type="obsolete">Opciones para el MP&amp;layer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can pass extra options to MPlayer/MPV.
-Write them separated by spaces.
-Example: -flip -nosound</source>
-        <translation type="obsolete">Aquí puedes pasar opciones extra al MPlayer/MPV.
-Escríbelas separadas por espacios.
-Ejemplo: -flip -nosound</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="334"/>
@@ -4689,10 +4553,6 @@ Ejemplo: -flip -nosound</translation>
         <location filename="../prefadvanced.ui" line="453"/>
         <source>Audio &amp;filters:</source>
         <translation>&amp;Filtros de audio:</translation>
-    </message>
-    <message>
-        <source>A&amp;utosave MPlayer/MPV log to file</source>
-        <translation type="obsolete">Guardar a&amp;utomáticamente los textos de salida de MPlayer/MPV en un fichero</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="227"/>
@@ -4739,18 +4599,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Logs</source>
         <translation>Logs</translation>
-    </message>
-    <message>
-        <source>Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">Pasar nombres cortos (8+3) a MPlayer</translation>
-    </message>
-    <message>
-        <source>Currently MPlayer can&apos;t open filenames which contains characters outside the local codepage. Checking this option will make SMPlayer to pass to MPlayer the short version of the filenames, and thus it will able to open them.</source>
-        <translation type="obsolete">Actualmente MPlayer no puede abrir ficheros cuyo nombre contengan caracteres fuera de la página de códigos local. Activando esta opción SMPlayer pasará a MPlayer la versión corta de los nombres, y por tanto podrá abrirlos.</translation>
-    </message>
-    <message>
-        <source>&amp;Pass short filenames (8+3) to MPlayer</source>
-        <translation type="obsolete">&amp;Pasar nombres cortos (8+3) a MPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="437"/>
@@ -4806,42 +4654,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
         <translation>Redibujar el fondo de la ve&amp;ntana de vídeo</translation>
-    </message>
-    <message>
-        <source>Run MPlayer/MPV in its own window</source>
-        <translation type="obsolete">Ejecutar el MPlayer/MPV en su propia ventana</translation>
-    </message>
-    <message>
-        <source>If you check this option, the MPlayer/MPV video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by MPlayer/MPV, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the MPlayer/MPV window has the focus.</source>
-        <translation type="obsolete">Si marcas esta opción, la ventana de vídeo de MPlayer/MPV no será empotrada en la ventana principal de SMPlayer, sino que usará la suya propia. Ten en cuenta que en este caso los eventos del ratón y teclado serán procesados directamente por MPlayer, lo que significa que los atajos de teclado y clicks del ratón probablemente no funcionarán del modo esperado cuando la ventana de MPlayer/MPV esté en primer plano.</translation>
-    </message>
-    <message>
-        <source>Report MPlayer/MPV crashes</source>
-        <translation type="obsolete">Informar de fallos de MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about MPlayer/MPV crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Si se activa esta opción, se mostrará una ventana para informar de los fallos de MPlayer/MPV. De lo contrario estos fallos se ignorarán.</translation>
-    </message>
-    <message>
-        <source>Switches MPlayer/MPV to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="obsolete">Cambia MPlayer/MPV a un modo experimental en el que las marcas de tiempo para las imágenes de vídeo se calculan de una forma diferente y se soportan los filtros de vídeo que añaden nuevas imágenes o modifican las marcas de tiempo de los existentes. Se pueden ver las marcas de tiempo mas precisas por ejemplo cuando se reproducen subtítulos sincronizados a cambios de escena con la librería SSA/ASS activada. Sin corrección de pts seguramente la sincronización irá desplazada algunas imágenes. Esta opción no funciona correctamente con algunos demuxers y codecs.</translation>
-    </message>
-    <message>
-        <source>Options for MPlayer/MPV</source>
-        <translation type="obsolete">Opciones para el MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you can type options for MPlayer or MPV. Write them separated by spaces.</source>
-        <translation type="obsolete">Aquí puedes teclear opciones para el MPlayer o MPV. Deben ir separadas por espacios.</translation>
-    </message>
-    <message>
-        <source>Here you can add video filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Aquí puedes añadir filtros de vídeo para el MPlayer/MPV. Deben separarse por comas, ¡no uses espacios!</translation>
-    </message>
-    <message>
-        <source>Here you can add audio filters for MPlayer/MPV. Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="obsolete">Aquí puedes añadir filtros de audio para el MPlayer/MPV. Deben separarse por comas, ¡no uses espacios!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="526"/>
@@ -5087,14 +4899,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <translation>C&amp;orregir PTS:</translation>
     </message>
     <message>
-        <source>MPlayer/MPV</source>
-        <translation type="obsolete">MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Log MPlayer/MPV &amp;output</source>
-        <translation type="obsolete">Guardar los text&amp;os de la salida del MPlayer/MPV</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.ui" line="578"/>
         <source>&amp;Verbose</source>
         <translation>Añadir más &amp;información (verbose)</translation>
@@ -5206,10 +5010,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <location filename="../prefassociations.cpp" line="227"/>
         <source>Select none</source>
         <translation>No seleccionar ninguno</translation>
-    </message>
-    <message>
-        <source> &lt;b&gt;Note:&lt;/b&gt; (Restoration doesn&apos;t work on Windows Vista).</source>
-        <translation type="obsolete"> &lt;b&gt;Nota:&lt;/b&gt; (No es posible recuperar las asociaciones previas en Windows Vista).</translation>
     </message>
 </context>
 <context>
@@ -5446,14 +5246,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <translation>Ecualizador de vídeo por software</translation>
     </message>
     <message>
-        <source>MPlayer/MPV executable</source>
-        <translation type="obsolete">Ejecutable del MPlayer/MPV</translation>
-    </message>
-    <message>
-        <source>Here you must specify the MPlayer or mpv executable that SMPlayer will use.</source>
-        <translation type="obsolete">Aquí debes especificar el ejecutable del MPlayer o mpv que será usado por el SMPlayer.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="930"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Esta opción especifica la plantilla para los nombre de ficheros de las capturas de pantalla.</translation>
@@ -5537,10 +5329,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.ui" line="387"/>
         <source>&amp;Quality:</source>
         <translation>&amp;Calidad:</translation>
-    </message>
-    <message>
-        <source>&amp;MPlayer/MPV executable:</source>
-        <translation type="obsolete">Ejecutable del &amp;MPlayer/MPV:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
@@ -5746,12 +5534,6 @@ Ejemplo: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aquí puedes introducir el idioma preferido para el audio y subtítulos. Cuando se reproduzca un vídeo con múltiples audios o subtítulos, SMPlayer intentará usar tu idioma preferido. Esto sólo funcionará con medios que ofrezcan información sobre los idiomas del audio o subtítulos, como los DVDs o ficheros mkv.&lt;br&gt;Este campo acepta expresiones regulares. Ejemplo: &lt;b&gt;es|esp|spa&lt;/b&gt; seleccionará la pista si coincide con &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; o &lt;i&gt;spa&lt;/i&gt;.</translation>
-    </message>
-    <message>
-        <source>&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</source>
-        <translation type="obsolete">&lt;Here it goes an explanation text&gt;
-For translators: don&apos;t translate this text, it will be replaced with another one at runtime.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>
@@ -8607,17 +8389,9 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>Personali&amp;zar...</translation>
     </message>
     <message>
-        <source>Apply style to ass files too</source>
-        <translation type="obsolete">Aplicar el estilo también a ficheros ass</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>Si se activa esta opción, el estilo definido arriba se aplicará también a subtítulos ass.</translation>
-    </message>
-    <message>
-        <source>A&amp;pply style to ass files too</source>
-        <translation type="obsolete">Aplicar el estilo también a &amp;ficheros ass</translation>
     </message>
 </context>
 <context>
@@ -9005,10 +8779,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
         <translation>&amp;Recordármelo más tarde</translation>
     </message>
     <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donar con Paypal</translation>
-    </message>
-    <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
         <translation>Donar con PayPal</translation>
@@ -9021,10 +8791,6 @@ For translators: don&apos;t translate this text, it will be replaced with anothe
 </context>
 <context>
     <name>ShareWidget</name>
-    <message>
-        <source>Donate with Paypal</source>
-        <translation type="obsolete">Donar con Paypal</translation>
-    </message>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Donate with PayPal</source>

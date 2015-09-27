@@ -2041,10 +2041,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">SMPlayer へようこそ</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
@@ -2072,7 +2068,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>準備完了</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2475,13 +2471,9 @@ Example: extrastereo,karaoke</source>
         <translation>使用されるプロキシの種類を選択します。</translation>
     </message>
     <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">高度なオプション</translation>
-    </message>
-    <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">オプション</translation>
+        <translation>オプション</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -4134,10 +4126,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>LogWindowBase</name>
-    <message>
-        <source>Log Window</source>
-        <translation type="obsolete">ログ ウィンドウ</translation>
-    </message>
     <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>

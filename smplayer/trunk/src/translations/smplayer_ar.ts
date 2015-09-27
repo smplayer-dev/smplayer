@@ -2041,10 +2041,6 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <source>Welcome to SMPlayer</source>
-        <translation type="obsolete">مرحباً بك إلى SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="563"/>
         <source>Audio</source>
         <translation>الصوت</translation>
@@ -2470,10 +2466,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
         <translation>اختر نوع الوسيط المُستعمل.</translation>
-    </message>
-    <message>
-        <source>Advanced options</source>
-        <translation type="obsolete">خيارات متقدمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -4134,10 +4126,6 @@ Do you want to overwrite?</source>
 </context>
 <context>
     <name>LogWindowBase</name>
-    <message>
-        <source>Log Window</source>
-        <translation type="obsolete">نافذة السجل</translation>
-    </message>
     <message>
         <location filename="../logwindowbase.ui" line="58"/>
         <location filename="../logwindowbase.ui" line="61"/>
