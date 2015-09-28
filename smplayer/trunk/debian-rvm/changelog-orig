@@ -1,3 +1,30 @@
+smplayer (15.9.0) precise; urgency=low
+
+  * Support for the 3D stereo filter.
+  * We added support for mpv, which is a player based on MPlayer with
+    new features and bug fixes.
+  * Now it's possible to select a secondary subtitle track which is
+    displayed on top of the screen (mpv only).
+  * New option to set a template for screenshots (mpv only).
+  * Now it's possible to play videos from streaming sites (besides Youtube)
+    like DailyMotion, Vimeo, Vevo and many more (mpv only).
+  * Option to step back one frame (mpv only).
+  * The Windows installer now allows to choose the playback engine to install:
+    mplayer or mpv.
+  * Better support for YouTube (VEVO videos).
+  * Possibility to set a proxy.
+  * Allow duplicate items in the playlist.
+  * New action (assigned by default to key "I") shows the current playback
+    time, total time and percentage, for 2 seconds on the OSD.
+  * Add the possibility to use the mouse buttons for "next chapter" and
+    "previous chapter".
+  * New option to delete a file in the playlist from the filesystem.
+  * Add support for MPRIS2.
+  * Possibility to compile SMPlayer without mplayer or mpv support.
+  * The new H2O theme is now the default theme.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 28 Sep 2015 23:58:00 +0200
+
 smplayer (14.9.0) precise; urgency=low
 
   * Fix for Youtube.
