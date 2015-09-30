@@ -126,6 +126,7 @@ protected:
 
 private:
 	bool notified_mplayer_is_running;
+	bool notified_pause;
 	bool received_end_of_file;
 
 	int last_sub_id;
