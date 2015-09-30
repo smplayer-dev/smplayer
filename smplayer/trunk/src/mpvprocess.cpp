@@ -36,6 +36,7 @@ using namespace Global;
 MPVProcess::MPVProcess(QObject * parent)
 	: PlayerProcess(parent)
 	, notified_mplayer_is_running(false)
+	, notified_pause(false)
 	, received_end_of_file(false)
 	, last_sub_id(-1)
 	, mplayer_svn(-1) // Not found yet
@@ -76,6 +77,7 @@ MPVProcess::~MPVProcess() {
 bool MPVProcess::start() {
 	md.reset();
 	notified_mplayer_is_running = false;
+	notified_pause = false;
 	last_sub_id = -1;
 	mplayer_svn = -1; // Not found yet
 	received_end_of_file = false;
@@ -198,7 +200,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#endif
 		}
 
+		if (paused && notified_pause) return;
+
 		if (paused) {
+			notified_pause = true;
 			qDebug("MPVProcess::parseLine: paused");
 			receivedPause();
 			return;
@@ -215,6 +220,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			receivedBuffering();
 			return;
 		}
+		notified_pause = false;
 
 		#else
 
