@@ -238,7 +238,7 @@ copy /y "%PORTABLE_EXE_DIR%\smplayer-portable.exe" "%SMPLAYER_PORTABLE_DIR%\smpl
 
 ::
 echo Finalizing package...
-7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!buildinfo -xr!buildinfo64 -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
@@ -326,7 +326,7 @@ copy /y "%PORTABLE_EXE_DIR%\smplayer-portable64.exe" "%SMPLAYER_PORTABLE_DIR%\sm
 
 ::
 echo Finalizing package...
-7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!codecs -xr!buildinfo -xr!buildinfo64 -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!codecs -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
