@@ -90,6 +90,13 @@
              </widget>
             </item>
             <item>
+             <widget class="QCheckBox" name="center_window_check">
+              <property name="text">
+               <string>Center &amp;window</string>
+              </property>
+             </widget>
+            </item>
+            <item>
              <widget class="QCheckBox" name="save_size_check">
               <property name="text">
                <string>R&amp;emember position and size</string>
@@ -942,6 +949,7 @@
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>mainwindow_resize_combo</tabstop>
+  <tabstop>center_window_check</tabstop>
   <tabstop>save_size_check</tabstop>
   <tabstop>hide_video_window_on_audio_check</tabstop>
   <tabstop>move_when_dragging_check</tabstop>

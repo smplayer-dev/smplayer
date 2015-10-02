@@ -229,6 +229,7 @@ void PrefInterface::setData(Preferences * pref) {
 	setSaveSize( pref->save_window_size_on_exit );
 
 	move_when_dragging_check->setChecked(pref->move_when_dragging);
+	center_window_check->setChecked(pref->center_window);
 
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
@@ -296,6 +297,7 @@ void PrefInterface::getData(Preferences * pref) {
 	pref->save_window_size_on_exit = saveSize();
 
 	pref->move_when_dragging = move_when_dragging_check->isChecked();
+	pref->center_window = center_window_check->isChecked();
 
 #ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
@@ -646,6 +648,9 @@ void PrefInterface::createHelp() {
 	setWhatsThis(mainwindow_resize_combo, tr("Autoresize"),
         tr("The main window can be resized automatically. Select the option "
            "you prefer.") );
+
+	setWhatsThis(center_window_check, tr("Center window"),
+        tr("When this option is enabled, the main window will be centered on the desktop.") );
 
 	setWhatsThis(save_size_check, tr("Remember position and size"),
         tr("If you check this option, the position and size of the main "
