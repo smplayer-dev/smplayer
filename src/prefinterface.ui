@@ -32,62 +32,47 @@
          <property name="title">
           <string>Main window</string>
          </property>
-         <layout class="QHBoxLayout">
-          <property name="spacing">
-           <number>6</number>
-          </property>
-          <property name="margin">
-           <number>9</number>
-          </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QLabel" name="resize_window_icon">
-            <property name="text">
-             <string>TextLabel</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <layout class="QVBoxLayout">
-            <property name="spacing">
-             <number>6</number>
-            </property>
-            <property name="margin">
-             <number>0</number>
-            </property>
+           <layout class="QVBoxLayout" name="verticalLayout_7">
             <item>
-             <widget class="QLabel" name="label">
-              <property name="text">
-               <string>Auto&amp;resize:</string>
-              </property>
-              <property name="buddy">
-               <cstring>mainwindow_resize_combo</cstring>
-              </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QComboBox" name="mainwindow_resize_combo">
-              <property name="sizePolicy">
-               <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
-                <horstretch>0</horstretch>
-                <verstretch>0</verstretch>
-               </sizepolicy>
-              </property>
+             <layout class="QHBoxLayout" name="horizontalLayout_3">
               <item>
-               <property name="text">
-                <string>Never</string>
-               </property>
+               <widget class="QLabel" name="label">
+                <property name="text">
+                 <string>Auto&amp;resize:</string>
+                </property>
+                <property name="buddy">
+                 <cstring>mainwindow_resize_combo</cstring>
+                </property>
+               </widget>
               </item>
               <item>
-               <property name="text">
-                <string>Whenever it's needed</string>
-               </property>
+               <widget class="QComboBox" name="mainwindow_resize_combo">
+                <property name="sizePolicy">
+                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                  <horstretch>0</horstretch>
+                  <verstretch>0</verstretch>
+                 </sizepolicy>
+                </property>
+                <item>
+                 <property name="text">
+                  <string>Never</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Whenever it's needed</string>
+                 </property>
+                </item>
+                <item>
+                 <property name="text">
+                  <string>Only after loading a new video</string>
+                 </property>
+                </item>
+               </widget>
               </item>
-              <item>
-               <property name="text">
-                <string>Only after loading a new video</string>
-               </property>
-              </item>
-             </widget>
+             </layout>
             </item>
             <item>
              <widget class="QCheckBox" name="center_window_check">
