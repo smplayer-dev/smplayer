@@ -2097,6 +2097,9 @@ void BaseGui::createCore() {
 	connect( core, SIGNAL(needResize(int, int)),
              this, SLOT(resizeWindow(int,int)) );
 
+	connect( core, SIGNAL(needResize(int, int)),
+             this, SLOT(centerWindow()) );
+
 	connect( core, SIGNAL(showMessage(QString,int)),
              this, SLOT(displayMessage(QString,int)) );
 	connect( core, SIGNAL(showMessage(QString)),
@@ -5048,6 +5051,16 @@ void BaseGui::hidePanel() {
 
 		// Disable compact mode
 		//compactAct->setEnabled(false);
+	}
+}
+
+void BaseGui::centerWindow() {
+	qDebug("BaseGui::centerWindow");
+	if (!pref->fullscreen && isVisible()) {
+		QSize d = DesktopInfo::desktop_size(this);
+		int x = (d.width() - width()) / 2;
+		int y = (d.height() - height()) / 2;
+		move(x, y);
 	}
 }
 
