@@ -39,6 +39,7 @@
 #include <QInputDialog>
 #include <QClipboard>
 #include <QMimeData>
+#include <QDesktopWidget>
 
 #include <cmath>
 
@@ -5057,9 +5058,11 @@ void BaseGui::hidePanel() {
 void BaseGui::centerWindow() {
 	qDebug("BaseGui::centerWindow");
 	if (pref->center_window && !pref->fullscreen && isVisible()) {
-		QSize d = DesktopInfo::desktop_size(this);
-		int x = (d.width() - width()) / 2;
-		int y = (d.height() - height()) / 2;
+		QRect r = QApplication::desktop()->screenGeometry(this);
+		// r.setX(500); r.setY(150); // Test
+		qDebug() << "BaseGui::centerWindow: desktop rect:" << r;
+		int x = r.x() + ((r.width() - width()) / 2);
+		int y = r.y() + ((r.height() - height()) / 2);
 		move(x, y);
 	}
 }
