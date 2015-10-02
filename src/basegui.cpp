@@ -5056,7 +5056,7 @@ void BaseGui::hidePanel() {
 
 void BaseGui::centerWindow() {
 	qDebug("BaseGui::centerWindow");
-	if (!pref->fullscreen && isVisible()) {
+	if (pref->center_window && !pref->fullscreen && isVisible()) {
 		QSize d = DesktopInfo::desktop_size(this);
 		int x = (d.width() - width()) / 2;
 		int y = (d.height() - height()) / 2;

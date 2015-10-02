@@ -362,6 +362,7 @@ void Preferences::reset() {
 #endif
 
 	move_when_dragging = true;
+	center_window = false;
 
 
 #if DVDNAV_SUPPORT
@@ -855,6 +856,7 @@ void Preferences::save() {
 #endif
 
 	set->setValue("move_when_dragging", move_when_dragging);
+	set->setValue("center_window", center_window);
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
 	set->setValue("mouse_right_click_function", mouse_right_click_function);
@@ -1381,6 +1383,7 @@ void Preferences::load() {
 #endif
 
 	move_when_dragging = set->value("move_when_dragging", move_when_dragging).toBool();
+	center_window = set->value("center_window", center_window).toBool();
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
 	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();
