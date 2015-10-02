@@ -252,6 +252,7 @@ protected slots:
 	void resizeMainWindow(int w, int h);
 	void resizeWindow(int w, int h);
 	virtual void hidePanel();
+	void centerWindow();
 
 	/* virtual void playlistVisibilityChanged(); */
 
