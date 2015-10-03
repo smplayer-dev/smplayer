@@ -64,6 +64,8 @@ public:
 public slots:
 	virtual void setPos(int);
 	virtual int pos();
+	virtual void setDuration(double);
+	virtual double duration() { return total_time; };
 #if ENABLE_DELAYED_DRAGGING
 	void setDragDelay(int);
 	int dragDelay();
@@ -71,6 +73,9 @@ public slots:
 private:
 	int drag_delay;
 #endif
+
+private:
+	double total_time;
 
 signals:
 	void posChanged(int value);

@@ -610,6 +610,8 @@ TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {
 	connect(timeslider_action, SIGNAL(wheelUp()), core, SLOT(wheelUp()));
 	connect(timeslider_action, SIGNAL(wheelDown()), core, SLOT(wheelDown()));
 
+	connect(core, SIGNAL(newDuration(double)), timeslider_action, SLOT(setDuration(double)));
+
 	return timeslider_action;
 }
 
