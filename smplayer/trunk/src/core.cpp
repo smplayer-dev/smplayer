@@ -1279,6 +1279,7 @@ void Core::finishRestart() {
 
 	emit mediaLoaded();
 	emit mediaInfoChanged();
+	emit newDuration(mdat.duration);
 
 	updateWidgets(); // New
 

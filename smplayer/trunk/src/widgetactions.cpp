@@ -19,6 +19,7 @@
 #include "widgetactions.h"
 #include "colorutils.h"
 #include <QLabel>
+#include <QDebug>
 
 #if MINI_ARROW_BUTTONS
 #include <QToolButton>
@@ -80,6 +81,16 @@ int TimeSliderAction::pos() {
 		return s->pos();
 	} else {
 		return -1;
+	}
+}
+
+void TimeSliderAction::setDuration(double t) {
+	qDebug() << "TimeSliderAction::setDuration:" << t;
+	total_time = t;
+	QList<QWidget *> l = createdWidgets();
+	for (int n=0; n < l.count(); n++) {
+		TimeSlider *s = (TimeSlider*) l[n];
+		s->setDuration(t);
 	}
 }
 

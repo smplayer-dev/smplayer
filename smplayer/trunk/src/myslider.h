@@ -19,8 +19,8 @@
     License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 */
 
-#ifndef _MYSLIDER_H_
-#define _MYSLIDER_H_
+#ifndef MYSLIDER_H
+#define MYSLIDER_H
 
 #include <QSlider>
 #include "config.h"

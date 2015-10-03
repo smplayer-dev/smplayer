@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TIMESLIDER_H_
-#define _TIMESLIDER_H_
+#ifndef TIMESLIDER_H
+#define TIMESLIDER_H
 
 #include "myslider.h"
 #include "config.h"
@@ -33,6 +33,8 @@ public:
 public slots:
 	virtual void setPos(int); // Don't use setValue!
 	virtual int pos();
+	virtual void setDuration(double t) { total_time = t; };
+	virtual double duration() { return total_time; };
 #if ENABLE_DELAYED_DRAGGING
 	void setDragDelay(int);
 	int dragDelay();
@@ -58,12 +60,15 @@ protected slots:
 	void sendDelayedPos();
 #endif
 
+protected:
 	virtual void wheelEvent(QWheelEvent * e);
+	virtual bool event(QEvent *event);
 
 private:
 	bool dont_update;
 	int position;
-	
+	double total_time;
+
 #if ENABLE_DELAYED_DRAGGING
 	int last_pos_to_send;
 	QTimer * timer;
