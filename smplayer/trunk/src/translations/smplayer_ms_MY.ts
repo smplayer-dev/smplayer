@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -521,7 +519,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Fullscreen</source>
-        <translation>Skrin P&amp;enuh</translation>
+        <translation>Skrin p&amp;enuh</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
@@ -548,7 +546,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
         <source>&amp;Lowpass5</source>
-        <translation>&amp;Laluanjalurrendah5</translation>
+        <translation>&amp;Laluanrendah5</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1925"/>
@@ -598,7 +596,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../basegui.cpp" line="1640"/>
         <source>&amp;Screenshot</source>
-        <translation>&amp;Cekupan Skrin</translation>
+        <translation>&amp;Cekupan skrin</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
@@ -608,7 +606,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../basegui.cpp" line="1684"/>
         <source>&amp;Extrastereo</source>
-        <translation>St&amp;ereo Ekstra</translation>
+        <translation>St&amp;ereo ekstra</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
@@ -765,7 +763,7 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../basegui.cpp" line="3463"/>
         <location filename="../basegui.cpp" line="3502"/>
         <source>&lt;empty&gt;</source>
-        <translation>&lt;empty&gt;</translation>
+        <translation>&lt;kosong&gt;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3925"/>
@@ -1594,7 +1592,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1943"/>
         <source>&amp;Never</source>
-        <translation>&amp;Tidak Sesekali</translation>
+        <translation>&amp;Tidak sesekali</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1944"/>
@@ -1769,7 +1767,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="1618"/>
         <source>Set &amp;A marker</source>
-        <translation>Tetapkan Penanda &amp;A</translation>
+        <translation>Tetapkan penanda &amp;A</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1619"/>
@@ -1817,7 +1815,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../baseguiplus.cpp" line="189"/>
         <source>SMPlayer is still running here</source>
-        <translation>SMPlayer masih lagi berjalan disini</translation>
+        <translation>SMPlayer masih lagi berjalan di sini</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="210"/>
@@ -2068,7 +2066,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Sedia</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2473,7 +2471,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">Pilihan</translation>
+        <translation>Pilihan</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -2591,9 +2589,7 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2691,7 +2687,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -5532,7 +5528,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="153"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Disini anda boleh taip bahasa digemari anda untuk strim audio dan sarikata. Bila media dengan strim audio atau sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Di sini anda boleh taip bahasa digemari anda untuk strim audio dan sarikata. Bila media dengan strim audio atau sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio dan sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="760"/>
@@ -5592,7 +5588,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="123"/>
         <source>Lowpass5</source>
-        <translation>Laluanjalurrendah5</translation>
+        <translation>Laluanrendah5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="124"/>
@@ -5741,12 +5737,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Disini anda boleh taip bahasa digemari anda untuk strim audio. Bila media dengan strim audio berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Di sini anda boleh taip bahasa digemari anda untuk strim audio. Bila media dengan strim audio berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim audio, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih trek jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1143"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Disini anda boleh taip bahasa digemari anda untuk strim sarikata. Bila media dengan strim sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih strim sarikata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Di sini anda boleh taip bahasa digemari anda untuk strim sarikata. Bila media dengan strim sarikata berbilang ditemui, SMPlayer akan cuba gunakan bahasa digemari anda. Ia hanya berfungsi pada media yang menawarkan maklumat mengenai bahasa strim sarikata, seperti fail DVD atau mkv. &lt;br&gt;Medan ini hanya menerima ungkapan nalar. Contohnya: &lt;b&gt;es|esp|spa&lt;/b&gt; akan pilih strim sarikata jika ia sepadan dengan &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; atau &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="295"/>
@@ -5837,12 +5833,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Disini anda boleh nyatakan folder dimana cekupan skrin yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur cekupan skrin akan dilumpuhkan.</translation>
+        <translation>Di sini anda boleh nyatakan folder dimana cekupan skrin yang diambil oleh SMPlayer akan disimpankan. Jika folder tidak sah fitur cekupan skrin akan dilumpuhkan.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
         <source>Screenshots</source>
-        <translation>Cekupan Skrin</translation>
+        <translation>Cekupan skrin</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="148"/>
@@ -6058,12 +6054,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Disini anda boleh ubah mana-mana pintasan kekunci. Untuk membuatnya, dwi-klik atau tekan enter pada sel pintasan. Kaedah lain anda juga boleh menyimpan senarai untuk kongsi ia dengan orang lain atau muat ia dalam komputer lain.</translation>
+        <translation>Di sini anda boleh ubah mana-mana pintasan kekunci. Untuk membuatnya, dwi-klik atau tekan enter pada sel pintasan. Kaedah lain anda juga boleh menyimpan senarai untuk kongsi ia dengan orang lain atau muat ia dalam komputer lain.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="158"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Disini anda boleh ubah mana-mana pintasan kekunci. Untuk membuatnya, dwi-klik atau mula menaip pada sel pintasan. Kaedah lain anda juga boleh menyimpan senarai untuk kongsi ia dengan orang lain atau muat ia dalam komputer lain.</translation>
+        <translation>Di sini anda boleh ubah mana-mana pintasan kekunci. Untuk membuatnya, dwi-klik atau mula menaip pada sel pintasan. Kaedah lain anda juga boleh menyimpan senarai untuk kongsi ia dengan orang lain atau muat ia dalam komputer lain.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="148"/>
@@ -6549,7 +6545,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Here you can change the language of the application.</source>
-        <translation>Disini anda boleh ubah bahasa aplikasi.</translation>
+        <translation>Di sini anda boleh ubah bahasa aplikasi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="174"/>
@@ -6674,7 +6670,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="868"/>
         <source>&amp;Max. items</source>
-        <translation>Item &amp;maks.</translation>
+        <translation>Item &amp;maksimum</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="907"/>
@@ -6755,7 +6751,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="770"/>
         <source>Privacy</source>
-        <translation>Kerahsian</translation>
+        <translation>Kerahsiaan</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="773"/>
@@ -6820,7 +6816,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="689"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation>Anda boleh ubah fon aplikasi disini.</translation>
+        <translation>Anda boleh ubah fon aplikasi di sini.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="691"/>
@@ -7117,7 +7113,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
         <source>Playback &amp;quality</source>
-        <translation>Kua&amp;liti mainbalik</translation>
+        <translation>Kua&amp;liti main balik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
@@ -7875,7 +7871,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subs containing movie name</source>
-        <translation>Semua sarikati mengandungi nama cakera</translation>
+        <translation>Semua sarikata mengandungi nama cakera</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
@@ -7967,7 +7963,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>JIka terdapat satu atau lebih trek sarikata tersedia, salah satu darinya akan dipilih secara automatik, biasanya yang pertama, walaupun jika salah satu darinya sepadan dengan bahasa digemari pengguna ia akan digunakan dahulu.</translation>
+        <translation>Jika terdapat satu atau lebih trek sarikata tersedia, salah satu darinya akan dipilih secara automatik, biasanya yang pertama, walaupun jika salah satu darinya sepadan dengan bahasa digemari pengguna ia akan digunakan dahulu.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
@@ -8355,7 +8351,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation>Disini anda boleh masukkan gaya SSA/ASS tersuai anda.</translation>
+        <translation>Di sini anda boleh masukkan gaya SSA/ASS tersuai anda.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
@@ -8408,7 +8404,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation>Laluanjalurrendah5</translation>
+        <translation>Laluanrendah5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -8511,7 +8507,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation>Anda boleh masukkan sela disini (dalam hari) untuk semakan kemaskini.</translation>
+        <translation>Anda boleh masukkan sela di sini (dalam hari) untuk semakan kemaskini.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -8666,17 +8662,13 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9617,7 +9609,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Masukkan disini peranti DVD atau folder dengan imej DVD.</translation>
+        <translation>Masukkan di sini peranti DVD atau folder dengan imej DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
