@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2591,10 +2589,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
@@ -2692,7 +2687,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -4718,7 +4713,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird SMPlayer die Ausgabe von %1 speichern (Zu findern unter &lt;b&gt;Optionen -&gt; Protokolle einsehen -&gt; %1&lt;/b&gt;). In Problemfällen können diese Protokolle wichtige Informationen enthalten, deshalb wird empfohlen, diese Option aktiviert zu lassen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
@@ -4799,7 +4794,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="441"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird das Videofenster von %1 nicht in SMPlayers Hauptfenster eingebettet und wird stattdessen ein eigenes Fenster verwenden. Maus und Tastatur werden direkt von %1 abgefragt, sodass Tastaturkurz- und Maustastenbefehle wahrscheinlich nicht wie erwartet funktionieren werden, wenn das Fenster von %1 den Fokus hat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="459"/>
@@ -4824,7 +4819,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="477"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>Schaltet %1 in einen experimentellen Modus, der Zeitstempel für Video-Einzelbilder anders berechnet und Videofilter, die neue Einzelbilder hinzufügen oder Zeitstempel von vorhandenen Einzelbildern verändern, unterstützt. Die genaueren Zeitstempel können sichtbar sein, zum Beispiel bei der Wiedergabe von Untertiteln mittels SSA/ASS-Bibliothek, die auf Szenenwechsel abgestimmt sind. Ohne korrektes PTS wird diese Abstimmung der Untertitel typischerweise um einige Einzelbilder daneben liegen. Diese Option arbeitet mit einigen Demuxern und Codecs nicht richtig zusammen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
@@ -8669,19 +8664,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
