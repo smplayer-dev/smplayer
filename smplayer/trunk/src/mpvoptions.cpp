@@ -631,6 +631,7 @@ void MPVProcess::setSpeed(double value) {
 	writeToStdin("set speed " + QString::number(value));
 }
 
+#ifdef MPLAYER_SUPPORT
 void MPVProcess::enableKaraoke(bool b) {
 	/*
 	if (b) writeToStdin("af add karaoke"); else writeToStdin("af del karaoke");
@@ -644,6 +645,7 @@ void MPVProcess::enableExtrastereo(bool b) {
 	*/
 	messageFilterNotSupported("extrastereo");
 }
+#endif
 
 void MPVProcess::enableVolnorm(bool b, const QString & option) {
 	if (b) writeToStdin("af add drc=" + option); else writeToStdin("af del drc=" + option);

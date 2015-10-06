@@ -119,8 +119,10 @@ public:
 	QString stereo3d_in;
 	QString stereo3d_out;
 
+#ifdef MPLAYER_SUPPORT
 	bool karaoke_filter;
 	bool extrastereo_filter;
+#endif
 	bool volnorm_filter;
 
 	int audio_use_channels;
