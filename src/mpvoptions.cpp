@@ -108,6 +108,11 @@ void MPVProcess::addVFIfAvailable(const QString & vf, const QString & value) {
 	}
 }
 
+void MPVProcess::messageFilterNotSupported(const QString & filter_name) {
+	QString text = tr("the '%1' filter is not supported by mpv").arg(filter_name);
+	writeToStdin(QString("show_text \"%1\" 3000").arg(text));
+}
+
 void MPVProcess::setOption(const QString & option_name, const QVariant & value) {
 	if (option_name == "cache") {
 		int cache = value.toInt();
@@ -484,6 +489,11 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 		previous_eq = option;
 		arg << "--af-add=equalizer=" + option;
 	}
+	else
+	if (filter_name == "extrastereo" || filter_name == "karaoke") {
+		/* Not supported anymore */
+		/* Ignore */
+	}
 	else {
 		QString s = filter_name;
 		if (!option.isEmpty()) s += "=" + option;
@@ -622,11 +632,17 @@ void MPVProcess::setSpeed(double value) {
 }
 
 void MPVProcess::enableKaraoke(bool b) {
+	/*
 	if (b) writeToStdin("af add karaoke"); else writeToStdin("af del karaoke");
+	*/
+	messageFilterNotSupported("karaoke");
 }
 
 void MPVProcess::enableExtrastereo(bool b) {
+	/*
 	if (b) writeToStdin("af add extrastereo"); else writeToStdin("af del extrastereo");
+	*/
+	messageFilterNotSupported("extrastereo");
 }
 
 void MPVProcess::enableVolnorm(bool b, const QString & option) {

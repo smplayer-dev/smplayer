@@ -108,6 +108,7 @@ public:
 protected:
 	bool isOptionAvailable(const QString & option);
 	void addVFIfAvailable(const QString & vf, const QString & value = QString::null);
+	void messageFilterNotSupported(const QString & filter_name);
 
 protected slots:
 	void parseLine(QByteArray ba);
