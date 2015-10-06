@@ -734,6 +734,7 @@ void BaseGui::createActions() {
 
 
 	// Submenu Filters
+#ifdef MPLAYER_SUPPORT
 	extrastereoAct = new MyAction( this, "extrastereo_filter" );
 	extrastereoAct->setCheckable( true );
 	connect( extrastereoAct, SIGNAL(toggled(bool)),
@@ -743,6 +744,7 @@ void BaseGui::createActions() {
 	karaokeAct->setCheckable( true );
 	connect( karaokeAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleKaraoke(bool)) );
+#endif
 
 	volnormAct = new MyAction( this, "volnorm_filter" );
 	volnormAct->setCheckable( true );
@@ -1337,8 +1339,10 @@ void BaseGui::setActionsEnabled(bool b) {
 	decAudioDelayAct->setEnabled(b);
 	incAudioDelayAct->setEnabled(b);
 	audioDelayAct->setEnabled(b);
+#ifdef MPLAYER_SUPPORT
 	extrastereoAct->setEnabled(b);
 	karaokeAct->setEnabled(b);
+#endif
 	volnormAct->setEnabled(b);
 	loadAudioAct->setEnabled(b);
 	//unloadAudioAct->setEnabled(b);
@@ -1445,8 +1449,10 @@ void BaseGui::enableActionsOnPlaying() {
 		decAudioDelayAct->setEnabled(false);
 		incAudioDelayAct->setEnabled(false);
 		audioDelayAct->setEnabled(false);
+#ifdef MPLAYER_SUPPORT
 		extrastereoAct->setEnabled(false);
 		karaokeAct->setEnabled(false);
+#endif
 		volnormAct->setEnabled(false);
 		channelsGroup->setActionsEnabled(false);
 		stereoGroup->setActionsEnabled(false);
@@ -1682,8 +1688,10 @@ void BaseGui::retranslateStrings() {
 	unloadAudioAct->change( Images::icon("unload"), tr("U&nload") );
 
 	// Submenu Filters
+#ifdef MPLAYER_SUPPORT
 	extrastereoAct->change( tr("&Extrastereo") );
 	karaokeAct->change( tr("&Karaoke") );
+#endif
 	volnormAct->change( tr("Volume &normalization") );
 
 	// Menu Subtitles
@@ -2587,8 +2595,10 @@ void BaseGui::createMenus() {
 	// Filter submenu
 	audiofilter_menu = new QMenu(this);
 	audiofilter_menu->menuAction()->setObjectName("audiofilter_menu");
+#ifdef MPLAYER_SUPPORT
 	audiofilter_menu->addAction(extrastereoAct);
 	audiofilter_menu->addAction(karaokeAct);
+#endif
 	audiofilter_menu->addAction(volnormAct);
 
 	audioMenu->addMenu(audiofilter_menu);
@@ -3640,11 +3650,13 @@ void BaseGui::updateWidgets() {
 	// Mute menu option
 	muteAct->setChecked( (pref->global_volume ? pref->mute : core->mset.mute) );
 
+#ifdef MPLAYER_SUPPORT
 	// Karaoke menu option
 	karaokeAct->setChecked( core->mset.karaoke_filter );
 
 	// Extrastereo menu option
 	extrastereoAct->setChecked( core->mset.extrastereo_filter );
+#endif
 
 	// Volnorm menu option
 	volnormAct->setChecked( core->mset.volnorm_filter );

@@ -78,8 +78,10 @@ public:
 	void setSubStep(int value);
 	void setSubForcedOnly(bool b);
 	void setSpeed(double value);
+#ifdef MPLAYER_SUPPORT
 	void enableKaraoke(bool b);
 	void enableExtrastereo(bool b);
+#endif
 	void enableVolnorm(bool b, const QString & option);
 	void setAudioEqualizer(const QString & values);
 	void setAudioDelay(double delay);

@@ -146,10 +146,12 @@ public slots:
 	void toggleMirror(bool b);
 
 	// Audio filters
+#ifdef MPLAYER_SUPPORT
 	void toggleKaraoke();
 	void toggleKaraoke(bool b);
 	void toggleExtrastereo();
 	void toggleExtrastereo(bool b);
+#endif
 	void toggleVolnorm();
 	void toggleVolnorm(bool b);
 

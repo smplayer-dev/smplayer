@@ -2300,9 +2300,11 @@ void Core::startMplayer( QString file, double seek ) {
 	if (!pref->use_hwac3) {
 
 		// Audio filters
+		#ifdef MPLAYER_SUPPORT
 		if (mset.karaoke_filter) {
 			proc->addAF("karaoke");
 		}
+		#endif
 
 		// Stereo mode
 		if (mset.stereo_mode != 0) {
@@ -2314,9 +2316,11 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 		}
 
+		#ifdef MPLAYER_SUPPORT
 		if (mset.extrastereo_filter) {
 			proc->addAF("extrastereo");
 		}
+		#endif
 
 		if (mset.volnorm_filter) {
 			proc->addAF("volnorm", pref->filters->item("volnorm").options());
@@ -2666,6 +2670,7 @@ void Core::toggleRepeat(bool b) {
 
 
 // Audio filters
+#ifdef MPLAYER_SUPPORT
 void Core::toggleKaraoke() {
 	toggleKaraoke( !mset.karaoke_filter );
 }
@@ -2699,6 +2704,7 @@ void Core::toggleExtrastereo(bool b) {
 		}
 	}
 }
+#endif
 
 void Core::toggleVolnorm() {
 	toggleVolnorm( !mset.volnorm_filter );
