@@ -787,7 +787,7 @@ void BaseGui::createActions() {
 	incSubScaleAct = new MyAction( Qt::SHIFT | Qt::Key_T, this, "inc_sub_scale" );
 	connect( incSubScaleAct, SIGNAL(triggered()),
              core, SLOT(incSubScale()) );
-    
+
 	decSubStepAct = new MyAction( Qt::Key_G, this, "dec_sub_step" );
 	connect( decSubStepAct, SIGNAL(triggered()),
              core, SLOT(decSubStep()) );
@@ -795,6 +795,16 @@ void BaseGui::createActions() {
 	incSubStepAct = new MyAction( Qt::Key_Y, this, "inc_sub_step" );
 	connect( incSubStepAct, SIGNAL(triggered()),
              core, SLOT(incSubStep()) );
+
+#ifdef MPV_SUPPORT
+	seekNextSubAct = new MyAction(Qt::CTRL | Qt::Key_Right, this, "seek_next_sub");
+	connect(seekNextSubAct, SIGNAL(triggered()),
+            core, SLOT(seekToNextSub()));
+
+	seekPrevSubAct = new MyAction(Qt::CTRL | Qt::Key_Left, this, "seek_prev_sub");
+	connect(seekPrevSubAct, SIGNAL(triggered()),
+            core, SLOT(seekToPrevSub()));
+#endif
 
 	useCustomSubStyleAct = new MyAction(this, "use_custom_sub_style");
 	useCustomSubStyleAct->setCheckable(true);
@@ -1359,6 +1369,10 @@ void BaseGui::setActionsEnabled(bool b) {
 	decSubStepAct->setEnabled(b);
 	incSubScaleAct->setEnabled(b);
 	decSubScaleAct->setEnabled(b);
+#ifdef MPV_SUPPORT
+	seekNextSubAct->setEnabled(b);
+	seekPrevSubAct->setEnabled(b);
+#endif
 
 	// Actions not in menus
 #if !USE_MULTIPLE_SHORTCUTS
@@ -1708,6 +1722,10 @@ void BaseGui::retranslateStrings() {
                            tr("&Previous line in subtitles") );
 	incSubStepAct->change( Images::icon("inc_sub_step"), 
                            tr("N&ext line in subtitles") );
+#ifdef MPV_SUPPORT
+	seekNextSubAct->change(Images::icon("seek_next_sub"), tr("Seek to next subtitle"));
+	seekPrevSubAct->change(Images::icon("seek_prev_sub"), tr("Seek to previous subtitle"));
+#endif
 	useCustomSubStyleAct->change( Images::icon("use_custom_sub_style"), tr("Use custo&m style") );
 	useForcedSubsOnlyAct->change( Images::icon("forced_subs"), tr("&Forced subtitles only") );
 
@@ -2683,6 +2701,11 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubStepAct);
 	subtitlesMenu->addAction(incSubStepAct);
+#ifdef MPV_SUPPORT
+	subtitlesMenu->addSeparator();
+	subtitlesMenu->addAction(seekPrevSubAct);
+	subtitlesMenu->addAction(seekNextSubAct);
+#endif
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useForcedSubsOnlyAct);
 	subtitlesMenu->addSeparator();
@@ -3725,6 +3748,10 @@ void BaseGui::updateWidgets() {
 	incSubScaleAct->setEnabled(e);
 	decSubStepAct->setEnabled(e);
 	incSubStepAct->setEnabled(e);
+#ifdef MPV_SUPPORT
+	seekNextSubAct->setEnabled(e);
+	seekPrevSubAct->setEnabled(e);
+#endif
 }
 
 void BaseGui::updateVideoEqualizer() {

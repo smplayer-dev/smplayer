@@ -84,6 +84,9 @@ public:
 	virtual void setSubPos(int pos) = 0;
 	virtual void setSubScale(double value) = 0;
 	virtual void setSubStep(int value) = 0;
+#ifdef MPV_SUPPORT
+	virtual void seekSub(int value) = 0;
+#endif
 	virtual void setSubForcedOnly(bool b) = 0;
 	virtual void setSpeed(double value) = 0;
 #ifdef MPLAYER_SUPPORT

@@ -76,6 +76,9 @@ public:
 	void setSubPos(int pos);
 	void setSubScale(double value);
 	void setSubStep(int value);
+#ifdef MPV_SUPPORT
+	void seekSub(int value) { /* Not supported */ };
+#endif
 	void setSubForcedOnly(bool b);
 	void setSpeed(double value);
 	void enableKaraoke(bool b);

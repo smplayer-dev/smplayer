@@ -495,6 +495,10 @@ protected:
 	MyAction * decSubStepAct;
 	MyAction * incSubScaleAct;
 	MyAction * decSubScaleAct;
+#ifdef MPV_SUPPORT
+	MyAction * seekNextSubAct;
+	MyAction * seekPrevSubAct;
+#endif
 	MyAction * useCustomSubStyleAct;
 	MyAction * useForcedSubsOnlyAct;
 	MyAction * subVisibilityAct;

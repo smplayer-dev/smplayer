@@ -623,6 +623,10 @@ void MPVProcess::setSubStep(int value) {
 	writeToStdin("sub_step " + QString::number(value));
 }
 
+void MPVProcess::seekSub(int value) {
+	writeToStdin("sub-seek " + QString::number(value));
+}
+
 void MPVProcess::setSubForcedOnly(bool b) {
 	writeToStdin(QString("set sub-forced-only %1").arg(b ? "yes" : "no"));
 }
