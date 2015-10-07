@@ -233,7 +233,8 @@ void MplayerProcess::frameStep() {
 }
 
 void MplayerProcess::frameBackStep() {
-	qDebug("MplayerProcess::frameBackStep: function not supported in mplayer");
+	qDebug("MplayerProcess::frameBackStep: function not supported by mplayer");
+	showOSDText(tr("This option is not supported by MPlayer"), 3000, 1);
 }
 
 
@@ -290,6 +291,13 @@ void MplayerProcess::setSubScale(double value) {
 void MplayerProcess::setSubStep(int value) {
 	writeToStdin("sub_step " + QString::number(value));
 }
+
+#ifdef MPV_SUPPORT
+void MplayerProcess::seekSub(int value) {
+	/* Not supported */
+	showOSDText(tr("This option is not supported by MPlayer"), 3000, 1);
+};
+#endif
 
 void MplayerProcess::setSubForcedOnly(bool b) {
 	writeToStdin(QString("forced_subs_only %1").arg(b ? 1 : 0));
