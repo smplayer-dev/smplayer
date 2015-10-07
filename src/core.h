@@ -181,12 +181,16 @@ public slots:
 	void seek(int secs);
 	void sforward(); 	// + 10 seconds
 	void srewind(); 	// - 10 seconds
-    void forward(); 	// + 1 minute
-    void rewind(); 		// -1 minute
-    void fastforward();	// + 10 minutes
-    void fastrewind();	// - 10 minutes
+	void forward(); 	// + 1 minute
+	void rewind(); 		// -1 minute
+	void fastforward();	// + 10 minutes
+	void fastrewind();	// - 10 minutes
 	void forward(int secs);
 	void rewind(int secs);
+#ifdef MPV_SUPPORT
+	void seekToNextSub();
+	void seekToPrevSub();
+#endif
 	void wheelUp();
 	void wheelDown();
 
@@ -201,7 +205,7 @@ public slots:
 	void halveSpeed();
 	void normalSpeed();
 
-    void setVolume(int volume, bool force = false);
+	void setVolume(int volume, bool force = false);
 	void switchMute();
 	void mute(bool b);
 	void incVolume();

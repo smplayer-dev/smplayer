@@ -2578,6 +2578,18 @@ void Core::rewind(int secs) {
 	seek(-secs);
 }
 
+#ifdef MPV_SUPPORT
+void Core::seekToNextSub() {
+	qDebug("Core::seekToNextSub");
+	proc->seekSub(1);
+}
+
+void Core::seekToPrevSub() {
+	qDebug("Core::seekToPrevSub");
+	proc->seekSub(-1);
+}
+#endif
+
 void Core::wheelUp() {
 	qDebug("Core::wheelUp");
 	switch (pref->wheel_function) {
