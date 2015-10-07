@@ -43,9 +43,9 @@
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
 !ifdef WIN64
-  !define MPV_FILENAME "mpv-x86_64-20150903.7z"
+  !define MPV_FILENAME "mpv-x86_64-20150923.7z"
 !else
-  !define MPV_FILENAME "mpv-i686-20150903.7z"
+  !define MPV_FILENAME "mpv-i686-20150923.7z"
 !endif
 
   !define INSTALLER_VERSION "1"
