@@ -1251,7 +1251,11 @@ void Core::finishRestart() {
 		*/
 		int vol = (pref->global_volume ? pref->volume : mset.volume);
 		volumeChanged(vol);
-		if (pref->mute) mute(true);
+
+		if (proc->isMPlayer() && pref->mute) {
+			// Set mute here because mplayer doesn't have an option to set mute from the command line
+			mute(true);
+		}
 	}
 
 #if 0
@@ -2028,6 +2032,10 @@ void Core::startMplayer( QString file, double seek ) {
 			vol = adjustVolume(vol, pref->use_soft_vol ? pref->softvol_max : 100);
 		}
 		proc->setOption("volume", QString::number(vol));
+	}
+
+	if (pref->mute) {
+		proc->setOption("mute");
 	}
 
 

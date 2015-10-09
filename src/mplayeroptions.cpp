@@ -87,6 +87,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		if (b) arg << "-fontconfig"; else arg << "-nofontconfig";
 	}
 	else
+	if (option_name == "mute") {
+		// Not supported
+	}
+	else
 	if (option_name == "keepaspect" ||
 	    option_name == "dr" || option_name == "double" ||
 	    option_name == "fs" || option_name == "slices" ||

@@ -313,6 +313,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		verbose = true;
 	}
 	else
+	if (option_name == "mute") {
+		arg << "--mute=yes";
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
