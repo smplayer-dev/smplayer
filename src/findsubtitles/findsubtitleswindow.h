@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FINDSUBTITLESWINDOW_H_
-#define _FINDSUBTITLESWINDOW_H_
+#ifndef FINDSUBTITLESWINDOW_H
+#define FINDSUBTITLESWINDOW_H
 
 #include "ui_findsubtitleswindow.h"
 
