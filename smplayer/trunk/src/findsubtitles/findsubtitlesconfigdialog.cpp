@@ -41,6 +41,11 @@ FindSubtitlesConfigDialog::FindSubtitlesConfigDialog( QWidget* parent, Qt::Windo
 #endif
 
 #ifndef OS_SEARCH_WORKAROUND
+	retries_label->hide();
+	retries_spin->hide();
+#endif
+
+#ifndef DOWNLOAD_SUBS
 	misc_group->hide();
 #endif
 
@@ -65,6 +70,16 @@ void FindSubtitlesConfigDialog::setRetries(int n) {
 
 int FindSubtitlesConfigDialog::retries() {
 	return retries_spin->value();
+}
+#endif
+
+#ifdef DOWNLOAD_SUBS
+void FindSubtitlesConfigDialog::setAppendLang(bool b) {
+	addlang_check->setChecked(b);
+}
+
+bool FindSubtitlesConfigDialog::appendLang() {
+	return addlang_check->isChecked();
 }
 #endif
 

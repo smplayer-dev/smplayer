@@ -778,6 +778,10 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 	d.setProxyType( proxy_type );
 	#endif
 
+	#ifdef DOWNLOAD_SUBS
+	d.setAppendLang(include_lang_on_filename);
+	#endif
+
 	if (d.exec() == QDialog::Accepted) {
 		os_server = d.server();
 		#ifdef OS_SEARCH_WORKAROUND
@@ -795,6 +799,10 @@ void FindSubtitlesWindow::on_configure_button_clicked() {
 		osclient->setServer(os_server);
 		#ifdef FS_USE_PROXY
 		setupProxy();
+		#endif
+
+		#ifdef DOWNLOAD_SUBS
+		include_lang_on_filename = d.appendLang();
 		#endif
 	}
 }

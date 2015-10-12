@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FINDSUBTITLESCONFIGDIALOG_H_
-#define _FINDSUBTITLESCONFIGDIALOG_H_
+#ifndef FINDSUBTITLESCONFIGDIALOG_H
+#define FINDSUBTITLESCONFIGDIALOG_H
 
 #include "ui_findsubtitlesconfigdialog.h"
 
@@ -36,6 +36,11 @@ public:
 #ifdef OS_SEARCH_WORKAROUND
 	void setRetries(int n);
 	int retries();
+#endif
+
+#ifdef DOWNLOAD_SUBS
+	void setAppendLang(bool b);
+	bool appendLang();
 #endif
 
 #ifdef FS_USE_PROXY
