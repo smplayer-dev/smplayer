@@ -42,10 +42,11 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
+  !define MPV_VERSION "20150923"
 !ifdef WIN64
-  !define MPV_FILENAME "mpv-x86_64-20150923.7z"
+  !define MPV_FILENAME "mpv-x86_64-${MPV_VERSION}.7z"
 !else
-  !define MPV_FILENAME "mpv-i686-20150923.7z"
+  !define MPV_FILENAME "mpv-i686-${MPV_VERSION}.7z"
 !endif
 
   !define INSTALLER_VERSION "1"
@@ -122,6 +123,8 @@
   Var YTDL_Version_Remote
   Var YTDL_Version_Remote_File
   Var YTDL_Previous_Version_State
+
+  Var MPV_Version
 
 ;--------------------------------
 ;Interface Settings
@@ -467,6 +470,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
     IfFileExists "$INSTDIR\mplayer\mpv*.exe" 0 mpvInstFailed
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x1
+        WriteRegStr   HKLM "${SMPLAYER_REG_KEY}" "MPV_Version" "${MPV_VERSION}"
         Goto dl_youtube-dl
       mpvInstFailed:
         Abort $(MPV_Inst_Failed)
@@ -942,6 +946,13 @@ Function Backup_MPV
   ${IfNot} ${SectionIsSelected} ${SecMPV}
     Return
   ${EndIf}
+
+  ClearErrors
+  ReadRegStr $MPV_Version HKLM "${SMPLAYER_REG_KEY}" "MPV_Version"
+  IfErrors NoBackup 0
+    IntCmp $MPV_Version ${MPV_VERSION} +3 0 +3
+      DetailPrint "A newer version of MPV is available and will be downloaded."
+      Goto NoBackup
 
   IfFileExists "$SMPlayer_Path\mplayer\mpv*.exe" 0 NoBackup
     DetailPrint $(Info_MPV_Backup)
