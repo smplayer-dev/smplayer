@@ -544,7 +544,21 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\smtube.exe" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
+    ; Qt4
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
+    ; Qt5
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5WebKit.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Sql.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Qml.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Quick.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Positioning.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Multimedia.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Sensors.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5WebChannel.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5WebKitWidgets.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5OpenGL.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5PrintSupport.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5MultimediaWidgets.dll" "$INSTDIR"
   ${EndIf}
 
 !ifndef WIN64
@@ -974,7 +988,21 @@ Function Backup_SMTube
     CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
     CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
+    ; Qt4
     CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
+    ; Qt5
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKit.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Sql.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Qml.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Quick.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Positioning.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Multimedia.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Sensors.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5WebChannel.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKitWidgets.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5OpenGL.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5PrintSupport.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5MultimediaWidgets.dll" "$PLUGINSDIR\smtubebak"
     StrCpy $Restore_SMTube 1
     Return
   NoBackup:
