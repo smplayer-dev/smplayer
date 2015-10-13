@@ -5062,6 +5062,27 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	}
 #endif
 
+	qDebug("BaseGui::resizeWindow: new_width: %d new_height: %d", new_width, new_height);
+
+#ifdef Q_OS_WIN
+	QSize desktop_size = DesktopInfo::desktop_size(this);
+	//desktop_size.setWidth(1000); desktop_size.setHeight(1000); // test
+	if (new_width > desktop_size.width()) {
+		double aspect = (double) new_width / new_height;
+		qDebug("BaseGui::resizeWindow: width (%d) is larger than desktop width (%d)", new_width, desktop_size.width());
+		new_width = desktop_size.width();
+		/*
+		new_height = new_width / aspect;
+		qDebug() << "BaseGui::resizeWindow: aspect:" << aspect;
+		qDebug("BaseGui::resizeWindow: height: %d", new_height);
+		*/
+	}
+	if (new_height > desktop_size.height()) {
+		qDebug("BaseGui::resizeWindow: height (%d) is larger than desktop height (%d)", new_height, desktop_size.height());
+		new_height = desktop_size.height();
+	}
+#endif
+
 	resize(new_width, new_height);
 
 	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
