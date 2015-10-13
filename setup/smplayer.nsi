@@ -974,7 +974,7 @@ Function Backup_SMTube
     CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
     CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
-	CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
     StrCpy $Restore_SMTube 1
     Return
   NoBackup:
