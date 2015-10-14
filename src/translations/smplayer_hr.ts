@@ -1787,7 +1787,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1812"/>
         <source>Toggle deinterlacing</source>
-        <translation>Uključi/Isključi deinterlace</translation>
+        <translation>Uključi/Isključi raspletanje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1986"/>
@@ -5613,7 +5613,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>Deinterlace by default</source>
-        <translation>Raspletanje zadano</translation>
+        <translation>Zadano raspletanje </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="987"/>
@@ -5958,7 +5958,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="420"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation>Zadani dei&amp;nterlace (osim TV-a):</translation>
+        <translation>Zadano ras&amp;pletanje (osim TV-a):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1084"/>
@@ -8429,7 +8429,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation>Zadaj raspletanje za TV</translation>
+        <translation>Zadano raspletanje za TV</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
@@ -8449,7 +8449,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation>Zad&amp;aj deinterlace za TV:</translation>
+        <translation>Zad&amp;ano raspletanje za TV:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
@@ -8467,7 +8467,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation>A&amp;žuriranja</translation>
+        <translation>N&amp;adopune</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
@@ -8482,7 +8482,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation>&amp;Otvori stranicu s informacijama nakon ažuriranja</translation>
+        <translation>&amp;Otvori stranicu s informacijama nakon završetka nadopunjivanja</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -8512,12 +8512,12 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation>Otvori stranicu s informacijama nakon ažuriranja</translation>
+        <translation>Otvori stranicu s informacijama nakon završetka nadopunjivanja</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation>Ako je ova mogućnost odabrana, stranica s informacijama o SMPlayeru će biti otvorena nakona žuriranja.</translation>
+        <translation>Ako je ova mogućnost odabrana, stranica s informacijama o SMPlayeru će biti otvorena nakona završetka nadopunjivanja.</translation>
     </message>
 </context>
 <context>
