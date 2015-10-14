@@ -310,6 +310,11 @@ void MPVProcess::parseLine(QByteArray ba) {
 		if (!notified_mplayer_is_running) {
 			qDebug("MPVProcess::parseLine: starting sec: %f", sec);
 
+			if (md.video_width == 0 || md.video_height == 0) {
+				md.novideo = true;
+				emit receivedNoVideo();
+			}
+
 			/*
 			if ( (md.n_chapters <= 0) && (dvd_current_title > 0) && 
                  (md.titles.find(dvd_current_title) != -1) )
