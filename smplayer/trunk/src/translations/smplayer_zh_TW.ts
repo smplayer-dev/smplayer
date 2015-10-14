@@ -383,1431 +383,1441 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1823"/>
+        <location filename="../basegui.cpp" line="1850"/>
         <source>&amp;Open</source>
         <translation>開啟(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1851"/>
         <source>&amp;Play</source>
         <translation>播放(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1825"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>&amp;Video</source>
         <translation>視訊(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1853"/>
         <source>&amp;Audio</source>
         <translation>音訊(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1854"/>
         <source>&amp;Subtitles</source>
         <translation>字幕(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1828"/>
+        <location filename="../basegui.cpp" line="1855"/>
         <source>&amp;Browse</source>
         <translation>瀏覽(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1856"/>
         <source>Op&amp;tions</source>
         <translation>選項(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1830"/>
+        <location filename="../basegui.cpp" line="1857"/>
         <source>&amp;Help</source>
         <translation>幫助(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1567"/>
+        <location filename="../basegui.cpp" line="1588"/>
         <source>&amp;File...</source>
         <translation>檔案(&amp;F)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1568"/>
+        <location filename="../basegui.cpp" line="1589"/>
         <source>D&amp;irectory...</source>
         <translation>目錄(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1569"/>
+        <location filename="../basegui.cpp" line="1590"/>
         <source>&amp;Playlist...</source>
         <translation>播放清單(&amp;P)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1572"/>
+        <location filename="../basegui.cpp" line="1593"/>
         <source>&amp;DVD from drive</source>
         <translation>從光碟機開啟 &amp;DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1573"/>
+        <location filename="../basegui.cpp" line="1594"/>
         <source>D&amp;VD from folder...</source>
         <translation>從目錄開啟 D&amp;VD...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1599"/>
         <source>&amp;URL...</source>
         <translation>網址(&amp;U)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1846"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>&amp;Clear</source>
         <translation>清除(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>&amp;Recent files</source>
         <translation>最近使用的檔案(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1602"/>
+        <location filename="../basegui.cpp" line="1623"/>
         <source>P&amp;lay</source>
         <translation>播放(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1605"/>
+        <location filename="../basegui.cpp" line="1626"/>
         <source>&amp;Pause</source>
         <translation>暫停(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1606"/>
+        <location filename="../basegui.cpp" line="1627"/>
         <source>&amp;Stop</source>
         <translation>停止(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1607"/>
+        <location filename="../basegui.cpp" line="1628"/>
         <source>&amp;Frame step</source>
         <translation>下一個畫面(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1626"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>&amp;Normal speed</source>
         <translation>正常速度(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1628"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>&amp;Double speed</source>
         <translation>雙倍速度(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>Speed &amp;-10%</source>
         <translation>速度 &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1651"/>
         <source>Speed &amp;+10%</source>
         <translation>速度 &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1739"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>關閉(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1889"/>
         <source>Sp&amp;eed</source>
         <translation>速度(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1621"/>
+        <location filename="../basegui.cpp" line="1642"/>
         <source>&amp;Repeat</source>
         <translation>重複 (&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1658"/>
         <source>&amp;Fullscreen</source>
         <translation>全螢幕(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1659"/>
         <source>&amp;Compact mode</source>
         <translation>緊湊排列模式(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1872"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>Si&amp;ze</source>
         <translation>視窗大小(&amp;Z)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1882"/>
+        <location filename="../basegui.cpp" line="1909"/>
         <source>&amp;Aspect ratio</source>
         <translation>外觀比例(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
-        <location filename="../basegui.cpp" line="3325"/>
-        <location filename="../basegui.cpp" line="3339"/>
+        <location filename="../basegui.cpp" line="1948"/>
+        <location filename="../basegui.cpp" line="3362"/>
+        <location filename="../basegui.cpp" line="3376"/>
         <source>&amp;None</source>
         <translation>無(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="1949"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1925"/>
+        <location filename="../basegui.cpp" line="1952"/>
         <source>Linear &amp;Blend</source>
         <translation>線性混合 (&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1885"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>&amp;Deinterlace</source>
         <translation>去交錯(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1661"/>
+        <location filename="../basegui.cpp" line="1682"/>
         <source>&amp;Postprocessing</source>
         <translation>後處理(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1662"/>
+        <location filename="../basegui.cpp" line="1683"/>
         <source>&amp;Autodetect phase</source>
         <translation>自動檢測相位(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1663"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>&amp;Deblock</source>
         <translation>去除區塊效應(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1664"/>
+        <location filename="../basegui.cpp" line="1685"/>
         <source>De&amp;ring</source>
         <translation>去除環狀區塊(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>Add n&amp;oise</source>
         <translation>加入雜訊(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>F&amp;ilters</source>
         <translation>過濾器(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1639"/>
+        <location filename="../basegui.cpp" line="1660"/>
         <source>&amp;Equalizer</source>
         <translation>等化器(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1640"/>
+        <location filename="../basegui.cpp" line="1661"/>
         <source>&amp;Screenshot</source>
         <translation>擷取影像(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>S&amp;tay on top</source>
         <translation>保持在桌面最上層顯示(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1706"/>
         <source>&amp;Extrastereo</source>
         <translation>擴展立體聲(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1685"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>&amp;Karaoke</source>
         <translation>卡拉O&amp;K</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1955"/>
+        <location filename="../basegui.cpp" line="1982"/>
         <source>&amp;Filters</source>
         <translation>過濾器(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1965"/>
-        <location filename="../basegui.cpp" line="1971"/>
+        <location filename="../basegui.cpp" line="1992"/>
+        <location filename="../basegui.cpp" line="1998"/>
         <source>&amp;Stereo</source>
         <translation>立體聲(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1966"/>
+        <location filename="../basegui.cpp" line="1993"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 環繞</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1967"/>
+        <location filename="../basegui.cpp" line="1994"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 環繞</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1958"/>
+        <location filename="../basegui.cpp" line="1985"/>
         <source>&amp;Channels</source>
         <translation>聲道(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1972"/>
+        <location filename="../basegui.cpp" line="1999"/>
         <source>&amp;Left channel</source>
         <translation>左聲道(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="2000"/>
         <source>&amp;Right channel</source>
         <translation>右聲道(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1961"/>
+        <location filename="../basegui.cpp" line="1988"/>
         <source>&amp;Stereo mode</source>
         <translation>立體聲模式(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1695"/>
         <source>&amp;Mute</source>
         <translation>静音(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>Volume &amp;-</source>
         <translation>音量 &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1697"/>
         <source>Volume &amp;+</source>
         <translation>音量 &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1677"/>
+        <location filename="../basegui.cpp" line="1698"/>
         <source>&amp;Delay -</source>
         <translation>延遲 - (&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>D&amp;elay +</source>
         <translation>延遲 + (&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1978"/>
+        <location filename="../basegui.cpp" line="2005"/>
         <source>&amp;Select</source>
         <translation>選擇(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Load...</source>
         <translation>載入(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>Delay &amp;-</source>
         <translation>延遲 &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1692"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>Delay &amp;+</source>
         <translation>延遲 &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;Up</source>
         <translation>上移(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;Down</source>
         <translation>下移(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1993"/>
+        <location filename="../basegui.cpp" line="2020"/>
         <source>&amp;Title</source>
         <translation>標題(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1996"/>
+        <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Chapter</source>
         <translation>章節(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1999"/>
+        <location filename="../basegui.cpp" line="2026"/>
         <source>&amp;Angle</source>
         <translation>角度(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>&amp;Playlist</source>
         <translation>播放清單(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1919"/>
+        <location filename="../basegui.cpp" line="1946"/>
         <source>&amp;Disabled</source>
         <translation>停用(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;OSD</source>
         <translation>視控調整功能(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2029"/>
+        <location filename="../basegui.cpp" line="2056"/>
         <source>&amp;View logs</source>
         <translation>檢視日誌(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1729"/>
+        <location filename="../basegui.cpp" line="1756"/>
         <source>P&amp;references</source>
         <translation>偏好設定(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>About &amp;SMPlayer</source>
         <translation>關於 &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3362"/>
-        <location filename="../basegui.cpp" line="3378"/>
-        <location filename="../basegui.cpp" line="3394"/>
-        <location filename="../basegui.cpp" line="3409"/>
-        <location filename="../basegui.cpp" line="3443"/>
-        <location filename="../basegui.cpp" line="3463"/>
-        <location filename="../basegui.cpp" line="3502"/>
+        <location filename="../basegui.cpp" line="3399"/>
+        <location filename="../basegui.cpp" line="3415"/>
+        <location filename="../basegui.cpp" line="3431"/>
+        <location filename="../basegui.cpp" line="3446"/>
+        <location filename="../basegui.cpp" line="3480"/>
+        <location filename="../basegui.cpp" line="3500"/>
+        <location filename="../basegui.cpp" line="3539"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;空&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3925"/>
+        <location filename="../basegui.cpp" line="3968"/>
         <source>Video</source>
         <translation>視訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3926"/>
-        <location filename="../basegui.cpp" line="4159"/>
+        <location filename="../basegui.cpp" line="3969"/>
+        <location filename="../basegui.cpp" line="4202"/>
         <source>Audio</source>
         <translation>音訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3927"/>
+        <location filename="../basegui.cpp" line="3970"/>
         <source>Playlists</source>
         <translation>播放清單</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3928"/>
-        <location filename="../basegui.cpp" line="4139"/>
-        <location filename="../basegui.cpp" line="4160"/>
+        <location filename="../basegui.cpp" line="3971"/>
+        <location filename="../basegui.cpp" line="4182"/>
+        <location filename="../basegui.cpp" line="4203"/>
         <source>All files</source>
         <translation>所有檔案</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3923"/>
-        <location filename="../basegui.cpp" line="4136"/>
-        <location filename="../basegui.cpp" line="4157"/>
+        <location filename="../basegui.cpp" line="3966"/>
+        <location filename="../basegui.cpp" line="4179"/>
+        <location filename="../basegui.cpp" line="4200"/>
         <source>Choose a file</source>
         <translation>選擇一個檔案</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1758"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>&amp;YouTube%1 瀏覽器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1781"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>贊助 / 和您的朋友分享(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3975"/>
+        <location filename="../basegui.cpp" line="4018"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 資訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3976"/>
+        <location filename="../basegui.cpp" line="4019"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD 裝置還沒有設定。
 您可以在以下顯現的配置對話框裡設定。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4089"/>
+        <location filename="../basegui.cpp" line="4132"/>
         <source>Select the Blu-ray folder</source>
         <translation>選擇藍光資料夾</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4102"/>
+        <location filename="../basegui.cpp" line="4145"/>
         <source>Choose a directory</source>
         <translation>選擇一個目錄</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4138"/>
+        <location filename="../basegui.cpp" line="4181"/>
         <source>Subtitles</source>
         <translation>字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4725"/>
+        <location filename="../basegui.cpp" line="4768"/>
         <source>Error detected</source>
         <translation>檢測到錯誤</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4726"/>
+        <location filename="../basegui.cpp" line="4769"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>抱歉這個影片不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4914"/>
+        <location filename="../basegui.cpp" line="4957"/>
         <source>Playing %1</source>
         <translation>播放 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4915"/>
+        <location filename="../basegui.cpp" line="4958"/>
         <source>Pause</source>
         <translation>暫停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4916"/>
+        <location filename="../basegui.cpp" line="4959"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1610"/>
+        <location filename="../basegui.cpp" line="1631"/>
         <source>Play / Pause</source>
         <translation>播放 / 暫停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1613"/>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>Pause / Frame step</source>
         <translation>暫停 / 下一個畫面</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1681"/>
-        <location filename="../basegui.cpp" line="1690"/>
+        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1713"/>
         <source>U&amp;nload</source>
         <translation>卸載(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1570"/>
+        <location filename="../basegui.cpp" line="1591"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1579"/>
+        <location filename="../basegui.cpp" line="1600"/>
         <source>C&amp;lose</source>
         <translation>關閉(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>View &amp;info and properties...</source>
         <translation>檢視資訊和內容(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1649"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>Zoom &amp;-</source>
         <translation>縮小 (&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1650"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>Zoom &amp;+</source>
         <translation>放大(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1651"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;Reset</source>
         <translation>重設(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1655"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>Move &amp;left</source>
         <translation>左移(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1656"/>
+        <location filename="../basegui.cpp" line="1677"/>
         <source>Move &amp;right</source>
         <translation>右移(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1657"/>
+        <location filename="../basegui.cpp" line="1678"/>
         <source>Move &amp;up</source>
         <translation>上移(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1658"/>
+        <location filename="../basegui.cpp" line="1679"/>
         <source>Move &amp;down</source>
         <translation>下移(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>前一行字幕(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>後一行字幕(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2038"/>
+        <location filename="../basegui.cpp" line="2065"/>
         <source>%1 log</source>
         <translation>%1 日誌</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2041"/>
+        <location filename="../basegui.cpp" line="2068"/>
         <source>SMPlayer log</source>
         <translation>SMPlayer 日誌</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2054"/>
-        <location filename="../basegui.cpp" line="2055"/>
-        <location filename="../basegui.cpp" line="2056"/>
+        <location filename="../basegui.cpp" line="2081"/>
+        <location filename="../basegui.cpp" line="2082"/>
+        <location filename="../basegui.cpp" line="2083"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2058"/>
-        <location filename="../basegui.cpp" line="2059"/>
-        <location filename="../basegui.cpp" line="2060"/>
+        <location filename="../basegui.cpp" line="2085"/>
+        <location filename="../basegui.cpp" line="2086"/>
+        <location filename="../basegui.cpp" line="2087"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1781"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>Dec volume (2)</source>
         <translation>降低音量(2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1575"/>
+        <location filename="../basegui.cpp" line="1596"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>從光碟機開啟 &amp;Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1576"/>
+        <location filename="../basegui.cpp" line="1597"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>從光碟機開啟 Blu-&amp;ray...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1608"/>
+        <location filename="../basegui.cpp" line="1629"/>
         <source>Fra&amp;me back step</source>
         <translation>移動至前一個畫面(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1627"/>
+        <location filename="../basegui.cpp" line="1648"/>
         <source>&amp;Half speed</source>
         <translation>半速(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1643"/>
+        <location filename="../basegui.cpp" line="1664"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>縮圖產生器(&amp;N)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1668"/>
         <source>Stereo &amp;3D filter</source>
         <translation>3D 立體過濾器(&amp;3)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1665"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>去頻帶 (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1726"/>
+        <source>Seek to next subtitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1727"/>
+        <source>Seek to previous subtitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>Use custo&amp;m style</source>
         <translation>使用自定風格(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1708"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>在 &amp;OpenSubtitles.org 尋找字幕...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>預設(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>First Steps &amp;Guide</source>
         <translation>首次操作指南(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1776"/>
         <source>Update &amp;Youtube code</source>
         <translation>更新 &amp;YouTube 程式碼</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>&amp;Open configuration folder</source>
         <translation>開啟設定檔資料夾(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1794"/>
         <source>Size &amp;+</source>
         <translation>大小增加(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1795"/>
         <source>Size &amp;-</source>
         <translation>大小減少(&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>Inc volume (2)</source>
         <translation>增加音量(2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1812"/>
         <source>Exit fullscreen</source>
         <translation>退出全螢幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1787"/>
+        <location filename="../basegui.cpp" line="1814"/>
         <source>OSD - Next level</source>
         <translation>螢幕顯示 - 下一級别</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1815"/>
         <source>Dec contrast</source>
         <translation>降低對比度</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1816"/>
         <source>Inc contrast</source>
         <translation>增加對比度</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1790"/>
+        <location filename="../basegui.cpp" line="1817"/>
         <source>Dec brightness</source>
         <translation>降低亮度</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1791"/>
+        <location filename="../basegui.cpp" line="1818"/>
         <source>Inc brightness</source>
         <translation>增加亮度</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1792"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>Dec hue</source>
         <translation>降低色调</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>Inc hue</source>
         <translation>增加色调</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1794"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>Dec saturation</source>
         <translation>降低飽和度</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1796"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>Dec gamma</source>
         <translation>降低 Gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>Next audio</source>
         <translation>下一音訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1800"/>
+        <location filename="../basegui.cpp" line="1827"/>
         <source>Next subtitle</source>
         <translation>下一字幕</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1828"/>
         <source>Next chapter</source>
         <translation>下一章節</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1802"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>Previous chapter</source>
         <translation>前一章節</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1811"/>
+        <location filename="../basegui.cpp" line="1838"/>
         <source>Show playback time on OSD</source>
         <translation>在 OSD 上顯示播放時間</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1929"/>
         <source>De&amp;noise</source>
         <translation>去除雜訊(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
+        <location filename="../basegui.cpp" line="1932"/>
         <source>Blur/S&amp;harp</source>
         <translation>模糊/尖銳(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1928"/>
+        <location filename="../basegui.cpp" line="1955"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>關閉(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1929"/>
+        <location filename="../basegui.cpp" line="1956"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>正常(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1930"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>柔和(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1959"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>無(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1933"/>
+        <location filename="../basegui.cpp" line="1960"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>模糊(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1934"/>
+        <location filename="../basegui.cpp" line="1961"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>銳化(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1968"/>
+        <location filename="../basegui.cpp" line="1995"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 環繞</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1969"/>
+        <location filename="../basegui.cpp" line="1996"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 環繞</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1974"/>
+        <location filename="../basegui.cpp" line="2001"/>
         <source>&amp;Mono</source>
         <translation>單聲道(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="2002"/>
         <source>Re&amp;verse</source>
         <translation>反相(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1982"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>Secondary trac&amp;k</source>
         <translation>次要軌道(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1989"/>
+        <location filename="../basegui.cpp" line="2016"/>
         <source>F&amp;rames per second</source>
         <translation>每秒顯示畫面數(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4660"/>
+        <location filename="../basegui.cpp" line="4703"/>
         <source>Connection failed</source>
         <translation>連線失敗</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4661"/>
+        <location filename="../basegui.cpp" line="4704"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>您所要求的影片需要開啟 HTTPS 連線。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4662"/>
+        <location filename="../basegui.cpp" line="4705"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>不幸的是，必須的 OpenSSL 組件並未在您的系統上提供。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4663"/>
+        <location filename="../basegui.cpp" line="4706"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>請參訪 %1 以得知如何修復這個問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4664"/>
+        <location filename="../basegui.cpp" line="4707"/>
         <source>this link</source>
         <translation>這個連結</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4674"/>
+        <location filename="../basegui.cpp" line="4717"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>抱歉因 Youtube 頁面的變化，這個影片不能播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4681"/>
-        <location filename="../basegui.cpp" line="4689"/>
+        <location filename="../basegui.cpp" line="4724"/>
+        <location filename="../basegui.cpp" line="4732"/>
         <source>Problems with Youtube</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5382"/>
-        <location filename="../basegui.cpp" line="5402"/>
+        <location filename="../basegui.cpp" line="5458"/>
+        <location filename="../basegui.cpp" line="5478"/>
         <source>%1 Error</source>
         <translation>%1 錯誤</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5383"/>
+        <location filename="../basegui.cpp" line="5459"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 意外地結束。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5404"/>
+        <location filename="../basegui.cpp" line="5480"/>
         <source>%1 failed to start.</source>
         <translation>%1 啟動失敗。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5405"/>
+        <location filename="../basegui.cpp" line="5481"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>請檢查 %1 在偏好設定裡的路徑。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5407"/>
+        <location filename="../basegui.cpp" line="5483"/>
         <source>%1 has crashed.</source>
         <translation>%1 當掉了。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5485"/>
+        <location filename="../basegui.cpp" line="5561"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube 瀏覽器尚未安裝。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5486"/>
+        <location filename="../basegui.cpp" line="5562"/>
         <source>Visit %1 to get it.</source>
         <translation>參訪 %1 以取得它。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4677"/>
+        <location filename="../basegui.cpp" line="4720"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>不幸的是，由於 YouTube 網頁的變化，影片&apos;%1&apos;無法播放。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4683"/>
+        <location filename="../basegui.cpp" line="4726"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>您想更新 YouTube 的程式碼嗎？這樣可能可以解決問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4691"/>
+        <location filename="../basegui.cpp" line="4734"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>也許 SMPlayer 的更新可以解決這個問題。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2024"/>
+        <location filename="../basegui.cpp" line="2051"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>與您的朋友分享 SMPlayer(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3050"/>
-        <location filename="../basegui.cpp" line="3738"/>
+        <location filename="../basegui.cpp" line="3087"/>
+        <location filename="../basegui.cpp" line="3781"/>
         <source>Information</source>
         <translation>資訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3051"/>
+        <location filename="../basegui.cpp" line="3088"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>您需要重新啟動 SMPlayer 以使用新的圖形使用者介面。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3514"/>
+        <location filename="../basegui.cpp" line="3551"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>確認刪除 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3515"/>
+        <location filename="../basegui.cpp" line="3552"/>
         <source>Delete the list of recent files?</source>
         <translation>刪除最近使用檔案的清單？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3739"/>
+        <location filename="../basegui.cpp" line="3782"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>目前的值已經儲存為預設。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>Inc saturation</source>
         <translation>增加飽和度</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1797"/>
+        <location filename="../basegui.cpp" line="1824"/>
         <source>Inc gamma</source>
         <translation>增加 Gamma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1680"/>
+        <location filename="../basegui.cpp" line="1701"/>
         <source>&amp;Load external file...</source>
         <translation>載入外部檔案(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1926"/>
+        <location filename="../basegui.cpp" line="1953"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1923"/>
+        <location filename="../basegui.cpp" line="1950"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (正常)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1924"/>
+        <location filename="../basegui.cpp" line="1951"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (雙倍畫面更新率)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1771"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Next</source>
         <translation>下一個(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1799"/>
         <source>Pre&amp;vious</source>
         <translation>上一個(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1709"/>
         <source>Volume &amp;normalization</source>
         <translation>音量標準化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1571"/>
+        <location filename="../basegui.cpp" line="1592"/>
         <source>&amp;Audio CD</source>
         <translation>音樂 CD (&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1830"/>
         <source>&amp;Toggle double size</source>
         <translation>切換兩倍大小 (&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1696"/>
+        <location filename="../basegui.cpp" line="1719"/>
         <source>S&amp;ize -</source>
         <translation>大小(&amp;I) -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1697"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>Si&amp;ze +</source>
         <translation>大小(&amp;Z) +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1667"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>Add &amp;black borders</source>
         <translation>加入黑色邊框(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>Soft&amp;ware scaling</source>
         <translation>軟體縮放(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1744"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>&amp;FAQ</source>
         <translation>常見問題解答(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1745"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Command line options</source>
         <translation>命令列選項(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4179"/>
+        <location filename="../basegui.cpp" line="4222"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 命令列選項</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1703"/>
+        <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Forced subtitles only</source>
         <translation>強制僅出現字幕(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>Reset video equalizer</source>
         <translation>重設視訊等化器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4727"/>
+        <location filename="../basegui.cpp" line="4770"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>伺服器返回 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5460"/>
         <source>Exit code: %1</source>
         <translation>結束代碼: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5408"/>
+        <location filename="../basegui.cpp" line="5484"/>
         <source>See the log for more info.</source>
         <translation>更多資訊請參閱日誌</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1918"/>
         <source>&amp;Rotate</source>
         <translation>旋轉(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1936"/>
+        <location filename="../basegui.cpp" line="1963"/>
         <source>&amp;Off</source>
         <translation>關閉(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1964"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>順時針方向旋轉90度然後翻轉(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1938"/>
+        <location filename="../basegui.cpp" line="1965"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>順時針方向旋轉90度(&amp;c)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1966"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>逆時針方向旋轉90度(&amp;w)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1967"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>逆時針方向旋轉90度然後翻轉(&amp;f)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1623"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>&amp;Jump to...</source>
         <translation>跳至(&amp;J)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1806"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>Show context menu</source>
         <translation>顯示內容功能表</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3924"/>
+        <location filename="../basegui.cpp" line="3967"/>
         <source>Multimedia</source>
         <translation>多媒體</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1692"/>
         <source>E&amp;qualizer</source>
         <translation>等化器(&amp;q)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1832"/>
         <source>Reset audio equalizer</source>
         <translation>重設音訊等化器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1736"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>上傳字幕到 OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1908"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>&amp;Auto</source>
         <translation>自動(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1652"/>
         <source>Speed -&amp;4%</source>
         <translation>速度 -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1632"/>
+        <location filename="../basegui.cpp" line="1653"/>
         <source>&amp;Speed +4%</source>
         <translation>速度 +4% (&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1633"/>
+        <location filename="../basegui.cpp" line="1654"/>
         <source>Speed -&amp;1%</source>
         <translation>速度 -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1655"/>
         <source>S&amp;peed +1%</source>
         <translation>速度 +1% (&amp;p)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>Scree&amp;n</source>
         <translation>螢幕(&amp;n)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1948"/>
+        <location filename="../basegui.cpp" line="1975"/>
         <source>&amp;Default</source>
         <translation>預設(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="1667"/>
         <source>Mirr&amp;or image</source>
         <translation>鏡像(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1798"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>Next video</source>
         <translation>下一視訊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>視訊軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1952"/>
+        <location filename="../basegui.cpp" line="1979"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>音訊軌(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4576"/>
+        <location filename="../basegui.cpp" line="4619"/>
         <source>Warning - Using old MPlayer</source>
         <translation>警告 - 您使用的是舊的 MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4577"/>
+        <location filename="../basegui.cpp" line="4620"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>您系統上安裝的 MPlayer (%1) 版本已經過時了。使用它，SMPlayer 不能很好地運作：一些選項將無法正常​​工作，字幕選擇可能會失敗...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4582"/>
+        <location filename="../basegui.cpp" line="4625"/>
         <source>Please, update your MPlayer.</source>
         <translation>請更新您的 MPlayer 。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4584"/>
+        <location filename="../basegui.cpp" line="4627"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(這個警告將不再顯示)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1807"/>
+        <location filename="../basegui.cpp" line="1834"/>
         <source>Next aspect ratio</source>
         <translation>下一個外觀比例</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1652"/>
+        <location filename="../basegui.cpp" line="1673"/>
         <source>&amp;Auto zoom</source>
         <translation>自動縮放(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1653"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>Zoom for &amp;16:9</source>
         <translation>縮放為 &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1654"/>
+        <location filename="../basegui.cpp" line="1675"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>縮放為 &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1942"/>
+        <location filename="../basegui.cpp" line="1969"/>
         <source>&amp;Always</source>
         <translation>總是(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1943"/>
+        <location filename="../basegui.cpp" line="1970"/>
         <source>&amp;Never</source>
         <translation>不要(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1944"/>
+        <location filename="../basegui.cpp" line="1971"/>
         <source>While &amp;playing</source>
         <translation>當正在播放時(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2013"/>
+        <location filename="../basegui.cpp" line="2040"/>
         <source>DVD &amp;menu</source>
         <translation>DVD 選單(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2015"/>
+        <location filename="../basegui.cpp" line="2042"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD 前一個選單(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2009"/>
+        <location filename="../basegui.cpp" line="2036"/>
         <source>DVD menu, move up</source>
         <translation>DVD選單，上移</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2010"/>
+        <location filename="../basegui.cpp" line="2037"/>
         <source>DVD menu, move down</source>
         <translation>DVD選單，下移</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2011"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>DVD menu, move left</source>
         <translation>DVD選單，左移</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2012"/>
+        <location filename="../basegui.cpp" line="2039"/>
         <source>DVD menu, move right</source>
         <translation>DVD選單，右移</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2014"/>
+        <location filename="../basegui.cpp" line="2041"/>
         <source>DVD menu, select option</source>
         <translation>DVD選單，選擇的選項</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2016"/>
+        <location filename="../basegui.cpp" line="2043"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD選單，滑鼠點擊</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>Set dela&amp;y...</source>
         <translation>設定延遲(&amp;Y)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1693"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>Se&amp;t delay...</source>
         <translation>設定延遲(&amp;T)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4264"/>
+        <location filename="../basegui.cpp" line="4307"/>
         <source>&amp;Jump to:</source>
         <translation>跳轉到(&amp;J)：</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4265"/>
+        <location filename="../basegui.cpp" line="4308"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - 尋找</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4276"/>
-        <location filename="../basegui.cpp" line="4280"/>
+        <location filename="../basegui.cpp" line="4319"/>
+        <location filename="../basegui.cpp" line="4323"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 音訊延遲</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4277"/>
-        <location filename="../basegui.cpp" line="4281"/>
+        <location filename="../basegui.cpp" line="4320"/>
+        <location filename="../basegui.cpp" line="4324"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>音訊延遲(以毫秒為單位)：</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4292"/>
-        <location filename="../basegui.cpp" line="4296"/>
+        <location filename="../basegui.cpp" line="4335"/>
+        <location filename="../basegui.cpp" line="4339"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 字幕延遲</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4293"/>
-        <location filename="../basegui.cpp" line="4297"/>
+        <location filename="../basegui.cpp" line="4336"/>
+        <location filename="../basegui.cpp" line="4340"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>字幕延遲(以毫秒為單位)：</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1945"/>
+        <location filename="../basegui.cpp" line="1972"/>
         <source>Toggle stay on top</source>
         <translation>切換「保持在桌面最上層顯示」</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5060"/>
+        <location filename="../basegui.cpp" line="5136"/>
         <source>Jump to %1</source>
         <translation>跳轉到 %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1662"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>開始/停止擷取影像(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>Subtitle &amp;visibility</source>
         <translation>顯示字幕(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1835"/>
         <source>Next wheel function</source>
         <translation>下一個滾輪功能</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2030"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>節目(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1855"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>&amp;TV</source>
         <translation>電視(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1858"/>
+        <location filename="../basegui.cpp" line="1885"/>
         <source>Radi&amp;o</source>
         <translation>廣播電台(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1843"/>
         <source>Subtitles onl&amp;y</source>
         <translation>只有字幕(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1817"/>
+        <location filename="../basegui.cpp" line="1844"/>
         <source>Volume + &amp;Seek</source>
         <translation>音量 + 尋找(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1845"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>音量 + 尋找 + 計時​​器(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1846"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>音量 + 尋找 + 計時​​器 + 總時間(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1521"/>
+        <location filename="../basegui.cpp" line="1542"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>使用 VDPAU 時將停用視訊過濾器</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1666"/>
         <source>Fli&amp;p image</source>
         <translation>翻轉影像(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1879"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>Zoo&amp;m</source>
         <translation>縮放影片(&amp;m)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1810"/>
+        <location filename="../basegui.cpp" line="1837"/>
         <source>Show filename on OSD</source>
         <translation>在螢幕顯示中顯示檔名</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1618"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>Set &amp;A marker</source>
         <translation>設定 &amp;A 標記</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1619"/>
+        <location filename="../basegui.cpp" line="1640"/>
         <source>Set &amp;B marker</source>
         <translation>設定 &amp;B 標記</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1620"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>&amp;Clear A-B markers</source>
         <translation>清除 A-B 標記(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>&amp;A-B section</source>
         <translation>&amp;A-B 段</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1812"/>
+        <location filename="../basegui.cpp" line="1839"/>
         <source>Toggle deinterlacing</source>
         <translation>切換隔行掃描</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1986"/>
+        <location filename="../basegui.cpp" line="2013"/>
         <source>&amp;Closed captions</source>
         <translation>特殊的「隱藏式字幕」(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>&amp;Disc</source>
         <translation>光碟(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1852"/>
+        <location filename="../basegui.cpp" line="1879"/>
         <source>F&amp;avorites</source>
         <translation>收藏(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1773"/>
         <source>Check for &amp;updates</source>
         <translation>檢查更新(&amp;U)</translation>
     </message>
@@ -1892,73 +1902,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2937"/>
+        <location filename="../core.cpp" line="2964"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2953"/>
+        <location filename="../core.cpp" line="2980"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2968"/>
+        <location filename="../core.cpp" line="2995"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2983"/>
+        <location filename="../core.cpp" line="3010"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2998"/>
+        <location filename="../core.cpp" line="3025"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3141"/>
+        <location filename="../core.cpp" line="3168"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4062"/>
+        <location filename="../core.cpp" line="4089"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4287"/>
+        <location filename="../core.cpp" line="4314"/>
         <source>Buffering...</source>
         <translation>緩衝中...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3259"/>
-        <location filename="../core.cpp" line="3270"/>
+        <location filename="../core.cpp" line="3286"/>
+        <location filename="../core.cpp" line="3297"/>
         <source>Font scale: %1</source>
         <translation>字體縮放：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3903"/>
+        <location filename="../core.cpp" line="3930"/>
         <source>Aspect ratio: %1</source>
         <translation>長寬比：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4283"/>
+        <location filename="../core.cpp" line="4310"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>更新字型快取。這可能需要幾秒鐘時間...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3184"/>
+        <location filename="../core.cpp" line="3211"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3202"/>
+        <location filename="../core.cpp" line="3229"/>
         <source>Audio delay: %1 ms</source>
         <translation>音訊延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3052"/>
+        <location filename="../core.cpp" line="3079"/>
         <source>Speed: %1</source>
         <translation>速度：%1</translation>
     </message>
@@ -1973,62 +1983,62 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>無法找到該影片的網址</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3347"/>
+        <location filename="../core.cpp" line="3374"/>
         <source>Subtitles on</source>
         <translation>開啟字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3349"/>
+        <location filename="../core.cpp" line="3376"/>
         <source>Subtitles off</source>
         <translation>關閉字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3951"/>
+        <location filename="../core.cpp" line="3978"/>
         <source>Mouse wheel seeks now</source>
         <translation>滑鼠滾輪尋找</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3954"/>
+        <location filename="../core.cpp" line="3981"/>
         <source>Mouse wheel changes volume now</source>
         <translation>滑鼠滾輪更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3957"/>
+        <location filename="../core.cpp" line="3984"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>滑鼠滾輪更改縮放等級</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3960"/>
+        <location filename="../core.cpp" line="3987"/>
         <source>Mouse wheel changes speed now</source>
         <translation>滑鼠滾輪更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4292"/>
+        <location filename="../core.cpp" line="4319"/>
         <source>Starting...</source>
         <translation>正在啟動...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1408"/>
+        <location filename="../core.cpp" line="1413"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1421"/>
+        <location filename="../core.cpp" line="1426"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2606"/>
+        <location filename="../core.cpp" line="2631"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>標誌 &quot;A&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2623"/>
+        <location filename="../core.cpp" line="2648"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>標誌 &quot;B&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2638"/>
+        <location filename="../core.cpp" line="2663"/>
         <source>A-B markers cleared</source>
         <translation>A-B 標記清除</translation>
     </message>
@@ -2481,52 +2491,57 @@ Example: extrastereo,karaoke</source>
         <translation>伺服器</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="26"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>&amp;OpenSubtitles server:</source>
         <translation>&amp;OpenSubtitles 伺服器：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="42"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="83"/>
         <source>Proxy</source>
         <translation>代理</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="48"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="89"/>
         <source>&amp;Enable proxy</source>
         <translation>啟用代理(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="61"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="102"/>
         <source>&amp;Host:</source>
         <translation>主機(&amp;H)：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="74"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="115"/>
         <source>&amp;Port:</source>
         <translation>連接埠(&amp;P)：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="94"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="135"/>
         <source>&amp;Username:</source>
         <translation>使用者名稱(&amp;U)：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="107"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
         <source>Pa&amp;ssword:</source>
         <translation>密碼(&amp;S)：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="124"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
         <source>&amp;Type:</source>
         <translation>種類(&amp;T)：</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="156"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="197"/>
         <source>Misc</source>
         <translation>雜項</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="162"/>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
+        <source>A&amp;ppend language code to the subtitle filename</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
         <source>Number of &amp;retries:</source>
         <translation>重試次數(&amp;R)：</translation>
     </message>
@@ -2534,115 +2549,115 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>FindSubtitlesWindow</name>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Language</source>
         <translation>語言</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Name</source>
         <translation>名稱</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="225"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="227"/>
         <source>Format</source>
         <translation>格式</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
         <source>Files</source>
         <translation>檔案</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="226"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="228"/>
         <source>Uploaded by</source>
         <translation>上傳者為</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="241"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="243"/>
         <source>Portuguese - Brasil</source>
         <translation>葡萄牙文 - 巴西</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="256"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="258"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="265"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="267"/>
         <source>Close</source>
         <translation>關閉</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="354"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="356"/>
         <source>Login to opensubtitles.org has failed</source>
         <translation>登入 opensubtitles.org 失敗</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="358"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="360"/>
         <source>Search has failed</source>
         <translation>搜尋失敗</translation>
     </message>
     <message numerus="yes">
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="695"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>已擷取出 %n 字幕擋</numerusform>
         </translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="755"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
         <source>Error fixing the subtitle lines</source>
         <translation>修正字幕列時出現錯誤</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="269"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
         <source>&amp;Download</source>
         <translation>下載(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="270"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="272"/>
         <source>&amp;Copy link to clipboard</source>
         <translation>複製連結到剪貼簿(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="346"/>
         <source>Error</source>
         <translation>錯誤</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="345"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="347"/>
         <source>Download failed: %1.</source>
         <translation>下載失敗: %1。</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="350"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
         <source>Connecting to %1...</source>
         <translation>連結到 %1...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Downloading...</source>
         <translation>下載中...</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="376"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="378"/>
         <source>Done.</source>
         <translation>完成</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="421"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="423"/>
         <source>%1 files available</source>
         <translation>%1 檔案可用</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="430"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="432"/>
         <source>Failed to parse the received data.</source>
         <translation>無法分析已接收到的資料</translation>
     </message>
@@ -2667,30 +2682,30 @@ Example: extrastereo,karaoke</source>
         <translation>更新(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="525"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="672"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="527"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
         <source>Subtitle saved as %1</source>
         <translation>字幕已儲存于 %1</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="709"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="711"/>
         <source>Overwrite?</source>
         <translation>是否覆寫?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="710"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="712"/>
         <source>The file %1 already exits, overwrite?</source>
         <translation>檔案 %1 己存在。是否覆寫?</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="520"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="627"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="629"/>
         <source>Error saving file</source>
         <translation>儲存檔案出錯</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="521"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="628"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
         <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
@@ -2699,14 +2714,14 @@ Please check the permissions of that folder.</source>
 請檢查該資料夾的使用權限</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="342"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="493"/>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="621"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="344"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="495"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Download failed</source>
         <translation>下載失敗</translation>
     </message>
     <message>
-        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="605"/>
+        <location filename="../findsubtitles/findsubtitleswindow.cpp" line="607"/>
         <source>Temporary file %1</source>
         <translation>暫存檔 %1</translation>
     </message>
@@ -6495,7 +6510,7 @@ Example: extrastereo,karaoke</source>
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="130"/>
-        <location filename="../prefinterface.cpp" line="644"/>
+        <location filename="../prefinterface.cpp" line="646"/>
         <source>Interface</source>
         <translation>介面</translation>
     </message>
@@ -6516,38 +6531,38 @@ Example: extrastereo,karaoke</source>
         <translation>介面(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="77"/>
+        <location filename="../prefinterface.ui" line="60"/>
         <source>Never</source>
         <translation>從不</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="82"/>
+        <location filename="../prefinterface.ui" line="65"/>
         <source>Whenever it&apos;s needed</source>
         <translation>當需要的時候</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="87"/>
+        <location filename="../prefinterface.ui" line="70"/>
         <source>Only after loading a new video</source>
         <translation>只在新影片載入後</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="799"/>
+        <location filename="../prefinterface.ui" line="791"/>
         <source>Privac&amp;y</source>
         <translation>隱私(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="805"/>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.ui" line="797"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Recent files</source>
         <translation>最近使用的檔案</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="660"/>
+        <location filename="../prefinterface.cpp" line="665"/>
         <source>Language</source>
         <translation>語言</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="661"/>
+        <location filename="../prefinterface.cpp" line="666"/>
         <source>Here you can change the language of the application.</source>
         <translation>您可以改變應用程式的語言</translation>
     </message>
@@ -6572,27 +6587,27 @@ Example: extrastereo,karaoke</source>
         <translation>滑鼠滾輪跳轉(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="605"/>
+        <location filename="../prefinterface.ui" line="597"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>只使用一個 SMPlayer 的執行實體(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="817"/>
+        <location filename="../prefinterface.ui" line="809"/>
         <source>Ma&amp;x. items</source>
         <translation>最大項目數(&amp;X)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="314"/>
+        <location filename="../prefinterface.ui" line="306"/>
         <source>St&amp;yle:</source>
         <translation>樣式(&amp;Y)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="218"/>
+        <location filename="../prefinterface.ui" line="210"/>
         <source>Ico&amp;n set:</source>
         <translation>圖示集(&amp;N)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="149"/>
+        <location filename="../prefinterface.ui" line="141"/>
         <source>L&amp;anguage:</source>
         <translation>語言(&amp;A)：</translation>
     </message>
@@ -6602,168 +6617,172 @@ Example: extrastereo,karaoke</source>
         <translation>主視窗</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="60"/>
+        <location filename="../prefinterface.ui" line="43"/>
         <source>Auto&amp;resize:</source>
         <translation>自動調整大小(&amp;R)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="95"/>
+        <location filename="../prefinterface.ui" line="80"/>
+        <source>Center &amp;window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="87"/>
         <source>R&amp;emember position and size</source>
         <translation>記住位置和大小(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="109"/>
+        <location filename="../prefinterface.ui" line="101"/>
         <source>&amp;Move the window when the video area is dragged</source>
         <translation>移動視窗，當視訊區被拖曳時(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="266"/>
+        <location filename="../prefinterface.ui" line="258"/>
         <source>S&amp;kin:</source>
         <translation>面板(&amp;K)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="373"/>
+        <location filename="../prefinterface.ui" line="365"/>
         <source>Default font:</source>
         <translation>預設字型：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="387"/>
+        <location filename="../prefinterface.ui" line="379"/>
         <source>&amp;Change...</source>
         <translation>改變(&amp;C)...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="475"/>
+        <location filename="../prefinterface.ui" line="467"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>時間滑桿的行為(&amp;B)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="492"/>
+        <location filename="../prefinterface.ui" line="484"/>
         <source>Seek to position while dragging</source>
         <translation>拖曳時尋找位置</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="497"/>
+        <location filename="../prefinterface.ui" line="489"/>
         <source>Seek to position when released</source>
         <translation>釋放後尋找位置</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="582"/>
+        <location filename="../prefinterface.ui" line="574"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
         <translation>點擊停止鍵一次將重設時間位置 (&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="647"/>
+        <location filename="../prefinterface.ui" line="639"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
         <translation>浮動控制列出現在全螢幕模式中，當滑鼠移動時。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="734"/>
+        <location filename="../prefinterface.ui" line="726"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
         <translation>顯示，只有當移動滑鼠到螢幕的底部(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="750"/>
+        <location filename="../prefinterface.ui" line="742"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
         <translation>隱藏控制列的時間(以毫秒為單位)(&amp;E)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="856"/>
+        <location filename="../prefinterface.ui" line="848"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="868"/>
+        <location filename="../prefinterface.ui" line="860"/>
         <source>&amp;Max. items</source>
         <translation>最大項目數(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="907"/>
+        <location filename="../prefinterface.ui" line="899"/>
         <source>&amp;Remember last directory</source>
         <translation>記住上一個目錄(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="45"/>
-        <location filename="../prefinterface.ui" line="598"/>
+        <location filename="../prefinterface.ui" line="590"/>
         <source>TextLabel</source>
         <translation>文字標籤</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="410"/>
+        <location filename="../prefinterface.ui" line="402"/>
         <source>&amp;Seeking</source>
         <translation>尋找(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="532"/>
+        <location filename="../prefinterface.ui" line="524"/>
         <source>&amp;Absolute seeking</source>
         <translation>絕對尋找(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="545"/>
+        <location filename="../prefinterface.ui" line="537"/>
         <source>&amp;Relative seeking</source>
         <translation>相對尋找(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="590"/>
+        <location filename="../prefinterface.ui" line="582"/>
         <source>Ins&amp;tances</source>
         <translation>執行實體(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="646"/>
+        <location filename="../prefinterface.cpp" line="648"/>
         <source>Autoresize</source>
         <translation>自動調整大小</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="647"/>
+        <location filename="../prefinterface.cpp" line="649"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>主視窗可以自動地重新調整大小。選擇您喜歡的選項。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="650"/>
+        <location filename="../prefinterface.cpp" line="655"/>
         <source>Remember position and size</source>
         <translation>記住位置和大小</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="651"/>
+        <location filename="../prefinterface.cpp" line="656"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>如果您勾選此選項，主視窗的位置和大小將被儲存，而當您再次執行 SMPlayer 時，則會恢復。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="664"/>
+        <location filename="../prefinterface.cpp" line="669"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>選擇您喜歡的應用程式之圖形介面。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="665"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>&lt;b&gt;基本圖形使用者介面&lt;/b&gt; 提供傳統的介面，擁有工具列和控制列</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="667"/>
+        <location filename="../prefinterface.cpp" line="672"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation> &lt;b&gt;精簡圖形使用者介面&lt;/b&gt; 提供一個更為簡潔的介面，沒有工具列，有一個擁有很少按鈕的控制列</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="669"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>&lt;b&gt;可換面板的圖形使用者介面&lt;/b&gt; 提供了一個介面，其中多個面板可供選擇使用。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="672"/>
+        <location filename="../prefinterface.cpp" line="677"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>&lt;b&gt;Mpc 圖形使用者介面&lt;/b&gt; 和 Media Player Classic 看起來很相似</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="770"/>
+        <location filename="../prefinterface.cpp" line="775"/>
         <source>Privacy</source>
         <translation>隱私</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="773"/>
+        <location filename="../prefinterface.cpp" line="778"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>選擇將顯示在&lt;b&gt;開啟-&gt; 最近使用的檔案&lt;/b&gt; 子選單中的最大項目數。如果您將它設置為0，將不會顯示此選單。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="676"/>
+        <location filename="../prefinterface.cpp" line="681"/>
         <source>Icon set</source>
         <translation>圖示集</translation>
     </message>
@@ -6778,200 +6797,210 @@ Example: extrastereo,karaoke</source>
         <translation>可換面板的圖形使用者介面</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="657"/>
+        <location filename="../prefinterface.cpp" line="652"/>
+        <source>Center window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="653"/>
+        <source>When this option is enabled, the main window will be centered on the desktop.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="662"/>
         <source>Move the window when the video area is dragged</source>
         <translation>移動視窗，當視訊區被拖曳時</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="658"/>
+        <location filename="../prefinterface.cpp" line="663"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
         <translation>如果勾選此選項，當您在視訊區拖曳滑鼠，主視窗會跟著移動。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="677"/>
+        <location filename="../prefinterface.cpp" line="682"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>選擇您喜歡的圖示集</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="680"/>
+        <location filename="../prefinterface.cpp" line="685"/>
         <source>Skin</source>
         <translation>面板</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="686"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>選擇您喜歡的 SMPlayer 面板。僅適用於可換面板的圖形使用者介面</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
+        <location filename="../prefinterface.cpp" line="689"/>
         <source>Style</source>
         <translation>樣式</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="690"/>
         <source>Select the style you prefer for the application.</source>
         <translation>選擇您喜歡的樣式</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="688"/>
+        <location filename="../prefinterface.cpp" line="693"/>
         <source>Default font</source>
         <translation>預設字型</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="694"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>您可以改變應用程式的字體</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="696"/>
         <source>Seeking</source>
         <translation>尋找</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>Short jump</source>
         <translation>短跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="694"/>
-        <location filename="../prefinterface.cpp" line="698"/>
-        <location filename="../prefinterface.cpp" line="702"/>
+        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="707"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>選擇當您選定 &quot;%1&quot; 動作時應前進或後退的時間。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="700"/>
         <source>short jump</source>
         <translation>短跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="697"/>
+        <location filename="../prefinterface.cpp" line="702"/>
         <source>Medium jump</source>
         <translation>中跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="704"/>
         <source>medium jump</source>
         <translation>中跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="701"/>
+        <location filename="../prefinterface.cpp" line="706"/>
         <source>Long jump</source>
         <translation>長跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="708"/>
         <source>long jump</source>
         <translation>長跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="705"/>
+        <location filename="../prefinterface.cpp" line="710"/>
         <source>Mouse wheel jump</source>
         <translation>滑鼠滾輪跳轉</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="706"/>
+        <location filename="../prefinterface.cpp" line="711"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>選擇當您滾動滑鼠滾輪時應前進或後退的時間。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>Behaviour of time slider</source>
         <translation>時間滑桿的行為</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="710"/>
+        <location filename="../prefinterface.cpp" line="715"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>選擇拖動 &quot;時間滑桿&quot; 時該做什麼。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="724"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>點擊停止鍵一次將重設時間位置</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="730"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>預設情況下，按下停止按鈕後會記錄時間位置再停止播放，下次按了播放鍵後會繼續播放。您必須按兩下停止按鈕才能重置時間，如果勾選此項，只需按一下停止鍵就能將時間重置為 &quot;0&quot; 。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>顯示，只有當移動滑鼠到螢幕的底部</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>如果這個選項被勾選，浮動控制列只有當滑鼠移動到螢幕的底部時會顯示。否則只要滑鼠有移動，控制列就會出現，無論滑鼠所在位置。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>如果啟用這個選項，浮動控制列會以緊湊模式出現。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="763"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>This option only works with the basic GUI.</source>
         <translation>此選項僅適用於基本圖形使用者介面</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="769"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;警告：&lt;/b&gt;浮動控制列還沒有專為緊湊排列模式的設計，它可能無法正常運作。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="767"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Time to hide the control</source>
         <translation>隱藏控制列的時間</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="773"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>設定滑鼠遠離控制列後，隱藏控制列所花的時間(以毫秒為單位)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="782"/>
         <source>Max. URLs</source>
         <translation>最大 URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="778"/>
+        <location filename="../prefinterface.cpp" line="783"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>選擇&lt;b&gt;開啟-&gt; 網址&lt;/b&gt; 對話框將記住的最大項目數。如果您不想儲存任何網址，請將它設置為0。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="787"/>
         <source>Remember last directory</source>
         <translation>記住上一個目錄</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="783"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>如果勾選此選項，SMPlayer 將記住上次您用來開啟檔案時的資料夾。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="520"/>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.ui" line="512"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>Seeking method</source>
         <translation>尋找方式</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="714"/>
+        <location filename="../prefinterface.cpp" line="719"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>設定用滑桿尋找時所使用的方法。絕對尋找可能更精確一點，而相對尋找在檔案有錯誤長度時是更好的處理方式。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Instances</source>
         <translation>執行實體</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="735"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>只使用一個 SMPlayer 的執行實體</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>如果您想要在開啟其他檔案時使用一個已經在執行的 SMPlayer，請勾選此選項。</translation>
     </message>
@@ -6981,83 +7010,83 @@ Example: extrastereo,karaoke</source>
         <translation>精簡圖形使用者介面</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="663"/>
+        <location filename="../prefinterface.cpp" line="668"/>
         <source>GUI</source>
         <translation>圖形使用者介面</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="185"/>
+        <location filename="../prefinterface.ui" line="177"/>
         <source>&amp;GUI</source>
         <translation>圖形使用者介面(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>Floating control</source>
         <translation>浮動控制列</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>Animated</source>
         <translation>栩栩如生的</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>如果啟用此選項，浮動控制列會以活潑的方式出現。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Width</source>
         <translation>寬度</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>指定浮動控制列的寬度 (以百分比表示)。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>Margin</source>
         <translation>邊距</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>此選項可設定浮動控制列距離螢幕底部的像素數。它是有用的，當螢幕是一台電視，而畫面超出螢幕範圍時，可防止浮動控制列被看見。</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="765"/>
         <source>Display in compact mode too</source>
         <translation>顯示於緊湊排列模式</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="641"/>
+        <location filename="../prefinterface.ui" line="633"/>
         <source>&amp;Floating control</source>
         <translation>浮動控制列(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="657"/>
+        <location filename="../prefinterface.ui" line="649"/>
         <source>&amp;Animated</source>
         <translation>栩栩如生的(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="666"/>
+        <location filename="../prefinterface.ui" line="658"/>
         <source>&amp;Width:</source>
         <translation>寬度(&amp;W)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="692"/>
-        <location filename="../prefinterface.ui" line="725"/>
+        <location filename="../prefinterface.ui" line="684"/>
+        <location filename="../prefinterface.ui" line="717"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="699"/>
+        <location filename="../prefinterface.ui" line="691"/>
         <source>&amp;Margin:</source>
         <translation>邊距(&amp;M)：</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="741"/>
+        <location filename="../prefinterface.ui" line="733"/>
         <source>Display in &amp;compact mode too</source>
         <translation>顯示於緊湊排列模式(&amp;C)</translation>
     </message>
@@ -7067,37 +7096,37 @@ Example: extrastereo,karaoke</source>
         <translation>Mpc 圖形使用者介面</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="654"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Hide video window when playing audio files</source>
         <translation>撥放音訊檔時，隱藏視訊視窗</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="655"/>
+        <location filename="../prefinterface.cpp" line="660"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>如果這個選項被啟用，撥放音訊檔時會隱藏視訊視窗</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="102"/>
+        <location filename="../prefinterface.ui" line="94"/>
         <source>&amp;Hide video window when playing audio files</source>
         <translation>撥放音訊檔時，隱藏視訊視窗(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="724"/>
         <source>Precise seeking</source>
         <translation>精確的尋找</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="720"/>
+        <location filename="../prefinterface.cpp" line="725"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>如果啟用此選項，尋找會更精確，但過程可以稍微慢一點。可能無法在某些影片格式執行</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="722"/>
+        <location filename="../prefinterface.cpp" line="727"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>注意：這個選項僅適用於 MPlayer2 中</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="568"/>
+        <location filename="../prefinterface.ui" line="560"/>
         <source>&amp;Precise seeking</source>
         <translation>精確的尋找(&amp;P)</translation>
     </message>
@@ -8689,19 +8718,19 @@ Example: extrastereo,karaoke</source>
         <translation>指定 smplayer 將要儲存其設定檔的目錄（smplayer.ini、smplayer_files.ini...）</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="169"/>
+        <location filename="../mediasettings.cpp" line="171"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>停用</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="180"/>
+        <location filename="../mediasettings.cpp" line="182"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>自動</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="181"/>
+        <location filename="../mediasettings.cpp" line="183"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>未知</translation>
@@ -9651,7 +9680,7 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>VolumeSliderAction</name>
     <message>
-        <location filename="../widgetactions.cpp" line="185"/>
+        <location filename="../widgetactions.cpp" line="196"/>
         <source>Volume</source>
         <translation>音量</translation>
     </message>
