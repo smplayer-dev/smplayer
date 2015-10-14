@@ -5064,7 +5064,7 @@ void BaseGui::resizeMainWindow(int w, int h) {
 
 	qDebug("BaseGui::resizeWindow: new_width: %d new_height: %d", new_width, new_height);
 
-#ifdef Q_OS_WIN
+#if 0
 	QSize desktop_size = DesktopInfo::desktop_size(this);
 	//desktop_size.setWidth(1000); desktop_size.setHeight(1000); // test
 	if (new_width > desktop_size.width()) {
