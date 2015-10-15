@@ -1243,38 +1243,38 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Masalah dengan Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>Ralat %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 telah ditamatkan tanpa dijangka.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>%1 gagal dimulakan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Sila semak laluan %1 di dalam keutamaan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>%1 mengalami kerosakan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Pelayar YouTube tidak dipasang.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>Lawati %1 untuk mendapatkannya.</translation>
     </message>
@@ -1430,12 +1430,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Pelayan kembalikan &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>Kod keluar: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>Rujuk log untuk maklumat lanjut.</translation>
     </message>
@@ -1701,7 +1701,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Togol kekal diatas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>Lompat ke %1</translation>
     </message>

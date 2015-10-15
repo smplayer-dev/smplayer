@@ -1243,38 +1243,38 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Problemer med YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>%1 Fejl</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 er afsluttet uventet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>%1 kunne ikke starte.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Tjek venligst stien %1 i indstillinger.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>%1 er holdt op med at virke.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube-browseren er ikke installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>Besøg %1 for at hente den.</translation>
     </message>
@@ -1430,12 +1430,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Serveren returnerede &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>Afslutningskode: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>Se loggen for mere info.</translation>
     </message>
@@ -1701,7 +1701,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Øverst til/fra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>Gå til %1</translation>
     </message>

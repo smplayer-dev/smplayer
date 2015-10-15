@@ -1002,12 +1002,12 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyhledat další titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyhledat předešlé titulky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1243,38 +1243,38 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Problémy s Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>%1 Chyba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 skončil chybou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>%1 se nepodařilo spustit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Zkontrolujte prosím %1 cestu v předvolbách.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>%1 havaroval.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Prohlížeč YouTube není nainstalován.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>Pro získání navštivte %1.</translation>
     </message>
@@ -1430,12 +1430,12 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Server vrátil &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>Návratová hodnota: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>Více informací je v logu.</translation>
     </message>
@@ -1701,7 +1701,7 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Přepni vždy nahoře</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>Jdi na %1</translation>
     </message>
@@ -2538,7 +2538,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Připojit kód jazyka k názvu souboru titulků</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -6627,7 +6627,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="80"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit &amp;okno na střed</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6802,12 +6802,12 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>Umístit okno na střed</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost zaškrtnuta, hlavní okno bude umístěno do středu plochy</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>

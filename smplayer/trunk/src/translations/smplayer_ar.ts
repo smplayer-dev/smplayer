@@ -1243,38 +1243,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>مشكلات في YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>خطأ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 إنتهى على نحو غير متوقع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>%1 عجز أن يبدأ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>رجاء تحقق من مسار %1 في التفضيلات.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>%1 إنهار.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>مستعرض يوتيوب YouTube Browser غير مثبَّت.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>زُر %1 للحصول عليه.</translation>
     </message>
@@ -1430,12 +1430,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>أعاد الخادوم &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>رمز الخروج: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>انظر السجل لمعلومات أكثر.</translation>
     </message>
@@ -1701,7 +1701,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>بدّل وضع البقاء في قمة النوافذ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>اقفز إلى %1</translation>
     </message>

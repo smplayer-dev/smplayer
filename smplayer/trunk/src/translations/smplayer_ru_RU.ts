@@ -1002,12 +1002,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемотать на следующий субтитр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Перемотать на предыдущий субтитр</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1243,38 +1243,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Проблемы с YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>Ошибка %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>Неожиданное завершение %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>Ошибка запуска %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Проверьте путь к %1 в настройках.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>Сбой %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Браузер YouTube не установлен.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>Посетите %1 для получения.</translation>
     </message>
@@ -1430,12 +1430,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сервер вернул &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>Код ошибки: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>Смотрите отчёт для подробной информации.</translation>
     </message>
@@ -1701,7 +1701,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Сменить режим &quot;Поверх всех окон&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>Перейти к %1</translation>
     </message>
@@ -2538,7 +2538,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Добавить код языка к имени файла субтитров</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -6626,7 +6626,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="80"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Центрировать &amp;окно</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6801,12 +6801,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>Центрировать окно</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Если выбрана эта опция, то главное окно будет центрироваться на рабочем столе.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>

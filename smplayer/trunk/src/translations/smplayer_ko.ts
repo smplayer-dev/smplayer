@@ -704,12 +704,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;Up</source>
-        <translation>위로</translation>
+        <translation>위로(&amp;U)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1718"/>
         <source>&amp;Down</source>
-        <translation>아래로</translation>
+        <translation>아래로(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2020"/>
@@ -918,22 +918,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
         <source>Move &amp;up</source>
-        <translation>위로 이동</translation>
+        <translation>위로 이동(&amp;U)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>Move &amp;down</source>
-        <translation>아래로 이동</translation>
+        <translation>아래로 이동(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1722"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>이전 자막 위치로(&amp;P)</translation>
+        <translation>싱크 조절: 이전 자막줄로(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>다음 자막 위치로(&amp;E)</translation>
+        <translation>싱크 조절: 다음 자막줄로(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1002,12 +1002,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>이동: 다음 자막 위치로</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>이동: 이전 자막 위치로</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1243,38 +1243,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>%1 오류</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1이 갑자기 종료되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>%1를 시작하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>환경설정에서 %1 경로를 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>%1가 다운되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>유투브 검색기가 설치되어 있지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>설치하려면 %1 을 방문하세요.</translation>
     </message>
@@ -1430,12 +1430,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>서버 응답: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>종료 코드: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>더 보려면 로그를 확인하세요.</translation>
     </message>
@@ -1701,7 +1701,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>항상 위에 토글하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>%1 으로 이동하기</translation>
     </message>
@@ -2238,12 +2238,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.ui" line="78"/>
         <source>&amp;Up</source>
-        <translation>위로</translation>
+        <translation>위로(&amp;U)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="112"/>
         <source>&amp;Down</source>
-        <translation>아래로</translation>
+        <translation>아래로(&amp;D)</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
@@ -2538,7 +2538,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>언어 코드를 자막 파일명에 덧붙이기(&amp;P)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -4387,12 +4387,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="316"/>
         <source>Move &amp;up</source>
-        <translation>위로 이동</translation>
+        <translation>위로 이동(&amp;U)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="317"/>
         <source>Move &amp;down</source>
-        <translation>아래로 이동</translation>
+        <translation>아래로 이동(&amp;D)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="319"/>
@@ -6625,7 +6625,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="80"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>창을 가운데로 놓기(&amp;W)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6800,12 +6800,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>창을 가운데로 놓기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 메인 창을 데스크탑 가운데로 놓습니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>

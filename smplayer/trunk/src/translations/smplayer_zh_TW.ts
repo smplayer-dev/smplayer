@@ -1002,12 +1002,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>尋找下一個字幕</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>尋找上一個字幕</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1243,38 +1243,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>與 YouTube 的問題</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5458"/>
-        <location filename="../basegui.cpp" line="5478"/>
+        <location filename="../basegui.cpp" line="5472"/>
+        <location filename="../basegui.cpp" line="5492"/>
         <source>%1 Error</source>
         <translation>%1 錯誤</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5459"/>
+        <location filename="../basegui.cpp" line="5473"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 意外地結束。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5480"/>
+        <location filename="../basegui.cpp" line="5494"/>
         <source>%1 failed to start.</source>
         <translation>%1 啟動失敗。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5481"/>
+        <location filename="../basegui.cpp" line="5495"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>請檢查 %1 在偏好設定裡的路徑。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5483"/>
+        <location filename="../basegui.cpp" line="5497"/>
         <source>%1 has crashed.</source>
         <translation>%1 當掉了。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5561"/>
+        <location filename="../basegui.cpp" line="5575"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube 瀏覽器尚未安裝。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5562"/>
+        <location filename="../basegui.cpp" line="5576"/>
         <source>Visit %1 to get it.</source>
         <translation>參訪 %1 以取得它。</translation>
     </message>
@@ -1430,12 +1430,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>伺服器返回 &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5460"/>
+        <location filename="../basegui.cpp" line="5474"/>
         <source>Exit code: %1</source>
         <translation>結束代碼: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5484"/>
+        <location filename="../basegui.cpp" line="5498"/>
         <source>See the log for more info.</source>
         <translation>更多資訊請參閱日誌</translation>
     </message>
@@ -1701,7 +1701,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>切換「保持在桌面最上層顯示」</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5136"/>
+        <location filename="../basegui.cpp" line="5150"/>
         <source>Jump to %1</source>
         <translation>跳轉到 %1</translation>
     </message>
@@ -2538,7 +2538,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>附加語言代碼至字幕檔名稱(&amp;P)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -6624,7 +6624,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="80"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>視窗置中(&amp;W)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6799,12 +6799,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>視窗置中</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>當此選項啟用時，主視窗將會在桌面上被置中。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
