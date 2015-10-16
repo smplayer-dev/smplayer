@@ -197,11 +197,15 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	// Set style before changing color of widgets:
 	// Set style
 #if STYLE_SWITCHING
-	qDebug( "Style name: '%s'", qApp->style()->objectName().toUtf8().data() );
-	qDebug( "Style class name: '%s'", qApp->style()->metaObject()->className() );
+	/*
+	qDebug("BaseGui::BaseGui: style name: '%s'", qApp->style()->objectName().toUtf8().data());
+	qDebug("BaseGui::BaseGui: style class name: '%s'", qApp->style()->metaObject()->className());
+	qDebug("BaseGui::BaseGui: pref->style: '%s'", pref->style.toUtf8().constData());
+	*/
 
 	default_style = qApp->style()->objectName();
 	if (!pref->style.isEmpty()) {
+		qApp->setStyleSheet(""); // Remove a previous stylesheet to prevent a crash
 		qApp->setStyle( pref->style );
 	}
 #endif
