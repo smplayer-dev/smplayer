@@ -118,6 +118,9 @@ public:
 
 	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
 
+	void setScreenshotDirectory(const QString & dir) { screenshot_dir = dir; };
+	QString screenshotDirectory() { return screenshot_dir; };
+
 	static PlayerProcess * createPlayerProcess(const QString & player_bin, QObject * parent = 0);
 
 // Signals
@@ -185,6 +188,7 @@ signals:
 protected:
 	MediaData md;
 	QString pausing_prefix;
+	QString screenshot_dir;
 
 	PlayerID::Player player_id;
 };
