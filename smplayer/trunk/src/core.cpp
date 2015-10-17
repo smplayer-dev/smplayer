@@ -2292,8 +2292,13 @@ void Core::startMplayer( QString file, double seek ) {
 
 #ifdef MPV_SUPPORT
 	// Template for screenshots (only works with mpv)
-	if ((screenshot_enabled) && (!pref->screenshot_template.isEmpty())) {
-		proc->setOption("screenshot_template", pref->screenshot_template);
+	if (screenshot_enabled) {
+		if (!pref->screenshot_template.isEmpty()) {
+			proc->setOption("screenshot_template", pref->screenshot_template);
+		}
+		if (!pref->screenshot_format.isEmpty()) {
+			proc->setOption("screenshot_format", pref->screenshot_format);
+		}
 	}
 #endif
 

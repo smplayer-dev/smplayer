@@ -70,7 +70,7 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		arg << "-v";
 	}
 	else
-	if (option_name == "screenshot_template") {
+	if (option_name == "screenshot_template" || option_name == "screenshot_format") {
 		// Not supported
 	}
 	else
