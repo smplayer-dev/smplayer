@@ -90,6 +90,7 @@ void Preferences::reset() {
 	use_screenshot = true;
 #ifdef MPV_SUPPORT
 	screenshot_template = "cap_%F_%p_%02n";
+	screenshot_format = "jpg";
 #endif
 	screenshot_directory="";
 #ifdef PORTABLE_APP
@@ -588,6 +589,7 @@ void Preferences::save() {
 	set->setValue("use_screenshot", use_screenshot);
 	#ifdef MPV_SUPPORT
 	set->setValue("screenshot_template", screenshot_template);
+	set->setValue("screenshot_format", screenshot_format);
 	#endif
 	#if QT_VERSION >= 0x040400
 	set->setValue("screenshot_folder", screenshot_directory);
@@ -1110,6 +1112,7 @@ void Preferences::load() {
 	use_screenshot = set->value("use_screenshot", use_screenshot).toBool();
 	#ifdef MPV_SUPPORT
 	screenshot_template = set->value("screenshot_template", screenshot_template).toString();
+	screenshot_format = set->value("screenshot_format", screenshot_format).toString();
 	#endif
 	#if QT_VERSION >= 0x040400
 	screenshot_directory = set->value("screenshot_folder", screenshot_directory).toString();

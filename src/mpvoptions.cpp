@@ -258,6 +258,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--screenshot-template=" + value.toString();
 	}
 	else
+	if (option_name == "screenshot_format") {
+		arg << "--screenshot-format=" + value.toString();
+	}
+	else
 	if (option_name == "threads") {
 		arg << "--vd-lavc-threads=" + value.toString();
 	}

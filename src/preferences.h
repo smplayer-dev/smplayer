@@ -81,6 +81,7 @@ public:
 	bool use_screenshot;
 #ifdef MPV_SUPPORT
 	QString screenshot_template;
+	QString screenshot_format;
 #endif
 	QString screenshot_directory;
 
