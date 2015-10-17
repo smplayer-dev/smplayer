@@ -76,9 +76,13 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	shutdown_widget->hide();
 #endif
 
-#ifndef MPV_SUPPORT
+#ifdef MPV_SUPPORT
+	screenshot_format_combo->addItems(QStringList() << "png" << "ppm" << "pgm" << "pgmyuv" << "tga" << "jpg" << "jpeg");
+#else
 	screenshot_template_label->hide();
 	screenshot_template_edit->hide();
+	screenshot_format_label->hide();
+	screenshot_format_combo->hide();
 #endif
 
 	// Channels combo
@@ -171,6 +175,7 @@ void PrefGeneral::setData(Preferences * pref) {
 	setScreenshotDir( pref->screenshot_directory );
 #ifdef MPV_SUPPORT
 	screenshot_template_edit->setText( pref->screenshot_template );
+	setScreenshotFormat(pref->screenshot_format);
 #endif
 
 	QString vo = pref->vo;
@@ -283,6 +288,7 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->screenshot_directory, screenshotDir());
 #ifdef MPV_SUPPORT
 	TEST_AND_SET(pref->screenshot_template, screenshot_template_edit->text());
+	TEST_AND_SET(pref->screenshot_format, screenshotFormat());
 #endif
 
 	TEST_AND_SET(pref->vo, VO());
@@ -487,6 +493,18 @@ void PrefGeneral::setScreenshotDir( QString path ) {
 QString PrefGeneral::screenshotDir() {
 	return screenshot_edit->text();
 }
+
+#ifdef MPV_SUPPORT
+void PrefGeneral::setScreenshotFormat(const QString format) {
+	int i = screenshot_format_combo->findText(format);
+	if (i < 0) i = 0;
+	screenshot_format_combo->setCurrentIndex(i);
+}
+
+QString PrefGeneral::screenshotFormat() {
+	return screenshot_format_combo->currentText();
+}
+#endif
 
 void PrefGeneral::setVO( QString vo_driver ) {
 	int idx = vo_combo->findData( vo_driver );
@@ -934,6 +952,10 @@ void PrefGeneral::createHelp() {
 		tr("For a full list of the template specifiers visit this link:") + 
 		" <a href=\"http://mpv.io/manual/stable/#options-screenshot-template\">"
 		"http://mpv.io/manual/stable/#options-screenshot-template</a>" + "<br>" +
+		tr("This option only works with mpv.") );
+
+	setWhatsThis(screenshot_format_combo, tr("Format for screenshots"),
+		tr("This option allows to choose the image file type used for saving screenshots.") + " " +
 		tr("This option only works with mpv.") );
 #endif
 

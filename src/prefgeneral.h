@@ -70,6 +70,11 @@ protected:
 	void setScreenshotDir( QString path );
 	QString screenshotDir();
 
+#ifdef MPV_SUPPORT
+	void setScreenshotFormat(const QString format);
+	QString screenshotFormat();
+#endif
+
 	void setVO( QString vo_driver );
 	QString VO();
 
