@@ -1570,10 +1570,15 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->clearArguments();
 
-	// Set working directory to screenshot directory
-	if (screenshot_enabled) {
-		qDebug("Core::startMplayer: setting working directory to '%s'", pref->screenshot_directory.toUtf8().data());
-		proc->setWorkingDirectory( pref->screenshot_directory );
+	// Set the screenshot directory
+	#ifdef Q_OS_WIN
+	if (pref->use_short_pathnames) {
+		proc->setScreenshotDirectory(Helper::shortPathName(pref->screenshot_directory));
+	}
+	else
+	#endif
+	{
+		proc->setScreenshotDirectory(pref->screenshot_directory);
 	}
 
 	// Use absolute path, otherwise after changing to the screenshot directory
@@ -1581,8 +1586,8 @@ void Core::startMplayer( QString file, double seek ) {
 	// (seems to be necessary only for linux)
 	QString mplayer_bin = pref->mplayer_bin;
 	QFileInfo fi(mplayer_bin);
-    if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
-        mplayer_bin = fi.absoluteFilePath();
+	if (fi.exists() && fi.isExecutable() && !fi.isDir()) {
+		mplayer_bin = fi.absoluteFilePath();
 	}
 
 	if (fi.baseName().toLower() == "mplayer2") {

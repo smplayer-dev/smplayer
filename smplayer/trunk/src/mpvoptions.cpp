@@ -429,7 +429,9 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "screenshot") {
-		//arg << "--screenshot-template=%{filename:shot}-%p-%04n";
+		if (!screenshot_dir.isEmpty() && isOptionAvailable("--screenshot-directory")) {
+			arg << "--screenshot-directory=" + screenshot_dir;
+		}
 	}
 	else
 	if (filter_name == "rotate") {

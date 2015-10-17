@@ -140,6 +140,14 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		}
 	}
 	else
+	if (filter_name == "screenshot") {
+		QString f = "screenshot";
+		if (!screenshot_dir.isEmpty()) {
+			f += "="+ screenshot_dir + "/shot";
+		}
+		arg << "-vf-add" << f;
+	}
+	else
 	if (filter_name == "flip") {
 		// expand + flip doesn't work well, a workaround is to add another
 		// filter between them, so that's why harddup is here
