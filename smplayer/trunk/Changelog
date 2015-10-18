@@ -1,3 +1,45 @@
+Version 15.10:
+
+(2015-10-18)
+ * Add a new option in Preferences -> General to select the
+   image format for screenshots. It only works with mpv.
+
+(2015-10-17)
+ * Fix a crash when changing the GUI.
+ * Set the screenshot directory in mpv with the option
+   --screenshot-directory= and in mplayer with the prefix option
+   for the screenshot filter, instead of changing the player's
+   working directory.
+   This requires recent versions of mplayer and mpv. With
+   older versions the screenshots will be saved in the
+   player's working directory.
+
+(2015-10-15)
+ * (Windows) Center the main window if it's partially outside of
+   the desktop after an auto resize.
+
+(2015-10-12)
+ * Add an option in the find subtitles configuration window to
+   append or not the language code to the subtitle filename.
+
+(2015-10-07)
+ * New options to seek to the previous or next subtitle (mpv only).
+
+(2015-10-06)
+ * (mpv) Disable the extrastereo and karaoke filters.
+
+(2015-10-04)
+ * Display in the time sliders a tooltip with the corresponding
+   time of the mouse position.
+
+(2015-10-02)
+ * Add an option in Preferences -> Interface to automatically
+   center the window.
+
+(2015-09-30)
+ * (mpv) Notify pause once
+
+
 [b]Version 15.9[/b]:
 
 (2015-09-08)
