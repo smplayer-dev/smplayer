@@ -438,7 +438,7 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	else
 	if (filter_name == "screenshot") {
 		if (!screenshot_dir.isEmpty() && isOptionAvailable("--screenshot-directory")) {
-			arg << "--screenshot-directory=" + screenshot_dir;
+			arg << "--screenshot-directory=" + QDir::toNativeSeparators(screenshot_dir);
 		}
 	}
 	else

@@ -152,7 +152,7 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 	if (filter_name == "screenshot") {
 		QString f = "screenshot";
 		if (!screenshot_dir.isEmpty()) {
-			f += "="+ screenshot_dir + "/shot";
+			f += "="+ QDir::toNativeSeparators(screenshot_dir + "/shot");
 		}
 		arg << "-vf-add" << f;
 	}
