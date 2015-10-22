@@ -25,6 +25,7 @@
 #include "config.h"
 #include "assstyles.h"
 #include <QVariant>
+#include <QDir>
 
 class PlayerProcess : public MyProcess
 {
@@ -99,6 +100,9 @@ public:
 	virtual void setSubDelay(double delay) = 0;
 	virtual void setLoop(int v) = 0;
 	virtual void takeScreenshot(ScreenshotType t, bool include_subtitles = false) = 0;
+#ifdef CAPTURE_STREAM
+	virtual void switchCapturing() = 0;
+#endif
 	virtual void setTitle(int ID) = 0;
 	virtual void changeVF(const QString & filter, bool enable, const QVariant & option = QVariant()) = 0;
 	virtual void changeStereo3DFilter(bool enable, const QString & in, const QString & out) = 0;
@@ -120,6 +124,23 @@ public:
 
 	void setScreenshotDirectory(const QString & dir) { screenshot_dir = dir; };
 	QString screenshotDirectory() { return screenshot_dir; };
+
+#ifdef CAPTURE_STREAM
+	virtual void setCaptureDirectory(const QString & dir) {
+		capture_filename = "";
+		if (!dir.isEmpty() && (QFileInfo(dir).isDir())) {
+			// Find a unique filename
+			QString prefix = "capture";
+			for (int n = 1; ; n++) {
+				QString c = QDir::toNativeSeparators(QString("%1/%2_%3.dump").arg(dir).arg(prefix).arg(n, 4, 10, QChar('0')));
+				if (!QFile::exists(c)) {
+					capture_filename = c;
+					return;
+				}
+			}
+		}
+	}
+#endif
 
 	static PlayerProcess * createPlayerProcess(const QString & player_bin, QObject * parent = 0);
 
@@ -189,6 +210,10 @@ protected:
 	MediaData md;
 	QString pausing_prefix;
 	QString screenshot_dir;
+
+#ifdef CAPTURE_STREAM
+	QString capture_filename;
+#endif
 
 	PlayerID::Player player_id;
 };

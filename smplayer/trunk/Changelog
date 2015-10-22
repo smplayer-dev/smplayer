@@ -1,5 +1,12 @@
 Version 15.10:
 
+(2015-10-22)
+ * New action to start/stop capturing the playback stream.
+   The captured stream will be saved to the screenshot folder
+   with the name capture_NNNN.dump.
+   It only works correctly with mpeg. With other formats the
+   dumped stream won't play back.
+
 (2015-10-18)
  * Add a new option in Preferences -> General to select the
    image format for screenshots. It only works with mpv.

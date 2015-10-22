@@ -36,6 +36,15 @@ void MplayerProcess::disableInput() {
 #endif
 }
 
+#ifdef CAPTURE_STREAM
+void MplayerProcess::setCaptureDirectory(const QString & dir) {
+	PlayerProcess::setCaptureDirectory(dir);
+	if (!capture_filename.isEmpty()) {
+		arg << "-capture" << "-dumpfile" << capture_filename;
+	}
+}
+#endif
+
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
 	if (option_name == "cache") {
 		int cache = value.toInt();
@@ -354,6 +363,12 @@ void MplayerProcess::takeScreenshot(ScreenshotType t, bool include_subtitles) {
 		writeToStdin("screenshot 1");
 	}
 }
+
+#ifdef CAPTURE_STREAM
+void MplayerProcess::switchCapturing() {
+	writeToStdin("capturing");
+}
+#endif
 
 void MplayerProcess::setTitle(int ID) {
 	writeToStdin("switch_title " + QString::number(ID));
