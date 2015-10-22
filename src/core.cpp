@@ -1427,6 +1427,13 @@ void Core::screenshots() {
 	}
 }
 
+#ifdef CAPTURE_STREAM
+void Core::switchCapturing() {
+	qDebug("Core::switchCapturing");
+	proc->switchCapturing();
+}
+#endif
+
 void Core::processFinished()
 {
     qDebug("Core::processFinished");
@@ -2387,6 +2394,11 @@ void Core::startMplayer( QString file, double seek ) {
 		qDebug("Core::startMplayer: channels_file: %s", channels_file.toUtf8().constData());
 		if (!channels_file.isEmpty()) proc->setChannelsFile(channels_file);
 	}
+#endif
+
+#ifdef CAPTURE_STREAM
+	// Set the capture filename
+	proc->setCaptureDirectory(pref->screenshot_directory); // Use for now the screenshot directory
 #endif
 
 	// Load edl file

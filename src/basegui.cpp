@@ -621,6 +621,12 @@ void BaseGui::createActions() {
 	connect( screenshotsAct, SIGNAL(triggered()),
              core, SLOT(screenshots()) );
 
+#ifdef CAPTURE_STREAM
+	capturingAct = new MyAction( /*Qt::Key_C,*/ this, "capture_stream");
+	connect( capturingAct, SIGNAL(triggered()),
+             core, SLOT(switchCapturing()) );
+#endif
+
 #ifdef VIDEOPREVIEW
 	videoPreviewAct = new MyAction( this, "video_preview" );
 	connect( videoPreviewAct, SIGNAL(triggered()),
@@ -1333,6 +1339,9 @@ void BaseGui::setActionsEnabled(bool b) {
 	videoEqualizerAct->setEnabled(b);
 	screenshotAct->setEnabled(b);
 	screenshotsAct->setEnabled(b);
+#ifdef CAPTURE_STREAM
+	capturingAct->setEnabled(b);
+#endif
 	flipAct->setEnabled(b);
 	mirrorAct->setEnabled(b);
 	stereo3dAct->setEnabled(b);
@@ -1481,6 +1490,9 @@ void BaseGui::enableActionsOnPlaying() {
 		videoEqualizerAct->setEnabled(false);
 		screenshotAct->setEnabled(false);
 		screenshotsAct->setEnabled(false);
+#ifdef CAPTURE_STREAM
+		capturingAct->setEnabled(false);
+#endif
 		flipAct->setEnabled(false);
 		mirrorAct->setEnabled(false);
 		stereo3dAct->setEnabled(false);
@@ -1664,6 +1676,9 @@ void BaseGui::retranslateStrings() {
 	videoEqualizerAct->change( Images::icon("equalizer"), tr("&Equalizer") );
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
+#ifdef CAPTURE_STREAM
+	capturingAct->change(Images::icon("capturing"), tr("Start/stop capturing stream"));
+#endif
 #ifdef VIDEOPREVIEW
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Thumb&nail Generator...") );
 #endif

@@ -69,6 +69,10 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 	} else {
 		arg << media;
 	}
+
+#ifdef CAPTURE_STREAM
+	capturing = false;
+#endif
 }
 
 void MPVProcess::setFixedOptions() {
@@ -696,6 +700,19 @@ void MPVProcess::setLoop(int v) {
 void MPVProcess::takeScreenshot(ScreenshotType t, bool include_subtitles) {
 	writeToStdin(QString("screenshot %1 %2").arg(include_subtitles ? "subtitles" : "video").arg(t == Single ? "single" : "each-frame"));
 }
+
+#ifdef CAPTURE_STREAM
+void MPVProcess::switchCapturing() {
+	if (!capture_filename.isEmpty()) {
+		if (!capturing) {
+			writeToStdin("set stream-capture \"" + capture_filename + "\"");
+		} else {
+			writeToStdin("set stream-capture \"\"");
+		}
+		capturing = !capturing;
+	}
+}
+#endif
 
 void MPVProcess::setTitle(int ID) {
 	writeToStdin("set disc-title " + QString::number(ID));
