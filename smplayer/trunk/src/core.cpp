@@ -2397,8 +2397,8 @@ void Core::startMplayer( QString file, double seek ) {
 #endif
 
 #ifdef CAPTURE_STREAM
-	// Set the capture filename
-	proc->setCaptureDirectory(pref->screenshot_directory); // Use for now the screenshot directory
+	// Set the capture directory
+	proc->setCaptureDirectory(pref->capture_directory);
 #endif
 
 	// Load edl file
