@@ -68,7 +68,7 @@ MPVProcess::MPVProcess(QObject * parent)
 	connect( this, SIGNAL(error(QProcess::ProcessError)),
              this, SLOT(gotError(QProcess::ProcessError)) );
 
-	int svn = MplayerVersion::mplayerVersion("mpv unknown version (C)");
+	/* int svn = MplayerVersion::mplayerVersion("mpv unknown version (C)"); */
 }
 
 MPVProcess::~MPVProcess() {

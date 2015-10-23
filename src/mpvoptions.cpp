@@ -20,7 +20,7 @@
 #include <QDebug>
 #include "inforeader.h"
 
-void MPVProcess::addArgument(const QString & a) {
+void MPVProcess::addArgument(const QString & /*a*/) {
 }
 
 void MPVProcess::setMedia(const QString & media, bool is_playlist) {
@@ -536,7 +536,7 @@ void MPVProcess::setVideo(int ID) {
 	writeToStdin("set vid " + QString::number(ID));
 }
 
-void MPVProcess::setSubtitle(int type, int ID) {
+void MPVProcess::setSubtitle(int /*type*/, int ID) {
 	writeToStdin("set sid " + QString::number(ID));
 }
 
@@ -651,14 +651,14 @@ void MPVProcess::setSpeed(double value) {
 }
 
 #ifdef MPLAYER_SUPPORT
-void MPVProcess::enableKaraoke(bool b) {
+void MPVProcess::enableKaraoke(bool /*b*/) {
 	/*
 	if (b) writeToStdin("af add karaoke"); else writeToStdin("af del karaoke");
 	*/
 	messageFilterNotSupported("karaoke");
 }
 
-void MPVProcess::enableExtrastereo(bool b) {
+void MPVProcess::enableExtrastereo(bool /*b*/) {
 	/*
 	if (b) writeToStdin("af add extrastereo"); else writeToStdin("af del extrastereo");
 	*/

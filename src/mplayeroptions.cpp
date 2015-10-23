@@ -246,7 +246,7 @@ void MplayerProcess::mute(bool b) {
 	writeToStdin(pausing_prefix + " mute " + QString::number(b ? 1 : 0));
 }
 
-void MplayerProcess::setPause(bool b) {
+void MplayerProcess::setPause(bool /*b*/) {
 	writeToStdin("pause"); // pauses / unpauses
 }
 
@@ -315,7 +315,7 @@ void MplayerProcess::setSubStep(int value) {
 }
 
 #ifdef MPV_SUPPORT
-void MplayerProcess::seekSub(int value) {
+void MplayerProcess::seekSub(int /*value*/) {
 	/* Not supported */
 	showOSDText(tr("This option is not supported by MPlayer"), 3000, 1);
 };
@@ -357,7 +357,7 @@ void MplayerProcess::setLoop(int v) {
 	writeToStdin(QString("loop %1 1").arg(v));
 }
 
-void MplayerProcess::takeScreenshot(ScreenshotType t, bool include_subtitles) {
+void MplayerProcess::takeScreenshot(ScreenshotType t, bool /*include_subtitles*/) {
 	if (t == Single) {
 		writeToStdin(pausing_prefix + " screenshot 0");
 	} else {
@@ -409,16 +409,16 @@ void MplayerProcess::askForLength() {
 	writeToStdin(pausing_prefix + " get_property length");
 }
 
-void MplayerProcess::setOSDScale(double value) {
+void MplayerProcess::setOSDScale(double /*value*/) {
 	// not available
-	//writeToStdin("set_property subfont-osd-scale " + QString::number(value)); 
+	/* writeToStdin("set_property subfont-osd-scale " + QString::number(value)); */
 }
 
-void MplayerProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
+void MplayerProcess::changeVF(const QString & /*filter*/, bool /*enable*/, const QVariant & /*option*/) {
 	// not supported
 }
 
-void MplayerProcess::changeStereo3DFilter(bool enable, const QString & in, const QString & out) {
+void MplayerProcess::changeStereo3DFilter(bool /*enable*/, const QString & /*in*/, const QString & /*out*/) {
 	// not supported
 }
 
