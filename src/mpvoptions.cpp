@@ -705,7 +705,12 @@ void MPVProcess::takeScreenshot(ScreenshotType t, bool include_subtitles) {
 void MPVProcess::switchCapturing() {
 	if (!capture_filename.isEmpty()) {
 		if (!capturing) {
-			writeToStdin("set stream-capture \"" + capture_filename + "\"");
+			QString f = capture_filename;
+			#ifdef Q_OS_WIN
+			// I hate Windows
+			f = f.replace("\\", "\\\\");
+			#endif
+			writeToStdin("set stream-capture \"" + f + "\"");
 		} else {
 			writeToStdin("set stream-capture \"\"");
 		}
