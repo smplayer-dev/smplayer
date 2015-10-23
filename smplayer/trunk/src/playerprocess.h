@@ -25,7 +25,6 @@
 #include "config.h"
 #include "assstyles.h"
 #include <QVariant>
-#include <QDir>
 
 class PlayerProcess : public MyProcess
 {
@@ -126,20 +125,7 @@ public:
 	QString screenshotDirectory() { return screenshot_dir; };
 
 #ifdef CAPTURE_STREAM
-	virtual void setCaptureDirectory(const QString & dir) {
-		capture_filename = "";
-		if (!dir.isEmpty() && (QFileInfo(dir).isDir())) {
-			// Find a unique filename
-			QString prefix = "capture";
-			for (int n = 1; ; n++) {
-				QString c = QDir::toNativeSeparators(QString("%1/%2_%3.dump").arg(dir).arg(prefix).arg(n, 4, 10, QChar('0')));
-				if (!QFile::exists(c)) {
-					capture_filename = c;
-					return;
-				}
-			}
-		}
-	}
+	virtual void setCaptureDirectory(const QString & dir);
 #endif
 
 	static PlayerProcess * createPlayerProcess(const QString & player_bin, QObject * parent = 0);

@@ -17,6 +17,7 @@
 */
 
 #include "subtracks.h"
+#include <QDir>
 #include <QDebug>
 
 void MplayerProcess::setMedia(const QString & media, bool is_playlist) {
