@@ -4306,9 +4306,12 @@ void Core::displayMessage(QString text) {
 }
 
 void Core::displayScreenshotName(QString filename) {
-	qDebug("Core::displayScreenshotName");
-	//QString text = tr("Screenshot saved as %1").arg(filename);
-	QString text = QString("Screenshot saved as %1").arg(filename);
+	qDebug("Core::displayScreenshotName: %s", filename.toUtf8().constData());
+
+	QFileInfo fi(filename);
+
+	QString text = tr("Screenshot saved as %1").arg(fi.fileName());
+	//QString text = QString("Screenshot saved as %1").arg(fi.fileName());
 
 	if (MplayerVersion::isMplayer2()) {
 		displayTextOnOSD(text, 3000, 1, "");
