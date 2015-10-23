@@ -104,6 +104,10 @@ void Preferences::reset() {
 	#endif
 #endif
 
+#ifdef CAPTURE_STREAM
+	capture_directory = "";
+#endif
+
 	dont_remember_media_settings = false;
 	dont_remember_time_pos = false;
 
@@ -595,6 +599,10 @@ void Preferences::save() {
 	set->setValue("screenshot_folder", screenshot_directory);
 	#else
 	set->setValue("screenshot_directory", screenshot_directory);
+	#endif
+
+	#ifdef CAPTURE_STREAM
+	set->setValue("capture_directory", capture_directory);
 	#endif
 
 	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
@@ -1119,6 +1127,10 @@ void Preferences::load() {
 	setupScreenshotFolder();
 	#else
 	screenshot_directory = set->value("screenshot_directory", screenshot_directory).toString();
+	#endif
+
+	#ifdef CAPTURE_STREAM
+	capture_directory = set->value("capture_directory", capture_directory).toString();
 	#endif
 
 	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();

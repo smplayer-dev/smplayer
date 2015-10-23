@@ -84,6 +84,9 @@ public:
 	QString screenshot_format;
 #endif
 	QString screenshot_directory;
+#ifdef CAPTURE_STREAM
+	QString capture_directory;
+#endif
 
 	// SMPlayer will remember all media settings for all videos.
 	// This options allow to disable it:
