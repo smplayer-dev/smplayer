@@ -2455,9 +2455,12 @@ void Core::startMplayer( QString file, double seek ) {
 	// Last checks for the file
 
 	// Open https URLs with ffmpeg
+	#if 0
+	// It doesn't seem necessary anymore
 	if (proc->isMPlayer() && file.startsWith("https")) {
 		file = "ffmpeg://" + file;
 	}
+	#endif
 
 #if DVDNAV_SUPPORT
 	if (proc->isMPV() && file.startsWith("dvdnav:")) {
