@@ -270,7 +270,7 @@ void RetrieveYoutubeUrl::processVideoPage() {
 
 	//qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: fmtArray:" << fmtArray;
 
-	#ifdef YT_GET_VIDEOINFO
+	#ifdef YT_DISCARD_HTTPS
 	bool allow_https = false;
 	#else
 	bool allow_https = true;
