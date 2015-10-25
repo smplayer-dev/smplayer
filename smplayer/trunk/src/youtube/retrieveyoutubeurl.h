@@ -32,6 +32,10 @@ class QSettings;
 #define YT_GET_VIDEOINFO
 //#define YT_DASH_SUPPORT
 
+#ifdef YT_GET_VIDEOINFO
+#define YT_DISCARD_HTTPS
+#endif
+
 typedef QMap<int,QString> UrlMap;
 
 class RetrieveYoutubeUrl : public QObject
