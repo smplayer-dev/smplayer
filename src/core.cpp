@@ -4693,8 +4693,9 @@ void Core::askForInfo() {
 }
 
 void Core::dvdnavUpdateMousePos(QPoint pos) {
-	bool under_mouse = mplayerwindow->videoLayer()->underMouse();
 #if 0
+	bool under_mouse = mplayerwindow->videoLayer()->underMouse();
+
 	qDebug("Core::dvdnavUpdateMousePos: %d %d", pos.x(), pos.y());
 	qDebug("Core::dvdnavUpdateMousePos: state: %d", state());
 	qDebug("Core::dvdnavUpdateMousePos: filename: %s", mdat.filename.toUtf8().constData());
