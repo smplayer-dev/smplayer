@@ -1677,7 +1677,7 @@ void BaseGui::retranslateStrings() {
 	screenshotAct->change( Images::icon("screenshot"), tr("&Screenshot") );
 	screenshotsAct->change( Images::icon("screenshots"), tr("Start/stop takin&g screenshots") );
 #ifdef CAPTURE_STREAM
-	capturingAct->change(Images::icon("capturing"), tr("Start/stop capturing stream"));
+	capturingAct->change(Images::icon("record"), tr("Start/stop capturing stream"));
 #endif
 #ifdef VIDEOPREVIEW
 	videoPreviewAct->change( Images::icon("video_preview"), tr("Thumb&nail Generator...") );
