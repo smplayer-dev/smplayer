@@ -1461,6 +1461,10 @@ void BaseGui::enableActionsOnPlaying() {
 	screenshotAct->setEnabled( screenshots_enabled );
 	screenshotsAct->setEnabled( screenshots_enabled );
 
+#ifdef CAPTURE_STREAM
+	capturingAct->setEnabled(!pref->capture_directory.isEmpty() && QFileInfo(pref->capture_directory).isDir());
+#endif
+
 	// Disable the compact action if not using video window
 	compactAct->setEnabled( panel->isVisible() );
 
