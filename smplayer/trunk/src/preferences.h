@@ -306,6 +306,9 @@ public:
     //! to play
 	bool use_edl_files;
 
+	//! If true it will pass to mplayer the -playlist option
+	bool use_playlist_option;
+
 	//! Preferred connection method: ipv4 or ipv6
 	bool prefer_ipv4;
 
