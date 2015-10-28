@@ -329,6 +329,8 @@ void Preferences::reset() {
 
 	use_edl_files = true;
 
+	use_playlist_option = false;
+
 	prefer_ipv4 = true;
 
 	use_short_pathnames = false;
@@ -823,6 +825,8 @@ void Preferences::save() {
 #endif
 
 	set->setValue("use_edl_files", use_edl_files);
+
+	set->setValue("use_playlist_option", use_playlist_option);
 
 	set->setValue("prefer_ipv4", prefer_ipv4);
 
@@ -1357,6 +1361,8 @@ void Preferences::load() {
 #endif
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
+
+	use_playlist_option = set->value("use_playlist_option", use_playlist_option).toBool();
 
 	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
 
