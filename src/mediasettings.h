@@ -30,11 +30,6 @@
 
 class QSettings;
 
-struct Bookmark {
-	int time;
-	QString name;
-};
-
 class MediaSettings {
 
 public:
@@ -143,7 +138,7 @@ public:
 	int A_marker;
 	int B_marker;
 
-	QList<Bookmark> bookmarks;
+	QMap<int, QString> bookmarks;
 
 	// This a property of the video and it should be
     // in mediadata, but we have to save it to preserve 

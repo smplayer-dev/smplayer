@@ -3544,10 +3544,11 @@ void BaseGui::initializeMenus() {
 	bookmarkGroup->clear(true);
 	int n_bookmarks = core->mset.bookmarks.size();
 	if (n_bookmarks > 0) {
-		for (n=0; n < n_bookmarks; n++) {
+		QMap<int, QString>::const_iterator i = core->mset.bookmarks.constBegin();
+		while (i != core->mset.bookmarks.constEnd()) {
+			QString name = i.value();
+			int time = i.key();
 			QAction *a = new QAction(bookmarkGroup);
-			QString name = core->mset.bookmarks.at(n).name;
-			int time = core->mset.bookmarks.at(n).time;
 			QString text;
 			if (name.isEmpty()) {
 				text = Helper::formatTime(time);
@@ -3557,6 +3558,7 @@ void BaseGui::initializeMenus() {
 			a->setCheckable(false);
 			a->setText(text);
 			a->setData(time);
+			i++;
 		}
 	} else {
 	}
