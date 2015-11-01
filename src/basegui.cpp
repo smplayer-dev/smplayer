@@ -69,6 +69,7 @@
 #include "errordialog.h"
 #include "timedialog.h"
 #include "stereo3ddialog.h"
+#include "inputbookmark.h"
 #include "clhelp.h"
 #include "mplayerversion.h"
 
@@ -1282,6 +1283,8 @@ void BaseGui::createActions() {
 	connect( bookmarkGroup, SIGNAL(activated(int)),
 			 core, SLOT(goToSec(int)) );
 
+	addBookmarkAct = new MyAction(this, "add_bookmark");
+	connect(addBookmarkAct, SIGNAL(triggered()), this, SLOT(showAddBookmarkDialog()));
 
 #if DVDNAV_SUPPORT
 	dvdnavUpAct = new MyAction(Qt::SHIFT | Qt::Key_Up, this, "dvdnav_up");
@@ -2055,13 +2058,15 @@ void BaseGui::retranslateStrings() {
 	angles_menu->menuAction()->setText( tr("&Angle") );
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
 
-	bookmark_menu->menuAction()->setText( tr("Bookmarks") );
+	bookmark_menu->menuAction()->setText( tr("&Bookmarks") );
 	bookmark_menu->menuAction()->setIcon( Images::icon("bookmarks") );
 
 #if PROGRAM_SWITCH
 	programtrack_menu->menuAction()->setText( tr("P&rogram", "program") );
 	programtrack_menu->menuAction()->setIcon( Images::icon("program_track") );
 #endif
+
+	addBookmarkAct->change(Images::icon("add_bookmark"), tr("&Add new bookmark"));
 
 
 #if DVDNAV_SUPPORT
@@ -3540,6 +3545,12 @@ void BaseGui::initializeMenus() {
 	}
 	angles_menu->addActions( angleGroup->actions() );
 
+	updateBookmarks();
+}
+
+void BaseGui::updateBookmarks() {
+	qDebug("BaseGui::updateBookmarks");
+
 	// Bookmarks
 	bookmarkGroup->clear(true);
 	int n_bookmarks = core->mset.bookmarks.size();
@@ -3560,8 +3571,10 @@ void BaseGui::initializeMenus() {
 			a->setData(time);
 			i++;
 		}
-	} else {
 	}
+	bookmark_menu->clear();
+	bookmark_menu->addAction(addBookmarkAct);
+	bookmark_menu->addSeparator();
 	bookmark_menu->addActions(bookmarkGroup->actions());
 }
 
@@ -4414,6 +4427,15 @@ void BaseGui::showStereo3dDialog() {
 
 	if (d.exec() == QDialog::Accepted) {
 		core->changeStereo3d(d.inputFormat(), d.outputFormat());
+	}
+}
+
+void BaseGui::showAddBookmarkDialog() {
+	InputBookmark d(this);
+	d.setTime( (int) core->mset.current_sec);
+	if (d.exec() == QDialog::Accepted) {
+		core->mset.bookmarks.insert(d.time(), d.name());
+		updateBookmarks();
 	}
 }
 

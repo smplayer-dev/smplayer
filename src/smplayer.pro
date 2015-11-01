@@ -168,6 +168,7 @@ HEADERS += guiconfig.h \
 	timeslider.h \
 	inputdvddirectory.h \
 	inputurl.h \
+	inputbookmark.h \
 	stereo3ddialog.h \
 	myaction.h \
 	myactiongroup.h \
@@ -267,6 +268,7 @@ SOURCES	+= version.cpp \
 	timeslider.cpp \
 	inputdvddirectory.cpp \
 	inputurl.cpp \
+	inputbookmark.cpp \
 	stereo3ddialog.cpp \
 	myaction.cpp \
 	myactiongroup.cpp \
@@ -293,7 +295,7 @@ SOURCES	+= version.cpp \
 	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
-        eqslider.ui seekwidget.ui inputurl.ui videoequalizer.ui vdpauproperties.ui \
+        eqslider.ui seekwidget.ui inputurl.ui inputbookmark.ui videoequalizer.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui prefupdates.ui prefnetwork.ui favoriteeditor.ui \
