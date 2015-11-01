@@ -113,6 +113,14 @@ void MediaSettings::reset() {
 	A_marker = -1;
 	B_marker = -1;
 
+	// Initialize bookmarks
+	bookmarks.clear();
+	Bookmark b;
+	b.time = 0;
+	b.name = QObject::tr("Start of video");
+	bookmarks.append(b);
+	// end bookmarks
+
 	is264andHD = false;
 
 	current_demuxer = "unknown";
@@ -392,6 +400,15 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "A_marker", A_marker);
 	set->setValue( "B_marker", B_marker);
 
+	// Save bookmarks
+	set->beginWriteArray("bookmarks");
+	for (int i = 0; i < bookmarks.size(); ++i) {
+		set->setArrayIndex(i);
+		set->setValue("time", bookmarks.at(i).time);
+		set->setValue("name", bookmarks.at(i).name);
+	}
+	set->endArray();
+
 	set->setValue( "mplayer_additional_options", mplayer_additional_options);
 	set->setValue( "mplayer_additional_video_filters", mplayer_additional_video_filters);
 	set->setValue( "mplayer_additional_audio_filters", mplayer_additional_audio_filters);
@@ -511,6 +528,19 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	A_marker = set->value( "A_marker", A_marker).toInt();
 	B_marker = set->value( "B_marker", B_marker).toInt();
 
+	// Load bookmarks
+	int n_bookmarks = set->beginReadArray("bookmarks");
+	if (n_bookmarks > 0) {
+		bookmarks.clear();
+		for (int i = 0; i < n_bookmarks; ++i) {
+			set->setArrayIndex(i);
+			Bookmark b;
+			b.time = set->value("time").toInt();
+			b.name = set->value("name").toString();
+			bookmarks.append(b);
+		}
+		set->endArray();
+	}
 
 	mplayer_additional_options = set->value( "mplayer_additional_options", mplayer_additional_options).toString();
 	mplayer_additional_video_filters = set->value( "mplayer_additional_video_filters", mplayer_additional_video_filters).toString();

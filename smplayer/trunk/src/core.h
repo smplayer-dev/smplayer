@@ -124,12 +124,13 @@ public slots:
 	void reload();
 
 #ifdef SEEKBAR_RESOLUTION
-    void goToPosition( int value );
-    void goToPos( double perc );
+	void goToPosition( int value );
+	void goToPos( double perc );
 #else
-    void goToPos( int perc );
+	void goToPos( int perc );
 #endif
-    void goToSec( double sec );
+	void goToSec( double sec );
+	void goToSec(int sec) { goToSec( (double) sec); }
 
 	void setAMarker(); //!< Set A marker to current sec
 	void setAMarker(int sec);

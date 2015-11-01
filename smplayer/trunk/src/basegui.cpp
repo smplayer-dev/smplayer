@@ -1277,6 +1277,12 @@ void BaseGui::createActions() {
 	connect( chapterGroup, SIGNAL(activated(int)),
 			 core, SLOT(changeChapter(int)) );
 
+	// Bookmarks
+	bookmarkGroup = new MyActionGroup(this);
+	connect( bookmarkGroup, SIGNAL(activated(int)),
+			 core, SLOT(goToSec(int)) );
+
+
 #if DVDNAV_SUPPORT
 	dvdnavUpAct = new MyAction(Qt::SHIFT | Qt::Key_Up, this, "dvdnav_up");
 	connect( dvdnavUpAct, SIGNAL(triggered()), core, SLOT(dvdnavUp()) );
@@ -2049,6 +2055,9 @@ void BaseGui::retranslateStrings() {
 	angles_menu->menuAction()->setText( tr("&Angle") );
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
 
+	bookmark_menu->menuAction()->setText( tr("Bookmarks") );
+	bookmark_menu->menuAction()->setIcon( Images::icon("bookmarks") );
+
 #if PROGRAM_SWITCH
 	programtrack_menu->menuAction()->setText( tr("P&rogram", "program") );
 	programtrack_menu->menuAction()->setIcon( Images::icon("program_track") );
@@ -2759,6 +2768,12 @@ void BaseGui::createMenus() {
 	angles_menu->menuAction()->setObjectName("angles_menu");
 
 	browseMenu->addMenu(angles_menu);
+
+	// Bookmarks submenu
+	bookmark_menu = new QMenu(this);
+	bookmark_menu->menuAction()->setObjectName("bookmarks_menu");
+
+	browseMenu->addMenu(bookmark_menu);
 
 #if DVDNAV_SUPPORT
 	browseMenu->addSeparator();
@@ -3524,6 +3539,28 @@ void BaseGui::initializeMenus() {
 		a->setEnabled(false);
 	}
 	angles_menu->addActions( angleGroup->actions() );
+
+	// Bookmarks
+	bookmarkGroup->clear(true);
+	int n_bookmarks = core->mset.bookmarks.size();
+	if (n_bookmarks > 0) {
+		for (n=0; n < n_bookmarks; n++) {
+			QAction *a = new QAction(bookmarkGroup);
+			QString name = core->mset.bookmarks.at(n).name;
+			int time = core->mset.bookmarks.at(n).time;
+			QString text;
+			if (name.isEmpty()) {
+				text = Helper::formatTime(time);
+			} else {
+				text = QString("%1 (%2)").arg(name).arg(Helper::formatTime(time));
+			}
+			a->setCheckable(false);
+			a->setText(text);
+			a->setData(time);
+		}
+	} else {
+	}
+	bookmark_menu->addActions(bookmarkGroup->actions());
 }
 
 void BaseGui::updateRecents() {

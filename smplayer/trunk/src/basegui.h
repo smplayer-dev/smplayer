@@ -722,8 +722,9 @@ protected:
 	MyActionGroup * secondarySubtitleTrackGroup;
 #endif
 	MyActionGroup * titleGroup;
-	MyActionGroup * angleGroup;
 	MyActionGroup * chapterGroup;
+	MyActionGroup * angleGroup;
+	MyActionGroup * bookmarkGroup;
 
 #if DVDNAV_SUPPORT
 	MyAction * dvdnavUpAct;
@@ -759,6 +760,7 @@ protected:
 	QMenu * titles_menu;
 	QMenu * chapters_menu;
 	QMenu * angles_menu;
+	QMenu * bookmark_menu;
 	QMenu * aspect_menu;
 	QMenu * osd_menu;
 	QMenu * deinterlace_menu;

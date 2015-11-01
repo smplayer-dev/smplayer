@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MEDIASETTINGS_H_
-#define _MEDIASETTINGS_H_
+#ifndef MEDIASETTINGS_H
+#define MEDIASETTINGS_H
 
 
 /* Settings the user has set for this file, and that we need to */
@@ -29,6 +29,11 @@
 #include "audioequalizerlist.h"
 
 class QSettings;
+
+struct Bookmark {
+	int time;
+	QString name;
+};
 
 class MediaSettings {
 
@@ -138,6 +143,8 @@ public:
 	int A_marker;
 	int B_marker;
 
+	QList<Bookmark> bookmarks;
+
 	// This a property of the video and it should be
     // in mediadata, but we have to save it to preserve 
 	// this data among restarts.
@@ -168,12 +175,12 @@ public:
 	// Some things that were before in mediadata
 	// They can vary, because of filters, so better here
 
-	//Resolution used by mplayer
-    //Can be bigger that video resolution
-    //because of the aspect ratio or expand filter
-    int win_width;
-    int win_height;
-    double win_aspect();
+	// Resolution used by mplayer
+	// Can be bigger that video resolution
+	// because of the aspect ratio or expand filter
+	int win_width;
+	int win_height;
+	double win_aspect();
 
 	//! Returns the aspect as a double. Returns 0 if aspect == AspectNone.
 	double aspectToNum(Aspect aspect);
