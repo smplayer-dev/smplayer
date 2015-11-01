@@ -165,6 +165,7 @@ public slots:
 	virtual void showSubDelayDialog();
 	virtual void showAudioDelayDialog();
 	virtual void showStereo3dDialog();
+	virtual void showAddBookmarkDialog();
 
 	virtual void exitFullscreen();
 	virtual void toggleFullscreen();
@@ -388,6 +389,7 @@ protected:
 	void setActionsEnabled(bool);
 #endif
 	void createMenus();
+	void updateBookmarks();
 	void updateRecents();
 	void configureDiscDevices();
 	void setupNetworkProxy();
@@ -725,6 +727,7 @@ protected:
 	MyActionGroup * chapterGroup;
 	MyActionGroup * angleGroup;
 	MyActionGroup * bookmarkGroup;
+	MyAction * addBookmarkAct;
 
 #if DVDNAV_SUPPORT
 	MyAction * dvdnavUpAct;

@@ -115,7 +115,7 @@ void MediaSettings::reset() {
 
 	// Initialize bookmarks
 	bookmarks.clear();
-	bookmarks.insert(0, QObject::tr("Start of video"));
+	bookmarks.insert(0, "");
 	// end bookmarks
 
 	is264andHD = false;
@@ -541,8 +541,8 @@ void MediaSettings::load(QSettings * set, int player_id) {
 			QString name = set->value("name").toString();
 			bookmarks.insert(time, name);
 		}
-		set->endArray();
 	}
+	set->endArray();
 
 	mplayer_additional_options = set->value( "mplayer_additional_options", mplayer_additional_options).toString();
 	mplayer_additional_video_filters = set->value( "mplayer_additional_video_filters", mplayer_additional_video_filters).toString();
