@@ -58,9 +58,17 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
+  !ifdef QT5
+    OutFile "output\Qt5\smplayer-${SMPLAYER_VERSION}-x64-qt5.exe"
+  !else
     OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
+  !endif
 !else
+  !ifdef QT5
+    OutFile "output\Qt5\smplayer-${SMPLAYER_VERSION}-win32-qt5.exe"
+  !else
     OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
+  !endif
 !endif
 
   ;Version tab properties
@@ -544,9 +552,7 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\smtube.exe" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
-    ; Qt4
-    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
-    ; Qt5
+!ifdef QT5
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5WebKit.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Sql.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Qml.dll" "$INSTDIR"
@@ -559,6 +565,9 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5OpenGL.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5PrintSupport.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5MultimediaWidgets.dll" "$INSTDIR"
+!else
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
+!endif
   ${EndIf}
 
 !ifndef WIN64
@@ -988,9 +997,7 @@ Function Backup_SMTube
     CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
     CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
-    ; Qt4
-    CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
-    ; Qt5
+!ifdef QT5
     CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKit.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\Qt5Sql.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\Qt5Qml.dll" "$PLUGINSDIR\smtubebak"
@@ -1003,6 +1010,10 @@ Function Backup_SMTube
     CopyFiles /SILENT "$SMPlayer_Path\Qt5OpenGL.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\Qt5PrintSupport.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\Qt5MultimediaWidgets.dll" "$PLUGINSDIR\smtubebak"
+!else
+    CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
+!endif
+
     StrCpy $Restore_SMTube 1
     Return
   NoBackup:
