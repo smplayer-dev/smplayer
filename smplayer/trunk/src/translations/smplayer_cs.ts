@@ -5219,12 +5219,12 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"/>
+        <translation>Formát pro snímek obrazovky</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Tato možnost umožňuje zvolit typ souboru obrázku, který se používá pro ukládání screenshotů.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
@@ -5360,7 +5360,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="207"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation>F&amp;ormát:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
