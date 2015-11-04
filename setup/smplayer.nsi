@@ -58,17 +58,9 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  !ifdef QT5
-    OutFile "output\Qt5\smplayer-${SMPLAYER_VERSION}-x64-qt5.exe"
-  !else
-    OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
-  !endif
+  OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
 !else
-  !ifdef QT5
-    OutFile "output\Qt5\smplayer-${SMPLAYER_VERSION}-win32-qt5.exe"
-  !else
-    OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
-  !endif
+  OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
 !endif
 
   ;Version tab properties
