@@ -70,6 +70,7 @@
 #include "timedialog.h"
 #include "stereo3ddialog.h"
 #include "inputbookmark.h"
+#include "bookmarkdialog.h"
 #include "clhelp.h"
 #include "mplayerversion.h"
 
@@ -1286,6 +1287,9 @@ void BaseGui::createActions() {
 	addBookmarkAct = new MyAction(this, "add_bookmark");
 	connect(addBookmarkAct, SIGNAL(triggered()), this, SLOT(showAddBookmarkDialog()));
 
+	editBookmarksAct = new MyAction(this, "edit_bookmarks");
+	connect(editBookmarksAct, SIGNAL(triggered()), this, SLOT(showBookmarkDialog()));
+
 #if DVDNAV_SUPPORT
 	dvdnavUpAct = new MyAction(Qt::SHIFT | Qt::Key_Up, this, "dvdnav_up");
 	connect( dvdnavUpAct, SIGNAL(triggered()), core, SLOT(dvdnavUp()) );
@@ -2067,6 +2071,7 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	addBookmarkAct->change(Images::icon("add_bookmark"), tr("&Add new bookmark"));
+	editBookmarksAct->change(Images::icon("edit_bookmarks"), tr("&Edit bookmarks"));
 
 
 #if DVDNAV_SUPPORT
@@ -3574,6 +3579,7 @@ void BaseGui::updateBookmarks() {
 	}
 	bookmark_menu->clear();
 	bookmark_menu->addAction(addBookmarkAct);
+	bookmark_menu->addAction(editBookmarksAct);
 	bookmark_menu->addSeparator();
 	bookmark_menu->addActions(bookmarkGroup->actions());
 }
@@ -4435,6 +4441,16 @@ void BaseGui::showAddBookmarkDialog() {
 	d.setTime( (int) core->mset.current_sec);
 	if (d.exec() == QDialog::Accepted) {
 		core->mset.bookmarks.insert(d.time(), d.name());
+		updateBookmarks();
+	}
+}
+
+void BaseGui::showBookmarkDialog() {
+	qDebug("BaseGui::showBookmarkDialog");
+	BookmarkDialog d(this);
+	d.setBookmarks(core->mset.bookmarks);
+	if (d.exec() == QDialog::Accepted) {
+		core->mset.bookmarks = d.bookmarks();
 		updateBookmarks();
 	}
 }
