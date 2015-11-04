@@ -98,6 +98,7 @@ set VER_MINOR=
 set VER_BUILD=
 set VER_REVISION=
 set VER_REV_CMD=
+set DEF_QT5=
 set /p ALL_PKG_VER="Version: "
 echo.
 
@@ -153,8 +154,14 @@ goto end
 echo --- SMPlayer NSIS Package [32-bit] ---
 echo.
 
+if exist %TOP_LEVEL_DIR%\smplayer-build\Qt5Core.dll (
+  set DEF_QT5=/DQT5
+) else (
+  set DEF_QT5=
+)
+
 if exist %TOP_LEVEL_DIR%\smplayer-build (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %DEF_QT5% %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 if not "%USER_CHOICE%" == "10"  goto end
@@ -163,8 +170,14 @@ if not "%USER_CHOICE%" == "10"  goto end
 echo --- SMPlayer NSIS Package [64-bit] ---
 echo.
 
+if exist %TOP_LEVEL_DIR%\smplayer-build64\Qt5Core.dll (
+  set DEF_QT5="/DQT5"
+) else (
+  set DEF_QT5=
+)
+
 if exist %TOP_LEVEL_DIR%\smplayer-build64 (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smplayer.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %DEF_QT5% %TOP_LEVEL_DIR%\smplayer.nsi
 )
 
 goto end
