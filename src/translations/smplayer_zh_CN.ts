@@ -6816,7 +6816,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation>如果启用此选项，主窗口将会显示在桌面的正中央。</translation>
+        <translation>如果启用此选项，主窗口将会显示在桌面的正中央。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
