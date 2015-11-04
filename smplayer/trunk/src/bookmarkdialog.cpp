@@ -45,6 +45,7 @@ QWidget * BEDelegate::createEditor(QWidget *parent, const QStyleOptionViewItem &
 
 	if (index.column() == COL_TIME) {
 		QTimeEdit * e = new QTimeEdit(parent);
+		e->setDisplayFormat("hh:mm:ss");
 		int time = index.model()->data(index, Qt::UserRole).toInt();
 		QTime t(0,0);
 		e->setTime(t.addSecs(time));
