@@ -249,6 +249,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 		//if (line.startsWith("MPlayer 1.0rc1")) line = "MPlayer 2:1.0~rc1-0ubuntu13.1 (C) 2000-2006 MPlayer Team";
 		//if (line.startsWith("MPlayer2")) line = "mplayer2 d0305da (C) 2000-2012 MPlayer & mplayer2 teams";
 		//if (line.startsWith("MPlayer SVN")) line = "MPlayer svn r34540 (Ubuntu), built with gcc-4.6 (C) 2000-2012 MPlayer Team";
+		//if (line.startsWith("MPlayer SVN")) line = "MPlayer 1.2-4.8 (C) 2000-2015 MPlayer Team";
 
 		// Emulates unknown version
 		//if (line.startsWith("MPlayer SVN")) line = "MPlayer lalksklsjjakksja";
