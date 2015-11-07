@@ -1000,12 +1000,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1730"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"/>
+        <translation>Poszukiwanie następnych napisów</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"/>
+        <translation>Poszukiwanie poprzednich napisów</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
@@ -2076,7 +2076,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"/>
+        <translation>Gotowy</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2481,7 +2481,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation>Opcje</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -5219,7 +5219,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"/>
+        <translation>Format dla zrzutów ekranu</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
