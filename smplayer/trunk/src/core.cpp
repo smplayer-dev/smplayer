@@ -4740,4 +4740,43 @@ QString Core::pausing_prefix() {
 	}
 }
 
+void Core::prevBookmark() {
+	qDebug("Core::prevBookmark");
+
+	if (mset.bookmarks.count() > 0) {
+		QMapIterator<int, QString> i(mset.bookmarks);
+		i.toBack();
+		int last_time = i.peekPrevious().key();
+		while (i.hasPrevious()) {
+			i.previous();
+			int time = i.key();
+			if (time < (mset.current_sec -2)) {
+				goToSec(time);
+				return;
+			}
+		}
+		// Go to last bookmark
+		goToSec(last_time);
+	}
+}
+
+void Core::nextBookmark() {
+	qDebug("Core::nextBookmark");
+
+	if (mset.bookmarks.count() > 0) {
+		QMapIterator<int, QString> i(mset.bookmarks);
+		int first_time = i.peekNext().key();
+		while (i.hasNext()) {
+			i.next();
+			int time = i.key();
+			if (time > mset.current_sec) {
+				goToSec(time);
+				return;
+			}
+		}
+		// Go to first bookmark
+		goToSec(first_time);
+	}
+}
+
 #include "moc_core.cpp"

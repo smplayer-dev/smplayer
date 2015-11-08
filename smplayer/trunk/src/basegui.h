@@ -731,6 +731,10 @@ protected:
 	MyAction * addBookmarkAct;
 	MyAction * editBookmarksAct;
 
+	MyAction * prevBookmarkAct;
+	MyAction * nextBookmarkAct;
+
+
 #if DVDNAV_SUPPORT
 	MyAction * dvdnavUpAct;
 	MyAction * dvdnavDownAct;
