@@ -398,9 +398,11 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "B_marker", B_marker);
 
 	// Save bookmarks
-	{
+	bool save_bookmarks = true;
+	QMap<int, QString>::const_iterator i = bookmarks.constBegin();
+	if (bookmarks.count() == 1 && i.key() == 0) save_bookmarks = false;
+	if (save_bookmarks) {
 		set->beginWriteArray("bookmarks");
-		QMap<int, QString>::const_iterator i = bookmarks.constBegin();
 		int count = 0;
 		while (i != bookmarks.constEnd()) {
 			set->setArrayIndex(count);
