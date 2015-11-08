@@ -302,6 +302,9 @@ public slots:
 	void nextOSD();
 	void nextWheelFunction();
 
+	void nextBookmark();
+	void prevBookmark();
+
 	#if 0
 	void changeSize(int); // Size of the window
 	void toggleDoubleSize();

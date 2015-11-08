@@ -1290,6 +1290,13 @@ void BaseGui::createActions() {
 	editBookmarksAct = new MyAction(this, "edit_bookmarks");
 	connect(editBookmarksAct, SIGNAL(triggered()), this, SLOT(showBookmarkDialog()));
 
+	prevBookmarkAct = new MyAction(this, "prev_bookmark");
+	connect(prevBookmarkAct, SIGNAL(triggered()), core, SLOT(prevBookmark()));
+
+	nextBookmarkAct = new MyAction(this, "next_bookmark");
+	connect(nextBookmarkAct, SIGNAL(triggered()), core, SLOT(nextBookmark()));
+
+
 #if DVDNAV_SUPPORT
 	dvdnavUpAct = new MyAction(Qt::SHIFT | Qt::Key_Up, this, "dvdnav_up");
 	connect( dvdnavUpAct, SIGNAL(triggered()), core, SLOT(dvdnavUp()) );
@@ -2072,6 +2079,8 @@ void BaseGui::retranslateStrings() {
 
 	addBookmarkAct->change(Images::icon("add_bookmark"), tr("&Add new bookmark"));
 	editBookmarksAct->change(Images::icon("edit_bookmarks"), tr("&Edit bookmarks"));
+	prevBookmarkAct->change(Images::icon("prev_bookmark"), tr("Previous bookmark"));
+	nextBookmarkAct->change(Images::icon("next_bookmark"), tr("Next bookmark"));
 
 
 #if DVDNAV_SUPPORT
