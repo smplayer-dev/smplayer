@@ -24,7 +24,7 @@ pause	Space, Media Pause
 pause_and_frame_step	
 stop	Media Stop
 frame_step	.
-frame_back_step	:
+frame_back_step	,
 rewind1	Left, Ctrl+Shift+B
 rewind2	Down
 rewind3	PgDown
@@ -50,9 +50,11 @@ compact	Ctrl+C
 video_equalizer	Ctrl+E
 screenshot	S
 multiple_screenshots	Shift+D
+capture_stream	
 video_preview	
 flip	
 mirror	
+stereo_3d_filter	
 postprocessing	
 autodetect_phase	
 deblock	
@@ -84,6 +86,8 @@ dec_sub_scale	Shift+R
 inc_sub_scale	Shift+T
 dec_sub_step	G
 inc_sub_step	Y
+seek_next_sub	Ctrl+Right
+seek_prev_sub	Ctrl+Left
 use_custom_sub_style	
 use_forced_subs_only	
 subtitle_visibility	V
@@ -215,6 +219,10 @@ sub_fps_24
 sub_fps_25	
 sub_fps_29970	
 sub_fps_30	
+add_bookmark	
+edit_bookmarks	
+prev_bookmark	Ctrl+B
+next_bookmark	Ctrl+N
 dvdnav_up	Shift+Up
 dvdnav_down	Shift+Down
 dvdnav_left	Shift+Left
@@ -242,6 +250,7 @@ pl_add_urls
 pl_remove_selected	
 pl_remove_all	
 pl_edit	
+pl_delete_from_disk	
 toggle_video_info	
 toggle_frame_counter	
 edit_main_toolbar	

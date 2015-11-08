@@ -1290,10 +1290,10 @@ void BaseGui::createActions() {
 	editBookmarksAct = new MyAction(this, "edit_bookmarks");
 	connect(editBookmarksAct, SIGNAL(triggered()), this, SLOT(showBookmarkDialog()));
 
-	prevBookmarkAct = new MyAction(this, "prev_bookmark");
+	prevBookmarkAct = new MyAction(Qt::CTRL | Qt::Key_B, this, "prev_bookmark");
 	connect(prevBookmarkAct, SIGNAL(triggered()), core, SLOT(prevBookmark()));
 
-	nextBookmarkAct = new MyAction(this, "next_bookmark");
+	nextBookmarkAct = new MyAction(Qt::CTRL | Qt::Key_N, this, "next_bookmark");
 	connect(nextBookmarkAct, SIGNAL(triggered()), core, SLOT(nextBookmark()));
 
 
