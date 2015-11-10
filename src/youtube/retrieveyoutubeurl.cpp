@@ -231,7 +231,7 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	QString html5_player;
 	#endif
 	//QRegExp rxplayer("player-([\\d,\\w,-]+)\\\\");
-	QRegExp rxplayer("jsbin\\/player-([\\d,\\w,-]+)\\/");
+	QRegExp rxplayer("jsbin\\/player-([\\d\\w-]+)\\/base\\.js");
 	if (rxplayer.indexIn(replyString) != -1) {
 		html5_player = rxplayer.cap(1);
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << html5_player;
