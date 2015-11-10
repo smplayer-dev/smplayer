@@ -393,7 +393,7 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 	SOURCES += youtube/retrieveyoutubeurl.cpp youtube/loadpage.cpp
 
 	contains( DEFINES, YT_USE_SCRIPT ) {
-		#DEFINES += YT_USE_SIG
+		DEFINES += YT_USE_SIG
 		DEFINES += YT_USE_YTSIG
 		QT += script
 	}
