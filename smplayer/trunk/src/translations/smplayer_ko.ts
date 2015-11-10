@@ -664,12 +664,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>Volume &amp;-</source>
-        <translation>볼륨 &amp;-</translation>
+        <translation>볼륨 -(&amp;-)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>Volume &amp;+</source>
-        <translation>볼륨 &amp;+</translation>
+        <translation>볼륨 +(&amp;+)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1741"/>
@@ -987,7 +987,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷 찍기 시작/정지</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
@@ -997,7 +997,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>Stereo &amp;3D filter</source>
-        <translation>스테레오 &amp;3D 필터</translation>
+        <translation>스테레오 3D 필터(&amp;3)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1214,27 +1214,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>책갈피(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>새 책갈피 추가(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>책갈피 편집(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>이전 책갈피</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>다음 책갈피</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4812"/>
@@ -1738,7 +1738,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1702"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>스크린샷 찍기 시작/정지</translation>
+        <translation>스크린샷 찍기 시작/정지(&amp;G)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
@@ -1759,12 +1759,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1925"/>
         <source>&amp;TV</source>
-        <translation>텔레비전</translation>
+        <translation>텔레비전(&amp;T)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1928"/>
         <source>Radi&amp;o</source>
-        <translation>라디오</translation>
+        <translation>라디오(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -1794,12 +1794,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Fli&amp;p image</source>
-        <translation>상하 반전</translation>
+        <translation>상하 반전(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1949"/>
         <source>Zoo&amp;m</source>
-        <translation>팬 &amp; 스캔</translation>
+        <translation>확대/축소(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -1809,22 +1809,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>Set &amp;A marker</source>
-        <translation>A 마커 설정하기</translation>
+        <translation>A 마커 설정하기(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1680"/>
         <source>Set &amp;B marker</source>
-        <translation>B 마커 설정하기</translation>
+        <translation>B 마커 설정하기(&amp;B)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <source>&amp;Clear A-B markers</source>
-        <translation>A-B 마커 지우기</translation>
+        <translation>A-B 마커 지우기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1935"/>
         <source>&amp;A-B section</source>
-        <translation>A-B 구간</translation>
+        <translation>A-B 구간(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1882"/>
@@ -1839,7 +1839,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1918"/>
         <source>&amp;Disc</source>
-        <translation>디스크</translation>
+        <translation>디스크(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
@@ -1877,7 +1877,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="209"/>
         <source>&amp;Quit</source>
-        <translation>종료</translation>
+        <translation>종료(&amp;Q)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="215"/>
@@ -1890,27 +1890,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>책갈피 편집</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>새 책갈피(&amp;N)</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>책갈피 삭제(&amp;D)</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>시간</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">이름</translation>
+        <translation>이름</translation>
     </message>
 </context>
 <context>
@@ -2073,7 +2073,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4320"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>스크린샷 저장: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4351"/>
@@ -3024,17 +3024,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>새 책갈피 추가</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>시간:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 (선택 사항):</translation>
     </message>
 </context>
 <context>
