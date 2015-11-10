@@ -987,7 +987,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Spustit/zastavit nahrávání proudu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
@@ -1214,27 +1214,27 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Záložky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Přidat novou záložku</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Upravit záložky</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Předešlá záložka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Další záložka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4812"/>
@@ -1890,27 +1890,27 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Upravit záložky</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nová záložka</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vymazat záložku</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Čas</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Název</translation>
+        <translation>Název</translation>
     </message>
 </context>
 <context>
@@ -2073,7 +2073,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../core.cpp" line="4320"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Snímek obrazovky uložen jako %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4351"/>
@@ -3026,17 +3026,17 @@ Zkontrolujte přístupová práva.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Přidat novou záložku</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Čas:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jméno (volitelně):</translation>
     </message>
 </context>
 <context>

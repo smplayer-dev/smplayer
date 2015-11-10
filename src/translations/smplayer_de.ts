@@ -987,7 +987,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Aufnahmestream starten/stoppen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
@@ -1214,27 +1214,27 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lesezeichen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Neues Lesezeichen &amp;hinzufügen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Lesezeichen b&amp;earbeiten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Vorheriges Lesezeichen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächstes Lesezeichen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4812"/>
@@ -1890,27 +1890,27 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Lesezeichen bearbeiten</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Neues Lesezeichen</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Lesezeichen &amp;löschen</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Zeit</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Name</translation>
+        <translation>Name</translation>
     </message>
 </context>
 <context>
@@ -2073,7 +2073,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../core.cpp" line="4320"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bildschirmfoto gespeichert als %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4351"/>
@@ -3025,17 +3025,17 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Neues Lesezeichen hinzufügen</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zei&amp;t:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Name (optional):</translation>
     </message>
 </context>
 <context>

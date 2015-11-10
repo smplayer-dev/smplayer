@@ -987,7 +987,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Pokreni/Zaustavi snimanje streama</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>
@@ -1214,27 +1214,27 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zabilješke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dodaj novu zabilješku</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Uredi zabilješke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Prijašnja zabilješka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Sljedeća zabilješka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4812"/>
@@ -1890,27 +1890,27 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Uredi zabilješke</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nova zabilješka</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obriši zabilješku</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Vrijeme</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Naziv</translation>
+        <translation>Naziv</translation>
     </message>
 </context>
 <context>
@@ -2073,7 +2073,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../core.cpp" line="4320"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Snimka zaslona spremljena kao %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4351"/>
@@ -3026,17 +3026,17 @@ Molim, provjerite dozvole te mape.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Dodaj novu zabilješku</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Vrijeme:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Naziv (neobavezno):</translation>
     </message>
 </context>
 <context>
