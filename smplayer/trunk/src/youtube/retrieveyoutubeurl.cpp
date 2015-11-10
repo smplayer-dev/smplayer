@@ -199,11 +199,14 @@ void RetrieveYoutubeUrl::fetchPlayerPage(const QString & player_name) {
 
 	if (!player_name.isEmpty()) {
 		QString url;
+		/*
 		if (player_name.startsWith("new-")) {
 			url = QString("http://s.ytimg.com/yts/jsbin/html5player-%1/html5player-new.js").arg(player_name);
 		} else {
 			url = QString("http://s.ytimg.com/yts/jsbin/html5player-%1/html5player.js").arg(player_name);
 		}
+		*/
+		url = QString("http://s.ytimg.com/yts/jsbin/player-%1/base.js").arg(player_name);
 		qDebug() << "RetrieveYoutubeUrl::fetchPlayerPage: url:" << url;
 		dl_player_page->fetchPage(url);
 	}
@@ -227,7 +230,8 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	#ifdef YT_USE_SIG
 	QString html5_player;
 	#endif
-	QRegExp rxplayer("html5player-([\\d,\\w,-]+)\\\\");
+	//QRegExp rxplayer("player-([\\d,\\w,-]+)\\\\");
+	QRegExp rxplayer("jsbin\\/player-([\\d,\\w,-]+)\\/");
 	if (rxplayer.indexIn(replyString) != -1) {
 		html5_player = rxplayer.cap(1);
 		qDebug() << "RetrieveYoutubeUrl::videoPageLoaded: html5player:" << html5_player;
