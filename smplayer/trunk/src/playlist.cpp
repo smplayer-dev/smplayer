@@ -1066,30 +1066,39 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	setCursor(Qt::WaitCursor);
 #endif
 
-    QStringList::Iterator it = files.begin();
-    while( it != files.end() ) {
+	QString initial_file;
+	if (pl.count() == 1) initial_file = pl[0].filename();
+	int new_current_item = -1;
+
+	for (int n = 0; n < files.count(); n++) {
+		QString name = "";
+		double duration = 0;
 #if USE_INFOPROVIDER
-		if ( (get_info) && (QFile::exists((*it))) ) {
-			data = InfoProvider::getInfo( (*it) );
-			addItem( (*it), data.displayName(), data.duration );
+		if ( (get_info) && (QFile::exists(files[n])) ) {
+			data = InfoProvider::getInfo(files[n]);
+			name = data.displayName();
+			duration = data.duration;
 			//updateView();
 			//qApp->processEvents();
-		} else {
-			addItem( (*it), "", 0 );
 		}
-#else
-    	addItem( (*it), "", 0 );
 #endif
-
-		if (QFile::exists(*it)) {
-			latest_dir = QFileInfo((*it)).absolutePath();
+		if (!initial_file.isEmpty() && files[n] == initial_file) {
+			PlaylistItem first_item = pl.takeFirst();
+			name = first_item.name();
+			duration = first_item.duration();
+			new_current_item = n;
 		}
+		addItem(files[n], name, duration);
 
-        ++it;
-    }
+		if (QFile::exists(files[n])) {
+			latest_dir = QFileInfo(files[n]).absolutePath();
+		}
+	}
 #if USE_INFOPROVIDER
 	unsetCursor();
 #endif
+
+	if (new_current_item != -1) setCurrentItem(new_current_item);
 	updateView();
 
 	qDebug( "Playlist::addFiles: latest_dir: '%s'", latest_dir.toUtf8().constData() );

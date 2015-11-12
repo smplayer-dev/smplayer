@@ -272,10 +272,10 @@ QStringList Helper::filesInDirectory(const QString & initial_file, const QString
 
 	QStringList r;
 	for (int n = 0; n < all_files.count(); n++) {
-		if (all_files[n] != current_file) {
+		//if (all_files[n] != current_file) {
 			QString s = path +"/" + all_files[n];
 			r << s;
-		}
+		//}
 	}
 
 	//qDebug() << "Helper::filesInDirectory: result:" << r;
