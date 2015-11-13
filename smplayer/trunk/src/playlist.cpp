@@ -1069,10 +1069,19 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	QString initial_file;
 	if (pl.count() == 1) initial_file = pl[0].filename();
 	int new_current_item = -1;
+	
+	#ifdef Q_OS_WIN
+	initial_file = QDir::toNativeSeparators(initial_file);
+	#endif
 
 	for (int n = 0; n < files.count(); n++) {
 		QString name = "";
 		double duration = 0;
+		
+		#ifdef Q_OS_WIN	
+		files[n] = QDir::toNativeSeparators(files[n]);
+		#endif
+
 #if USE_INFOPROVIDER
 		if ( (get_info) && (QFile::exists(files[n])) ) {
 			data = InfoProvider::getInfo(files[n]);
@@ -1082,6 +1091,7 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 			//qApp->processEvents();
 		}
 #endif
+
 		if (!initial_file.isEmpty() && files[n] == initial_file) {
 			PlaylistItem first_item = pl.takeFirst();
 			name = first_item.name();
