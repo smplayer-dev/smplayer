@@ -406,11 +406,52 @@ void RetrieveYoutubeUrl::streamPageLoaded(QByteArray page) {
 	} while (!line.isNull());
 
 	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: best_resolution:" << best_resolution;
-	if (url_map.contains(best_resolution)) {
-		QString best_url = url_map.value(best_resolution);
-		qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: best url:" << best_url;
-		emit gotPreferredUrl(best_url, 0);
-		latest_preferred_url = best_url;
+
+	// Try to find a URL with the user's preferred quality
+	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: preferred_quality:" << preferred_quality;
+
+	int selected_quality = 0;
+	int q = preferred_quality;
+
+	if (q == WEBM_1080p || q == MP4_1080p) {
+		if (url_map.contains(1080)) {
+			selected_quality = 1080;
+		} else q = MP4_720p;
+	}
+
+	if (q == WEBM_720p || q == MP4_720p) {
+		if (url_map.contains(720)) {
+			selected_quality = 720;
+		} else q = WEBM_480p;
+	}
+
+	if (q == WEBM_480p || q == FLV_480p) {
+		if (url_map.contains(480)) {
+			selected_quality = 480;
+		} else q = MP4_360p;
+	}
+
+	if (q == WEBM_360p || q == FLV_360p || q == MP4_360p) {
+		if (url_map.contains(360)) {
+			selected_quality = 360;
+		} else q = FLV_240p;
+	}
+
+	if (q == FLV_240p) {
+		if (url_map.contains(240)) {
+			selected_quality = 240;
+		}
+	}
+
+	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: selected_quality:" << selected_quality;
+
+	if (selected_quality == 0) selected_quality = best_resolution;
+
+	if (url_map.contains(selected_quality)) {
+		QString p_url = url_map.value(selected_quality);
+		qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: p_url:" << p_url;
+		emit gotPreferredUrl(p_url, 0);
+		latest_preferred_url = p_url;
 	} else {
 		 emit gotEmptyList();
 	}
