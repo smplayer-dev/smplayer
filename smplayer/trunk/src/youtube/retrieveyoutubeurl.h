@@ -31,6 +31,7 @@ class QSettings;
 
 #define YT_GET_VIDEOINFO
 //#define YT_DASH_SUPPORT
+#define YT_LIVE_STREAM
 
 #ifdef YT_GET_VIDEOINFO
 #define YT_DISCARD_HTTPS
@@ -107,6 +108,9 @@ protected slots:
 #ifdef YT_USE_SIG
 	void playerPageLoaded(QByteArray page);
 #endif
+#ifdef YT_LIVE_STREAM
+	void streamPageLoaded(QByteArray page);
+#endif
 
 	void processVideoPage();
 
@@ -117,6 +121,9 @@ protected:
 #endif
 #ifdef YT_USE_SIG
 	void fetchPlayerPage(const QString & player_name);
+#endif
+#ifdef YT_LIVE_STREAM
+	void fetchStreamPage(const QString & url);
 #endif
 
 	QString getVideoID(QString video_url);
@@ -144,6 +151,10 @@ private:
 	QSettings * set;
 #else
 	QString html5_player;
+#endif
+
+#ifdef YT_LIVE_STREAM
+	LoadPage * dl_stream_page;
 #endif
 
 	QString video_page;

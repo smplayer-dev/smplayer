@@ -60,6 +60,12 @@ RetrieveYoutubeUrl::RetrieveYoutubeUrl(QObject* parent)
 	connect(dl_player_page, SIGNAL(pageLoaded(QByteArray)), this, SLOT(playerPageLoaded(QByteArray)));
 	connect(dl_player_page, SIGNAL(errorOcurred(int, QString)), this, SIGNAL(errorOcurred(int, QString)));
 #endif
+
+#ifdef YT_LIVE_STREAM
+	dl_stream_page = new LoadPage(manager, this);
+	connect(dl_stream_page, SIGNAL(pageLoaded(QByteArray)), this, SLOT(streamPageLoaded(QByteArray)));
+	connect(dl_stream_page, SIGNAL(errorOcurred(int, QString)), this, SIGNAL(errorOcurred(int, QString)));
+#endif
 }
 
 RetrieveYoutubeUrl::~RetrieveYoutubeUrl() {
@@ -213,6 +219,13 @@ void RetrieveYoutubeUrl::fetchPlayerPage(const QString & player_name) {
 }
 #endif
 
+#ifdef YT_LIVE_STREAM
+void RetrieveYoutubeUrl::fetchStreamPage(const QString & url) {
+	qDebug() << "RetrieveYoutubeUrl::fetchStreamPage:" << url;
+	dl_stream_page->fetchPage(url);
+}
+#endif
+
 void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 	qDebug() << "RetrieveYoutubeUrl::videoPageLoaded";
 
@@ -254,6 +267,19 @@ void RetrieveYoutubeUrl::videoPageLoaded(QByteArray page) {
 
 void RetrieveYoutubeUrl::processVideoPage() {
 	QString replyString = video_page;
+
+#ifdef YT_LIVE_STREAM
+	QRegExp rxhlsvp("\"hlsvp\":\"([a-zA-Z0-9\\\\\\/_%\\+:\\.-]+)\"");
+	if (rxhlsvp.indexIn(replyString) != -1) {
+		QString hlsvp = QUrl::fromPercentEncoding(rxhlsvp.cap(1).toLatin1()).replace("\\/", "/");
+		qDebug() << "RetrieveYoutubeUrl::processVideoPage: hlsvp:" << hlsvp;
+
+		if (!hlsvp.isEmpty()) {
+			fetchStreamPage(hlsvp);
+			return;
+		}
+	}
+#endif
 
 	QString fmtArray;
 	QRegExp regex("\\\"url_encoded_fmt_stream_map\\\"\\s*:\\s*\\\"([^\\\"]*)");
@@ -345,6 +371,48 @@ void RetrieveYoutubeUrl::playerPageLoaded(QByteArray page) {
 	if (!signature_code.isEmpty() && set) sig.save(set);
 
 	processVideoPage();
+}
+#endif
+
+#ifdef YT_LIVE_STREAM
+void RetrieveYoutubeUrl::streamPageLoaded(QByteArray page) {
+	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded";
+
+	//qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: page:" << page;
+
+	QRegExp rx("#EXT-X-STREAM-INF:.*RESOLUTION=\\d+x(\\d+)");
+
+	QMap<int, QString> url_map;
+	int best_resolution = 0;
+	int res_height = 0;
+
+	QTextStream stream(page);
+	QString line;
+	do {
+		line = stream.readLine();
+		if (!line.isEmpty()) {
+			//qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: line:" << line;
+			if (rx.indexIn(line) != -1) {
+				res_height = rx.cap(1).toInt();
+				qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: height:" << res_height;
+				if (res_height > best_resolution) best_resolution = res_height;
+			}
+			else
+			if (!line.startsWith("#") && res_height != 0) {
+				url_map[res_height] = line;
+				res_height = 0;
+			}
+		}
+	} while (!line.isNull());
+
+	qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: best_resolution:" << best_resolution;
+	if (url_map.contains(best_resolution)) {
+		QString best_url = url_map.value(best_resolution);
+		qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: best url:" << best_url;
+		emit gotPreferredUrl(best_url, 0);
+	} else {
+		 emit gotEmptyList();
+	}
 }
 #endif
 
