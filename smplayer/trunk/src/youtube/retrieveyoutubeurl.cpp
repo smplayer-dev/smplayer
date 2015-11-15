@@ -410,6 +410,7 @@ void RetrieveYoutubeUrl::streamPageLoaded(QByteArray page) {
 		QString best_url = url_map.value(best_resolution);
 		qDebug() << "RetrieveYoutubeUrl::streamPageLoaded: best url:" << best_url;
 		emit gotPreferredUrl(best_url, 0);
+		latest_preferred_url = best_url;
 	} else {
 		 emit gotEmptyList();
 	}
