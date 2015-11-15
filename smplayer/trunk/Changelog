@@ -1,9 +1,33 @@
-Version 15.10:
+Version 15.11:
 
-(2015-10-22)
+(2015-11-15)
+ * (Experimental) Add support for Youtube live streams.
+
+(2015-11-12)
+ * When adding files to the playlist move the first item to its 
+   correct place in the list.
+
+(2015-11-10)
+ * Fix for Youtube.
+
+(2015-11-07)
+ * Identify MPlayer 1.2.
+
+(2015-11-04)
+ * Add the possibility to set bookmarks in the videos.
+
+(2015-10-28)
+ * Don't use -playlist with mplayer by default.
+
+(2015-10-26)
+ * (mplayer) Don't add ffmpeg:// to the URL when playing https
+   streams. It seems it's not necessary anymore.
+
+(2015-10-23)
  * New action to start/stop capturing the playback stream.
-   The captured stream will be saved to the screenshot folder
-   with the name capture_NNNN.dump.
+   The captured stream will be saved to the folder specified in
+   the smplayer.ini option capture_directory with the name
+   capture_NNNN.dump.
    It only works correctly with mpeg. With other formats the
    dumped stream won't play back.
 
