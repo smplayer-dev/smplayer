@@ -113,10 +113,11 @@ void MediaSettings::reset() {
 	A_marker = -1;
 	B_marker = -1;
 
+#ifdef BOOKMARKS
 	// Initialize bookmarks
 	bookmarks.clear();
 	bookmarks.insert(0, "");
-	// end bookmarks
+#endif
 
 	is264andHD = false;
 
@@ -397,6 +398,7 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "A_marker", A_marker);
 	set->setValue( "B_marker", B_marker);
 
+#ifdef BOOKMARKS
 	// Save bookmarks
 	bool save_bookmarks = true;
 	QMap<int, QString>::const_iterator i = bookmarks.constBegin();
@@ -413,6 +415,7 @@ void MediaSettings::save(QSettings * set, int player_id) {
 		}
 		set->endArray();
 	}
+#endif
 
 	set->setValue( "mplayer_additional_options", mplayer_additional_options);
 	set->setValue( "mplayer_additional_video_filters", mplayer_additional_video_filters);
@@ -533,6 +536,7 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	A_marker = set->value( "A_marker", A_marker).toInt();
 	B_marker = set->value( "B_marker", B_marker).toInt();
 
+#ifdef BOOKMARKS
 	// Load bookmarks
 	int n_bookmarks = set->beginReadArray("bookmarks");
 	if (n_bookmarks > 0) {
@@ -545,6 +549,7 @@ void MediaSettings::load(QSettings * set, int player_id) {
 		}
 	}
 	set->endArray();
+#endif
 
 	mplayer_additional_options = set->value( "mplayer_additional_options", mplayer_additional_options).toString();
 	mplayer_additional_video_filters = set->value( "mplayer_additional_video_filters", mplayer_additional_video_filters).toString();

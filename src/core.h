@@ -302,8 +302,10 @@ public slots:
 	void nextOSD();
 	void nextWheelFunction();
 
+#ifdef BOOKMARKS
 	void nextBookmark();
 	void prevBookmark();
+#endif
 
 	#if 0
 	void changeSize(int); // Size of the window

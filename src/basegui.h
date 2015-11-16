@@ -165,8 +165,10 @@ public slots:
 	virtual void showSubDelayDialog();
 	virtual void showAudioDelayDialog();
 	virtual void showStereo3dDialog();
+#ifdef BOOKMARKS
 	virtual void showAddBookmarkDialog();
 	virtual void showBookmarkDialog();
+#endif
 
 	virtual void exitFullscreen();
 	virtual void toggleFullscreen();
@@ -390,7 +392,9 @@ protected:
 	void setActionsEnabled(bool);
 #endif
 	void createMenus();
+#ifdef BOOKMARKS
 	void updateBookmarks();
+#endif
 	void updateRecents();
 	void configureDiscDevices();
 	void setupNetworkProxy();
@@ -727,13 +731,14 @@ protected:
 	MyActionGroup * titleGroup;
 	MyActionGroup * chapterGroup;
 	MyActionGroup * angleGroup;
+#ifdef BOOKMARKS
 	MyActionGroup * bookmarkGroup;
 	MyAction * addBookmarkAct;
 	MyAction * editBookmarksAct;
 
 	MyAction * prevBookmarkAct;
 	MyAction * nextBookmarkAct;
-
+#endif
 
 #if DVDNAV_SUPPORT
 	MyAction * dvdnavUpAct;
@@ -769,7 +774,9 @@ protected:
 	QMenu * titles_menu;
 	QMenu * chapters_menu;
 	QMenu * angles_menu;
+#ifdef BOOKMARKS
 	QMenu * bookmark_menu;
+#endif
 	QMenu * aspect_menu;
 	QMenu * osd_menu;
 	QMenu * deinterlace_menu;

@@ -4740,6 +4740,7 @@ QString Core::pausing_prefix() {
 	}
 }
 
+#ifdef BOOKMARKS
 void Core::prevBookmark() {
 	qDebug("Core::prevBookmark");
 
@@ -4778,5 +4779,6 @@ void Core::nextBookmark() {
 		goToSec(first_time);
 	}
 }
+#endif
 
 #include "moc_core.cpp"

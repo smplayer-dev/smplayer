@@ -69,8 +69,12 @@
 #include "errordialog.h"
 #include "timedialog.h"
 #include "stereo3ddialog.h"
+
+#ifdef BOOKMARKS
 #include "inputbookmark.h"
 #include "bookmarkdialog.h"
+#endif
+
 #include "clhelp.h"
 #include "mplayerversion.h"
 
@@ -1279,6 +1283,7 @@ void BaseGui::createActions() {
 	connect( chapterGroup, SIGNAL(activated(int)),
 			 core, SLOT(changeChapter(int)) );
 
+#ifdef BOOKMARKS
 	// Bookmarks
 	bookmarkGroup = new MyActionGroup(this);
 	connect( bookmarkGroup, SIGNAL(activated(int)),
@@ -1295,7 +1300,7 @@ void BaseGui::createActions() {
 
 	nextBookmarkAct = new MyAction(Qt::CTRL | Qt::Key_N, this, "next_bookmark");
 	connect(nextBookmarkAct, SIGNAL(triggered()), core, SLOT(nextBookmark()));
-
+#endif
 
 #if DVDNAV_SUPPORT
 	dvdnavUpAct = new MyAction(Qt::SHIFT | Qt::Key_Up, this, "dvdnav_up");
@@ -2069,19 +2074,22 @@ void BaseGui::retranslateStrings() {
 	angles_menu->menuAction()->setText( tr("&Angle") );
 	angles_menu->menuAction()->setIcon( Images::icon("angle") );
 
+#ifdef BOOKMARKS
 	bookmark_menu->menuAction()->setText( tr("&Bookmarks") );
 	bookmark_menu->menuAction()->setIcon( Images::icon("bookmarks") );
+#endif
 
 #if PROGRAM_SWITCH
 	programtrack_menu->menuAction()->setText( tr("P&rogram", "program") );
 	programtrack_menu->menuAction()->setIcon( Images::icon("program_track") );
 #endif
 
+#ifdef BOOKMARKS
 	addBookmarkAct->change(Images::icon("add_bookmark"), tr("&Add new bookmark"));
 	editBookmarksAct->change(Images::icon("edit_bookmarks"), tr("&Edit bookmarks"));
 	prevBookmarkAct->change(Images::icon("prev_bookmark"), tr("Previous bookmark"));
 	nextBookmarkAct->change(Images::icon("next_bookmark"), tr("Next bookmark"));
-
+#endif
 
 #if DVDNAV_SUPPORT
 	dvdnavUpAct->change(Images::icon("dvdnav_up"), tr("DVD menu, move up"));
@@ -2788,11 +2796,13 @@ void BaseGui::createMenus() {
 
 	browseMenu->addMenu(angles_menu);
 
+#ifdef BOOKMARKS
 	// Bookmarks submenu
 	bookmark_menu = new QMenu(this);
 	bookmark_menu->menuAction()->setObjectName("bookmarks_menu");
 
 	browseMenu->addMenu(bookmark_menu);
+#endif
 
 #if DVDNAV_SUPPORT
 	browseMenu->addSeparator();
@@ -3559,9 +3569,12 @@ void BaseGui::initializeMenus() {
 	}
 	angles_menu->addActions( angleGroup->actions() );
 
+#ifdef BOOKMARKS
 	updateBookmarks();
+#endif
 }
 
+#ifdef BOOKMARKS
 void BaseGui::updateBookmarks() {
 	qDebug("BaseGui::updateBookmarks");
 
@@ -3592,6 +3605,7 @@ void BaseGui::updateBookmarks() {
 	bookmark_menu->addSeparator();
 	bookmark_menu->addActions(bookmarkGroup->actions());
 }
+#endif
 
 void BaseGui::updateRecents() {
 	qDebug("BaseGui::updateRecents");
@@ -4445,6 +4459,7 @@ void BaseGui::showStereo3dDialog() {
 	}
 }
 
+#ifdef BOOKMARKS
 void BaseGui::showAddBookmarkDialog() {
 	InputBookmark d(this);
 	d.setTime( (int) core->mset.current_sec);
@@ -4463,6 +4478,7 @@ void BaseGui::showBookmarkDialog() {
 		updateBookmarks();
 	}
 }
+#endif
 
 void BaseGui::exitFullscreen() {
 	if (pref->fullscreen) {
