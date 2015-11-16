@@ -28,6 +28,7 @@ DEFINES += SHAREWIDGET
 #DEFINES += USE_FONTCONFIG_OPTIONS
 DEFINES += AUTO_SHUTDOWN_PC
 DEFINES += CAPTURE_STREAM
+DEFINES += BOOKMARKS
 
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
@@ -168,8 +169,6 @@ HEADERS += guiconfig.h \
 	timeslider.h \
 	inputdvddirectory.h \
 	inputurl.h \
-	inputbookmark.h \
-	bookmarkdialog.h \
 	stereo3ddialog.h \
 	myaction.h \
 	myactiongroup.h \
@@ -269,8 +268,6 @@ SOURCES	+= version.cpp \
 	timeslider.cpp \
 	inputdvddirectory.cpp \
 	inputurl.cpp \
-	inputbookmark.cpp \
-	bookmarkdialog.cpp \
 	stereo3ddialog.cpp \
 	myaction.cpp \
 	myactiongroup.cpp \
@@ -297,7 +294,7 @@ SOURCES	+= version.cpp \
 	main.cpp
 
 FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
-        eqslider.ui seekwidget.ui inputurl.ui inputbookmark.ui bookmarkdialog.ui videoequalizer.ui vdpauproperties.ui \
+        eqslider.ui seekwidget.ui inputurl.ui videoequalizer.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
         prefplaylist.ui preftv.ui prefupdates.ui prefnetwork.ui favoriteeditor.ui \
@@ -476,6 +473,12 @@ contains( DEFINES, AUTO_SHUTDOWN_PC ) {
 	FORMS += shutdowndialog.ui
 
 	unix { QT += dbus }
+}
+
+contains( DEFINES, BOOKMARKS ) {
+	HEADERS += inputbookmark.h bookmarkdialog.h
+	SOURCES += inputbookmark.cpp bookmarkdialog.cpp
+	FORMS += inputbookmark.ui bookmarkdialog.ui
 }
 
 unix {
