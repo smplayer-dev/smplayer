@@ -1,3 +1,31 @@
+Version 15.11
+
+ * Fix for YouTube.
+ * (Experimental) Support for YouTube live streams.
+ * New options to seek to the previous or next subtitle (mpv only).
+ * New option (Preferences -> General) to select the image format for
+   screenshots (mpv only).
+ * Fix a crash when changing the GUI.
+ * New option (Preferences -> Interface) to center the window
+   automatically.
+ * Display a tooltip in the time slider with the corresponding time of
+   the mouse position.
+ * Now there's an option in the configuration of the find subtitles window
+   which allows to specify if the language code should be appended to the
+   subtitle filename.
+ * (Fix for Windows) The main window will be centered if it's partially
+   outside of the desktop after an auto resize.
+ * When adding files to the playlist the first item is moved to its
+   correct place in the list.
+ * (Experimental) New action to start/stop capturing the playback stream.
+   The captured stream will be saved to the folder specified in
+   the smplayer.ini option "capture_directory" with the name
+   capture_NNNN.dump.
+   It only works correctly with mpeg. With other formats the
+   dumped stream won't play back.
+ * Disable the extrastereo and karaoke filters when using mpv.
+
+
 Version 15.9
 
  * Support for the 3D stereo filter.
