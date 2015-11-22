@@ -670,12 +670,16 @@ void PrefInterface::createHelp() {
         tr("The <b>Basic GUI</b> provides the traditional interface, with the "
            "toolbar and control bar.") +" "+ 
         tr("The <b>Mini GUI</b> provides a more simple interface, without toolbar and a control bar with few "
-           "buttons.") +" "+
-        tr("The <b>Skinnable GUI</b> provides an interface where several skins are available.")
+           "buttons.")
 #ifdef MPCGUI
         +" "+
         tr("The <b>Mpc GUI</b> looks like the interface in Media Player Classic.")
 #endif
+#ifdef SKINS
+        +" "+
+        tr("The <b>Skinnable GUI</b> provides an interface where several skins are available.")
+#endif
+
         );
 
 	setWhatsThis(iconset_combo, tr("Icon set"),
