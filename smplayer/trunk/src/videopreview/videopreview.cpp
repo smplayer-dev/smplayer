@@ -43,6 +43,8 @@
 
 #define RENAME_PICTURES 0
 
+#define N_OUTPUT_FRAMES 1
+
 // MPlayer2 doesn't support png outdir
 /* #define VP_USE_PNG_OUTDIR */
 
@@ -170,10 +172,7 @@ void VideoPreview::clearThumbnails() {
 }
 
 QString VideoPreview::framePicture() {
-	if (prop.extract_format == PNG)
-		return "00000005.png";
-	else
-		return "00000005.jpg";
+	return QString("0000000%1.%2").arg(N_OUTPUT_FRAMES == 1 ? 1 : N_OUTPUT_FRAMES-1).arg(prop.extract_format == PNG ? "png" : "jpg");
 }
 
 bool VideoPreview::createThumbnails() {
@@ -278,7 +277,8 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 		#ifdef MPV_SUPPORT
 		// MPV
 		args << "--no-config" << "--no-audio" << "--no-cache";
-		args << "--frames=6" << "--framedrop=no" << "--start=" + QString::number(seek);
+		args << "--frames=" + QString::number(N_OUTPUT_FRAMES);
+		args << "--framedrop=no" << "--start=" + QString::number(seek);
 		if (aspect_ratio != 0) {
 			args << "--video-aspect=" + QString::number(aspect_ratio);
 		}
@@ -294,7 +294,7 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	else {
 		#ifdef MPLAYER_SUPPORT
 		// MPlayer
-		args << "-nosound" << "-nocache";
+		args << "-nosound" << "-nocache" << "-noframedrop";
 
 		if (prop.extract_format == PNG) {
 			args << "-vo"
@@ -308,7 +308,7 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 			<< "jpeg:outdir=\""+full_output_dir+"\"";
 		}
 
-		args << "-frames" << "6" << "-ss" << QString::number(seek);
+		args << "-frames" << QString::number(N_OUTPUT_FRAMES) << "-ss" << QString::number(seek);
 
 		if (aspect_ratio != 0) {
 			args << "-aspect" << QString::number(aspect_ratio) << "-zoom";
