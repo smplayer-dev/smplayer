@@ -68,7 +68,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 	output_dir = "smplayer_preview";
 	full_output_dir = QDir::tempPath() +"/"+ output_dir;
 
-	progress = new QProgressDialog(this);
+	progress = new QProgressDialog(parent != 0 ? parent : this);
 	progress->setMinimumDuration(0);
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
