@@ -2,6 +2,7 @@ Version 15.11
 
  * Fix for YouTube.
  * (Experimental) Support for YouTube live streams.
+ * The thumbnail generator is much faster now.
  * New options to seek to the previous or next subtitle (mpv only).
  * New option (Preferences -> General) to select the image format for
    screenshots (mpv only).
