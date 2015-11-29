@@ -682,7 +682,6 @@ void Core::openDVD(int title) {
 	mset.reset();
 
 	mset.current_title_id = title;
-	mset.current_chapter_id = 1;
 	mset.current_angle_id = 1;
 
 	initializeMenus();
@@ -712,7 +711,6 @@ void Core::openVCD(int title) {
 	mset.reset();
 
 	mset.current_title_id = title;
-	mset.current_chapter_id = -1;
 	mset.current_angle_id = -1;
 
 	/* initializeMenus(); */
@@ -741,7 +739,6 @@ void Core::openAudioCD(int title) {
 	mset.reset();
 
 	mset.current_title_id = title;
-	mset.current_chapter_id = -1;
 	mset.current_angle_id = -1;
 
 	/* initializeMenus(); */
@@ -789,7 +786,6 @@ void Core::openDVD(QString dvd_url) {
 	mset.reset();
 
 	mset.current_title_id = title;
-	mset.current_chapter_id = firstChapter();
 	mset.current_angle_id = 1;
 
 	/* initializeMenus(); */
@@ -838,7 +834,6 @@ void Core::openBluRay(QString bluray_url) {
 	mset.reset();
 
 	mset.current_title_id = title;
-	mset.current_chapter_id = firstChapter();
 	mset.current_angle_id = 1;
 
 	/* initializeMenus(); */
@@ -1115,11 +1110,6 @@ void Core::newMediaPlaying() {
 		}
 	}
 #endif
-
-	if (mdat.n_chapters > 0) {
-		// Just to show the first chapter checked in the menu
-		mset.current_chapter_id = firstChapter();
-	}
 
 	mdat.initialized = true;
 
@@ -1705,10 +1695,6 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->setOption("sub-fuzziness", pref->subfuzziness);
 
-	// From mplayer SVN r27667 the number of chapters can be obtained from ID_CHAPTERS
-	mset.current_chapter_id = 0; // Reset chapters
-	// TODO: I think the current_chapter_id thing has to be deleted
-
 	if (pref->vo != "player_default") {
 		if (!pref->vo.isEmpty()) {
 			proc->setOption("vo", pref->vo );
@@ -2070,15 +2056,6 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->setOption("cdrom-device", pref->cdrom_device);
 		}
 	}
-
-	/*
-	if (mset.current_chapter_id > 0) {
-		int chapter = mset.current_chapter_id;
-		// Fix for older versions of mplayer:
-		if ((mdat.type == TYPE_DVD) && (firstChapter() == 0)) chapter++;
-		proc->setOption("chapter", QString::number(chapter));
-	}
-	*/
 
 	if (mset.current_angle_id > 0) {
 		proc->setOption("dvdangle", QString::number( mset.current_angle_id));
@@ -3831,39 +3808,7 @@ void Core::changeTitle(int ID) {
 
 void Core::changeChapter(int ID) {
 	qDebug("Core::changeChapter: ID: %d", ID);
-
-	if (mdat.type != TYPE_DVD) {
-		/*
-		if (mdat.chapters.find(ID) > -1) {
-			double start = mdat.chapters.item(ID).start();
-			qDebug("Core::changeChapter: start: %f", start);
-			goToSec(start);
-			mset.current_chapter_id = ID;
-		} else {
-		*/
-			proc->setChapter(ID);
-			mset.current_chapter_id = ID;
-			//updateWidgets();
-		/*
-		}
-		*/
-	} else {
-#if SMART_DVD_CHAPTERS
-		if (pref->cache_for_dvds == 0) {
-#else
-		if (pref->fast_chapter_change) {
-#endif
-			proc->setChapter(ID);
-			mset.current_chapter_id = ID;
-			updateWidgets();
-		} else {
-			stopMplayer();
-			mset.current_chapter_id = ID;
-			//goToPos(0);
-			mset.current_sec = 0;
-			restartPlay();
-		}
-	}
+	proc->setChapter(ID);
 }
 
 int Core::firstChapter() {
