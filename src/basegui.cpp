@@ -3716,9 +3716,6 @@ void BaseGui::updateWidgets() {
 	// Titles
 	titleGroup->setChecked( core->mset.current_title_id );
 
-	// Chapters
-	chapterGroup->setChecked( core->mset.current_chapter_id );
-
 	// Angles
 	angleGroup->setChecked( core->mset.current_angle_id );
 
