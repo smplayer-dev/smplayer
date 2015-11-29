@@ -620,6 +620,14 @@ void MPVProcess::setChapter(int ID) {
 	writeToStdin("set chapter " + QString::number(ID));
 }
 
+void MPVProcess::nextChapter() {
+	writeToStdin("add chapter 1");
+}
+
+void MPVProcess::previousChapter() {
+	writeToStdin("add chapter -1");
+}
+
 void MPVProcess::setExternalSubtitleFile(const QString & filename) {
 	writeToStdin("sub_add \""+ filename +"\"");
 	//writeToStdin("print_text ${track-list}");

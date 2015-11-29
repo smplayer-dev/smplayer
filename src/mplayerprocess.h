@@ -72,6 +72,8 @@ public:
 	void setSaturation(int value);
 	void setGamma(int value);
 	void setChapter(int ID);
+	void nextChapter();
+	void previousChapter();
 	void setExternalSubtitleFile(const QString & filename);
 	void setSubPos(int pos);
 	void setSubScale(double value);
