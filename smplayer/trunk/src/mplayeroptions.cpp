@@ -298,6 +298,14 @@ void MplayerProcess::setChapter(int ID) {
 	writeToStdin("seek_chapter " + QString::number(ID) +" 1");
 }
 
+void MplayerProcess::nextChapter() {
+	writeToStdin("seek_chapter 1 0");
+}
+
+void MplayerProcess::previousChapter() {
+	writeToStdin("seek_chapter -1 0");
+}
+
 void MplayerProcess::setExternalSubtitleFile(const QString & filename) {
 	writeToStdin("sub_load \""+ filename +"\"");
 }

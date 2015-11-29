@@ -80,6 +80,8 @@ public:
 	virtual void setSaturation(int value) = 0;
 	virtual void setGamma(int value) = 0;
 	virtual void setChapter(int ID) = 0;
+	virtual void nextChapter() = 0;
+	virtual void previousChapter() = 0;
 	virtual void setExternalSubtitleFile(const QString & filename) = 0;
 	virtual void setSubPos(int pos) = 0;
 	virtual void setSubScale(double value) = 0;
