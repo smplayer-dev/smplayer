@@ -607,11 +607,23 @@ Section -Post
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
-  ;Clean up empty directories
+  DetailPrint "Cleaning up directories..."
+  SetDetailsPrint none
   RMDir "$INSTDIR\platforms"
 !ifdef WIN64
   RMDir "$INSTDIR\mplayer\codecs"
 !endif
+  SetDetailsPrint both
+
+  DetailPrint "Cleaning fontconfig cache..."
+  SetDetailsPrint none
+  Delete "$LOCALAPPDATA\fontconfig\cache\CACHEDIR.TAG"
+  Delete "$LOCALAPPDATA\fontconfig\cache\*.cache*"
+  RMDir "$LOCALAPPDATA\fontconfig\cache"
+  RMDir "$LOCALAPPDATA\fontconfig"
+  SetDetailsPrint both
+
+  ;Sleep 5000
 
   ;SetAutoClose false
 
