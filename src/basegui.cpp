@@ -5217,15 +5217,17 @@ void BaseGui::resizeMainWindow(int w, int h) {
 
 #ifdef Q_OS_WIN
 	// Check if a part of the window is outside of the desktop
-	QRect screen_rect = QApplication::desktop()->screenGeometry(this);
-	QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
-	qDebug("BaseGui::resizeWindow: right bottom point: %d, %d", right_bottom.x(), right_bottom.y());;
-	if (!screen_rect.contains(right_bottom) || !screen_rect.contains(this->pos())) {
-		qDebug("BaseGui::resizeWindow: the window is outside of the desktop, it will be moved");
-		//move(screen_rect.x(), screen_rect.y());
-		int x = screen_rect.x() + ((screen_rect.width() - width()) / 2);
-		int y = screen_rect.y() + ((screen_rect.height() - height()) / 2);
-		move(x, y);
+	if (!core->mdat.novideo) {
+		QRect screen_rect = QApplication::desktop()->screenGeometry(this);
+		QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
+		qDebug("BaseGui::resizeWindow: right bottom point: %d, %d", right_bottom.x(), right_bottom.y());;
+		if (!screen_rect.contains(right_bottom) || !screen_rect.contains(this->pos())) {
+			qDebug("BaseGui::resizeWindow: the window is outside of the desktop, it will be moved");
+			//move(screen_rect.x(), screen_rect.y());
+			int x = screen_rect.x() + ((screen_rect.width() - width()) / 2);
+			int y = screen_rect.y() + ((screen_rect.height() - height()) / 2);
+			move(x, y);
+		}
 	}
 #endif
 }
@@ -5235,7 +5237,7 @@ void BaseGui::hidePanel() {
 
 	if (panel->isVisible()) {
 		// Exit from fullscreen mode 
-	    if (pref->fullscreen) { toggleFullscreen(false); update(); }
+		if (pref->fullscreen) { toggleFullscreen(false); update(); }
 
 		// Exit from compact mode first
 		if (pref->compact_mode) toggleCompactMode(false);
