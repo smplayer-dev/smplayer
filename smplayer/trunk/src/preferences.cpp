@@ -329,7 +329,9 @@ void Preferences::reset() {
 
 	use_edl_files = true;
 
+#ifdef MPLAYER_SUPPORT
 	use_playlist_option = false;
+#endif
 
 	prefer_ipv4 = true;
 
@@ -826,7 +828,9 @@ void Preferences::save() {
 
 	set->setValue("use_edl_files", use_edl_files);
 
+#ifdef MPLAYER_SUPPORT
 	set->setValue("use_playlist_option", use_playlist_option);
+#endif
 
 	set->setValue("prefer_ipv4", prefer_ipv4);
 
@@ -1362,7 +1366,9 @@ void Preferences::load() {
 
 	use_edl_files = set->value("use_edl_files", use_edl_files).toBool();
 
+#ifdef MPLAYER_SUPPORT
 	use_playlist_option = set->value("use_playlist_option", use_playlist_option).toBool();
+#endif
 
 	prefer_ipv4 = set->value("prefer_ipv4", prefer_ipv4).toBool();
 

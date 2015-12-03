@@ -2452,9 +2452,12 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
+#ifdef MPLAYER_SUPPORT
 	if (proc->isMPlayer()) {
 		proc->setMedia(file, pref->use_playlist_option ? url_is_playlist : false);
-	} else {
+	} else
+#endif
+	{
 		proc->setMedia(file, false); // Don't use playlist with mpv
 	}
 

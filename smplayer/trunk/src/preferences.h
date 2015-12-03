@@ -306,8 +306,10 @@ public:
     //! to play
 	bool use_edl_files;
 
+#ifdef MPLAYER_SUPPORT
 	//! If true it will pass to mplayer the -playlist option
 	bool use_playlist_option;
+#endif
 
 	//! Preferred connection method: ipv4 or ipv6
 	bool prefer_ipv4;
