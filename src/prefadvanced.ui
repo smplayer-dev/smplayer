@@ -142,6 +142,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="use_playlist_check">
+         <property name="text">
+          <string>Pa&amp;ss the -playlist option to MPlayer (security risk)</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <layout class="QHBoxLayout">
          <item>
           <widget class="QLabel" name="label_8">
@@ -735,6 +742,7 @@ Example: extrastereo,karaoke</string>
   <tabstop>shortnames_check</tabstop>
   <tabstop>repaint_video_background_check</tabstop>
   <tabstop>mplayer_crashes_check</tabstop>
+  <tabstop>use_playlist_check</tabstop>
   <tabstop>correct_pts_combo</tabstop>
   <tabstop>actions_to_run_edit</tabstop>
   <tabstop>colorkey_view</tabstop>

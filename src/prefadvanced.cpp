@@ -138,6 +138,8 @@ void PrefAdvanced::setData(Preferences * pref) {
 	setUseShortNames( pref->use_short_pathnames );
 
 	setMplayerCrashes( pref->report_mplayer_crashes );
+
+	use_playlist_check->setChecked(pref->use_playlist_option);
 }
 
 void PrefAdvanced::getData(Preferences * pref) {
@@ -208,6 +210,8 @@ void PrefAdvanced::getData(Preferences * pref) {
 	pref->use_short_pathnames = useShortNames();
 
 	pref->report_mplayer_crashes = mplayerCrashes();
+
+	pref->use_playlist_option = use_playlist_check->isChecked();
 }
 
 void PrefAdvanced::setMonitorAspect(QString asp) {
@@ -472,6 +476,12 @@ void PrefAdvanced::createHelp() {
 		tr("If this option is checked, a window will appear to inform "
            "about %1 crashes. Otherwise those failures will be "
            "silently ignored.").arg(PLAYER_NAME) );
+
+	setWhatsThis(use_playlist_check, tr("Pass the -playlist option to MPlayer (security risk)"),
+		tr("This option may be needed to play playlist files (m3u, pls...)."
+           "However it can involve a security risk when playing internet sources since "
+           "the way MPlayer parses and uses playlist files  is  not "
+           "safe against maliciously constructed files.") );
 
 	setWhatsThis(correct_pts_combo, tr("Correct pts"),
 		tr("Switches %1 to an experimental mode where timestamps for "
