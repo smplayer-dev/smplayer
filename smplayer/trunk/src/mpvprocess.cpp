@@ -159,6 +159,7 @@ static QRegExp rx_mpv_generic("^([A-Z_]+)=(.*)");
 
 static QRegExp rx_stream_title("icy-title: (.*)");
 
+static QRegExp rx_mpv_debug("^(INFO|METADATA)_.*=\\$.*");
 
 void MPVProcess::parseLine(QByteArray ba) {
 	//qDebug("MPVProcess::parseLine: '%s'", ba.data() );
@@ -179,8 +180,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 #endif
 
 	if (verbose) {
-		line = line.replace("[statusline] ", "");
-		line = line.replace("[cplayer] ", "");
+		line.replace("[statusline] ", "");
+		line.replace("[cplayer] ", "");
+		line.replace("[term-msg] ", "");
+
+		if (rx_mpv_debug.indexIn(line) > -1) {
+			line = "[debug] " + line;
+		}
 	}
 
 	// Parse A: V: line
