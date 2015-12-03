@@ -53,6 +53,10 @@ PrefAdvanced::PrefAdvanced(QWidget * parent, Qt::WindowFlags f)
 	smplayer_log_box->hide();
 #endif
 
+#ifndef MPLAYER_SUPPORT
+	use_playlist_check->hide();
+#endif
+
 #if !defined(LOG_MPLAYER) && !defined(LOG_SMPLAYER)
 	advanced_tab->setTabEnabled(LOGS_TAB, false);
 #endif
@@ -139,7 +143,9 @@ void PrefAdvanced::setData(Preferences * pref) {
 
 	setMplayerCrashes( pref->report_mplayer_crashes );
 
+#ifdef MPLAYER_SUPPORT
 	use_playlist_check->setChecked(pref->use_playlist_option);
+#endif
 }
 
 void PrefAdvanced::getData(Preferences * pref) {
@@ -211,7 +217,9 @@ void PrefAdvanced::getData(Preferences * pref) {
 
 	pref->report_mplayer_crashes = mplayerCrashes();
 
+#ifdef MPLAYER_SUPPORT
 	pref->use_playlist_option = use_playlist_check->isChecked();
+#endif
 }
 
 void PrefAdvanced::setMonitorAspect(QString asp) {
@@ -477,11 +485,13 @@ void PrefAdvanced::createHelp() {
            "about %1 crashes. Otherwise those failures will be "
            "silently ignored.").arg(PLAYER_NAME) );
 
+#ifdef MPLAYER_SUPPORT
 	setWhatsThis(use_playlist_check, tr("Pass the -playlist option to MPlayer (security risk)"),
 		tr("This option may be needed to play playlist files (m3u, pls...)."
            "However it can involve a security risk when playing internet sources since "
            "the way MPlayer parses and uses playlist files  is  not "
            "safe against maliciously constructed files.") );
+#endif
 
 	setWhatsThis(correct_pts_combo, tr("Correct pts"),
 		tr("Switches %1 to an experimental mode where timestamps for "
