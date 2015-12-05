@@ -421,6 +421,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
     File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x gdb.exe /x gdb64.exe /x vfw2menc.exe /x buildinfo /x buildinfo64 /x buildinfo-mencoder-32 /x buildinfo-mencoder-debug-32 /x buildinfo-mplayer-32 /x buildinfo-mplayer-debug-32 /x buildinfo-mencoder-64 /x buildinfo-mencoder-debug-64 /x buildinfo-mplayer-64 /x buildinfo-mplayer-debug-64 "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
 !ifdef WIN64
     File /oname=mplayer.exe "${SMPLAYER_BUILD_DIR}\mplayer\mplayer64.exe"
+    RMDir "$INSTDIR\mplayer\codecs"
 !else
     File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
 !endif
@@ -608,13 +609,6 @@ Section -Post
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "URLUpdateInfo" "http://www.smplayer.info"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
-
-  DetailPrint "Cleaning up directories..."
-  SetDetailsPrint none
-!ifdef WIN64
-  RMDir "$INSTDIR\mplayer\codecs"
-!endif
-  SetDetailsPrint both
 
   DetailPrint "Cleaning fontconfig cache..."
   SetDetailsPrint none
