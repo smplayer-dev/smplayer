@@ -358,8 +358,10 @@ Section $(Section_SMPlayer) SecSMPlayer
   File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
 
   ;Qt platforms (Qt 5+)
+!ifdef QT5
   SetOutPath "$INSTDIR\platforms"
-  File /nonfatal /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
+  File /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
+!endif
 
   ;SMPlayer key shortcuts
   SetOutPath "$INSTDIR\shortcuts"
@@ -609,7 +611,6 @@ Section -Post
 
   DetailPrint "Cleaning up directories..."
   SetDetailsPrint none
-  RMDir "$INSTDIR\platforms"
 !ifdef WIN64
   RMDir "$INSTDIR\mplayer\codecs"
 !endif
