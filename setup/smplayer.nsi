@@ -1093,6 +1093,8 @@ Function PageReinstallLeave
 
   ${If} $Reinstall_RemoveSettings_State == 1
     !insertmacro SelectSection ${SecResetSettings}
+  ${Else}
+    !insertmacro UnSelectSection ${SecResetSettings}
   ${EndIf}
 
 FunctionEnd
