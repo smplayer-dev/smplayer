@@ -2050,7 +2050,11 @@ void BaseGui::retranslateStrings() {
 	reverseAct->change( tr("Re&verse") );
 
 	// Menu Subtitle
+#ifdef MPV_SUPPORT
+	subtitles_track_menu->menuAction()->setText( tr("Prim&ary track") );
+#else
 	subtitles_track_menu->menuAction()->setText( tr("&Select") );
+#endif
 	subtitles_track_menu->menuAction()->setIcon( Images::icon("sub") );
 
 #ifdef MPV_SUPPORT
