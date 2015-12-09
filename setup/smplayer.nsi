@@ -532,12 +532,6 @@ ${MementoSection} $(Section_Translations) SecTranslations
 
 ${MementoSectionEnd}
 
-Section /o $(Reinstall_Msg5) SecResetSettings
-
-    NsExec::Exec '"$INSTDIR\smplayer.exe" -delete-config'
-
-SectionEnd
-
 Section -RestorePrograms
 
   ${If} $Restore_SMTube == 1
@@ -618,7 +612,14 @@ Section -Post
   RMDir "$LOCALAPPDATA\fontconfig"
   SetDetailsPrint both
 
-  ;Sleep 5000
+  ${If} $Reinstall_RemoveSettings_State == 1
+    DetailPrint "Cleaning SMPlayer settings..."
+    SetDetailsPrint none
+    NsExec::Exec '"$INSTDIR\smplayer.exe" -delete-config'
+    SetDetailsPrint both
+  ${EndIf}
+
+  Sleep 2500
 
   ;SetAutoClose false
 
@@ -636,7 +637,6 @@ ${MementoSectionDone}
   !insertmacro MUI_DESCRIPTION_TEXT ${SecMPV} $(Section_MPV_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecThemes} $(Section_IconThemes_Desc)
   !insertmacro MUI_DESCRIPTION_TEXT ${SecTranslations} $(Section_Translations_Desc)
-  !insertmacro MUI_DESCRIPTION_TEXT ${SecResetSettings} $(Section_ResetSettings_Desc)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
 ;--------------------------------
@@ -1077,6 +1077,7 @@ Function PageReinstall
   ${NSD_OnClick} $Reinstall_OverwriteButton PageReinstallUpdate
   ${NSD_OnClick} $Reinstall_UninstallButton PageReinstallUpdate
   ${NSD_OnClick} $Reinstall_ChgSettings PageReinstallUpdate
+  ${NSD_OnClick} $Reinstall_RemoveSettings RemoveSettingsUpdate
 
   Call PageReinstallUpdate
 
@@ -1091,10 +1092,16 @@ Function PageReinstallLeave
   ${NSD_GetState} $Reinstall_ChgSettings $Reinstall_ChgSettings_State
   ${NSD_GetState} $Reinstall_RemoveSettings $Reinstall_RemoveSettings_State
 
+FunctionEnd
+
+Function RemoveSettingsUpdate
+
+  ${NSD_GetState} $Reinstall_RemoveSettings $Reinstall_RemoveSettings_State
+
   ${If} $Reinstall_RemoveSettings_State == 1
-    !insertmacro SelectSection ${SecResetSettings}
-  ${Else}
-    !insertmacro UnSelectSection ${SecResetSettings}
+    MessageBox MB_YESNO|MB_ICONQUESTION|MB_DEFBUTTON2 "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed." /SD IDNO IDYES reset_done
+      ${NSD_SetState} $Reinstall_RemoveSettings 0
+    reset_done:
   ${EndIf}
 
 FunctionEnd
