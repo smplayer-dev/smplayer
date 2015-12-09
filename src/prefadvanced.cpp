@@ -101,6 +101,8 @@ void PrefAdvanced::retranslateStrings() {
 	log_mplayer_check->setText( tr("Log %1 &output").arg(PLAYER_NAME) );
 	log_mplayer_save_check->setText( tr("A&utosave %1 log to file").arg(PLAYER_NAME) );
 
+	use_playlist_check->setText( tr("Pa&ss the %1 option to MPlayer (security risk)").arg("-playlist") );
+
 	createHelp();
 }
 
@@ -486,10 +488,10 @@ void PrefAdvanced::createHelp() {
            "silently ignored.").arg(PLAYER_NAME) );
 
 #ifdef MPLAYER_SUPPORT
-	setWhatsThis(use_playlist_check, tr("Pass the -playlist option to MPlayer (security risk)"),
+	setWhatsThis(use_playlist_check, tr("Pass the %1 option to MPlayer (security risk)").arg("-playlist"),
 		tr("This option may be needed to play playlist files (m3u, pls...)."
-           "However it can involve a security risk when playing internet sources since "
-           "the way MPlayer parses and uses playlist files  is  not "
+           "However it can involve a security risk when playing internet sources because "
+           "the way MPlayer parses and uses playlist files is not "
            "safe against maliciously constructed files.") );
 #endif
 

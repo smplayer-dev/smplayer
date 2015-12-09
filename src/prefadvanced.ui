@@ -144,7 +144,7 @@
        <item>
         <widget class="QCheckBox" name="use_playlist_check">
          <property name="text">
-          <string>Pa&amp;ss the -playlist option to MPlayer (security risk)</string>
+          <string notr="true">Pa&amp;ss the PLAYLIST option to MPlayer (security risk)</string>
          </property>
         </widget>
        </item>
