@@ -738,10 +738,29 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\shortcuts"
   RMDir /r "$INSTDIR\themes"
   RMDir /r "$INSTDIR\translations"
-  Delete "$INSTDIR\*.txt"
-  Delete "$INSTDIR\icudt51.dll"
-  Delete "$INSTDIR\icuin51.dll"
-  Delete "$INSTDIR\icuuc51.dll"
+
+  ;Txt
+  Delete "$INSTDIR\Copying.txt"
+  Delete "$INSTDIR\Copying_BSD.txt"
+  Delete "$INSTDIR\Copying_libmaia.txt"
+  Delete "$INSTDIR\Copying_openssl.txt"
+  Delete "$INSTDIR\dvdmenus.txt"
+  Delete "$INSTDIR\Finding_subtitles.txt"
+  Delete "$INSTDIR\Install.txt"
+  Delete "$INSTDIR\Notes_about_mpv.txt"
+  Delete "$INSTDIR\Not_so_obvious_things.txt"
+  Delete "$INSTDIR\Portable_Edition.txt"
+  Delete "$INSTDIR\Readme.txt"
+  Delete "$INSTDIR\Release_notes.txt"
+  Delete "$INSTDIR\Watching_TV.txt"
+
+  ;Binaries
+  Delete "$INSTDIR\smplayer.exe"
+  Delete "$INSTDIR\smtube.exe"
+  Delete "$INSTDIR\dxlist.exe"
+  Delete "$INSTDIR\icudt5*.dll"
+  Delete "$INSTDIR\icuin5*.dll"
+  Delete "$INSTDIR\icuuc5*.dll"
   Delete "$INSTDIR\libgcc_s_*.dll"
   Delete "$INSTDIR\libstdc++-6.dll"
   Delete "$INSTDIR\libwinpthread-1.dll"
@@ -751,9 +770,6 @@ ${MementoSectionDone}
   Delete "$INSTDIR\libeay32.dll"
   Delete "$INSTDIR\ssleay32.dll"
   Delete "$INSTDIR\sample.avi"
-  Delete "$INSTDIR\smplayer.exe"
-  Delete "$INSTDIR\smtube.exe"
-  Delete "$INSTDIR\dxlist.exe"
 
   ;Delete registry keys
   SetDetailsPrint textonly
