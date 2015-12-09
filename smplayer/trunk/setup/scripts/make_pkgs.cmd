@@ -359,15 +359,28 @@ ren "%SMPLAYER_PORTABLE_DIR%" smplayer-build64
 goto end
 
 :portablesfx
+
+if exist %TOP_LEVEL_DIR%\smplayer-build\Qt5Core.dll (
+  set DEF_QT5=/DQT5
+) else (
+  set DEF_QT5=
+)
+
 if exist %PORTABLE_EXE_DIR%\smplayer-portable.exe (
   if exist %TOP_LEVEL_DIR%\smplayer-build (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %TOP_LEVEL_DIR%\smportable.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% %DEF_QT5% %TOP_LEVEL_DIR%\smportable.nsi
   )
+)
+
+if exist %TOP_LEVEL_DIR%\smplayer-build64\Qt5Core.dll (
+  set DEF_QT5=/DQT5
+) else (
+  set DEF_QT5=
 )
 
 if exist %PORTABLE_EXE_DIR%\smplayer-portable64.exe (
   if exist %TOP_LEVEL_DIR%\smplayer-build64 (
-  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %TOP_LEVEL_DIR%\smportable.nsi
+  %MAKENSIS_EXE_PATH% /V3 /DVER_MAJOR=%VER_MAJOR% /DVER_MINOR=%VER_MINOR% /DVER_BUILD=%VER_BUILD% %VER_REV_CMD% /DWIN64 %DEF_QT5% %TOP_LEVEL_DIR%\smportable.nsi
   )
 )
 
