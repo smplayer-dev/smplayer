@@ -985,7 +985,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Start/stop capturing stream</source>
-        <translation>开始/停止录制</translation>
+        <translation>开始/停止录制</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1707"/>

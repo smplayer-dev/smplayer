@@ -383,1471 +383,1476 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1898"/>
         <source>&amp;Open</source>
         <translation>열기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>&amp;Play</source>
         <translation>재생(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1895"/>
+        <location filename="../basegui.cpp" line="1900"/>
         <source>&amp;Video</source>
         <translation>영상(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>&amp;Audio</source>
         <translation>음성(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1897"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>&amp;Subtitles</source>
         <translation>자막(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>&amp;Browse</source>
         <translation>이동(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1899"/>
+        <location filename="../basegui.cpp" line="1904"/>
         <source>Op&amp;tions</source>
         <translation>옵션(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>&amp;Help</source>
         <translation>도움말(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1628"/>
+        <location filename="../basegui.cpp" line="1633"/>
         <source>&amp;File...</source>
         <translation>파일(&amp;F)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1629"/>
+        <location filename="../basegui.cpp" line="1634"/>
         <source>D&amp;irectory...</source>
         <translation>폴더(&amp;D)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1630"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Playlist...</source>
         <translation>재생 목록(&amp;P)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1633"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD 드라이브</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD 폴더...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1639"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>&amp;URL...</source>
         <translation>주소(&amp;U)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1916"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>&amp;Clear</source>
         <translation>비우기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1919"/>
         <source>&amp;Recent files</source>
         <translation>최근 파일(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1663"/>
+        <location filename="../basegui.cpp" line="1668"/>
         <source>P&amp;lay</source>
         <translation>재생(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1666"/>
+        <location filename="../basegui.cpp" line="1671"/>
         <source>&amp;Pause</source>
         <translation>일시 중지(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1667"/>
+        <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;Stop</source>
         <translation>정지(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1673"/>
         <source>&amp;Frame step</source>
         <translation>다음 프레임으로(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1692"/>
         <source>&amp;Normal speed</source>
         <translation>보통 속도(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1694"/>
         <source>&amp;Double speed</source>
         <translation>2배 속도(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1690"/>
+        <location filename="../basegui.cpp" line="1695"/>
         <source>Speed &amp;-10%</source>
         <translation>속도 &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>Speed &amp;+10%</source>
         <translation>속도 &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1787"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>끄기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1937"/>
         <source>Sp&amp;eed</source>
         <translation>재생 속도(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1682"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>&amp;Repeat</source>
         <translation>반복(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1703"/>
         <source>&amp;Fullscreen</source>
         <translation>전체 화면(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;Compact mode</source>
         <translation>간편 모드(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1942"/>
+        <location filename="../basegui.cpp" line="1947"/>
         <source>Si&amp;ze</source>
         <translation>크기(&amp;Z)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1952"/>
+        <location filename="../basegui.cpp" line="1957"/>
         <source>&amp;Aspect ratio</source>
         <translation>화면 비율(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1991"/>
-        <location filename="../basegui.cpp" line="3419"/>
+        <location filename="../basegui.cpp" line="1996"/>
         <location filename="../basegui.cpp" line="3433"/>
+        <location filename="../basegui.cpp" line="3447"/>
         <source>&amp;None</source>
         <translation>없음(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1992"/>
+        <location filename="../basegui.cpp" line="1997"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1995"/>
+        <location filename="../basegui.cpp" line="2000"/>
         <source>Linear &amp;Blend</source>
         <translation>Linear &amp;Blend</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1955"/>
+        <location filename="../basegui.cpp" line="1960"/>
         <source>&amp;Deinterlace</source>
         <translation>디인터레이스(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Postprocessing</source>
         <translation>후처리(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Autodetect phase</source>
         <translation>위상(디인터레이스) 자동감지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock (깍두기 제거)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1733"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring (모서리 물결 현상 제거)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1730"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>Add n&amp;oise</source>
         <translation>노이즈 넣기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1958"/>
+        <location filename="../basegui.cpp" line="1963"/>
         <source>F&amp;ilters</source>
         <translation>처리 필터(&amp;I)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1700"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>&amp;Equalizer</source>
         <translation>이퀄라이저(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1706"/>
         <source>&amp;Screenshot</source>
         <translation>스크린샷(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1964"/>
+        <location filename="../basegui.cpp" line="1969"/>
         <source>S&amp;tay on top</source>
         <translation>항상 위에(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;Extrastereo (스테레오확장)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1750"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>&amp;Karaoke</source>
         <translation>가라오케(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2025"/>
+        <location filename="../basegui.cpp" line="2030"/>
         <source>&amp;Filters</source>
         <translation>처리 필터(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2035"/>
-        <location filename="../basegui.cpp" line="2041"/>
+        <location filename="../basegui.cpp" line="2040"/>
+        <location filename="../basegui.cpp" line="2046"/>
         <source>&amp;Stereo</source>
         <translation>스테레오(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2036"/>
+        <location filename="../basegui.cpp" line="2041"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 서라운드</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2037"/>
+        <location filename="../basegui.cpp" line="2042"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 서라운드</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2028"/>
+        <location filename="../basegui.cpp" line="2033"/>
         <source>&amp;Channels</source>
         <translation>채널(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;Left channel</source>
         <translation>왼쪽 채널(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2043"/>
+        <location filename="../basegui.cpp" line="2048"/>
         <source>&amp;Right channel</source>
         <translation>오른쪽 채널(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2031"/>
+        <location filename="../basegui.cpp" line="2036"/>
         <source>&amp;Stereo mode</source>
         <translation>스테레오 모드(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1738"/>
+        <location filename="../basegui.cpp" line="1743"/>
         <source>&amp;Mute</source>
         <translation>음소거(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1739"/>
+        <location filename="../basegui.cpp" line="1744"/>
         <source>Volume &amp;-</source>
         <translation>볼륨 -(&amp;-)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1740"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>Volume &amp;+</source>
         <translation>볼륨 +(&amp;+)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1741"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>&amp;Delay -</source>
         <translation>느리게 (delay -)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1742"/>
+        <location filename="../basegui.cpp" line="1747"/>
         <source>D&amp;elay +</source>
         <translation>빠르게 (delay +)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2048"/>
+        <location filename="../basegui.cpp" line="2056"/>
         <source>&amp;Select</source>
         <translation>선택하기(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Load...</source>
         <translation>불러오기(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1757"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>Delay &amp;-</source>
         <translation>느리게 (delay -)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1758"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>Delay &amp;+</source>
         <translation>빠르게 (delay +)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;Up</source>
         <translation>위로(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>&amp;Down</source>
         <translation>아래로(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2063"/>
+        <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Title</source>
         <translation>제목(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2066"/>
+        <location filename="../basegui.cpp" line="2075"/>
         <source>&amp;Chapter</source>
         <translation>챕터(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2069"/>
+        <location filename="../basegui.cpp" line="2078"/>
         <source>&amp;Angle</source>
         <translation>시점(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1797"/>
+        <location filename="../basegui.cpp" line="1802"/>
         <source>&amp;Playlist</source>
         <translation>재생 목록(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1989"/>
+        <location filename="../basegui.cpp" line="1994"/>
         <source>&amp;Disabled</source>
         <translation>비활성화(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2098"/>
+        <location filename="../basegui.cpp" line="2110"/>
         <source>&amp;OSD</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2107"/>
+        <location filename="../basegui.cpp" line="2119"/>
         <source>&amp;View logs</source>
         <translation>로그 보기(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1799"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>P&amp;references</source>
         <translation>환경 설정(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>About &amp;SMPlayer</source>
         <translation>&amp;SMPlayer 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3456"/>
-        <location filename="../basegui.cpp" line="3472"/>
-        <location filename="../basegui.cpp" line="3488"/>
-        <location filename="../basegui.cpp" line="3503"/>
-        <location filename="../basegui.cpp" line="3537"/>
-        <location filename="../basegui.cpp" line="3557"/>
-        <location filename="../basegui.cpp" line="3629"/>
+        <location filename="../basegui.cpp" line="3470"/>
+        <location filename="../basegui.cpp" line="3486"/>
+        <location filename="../basegui.cpp" line="3502"/>
+        <location filename="../basegui.cpp" line="3517"/>
+        <location filename="../basegui.cpp" line="3551"/>
+        <location filename="../basegui.cpp" line="3571"/>
+        <location filename="../basegui.cpp" line="3647"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;비어 있음&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4058"/>
+        <location filename="../basegui.cpp" line="4073"/>
         <source>Video</source>
         <translation>비디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4059"/>
-        <location filename="../basegui.cpp" line="4292"/>
+        <location filename="../basegui.cpp" line="4074"/>
+        <location filename="../basegui.cpp" line="4307"/>
         <source>Audio</source>
         <translation>오디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4060"/>
+        <location filename="../basegui.cpp" line="4075"/>
         <source>Playlists</source>
         <translation>재생 목록</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4061"/>
-        <location filename="../basegui.cpp" line="4272"/>
-        <location filename="../basegui.cpp" line="4293"/>
+        <location filename="../basegui.cpp" line="4076"/>
+        <location filename="../basegui.cpp" line="4287"/>
+        <location filename="../basegui.cpp" line="4308"/>
         <source>All files</source>
         <translation>모든 파일</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4056"/>
-        <location filename="../basegui.cpp" line="4269"/>
-        <location filename="../basegui.cpp" line="4290"/>
+        <location filename="../basegui.cpp" line="4071"/>
+        <location filename="../basegui.cpp" line="4284"/>
+        <location filename="../basegui.cpp" line="4305"/>
         <source>Choose a file</source>
         <translation>파일을 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1801"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>유투브%1 브라우저</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>기부 / 친구들과 공유하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4108"/>
+        <location filename="../basegui.cpp" line="4123"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - 정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4109"/>
+        <location filename="../basegui.cpp" line="4124"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CD-ROM / DVD 드라이브를 지정하지 않았습니다.
 드라이브 설정을 위한 대화 상자가 표시될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4222"/>
+        <location filename="../basegui.cpp" line="4237"/>
         <source>Select the Blu-ray folder</source>
         <translation>Blu-ray 폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4235"/>
+        <location filename="../basegui.cpp" line="4250"/>
         <source>Choose a directory</source>
         <translation>폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4271"/>
+        <location filename="../basegui.cpp" line="4286"/>
         <source>Subtitles</source>
         <translation>자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4877"/>
+        <location filename="../basegui.cpp" line="4894"/>
         <source>Error detected</source>
         <translation>오류를 발견했습니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4878"/>
+        <location filename="../basegui.cpp" line="4895"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>유감스럽게도 이 비디오는 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5066"/>
+        <location filename="../basegui.cpp" line="5083"/>
         <source>Playing %1</source>
         <translation>%1 재생 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5067"/>
+        <location filename="../basegui.cpp" line="5084"/>
         <source>Pause</source>
         <translation>일시 중지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5068"/>
+        <location filename="../basegui.cpp" line="5085"/>
         <source>Stop</source>
         <translation>정지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>Play / Pause</source>
         <translation>재생 / 일시 중지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1679"/>
         <source>Pause / Frame step</source>
         <translation>일시 중지 / 프레임 이동</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1745"/>
-        <location filename="../basegui.cpp" line="1756"/>
+        <location filename="../basegui.cpp" line="1750"/>
+        <location filename="../basegui.cpp" line="1761"/>
         <source>U&amp;nload</source>
         <translation>닫기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1631"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>V&amp;CD</source>
         <translation>비디오 &amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1640"/>
+        <location filename="../basegui.cpp" line="1645"/>
         <source>C&amp;lose</source>
         <translation>닫기(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1798"/>
+        <location filename="../basegui.cpp" line="1803"/>
         <source>View &amp;info and properties...</source>
         <translation>정보와 속성 보기(&amp;I)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1713"/>
+        <location filename="../basegui.cpp" line="1718"/>
         <source>Zoom &amp;-</source>
         <translation>축소하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1719"/>
         <source>Zoom &amp;+</source>
         <translation>확대하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>&amp;Reset</source>
         <translation>초기화하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>Move &amp;left</source>
         <translation>왼쪽으로 이동(&amp;L)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>Move &amp;right</source>
         <translation>오른쪽으로 이동</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>Move &amp;up</source>
         <translation>위로 이동(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Move &amp;down</source>
         <translation>아래로 이동(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>싱크 조절: 이전 자막줄로(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>싱크 조절: 다음 자막줄로(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2116"/>
+        <location filename="../basegui.cpp" line="2128"/>
         <source>%1 log</source>
         <translation>%1 로그</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2119"/>
+        <location filename="../basegui.cpp" line="2131"/>
         <source>SMPlayer log</source>
         <translation>SMPlayer 로그</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2132"/>
-        <location filename="../basegui.cpp" line="2133"/>
-        <location filename="../basegui.cpp" line="2134"/>
+        <location filename="../basegui.cpp" line="2144"/>
+        <location filename="../basegui.cpp" line="2145"/>
+        <location filename="../basegui.cpp" line="2146"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2136"/>
-        <location filename="../basegui.cpp" line="2137"/>
-        <location filename="../basegui.cpp" line="2138"/>
+        <location filename="../basegui.cpp" line="2148"/>
+        <location filename="../basegui.cpp" line="2149"/>
+        <location filename="../basegui.cpp" line="2150"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1851"/>
+        <location filename="../basegui.cpp" line="1856"/>
         <source>Dec volume (2)</source>
         <translation>볼륨 감소 (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1636"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray 드라이브</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1642"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>Blu-&amp;ray 폴더...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1669"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>Fra&amp;me back step</source>
         <translation>이전 프레임으로(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1693"/>
         <source>&amp;Half speed</source>
         <translation>0.5배속으로 재생(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1704"/>
+        <location filename="../basegui.cpp" line="1709"/>
         <source>Start/stop capturing stream</source>
         <translation>스크린샷 찍기 시작/정지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1712"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>썸네일 생성기(&amp;N)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>Stereo &amp;3D filter</source>
         <translation>스테레오 3D 필터(&amp;3)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1729"/>
+        <location filename="../basegui.cpp" line="1734"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Debanding (그라데이션 계단 현상 개선)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1774"/>
         <source>Seek to next subtitle</source>
         <translation>이동: 다음 자막 위치로</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1770"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>Seek to previous subtitle</source>
         <translation>이동: 이전 자막 위치로</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>Use custo&amp;m style</source>
         <translation>사용자 스타일 사용하기(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>OpenSubtitles.org에서 자막 검색하기(&amp;O)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1788"/>
+        <location filename="../basegui.cpp" line="1793"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>기본</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1813"/>
+        <location filename="../basegui.cpp" line="1818"/>
         <source>First Steps &amp;Guide</source>
         <translation>첫걸음 가이드</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1824"/>
         <source>Update &amp;Youtube code</source>
         <translation>유투브 코드 업데이트하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1822"/>
+        <location filename="../basegui.cpp" line="1827"/>
         <source>&amp;Open configuration folder</source>
         <translation>설정 폴더 열기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1837"/>
+        <location filename="../basegui.cpp" line="1842"/>
         <source>Size &amp;+</source>
         <translation>크기 &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1838"/>
+        <location filename="../basegui.cpp" line="1843"/>
         <source>Size &amp;-</source>
         <translation>크기 &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1852"/>
+        <location filename="../basegui.cpp" line="1857"/>
         <source>Inc volume (2)</source>
         <translation>볼륨 증가 (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1855"/>
+        <location filename="../basegui.cpp" line="1860"/>
         <source>Exit fullscreen</source>
         <translation>전체 화면 나가기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1862"/>
         <source>OSD - Next level</source>
         <translation>OSD - 다음 단계</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1858"/>
+        <location filename="../basegui.cpp" line="1863"/>
         <source>Dec contrast</source>
         <translation>대비 감소</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>Inc contrast</source>
         <translation>대비 증가</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1865"/>
         <source>Dec brightness</source>
         <translation>밝기 감소</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1861"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>Inc brightness</source>
         <translation>밝기 증가</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>Dec hue</source>
         <translation>색상 감소</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1863"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>Inc hue</source>
         <translation>색상 증가</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1869"/>
         <source>Dec saturation</source>
         <translation>채도 감소</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1866"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>Dec gamma</source>
         <translation>감마 감소</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>Next audio</source>
         <translation>다음 오디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>Next subtitle</source>
         <translation>다음 자막</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1871"/>
+        <location filename="../basegui.cpp" line="1876"/>
         <source>Next chapter</source>
         <translation>다음 챕터</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1872"/>
+        <location filename="../basegui.cpp" line="1877"/>
         <source>Previous chapter</source>
         <translation>이전 챕터</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1881"/>
+        <location filename="../basegui.cpp" line="1886"/>
         <source>Show playback time on OSD</source>
         <translation>OSD에 재생 시간 보이기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1972"/>
+        <location filename="../basegui.cpp" line="1977"/>
         <source>De&amp;noise</source>
         <translation>De&amp;noise (노이즈 감소)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="1980"/>
         <source>Blur/S&amp;harp</source>
         <translation>Blur/S&amp;harp (흐리게/날카롭게)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1998"/>
+        <location filename="../basegui.cpp" line="2003"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>끄기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1999"/>
+        <location filename="../basegui.cpp" line="2004"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>보통(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2005"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>부드럽게(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2002"/>
+        <location filename="../basegui.cpp" line="2007"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>없음(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2008"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Blur (흐리게)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2004"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;Sharpen (날카롭게)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2038"/>
+        <location filename="../basegui.cpp" line="2043"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 서라운드</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2039"/>
+        <location filename="../basegui.cpp" line="2044"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 서라운드</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2044"/>
+        <location filename="../basegui.cpp" line="2049"/>
         <source>&amp;Mono</source>
         <translation>모노</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2045"/>
+        <location filename="../basegui.cpp" line="2050"/>
         <source>Re&amp;verse</source>
         <translation>리버스</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2052"/>
+        <location filename="../basegui.cpp" line="2054"/>
+        <source>Prim&amp;ary track</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2061"/>
         <source>Secondary trac&amp;k</source>
         <translation>두번째 트랙(&amp;K)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2059"/>
+        <location filename="../basegui.cpp" line="2068"/>
         <source>F&amp;rames per second</source>
         <translation>초당 프레임(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2082"/>
         <source>&amp;Bookmarks</source>
         <translation>책갈피(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2080"/>
+        <location filename="../basegui.cpp" line="2092"/>
         <source>&amp;Add new bookmark</source>
         <translation>새 책갈피 추가(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2081"/>
+        <location filename="../basegui.cpp" line="2093"/>
         <source>&amp;Edit bookmarks</source>
         <translation>책갈피 편집(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2082"/>
+        <location filename="../basegui.cpp" line="2094"/>
         <source>Previous bookmark</source>
         <translation>이전 책갈피</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2083"/>
+        <location filename="../basegui.cpp" line="2095"/>
         <source>Next bookmark</source>
         <translation>다음 책갈피</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4812"/>
+        <location filename="../basegui.cpp" line="4829"/>
         <source>Connection failed</source>
         <translation>연결에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4813"/>
+        <location filename="../basegui.cpp" line="4830"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>요청한 비디오는 HTTPS 연결이 필요합니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4814"/>
+        <location filename="../basegui.cpp" line="4831"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>유감스럽게도 필요한 OpenSSL 컴포넌트가 시스템에 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4815"/>
+        <location filename="../basegui.cpp" line="4832"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>이 문제를 해결하려면 %1 을 방문하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4816"/>
+        <location filename="../basegui.cpp" line="4833"/>
         <source>this link</source>
         <translation>이 링크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4826"/>
+        <location filename="../basegui.cpp" line="4843"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, 이 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4833"/>
-        <location filename="../basegui.cpp" line="4841"/>
+        <location filename="../basegui.cpp" line="4850"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>Problems with Youtube</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5581"/>
-        <location filename="../basegui.cpp" line="5601"/>
+        <location filename="../basegui.cpp" line="5600"/>
+        <location filename="../basegui.cpp" line="5620"/>
         <source>%1 Error</source>
         <translation>%1 오류</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5582"/>
+        <location filename="../basegui.cpp" line="5601"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1이 갑자기 종료되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5603"/>
+        <location filename="../basegui.cpp" line="5622"/>
         <source>%1 failed to start.</source>
         <translation>%1를 시작하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5604"/>
+        <location filename="../basegui.cpp" line="5623"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>환경설정에서 %1 경로를 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5606"/>
+        <location filename="../basegui.cpp" line="5625"/>
         <source>%1 has crashed.</source>
         <translation>%1가 다운되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5684"/>
+        <location filename="../basegui.cpp" line="5703"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>유투브 검색기가 설치되어 있지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5685"/>
+        <location filename="../basegui.cpp" line="5704"/>
         <source>Visit %1 to get it.</source>
         <translation>설치하려면 %1 을 방문하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4829"/>
+        <location filename="../basegui.cpp" line="4846"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>유감스럽게도 유투브 페이지 변경 때문에, &apos;%1&apos; 동영상을 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4835"/>
+        <location filename="../basegui.cpp" line="4852"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>유투브 코드를 업데이트할까요? 업데이트로 문제를 해결할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4843"/>
+        <location filename="../basegui.cpp" line="4860"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>SMPlayer를 업데이트해서 문제를 해결할 수 있을 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2102"/>
+        <location filename="../basegui.cpp" line="2114"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>친구들과 SMPlayer를 공유하세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3144"/>
-        <location filename="../basegui.cpp" line="3871"/>
+        <location filename="../basegui.cpp" line="3158"/>
+        <location filename="../basegui.cpp" line="3886"/>
         <source>Information</source>
         <translation>정보</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3145"/>
+        <location filename="../basegui.cpp" line="3159"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>새 GUI를 사용하려면 SMPlayer를 재시작해야 합니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3641"/>
+        <location filename="../basegui.cpp" line="3659"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>삭제 확인 - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3642"/>
+        <location filename="../basegui.cpp" line="3660"/>
         <source>Delete the list of recent files?</source>
         <translation>최근 파일 목록을 삭제할까요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3872"/>
+        <location filename="../basegui.cpp" line="3887"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>현재 설정을 기본으로 사용하도록 저장했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>Inc saturation</source>
         <translation>채도 증가</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1872"/>
         <source>Inc gamma</source>
         <translation>감마 증가</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1744"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>&amp;Load external file...</source>
         <translation>외부 파일 불러오기(&amp;L)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1996"/>
+        <location filename="../basegui.cpp" line="2001"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1993"/>
+        <location filename="../basegui.cpp" line="1998"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (보통)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1994"/>
+        <location filename="../basegui.cpp" line="1999"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (2x 프레임 재생)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1841"/>
+        <location filename="../basegui.cpp" line="1846"/>
         <source>&amp;Next</source>
         <translation>다음(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1842"/>
+        <location filename="../basegui.cpp" line="1847"/>
         <source>Pre&amp;vious</source>
         <translation>이전(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1757"/>
         <source>Volume &amp;normalization</source>
         <translation>볼륨 노멀라이즈</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1632"/>
+        <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Audio CD</source>
         <translation>오디오 CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>&amp;Toggle double size</source>
         <translation>2배 크기 토글하기(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>S&amp;ize -</source>
         <translation>크기 -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>Si&amp;ze +</source>
         <translation>크기 +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1736"/>
         <source>Add &amp;black borders</source>
         <translation>검은 여백 넣기(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1732"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>Soft&amp;ware scaling</source>
         <translation>소프트웨어 크기조절</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1814"/>
+        <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;FAQ</source>
         <translation>자주 묻는 질문(&amp;FAQ)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1815"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Command line options</source>
         <translation>명령행 옵션(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4312"/>
+        <location filename="../basegui.cpp" line="4327"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer 명령행 옵션</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1773"/>
+        <location filename="../basegui.cpp" line="1778"/>
         <source>&amp;Forced subtitles only</source>
         <translation>강제 설정된 자막만(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
+        <location filename="../basegui.cpp" line="1879"/>
         <source>Reset video equalizer</source>
         <translation>비디오 이퀄라이저 초기화</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4879"/>
+        <location filename="../basegui.cpp" line="4896"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>서버 응답: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5583"/>
+        <location filename="../basegui.cpp" line="5602"/>
         <source>Exit code: %1</source>
         <translation>종료 코드: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5607"/>
+        <location filename="../basegui.cpp" line="5626"/>
         <source>See the log for more info.</source>
         <translation>더 보려면 로그를 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1961"/>
+        <location filename="../basegui.cpp" line="1966"/>
         <source>&amp;Rotate</source>
         <translation>회전하기(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2006"/>
+        <location filename="../basegui.cpp" line="2011"/>
         <source>&amp;Off</source>
         <translation>끄기(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2007"/>
+        <location filename="../basegui.cpp" line="2012"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>시계방향으로 90도 회전하고 뒤집기(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2008"/>
+        <location filename="../basegui.cpp" line="2013"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>시계방향으로 90도 회전하기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2009"/>
+        <location filename="../basegui.cpp" line="2014"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>반시계방향으로 90도 회전하기(&amp;W)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2010"/>
+        <location filename="../basegui.cpp" line="2015"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>반시계방향으로 90도 회전하고 뒤집기(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>&amp;Jump to...</source>
         <translation>이동하기(&amp;J)...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1876"/>
+        <location filename="../basegui.cpp" line="1881"/>
         <source>Show context menu</source>
         <translation>컨텍스트 메뉴 보기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4057"/>
+        <location filename="../basegui.cpp" line="4072"/>
         <source>Multimedia</source>
         <translation>멀티미디어</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1735"/>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>E&amp;qualizer</source>
         <translation>이퀄라이저(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1875"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>Reset audio equalizer</source>
         <translation>오디오 이퀄라이저 초기화</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1779"/>
+        <location filename="../basegui.cpp" line="1784"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>OpenSubtitles.org에 자막 업로드하기...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1978"/>
+        <location filename="../basegui.cpp" line="1983"/>
         <source>&amp;Auto</source>
         <translation>자동(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1692"/>
+        <location filename="../basegui.cpp" line="1697"/>
         <source>Speed -&amp;4%</source>
         <translation>속도 -4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1693"/>
+        <location filename="../basegui.cpp" line="1698"/>
         <source>&amp;Speed +4%</source>
         <translation>속도 +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>Speed -&amp;1%</source>
         <translation>속도 -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>S&amp;peed +1%</source>
         <translation>속도 +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1968"/>
+        <location filename="../basegui.cpp" line="1973"/>
         <source>Scree&amp;n</source>
         <translation>화면(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2018"/>
+        <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Default</source>
         <translation>기본값(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1710"/>
+        <location filename="../basegui.cpp" line="1715"/>
         <source>Mirr&amp;or image</source>
         <translation>좌우 반전(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1868"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>Next video</source>
         <translation>다음 비디오</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1944"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>트랙(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2022"/>
+        <location filename="../basegui.cpp" line="2027"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>트랙(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4728"/>
+        <location filename="../basegui.cpp" line="4745"/>
         <source>Warning - Using old MPlayer</source>
         <translation>경고 - 오래된 MPlayer 사용 중</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4729"/>
+        <location filename="../basegui.cpp" line="4746"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>당신의 시스템에 설치된 MPlayer (%1) 버전은 너무 오래 돼서 SMPlayer가 잘 동작하지 않을 것입니다: 작동하지 않는 옵션이 있을 수 있고, 자막 선택도 잘 되지 않을 것입니다...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4734"/>
+        <location filename="../basegui.cpp" line="4751"/>
         <source>Please, update your MPlayer.</source>
         <translation>MPlayer를 업데이트 하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4736"/>
+        <location filename="../basegui.cpp" line="4753"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(이 주의사항은 더 이상  표시되지 않습니다)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1877"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>Next aspect ratio</source>
         <translation>다음 화면 비율</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>&amp;Auto zoom</source>
         <translation>자동 확대(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>Zoom for &amp;16:9</source>
         <translation>&amp;16:9 확대</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1723"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>&amp;2.35:1 확대</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2012"/>
+        <location filename="../basegui.cpp" line="2017"/>
         <source>&amp;Always</source>
         <translation>항상(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2013"/>
+        <location filename="../basegui.cpp" line="2018"/>
         <source>&amp;Never</source>
         <translation>사용 안함(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2014"/>
+        <location filename="../basegui.cpp" line="2019"/>
         <source>While &amp;playing</source>
         <translation>재생 중일때만</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2091"/>
+        <location filename="../basegui.cpp" line="2103"/>
         <source>DVD &amp;menu</source>
         <translation>DVD 메뉴</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2093"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD 이전 메뉴</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2087"/>
+        <location filename="../basegui.cpp" line="2099"/>
         <source>DVD menu, move up</source>
         <translation>DVD 메뉴, 위로 이동</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2088"/>
+        <location filename="../basegui.cpp" line="2100"/>
         <source>DVD menu, move down</source>
         <translation>DVD 메뉴, 아래로 이동</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2089"/>
+        <location filename="../basegui.cpp" line="2101"/>
         <source>DVD menu, move left</source>
         <translation>DVD 메뉴, 왼쪽으로 이동</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2090"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>DVD menu, move right</source>
         <translation>DVD 메뉴, 오른쪽으로 이동</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2092"/>
+        <location filename="../basegui.cpp" line="2104"/>
         <source>DVD menu, select option</source>
         <translation>DVD 메뉴, 옵션 선택</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2094"/>
+        <location filename="../basegui.cpp" line="2106"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD 메뉴, 마우스 클릭</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>Set dela&amp;y...</source>
         <translation>싱크 조절하기...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1764"/>
         <source>Se&amp;t delay...</source>
         <translation>싱크 조절하기...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4397"/>
+        <location filename="../basegui.cpp" line="4412"/>
         <source>&amp;Jump to:</source>
         <translation>이동하기:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4398"/>
+        <location filename="../basegui.cpp" line="4413"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - 탐색</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4409"/>
-        <location filename="../basegui.cpp" line="4413"/>
+        <location filename="../basegui.cpp" line="4424"/>
+        <location filename="../basegui.cpp" line="4428"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - 오디오 싱크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4410"/>
-        <location filename="../basegui.cpp" line="4414"/>
+        <location filename="../basegui.cpp" line="4425"/>
+        <location filename="../basegui.cpp" line="4429"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>오디오 싱크 (밀리세컨드 단위):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4425"/>
-        <location filename="../basegui.cpp" line="4429"/>
+        <location filename="../basegui.cpp" line="4440"/>
+        <location filename="../basegui.cpp" line="4444"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - 자막 싱크</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4426"/>
-        <location filename="../basegui.cpp" line="4430"/>
+        <location filename="../basegui.cpp" line="4441"/>
+        <location filename="../basegui.cpp" line="4445"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>자막 싱크 (밀리세컨드 단위):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2015"/>
+        <location filename="../basegui.cpp" line="2020"/>
         <source>Toggle stay on top</source>
         <translation>항상 위에 토글하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5259"/>
+        <location filename="../basegui.cpp" line="5278"/>
         <source>Jump to %1</source>
         <translation>%1 으로 이동하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>스크린샷 찍기 시작/정지(&amp;G)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1775"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>Subtitle &amp;visibility</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1878"/>
+        <location filename="../basegui.cpp" line="1883"/>
         <source>Next wheel function</source>
         <translation>다음 휠 기능</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2076"/>
+        <location filename="../basegui.cpp" line="2087"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>프로그램</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1925"/>
+        <location filename="../basegui.cpp" line="1930"/>
         <source>&amp;TV</source>
         <translation>텔레비전(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1928"/>
+        <location filename="../basegui.cpp" line="1933"/>
         <source>Radi&amp;o</source>
         <translation>라디오(&amp;O)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1886"/>
+        <location filename="../basegui.cpp" line="1891"/>
         <source>Subtitles onl&amp;y</source>
         <translation>자막만</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1887"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>Volume + &amp;Seek</source>
         <translation>볼륨 + 탐색</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1893"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>볼륨 + 탐색 + 타이머</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1889"/>
+        <location filename="../basegui.cpp" line="1894"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>볼륨 + 탐색 + 타이머 + 전체 시간</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1582"/>
+        <location filename="../basegui.cpp" line="1587"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>vdpau 사용시 비디오 필터는 비활성화됩니다</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>Fli&amp;p image</source>
         <translation>상하 반전(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1949"/>
+        <location filename="../basegui.cpp" line="1954"/>
         <source>Zoo&amp;m</source>
         <translation>확대/축소(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1885"/>
         <source>Show filename on OSD</source>
         <translation>OSD에 파일명 보이기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>Set &amp;A marker</source>
         <translation>A 마커 설정하기(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1680"/>
+        <location filename="../basegui.cpp" line="1685"/>
         <source>Set &amp;B marker</source>
         <translation>B 마커 설정하기(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1681"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>&amp;Clear A-B markers</source>
         <translation>A-B 마커 지우기(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="1940"/>
         <source>&amp;A-B section</source>
         <translation>A-B 구간(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1882"/>
+        <location filename="../basegui.cpp" line="1887"/>
         <source>Toggle deinterlacing</source>
         <translation>디인터레이싱 토글하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2056"/>
+        <location filename="../basegui.cpp" line="2065"/>
         <source>&amp;Closed captions</source>
         <translation>클로즈드 캡션</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1923"/>
         <source>&amp;Disc</source>
         <translation>디스크(&amp;D)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="1927"/>
         <source>F&amp;avorites</source>
         <translation>즐겨찾기(&amp;F)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1816"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>Check for &amp;updates</source>
         <translation>업데이트 검사</translation>
     </message>
@@ -1960,73 +1965,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2993"/>
+        <location filename="../core.cpp" line="2973"/>
         <source>Brightness: %1</source>
         <translation>밝기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3009"/>
+        <location filename="../core.cpp" line="2989"/>
         <source>Contrast: %1</source>
         <translation>대비: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3024"/>
+        <location filename="../core.cpp" line="3004"/>
         <source>Gamma: %1</source>
         <translation>감마: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3039"/>
+        <location filename="../core.cpp" line="3019"/>
         <source>Hue: %1</source>
         <translation>색상: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3054"/>
+        <location filename="../core.cpp" line="3034"/>
         <source>Saturation: %1</source>
         <translation>채도: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3197"/>
+        <location filename="../core.cpp" line="3177"/>
         <source>Volume: %1</source>
         <translation>볼륨: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4118"/>
+        <location filename="../core.cpp" line="4039"/>
         <source>Zoom: %1</source>
         <translation>배율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4346"/>
+        <location filename="../core.cpp" line="4267"/>
         <source>Buffering...</source>
         <translation>버퍼링...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3315"/>
-        <location filename="../core.cpp" line="3326"/>
+        <location filename="../core.cpp" line="3295"/>
+        <location filename="../core.cpp" line="3306"/>
         <source>Font scale: %1</source>
         <translation>글꼴 크기: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3959"/>
+        <location filename="../core.cpp" line="3880"/>
         <source>Aspect ratio: %1</source>
         <translation>화면 비율: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4342"/>
+        <location filename="../core.cpp" line="4263"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>글꼴 캐쉬 업데이트 중. 시간이 조금 걸릴 수 있습니다...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3240"/>
+        <location filename="../core.cpp" line="3220"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>자막 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3258"/>
+        <location filename="../core.cpp" line="3238"/>
         <source>Audio delay: %1 ms</source>
         <translation>음성 싱크: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3108"/>
+        <location filename="../core.cpp" line="3088"/>
         <source>Speed: %1</source>
         <translation>속도: %1</translation>
     </message>
@@ -2041,67 +2046,67 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>동영상의 주소를 찾을 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3403"/>
+        <location filename="../core.cpp" line="3383"/>
         <source>Subtitles on</source>
         <translation>자막 보이기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3405"/>
+        <location filename="../core.cpp" line="3385"/>
         <source>Subtitles off</source>
         <translation>자막 끄기</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4007"/>
+        <location filename="../core.cpp" line="3928"/>
         <source>Mouse wheel seeks now</source>
         <translation>마우스 휠로 탐색합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4010"/>
+        <location filename="../core.cpp" line="3931"/>
         <source>Mouse wheel changes volume now</source>
         <translation>마우스 휠로 볼륨을 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4013"/>
+        <location filename="../core.cpp" line="3934"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>마우스 휠로 확대/축소합니다.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4016"/>
+        <location filename="../core.cpp" line="3937"/>
         <source>Mouse wheel changes speed now</source>
         <translation>마우스 휠로 속도를 조절합니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4320"/>
+        <location filename="../core.cpp" line="4241"/>
         <source>Screenshot saved as %1</source>
         <translation>스크린샷 저장: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4351"/>
+        <location filename="../core.cpp" line="4272"/>
         <source>Starting...</source>
         <translation>시작하는 중...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1413"/>
+        <location filename="../core.cpp" line="1403"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1426"/>
+        <location filename="../core.cpp" line="1416"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>저장 폴더를 설정하지 않아서 스크린샷을 찍지 못했습니다</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2660"/>
+        <location filename="../core.cpp" line="2640"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2677"/>
+        <location filename="../core.cpp" line="2657"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; 지점 표시: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2692"/>
+        <location filename="../core.cpp" line="2672"/>
         <source>A-B markers cleared</source>
         <translation>A-B 표시를 지웠습니다</translation>
     </message>
@@ -2206,6 +2211,11 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>ErrorDialog</name>
     <message>
+        <location filename="../errordialog.cpp" line="30"/>
+        <source>Oops, something went wrong</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../errordialog.cpp" line="57"/>
         <source>Hide log</source>
         <translation>로그 숨기기</translation>
@@ -2228,7 +2238,6 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../errordialog.ui" line="43"/>
-        <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something wrong happened</source>
         <translation>이런, 뭔가 잘못되었네요</translation>
     </message>
@@ -4431,17 +4440,17 @@ Do you want to overwrite?</source>
         <translation>하나 이상의 파일을 선택하세요</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1104"/>
+        <location filename="../playlist.cpp" line="1123"/>
         <source>Choose a directory</source>
         <translation>폴더를 선택하세요</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1330"/>
         <source>Edit name</source>
         <translation>이름 편집하기</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1312"/>
+        <location filename="../playlist.cpp" line="1331"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>재생 목록에 표시할 이 파일의 이름을 입력하세요:</translation>
     </message>
@@ -4526,37 +4535,37 @@ Do you want to overwrite?</source>
         <translation>SMPlayer - 재생 목록</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1361"/>
         <source>Confirm deletion</source>
         <translation>삭제 확인</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1343"/>
+        <location filename="../playlist.cpp" line="1362"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>&apos;%1&apos; 파일을 하드 디스크에서 삭제합니다.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1344"/>
+        <location filename="../playlist.cpp" line="1363"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>이 동작은 원상복구할 수 없습니다. 정말 계속할까요?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1356"/>
+        <location filename="../playlist.cpp" line="1375"/>
         <source>Deletion failed</source>
         <translation>삭제 실패</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1357"/>
+        <location filename="../playlist.cpp" line="1376"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>&apos;%1&apos; 파일을 삭제할 수 없습니다</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1362"/>
+        <location filename="../playlist.cpp" line="1381"/>
         <source>Error deleting the file</source>
         <translation>파일 삭제 오류</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1363"/>
+        <location filename="../playlist.cpp" line="1382"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>&apos;%1&apos; 파일을 시스템에서 삭제할 수 없습니다.</translation>
     </message>
@@ -4589,13 +4598,13 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefAdvanced</name>
     <message>
-        <location filename="../prefadvanced.cpp" line="75"/>
-        <location filename="../prefadvanced.cpp" line="435"/>
+        <location filename="../prefadvanced.cpp" line="79"/>
+        <location filename="../prefadvanced.cpp" line="449"/>
         <source>Advanced</source>
         <translation>고급</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="88"/>
+        <location filename="../prefadvanced.cpp" line="92"/>
         <source>Auto</source>
         <translation>자동</translation>
     </message>
@@ -4605,22 +4614,22 @@ Do you want to overwrite?</source>
         <translation>고급</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="535"/>
+        <location filename="../prefadvanced.cpp" line="557"/>
         <source>Log SMPlayer output</source>
         <translation>SMPlayer 출력 기록하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="672"/>
+        <location filename="../prefadvanced.ui" line="679"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>이 옵션은 주로 프로그램을 디버깅하기 위한 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="466"/>
+        <location filename="../prefadvanced.cpp" line="480"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
         <translation>이 옵션을 선택하면 깜빡임을 감소할 수 있지만, 동영상이 제대로 출력되지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="566"/>
+        <location filename="../prefadvanced.cpp" line="588"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer 로그 필터</translation>
     </message>
@@ -4635,27 +4644,27 @@ Do you want to overwrite?</source>
         <translation>la&amp;vf 디먹서를 기본값으로 사용하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="334"/>
+        <location filename="../prefadvanced.ui" line="341"/>
         <source>&amp;Options:</source>
         <translation>옵션:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="394"/>
+        <location filename="../prefadvanced.ui" line="401"/>
         <source>V&amp;ideo filters:</source>
         <translation>비디오 필터:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="453"/>
+        <location filename="../prefadvanced.ui" line="460"/>
         <source>Audio &amp;filters:</source>
         <translation>오디오 필터:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="227"/>
+        <location filename="../prefadvanced.ui" line="234"/>
         <source>&amp;Colorkey:</source>
         <translation>컬러키:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="371"/>
+        <location filename="../prefadvanced.ui" line="378"/>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
@@ -4664,84 +4673,84 @@ Example: scale=512:-2,mirror</source>
 예: scale=512:-2,mirror</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="431"/>
+        <location filename="../prefadvanced.ui" line="438"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
         <translation>그리고 마침내 오디오 필터도 비디오 필터처럼 사용할 수 있습니다.
 예: extrastereo,karaoke</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="605"/>
+        <location filename="../prefadvanced.ui" line="612"/>
         <source>SMPlayer</source>
         <translation>SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="611"/>
+        <location filename="../prefadvanced.ui" line="618"/>
         <source>Log &amp;SMPlayer output</source>
         <translation>SMPlayer 출력 기록하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="682"/>
+        <location filename="../prefadvanced.ui" line="689"/>
         <source>&amp;Filter for SMPlayer logs:</source>
         <translation>SMPlayer 로그 필터:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="250"/>
+        <location filename="../prefadvanced.ui" line="257"/>
         <source>C&amp;hange...</source>
         <translation>변경하기...</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="532"/>
+        <location filename="../prefadvanced.cpp" line="554"/>
         <source>Logs</source>
         <translation>로그</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="437"/>
+        <location filename="../prefadvanced.cpp" line="451"/>
         <source>Monitor aspect</source>
         <translation>모니터 비율</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="438"/>
+        <location filename="../prefadvanced.cpp" line="452"/>
         <source>Select the aspect ratio of your monitor.</source>
         <translation>모니터의 화면 비율을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="455"/>
+        <location filename="../prefadvanced.cpp" line="469"/>
         <source>Use the lavf demuxer by default</source>
         <translation>기본적으로 lavf 디먹서를 사용합니다</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="456"/>
+        <location filename="../prefadvanced.cpp" line="470"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>이 옵션 사용시 모든 형식의 동영상에 lavf 디먹서를 사용할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="499"/>
+        <location filename="../prefadvanced.cpp" line="521"/>
         <source>Colorkey</source>
         <translation>컬러키</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="500"/>
+        <location filename="../prefadvanced.cpp" line="522"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
         <translation>다른 창 밑에서 재생중인 동영상이 비춰 보일 때, 문제 해결을 위해 컬러키를 변경할 수 있습니다. 검정에 가까운 색을 선택해 보세요.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="512"/>
+        <location filename="../prefadvanced.cpp" line="534"/>
         <source>Options</source>
         <translation>옵션</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="516"/>
+        <location filename="../prefadvanced.cpp" line="538"/>
         <source>Video filters</source>
         <translation>비디오 필터</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="520"/>
+        <location filename="../prefadvanced.cpp" line="542"/>
         <source>Audio filters</source>
         <translation>오디오 필터</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="465"/>
+        <location filename="../prefadvanced.cpp" line="479"/>
         <source>Repaint the background of the video window</source>
         <translation>비디오 창의 배경을 다시 그립니다</translation>
     </message>
@@ -4751,47 +4760,47 @@ Example: extrastereo,karaoke</source>
         <translation>비디오 창의 배경을 다시 그리기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="526"/>
+        <location filename="../prefadvanced.cpp" line="548"/>
         <source>IPv4</source>
         <translation>IPv4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="527"/>
+        <location filename="../prefadvanced.cpp" line="549"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
         <translation>네트워크 접속에 IPv4를 사용합니다. 자동으로 IPv6로 전환됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="529"/>
+        <location filename="../prefadvanced.cpp" line="551"/>
         <source>IPv6</source>
         <translation>IPv6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
+        <location filename="../prefadvanced.cpp" line="552"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
         <translation>네트워크 접속에 IPv6를 이용합니다. 자동으로 IPv4로 전환합니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="491"/>
+        <location filename="../prefadvanced.ui" line="498"/>
         <source>Network Connection</source>
         <translation>네트워크 연결</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="503"/>
+        <location filename="../prefadvanced.ui" line="510"/>
         <source>IPv&amp;4</source>
         <translation>IPv&amp;4</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="510"/>
+        <location filename="../prefadvanced.ui" line="517"/>
         <source>IPv&amp;6</source>
         <translation>IPv&amp;6</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="534"/>
+        <location filename="../prefadvanced.ui" line="541"/>
         <source>Lo&amp;gs</source>
         <translation>로그</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="448"/>
+        <location filename="../prefadvanced.cpp" line="462"/>
         <source>Rebuild index if needed</source>
         <translation>필요시 인덱스를 다시 만듭니다</translation>
     </message>
@@ -4801,230 +4810,245 @@ Example: extrastereo,karaoke</source>
         <translation>필요시 인덱스를 다시 만들기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="536"/>
+        <location filename="../prefadvanced.cpp" line="558"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
         <translation>이 옵션 사용시 SMPlayer는 SMPlayer가 출력하는 디버깅 메시지를 저장합니다. (설정 -&gt; 로그 보기 -&gt; SMPlayer 에서 로그를 볼 수 있습니다) 이것은 당신이 버그를 발견한 경우 개발자에게 매우 유용한 정보입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="548"/>
+        <location filename="../prefadvanced.cpp" line="570"/>
         <source>Log %1 output</source>
         <translation>%1 출력 기록하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="549"/>
+        <location filename="../prefadvanced.cpp" line="571"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
         <translation>이 옵션 사용시 SMPlayer는 %1의 출력을 저장합니다. (&lt;b&gt;옵션 -&gt; 로그 보기 -&gt; %1&lt;/b&gt; 에서 볼 수 있습니다) 문제가 생겼을 때 이 로그는 중요한 정보를 담고 있을 수 있으므로 이 옵션을 사용하길 권장합니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="554"/>
+        <location filename="../prefadvanced.cpp" line="576"/>
         <source>Autosave %1 log</source>
         <translation>%1 로그 자동저장하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="555"/>
+        <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
         <translation>이 옵션을 사용하면 새 파일을 재생할 때마다 %1 로그를 지정한 파일에 기록할 것입니다. 외부 프로그램을 위한 것인데, 당신이 재생하고 있는 파일에 대한 정보를 얻기 위한 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="560"/>
+        <location filename="../prefadvanced.cpp" line="582"/>
         <source>Autosave %1 log filename</source>
         <translation>%1 로그 파일명 자동저장하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="561"/>
+        <location filename="../prefadvanced.cpp" line="583"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
         <translation>여기에 %1 로그를 저장할 경로와 파일명을 입력하세요.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="567"/>
+        <location filename="../prefadvanced.cpp" line="589"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
         <translation>이 옵션은 로그에 저장되는 SMPlayer 메시지를 골라냅니다. 정규식을 사용할 수 있습니다. 예:  &lt;i&gt;^Core::.*&lt;/i&gt; 는 &lt;i&gt;Core::&lt;/i&gt;로 시작하는 줄만 출력합니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="476"/>
+        <location filename="../prefadvanced.cpp" line="498"/>
         <source>Correct pts</source>
         <translation>pts 교정하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="90"/>
+        <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
         <translation>%1를 별도의 창에서 실행하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="91"/>
+        <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
         <translation>%1에 짧은 파일명(8+3)으로 전달하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="92"/>
+        <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
         <translation>%1 크래시 보고하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="93"/>
+        <location filename="../prefadvanced.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
         <translation>%1 옵션</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="94"/>
+        <location filename="../prefadvanced.cpp" line="98"/>
         <source>Here you can pass extra options to %1.</source>
         <translation>여기에 %1 추가 옵션을 사용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="95"/>
-        <location filename="../prefadvanced.cpp" line="514"/>
+        <location filename="../prefadvanced.cpp" line="99"/>
+        <location filename="../prefadvanced.cpp" line="536"/>
         <source>Write them separated by spaces.</source>
         <translation>공백으로 구분하여 입력하세요.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="97"/>
+        <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
         <translation>%1 출력 기록하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="98"/>
+        <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
         <translation>%1 로그 파일에 자동저장하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="440"/>
+        <location filename="../prefadvanced.cpp" line="104"/>
+        <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="454"/>
         <source>Run %1 in its own window</source>
         <translation>%1를 별도의 창에서 실행하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="441"/>
+        <location filename="../prefadvanced.cpp" line="455"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
         <translation>이 옵션 사용시 %1 동영상 창은 SMPlayer의 메인 창이 아니라 그 자신의 창을 별도로 사용할 것입니다. 이 경우 마우스와 키보드 이벤트는 %1가 직접 처리하게 됩니다. 다시 말해 %1 개별 창에 포커스가 있을 때 단축키와 마우스 클릭은 SMPlayer에서 설정한 대로 동작하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="459"/>
+        <location filename="../prefadvanced.cpp" line="473"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation>%1에 짧은 파일명(8+3)으로 전달하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="460"/>
+        <location filename="../prefadvanced.cpp" line="474"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>이 옵션에 체크하면 SMPlayer는 짧은 파일명을 %1로 전달할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="471"/>
+        <location filename="../prefadvanced.cpp" line="485"/>
         <source>Report %1 crashes</source>
         <translation>%1 크래시 보고하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="472"/>
+        <location filename="../prefadvanced.cpp" line="486"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
         <translation>이 옵션에 체크하면 %1 크래시를 알리는 창이 뜰 것입니다. 그렇지 않으면 이 크래시는 조용히 무시됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="477"/>
+        <location filename="../prefadvanced.cpp" line="491"/>
+        <source>Pass the %1 option to MPlayer (security risk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="492"/>
+        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>비디오 프레임의 타임스탬프를 다르게 계산하고 새로운 프레임을 추가하거나 존재하는 프레임의 타임스탬프를 변경하는 비디오 필터를 지원하는 실험적인 모드로 %1를 전환합니다. 예를 들면 SSA/ASS 라이브러리를 사용해서 장면 변화에 맞춘 자막을 재생할 때 더 정교한 타임스탬프를 볼 수 있습니다. pts를 교정하지 않으면 자막 타이밍은 일반적으로 몇 프레임이 떨어집니다. 이 옵션은 몇몇 디먹서와 코덱에서 정상적으로 동작하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="486"/>
+        <location filename="../prefadvanced.cpp" line="508"/>
         <source>Actions list</source>
         <translation>동작 목록</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="487"/>
+        <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>파일이 열릴 때마다 실행할 수 있는 동작 목록을 여기에서 지정할 수 있습니다. 사용할 수 있는 모든 동작을 키보드 및 마우스 항목의 단축키 편집기에서 찾을 수 있습니다. 점검할 수 있는 동작은 그 동작을 사용 또는 사용하지 않으려면 &quot;true&quot; 나 &quot;false&quot; 를 뒤에 붙이면 됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="494"/>
+        <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
         <translation>한계: 이 동작은 파일을 열 때만 작동합니다. mplayer 프로세스가 재시작할 때는 작동하지 않습니다. (예: 오디오나 비디오 필터 선택시)</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="510"/>
+        <location filename="../prefadvanced.cpp" line="532"/>
         <source>Options for %1</source>
         <translation>%1 옵션</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="513"/>
+        <location filename="../prefadvanced.cpp" line="535"/>
         <source>Here you can type options for %1.</source>
         <translation>여기에 %1 옵션을 입력할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="517"/>
+        <location filename="../prefadvanced.cpp" line="539"/>
         <source>Here you can add video filters for %1.</source>
         <translation>여기에 %1의 비디오 필터를 추가할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="518"/>
-        <location filename="../prefadvanced.cpp" line="522"/>
+        <location filename="../prefadvanced.cpp" line="540"/>
+        <location filename="../prefadvanced.cpp" line="544"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
         <translation>쉼표로 구문해서 입력하세요. 공백을 사용하면 안 됩니다!</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="521"/>
+        <location filename="../prefadvanced.cpp" line="543"/>
         <source>Here you can add audio filters for %1.</source>
         <translation>여기에 %1의 오디오 필터를 추가할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="524"/>
+        <location filename="../prefadvanced.cpp" line="546"/>
         <source>Network</source>
         <translation>네트워크</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="190"/>
+        <location filename="../prefadvanced.ui" line="197"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
         <translation>파일을 열 때마다 다음 동작을 실행합니다. 이 동작은 반드시 공백으로 구분해야 합니다:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="485"/>
+        <location filename="../prefadvanced.ui" line="492"/>
         <source>&amp;Network</source>
         <translation>네트워크</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="95"/>
-        <location filename="../prefadvanced.cpp" line="493"/>
+        <location filename="../prefadvanced.cpp" line="99"/>
+        <location filename="../prefadvanced.cpp" line="515"/>
         <source>Example:</source>
         <translation>예:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="449"/>
+        <location filename="../prefadvanced.cpp" line="463"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
         <translation>인덱스가 없으면 파일의 인덱스를 재생성해서 탐색을 할 수 있습니다. 깨지거나 미완료된 다운로드나 잘못 만들어진 파일에 유용합니다. 이 옵션은 해당 미디어가 근본적으로 탐색을 지원해야 사용할 수 있습니다. (예: stdin, pipe 등에서는 안 됨)&lt;br&gt; 참고: 인덱스 생성시 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="149"/>
+        <location filename="../prefadvanced.ui" line="156"/>
         <source>C&amp;orrect PTS:</source>
         <translation>PTS 교정하기:</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="578"/>
+        <location filename="../prefadvanced.ui" line="585"/>
         <source>&amp;Verbose</source>
         <translation>더 자세히</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="542"/>
+        <location filename="../prefadvanced.cpp" line="564"/>
         <source>Save SMPlayer log to file</source>
         <translation>SMPlayer 로그를 파일에 저장하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="543"/>
+        <location filename="../prefadvanced.cpp" line="565"/>
         <source>If this option is checked, the SMPlayer log wil be recorded to %1</source>
         <translation>이 옵션에 체크하면 SMPlayer 로그가 %1 에 기록될 것입니다</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="643"/>
+        <location filename="../prefadvanced.ui" line="650"/>
         <source>Sa&amp;ve SMPlayer log to a file</source>
         <translation>SMPlayer 로그를 파일에 저장하기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="505"/>
+        <location filename="../prefadvanced.cpp" line="527"/>
         <source>Show tag info in window title</source>
         <translation>창 제목에 태그 정보 보이기</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="506"/>
+        <location filename="../prefadvanced.cpp" line="528"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
         <translation>이 옵션을 사용하면 태그 정보가 창 제목에 표시가 됩니다. 그렇지 않으면 파일명만 나타날 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.ui" line="275"/>
+        <location filename="../prefadvanced.ui" line="282"/>
         <source>Show tag in&amp;fo in window title</source>
         <translation>창 제목에 태그 정보 보이기</translation>
     </message>
@@ -6650,7 +6674,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="797"/>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Recent files</source>
         <translation>최근 파일</translation>
     </message>
@@ -6860,27 +6884,27 @@ Example: extrastereo,karaoke</source>
         <translation>미니 GUI는 툴바가 없고 몇개의 버튼이 있는 컨터롤 바를 제공합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="680"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>스킨 GUI는 사용할 수 있는 몇 개의 스킨 인터페이스를 제공합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="677"/>
+        <location filename="../prefinterface.cpp" line="676"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>MPC GUI는 Media Player Classic과 유사한 인터페이스입니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="775"/>
+        <location filename="../prefinterface.cpp" line="779"/>
         <source>Privacy</source>
         <translation>개인정보</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="778"/>
+        <location filename="../prefinterface.cpp" line="782"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>열기 -&gt; 최근 파일 하위메뉴에 표시할 아이템의 최대 개수를 선택하세요. 0으로 놓으면 해당 메뉴를 끌 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="685"/>
         <source>Icon set</source>
         <translation>아이콘 셋</translation>
     </message>
@@ -6915,190 +6939,190 @@ Example: extrastereo,karaoke</source>
         <translation>이 옵션 사용시 마우스로 비디오 영역을 끄는 동안에 메인 창이 이동할 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="682"/>
+        <location filename="../prefinterface.cpp" line="686"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>어플리케이션에 선호하는 아이콘 셋을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="689"/>
         <source>Skin</source>
         <translation>스킨</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="686"/>
+        <location filename="../prefinterface.cpp" line="690"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>어플리케이션에 선호하는 스킨을 선택하세요. 스킨사용이 가능한 GUI에서만 이용할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="693"/>
         <source>Style</source>
         <translation>스타일</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="690"/>
+        <location filename="../prefinterface.cpp" line="694"/>
         <source>Select the style you prefer for the application.</source>
         <translation>어플리케이션에 선호하는 스타일을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="697"/>
         <source>Default font</source>
         <translation>기본 글꼴</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="694"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>여기서 프로그램 폰트를 바꿀 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="696"/>
+        <location filename="../prefinterface.cpp" line="700"/>
         <source>Seeking</source>
         <translation>탐색하기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="698"/>
+        <location filename="../prefinterface.cpp" line="702"/>
         <source>Short jump</source>
         <translation>짧게 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
         <location filename="../prefinterface.cpp" line="703"/>
         <location filename="../prefinterface.cpp" line="707"/>
+        <location filename="../prefinterface.cpp" line="711"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>%1 동작을 선택했을 때 앞뒤로 이동할 시간을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="700"/>
+        <location filename="../prefinterface.cpp" line="704"/>
         <source>short jump</source>
         <translation>짧게 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="702"/>
+        <location filename="../prefinterface.cpp" line="706"/>
         <source>Medium jump</source>
         <translation>중간 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
+        <location filename="../prefinterface.cpp" line="708"/>
         <source>medium jump</source>
         <translation>중간 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="706"/>
+        <location filename="../prefinterface.cpp" line="710"/>
         <source>Long jump</source>
         <translation>길게 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="708"/>
+        <location filename="../prefinterface.cpp" line="712"/>
         <source>long jump</source>
         <translation>길게 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="710"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>Mouse wheel jump</source>
         <translation>마우스 휠로 건너뛰기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="711"/>
+        <location filename="../prefinterface.cpp" line="715"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>마우스 휠을 이용해서 앞뒤로 이동할 시간을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="714"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>Behaviour of time slider</source>
         <translation>타임 슬라이더 동작</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="719"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>타임 슬라이더를 드래깅할 때의 동작을 선택하세요.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>일단 정지 버튼을 누르면 재생시간 위치를 초기화하기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
         <translation>현재 정지 버튼을 누르면 재생시간 위치를 기억해서, 다시 재생 버튼을 눌렀을 때 기억한 위치에서 재생을 시작합니다. 재생시간 위치를 초기화하려면 정지 버튼을 두번 눌러야 하는데 이 옵션이 체크되어 있으면 정지 버튼을 한번만 눌러도 재생시간 위치가 0으로 초기화 됩니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>마우스를 화면 하단으로 이동할 때만 나타납니다</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="765"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>이 옵션 사용시, 컨트롤 바는 마우스를 화면 하단으로 이동할 때만 나타납니다. 이 옵션 미사용시는 마우스의 위치에 상관 없이 마우스를 움직이면 컨트롤 바가 나타날 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="770"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>이 옵션을 사용하면, 간편 모드에서도 전체화면 컨트롤 바가 나타나게 할 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>This option only works with the basic GUI.</source>
         <translation>이 옵션은 기본 GUI에서만 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="769"/>
+        <location filename="../prefinterface.cpp" line="773"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;경고:&lt;/b&gt; 전체화면 컨트롤 바는 간편 모드용으로 디자인한 것이 아니라서 잘 동작하지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Time to hide the control</source>
         <translation>컨트롤을 숨기는 데 걸리는 시간</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="773"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>마우스가 컨트롤에서 떨어진 후에 컨트롤을 숨기는데 걸리는 시간(밀리초)을 설정합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="786"/>
         <source>Max. URLs</source>
         <translation>최대 주소</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="783"/>
+        <location filename="../prefinterface.cpp" line="787"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>&quot;열기 -&gt; 주소&quot; 대화상자에서 기억할 최대 항목 개수를 선택하세요. 0으로 놓으면 어떤 주소도 저장하지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="787"/>
+        <location filename="../prefinterface.cpp" line="791"/>
         <source>Remember last directory</source>
         <translation>마지막 폴더 기억하기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="792"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>이 옵션을 사용하면 SMPlayer는 파일을 열었던 마지막 폴더를 기억할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="512"/>
-        <location filename="../prefinterface.cpp" line="718"/>
+        <location filename="../prefinterface.cpp" line="722"/>
         <source>Seeking method</source>
         <translation>탐색 방법</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="723"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>슬라이더(탐색바)에서 탐색할 때 사용할 방법을 선택하세요. 절대적인 방식의 탐색은 조금 더 정확합니다. 반면에 상대적인 방식의 탐색은 현재 위치를 기준으로 삼아 위치를 이동하기 때문에, 전체시간이 잘못된 파일에서 더 잘 동작합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Instances</source>
         <translation>중복 실행</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>SMPlayer를 한 개만 실행합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>동영상 재생시 SMPlayer를 중복 실행하지 않고 하나만 사용하려면 이 옵션을 사용하세요.</translation>
     </message>
@@ -7118,42 +7142,42 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="745"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Floating control</source>
         <translation>전체화면 컨트롤 바</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Animated</source>
         <translation>애니메이션</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>이 옵션은 전체화면 컨트롤 바가 나타날 때 애니메이션을 사용합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Width</source>
         <translation>너비</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>컨트롤의 가로 길이를 지정합니다. (백분율로)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>Margin</source>
         <translation>여백</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>이 옵션은 전체화면의 컨트롤 바가 화면 하단에서 얼마큼 떨어져 있을지를 픽셀단위로 지정합니다. 출력화면이 TV인 경우, 오버스캔 때문에 하단의 컨트롤이 보이지 않을 경우에 유용합니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="769"/>
         <source>Display in compact mode too</source>
         <translation>간편 모드에서도 보여줍니다.</translation>
     </message>
@@ -7209,17 +7233,17 @@ Example: extrastereo,karaoke</source>
         <translation>오디오 파일 재생시에는 비디오 창 끄기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="724"/>
+        <location filename="../prefinterface.cpp" line="728"/>
         <source>Precise seeking</source>
         <translation>정확하게 탐색하기</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="729"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>이 옵션을 사용하면 더 정확하게 탐색할 수 있습니다. 그러나 탐색 속도는 조금 느려질 수 있습니다. 몇몇 비디오 형식에서는 동작하지 않을 수 있습니다.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="727"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>참고: 이 옵션은 MPlayer2 에서만 동작합니다.</translation>
     </message>
@@ -9497,22 +9521,22 @@ Example: extrastereo,karaoke</source>
         <translation>비디오 미리보기 </translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="143"/>
+        <location filename="../videopreview/videopreview.cpp" line="145"/>
         <source>Cancel</source>
         <translation>취소</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="142"/>
+        <location filename="../videopreview/videopreview.cpp" line="144"/>
         <source>Thumbnail Generator</source>
         <translation>썸네일 생성기</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="145"/>
+        <location filename="../videopreview/videopreview.cpp" line="147"/>
         <source>Generated by SMPlayer</source>
         <translation>SMPlayer가 생성함</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="234"/>
+        <location filename="../videopreview/videopreview.cpp" line="233"/>
         <source>Creating thumbnails...</source>
         <translation>썸네일 만드는 중...</translation>
     </message>
@@ -9542,17 +9566,17 @@ Example: extrastereo,karaoke</source>
         <translation>파일 저장에 실패했습니다</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="190"/>
+        <location filename="../videopreview/videopreview.cpp" line="189"/>
         <source>Error</source>
         <translation>오류</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="190"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>썸네일 생성 중 다음 오류가 발생했습니다:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="216"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>임시 폴더 (%1) 를 만들 수 없습니다</translation>
     </message>
@@ -9597,12 +9621,12 @@ Example: extrastereo,karaoke</source>
         <translation>동영상 정보를 가져오는 동안 MPlayer 프로세스를 시작하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="207"/>
         <source>The length of the video is 0</source>
         <translation>동영상의 재생시간이 0 입니다</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="251"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>존재하지 않는 파일: %1</translation>
     </message>
