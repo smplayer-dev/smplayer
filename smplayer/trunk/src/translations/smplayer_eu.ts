@@ -987,7 +987,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Hasi/gelditu jarioa hartuz</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
@@ -1204,7 +1204,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Le&amp;hen bidea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -1219,27 +1219,27 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lastermarkak</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2092"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gehitu lastermarka berria</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2093"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Editatu lastermarka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2094"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Aurreko lastermarka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Hurrengo lastermarka</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4829"/>
@@ -1895,27 +1895,27 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Editatu lastermarkak</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Lastermarka berria</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>E&amp;zabatu lastermarka</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Denbora</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Izena</translation>
+        <translation>Izena</translation>
     </message>
 </context>
 <context>
@@ -2078,7 +2078,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../core.cpp" line="4241"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ikusleiho-argazkiahonela gordeta:  %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4272"/>
@@ -2213,7 +2213,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Ooh, okerren bat gertatu da</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -3034,17 +3034,17 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Gehitu lastermarka berria</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Denbora:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Izena (aukerazkoa):</translation>
     </message>
 </context>
 <context>
@@ -4899,7 +4899,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa&amp;satu %1 aukera MPlayer-i (segurtasun arriskua)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4934,12 +4934,12 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasatu %1 aukera MPlayer-i (segurtasun arriskua)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau beharrezkoa izan daiteke irakur-zerrendak (m3u, pls...) irakurtzeko. Edonola segurtasun arrisku bat eragin dezake interneteko iturburuak irakurtzerakoan MPlayer-ek irakur-zerrendak aztertzeko eta erabiltzeko duen modua ez delako segurua maltzurki eraikitako agirien aurka.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
