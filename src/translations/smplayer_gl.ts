@@ -1204,7 +1204,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Pista pri&amp;ncipal</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -2213,7 +2213,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Vaites, algo foi mal</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -4899,7 +4899,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa&amp;sar a opción %1 ao MPlayer (risco de seguranza)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4934,12 +4934,12 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasar a opción %1 ao MPlayer (risco de seguranza)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción pode ser necesaria para reproducir ficheiros de listas de reprodución (m3u, pls...). Con todo pode supoñer un risco de seguranza cando se reproduza desde fontes de internet porque o xeito en que MPlayer analiza e usa estes ficheiros non é seguro contra arquivos maliciosos.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>

@@ -1204,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>プライマリ トラック(&amp;A)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -2213,7 +2213,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>問題が発生しました</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -4898,7 +4898,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer へ %1 オプションを渡す (セキュリティ リスクあり)(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4933,12 +4933,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>MPlayer へ %1 オプションを渡す (セキュリティ リスクあり)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションはプレイリスト ファイル (m3u、pls...) の再生に必要となる可能性があります。しかし MPlayer がプレイリスト ファイルを解析および使用する方法は悪意をもって構築されたファイルに対して安全ではないためインターネットのソースを再生する時にセキュリティ リスクが生じることがあります。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
