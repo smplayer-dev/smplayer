@@ -4564,6 +4564,10 @@ void BaseGui::toggleFullscreen(bool b) {
 
 
 void BaseGui::aboutToEnterFullscreen() {
+	if (pref->stay_on_top == Preferences::WhilePlayingOnTop && core->state() == Core::Playing) {
+		setStayOnTop(false);
+	}
+
 	if (!pref->compact_mode) {
 		menuBar()->hide();
 		statusBar()->hide();
@@ -4574,6 +4578,11 @@ void BaseGui::aboutToExitFullscreen() {
 	if (!pref->compact_mode) {
 		menuBar()->show();
 		statusBar()->show();
+	}
+
+	if (pref->stay_on_top == Preferences::WhilePlayingOnTop) {
+		qApp->processEvents();
+		setStayOnTop(core->state() == Core::Playing);
 	}
 }
 
