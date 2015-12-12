@@ -987,7 +987,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Старт/стоп захоплення потоку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
@@ -1007,12 +1007,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти на наступні субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Перейти на попередні субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1777"/>
@@ -1204,7 +1204,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Головна доріжка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -1219,27 +1219,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Закладки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2092"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Додати нову закладку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2093"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Редагувати закладки</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2094"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Попередня закладка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Наступна закладка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4829"/>
@@ -1895,27 +1895,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Редагувати закладки</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Нова закладка</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Видалити закладку</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Час</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Назва</translation>
+        <translation>Назва</translation>
     </message>
 </context>
 <context>
@@ -2078,7 +2078,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4241"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Зняток збережено як %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4272"/>
@@ -2213,7 +2213,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Ой, трапилось щось не те</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2610,7 +2610,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Додати код мови до імені файла субтитрів</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -3035,17 +3035,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Додати нову закладку</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Час:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ім&apos;я (опціонально):</translation>
     </message>
 </context>
 <context>
@@ -4900,7 +4900,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Передавати параметр %1 в MPlayer (небезпечно)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4935,12 +4935,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Передавати параметр %1 в MPlayer (небезпечно)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція може бути потрібна для відтворення плейлистів (m3u, pls та ін.). Однак, це являє деяку загрозу через те, що MPlayer практично беззахисний при роботі з різноманітними плейлистами з інтернета.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -4955,7 +4955,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Тут ви можете визначити перелік &lt;i&gt;дій&lt;/i&gt;, які будуть виконані кожного разу як буде відкритий файл. Ви знайдете усі наявні дії в редакторі комбінацій клавіш у розділі &lt;b&gt;Клавіятура та миша&lt;/b&gt;. Дії мають бути розділені пробілами. За вибірковими діями можуть слідувати &lt;i&gt;true&lt;/i&gt; або &lt;i&gt;false&lt;/i&gt;, щоб увімкнути або вимкнути дію.</translation>
+        <translation>Тут ви можете визначити перелік &lt;i&gt;дій&lt;/i&gt;, які будуть виконані кожного разу як буде відкритий файл. Ви знайдете усі наявні дії в редакторі комбінацій клавіш у розділі &lt;b&gt;Клавіатура та миша&lt;/b&gt;. Дії мають бути розділені пробілами. За вибірковими діями можуть слідувати &lt;i&gt;true&lt;/i&gt; або &lt;i&gt;false&lt;/i&gt;, щоб увімкнути або вимкнути дію.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -5125,7 +5125,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Відзначте розширення файлів медія, які ви волієте оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медія, асоціяція файлів буде відновлена.</translation>
+        <translation>Відзначте розширення файлів медія, які ви бажаєте оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медія, асоціація файлів буде відновлена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5329,12 +5329,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>Формат знятків екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>Цей параметр дозволяє вибрати тип графічного файлу для збереження знятків.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
@@ -5379,7 +5379,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="948"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation>Цей параметр визначає шаблон імені для збереження знятків.</translation>
+        <translation>Цей параметр визначає шаблон імені для збереження знятків екрану.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="952"/>
@@ -5470,7 +5470,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="207"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation>Ф&amp;ормат:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
@@ -5975,7 +5975,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="942"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation>Тут ви можете вказати теку, де будуть зберігатися знятки екрану зроблені SMPlayer. Якщо тека вказана невірно, знятки екрану будуть вимкнені.</translation>
+        <translation>Тут ви можете вказати теку, де будуть зберігатися знятки екрану, зроблені SMPlayer. Якщо тека вказана невірно, знятки екрану будуть вимкнені.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="142"/>
@@ -6148,12 +6148,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="38"/>
         <source>Keyboard and mouse</source>
-        <translation>Клавіятура та миша</translation>
+        <translation>Клавіатура та миша</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
-        <translation>&amp;Клавіятура</translation>
+        <translation>&amp;Клавіатура</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6352,7 +6352,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="311"/>
         <source>Keyboard</source>
-        <translation>Клавіятура</translation>
+        <translation>Клавіатура</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="324"/>
@@ -6747,7 +6747,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="80"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation>Вікно по &amp;центру</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6922,12 +6922,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>Вікно по центру</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>Якщо ця опція увімкнена, то головне вікно буде відцентроване на рабочому столі.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
