@@ -32,90 +32,129 @@
          <property name="title">
           <string>Main window</string>
          </property>
-         <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <layout class="QVBoxLayout" name="verticalLayout_7">
           <item>
-           <layout class="QVBoxLayout" name="verticalLayout_7">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
             <item>
-             <layout class="QHBoxLayout" name="horizontalLayout_3">
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>Auto&amp;resize:</string>
+              </property>
+              <property name="buddy">
+               <cstring>mainwindow_resize_combo</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QComboBox" name="mainwindow_resize_combo">
+              <property name="sizePolicy">
+               <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+               </sizepolicy>
+              </property>
               <item>
-               <widget class="QLabel" name="label">
-                <property name="text">
-                 <string>Auto&amp;resize:</string>
-                </property>
-                <property name="buddy">
-                 <cstring>mainwindow_resize_combo</cstring>
-                </property>
-               </widget>
+               <property name="text">
+                <string>Never</string>
+               </property>
               </item>
               <item>
-               <widget class="QComboBox" name="mainwindow_resize_combo">
-                <property name="sizePolicy">
-                 <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
-                  <horstretch>0</horstretch>
-                  <verstretch>0</verstretch>
-                 </sizepolicy>
-                </property>
-                <item>
-                 <property name="text">
-                  <string>Never</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Whenever it's needed</string>
-                 </property>
-                </item>
-                <item>
-                 <property name="text">
-                  <string>Only after loading a new video</string>
-                 </property>
-                </item>
-               </widget>
+               <property name="text">
+                <string>Whenever it's needed</string>
+               </property>
               </item>
-             </layout>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="center_window_check">
-              <property name="text">
-               <string>Center &amp;window</string>
-              </property>
+              <item>
+               <property name="text">
+                <string>Only after loading a new video</string>
+               </property>
+              </item>
              </widget>
             </item>
             <item>
-             <widget class="QCheckBox" name="save_size_check">
-              <property name="text">
-               <string>R&amp;emember position and size</string>
+             <spacer>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
               </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="hide_video_window_on_audio_check">
-              <property name="text">
-               <string>&amp;Hide video window when playing audio files</string>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
               </property>
-             </widget>
-            </item>
-            <item>
-             <widget class="QCheckBox" name="move_when_dragging_check">
-              <property name="text">
-               <string>&amp;Move the window when the video area is dragged</string>
-              </property>
-             </widget>
+             </spacer>
             </item>
            </layout>
           </item>
           <item>
-           <spacer>
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <spacer name="horizontalSpacer_3">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeType">
+               <enum>QSizePolicy::Fixed</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>13</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+            <item>
+             <widget class="QCheckBox" name="center_if_outside_check">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>&amp;Prevent window to get outside of screen</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <spacer name="horizontalSpacer_4">
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+              <property name="sizeHint" stdset="0">
+               <size>
+                <width>40</width>
+                <height>20</height>
+               </size>
+              </property>
+             </spacer>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="center_window_check">
+            <property name="text">
+             <string>Center &amp;window</string>
             </property>
-            <property name="sizeHint" stdset="0">
-             <size>
-              <width>40</width>
-              <height>20</height>
-             </size>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="save_size_check">
+            <property name="text">
+             <string>R&amp;emember position and size</string>
             </property>
-           </spacer>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="hide_video_window_on_audio_check">
+            <property name="text">
+             <string>&amp;Hide video window when playing audio files</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="move_when_dragging_check">
+            <property name="text">
+             <string>&amp;Move the window when the video area is dragged</string>
+            </property>
+           </widget>
           </item>
          </layout>
         </widget>
@@ -934,6 +973,7 @@
  <tabstops>
   <tabstop>tabWidget</tabstop>
   <tabstop>mainwindow_resize_combo</tabstop>
+  <tabstop>center_if_outside_check</tabstop>
   <tabstop>center_window_check</tabstop>
   <tabstop>save_size_check</tabstop>
   <tabstop>hide_video_window_on_audio_check</tabstop>
