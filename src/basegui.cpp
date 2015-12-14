@@ -5228,9 +5228,9 @@ void BaseGui::resizeMainWindow(int w, int h) {
            mplayerwindow->size().width(),
            mplayerwindow->size().height() );
 
-#ifdef Q_OS_WIN
 	// Check if a part of the window is outside of the desktop
-	if (!core->mdat.novideo) {
+	// and center the window in that case
+	if ((pref->center_window_if_outside) && (!core->mdat.novideo)) {
 		QRect screen_rect = QApplication::desktop()->screenGeometry(this);
 		QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
 		qDebug("BaseGui::resizeWindow: right bottom point: %d, %d", right_bottom.x(), right_bottom.y());;
@@ -5242,7 +5242,7 @@ void BaseGui::resizeMainWindow(int w, int h) {
 			move(x, y);
 		}
 	}
-#endif
+
 }
 
 void BaseGui::hidePanel() {
