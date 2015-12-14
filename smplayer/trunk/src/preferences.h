@@ -359,6 +359,7 @@ public:
 
 	bool move_when_dragging; //!< Move the main window when the video area is dragged
 	bool center_window; //!< Center the main window when playback starts
+	bool center_window_if_outside; //!< Center the main window after an autoresize if it's outside of the screen
 
 	// Function of mouse buttons:
 	QString mouse_left_click_function;
