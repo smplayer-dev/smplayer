@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -987,7 +985,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>بدء/ايقاف التقاط الدفق</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
@@ -997,7 +995,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"></translation>
+        <translation>مرشح &amp;3D أبعاد للستريو</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
@@ -1007,12 +1005,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>تنقّل الى الترجمة التالية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1775"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>تنقّل الى الترجمة السابقة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1777"/>
@@ -1204,7 +1202,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -1219,27 +1217,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2082"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2092"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2093"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2094"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>العلامة السابقة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>العلامة التالية</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4829"/>
@@ -1895,27 +1893,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>تحرير العلامات</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>الوقت</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">الاسم</translation>
+        <translation>الاسم</translation>
     </message>
 </context>
 <context>
@@ -2078,7 +2076,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4241"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>حُفظت اللقطة بالإسم %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4272"/>
@@ -2146,7 +2144,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="532"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>جاهز</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="591"/>
@@ -2213,7 +2211,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>واه، أخفق شئ ما</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2443,13 +2441,16 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك ايضاً تمرير مرشحات فيديو إضافية
+افصلها بالفارزة &quot;,&quot;. لا تستخدم الفراغات!
+مثال: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>و أخيراً مرشحات الصوت. لها نفس قاعدة مرشحات الفيديو.
+مثال: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2484,7 +2485,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات لـ  %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
@@ -2494,12 +2495,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation>هنا يمكنك تمرير الخيارات الإضافية إلى %1</translation>
+        <translation>هنا يمكنك تمرير خيارات إضافية إلى %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>اكتبها مفصولة بالفراغات.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
@@ -2552,7 +2553,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">الخيارات</translation>
+        <translation>خيارات</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -2607,7 +2608,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"></translation>
+        <translation>أ&amp;رفق رمز اللغة الى اسم ملف الترجمة</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -2675,14 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>لم تُستخرَج أية ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
-            <numerusform>استُخرجت ترجمتان</numerusform>
-            <numerusform>استُخرجت %n ترجمات</numerusform>
-            <numerusform>استُخرجت %n ترجمةً</numerusform>
-            <numerusform>استُخرجت %n ترجمة</numerusform>
-        </translation>
+        <translation><numerusform>لم تُستخرَج أية ترجمة</numerusform><numerusform>استُخرجت ترجمة وحيدة</numerusform><numerusform>استُخرجت ترجمتان</numerusform><numerusform>استُخرجت %n ترجمات</numerusform><numerusform>استُخرجت %n ترجمةً</numerusform><numerusform>استُخرجت %n ترجمة</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2780,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -3034,17 +3028,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>أضف علامة جديدة</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -4668,13 +4662,16 @@ Do you want to overwrite?</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك ايضاً تمرير مرشحات فيديو إضافية
+افصلها بالفارزة &quot;,&quot;. لا تستخدم الفراغات!
+مثال: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="438"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"></translation>
+        <translation>و أخيراً مرشحات الصوت. لها نفس قاعدة مرشحات الفيديو.
+مثال: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="612"/>
@@ -4814,12 +4811,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>Log %1 output</source>
-        <translation>مخرجات سجل %1</translation>
+        <translation>سجّل مخرجات %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="571"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشِّر، فإن SMPlayer سيخزن مخرَجات %1 (يمكنك مشاهدتها في &lt;b&gt;خيارات -&gt; مشاهدة السجلات -&gt; %1&lt;/b&gt;). عند حصول مشاكل فإن هذا السجلّ يمكن أن يحتوي معلومات مهمة، لذا من المستحسَن إبقاء هذا الخيار مؤشَّراً.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="576"/>
@@ -4829,17 +4826,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشِّر هذا الخيار، فإن سجلّ %1 سيُحفَظ في الملف المعيّن في كل مرة يبدأ فيها تشغيل ملف جديد. هذا مُعَدّ للتطبيقات الخارجية، كي تستطيع الحصول على معلومات عن الملف الذي تشغّله.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"></translation>
+        <translation>تلقائيا احفظ اسم ملف سجلّ %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"></translation>
+        <translation>أخل هنا مسار الملف واسمه اللذان سيُستعملان لحفظ سجلّ %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
@@ -4854,22 +4851,22 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>خيارات لـ  %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -4880,67 +4877,67 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="99"/>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"></translation>
+        <translation>اكتبها مفصولة بالفراغات.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"></translation>
+        <translation>شغّل %1 في نافذته الخاصة به</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أشّرت هذا الخيار، فان نافذة فيديو %1 لن تُضمَّن في نافذة SMPlayer الرئيسية و لكنها ستستخدم نافذتها الخاصة بها بدلا عن ذلك. لاحظ أن أحداث الفأرة و لوحة المفاتيح سيتعامل معها %1 مباشرة، و هذا يعني أن من المحتمل أن لا تعمل اختصارات لوحة المفاتيح و نقرات الفأرة كما متوقع منها عندما يكون الإستحواذ لنافذة %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>مرر أسماء ملفات قصيرة (8+3) الى %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشِّر هذا الخيار، فإن SMPlayer سيمرر الى %1 النسخة القصيرة من اسماء الملفات.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Report %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>الإبلاغ عن انهيارات %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشِّر هذا الخيار، فستظهر نافذة للإعلام عن انهيارات %1. خلافا لذلك ستُهمَل هذه الانهيارات بصمت.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>مرر خيار %1 الى MPlayer (مخاطرة أمنية)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>قد يكون هذا الخيار مطلوبا لتشغيل ملفات قوائم التشغيل (m3u، pls...). لكنه قد ينطوي على مخاطرة أمنية عند تشغيل موارد من الانترنت لأن طريقة تفسير MPlayer لملفات قوائم التشغيل و استخدامها غير آمنة تجاه الملفات المركبة بطريقة ضارّة.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>يبدّل %1 الى نمط تجريبي تُحسب فيه بصمات الوقت لإطارات الفيديو بصورة مختلفة و تُدعَم فيه مرشحات الفيديو التي تضيف إطارات جديدة او تعدّل بصمات الوقت للإطارات الموجودة. يمكن أن تكون بصمات الوقت الدقيقة مرئية مثلا عند تشغيل ترجمات مؤقتة مع تغيرات المشهد و حيث تكون مكتبات SSA/ASS ممكَّنة. بدون بصمة وقت عَرض pts صحيحة فإن توقيت الترجمة سيكون عادة زاحفاً لبضعة إطارات. لا يعمل هذا الخيار بصورة صحيحة مع بعض مفككات التضميم و المرمّزات.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -4970,18 +4967,18 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك هنا إضافة مرشحات فيديو لـ %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"></translation>
+        <translation>اكتبها مفصولة بالفوارز. لا تستخدم الفراغات!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك هنا إضافة مرشحات صوت لـ %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
@@ -5283,7 +5280,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="166"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="374"/>
@@ -5294,12 +5291,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="912"/>
         <source>%1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="913"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>يجب أن تضيف هنا الملف التنفيذي لـ %1 و الذي سيستخدمه SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="941"/>
@@ -5324,12 +5321,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>صيغة للقطات</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"></translation>
+        <translation>يسمح هذا الخيار باختيار نوع ملف الصورة المستخدَم لحفظ اللقطات.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
@@ -5465,7 +5462,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="207"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
@@ -6742,7 +6739,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="80"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="87"/>
@@ -6917,12 +6914,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="652"/>
         <source>Center window</source>
-        <translation type="unfinished"></translation>
+        <translation>توسيط النافذة</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="653"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"></translation>
+        <translation>عندما يكون هذا الخيار ممكَّناً، فإن النافذة الرئيسية ستوسَّط في سطح المكتب.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
@@ -8284,7 +8281,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="501"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation>تطبيق الطراز على ملفات ASS أيضا.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8369,7 +8366,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8813,27 +8810,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8896,7 +8879,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>يضبط عنوان الوسائط لأول فيديو.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
@@ -9095,12 +9078,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"></translation>
+        <translation>صيغة &amp;3D للفيديو:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;صيغة المخرَجات:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -9145,77 +9128,77 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph احمر/سمائي رصاصي</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph احمر/سمائي نصفي اللون</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph احمر/سمائي لون</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph احمر/سمائي لون محسَّن من أجل أقل اسقاطات مربعة للالوان المشكوكة Dubois.</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph اخضر/قرمزي رصاصي</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph اخضر/قرمزي نصف لوني</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored </source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph اخضر/قرمزي ملون</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph اصفر/ازرق رصاصي</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph اصفر/ازرق نصف لوني</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph اصفر/ازرق ملون</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation>صفوف متداخلة (الصف الأعلى للعين اليسرى، العين اليمنى تبدأ عند الصف التالي)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"></translation>
+        <translation>صفوف متداخلة (الصف الأعلى للعين اليمنى، العين اليسرى تبدأ عند الصف التالي)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation type="unfinished"></translation>
+        <translation>مخرَجات أحادية (فقط العين اليسرى)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation type="unfinished"></translation>
+        <translation>مخرَجات أحادية (فقط العين اليمنى)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>بدون</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
