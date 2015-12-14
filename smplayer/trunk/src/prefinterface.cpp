@@ -109,6 +109,9 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
             this, SLOT(GUIChanged(int)));
 #endif
 
+	connect(mainwindow_resize_combo, SIGNAL(currentIndexChanged(int)),
+            this, SLOT(resizeMethodChanged(int)));
+
 #ifndef SEEKBAR_RESOLUTION
 	seeking_method_group->hide();
 #endif
@@ -230,6 +233,7 @@ void PrefInterface::setData(Preferences * pref) {
 
 	move_when_dragging_check->setChecked(pref->move_when_dragging);
 	center_window_check->setChecked(pref->center_window);
+	center_if_outside_check->setChecked(pref->center_window_if_outside);
 
 #ifdef SINGLE_INSTANCE
 	setUseSingleInstance(pref->use_single_instance);
@@ -298,6 +302,7 @@ void PrefInterface::getData(Preferences * pref) {
 
 	pref->move_when_dragging = move_when_dragging_check->isChecked();
 	pref->center_window = center_window_check->isChecked();
+	pref->center_window_if_outside = center_if_outside_check->isChecked();
 
 #ifdef SINGLE_INSTANCE
 	pref->use_single_instance = useSingleInstance();
@@ -469,6 +474,10 @@ void PrefInterface::GUIChanged(int index) {
 	}
 }
 #endif
+
+void PrefInterface::resizeMethodChanged(int index) {
+	center_if_outside_check->setEnabled(index != 0);
+}
 
 #ifdef SINGLE_INSTANCE
 void PrefInterface::setUseSingleInstance(bool b) {
@@ -648,6 +657,10 @@ void PrefInterface::createHelp() {
 	setWhatsThis(mainwindow_resize_combo, tr("Autoresize"),
         tr("The main window can be resized automatically. Select the option "
            "you prefer.") );
+
+	setWhatsThis(center_if_outside_check, tr("Prevent window to get outside of screen"),
+		tr("If after an autoresize the main window gets outside of the screen this option "
+           "will center the window to prevent it.") );
 
 	setWhatsThis(center_window_check, tr("Center window"),
         tr("When this option is enabled, the main window will be centered on the desktop.") );

@@ -136,6 +136,7 @@ protected slots:
 #ifdef SKINS
 	void GUIChanged(int index);
 #endif
+	void resizeMethodChanged(int index);
 
 protected:
 	virtual void retranslateStrings();
