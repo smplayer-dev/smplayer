@@ -438,8 +438,14 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	}
 	else
 	if (filter_name == "screenshot") {
-		if (!screenshot_dir.isEmpty() && isOptionAvailable("--screenshot-directory")) {
-			arg << "--screenshot-directory=" + QDir::toNativeSeparators(screenshot_dir);
+		if (!screenshot_dir.isEmpty()) {
+			QString dir = QDir::toNativeSeparators(screenshot_dir);
+			if (!isOptionAvailable("--screenshot-directory")) {
+				qWarning("MPVProcess::addVF: this version of mpv is old and the option --screenshot-directory is not available");
+				setWorkingDirectory(dir);
+			} else {
+				arg << "--screenshot-directory=" + dir;
+			}
 		}
 	}
 	else
