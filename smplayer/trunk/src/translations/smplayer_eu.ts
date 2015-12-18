@@ -5161,10 +5161,6 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>Hautatu DVD gailua. DVD-ak irakurtzeko erabiliko da.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Aukera hau hautatua bada, smplayerrek DVD-ak dvdnav erabiliz irakurriko ditu. dvdnav sostengatzen duen MPlayer-en bertsio berri bat behar da.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Hautatu zure &amp;CD gailua:</translation>
@@ -5202,7 +5198,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautatua bada, SMPlayer-ek DVD-ak dvdnav erabiliz irakurriko ditu. dvdnav sostengatzen duen MPlayer-en bertsio berri bat behar da.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5428,7 +5424,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurketa abiadura doinua aldatu gabe aldatzea ahalbidetzen du.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5689,10 +5685,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Abiadura handiko irakurketa doinua aldatu gabe</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Irakurketa abiadura doinua aldatu gabe aldatzeko aukera ematen du. Gutxienez MPlayer dev-SVN-r24924 behar du.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6754,7 +6746,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saihestu leihoa ikusleihotik kanpo jartzea</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6934,12 +6926,12 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Saihestu leihoa ikusleihotik kanpo jartzea</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Berez-neurriratze baten ondoren leiho nagusia ikusleihotik kanpo jartzen bada aukera honek leihoa erdiratuko du hori saihesteko.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7694,10 +7686,6 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>Bigizta i&amp;ragazkia</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Saiatu CoreAVC kodek ez-askea erabiltzen beste koderik adierazten ez denean eta ez-VDPAU bideo irteera hautatutakoan. CoreAVC sostengua duen Mplayer behar du.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Aukera honek bigizta iragazkia (EEH desblokeaketa) H.264 dekodeaketan zehar  jauzi egitea ahalbidetzen du. Iragazitako framea menpeko frameen dekodeaketarako xehetasun bezala erabili dela suposatzen den unetik honek desblokeaketa ez egitea baino eragin txarragoa du, adib. MPEG-2 bideoan. Baina gutxienez bitneurri handiko HDTV-rako honek bizkortasun handia ematen du kalitate galera ohargarririk gabe.</translation>
@@ -7785,12 +7773,12 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Saiatu CoreAVC kodek ez-askea erabiltzen beste koderik adierazten ez denean eta ez-VDPAU bideo irteera hautatutakoan.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>CoreAVC sostengua duen Mplayer behar du.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>

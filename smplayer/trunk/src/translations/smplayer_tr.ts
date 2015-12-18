@@ -5154,10 +5154,6 @@ Example: extrastereo,karaoke</source>
         <translation>DVD sürücünüzü seçin. Bu sürücü DVD&apos;lerin oynatılmasında kullanılacak.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Bu seçeneği işaretlerseniz, SMPlayer dvdnav kullanarak DVD oynayacak. Dvdnav desteği ile derlenmiş MPlayer&apos;ın yeni bir sürümünü gerektirir.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>&amp;CD sürücünüzü seçin:</translation>
@@ -5682,10 +5678,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Ses perdesini değiştirmeden hızlı oynatma</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Oynatma hızının ses perdesi aynıyken değiştirilmesini sağlar.En az MPlayer dev-SVN-r24924 sürümünü gerektirir.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>

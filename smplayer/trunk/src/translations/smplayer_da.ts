@@ -5161,10 +5161,6 @@ Eksempel: extrastereo,karaoke</translation>
         <translation>Vælg din DVD-enhed. Den vil blive brugt til at afspille dvd&apos;er.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Hvis indstillingen er slået til, afspiller SMPlayer DVD&apos;er med dvdnav. Det kræver en nylig version af MPlayer kompileret med dvdnav-understøttelse.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Vælg din &amp;CD-enhed:</translation>
@@ -5689,10 +5685,6 @@ Eksempel: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Afspilning ved høj hastighed uden at ændre tonehøjde</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Giver dig mulighed for at ændre afspilningshastighed uden at påvirke tonehøjde. Kræver mindst MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7692,10 +7684,6 @@ Eksempel: extrastereo,karaoke</translation>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Loop-&amp;filter</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Prøv at brug det ikke-frie CoreAVC codec når ingen andre codec er valgt og non-VDPAU video output valgt. Kræver MPlayer build med CoreAVC-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

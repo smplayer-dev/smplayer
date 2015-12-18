@@ -5681,10 +5681,6 @@ Example: extrastereo,karaoke</source>
         <translation>Ülikiire taasesitus helikõrgust muutmata</translation>
     </message>
     <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Lubab taasesituse kiiruse muutmist mõjutamata helikõrgust. Vaja  läheb vähemalt Mplayeri versiooni dev-SVN-r24924..</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="315"/>
         <source>&amp;Video</source>
         <translation>&amp;Video</translation>

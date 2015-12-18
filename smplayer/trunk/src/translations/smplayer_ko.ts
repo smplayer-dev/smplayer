@@ -5160,10 +5160,6 @@ Example: extrastereo,karaoke</source>
         <translation>DVD 드라이브를 선택하세요. DVD 재생에 사용됩니다.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">이 옵션을 사용하면 SMPlayer는 dvdnav를 이용해서 DVD를 재생할 것입니다. dvdnav를 지원하는 최신 버전의 mplayer가 필요합니다.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>&amp;CD 장치를 선택하세요:</translation>
@@ -5689,10 +5685,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>음높이 변경 없이 빠르게 재생하기</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">음의 높이를 변경하지 않고 재생 속도를 바꿀 수 있습니다. 최소한 MPlayer dev-SVN-r24924 버전을 필요로 합니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7692,10 +7684,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>루프 필터</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">다른 코덱을 지정하지 않고 VDPAU 비디오 출력이 아닐 때 상용 코덱인 CoreAVC를 사용합니다. CoreAVC를 지원하는 MPlayer가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

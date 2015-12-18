@@ -5156,10 +5156,6 @@ Example: extrastereo,karaoke</source>
         <translation>Parinkite DVD įrenginį. Jis bus naudojamas atkurti DVD diskams.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Jei pažymėta, SMPlayer atkurs DVD diskus naudodamas dvdnav. Reikalinga paskutinė MPLayer versija, kompiliuota su dvdnav palaikymu.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Pasirinkite &amp;CD įrenginį:</translation>
@@ -5684,10 +5680,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Greitas atkūrimas be pič-efekto</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Leidžia keisti atkūrimo greitį be pič-efekto. Reikalinga ne senesnė kaip dev-SVN-r24924 MPlayer versija.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7687,10 +7679,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Kilpinis &amp;filtras</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Jei nenurodytas joks kodekas ir pasirinkta ne VDPAU video išvestis, pabandyti naudoti nelaisvą CoreAVC kodeką. Reikalingas MPlayer sukurtas su CoreAVC palaikymu.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

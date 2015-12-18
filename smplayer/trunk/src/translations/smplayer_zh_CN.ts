@@ -5160,10 +5160,6 @@ Example: extrastereo,karaoke</source>
         <translation>选择您的 DVD 驱动器。它将用于播放 DVD。</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">如果勾选此项，SMPlayer 会使用 dvdnav 播放 DVD。需要启用了 dvdnav 支持的较新版 MPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>选择您的 CD 驱动器(&amp;C):</translation>
@@ -5688,10 +5684,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>高速播放而不改变音调</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">允许更改播放速度而不改变音调。至少需要 MPlayer dev-SVN-r24924。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7691,10 +7683,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>环路过滤器(&amp;F)</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">没有指定其他编解码器和选择了非 VDPAU 视频输出时，将尝试使用非自由的 CoreAVC 编解码器。需要 MPlayer 构建有 CoreAVC 支持。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

@@ -5160,10 +5160,6 @@ Example: extrastereo,karaoke</source>
         <translation>お使いの DVD デバイスを選択します。DVD の再生に使用されます。</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、SMPlayer は dvdnav を使用して DVD を再生します。dvdnav サポート付きでコンパイルされた MPlayer の最近のバージョンを必要とします。</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>お使いの CD デバイスを選択します(&amp;C):</translation>
@@ -5201,7 +5197,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>このオプションがチェックされている場合、SMPlayer は dvdnav を使用して DVD を再生します。dvdnav サポート付きの MPlayer のバージョンを必要とします。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5427,7 +5423,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>ピッチの変化なしの再生速度の変更を許可します。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5688,10 +5684,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>ピッチの変化なしの高速再生</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">ピッチの変化なしの再生速度の変更を許可します。少なくとも MPlayer dev-SVN-r24924 を必要とします。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6753,7 +6745,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウが画面の外に出るのを禁止する(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6933,12 +6925,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>ウィンドウが画面の外に出るのを禁止する</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズの自動変更後にメイン ウィンドウが画面の外に出る場合にこのオプションはウィンドウを中央に表示してそれを回避します。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7693,10 +7685,6 @@ Example: extrastereo,karaoke</source>
         <translation>ループ フィルター(&amp;F)</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">他のコーデックが指定されておらず 非 VDPAU ビデオ出力が選択されているときに非フリーの CoreAVC コーデックの使用を試行します。CoreAVC サポート付きの MPlayer ビルドを必要とします。</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>このオプションは H.264 のデコード中のループ フィルター (別名: ブロック除去) のスキップを許可します。フィルターされたフレームは依存するフレームのデコードの参照として使用されると推量されますのでこれには MPEG-2 ビデオなどでブロック解除をしないこと以上に品質に悪影響があります。しかし少なくとも高ビットレート HDTV にはこれは目に見える品質劣化なしで多大な高速化をもたらします。</translation>
@@ -7784,12 +7772,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>他のコーデックが指定されておらず非 VDPAU ビデオ出力が選択されているときに非フリーの CoreAVC コーデックの使用を試行します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>CoreAVC サポート付きの MPlayer ビルドを必要とします。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>

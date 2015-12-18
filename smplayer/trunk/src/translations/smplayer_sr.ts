@@ -5157,10 +5157,6 @@ Example: extrastereo,karaoke</source>
         <translation>Изаберите ваш ДВД уређај. Користиће се за репродукцију ДВД-а.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Ако је ова могућност означена СМПлејер ће репродуковати ДВД-ове користећи dvdnav. То захтева недавну верзију МПлејера компајлираног са dvdnav подршком.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Одабери ваш &amp;ЦД уређај:</translation>
@@ -5685,10 +5681,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Висока брзина репродукције без промене висине звука</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Допушта промену брзине репродукције без промене висине звука. Захтева најмање МПлејер dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7692,10 +7684,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Loop &amp;филтер</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Покушај користити неслободне CoreAVC кодеке ако нема задатих других кодека и ако није одасбран VDPAU видео излаз. Потребан је MПлејер  изграђен са CoreAVC подршком.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

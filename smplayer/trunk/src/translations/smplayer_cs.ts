@@ -5162,10 +5162,6 @@ Příklad: extrastereo,karaoke</translation>
         <translation>Zvolte DVD mechaniku. Bude použita pro přehrávání DVD.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Je-li tato možnost povolena, SMPlayer bude přehrávat DVD pomocí dvdnav. Toto vyžaduje dostatečně novou verzi MPlayeru s dvdnav podporou.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Zvolte &amp;CD mechaniku:</translation>
@@ -5203,7 +5199,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Je-li tato možnost povolena, SMPlayer bude přehrávat DVD pomocí dvdnav. Toto vyžaduje MPlayer s dvdnav podporou.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5430,7 +5426,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Umožňuje měnit rychlost přehrávání beze změny výšky tónu. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5691,10 +5687,6 @@ Příklad: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Rychlé přehrávání beze změny výšky zvuku</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Umožňuje rychlé přehrávání beze změny výšky tónu. Vyžaduje MPlayer verze dev-SVN-r24924 nebo vyšší.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6756,7 +6748,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zabrání oknu dostat se ven z obrazovky</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6936,12 +6928,12 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Zabrání oknu dostat se ven z obrazovky</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jestliže se po automatické změně velikosti hlavní okno dostane ven z obrazovky tato volba ho vycentruje, aby se tomu zabránilo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7698,10 +7690,6 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
         <translation>&amp;Filtr smyček</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Použije proprietární kodek CoreAVC, není-li zvolen jiný kodek a je zapnutý jiný video výstup než VDPAU. Vyžaduje Mplayer s podporou CoreAVC.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Toto nastavení umožňuje přeskočit filtr smyčky (loop filter, deblocking) při přehrávání H.264. Jelikož filtrované snímky se používají jako reference pro další závislé snímky, má tato možnost vyšší doapd na kvalitu než např. u MPEG-2. Ale dosáhne se tak mnohem vyšší propustnosti HDTV videa za poměrně malého snížení kvality.</translation>
@@ -7789,12 +7777,12 @@ Dailymotion, Vimeo, Vevo, atd.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Použije proprietární kodek CoreAVC, není-li zvolen jiný kodek a je zapnutý jiný video výstup než VDPAU. </translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vyžaduje MPlayer s podporou CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>

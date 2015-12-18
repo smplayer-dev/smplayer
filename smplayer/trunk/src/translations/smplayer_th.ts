@@ -5154,10 +5154,6 @@ Example: extrastereo,karaoke</source>
         <translation>เลือกอุปกรณ์ DVD ของคุณ มันจะถูกใช้เล่น DVD.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">ถ้าเลือกตัวเลือกนี้ SMPlayer จะเล่นดีวีดีโดยใช้ dvdnav ซึ่งต้องการเวอร์ชั่นล่าสุดของ MPlayer ที่คอมไฟล์การรองรับกับ dvdnav</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>เลือกอุปกรณ์ &amp;CD:</translation>
@@ -5682,10 +5678,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>เล่นความเร็วสูงโดยปราศจากการเปลี่ยนค่า pitch</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">อนุญาตให้เปลี่ยนความเร็วการเล่นโดยไม่เปลี่ยนค่า pitch ต้องการขั้นต่ำ MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7685,10 +7677,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>ตัวกรอง &amp;Loop</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">พยายามใช้โคเด็ค non-free CoreAVC เมื่อไม่มีโคเด็คอื่นถูกระบุ และขาออกวิดีโอ non-VDPAU ได้ถูกเลือก ต้องการ MPlayer ที่สร้างโดยรองรับ CoreAVC</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

@@ -5680,10 +5680,6 @@ Example: extrastereo,karaoke</source>
         <translation>נגינה במהירות גבוהה ללא שינוי pitch</translation>
     </message>
     <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">מתירה לשנות מהירות פס קול מבלי לשנות pitch. מצריכה MPlayer dev-SVN-r24924 לפחות.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="315"/>
         <source>&amp;Video</source>
         <translation>&amp;וידאו</translation>
@@ -7681,10 +7677,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>מ&amp;סנן לולאה</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">נסה להשתמש בקודק CoreAVC לא חופשי (non-free) כאשר אף קודק אחר אינו מצוין ושום קלט וידאו שאינו VDPAU נבחר. מצריכה בניה של MPlayer עם תמיכת CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>
