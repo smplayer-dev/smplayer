@@ -313,8 +313,9 @@ void PrefPerformance::createHelp() {
            "greater.").arg(pref->HD_height) +"<br>" );
 
 	setWhatsThis(coreavc_check, tr("Use CoreAVC if no other codec specified"),
-		tr("Try to use non-free CoreAVC codec when no other codec is specified "
-           "and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support."));
+		tr("Try to use the non-free CoreAVC codec when no other codec is specified "
+           "and a non-VDPAU video output is selected.") +" "+
+        tr("Requires a MPlayer build with CoreAVC support."));
 
 	setWhatsThis(fast_audio_combo, tr("Fast audio track switching"),
 		tr("Possible values:<br> "
