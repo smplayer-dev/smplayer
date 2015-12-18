@@ -1119,8 +1119,7 @@ void PrefGeneral::createHelp() {
            "filters (surround) and audio output drivers (OSS at least).") );
 
 	setWhatsThis(scaletempo_combo, tr("High speed playback without altering pitch"),
-		tr("Allows to change the playback speed without altering pitch. "
-           "Requires at least MPlayer dev-SVN-r24924.") );
+		tr("Allows to change the playback speed without altering pitch.") );
 
 	setWhatsThis(global_volume_check, tr("Global volume"),
 		tr("If this option is checked, the same volume will be used for "

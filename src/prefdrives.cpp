@@ -226,7 +226,7 @@ void PrefDrives::createHelp() {
 #if DVDNAV_SUPPORT
 	setWhatsThis(use_dvdnav_check, tr("Enable DVD menus"),
 		tr("If this option is checked, SMPlayer will play DVDs using "
-           "dvdnav. Requires a recent version of MPlayer compiled with dvdnav "
+           "dvdnav. Requires a version of MPlayer with dvdnav "
            "support.") +"<br>" +
         tr("<b>Note 1</b>: cache will be disabled, this can affect performance.") +"<br>"+
         tr("<b>Note 2</b>: you may want to assign the action "
