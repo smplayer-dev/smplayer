@@ -5161,10 +5161,6 @@ Por exemplo: extraestereo,karaoke</translation>
         <translation>Seleccionar o dispositivo de DVD. Usarase para reproducir DVDs.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Se esta opción está marcada, SMPlayer reproducirá DVD usando dvdnav. Precisa unha versión recente de MPlayer compilada con compatibilidade para dvdnav.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Seleccionar o dispositivo de &amp;CD:</translation>
@@ -5202,7 +5198,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opción está marcada, SMPlayer reproducirá DVD usando dvdnav. Precisa unha versión de MPlayer con compatibilidade para dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5428,7 +5424,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Permite cambiar a velocidade de reprodución sen alterar o ton.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5689,10 +5685,6 @@ Por exemplo: extraestereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Reprodución en alta velocidade sen alterar o ton</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Permite cambiar a velocidade de reprodución sen alterar o ton. É necesario cando menos o MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6754,7 +6746,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Evita que a xanela saia da pantalla</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6934,12 +6926,12 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Evita que a xanela saia da pantalla</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se despois dun redimensionado automático, a xanela principal sae da pantalla, esta opción centrará a xanela para evitalo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7694,10 +7686,6 @@ Por exemplo: extraestereo,karaoke</translation>
         <translation>&amp;Filtro de bucle</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Intentar usar o códec privativo CoreAVC cando non haxa outro códec especificado e non haxa saídas de vídeo VDPAU seleccionadas. Precisa dunha compilación de MPlayer con soporte para CoreAVC.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Esta opción permite ignorar o filtro de bucle (tamén chamado deblocking) durante a descodificación H.264. Xa que se supón que o fotograma filtrado é usado como referencia para a descodificación de fotogramas isto ten un efecto peor que non facer deblocking. p.ex. vídeos MPEG-2. Polo menos, para vídeos HDTV de alta taxa de bits isto fornece unha maior velocidade sen efecto de perda de calidade aparente. </translation>
@@ -7785,12 +7773,12 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Intentar usar o códec privativo CoreAVC cando non haxa outro códec especificado e haxa unha saída de vídeo non-VDPAU seleccionada.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Precisa unha compilación do MPlayer con compatibilidade para CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>

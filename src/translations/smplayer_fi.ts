@@ -5681,10 +5681,6 @@ Example: extrastereo,karaoke</source>
         <translation>Korkea nopeus toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
     <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Mahdollistaa muuttaa toiston nopeutta ilman muuttuvaa äänenkorkeutta. Vaatii vähintään MPlayer dev-SVN-r24924.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="315"/>
         <source>&amp;Video</source>
         <translation>&amp;Kuva</translation>

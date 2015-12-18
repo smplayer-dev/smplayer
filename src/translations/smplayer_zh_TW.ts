@@ -5160,10 +5160,6 @@ Example: extrastereo,karaoke</source>
         <translation>選取您的 DVD 裝置，用它來播放 DVDs。</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">如果這個選項被勾選，SMPlayer 會使用的 dvdnav 播放 DVD。需要最新版本所編譯而成，具有 dvdnav 支援的 MPlayer。</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>選擇您的 &amp;CD 裝置：</translation>
@@ -5201,7 +5197,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果這個選項被勾選，SMPlayer 會使用 dvdnav 播放 DVD。需要最新版本，具有 dvdnav 支援的 MPlayer。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5427,7 +5423,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>允許改變播放速度而不改變音調。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5688,10 +5684,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>在不改變音調下高速播放</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">允許改變播放速度而不改變音調。需要至少 MPlayer dev-SVN-r24924。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6753,7 +6745,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>避免視窗跑出螢幕外(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6933,12 +6925,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>避免視窗跑出螢幕外</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>若在自動重新調整大小後，主視窗跑出螢幕外，此時這個選項可以將其置中以避免這種狀況發生。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7693,10 +7685,6 @@ Example: extrastereo,karaoke</source>
         <translation>回路濾波器(&amp;F)</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">沒有指定其他解碼器和選擇了非 VDPAU 視訊輸出時，將嘗試使用非自由的 CoreAVC 解碼器。需要內含 CoreAVC 支援的 MPlayer。</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>這個選項讓您可以在 H.264 解碼時跳過迴圈過濾器（又稱解封）。因為過濾的畫面被用做解碼依賴畫面的參考，所以可能會有比在像是 MPEG-2 視訊上無解封更糟的品質。但至少對高位元率的 HDTV 來說提供了大大的加速，並且沒有明顯的視覺上的損失。</translation>
@@ -7784,12 +7772,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>沒有指定其他解碼器和選擇了非 VDPAU 視訊輸出時，將嘗試使用非自由的 CoreAVC 解碼器。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>需要開啟 CoreAVC 支援的 MPlayer 構建。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>

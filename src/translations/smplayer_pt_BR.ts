@@ -5161,10 +5161,6 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>Escolha a unidade DVD. Será utilizada para reproduzir DVDs.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Se selecionar esta opção, o SMPlayer irá reproduzir os DVDs utilizando dvdnav. Necessita uma versão do MPlayer compilada com suporte a dvdnav.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Selecione o seu dispositivo &amp;CD:</translation>
@@ -5202,7 +5198,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecionando essa opção, o SMPlayer reproduzirá DVDs usando o dvdnav. Requer uma versão do MPlayer com suporte ao dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5428,7 +5424,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Permite alterar a velocidade de reprodução sem alterar a frequência.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5689,10 +5685,6 @@ Exemplo: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Reproduzir em alta velocidade sem alterar a densidade</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Permite alterar a velocidade de reprodução sem alterar a densidade. Necessário MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -6754,7 +6746,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Previne a janela de ficar fora da tela</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6934,12 +6926,12 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Previne a janela de ficar fora da tela</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se após um auto ajuste do tamanho a janela principal ficar fora da tela, essa opção centralizará a janela como prevenção.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7694,10 +7686,6 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>&amp;Filtro de loop</translation>
     </message>
     <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Tentar usar CoreAVC não livre quando nenhum outro codec for especificado e nenhuma saída de vídeo VDPAU for selecionada. Requer MPlayer com suporte a CoreAVC.</translation>
-    </message>
-    <message>
         <location filename="../prefperformance.cpp" line="300"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Esta opção permite ignorar o filtro loop (AKA deblocking) durante a descodificação H.264. Como o quadro filtrado deve ser usada como referência para descodificação de quadros dependentes, terá um  efeito inferior comparativamente ao deblocking em vídeos MPEG-2. No entanto, para uma taxa de bits HDTV, fornece uma maior velocidade sem perda visível na qualidade .</translation>
@@ -7785,12 +7773,12 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tenta usar o codec proprietário CoreAVC quando nenhum outro codec for especificado e uma saída de vídeo que não seja VDPAU estiver selecionada.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Requer uma compilação do MPlayer com suporte ao CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>

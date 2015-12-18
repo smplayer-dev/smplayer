@@ -5681,10 +5681,6 @@ Example: extrastereo,karaoke</source>
         <translation>Chơi tốc độ cao mà không hay đổi cao độ</translation>
     </message>
     <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Cho phép thay đổi tốc độ cao mà không làm thay đổi cao độ. Cần ít nhất là phiên bản MPlayer dev-SVN-r24924.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="315"/>
         <source>&amp;Video</source>
         <translation>&amp;Hình ảnh</translation>

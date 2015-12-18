@@ -5678,10 +5678,6 @@ Example: extrastereo,karaoke</source>
         <translation>Gyors visszajátszás, hangmagasság változása nélkül</translation>
     </message>
     <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Lehetőséget nyújt a visszajátszási sebesség változtatására a hangmagasság változása nélkül. Legalább MPlayer dev-SVN-r24924 szükséges.</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="315"/>
         <source>&amp;Video</source>
         <translation>&amp;Videó</translation>

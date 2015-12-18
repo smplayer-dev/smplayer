@@ -5160,10 +5160,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Pilih peranti DVD anda. Ia akan digunakan untuk main DVD.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Jika pilihan ini ditanda, smplayer akan mainkan DVD menggunakan dvdnav. Perlukan versi terkini mplayer yang dikompil dengan sokongan dvdnav.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Pilih peranti &amp;CD anda:</translation>
@@ -5688,10 +5684,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Main balik kelajuan tinggi tanpa mengubah pic</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Benarkan ubah kelajuan main balik tanpa mengubah pic. Diperlukan sekurang-kurangnya MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7691,10 +7683,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Penapis &amp;gelung</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Cuba guna kodeks non-free CoreAVC bila tiada lagi kodeks lain dinyatakan dan output video bukan-VDPAU dipilih. Perlukan MPlayer dibina dengan sokongan CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

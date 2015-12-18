@@ -5161,10 +5161,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Pilih perangkat DVD Anda. Perangkat tersebut akan digunakan untuk memutar DVD.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Jika opsi ini dicentang, SMPlayer akan memutar DVD menggunakan dvdnav. Diperlukan versi terbaru dari MPlayer untuk digabungkan dengan dukungan dvdnav.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>PIlih perangkat &amp;CD Anda:</translation>
@@ -5689,10 +5685,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Pemutaran kecepatan tinggi tanpa mengubah nada</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Membolehkan untuk mengubah kecepatan pemutaran tanpa mengubah nada. Memerlukan setidaknya MPlayer dev-SVN-r24924.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7692,10 +7684,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>&amp;Filter pengulangan</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Coba untuk menggunakan kodek tidak gratis CoreAVC ketika tidak ada kodek lain yang cocok dan keluaran video non-VDPAU dipilih. Membutuhkan MPlayer yang dibuat dengan dukungan CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>

@@ -5161,10 +5161,6 @@ Example: extrastereo,karaoke</source>
         <translation>Изберете Вашето DVD устройство. То ще бъде използвано за възпроизвеждане на DVD.</translation>
     </message>
     <message>
-        <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a recent version of MPlayer compiled with dvdnav support.</source>
-        <translation type="obsolete">Ако тази опция е активирана, SMPlayer ще възпроизвежда DVD-та през dvdnav. Изисква последна версия на MPlayer, компилирана с поддръжка на dvdnav.</translation>
-    </message>
-    <message>
         <location filename="../prefdrives.ui" line="75"/>
         <source>Select your &amp;CD device:</source>
         <translation>Изберете Вашето &amp;CD устройство:</translation>
@@ -5689,10 +5685,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1121"/>
         <source>High speed playback without altering pitch</source>
         <translation>Възпроизвеждане на висока скорост без изкривяване</translation>
-    </message>
-    <message>
-        <source>Allows to change the playback speed without altering pitch. Requires at least MPlayer dev-SVN-r24924.</source>
-        <translation type="obsolete">Позволява да се възпроизвежда при висока скорост без изкривяване. Изисква се версия на MPlayer dev-SVN-r24924 или по-висока. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="315"/>
@@ -7692,10 +7684,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="244"/>
         <source>Loop &amp;filter</source>
         <translation>Повтарящ &amp;филтър</translation>
-    </message>
-    <message>
-        <source>Try to use non-free CoreAVC codec when no other codec is specified and non-VDPAU video output selected. Requires MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Опитай да използваш комерсиален CoreAVC кодек, когато няма избран друг и е избран видео изход, който не е VDPAU. Изисква MPlayer продукт с поддръжка на CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="300"/>
