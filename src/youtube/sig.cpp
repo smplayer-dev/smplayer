@@ -61,6 +61,7 @@ QString Sig::findFunctions(const QString & text) {
 	if (!sig_name.isEmpty()) {
 		//int pos = text.indexOf("function " + sig_name);
 		int pos = text.indexOf("var " + sig_name + "=function");
+		if (pos == -1) pos = text.indexOf("," + sig_name + "=function");
 		if (pos > -1) {
 			int endpos = text.indexOf("}", pos);
 			#ifdef ULTRAVERBOSE
@@ -68,7 +69,9 @@ QString Sig::findFunctions(const QString & text) {
 			#endif
 			if (endpos > -1) {
 				sig_code = text.mid(pos, (endpos-pos)+1);
-				sig_code.replace("var " + sig_name + "=function", "function " + sig_name);
+				if (sig_code.startsWith("var ")) sig_code.replace("var " + sig_name + "=function", "function " + sig_name);
+				else
+				if (sig_code.startsWith(",")) sig_code.replace("," + sig_name + "=function", "function " + sig_name);
 			}
 		}
 	}
