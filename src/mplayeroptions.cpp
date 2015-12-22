@@ -153,7 +153,13 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 	if (filter_name == "screenshot") {
 		QString f = "screenshot";
 		if (!screenshot_dir.isEmpty()) {
-			f += "="+ QDir::toNativeSeparators(screenshot_dir + "/shot");
+			QString dir = QDir::toNativeSeparators(screenshot_dir);
+			if (MplayerVersion::isMplayerAtLeast(36848)) {
+				f += "="+ dir + "/shot";
+			} else {
+				// Keep compatibility with older versions
+				setWorkingDirectory(dir);
+			}
 		}
 		arg << "-vf-add" << f;
 	}
