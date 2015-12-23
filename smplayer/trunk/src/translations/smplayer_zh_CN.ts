@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_CN">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1204,7 +1202,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>主轨道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -2213,7 +2211,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>额..出错了</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2678,9 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已提取%n个字幕</numerusform>
-        </translation>
+        <translation><numerusform>已提取%n个字幕</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2778,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>无法在文件夹 %1
@@ -4898,7 +4894,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>将 1% 选项传送给 MPlayer (安全风险)(&amp;s)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4933,12 +4929,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>将 1% 选项传送给 MPlayer (安全风险)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>播放文件列表(m3u等)需要使用此选项，但是这可能导致安全风险，因为MPlayer 无法正确处理恶意文件。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5197,7 +5193,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果勾选此项，SMPlayer 会使用 dvdnav 播放 DVD。需要已启用 dvdnav 功能的 MPlayer后端。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5423,7 +5419,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>允许不改变音高调整播放速度。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -6745,7 +6741,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>防止窗口跃出屏幕边缘(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6925,12 +6921,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>防止窗口跃出屏幕边缘</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7772,12 +7768,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -8836,17 +8832,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n秒</numerusform>
-        </translation>
+        <translation><numerusform>%n秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n分</numerusform>
-        </translation>
+        <translation><numerusform>%n分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

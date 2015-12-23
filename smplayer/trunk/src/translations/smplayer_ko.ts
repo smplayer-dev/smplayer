@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2678,9 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 자막을 추출했습니다</numerusform>
-        </translation>
+        <translation><numerusform>%n 자막을 추출했습니다</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2778,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>다운로드한 파일을 폴더에 저장할 수 없습니다.
@@ -5197,7 +5193,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션을 사용하면 SMPlayer는 dvdnav를 이용해서 DVD를 재생할 것입니다. dvdnav를 지원하는 버전의 MPlayer가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5423,7 +5419,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>음의 높이를 변경하지 않고 재생 속도를 바꿀 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -6746,7 +6742,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>창이 화면 밖으로 나가지 않도록 방지하기(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6926,12 +6922,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>창이 화면 밖으로 나가지 않도록 합니다</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>자동크기조절 후에 메인 창이 화면 밖으로 나가면, 이 옵션은 그것을 방지하기 위해 창을 화면 가운데 놓을 것 입니다.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7773,12 +7769,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>다른 코덱을 지정하지 않고 VDPAU 비디오 출력이 아닐 때 상용 코덱인 CoreAVC를 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>CoreAVC를 지원하는 MPlayer가 필요합니다.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -8837,17 +8833,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 초</numerusform>
-        </translation>
+        <translation><numerusform>%n 초</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 분</numerusform>
-        </translation>
+        <translation><numerusform>%n 분</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
