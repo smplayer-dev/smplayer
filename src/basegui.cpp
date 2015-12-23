@@ -200,20 +200,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	connect( mplayerwindow, SIGNAL(wheelDown()),
              core, SLOT(wheelDown()) );
 
-	// Set style before changing color of widgets:
-	// Set style
 #if STYLE_SWITCHING
-	/*
-	qDebug("BaseGui::BaseGui: style name: '%s'", qApp->style()->objectName().toUtf8().data());
-	qDebug("BaseGui::BaseGui: style class name: '%s'", qApp->style()->metaObject()->className());
-	qDebug("BaseGui::BaseGui: pref->style: '%s'", pref->style.toUtf8().constData());
-	*/
-
 	default_style = qApp->style()->objectName();
-	if (!pref->style.isEmpty()) {
-		qApp->setStyleSheet(""); // Remove a previous stylesheet to prevent a crash
-		qApp->setStyle( pref->style );
-	}
 #endif
 
 #ifdef LOG_MPLAYER
@@ -3068,7 +3056,7 @@ void BaseGui::applyNewPreferences() {
 		need_update_language = true;
 		// Stylesheet
 		#if ALLOW_CHANGE_STYLESHEET
-		if (!_interface->guiChanged()) changeStyleSheet(pref->iconset);
+		if (!_interface->guiChanged()) applyStyles();
 		#endif
 	}
 
@@ -3127,13 +3115,7 @@ void BaseGui::applyNewPreferences() {
 
 #if STYLE_SWITCHING
 	if (_interface->styleChanged()) {
-		qDebug( "selected style: '%s'", pref->style.toUtf8().data() );
-		if ( !pref->style.isEmpty()) {
-			qApp->setStyle( pref->style );
-		} else {
-			qDebug("setting default style: '%s'", default_style.toUtf8().data() );
-			qApp->setStyle( default_style );
-		}
+		applyStyles();
 	}
 #endif
 
@@ -5409,6 +5391,8 @@ void BaseGui::exitFullscreenIfNeeded() {
 
 #if ALLOW_CHANGE_STYLESHEET
 QString BaseGui::loadQss(QString filename) {
+	qDebug("BaseGui::loadQss: %s", filename.toUtf8().constData());
+
 	QFile file( filename );
 	file.open(QFile::ReadOnly);
 	QString stylesheet = QLatin1String(file.readAll());
@@ -5466,6 +5450,23 @@ void BaseGui::changeStyleSheet(QString style) {
 	qApp->setStyleSheet(stylesheet);
 }
 #endif
+
+void BaseGui::applyStyles() {
+	qDebug("BaseGui::applyStyles");
+
+#if ALLOW_CHANGE_STYLESHEET
+	qDebug() << "BaseGui::applyStyles: stylesheet:" << pref->iconset;
+	changeStyleSheet(pref->iconset);
+#endif
+
+#if STYLE_SWITCHING
+	QString style = pref->style;
+	if (style.isEmpty()) style = default_style;
+	qDebug() << "BaseGui::applyStyles: style:" << style;
+	if (!style.isEmpty()) qApp->setStyle(style);
+#endif
+
+}
 
 void BaseGui::loadActions() {
 	qDebug("BaseGui::loadActions");

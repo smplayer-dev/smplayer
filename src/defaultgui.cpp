@@ -103,9 +103,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 		}
 	}
 
-#if ALLOW_CHANGE_STYLESHEET
-	changeStyleSheet(pref->iconset);
-#endif
+	applyStyles();
 }
 
 DefaultGui::~DefaultGui() {

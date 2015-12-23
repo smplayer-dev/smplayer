@@ -87,7 +87,7 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 
 	statusBar()->hide();
 
-	changeStyleSheet(pref->iconset);
+	applyStyles();
 	mediaBarPanel->setVolume(50);
 }
 
