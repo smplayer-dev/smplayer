@@ -54,9 +54,7 @@ MpcGui::MpcGui( QWidget * parent, Qt::WindowFlags flags )
 		timeslidewidget->hide();
 	}
 
-#if ALLOW_CHANGE_STYLESHEET
-	changeStyleSheet(pref->iconset);
-#endif
+	applyStyles();
 }
 
 MpcGui::~MpcGui() {

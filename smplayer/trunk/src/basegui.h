@@ -310,6 +310,8 @@ protected slots:
 	virtual void changeStyleSheet(QString style);
 #endif
 
+	void applyStyles();
+
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */

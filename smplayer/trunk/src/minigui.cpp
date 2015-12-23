@@ -55,9 +55,7 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 		controlwidget->hide();
 	}
 
-#if ALLOW_CHANGE_STYLESHEET
-	changeStyleSheet(pref->iconset);
-#endif
+	applyStyles();
 }
 
 MiniGui::~MiniGui() {
