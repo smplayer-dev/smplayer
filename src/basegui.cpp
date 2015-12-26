@@ -201,7 +201,10 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
              core, SLOT(wheelDown()) );
 
 #if STYLE_SWITCHING
+	qApp->setStyleSheet("");
 	default_style = qApp->style()->objectName();
+	qDebug() << "BaseGui::BaseGui: default_style:" << default_style;
+	//qDebug() << "BaseGui::BaseGui: qApp->style:" << qApp->style();
 #endif
 
 #ifdef LOG_MPLAYER
