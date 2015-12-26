@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -543,7 +541,7 @@ Möchten Sie sie Überschreiben?</translation>
         <location filename="../basegui.cpp" line="3433"/>
         <location filename="../basegui.cpp" line="3447"/>
         <source>&amp;None</source>
-        <translation>&amp;Kein</translation>
+        <translation>&amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1997"/>
@@ -987,7 +985,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1709"/>
         <source>Start/stop capturing stream</source>
-        <translation>Aufnahmestream starten/stoppen</translation>
+        <translation>Aufnahme des Datenstroms starten/stoppen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
@@ -1167,7 +1165,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="2007"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation>&amp;Kein</translation>
+        <translation>&amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2008"/>
@@ -1204,12 +1202,12 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Primärspur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
         <source>Secondary trac&amp;k</source>
-        <translation>&amp;Sekundäre Spur</translation>
+        <translation>&amp;Sekundärspur</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2068"/>
@@ -1321,7 +1319,8 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4861"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Möchten Sie den Youtube-Code aktualisieren? Dieses könnte das Problem beheben.</translation>
+        <translation>Möchten Sie den Youtube-Code aktualisieren?
+Das könnte das Problem beheben.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4869"/>
@@ -1487,22 +1486,22 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2012"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>Drehen im Uhrzeigersinn um &amp;90 Grad und spiegeln</translation>
+        <translation>Um &amp;90 Grad im Uhrzeigersinn drehen und spiegeln</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2013"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation>Drehen im &amp;Uhrzeigersinn um 90 Grad</translation>
+        <translation>&amp;Um 90 Grad im Uhrzeigersinn drehen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2014"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation>Drehen um 90 Grad &amp;entgegen dem Uhrzeigersinn</translation>
+        <translation>Um 90 Grad &amp;entgegen dem Uhrzeigersinn drehen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2015"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>Drehen &amp;um 90 Grad entgegen dem Uhrzeigersinn und spiegeln</translation>
+        <translation>Um 90 Grad entgegen dem Uhrzeigersinn drehen und &amp;spiegeln</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1689"/>
@@ -2213,7 +2212,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Huch! Irgendwas lief schief</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2373,7 +2372,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation>Klicken um Datei oder Ordner zu wählen</translation>
+        <translation>Anklicken, um Datei oder Ordner auszuwählen</translation>
     </message>
 </context>
 <context>
@@ -2678,10 +2677,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2779,7 +2775,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -2832,7 +2828,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="75"/>
         <source>%1 KB (%2 MB)</source>
-        <translation>%1 KB (%2 MB)</translation>
+        <translation>%1 kB (%2 MB)</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="79"/>
@@ -3039,7 +3035,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation>Zei&amp;t:</translation>
+        <translation>&amp;Zeit:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
@@ -4899,7 +4895,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Option %1 an den MPlayer &amp;weitergeben (Sicherheitsrisiko)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4934,12 +4930,12 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Option %1 an den MPlayer weitergeben (Sicherheitsrisiko)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5198,7 +5194,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5424,7 +5420,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erlaubt es, die Wiedergabegeschwindigkeit ohne Änderung der Tonhöhe zu ändern.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5649,7 +5645,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1250"/>
         <source>Or choose a track number:</source>
-        <translation>Oder wählen Sie eine Spurnummer:</translation>
+        <translation>Oder eine Spurnummer auswählen:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1191"/>
@@ -6746,7 +6742,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Ver&amp;hindern, dass das Fenster außerhalb des Bildschirms geht</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6927,12 +6923,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Verhindern, dass das Fenster außerhalb des Bildschirms geht</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7534,7 +7530,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefperformance.ui" line="520"/>
         <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
-        <translation>KB</translation>
+        <translation>kB</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
@@ -7624,7 +7620,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="338"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer Datei, verwendet wird.</translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer Datei, verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="341"/>
@@ -7634,7 +7630,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="342"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Vorabzwischenspeichern einer Adresse, verwendet wird.</translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer Adresse, verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
@@ -7644,7 +7640,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="346"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer DVD, verwendet wird.&lt;br&gt;&lt;b&gt;Warnung:&lt;/b&gt; Das Spulen (sowie auch das Wechseln von Kapiteln) wird eventuell nicht richtig funktionieren, wenn die Verwendung eines Zwischenspeichers für DVDs aktiviert ist.</translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer DVD, verwendet wird.&lt;br&gt;&lt;b&gt;Achtung:&lt;/b&gt; das Spulen (sowie auch das Wechseln von Kapiteln) wird eventuell nicht richtig funktionieren, wenn die Verwendung eines Zwischenspeichers für DVDs aktiviert ist.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -7774,12 +7770,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte den nicht freien CoreAVC-Codec versuchen, wenn keine anderer Codec angegeben ist und eine nicht-VDPAU-Video-Ausgabe ausgewählt ist.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Erfordert einen MPlayer mit CoreAVC-Unterstützung erstellt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -7794,7 +7790,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="351"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer Audio-CD, verwendet wird.</translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer Audio-CD, verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="466"/>
@@ -7809,7 +7805,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="355"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation>Diese Option gibt an, wie viel Speicher (in kByte), beim Precaching einer VCD, verwendet wird.</translation>
+        <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer VCD, verwendet wird.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="503"/>
@@ -8838,19 +8834,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
