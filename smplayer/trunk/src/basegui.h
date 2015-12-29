@@ -180,6 +180,9 @@ public slots:
 	void setStayOnTop(bool b);
 	virtual void changeStayOnTop(int);
 	virtual void checkStayOnTop(Core::State);
+#if QT_VERSION >= 0x050000
+	void updateStayOnTop();
+#endif
 	void toggleStayOnTop();
 
 	void setForceCloseOnFinish(int n) { arg_close_on_finish = n; };
