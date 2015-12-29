@@ -1031,7 +1031,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1818"/>
         <source>First Steps &amp;Guide</source>
-        <translation>Перші кроки &amp;керівництво</translation>
+        <translation>Перші кроки &amp;посібник</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1824"/>
@@ -1903,7 +1903,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation>&amp;Видалити закладку</translation>
+        <translation>&amp;Вилучити закладку</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
@@ -2937,7 +2937,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Frames per second</source>
-        <translation>Кадрів за секунду</translation>
+        <translation>Кадрів на секунду</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="114"/>
@@ -3290,7 +3290,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
-        <translation>Ірландська</translation>
+        <translation>Ірляндська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
@@ -3315,7 +3315,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="79"/>
         <source>Hebrew</source>
-        <translation>Іврит</translation>
+        <translation>Іврит(Гебрейська)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
@@ -3357,7 +3357,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation>Ісландська</translation>
+        <translation>Ісляндська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
@@ -3441,7 +3441,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="123"/>
         <location filename="../languages.cpp" line="329"/>
         <source>Latvian</source>
-        <translation>Латвійська</translation>
+        <translation>Латишська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="124"/>
@@ -3481,7 +3481,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="132"/>
         <source>Malay</source>
-        <translation>Малайска</translation>
+        <translation>Малайська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="133"/>
@@ -3507,7 +3507,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="140"/>
         <location filename="../languages.cpp" line="223"/>
         <source>Dutch</source>
-        <translation>Нідерландська</translation>
+        <translation>Нідерляндська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="141"/>
@@ -3814,7 +3814,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="303"/>
         <source>Hebrew charsets</source>
-        <translation>Іврит</translation>
+        <translation>Іврит(Гебрейська)</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
@@ -4294,7 +4294,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="180"/>
         <source>Edit &amp;floating control</source>
-        <translation>Р&amp;едагувати спливаючу панель</translation>
+        <translation>Р&amp;едагувати спливну панель</translation>
     </message>
 </context>
 <context>
@@ -4538,7 +4538,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1362"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation>Ви збираєтеся ВИЛУЧИТИ файл &apos;%1&apos; з вашого диску.</translation>
+        <translation>Ви збираєтеся ВИЛУЧИТИ файл &apos;%1&apos; з Вашого диску.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1363"/>
@@ -4848,7 +4848,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="498"/>
         <source>Correct pts</source>
-        <translation>Корегувати pts</translation>
+        <translation>Коригувати pts</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
@@ -5173,7 +5173,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>Типово SMPlayer не вибирає жодного КД чи DVD пристрою. Тому перед відтворенням CD чи DVD Ви повині вказати який пристрій бажаєте використовувати (це може бути один і той самий).</translation>
+        <translation>Типово SMPlayer не вибирає жодного КД чи DVD пристрою. Тому перед відтворенням КД чи DVD Ви повині вказати який пристрій бажаєте використовувати (це може бути один і той самий).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
@@ -6142,12 +6142,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="38"/>
         <source>Keyboard and mouse</source>
-        <translation>Клавіатура та миша</translation>
+        <translation>Клавіятура та миша</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
-        <translation>&amp;Клавіатура</translation>
+        <translation>&amp;Клавіятура</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6346,7 +6346,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="311"/>
         <source>Keyboard</source>
-        <translation>Клавіатура</translation>
+        <translation>Клавіятура</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="324"/>
@@ -6546,7 +6546,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Change function of wheel</source>
-        <translation>Змінити призначення колеса</translation>
+        <translation>Змінити призначення коліща</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="395"/>
@@ -6575,7 +6575,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="354"/>
         <source>Mouse wheel functions</source>
-        <translation>Призначення колеса миші</translation>
+        <translation>Призначення коліща миші</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="357"/>
@@ -6600,17 +6600,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.ui" line="373"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation>Призначення к&amp;олеса миші</translation>
+        <translation>Призначення к&amp;оліща миші</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="385"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation>Виберіть дію, яка буде змінюватися, коли використовується опція &quot;Змінити призначення колеса&quot;.</translation>
+        <translation>Виберіть дію, яка буде змінюватися, коли використовується опція &quot;Змінити призначення коліща&quot;.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="351"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation>Переміщувати колесом миші в зворотньому напрямку</translation>
+        <translation>Переміщувати коліщам миші в зворотньому напрямку</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="352"/>
@@ -6620,7 +6620,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.ui" line="347"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation>Переміщувати колесом миші в &amp;зворотньому напрямку</translation>
+        <translation>Переміщувати коліщам миші в &amp;зворотньому напрямку</translation>
     </message>
 </context>
 <context>
@@ -6796,7 +6796,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Спливаюча панель керування з&apos;являється при переміщенні миші в повноекранному режимі.</translation>
+        <translation>Спливна панель керування з&apos;являється при переміщенні миші в повноекранному режимі.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -7028,12 +7028,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="727"/>
         <source>Mouse wheel jump</source>
-        <translation>Крок колеса миші</translation>
+        <translation>Крок коліща миші</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="728"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation>Вкажіть час для кроку назад чи вперед при прокрутці колеса миші.</translation>
+        <translation>Вкажіть час для кроку назад чи вперед при прокрутці коліща миші.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="731"/>
@@ -7273,7 +7273,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation>&amp;Увімкнути інутрішню підтримку Youtube</translation>
+        <translation>&amp;Увімкнути внутрішню підтримку Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="45"/>
@@ -7348,7 +7348,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="148"/>
         <source>Enable Youtube internal support</source>
-        <translation>Увімкнути інутрішню підтримку Youtube</translation>
+        <translation>Увімкнути внутрішню підтримку Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="149"/>
@@ -7783,17 +7783,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="350"/>
         <source>Cache for audio CDs</source>
-        <translation>Кеш для аудіо CD</translation>
+        <translation>Кеш для аудіо КД</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="351"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прикешування аудіо CD.</translation>
+        <translation>Ця опція вказує (в кілобайтах) скільки пам&apos;яті використовувати для прикешування аудіо КД.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Кеш для &amp;аудіо CD:</translation>
+        <translation>Кеш для &amp;аудіо КД:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
@@ -9609,7 +9609,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="431"/>
         <source>Frames per second: %1</source>
-        <translation>Кадрів за секунду: %1</translation>
+        <translation>Кадрів на секунду: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="432"/>
