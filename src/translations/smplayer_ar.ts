@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ar">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ar" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2678,14 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>لم تُستخرَج أية ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
-            <numerusform>استُخرجت ترجمتان</numerusform>
-            <numerusform>استُخرجت %n ترجمات</numerusform>
-            <numerusform>استُخرجت %n ترجمةً</numerusform>
-            <numerusform>استُخرجت %n ترجمة</numerusform>
-        </translation>
+        <translation><numerusform>لم تُستخرَج أية ترجمة</numerusform><numerusform>استُخرجت ترجمة وحيدة</numerusform><numerusform>استُخرجت ترجمتان</numerusform><numerusform>استُخرجت %n ترجمات</numerusform><numerusform>استُخرجت %n ترجمةً</numerusform><numerusform>استُخرجت %n ترجمة</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2783,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>لم يكن ممكناً حفظ الملف المُنزَّل في المجلد %1
@@ -5200,7 +5191,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>إذا أُشّر هذا الخيار، فإن SMPlayer سيشغّل اقراص الدي في دي باسستخدام تنقل خرائط الدي في دي dvdnav. يتطلب إصدار  فيه دعم لـ تنقل خرائط الدي في دي dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5426,7 +5417,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>يسمح بتغيير سرعة التشغيل دون تغيير النبرة.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5476,7 +5467,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="207"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
@@ -6227,7 +6218,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="314"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>يسمح لك هذا الجدول بتغيير إختصارات معظم الإجراءات المتوفرة. انقر نقراً مزدوجاً أو اضغط مفتاح الرجوع على أي عنصر، أو اضغط زر &lt;b&gt;غيِّر الإختصار&lt;/b&gt; للدخول الى مربع حوار enter in the &lt;i&gt;عدّل الاختصار&lt;/i&gt;. توجد طريقتان لتغيير الإختصار: إذا كان زر if the &lt;b&gt;التقط&lt;/b&gt; مشتغلاً، اذن ما عليك الاّ الضغط على المفتاح الجديد أو تركيبة المفاتيح الجديدة التي تريد تخصيصها لأحد الإجراءات (للأسف هذا لا يعمل لجميع المفاتيح). إذا لم يكن زر &lt;b&gt;التقط&lt;/b&gt; مشتغلاً فيمكنك إدخال الإسم الكامل للمفتاح.</translation>
+        <translation>يسمح لك هذا الجدول بتغيير إختصارات معظم الإجراءات المتوفرة. انقر نقراً مزدوجاً أو اضغط مفتاح الرجوع على أي عنصر، أو اضغط زر &lt;b&gt;غيِّر الإختصار&lt;/b&gt; للدخول الى مربع حوار &lt;i&gt;عدّل الاختصار&lt;/i&gt;. توجد طريقتان لتغيير الإختصار: إذا كان زر &lt;b&gt;التقط&lt;/b&gt; مشتغلاً، اذن ما عليك الاّ الضغط على المفتاح الجديد أو تركيبة المفاتيح الجديدة التي تريد تخصيصها لأحد الإجراءات (للأسف هذا لا يعمل لجميع المفاتيح). إذا لم يكن زر &lt;b&gt;التقط&lt;/b&gt; مشتغلاً فيمكنك إدخال الإسم الكامل للمفتاح.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="326"/>
@@ -6748,7 +6739,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6928,12 +6919,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>منع النافذة من الوصول الى خارج الشاشة</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>اذا حصل انه بعد التغيير التلقائي للحجم اصبحت النافذة خارج الشاشة فإن هذا الخيار سيضع النافذة في المنتصف لمنع الأمر.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7775,12 +7766,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>حاول استخدام مرمزات CoreAVC غير مجانية عندما لا تُعيَّن مرمزات اخرى و عند تحديد مخرَجات فيديو ليست VDPAU.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>يتطلب تركيبة MPlayer فيها دعم لـ CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -8839,27 +8830,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n ثا</numerusform>
-            <numerusform>ثانية واحدة</numerusform>
-            <numerusform>ثانيتين</numerusform>
-            <numerusform>%n ثوانٍ</numerusform>
-            <numerusform>%n ثانيةً</numerusform>
-            <numerusform>%n ثانية</numerusform>
-        </translation>
+        <translation><numerusform>%n ثا</numerusform><numerusform>ثانية واحدة</numerusform><numerusform>ثانيتين</numerusform><numerusform>%n ثوانٍ</numerusform><numerusform>%n ثانيةً</numerusform><numerusform>%n ثانية</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n د</numerusform>
-            <numerusform>دقيقة واحدة</numerusform>
-            <numerusform>دقيقتين</numerusform>
-            <numerusform>%n دقائق</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-            <numerusform>%n دقيقة</numerusform>
-        </translation>
+        <translation><numerusform>%n د</numerusform><numerusform>دقيقة واحدة</numerusform><numerusform>دقيقتين</numerusform><numerusform>%n دقائق</numerusform><numerusform>%n دقيقة</numerusform><numerusform>%n دقيقة</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
