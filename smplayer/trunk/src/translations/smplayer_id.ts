@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="id">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -31,7 +29,7 @@
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Klik di sini untuk mengetahui penerjemah dari tim transifex</translation>
+        <translation>Klik di sini untuk mengetahui penerjemah dari regu-regu transifex</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="156"/>
@@ -46,7 +44,7 @@
     <message>
         <location filename="../about.cpp" line="158"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>Kunjungi %1 dan bergabunglah dengan kelompok penerjemah.</translation>
+        <translation>Kunjungi %1 dan bergabunglah dengan regu terjemahan.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
@@ -183,7 +181,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="465"/>
         <source>Confirm overwrite?</source>
-        <translation>Konfirmasi menimpa?</translation>
+        <translation>Konfirmasi timpa?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="466"/>
@@ -362,12 +360,12 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Gunakan nilai yang sekarang sebagai nilai bawaan untuk video baru.</translation>
+        <translation>Gunakan nilai saat ini sebagai nilai baku untuk video baru.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="228"/>
         <source>Set all controls to zero.</source>
-        <translation>Atur semua kontrol ke nol.</translation>
+        <translation>Setel semua kendali ke nol.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="244"/>
@@ -377,7 +375,7 @@ Apakah anda ingin menimpanya?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="245"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Nilai yang sekarang telah tersimpan untuk digunakan sebagai bawaan.</translation>
+        <translation>Nilai yang sekarang telah tersimpan untuk digunakan sebagai baku.</translation>
     </message>
 </context>
 <context>
@@ -816,8 +814,8 @@ Apakah anda ingin menimpanya?</translation>
         <location filename="../basegui.cpp" line="4124"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>Perangkat CDROM / DVD belum diatur.
-Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</translation>
+        <translation>Perangkat CDROM / DVD belum disetel.
+Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4237"/>
@@ -1357,7 +1355,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="3887"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Pengaturan saat ini telah dikembalikan untuk digunakan sebagai baku.</translation>
+        <translation>Nilai-nilai saat ini telah disimpan untuk digunakan sebagai baku.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
@@ -1690,7 +1688,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1748"/>
         <source>Set dela&amp;y...</source>
-        <translation>Atur perlam&amp;batan...</translation>
+        <translation>Setel perlam&amp;batan...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1764"/>
@@ -1734,7 +1732,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="2020"/>
         <source>Toggle stay on top</source>
-        <translation>Atur tetap diatas</translation>
+        <translation>Nyala-matikan tetap diatas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5287"/>
@@ -1754,7 +1752,7 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1883"/>
         <source>Next wheel function</source>
-        <translation>Fungsi roda tetikus selanjutnya</translation>
+        <translation>Fungsi roda mouse selanjutnya</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2087"/>
@@ -1815,12 +1813,12 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../basegui.cpp" line="1684"/>
         <source>Set &amp;A marker</source>
-        <translation>Atur penanda &amp;A</translation>
+        <translation>Setel penanda &amp;A</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1685"/>
         <source>Set &amp;B marker</source>
-        <translation>Atur penanda &amp;B</translation>
+        <translation>Setel penanda &amp;B</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1686"/>
@@ -2099,12 +2097,12 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../core.cpp" line="2640"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation>Penanda &quot;A&quot; diatur ke %1</translation>
+        <translation>Penanda &quot;A&quot; disetel ke %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2657"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation>Penanda &quot;B&quot; diatur ke %1</translation>
+        <translation>Penanda &quot;B&quot; disetel ke %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2672"/>
@@ -2182,17 +2180,17 @@ Dialog pengaturan akan ditampilkan sekarang, jadi anda dapat mengaturnya.</trans
     <message>
         <location filename="../defaultgui.cpp" line="571"/>
         <source>Edit &amp;control bar</source>
-        <translation>Sunting bilah &amp;kontrol</translation>
+        <translation>Sunting bilah &amp;kendali</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="572"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Sunting bilah kontrol m&amp;ini</translation>
+        <translation>Sunting bilah kendali m&amp;ini</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="573"/>
         <source>Edit &amp;floating control</source>
-        <translation>Sunting kontrol &amp;melayang</translation>
+        <translation>Sunting kendali &amp;melayang</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="605"/>
@@ -2541,7 +2539,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation>Jika proxy memerlukan autentifikasi, atur username ini</translation>
+        <translation>Jika proxy memerlukan wewenang, setel nama-pengguna ini.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
@@ -2679,9 +2677,7 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitle terkestrak</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitle terkestrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2779,7 +2775,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Jika tidak memungkinkan untuk menyimpan berkas yang diunduh
@@ -2958,7 +2954,7 @@ Harap periksa izin dari map tersebut.</translation>
     <message>
         <location filename="../infofile.cpp" line="122"/>
         <source>Rate</source>
-        <translation>Rata</translation>
+        <translation>Laju</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="122"/>
@@ -4289,12 +4285,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../minigui.cpp" line="176"/>
         <source>Control bar</source>
-        <translation>Bilah kontrol</translation>
+        <translation>Bilah kendali</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="179"/>
         <source>Edit &amp;control bar</source>
-        <translation>Sunting &amp;bilah kontrol</translation>
+        <translation>Sunting &amp;bilah kendali</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="180"/>
@@ -4307,7 +4303,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="153"/>
         <source>Control bar</source>
-        <translation>Bilah kontrol</translation>
+        <translation>Bilah kendali</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="154"/>
@@ -4352,7 +4348,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Forward</source>
-        <translation>Putar depan</translation>
+        <translation>Putar maju</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
@@ -4421,7 +4417,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="853"/>
         <source>Confirm overwrite?</source>
-        <translation>Konfirmasi penimpaan?</translation>
+        <translation>Konfirmasi timpa?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="854"/>
@@ -4493,7 +4489,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="320"/>
         <source>S&amp;huffle</source>
-        <translation>A&amp;cak</translation>
+        <translation>K&amp;ocok</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="323"/>
@@ -4543,12 +4539,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="1362"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation>Kamu akan MENGHAPUS berkas &apos;%1&quot; dari perangkat kamu.</translation>
+        <translation>Anda akan MENGHAPUS berkas &apos;%1&quot; dari perangkat Anda.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1363"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation>Tindakan ini tidak dapat diselesaikan. Apakah Anda yakin untuk memprosesnya?</translation>
+        <translation>Tindakan ini tidak dapat diselesaikan. Apakah Anda yakin untuk memrosesnya?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1375"/>
@@ -4617,7 +4613,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="557"/>
         <source>Log SMPlayer output</source>
-        <translation>catatan keluaran SMPlayer</translation>
+        <translation>Log keluaran SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="679"/>
@@ -4954,7 +4950,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Di sini Anda dapat menentukan daftar dari &lt;i&gt;aksi&lt;/i&gt; yang akan dijalankan setiap berkas dibuka. Anda akan menemukan semua aksi yang tersedia pada penyunting tombol pintasan pada bagian &lt;b&gt;Keyboard dan mouse&lt;/b&gt;. Aksi harus dipisahkan dengan spasi. Aksi yang diisi dapat diikuti dengan aturan &lt;i&gt;true&lt;/i&gt; atau &lt;i&gt;false&lt;/i&gt; untuk mengaktifkan atau menonaktifkan aksi tersebut.</translation>
+        <translation>Di sini Anda dapat menentukan daftar dari &lt;i&gt;aksi&lt;/i&gt; yang akan dijalankan setiap berkas dibuka. Anda akan menemukan semua aksi yang tersedia pada penyunting tombol pintasan pada bagian &lt;b&gt;Keyboard dan mouse&lt;/b&gt;. Aksi harus dipisahkan dengan spasi. Aksi yang diisi dapat diikuti dengan &lt;i&gt;true&lt;/i&gt; atau &lt;i&gt;false&lt;/i&gt; untuk mengaktifkan atau menonaktifkan aksi tersebut.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -5021,7 +5017,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.ui" line="585"/>
         <source>&amp;Verbose</source>
-        <translation>&amp;Verbose</translation>
+        <translation>&amp;Lengkap</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="564"/>
@@ -5198,7 +5194,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika opsi ini dicentang, SMPlayer akan memutar DVD menggunakan dvdnav. Diperlukan sebuah versi MPlayer dengan dukungan dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5358,7 +5354,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="918"/>
         <source>Remember settings</source>
-        <translation>Ingat setelan.</translation>
+        <translation>Ingat setelan</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1153"/>
@@ -5424,7 +5420,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Membolehkan untuk ubah kecepatan pemutaran tanpa mengubah nada. </translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -5619,7 +5615,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1135"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Tetapkan tingkatan amplifikasi maksimal pada persen (baku: 110). masukkan 200 memungkinkan Anda untuk mengatur volume naik hingga dua kali dari aslinya. Dengan rentang dibawah 100 dari aslinya (dimana 100%) akan berada diatas maksimal, dimana yaitu OSD tidak dapat tampil dengan baik.</translation>
+        <translation>Tetapkan tingkatan amplifikasi maksimal pada persen (baku: 110). masukkan 200 memungkinkan Anda untuk menyetel volume naik hingga dua kali dari aslinya. Dengan rentang dibawah 100 dari aslinya (dimana 100%) akan berada diatas maksimal, dimana yaitu OSD tidak dapat tampil dengan baik.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1001"/>
@@ -5959,7 +5955,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Meminta jumlah saluran pada pemutaran. MPlayer meminta dekoder untuk mendekode audio menjadi beberapa saluran sebanyak yang dituliskan. Kemudian dekoder akan memenuhi persyaratannya. Hal ini umumnya hanya hal yang penting ketika memutar video dengan audio AC3 (seperti DVD). Dalam hal ini liba52 mendekode secara baku dan mengkoreksi penggabungan yang salah pada audio menjadi sebanyak yang diminta saluran. &lt;b&gt;Catatan&lt;/b&gt;: Opsi ini dilakukan oleh kodek (hanya AC3), filter (surround) dan perangkat keluaran audio (OSS paling akhir).</translation>
+        <translation>Meminta jumlah saluran pada pemutaran. MPlayer meminta dekoder untuk mendekode audio menjadi beberapa saluran sebanyak yang ditetapkan. Kemudian dekoder akan memenuhi persyaratannya. Hal ini umumnya hanya hal yang penting ketika memutar video dengan audio AC3 (seperti DVD). Dalam hal ini liba52 mendekode secara baku dan mengoreksi penggabungan yang salah pada audio menjadi sebanyak yang diminta saluran. &lt;b&gt;Catatan&lt;/b&gt;: Opsi ini dilakukan oleh kodek (hanya AC3), filter (surround) dan perangkat keluaran audio (OSS paling akhir).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -6004,7 +6000,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Opsi ini juga dapat diterapkan untuk kontrol bungkam suara.</translation>
+        <translation>Opsi ini juga dapat diterapkan untuk kendali bungkam suara.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="832"/>
@@ -6179,7 +6175,7 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefinput.cpp" line="146"/>
         <location filename="../prefinput.cpp" line="359"/>
         <source>Volume control</source>
-        <translation>Kontrol volume</translation>
+        <translation>Kendali volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="147"/>
@@ -6250,7 +6246,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.cpp" line="341"/>
         <source>Wheel function</source>
-        <translation>Fungsi roda tetikus</translation>
+        <translation>Fungsi roda mouse</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="342"/>
@@ -6330,7 +6326,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.cpp" line="80"/>
         <source>Preferences</source>
-        <translation>Preferens</translation>
+        <translation>Preferensi</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="144"/>
@@ -6551,7 +6547,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Change function of wheel</source>
-        <translation>Ubah fungsi pada roda tetikus.</translation>
+        <translation>Ubah fungsi pada roda mouse.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="395"/>
@@ -6569,7 +6565,7 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefinput.ui" line="402"/>
         <location filename="../prefinput.cpp" line="153"/>
         <source>&amp;Volume control</source>
-        <translation>Kontrol &amp;volume</translation>
+        <translation>Kendali &amp;volume</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="416"/>
@@ -6605,7 +6601,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.ui" line="373"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation>fungsi r&amp;oda tetikus</translation>
+        <translation>fungsi r&amp;oda mouse</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="385"/>
@@ -6746,7 +6742,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Cegah jendela untuk menjadi ke luar layar</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6801,7 +6797,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Kontrol melayang muncul pada mode layar-penuh ketika mouse bergeser.</translation>
+        <translation>Kendali melayang muncul pada mode layar-penuh ketika mouse bergeser.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
@@ -6881,12 +6877,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="683"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Antarmuka umum biasa&lt;/b&gt; menyediakan tampilan biasa, dengan bilah-alat dan bilah kontrol.</translation>
+        <translation>&lt;b&gt;Antarmuka umum biasa&lt;/b&gt; menyediakan tampilan biasa, dengan bilah-alat dan bilah kendali.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;Antarmuka pengguna Mini&lt;/b&gt; menyediakan tampilan lebih sederhana, tanpa bilah-alat dan sebuah bilah kontrol dengan sedikit tombol.</translation>
+        <translation>&lt;b&gt;Antarmuka pengguna Mini&lt;/b&gt; menyediakan tampilan lebih sederhana, tanpa bilah-alat dan sebuah bilah kendali dengan sedikit tombol.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="693"/>
@@ -6926,12 +6922,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Cegah jendela untuk menjadi ke luar layar</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Jika setelah ubah-ukuran-otomatis jendela utama menjadi ke luar dari layar pilihan ini akan memusatkan jendela untuk mencegahnya.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7073,7 +7069,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="783"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>Jika opsi ini diaktifkan, kontrol melayang juga akan muncul pada mode ringkas.</translation>
+        <translation>Jika opsi ini diaktifkan, kendali melayang juga akan muncul pada mode ringkas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
@@ -7083,7 +7079,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="786"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Peringatan:&lt;/b&gt; kontrol melayang tidak dibuat untuk mode ringkas dan mungkin saja tidak dapat bekerja dengan baik.</translation>
+        <translation>&lt;b&gt;Peringatan:&lt;/b&gt; kendali melayang tidak dibuat untuk mode ringkas dan mungkin saja tidak dapat bekerja dengan baik.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7103,7 +7099,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Pilih jumlah maksimal item pada dialog &lt;b&gt;Buka-&gt;URL&lt;/b&gt; yang akan diingat. Atur ke 0 jika Anda tidak ingin menyimpan URL apapun untuk disetorkan.</translation>
+        <translation>Pilih jumlah maksimal item pada dialog &lt;b&gt;Buka-&gt;URL&lt;/b&gt; yang akan diingat. Setel ke 0 jika Anda tidak ingin menyimpan URL apapun untuk disetorkan.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="804"/>
@@ -7159,7 +7155,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Floating control</source>
-        <translation>Kontrol melayang</translation>
+        <translation>Kendali melayang</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
@@ -7169,7 +7165,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Jika opsi ini diaktifkan, kontrol melayang akan muncul dengan animasi.</translation>
+        <translation>Jika opsi ini diaktifkan, kendali melayang akan muncul dengan animasi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
@@ -7179,7 +7175,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="769"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>Rincikan lebar pada kontrol (dengan presentase).</translation>
+        <translation>Rincikan lebar pada kendali (dengan presentase).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="771"/>
@@ -7189,7 +7185,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Opsi ini menyetel jumlah dari piksel pada kontrol melayang untuk menjauh dari dasar tampilan. Berguna ketika tampilan tersebut adalah TV, sama seperti pemindaian berlebihan yang mungkin mencegah kontrol untuk terlihat.</translation>
+        <translation>Opsi ini menyetel jumlah dari piksel pada kendali melayang untuk menjauh dari dasar tampilan. Berguna ketika tampilan tersebut adalah TV, sama seperti pemindaian berlebihan yang mungkin mencegah kendali untuk terlihat.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7199,7 +7195,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="672"/>
         <source>&amp;Floating control</source>
-        <translation>Kontrol mela&amp;yang</translation>
+        <translation>Kendali mela&amp;yang</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="688"/>
@@ -7773,12 +7769,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Coba untuk menggunakan kodek non-free CoreAVC ketika tidak ada kodek lain yang ditentukan dan sebuah keluaran video non-VDPAU yang dipilih.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diperlukan sebuah bangunan MPlayer dengan dukungan CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -7823,7 +7819,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="278"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation>Atur jumlah threads untuk digunakan pada proses dekoding. Hanya untuk MPEG-1/2 dan H.264</translation>
+        <translation>Setel jumlah threads untuk digunakan pada proses dekoding. Hanya untuk MPEG-1/2 dan H.264</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
@@ -7833,17 +7829,17 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Atur prioritas proses untuk mplayer menurut prioritas yang telah ditetapkan dibawah Windows.&lt;br&gt;&lt;b&gt;Peringatan:&lt;/b&gt; Menggunakan prioritas tiap saat dapat menyebabkan sistem terkunci.</translation>
+        <translation>Setel prioritas proses untuk mplayer menurut prioritas yang telah ditetapkan dibawah Windows.&lt;br&gt;&lt;b&gt;Peringatan:&lt;/b&gt; Menggunakan prioritas tiap saat dapat menyebabkan sistem terkunci.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation>Gunakan CoreAVC jika tidak ada kodek yang lebih cocok</translation>
+        <translation>Gunakan CoreAVC jika tidak ada kodek lain yang ditentukan</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation>G&amp;unakan CoreAVC jika tidak ada kodek yang lebih cocok</translation>
+        <translation>&amp;Gunakan CoreAVC jika tidak ada kodek lain yang ditentukan</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="540"/>
@@ -8749,7 +8745,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>cobalah untuk membuat sambungan pada instansi lainnya yang berjalan dan kirim pada instansi tersebut untuk rincian tindakan, Contoh: -send-action pause . Sisa opsi (jika ada) akan diabaikan dan aplikasi akan keluar. Hal ini akan merujuk pada 0 untuk sukses atau -1 untuk gagal.</translation>
+        <translation>cobalah untuk membuat sambungan pada instansi lain yang berjalan dan kirim untuk tindakan yang ditentukannya. Contoh: -send-action pause. Sisa opsi (jika ada) akan diabaikan dan aplikasi akan keluar. Hal ini akan merujuk pada 0 untuk sukses atau -1 untuk gagal.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
@@ -8837,17 +8833,13 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n detik</numerusform>
-        </translation>
+        <translation><numerusform>%n detik</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n menit</numerusform>
-        </translation>
+        <translation><numerusform>%n menit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9071,7 +9063,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation>Sunting kontrol mela&amp;yang</translation>
+        <translation>Sunting kendali mela&amp;yang</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
