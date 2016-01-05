@@ -1,3 +1,42 @@
+Version 16.1:
+
+(2015-12-29)
+ * (Qt5) Try to fix a problem when exiting from fullscreen and the option
+   to stay on top is set to "while playing".
+
+(2015-12-23)
+ * (Experimental) Simplify changing style and stylesheet.
+
+(2015-12-22)
+ * (Screenshots) Keep compatibility with older versions of mplayer.
+
+(2015-12-18)
+ * Fix for Youtube.
+
+(2015-12-16)
+ * (mpv) If the option --screenshot-directory is not available change
+   the working directory so that screenshots work.
+
+(2015-12-14)
+ * Add option 'Prevent window to get outside of screen' in
+   Preferences -> Interface
+
+(2015-12-12)
+ * Update stayontop after entering and exiting the fullscreen mode.
+
+(2015-12-04)
+ * Don't auto center the window if there's no video.
+ * (mpv) Fix playback with -v
+
+(2015-12-03)
+ * Add the option 'Pass the -playlist option to MPlayer' to
+   Preferences -> Advanced
+
+(2015-11-29)
+ * Simplify the code for previous and next chapter
+ * Enable bookmarks
+
+
 Version 15.11:
 
 (2015-11-22)
