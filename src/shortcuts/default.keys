@@ -219,7 +219,7 @@ sub_fps_24
 sub_fps_25	
 sub_fps_29970	
 sub_fps_30	
-add_bookmark	
+add_bookmark	Ctrl+A
 edit_bookmarks	
 prev_bookmark	Ctrl+B
 next_bookmark	Ctrl+N

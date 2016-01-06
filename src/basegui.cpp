@@ -1280,7 +1280,7 @@ void BaseGui::createActions() {
 	connect( bookmarkGroup, SIGNAL(activated(int)),
 			 core, SLOT(goToSec(int)) );
 
-	addBookmarkAct = new MyAction(this, "add_bookmark");
+	addBookmarkAct = new MyAction(Qt::CTRL | Qt::Key_A, this, "add_bookmark");
 	connect(addBookmarkAct, SIGNAL(triggered()), this, SLOT(showAddBookmarkDialog()));
 
 	editBookmarksAct = new MyAction(this, "edit_bookmarks");
