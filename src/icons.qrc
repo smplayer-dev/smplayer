@@ -144,6 +144,8 @@
         <file>default-theme/stereo3d.png</file>
         <file>default-theme/empty_icon.png</file>
         <file>default-theme/record.png</file>
+        <file>default-theme/bookmarks.png</file>
+        <file>default-theme/add_bookmark.png</file>
         <file>default-theme/style.qss</file>
         <file>mpcgui/mpc_toolbar.png</file>
         <file>mpcgui/mpc_mono.png</file>
