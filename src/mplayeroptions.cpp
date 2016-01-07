@@ -46,6 +46,22 @@ void MplayerProcess::setCaptureDirectory(const QString & dir) {
 }
 #endif
 
+void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* templ */, const QString & /* format */) {
+	QString f = "screenshot";
+	if (!dir.isEmpty()) {
+		QString d = QDir::toNativeSeparators(dir);
+		if (MplayerVersion::isMplayerAtLeast(36848)) {
+			f += "="+ d + "/shot";
+		} else {
+			// Keep compatibility with older versions
+			qDebug() << "MplayerProcess::enableScreenshots: this version of mplayer is very old";
+			qDebug() << "MplayerProcess::enableScreenshots: changing working directory to" << d;
+			setWorkingDirectory(d);
+		}
+	}
+	arg << "-vf-add" << f;
+}
+
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
 	if (option_name == "cache") {
 		int cache = value.toInt();
@@ -78,10 +94,6 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	else
 	if (option_name == "verbose") {
 		arg << "-v";
-	}
-	else
-	if (option_name == "screenshot_template" || option_name == "screenshot_format") {
-		// Not supported
 	}
 	else
 	if (option_name == "enable_streaming_sites_support") {
@@ -148,20 +160,6 @@ void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) 
 		} else {
 			arg << "-vf-add" << "expand=osd=1";
 		}
-	}
-	else
-	if (filter_name == "screenshot") {
-		QString f = "screenshot";
-		if (!screenshot_dir.isEmpty()) {
-			QString dir = QDir::toNativeSeparators(screenshot_dir);
-			if (MplayerVersion::isMplayerAtLeast(36848)) {
-				f += "="+ dir + "/shot";
-			} else {
-				// Keep compatibility with older versions
-				setWorkingDirectory(dir);
-			}
-		}
-		arg << "-vf-add" << f;
 	}
 	else
 	if (filter_name == "flip") {

@@ -1568,15 +1568,7 @@ void Core::startMplayer( QString file, double seek ) {
 	proc->clearArguments();
 
 	// Set the screenshot directory
-	#ifdef Q_OS_WIN
-	if (pref->use_short_pathnames) {
-		proc->setScreenshotDirectory(Helper::shortPathName(pref->screenshot_directory));
-	}
-	else
-	#endif
-	{
-		proc->setScreenshotDirectory(pref->screenshot_directory);
-	}
+	/* deleted (done later) */
 
 	// Use absolute path, otherwise after changing to the screenshot directory
 	// the mplayer path might not be found if it's a relative path
@@ -2266,25 +2258,29 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Screenshots
-	if (screenshot_enabled) {
-		proc->addVF("screenshot");
+	#ifdef MPLAYER_SUPPORT
+	if (screenshot_enabled && proc->isMPlayer()) {
+		QString dir = pref->screenshot_directory;
+		#ifdef Q_OS_WIN
+		if (pref->use_short_pathnames) dir = Helper::shortPathName(pref->screenshot_directory);
+		#endif
+		proc->enableScreenshots(dir);
 	}
+	#endif
 
 #ifndef Q_OS_WIN
 	end_video_filters:
 #endif
 
-#ifdef MPV_SUPPORT
-	// Template for screenshots (only works with mpv)
-	if (screenshot_enabled) {
-		if (!pref->screenshot_template.isEmpty()) {
-			proc->setOption("screenshot_template", pref->screenshot_template);
-		}
-		if (!pref->screenshot_format.isEmpty()) {
-			proc->setOption("screenshot_format", pref->screenshot_format);
-		}
+	#ifdef MPV_SUPPORT
+	if (screenshot_enabled && proc->isMPV()) {
+		QString dir = pref->screenshot_directory;
+		#ifdef Q_OS_WIN
+		if (pref->use_short_pathnames) dir = Helper::shortPathName(pref->screenshot_directory);
+		#endif
+		proc->enableScreenshots(dir, pref->screenshot_template, pref->screenshot_format);
 	}
-#endif
+	#endif
 
 	// slices
 	if ((pref->use_slices) && (!force_noslices)) {

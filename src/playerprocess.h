@@ -121,10 +121,9 @@ public:
 	virtual void setOSDScale(double value) = 0;
 	virtual void setChannelsFile(const QString &) = 0;
 
-	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
+	virtual void enableScreenshots(const QString & dir, const QString & templ = QString::null, const QString & format = QString::null) = 0;
 
-	void setScreenshotDirectory(const QString & dir) { screenshot_dir = dir; };
-	QString screenshotDirectory() { return screenshot_dir; };
+	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
 
 #ifdef CAPTURE_STREAM
 	virtual void setCaptureDirectory(const QString & dir);
@@ -197,7 +196,6 @@ signals:
 protected:
 	MediaData md;
 	QString pausing_prefix;
-	QString screenshot_dir;
 
 #ifdef CAPTURE_STREAM
 	QString capture_filename;
