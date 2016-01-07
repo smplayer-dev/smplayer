@@ -118,6 +118,27 @@ void MPVProcess::messageFilterNotSupported(const QString & filter_name) {
 	writeToStdin(QString("show_text \"%1\" 3000").arg(text));
 }
 
+void MPVProcess::enableScreenshots(const QString & dir, const QString & templ, const QString & format) {
+	if (!templ.isEmpty()) {
+		arg << "--screenshot-template=" + templ;
+	}
+
+	if (!format.isEmpty()) {
+		arg << "--screenshot-format=" + format;
+	}
+
+	if (!dir.isEmpty()) {
+		QString d = QDir::toNativeSeparators(dir);
+		if (!isOptionAvailable("--screenshot-directory")) {
+			qDebug() << "MPVProcess::enableScreenshots: the option --screenshot-directory is not available in this version of mpv";
+			qDebug() << "MPVProcess::enableScreenshots: changing working directory to" << d;
+			setWorkingDirectory(d);
+		} else {
+			arg << "--screenshot-directory=" + d;
+		}
+	}
+}
+
 void MPVProcess::setOption(const QString & option_name, const QVariant & value) {
 	if (option_name == "cache") {
 		int cache = value.toInt();
@@ -257,14 +278,6 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		/*
 		arg << "--dvd-angle=" + value.toString();
 		*/
-	}
-	else
-	if (option_name == "screenshot_template") {
-		arg << "--screenshot-template=" + value.toString();
-	}
-	else
-	if (option_name == "screenshot_format") {
-		arg << "--screenshot-format=" + value.toString();
 	}
 	else
 	if (option_name == "threads") {
@@ -435,18 +448,6 @@ void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	else
 	if (filter_name == "subs_on_screenshots") {
 		// Ignore
-	}
-	else
-	if (filter_name == "screenshot") {
-		if (!screenshot_dir.isEmpty()) {
-			QString dir = QDir::toNativeSeparators(screenshot_dir);
-			if (!isOptionAvailable("--screenshot-directory")) {
-				qWarning("MPVProcess::addVF: this version of mpv is old and the option --screenshot-directory is not available");
-				setWorkingDirectory(dir);
-			} else {
-				arg << "--screenshot-directory=" + dir;
-			}
-		}
 	}
 	else
 	if (filter_name == "rotate") {

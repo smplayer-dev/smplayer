@@ -111,6 +111,8 @@ public:
 	void setOSDScale(double value);
 	void setChannelsFile(const QString &);
 
+	void enableScreenshots(const QString & dir, const QString & templ = QString::null, const QString & format = QString::null);
+
 	QString mpvVersion() { return mpv_version; };
 
 protected:
