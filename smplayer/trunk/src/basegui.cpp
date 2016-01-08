@@ -1591,6 +1591,17 @@ void BaseGui::enableActionsOnPlaying() {
 		dvdnavMouseAct->setEnabled(false);
 	}
 #endif
+
+
+#ifdef BOOKMARKS
+	if (pref->dont_remember_media_settings) {
+		addBookmarkAct->setEnabled(false);
+		editBookmarksAct->setEnabled(false);
+	} else {
+		addBookmarkAct->setEnabled(true);
+		editBookmarksAct->setEnabled(true);
+	}
+#endif
 }
 
 void BaseGui::disableActionsOnStop() {
