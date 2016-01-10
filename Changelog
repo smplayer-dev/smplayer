@@ -1,5 +1,12 @@
 Version 16.1:
 
+(2016-01-07)
+ * (mpv) Allow screenshots to work with hardware acceleration enabled.
+
+(2016-01-06)
+ * Add a shortcut for the add_bookmark action.
+ * Add icons for the bookmarks actions.
+
 (2015-12-29)
  * (Qt5) Try to fix a problem when exiting from fullscreen and the option
    to stay on top is set to "while playing".
@@ -19,7 +26,7 @@ Version 16.1:
 
 (2015-12-14)
  * Add option 'Prevent window to get outside of screen' in
-   Preferences -> Interface
+   Preferences -> Interface.
 
 (2015-12-12)
  * Update stayontop after entering and exiting the fullscreen mode.
@@ -30,11 +37,11 @@ Version 16.1:
 
 (2015-12-03)
  * Add the option 'Pass the -playlist option to MPlayer' to
-   Preferences -> Advanced
+   Preferences -> Advanced.
 
 (2015-11-29)
- * Simplify the code for previous and next chapter
- * Enable bookmarks
+ * Simplify the code for previous and next chapter.
+ * Enable bookmarks.
 
 
 Version 15.11:
