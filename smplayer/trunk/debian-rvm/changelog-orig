@@ -1,3 +1,14 @@
+smplayer (16.1.0) trusty; urgency=low
+
+  * Fix for YouTube.
+  * The screenshots work again with older versions of mplayer/mpv.
+  * Possibility to add bookmarks (menu Browse), which allows to mark your
+    favorite parts of the video for a quick access.
+  * New option 'Prevent window to get outside of screen' in
+    Preferences -> Interface.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Mon, 11 Jan 2016 19:18:43 +0100
+
 smplayer (15.11.0) precise; urgency=low
 
   * Fix for YouTube.
