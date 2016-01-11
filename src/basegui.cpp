@@ -1594,7 +1594,7 @@ void BaseGui::enableActionsOnPlaying() {
 
 
 #ifdef BOOKMARKS
-	if (pref->dont_remember_media_settings) {
+	if (pref->dont_remember_media_settings || core->mdat.type != TYPE_FILE) {
 		addBookmarkAct->setEnabled(false);
 		editBookmarksAct->setEnabled(false);
 	} else {
