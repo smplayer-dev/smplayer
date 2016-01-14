@@ -951,12 +951,18 @@ void PrefGeneral::createHelp() {
 		   "%2 adds a 4 digit number padded with zeros.").arg("%F").arg("%04n") + " " +
 		tr("For a full list of the template specifiers visit this link:") + 
 		" <a href=\"http://mpv.io/manual/stable/#options-screenshot-template\">"
-		"http://mpv.io/manual/stable/#options-screenshot-template</a>" + "<br>" +
-		tr("This option only works with mpv.") );
+		"http://mpv.io/manual/stable/#options-screenshot-template</a>"
+		#ifdef MPLAYER_SUPPORT
+		+ "<br>" + tr("This option only works with mpv.")
+		#endif
+		);
 
 	setWhatsThis(screenshot_format_combo, tr("Format for screenshots"),
-		tr("This option allows to choose the image file type used for saving screenshots.") + " " +
-		tr("This option only works with mpv.") );
+		tr("This option allows to choose the image file type used for saving screenshots.")
+		#ifdef MPLAYER_SUPPORT
+		+ " " + tr("This option only works with mpv.")
+		#endif
+		);
 #endif
 
 	setWhatsThis(pause_if_hidden_check, tr("Pause when minimized"),
@@ -1108,7 +1114,7 @@ void PrefGeneral::createHelp() {
            "option is enabled.") );
 
 	setWhatsThis(channels_combo, tr("Channels by default"),
-		tr("Requests the number of playback channels. MPlayer "
+		tr("Requests the number of playback channels. %1 "
            "asks the decoder to decode the audio into as many channels as "
            "specified. Then it is up to the decoder to fulfill the "
            "requirement. This is usually only important when playing "
@@ -1116,7 +1122,7 @@ void PrefGeneral::createHelp() {
            "the decoding by default and correctly downmixes the audio "
            "into the requested number of channels. "
            "<b>Note</b>: This option is honored by codecs (AC3 only), "
-           "filters (surround) and audio output drivers (OSS at least).") );
+           "filters (surround) and audio output drivers (OSS at least).").arg(PLAYER_NAME) );
 
 	setWhatsThis(scaletempo_combo, tr("High speed playback without altering pitch"),
 		tr("Allows to change the playback speed without altering pitch.") );

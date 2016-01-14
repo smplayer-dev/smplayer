@@ -24,6 +24,7 @@
 #include "assstyles.h"
 #include "filedialog.h"
 #include "languages.h"
+#include "playerid.h"
 
 #include <QInputDialog>
 
@@ -398,8 +399,8 @@ void PrefSubtitles::createHelp() {
 		tr("When this option is on, the encoding of the subtitles will be "
            "tried to be autodetected for the given language. "
            "It will fall back to the default encoding if the autodetection "
-           "fails. This option requires a MPlayer compiled with ENCA "
-           "support.") );
+           "fails. This option requires a %1 with ENCA "
+           "support.").arg(PLAYER_NAME) );
 
 	setWhatsThis(enca_lang_combo, tr("Subtitle language"),
 		tr("Select the language for which you want the encoding to be guessed "
@@ -416,9 +417,9 @@ void PrefSubtitles::createHelp() {
 
 	setWhatsThis(freetype_check, tr("Freetype support"), 
 		tr("You should normally not disable this option. Do it only if your "
-           "MPlayer is compiled without freetype support. "
+           "%1 is compiled without freetype support. "
            "<b>Disabling this option could make subtitles not to work "
-           "at all!</b>") );
+           "at all!</b>").arg(PLAYER_NAME));
 
 #ifdef FONTS_HACK
 	setWhatsThis(windowsfontdir_check, tr("Enable Windows fonts"),

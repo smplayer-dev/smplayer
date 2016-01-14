@@ -514,8 +514,8 @@ void PrefAdvanced::createHelp() {
            "enable or disable the action.") +"<br>"+
 		tr("Example:") +" <i>auto_zoom compact true</i><br>" +
 		tr("Limitation: the actions are run only when a file is opened and "
-           "not when the mplayer process is restarted (e.g. you select an "
-           "audio or video filter).") );
+           "not when the %1 process is restarted (e.g. you select an "
+           "audio or video filter).").arg(PLAYER_NAME) );
 
 #if USE_COLORKEY
 	setWhatsThis(colorkey_view, tr("Colorkey"),
