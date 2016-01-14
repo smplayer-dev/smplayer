@@ -160,7 +160,7 @@ QString Paths::subtitleStyleFile() {
 	return configPath() + "/styles.ass";
 }
 
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 QString Paths::fontPath() {
 	QString path = appPath() + "/mplayer/fonts";
 	QDir font_dir(path);

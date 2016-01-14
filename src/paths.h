@@ -47,7 +47,7 @@ public:
 
 	static QString subtitleStyleFile();
 
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	static QString fontPath();
 #endif
 

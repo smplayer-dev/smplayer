@@ -88,7 +88,7 @@ SMPlayer::SMPlayer(const QString & config_path, QObject * parent )
 	translator->load( pref->language );
 	showInfo();
 
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	createFontFile();
 #endif
 }
@@ -475,7 +475,7 @@ void SMPlayer::createConfigDirectory() {
 }
 #endif
 
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 void SMPlayer::createFontFile() {
 	qDebug("SMPlayer::createFontFile");
 	QString output = Paths::configPath() + "/fonts.conf";

@@ -45,7 +45,7 @@ PrefSubtitles::PrefSubtitles(QWidget * parent, Qt::WindowFlags f)
 	connect( style_border_style_combo, SIGNAL(currentIndexChanged(int)),
              this, SLOT(checkBorderStyleCombo(int)) );
 
-#ifndef Q_OS_WIN
+#ifndef FONTS_HACK
 	windowsfontdir_check->hide();
 #endif
 
@@ -157,7 +157,7 @@ void PrefSubtitles::setData(Preferences * pref) {
 
 	ass_custom_check->setChecked(pref->enable_ass_styles);
 
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	windowsfontdir_check->setChecked(pref->use_windowsfontdir);
 	if (!windowsfontdir_check->isChecked()) on_windowsfontdir_check_toggled(false);
 #endif
@@ -201,7 +201,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->enable_ass_styles, ass_custom_check->isChecked());
 
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	pref->use_windowsfontdir = windowsfontdir_check->isChecked();
 #endif
 }
@@ -351,10 +351,10 @@ void PrefSubtitles::on_freetype_check_toggled(bool b) {
 	qDebug("PrefSubtitles:on_freetype_check_toggled: %d", b);
 }
 
+#ifdef FONTS_HACK
 void PrefSubtitles::on_windowsfontdir_check_toggled(bool b) {
 	qDebug("PrefSubtitles::on_windowsfontdir_check_toggled: %d", b);
 
-#ifdef Q_OS_WIN
 	if (b) {
 		style_font_combo->setFontsFromDir(QString::null);
 	} else {
@@ -373,8 +373,8 @@ void PrefSubtitles::on_windowsfontdir_check_toggled(bool b) {
 		fontCombo->setCurrentText(current_text);
 		*/
 	}
-#endif
 }
+#endif
 
 void PrefSubtitles::createHelp() {
 	clearHelp();
@@ -420,8 +420,8 @@ void PrefSubtitles::createHelp() {
            "<b>Disabling this option could make subtitles not to work "
            "at all!</b>") );
 
-#ifdef Q_OS_WIN
-	setWhatsThis(windowsfontdir_check, tr("Enable Windows fonts"), 
+#ifdef FONTS_HACK
+	setWhatsThis(windowsfontdir_check, tr("Enable Windows fonts"),
 		tr("If this option is enabled the Windows system fonts will be "
            "available for subtitles. There's an inconvenience: a font cache have "
            "to be created which can take some time.") +"<br>"+

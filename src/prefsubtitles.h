@@ -82,7 +82,9 @@ protected slots:
 	/* void on_ass_subs_button_toggled(bool b); */
 	void on_ass_customize_button_clicked();
 	void on_freetype_check_toggled(bool b);
+#ifdef FONTS_HACK
 	void on_windowsfontdir_check_toggled(bool b);
+#endif
 	void checkBorderStyleCombo( int index );
 
 protected:

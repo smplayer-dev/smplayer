@@ -275,7 +275,7 @@ void Preferences::reset() {
 	user_forced_ass_style.clear();
 
 	freetype_support = true;
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	use_windowsfontdir = false;
 #endif
 
@@ -779,7 +779,7 @@ void Preferences::save() {
 	set->setValue("user_forced_ass_style", user_forced_ass_style);
 
 	set->setValue("freetype_support", freetype_support);
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	set->setValue("use_windowsfontdir", use_windowsfontdir);
 #endif
 
@@ -1313,7 +1313,7 @@ void Preferences::load() {
 	user_forced_ass_style = set->value("user_forced_ass_style", user_forced_ass_style).toString();
 
 	freetype_support = set->value("freetype_support", freetype_support).toBool();
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	use_windowsfontdir = set->value("use_windowsfontdir", use_windowsfontdir).toBool();
 #endif
 
