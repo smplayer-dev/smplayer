@@ -21,6 +21,7 @@
 #include "images.h"
 #include "global.h"
 #include "preferences.h"
+#include "playerid.h"
 
 using namespace Global;
 
@@ -262,9 +263,9 @@ void PrefPerformance::createHelp() {
 	// Performance tab
 #ifdef Q_OS_WIN
 	setWhatsThis(priority_combo, tr("Priority"), 
-		tr("Set process priority for mplayer according to the predefined "
+		tr("Set process priority for %1 according to the predefined "
            "priorities available under Windows.<br>"
-           "<b>Warning:</b> Using realtime priority can cause system lockup."));
+           "<b>Warning:</b> Using realtime priority can cause system lockup.").arg(PLAYER_NAME));
 #endif
 
 	setWhatsThis(framedrop_check, tr("Allow frame drop"),
@@ -293,8 +294,11 @@ void PrefPerformance::createHelp() {
 			#ifdef Q_OS_WIN
 			"<li>" + tr("dxva2-copy: it copies video back to system RAM. Experimental.") + "</li>"
 			#endif
-			"</ul>" +
-		tr("This option only works with mpv."));
+			"</ul>"
+		#ifdef MPLAYER_SUPPORT
+		+ tr("This option only works with mpv.")
+		#endif
+		);
 
 	setWhatsThis(loopfilter_combo, tr("Skip loop filter"),
 		tr("This option allows to skips the loop filter (AKA deblocking) "
@@ -315,7 +319,7 @@ void PrefPerformance::createHelp() {
 	setWhatsThis(coreavc_check, tr("Use CoreAVC if no other codec specified"),
 		tr("Try to use the non-free CoreAVC codec when no other codec is specified "
            "and a non-VDPAU video output is selected.") +" "+
-        tr("Requires a MPlayer build with CoreAVC support."));
+        tr("Requires a %1 build with CoreAVC support.").arg(PLAYER_NAME));
 
 	setWhatsThis(fast_audio_combo, tr("Fast audio track switching"),
 		tr("Possible values:<br> "
