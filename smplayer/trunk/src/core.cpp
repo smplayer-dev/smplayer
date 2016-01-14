@@ -2477,7 +2477,7 @@ void Core::startMplayer( QString file, double seek ) {
 		env.insert("http_proxy", proxy);
 	}
 	//qDebug("Core::startMplayer: env: %s", env.toStringList().join(",").toUtf8().constData());
-	#ifdef Q_OS_WIN
+	#ifdef FONTS_HACK
 	if (!pref->use_windowsfontdir) {
 		env.insert("FONTCONFIG_FILE", Paths::configPath() + "/fonts.conf");
 	}

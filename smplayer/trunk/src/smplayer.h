@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _SMPLAYER_H_
-#define _SMPLAYER_H_
+#ifndef SMPLAYER_H
+#define SMPLAYER_H
 
 #include <QObject>
 #include <QString>
@@ -54,7 +54,7 @@ private:
 #endif
 	void showInfo();
 	void deleteConfig();
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	void createFontFile();
 #endif
 
