@@ -436,7 +436,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
     ${If} $Restore_MPV == 1
       DetailPrint $(Info_MPV_Restore)
-      CopyFiles /SILENT "$PLUGINSDIR\mpvbak\*" "$INSTDIR\mplayer"
+      CopyFiles /SILENT "$PLUGINSDIR\mpvbak\*" "$INSTDIR\mpv"
       Goto check_mpv
     ${ElseIf} ${FileExists} "$EXEDIR\${MPV_FILENAME}"
       CopyFiles /SILENT "$EXEDIR\${MPV_FILENAME}" "$PLUGINSDIR\mpv.7z"
@@ -466,12 +466,12 @@ SectionGroup $(MPlayerMPVGroupTitle)
     extract_mpv:
 
     DetailPrint $(Info_Files_Extract)
-    CreateDirectory "$INSTDIR\mplayer"
-    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\mpv.7z" -y -o"$INSTDIR\mplayer"'
+    CreateDirectory "$INSTDIR\mpv"
+    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\mpv.7z" -y -o"$INSTDIR\mpv"'
 
     check_mpv:
 
-    IfFileExists "$INSTDIR\mplayer\mpv*.exe" 0 mpvInstFailed
+    IfFileExists "$INSTDIR\mpv\mpv*.exe" 0 mpvInstFailed
         WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x1
         WriteRegStr   HKLM "${SMPLAYER_REG_KEY}" "MPV_Version" "${MPV_VERSION}"
         Goto dl_youtube-dl
@@ -491,7 +491,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
     FileClose $YTDL_Version_Remote_File
 
     ClearErrors
-    ${GetFileVersion} "$INSTDIR\mplayer\youtube-dl.exe" $YTDL_Version_Local
+    ${GetFileVersion} "$INSTDIR\mpv\youtube-dl.exe" $YTDL_Version_Local
     IfErrors YTDL
 
     ${VersionCompare} $YTDL_Version_Remote $YTDL_Version_Local $YTDL_Previous_Version_State
@@ -502,7 +502,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
     YTDL:
     NSISdl::download /TIMEOUT=30000 \
     "http://yt-dl.org/latest/youtube-dl.exe" \
-    "$INSTDIR\mplayer\youtube-dl.exe" /END
+    "$INSTDIR\mpv\youtube-dl.exe" /END
     Pop $R0
     StrCmp $R0 "success" +3 0
       DetailPrint $(YTDL_DL_Failed)
@@ -733,6 +733,7 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
+  RMDir /r "$INSTDIR\mpv"
   ; RMDir /r "$INSTDIR\open-fonts"
   RMDir /r "$INSTDIR\platforms"
   RMDir /r "$INSTDIR\shortcuts"
@@ -996,10 +997,10 @@ Function Backup_MPV
       DetailPrint "A newer version of MPV is available and will be downloaded."
       Goto NoBackup
 
-  IfFileExists "$SMPlayer_Path\mplayer\mpv*.exe" 0 NoBackup
+  IfFileExists "$SMPlayer_Path\mpv\mpv*.exe" 0 NoBackup
     DetailPrint $(Info_MPV_Backup)
     CreateDirectory "$PLUGINSDIR\mpvbak"
-    CopyFiles /SILENT "$SMPlayer_Path\mplayer\*" "$PLUGINSDIR\mpvbak"
+    CopyFiles /SILENT "$SMPlayer_Path\mpv\*" "$PLUGINSDIR\mpvbak"
     StrCpy $Restore_MPV 1
     Return
   NoBackup:
