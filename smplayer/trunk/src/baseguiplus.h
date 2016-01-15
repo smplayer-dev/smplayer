@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _BASEGUIPLUS_H_
-#define _BASEGUIPLUS_H_
+#ifndef BASEGUIPLUS_H
+#define BASEGUIPLUS_H
 
 #include "basegui.h"
 #include <QSystemTrayIcon>

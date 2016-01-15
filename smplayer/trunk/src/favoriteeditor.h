@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FAVORITEEDITOR_H_
-#define _FAVORITEEDITOR_H_
+#ifndef FAVORITEEDITOR_H
+#define FAVORITEEDITOR_H
 
 #include "ui_favoriteeditor.h"
 #include "favorites.h"

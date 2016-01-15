@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _OSPARSER_H_
-#define _OSPARSER_H_
+#ifndef OSPARSER_H
+#define OSPARSER_H
 
 #include <QObject>
 #include <QByteArray>

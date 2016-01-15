@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PREFPLAYLIST_H_
-#define _PREFPLAYLIST_H_
+#ifndef PREFPLAYLIST_H
+#define PREFPLAYLIST_H
 
 #include "ui_prefplaylist.h"
 #include "prefwidget.h"

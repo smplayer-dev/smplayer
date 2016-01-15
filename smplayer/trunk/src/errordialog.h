@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _ERRORDIALOG_H_
-#define _ERRORDIALOG_H_
+#ifndef ERRORDIALOG_H
+#define ERRORDIALOG_H
 
 #include "ui_errordialog.h"
 

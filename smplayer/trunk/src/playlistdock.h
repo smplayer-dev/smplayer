@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PLAYLIST_DOCK_H_
-#define _PLAYLIST_DOCK_H_
+#ifndef PLAYLIST_DOCK_H
+#define PLAYLIST_DOCK_H
 
 #include <QDockWidget>
 #include "guiconfig.h"

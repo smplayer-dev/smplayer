@@ -21,8 +21,8 @@
 	Author: Florin Braghis (florin@libertv.ro)
 */
 
-#ifndef _PREFASSOCIATIONS_H_
-#define _PREFASSOCIATIONS_H_
+#ifndef PREFASSOCIATIONS_H
+#define PREFASSOCIATIONS_H
 
 #include "ui_prefassociations.h"
 #include "prefwidget.h"

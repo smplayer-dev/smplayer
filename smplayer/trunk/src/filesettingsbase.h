@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FILESETTINGS_BASE_H_
-#define _FILESETTINGS_BASE_H_
+#ifndef FILESETTINGS_BASE_H
+#define FILESETTINGS_BASE_H
 
 #include <QString>
 

@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _DESKTOPINFO_H_
-#define _DESKTOPINFO_H_
+#ifndef DESKTOPINFO_H
+#define DESKTOPINFO_H
 
 #include <QSize>
 

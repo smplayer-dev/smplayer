@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _GUICONFIG_H_
-#define _GUICONFIG_H_
+#ifndef GUICONFIG_H
+#define GUICONFIG_H
 
 
 // DOCK_PLAYLIST

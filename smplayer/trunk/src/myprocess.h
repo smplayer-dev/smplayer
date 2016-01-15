@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MY_PROCESS_H_
-#define _MY_PROCESS_H_
+#ifndef MY_PROCESS_H
+#define MY_PROCESS_H
 
 #include <QProcess>
 #include <QTemporaryFile>

@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FILESETTINGS_HASH_H_
-#define _FILESETTINGS_HASH_H_
+#ifndef FILESETTINGS_HASH_H
+#define FILESETTINGS_HASH_H
 
 #include "filesettingsbase.h"
 

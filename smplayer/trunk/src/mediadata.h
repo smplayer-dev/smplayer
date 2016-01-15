@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MEDIADATA_H_
-#define _MEDIADATA_H_
+#ifndef MEDIADATA_H
+#define MEDIADATA_H
 
 /* Here we store some volatile info about the file we need to remember */
 

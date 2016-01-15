@@ -18,8 +18,8 @@
 
 //! Reads info about a file (resolution, length...)
 
-#ifndef _INFOPROVIDER_H_
-#define _INFOPROVIDER_H_
+#ifndef INFOPROVIDER_H
+#define INFOPROVIDER_H
 
 #include <QString>
 #include "mediadata.h"

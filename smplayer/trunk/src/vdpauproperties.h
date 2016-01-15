@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _VDPAUPROPERTIES_H_
-#define _VDPAUPROPERTIES_H_
+#ifndef VDPAUPROPERTIES_H
+#define VDPAUPROPERTIES_H
 
 #include "ui_vdpauproperties.h"
 

@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _EQSLIDER_H_
-#define _EQSLIDER_H_
+#ifndef EQSLIDER_H
+#define EQSLIDER_H
 
 #include "ui_eqslider.h"
 #include <QPixmap>

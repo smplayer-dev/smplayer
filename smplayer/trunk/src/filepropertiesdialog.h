@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FILEPROPERTIESDIALOG_H_
-#define _FILEPROPERTIESDIALOG_H_
+#ifndef FILEPROPERTIESDIALOG_H
+#define FILEPROPERTIESDIALOG_H
 
 #include "ui_filepropertiesdialog.h"
 #include "inforeader.h"

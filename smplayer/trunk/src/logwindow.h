@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _LOGWINDOW_H_
-#define _LOGWINDOW_H_
+#ifndef LOGWINDOW_H
+#define LOGWINDOW_H
 
 #include "ui_logwindowbase.h"
 

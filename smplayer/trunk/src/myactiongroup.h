@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MYACTIONGROUP_H_
-#define _MYACTIONGROUP_H_
+#ifndef MYACTIONGROUP_H
+#define MYACTIONGROUP_H
 
 #include <QActionGroup>
 #include <QWidget>

@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _VIDEOPREVIEWCONFIGDIALOG_H_
-#define _VIDEOPREVIEWCONFIGDIALOG_H_
+#ifndef VIDEOPREVIEWCONFIGDIALOG_H
+#define VIDEOPREVIEWCONFIGDIALOG_H
 
 #include "ui_videopreviewconfigdialog.h"
 #include "videopreview.h"

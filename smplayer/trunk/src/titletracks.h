@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TITLETRACKS_H_
-#define _TITLETRACKS_H_
+#ifndef TITLETRACKS_H
+#define TITLETRACKS_H
 
 #include <QMap>
 #include "helper.h"

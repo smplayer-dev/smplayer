@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _SUBCHOOSERDIALOG_H_
-#define _SUBCHOOSERDIALOG_H_
+#ifndef SUBCHOOSERDIALOG_H
+#define SUBCHOOSERDIALOG_H
 
 #include <QDialog>
 #include "ui_subchooserdialog.h"

@@ -18,8 +18,8 @@
 
 /* This is based on qq14-actioneditor-code.zip from Qt */
 
-#ifndef _ACTIONSEDITOR_H_
-#define _ACTIONSEDITOR_H_
+#ifndef ACTIONSEDITOR_H
+#define ACTIONSEDITOR_H
 
 #include <QWidget>
 #include <QList>

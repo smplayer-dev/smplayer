@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _CHAPTERS_H_
-#define _CHAPTERS_H_
+#ifndef CHAPTERS_H
+#define CHAPTERS_H
 
 #include <QMap>
 #include "helper.h"

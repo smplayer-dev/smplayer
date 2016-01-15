@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _PLAYLIST_H_
-#define _PLAYLIST_H_
+#ifndef PLAYLIST_H
+#define PLAYLIST_H
 
 #include <QList>
 #include <QStringList>

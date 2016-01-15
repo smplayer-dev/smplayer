@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MPLAYERPROCESS_H_
-#define _MPLAYERPROCESS_H_
+#ifndef MPLAYERPROCESS_H
+#define MPLAYERPROCESS_H
 
 #include <QString>
 #include "playerprocess.h"

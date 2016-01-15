@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _INPUTURL_H_
-#define _INPUTURL_H_
+#ifndef INPUTURL_H
+#define INPUTURL_H
 
 #include "ui_inputurl.h"
 #include <QDialog>
