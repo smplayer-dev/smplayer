@@ -373,7 +373,7 @@ void MplayerProcess::parseLine(QByteArray ba) {
 				else
 					audios.addLang(ID, lang);
 			} else {
-				qDebug("MplayerProcess::parseLine: audio %d exists, modifing it", ID);
+				qDebug("MplayerProcess::parseLine: audio %d exists, modifying it", ID);
 
 				if (t == "NAME") {
 					//qDebug("MplayerProcess::parseLine: name of audio %d: %s", ID, audios.itemAt(idx).name().toUtf8().constData());
