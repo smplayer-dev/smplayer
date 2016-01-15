@@ -860,6 +860,44 @@ bool Playlist::save_pls(QString file) {
 	return ok;
 }
 
+bool Playlist::saveXSPF(const QString & filename) {
+	qDebug() << "Playlist::saveXSPF:" << filename;
+
+	QFile f(filename);
+	if (f.open( QIODevice::WriteOnly)) {
+		QTextStream stream(&f);
+		stream.setCodec("UTF-8");
+
+		stream << "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
+		stream << "<playlist version=\"1\" xmlns=\"http://xspf.org/ns/0/\">\n";
+		stream << "<trackList>\n";
+
+		for ( int n=0; n < pl.count(); n++ ) {
+			QUrl url = QUrl(pl[n].filename());
+			if (/*url.isLocalFile() &&*/ url.scheme().isEmpty()) url.setScheme("file");
+			QString location = url.toEncoded();
+			location = Qt::escape(location);
+
+			QString title = Qt::escape(pl[n].name());
+			int duration = pl[n].duration() * 1000;
+
+			stream << "\n<track>\n";
+			stream << "<location>" << location << "</location>\n";
+			stream << "<title>" << title << "</title>\n";
+			stream << "<duration>" << duration << "</duration>\n";
+			stream << "</track>\n";
+		}
+
+		stream << "\n</trackList>\n";
+		stream << "</playlist>\n";
+
+		setModified(false);
+		return true;
+	} else {
+		return false;
+	}
+}
+
 
 void Playlist::load() {
 	if (maybeSave()) {
@@ -892,7 +930,7 @@ bool Playlist::save() {
 	QString s = MyFileDialog::getSaveFileName(
                     this, tr("Choose a filename"), 
                     lastDir(),
-                    tr("Playlists") + e.playlist().forFilter());
+                    tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
 
 	if (!s.isEmpty()) {
 		// If filename has no extension, add it
@@ -913,10 +951,17 @@ bool Playlist::save() {
 		}
 		latest_dir = QFileInfo(s).absolutePath();
 
-		if (QFileInfo(s).suffix().toLower() == "pls")
+		QString suffix = QFileInfo(s).suffix().toLower();
+		if (suffix  == "pls") {
 			return save_pls(s);
+		}
 		else
+		if (suffix  == "xspf") {
+			return saveXSPF(s);
+		}
+		else {
 			return save_m3u(s);
+		}
 
 	} else {
 		return false;
