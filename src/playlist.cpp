@@ -40,6 +40,7 @@
 #include <QTextCodec>
 #include <QApplication>
 #include <QMimeData>
+#include <QDomDocument>
 #include <QDebug>
 
 #include "mytablewidget.h"
@@ -716,6 +717,49 @@ void Playlist::load_pls(QString file) {
 	if (set.status() == QSettings::NoError) startPlay();
 }
 
+void Playlist::loadXSPF(const QString & filename) {
+	qDebug() << "Playlist::loadXSPF:" << filename;
+
+	QFile f(filename);
+	if (!f.open(QIODevice::ReadOnly)) {
+		return;
+	}
+
+	QDomDocument dom_document;
+	bool ok = dom_document.setContent(f.readAll());
+	qDebug() << "Playlist::loadXSPF: success:" << ok;
+	if (!ok) return;
+
+	QDomNode root = dom_document.documentElement();
+	qDebug() << "Playlist::loadXSPF: tagname:" << root.toElement().tagName();
+
+	QDomNode child = root.firstChildElement("trackList");
+	if (!child.isNull()) {
+		clear();
+
+		qDebug() << "Playlist::loadXSPF: child:" << child.nodeName();
+		QDomNode track = child.firstChildElement("track");
+		while (!track.isNull()) {
+			QString location = QUrl::fromPercentEncoding(track.firstChildElement("location").text().toAscii());
+			QString title = track.firstChildElement("title").text();
+			int duration = track.firstChildElement("duration").text().toInt();
+
+			qDebug() << "Playlist::loadXSPF: location:" << location;
+			qDebug() << "Playlist::loadXSPF: title:" << title;
+			qDebug() << "Playlist::loadXSPF: duration:" << duration;
+
+			addItem( location, title, (double) duration / 1000 );
+
+			track = track.nextSiblingElement("track");
+		}
+
+		list();
+		updateView();
+		setModified( false );
+		startPlay();
+	}
+}
+
 bool Playlist::save_m3u(QString file) {
 	qDebug("Playlist::save_m3u: '%s'", file.toUtf8().data());
 
@@ -823,15 +867,22 @@ void Playlist::load() {
 		QString s = MyFileDialog::getOpenFileName(
                     this, tr("Choose a file"), 
                     lastDir(),
-                    tr("Playlists") + e.playlist().forFilter());
+                    tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
 
 		if (!s.isEmpty()) {
 			latest_dir = QFileInfo(s).absolutePath();
 
-			if (QFileInfo(s).suffix().toLower() == "pls")
+			QString suffix = QFileInfo(s).suffix().toLower();
+			if (suffix == "pls") {
 				load_pls(s);
+			}
 			else
+			if (suffix == "xspf") {
+				loadXSPF(s);
+			}
+			else {
 				load_m3u(s);
+			}
 		}
 	}
 }
