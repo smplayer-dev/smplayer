@@ -214,8 +214,11 @@ void Preferences::reset() {
 	h264_skip_loop_filter = LoopEnabled;
 	HD_height = 720;
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	// MPlayer 1.0rc1 require restart, new versions don't
 	fast_audio_change = Detect;
+#endif
+
 #if !SMART_DVD_CHAPTERS
 	fast_chapter_change = false;
 #endif
@@ -713,7 +716,10 @@ void Preferences::save() {
 	set->setValue("h264_skip_loop_filter", h264_skip_loop_filter);
 	set->setValue("HD_height", HD_height);
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	set->setValue("fast_audio_change", fast_audio_change);
+#endif
+
 #if !SMART_DVD_CHAPTERS
 	set->setValue("fast_chapter_change", fast_chapter_change);
 #endif
@@ -1247,7 +1253,10 @@ void Preferences::load() {
 	h264_skip_loop_filter = (H264LoopFilter) set->value("h264_skip_loop_filter", h264_skip_loop_filter).toInt();
 	HD_height = set->value("HD_height", HD_height).toInt();
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	fast_audio_change = (OptionState) set->value("fast_audio_change", fast_audio_change).toInt();
+#endif
+
 #if !SMART_DVD_CHAPTERS
 	fast_chapter_change = set->value("fast_chapter_change", fast_chapter_change).toBool();
 #endif
