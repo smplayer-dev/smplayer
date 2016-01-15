@@ -250,7 +250,7 @@ void FavoriteEditor::on_add_submenu_button_clicked() {
 		n++;
 	} while (QFile::exists(filename));
 
-	qDebug("FavoriteEditor::on_add_submenu_button_clicked: choosen filename: '%s'", filename.toUtf8().constData());
+	qDebug("FavoriteEditor::on_add_submenu_button_clicked: chosen filename: '%s'", filename.toUtf8().constData());
 
 
 	int row = table->currentRow();
