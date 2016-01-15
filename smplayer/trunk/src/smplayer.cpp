@@ -575,7 +575,7 @@ void SMPlayer::showInfo() {
 	qDebug(" * ini path: '%s'", Paths::iniPath().toUtf8().data());
 	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
 	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
-#ifdef Q_OS_WIN
+#ifdef FONTS_HACK
 	qDebug(" * font path: '%s'", Paths::fontPath().toUtf8().data());
 #endif
 }
