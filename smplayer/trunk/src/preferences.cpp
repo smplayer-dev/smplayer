@@ -1702,8 +1702,8 @@ void Preferences::load() {
 			fixed = true;
 		}
 		else
-		if (QFile::exists("mplayer/mpv.exe")) {
-			mplayer_bin = "mplayer/mpv.exe";
+		if (QFile::exists("mpv/mpv.exe")) {
+			mplayer_bin = "mpv/mpv.exe";
 			fixed = true;
 		}
 		if (fixed) {
