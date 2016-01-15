@@ -18,8 +18,8 @@
 
 /* Default options for the video and audio filters */
 
-#ifndef _FILTERS_H_
-#define _FILTERS_H_
+#ifndef FILTERS_H
+#define FILTERS_H
 
 #include <QObject>
 #include <QString>

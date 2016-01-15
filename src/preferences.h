@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _PREFERENCES_H_
-#define _PREFERENCES_H_
+#ifndef PREFERENCES_H
+#define PREFERENCES_H
 
 /* Global settings */
 

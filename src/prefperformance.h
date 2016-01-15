@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PREFPERFORMANCE_H_
-#define _PREFPERFORMANCE_H_
+#ifndef PREFPERFORMANCE_H
+#define PREFPERFORMANCE_H
 
 #include "ui_prefperformance.h"
 #include "prefwidget.h"

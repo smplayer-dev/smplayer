@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _DEFAULTGUI_H_
-#define _DEFAULTGUI_H_
+#ifndef DEFAULTGUI_H
+#define DEFAULTGUI_H
 
 #include "guiconfig.h"
 #include "baseguiplus.h"

@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TOOLBAR_EDITOR_H_
-#define _TOOLBAR_EDITOR_H_
+#ifndef TOOLBAR_EDITOR_H
+#define TOOLBAR_EDITOR_H
 
 #include <QStringList>
 #include <QWidget>

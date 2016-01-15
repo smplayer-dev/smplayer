@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _FILECHOOSER_H_
-#define _FILECHOOSER_H_
+#ifndef FILECHOOSER_H
+#define FILECHOOSER_H
 
 #include "lineedit_with_icon.h"
 #include <QFileDialog>

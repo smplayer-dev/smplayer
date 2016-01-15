@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PREFWIDGET_H_
-#define _PREFWIDGET_H_
+#ifndef PREFWIDGET_H
+#define PREFWIDGET_H
 
 #include <QWidget>
 #include <QPixmap>

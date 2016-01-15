@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _INPUTDVDDIRECTORY_H_
-#define _INPUTDVDDIRECTORY_H_
+#ifndef INPUTDVDDIRECTORY_H
+#define INPUTDVDDIRECTORY_H
 
 #include "ui_inputdvddirectory.h"
 

@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _DEVICEINFO_H_
-#define _DEVICEINFO_H_
+#ifndef DEVICEINFO_H
+#define DEVICEINFO_H
 
 #include <QString>
 #include <QVariant>

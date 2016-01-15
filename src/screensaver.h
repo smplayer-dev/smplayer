@@ -18,8 +18,8 @@
 
 //! This class disables and restores the windows screensaver 
 
-#ifndef _WINSCREENSAVER_H_
-#define _WINSCREENSAVER_H_
+#ifndef WINSCREENSAVER_H
+#define WINSCREENSAVER_H
 
 #ifdef Q_OS_OS2
 #include <QLibrary>

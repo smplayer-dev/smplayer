@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _AUDIOEQUALIZERLIST_H_
-#define _AUDIOEQUALIZERLIST_H_
+#ifndef AUDIOEQUALIZERLIST_H
+#define AUDIOEQUALIZERLIST_H
 
 #include <QList>
 #include <QVariant>

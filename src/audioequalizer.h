@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _AUDIOOEQUALIZER_H_
-#define _AUDIOOEQUALIZER_H_
+#ifndef AUDIOEQUALIZER_H
+#define AUDIOEQUALIZER_H
 
 #include <QWidget>
 #include <QHideEvent>

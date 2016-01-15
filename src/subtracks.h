@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _SUBTRACKS_H_
-#define _SUBTRACKS_H_
+#ifndef SUBTRACKS_H
+#define SUBTRACKS_H
 
 #include <QString>
 #include <QFileInfo>

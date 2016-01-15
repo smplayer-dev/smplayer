@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _MYCOMBOBOX_H_
-#define _MYCOMBOBOX_H_
+#ifndef MYCOMBOBOX_H
+#define MYCOMBOBOX_H
 
 #include <QComboBox>
 #include <QFontComboBox>

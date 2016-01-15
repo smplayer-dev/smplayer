@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _SEEKWIDGET_H_
-#define _SEEKWIDGET_H_
+#ifndef SEEKWIDGET_H
+#define SEEKWIDGET_H
 
 #include "ui_seekwidget.h"
 #include <QPixmap>

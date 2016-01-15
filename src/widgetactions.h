@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _WIDGETACTIONS_H_
-#define _WIDGETACTIONS_H_
+#ifndef WIDGETACTIONS_H
+#define WIDGETACTIONS_H
 
 #include <QWidgetAction>
 #include "timeslider.h"

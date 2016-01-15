@@ -17,8 +17,8 @@
 */
 
 
-#ifndef _HELPER_H_
-#define _HELPER_H_
+#ifndef HELPER_H
+#define HELPER_H
 
 #include <QString>
 #include <QStringList>

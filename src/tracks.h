@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TRACKS_H_
-#define _TRACKS_H_
+#ifndef TRACKS_H
+#define TRACKS_H
 
 #include <QString>
 #include <QMap>

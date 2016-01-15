@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _INFOFILE_H_
-#define _INFOFILE_H_
+#ifndef INFOFILE_H
+#define INFOFILE_H
 
 #include "mediadata.h"
 #include <QString>

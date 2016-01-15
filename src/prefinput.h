@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PREFINPUT_H_
-#define _PREFINPUT_H_
+#ifndef PREFINPUT_H
+#define PREFINPUT_H
 
 #include "ui_prefinput.h"
 #include "preferences.h"

@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PREFSUBTITLES_H_
-#define _PREFSUBTITLES_H_
+#ifndef PREFSUBTITLES_H
+#define PREFSUBTITLES_H
 
 #include "ui_prefsubtitles.h"
 #include "prefwidget.h"

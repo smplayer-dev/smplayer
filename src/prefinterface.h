@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _PREFINTERFACE_H_
-#define _PREFINTERFACE_H_
+#ifndef PREFINTERFACE_H
+#define PREFINTERFACE_H
 
 #include "ui_prefinterface.h"
 #include "prefwidget.h"

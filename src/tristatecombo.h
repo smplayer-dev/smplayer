@@ -16,13 +16,13 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-/*! 
+/*!
 	This class is to replace some QCheckBox with a combo with three possible
     values: true, false or autodetect
 */
 
-#ifndef _TRISTATE_COMBO_H_
-#define _TRISTATE_COMBO_H_
+#ifndef TRISTATE_COMBO_H
+#define TRISTATE_COMBO_H
 
 #include <QComboBox>
 #include "preferences.h"

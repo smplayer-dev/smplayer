@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TIMEDIALOG_H_
-#define _TIMEDIALOG_H_
+#ifndef TIMEDIALOG_H
+#define TIMEDIALOG_H
 
 #include "ui_timedialog.h"
 

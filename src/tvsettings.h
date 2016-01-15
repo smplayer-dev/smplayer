@@ -16,8 +16,8 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-#ifndef _TV_SETTINGS_H_
-#define _TV_SETTINGS_H_
+#ifndef TV_SETTINGS_H
+#define TV_SETTINGS_H
 
 #include "filesettingsbase.h"
 
