@@ -285,7 +285,7 @@
           <number>0</number>
          </property>
          <item>
-          <widget class="QLabel" name="label">
+          <widget class="QLabel" name="fast_audio_label">
            <property name="text">
             <string>&amp;Fast audio track switching</string>
            </property>

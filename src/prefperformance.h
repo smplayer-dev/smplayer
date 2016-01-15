@@ -80,8 +80,10 @@ protected:
 	bool fastChapterSeeking();
 #endif
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	void setFastAudioSwitching(Preferences::OptionState value);
 	Preferences::OptionState fastAudioSwitching();
+#endif
 
 	void setThreads(int v);
 	int threads();

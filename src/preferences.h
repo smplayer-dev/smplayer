@@ -194,7 +194,10 @@ public:
 	H264LoopFilter h264_skip_loop_filter;
 	int HD_height; //!< An HD is a video which height is equal or greater than this.
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	OptionState fast_audio_change; // If activated, not restart mplayer
+#endif
+
 #if !SMART_DVD_CHAPTERS
 	bool fast_chapter_change;
 #endif

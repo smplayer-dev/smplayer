@@ -53,6 +53,11 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	fast_chapter_check->hide();
 #endif
 
+#ifndef OBSOLETE_FAST_AUDIO_CHANGE
+	fast_audio_label->hide();
+	fast_audio_combo->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -102,7 +107,9 @@ void PrefPerformance::setData(Preferences * pref) {
 #if !SMART_DVD_CHAPTERS
 	setFastChapterSeeking( pref->fast_chapter_change );
 #endif
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	setFastAudioSwitching( pref->fast_audio_change );
+#endif
 	setThreads( pref->threads );
 	setHwdec( pref->hwdec );
 }
@@ -125,7 +132,9 @@ void PrefPerformance::getData(Preferences * pref) {
 #if !SMART_DVD_CHAPTERS
 	TEST_AND_SET(pref->fast_chapter_change, fastChapterSeeking());
 #endif
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	pref->fast_audio_change = fastAudioSwitching();
+#endif
 	TEST_AND_SET(pref->threads, threads());
 	TEST_AND_SET(pref->hwdec, hwdec());
 }
@@ -228,6 +237,7 @@ bool PrefPerformance::fastChapterSeeking() {
 }
 #endif
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 void PrefPerformance::setFastAudioSwitching(Preferences::OptionState value) {
 	fast_audio_combo->setState(value);
 }
@@ -235,6 +245,7 @@ void PrefPerformance::setFastAudioSwitching(Preferences::OptionState value) {
 Preferences::OptionState PrefPerformance::fastAudioSwitching() {
 	return fast_audio_combo->state();
 }
+#endif
 
 void PrefPerformance::setThreads(int v) {
 	threads_spin->setValue(v);
@@ -321,6 +332,7 @@ void PrefPerformance::createHelp() {
            "and a non-VDPAU video output is selected.") +" "+
         tr("Requires a %1 build with CoreAVC support.").arg(PLAYER_NAME));
 
+#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 	setWhatsThis(fast_audio_combo, tr("Fast audio track switching"),
 		tr("Possible values:<br> "
            "<b>Yes</b>: it will try the fastest method "
@@ -329,6 +341,7 @@ void PrefPerformance::createHelp() {
            "change the audio track.<br> "
            "<b>Auto</b>: SMPlayer will decide what to do according to the "
            "MPlayer version." ) );
+#endif
 
 #if !SMART_DVD_CHAPTERS
 	setWhatsThis(fast_chapter_check, tr("Fast seek to chapters in dvds"),

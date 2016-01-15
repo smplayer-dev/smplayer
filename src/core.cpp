@@ -3648,15 +3648,17 @@ void Core::changeAudio(int ID, bool allow_restart) {
 		qDebug("changeAudio: ID: %d", ID);
 
 		bool need_restart = false;
+		#ifdef OBSOLETE_FAST_AUDIO_CHANGE
 		if (allow_restart) {
 			need_restart = (pref->fast_audio_change == Preferences::Disabled);
 			if (pref->fast_audio_change == Preferences::Detect) {
 				need_restart = (!MplayerVersion::isMplayerAtLeast(21441));
 			}
 		}
+		#endif
 
 		if (need_restart) {
-			restartPlay(); 
+			restartPlay();
 		} else {
 			proc->setAudio(ID);
 			// Workaround for a mplayer problem in windows,
