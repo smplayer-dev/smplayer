@@ -132,6 +132,7 @@ public slots:
 	virtual bool save_pls(QString file);
 
 	void loadXSPF(const QString & filename);
+	bool saveXSPF(const QString & filename);
 
 	virtual void getMediaInfo();
 
