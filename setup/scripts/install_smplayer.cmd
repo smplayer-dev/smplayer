@@ -50,8 +50,8 @@ echo.
 echo ######            Fonts            #######
 echo.
 
-mkdir %OUTPUT_DIR%\open-fonts
-copy open-fonts\*.* %OUTPUT_DIR%\open-fonts\
+rem mkdir %OUTPUT_DIR%\open-fonts
+rem copy open-fonts\*.* %OUTPUT_DIR%\open-fonts\
 
 echo.
 echo ######        Translations         #######
