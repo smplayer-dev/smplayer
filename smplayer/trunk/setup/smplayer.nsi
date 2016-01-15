@@ -354,8 +354,8 @@ Section $(Section_SMPlayer) SecSMPlayer
   File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
 
   ;Open fonts
-  SetOutPath "$INSTDIR\open-fonts"
-  File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
+  ; SetOutPath "$INSTDIR\open-fonts"
+  ; File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
 
   ;Qt platforms (Qt 5+)
 !ifdef QT5
@@ -733,7 +733,7 @@ ${MementoSectionDone}
   RMDir /r "$INSTDIR\docs"
   RMDir /r "$INSTDIR\imageformats"
   RMDir /r "$INSTDIR\mplayer"
-  RMDir /r "$INSTDIR\open-fonts"
+  ; RMDir /r "$INSTDIR\open-fonts"
   RMDir /r "$INSTDIR\platforms"
   RMDir /r "$INSTDIR\shortcuts"
   RMDir /r "$INSTDIR\themes"
