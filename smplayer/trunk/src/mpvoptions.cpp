@@ -512,7 +512,11 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 		arg << "--af-add=equalizer=" + option;
 	}
 	else
-	if (filter_name == "extrastereo" || filter_name == "karaoke") {
+	if (filter_name == "extrastereo") {
+		arg << "--af-add=lavfi=[extrastereo]";
+	}
+	else
+	if (filter_name == "karaoke") {
 		/* Not supported anymore */
 		/* Ignore */
 	}
@@ -672,14 +676,11 @@ void MPVProcess::enableKaraoke(bool /*b*/) {
 	*/
 	messageFilterNotSupported("karaoke");
 }
-
-void MPVProcess::enableExtrastereo(bool /*b*/) {
-	/*
-	if (b) writeToStdin("af add extrastereo"); else writeToStdin("af del extrastereo");
-	*/
-	messageFilterNotSupported("extrastereo");
-}
 #endif
+
+void MPVProcess::enableExtrastereo(bool b) {
+	if (b) writeToStdin("af add lavfi=[extrastereo]"); else writeToStdin("af del lavfi=[extrastereo]");
+}
 
 void MPVProcess::enableVolnorm(bool b, const QString & option) {
 	if (b) writeToStdin("af add drc=" + option); else writeToStdin("af del drc=" + option);

@@ -490,8 +490,8 @@ protected:
 	MyAction * decAudioDelayAct;
 	MyAction * incAudioDelayAct;
 	MyAction * audioDelayAct; // Ask for delay
-#ifdef MPLAYER_SUPPORT
 	MyAction * extrastereoAct;
+#ifdef MPLAYER_SUPPORT
 	MyAction * karaokeAct;
 #endif
 	MyAction * volnormAct;

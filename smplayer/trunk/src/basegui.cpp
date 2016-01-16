@@ -741,12 +741,12 @@ void BaseGui::createActions() {
 
 
 	// Submenu Filters
-#ifdef MPLAYER_SUPPORT
 	extrastereoAct = new MyAction( this, "extrastereo_filter" );
 	extrastereoAct->setCheckable( true );
 	connect( extrastereoAct, SIGNAL(toggled(bool)),
              core, SLOT(toggleExtrastereo(bool)) );
 
+#ifdef MPLAYER_SUPPORT
 	karaokeAct = new MyAction( this, "karaoke_filter" );
 	karaokeAct->setCheckable( true );
 	connect( karaokeAct, SIGNAL(toggled(bool)),
@@ -1378,8 +1378,8 @@ void BaseGui::setActionsEnabled(bool b) {
 	decAudioDelayAct->setEnabled(b);
 	incAudioDelayAct->setEnabled(b);
 	audioDelayAct->setEnabled(b);
-#ifdef MPLAYER_SUPPORT
 	extrastereoAct->setEnabled(b);
+#ifdef MPLAYER_SUPPORT
 	karaokeAct->setEnabled(b);
 #endif
 	volnormAct->setEnabled(b);
@@ -1496,8 +1496,8 @@ void BaseGui::enableActionsOnPlaying() {
 		decAudioDelayAct->setEnabled(false);
 		incAudioDelayAct->setEnabled(false);
 		audioDelayAct->setEnabled(false);
-#ifdef MPLAYER_SUPPORT
 		extrastereoAct->setEnabled(false);
+#ifdef MPLAYER_SUPPORT
 		karaokeAct->setEnabled(false);
 #endif
 		volnormAct->setEnabled(false);
@@ -1752,8 +1752,8 @@ void BaseGui::retranslateStrings() {
 	unloadAudioAct->change( Images::icon("unload"), tr("U&nload") );
 
 	// Submenu Filters
-#ifdef MPLAYER_SUPPORT
 	extrastereoAct->change( tr("&Extrastereo") );
+#ifdef MPLAYER_SUPPORT
 	karaokeAct->change( tr("&Karaoke") );
 #endif
 	volnormAct->change( tr("Volume &normalization") );
@@ -2678,8 +2678,8 @@ void BaseGui::createMenus() {
 	// Filter submenu
 	audiofilter_menu = new QMenu(this);
 	audiofilter_menu->menuAction()->setObjectName("audiofilter_menu");
-#ifdef MPLAYER_SUPPORT
 	audiofilter_menu->addAction(extrastereoAct);
+#ifdef MPLAYER_SUPPORT
 	audiofilter_menu->addAction(karaokeAct);
 #endif
 	audiofilter_menu->addAction(volnormAct);
@@ -3777,10 +3777,10 @@ void BaseGui::updateWidgets() {
 #ifdef MPLAYER_SUPPORT
 	// Karaoke menu option
 	karaokeAct->setChecked( core->mset.karaoke_filter );
+#endif
 
 	// Extrastereo menu option
 	extrastereoAct->setChecked( core->mset.extrastereo_filter );
-#endif
 
 	// Volnorm menu option
 	volnormAct->setChecked( core->mset.volnorm_filter );

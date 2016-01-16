@@ -153,9 +153,10 @@ public slots:
 #ifdef MPLAYER_SUPPORT
 	void toggleKaraoke();
 	void toggleKaraoke(bool b);
+#endif
 	void toggleExtrastereo();
 	void toggleExtrastereo(bool b);
-#endif
+
 	void toggleVolnorm();
 	void toggleVolnorm(bool b);
 

@@ -93,8 +93,8 @@ public:
 	virtual void setSpeed(double value) = 0;
 #ifdef MPLAYER_SUPPORT
 	virtual void enableKaraoke(bool b) = 0;
-	virtual void enableExtrastereo(bool b) = 0;
 #endif
+	virtual void enableExtrastereo(bool b) = 0;
 	virtual void enableVolnorm(bool b, const QString & option) = 0;
 	virtual void setAudioEqualizer(const QString & values) = 0;
 	virtual void setAudioDelay(double delay) = 0;

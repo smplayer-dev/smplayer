@@ -93,8 +93,8 @@ void MediaSettings::reset() {
 
 #ifdef MPLAYER_SUPPORT
 	karaoke_filter = false;
-	extrastereo_filter = false;
 #endif
+	extrastereo_filter = false;
 	volnorm_filter = pref->initial_volnorm;
 
 	audio_use_channels = pref->initial_audio_channels; //ChDefault; // (0)
@@ -249,8 +249,8 @@ void MediaSettings::list() {
 
 #ifdef MPLAYER_SUPPORT
 	qDebug("  karaoke_filter: %d", karaoke_filter);
-	qDebug("  extrastereo_filter: %d", extrastereo_filter);
 #endif
+	qDebug("  extrastereo_filter: %d", extrastereo_filter);
 	qDebug("  volnorm_filter: %d", volnorm_filter);
 
 	qDebug("  audio_use_channels: %d", audio_use_channels);
@@ -378,8 +378,8 @@ void MediaSettings::save(QSettings * set, int player_id) {
 
 #ifdef MPLAYER_SUPPORT
 	set->setValue( "karaoke_filter", karaoke_filter);
-	set->setValue( "extrastereo_filter", extrastereo_filter);
 #endif
+	set->setValue( "extrastereo_filter", extrastereo_filter);
 	set->setValue( "volnorm_filter", volnorm_filter);
 
 	set->setValue( "audio_use_channels", audio_use_channels);
@@ -515,8 +515,8 @@ void MediaSettings::load(QSettings * set, int player_id) {
 
 #ifdef MPLAYER_SUPPORT
 	karaoke_filter = set->value( "karaoke_filter", karaoke_filter).toBool();
-	extrastereo_filter = set->value( "extrastereo_filter", extrastereo_filter).toBool();
 #endif
+	extrastereo_filter = set->value( "extrastereo_filter", extrastereo_filter).toBool();
 	volnorm_filter = set->value( "volnorm_filter", volnorm_filter).toBool();
 
 	audio_use_channels = set->value( "audio_use_channels", audio_use_channels).toInt();
