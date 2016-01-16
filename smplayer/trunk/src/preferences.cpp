@@ -303,7 +303,7 @@ void Preferences::reset() {
 	use_lavf_demuxer = false;
 
 	mplayer_additional_options="";
-	#ifdef PORTABLE_APP
+	#if defined(PORTABLE_APP) && defined(FONTS_HACK)
 	mplayer_additional_options="-nofontconfig";
 	#endif
     mplayer_additional_video_filters="";
