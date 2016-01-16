@@ -740,7 +740,7 @@ void Playlist::loadXSPF(const QString & filename) {
 		qDebug() << "Playlist::loadXSPF: child:" << child.nodeName();
 		QDomNode track = child.firstChildElement("track");
 		while (!track.isNull()) {
-			QString location = QUrl::fromPercentEncoding(track.firstChildElement("location").text().toAscii());
+			QString location = QUrl::fromPercentEncoding(track.firstChildElement("location").text().toLatin1());
 			QString title = track.firstChildElement("title").text();
 			int duration = track.firstChildElement("duration").text().toInt();
 
@@ -876,10 +876,16 @@ bool Playlist::saveXSPF(const QString & filename) {
 			QUrl url = QUrl(pl[n].filename());
 			if (/*url.isLocalFile() &&*/ url.scheme().isEmpty()) url.setScheme("file");
 			QString location = url.toEncoded();
-			location = Qt::escape(location);
-
-			QString title = Qt::escape(pl[n].name());
+			QString title = pl[n].name();
 			int duration = pl[n].duration() * 1000;
+
+			#if QT_VERSION >= 0x050000
+			location = location.toHtmlEscaped();
+			title = title.toHtmlEscaped();
+			#else
+			location = Qt::escape(location);
+			title = Qt::escape(title);
+			#endif
 
 			stream << "\n<track>\n";
 			stream << "<location>" << location << "</location>\n";
