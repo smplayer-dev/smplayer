@@ -2314,11 +2314,9 @@ void Core::startMplayer( QString file, double seek ) {
 			}
 		}
 
-		#ifdef MPLAYER_SUPPORT
 		if (mset.extrastereo_filter) {
 			proc->addAF("extrastereo");
 		}
-		#endif
 
 		if (mset.volnorm_filter) {
 			proc->addAF("volnorm", pref->filters->item("volnorm").options());
@@ -2712,6 +2710,7 @@ void Core::toggleKaraoke(bool b) {
 		}
 	}
 }
+#endif
 
 void Core::toggleExtrastereo() {
 	toggleExtrastereo( !mset.extrastereo_filter );
@@ -2729,7 +2728,6 @@ void Core::toggleExtrastereo(bool b) {
 		}
 	}
 }
-#endif
 
 void Core::toggleVolnorm() {
 	toggleVolnorm( !mset.volnorm_filter );

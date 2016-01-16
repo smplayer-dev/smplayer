@@ -120,8 +120,8 @@ public:
 
 #ifdef MPLAYER_SUPPORT
 	bool karaoke_filter;
-	bool extrastereo_filter;
 #endif
+	bool extrastereo_filter;
 	bool volnorm_filter;
 
 	int audio_use_channels;
