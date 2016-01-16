@@ -3945,7 +3945,11 @@ void BaseGui::open(QString file) {
 	if (extension=="pls") {
 		playlist->load_pls(file);
 	}
-	else 
+	else
+	if (extension=="xspf") {
+		playlist->loadXSPF(file);
+	}
+	else
 	if (QFileInfo(file).isDir()) {
 		openDirectory(file);
 	} 
@@ -4092,6 +4096,10 @@ void BaseGui::openFile(QString file) {
 		else
 		if (extension=="pls") {
 			playlist->load_pls(file);
+		}
+		else
+		if (extension=="xspf") {
+			playlist->loadXSPF(file);
 		}
 		else
 		if (extension=="iso") {
