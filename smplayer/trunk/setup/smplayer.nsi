@@ -42,15 +42,6 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
-  !define MPV_VERSION "20150923"
-!ifdef WIN64
-  !define MPV_FILENAME "mpv-x86_64-${MPV_VERSION}.7z"
-!else
-  !define MPV_FILENAME "mpv-i686-${MPV_VERSION}.7z"
-!endif
-
-  !define INSTALLER_VERSION "1"
-
 ;--------------------------------
 ;General
 
@@ -112,7 +103,7 @@
 !ifndef WIN64
   Var Restore_Codecs
 !endif
-  Var Restore_MPV
+  Var Restore_YTDL
   Var Restore_SMTube
   Var SecRadioButton
   Var SMPlayer_Path
@@ -123,8 +114,6 @@
   Var YTDL_Version_Remote
   Var YTDL_Version_Remote_File
   Var YTDL_Previous_Version_State
-
-  Var MPV_Version
 
 ;--------------------------------
 ;Interface Settings
@@ -327,7 +316,7 @@ Section $(Section_SMPlayer) SecSMPlayer
 !ifndef WIN64
       Call Backup_Codecs
 !endif
-      Call Backup_MPV
+      Call Backup_YTDL
       Call Backup_SMTube
 
       ${If} "$INSTDIR" == "$SMPlayer_Path"
@@ -367,20 +356,6 @@ Section $(Section_SMPlayer) SecSMPlayer
   SetOutPath "$INSTDIR\shortcuts"
   File /r "${SMPLAYER_BUILD_DIR}\shortcuts\*.*"
 
-  SetOutPath "$PLUGINSDIR"
-  File 7za.exe
-
-  ;Initialize to 0 if don't exist (based on error flag)
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer
-  ${If} ${Errors}
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x0
-  ${EndIf}
-
-  ReadRegDWORD $R0 HKLM "${SMPLAYER_REG_KEY}" Installed_MPV
-  ${If} ${Errors}
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x0
-  ${EndIf}
-
 SectionEnd
 
 ;--------------------------------
@@ -415,7 +390,7 @@ SectionGroupEnd
 ;MPlayer & MPV
 SectionGroup $(MPlayerMPVGroupTitle)
 
-  Section "MPlayer" SecMPlayer
+  ${MementoSection} "MPlayer" SecMPlayer
 
     SetOutPath "$INSTDIR\mplayer"
     File /r /x mplayer.exe /x mencoder.exe /x mplayer64.exe /x mencoder64.exe /x *.exe.debug /x gdb.exe /x gdb64.exe /x vfw2menc.exe /x buildinfo /x buildinfo64 /x buildinfo-mencoder-32 /x buildinfo-mencoder-debug-32 /x buildinfo-mplayer-32 /x buildinfo-mplayer-debug-32 /x buildinfo-mencoder-64 /x buildinfo-mencoder-debug-64 /x buildinfo-mplayer-64 /x buildinfo-mplayer-debug-64 "${SMPLAYER_BUILD_DIR}\mplayer\*.*"
@@ -428,96 +403,56 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
     WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
 
-  SectionEnd
+  ${MementoSectionEnd}
 
-  Section /o "MPV" SecMPV
+  ${MementoUnselectedSection} "MPV" SecMPV
 
-	SetOutPath "$INSTDIR\mpv"
-	File /r "${SMPLAYER_BUILD_DIR}\mpv\*.*"
-  
-	/*
-	
-    AddSize 30000
-
-    ${If} $Restore_MPV == 1
-      DetailPrint $(Info_MPV_Restore)
-      CopyFiles /SILENT "$PLUGINSDIR\mpvbak\*" "$INSTDIR\mpv"
-      Goto check_mpv
-    ${ElseIf} ${FileExists} "$EXEDIR\${MPV_FILENAME}"
-      CopyFiles /SILENT "$EXEDIR\${MPV_FILENAME}" "$PLUGINSDIR\mpv.7z"
-      Goto extract_mpv
-    ${EndIf}
-
-    retry_mpv_dl:
-
-    DetailPrint $(MPV_DL_Msg)
-!ifdef USE_INETC
-    inetc::get /CONNECTTIMEOUT 30000 /RESUME "" /BANNER $(MPV_DL_Msg) /CAPTION $(MPV_DL_Msg) \
-    "http://downloads.smplayer.info/mpv/${MPV_FILENAME}" \
-    "$PLUGINSDIR\mpv.7z" /END
-    Pop $R0
-    StrCmp $R0 OK +4 0
+  SetOutPath "$INSTDIR\mpv"
+!ifdef WIN64
+  File /r /x mpv.exe /x mpv.com /x mpv64.exe /x mpv64.com /x fonts /x mpv "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mpv\mpv64.exe"
+  File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mpv\mpv64.com"
 !else
-    NSISdl::download /TIMEOUT=30000 \
-    "http://downloads.smplayer.info/mpv/${MPV_FILENAME}" \
-    "$PLUGINSDIR\mpv.7z" /END
-    Pop $R0
-    StrCmp $R0 "success" +4 0
+  File /r /x mpv64.exe /x mpv64.com "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 !endif
-      DetailPrint $(MPV_DL_Failed)
-      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(MPV_DL_Retry) /SD IDCANCEL IDRETRY retry_mpv_dl
-      Goto check_mpv
 
-    extract_mpv:
+  ${If} $Restore_YTDL == 1
+    CopyFiles /SILENT "$PLUGINSDIR\youtube-dl.exe" "$INSTDIR\mpv"
+  ${EndIf}
 
-    DetailPrint $(Info_Files_Extract)
-    CreateDirectory "$INSTDIR\mpv"
-    nsExec::Exec '"$PLUGINSDIR\7za.exe" x "$PLUGINSDIR\mpv.7z" -y -o"$INSTDIR\mpv"'
+  dl_youtube-dl:
 
-    check_mpv:
+  NSISdl::download_quiet /TIMEOUT=30000 \
+  "http://yt-dl.org/latest/version" \
+  "$PLUGINSDIR\version" /END
 
-    IfFileExists "$INSTDIR\mpv\mpv*.exe" 0 mpvInstFailed
-        WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPV 0x1
-        WriteRegStr   HKLM "${SMPLAYER_REG_KEY}" "MPV_Version" "${MPV_VERSION}"
-        Goto dl_youtube-dl
-      mpvInstFailed:
-        Abort $(MPV_Inst_Failed)
-		
-	*/
-	
-    dl_youtube-dl:
+  ClearErrors
+  FileOpen $YTDL_Version_Remote_File "$PLUGINSDIR\version" r
+  IfErrors YTDL
+  FileRead $YTDL_Version_Remote_File $YTDL_Version_Remote
+  FileClose $YTDL_Version_Remote_File
 
-    NSISdl::download_quiet /TIMEOUT=30000 \
-    "http://yt-dl.org/latest/version" \
-    "$PLUGINSDIR\version" /END
+  ClearErrors
+  ${GetFileVersion} "$INSTDIR\mpv\youtube-dl.exe" $YTDL_Version_Local
+  IfErrors YTDL
 
-    ClearErrors
-    FileOpen $YTDL_Version_Remote_File "$PLUGINSDIR\version" r
-    IfErrors YTDL
-    FileRead $YTDL_Version_Remote_File $YTDL_Version_Remote
-    FileClose $YTDL_Version_Remote_File
+  ${VersionCompare} $YTDL_Version_Remote $YTDL_Version_Local $YTDL_Previous_Version_State
+  ${Unless} $YTDL_Previous_Version_State == 1
+    Goto skip_ytdl
+  ${EndIf}
 
-    ClearErrors
-    ${GetFileVersion} "$INSTDIR\mpv\youtube-dl.exe" $YTDL_Version_Local
-    IfErrors YTDL
+  YTDL:
+  NSISdl::download /TIMEOUT=30000 \
+  "http://yt-dl.org/latest/youtube-dl.exe" \
+  "$INSTDIR\mpv\youtube-dl.exe" /END
+  Pop $R0
+  StrCmp $R0 "success" +3 0
+    DetailPrint $(YTDL_DL_Failed)
+    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY dl_youtube-dl
 
-    ${VersionCompare} $YTDL_Version_Remote $YTDL_Version_Local $YTDL_Previous_Version_State
-    ${Unless} $YTDL_Previous_Version_State == 1
-      Goto skip_ytdl
-    ${EndIf}
+  skip_ytdl:
 
-    YTDL:
-    NSISdl::download /TIMEOUT=30000 \
-    "http://yt-dl.org/latest/youtube-dl.exe" \
-    "$INSTDIR\mpv\youtube-dl.exe" /END
-    Pop $R0
-    StrCmp $R0 "success" +3 0
-      DetailPrint $(YTDL_DL_Failed)
-      MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY dl_youtube-dl
-
-    skip_ytdl:
-
-  SectionEnd
+  ${MementoSectionEnd}
 
 SectionGroupEnd
 
@@ -819,13 +754,29 @@ FunctionEnd
 
 Function newGUIInit
 
+  ; For migrating older installs
+  ClearErrors
   ReadRegDWORD $ReadReg_Installed_MPV HKLM "${SMPLAYER_REG_KEY}" "Installed_MPV"
-  ${If} $ReadReg_Installed_MPV == 1
-    StrCpy $SecRadioButton ${SecMPV}
-    !insertmacro UnSelectSection ${SecMPlayer}
-    !insertmacro SelectSection ${SecMPV}
-  ${Else}
-    StrCpy $SecRadioButton ${SecMPlayer}
+  ${IfNot} ${Errors}
+    ${If} $ReadReg_Installed_MPV == 1
+      StrCpy $SecRadioButton ${SecMPV}
+      !insertmacro UnSelectSection ${SecMPlayer}
+      !insertmacro SelectSection ${SecMPV}
+    ${Else}
+      StrCpy $SecRadioButton ${SecMPlayer}
+    ${EndIf}
+  ${EndIf}
+
+  ClearErrors
+  ReadRegDWORD $ReadReg_Installed_MPV HKLM "${SMPLAYER_REG_KEY}" "MementoSection_SecMPV"
+  ${IfNot} ${Errors}
+    ${If} $ReadReg_Installed_MPV == 1
+      StrCpy $SecRadioButton ${SecMPV}
+      !insertmacro UnSelectSection ${SecMPlayer}
+      !insertmacro SelectSection ${SecMPV}
+    ${Else}
+      StrCpy $SecRadioButton ${SecMPlayer}
+    ${EndIf}
   ${EndIf}
 
 FunctionEnd
@@ -991,27 +942,19 @@ Function Backup_Codecs
 FunctionEnd
 !endif
 
-Function Backup_MPV
+Function Backup_YTDL
 
   ${IfNot} ${SectionIsSelected} ${SecMPV}
     Return
   ${EndIf}
 
-  ClearErrors
-  ReadRegStr $MPV_Version HKLM "${SMPLAYER_REG_KEY}" "MPV_Version"
-  IfErrors NoBackup 0
-    IntCmp $MPV_Version ${MPV_VERSION} +3 0 +3
-      DetailPrint "A newer version of MPV is available and will be downloaded."
-      Goto NoBackup
+  IfFileExists "$SMPlayer_Path\mpv\youtube-dl.exe" 0 NoBackup
+    CopyFiles /SILENT "$SMPlayer_Path\mpv\youtube-dl.exe" "$PLUGINSDIR\youtube-dl.exe"
 
-  IfFileExists "$SMPlayer_Path\mpv\mpv*.exe" 0 NoBackup
-    DetailPrint $(Info_MPV_Backup)
-    CreateDirectory "$PLUGINSDIR\mpvbak"
-    CopyFiles /SILENT "$SMPlayer_Path\mpv\*" "$PLUGINSDIR\mpvbak"
-    StrCpy $Restore_MPV 1
+    StrCpy $Restore_YTDL 1
     Return
   NoBackup:
-    StrCpy $Restore_MPV 0
+    StrCpy $Restore_YTDL 0
 
 FunctionEnd
 
