@@ -14,6 +14,7 @@ set SMPLAYER_DIR=svn\smplayer
 set SMPLAYER_THEMES_DIR=svn\smplayer-themes
 set SMPLAYER_SKINS_DIR=svn\smplayer-skins
 set MPLAYER_DIR=mplayer
+set MPV_DIR=mpv
 rem set QT_DIR=C:\QtSDK\Desktop\Qt\%QTVER%\mingw
 set QT_DIR=C:\Qt\%QTVER%
 
@@ -203,5 +204,10 @@ echo.
 echo ######           MPlayer           #######
 echo.
 xcopy %MPLAYER_DIR% %OUTPUT_DIR%\mplayer\ /E
+
+echo.
+echo ######           MPV               #######
+echo.
+xcopy %MPV_DIR% %OUTPUT_DIR%\mpv\ /E
 
 echo.

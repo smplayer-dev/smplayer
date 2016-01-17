@@ -432,6 +432,11 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
   Section /o "MPV" SecMPV
 
+	SetOutPath "$INSTDIR\mpv"
+	File /r "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  
+	/*
+	
     AddSize 30000
 
     ${If} $Restore_MPV == 1
@@ -477,7 +482,9 @@ SectionGroup $(MPlayerMPVGroupTitle)
         Goto dl_youtube-dl
       mpvInstFailed:
         Abort $(MPV_Inst_Failed)
-
+		
+	*/
+	
     dl_youtube-dl:
 
     NSISdl::download_quiet /TIMEOUT=30000 \
