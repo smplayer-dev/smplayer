@@ -6741,7 +6741,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation>ウィンドウが画面の外に出るのを禁止する(&amp;P)</translation>
+        <translation>ウィンドウが画面の外に出ないようにする(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6921,7 +6921,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation>ウィンドウが画面の外に出るのを禁止する</translation>
+        <translation>ウィンドウが画面の外に出ないようにする</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>

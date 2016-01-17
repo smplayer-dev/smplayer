@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -211,7 +209,7 @@ Substituir?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="513"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>O ficheiro não pôde ser carregado</translation>
+        <translation>Não foi possível carregar o ficheiro</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="223"/>
@@ -1923,7 +1921,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Transferência...</translation>
+        <translation>A descarregar...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
@@ -1959,7 +1957,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Ocorreu um erro ao transferir o ficheiro:&lt;br&gt;%1</translation>
+        <translation>Ocorreu um erro ao descarregar o ficheiro:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2381,7 +2379,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="39"/>
         <source>Downloading...</source>
-        <translation>A transferir...</translation>
+        <translation>A descarregar...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
@@ -2678,10 +2676,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2692,7 +2687,7 @@ Exemplo: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="271"/>
         <source>&amp;Download</source>
-        <translation>&amp;Transferir</translation>
+        <translation>&amp;Descarregar</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="272"/>
@@ -2707,7 +2702,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="347"/>
         <source>Download failed: %1.</source>
-        <translation>Falha ao transferir: %1.</translation>
+        <translation>Falha ao descarregar: %1.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="352"/>
@@ -2717,7 +2712,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="370"/>
         <source>Downloading...</source>
-        <translation>A transferir...</translation>
+        <translation>A descarregar...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="378"/>
@@ -2779,10 +2774,10 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
-        <translation>Não foi possível guardar o ficheiro transferido
+        <translation>Não foi possível guardar o ficheiro
 na pasta %1.
 Verifique as permissões da pasta.</translation>
     </message>
@@ -2791,7 +2786,7 @@ Verifique as permissões da pasta.</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="495"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="623"/>
         <source>Download failed</source>
-        <translation>Falha ao transferir</translation>
+        <translation>Falha ao descarregar</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="607"/>
@@ -5011,7 +5006,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="463"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Recria o índice de ficheiros se nenhum for encontrado, permitindo a procura. Útil com transferências corrompidas/incompletas ou ficheiros mal criados. Esta opção só funciona se o vídeo subjacente suportar busca (i.e., não com stdin, pipe, etc.).&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a criação do índice pode levar algum tempo.</translation>
+        <translation>Recria o índice de ficheiros se nenhum for encontrado, permitindo a procura. Útil para descargas danificadas/incompletas ou ficheiros mal criados. Esta opção só funciona se o vídeo subjacente suportar busca (i.e., não com stdin, pipe, etc.).&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a criação do índice pode levar algum tempo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="156"/>
@@ -5419,7 +5414,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation>Se não ativar esta opção, os valores do equalizador serão diferenciados entre os ficheiros e recuperados ao reproduzir.</translation>
+        <translation>Se não ativar esta opção, os valores do equalizador serão guardados com os ficheiros e recuperados ao reproduzir.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
@@ -8133,7 +8128,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Select the subtitle autoload method.</source>
-        <translation>Selecione o método de carregamento automatico das legendas.</translation>
+        <translation>Selecione o método de carregamento automático das legendas.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
@@ -8754,7 +8749,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation>lista_ações é uma lista de ações separadas por espaços. As ações serão executadas após carregar o ficheiro (se existente) na mesma ordem que as introduzir. Para ações verificáveis, pode enviar verdadeiro ou falso como parâmetro. Exemplo: -actions &quot;fullscreen compact true&quot;. As aspas serão necessárias se quiser passar mais do que uma ação.</translation>
+        <translation>lista_ações é uma lista de ações separadas por espaços. As ações serão executadas após carregar o ficheiro (se existente) pela ordem que as introduzir. Para ações verificáveis, pode enviar &apos;true&apos; ou &apos;false&apos; como parâmetro. Exemplo: -actions &quot;fullscreen compact true&quot;. As aspas serão necessárias se quiser passar mais do que uma ação.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="99"/>
@@ -8837,19 +8832,13 @@ Exemplo: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9630,7 +9619,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="364"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation>O ficheiro %1 não foi carregado</translation>
+        <translation>Não foi possível carregar o ficheiro %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="467"/>

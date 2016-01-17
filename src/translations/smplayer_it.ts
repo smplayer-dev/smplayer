@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1205,7 +1203,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="2054"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Traccia prim&amp;aria</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2061"/>
@@ -2214,7 +2212,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Ops, qualcosa è andato storto</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2679,10 +2677,7 @@ Esempio: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>estratti %n sottotitoli</numerusform>
-            <numerusform>estratto %n sottotitolo</numerusform>
-        </translation>
+        <translation><numerusform>estratti %n sottotitoli</numerusform><numerusform>estratto %n sottotitolo</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2780,7 +2775,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non è stato possibile salvare il file scaricato
@@ -4900,7 +4895,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Pa&amp;ssa l&apos;opzione %1 a MPlayer (rischio per la sicurezza)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4935,12 +4930,12 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Passa l&apos;opzione %1 a MPlayer (rischio per la sicurezza)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione può essere necessaria per riprodurre file playlist (m3u, pls...). Tuttavia può introdurre un rischio per la sicurezza riproducendo sorgenti internet perché il modo in cui MPlayer analizza ed usa i file playlist non è sicuro nei confronti di file malevoli.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5199,7 +5194,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è spuntata, SMPlayer riprodurrà DVD tramite dvdnav. Richiede una versione di MPlayer compilata con supporto dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5425,7 +5420,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Permette di cambiare la velocità di riproduzione senza alterazione del pitch.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1130"/>
@@ -6747,7 +6742,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Im&amp;pedisci alla finestra di andare fuori dallo schermo</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6927,12 +6922,12 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Impedisci alla finestra di andare fuori dallo schermo</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se dopo un ridimensionamento automatico la finestra principale sporge fuori dallo schermo questa opzione la centrerà per impedirlo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7774,12 +7769,12 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="316"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerca di usare il codec CoreAVC non libero quando non è specificato nessun altro codec ed è selezionata un&apos;uscita video non-VDPAU.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Richiede una versione di MPlayer compilata con supporto CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="335"/>
@@ -8838,19 +8833,13 @@ Esempio: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n secondo</numerusform>
-            <numerusform>%n secondi</numerusform>
-        </translation>
+        <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minuti</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minuti</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

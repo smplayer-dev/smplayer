@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -119,7 +117,7 @@
     <message>
         <location filename="../about.cpp" line="116"/>
         <source>SMPlayer logo by %1</source>
-        <translation>由 %1 設計出 SMPlayer 的標誌</translation>
+        <translation>%1 設計出 SMPlayer 的標誌</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="97"/>
@@ -134,12 +132,12 @@
     <message>
         <location filename="../about.cpp" line="117"/>
         <source>Packages for Windows created by %1</source>
-        <translation>由 %1 建立適用於 Windows 的套件</translation>
+        <translation>%1 建立適用於 Windows 的套件</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>許多其他人貢獻了補丁。詳情請看變更日誌。</translation>
+        <translation>還有許多其他人貢獻了補丁。詳情請看變更日誌。</translation>
     </message>
 </context>
 <context>
@@ -972,12 +970,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1642"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation>從光碟機開啟 Blu-&amp;ray...</translation>
+        <translation>從目錄開啟 Blu-&amp;ray...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1674"/>
         <source>Fra&amp;me back step</source>
-        <translation>移動至前一個畫面(&amp;M)</translation>
+        <translation>上一個畫面(&amp;M)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1693"/>
@@ -1644,7 +1642,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2019"/>
         <source>While &amp;playing</source>
-        <translation>當正在播放時(&amp;P)</translation>
+        <translation>播放時(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2103"/>
@@ -1867,7 +1865,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="210"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>在系統閘裡顯示圖示(&amp;H)</translation>
+        <translation>在系統匣顯示圖示(&amp;H)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="221"/>
@@ -2678,9 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已擷取出 %n 字幕擋</numerusform>
-        </translation>
+        <translation><numerusform>已擷取出 %n 字幕擋</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2778,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>無法將下載好的檔案儲存
@@ -5578,12 +5574,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="236"/>
         <source>&amp;Pause when minimized</source>
-        <translation>當最小化時暫停(&amp;P)</translation>
+        <translation>最小化時暫停(&amp;P)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="962"/>
         <source>Pause when minimized</source>
-        <translation>當最小化時暫停</translation>
+        <translation>最小化時暫停</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
@@ -5803,7 +5799,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="243"/>
         <source>&amp;Close when finished playback</source>
-        <translation>當播放結束後關閉(&amp;C)</translation>
+        <translation>播放結束後關閉(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="382"/>
@@ -6048,7 +6044,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1144"/>
         <source>Audio/video auto synchronization</source>
-        <translation>音訊/視訊 自動同步化</translation>
+        <translation>影音自動同步</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1145"/>
@@ -6063,17 +6059,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
-        <translation>每個影格的最大 A-V 同步校正(以秒為單位)</translation>
+        <translation>每個影格的最大影音同步校正(以秒為單位)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="908"/>
         <source>Synchronization</source>
-        <translation>同步化</translation>
+        <translation>同步</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="919"/>
         <source>Audio/video auto &amp;synchronization</source>
-        <translation>音訊/視訊自動同步化(&amp;S)</translation>
+        <translation>影音自動同步(&amp;S)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="945"/>
@@ -6760,7 +6756,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="155"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>移動視窗，當視訊區被拖曳時(&amp;M)</translation>
+        <translation>在視訊區拖曳時移動視窗(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="297"/>
@@ -6945,7 +6941,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="675"/>
         <source>Move the window when the video area is dragged</source>
-        <translation>移動視窗，當視訊區被拖曳時</translation>
+        <translation>在視訊區拖曳時移動視窗</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="676"/>
@@ -7234,17 +7230,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>Hide video window when playing audio files</source>
-        <translation>撥放音訊檔時，隱藏視訊視窗</translation>
+        <translation>播放音訊檔時隱藏視訊視窗</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>如果這個選項被啟用，撥放音訊檔時會隱藏視訊視窗</translation>
+        <translation>若勾選此項，播放音訊檔時將會隱藏視訊視窗</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>撥放音訊檔時，隱藏視訊視窗(&amp;H)</translation>
+        <translation>播放音訊檔時隱藏視訊視窗(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="741"/>
@@ -7547,7 +7543,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="271"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation>在較慢的系统上，跳過一些幀來保證 A/V 同步。</translation>
+        <translation>在較慢的系统上，跳過一些幀來保證影音同步。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="273"/>
@@ -7930,7 +7926,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.cpp" line="144"/>
         <source>Play files from start</source>
-        <translation>重頭撥放檔案</translation>
+        <translation>從頭播放檔案</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="145"/>
@@ -7995,7 +7991,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
         <source>P&amp;lay files from start</source>
-        <translation>重頭撥放檔案(&amp;P)</translation>
+        <translation>從頭播放檔案(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="110"/>
@@ -8836,17 +8832,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

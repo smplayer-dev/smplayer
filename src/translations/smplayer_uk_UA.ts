@@ -275,7 +275,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>Club</source>
-        <translation>Клюбна</translation>
+        <translation>Клубна</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
@@ -1792,7 +1792,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1587"/>
         <source>Video filters are disabled when using vdpau</source>
-        <translation>Фільтри видива вимкнені, коли використовується vdpau</translation>
+        <translation>Фільтри відео вимкнені, коли використовується vdpau</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
@@ -4728,7 +4728,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If you see parts of the video over any other window, you can change the colorkey to fix it. Try to select a color close to black.</source>
-        <translation>Якщо ви бачите частини видива по будь-яких інших вікнах, Ви можете змінити код кольору для виправлення цього. Спробуйте колір, близький до чорного.</translation>
+        <translation>Якщо ви бачите частини відео по будь-яких інших вікнах, Ви можете змінити код кольору для виправлення цього. Спробуйте колір, близький до чорного.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="534"/>
@@ -4954,7 +4954,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Обмеження: дії виконуються лише коли файл буде відкритий та не тоді, коли процес mplayer перезапущено (наприклад ви виберете видиво чи аудіофільтр).</translation>
+        <translation>Обмеження: дії виконуються лише коли файл буде відкритий та не тоді, коли процес mplayer перезапущено (наприклад ви виберете відео чи аудіофільтр).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -6044,7 +6044,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1144"/>
         <source>Audio/video auto synchronization</source>
-        <translation>Автосинхронізація звуку/видива</translation>
+        <translation>Автосинхронізація звуку/відео</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1145"/>
@@ -6142,12 +6142,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="38"/>
         <source>Keyboard and mouse</source>
-        <translation>Клавіятура та миша</translation>
+        <translation>Клавіатура та миша</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
-        <translation>&amp;Клавіятура</translation>
+        <translation>&amp;Клавіатура</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="86"/>
@@ -6346,7 +6346,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="311"/>
         <source>Keyboard</source>
-        <translation>Клавіятура</translation>
+        <translation>Клавіатура</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="324"/>
@@ -6536,7 +6536,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="345"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation>Якщо цю опцію увімкнено, то коли ви двічі клацнете на області видива, спрацює лише функція подвійного клацання миші. Дію лівого клацання не буде активовано.</translation>
+        <translation>Якщо цю опцію увімкнено, то коли ви двічі клацнете на області відео, спрацює лише функція подвійного клацання миші. Дію лівого клацання не буде активовано.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="348"/>
@@ -6660,7 +6660,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="68"/>
         <source>Only after loading a new video</source>
-        <translation>Лише після відкриття нового видива</translation>
+        <translation>Лише після відкриття нового відео</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="830"/>
@@ -6756,7 +6756,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="155"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>&amp;Переміщувати вікно, за область видива</translation>
+        <translation>&amp;Переміщувати вікно, за область відео</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="297"/>
@@ -7828,7 +7828,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Вкажіть перевагу для процесу mplayer, що доступний для Windows.&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Використання переваги реального часу може заблокувати систему.</translation>
+        <translation>Вкажіть пріоритет для процесу mplayer, що доступний для Windows.&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Використання пріоритету реального часу може заблокувати систему.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -7861,7 +7861,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.cpp" line="131"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Якщо опція увімкнена, кожного разу коли відкривається файл, SMPlayer спочатку очистить перелік відтворення, а потім додасть файл до нього. У випадку DVD, КД та VCD усі доріжки диску будуть додані до переліку.</translation>
+        <translation>Якщо опція увімкнена, кожного разу коли відкривається файл, SMPlayer спочатку очистить перелік відтворення, а потім додасть файл до нього. У випадку DVD, CD та VCD усі доріжки диску будуть додані до переліку.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="47"/>
@@ -7976,12 +7976,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.cpp" line="150"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation>Виберіть цю опцію, якщо волієте, щоб додавання теки також додавало файли в підтеках рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
+        <translation>Виберіть цю опцію, якщо бажаєте, щоб додавання теки також додавало файли в підтеках рекурсивно. Інакше будуть додані лише файли у вибраній теці.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="155"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Виберіть цю опцію, щоб витягти з файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні доки файл не буде справді програватися. Пам&apos;ятайте: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
+        <translation>Виберіть цю опцію, щоб витягти з файлів, які будуть додані до переліку програвання, деякі подробиці. Це дозволить показувати назву (якщо наявна) та довжину файлів. Інакше ці подробиці не будуть доступні доки не почнеться відтворення файлу. Пам&apos;ятайте: ця опція може бути повільною, особливо, якщо ви додаєте багато файлів.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>

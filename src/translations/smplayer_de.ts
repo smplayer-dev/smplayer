@@ -2900,7 +2900,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infofile.cpp" line="101"/>
         <source>Clip info</source>
-        <translation>Clip-Info</translation>
+        <translation>Filminfo</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="108"/>
@@ -5194,7 +5194,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation>Wenn diese Option aktiviert ist, verwendet SMPlayer »dvdnav« zum Abspielen von DVDs. Das benötigt eine aktuelle MPlayer-Version mit dvdnav-Unterstützung.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
