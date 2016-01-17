@@ -870,7 +870,7 @@ bool Playlist::saveXSPF(const QString & filename) {
 
 		stream << "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 		stream << "<playlist version=\"1\" xmlns=\"http://xspf.org/ns/0/\">\n";
-		stream << "<trackList>\n";
+		stream << "\t<trackList>\n";
 
 		for ( int n=0; n < pl.count(); n++ ) {
 			QString location = pl[n].filename();
@@ -889,14 +889,14 @@ bool Playlist::saveXSPF(const QString & filename) {
 			title = Qt::escape(title);
 			#endif
 
-			stream << "\n<track>\n";
-			stream << "<location>" << location << "</location>\n";
-			stream << "<title>" << title << "</title>\n";
-			stream << "<duration>" << duration << "</duration>\n";
-			stream << "</track>\n";
+			stream << "\t\t<track>\n";
+			stream << "\t\t\t<location>" << location << "</location>\n";
+			stream << "\t\t\t<title>" << title << "</title>\n";
+			stream << "\t\t\t<duration>" << duration << "</duration>\n";
+			stream << "\t\t</track>\n";
 		}
 
-		stream << "\n</trackList>\n";
+		stream << "\t</trackList>\n";
 		stream << "</playlist>\n";
 
 		setModified(false);
