@@ -1184,6 +1184,9 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 			//qApp->processEvents();
 		}
 #endif
+
+		//qDebug() << "Playlist::addFiles: comparing:" << initial_file << "with" << files[n];
+
 		if (!initial_file.isEmpty() && files[n] == initial_file) {
 			PlaylistItem first_item = pl.takeFirst();
 			name = first_item.name();

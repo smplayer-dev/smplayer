@@ -246,7 +246,11 @@ QStringList Helper::searchForConsecutiveFiles(const QString & initial_file) {
 		qDebug("Helper::searchForConsecutiveFiles: adding consecutive files");
 		while ( !matching_files.isEmpty() ) {
 			qDebug("Helper::searchForConsecutiveFiles: '%s' exists, added to the list", matching_files[0].toUtf8().constData());
-			files_to_add << path  + "/" + matching_files[0];
+			QString filename = path  + "/" + matching_files[0];
+			#ifdef Q_OS_WIN
+			filename = QDir::toNativeSeparators(filename);
+			#endif
+			files_to_add << filename;
 			current_number++;
 			next_name = basename.left(pos) + QString("%1").arg(current_number, digits, 10, QLatin1Char('0'));
 			next_name.replace(QRegExp("([\\[\\]?*])"), "[\\1]");
@@ -274,6 +278,9 @@ QStringList Helper::filesInDirectory(const QString & initial_file, const QString
 	for (int n = 0; n < all_files.count(); n++) {
 		//if (all_files[n] != current_file) {
 			QString s = path +"/" + all_files[n];
+			#ifdef Q_OS_WIN
+			s = QDir::toNativeSeparators(s);
+			#endif
 			r << s;
 		//}
 	}
