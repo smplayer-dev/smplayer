@@ -5467,7 +5467,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="207"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation>الص&amp;يغة:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
@@ -6739,7 +6739,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>من&amp;ع النافذة أن تكون خارج الشاشة</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -8742,7 +8742,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>يحاول أن يتصل بنسخة أخرى مشتغلة ويُرسل إليها اللإجراء المُعيَّن. مثال: -send-cation pause. ستُتجاهل الخيارات الأخرى إن وجدت ثم سُينهى التطبيق. ستُعاد القيمة 0 إذا نجح و-1 إذا فشل.</translation>
+        <translation>يحاول أن يتصل بنسخة أخرى مشتغلة ويُرسل إليها الإجراء المُعيَّن. مثال: -send-cation pause. ستُتجاهل الخيارات الأخرى إن وجدت ثم سُينهى التطبيق. ستُعاد القيمة 0 إذا نجح و-1 إذا فشل.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
@@ -8768,7 +8768,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation>سيُشغل الفيديو في وضع ملءَ الشاشة.</translation>
+        <translation>سيُشغل الفيديو في وضع ملأ الشاشة.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="157"/>
@@ -8914,7 +8914,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>تمثل &quot;وسائط&quot; أي نوع من الملفات يستطيع SMPlayer فتحه. يمكن أن تكون ملفاً محلياً أو قرص DVD (مثل dvd://1) أو دفقاً من الإنترنت (مثل mms://...) أو قائمة تشغيل محلية بصيغة m3u أو pls.</translation>
+        <translation>’وسائط‘ media أي نوع من الملفات يستطيع SMPlayer فتحه. يمكن أن تكون ملفاً محلياً أو قرص DVD (مثل dvd://1) أو دفقاً من الإنترنت (مثل mms://...) أو قائمة تشغيل محلية بصيغة m3u أو pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
