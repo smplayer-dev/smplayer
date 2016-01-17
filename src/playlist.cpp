@@ -873,9 +873,11 @@ bool Playlist::saveXSPF(const QString & filename) {
 		stream << "<trackList>\n";
 
 		for ( int n=0; n < pl.count(); n++ ) {
-			QUrl url = QUrl(pl[n].filename());
-			if (/*url.isLocalFile() &&*/ url.scheme().isEmpty()) url.setScheme("file");
-			QString location = url.toEncoded();
+			QString location = pl[n].filename();
+			if (!location.startsWith("file:") && QFile::exists(location)) location = "file://" + location;
+			QUrl url(location);
+			location = url.toEncoded();
+
 			QString title = pl[n].name();
 			int duration = pl[n].duration() * 1000;
 
