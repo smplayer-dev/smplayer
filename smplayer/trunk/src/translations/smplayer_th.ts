@@ -383,387 +383,387 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1898"/>
+        <location filename="../basegui.cpp" line="1900"/>
         <source>&amp;Open</source>
         <translation>เ&amp;ปิด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1899"/>
+        <location filename="../basegui.cpp" line="1901"/>
         <source>&amp;Play</source>
         <translation>เ&amp;ล่น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1902"/>
         <source>&amp;Video</source>
         <translation>&amp;วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>&amp;Audio</source>
         <translation>เ&amp;สียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1904"/>
         <source>&amp;Subtitles</source>
         <translation>ศัพท์&amp;บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1903"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>&amp;Browse</source>
         <translation>เ&amp;รียกดู</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>Op&amp;tions</source>
         <translation>&amp;ตัวเลือก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
+        <location filename="../basegui.cpp" line="1907"/>
         <source>&amp;Help</source>
         <translation>&amp;ช่วยเหลือ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1633"/>
+        <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;File...</source>
         <translation>ไ&amp;ฟล์...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1634"/>
+        <location filename="../basegui.cpp" line="1636"/>
         <source>D&amp;irectory...</source>
         <translation>เส้น&amp;ทาง...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1635"/>
+        <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Playlist...</source>
         <translation>&amp;บัญชีการเล่น...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1640"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD จากไดรฟ์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1639"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD จากโฟลเดอร์...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;URL...</source>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
+        <location filename="../basegui.cpp" line="1923"/>
         <source>&amp;Clear</source>
         <translation>ล้า&amp;ง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1919"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>&amp;Recent files</source>
         <translation>ไฟล์เมื่อเ&amp;ร็วๆนี้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1668"/>
+        <location filename="../basegui.cpp" line="1670"/>
         <source>P&amp;lay</source>
         <translation>เ&amp;ล่น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1671"/>
+        <location filename="../basegui.cpp" line="1673"/>
         <source>&amp;Pause</source>
         <translation>&amp;พัก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1672"/>
+        <location filename="../basegui.cpp" line="1674"/>
         <source>&amp;Stop</source>
         <translation>ห&amp;ยุด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1675"/>
         <source>&amp;Frame step</source>
         <translation>เ&amp;ดินเฟรม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1692"/>
+        <location filename="../basegui.cpp" line="1694"/>
         <source>&amp;Normal speed</source>
         <translation>ความเร็ว&amp;ปกติ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1696"/>
         <source>&amp;Double speed</source>
         <translation>ความเร็ว 2 เ&amp;ท่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1697"/>
         <source>Speed &amp;-10%</source>
         <translation>ความเร็ว &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1696"/>
+        <location filename="../basegui.cpp" line="1698"/>
         <source>Speed &amp;+10%</source>
         <translation>ความเร็ว &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1787"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;ปิด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1937"/>
+        <location filename="../basegui.cpp" line="1939"/>
         <source>Sp&amp;eed</source>
         <translation>ความเ&amp;ร็ว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>&amp;Repeat</source>
         <translation>&amp;เล่นซ้ำ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1703"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>&amp;Fullscreen</source>
         <translation>เต็ม&amp;จอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1704"/>
+        <location filename="../basegui.cpp" line="1706"/>
         <source>&amp;Compact mode</source>
         <translation>แบบ&amp;กะทัดรัด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1947"/>
+        <location filename="../basegui.cpp" line="1949"/>
         <source>Si&amp;ze</source>
         <translation>&amp;ขนาด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1957"/>
+        <location filename="../basegui.cpp" line="1959"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;อัตราส่วนภาพ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1996"/>
-        <location filename="../basegui.cpp" line="3433"/>
-        <location filename="../basegui.cpp" line="3447"/>
+        <location filename="../basegui.cpp" line="1998"/>
+        <location filename="../basegui.cpp" line="3429"/>
+        <location filename="../basegui.cpp" line="3443"/>
         <source>&amp;None</source>
         <translation>ไ&amp;ม่มี</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1997"/>
+        <location filename="../basegui.cpp" line="1999"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Lowpass5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2002"/>
         <source>Linear &amp;Blend</source>
         <translation>Linear &amp;Blend</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1960"/>
+        <location filename="../basegui.cpp" line="1962"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Deinterlace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1730"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;Postprocessing</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1731"/>
+        <location filename="../basegui.cpp" line="1733"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;ตรวจสอบเฟสอัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1732"/>
+        <location filename="../basegui.cpp" line="1734"/>
         <source>&amp;Deblock</source>
         <translation>&amp;Deblock</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>De&amp;ring</source>
         <translation>De&amp;ring</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1735"/>
+        <location filename="../basegui.cpp" line="1737"/>
         <source>Add n&amp;oise</source>
         <translation>เพิ่ม n&amp;oise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1963"/>
+        <location filename="../basegui.cpp" line="1965"/>
         <source>F&amp;ilters</source>
         <translation>ตัว&amp;กรอง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1707"/>
         <source>&amp;Equalizer</source>
         <translation>&amp;อิควอไลเซอร์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1706"/>
+        <location filename="../basegui.cpp" line="1708"/>
         <source>&amp;Screenshot</source>
         <translation>ภาพห&amp;น้าจอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1969"/>
+        <location filename="../basegui.cpp" line="1971"/>
         <source>S&amp;tay on top</source>
         <translation>อยู่&amp;บนสุด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1754"/>
+        <location filename="../basegui.cpp" line="1755"/>
         <source>&amp;Extrastereo</source>
         <translation>สเตอริโอพิเศษ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1757"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;คาราโอเกะ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2030"/>
+        <location filename="../basegui.cpp" line="2032"/>
         <source>&amp;Filters</source>
         <translation>ตัว&amp;กรอง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2040"/>
-        <location filename="../basegui.cpp" line="2046"/>
+        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2048"/>
         <source>&amp;Stereo</source>
         <translation>&amp;สเตอริโอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2041"/>
+        <location filename="../basegui.cpp" line="2043"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 รอบทิศทาง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2044"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 รอบทิศทาง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2033"/>
+        <location filename="../basegui.cpp" line="2035"/>
         <source>&amp;Channels</source>
         <translation>&amp;ช่อง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2047"/>
+        <location filename="../basegui.cpp" line="2049"/>
         <source>&amp;Left channel</source>
         <translation>ช่องซ้า&amp;ย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2048"/>
+        <location filename="../basegui.cpp" line="2050"/>
         <source>&amp;Right channel</source>
         <translation>ช่อง&amp;ขวา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2036"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>&amp;Stereo mode</source>
         <translation>แบบสเ&amp;ตอริโอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1743"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>&amp;Mute</source>
         <translation>เ&amp;งียบเสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1744"/>
+        <location filename="../basegui.cpp" line="1746"/>
         <source>Volume &amp;-</source>
         <translation>เสียง &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1745"/>
+        <location filename="../basegui.cpp" line="1747"/>
         <source>Volume &amp;+</source>
         <translation>เสีย&amp;ง +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Delay -</source>
         <translation>ห&amp;น่วง -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1747"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>D&amp;elay +</source>
         <translation>&amp;หน่วง +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2056"/>
+        <location filename="../basegui.cpp" line="2058"/>
         <source>&amp;Select</source>
         <translation>เ&amp;ลือก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1760"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>&amp;Load...</source>
         <translation>โ&amp;หลด...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1764"/>
         <source>Delay &amp;-</source>
         <translation>หน่วง &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>Delay &amp;+</source>
         <translation>หน่วง &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>&amp;Up</source>
         <translation>&amp;ขึ้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>&amp;Down</source>
         <translation>&amp;ลง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2074"/>
         <source>&amp;Title</source>
         <translation>&amp;หัวเรื่อง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2075"/>
+        <location filename="../basegui.cpp" line="2077"/>
         <source>&amp;Chapter</source>
         <translation>&amp;ตอน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2078"/>
+        <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Angle</source>
         <translation>&amp;มุมกล้อง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1802"/>
+        <location filename="../basegui.cpp" line="1804"/>
         <source>&amp;Playlist</source>
         <translation>&amp;บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1994"/>
+        <location filename="../basegui.cpp" line="1996"/>
         <source>&amp;Disabled</source>
         <translation>ไ&amp;ม่ใช้งาน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2110"/>
+        <location filename="../basegui.cpp" line="2112"/>
         <source>&amp;OSD</source>
         <translation>&amp;สิ่งปรากฏบนจอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2119"/>
+        <location filename="../basegui.cpp" line="2121"/>
         <source>&amp;View logs</source>
         <translation>&amp;ดูแบบจดกิจกรรม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1806"/>
         <source>P&amp;references</source>
         <translation>การ&amp;ตั้งค่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1831"/>
+        <location filename="../basegui.cpp" line="1833"/>
         <source>About &amp;SMPlayer</source>
         <translation>เกี่ยวกับ &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3470"/>
-        <location filename="../basegui.cpp" line="3486"/>
-        <location filename="../basegui.cpp" line="3502"/>
-        <location filename="../basegui.cpp" line="3517"/>
-        <location filename="../basegui.cpp" line="3551"/>
-        <location filename="../basegui.cpp" line="3571"/>
-        <location filename="../basegui.cpp" line="3647"/>
+        <location filename="../basegui.cpp" line="3466"/>
+        <location filename="../basegui.cpp" line="3482"/>
+        <location filename="../basegui.cpp" line="3498"/>
+        <location filename="../basegui.cpp" line="3513"/>
+        <location filename="../basegui.cpp" line="3547"/>
+        <location filename="../basegui.cpp" line="3567"/>
+        <location filename="../basegui.cpp" line="3643"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ว่าง&gt;</translation>
     </message>
@@ -774,7 +774,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4074"/>
-        <location filename="../basegui.cpp" line="4307"/>
+        <location filename="../basegui.cpp" line="4311"/>
         <source>Audio</source>
         <translation>เสียง</translation>
     </message>
@@ -785,732 +785,732 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4076"/>
-        <location filename="../basegui.cpp" line="4287"/>
-        <location filename="../basegui.cpp" line="4308"/>
+        <location filename="../basegui.cpp" line="4291"/>
+        <location filename="../basegui.cpp" line="4312"/>
         <source>All files</source>
         <translation>ไฟล์ทั้งหมด</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4071"/>
-        <location filename="../basegui.cpp" line="4284"/>
-        <location filename="../basegui.cpp" line="4305"/>
+        <location filename="../basegui.cpp" line="4288"/>
+        <location filename="../basegui.cpp" line="4309"/>
         <source>Choose a file</source>
         <translation>เลือกหนึ่งไฟล์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1806"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>เบราเซอร์ &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1831"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>&amp;บริจาค / แบ่งปันกับเพื่อนๆ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4123"/>
+        <location filename="../basegui.cpp" line="4127"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - ข้อมูล</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4124"/>
+        <location filename="../basegui.cpp" line="4128"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>ไดรฟ์ CDROM / DVD ยังไม่ได้รับการกำหนดค่า
 กล่องการกำหนดค่าจะแสดงเดี๋ยวนี้ เพื่อคุณสามารถจัดการมันได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4237"/>
+        <location filename="../basegui.cpp" line="4241"/>
         <source>Select the Blu-ray folder</source>
         <translation>เลือกโฟลเดอร์บลูเรย์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4250"/>
+        <location filename="../basegui.cpp" line="4254"/>
         <source>Choose a directory</source>
         <translation>เลือกเส้นทาง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4286"/>
+        <location filename="../basegui.cpp" line="4290"/>
         <source>Subtitles</source>
         <translation>ศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4903"/>
+        <location filename="../basegui.cpp" line="4911"/>
         <source>Error detected</source>
         <translation>การตรวจหาล้มเหลว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4904"/>
+        <location filename="../basegui.cpp" line="4912"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>โชคไม่ดีเลย วิดีโอนี้ไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5092"/>
+        <location filename="../basegui.cpp" line="5100"/>
         <source>Playing %1</source>
         <translation>กำลังเล่น %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5093"/>
+        <location filename="../basegui.cpp" line="5101"/>
         <source>Pause</source>
         <translation>พัก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5094"/>
+        <location filename="../basegui.cpp" line="5102"/>
         <source>Stop</source>
         <translation>หยุด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1678"/>
         <source>Play / Pause</source>
         <translation>เล่น / พัก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1679"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Pause / Frame step</source>
         <translation>พัก / เดินเฟรม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1750"/>
-        <location filename="../basegui.cpp" line="1761"/>
+        <location filename="../basegui.cpp" line="1752"/>
+        <location filename="../basegui.cpp" line="1763"/>
         <source>U&amp;nload</source>
         <translation>ไ&amp;ม่โหลด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1636"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>V&amp;CD</source>
         <translation>V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1645"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>C&amp;lose</source>
         <translation>ปิ&amp;ด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1803"/>
+        <location filename="../basegui.cpp" line="1805"/>
         <source>View &amp;info and properties...</source>
         <translation>ดู&amp;ข้อมูลและคุณสมบัติ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>Zoom &amp;-</source>
         <translation>ขยาย &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1719"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>Zoom &amp;+</source>
         <translation>ขยาย &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1722"/>
         <source>&amp;Reset</source>
         <translation>&amp;คืนค่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>Move &amp;left</source>
         <translation>เลื่่อนซ้า&amp;ย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Move &amp;right</source>
         <translation>เลื่อนข&amp;วา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>Move &amp;up</source>
         <translation>เลื่อน&amp;ขึ้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>Move &amp;down</source>
         <translation>เลื่อน&amp;ลง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1770"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>บรรทัด&amp;ก่อนหน้า ในศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1774"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>บรรทัด&amp;ถัดไป ในศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2128"/>
+        <location filename="../basegui.cpp" line="2130"/>
         <source>%1 log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2131"/>
+        <location filename="../basegui.cpp" line="2133"/>
         <source>SMPlayer log</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2144"/>
-        <location filename="../basegui.cpp" line="2145"/>
         <location filename="../basegui.cpp" line="2146"/>
+        <location filename="../basegui.cpp" line="2147"/>
+        <location filename="../basegui.cpp" line="2148"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2148"/>
-        <location filename="../basegui.cpp" line="2149"/>
         <location filename="../basegui.cpp" line="2150"/>
+        <location filename="../basegui.cpp" line="2151"/>
+        <location filename="../basegui.cpp" line="2152"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1856"/>
+        <location filename="../basegui.cpp" line="1858"/>
         <source>Dec volume (2)</source>
         <translation>ลดความดัง (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1643"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;บลูเรย์จากไดรฟ์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1642"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>บลูเ&amp;รย์จากโฟลเดอร์...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>Fra&amp;me back step</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1693"/>
+        <location filename="../basegui.cpp" line="1695"/>
         <source>&amp;Half speed</source>
         <translation>&amp;ความเร็วครึ่งเดียว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>Start/stop capturing stream</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1712"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>ตัวสร้างรูป&amp;ย่อ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1718"/>
         <source>Stereo &amp;3D filter</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1734"/>
+        <location filename="../basegui.cpp" line="1736"/>
         <source>Debanding (&amp;gradfun)</source>
         <translation>Debanding (&amp;gradfun)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1776"/>
         <source>Seek to next subtitle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1775"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>Seek to previous subtitle</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1777"/>
+        <location filename="../basegui.cpp" line="1779"/>
         <source>Use custo&amp;m style</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1783"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>ค้นหา ศัพท์บรรยายที่ &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1793"/>
+        <location filename="../basegui.cpp" line="1795"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;ค่าตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1818"/>
+        <location filename="../basegui.cpp" line="1820"/>
         <source>First Steps &amp;Guide</source>
         <translation>แนวทางเริ่ม&amp;ต้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1824"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>Update &amp;Youtube code</source>
         <translation>อัพเดต &amp;Youtube code</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1827"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>&amp;Open configuration folder</source>
         <translation>เปิดโ&amp;ฟลเดอร์การกำหนดค่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1842"/>
+        <location filename="../basegui.cpp" line="1844"/>
         <source>Size &amp;+</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1843"/>
+        <location filename="../basegui.cpp" line="1845"/>
         <source>Size &amp;-</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1857"/>
+        <location filename="../basegui.cpp" line="1859"/>
         <source>Inc volume (2)</source>
         <translation>เพิ่มความดัง (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1860"/>
+        <location filename="../basegui.cpp" line="1862"/>
         <source>Exit fullscreen</source>
         <translation>ออกจากแบบเต็มจอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1864"/>
         <source>OSD - Next level</source>
         <translation>สิ่งปรากฏบนจอ - ระดับถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1863"/>
+        <location filename="../basegui.cpp" line="1865"/>
         <source>Dec contrast</source>
         <translation>ลด ความตัดกัน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1866"/>
         <source>Inc contrast</source>
         <translation>เพิ่ม ความตัดกัน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>Dec brightness</source>
         <translation>ลด ความสว่าง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1866"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>Inc brightness</source>
         <translation>เพิ่ม ความสว่าง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1869"/>
         <source>Dec hue</source>
         <translation>ลด สีสัน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1868"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>Inc hue</source>
         <translation>เพิ่ม สีสัน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>Dec saturation</source>
         <translation>ลด ความอิ่มตัว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1871"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>Dec gamma</source>
         <translation>ลด แกมมา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
+        <location filename="../basegui.cpp" line="1876"/>
         <source>Next audio</source>
         <translation>เสียง ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1875"/>
+        <location filename="../basegui.cpp" line="1877"/>
         <source>Next subtitle</source>
         <translation>ศัพท์บรรยาย ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1876"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>Next chapter</source>
         <translation>ตอน ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1877"/>
+        <location filename="../basegui.cpp" line="1879"/>
         <source>Previous chapter</source>
         <translation>ตอน ก่อนหน้า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1886"/>
+        <location filename="../basegui.cpp" line="1888"/>
         <source>Show playback time on OSD</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1979"/>
         <source>De&amp;noise</source>
         <translation>De&amp;noise</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1980"/>
+        <location filename="../basegui.cpp" line="1982"/>
         <source>Blur/S&amp;harp</source>
         <translation>มัว/&amp;คม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2005"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>ปิ&amp;ด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2004"/>
+        <location filename="../basegui.cpp" line="2006"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;ปกติ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2005"/>
+        <location filename="../basegui.cpp" line="2007"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;นวล</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2007"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>ไ&amp;ม่มี</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2008"/>
+        <location filename="../basegui.cpp" line="2010"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>มั&amp;ว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2009"/>
+        <location filename="../basegui.cpp" line="2011"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;คม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2043"/>
+        <location filename="../basegui.cpp" line="2045"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 รอบทิศทาง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2044"/>
+        <location filename="../basegui.cpp" line="2046"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 รอบทิศทาง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2049"/>
+        <location filename="../basegui.cpp" line="2051"/>
         <source>&amp;Mono</source>
         <translation>&amp;ช่องเดียว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2050"/>
+        <location filename="../basegui.cpp" line="2052"/>
         <source>Re&amp;verse</source>
         <translation>&amp;กลับตรงข้าม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2054"/>
+        <location filename="../basegui.cpp" line="2056"/>
         <source>Prim&amp;ary track</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2061"/>
+        <location filename="../basegui.cpp" line="2063"/>
         <source>Secondary trac&amp;k</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2068"/>
+        <location filename="../basegui.cpp" line="2070"/>
         <source>F&amp;rames per second</source>
         <translation>เ&amp;ฟรมต่อวินาที</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2082"/>
+        <location filename="../basegui.cpp" line="2084"/>
         <source>&amp;Bookmarks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2092"/>
+        <location filename="../basegui.cpp" line="2094"/>
         <source>&amp;Add new bookmark</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2093"/>
+        <location filename="../basegui.cpp" line="2095"/>
         <source>&amp;Edit bookmarks</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2094"/>
+        <location filename="../basegui.cpp" line="2096"/>
         <source>Previous bookmark</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2095"/>
+        <location filename="../basegui.cpp" line="2097"/>
         <source>Next bookmark</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4838"/>
+        <location filename="../basegui.cpp" line="4846"/>
         <source>Connection failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4839"/>
+        <location filename="../basegui.cpp" line="4847"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4840"/>
+        <location filename="../basegui.cpp" line="4848"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4841"/>
+        <location filename="../basegui.cpp" line="4849"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4842"/>
+        <location filename="../basegui.cpp" line="4850"/>
         <source>this link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4852"/>
+        <location filename="../basegui.cpp" line="4860"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>โชคไม่ดีเลย เนื่องจากการเปลี่ยนแปลงในหน้า Youtube  วิดีโอนี้จึงไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4859"/>
         <location filename="../basegui.cpp" line="4867"/>
+        <location filename="../basegui.cpp" line="4875"/>
         <source>Problems with Youtube</source>
         <translation>มีปัญหากับ Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5609"/>
-        <location filename="../basegui.cpp" line="5629"/>
+        <location filename="../basegui.cpp" line="5645"/>
+        <location filename="../basegui.cpp" line="5665"/>
         <source>%1 Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5610"/>
+        <location filename="../basegui.cpp" line="5646"/>
         <source>%1 has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5631"/>
+        <location filename="../basegui.cpp" line="5667"/>
         <source>%1 failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5632"/>
+        <location filename="../basegui.cpp" line="5668"/>
         <source>Please check the %1 path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5634"/>
+        <location filename="../basegui.cpp" line="5670"/>
         <source>%1 has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5712"/>
+        <location filename="../basegui.cpp" line="5748"/>
         <source>The YouTube Browser is not installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5713"/>
+        <location filename="../basegui.cpp" line="5749"/>
         <source>Visit %1 to get it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4855"/>
+        <location filename="../basegui.cpp" line="4863"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>โชคไม่ดีเลย เนื่องจากการเปลี่ยนแปลงในหน้า Youtube วิดีโอ &apos;%1&apos; ไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4861"/>
+        <location filename="../basegui.cpp" line="4869"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>คุณต้องการอัพเดต Youtube code หรือไม่? สิ่งนี้อาจแก้ปัญหาได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4869"/>
+        <location filename="../basegui.cpp" line="4877"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>บางทีการอัพเดต SMPlayer สามารถแก้ปัญหาได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2114"/>
+        <location filename="../basegui.cpp" line="2116"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>แบ่ง&amp;ปัน SMPlayer กับเพื่อนๆ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3158"/>
-        <location filename="../basegui.cpp" line="3886"/>
+        <location filename="../basegui.cpp" line="3154"/>
+        <location filename="../basegui.cpp" line="3882"/>
         <source>Information</source>
         <translation>ข้อมูล</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3159"/>
+        <location filename="../basegui.cpp" line="3155"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>คุณต้องเริ่ม SMPlayer ใหม่ เพื่อใช้รูปแบบอันใหม่.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3659"/>
+        <location filename="../basegui.cpp" line="3655"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>ยืนยันการลบ - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3660"/>
+        <location filename="../basegui.cpp" line="3656"/>
         <source>Delete the list of recent files?</source>
         <translation>ลบรายชื่อไฟล์เมื่อเร็วๆ นี้หรือไม่?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3887"/>
+        <location filename="../basegui.cpp" line="3883"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>ค่าปัจจุบันได้ถูกจัดเก็บ เพื่อใช้เป็นค่าตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1872"/>
         <source>Inc saturation</source>
         <translation>เพิ่ม ความอิ่มตัว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1872"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>Inc gamma</source>
         <translation>เพิ่ม แกมมา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>&amp;Load external file...</source>
         <translation>โหลดไฟล์ภาย&amp;นอก...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2001"/>
+        <location filename="../basegui.cpp" line="2003"/>
         <source>&amp;Kerndeint</source>
         <translation>&amp;Kerndeint</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1998"/>
+        <location filename="../basegui.cpp" line="2000"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1999"/>
+        <location filename="../basegui.cpp" line="2001"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (double framerate)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1846"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>&amp;Next</source>
         <translation>&amp;ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1847"/>
+        <location filename="../basegui.cpp" line="1849"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;ก่อนหน้า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1757"/>
+        <location filename="../basegui.cpp" line="1759"/>
         <source>Volume &amp;normalization</source>
         <translation>ปรับความ&amp;ดังให้ปกติ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;CD เสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1878"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;สลับขนาดสองเท่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>S&amp;ize -</source>
         <translation>ข&amp;นาด -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>Si&amp;ze +</source>
         <translation>&amp;ขนาด +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1736"/>
+        <location filename="../basegui.cpp" line="1738"/>
         <source>Add &amp;black borders</source>
         <translation>เพิ่มขอบสี&amp;ดำ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1737"/>
+        <location filename="../basegui.cpp" line="1739"/>
         <source>Soft&amp;ware scaling</source>
         <translation>&amp;สเกลซอฟต์แวร์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1819"/>
+        <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;FAQ</source>
         <translation>คำ&amp;ถามที่พบบ่อย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Command line options</source>
         <translation>ตัวเลือก &amp;Command line </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4327"/>
+        <location filename="../basegui.cpp" line="4331"/>
         <source>SMPlayer command line options</source>
         <translation>ตัวเลือก SMPlayer command line </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1778"/>
+        <location filename="../basegui.cpp" line="1780"/>
         <source>&amp;Forced subtitles only</source>
         <translation>เฉ&amp;พาะศัพท์บรรยายที่ถูกบังคับ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1879"/>
+        <location filename="../basegui.cpp" line="1881"/>
         <source>Reset video equalizer</source>
         <translation>คืนค่า อิควอไลเซอร์ของวิดีโอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4905"/>
+        <location filename="../basegui.cpp" line="4913"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>เซิร์ฟเวอร์ได้คืนกลับ &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5611"/>
+        <location filename="../basegui.cpp" line="5647"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5635"/>
+        <location filename="../basegui.cpp" line="5671"/>
         <source>See the log for more info.</source>
         <translation>ดูแบบจดกิจกรรมสำหรับข้อมูลเพิ่มเติม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1966"/>
+        <location filename="../basegui.cpp" line="1968"/>
         <source>&amp;Rotate</source>
         <translation>&amp;หมุน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2011"/>
+        <location filename="../basegui.cpp" line="2013"/>
         <source>&amp;Off</source>
         <translation>ปิ&amp;ด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2012"/>
+        <location filename="../basegui.cpp" line="2014"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>หมุน 90 องศา ตามเข็ม และ&amp;พลิก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2013"/>
+        <location filename="../basegui.cpp" line="2015"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>หมุน 90 องศา &amp;ตามเข็ม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2014"/>
+        <location filename="../basegui.cpp" line="2016"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>หมุน 90 องศา &amp;ทวนเข็ม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2015"/>
+        <location filename="../basegui.cpp" line="2017"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>หมุน 90 องศา ทวนเข็ม และพ&amp;ลิก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;ก้าวไปสู่...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1881"/>
+        <location filename="../basegui.cpp" line="1883"/>
         <source>Show context menu</source>
         <translation>แสดงเมนูบริบท</translation>
     </message>
@@ -1520,339 +1520,339 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>มัลติมีเดีย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1740"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>E&amp;qualizer</source>
         <translation>&amp;อิควอไลเซอร์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>Reset audio equalizer</source>
         <translation>คืนค่า อิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1784"/>
+        <location filename="../basegui.cpp" line="1786"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>&amp;อัพโหลด ศัพท์บรรยายสู่ OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1983"/>
+        <location filename="../basegui.cpp" line="1985"/>
         <source>&amp;Auto</source>
         <translation>&amp;อัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1697"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>Speed -&amp;4%</source>
         <translation>ความเร็ว -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>&amp;Speed +4%</source>
         <translation>ความเ&amp;ร็ว +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1701"/>
         <source>Speed -&amp;1%</source>
         <translation>ความเร็ว -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1700"/>
+        <location filename="../basegui.cpp" line="1702"/>
         <source>S&amp;peed +1%</source>
         <translation>ความเร็&amp;ว +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1973"/>
+        <location filename="../basegui.cpp" line="1975"/>
         <source>Scree&amp;n</source>
         <translation>หน้า&amp;จอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2023"/>
+        <location filename="../basegui.cpp" line="2025"/>
         <source>&amp;Default</source>
         <translation>ค่า&amp;ตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1715"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>Mirr&amp;or image</source>
         <translation>ภาพแบบ&amp;กระจก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>Next video</source>
         <translation>วิดีโอ ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1944"/>
+        <location filename="../basegui.cpp" line="1946"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>แ&amp;ทร็ค</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2027"/>
+        <location filename="../basegui.cpp" line="2029"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>แ&amp;ทร็ค</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4754"/>
+        <location filename="../basegui.cpp" line="4762"/>
         <source>Warning - Using old MPlayer</source>
         <translation>คำเตือน - กำลังใช้ MPlayer รุ่นเก่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4755"/>
+        <location filename="../basegui.cpp" line="4763"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>รุ่นของ MPlayer (%1) ที่ได้ติดตั้งบนระบบของคุณนั้นล้าสมัย  SMPlayer ไม่สามารถทำงานกับมันได้ดีพอ: บางตัวเลือกอาจใช้ไม่ได้, การเลือกศัพท์บรรยายอาจล้มเหลว...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4760"/>
+        <location filename="../basegui.cpp" line="4768"/>
         <source>Please, update your MPlayer.</source>
         <translation>โปรดอัพเดต MPlayer ของคุณ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4762"/>
+        <location filename="../basegui.cpp" line="4770"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(คำเตือนนี้จะไม่แสดงอีก)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1882"/>
+        <location filename="../basegui.cpp" line="1884"/>
         <source>Next aspect ratio</source>
         <translation>อัตราส่วนภาพ ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1723"/>
         <source>&amp;Auto zoom</source>
         <translation>ข&amp;ยายอัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>Zoom for &amp;16:9</source>
         <translation>ขยายเป็น &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>ขยายเป็น &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2017"/>
+        <location filename="../basegui.cpp" line="2019"/>
         <source>&amp;Always</source>
         <translation>เ&amp;สมอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2018"/>
+        <location filename="../basegui.cpp" line="2020"/>
         <source>&amp;Never</source>
         <translation>ไ&amp;ม่จำเป็น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2019"/>
+        <location filename="../basegui.cpp" line="2021"/>
         <source>While &amp;playing</source>
         <translation>ขณะเ&amp;ล่น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2103"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>DVD &amp;menu</source>
         <translation>เ&amp;มนู DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2105"/>
+        <location filename="../basegui.cpp" line="2107"/>
         <source>DVD &amp;previous menu</source>
         <translation>เมนู&amp;ก่อนหน้าของ DVD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2099"/>
+        <location filename="../basegui.cpp" line="2101"/>
         <source>DVD menu, move up</source>
         <translation>เมนู DVD, เลื่อนขึ้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2100"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>DVD menu, move down</source>
         <translation>เมนู DVD, เลื่อนลง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2101"/>
+        <location filename="../basegui.cpp" line="2103"/>
         <source>DVD menu, move left</source>
         <translation>เมนู DVD, เลื่อนซ้าย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2102"/>
+        <location filename="../basegui.cpp" line="2104"/>
         <source>DVD menu, move right</source>
         <translation>เมนู DVD, เลื่อนขวา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2104"/>
+        <location filename="../basegui.cpp" line="2106"/>
         <source>DVD menu, select option</source>
         <translation>เมนู DVD, เลือกตัวเลือก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2106"/>
+        <location filename="../basegui.cpp" line="2108"/>
         <source>DVD menu, mouse click</source>
         <translation>เมนู DVD, คลิกเมาส์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1750"/>
         <source>Set dela&amp;y...</source>
         <translation>ตั้งการ&amp;หน่วง...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>Se&amp;t delay...</source>
         <translation>ตั้งการห&amp;น่วง...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4412"/>
+        <location filename="../basegui.cpp" line="4416"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;ก้าวไปสู่ :</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4413"/>
+        <location filename="../basegui.cpp" line="4417"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - ตัวหา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4424"/>
         <location filename="../basegui.cpp" line="4428"/>
+        <location filename="../basegui.cpp" line="4432"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - การหน่วงเสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4425"/>
         <location filename="../basegui.cpp" line="4429"/>
+        <location filename="../basegui.cpp" line="4433"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>เสียงหน่วง (มิลลิวินาที):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4440"/>
         <location filename="../basegui.cpp" line="4444"/>
+        <location filename="../basegui.cpp" line="4448"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - การหน่วงศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4441"/>
         <location filename="../basegui.cpp" line="4445"/>
+        <location filename="../basegui.cpp" line="4449"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>ศัพท์บรรยายหน่วง (มิลลิวินาที):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="2022"/>
         <source>Toggle stay on top</source>
         <translation>สลับการอยู่บน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5287"/>
+        <location filename="../basegui.cpp" line="5295"/>
         <source>Jump to %1</source>
         <translation>ก้าวไปสู่ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1709"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>เริ่ม/หยุด การ&amp;จับภาพ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1780"/>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>Subtitle &amp;visibility</source>
         <translation>แ&amp;สดงศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1883"/>
+        <location filename="../basegui.cpp" line="1885"/>
         <source>Next wheel function</source>
         <translation>หน้าที่ล้อหมุน ถัดไป</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2087"/>
+        <location filename="../basegui.cpp" line="2089"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>โ&amp;ปรแกรม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1930"/>
+        <location filename="../basegui.cpp" line="1932"/>
         <source>&amp;TV</source>
         <translation>โ&amp;ทรทัศน์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1933"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>Radi&amp;o</source>
         <translation>&amp;วิทยุ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1891"/>
+        <location filename="../basegui.cpp" line="1893"/>
         <source>Subtitles onl&amp;y</source>
         <translation>ศัพท์&amp;บรรยายเท่านั้น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1892"/>
+        <location filename="../basegui.cpp" line="1894"/>
         <source>Volume + &amp;Seek</source>
         <translation>ความดัง + แถบเลื่อน&amp;หา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1895"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>ความดัง + แถบเลื่อนหา + ตัวจับเ&amp;วลา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>ความดัง + แถบเลื่อนหา + ตัวจับเวลา + เวลา&amp;ทั้งหมด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1587"/>
+        <location filename="../basegui.cpp" line="1578"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>ตัวกรองวิดีโอไม่ถูกใช้งาน เมื่อกำลังใช้ vdpau</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1716"/>
         <source>Fli&amp;p image</source>
         <translation>&amp;พลิกภาพ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1954"/>
+        <location filename="../basegui.cpp" line="1956"/>
         <source>Zoo&amp;m</source>
         <translation>ข&amp;ยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1885"/>
+        <location filename="../basegui.cpp" line="1887"/>
         <source>Show filename on OSD</source>
         <translation>แสดงชื่อไฟล์ที่สิ่งแสดงบนจอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1684"/>
+        <location filename="../basegui.cpp" line="1686"/>
         <source>Set &amp;A marker</source>
         <translation>ตั้งจุด &amp;A</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1685"/>
+        <location filename="../basegui.cpp" line="1687"/>
         <source>Set &amp;B marker</source>
         <translation>ตั้งจุด &amp;B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1688"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;ล้างจุด A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1942"/>
         <source>&amp;A-B section</source>
         <translation>&amp;ช่วง A-B</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1887"/>
+        <location filename="../basegui.cpp" line="1889"/>
         <source>Toggle deinterlacing</source>
         <translation>สลับการ Deinterlace</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2067"/>
         <source>&amp;Closed captions</source>
         <translation>ศัพท์&amp;บรรยายเหตุการณ์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1923"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>&amp;Disc</source>
         <translation>&amp;ดิสก์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1927"/>
+        <location filename="../basegui.cpp" line="1929"/>
         <source>F&amp;avorites</source>
         <translation>&amp;รายการโปรด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>Check for &amp;updates</source>
         <translation>ตรวจหาการ&amp;อัพเดต</translation>
     </message>
@@ -1965,73 +1965,73 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2973"/>
+        <location filename="../core.cpp" line="2967"/>
         <source>Brightness: %1</source>
         <translation>ความสว่าง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2989"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Contrast: %1</source>
         <translation>ความตัดกัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3004"/>
+        <location filename="../core.cpp" line="2998"/>
         <source>Gamma: %1</source>
         <translation>แกมมา: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3019"/>
+        <location filename="../core.cpp" line="3013"/>
         <source>Hue: %1</source>
         <translation>สีสัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3034"/>
+        <location filename="../core.cpp" line="3028"/>
         <source>Saturation: %1</source>
         <translation>ความอิ่มตัว: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3177"/>
+        <location filename="../core.cpp" line="3171"/>
         <source>Volume: %1</source>
         <translation>ความดัง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4039"/>
+        <location filename="../core.cpp" line="4035"/>
         <source>Zoom: %1</source>
         <translation>ขยาย: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4267"/>
+        <location filename="../core.cpp" line="4263"/>
         <source>Buffering...</source>
         <translation>กำลังบัฟเฟอร์...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3295"/>
-        <location filename="../core.cpp" line="3306"/>
+        <location filename="../core.cpp" line="3289"/>
+        <location filename="../core.cpp" line="3300"/>
         <source>Font scale: %1</source>
         <translation>มาตราอักษร: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3880"/>
+        <location filename="../core.cpp" line="3876"/>
         <source>Aspect ratio: %1</source>
         <translation>อัตราส่วนภาพ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4259"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>กำลังอัพเดตแคชอักษร ซึ่งอาจใช้เวลาสักครู่...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3220"/>
+        <location filename="../core.cpp" line="3214"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>หน่วงศัพท์บรรยาย: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3238"/>
+        <location filename="../core.cpp" line="3232"/>
         <source>Audio delay: %1 ms</source>
         <translation>หน่วงเสียง: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3088"/>
+        <location filename="../core.cpp" line="3082"/>
         <source>Speed: %1</source>
         <translation>ความเร็ว: %1</translation>
     </message>
@@ -2046,42 +2046,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ไม่สามารถหาที่ตั้ง URL ของวิดีโอได้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3383"/>
+        <location filename="../core.cpp" line="3377"/>
         <source>Subtitles on</source>
         <translation>เปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3385"/>
+        <location filename="../core.cpp" line="3379"/>
         <source>Subtitles off</source>
         <translation>ปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3928"/>
+        <location filename="../core.cpp" line="3924"/>
         <source>Mouse wheel seeks now</source>
         <translation>หมุนเมาส์เลื่อนหาตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3931"/>
+        <location filename="../core.cpp" line="3927"/>
         <source>Mouse wheel changes volume now</source>
         <translation>หมุนเมาส์เปลี่ยนความดังตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3934"/>
+        <location filename="../core.cpp" line="3930"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>หมุนเมาส์เปลี่ยนระดับขยายตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3937"/>
+        <location filename="../core.cpp" line="3933"/>
         <source>Mouse wheel changes speed now</source>
         <translation>หมุนเมาส์เปลี่ยนความเร็วตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4241"/>
+        <location filename="../core.cpp" line="4237"/>
         <source>Screenshot saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4272"/>
+        <location filename="../core.cpp" line="4268"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2096,17 +2096,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ภาพหน้าจอไม่ถูกจับ เพราะโฟลเดอร์ยังไม่ถูกกำหนดไว้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2640"/>
+        <location filename="../core.cpp" line="2634"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>จุด &quot;A&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2657"/>
+        <location filename="../core.cpp" line="2651"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>จุด &quot;B&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2672"/>
+        <location filename="../core.cpp" line="2666"/>
         <source>A-B markers cleared</source>
         <translation>ช่วง A-B ถูกล้างแล้ว</translation>
     </message>
@@ -2119,82 +2119,82 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="563"/>
+        <location filename="../defaultgui.cpp" line="561"/>
         <source>Audio</source>
         <translation>เสียง</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="562"/>
         <source>Subtitle</source>
         <translation>ศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="557"/>
+        <location filename="../defaultgui.cpp" line="555"/>
         <source>&amp;Main toolbar</source>
         <translation>แถบเครื่องมือห&amp;ลัก</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="560"/>
+        <location filename="../defaultgui.cpp" line="558"/>
         <source>&amp;Language toolbar</source>
         <translation>แถบเครื่องมือ&amp;ภาษา</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="551"/>
+        <location filename="../defaultgui.cpp" line="549"/>
         <source>&amp;Toolbars</source>
         <translation>แถบเ&amp;ครื่องมือ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="532"/>
+        <location filename="../defaultgui.cpp" line="530"/>
         <source>Ready</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="591"/>
+        <location filename="../defaultgui.cpp" line="589"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="595"/>
+        <location filename="../defaultgui.cpp" line="593"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="554"/>
+        <location filename="../defaultgui.cpp" line="552"/>
         <source>Status&amp;bar</source>
         <translation>แถบส&amp;ถานะ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="566"/>
+        <location filename="../defaultgui.cpp" line="564"/>
         <source>&amp;Video info</source>
         <translation>ข้อมูล&amp;วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="567"/>
+        <location filename="../defaultgui.cpp" line="565"/>
         <source>&amp;Frame counter</source>
         <translation>ตัวนับเ&amp;ฟรม</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="570"/>
+        <location filename="../defaultgui.cpp" line="568"/>
         <source>Edit main &amp;toolbar</source>
         <translation>แก้ไขแถบเครื่องมือ&amp;หลัก</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="571"/>
+        <location filename="../defaultgui.cpp" line="569"/>
         <source>Edit &amp;control bar</source>
         <translation>แก้ไขแถบ&amp;ตัวควบคุม</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="572"/>
+        <location filename="../defaultgui.cpp" line="570"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>แก้ไขแถบตัวควบคุม&amp;จิ๋ว</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="573"/>
+        <location filename="../defaultgui.cpp" line="571"/>
         <source>Edit &amp;floating control</source>
         <translation>แก้ไขตัวควบคุมลอ&amp;ย</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="605"/>
+        <location filename="../defaultgui.cpp" line="603"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -4283,17 +4283,17 @@ Do you want to overwrite?</source>
 <context>
     <name>MiniGui</name>
     <message>
-        <location filename="../minigui.cpp" line="176"/>
+        <location filename="../minigui.cpp" line="174"/>
         <source>Control bar</source>
         <translation>แถบตัวควบคุม</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="179"/>
+        <location filename="../minigui.cpp" line="177"/>
         <source>Edit &amp;control bar</source>
         <translation>แก้ไขแถบตัว&amp;ควบคุม</translation>
     </message>
     <message>
-        <location filename="../minigui.cpp" line="180"/>
+        <location filename="../minigui.cpp" line="178"/>
         <source>Edit &amp;floating control</source>
         <translation>แก้ไขตัวควบคุม&amp;ลอย</translation>
     </message>
@@ -4301,26 +4301,26 @@ Do you want to overwrite?</source>
 <context>
     <name>MpcGui</name>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="153"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="151"/>
         <source>Control bar</source>
         <translation>แถบตัวควบคุม</translation>
     </message>
     <message>
-        <location filename="../mpcgui/mpcgui.cpp" line="154"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="152"/>
         <source>Seek bar</source>
         <translation>แถบเลื่อนหา</translation>
     </message>
     <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="471"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="472"/>
         <location filename="../mpcgui/mpcgui.cpp" line="473"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="474"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
+        <location filename="../mpcgui/mpcgui.cpp" line="475"/>
+        <location filename="../mpcgui/mpcgui.cpp" line="476"/>
         <location filename="../mpcgui/mpcgui.cpp" line="477"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="478"/>
-        <location filename="../mpcgui/mpcgui.cpp" line="479"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -4379,215 +4379,217 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="302"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>Name</source>
         <translation>ชื่อ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="302"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>Length</source>
         <translation>ความยาว</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="307"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>&amp;Play</source>
         <translation>เ&amp;ล่น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="335"/>
+        <location filename="../playlist.cpp" line="336"/>
         <source>&amp;Edit</source>
         <translation>แ&amp;ก้ไข</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="826"/>
-        <location filename="../playlist.cpp" line="844"/>
+        <location filename="../playlist.cpp" line="916"/>
+        <location filename="../playlist.cpp" line="941"/>
         <source>Playlists</source>
         <translation>บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="824"/>
+        <location filename="../playlist.cpp" line="914"/>
         <source>Choose a file</source>
         <translation>เลือกหนึ่งไฟล์่</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="842"/>
+        <location filename="../playlist.cpp" line="939"/>
         <source>Choose a filename</source>
         <translation>เลือกชื่อไฟล์</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="853"/>
+        <location filename="../playlist.cpp" line="950"/>
         <source>Confirm overwrite?</source>
         <translation>ยืนยันให้เขียนทับหรือไม่?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="854"/>
+        <location filename="../playlist.cpp" line="951"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ไฟล์ %1 มีอยู่แล้ว
 คุณต้องการเขียนทับ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1051"/>
+        <location filename="../playlist.cpp" line="916"/>
+        <location filename="../playlist.cpp" line="941"/>
+        <location filename="../playlist.cpp" line="1155"/>
         <source>All files</source>
         <translation>ไฟล์ทั้งหมด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1048"/>
+        <location filename="../playlist.cpp" line="1152"/>
         <source>Select one or more files to open</source>
         <translation>เลือกหนึ่งไฟล์หรือมากกว่าเพื่อเปิด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1123"/>
+        <location filename="../playlist.cpp" line="1220"/>
         <source>Choose a directory</source>
         <translation>เลือกเส้นทาง</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1330"/>
+        <location filename="../playlist.cpp" line="1427"/>
         <source>Edit name</source>
         <translation>แก้ไขชื่อ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1331"/>
+        <location filename="../playlist.cpp" line="1428"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>พิมพ์ชื่อที่จะให้แสดงในบัญชีการเล่นสำหรับไฟล์นี้:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="304"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>&amp;Load</source>
         <translation>โ&amp;หลด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="305"/>
+        <location filename="../playlist.cpp" line="306"/>
         <source>&amp;Save</source>
         <translation>&amp;บันทึก</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>&amp;Next</source>
         <translation>&amp;ถัดไป</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="310"/>
+        <location filename="../playlist.cpp" line="311"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;ก่อนหน้า</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>Move &amp;up</source>
         <translation>เลื่อน&amp;ขึ้น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="317"/>
+        <location filename="../playlist.cpp" line="318"/>
         <source>Move &amp;down</source>
         <translation>เลื่อน&amp;ลง</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="319"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>&amp;Repeat</source>
         <translation>&amp;เล่นซ้ำ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="320"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>S&amp;huffle</source>
         <translation>เล่น&amp;สุ่ม</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>Add &amp;current file</source>
         <translation>เ&amp;พิ่มไฟล์ปัจจุบัน</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="324"/>
+        <location filename="../playlist.cpp" line="325"/>
         <source>Add &amp;file(s)</source>
         <translation>เพิ่มไ&amp;ฟล์</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="325"/>
+        <location filename="../playlist.cpp" line="326"/>
         <source>Add &amp;directory</source>
         <translation>เพิ่มเ&amp;ส้นทาง</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="326"/>
+        <location filename="../playlist.cpp" line="327"/>
         <source>Add &amp;URL(s)</source>
         <translation>เพิ่ม &amp;URL(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="329"/>
+        <location filename="../playlist.cpp" line="330"/>
         <source>Remove &amp;selected</source>
         <translation>&amp;ถอนสิ่งที่เลือก</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="330"/>
+        <location filename="../playlist.cpp" line="331"/>
         <source>Remove &amp;all</source>
         <translation>ถอนทั้งห&amp;มด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="332"/>
+        <location filename="../playlist.cpp" line="333"/>
         <source>&amp;Delete file from disk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="345"/>
+        <location filename="../playlist.cpp" line="346"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1361"/>
+        <location filename="../playlist.cpp" line="1458"/>
         <source>Confirm deletion</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1362"/>
+        <location filename="../playlist.cpp" line="1459"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1363"/>
+        <location filename="../playlist.cpp" line="1460"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1375"/>
+        <location filename="../playlist.cpp" line="1472"/>
         <source>Deletion failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1376"/>
+        <location filename="../playlist.cpp" line="1473"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1381"/>
+        <location filename="../playlist.cpp" line="1478"/>
         <source>Error deleting the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1382"/>
+        <location filename="../playlist.cpp" line="1479"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="339"/>
+        <location filename="../playlist.cpp" line="340"/>
         <source>Add...</source>
         <translation>เพิ่ม...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="341"/>
+        <location filename="../playlist.cpp" line="342"/>
         <source>Remove...</source>
         <translation>ถอนออก...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="879"/>
+        <location filename="../playlist.cpp" line="983"/>
         <source>Playlist modified</source>
         <translation>บัญชีการเล่นได้ถูกปรับเปลี่ยน</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="880"/>
+        <location filename="../playlist.cpp" line="984"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณต้องการบันทึกบัญชีการเล่น?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1050"/>
+        <location filename="../playlist.cpp" line="1154"/>
         <source>Multimedia</source>
         <translation>มัลติมีเดีย</translation>
     </message>
@@ -4717,6 +4719,11 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="470"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
         <translation>ถ้าเลือกสิ่งนี้ lavf demuxer จะถูกใช้กับทุกรูปแบบ</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="516"/>
+        <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4950,9 +4957,8 @@ Example: extrastereo,karaoke</source>
         <translation>ที่นี่คุณสามารถระบุรายการของ &lt;i&gt;การกระทำ&lt;/i&gt; ซึ่งจะปฏิบัติการทุกครั้งที่ไฟล์ถูกเปิด คุณจะพบการกระทำที่มีให้ ในตัวแก้ไขปุ่มทางลัดในส่วนของ &lt;b&gt;แป้นพิมพ์และเมาส์&lt;/b&gt; การกระทำต้องแยกจากกันโดยเว้นวรรค การกระทำที่สามารถเลือกใช้งานได้ มักจะตามด้วย &lt;i&gt;จริง&lt;/i&gt; หรือ &lt;i&gt;เท็จ&lt;/i&gt; เพื่อใช้หรือไม่ใช้งานการกระทำ</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>ข้อจำกัด: การกระทำจะปฏิบัติการเฉพาะเมื่อไฟล์ถูกเปิด และจะไม่กระทำเมื่อกระบวนการ mplayer ถูกเริ่มใหม่ (เช่น คุณเลือกตัวกรองเสียงหรือตัวกรองวิดีโอ)</translation>
+        <translation type="obsolete">ข้อจำกัด: การกระทำจะปฏิบัติการเฉพาะเมื่อไฟล์ถูกเปิด และจะไม่กระทำเมื่อกระบวนการ mplayer ถูกเริ่มใหม่ (เช่น คุณเลือกตัวกรองเสียงหรือตัวกรองวิดีโอ)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -5238,12 +5244,12 @@ Example: extrastereo,karaoke</source>
         <translation>การตั้งค่าสื่อ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1039"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Start videos in fullscreen</source>
         <translation>เริ่มต้นวิดีโอในแบบเต็มจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1068"/>
+        <location filename="../prefgeneral.cpp" line="1074"/>
         <source>Disable screensaver</source>
         <translation>ไม่ใช้งานภาพพักหน้าจอ</translation>
     </message>
@@ -5319,32 +5325,32 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="957"/>
+        <location filename="../prefgeneral.cpp" line="960"/>
         <source>Format for screenshots</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="958"/>
+        <location filename="../prefgeneral.cpp" line="961"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="973"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ คอมพิวเตอร์จะปิดตัวลงหลังจาก SMPlayer ถูกปิด</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="979"/>
+        <location filename="../prefgeneral.cpp" line="985"/>
         <source>Video output driver</source>
         <translation>ไดรเวอร์ขาออกของวิดีโอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Audio output driver</source>
         <translation>ไดรเวอร์ขาออกของเสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1078"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>Select the audio output driver.</source>
         <translation>เลือกไดรเวอร์ขาออกของเสียง.</translation>
     </message>
@@ -5354,17 +5360,17 @@ Example: extrastereo,karaoke</source>
         <translation>จดจำการตั้งค่า</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1159"/>
         <source>Preferred audio language</source>
         <translation>ภาษาเสียงที่ชอบ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Preferred subtitle language</source>
         <translation>ภาษาศัพท์รรยายที่ชอบ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1017"/>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>Software video equalizer</source>
         <translation>อิควอไลเซอร์วิดีโอของซอฟต์แวร์</translation>
     </message>
@@ -5379,63 +5385,68 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="955"/>
-        <location filename="../prefgeneral.cpp" line="959"/>
+        <location filename="../prefgeneral.cpp" line="956"/>
+        <location filename="../prefgeneral.cpp" line="963"/>
         <source>This option only works with mpv.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="972"/>
+        <location filename="../prefgeneral.cpp" line="978"/>
         <source>Shut down computer</source>
         <translation>ปิดคอมพิวเตอร์</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="1024"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>คุณสามารถเลือกตัวเลือกนี้ถ้าอิควอไลเซอร์วิดีโอไม่รองรับโดยการ์ดจอหรือไดรเวอร์ขาออกวิดีโอที่เลือก &lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt; สิ่งนี้อาจไม่เข้ากับบางไดรเวอร์ขาออกวิดีโอ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก วิดีโอทั้งหมดจะเริ่มต้นเล่นในแบบเต็มจอ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1106"/>
         <source>Global audio equalizer</source>
         <translation>อิควอไลเซอร์เสียงทั้งมวล</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ ไฟล์สื่อทั้งหมดจะแชร์อิควอไลเซอร์เสียงกัน</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1108"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>ถ้าไม่เลือกตัวเลือกนี้ ค่าอิควอไลเซอร์เสียงจะถูกบันทึกตามแต่ละไฟล์ และจะถูกโหลดกลับเมื่อไฟล์ถูกเล่นในครั้งต่อมา</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1122"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
+        <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1130"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Software volume control</source>
         <translation>ตัวควบคุมความดังของซอฟต์แวร์</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>เลือกตัวเลือกนี้เพื่อใช้ software mixer แทน sound card mixer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1003"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>Postprocessing quality</source>
         <translation>คุณภาพ postprocessing</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1010"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>เปลี่ยนระดับ postprocessing อย่างแปรเปลี่ยนได้ ขึ้นกับเวลา CPU ที่มีเหลืออยู่ เลขที่คุณระบุจะเป็นระดับสูงสุดที่ใช้ โดยปกติคุณสามารถใช้เลขค่าใหญ่ได้.</translation>
     </message>
@@ -5505,12 +5516,12 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1023"/>
+        <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Direct rendering</source>
         <translation>การแปลผลโดยตรง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1028"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Double buffering</source>
         <translation>การบัฟเฟอร์ 2 เท่า</translation>
     </message>
@@ -5525,7 +5536,7 @@ Example: extrastereo,karaoke</source>
         <translation>การ&amp;บัฟเฟอร์ 2 เท่า</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1035"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>การบัฟเฟอร์ 2 เท่าจะแก้ปัญหาการกระพริบโดยการจัดเก็บ 2 เฟรมในหน่วยความจำ และแสดงผลหนึ่งเฟรมในขณะกำลังถอดรหัสอีกอัน ถ้าไม่ใช้งานจะส่งผลด้านลบต่อสิ่งแสดงบนจอ แต่มักจะลดการกระพริบของสิ่งแสดงบนจอ.</translation>
     </message>
@@ -5540,12 +5551,12 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;ปรับความดังให้ปกติโดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="967"/>
+        <location filename="../prefgeneral.cpp" line="973"/>
         <source>Close when finished</source>
         <translation>ปิดเมื่อเสร็จสิ้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="968"/>
+        <location filename="../prefgeneral.cpp" line="974"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ หน้าต่างหลักจะปิดอัตโนมัติเมื่อไฟล์/บัญชีการเล่นปัจจุบันได้ทำเสร็จสิ้น.</translation>
     </message>
@@ -5575,67 +5586,67 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;พักเมื่อย่อลง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="962"/>
+        <location filename="../prefgeneral.cpp" line="968"/>
         <source>Pause when minimized</source>
         <translation>พักเมื่อย่อลง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="1006"/>
         <source>Enable postprocessing by default</source>
         <translation>ใช้งาน postprocessing โดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1140"/>
         <source>Max. Amplification</source>
         <translation>การเพิ่มสูงสุด</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1105"/>
+        <location filename="../prefgeneral.cpp" line="1111"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>Volume normalization by default</source>
         <translation>ปรับความดังให้ปกติโดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>เพิ่มความดังสูงสุด โดยไม่ทำให้เสียงเพี้ยน.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1110"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Channels by default</source>
         <translation>ช่องโดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1135"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>ตั้งระดับการเพิ่มสูงสุดในแบบร้อยละ (ค่าตั้งต้น: 110) ค่า 200 จะอนุญาตให้คุณปรับความดังสูงสุดเป็น 2 เท่าของระดับปัจจุบัน ส่วนค่าที่ต่ำกว่า 100 ค่าความดังเริ่มต้น(ซึ่งเป็นร้อยละ 100) จะมากกว่าค่าสูงสุด อาจทำให้ เช่น สิ่งแสดงบนจอแสดงผลไม่ถูกต้อง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1001"/>
+        <location filename="../prefgeneral.cpp" line="1007"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Postprocessing จะถูกใช้โดยตั้งต้น บนไฟล์ใหม่ที่เปิด.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1173"/>
+        <location filename="../prefgeneral.cpp" line="1179"/>
         <source>Audio track</source>
         <translation>แทร็คเสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1174"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ระบุแทร็คเสียงตั้งต้น ซึ่งจะูถูกใช้เมื่อกำลังเล่นไฟล์ใหม่ ถ้าแทร็คไม่มีอยู่ อันแรกจะถูกเลือกใช้ &lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt;  &lt;i&gt;&quot;ภาษาเสียงที่ชอบ&quot;&lt;/i&gt; จะมีผลเหนือตัวเลือกนี้.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>Subtitle track</source>
         <translation>แทร็คศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>ระบุแทร็คศัพท์บรรยายตั้งต้น ซึ่งจะูถูกใช้เมื่อกำลังเล่นไฟล์ใหม่ ถ้าแทร็คไม่มีอยู่ อันแรกจะถูกเลือกใช้ &lt;br&gt;&lt;b&gt;หมายเหตุ:&lt;/b&gt;  &lt;i&gt;&quot;ภาษาศัพท์บรรยายที่ชอบ&quot;&lt;/i&gt; จะมีผลเหนือตัวเลือกนี้.</translation>
     </message>
@@ -5675,7 +5686,7 @@ Example: extrastereo,karaoke</source>
         <translation>เล่นความเ&amp;ร็วสูงโดยปราศจากการเปลี่ยนค่า pitch</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1121"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>High speed playback without altering pitch</source>
         <translation>เล่นความเร็วสูงโดยปราศจากการเปลี่ยนค่า pitch</translation>
     </message>
@@ -5700,17 +5711,17 @@ Example: extrastereo,karaoke</source>
         <translation>ความดัง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="977"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>Video</source>
         <translation>วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1075"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Audio</source>
         <translation>เสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Preferred audio and subtitles</source>
         <translation>เสียงและศัพท์บรรยายที่ชอบ</translation>
     </message>
@@ -5745,12 +5756,12 @@ Example: extrastereo,karaoke</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1008"/>
+        <location filename="../prefgeneral.cpp" line="1014"/>
         <source>Deinterlace by default</source>
         <translation>Deinterlace โดยตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1009"/>
+        <location filename="../prefgeneral.cpp" line="1015"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>เลือกตัวกรอง deinterlace ที่คุณต้องการใช้กับวิดีโอใหม่ที่เปิด</translation>
     </message>
@@ -5765,12 +5776,12 @@ Example: extrastereo,karaoke</source>
         <translation>จดจำ&amp;ตำแหน่งเวลา</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Enable the audio equalizer</source>
         <translation>ใช้งานอิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1098"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>เลือกตัวเลือกนี้ถ้าคุณต้องการใช้อิควอไลเซอร์เสียง.</translation>
     </message>
@@ -5780,12 +5791,12 @@ Example: extrastereo,karaoke</source>
         <translation>ใ&amp;ช้งานอิควอไลเซอร์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Draw video using slices</source>
         <translation>วาดวิดีโอโดยการตัดแบ่ง</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1040"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>ใช้/ไม่ใช้งานการวาดวิดีโอโดยแผ่นตัดแบ่ง/แถบสูง 16 พิกเซล  ถ้าไม่ใช้งาน ทั้งเฟรมจะถูกวาดในการรันครั้งเดียว อาจจะเร็วกว่าหรือช้ากว่าขึ้นกับการ์ดจอและแคชที่มี สิ่งนี้มีผลกับเฉพาะ libmpeg2 และ libavcodec codecs.</translation>
     </message>
@@ -5824,12 +5835,12 @@ Example: extrastereo,karaoke</source>
         <translation>ผู้ใช้กำหนดเอง...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1013"/>
+        <location filename="../prefgeneral.cpp" line="1019"/>
         <source>Default zoom</source>
         <translation>การขยายตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="1020"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>ตัวเลือกนี้จะตั้งค่าการขยายตั้งต้น สำหรับวิดีโอใหม่ที่จะเปิด.</translation>
     </message>
@@ -5844,12 +5855,12 @@ Example: extrastereo,karaoke</source>
         <translation>ถ้าการตั้งค่านี้ผิด SMPlayer จะไม่สามารถเล่นสิ่งใดได้!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="980"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>เลือกไดรเวอร์ขาออกของวิดีโอ %1 จะมีสมรรถนะดีที่สุด.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1088"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 เป็นตัวที่แนะนำ โปรดเลี่ยง %2 และ %3 เพราะพวกมันช้าและส่งผลต่อสมรรถนะ.</translation>
     </message>
@@ -5859,22 +5870,22 @@ Example: extrastereo,karaoke</source>
         <translation>โดยปกติ SMPlayer จะจดจำการตั้งค่าสำหรับแต่ละไฟล์ที่คุณเล่น (แทร็คเสียงที่เลือก, ความดัง, ตัวกรอง ฯลฯ) ไม่เลือกตัวเลือกนี้ได้หากคุณไม่ต้องการ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="963"/>
+        <location filename="../prefgeneral.cpp" line="969"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>ถ้าใช้ตัวเลือกนี้ ไฟล์จะถูกพักเมื่อหน้าต่างหลักถูกซ่อน เมื่อหน้าต่างถูกเรียกคืนกลับ การเล่นจะดำเนินต่อไป.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>เลือกตัวเลือกนี้เพื่อไม่ใช้งานภาพพักหน้าจอขณะกำลังเล่น &lt;br&gt;ภาพพักหน้าจอจะใช้งานได้อีกครั้งเมื่อเล่นเสร็จ.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1160"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ที่นี่คุณสามารถพิมพ์ภาษาที่ชอบสำหรับกระแสเสียง เมื่อพบสื่อที่มีหลายกระแสเสียง SMPlayer จะพยายามใช้ภาษาที่คุณชอบ &lt;br&gt;สิ่งนี้จะมีผลกับสื่อที่นำเสนอข้อมูลเกี่ยวกับภาษาของกระแสเสียง เช่น DVD หรือไฟล์ mkv &lt;br&gt;ช่องข้อมูลนี้ยอมรับค่าที่ระบุแบบปกติ เช่น &lt;b&gt;th|tha&lt;/b&gt; จะเลือกแทร็คเสียงที่สอดคล้องกับ &lt;i&gt;th&lt;/i&gt;หรือ &lt;i&gt;tha&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1164"/>
+        <location filename="../prefgeneral.cpp" line="1170"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ที่นี่คุณสามารถพิมพ์ภาษาที่ชอบสำหรับกระแสศัพท์บรรยาย เมื่อพบสื่อที่มีหลายกระแสศัพท์ฯ SMPlayer จะพยายามใช้ภาษาที่คุณชอบ &lt;br&gt;สิ่งนี้จะมีผลกับสื่อที่นำเสนอข้อมูลเกี่ยวกับภาษาของกระแสศัพท์ฯ เช่น DVD หรือไฟล์ mkv &lt;br&gt;ช่องข้อมูลนี้ยอมรับค่าที่ระบุแบบปกติ เช่น &lt;b&gt;th|tha&lt;/b&gt; จะเลือกแทร็คศัพท์ฯที่สอดคล้องกับ &lt;i&gt;th&lt;/i&gt; หรือ &lt;i&gt;tha&lt;/i&gt;</translation>
     </message>
@@ -5885,12 +5896,12 @@ Example: extrastereo,karaoke</source>
         <translation>ไดรเวอร์ขา&amp;ออก:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1043"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>Add black borders on fullscreen</source>
         <translation>เพิ่มขอบสีดำบนแบบเต็มจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1044"/>
+        <location filename="../prefgeneral.cpp" line="1050"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>ถ้าใช้ตัวเลือกนี้ ขอบสีดำจะถูกเพิ่มไปยังภาพในแบบเต็มจอ สิ่งนี้ช่วยให้ศัพท์บรรยายแสดงที่ขอบสีดำ.</translation>
     </message>
@@ -5945,14 +5956,13 @@ Example: extrastereo,karaoke</source>
         <translation>ถ้าเลือกตัวเลือกนี้ SMPlayer จะจดจำตำแหน่งสุดท้ายของไฟล์เมื่อคุณเปิดมันอีกครั้ง ตัวเลือกนี้มีผลเฉพาะไฟล์ปกติ (ไม่ใช่ DVD, CD, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>ถ้าเลือก เปิดการแปลผลโดยตรง (ไม่รองรับโดยทุก codec และวิดีโอขาออก)&lt;br&gt;&lt;b&gt;คำเตือน:&lt;/b&gt; อาจทำให้สิ่งแสดงบนจอ/SUB ผิดพลาด!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>ต้องการตัวเลขของช่องการเล่น โดยMPlayer ขอให้ตัวถอดรหัสทำการถอดรหัสเสียงไปยังช่องให้มากที่สุดเท่าที่ระบุไว้ จากนั้นขึ้นกับตัวถอดรหัสที่จะเติมเต็ม สิ่งนี้โดยปกติจะสำคัญเฉพาะเมื่อกำลังเล่นเสียง AC3 (อย่าง DVD) กรณีนี้ liba52 ทำการถอดรหัสโดยตั้งต้น และ downmix เสียงไปยังจำนวนช่องที่ต้องการ &lt;b&gt;หมายเหตุ&lt;/b&gt;: ตัวเลือกนี้ถูกยึดถือโดย codec (AC3 เท่านั้น), ตัวกรอง (surround) และไดรเวอร์ขาออกเสียง (ขั้นต่ำ OSS).</translation>
+        <translation type="obsolete">ต้องการตัวเลขของช่องการเล่น โดยMPlayer ขอให้ตัวถอดรหัสทำการถอดรหัสเสียงไปยังช่องให้มากที่สุดเท่าที่ระบุไว้ จากนั้นขึ้นกับตัวถอดรหัสที่จะเติมเต็ม สิ่งนี้โดยปกติจะสำคัญเฉพาะเมื่อกำลังเล่นเสียง AC3 (อย่าง DVD) กรณีนี้ liba52 ทำการถอดรหัสโดยตั้งต้น และ downmix เสียงไปยังจำนวนช่องที่ต้องการ &lt;b&gt;หมายเหตุ&lt;/b&gt;: ตัวเลือกนี้ถูกยึดถือโดย codec (AC3 เท่านั้น), ตัวกรอง (surround) และไดรเวอร์ขาออกเสียง (ขั้นต่ำ OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -5985,17 +5995,17 @@ Example: extrastereo,karaoke</source>
         <translation>โ&amp;ฟลเดอร์:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1124"/>
+        <location filename="../prefgeneral.cpp" line="1130"/>
         <source>Global volume</source>
         <translation>ความดังโดยทั่วไป</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1131"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>ถ้าเลือกตัวเลือกนี้ ความดังที่เท่ากันจะถูกใช้กับทุกไฟล์ที่คุณเล่น ถ้าไม่เลือกสิ่งนี้ แต่ละไฟล์จะใช้ความดังของมันเอง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>This option also applies for the mute control.</source>
         <translation>ตัวเลือกนี้ยังใช้สำหรับตัวควบคุมการเงียบเสียงด้วย.</translation>
     </message>
@@ -6005,22 +6015,22 @@ Example: extrastereo,karaoke</source>
         <translation>ความ&amp;ดังโดยทั่วไป</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Switch screensaver off</source>
         <translation>สวิตช์ปิดภาพพักหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1054"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>ตัวเลือกนี้ จะปิดภาพพักหน้าจอตอนก่อนเริ่มเล่นไฟล์ และจะกลับมาเปิดภาพพักหน้าจอเมื่อเล่นเสร็จ ถ้าใช้งานตัวเลือกนี้ ภาพพักหน้าจอจะไม่ปรากฏแม้กำลังเล่นไฟล์เสียงหรือเมื่อพักไฟล์.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>Avoid screensaver</source>
         <translation>หลีกเลี่ยงภาพพักหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>เมื่อเลือกสิ่งนี้ SMPlayer จะพยายามป้องกันภาพพักหน้าจอที่จะถูกแสดงเมื่อกำลังเล่นไฟล์วิดีโอ แต่จะอนุญาตให้แสดงหากกำลังเล่นไฟล์เสียงหรือพัก ตัวเลือกนี้จะทำงานเฉพาะถ้าหน้าต่าง SMPlayer อยู่เบื้องหน้า.</translation>
     </message>
@@ -6040,22 +6050,22 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;หลีกเลี่ยงภาพพักหน้าจอ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1144"/>
+        <location filename="../prefgeneral.cpp" line="1150"/>
         <source>Audio/video auto synchronization</source>
         <translation>ซิงค์เสียง/วิดีโออัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1145"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>ปรับซิงค์ A/V อย่างเป็นขั้นตอน ยึดตามวิธีการหน่วงเสียง.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1154"/>
         <source>A-V sync correction</source>
         <translation>การปรับแก้ซิงค์ A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1149"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>การปรับแก้ซิงค์ A-V สูงสุดต่อเฟรม (เป็นวินาที)</translation>
     </message>
@@ -6085,7 +6095,7 @@ Example: extrastereo,karaoke</source>
         <translation>การปรับแก้&amp;สูงสุด:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1011"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;หมายเหตุ:&lt;/b&gt; ตัวเลือกนี้ไม่สามารถใช้สำหรับช่องโทรทัศน์ได้ .</translation>
     </message>
@@ -6095,12 +6105,12 @@ Example: extrastereo,karaoke</source>
         <translation>ลดเ&amp;ส้นภาพโดยตั้งต้น (ยกเว้นโทรทัศน์):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>ใช้ hardware AC3 passthrough.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;หมายเหตุ:&lt;/b&gt; ไม่มีการใช้ตัวกรองใดๆ เมื่อตัวเลือกนี้ถูกใช้งาน.</translation>
     </message>
@@ -6125,7 +6135,7 @@ Example: extrastereo,karaoke</source>
         <translation>dart mode</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
         <translation>%1 คือสิ่งที่แนะนำ %2 มีใช้เฉพาะใน MPlayer รุ่นเก่ากว่า (ก่อนเวอร์ชัน %3)</translation>
     </message>
@@ -7457,8 +7467,8 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="63"/>
-        <location filename="../prefperformance.cpp" line="260"/>
+        <location filename="../prefperformance.cpp" line="69"/>
+        <location filename="../prefperformance.cpp" line="272"/>
         <source>Performance</source>
         <translation>สมรรถนะ</translation>
     </message>
@@ -7469,7 +7479,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="264"/>
+        <location filename="../prefperformance.cpp" line="276"/>
         <source>Priority</source>
         <translation>ลำดับความสำคัญ</translation>
     </message>
@@ -7534,22 +7544,22 @@ Example: extrastereo,karaoke</source>
         <translation>การตั้งค่าแคชอาจปรับสมรรถนะบนสื่อที่ช้าให้ดีขึ้น</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="270"/>
+        <location filename="../prefperformance.cpp" line="282"/>
         <source>Allow frame drop</source>
         <translation>อนุญาตการลดเฟรม</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="271"/>
+        <location filename="../prefperformance.cpp" line="283"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>ข้ามการแสดงบางเฟรมเพื่อคงการซิงค์ของ A/V บนระบบที่ช้า.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="273"/>
+        <location filename="../prefperformance.cpp" line="285"/>
         <source>Allow hard frame drop</source>
         <translation>อนุญาตการลดเฟรมเต็มที่</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="274"/>
+        <location filename="../prefperformance.cpp" line="286"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>การลดเฟรมที่มากขึ้น (ตัดการถอดรหัส) นำไปสู่ภาพที่ผิดเพี้ยน!</translation>
     </message>
@@ -7579,22 +7589,22 @@ Example: extrastereo,karaoke</source>
         <translation>หา&amp;ตอนอย่างรวดเร็วใน DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>Fast audio track switching</source>
         <translation>สลับแทร็คเสียงอย่างรวดเร็ว</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="330"/>
+        <location filename="../prefperformance.cpp" line="347"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>หาตอนอย่างรวดเร็วใน DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="331"/>
+        <location filename="../prefperformance.cpp" line="348"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>ถ้าเลือกใช้ มันจะพยายามใช้วิธีที่เร็วที่สุดเพื่อหาตอน แต่อาจไม่ได้ผลกับบางดิสก์.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="299"/>
+        <location filename="../prefperformance.cpp" line="314"/>
         <source>Skip loop filter</source>
         <translation>ข้าม loop filter</translation>
     </message>
@@ -7604,37 +7614,37 @@ Example: extrastereo,karaoke</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="337"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>ค่าที่ใช้ได้:&lt;br&gt; &lt;b&gt;ใช่&lt;/b&gt;: มันจะพยายามใช้วิธีที่เร็วที่สุดในการสลับแทร็คเสียง (อาจไม่ได้ผลกัะบบางรูปแบบ) &lt;br&gt; &lt;b&gt;ไม่&lt;/b&gt;: กระบวนการ MPlayer จะเริ่มต้นใหม่เมื่อใดก็ตามที่คุณเปลี่ยนแทร็คเสียง &lt;br&gt; &lt;b&gt;อัตโนมัติo&lt;/b&gt;: SMPlayer จะตัดสินว่าจะทำวิธีไหนโดยอิงจากเวอร์ชั่นของ MPlayer</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="337"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Cache for files</source>
         <translation>แคชสำหรับไฟล์</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="338"/>
+        <location filename="../prefperformance.cpp" line="355"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>ตัวเลือกนี้จะระบุปริมาณหน่วยความจำ (ในหน่วย kByte) เพื่อใช้เมื่อทำการพรีแคชไฟล์.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="358"/>
         <source>Cache for streams</source>
         <translation>แคชสำหรับกระแส</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="342"/>
+        <location filename="../prefperformance.cpp" line="359"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>ตัวเลือกนี้จะระบุปริมาณหน่วยความจำ (ในหน่วย kByte) เพื่อใช้เมื่อทำการพรีแคช URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="362"/>
         <source>Cache for DVDs</source>
         <translation>แคชสำหรับ DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="346"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>ตัวเลือกนี้จะระบุจำนวนความจำ (หน่วย kBytes) เพื่อใช้ในการพรีแคช DVD &lt;br&gt;&lt;b&gt;คำเตือน:&lt;/b&gt; การหาอาจทำงานได้ไม่เหมาะสม (รวมทั้งการสลับตอน) เมื่อใช้แคชสำหรับ DVD</translation>
     </message>
@@ -7659,17 +7669,17 @@ Example: extrastereo,karaoke</source>
         <translation>แคชสำหรับ&amp;กระแส:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="78"/>
+        <location filename="../prefperformance.cpp" line="84"/>
         <source>Enabled</source>
         <translation>ถูกใช้งาน</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="79"/>
+        <location filename="../prefperformance.cpp" line="85"/>
         <source>Skip (always)</source>
         <translation>ข้าม (เสมอ)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="80"/>
+        <location filename="../prefperformance.cpp" line="86"/>
         <source>Skip only on HD videos</source>
         <translation>ข้ามเฉพาะวิดีโอ HD</translation>
     </message>
@@ -7679,112 +7689,117 @@ Example: extrastereo,karaoke</source>
         <translation>ตัวกรอง &amp;Loop</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="300"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="32"/>
+        <location filename="../prefperformance.cpp" line="33"/>
         <source>None</source>
         <translation type="unfinished">ไม่มี</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="33"/>
+        <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto</source>
         <translation type="unfinished">อัตโนมัติ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="281"/>
+        <location filename="../prefperformance.cpp" line="277"/>
+        <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>Hardware decoding</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="282"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="284"/>
+        <location filename="../prefperformance.cpp" line="296"/>
         <source>Available options:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="286"/>
+        <location filename="../prefperformance.cpp" line="298"/>
         <source>None: only software decoding will be used.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="287"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="289"/>
+        <location filename="../prefperformance.cpp" line="301"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="290"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="303"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="294"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="297"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>This option only works with mpv.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="307"/>
+        <location filename="../prefperformance.cpp" line="322"/>
         <source>Possible values:</source>
         <translation>ค่าที่เป็นไปได้:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;ใช้งาน&lt;/b&gt;: loop filter ไม่ถูกข้าม</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="324"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;ข้าม (เสมอ)&lt;/b&gt;: the loop filter จะถูกข้ามไม่ว่าความละเอียดวิดีโอเป็นอย่างไร</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="311"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;ข้ามเฉพาะกรณีวิดีโอ HD&lt;/b&gt;: the loop filter จะถูกข้ามเมื่อวิดีโอนั้นมีควา่มสูงตั้งแต่ %1 ขึ้นไป</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="316"/>
+        <location filename="../prefperformance.cpp" line="331"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
-        <source>Requires a MPlayer build with CoreAVC support.</source>
+        <location filename="../prefperformance.cpp" line="333"/>
+        <source>Requires a %1 build with CoreAVC support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="335"/>
+        <location filename="../prefperformance.cpp" line="352"/>
         <source>Cache</source>
         <translation>แคช</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="350"/>
+        <location filename="../prefperformance.cpp" line="367"/>
         <source>Cache for audio CDs</source>
         <translation>แคชสำหรับ CD เสียง</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="351"/>
+        <location filename="../prefperformance.cpp" line="368"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>ตัวเลือกนี้จะระบุจำนวนหน่วยความจำ (เป็น kBytes) ที่จะใช้เมื่อพรีแค็ชซีดีเสียง</translation>
     </message>
@@ -7794,12 +7809,12 @@ Example: extrastereo,karaoke</source>
         <translation>แคชสำหรับ &amp;CD เสียง:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="354"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Cache for VCDs</source>
         <translation>แคชสำหรับ VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="355"/>
+        <location filename="../prefperformance.cpp" line="372"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>ตัวเลือกนี้จะระบุจำนวนหน่วยความจำ (เป็น kBytes) ที่จะใช้เมื่อพรีแค็ชวีซีดี</translation>
     </message>
@@ -7809,12 +7824,12 @@ Example: extrastereo,karaoke</source>
         <translation>แคชสำหรับ &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="277"/>
+        <location filename="../prefperformance.cpp" line="289"/>
         <source>Threads for decoding</source>
         <translation>สายงานสำหรับการถอดรหัส</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="278"/>
+        <location filename="../prefperformance.cpp" line="290"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>ตั้งจำนวนของสายงานเพื่อใช้ในการถอดรหัส เฉพาะเพื่อ MPEG-1/2 และ H.264</translation>
     </message>
@@ -7824,12 +7839,11 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;สายงานเพื่อการถอดรหัส  (MPEG-1/2 และ H.264 เท่านั้น):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="265"/>
         <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>ตั้งลำดับความสำคัญของกระบวนการสำหรับ mplayer อิงตามความสำคัญที่กำหนดไว้ก่อนแล้วภายใต้ Windows &lt;br&gt;&lt;b&gt;คำเตือน:&lt;/b&gt; การใช้ลำดับความสำคัญแบบ เวลาจริง อาจสร้างปัญหาการล็อคระบบได้</translation>
+        <translation type="obsolete">ตั้งลำดับความสำคัญของกระบวนการสำหรับ mplayer อิงตามความสำคัญที่กำหนดไว้ก่อนแล้วภายใต้ Windows &lt;br&gt;&lt;b&gt;คำเตือน:&lt;/b&gt; การใช้ลำดับความสำคัญแบบ เวลาจริง อาจสร้างปัญหาการล็อคระบบได้</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="330"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>ใช้ CoreAVC ถ้าไม่ระบุ codec อื่น</translation>
     </message>
@@ -8015,8 +8029,8 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefSubtitles</name>
     <message>
-        <location filename="../prefsubtitles.cpp" line="60"/>
-        <location filename="../prefsubtitles.cpp" line="382"/>
+        <location filename="../prefsubtitles.cpp" line="61"/>
+        <location filename="../prefsubtitles.cpp" line="383"/>
         <source>Subtitles</source>
         <translation>ศัพท์บรรยาย</translation>
     </message>
@@ -8027,7 +8041,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="39"/>
-        <location filename="../prefsubtitles.cpp" line="384"/>
+        <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Autoload</source>
         <translation>โหลดอัตโนมัติ</translation>
     </message>
@@ -8058,13 +8072,13 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
-        <location filename="../prefsubtitles.cpp" line="432"/>
-        <location filename="../prefsubtitles.cpp" line="451"/>
+        <location filename="../prefsubtitles.cpp" line="433"/>
+        <location filename="../prefsubtitles.cpp" line="452"/>
         <source>Font</source>
         <translation>อักษร</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="454"/>
+        <location filename="../prefsubtitles.cpp" line="455"/>
         <source>Size</source>
         <translation>ขนาด</translation>
     </message>
@@ -8089,72 +8103,71 @@ Example: extrastereo,karaoke</source>
         <translation>ร&amp;วมศัพท์บรรยายไว้บนภาพหน้าจอด้วย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="387"/>
+        <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Select first available subtitle</source>
         <translation>เลือกศัพท์บรรยายแรกที่มี</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="393"/>
+        <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Default subtitle encoding</source>
         <translation>การเข้ารหัสศัพท์บรรยายตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="409"/>
+        <location filename="../prefsubtitles.cpp" line="410"/>
         <source>Include subtitles on screenshots</source>
         <translation>รวมศัพท์บรรยายไว้บนภาพหน้าจอด้วย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="463"/>
+        <location filename="../prefsubtitles.cpp" line="464"/>
         <source>Text color</source>
         <translation>สีอักษร</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="464"/>
+        <location filename="../prefsubtitles.cpp" line="465"/>
         <source>Select the color for the text of the subtitles.</source>
         <translation>เลือกสีของอักษรศัพท์บรรยาย.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="466"/>
+        <location filename="../prefsubtitles.cpp" line="467"/>
         <source>Border color</source>
         <translation>สีขอบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="467"/>
+        <location filename="../prefsubtitles.cpp" line="468"/>
         <source>Select the color for the border of the subtitles.</source>
         <translation>เลือกสีขอบของศัพท์บรรยาย.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="385"/>
+        <location filename="../prefsubtitles.cpp" line="386"/>
         <source>Select the subtitle autoload method.</source>
         <translation>เลือกวิธีโหลดศัพท์บรรยายอัตโนมัติ.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="388"/>
+        <location filename="../prefsubtitles.cpp" line="389"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
         <translation>ถ้ามีศัพท์บรรยายหนึ่งแทร็คหรือมากกว่า หนึ่งในนั้นจะถูกเลือกอัตโนมัติ โดยปกติคืออันแรก เว้นแต่มีหนึ่งในนั้นที่สอดคล้องกับการตั้งค่าภาษาที่ชอบของผู้ใช้ ซึ่งอันนั้นจะถูกเลือกแทน.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="394"/>
+        <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
         <translation>เลือกการเข้ารหัสที่จะถูกใช้สำหรับไฟล์ศัพท์บรรยายโดยตั้งต้น.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="397"/>
+        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Try to autodetect for this language</source>
         <translation>พยายามตรวจสอบอัตโนมัติ สำหรับภาษานี้</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="398"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation>เมื่อเลือกใช้ตัวเลือกนี้ การเข้ารหัสศัพท์บรรยายจะพยายามตรวจสอบอัตโนมัติสำหรับภาษาที่ให้ไว้ แต่มันจะกลับไปใช้การเข้ารหัสตั้งต้นถ้าการตรวจสอบอัตโนมัติล้มเหลว ตัวเลือกนี้ต้องการ MPlayer ที่คอมไฟล์กับการรองรับ ENCA</translation>
+        <translation type="obsolete">เมื่อเลือกใช้ตัวเลือกนี้ การเข้ารหัสศัพท์บรรยายจะพยายามตรวจสอบอัตโนมัติสำหรับภาษาที่ให้ไว้ แต่มันจะกลับไปใช้การเข้ารหัสตั้งต้นถ้าการตรวจสอบอัตโนมัติล้มเหลว ตัวเลือกนี้ต้องการ MPlayer ที่คอมไฟล์กับการรองรับ ENCA</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="404"/>
+        <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
         <translation>ภาษาศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="405"/>
+        <location filename="../prefsubtitles.cpp" line="406"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
         <translation>เลือกภาษา ที่คุณต้องการให้การเข้ารหัสถูกเดาโดยอัตโนมัติ.</translation>
     </message>
@@ -8169,137 +8182,132 @@ Example: extrastereo,karaoke</source>
         <translation>พยายาม&amp;ตรวจสอบอัตโนมัติ สำหรับภาษานี้:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="493"/>
+        <location filename="../prefsubtitles.cpp" line="494"/>
         <source>Outline</source>
         <translation>เส้นร่าง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="452"/>
+        <location filename="../prefsubtitles.cpp" line="453"/>
         <source>Select the font for the subtitles.</source>
         <translation>เลือกอักษรสำหรับศัพท์บรรยาย.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="413"/>
+        <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Use the ASS library</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="414"/>
+        <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="418"/>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefsubtitles.cpp" line="424"/>
+        <location filename="../prefsubtitles.cpp" line="425"/>
         <source>Enable Windows fonts</source>
         <translation>ใช้งานแบบอักษรของ Windows</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="425"/>
+        <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
         <translation>ถ้าใช้งานตัวเลือกนี้ แบบอักษรระบบของ Windows จะใช้ได้กับศัพท์บรรยาย แต่จะเกิดความไม่สะดวกเพราะต้องมีการสร้างแคชแบบอักษรซึ่งจะใช้เวลาสักพัก</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="428"/>
+        <location filename="../prefsubtitles.cpp" line="429"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
         <translation>ถ้าไม่เลือกตัวเลือกนี้ จะมีจำนวนแบบอักษรไม่มากที่ SMPlayer จะใช้ได้ แต่ก็จะทำงานได้เร็วขึ้นมาก</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="455"/>
+        <location filename="../prefsubtitles.cpp" line="456"/>
         <source>The size in pixels.</source>
         <translation>ขนาดในหน่วยพิกเซล.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="457"/>
+        <location filename="../prefsubtitles.cpp" line="458"/>
         <source>Bold</source>
         <translation>หนา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="458"/>
+        <location filename="../prefsubtitles.cpp" line="459"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
         <translation>ถ้าเลือกสิ่งนี้ ข้อความอักษรจะปรากฏเป็นตัว &lt;b&gt;หนา&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="460"/>
+        <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Italic</source>
         <translation>เอียง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="461"/>
+        <location filename="../prefsubtitles.cpp" line="462"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
         <translation>ถ้าเลือกสิ่งนี้ ข้อความอักษรจะปรากฏเป็นตัว &lt;i&gt;เอียง&lt;/i&gt;</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="472"/>
+        <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Left margin</source>
         <translation>ริมซ้าย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="473"/>
+        <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
         <translation>ระบุริมซ้ายในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="475"/>
+        <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Right margin</source>
         <translation>ริมขวา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="476"/>
+        <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
         <translation>ระบุริมขวาในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="478"/>
+        <location filename="../prefsubtitles.cpp" line="479"/>
         <source>Vertical margin</source>
         <translation>ริม</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="479"/>
+        <location filename="../prefsubtitles.cpp" line="480"/>
         <source>Specifies the vertical margin in pixels.</source>
         <translation>ระบุริมของแนวตั้งในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="481"/>
+        <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Horizontal alignment</source>
         <translation>การจัดวางในแนวนอน</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="482"/>
+        <location filename="../prefsubtitles.cpp" line="483"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
         <translation>ระบุการจัดวางของแนวนอน ค่าที่ใช้ได้คือ ซ้าย, กลาง และ ขวา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="485"/>
+        <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Vertical alignment</source>
         <translation>การจัดวางในแนวตั้ง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="486"/>
+        <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
         <translation>ระบุการจัดวางของแนวตั้ง ค่าที่ใช้ได้: ล่าง, กึ่งกลาง และ บน</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="489"/>
+        <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Border style</source>
         <translation>แบบขอบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="490"/>
+        <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
         <translation>ระบุลักษณะของขอบ, ค่าที่เป็นไปได้ได้แก่: เส้นร่าง และ กล่องทึบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="497"/>
+        <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Shadow</source>
         <translation>เงา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="501"/>
+        <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Apply style to ASS files too</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8394,90 +8402,100 @@ Example: extrastereo,karaoke</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="448"/>
+        <location filename="../prefsubtitles.cpp" line="449"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
         <translation>ตัวเลือกต่อไปนี้จะให้คุณกำหนดลักษณะที่จะใช้สำหรับศัพท์บรรยายที่ไม่มีการกำหนดลักษณะไว้ (srt, sub...)</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="105"/>
+        <location filename="../prefsubtitles.cpp" line="106"/>
         <source>Left</source>
         <comment>horizontal alignment</comment>
         <translation>ซ้าย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="106"/>
+        <location filename="../prefsubtitles.cpp" line="107"/>
         <source>Centered</source>
         <comment>horizontal alignment</comment>
         <translation>ตรงกลาง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="107"/>
+        <location filename="../prefsubtitles.cpp" line="108"/>
         <source>Right</source>
         <comment>horizontal alignment</comment>
         <translation>ขวา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="112"/>
+        <location filename="../prefsubtitles.cpp" line="113"/>
         <source>Bottom</source>
         <comment>vertical alignment</comment>
         <translation>ล่าง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="113"/>
+        <location filename="../prefsubtitles.cpp" line="114"/>
         <source>Middle</source>
         <comment>vertical alignment</comment>
         <translation>กึ่งกลาง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="114"/>
+        <location filename="../prefsubtitles.cpp" line="115"/>
         <source>Top</source>
         <comment>vertical alignment</comment>
         <translation>บน</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="119"/>
+        <location filename="../prefsubtitles.cpp" line="120"/>
         <source>Outline</source>
         <comment>border style</comment>
         <translation>เส้นร่าง</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="120"/>
+        <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Opaque box</source>
         <comment>border style</comment>
         <translation>กล่องทึบ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="494"/>
+        <location filename="../prefsubtitles.cpp" line="399"/>
+        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="419"/>
+        <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.cpp" line="495"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
         <translation>ถ้าตั้งลักษณะขอบเป็น &lt;i&gt;เส้นร่าง&lt;/i&gt; ตัวเลือกนี้จะระบุความกว้างของเส้นร่างรอบตัวอักษรในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="498"/>
+        <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
         <translation>ถ้าตั้งลักษณะขอบเป็น &lt;i&gt;เส้นร่าง&lt;/i&gt; ตัวเลือกนี้จะระบุความลึกของเงาที่ตกอยู่หลังตัวอักษรในหน่วยพิกเซล</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="434"/>
+        <location filename="../prefsubtitles.cpp" line="435"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
         <translation>ตัวเลือกนี้ไม่ได้เปลี่ยนขนาดของศัพท์บรรยายในวิดีโอปัจจุบัน เพื่อทำสิ่งดังกล่าวให้ใช้ตัวเลือก &lt;i&gt;ขนาด+&lt;/i&gt; และ &lt;i&gt;ขนาด-&lt;/i&gt; ในเมนูศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="438"/>
+        <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
         <translation>มาตราตั้งต้น</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="439"/>
+        <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
         <translation>ตัวเลือกนี้จะระบุสเกลหรือมาตราแบบอักษรตั้งต้นสำหรับศัพท์บรรยาย SSA/ASS ซึ่งจะถูกใช้สำหรับไฟล์ที่ถูกเปิดใหม่</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="443"/>
+        <location filename="../prefsubtitles.cpp" line="444"/>
         <source>Line spacing</source>
         <translation>ระยะห่างบรรทัด</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="444"/>
+        <location filename="../prefsubtitles.cpp" line="445"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
         <translation>สิ่งนี้จะระบุช่องว่างที่จะใช้แยกหลายบรรทัดออกจากกัน สามารถใช้ค่าติดลบได้</translation>
     </message>
@@ -8497,7 +8515,7 @@ Example: extrastereo,karaoke</source>
         <translation>ระยะ&amp;ห่างบรรทัด:</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="417"/>
+        <location filename="../prefsubtitles.cpp" line="418"/>
         <source>Freetype support</source>
         <translation>รองรับ freetye</translation>
     </message>
@@ -8507,37 +8525,37 @@ Example: extrastereo,karaoke</source>
         <translation>รองรับ Freet&amp;ype </translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="410"/>
+        <location filename="../prefsubtitles.cpp" line="411"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก ศัพท์บรรยายจะปรากฏในภาพหน้าจอด้วย &lt;b&gt;หมายเหตุ:&lt;/b&gt; บางครั้งอาจเกิดปัญหาบางอย่างได้</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="331"/>
+        <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Customize SSA/ASS style</source>
         <translation>ปรับแต่งรูปแบบ SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="332"/>
+        <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
         <translation>ที่นี่คุณสามารถใส่ลักษณะ SSA/ASS ที่ปรับแต่งของคุณ</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="333"/>
+        <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Clear the edit line to disable the customized style.</source>
         <translation>ล้างบรรทัดที่แก้ไข เพื่อไม่ใช้รูปแบบที่ปรับแต่ง.</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="447"/>
+        <location filename="../prefsubtitles.cpp" line="448"/>
         <source>SSA/ASS style</source>
         <translation>รูปแบบ SSA/ASS</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="469"/>
+        <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Shadow color</source>
         <translation>สีเงา</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="470"/>
+        <location filename="../prefsubtitles.cpp" line="471"/>
         <source>This color will be used for the shadow of the subtitles.</source>
         <translation>สีนี้จะถูกใช้เป็นสีเงาศัพท์บรรยาย</translation>
     </message>
@@ -8552,7 +8570,7 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;ปรับแต่งค่า...</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.cpp" line="502"/>
+        <location filename="../prefsubtitles.cpp" line="503"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
         <translation>ถ้าตัวเลือกนี้ถูกเลือก ลักษณะที่กำหนดด้านบนจะถูกใช้กับศัพท์บรรยาย ass ด้วย</translation>
     </message>
