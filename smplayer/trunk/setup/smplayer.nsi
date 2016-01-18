@@ -90,6 +90,7 @@
   Var Previous_Version
   Var Previous_Version_State
   Var ReadReg_Installed_MPV
+  Var ReadReg_Memento_MPV
   Var Reinstall_ChgSettings
   Var Reinstall_ChgSettings_State
   Var Reinstall_Message
@@ -109,11 +110,6 @@
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
-
-  Var YTDL_Version_Local
-  Var YTDL_Version_Remote
-  Var YTDL_Version_Remote_File
-  Var YTDL_Previous_Version_State
 
 ;--------------------------------
 ;Interface Settings
@@ -401,8 +397,6 @@ SectionGroup $(MPlayerMPVGroupTitle)
     File "${SMPLAYER_BUILD_DIR}\mplayer\mplayer.exe"
 !endif
 
-    WriteRegDWORD HKLM "${SMPLAYER_REG_KEY}" Installed_MPlayer 0x1
-
   ${MementoSectionEnd}
 
   ${MementoUnselectedSection} "MPV" SecMPV
@@ -416,30 +410,13 @@ SectionGroup $(MPlayerMPVGroupTitle)
   File /r /x mpv64.exe /x mpv64.com "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 !endif
 
-  ${If} $Restore_YTDL == 1
+  IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
     CopyFiles /SILENT "$PLUGINSDIR\youtube-dl.exe" "$INSTDIR\mpv"
-  ${EndIf}
 
-  dl_youtube-dl:
+    DetailPrint "Checking for youtube-dl updates..."
+    NsExec::ExecToLog '"$INSTDIR\mpv\youtube-dl.exe" -U'
 
-  NSISdl::download_quiet /TIMEOUT=30000 \
-  "http://yt-dl.org/latest/version" \
-  "$PLUGINSDIR\version" /END
-
-  ClearErrors
-  FileOpen $YTDL_Version_Remote_File "$PLUGINSDIR\version" r
-  IfErrors YTDL
-  FileRead $YTDL_Version_Remote_File $YTDL_Version_Remote
-  FileClose $YTDL_Version_Remote_File
-
-  ClearErrors
-  ${GetFileVersion} "$INSTDIR\mpv\youtube-dl.exe" $YTDL_Version_Local
-  IfErrors YTDL
-
-  ${VersionCompare} $YTDL_Version_Remote $YTDL_Version_Local $YTDL_Previous_Version_State
-  ${Unless} $YTDL_Previous_Version_State == 1
     Goto skip_ytdl
-  ${EndIf}
 
   YTDL:
   NSISdl::download /TIMEOUT=30000 \
@@ -448,7 +425,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
   Pop $R0
   StrCmp $R0 "success" +3 0
     DetailPrint $(YTDL_DL_Failed)
-    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY dl_youtube-dl
+    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY YTDL
 
   skip_ytdl:
 
@@ -563,7 +540,7 @@ Section -Post
 
   Sleep 2500
 
-  ;SetAutoClose false
+  SetAutoClose false
 
 SectionEnd
 
@@ -764,19 +741,20 @@ Function newGUIInit
       !insertmacro SelectSection ${SecMPV}
     ${Else}
       StrCpy $SecRadioButton ${SecMPlayer}
-    ${EndIf}
-  ${EndIf}
-
-  ClearErrors
-  ReadRegDWORD $ReadReg_Installed_MPV HKLM "${SMPLAYER_REG_KEY}" "MementoSection_SecMPV"
-  ${IfNot} ${Errors}
-    ${If} $ReadReg_Installed_MPV == 1
-      StrCpy $SecRadioButton ${SecMPV}
-      !insertmacro UnSelectSection ${SecMPlayer}
-      !insertmacro SelectSection ${SecMPV}
-    ${Else}
-      StrCpy $SecRadioButton ${SecMPlayer}
-    ${EndIf}
+      !insertmacro UnSelectSection ${SecMPV}
+      !insertmacro SelectSection ${SecMPlayer}
+    ${Endif}
+  ${Else}
+    ReadRegDWORD $ReadReg_Memento_MPV HKLM "${SMPLAYER_REG_KEY}" "MementoSection_SecMPV"
+      ${If} $ReadReg_Memento_MPV == 1
+        StrCpy $SecRadioButton ${SecMPV}
+        !insertmacro UnSelectSection ${SecMPlayer}
+        !insertmacro SelectSection ${SecMPV}
+      ${Else}
+        StrCpy $SecRadioButton ${SecMPlayer}
+        !insertmacro UnSelectSection ${SecMPV}
+        !insertmacro SelectSection ${SecMPlayer}
+      ${EndIf}
   ${EndIf}
 
 FunctionEnd
