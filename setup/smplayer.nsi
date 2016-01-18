@@ -550,7 +550,7 @@ Section -Post
 
   Sleep 2500
 
-  SetAutoClose false
+  ;SetAutoClose false
 
 SectionEnd
 
