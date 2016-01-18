@@ -23,6 +23,8 @@
 #include <QVariant>
 #include <QList>
 
+class QSettings;
+
 class DeviceData {
 
 public:
@@ -33,8 +35,8 @@ public:
 	void setID(QVariant ID) { _id = ID; };
 	void setDesc(QString desc) { _desc = desc; };
 
-	QVariant ID() { return _id; };
-	QString desc() { return _desc; };
+	QVariant ID() const { return _id; };
+	QString desc() const { return _desc; };
 
 private:
 	QVariant _id;
@@ -57,6 +59,9 @@ public:
 #endif
 
 protected:
+	static void saveList(QSettings * set, const QString & section_name, const DeviceList & list);
+	static DeviceList loadList(QSettings * set, const QString & section_name);
+
 #ifdef Q_OS_WIN
 	enum DeviceType { Sound = 0, Display = 1 };
 
