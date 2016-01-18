@@ -137,6 +137,12 @@ if defined VER_REVISION (
   set VER_REV_CMD=
 )
 
+if not defined VER_REIVISON (
+  set PORTABLE_PKG_VER=%ALL_PKG_VER%.0
+) else (
+  set PORTABLE_PKG_VER=%ALL_PKG_VER%
+)
+
 if "%USER_CHOICE%" == "1"  goto nsispkg
 if "%USER_CHOICE%" == "2"  goto nsispkg64
 if "%USER_CHOICE%" == "3"  goto portable
@@ -201,10 +207,10 @@ if not exist "%PORTABLE_EXE_DIR%\smplayer-portable.exe" (
 ::  echo Warning: SMTube portable EXE not found!
 ::)
 
-ren "%SMPLAYER_DIR%" "smplayer-portable-%ALL_PKG_VER%"
-set SMPLAYER_PORTABLE_DIR="%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%"
+ren "%SMPLAYER_DIR%" "smplayer-portable-%PORTABLE_PKG_VER%"
+set SMPLAYER_PORTABLE_DIR="%TOP_LEVEL_DIR%\smplayer-portable-%PORTABLE_PKG_VER%"
 
-if not exist "%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%" (
+if not exist "%TOP_LEVEL_DIR%\smplayer-portable-%PORTABLE_PKG_VER%" (
   echo Oops! Unable to find renamed directory, make sure no files are opened.
   goto end
 )
@@ -251,7 +257,7 @@ copy /y "%PORTABLE_EXE_DIR%\smplayer-portable.exe" "%SMPLAYER_PORTABLE_DIR%\smpl
 
 ::
 echo Finalizing package...
-7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%PORTABLE_PKG_VER%.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mplayer64.exe -xr!mencoder.exe -xr!mencoder64.exe -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -xr!mpv64.exe -xr!mpv64.com -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
@@ -287,10 +293,10 @@ if not exist "%PORTABLE_EXE_DIR%\smplayer-portable64.exe" (
 ::  echo Warning: SMTube portable EXE not found!
 ::)
 
-ren "%SMPLAYER_DIR64%" "smplayer-portable-%ALL_PKG_VER%-x64"
-set SMPLAYER_PORTABLE_DIR="%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64"
+ren "%SMPLAYER_DIR64%" "smplayer-portable-%PORTABLE_PKG_VER%-x64"
+set SMPLAYER_PORTABLE_DIR="%TOP_LEVEL_DIR%\smplayer-portable-%PORTABLE_PKG_VER%-x64"
 
-if not exist "%TOP_LEVEL_DIR%\smplayer-portable-%ALL_PKG_VER%-x64" (
+if not exist "%TOP_LEVEL_DIR%\smplayer-portable-%PORTABLE_PKG_VER%-x64" (
   echo Oops! Unable to find renamed directory, make sure no files are opened.
   goto end
 )
@@ -302,6 +308,18 @@ ren "%SMPLAYER_PORTABLE_DIR%\smplayer.exe" smplayer.bak
 ::ren "%SMPLAYER_PORTABLE_DIR%\smtube.exe" smtube.bak
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe" mplayer.exe.bak32
 ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer64.exe" mplayer.exe
+
+if exist "%SMPLAYER_PORTABLE_DIR%\mpv\fonts" (
+  ren "%SMPLAYER_PORTABLE_DIR%\mpv\fonts" fonts.bak32
+)
+if exist "%SMPLAYER_PORTABLE_DIR%\mpv\mpv" (
+  ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv" mpv.bak32
+)
+
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.exe" mpv.exe.bak32
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.com" mpv.com.bak32
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv64.exe" mpv.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv64.com" mpv.com
 
 ::
 echo Creating screenshots dir...
@@ -339,7 +357,7 @@ copy /y "%PORTABLE_EXE_DIR%\smplayer-portable64.exe" "%SMPLAYER_PORTABLE_DIR%\sm
 
 ::
 echo Finalizing package...
-7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%ALL_PKG_VER%-x64.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!codecs -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -mx9 >nul
+7za a -t7z "%OUTPUT_DIR%\smplayer-portable-%PORTABLE_PKG_VER%-x64.7z" "%SMPLAYER_PORTABLE_DIR%" -xr!*.bak* -xr!qxtcore.dll -xr!mencoder.exe -xr!mencoder64.exe  -xr!mplayer64.exe.debug -xr!mencoder64.exe.debug -xr!mplayer.exe.debug -xr!mencoder.exe.debug -xr!gdb.exe -xr!gdb64.exe -xr!vfw2menc.exe -xr!codecs -xr!buildinfo -xr!buildinfo64 -xr!buildinfo-mencoder-32 -xr!buildinfo-mencoder-debug-32 -xr!buildinfo-mplayer-32 -xr!buildinfo-mplayer-debug-32 -xr!buildinfo-mencoder-64 -xr!buildinfo-mencoder-debug-64 -xr!buildinfo-mplayer-64 -xr!buildinfo-mplayer-debug-64 -mx9 >nul
 
 echo.
 echo Restoring source folder(s) back to its original state...
@@ -354,6 +372,19 @@ ren "%SMPLAYER_PORTABLE_DIR%\mplayer\mplayer.exe.bak32" mplayer.exe
 REM del "%SMPLAYER_PORTABLE_DIR%\mplayer\fonts\local.conf"
 ren "%SMPLAYER_PORTABLE_DIR%\smplayer.bak" smplayer.exe
 ::ren "%SMPLAYER_PORTABLE_DIR%\smtube.bak" smtube.exe
+
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.exe" mpv64.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.com" mpv64.com
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.exe.bak32" mpv.exe
+ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.com.bak32" mpv.com
+
+if exist "%SMPLAYER_PORTABLE_DIR%\mpv\fonts.bak32" (
+  ren "%SMPLAYER_PORTABLE_DIR%\mpv\fonts.bak32" fonts
+)
+if exist "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.bak32" (
+  ren "%SMPLAYER_PORTABLE_DIR%\mpv\mpv.bak32" mpv
+)
+
 ren "%SMPLAYER_PORTABLE_DIR%" smplayer-build64
 
 goto end
