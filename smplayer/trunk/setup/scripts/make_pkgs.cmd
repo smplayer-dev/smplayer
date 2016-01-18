@@ -137,7 +137,7 @@ if defined VER_REVISION (
   set VER_REV_CMD=
 )
 
-if not defined VER_REIVISON (
+if not defined VER_REVISION (
   set PORTABLE_PKG_VER=%ALL_PKG_VER%.0
 ) else (
   set PORTABLE_PKG_VER=%ALL_PKG_VER%
