@@ -867,16 +867,21 @@ Function .onInstFailed
 
 FunctionEnd
 
-!ifdef EXCLUSIVE_MPVMPLAYER
 Function .onSelChange
 
+!ifdef EXCLUSIVE_MPVMPLAYER
   !insertmacro StartRadioButtons $SecRadioButton
     !insertmacro RadioButton ${SecMPlayer}
     !insertmacro RadioButton ${SecMPV}
   !insertmacro EndRadioButtons
+!else
+  ${Unless} ${SectionIsSelected} ${SecMPlayer}
+  ${AndUnless} ${SectionIsSelected} ${SecMPV}
+    !insertmacro SelectSection ${SecMPlayer}
+  ${EndUnless}
+!endif
 
 FunctionEnd
-!endif
 
 Function CheckPreviousVersion
 
