@@ -27,7 +27,15 @@
 DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
 	qDebug("DeviceInfo::retrieveDevices: %d", type);
 	
-	DeviceList l;
+	QString inifile = Paths::configPath() + "/device_info.ini";
+	QSettings set(inifile, QSettings::IniFormat);
+	QString section_name = "display_devices";
+	if (type == Sound) section_name = "dsound_devices";
+	
+	// Check if we already have the list stored in the INI file
+	DeviceList l = loadList(&set, section_name);
+	if (l.count() > 0) return l;
+	
 	QRegExp rx_device("^(\\d+): (.*)");
 	
 	if (QFile::exists("dxlist.exe")) {
@@ -51,6 +59,8 @@ DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
 			}
 		}
 	}
+	
+	saveList(&set, section_name, l);
 	
 	return l;
 }
