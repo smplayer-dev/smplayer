@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2678,10 +2676,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2779,7 +2774,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -4730,7 +4725,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Mugapena: ekintzek agiri bat irekita dagoenean bakarrik ekiten dute eta ez %1 prozesua berrabiarazten denean (adib. audio edo bideo iragazki bat hautatzen duzunean).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4962,10 +4957,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Hemen adierazi dezakezu &lt;i&gt;ekintza&lt;/i&gt; zerrenda bat agiri bat irekitzen den bakoitzean ekiteko. Ekintza eskuragarri guztiak aurkituko dituzu lasterbide editatzailean &lt;b&gt;Teklatua eta sagua&lt;/b&gt; atalean. Ekintzak tartez banandu behar dira. Ekintza hautagarriak hurrengoak izan daitezke  &lt;i&gt;egia&lt;/i&gt; edo &lt;i&gt;gezurra&lt;/i&gt; gaitzeko edo ezgaitzeko ekintza.</translation>
-    </message>
-    <message>
-        <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="obsolete">Mugapena: ekintzek agiri bat irekita dagoenean bakarrik ekiten dute eta ez mplayer berrabiaraztean (adib. audio edo bideo iragazki bat hautatzen duzunean).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -5430,7 +5421,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurketa bide zenbatekoa galdetzen du. %1 dekodeatzaileari audioa adierazitako haina bideetan dekodeatzeko galdetzen dio. Orduan gertu dago dekodeaketa eskabidea betetzeko. Hau garrantzitsua da bakarrik AC3 audioa duten bideoak irakurtzerakoan (DVD-ak adibidez). Honelakoetan liba52-k egiten du dekodeaketa eta audioa behar bezala nahasten du eskatutako audio bide zenbatekoan. &lt;b&gt;Oharra&lt;/b&gt;: Aukera hau eskertzen dute kodek-ek (AC3 bakarrik), iragazkiek (ingurunea) eta audio irteera gidagailuek (OSS-k gutxienez).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -5966,10 +5957,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Hautatuta badago, zuzeneko aurkezpenera itzultzen da (ez dago sostengaturik kodek eta bideo irteera guztietan) &lt;br&gt;&lt;b&gt;Kontuz:&lt;/b&gt; IGE/AZP-en hondatzea eragin dezake!</translation>
-    </message>
-    <message>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">Irakurketa bide zenbatekoa galdetzen du. MPlayer-ek galdetzen dio dekodeatzaileari audioa adierazitako haina bideetan dekodeatzeko. Orduan gertu dago dekodeaketa eskabidea betetzeko. Hau garrantzitsua da bakarrik AC3 audioa duten bideoak irakurtzerakoan (DVD-ak adibidez). Honelakoetan liba52-k egiten du dekodeaketa eta audioa behar bezala nahasten du eskatutako audio bide zenbatekoan. &lt;b&gt;Oharra&lt;/b&gt;: Aukera hau eskertzen dute kodek-ek (AC3 bakarrik), iragazkiek (ingurunea) eta audio irteera gidagailuek (OSS-k gutxienez).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -7713,7 +7700,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ezarri garapen lehentasuna %1-rentzat Windowsekin eskuragarri diren lehentasun aurre-zehazpenekin. &lt;br&gt;&lt;b&gt;Kontuz:&lt;/b&gt; Egizko denbora lehentasuna erabiliz gero sistemaren istea eragin dezake.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7793,11 +7780,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">CoreAVC sostengua duen Mplayer behar du.</translation>
+        <translation>CoreAVC sostengua duen %1 eraiketa behar du.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7848,10 +7831,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Dekodeaketarako hariak (MPEG-1/2 eta H.264 bakarrik):</translation>
-    </message>
-    <message>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">Ezarri garapen lehentasuna mplayer-entzat Windowsekin eskuragarri diren lehentasun aurre-zehazpenekin. &lt;br&gt;&lt;b&gt;Kontuz:&lt;/b&gt; Egizko denbora lehentasuna erabiliz gero sistemaren istea eragin dezake.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
@@ -8169,10 +8148,6 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>Saitu berez-atzematen hizkuntza hau</translation>
     </message>
     <message>
-        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="obsolete">Aukera hau eraginda dagoenean, azpidatzien kodeaketa berez-atzematen saitu daiteke emaniko hizkuntzan. Berezko kodeaketara itzuliko da berez-atzemateak huts egiten badu. Aukera honek ENCA sostengua duen MPlayer behar du.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
         <translation>Azpidatzien hizkuntza</translation>
@@ -8211,10 +8186,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Aukera honek ASS liburutegia gaitzen du, honek azpidatziak margo, hizki... ugaritan erakustea ahalbidetzen du.</translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">Arrunt ez zenuke aukera hau ezgaitu beharko. Egin bakarrik zure MPlayerra freetype sostengu gabe bildu bada. &lt;b&gt;Aukera hau ezgaitzeak azpidatziek betik lan ez egitea eragin dezake!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8472,12 +8443,12 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau eraginda dagoenean, azpidatzien kodeaketa berez-atzematen saitu daiteke emaniko hizkuntzan. Berezko kodeaketara itzuliko da berez-atzemateak huts egiten badu. Aukera honek ENCA sostengua duen %1 behar du.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrunt ez zenuke aukera hau ezgaitu beharko. Egin bakarrik zure %1 freetype sostengu gabe bildu bada. &lt;b&gt;Aukera hau ezgaitzeak azpidatziek betik lan ez egitea eragin dezake!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8863,19 +8834,13 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

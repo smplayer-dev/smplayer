@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="id">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2679,9 +2677,7 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtitle terkestrak</numerusform>
-        </translation>
+        <translation><numerusform>%n subtitle terkestrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2779,7 +2775,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Jika tidak memungkinkan untuk menyimpan berkas yang diunduh
@@ -4730,7 +4726,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4962,10 +4958,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Di sini Anda dapat menentukan daftar dari &lt;i&gt;aksi&lt;/i&gt; yang akan dijalankan setiap berkas dibuka. Anda akan menemukan semua aksi yang tersedia pada penyunting tombol pintasan pada bagian &lt;b&gt;Keyboard dan mouse&lt;/b&gt;. Aksi harus dipisahkan dengan spasi. Aksi yang diisi dapat diikuti dengan &lt;i&gt;true&lt;/i&gt; atau &lt;i&gt;false&lt;/i&gt; untuk mengaktifkan atau menonaktifkan aksi tersebut.</translation>
-    </message>
-    <message>
-        <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="obsolete">Batasan : aksi ini dijalankan hanya ketika sebuah berkas terbuka dan tidak ketika proses mplayer dijalankan ulang (contohnya ketika Anda memilih sebuah filter audio atau video).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -5430,7 +5422,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -5966,10 +5958,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Jika dicentang, nyalakan rendering langsung (tidak didukung oleh semua kodek dan keluaran video)&lt;br&gt;&lt;b&gt;Peringatan:&lt;/b&gt;Mungkin dapat menyebabkan OSD/SUB korup!</translation>
-    </message>
-    <message>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">Meminta jumlah saluran pada pemutaran. MPlayer meminta dekoder untuk mendekode audio menjadi beberapa saluran sebanyak yang ditetapkan. Kemudian dekoder akan memenuhi persyaratannya. Hal ini umumnya hanya hal yang penting ketika memutar video dengan audio AC3 (seperti DVD). Dalam hal ini liba52 mendekode secara baku dan mengoreksi penggabungan yang salah pada audio menjadi sebanyak yang diminta saluran. &lt;b&gt;Catatan&lt;/b&gt;: Opsi ini dilakukan oleh kodek (hanya AC3), filter (surround) dan perangkat keluaran audio (OSS paling akhir).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -7713,7 +7701,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7793,11 +7781,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Diperlukan sebuah bangunan MPlayer dengan dukungan CoreAVC.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7848,10 +7832,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Thread untuk dekoding (hanya MPEG-1/2 dan H.264):</translation>
-    </message>
-    <message>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">Setel prioritas proses untuk mplayer menurut prioritas yang telah ditetapkan dibawah Windows.&lt;br&gt;&lt;b&gt;Peringatan:&lt;/b&gt; Menggunakan prioritas tiap saat dapat menyebabkan sistem terkunci.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
@@ -8169,10 +8149,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Coba untuk mendeteksi secara otomatis bahasa ini.</translation>
     </message>
     <message>
-        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="obsolete">Ketika opsi ini dinyalakan, encoding pada subtitle akan dicoba untuk deteksi otomatis pada bahasa yang diberikan. Hal ini akan dikembalikan pada enkoding baku jika deteksi otomatis gagal. Opsi ini memerlukan MPlayer yang telah terkompilasi dengan dukungan ENCA.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
         <translation>Bahasa subtitle</translation>
@@ -8211,10 +8187,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Opsi ini mengaktifkan pustaka ASS, dimana membolehkan untuk menampilkan subtitle dengan beraneka warna, fonta-fonta... </translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">Anda harus membiasakan tidak menonaktifkan opsi ini. Melakukan itu hanya jika MPlayer Anda telah dikompil tanpa dukungan freetype. &lt;b&gt;Menonaktifkan opsi ini dapat membuat subtitle tidak bekerja pada semua!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8472,12 +8444,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8863,17 +8835,13 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n detik</numerusform>
-        </translation>
+        <translation><numerusform>%n detik</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n menit</numerusform>
-        </translation>
+        <translation><numerusform>%n menit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

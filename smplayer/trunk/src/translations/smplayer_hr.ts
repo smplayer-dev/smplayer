@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2678,11 +2676,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2780,7 +2774,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -4731,7 +4725,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ograničenje: radnje se izvode samo kada je datoteka otvorena, a ne kada je %1 proces ponovno pokrenut (npr. kada odaberete filter slike ili zvuka).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4761,12 +4755,12 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Repaint the background of the video window</source>
-        <translation>Prebojite pozadinu prozora slike</translation>
+        <translation>Preboji pozadinu prozora slike</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Prebojite pozadin&amp;u prozora slike</translation>
+        <translation>Preboji pozadin&amp;u prozora slike</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="548"/>
@@ -4963,10 +4957,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Ovdje možete odrediti popis &lt;i&gt;radnji&lt;/i&gt; koje će se izvoditi svaki puta kada je datoteka otvorena. Pronaći ćete sve dostupne radnje u uređivaču prečaca tipki u odjeljku &lt;b&gt;Tipkovnica i miš&lt;/b&gt;. Radnje moraju biti razdvojene razmakom. Označene radnje mogu biti postavljene na &lt;i&gt;true&lt;/i&gt; ili &lt;i&gt;false&lt;/i&gt; da bi bile omogućene ili onemogućene.</translation>
-    </message>
-    <message>
-        <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="obsolete">Ograničenje: radnje se izvode samo kada je datoteka otvorena, a ne kada je Mplayer proces ponovno pokrenut (npr. kada odaberete filter slike ili zvuka).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -5431,7 +5421,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Zahtijeva broj kanala reprodukcije. %1 pita dekôder da dekôdira zvuk u onoliko kanala koliko ih je postavljeno. Tada je do dekôdera da ispuni postavljeno. Ovo je obično važno kada se reproduciraju video zapisi s AC3 zvučnim zapisom (poput DVD-a). U tom slučaju liba52 dekôdira i ispravno obrađuje zvučni zapis u željeni broj kanala. &lt;b&gt;Napomena&lt;/b&gt;: Ova mogućnost je podržana kôdekima (AC3 samo), filtrima (surround) i izlaznog zvučnog upravljačkog programa (barem OSS-a).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -5967,10 +5957,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Ako je odabrano, uključuje izravan prikaz (nije podržano za sve kôdeke i video izlaze)&lt;br&gt;&lt;b&gt;Upozorenje:&lt;/b&gt; Može uzrokovati OSD/SUB greške!</translation>
-    </message>
-    <message>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">Zahtijeva broj kanala reprodukcije. MPlayer pita dekôder da dekôdira zvuk u onoliko kanala koliko ih je postavljeno. Tada je do dekôdera da ispuni postavljeno. Ovo je obično važno kada se reproduciraju video zapisi s AC3 zvučnim zapisom (poput DVD-a). U tom slučaju liba52 dekôdira i ispravno obrađuje zvučni zapis u željeni broj kanala. &lt;b&gt;Napomena&lt;/b&gt;: Ova mogućnost je podržana kôdekima (AC3 samo), filtrima (surround) i izlaznog zvučnog upravljačkog programa (barem OSS-a).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -7714,7 +7700,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Postavite priortet procesa %1 prema predefiniranim prioritetima dostupnih u Windowsima.&lt;br&gt;&lt;b&gt;Upozorenje:&lt;/b&gt; Koristeći prioritet u stvarnom vremenu može uzrokovati blokadu sustava.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7794,11 +7780,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Potreban je MPlayer izgrađen s CoreAVC podrškom.</translation>
+        <translation>Potreban je %1 izgrađen s CoreAVC podrškom.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7849,10 +7831,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Nizovi za korištenje dekôdiranja (Samo za MPEG-1/2 i H.264):</translation>
-    </message>
-    <message>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">Postavite priortet procesa Mplayera prema predefiniranim prioritetima dostupnih u Windowsima.&lt;br&gt;&lt;b&gt;Upozorenje:&lt;/b&gt; Koristeći prioritet u stvarnom vremenu može uzrokovati blokadu sustava.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
@@ -8170,10 +8148,6 @@ Npr: extrastereo,karaoke</translation>
         <translation>Probaj automatski otkriti za ovaj jezik</translation>
     </message>
     <message>
-        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="obsolete">Kada je ova mogućnost odabrana, kôdiranje podnaslova probat će se automatski otkriti za zadani jezik. Vratit će se na zadano kôdiranje ako automatsko otkrivanje ne uspije. Ova mogućnost zahtijeva MPlayer kompajliran s ENCA podrškom.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
         <translation>Jezik podnaslova</translation>
@@ -8212,10 +8186,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Ova mogućnost omogućuje ASS knjižnicu, koja omogućuje prikaz podnaslova u više boja, slova...</translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">Uobičajeno ne bi trebali onemogućiti ovu mogućnost. Učinite to samo ako je vaš MPlayer kompajliran bez freetype podrške. &lt;b&gt;Onemogućavanje ove mogućnosti može dovesti do toga da podnaslovi neće uopće više raditi&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8473,12 +8443,12 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kada je ova mogućnost odabrana, kôdiranje podnaslova probat će se automatski otkriti za zadani jezik. Vratit će se na zadano kôdiranje ako automatsko otkrivanje ne uspije. Ova mogućnost zahtijeva %1 kompiliran s ENCA podrškom.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Uobičajeno ne bi trebali onemogućiti ovu mogućnost. Učinite to samo ako je vaš %1 kompiliran bez freetype podrške. &lt;b&gt;Onemogućavanje ove mogućnosti može dovesti do toga da podnaslovi neće uopće više raditi&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8864,21 +8834,13 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

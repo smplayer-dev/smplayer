@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="bg">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="bg" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -749,7 +747,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1806"/>
         <source>P&amp;references</source>
-        <translation>Наст&amp;ройки</translation>
+        <translation>Предпо&amp;читания</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
@@ -1204,7 +1202,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2056"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Осн&amp;овна пътечка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2063"/>
@@ -2213,7 +2211,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Опа, нещо се обърка</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2678,10 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитра е извлечена</numerusform>
-            <numerusform>%n субтитри са извлечени</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитра е извлечена</numerusform><numerusform>%n субтитри са извлечени</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2779,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Немовъзможно е запазването на сваления
@@ -4730,7 +4725,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>Ограничение: действията се изпълняват само когато се отвори файл, а не когато процесът %1 бъде рестартиран (напр. при избор на звуков или видео филтър).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4906,7 +4901,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Пред&amp;аване на опцията %1 към MPlayer (рисковано за сигурността)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4941,12 +4936,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"></translation>
+        <translation>Предаване на опцията %1 към MPlayer (рисковано за сигурността)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Тази опция може да бъде необходима за възпроизвеждане на списъци (m3u, pls...). Въпреки това може да съществува риск за сигурността, когато се възпроизвежда от интернет източници, защото начинът, по който MPlayer анализира и използва списъците не е безопасен срещу файлове със заразни конструкции.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -4962,10 +4957,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>Тук можете да изберете списък от &lt;i&gt;действия&lt;/i&gt;, които ще си изпълняват при всяко отваряне на файл. Ще намерите всички налични действия в редактора на преки пътища в раздел &lt;b&gt;Клавиатура и мишка&lt;/b&gt;. Разделяйте действията с интервали. Действията с отметки могат да бъдат последвани от &lt;i&gt;вярно&lt;/i&gt; или &lt;i&gt;грешно&lt;/i&gt; съответно за активиране и деактивиране.</translation>
-    </message>
-    <message>
-        <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="obsolete">Ограничение: действията се изпълняват само когато бъде отворен файл, не важи когато се рестартира процес на MPlayer (пр. избор на звуков или видео филтър). </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -5204,7 +5195,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако тази опция е отметната, SMPlayer ще възпроизвежда DVD-та, използвайки dvdnav. Изисква се версия на MPlayer с поддръжка на dvdnav.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5430,12 +5421,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Запитва за броя на каналите за възпроизвеждане. %1 изисква от разкодера да разкодира звука на броя на указаните канали. Покриването на изискването зависи от самият разкодер. Това е важно само при възпроизвеждане на видеа с AC3 звук (като DVD-та). В този случай liba52 стандартно извършва разкодирането и смесването на звука към поискания брой канали. &lt;b&gt;Бележка:&lt;/b&gt; Тази опция се дължи на кодеците (единствено AC3), филтрите (квадрофония) и изходните звукови драйвери (поне OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"></translation>
+        <translation>Позволява смяна на скоростта на възпроизвеждане без изкривяване.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1136"/>
@@ -5966,10 +5957,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Ако е отметнато, преобръща в директно четене (не се поддържа от всички кодеци и видео изходи) &lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Може да предизвика повреда на ЕИ/СУБ!</translation>
-    </message>
-    <message>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">Изисква брой на каналите за възпроизвеждане. MPlayer изисква от декодера да разкодира звука в толкова канали, колкото са зададени. След това зависи от декодера дали ще се изпълни изискването. Това обикновено е важно, когато се възпроизвеждат видеа с AC3 звук (като DVD-тата). В този случай liba52 прави разкодирането по подразбиране и намалява звуковите потоци до изисквания брой канали. &lt;b&gt;Бележка&lt;/b&gt;: Тази опция е част от кодеци (само AC3), филтри (обграждащ звук) и драйвъри за изходен звук (най-вече OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -6756,7 +6743,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Предотврати излизането на прозореца отвъд пределите на екрана.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6936,12 +6923,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Предотврати излизането на прозореца отвъд пределите на екрана.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ако след автоматичното преоразмеряване, основният прозорец излиза отвъд пределите на екрана, тази опция ще центрира прозорецът, за да го предотврати.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7713,7 +7700,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Задава приоритет на процеса за %1, съгласно регламентираните налични приоритети под Windows. &lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Използването на приоритет в реално време може да предизвика системно забиване.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7788,12 +7775,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"></translation>
+        <translation>Опит да се използва комерсиалният кодек CoreAVC, когато друг такъв не е зададен и е избран видео изход, различен от VDPAU.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Изисква %1 версия с поддръжка на CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7844,10 +7831,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Нишки за разкодиране (само MPEG-1/2 и H.264):</translation>
-    </message>
-    <message>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">Задай приоритет за процеса на mplayer, според зададените приоритети от Прозорци. &lt;br&gt;&lt;b&gt;Внимание:&lt;/b&gt; Използването на реално време, може да предизвика забиване на системата.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
@@ -8165,10 +8148,6 @@ Example: extrastereo,karaoke</source>
         <translation>Опитай да засечеш за този език</translation>
     </message>
     <message>
-        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="obsolete">Когато тази опция е активна, ще бъде направен опит за засичане на кодировката за избрания език. Ако засичането е неуспешно, ще бъде заредена стандартната кодировка. Това изисква MPlayer, компилиран с поддръжка на ENCA.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
         <translation>Език на субтитрите</translation>
@@ -8207,10 +8186,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Тази опция активира ASS библиотека, която позволява да се изобразяват субтитри с няколко цвята, шрифта...</translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">Обикновено не е нужно да деактивирате тази опция. Направете го само, ако вашият MPlayer е компилиран без поддържака на freetype. &lt;b&gt;Деактивирането на тази опция може да попречи на работата на тези субтитри!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8468,12 +8443,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Когато тази опция е активна, ще бъде направен опит за автоматично засичане на кодировката на субтитрите за избраният език. Ще се върне към стандартната кодировка, ако автоматичното засичане се провали. Тази опция изисква %1 с поддръжка на ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Обикновено не би трябвало да деактивирате тази опция. Направете го само ако вашият %1 е компилиран без поддръжка на freetype. &lt;b&gt;Деактивирането на тази опция изцяло би провалило извеждането на субтитрите!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8859,19 +8834,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минути</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минути</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

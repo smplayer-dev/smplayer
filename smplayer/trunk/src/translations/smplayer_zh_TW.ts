@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="zh_TW">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_TW" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -31,7 +29,7 @@
     <message>
         <location filename="../about.cpp" line="160"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>點擊這裡以從 transifex 團隊得知翻譯者</translation>
+        <translation>請點擊這裡來認識我們在 transifex 的翻譯團隊</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="156"/>
@@ -46,7 +44,7 @@
     <message>
         <location filename="../about.cpp" line="158"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation>訪問 %1，並加入翻譯團隊。</translation>
+        <translation>歡迎參觀 %1，並加入我們的翻譯團隊。</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="46"/>
@@ -1254,7 +1252,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4848"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation>不幸的是，必須的 OpenSSL 組件並未在您的系統上提供。</translation>
+        <translation>很可惜，您的系統缺少必要的 OpenSSL 元件</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4849"/>
@@ -1269,7 +1267,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4860"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation>抱歉因 Youtube 頁面的變化，這個影片不能播放。</translation>
+        <translation>因 Youtube 頁面的變更，這個影片不能播放。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4867"/>
@@ -1316,7 +1314,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4863"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>不幸的是，由於 YouTube 網頁的變化，影片&apos;%1&apos;無法播放。</translation>
+        <translation>很可惜，由於 YouTube 網頁的變更，無法播放 &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4869"/>
@@ -1326,7 +1324,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4877"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation>也許 SMPlayer 的更新可以解決這個問題。</translation>
+        <translation>也許更新 SMPlayer 可以解決這個問題。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2116"/>
@@ -1599,7 +1597,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4763"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>您系統上安裝的 MPlayer (%1) 版本已經過時了。使用它，SMPlayer 不能很好地運作：一些選項將無法正常​​工作，字幕選擇可能會失敗...</translation>
+        <translation>您系統上的 MPlayer (%1) 過於老舊，無法和 SMPlayer 搭配，因此有些選項無法正常運作，字幕選擇可能會失敗......</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4768"/>
@@ -1933,7 +1931,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
         <source>The Youtube code has been updated successfully.</source>
-        <translation>YouTube 的程式碼已被更新成功。</translation>
+        <translation>YouTube 的程式碼已更新成功。</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="127"/>
@@ -2678,9 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>已擷取出 %n 字幕擋</numerusform>
-        </translation>
+        <translation><numerusform>已擷取出 %n 字幕擋</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2778,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>無法將下載好的檔案儲存
@@ -3089,7 +3085,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation>請選擇正確的版本(&amp;s):</translation>
+        <translation>請選擇正確的版本(&amp;S)：</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
@@ -4618,7 +4614,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="557"/>
         <source>Log SMPlayer output</source>
-        <translation>日誌 SMPlayer 的輸出</translation>
+        <translation>記錄 SMPlayer 的輸出</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="679"/>
@@ -4689,7 +4685,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.ui" line="618"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>日誌 &amp;SMPlayer 的輸出</translation>
+        <translation>記錄 &amp;SMPlayer 的輸出</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="689"/>
@@ -4729,7 +4725,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation>限制：只有在開啟檔案才會執行動作，且不會在 %1 行程重新啟動時執行（例如：您選取了一個音訊或視訊過濾器）。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4774,7 +4770,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation>使用 IPv4 網路連接。必要時，自動轉進到 IPv6 。</translation>
+        <translation>使用 IPv4 網路連接，必要時自動切換至 IPv6。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="551"/>
@@ -4784,7 +4780,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation>使用 IPv6 網路連接。必要時，自動退回到 IPv4 。</translation>
+        <translation>使用 IPv6 網路連接，必要時自動切換至 IPv4。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="498"/>
@@ -4819,17 +4815,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>如果勾選此選項，SMPlayer 將儲存 SMPlayer 的除錯訊息 ( 這些訊息可以從 &lt;b&gt;選項 -&gt; 閱讀日誌 -&gt; SMPlayer&lt;/b&gt; 讀取 )。這些資料可以幫助開發者診斷您發現的錯誤。</translation>
+        <translation>若勾選此項，SMPlayer 將會儲存除錯訊息。這些資料可以幫助開發者診斷您發現的錯誤。 ( 您可以從 &lt;b&gt;選項 -&gt; 閱讀日誌 -&gt; SMPlayer&lt;/b&gt; 讀取這些記錄 )</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>Log %1 output</source>
-        <translation>日誌 %1 的輸出</translation>
+        <translation>記錄 %1 的輸出</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="571"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>如果勾選此選項，SMPlayer 將會儲存 %1 的輸出 (您可以看到它在 &lt;b&gt;選項 - &gt;檢視日誌 - &gt; %1&lt;/b&gt;)。在發生問題時，這個日誌能夠包含重要資訊，所以建議保持勾選此選項。</translation>
+        <translation>若勾選此項，SMPlayer 將會儲存 %1 的輸出訊息。發生問題時，這個日誌可能包含重要的除錯資訊，所以建議保持勾選此項。(您可以在 &lt;b&gt;選項 - &gt;檢視日誌 - &gt; %1&lt;/b&gt; 讀取這些記錄)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="576"/>
@@ -4895,7 +4891,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation>日誌 %1 的輸出 (&amp;O)</translation>
+        <translation>記錄 %1 的輸出 (&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -4961,10 +4957,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
         <translation>您可以在這裡指定每當一個檔案開啟時所要執行的 &lt;i&gt;動作&lt;/i&gt;。您可以在 &lt;b&gt;鍵盤和滑鼠&lt;/b&gt; 中的快捷鍵編輯器找到所有可用的動作。這些動作必須以空格分開。可勾選的動作會跟隨著 &lt;i&gt;true&lt;/i&gt; 或 &lt;i&gt;false&lt;/i&gt; 以啟用或停用動作。</translation>
-    </message>
-    <message>
-        <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="obsolete">限制：只有在開啟檔案才會執行動作，且不會在 mplayer 行程重新啟動時執行（例如：您選取了一個音訊或視訊過濾器）。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
@@ -5203,7 +5195,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation>如果這個選項被勾選，SMPlayer 會使用 dvdnav 播放 DVD。需要最新版本，具有 dvdnav 支援的 MPlayer。</translation>
+        <translation>若勾選此項，SMPlayer 會使用 dvdnav 播放 DVD。此功能需要支援 dvdnav 的新版 MPlayer。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5419,7 +5411,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation>如果這個選項被勾選，所有媒體檔案將共享音訊等化器。</translation>
+        <translation>若勾選此項，所有媒體檔案將共享音訊等化器。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1108"/>
@@ -5429,7 +5421,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>請求播放頻道的數目。%1 會告訴解碼器將音訊如同指定的解碼到多的頻道。然後將會由解碼器來實現這個要求。這通常只在播放包含了 AC3 音訊的視訊（像是 DVD）時較重要。在這個例子中預設用 liba52 進行解碼，並正確的將音訊降混至請求數目的頻道。&lt;b&gt;注意&lt;/b&gt;：這個選項會被解編碼器（只有 AC3）、過濾器（環繞）及音訊輸出驅動程式（至少有 OSS）所使用。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -5873,7 +5865,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="919"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>通常 SMPlayer 都會記得您播放的每個檔案設定 (音軌選擇，音量，過濾器...)。停用這個選項，如果您不喜歡這個功能。</translation>
+        <translation>通常 SMPlayer 會記得您播放的每個檔案設定 (音軌選擇，音量，過濾器...)。如果您不喜歡的話可以停用這個功能。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="969"/>
@@ -5967,10 +5959,6 @@ Example: extrastereo,karaoke</source>
         <translation>如果勾選，將開啟直接渲染功能 (不被所有解碼器和視訊輸出支援)&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt; 可能引起視控調整功能壞掉！</translation>
     </message>
     <message>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">請求播放頻道的數目。MPlayer 會告訴解碼器將音訊如同指定的解碼到多的頻道。然後將會由解碼器來實現這個要求。這通常只在播放包含了 AC3 音訊的視訊（像是 DVD）時較重要。在這個例子中預設用 liba52 進行解碼，並正確的將音訊降混至請求數目的頻道。&lt;b&gt;注意&lt;/b&gt;：這個選項會被解編碼器（只有 AC3）、過濾器（環繞）及音訊輸出驅動程式（至少有 OSS）所使用。</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="937"/>
         <source>Enable screenshots</source>
         <translation>啟用擷取影像功能</translation>
@@ -6008,7 +5996,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1131"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation>如果這個選項被勾選，所有您播放的檔案將使用相同的音量。若未勾選，每個檔案都將使用各自的音量。</translation>
+        <translation>若勾選此項，所有您播放的檔案將使用相同的音量。若未勾選，每個檔案都將使用各自的音量。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1134"/>
@@ -7527,7 +7515,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation>正在解碼</translation>
+        <translation>解碼</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
@@ -7712,7 +7700,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>設定 %1 的行程優先程度到 Windows 下提供的預定義屬性。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt; 使用即時優先程度可能會導致系統鎖定。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7732,12 +7720,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>None: only software decoding will be used.</source>
-        <translation>無：軟體解碼將會被使用。</translation>
+        <translation>無：僅使用軟體解碼。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation>自動：它將會使用第一種提供的方法自動啟用硬體解碼。</translation>
+        <translation>自動：試圖透過第一種可用的方式來啟動硬體解碼。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
@@ -7792,11 +7780,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">需要開啟 CoreAVC 支援的 MPlayer 構建。</translation>
+        <translation>需要開啟 CoreAVC 支援的 %1 構建。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7847,10 +7831,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>解碼的執行緒數量 (僅 MPEG-1/2 和 H.264)(&amp;T)：</translation>
-    </message>
-    <message>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">設定 mplayer 的行程優先程度到 Windows 下提供的預定義屬性。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt; 使用即時優先程度可能會導致系統鎖定。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
@@ -8155,7 +8135,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="389"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>如果有一個或多個字幕軌可用，其中一個將被自動選用，通常是第一個，但如果他們中的一個和使用者偏好的語言相匹配，則那一個會被使用。</translation>
+        <translation>如果有多個字幕軌可供使用，SMPlayer 將會自動套用，通常是第一個。如果有字幕軌符合使用者偏好的語言，則 SMPlayer 會優先使用該字幕軌。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="395"/>
@@ -8166,10 +8146,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Try to autodetect for this language</source>
         <translation>嘗試自動檢測到這個語言</translation>
-    </message>
-    <message>
-        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="obsolete">當此選項開啟時，字幕編碼將會嘗試根據給定的語言進行自動檢測。如果自動檢測失敗，它會退回到預設的編碼方式。此選項需要 MPlayer 編譯為 包含 ENCA 支援。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
@@ -8210,10 +8186,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>這個選項會啟用 ASS 函式庫，其可讓字幕顯示包含多重色彩、字體等...</translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">您通常不應該停用此選項。停用它，只有在您的 MPlayer 被編譯為不含 freetype 支援的情況下。 &lt;b&gt;停用此選項可能使字幕完全無法運作！ &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8471,12 +8443,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>當此選項開啟時，字幕編碼將會嘗試根據給定的語言進行自動檢測。如果自動檢測失敗，它會退回到預設的編碼方式。此選項需要 %1 編譯為 包含 ENCA 支援。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>您通常不應該停用此選項。停用它，只有在您的 %1 被編譯為不含 freetype 支援的情況下。 &lt;b&gt;停用此選項可能使字幕完全無法運作！ &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8862,17 +8834,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8979,7 +8947,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation>您可以透過贊助金錢或與您的朋友分享 SMPlayer 這個軟體來支持它。</translation>
+        <translation>您可以透過贊助或分享來支持 SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -9813,7 +9781,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>在這裡輸入 DVD 裝置或DVD 映像檔。</translation>
+        <translation>在這裡輸入 DVD 裝置或 DVD 映像檔。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
