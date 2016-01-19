@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -139,7 +137,7 @@
     <message>
         <location filename="../about.cpp" line="118"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Багато людей внесли свій вклад своїми латками.  Перегляньте Changelog для подробиць.</translation>
+        <translation>Багато людей внесли свій вклад своїми патчами.  Перегляньте Changelog для подробиць.</translation>
     </message>
 </context>
 <context>
@@ -817,7 +815,7 @@ Do you want to overwrite?</source>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Пристрої CD/DVD ще не налаштовані.
-Ви зможете зробити це у діялозі налаштувань цих пристроїв.</translation>
+Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4241"/>
@@ -2365,7 +2363,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>&amp;Додати поточне медія</translation>
+        <translation>&amp;Додати поточне медіа</translation>
     </message>
 </context>
 <context>
@@ -2678,11 +2676,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2780,7 +2774,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -2810,7 +2804,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation>Ініціялізація SMPlayer</translation>
+        <translation>Ініціалізація SMPlayer</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
@@ -4173,7 +4167,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation>Таїтіянська</translation>
+        <translation>Таїтянська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
@@ -4282,7 +4276,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Медіяпанель</translation>
+        <translation>Медіапанель</translation>
     </message>
 </context>
 <context>
@@ -4731,7 +4725,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4965,10 +4959,6 @@ Example: extrastereo,karaoke</source>
         <translation>Тут ви можете визначити перелік &lt;i&gt;дій&lt;/i&gt;, які будуть виконані кожного разу як буде відкритий файл. Ви знайдете усі наявні дії в редакторі комбінацій клавіш у розділі &lt;b&gt;Клавіатура та миша&lt;/b&gt;. Дії мають бути розділені пробілами. За вибірковими діями можуть слідувати &lt;i&gt;true&lt;/i&gt; або &lt;i&gt;false&lt;/i&gt;, щоб увімкнути або вимкнути дію.</translation>
     </message>
     <message>
-        <source>Limitation: the actions are run only when a file is opened and not when the mplayer process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="obsolete">Обмеження: дії виконуються лише коли файл буде відкритий та не тоді, коли процес mplayer перезапущено (наприклад ви виберете відео чи аудіофільтр).</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Options for %1</source>
         <translation>Опції для %1</translation>
@@ -5106,7 +5096,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation>Відновлення асоціяцій не працює у Windows Vista.</translation>
+        <translation>Відновлення асоціацій не працює у Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5116,7 +5106,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Файли медія, які оброблюються SMPlayer:</translation>
+        <translation>Файли медіа, які оброблюються SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -5131,7 +5121,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.cpp" line="231"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Відзначте розширення файлів медія, які ви бажаєте оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медія, асоціація файлів буде відновлена.</translation>
+        <translation>Відзначте розширення файлів медіа, які ви бажаєте оброблювати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медіа, асоціація файлів буде відновлена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="227"/>
@@ -5249,7 +5239,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="53"/>
         <source>Media settings</source>
-        <translation>Налаштування медія</translation>
+        <translation>Налаштування медіа</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1045"/>
@@ -5431,7 +5421,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -5686,7 +5676,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="157"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медія з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медія, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медіа, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="788"/>
@@ -5969,10 +5959,6 @@ Example: extrastereo,karaoke</source>
         <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не усіма кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
-        <source>Requests the number of playback channels. MPlayer asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="obsolete">Вказує кількість каналів для відтворення. MPlayer вказує декодеру декодувати звук на вказану кількість каналів. Це виконує сам декодер. Це, як правило, актуально лише для відтворення відео із звуком AC3 (як DVD). У цьому випадку liba52 декодує типово та правильно змішує звук в необхідну кількість каналів. &lt;b&gt;Нотатка:&lt;/b&gt; Ця опція лише для кодеку (тільки AC3), фільтрів (розширення оточення) та драйверів виведення звуку (принаймні OSS).</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="937"/>
         <source>Enable screenshots</source>
         <translation>Увімкнути знятки екрану</translation>
@@ -6236,7 +6222,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.cpp" line="314"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавіш&lt;/b&gt; для уведення в діялозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібну комбінацію клавіш (нажаль, не працює для усіх клавіш), або просто написати повну назву клавіш.</translation>
+        <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавіш&lt;/b&gt; для введення в діалозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібну комбінацію клавіш (на жаль, не працює для всіх клавіш), або просто написати повну назву клавіш.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="326"/>
@@ -6568,7 +6554,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefinput.ui" line="395"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>Media &amp;seeking</source>
-        <translation>&amp;Здійснення переходу по медія</translation>
+        <translation>&amp;Здійснення переходу по медіа</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="409"/>
@@ -6872,7 +6858,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="658"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation>Головне вікно може змінювати розмір автоматично. Виберіть бажаний варіянт.</translation>
+        <translation>Головне вікно може змінювати розмір автоматично. Виберіть бажаний варіант.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="668"/>
@@ -7114,7 +7100,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Вкажіть максимальну кількість адрес, яку буде пам&apos;ятати діялог &lt;b&gt;Відкрити URL-адресу&lt;/b&gt;. Або вкажіть 0 щоб не зберігалось.</translation>
+        <translation>Вкажіть максимальну кількість адрес, яку буде пам&apos;ятати діалог &lt;b&gt;Відкрити URL-адресу&lt;/b&gt;. Або вкажіть 0 щоб не зберігалось.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="804"/>
@@ -7714,7 +7700,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7794,11 +7780,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Requires a MPlayer build with CoreAVC support.</source>
-        <translation type="obsolete">Потрібна збірка MPlayer з підтримкою CoreAVC.</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7849,10 +7831,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
         <translation>&amp;Потоки для декодування (лише для MPEG-1/2 та H.264):</translation>
-    </message>
-    <message>
-        <source>Set process priority for mplayer according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="obsolete">Вкажіть пріоритет для процесу mplayer, що доступний для Windows.&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Використання пріоритету реального часу може заблокувати систему.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="330"/>
@@ -8170,10 +8148,6 @@ Example: extrastereo,karaoke</source>
         <translation>Спробувати автоматично визначити для цієї мови</translation>
     </message>
     <message>
-        <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a MPlayer compiled with ENCA support.</source>
-        <translation type="obsolete">При увімкненні цієї опції буде здійснено спробу автоматичного визначення кодування для субтитрів для даної мови. При невдалому автовизначенні кодування буде повернуте типове. Ця опція потребує версії MPlayer зібраного з підтримкою ENCA.</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
         <translation>Мова субтитрів</translation>
@@ -8212,10 +8186,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
         <translation>Дана опція активує бібліотеку ASS, що дозволяє використовувати субтитри з різними кольорами, шрифтами...</translation>
-    </message>
-    <message>
-        <source>You should normally not disable this option. Do it only if your MPlayer is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="obsolete">Зазвичай вимкнення цієї опції не потрібне. Вимикайте її лише якщо MPlayer зібраний без підтримки freetype. &lt;b&gt;Вимкнення цієї опції може призвести до непрацездатності субтитрів!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8473,12 +8443,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8792,7 +8762,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>якщо вже працює інший процес, медія будуть додані до переліку відтворення. Якщо не буде ніякого іншого процесу, ця опція нехтується та файли відкриються в новому екземплярі.</translation>
+        <translation>якщо вже працює інший процес, медіа будуть додані до переліку відтворення. Якщо не буде ніякого іншого процесу, ця опція нехтується та файли відкриються в новому екземплярі.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
@@ -8822,7 +8792,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>Відновити старі асоціяції та почистити реєстр.</translation>
+        <translation>Відновити старі асоціації та почистити реєстр.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="104"/>
@@ -8864,21 +8834,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8962,7 +8924,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation>SMPlayer — мій улюблений медіяпрогравач для ПК. Оцініть!</translation>
+        <translation>SMPlayer — мій улюблений медіапрогравач для ПК. Оцініть!</translation>
     </message>
 </context>
 <context>
