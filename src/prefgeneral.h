@@ -36,6 +36,10 @@
 #define MPLAYER_KAI_VERSION 30994
 #endif
 
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
+#define MPLAYER_MPV_SELECTION
+#endif
+
 class PrefGeneral : public PrefWidget, public Ui::PrefGeneral
 {
 	Q_OBJECT
@@ -190,6 +194,9 @@ protected:
 	Preferences::OptionState scaleTempoFilter();
 
 protected slots:
+#ifdef MPLAYER_MPV_SELECTION
+	void player_combo_changed(int);
+#endif
 	void vo_combo_changed(int);
 	void ao_combo_changed(int);
 
