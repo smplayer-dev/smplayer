@@ -30,6 +30,20 @@
 #include "deviceinfo.h"
 #endif
 
+#ifdef MPLAYER_MPV_SELECTION
+ #define PLAYER_COMBO_MPLAYER 0
+ #define PLAYER_COMBO_MPV 1
+ #define PLAYER_COMBO_OTHER 2
+
+ #ifdef Q_OS_WIN
+  #define PLAYER_COMBO_MPLAYER_PATH "mplayer/mplayer.exe"
+  #define PLAYER_COMBO_MPV_PATH "mpv/mpv.exe"
+ #else
+  #define PLAYER_COMBO_MPLAYER_PATH "mplayer"
+  #define PLAYER_COMBO_MPV_PATH "mpv"
+ #endif
+#endif
+
 PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -92,6 +106,13 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	channels_combo->addItem( "7", MediaSettings::ChFull61 );
 	channels_combo->addItem( "8", MediaSettings::ChFull71 );
 
+#ifdef MPLAYER_MPV_SELECTION
+	connect(player_combo, SIGNAL(currentIndexChanged(int)),
+            this, SLOT(player_combo_changed(int)));
+#else
+	player_combo->hide();
+#endif
+
 	connect(vo_combo, SIGNAL(currentIndexChanged(int)),
             this, SLOT(vo_combo_changed(int)));
 	connect(ao_combo, SIGNAL(currentIndexChanged(int)),
@@ -114,6 +135,15 @@ QPixmap PrefGeneral::sectionIcon() {
 
 void PrefGeneral::retranslateStrings() {
 	retranslateUi(this);
+
+#ifdef MPLAYER_MPV_SELECTION
+	int player_item = player_combo->currentIndex();
+	player_combo->clear();
+	player_combo->addItem("mplayer", PLAYER_COMBO_MPLAYER);
+	player_combo->addItem("mpv", PLAYER_COMBO_MPV);
+	player_combo->addItem(tr("Other..."), PLAYER_COMBO_OTHER);
+	player_combo->setCurrentIndex(player_item);
+#endif
 
 	channels_combo->setItemText(0, tr("2 (Stereo)") );
 	channels_combo->setItemText(1, tr("4 (4.0 Surround)") );
@@ -145,7 +175,7 @@ void PrefGeneral::retranslateStrings() {
     volume_icon->setPixmap( Images::icon("speaker") );
 	*/
 
-	mplayerbin_edit->setCaption(tr("Select the mplayer executable"));
+	mplayerbin_edit->setCaption(tr("Select the %1 executable").arg(PLAYER_NAME));
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	mplayerbin_edit->setFilter(tr("Executables") +" (*.exe)");
 #else
@@ -163,7 +193,9 @@ void PrefGeneral::retranslateStrings() {
            "Example: <b>es|esp|spa</b> will select the track if it matches with "
             "<i>es</i>, <i>esp</i> or <i>spa</i>."));
 
+#ifndef MPLAYER_MPV_SELECTION
 	executable_label->setText( tr("%1 &executable:").arg(PLAYER_NAME) );
+#endif
 
 	createHelp();
 }
@@ -472,9 +504,32 @@ void PrefGeneral::updateDriverCombos() {
 
 void PrefGeneral::setMplayerPath( QString path ) {
 	mplayerbin_edit->setText( path );
+
+#ifdef MPLAYER_MPV_SELECTION
+	if (path == PLAYER_COMBO_MPLAYER_PATH) {
+		player_combo->setCurrentIndex(PLAYER_COMBO_MPLAYER);
+	}
+	else
+	if (path == PLAYER_COMBO_MPV_PATH) {
+		player_combo->setCurrentIndex(PLAYER_COMBO_MPV);
+	}
+	else {
+		player_combo->setCurrentIndex(PLAYER_COMBO_OTHER);
+	}
+#endif
 }
 
 QString PrefGeneral::mplayerPath() {
+#ifdef MPLAYER_MPV_SELECTION
+	if (player_combo->currentIndex() == PLAYER_COMBO_MPLAYER) {
+		return PLAYER_COMBO_MPLAYER_PATH;
+	}
+	else
+	if (player_combo->currentIndex() == PLAYER_COMBO_MPV) {
+		return PLAYER_COMBO_MPV_PATH;
+	}
+	else
+#endif
 	return mplayerbin_edit->text();
 }
 
@@ -859,6 +914,19 @@ Preferences::OptionState PrefGeneral::scaleTempoFilter() {
 	return scaletempo_combo->state();
 }
 
+#ifdef MPLAYER_MPV_SELECTION
+void PrefGeneral::player_combo_changed(int idx) {
+	qDebug("PrefGeneral::player_combo_changed: %d", idx);
+	int d = player_combo->itemData(idx).toInt();
+	if (d == PLAYER_COMBO_OTHER) {
+		mplayerbin_edit->setVisible(true);
+		//mplayerbin_edit->setFocus();
+	} else {
+		mplayerbin_edit->setVisible(false);
+	}
+}
+#endif
+
 void PrefGeneral::vo_combo_changed(int idx) {
 	qDebug("PrefGeneral::vo_combo_changed: %d", idx);
 	bool visible = (vo_combo->itemData(idx).toString() == "user_defined");
@@ -908,6 +976,12 @@ void PrefGeneral::createHelp() {
 	clearHelp();
 
 	addSectionTitle(tr("General"));
+
+#ifdef MPLAYER_MPV_SELECTION
+	setWhatsThis(player_combo, tr("Multimedia engine"),
+		tr("Select which multimedia engine you want to use, either MPlayer or mpv.") +" "+
+		tr("The option 'other' allows you to manually select the path of the executable.") );
+#endif
 
 	setWhatsThis(mplayerbin_edit, tr("%1 executable").arg(PLAYER_NAME),
 		tr("Here you must specify the %1 "
