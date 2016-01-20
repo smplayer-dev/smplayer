@@ -874,9 +874,28 @@ bool Playlist::saveXSPF(const QString & filename) {
 
 		for ( int n=0; n < pl.count(); n++ ) {
 			QString location = pl[n].filename();
-			if (!location.startsWith("file:") && QFile::exists(location)) location = "file://" + location;
+			qDebug() << "Playlist::saveXSPF:" << location;
+	
+			bool is_local = QFile::exists(location);
+			
+			#ifdef Q_OS_WIN
+			if (is_local) {
+				location.replace("\\", "/");
+			}
+			#endif
+			//qDebug() << "Playlist::saveXSPF:" << location;
+			
 			QUrl url(location);
 			location = url.toEncoded();
+			//qDebug() << "Playlist::saveXSPF:" << location;
+			
+			if (!location.startsWith("file:") && is_local) {
+				#ifdef Q_OS_WIN
+				location = "file:///" + location;
+				#else
+				location = "file://" + location;
+				#endif
+			}
 
 			QString title = pl[n].name();
 			int duration = pl[n].duration() * 1000;
