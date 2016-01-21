@@ -111,6 +111,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
             this, SLOT(player_combo_changed(int)));
 #else
 	player_combo->hide();
+	player_spacer->changeSize(0, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
 #endif
 
 	connect(vo_combo, SIGNAL(currentIndexChanged(int)),
