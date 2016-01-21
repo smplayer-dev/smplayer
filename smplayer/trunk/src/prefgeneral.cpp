@@ -919,9 +919,11 @@ void PrefGeneral::player_combo_changed(int idx) {
 	qDebug("PrefGeneral::player_combo_changed: %d", idx);
 	int d = player_combo->itemData(idx).toInt();
 	if (d == PLAYER_COMBO_OTHER) {
+		player_spacer->changeSize(0, 20, QSizePolicy::Fixed, QSizePolicy::Minimum);
 		mplayerbin_edit->setVisible(true);
 		//mplayerbin_edit->setFocus();
 	} else {
+		player_spacer->changeSize(40, 20, QSizePolicy::Expanding, QSizePolicy::Minimum);
 		mplayerbin_edit->setVisible(false);
 	}
 }

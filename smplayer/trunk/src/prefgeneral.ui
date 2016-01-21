@@ -55,6 +55,19 @@
          <item>
           <widget class="FileChooser" name="mplayerbin_edit"/>
          </item>
+         <item>
+          <spacer name="player_spacer">
+           <property name="orientation">
+            <enum>Qt::Horizontal</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>40</width>
+             <height>20</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
         </layout>
        </item>
        <item>
