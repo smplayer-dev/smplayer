@@ -188,7 +188,7 @@
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>檔案 %1 己存在。
-是否覆寫?</translation>
+是否覆寫？</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="505"/>
