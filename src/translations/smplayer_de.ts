@@ -4726,7 +4726,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation>Einschränkung: Die Aktionen starten nur, wenn eine Datei geöffnet wird, nicht wenn der %1 neu gestartet wird (z. B. durch Auswahl des Ton- oder Videofilters).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4942,7 +4942,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"/>
+        <translation>Diese Option könnte notwendig sein, um Wiedergabelisten-Dateien abzuspielen (m3u, pls...). Allerdings könnte es ein Sicherheitsrisiko darstellen wenn Internetquellen abgespielt werden, aufgrund der Art auf die MPlayer Wiedergabelisten-Dateien parst und nutzt ist es nicht sicher vor bösartig erstellten Dateien.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5422,7 +5422,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"/>
+        <translation>Anfrage der Anzahl von Playback Kanälen. %1 fragt den Dekoder, den Ton in die angebene Anzahl der Kanäle zu dekodieren. Anschließend ist es die Aufgabe des Dekoders die Bedingungen zu erfüllen. Das ist normalerweise nur bei der Wiedergabe von Videos mit AC3-Ton (wie z. B. bei DVDs) wichtig. In diesem Fall erledigt liba52 standardmäßig das Dekodieren und sorgt für den korrekten Downmix des Tons, in die Anzahl der angeforderten Kanäle. &lt;b&gt;Hinweis&lt;/b&gt;: Diese Option hängt ab von Codecs (Nur AC3), Filtern (Surround), und Audio-Ausgabetreibern (mindestens OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -6930,7 +6930,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation>Wenn nach einer automatischen Wiederherstellung das Hauptfenster außerhalb des Bildschirms gerät, wird diese Option das Fenster zentrieren um dies zu verhindern.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7702,7 +7702,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation>Legt die Prozessorpriorität für %1 fest, gemäß den unter Windows vordefinierten Prioritäten.&lt;br&gt;&lt;b&gt;Warnung:&lt;/b&gt;Das Verwenden von Echtzeit als Priorität kann das System blockieren.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -8445,12 +8445,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation>Wenn diese Option aktiviert ist, wird versucht die Kodierung der Untertitel automatisch zu erkennen. Sollte dieses nicht gelingen, wird die Standarduntertitelkodierung verwendet. Diese Option erfordert %1 mit eingebauter ENCA-Unterstützung.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Normalerweise sollten Sie diese Option nicht deaktivieren. Machen Sie es nur, wenn Ihr %1 ohne freetype-Unterstützung kompiliert ist. &lt;b&gt;Durch das Deaktivieren dieser Option könnten Untertitel überhaupt nicht mehr funktionieren!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>

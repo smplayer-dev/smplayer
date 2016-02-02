@@ -985,7 +985,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1711"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"/>
+        <translation>Start/stop optagelse af stream</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1714"/>
@@ -1005,12 +1005,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1776"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"/>
+        <translation>Søg til næste undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1777"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"/>
+        <translation>Søg til forrige undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1779"/>
@@ -1202,7 +1202,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2056"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Primært spor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2063"/>
@@ -1217,27 +1217,27 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2084"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bogmærker</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2094"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tilføj nyt bogmærke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rediger bogmærker</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2096"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Forrige bogmærke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2097"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Næste bogmærke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4846"/>
@@ -1893,27 +1893,27 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>Rediger bogmærker</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Nyt bogmærke</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Slet bogmærke</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"/>
+        <translation>Tid</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished"/>
+        <translation>Navn</translation>
     </message>
 </context>
 <context>
@@ -2076,7 +2076,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../core.cpp" line="4237"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"/>
+        <translation>Skærmbillede gemt som %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4268"/>
@@ -2211,7 +2211,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"/>
+        <translation>Ups, noget gik galt</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2608,7 +2608,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tilføj sprogkode i slutningen af undertekstens filnavn</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -3029,17 +3029,17 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Tilføj nyt bogmærke</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tid:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Navn (valgfrit):</translation>
     </message>
 </context>
 <context>
@@ -4725,7 +4725,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation>Begrænsning: handlingerne køres kun når en fil er åben og ikke når processen %1 genstartes (f.eks. når du vælger et lyd- eller videofilter).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4901,7 +4901,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Videregiv indstillingen %1 til MPlayer (sikkerhedsrisiko)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4936,7 +4936,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation>Videregiv indstillingen %1 til MPlayer (sikkerhedsrisiko)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
@@ -5195,7 +5195,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation>Hvis indstillingen er slået til, afspiller SMPlayer DVD&apos;er med dvdnavn. Kræver en MPlayer-version med dvdnav-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5325,12 +5325,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"/>
+        <translation>Format til skærmbilleder</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="961"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Denne indstilling giver mulighed for at vælge billedfiltypen til at gemme skærmbilleder.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="979"/>
@@ -5426,7 +5426,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"/>
+        <translation>Tillader ændring af afspilningshastigheden uden at ændre tonehøjde.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1136"/>
@@ -5476,7 +5476,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="207"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Format:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="275"/>
@@ -6743,12 +6743,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Forhindre at vindue kommer udenfor skærmen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"/>
+        <translation>Centrér &amp;vindue</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -6923,7 +6923,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="661"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>Forhindre at vindue kommer udenfor skærmen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
@@ -6933,12 +6933,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
         <source>Center window</source>
-        <translation type="unfinished"/>
+        <translation>Centrér vindue</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="666"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"/>
+        <translation>Når denne indstillinger er aktiveret, centreres hovedvinduet på skrivebordet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="675"/>
@@ -7775,12 +7775,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"/>
+        <translation>Prøv at brug det ikke-frie CoreAVC-codec når intet andet codec er angivet og en ikke-VDPAU video-output er valgt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation>Kræver en %1 build med CoreAVC-understøttelse.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>

@@ -4725,7 +4725,7 @@ Příklad: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation>Omezení: akce jsou spuštěny pouze při otevření souboru, ne když je %1 proces restartován (např. při výběru zvukového a video filtru).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

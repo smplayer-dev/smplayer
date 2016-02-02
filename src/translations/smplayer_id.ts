@@ -4264,7 +4264,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation>Kocok daftar-putar</translation>
+        <translation>Karau daftar-putar</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
@@ -5176,7 +5176,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation>SMPlayer tidak memilih perangkat CDROM atau DVD apapun secara baku. Jadi sebelum Anda memutar sebuah CD atau DVD Anda memilih perangkat yang akan Anda gunakan (kedua perangkat mungkin saja sama).</translation>
+        <translation>SMPlayer tidak memilih perangkat CDROM atau DVD apapun secara baku. Jadi sebelum Anda memutar sebuah CD atau DVD pilihlah perangkat yang akan Anda gunakan (kedua perangkat mungkin saja sama).</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
