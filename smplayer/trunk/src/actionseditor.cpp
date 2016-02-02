@@ -36,6 +36,7 @@
 #include <QRegExp>
 #include <QApplication>
 #include <QAction>
+#include <QDebug>
 
 #include "images.h"
 #include "filedialog.h"
@@ -517,36 +518,36 @@ void ActionsEditor::loadActionsTable() {
 }
 
 bool ActionsEditor::loadActionsTable(const QString & filename) {
-	qDebug("ActionsEditor::loadActions: '%s'", filename.toUtf8().data());
+	qDebug() << "ActionsEditor::loadActions:" <<  filename;
 
 	QRegExp rx("^(.*)\\t(.*)");
 	int row;
 
-    QFile f( filename );
-    if ( f.open( QIODevice::ReadOnly ) ) {
+	QFile f( filename );
+	if ( f.open( QIODevice::ReadOnly ) ) {
 
 #if !USE_SHORTCUTGETTER
 		dont_validate = true;
 #endif
 
-        QTextStream stream( &f );
+		QTextStream stream( &f );
 		stream.setCodec("UTF-8");
 
-        QString line;
-        while ( !stream.atEnd() ) {
-            line = stream.readLine();
-			qDebug("line: '%s'", line.toUtf8().data());
+		QString line;
+		while ( !stream.atEnd() ) {
+			line = stream.readLine();
+			qDebug() << "ActionsEditor::loadActions: line:" << line;
 			if (rx.indexIn(line) > -1) {
 				QString name = rx.cap(1);
 				QString accelText = rx.cap(2);
-				qDebug(" name: '%s' accel: '%s'", name.toUtf8().data(), accelText.toUtf8().data());
+				qDebug() << "ActionsEditor::loadActions: name:" << name << "accel:" << accelText;
 				row = findActionName(name);
 				if (row > -1) {
-					qDebug("Action found!");
+					qDebug() << "ActionsEditor::loadActions: action found!";
 					actionsTable->item(row, COL_SHORTCUT)->setText(accelText);
-				}				
+				}
 			} else {
-				qDebug(" wrong line");
+				qDebug() << "ActionsEditor::loadActions: error in line";
 			}
 		}
 		f.close();
