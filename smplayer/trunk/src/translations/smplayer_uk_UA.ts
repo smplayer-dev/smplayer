@@ -4725,7 +4725,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation>Обмеження: дії запускаються тільки при відкритті файла, але не при перезапуску процесу %1 (наприклад, при виборі аудіо чи відео фільтра).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -5421,7 +5421,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"/>
+        <translation>Запит кількості каналів відтворення. %1 просить декодер декодувати звук у вказану кількість каналів. Виконання завдання покладається на декодер. Зазвичай це необхідно лише при відтворенні відео з AC3 звуком (наприклад DVD). У цьому випадку liba52 здійснює декодування як зазвичай і коректно зводить аудіо в необхідну кількість каналів. &lt;b&gt;ПРИМІТКА&lt;/b&gt;: Ця опція враховується кодеками (AC3), фільтрами (об&apos;єм) та драйверами виведення звуку (принаймні OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -7700,7 +7700,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation>Вказує пріоритет процесу %1 відповідно до зумовлених пріоритетів, доступних для Windows.&lt;br&gt;&lt;b&gt;Увага:&lt;/b&gt; Використання пріоритету реального часу може помітно сповільнити роботу системи.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7780,7 +7780,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation>Необхідна збірка %1 з підтримкою CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -8443,12 +8443,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо опція активована, буде здійснена спроба автоматично визначити кодування для вказаної мови. При помилці буде використано кодування за замовчанням. Опція потребує %1, зкомпільованого з підтримкою ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Зазвичай вимкнення цієї опції не потрібне. Вимикайте її лише якщо %1 зібрано без підтримки freetype. &lt;b&gt;Вимкнення цієї опції може призвести до непрацездатності субтитрів!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>

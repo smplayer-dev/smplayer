@@ -1141,7 +1141,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>Blur/S&amp;harp</source>
-        <translation>模糊/尖銳(&amp;H)</translation>
+        <translation>模糊 / 尖銳(&amp;H)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2005"/>
@@ -2016,7 +2016,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4259"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>更新字型快取。這可能需要幾秒鐘時間...</translation>
+        <translation>正在更新字型快取，可能需要幾秒鐘時間......</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3214"/>
@@ -2237,7 +2237,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.ui" line="43"/>
         <source>Oops, something wrong happened</source>
-        <translation>哎呀，某件事發生了錯誤</translation>
+        <translation>哎呀，出了一點差錯</translation>
     </message>
     <message>
         <location filename="../errordialog.ui" line="62"/>
@@ -2753,17 +2753,17 @@ Example: extrastereo,karaoke</source>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="527"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="674"/>
         <source>Subtitle saved as %1</source>
-        <translation>字幕已儲存于 %1</translation>
+        <translation>字幕已儲存於 %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="711"/>
         <source>Overwrite?</source>
-        <translation>是否覆寫?</translation>
+        <translation>是否覆寫？</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="712"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation>檔案 %1 己存在。是否覆寫?</translation>
+        <translation>檔案 %1 己存在。是否覆寫？</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="522"/>
@@ -4207,7 +4207,7 @@ Please check the permissions of that folder.</source>
         <source>The file already exists.
 Do you want to overwrite?</source>
         <translation>檔案己存在。
-是否覆寫?</translation>
+是否覆寫？</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="125"/>
@@ -4423,7 +4423,7 @@ Do you want to overwrite?</source>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>檔案 %1 己存在。
-是否覆寫?</translation>
+是否覆寫？</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="916"/>
@@ -4585,7 +4585,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="984"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>修改尚未儲存，您想儲存播放清單嗎?</translation>
+        <translation>修改尚未儲存，您想儲存播放清單嗎？</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1154"/>
@@ -4634,7 +4634,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>顯示器外觀(&amp;M):</translation>
+        <translation>顯示器長寬比(&amp;M)：</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
@@ -4644,17 +4644,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="341"/>
         <source>&amp;Options:</source>
-        <translation>選項(&amp;O):</translation>
+        <translation>選項(&amp;O)：</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="401"/>
         <source>V&amp;ideo filters:</source>
-        <translation>視訊過濾器(&amp;I):</translation>
+        <translation>視訊過濾器(&amp;I)：</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="460"/>
         <source>Audio &amp;filters:</source>
-        <translation>音訊過濾器(&amp;F):</translation>
+        <translation>音訊過濾器(&amp;F)：</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="234"/>
@@ -4760,7 +4760,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>重新繪製視訊視窗的背景</translation>
+        <translation>重新繪製視訊視窗的背景(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="548"/>
@@ -4805,12 +4805,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>Rebuild index if needed</source>
-        <translation>如果需要時重建索引</translation>
+        <translation>必要時重建索引</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation>如果需要，重建影片索引</translation>
+        <translation>必要時重建索引(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="558"/>
@@ -4896,7 +4896,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation>自動儲存 %1 的日稚到檔案中 (&amp;U)</translation>
+        <translation>自動儲存 %1 的日誌到檔案中 (&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
@@ -4911,7 +4911,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>選取此選項後，%1 的視訊視窗將不會嵌入於 SMPlayer 的主視窗中，而會有獨立的視窗。請注意：%1 將直接處理滑鼠及鍵盤輸入，換句話說，當焦點在 %1 視窗時，快速鍵跟滑鼠可能不會如預期般運作。</translation>
+        <translation>勾選此項後，%1 會和 SMPlayer 的主視窗分離，擁有獨立的視窗。請注意：這時 %1 會直接處理滑鼠及鍵盤輸入。換句話說，當焦點在 %1 視窗時，快速鍵跟滑鼠可能不會如預期般運作。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
@@ -5185,7 +5185,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation>選擇您的藍光裝置。它將被用來播放藍光光碟。</translation>
+        <translation>選擇您用來播放藍光光碟的裝置。</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
@@ -5259,12 +5259,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="121"/>
         <source>7 (6.1 Surround)</source>
-        <translation>7 (6.1 Surround)</translation>
+        <translation>7 (6.1 環繞音效)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="122"/>
         <source>8 (7.1 Surround)</source>
-        <translation>8 (7.1 Surround)</translation>
+        <translation>8 (7.1 環繞音效)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="150"/>
@@ -5396,7 +5396,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1024"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>如果視訊等化器不被您的顯示卡或選擇的輸出驅動程式支持，您可以勾選此選項。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;這個選項可能和一些影像輸出驅動程式不相容。</translation>
+        <translation>如果您的顯示卡或輸出驅動程式不支援視訊等化器，您可以勾選此項。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;這個選項可能和一些影像輸出驅動程式不相容。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
@@ -5446,7 +5446,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1010"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>動態改變後期處理的程度(依賴於可用的 CPU 空閒時間)。您指定的數字將會是可使用的最高程度。通常，您可以使用較大的數字。</translation>
+        <translation>依照可用的 CPU 空閒時間，動態調整後期處理的程度。您指定的數字是變動程度的上限，通常可以使用較大的數字。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1122"/>
@@ -5456,7 +5456,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="59"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>記住所有檔案設定(音軌、字幕...)(&amp;R)</translation>
+        <translation>記住所有檔案設定 (音軌、字幕...) (&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1141"/>
@@ -5516,7 +5516,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Direct rendering</source>
-        <translation>直接渲染</translation>
+        <translation>直接算繪</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1034"/>
@@ -5526,7 +5526,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="546"/>
         <source>D&amp;irect rendering</source>
-        <translation>直接渲染(&amp;I)</translation>
+        <translation>直接算繪(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="553"/>
@@ -5536,7 +5536,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1035"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>雙重緩衝解決閃爍，藉由兩個畫面儲存在記憶體中，在顯示其一的同時解碼另一畫面。如果啟用，它可能對 OSD 造成負面影響，但常常能去除 OSD 閃爍。</translation>
+        <translation>雙重緩衝是將兩個畫格儲存在記憶體，顯示其中一個畫格並解碼另一個畫格。停用此項可能會對 OSD 造成負面影響，但通常能解決 OSD 閃爍問題。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="395"/>
@@ -5566,12 +5566,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="119"/>
         <source>4 (4.0 Surround)</source>
-        <translation>4 (4.0 環場音效)</translation>
+        <translation>4 (4.0 環繞音效)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="120"/>
         <source>6 (5.1 Surround)</source>
-        <translation>6 (5.1 環場音效)</translation>
+        <translation>6 (5.1 環繞音效)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="752"/>
@@ -5611,7 +5611,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1148"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation>在不失真的形況下將聲音最大化。</translation>
+        <translation>在不失真的情況下將聲音最大化。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1116"/>
@@ -5651,7 +5651,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="1250"/>
         <source>Or choose a track number:</source>
-        <translation>或是選擇一個軌道號碼:</translation>
+        <translation>或是選擇一個軌道號碼：</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1191"/>
@@ -5926,12 +5926,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="929"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation>這個選項允許改變檔案設定被儲存的方式。可以使用以下選項：</translation>
+        <translation>您可以在這裡改變檔案設定的儲存方式，有以下兩種選項：</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation>&lt;b&gt;單個初始化檔案&lt;/b&gt;：所有播放的檔案之設定將被保存在一個單一的初始化檔案 (%1)</translation>
+        <translation>&lt;b&gt;單個初始化檔案&lt;/b&gt;：所有播放過的檔案，其設定都會保存在同一個初始化檔案 (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="935"/>
@@ -5946,7 +5946,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation>&lt;b&gt;多個初始化檔案&lt;/b&gt;：一個初始化檔案將對應於一個播放過的檔案。那些初始化檔案將被保存在資料夾中 %1</translation>
+        <translation>&lt;b&gt;多個初始化檔案&lt;/b&gt;：每個播放過的檔案都有各自的初始化檔案。所有的初始化檔案都會保存在資料夾中 %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
@@ -5956,7 +5956,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation>如果勾選，將開啟直接渲染功能 (不被所有解碼器和視訊輸出支援)&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt; 可能引起視控調整功能壞掉！</translation>
+        <translation>勾選此項將會開啟直接算繪功能，但並非全部的解碼器和視訊輸出都支援。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;可能導致視控調整功能毀損！</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="937"/>
@@ -6011,12 +6011,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Switch screensaver off</source>
-        <translation>切換螢幕保護程式為關閉</translation>
+        <translation>關閉螢幕保護程式</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1060"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation>這個選項「切換螢幕保護程式為關閉」只有在播放一個檔案時是有效的；而在播放結束後則恢復正常。如果啟用這個選項，即使播放「音訊檔」，或是當一個「播放中的檔案」被暫停播放時，螢幕保護程式也不會出現。</translation>
+        <translation>這個選項會在播放影音之前關閉螢幕保護程式，播放結束之後再打開。如果啟用這個選項，即使播放的是純音訊檔，或者暫停播放（非完全停止），螢幕保護程式也不會出現。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1066"/>
@@ -6026,7 +6026,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1067"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation>當勾選這個選項，SMPlayer 將防止在播放視訊檔時顯示螢幕保護程式。如果是在播放音訊檔或暫停模式下，螢幕保護程式則是被允許啟動。這個選項僅僅適用在 「SMPlayer 視窗」是在前景時。</translation>
+        <translation>這個選項會在播放視訊檔時關閉螢幕保護程式。播放純音訊檔案或暫停模式時，螢幕保護程式仍然可以啟動。SMPlayer 視窗必須在前景，此選項才會有效。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="601"/>
@@ -6036,7 +6036,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="607"/>
         <source>Swit&amp;ch screensaver off</source>
-        <translation>切換螢幕保護程式為關閉(&amp;C)</translation>
+        <translation>關閉螢幕保護程式(&amp;C)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="614"/>
@@ -6106,7 +6106,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1113"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation>&lt;b&gt;請注意：&lt;/b&gt; 選擇此選項後，沒有一個音訊過濾器會被啟動。</translation>
+        <translation>&lt;b&gt;請注意：&lt;/b&gt; 勾選此項後，任何音訊過濾器都不會啟動。</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="390"/>
@@ -7555,12 +7555,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="286"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation>大量幀被跳過(解碼錯誤)。將導致畫面變形!</translation>
+        <translation>丟棄更多畫面 (中斷解碼)。將導致畫面失真！</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
         <source>Priorit&amp;y:</source>
-        <translation>優先順序(&amp;y):</translation>
+        <translation>優先順序(&amp;y)：</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="131"/>
@@ -7755,7 +7755,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="322"/>
         <source>Possible values:</source>
-        <translation>可能值:</translation>
+        <translation>可能值：</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
@@ -8626,12 +8626,14 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation>如果這個選項被啟用，SMPlayer 將會在 ~/.mplayer/channels.conf.ter 或是 ~/.mplayer/channels.conf 中找尋新的電視及廣播頻道。</translation>
+        <translation>若勾選此項，SMPlayer 將會在下列兩個檔案尋找新的電視及廣播頻道：
+~/.mplayer/channels.conf.ter
+~/.mplayer/channels.conf </translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation>在啟動時，檢查新的頻道(&amp;C)</translation>
+        <translation>啟動時檢查新的頻道(&amp;C)</translation>
     </message>
 </context>
 <context>
@@ -8798,7 +8800,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../clhelp.cpp" line="104"/>
         <location filename="../clhelp.cpp" line="107"/>
         <source>Usage:</source>
-        <translation>用法:</translation>
+        <translation>用法：</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="94"/>
@@ -8975,7 +8977,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>與您的朋友一同捐款／分享 SMPlayer</translation>
+        <translation>贊助 / 和您的朋友分享 SMPlayer</translation>
     </message>
 </context>
 <context>
@@ -9271,7 +9273,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../timedialog.ui" line="54"/>
         <source>&amp;Jump to:</source>
-        <translation>跳轉到(&amp;J):</translation>
+        <translation>跳轉到(&amp;J)：</translation>
     </message>
 </context>
 <context>
