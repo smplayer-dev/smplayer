@@ -5742,8 +5742,11 @@ void BaseGui::showVideoPreviewDialog() {
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
 	QString exec = Paths::appPath() + "/smtube";
-	qDebug("BaseGui::showTubeBrowser: '%s'", exec.toUtf8().constData());
-	if (!QProcess::startDetached(exec, QStringList())) {
+	QStringList args;
+	if (!pref->style.isEmpty()) args << "-style" << pref->style;
+	qDebug() << "BaseGui::showTubeBrowser: exec:" << exec << "args:" << args;
+
+	if (!QProcess::startDetached(exec, args)) {
 		QMessageBox::warning(this, "SMPlayer",
 			tr("The YouTube Browser is not installed.") +"<br>"+ 
 			tr("Visit %1 to get it.").arg("<a href=http://www.smtube.org>http://www.smtube.org</a>"));
