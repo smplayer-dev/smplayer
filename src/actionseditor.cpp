@@ -520,7 +520,6 @@ void ActionsEditor::loadActionsTable() {
 bool ActionsEditor::loadActionsTable(const QString & filename) {
 	qDebug() << "ActionsEditor::loadActions:" <<  filename;
 
-	QRegExp rx("^(.*)\\t(.*)");
 	int row;
 
 	QFile f( filename );
@@ -535,12 +534,20 @@ bool ActionsEditor::loadActionsTable(const QString & filename) {
 
 		QString line;
 		while ( !stream.atEnd() ) {
-			line = stream.readLine();
+			line = stream.readLine().trimmed();
 			qDebug() << "ActionsEditor::loadActions: line:" << line;
-			if (rx.indexIn(line) > -1) {
-				QString name = rx.cap(1);
-				QString accelText = rx.cap(2);
-				qDebug() << "ActionsEditor::loadActions: name:" << name << "accel:" << accelText;
+			QString name;
+			QString accelText;
+			int pos = line.indexOf(QRegExp("\\t|\\s"));
+			//qDebug() << "ActionsEditor::loadActions: pos:" << pos;
+			if (pos == -1) {
+				name = line;
+			} else {
+				name = line.left(pos);
+				accelText = line.mid(pos+1).trimmed();
+			}
+			qDebug() << "ActionsEditor::loadActions: name:" << name << "accel:" << accelText;
+			if (!name.isEmpty()) {
 				row = findActionName(name);
 				if (row > -1) {
 					qDebug() << "ActionsEditor::loadActions: action found!";
