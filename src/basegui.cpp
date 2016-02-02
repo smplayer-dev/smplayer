@@ -4585,12 +4585,10 @@ void BaseGui::aboutToExitFullscreen() {
 	}
 
 	if (pref->stay_on_top == Preferences::WhilePlayingOnTop) {
-		qApp->processEvents();
 		#if QT_VERSION < 0x050000
-		setStayOnTop(core->state() == Core::Playing);
-		#else
-		QTimer::singleShot(100, this, SLOT(updateStayOnTop()));
+		qApp->processEvents();
 		#endif
+		setStayOnTop(core->state() == Core::Playing);
 	}
 }
 
@@ -5397,15 +5395,6 @@ void BaseGui::checkStayOnTop(Core::State state) {
 		setStayOnTop((state == Core::Playing));
 	}
 }
-
-#if QT_VERSION >= 0x050000
-void BaseGui::updateStayOnTop() {
-	qDebug("BaseGui::updateStayOnTop");
-	if (pref->stay_on_top == Preferences::WhilePlayingOnTop) {
-		setStayOnTop(core->state() == Core::Playing);
-	}
-}
-#endif
 
 void BaseGui::toggleStayOnTop() {
 	if (pref->stay_on_top == Preferences::AlwaysOnTop) 
