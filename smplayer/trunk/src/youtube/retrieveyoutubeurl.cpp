@@ -93,21 +93,20 @@ QString RetrieveYoutubeUrl::fullUrl(const QString & url) {
 }
 
 QString RetrieveYoutubeUrl::getVideoID(QString video_url) {
-	if (video_url.contains("youtu.be/")) {
-		video_url.replace("youtu.be/", "youtube.com/watch?v=");
-	}
-	else
-	if (video_url.contains("y2u.be/")) {
-		video_url.replace("y2u.be/", "youtube.com/watch?v=");
-	}
-	else
+	//qDebug() << "RetrieveYoutubeUrl::getVideoID: video_url:" << video_url;
+
 	if (video_url.contains("m.youtube.com")) {
 		video_url.replace("m.youtube.com", "www.youtube.com");
 	}
 
-	if ((video_url.startsWith("youtube.com")) || (video_url.startsWith("www.youtube.com"))) video_url = "http://" + video_url;
+	if (video_url.startsWith("youtube.com") || video_url.startsWith("www.youtube.com") ||
+		video_url.startsWith("youtu.be") || video_url.startsWith("www.youtu.be") || 
+		video_url.startsWith("y2u.be") || video_url.startsWith("www.y2u.be"))
+	{
+		video_url = "http://" + video_url;
+	}
 
-	qDebug() << "RetrieveYoutubeUrl::getVideoID: video_url:" << video_url;
+	//qDebug() << "RetrieveYoutubeUrl::getVideoID: fixed url:" << video_url;
 
 	QUrl url(video_url);
 
@@ -119,6 +118,16 @@ QString RetrieveYoutubeUrl::getVideoID(QString video_url) {
 	const QUrl * q = &url;
 	#endif
 
+	/*
+	qDebug() << "host:" << url.host();
+	qDebug() << "path:" << url.path();
+	*/
+
+	if (url.host() == "youtu.be" || url.host() == "y2u.be") {
+		ID = url.path();
+		if (ID.startsWith("/")) ID = ID.mid(1);
+	}
+	else
 	if ((url.host().contains("youtube")) && (url.path().contains("watch_videos"))) {
 		if (q->hasQueryItem("video_ids")) {
 			int index = 0;
