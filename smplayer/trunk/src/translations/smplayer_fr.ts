@@ -9114,42 +9114,42 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"/>
+        <translation>Côte à côte parallèle (oeil gauche à gauche, oeil droit à droite) </translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"/>
+        <translation>Côte à côte yeux croisés (œil droit à gauche, œil gauche à droite)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"/>
+        <translation>Côte à côte avec résolution demi largeur (œil gauche à gauche, œil droit à droite)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"/>
+        <translation>Côte à côte avec résolution demi largeur (œil droit à gauche, œil gauche à droite)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation>Au dessus-en dessous (oeil gauche au dessus, oeil droit en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation>Au dessus-en dessous (oeil droit au dessus, oeil gauche en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation>Au dessus-en dessous avec résolution demi hauteur (oeil gauche au dessus, oeil droit en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation>Au dessus-en dessous avec résolution demi hauteur (œil droit au dessus, œil gauche en dessous)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
