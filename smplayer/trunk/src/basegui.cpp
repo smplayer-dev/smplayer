@@ -5733,6 +5733,7 @@ void BaseGui::showTubeBrowser() {
 	QString exec = Paths::appPath() + "/smtube";
 	QStringList args;
 	if (!pref->style.isEmpty()) args << "-style" << pref->style;
+	if (!pref->language.isEmpty()) args << "-lang" << pref->language;
 	qDebug() << "BaseGui::showTubeBrowser: exec:" << exec << "args:" << args;
 
 	if (!QProcess::startDetached(exec, args)) {
