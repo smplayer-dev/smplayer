@@ -214,7 +214,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="223"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Rediger genvej...</translation>
+        <translation>&amp;Redigér genvej...</translation>
     </message>
 </context>
 <context>
@@ -975,7 +975,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1676"/>
         <source>Fra&amp;me back step</source>
-        <translation>&amp;Èt billede tilbage</translation>
+        <translation>&amp;Ét billede tilbage</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1695"/>
@@ -1036,7 +1036,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1826"/>
         <source>Update &amp;Youtube code</source>
-        <translation>Opdater &amp;YouTube-kode</translation>
+        <translation>Opdatér &amp;YouTube-kode</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1141,7 +1141,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>Blur/S&amp;harp</source>
-        <translation>&amp;Blød/Skarp</translation>
+        <translation>&amp;Blød/skarp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2005"/>
@@ -1227,7 +1227,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
         <source>&amp;Edit bookmarks</source>
-        <translation>&amp;Rediger bogmærker</translation>
+        <translation>&amp;Redigér bogmærker</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2096"/>
@@ -1440,12 +1440,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Command line options</source>
-        <translation>&amp;Kommandolinje indstillinger</translation>
+        <translation>&amp;Kommandolinjeindstillinger</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4331"/>
         <source>SMPlayer command line options</source>
-        <translation>SMPlayer kommandolinje indstillinger</translation>
+        <translation>SMPlayer kommandolinjeindstillinger</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1780"/>
@@ -1602,7 +1602,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4768"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Opdater venligst din MPlayer.</translation>
+        <translation>Opdatér venligst din MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4770"/>
@@ -1893,7 +1893,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation>Rediger bogmærker</translation>
+        <translation>Redigér bogmærker</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
@@ -1908,7 +1908,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation>Tid</translation>
+        <translation>Tidspunkt</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
@@ -2164,7 +2164,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="564"/>
         <source>&amp;Video info</source>
-        <translation>&amp;Video-info</translation>
+        <translation>&amp;Videoinfo</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="565"/>
@@ -2174,22 +2174,22 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="568"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>&amp;Rediger hovedværktøjslinje</translation>
+        <translation>&amp;Redigér hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="569"/>
         <source>Edit &amp;control bar</source>
-        <translation>Rediger &amp;kommando panel</translation>
+        <translation>Redigér &amp;kommandopanel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="570"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Rediger m&amp;ini kontrol panel</translation>
+        <translation>Redigér m&amp;ini kontrolpanel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="571"/>
         <source>Edit &amp;floating control</source>
-        <translation>Rediger &amp;flydende panel</translation>
+        <translation>Redigér &amp;flydende panel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="603"/>
@@ -2343,7 +2343,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation>&amp;Rediger...</translation>
+        <translation>&amp;Redigér...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
@@ -2475,7 +2475,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="77"/>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Annullér</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="78"/>
@@ -2747,7 +2747,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="126"/>
         <source>&amp;Refresh</source>
-        <translation>&amp;Genindlæs/&amp;Opdater</translation>
+        <translation>&amp;Genindlæs/&amp;Opdatér</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="527"/>
@@ -2926,7 +2926,7 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../infofile.cpp" line="112"/>
         <location filename="../infofile.cpp" line="121"/>
         <source>Bitrate</source>
-        <translation>Bitrate</translation>
+        <translation>Bithastighed</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="112"/>
@@ -2953,7 +2953,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="122"/>
         <source>Rate</source>
-        <translation>Rate</translation>
+        <translation>Hastighed</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="122"/>
@@ -3034,7 +3034,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation>&amp;Tid:</translation>
+        <translation>&amp;Tidspunkt:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
@@ -4289,12 +4289,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../minigui.cpp" line="177"/>
         <source>Edit &amp;control bar</source>
-        <translation>Rediger &amp;kommando panel</translation>
+        <translation>Redigér &amp;kommandopanel</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="178"/>
         <source>Edit &amp;floating control</source>
-        <translation>Rediger &amp;flydende kontrol</translation>
+        <translation>Redigér &amp;flydende kontrol</translation>
     </message>
 </context>
 <context>
@@ -4395,7 +4395,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="336"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Rediger</translation>
+        <translation>&amp;Redigér</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="916"/>
@@ -4445,7 +4445,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1427"/>
         <source>Edit name</source>
-        <translation>Rediger navn</translation>
+        <translation>Redigér navn</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1428"/>
@@ -4755,12 +4755,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="479"/>
         <source>Repaint the background of the video window</source>
-        <translation>Gentegn video-vinduets baggrund</translation>
+        <translation>Gentegn videovinduets baggrund</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="133"/>
         <source>Repaint the backgroun&amp;d of the video window</source>
-        <translation>Gentegn video-vinduets baggrun&amp;d</translation>
+        <translation>Gentegn videovinduets baggrun&amp;d</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="548"/>
@@ -4875,7 +4875,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation>&amp;Indstillinger/Valgmuligheder for %1</translation>
+        <translation>&amp;Indstillinger for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -4961,7 +4961,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="532"/>
         <source>Options for %1</source>
-        <translation>Indstillinger/Valgmuligheder for %1</translation>
+        <translation>Indstillinger for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="535"/>
@@ -5106,7 +5106,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Mediefiler håndteret af SMPlayer:</translation>
+        <translation>Mediefiler som håndteres af SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -6793,7 +6793,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>Èt tryk på stop-knappen &amp;nulstiller tidspositionen</translation>
+        <translation>Ét tryk på stop-knappen &amp;nulstiller tidspositionen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
@@ -6878,7 +6878,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="683"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Basic GUI&lt;/b&gt; giver den traditionelle brugerflade, uden værktøjslinjen og kontrollinje.</translation>
+        <translation>&lt;b&gt;Basis GUI&lt;/b&gt; giver den traditionelle brugerflade, uden værktøjslinjen og kontrollinje.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="685"/>
@@ -6913,7 +6913,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="207"/>
         <source>Basic GUI</source>
-        <translation>Basic GUI</translation>
+        <translation>Basis GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="213"/>
@@ -7050,7 +7050,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation>Èt tryk på stop-knappen nulstiller tidspositionen</translation>
+        <translation>Ét tryk på stop-knappen nulstiller tidspositionen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
@@ -7232,17 +7232,17 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="672"/>
         <source>Hide video window when playing audio files</source>
-        <translation>Skjul video-vindue, når der afspilles lydfiler</translation>
+        <translation>Skjul videovindue, når der afspilles lydfiler</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation>Hvis denne indstilling er slået til, vil video-vinduet være skjult, når der afspilles lydfiler.</translation>
+        <translation>Hvis denne indstilling er slået til, vil videovinduet være skjult, når der afspilles lydfiler.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>&amp;Skjul video-vindue, når der afspilles lydfiler</translation>
+        <translation>&amp;Skjul videovindue, når der afspilles lydfiler</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="741"/>
@@ -7685,7 +7685,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Denne indstilling giver mulighed for at skippe loop-filteret (alias: deblocking) under H.264-dekodning. Da det filtrerede billede skal bruges som reference for dekodning af afhængige billeder har dette en værre virkning på kvaliteten end ikke at foretage deblocking på f.eks. MPEG-2-video. Men for HD TV med høj bitrate i det mindste - giver dette en stor hastighedsforøgelse uden synligt kvalitetstab.</translation>
+        <translation>Denne indstilling giver mulighed for at skippe loop-filteret (alias: deblocking) under H.264-dekodning. Da det filtrerede billede skal bruges som reference for dekodning af afhængige billeder har dette en værre virkning på kvaliteten end ikke at foretage deblocking på f.eks. MPEG-2-video. Men for HD TV med høj bithastighed i det mindste - giver dette en stor hastighedsforøgelse uden synligt kvalitetstab.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8708,7 +8708,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="144"/>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Annullér</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="145"/>
@@ -8983,7 +8983,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="267"/>
         <source>Modify shortcut</source>
-        <translation>Rediger genvej</translation>
+        <translation>Redigér genvej</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="310"/>
@@ -9036,7 +9036,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation>Tryk &lt;b&gt;Annuller&lt;/b&gt; for at fortryde nedlukning.</translation>
+        <translation>Tryk &lt;b&gt;Annullér&lt;/b&gt; for at fortryde nedlukning.</translation>
     </message>
 </context>
 <context>
@@ -9059,12 +9059,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>&amp;Rediger hovedværktøjslinje</translation>
+        <translation>&amp;Redigér hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="403"/>
         <source>Edit &amp;floating control</source>
-        <translation>&amp;Rediger flydende kontroller</translation>
+        <translation>&amp;Redigér flydende kontroller</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -9536,7 +9536,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="145"/>
         <source>Cancel</source>
-        <translation>Annuller</translation>
+        <translation>Annullér</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="144"/>
@@ -9667,17 +9667,17 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="435"/>
         <source>Video bitrate: %1</source>
-        <translation>Video-bitrate: %1</translation>
+        <translation>Video-bithastighed: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="436"/>
         <source>Audio bitrate: %1</source>
-        <translation>Lyd-bitrate: %1</translation>
+        <translation>Lyd-bithastighed: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="437"/>
         <source>Audio rate: %1</source>
-        <translation>Lyd-rate: %1</translation>
+        <translation>Lyd-hastighed: %1</translation>
     </message>
 </context>
 <context>
