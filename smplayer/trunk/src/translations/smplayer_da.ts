@@ -6928,7 +6928,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation>Hvis hovedvinduet kommer udenfor skærmen efter en automatisk tilpasning af størrelsen så vil denne indstilling centrere vinduet for at forhindre det.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7700,7 +7700,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation>Indstil processprioritet for %1 i henhold til de i Windows foruddefinerede prioriteter.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Realtidsprioritet kan låse systemet.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -8448,7 +8448,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Du bør normalt ikke deaktivere denne indstilling. Gør det kun hvis din %1 er kompileret uden freetype-understøttelse. &lt;b&gt;Deaktivering af denne indstilling kan gøre at undertekster slet ikke virker!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
