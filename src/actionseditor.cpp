@@ -149,16 +149,18 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 {
 	latest_dir = Paths::shortcutsPath();
 
-    actionsTable = new QTableWidget(0, COL_NAME +1, this);
+	actionsTable = new QTableWidget(0, COL_NAME +1, this);
 	actionsTable->setSelectionMode( QAbstractItemView::SingleSelection );
 	actionsTable->verticalHeader()->hide();
 
 #if QT_VERSION >= 0x050000
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_DESC, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
+	actionsTable->horizontalHeader()->setSectionResizeMode(COL_CONFLICTS, QHeaderView::ResizeToContents);
 #else
 	actionsTable->horizontalHeader()->setResizeMode(COL_DESC, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setResizeMode(COL_NAME, QHeaderView::Stretch);
+	actionsTable->horizontalHeader()->setResizeMode(COL_CONFLICTS, QHeaderView::ResizeToContents);
 #endif
 
 	actionsTable->setAlternatingRowColors(true);
@@ -256,7 +258,7 @@ void ActionsEditor::addActions(QWidget *widget) {
 void ActionsEditor::updateView() {
 	actionsTable->setRowCount( actionsList.count() );
 
-    QAction *action;
+	QAction *action;
 	QString accelText;
 
 #if !USE_SHORTCUTGETTER
@@ -285,6 +287,8 @@ void ActionsEditor::updateView() {
 
 		// Shortcut column
 		QTableWidgetItem * i_shortcut = new QTableWidgetItem(accelText);
+		int column_height = i_shortcut->sizeHint().height();
+		i_shortcut->setSizeHint(QSize(150, column_height));
 
 		// Set flags
 #if !USE_SHORTCUTGETTER
