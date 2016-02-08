@@ -1,0 +1,256 @@
+open_file	Ctrl+F
+open_directory	
+open_playlist	
+open_vcd	
+open_audio_cd	
+open_dvd	
+open_dvd_folder	
+open_bluray	
+open_bluray_folder	
+open_url	Ctrl+U
+close	Ctrl+X
+clear_recents	
+edit_tv_list	
+jump_tv_list	
+next_tv	
+previous_tv	
+edit_radio_list	
+jump_radio_list	
+next_radio	
+previous_radio	
+play	]
+play_or_pause	Space, Media Play, Toggle Media Play/Pause
+pause	[, Media Pause
+pause_and_frame_step	
+stop	S, Media Stop
+frame_step	E
+frame_back_step	,
+rewind1	Shift+Left, Ctrl+Shift+B
+rewind2	Alt+Left, Ctrl+Left
+rewind3	Ctrl+Alt+Left
+forward1	Shift+Right, Ctrl+Shift+F
+forward2	Alt+Right, Ctrl+Right
+forward3	Ctrl+Alt+Right
+set_a_marker	
+set_b_marker	
+clear_ab_markers	
+repeat	L
+jump_to	Ctrl+J
+normal_speed	=, Backspace
+halve_speed	{
+double_speed	}
+dec_speed	-
+inc_speed	+
+dec_speed_4	
+inc_speed_4	
+dec_speed_1	
+inc_speed_1	
+fullscreen	F, Ctrl+T
+compact	Ctrl+H, Ctrl+C
+video_equalizer	Ctrl+E
+screenshot	Shift+S
+multiple_screenshots	
+capture_stream	
+video_preview	
+flip	
+mirror	
+stereo_3d_filter	
+postprocessing	
+autodetect_phase	
+deblock	
+dering	
+gradfun	
+add_noise	
+add_letterbox	
+upscaling	O
+audio_equalizer	
+mute	M, Volume Mute
+decrease_volume	Ctrl+Down, 9, /, Volume Down
+increase_volume	Ctrl+Up, 0, *, Volume Up
+dec_audio_delay	J
+inc_audio_delay	K
+audio_delay	
+load_audio_file	
+unload_audio_file	
+extrastereo_filter	
+karaoke_filter	
+volnorm_filter	
+load_subs	
+unload_subs	
+dec_sub_delay	H
+inc_sub_delay	G
+sub_delay	Shift+K
+dec_sub_pos	
+inc_sub_pos	
+dec_sub_scale	
+inc_sub_scale	
+dec_sub_step	
+inc_sub_step	
+seek_next_sub	
+seek_prev_sub	
+use_custom_sub_style	
+use_forced_subs_only	
+subtitle_visibility	Shift+V
+show_find_sub_dialog	
+upload_subtitles	
+show_playlist	Ctrl+L
+show_file_properties	Ctrl+I
+show_preferences	Ctrl+P
+show_tube_browser	F11
+show_mplayer_log	Ctrl+M
+show_smplayer_log	Ctrl+S
+first_steps	
+faq	
+cl_options	
+check_updates	
+update_youtube	
+show_config	
+donate	
+about_smplayer	
+inc_osd_scale	Shift+U
+dec_osd_scale	Shift+Y
+play_next	N, >, Media Next
+play_prev	P, <, Media Previous
+move_up	
+move_down	
+move_left	
+move_right	
+inc_zoom	Z
+dec_zoom	Shift+Z
+reset_zoom	Shift+3
+auto_zoom	
+zoom_169	
+zoom_235	
+exit_fullscreen	Esc
+next_osd	T
+dec_contrast	1
+inc_contrast	2
+dec_brightness	3
+inc_brightness	4
+dec_hue	
+inc_hue	
+dec_saturation	7
+inc_saturation	8
+dec_gamma	5
+inc_gamma	6
+next_video	
+next_audio	B
+next_subtitle	V
+next_chapter	Shift+P, @
+prev_chapter	Shift+N, !
+toggle_double_size	Ctrl+D
+reset_video_equalizer	
+reset_audio_equalizer	
+show_context_menu	
+next_aspect	A
+next_wheel_function	
+show_filename	Shift+T
+show_time	Alt+T
+toggle_deinterlacing	D
+osd_none	
+osd_seek	
+osd_timer	
+osd_total	
+denoise_none	
+denoise_normal	
+denoise_soft	
+unsharp_off	
+blur	
+sharpen	
+size_50	Ctrl+2, Alt+2
+size_75	
+size_100	Ctrl+3, Alt+3
+size_125	
+size_150	
+size_175	
+size_200	Ctrl+4, Alt+4
+size_300	
+size_400	
+deinterlace_none	
+deinterlace_l5	
+deinterlace_yadif0	
+deinterlace_yadif1	
+deinterlace_lb	
+deinterlace_kern	
+channels_stereo	
+channels_surround	
+channels_ful51	
+channels_ful61	
+channels_ful71	
+stereo	
+left_channel	
+right_channel	
+mono	
+reverse_channels	
+aspect_detect	
+aspect_1:1	
+aspect_5:4	
+aspect_4:3	
+aspect_11:8	
+aspect_14:10	
+aspect_3:2	
+aspect_14:9	
+aspect_16:10	
+aspect_16:9	
+aspect_2.35:1	
+aspect_none	
+rotate_none	
+rotate_clockwise_flip	
+rotate_clockwise	
+rotate_counterclockwise	
+rotate_counterclockwise_flip	
+on_top_always	
+on_top_never	
+on_top_playing	
+toggle_stay_on_top	
+cc_none	
+cc_ch_1	
+cc_ch_2	
+cc_ch_3	
+cc_ch_4	
+sub_fps_none	
+sub_fps_23976	
+sub_fps_24	
+sub_fps_25	
+sub_fps_29970	
+sub_fps_30	
+add_bookmark	Ctrl+F1, Ctrl+F2, Ctrl+F3, Ctrl+F4, Ctrl+F5, Ctrl+F6, Ctrl+F7, Ctrl+F8, Ctrl+F9, Ctrl+F10
+edit_bookmarks	
+prev_bookmark	Ctrl+B
+next_bookmark	Ctrl+N
+dvdnav_up	Up
+dvdnav_down	Down
+dvdnav_left	Left
+dvdnav_right	Right
+dvdnav_menu	Shift+M
+dvdnav_select	Return
+dvdnav_prev	Shift+O
+dvdnav_mouse	
+quit	Ctrl+Q
+show_tray_icon	
+restore/hide	
+pl_open	
+pl_save	
+pl_play	
+pl_next	
+pl_prev	
+pl_move_up	
+pl_move_down	
+pl_repeat	
+pl_shuffle	
+pl_add_current	
+pl_add_files	
+pl_add_directory	
+pl_add_urls	
+pl_remove_selected	
+pl_remove_all	
+pl_edit	
+pl_delete_from_disk	
+toggle_video_info	
+toggle_frame_counter	
+edit_main_toolbar	
+edit_control1	
+edit_control2	
+edit_floating_control	
+show_main_toolbar	
+show_language_toolbar	
