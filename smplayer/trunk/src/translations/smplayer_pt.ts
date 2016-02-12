@@ -6192,7 +6192,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Aqui, pode mudar os atalhos de teclado. Para tal, faça duplo clique ou começe a escrever sobre um atalho. Opcionalmente, pode guardar a lista para a partilhar com outras pessoas ou utilizar noutro computador.</translation>
+        <translation>Aqui, pode mudar os atalhos de teclado. Para tal, clique duas vezes ou começe a escrever sobre um atalho. Opcionalmente, pode guardar a lista para a partilhar com outras pessoas ou utilizar noutro computador.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="158"/>
@@ -8448,7 +8448,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Esta opção não deve ser desativada. Apenas o deve fazer se o %1 tiver sido compilado sem suporte freetype. &lt;b&gt;A desativação pode até implicar a não exibição de legendas!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
