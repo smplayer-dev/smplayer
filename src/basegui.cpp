@@ -2326,8 +2326,12 @@ void BaseGui::createMplayerWindow() {
              this, SLOT(xbutton2ClickFunction()) );
 
 	connect( mplayerwindow, SIGNAL(mouseMovedDiff(QPoint)),
-             this, SLOT(moveWindowDiff(QPoint)), Qt::QueuedConnection );
+             this, SLOT(processMouseMovedDiff(QPoint)), Qt::QueuedConnection );
+#ifdef MOUSE_GESTURES
+	mplayerwindow->activateMouseDragTracking(true);
+#else
 	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
+#endif
 }
 
 void BaseGui::createVideoEqualizer() {
@@ -3074,7 +3078,11 @@ void BaseGui::applyNewPreferences() {
 		#endif
 	}
 
+#ifdef MOUSE_GESTURES
+	mplayerwindow->activateMouseDragTracking(true);
+#else
 	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
+#endif
 	mplayerwindow->delayLeftClick(pref->delay_left_click);
 
 #if ALLOW_TO_HIDE_VIDEO_WINDOW_ON_AUDIO_FILES
@@ -5514,7 +5522,29 @@ void BaseGui::saveActions() {
 #endif
 }
 
+void BaseGui::processMouseMovedDiff(QPoint diff) {
+	//qDebug() << "BaseGui::processMouseMovedDiff" << diff;
+
+#ifdef MOUSE_GESTURES
+	if (!pref->move_when_dragging) {
+		if (diff.x() > 1 && diff.y() > -2 && diff.y() < 2) core->sforward();
+		else
+		if (diff.x() < -1 && diff.y() > -2 && diff.y() < 2) core->srewind();
+		else
+		if (diff.y() < -1) core->incVolume();
+		else
+		if (diff.y() > 1) core->decVolume();
+	}
+#endif
+
+	if (pref->move_when_dragging) {
+		moveWindowDiff(diff);
+	}
+}
+
 void BaseGui::moveWindowDiff(QPoint diff) {
+	//qDebug() << "BaseGui::moveWindowDiff:" << diff;
+
 	if (pref->fullscreen || isMaximized()) {
 		return;
 	}

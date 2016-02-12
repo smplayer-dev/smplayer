@@ -35,6 +35,8 @@
 #endif
 #endif
 
+#define MOUSE_GESTURES
+
 //#define SHARE_MENU
 
 class QWidget;
@@ -290,6 +292,7 @@ protected slots:
 	virtual void loadActions();
 	virtual void saveActions();
 
+	virtual void processMouseMovedDiff(QPoint diff);
 	virtual void moveWindowDiff(QPoint diff);
 
 	// Single instance stuff
