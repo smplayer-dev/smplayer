@@ -5527,13 +5527,22 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 
 #ifdef MOUSE_GESTURES
 	if (!pref->move_when_dragging) {
-		if (diff.x() > 1 && diff.y() > -2 && diff.y() < 2) core->sforward();
-		else
-		if (diff.x() < -1 && diff.y() > -2 && diff.y() < 2) core->srewind();
-		else
-		if (diff.y() < -1) core->incVolume();
-		else
-		if (diff.y() > 1) core->decVolume();
+		int t = 1;
+
+		int h_desp = qAbs(diff.x());
+		int v_desp = qAbs(diff.y());
+
+		if (h_desp > v_desp) {
+			// Horizontal
+			if (diff.x() > t) core->sforward();
+			else
+			if (diff.x() < -t) core->srewind();
+		} else {
+			// Vertical
+			if (diff.y() > t) core->decVolume(1);
+			else
+			if (diff.y() < -t) core->incVolume(1);
+		}
 	}
 #endif
 
