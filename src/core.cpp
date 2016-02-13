@@ -3194,16 +3194,26 @@ void Core::mute(bool b) {
 	updateWidgets();
 }
 
+void Core::incVolume(int step) {
+	//qDebug("Core::incVolume");
+	int vol = pref->global_volume ? pref->volume : mset.volume;
+	setVolume(vol + step);
+}
+
+void Core::decVolume(int step) {
+	//qDebug("Core::incVolume");
+	int vol = pref->global_volume ? pref->volume : mset.volume;
+	setVolume(vol - step);
+}
+
 void Core::incVolume() {
 	qDebug("Core::incVolume");
-	int new_vol = (pref->global_volume ? pref->volume + pref->min_step : mset.volume + pref->min_step);
-	setVolume(new_vol);
+	incVolume(pref->min_step);
 }
 
 void Core::decVolume() {
 	qDebug("Core::incVolume");
-	int new_vol = (pref->global_volume ? pref->volume - pref->min_step : mset.volume - pref->min_step);
-	setVolume(new_vol);
+	decVolume(pref->min_step);
 }
 
 void Core::setSubDelay(int delay) {

@@ -213,6 +213,8 @@ public slots:
 	void setVolume(int volume, bool force = false);
 	void switchMute();
 	void mute(bool b);
+	void incVolume(int step);
+	void decVolume(int step);
 	void incVolume();
 	void decVolume();
 
