@@ -97,10 +97,6 @@
   Var Inst_Type
   Var Previous_Version
   Var Previous_Version_State
-!ifdef EXCLUSIVE_MPVMPLAYER
-  Var ReadReg_Installed_MPV
-  Var ReadReg_Memento_MPV
-!endif
   Var Reinstall_ChgSettings
   Var Reinstall_ChgSettings_State
   Var Reinstall_Message
@@ -116,9 +112,6 @@
 !endif
   Var Restore_YTDL
   Var Restore_SMTube
-!ifdef EXCLUSIVE_MPVMPLAYER
-  Var SecRadioButton
-!endif
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
@@ -184,10 +177,6 @@
 
 ;--------------------------------
 ;Pages
-
-!ifdef EXCLUSIVE_MPVMPLAYER
-  !define MUI_CUSTOMFUNCTION_GUIINIT newGuiInit
-!endif
 
   ;Install pages
   #Welcome
@@ -413,11 +402,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
   ${MementoSectionEnd}
 
-!ifdef EXCLUSIVE_MPVMPLAYER
-  ${MementoUnselectedSection} "MPV" SecMPV
-!else
   ${MementoSection} "MPV" SecMPV
-!endif
 
   SetOutPath "$INSTDIR\mpv"
 !ifdef WIN64
@@ -747,38 +732,6 @@ FunctionEnd
 ;--------------------------------
 ;Installer functions
 
-!ifdef EXCLUSIVE_MPVMPLAYER
-Function newGUIInit
-
-  ; For migrating older installs
-  ClearErrors
-  ReadRegDWORD $ReadReg_Installed_MPV HKLM "${SMPLAYER_REG_KEY}" "Installed_MPV"
-  ${IfNot} ${Errors}
-    ${If} $ReadReg_Installed_MPV == 1
-      StrCpy $SecRadioButton ${SecMPV}
-      !insertmacro UnSelectSection ${SecMPlayer}
-      !insertmacro SelectSection ${SecMPV}
-    ${Else}
-      StrCpy $SecRadioButton ${SecMPlayer}
-      !insertmacro UnSelectSection ${SecMPV}
-      !insertmacro SelectSection ${SecMPlayer}
-    ${Endif}
-  ${Else}
-    ReadRegDWORD $ReadReg_Memento_MPV HKLM "${SMPLAYER_REG_KEY}" "MementoSection_SecMPV"
-      ${If} $ReadReg_Memento_MPV == 1
-        StrCpy $SecRadioButton ${SecMPV}
-        !insertmacro UnSelectSection ${SecMPlayer}
-        !insertmacro SelectSection ${SecMPV}
-      ${Else}
-        StrCpy $SecRadioButton ${SecMPlayer}
-        !insertmacro UnSelectSection ${SecMPV}
-        !insertmacro SelectSection ${SecMPlayer}
-      ${EndIf}
-  ${EndIf}
-
-FunctionEnd
-!endif
-
 Function .onInit
 
 !ifdef WIN64
@@ -877,17 +830,10 @@ FunctionEnd
 
 Function .onSelChange
 
-!ifdef EXCLUSIVE_MPVMPLAYER
-  !insertmacro StartRadioButtons $SecRadioButton
-    !insertmacro RadioButton ${SecMPlayer}
-    !insertmacro RadioButton ${SecMPV}
-  !insertmacro EndRadioButtons
-!else
   ${Unless} ${SectionIsSelected} ${SecMPlayer}
   ${AndUnless} ${SectionIsSelected} ${SecMPV}
     !insertmacro SelectSection ${SecMPlayer}
   ${EndUnless}
-!endif
 
 FunctionEnd
 
