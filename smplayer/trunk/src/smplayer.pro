@@ -18,6 +18,7 @@ DEFINES += BLURAY_SUPPORT
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
+DEFINES += DEFAULTGUI
 DEFINES += MINIGUI
 DEFINES += MPCGUI
 DEFINES += SKINS
@@ -189,7 +190,6 @@ HEADERS += guiconfig.h \
 	widgetactions.h \
 	toolbareditor.h \
 	editabletoolbar.h \
-	defaultgui.h \
 	clhelp.h \
 	cleanconfig.h \
 	smplayer.h \
@@ -287,7 +287,6 @@ SOURCES	+= version.cpp \
 	widgetactions.cpp \
 	toolbareditor.cpp \
 	editabletoolbar.cpp \
-	defaultgui.cpp \
 	clhelp.cpp \
 	cleanconfig.cpp \
 	smplayer.cpp \
@@ -405,6 +404,12 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		HEADERS += youtube/ytsig.h youtube/codedownloader.h
 		SOURCES += youtube/ytsig.cpp youtube/codedownloader.cpp
 	}
+}
+
+# defaultgui
+contains( DEFINES, DEFAULTGUI ) {
+	HEADERS += defaultgui.h
+	SOURCES += defaultgui.cpp
 }
 
 # minigui
