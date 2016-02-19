@@ -17,7 +17,6 @@
 */
 
 #include "smplayer.h"
-#include "defaultgui.h"
 #include "global.h"
 #include "paths.h"
 #include "translator.h"
@@ -26,6 +25,11 @@
 #include "clhelp.h"
 #include "cleanconfig.h"
 #include "myapplication.h"
+#include "baseguiplus.h"
+
+#ifdef DEFAULTGUI
+#include "defaultgui.h"
+#endif
 
 #ifdef MINIGUI
 #include "minigui.h"
@@ -166,7 +170,16 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 		gui = new MpcGui(0);
 	else
 #endif
+#ifdef DEFAULTGUI
+	if (gui_name.toLower() == "defaultgui")
 		gui = new DefaultGui(0);
+	else
+#endif
+	{
+		// No GUI
+		qWarning() << "SMPlayer::createGUI: there's no GUI available!";
+		gui = new BaseGuiPlus(0);
+	}
 
 	gui->setForceCloseOnFinish(close_at_end);
 	gui->setForceStartInFullscreen(start_in_fullscreen);
