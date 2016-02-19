@@ -18,7 +18,6 @@
 
 #include "smplayer.h"
 #include "defaultgui.h"
-#include "minigui.h"
 #include "global.h"
 #include "paths.h"
 #include "translator.h"
@@ -27,6 +26,10 @@
 #include "clhelp.h"
 #include "cleanconfig.h"
 #include "myapplication.h"
+
+#ifdef MINIGUI
+#include "minigui.h"
+#endif
 
 #ifdef MPCGUI
 #include "mpcgui.h"
@@ -153,9 +156,11 @@ BaseGui * SMPlayer::createGUI(QString gui_name) {
 		gui = new SkinGui(0);
 	else
 #endif
+#ifdef MINIGUI
 	if (gui_name.toLower() == "minigui") 
 		gui = new MiniGui(0);
 	else
+#endif
 #ifdef MPCGUI
 	if (gui_name.toLower() == "mpcgui")
 		gui = new MpcGui(0);

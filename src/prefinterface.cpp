@@ -205,7 +205,9 @@ void PrefInterface::retranslateStrings() {
 	int gui_index = gui_combo->currentIndex();
 	gui_combo->clear();
 	gui_combo->addItem( tr("Basic GUI"), "DefaultGUI");
+#ifdef MINIGUI
 	gui_combo->addItem( tr("Mini GUI"), "MiniGUI");
+#endif
 #ifdef MPCGUI
 	gui_combo->addItem( tr("Mpc GUI"), "MpcGUI");
 #endif
