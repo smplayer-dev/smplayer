@@ -18,6 +18,7 @@ DEFINES += BLURAY_SUPPORT
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
+DEFINES += MINIGUI
 DEFINES += MPCGUI
 DEFINES += SKINS
 DEFINES += MPRIS2
@@ -41,6 +42,7 @@ contains( DEFINES, SIMPLE_BUILD ) {
 	DEFINES -= VIDEOPREVIEW
 	DEFINES -= LOG_MPLAYER
 	DEFINES -= LOG_SMPLAYER
+	DEFINES -= MINIGUI
 	DEFINES -= MPCGUI
 	DEFINES -= SKINS
 	DEFINES -= MPRIS2
@@ -49,6 +51,7 @@ contains( DEFINES, SIMPLE_BUILD ) {
 	DEFINES -= REMINDER_ACTIONS
 	DEFINES -= SHAREWIDGET
 	DEFINES -= AUTO_SHUTDOWN_PC
+	DEFINES -= BOOKMARKS
 }
 
 isEqual(QT_MAJOR_VERSION, 5) {
@@ -187,7 +190,6 @@ HEADERS += guiconfig.h \
 	toolbareditor.h \
 	editabletoolbar.h \
 	defaultgui.h \
-	minigui.h \
 	clhelp.h \
 	cleanconfig.h \
 	smplayer.h \
@@ -286,7 +288,6 @@ SOURCES	+= version.cpp \
 	toolbareditor.cpp \
 	editabletoolbar.cpp \
 	defaultgui.cpp \
-	minigui.cpp \
 	clhelp.cpp \
 	cleanconfig.cpp \
 	smplayer.cpp \
@@ -404,6 +405,12 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 		HEADERS += youtube/ytsig.h youtube/codedownloader.h
 		SOURCES += youtube/ytsig.cpp youtube/codedownloader.cpp
 	}
+}
+
+# minigui
+contains( DEFINES, MINIGUI ) {
+	HEADERS += minigui.h
+	SOURCES += minigui.cpp
 }
 
 # mpcgui
