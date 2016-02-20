@@ -47,6 +47,7 @@ public:
                     BelowNormal = 4, Idle = 5 };
 	enum WheelFunction { DoNothing = 1, Seeking = 2, Volume = 4, Zoom = 8,
                          ChangeSpeed = 16 };
+	enum DragFunction { DragDisabled = 0, MoveWindow = 1, Gestures = 2 };
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
 	enum AutoAddToPlaylistFilter { NoFiles = 0, VideoFiles = 1, AudioFiles = 2, MultimediaFiles = 3, ConsecutiveFiles = 4 };
@@ -360,7 +361,6 @@ public:
 	QString style; 	//!< SMPlayer look
 #endif
 
-	bool move_when_dragging; //!< Move the main window when the video area is dragged
 	bool center_window; //!< Center the main window when playback starts
 	bool center_window_if_outside; //!< Center the main window after an autoresize if it's outside of the screen
 
@@ -375,6 +375,8 @@ public:
 
 	WheelFunctions wheel_function_cycle;
 	bool wheel_function_seeking_reverse;
+
+	int drag_function;
 
 	// Configurable seeking
 	int seeking1; // By default 10s

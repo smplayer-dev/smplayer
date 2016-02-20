@@ -5526,7 +5526,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	//qDebug() << "BaseGui::processMouseMovedDiff" << diff;
 
 #ifdef MOUSE_GESTURES
-	if (!pref->move_when_dragging) {
+	if (pref->drag_function == Preferences::Gestures) {
 		int t = 1;
 
 		int h_desp = qAbs(diff.x());
@@ -5546,7 +5546,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	}
 #endif
 
-	if (pref->move_when_dragging) {
+	if (pref->drag_function == Preferences::MoveWindow) {
 		moveWindowDiff(diff);
 	}
 }

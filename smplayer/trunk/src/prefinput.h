@@ -78,6 +78,9 @@ protected:
 	void setWheelFunctionSeekingReverse(bool b);
 	bool wheelFunctionSeekingReverse();
 
+	void setDragFunction(int function);
+	int dragFunction();
+
 protected:
 	virtual void retranslateStrings();
 };
