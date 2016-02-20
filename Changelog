@@ -1,3 +1,39 @@
+Version 16.x:
+
+(2016-02-20)
+ * The option "Move the window when the video area is dragged" in
+   Preferences -> Interface has been removed.
+ * New option in Preferences -> Keyboard and mouse to specify the
+   function to use when the mouse is dragged.
+
+(2016-02-19)
+ * Possibility to compile SMPlayer without the mini GUI and the default GUI.
+
+(2016-02-12)
+ * (Experimental) Mouse gestures. When the mouse is dragged up or down in the
+   video window it changes the volume. If dragged left or right it changes
+   the time position.
+
+(2016-02-09)
+ * Add vlc.keys.
+
+(2016-02-02)
+ * Allow to read the shortcut's file using spaces as separators.
+
+(2016-01-19)
+ * Add a combobox in preferences -> general to choose mplayer or mpv.
+
+(2016-01-17)
+ * Include mpv in the Windows installer.
+
+(2016-01-16)
+ * Add a function to save XSPF files.
+ * (mpv) Add the extrastereo filter.
+
+(2016-01-15)
+ * Remove the fast_audio_change option since it's obsolete.
+
+
 Version 16.1:
 
 (2016-01-07)
