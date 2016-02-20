@@ -153,6 +153,13 @@ void PrefInput::retranslateStrings() {
 	wheel_function_volume->setText( tr("&Volume control") );
 	wheel_function_speed->setText( tr("&Change speed") );
 
+	int drag_function = drag_function_combo->currentIndex();
+	drag_function_combo->clear();
+	drag_function_combo->addItem( tr("Do nothing"), Preferences::DragDisabled);
+	drag_function_combo->addItem( tr("Move window"), Preferences::MoveWindow);
+	drag_function_combo->addItem( tr("Seek and volume"), Preferences::Gestures);
+	drag_function_combo->setCurrentIndex(drag_function);
+
 #if !USE_SHORTCUTGETTER
 	actioneditor_desc->setText( 
 		tr("Here you can change any key shortcut. To do it double click or "
@@ -175,6 +182,8 @@ void PrefInput::setData(Preferences * pref) {
 	setWheelFunctionCycle(pref->wheel_function_cycle);
 	setWheelFunctionSeekingReverse(pref->wheel_function_seeking_reverse);
 	delay_left_check->setChecked(pref->delay_left_click);
+
+	setDragFunction(pref->drag_function);
 }
 
 void PrefInput::getData(Preferences * pref) {
@@ -190,6 +199,8 @@ void PrefInput::getData(Preferences * pref) {
 	pref->wheel_function_cycle = wheelFunctionCycle();
 	pref->wheel_function_seeking_reverse = wheelFunctionSeekingReverse();
 	pref->delay_left_click = delay_left_check->isChecked();
+
+	pref->drag_function = dragFunction();
 }
 
 /*
@@ -305,6 +316,16 @@ bool PrefInput::wheelFunctionSeekingReverse() {
 	return wheel_function_seeking_reverse_check->isChecked();
 }
 
+void PrefInput::setDragFunction(int function) {
+	int d = drag_function_combo->findData(function);
+	if (d < 0) d = 0;
+	drag_function_combo->setCurrentIndex( d );
+}
+
+int PrefInput::dragFunction() {
+	return drag_function_combo->itemData(drag_function_combo->currentIndex()).toInt();
+}
+
 void PrefInput::createHelp() {
 	clearHelp();
 
@@ -340,6 +361,12 @@ void PrefInput::createHelp() {
 
 	setWhatsThis(wheel_function_combo, tr("Wheel function"),
 		tr("Select the action for the mouse wheel.") );
+
+	setWhatsThis(drag_function_combo, tr("Drag function"),
+		tr("This option controls what to do when the mouse is moved while pressing the left button.") + "<br>" +
+		"<b>" + tr("Move window") + "</b>:" + tr("the main window is moved") + "<br>" +
+		"<b>" + tr("Seek and volume") + "</b>:" +
+		tr("a horizontal movement changes the time position while a vertical movement changes the volume") );
 
 	setWhatsThis(delay_left_check, tr("Don't trigger the left click function with a double click"),
 		tr("If this option is enabled when you double click on the "

@@ -149,13 +149,6 @@
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QCheckBox" name="move_when_dragging_check">
-            <property name="text">
-             <string>&amp;Move the window when the video area is dragged</string>
-            </property>
-           </widget>
-          </item>
          </layout>
         </widget>
        </item>
@@ -977,7 +970,6 @@
   <tabstop>center_window_check</tabstop>
   <tabstop>save_size_check</tabstop>
   <tabstop>hide_video_window_on_audio_check</tabstop>
-  <tabstop>move_when_dragging_check</tabstop>
   <tabstop>language_combo</tabstop>
   <tabstop>gui_combo</tabstop>
   <tabstop>iconset_combo</tabstop>

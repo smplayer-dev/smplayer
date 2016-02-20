@@ -373,10 +373,8 @@ void Preferences::reset() {
 	style="";
 #endif
 
-	move_when_dragging = true;
 	center_window = false;
 	center_window_if_outside = true;
-
 
 #if DVDNAV_SUPPORT
 	mouse_left_click_function = "dvdnav_mouse";
@@ -391,6 +389,8 @@ void Preferences::reset() {
 	wheel_function = Seeking;
 	wheel_function_cycle = Seeking | Volume | Zoom | ChangeSpeed;
 	wheel_function_seeking_reverse = false;
+
+	drag_function = DragDisabled;
 
 	seeking1 = 10;
 	seeking2 = 60;
@@ -880,7 +880,6 @@ void Preferences::save() {
 	set->setValue("style", style);
 #endif
 
-	set->setValue("move_when_dragging", move_when_dragging);
 	set->setValue("center_window", center_window);
 	set->setValue("center_window_if_outside", center_window_if_outside);
 
@@ -893,6 +892,8 @@ void Preferences::save() {
 	set->setValue("mouse_wheel_function", wheel_function);
 	set->setValue("wheel_function_cycle", (int) wheel_function_cycle);
 	set->setValue("wheel_function_seeking_reverse", wheel_function_seeking_reverse);
+
+	set->setValue("drag_function", drag_function);
 
 	set->setValue("seeking1", seeking1);
 	set->setValue("seeking2", seeking2);
@@ -1420,7 +1421,6 @@ void Preferences::load() {
 	style = set->value("style", style).toString();
 #endif
 
-	move_when_dragging = set->value("move_when_dragging", move_when_dragging).toBool();
 	center_window = set->value("center_window", center_window).toBool();
 	center_window_if_outside = set->value("center_window_if_outside", center_window_if_outside).toBool();
 
@@ -1436,6 +1436,8 @@ void Preferences::load() {
 		wheel_function_cycle = (WheelFunctions) wheel_function_cycle_int;
 	}
 	wheel_function_seeking_reverse = set->value("wheel_function_seeking_reverse", wheel_function_seeking_reverse).toBool();
+
+	drag_function = set->value("drag_function", drag_function).toInt();
 
 	seeking1 = set->value("seeking1", seeking1).toInt();
 	seeking2 = set->value("seeking2", seeking2).toInt();
