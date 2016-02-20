@@ -4725,7 +4725,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation>Batasan: tindakan hanya dijalankan bila satu fail dibuka dan tidak bila proses %1 dimulakan semula (cth. anda pilih penapis audio atau video).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -5421,7 +5421,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"/>
+        <translation>Pinta sejumlah saluran main balik. %1 menanya penyahkod untuk menyahkod audio pada sebanyak mana saluran yang dinyatakan. Kemudian ia bergantung pada penyahkod untuk memenuhi keperluan tersebut. Ia biasanya hanya penting bila memainkan video dengan audio AC3 (seperti DVD). Dalam kes liba52 menyahkod secara lalai dan membetulkan downmix audio ke dalam sejumlah saluran yang dipinta. &lt;b&gt;Perhatian&lt;/b&gt;: Pilihan ini diutamakan oleh kodeks (AC3 hanya), penapis (keliling) dan pemacu output audio (OSS sekurang-kurangnya).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -7700,7 +7700,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation>Tetapkan keutamaan proses untuk %1 berdasarkan pada keutamaan pra-takrif yang ada dibawah Windows.&lt;br&gt;&lt;b&gt;Amaran:&lt;/b&gt; Menggunakan keutamaan masa jalan boleh menyebabkan kuncian sistem.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7780,7 +7780,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation>Perlukan binaan %1 dengan sokongan CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -8443,12 +8443,12 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation>Bila pilihan ini dihidupkan, pengekodan sarikata akan cuba dikesan-sendiri mengikut bahasa yang diberi. Ia akan dijatuh-balik ke pengekodan lalai jika pengesanan-sendiri mengalami kegagalan. Pilihan ini memerlukan %1 dengan sokongan ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Kebiasaannya, anda sepatutnya tidak lumpuhkan pilihan ini. Hanya dibuat jika %1 anda dikompil tanpa sokongan freetype. &lt;b&gt;Melumpuhkan pilihan ini menjadikan sarikata tidak berfungsi langsung!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
