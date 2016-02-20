@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "當準備好進行時，點擊「解除安�
 ${LangFileString} Reinstall_Msg4 "更改安裝設定"
 ${LangFileString} Reinstall_Msg5 "重置 SMPlayer 設定"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "重新安裝"
 ${LangFileString} Type_Downgrade "降級"
 ${LangFileString} Type_Upgrade "升級"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "無法安裝 MPV。"
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL 沒有成功安裝。是否重試？"
 ${LangFileString} YTDL_DL_Failed "無法下載 Youtube-DL：「$R0」。"
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

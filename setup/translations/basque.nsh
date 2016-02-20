@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Klikatu Kendu jarraitzeko gertu zaudenean."
 ${LangFileString} Reinstall_Msg4 "Aldatu Ezarpenaren Hobespenak"
 ${LangFileString} Reinstall_Msg5 "Berrezarri SMPlayer itxurapena"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "berrezarri"
 ${LangFileString} Type_Downgrade "aurrekoratu"
 ${LangFileString} Type_Upgrade "eguneratu"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Hutsegitea MPV ezartzerakoan"
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL ez da ongi ezarri? Saiatu berriro?"
 ${LangFileString} YTDL_DL_Failed "Hutsegitea Youtube-DL jeisterakoan: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

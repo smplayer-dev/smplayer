@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "คลิก ถอนการติดต�
 ${LangFileString} Reinstall_Msg4 "เปลี่ยนการตั้งค่าการติดตั้ง"
 ${LangFileString} Reinstall_Msg5 "คืนค่าการกำหนดค่า SMPlayer ของฉัน"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "ติดตั้งอีกครั้ง"
 ${LangFileString} Type_Downgrade "ลดระดับรุ่น"
 ${LangFileString} Type_Upgrade "เพิ่มระดับรุ่น"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Failed to install MPV."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL was not successfully installed. Retry?"
 ${LangFileString} YTDL_DL_Failed "Failed to download Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

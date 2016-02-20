@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Klik Nyahpasang bila sedia diteruskan."
 ${LangFileString} Reinstall_Msg4 "Ubah Tetapan Pemasangan"
 ${LangFileString} Reinstall_Msg5 "Tetap semula konfigurasi SMPlayer saya"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "pasang semula"
 ${LangFileString} Type_Downgrade "nyahtatar"
 ${LangFileString} Type_Upgrade "tatar"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Gagal memasang MPV."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL gagal dipasang. Cuba lagi?"
 ${LangFileString} YTDL_DL_Failed "Gagal memuat turun Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

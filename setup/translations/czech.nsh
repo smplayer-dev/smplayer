@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Stiskněte Odinstalovat jste-li připraveni.
 ${LangFileString} Reinstall_Msg4 "Změnit nastavení instalace"
 ${LangFileString} Reinstall_Msg5 "Resetovat moje nastavení SMPlayeru"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "reinstalovat"
 ${LangFileString} Type_Downgrade "ponížit verzi"
 ${LangFileString} Type_Upgrade "aktualizovat"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Chyba při instalaci MPV."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "Instlace YouTube-DL nebyla úspěšná. Zkusit znovu?"
 ${LangFileString} YTDL_DL_Failed "Nelze stáhnout Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Натисніть Вилучити, щоб 
 ${LangFileString} Reinstall_Msg4 "Змінити параметри встановлення"
 ${LangFileString} Reinstall_Msg5 "Скинути мою конфігурацію SMPlayer"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "перевстановити"
 ${LangFileString} Type_Downgrade "повернення до попередньої версії"
 ${LangFileString} Type_Upgrade "оновити"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Помилка при встановленн�
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "Не вдалося встановити YouTube-DL. Спробувати ще раз?"
 ${LangFileString} YTDL_DL_Failed "Не вдалося завантажити Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "اضغط إزالة التنصيب عندم�
 ${LangFileString} Reinstall_Msg4 "غيِّر إعدادات التثبيت"
 ${LangFileString} Reinstall_Msg5 "صفِّر إعداداتي لـ SMPlayer"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "أعِد التثبيت"
 ${LangFileString} Type_Downgrade "إنزال المرتبة"
 ${LangFileString} Type_Upgrade "الترقية"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "فشل تثبيت MPV."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "لم تُثبَّت YouTube-DL بنجاح. إعادة المحاولة؟"
 ${LangFileString} YTDL_DL_Failed "فشل تنزيل Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

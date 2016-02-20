@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Prema Desinstalar cando estea listo."
 ${LangFileString} Reinstall_Msg4 "Cambiar os axustes da instalación"
 ${LangFileString} Reinstall_Msg5 "Restabelecer a configuración do SMPlayer"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "reinstalar"
 ${LangFileString} Type_Downgrade "desanovar"
 ${LangFileString} Type_Upgrade "anovar"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Produciuse un fallo ao instalar MPV."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "Non se instalou correctamente YouTube-DL. Desexa tentalo de novo?"
 ${LangFileString} YTDL_DL_Failed "A descarga de Youtube-DL fallou: «$R0»."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

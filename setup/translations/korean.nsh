@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "준비가 되었으면 제거를 누르세�
 ${LangFileString} Reinstall_Msg4 "설치 설정을 변경합니다"
 ${LangFileString} Reinstall_Msg5 "내 SMPlayer 설정을 초기화합니다"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "재설치"
 ${LangFileString} Type_Downgrade "다운그레이드"
 ${LangFileString} Type_Upgrade "업그레이드"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "MPV 설치에 실패했습니다."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL 설치에 실패했습니다. 재시도할까요?"
 ${LangFileString} YTDL_DL_Failed "YouTube-DL 다운로드 실패:  '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
