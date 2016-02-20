@@ -4942,7 +4942,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Diese Option könnte notwendig sein, um Wiedergabelisten-Dateien abzuspielen (m3u, pls...). Allerdings könnte es ein Sicherheitsrisiko darstellen wenn Internetquellen abgespielt werden, aufgrund der Art auf die MPlayer Wiedergabelisten-Dateien parst und nutzt ist es nicht sicher vor bösartig erstellten Dateien.</translation>
+        <translation>Diese Option könnte notwendig sein, um Wiedergabelistendateien abzuspielen (m3u, pls, …). Allerdings könnte es ein Sicherheitsrisiko darstellen wenn Internetquellen abgespielt werden, aufgrund der Art auf die MPlayer Wiedergabelistendateien analysiert und nutzt ist es nicht sicher vor bösartig erstellten Dateien.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5422,7 +5422,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation>Anfrage der Anzahl von Playback Kanälen. %1 fragt den Dekoder, den Ton in die angebene Anzahl der Kanäle zu dekodieren. Anschließend ist es die Aufgabe des Dekoders die Bedingungen zu erfüllen. Das ist normalerweise nur bei der Wiedergabe von Videos mit AC3-Ton (wie z. B. bei DVDs) wichtig. In diesem Fall erledigt liba52 standardmäßig das Dekodieren und sorgt für den korrekten Downmix des Tons, in die Anzahl der angeforderten Kanäle. &lt;b&gt;Hinweis&lt;/b&gt;: Diese Option hängt ab von Codecs (Nur AC3), Filtern (Surround), und Audio-Ausgabetreibern (mindestens OSS).</translation>
+        <translation>Anfrage der Anzahl von Wiedergabekanälen. %1 fragt den Dekoder, den Ton in die angebene Anzahl der Kanäle zu dekodieren. Anschließend ist es die Aufgabe des Dekoders die Bedingungen zu erfüllen. Das ist normalerweise nur bei der Wiedergabe von Videos mit AC3-Ton (wie z. B. bei DVDs) wichtig. In diesem Fall erledigt liba52 standardmäßig das Dekodieren und sorgt für das korrekten Heruntermischen des Tons, in die Anzahl der angeforderten Kanäle. &lt;b&gt;Hinweis&lt;/b&gt;: Diese Option hängt ab von Codecs (nur AC3), Filtern (Surround), und Audio-Ausgabetreibern (mindestens OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -6930,7 +6930,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="662"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation>Wenn nach einer automatischen Wiederherstellung das Hauptfenster außerhalb des Bildschirms gerät, wird diese Option das Fenster zentrieren um dies zu verhindern.</translation>
+        <translation>Wenn nach einer automatischen Wiederherstellung das Hauptfenster außerhalb des Bildschirms gerät, wird diese Option das Fenster zentrieren, um es zu verhindern.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="665"/>
@@ -7702,7 +7702,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Legt die Prozessorpriorität für %1 fest, gemäß den unter Windows vordefinierten Prioritäten.&lt;br&gt;&lt;b&gt;Warnung:&lt;/b&gt;Das Verwenden von Echtzeit als Priorität kann das System blockieren.</translation>
+        <translation>Legt die Prozessorpriorität für %1 fest, gemäß den unter Windows vordefinierten Prioritäten.&lt;br&gt;&lt;b&gt;Achtung:&lt;/b&gt;Das Verwenden von Echtzeit als Priorität kann das System sperren.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>

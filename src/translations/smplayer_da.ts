@@ -3315,7 +3315,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="79"/>
         <source>Hebrew</source>
-        <translation>Hebræisk</translation>
+        <translation>Hebraisk</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
@@ -3814,7 +3814,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../languages.cpp" line="303"/>
         <source>Hebrew charsets</source>
-        <translation>Hebræisk tegnsæt</translation>
+        <translation>Hebraisk tegnsæt</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
