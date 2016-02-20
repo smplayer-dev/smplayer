@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Kliknite 'Deinstaliraj' kada ste spremni za 
 ${LangFileString} Reinstall_Msg4 "Promijeni postavke instalacije"
 ${LangFileString} Reinstall_Msg5 "Vrati na početno SMPlayer podešavanja"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "reinstaliraj"
 ${LangFileString} Type_Downgrade "nadogradi na stariju inačicu"
 ${LangFileString} Type_Upgrade "nadogradi"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Neuspjelo instaliranje MPV-a."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL nije uspješno instaliran. Pokušaj ponovno?"
 ${LangFileString} YTDL_DL_Failed "Neuspjelo preuzimanje Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "לחץ בטל התקנה כאשר אתה מ�
 ${LangFileString} Reinstall_Msg4 "שנה הגדרות התקנה"
 ${LangFileString} Reinstall_Msg5 "אפס תצורת SMPlayer"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "התקן מחדש"
 ${LangFileString} Type_Downgrade "הנמך"
 ${LangFileString} Type_Upgrade "שדרג"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "נכשל להתקין MPV."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL לא הותקן בהצלחה. לנסות שוב?"
 ${LangFileString} YTDL_DL_Failed "נכשל להוריד את Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

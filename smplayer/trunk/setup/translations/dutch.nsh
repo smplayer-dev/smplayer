@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Klik op Deïnstalleren wanneer u klaar bent 
 ${LangFileString} Reinstall_Msg4 "Installatie-voorkeuren wijzigen"
 ${LangFileString} Reinstall_Msg5 "Standaardwaarden voor mijn SMPlayer-configuratie"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "herinstalleren"
 ${LangFileString} Type_Downgrade "versie verlagen"
 ${LangFileString} Type_Upgrade "versie opwaarderen"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "De installatie van MPV is mislukt."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL was niet succesvol geïnstalleerd. Opniew?"
 ${LangFileString} YTDL_DL_Failed "De download van Youtube-DL is mislukt: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

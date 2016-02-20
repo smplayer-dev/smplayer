@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "続行するには [アンインストール
 ${LangFileString} Reinstall_Msg4 "インストール構成を変更する"
 ${LangFileString} Reinstall_Msg5 "SMPlayer の設定をリセットする"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "再インストール"
 ${LangFileString} Type_Downgrade "ダウングレード"
 ${LangFileString} Type_Upgrade "アップグレード"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "MPV のインストールに失敗しまし�
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL は正常にインストールされませんでした。再試行しますか?"
 ${LangFileString} YTDL_DL_Failed "YouTube-DL のダウンロードに失敗しました: '$R0'。"
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

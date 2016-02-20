@@ -416,7 +416,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
   IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
     CopyFiles /SILENT "$PLUGINSDIR\youtube-dl.exe" "$INSTDIR\mpv"
 
-    DetailPrint "Checking for youtube-dl updates..."
+    DetailPrint $(YTDL_Update_Check)
     NsExec::ExecToLog '"$INSTDIR\mpv\youtube-dl.exe" -U'
 
     Goto skip_ytdl
@@ -526,7 +526,7 @@ Section -Post
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoModify" "1"
   WriteRegDWORD HKLM "${SMPLAYER_UNINST_KEY}" "NoRepair" "1"
 
-  DetailPrint "Cleaning fontconfig cache..."
+  DetailPrint $(Info_Cleaning_Fontconfig)
   SetDetailsPrint none
   Delete "$LOCALAPPDATA\fontconfig\cache\CACHEDIR.TAG"
   Delete "$LOCALAPPDATA\fontconfig\cache\*.cache*"
@@ -535,7 +535,7 @@ Section -Post
   SetDetailsPrint both
 
   ${If} $Reinstall_RemoveSettings_State == 1
-    DetailPrint "Cleaning SMPlayer settings..."
+    DetailPrint $(Info_Cleaning_SMPlayer)
     SetDetailsPrint none
     NsExec::Exec '"$INSTDIR\smplayer.exe" -delete-config'
     SetDetailsPrint both
@@ -1021,7 +1021,7 @@ Function RemoveSettingsUpdate
   ${NSD_GetState} $Reinstall_RemoveSettings $Reinstall_RemoveSettings_State
 
   ${If} $Reinstall_RemoveSettings_State == 1
-    MessageBox MB_YESNO|MB_ICONQUESTION|MB_DEFBUTTON2 "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed." /SD IDNO IDYES reset_done
+    MessageBox MB_YESNO|MB_ICONQUESTION|MB_DEFBUTTON2 $(Remove_Settings_Confirmation) /SD IDNO IDYES reset_done
       ${NSD_SetState} $Reinstall_RemoveSettings 0
     reset_done:
   ${EndIf}

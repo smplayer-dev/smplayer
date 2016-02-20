@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Hazır olduğunuzda devam etmek Kaldır'ı t
 ${LangFileString} Reinstall_Msg4 "Kurulum Ayarlarını Değiştir"
 ${LangFileString} Reinstall_Msg5 "SMPlayer yapılandırmasını sıfırla"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "tekrar kur"
 ${LangFileString} Type_Downgrade "gerilet"
 ${LangFileString} Type_Upgrade "güncelle"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "MPV kurulamadı."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL kurulamadı. Tekrar denemek ister misiniz?"
 ${LangFileString} YTDL_DL_Failed "Youtube-DL İndirilemedi : '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."

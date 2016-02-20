@@ -72,6 +72,8 @@ ${LangFileString} Reinstall_Msg3_3 "Klik på Afinstaller når du er klar til at 
 ${LangFileString} Reinstall_Msg4 "Skift installationsindstillinger"
 ${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
 
+${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+
 ${LangFileString} Type_Reinstall "geninstaller"
 ${LangFileString} Type_Downgrade "nedgrader"
 ${LangFileString} Type_Upgrade "opgrader"
@@ -117,3 +119,8 @@ ${LangFileString} MPV_Inst_Failed "Installation af MPV mislykkedes."
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "YouTube-DL blev ikke korrekt installeret. Forsøg igen?"
 ${LangFileString} YTDL_DL_Failed "Download af YouTube-DL mislykkedes: '$R0'."
+${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+
+; Post install
+${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
