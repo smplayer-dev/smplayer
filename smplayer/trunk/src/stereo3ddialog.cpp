@@ -45,7 +45,7 @@ Stereo3dDialog::Stereo3dDialog(QWidget* parent, Qt::WindowFlags f)
 
 	out_combo->addItem(tr("Anaglyph green/magenta gray"), "agmg");
 	out_combo->addItem(tr("Anaglyph green/magenta half colored"), "agmh");
-	out_combo->addItem(tr("Anaglyph green/magenta colored "), "agmc");
+	out_combo->addItem(tr("Anaglyph green/magenta colored"), "agmc");
 
 	out_combo->addItem(tr("Anaglyph yellow/blue gray"), "aybg");
 	out_combo->addItem(tr("Anaglyph yellow/blue half colored"), "aybh");

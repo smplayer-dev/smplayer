@@ -746,7 +746,7 @@ void PrefInterface::createHelp() {
 		tr("By default when the stop button is pressed the time position is remembered "
            "so if you press play button the media will resume at the same point. You need "
            "to press the stop button twice to reset the time position, but if this "
-           "option is checked the time position will be set to 0 with only once "
+           "option is checked the time position will be set to 0 with only one "
            "press of the stop button.") );
 
 #ifdef SINGLE_INSTANCE
