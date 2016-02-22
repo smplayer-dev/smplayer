@@ -152,6 +152,9 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #ifdef UPDATE_CHECKER
 	, update_checker(0)
 #endif
+#ifdef MG_DELAYED_SEEK
+	, delayed_seek_timer(0)
+#endif
 {
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef AVOID_SCREENSAVER
@@ -2330,7 +2333,7 @@ void BaseGui::createMplayerWindow() {
 #ifdef MOUSE_GESTURES
 	mplayerwindow->activateMouseDragTracking(true);
 #else
-	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
+	mplayerwindow->activateMouseDragTracking(pref->drag_function == Preferences::MoveWindow);
 #endif
 }
 
@@ -3081,7 +3084,7 @@ void BaseGui::applyNewPreferences() {
 #ifdef MOUSE_GESTURES
 	mplayerwindow->activateMouseDragTracking(true);
 #else
-	mplayerwindow->activateMouseDragTracking(pref->move_when_dragging);
+	mplayerwindow->activateMouseDragTracking(pref->drag_function == Preferences::MoveWindow);
 #endif
 	mplayerwindow->delayLeftClick(pref->delay_left_click);
 
@@ -5526,6 +5529,14 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	//qDebug() << "BaseGui::processMouseMovedDiff" << diff;
 
 #ifdef MOUSE_GESTURES
+	#ifdef MG_DELAYED_SEEK
+	if (delayed_seek_timer == 0) {
+		delayed_seek_timer = new QTimer(this);
+		delayed_seek_timer->setSingleShot(true);
+		delayed_seek_timer->setInterval(20);
+	}
+	#endif
+
 	if (pref->drag_function == Preferences::Gestures) {
 		int t = 1;
 
@@ -5534,9 +5545,25 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 
 		if (h_desp > v_desp) {
 			// Horizontal
-			if (diff.x() > t) core->sforward();
+			if (diff.x() > t) {
+				#ifdef MG_DELAYED_SEEK
+				delayed_seek_timer->disconnect();
+				connect(delayed_seek_timer, SIGNAL(timeout()), core, SLOT(sforward()));
+				delayed_seek_timer->start();
+				#else
+				core->sforward();
+				#endif
+			}
 			else
-			if (diff.x() < -t) core->srewind();
+			if (diff.x() < -t) {
+				#ifdef MG_DELAYED_SEEK
+				delayed_seek_timer->disconnect();
+				connect(delayed_seek_timer, SIGNAL(timeout()), core, SLOT(srewind()));
+				delayed_seek_timer->start();
+				#else
+				core->srewind();
+				#endif
+			}
 		} else {
 			// Vertical
 			if (diff.y() > t) core->decVolume(1);

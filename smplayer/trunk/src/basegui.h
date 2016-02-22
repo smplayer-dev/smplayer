@@ -36,6 +36,9 @@
 #endif
 
 #define MOUSE_GESTURES
+#ifdef MOUSE_GESTURES
+	#define MG_DELAYED_SEEK
+#endif
 
 //#define SHARE_MENU
 
@@ -857,6 +860,10 @@ protected:
 	// Force settings from command line
 	int arg_close_on_finish; // -1 = not set, 1 = true, 0 = false
 	int arg_start_in_fullscreen; // -1 = not set, 1 = true, 0 = false
+
+#ifdef MG_DELAYED_SEEK
+	QTimer * delayed_seek_timer;
+#endif
 
 private:
 	QString default_style;
