@@ -624,7 +624,11 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 #if QT_VERSION >= 0x050000
 	orig_line = msg;
 #else
+	#ifdef Q_OS_WIN
+	orig_line = QString::fromLocal8Bit(msg);
+	#else
 	orig_line = QString::fromUtf8(msg);
+	#endif
 #endif
 
 	switch ( type ) {
