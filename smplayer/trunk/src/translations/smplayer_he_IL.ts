@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="he" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="he">
 <context>
     <name>About</name>
     <message>
@@ -24,7 +26,7 @@
     <message>
         <location filename="../about.cpp" line="73"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="160"/>
@@ -49,12 +51,12 @@
     <message>
         <location filename="../about.cpp" line="46"/>
         <source>Using %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="82"/>
@@ -143,76 +145,76 @@
 <context>
     <name>ActionsEditor</name>
     <message>
-        <location filename="../actionseditor.cpp" line="214"/>
+        <location filename="../actionseditor.cpp" line="217"/>
         <source>Name</source>
         <translation>שם</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="214"/>
+        <location filename="../actionseditor.cpp" line="217"/>
         <source>Description</source>
         <translation>תיאור</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="214"/>
+        <location filename="../actionseditor.cpp" line="217"/>
         <source>Shortcut</source>
         <translation>קיצור דרך</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="216"/>
+        <location filename="../actionseditor.cpp" line="219"/>
         <source>&amp;Save</source>
         <translation>&amp;שמור</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="219"/>
+        <location filename="../actionseditor.cpp" line="222"/>
         <source>&amp;Load</source>
         <translation>&amp;טען</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="456"/>
-        <location filename="../actionseditor.cpp" line="506"/>
+        <location filename="../actionseditor.cpp" line="461"/>
+        <location filename="../actionseditor.cpp" line="511"/>
         <source>Key files</source>
         <translation>קבצי מקש</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="454"/>
+        <location filename="../actionseditor.cpp" line="459"/>
         <source>Choose a filename</source>
         <translation>בחירת שם קובץ</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="465"/>
+        <location filename="../actionseditor.cpp" line="470"/>
         <source>Confirm overwrite?</source>
         <translation>לאמת החלפה?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="466"/>
+        <location filename="../actionseditor.cpp" line="471"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>הקובץ %1 כבר קיים.
 האם ברצונך להחליף?</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="505"/>
+        <location filename="../actionseditor.cpp" line="510"/>
         <source>Choose a file</source>
         <translation>בחירת קובץ</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="478"/>
-        <location filename="../actionseditor.cpp" line="512"/>
+        <location filename="../actionseditor.cpp" line="483"/>
+        <location filename="../actionseditor.cpp" line="517"/>
         <source>Error</source>
         <translation>שגיאה</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="479"/>
+        <location filename="../actionseditor.cpp" line="484"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>הקובץ לא היה מסוגל להישמר</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="513"/>
+        <location filename="../actionseditor.cpp" line="518"/>
         <source>The file couldn&apos;t be loaded</source>
         <translation>הקובץ לא היה מסוגל להיטען</translation>
     </message>
     <message>
-        <location filename="../actionseditor.cpp" line="223"/>
+        <location filename="../actionseditor.cpp" line="226"/>
         <source>&amp;Change shortcut...</source>
         <translation>שנה &amp;קיצור דרך...</translation>
     </message>
@@ -265,7 +267,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>Flat</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
@@ -381,1476 +383,1476 @@ Do you want to overwrite?</source>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1900"/>
+        <location filename="../basegui.cpp" line="1903"/>
         <source>&amp;Open</source>
         <translation>&amp;פתיחה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1901"/>
+        <location filename="../basegui.cpp" line="1904"/>
         <source>&amp;Play</source>
         <translation>&amp;נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1902"/>
+        <location filename="../basegui.cpp" line="1905"/>
         <source>&amp;Video</source>
         <translation>&amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1903"/>
+        <location filename="../basegui.cpp" line="1906"/>
         <source>&amp;Audio</source>
         <translation>&amp;אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1904"/>
+        <location filename="../basegui.cpp" line="1907"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;כתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
+        <location filename="../basegui.cpp" line="1908"/>
         <source>&amp;Browse</source>
         <translation>&amp;דפדוף</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1906"/>
+        <location filename="../basegui.cpp" line="1909"/>
         <source>Op&amp;tions</source>
         <translation>אפ&amp;שרויות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1907"/>
+        <location filename="../basegui.cpp" line="1910"/>
         <source>&amp;Help</source>
         <translation>&amp;עזרה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1635"/>
+        <location filename="../basegui.cpp" line="1638"/>
         <source>&amp;File...</source>
         <translation>&amp;קובץ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1636"/>
+        <location filename="../basegui.cpp" line="1639"/>
         <source>D&amp;irectory...</source>
         <translation>&amp;מדור...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1637"/>
+        <location filename="../basegui.cpp" line="1640"/>
         <source>&amp;Playlist...</source>
         <translation>רשימת &amp;נגינה...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1640"/>
+        <location filename="../basegui.cpp" line="1643"/>
         <source>&amp;DVD from drive</source>
         <translation>&amp;DVD מתוך תקליטור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1641"/>
+        <location filename="../basegui.cpp" line="1644"/>
         <source>D&amp;VD from folder...</source>
         <translation>D&amp;VD מתוך תיקייה...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1646"/>
+        <location filename="../basegui.cpp" line="1649"/>
         <source>&amp;URL...</source>
         <translation>‏&amp;URL..‏.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1923"/>
+        <location filename="../basegui.cpp" line="1926"/>
         <source>&amp;Clear</source>
         <translation>&amp;טהר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
+        <location filename="../basegui.cpp" line="1924"/>
         <source>&amp;Recent files</source>
         <translation>קבצים &amp;אחרונים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1670"/>
+        <location filename="../basegui.cpp" line="1673"/>
         <source>P&amp;lay</source>
         <translation>&amp;נגן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1673"/>
+        <location filename="../basegui.cpp" line="1676"/>
         <source>&amp;Pause</source>
         <translation>&amp;השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1674"/>
+        <location filename="../basegui.cpp" line="1677"/>
         <source>&amp;Stop</source>
         <translation>ה&amp;פסק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1675"/>
+        <location filename="../basegui.cpp" line="1678"/>
         <source>&amp;Frame step</source>
         <translation>&amp;פסע מסגרת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1694"/>
+        <location filename="../basegui.cpp" line="1697"/>
         <source>&amp;Normal speed</source>
         <translation>מהירות &amp;רגילה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1696"/>
+        <location filename="../basegui.cpp" line="1699"/>
         <source>&amp;Double speed</source>
         <translation>מהירות &amp;כפולה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1697"/>
+        <location filename="../basegui.cpp" line="1700"/>
         <source>Speed &amp;-10%</source>
         <translation>מהירות &amp;-10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1698"/>
+        <location filename="../basegui.cpp" line="1701"/>
         <source>Speed &amp;+10%</source>
         <translation>מהירות &amp;+10%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1789"/>
+        <location filename="../basegui.cpp" line="1792"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
         <translation>&amp;כבוי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1939"/>
+        <location filename="../basegui.cpp" line="1942"/>
         <source>Sp&amp;eed</source>
         <translation>&amp;מהירות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1689"/>
+        <location filename="../basegui.cpp" line="1692"/>
         <source>&amp;Repeat</source>
         <translation>&amp;חזור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1705"/>
+        <location filename="../basegui.cpp" line="1708"/>
         <source>&amp;Fullscreen</source>
         <translation>&amp;מסך מלא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1706"/>
+        <location filename="../basegui.cpp" line="1709"/>
         <source>&amp;Compact mode</source>
         <translation>מצב &amp;קומפקטי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1949"/>
+        <location filename="../basegui.cpp" line="1952"/>
         <source>Si&amp;ze</source>
         <translation>מי&amp;דה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1959"/>
+        <location filename="../basegui.cpp" line="1962"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;יחס רוחב גובה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1998"/>
-        <location filename="../basegui.cpp" line="3429"/>
-        <location filename="../basegui.cpp" line="3443"/>
+        <location filename="../basegui.cpp" line="2001"/>
+        <location filename="../basegui.cpp" line="3440"/>
+        <location filename="../basegui.cpp" line="3454"/>
         <source>&amp;None</source>
         <translation>&amp;כלום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1999"/>
+        <location filename="../basegui.cpp" line="2002"/>
         <source>&amp;Lowpass5</source>
         <translation>‏&amp;Lowpass5‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2002"/>
+        <location filename="../basegui.cpp" line="2005"/>
         <source>Linear &amp;Blend</source>
         <translation>&amp;שילוב לינארי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1962"/>
+        <location filename="../basegui.cpp" line="1965"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;איין שזירה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1732"/>
+        <location filename="../basegui.cpp" line="1735"/>
         <source>&amp;Postprocessing</source>
         <translation>&amp;עובר-עיבוד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1733"/>
+        <location filename="../basegui.cpp" line="1736"/>
         <source>&amp;Autodetect phase</source>
         <translation>&amp;אתר פזה אוטומטית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1734"/>
-        <source>&amp;Deblock</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1735"/>
-        <source>De&amp;ring</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1737"/>
+        <source>&amp;Deblock</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1738"/>
+        <source>De&amp;ring</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1740"/>
         <source>Add n&amp;oise</source>
         <translation>הוסף &amp;רעש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1965"/>
+        <location filename="../basegui.cpp" line="1968"/>
         <source>F&amp;ilters</source>
         <translation>&amp;מסננים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1707"/>
+        <location filename="../basegui.cpp" line="1710"/>
         <source>&amp;Equalizer</source>
         <translation>מ&amp;אזן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1708"/>
+        <location filename="../basegui.cpp" line="1711"/>
         <source>&amp;Screenshot</source>
         <translation>&amp;תצלום מסך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1971"/>
+        <location filename="../basegui.cpp" line="1974"/>
         <source>S&amp;tay on top</source>
         <translation>השאר ב&amp;שיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1758"/>
         <source>&amp;Extrastereo</source>
         <translation>&amp;אקסטרה סטריאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1757"/>
+        <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Karaoke</source>
         <translation>&amp;קריוקי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2032"/>
+        <location filename="../basegui.cpp" line="2035"/>
         <source>&amp;Filters</source>
         <translation>&amp;מסננים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
-        <location filename="../basegui.cpp" line="2048"/>
+        <location filename="../basegui.cpp" line="2045"/>
+        <location filename="../basegui.cpp" line="2051"/>
         <source>&amp;Stereo</source>
         <translation>&amp;סטריאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2043"/>
+        <location filename="../basegui.cpp" line="2046"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2044"/>
+        <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2035"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>&amp;Channels</source>
         <translation>&amp;ערוצים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2049"/>
+        <location filename="../basegui.cpp" line="2052"/>
         <source>&amp;Left channel</source>
         <translation>ערוץ &amp;שמאל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2050"/>
+        <location filename="../basegui.cpp" line="2053"/>
         <source>&amp;Right channel</source>
         <translation>ערוץ &amp;ימין</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2038"/>
+        <location filename="../basegui.cpp" line="2041"/>
         <source>&amp;Stereo mode</source>
         <translation>מצב &amp;סטריאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1745"/>
+        <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Mute</source>
         <translation>הש&amp;תק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1746"/>
+        <location filename="../basegui.cpp" line="1749"/>
         <source>Volume &amp;-</source>
         <translation>עוצמת שמע &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1747"/>
+        <location filename="../basegui.cpp" line="1750"/>
         <source>Volume &amp;+</source>
         <translation>עוצמת שמע &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1748"/>
+        <location filename="../basegui.cpp" line="1751"/>
         <source>&amp;Delay -</source>
         <translation>&amp;שיהוי -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1749"/>
+        <location filename="../basegui.cpp" line="1752"/>
         <source>D&amp;elay +</source>
         <translation>שי&amp;הוי +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2058"/>
+        <location filename="../basegui.cpp" line="2061"/>
         <source>&amp;Select</source>
         <translation>&amp;בחר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1762"/>
+        <location filename="../basegui.cpp" line="1765"/>
         <source>&amp;Load...</source>
         <translation>&amp;טען...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1764"/>
+        <location filename="../basegui.cpp" line="1767"/>
         <source>Delay &amp;-</source>
         <translation>שיהוי &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1765"/>
+        <location filename="../basegui.cpp" line="1768"/>
         <source>Delay &amp;+</source>
         <translation>שיהוי &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1767"/>
+        <location filename="../basegui.cpp" line="1770"/>
         <source>&amp;Up</source>
         <translation>מ&amp;עלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1768"/>
+        <location filename="../basegui.cpp" line="1771"/>
         <source>&amp;Down</source>
         <translation>מ&amp;טה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2074"/>
+        <location filename="../basegui.cpp" line="2077"/>
         <source>&amp;Title</source>
         <translation>&amp;כותרת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2077"/>
+        <location filename="../basegui.cpp" line="2080"/>
         <source>&amp;Chapter</source>
         <translation>&amp;פרק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2080"/>
+        <location filename="../basegui.cpp" line="2083"/>
         <source>&amp;Angle</source>
         <translation>&amp;זווית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1804"/>
+        <location filename="../basegui.cpp" line="1807"/>
         <source>&amp;Playlist</source>
         <translation>רשימת &amp;נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1996"/>
+        <location filename="../basegui.cpp" line="1999"/>
         <source>&amp;Disabled</source>
         <translation>&amp;מנוטרלת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2112"/>
+        <location filename="../basegui.cpp" line="2115"/>
         <source>&amp;OSD</source>
         <translation>‏&amp;OSD‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2121"/>
+        <location filename="../basegui.cpp" line="2124"/>
         <source>&amp;View logs</source>
         <translation>&amp;ראה יומנים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1806"/>
+        <location filename="../basegui.cpp" line="1809"/>
         <source>P&amp;references</source>
         <translation>העדפו&amp;ת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1833"/>
+        <location filename="../basegui.cpp" line="1836"/>
         <source>About &amp;SMPlayer</source>
         <translation>‏אודות &amp;SMPlayer‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3466"/>
-        <location filename="../basegui.cpp" line="3482"/>
-        <location filename="../basegui.cpp" line="3498"/>
-        <location filename="../basegui.cpp" line="3513"/>
-        <location filename="../basegui.cpp" line="3547"/>
-        <location filename="../basegui.cpp" line="3567"/>
-        <location filename="../basegui.cpp" line="3643"/>
+        <location filename="../basegui.cpp" line="3477"/>
+        <location filename="../basegui.cpp" line="3493"/>
+        <location filename="../basegui.cpp" line="3509"/>
+        <location filename="../basegui.cpp" line="3524"/>
+        <location filename="../basegui.cpp" line="3558"/>
+        <location filename="../basegui.cpp" line="3578"/>
+        <location filename="../basegui.cpp" line="3654"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ריק&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4073"/>
+        <location filename="../basegui.cpp" line="4084"/>
         <source>Video</source>
         <translation>וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4074"/>
-        <location filename="../basegui.cpp" line="4311"/>
+        <location filename="../basegui.cpp" line="4085"/>
+        <location filename="../basegui.cpp" line="4322"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4075"/>
+        <location filename="../basegui.cpp" line="4086"/>
         <source>Playlists</source>
         <translation>רשימות נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4076"/>
-        <location filename="../basegui.cpp" line="4291"/>
-        <location filename="../basegui.cpp" line="4312"/>
+        <location filename="../basegui.cpp" line="4087"/>
+        <location filename="../basegui.cpp" line="4302"/>
+        <location filename="../basegui.cpp" line="4323"/>
         <source>All files</source>
         <translation>כל הקבצים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4071"/>
-        <location filename="../basegui.cpp" line="4288"/>
-        <location filename="../basegui.cpp" line="4309"/>
+        <location filename="../basegui.cpp" line="4082"/>
+        <location filename="../basegui.cpp" line="4299"/>
+        <location filename="../basegui.cpp" line="4320"/>
         <source>Choose a file</source>
         <translation>בחירת קובץ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1808"/>
+        <location filename="../basegui.cpp" line="1811"/>
         <source>&amp;YouTube%1 browser</source>
         <translation>דפדפן &amp;YouTube%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1831"/>
+        <location filename="../basegui.cpp" line="1834"/>
         <source>&amp;Donate / Share with your friends</source>
         <translation>&amp;תרמו / שתפו עם חברים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4127"/>
+        <location filename="../basegui.cpp" line="4138"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - מידע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4128"/>
+        <location filename="../basegui.cpp" line="4139"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>התקליטורים CDROM / DVD אינם מוגדרים עדיין.
 דו שיח התצורה יוצג כעת, כך שתהיה לך האפשרות לעשות זאת.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4241"/>
+        <location filename="../basegui.cpp" line="4252"/>
         <source>Select the Blu-ray folder</source>
         <translation>בחירת תיקיית Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4254"/>
+        <location filename="../basegui.cpp" line="4265"/>
         <source>Choose a directory</source>
         <translation>בחירת מדור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4290"/>
+        <location filename="../basegui.cpp" line="4301"/>
         <source>Subtitles</source>
         <translation>כתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4911"/>
+        <location filename="../basegui.cpp" line="4920"/>
         <source>Error detected</source>
         <translation>שגיאה אותרה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4912"/>
+        <location filename="../basegui.cpp" line="4921"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>למרבה הצער סרטון זה לא יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5100"/>
+        <location filename="../basegui.cpp" line="5109"/>
         <source>Playing %1</source>
         <translation>מנגן עכשיו ‎%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5101"/>
+        <location filename="../basegui.cpp" line="5110"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5102"/>
+        <location filename="../basegui.cpp" line="5111"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1678"/>
+        <location filename="../basegui.cpp" line="1681"/>
         <source>Play / Pause</source>
         <translation>נגן / השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1681"/>
+        <location filename="../basegui.cpp" line="1684"/>
         <source>Pause / Frame step</source>
         <translation>השהה / פסיעת מסגרת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1752"/>
-        <location filename="../basegui.cpp" line="1763"/>
+        <location filename="../basegui.cpp" line="1755"/>
+        <location filename="../basegui.cpp" line="1766"/>
         <source>U&amp;nload</source>
         <translation>&amp;פרוק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1638"/>
+        <location filename="../basegui.cpp" line="1641"/>
         <source>V&amp;CD</source>
         <translation>תקליטור V&amp;CD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1647"/>
+        <location filename="../basegui.cpp" line="1650"/>
         <source>C&amp;lose</source>
         <translation>&amp;סגור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1805"/>
+        <location filename="../basegui.cpp" line="1808"/>
         <source>View &amp;info and properties...</source>
         <translation>ראה &amp;מידע ומאפיינים...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1720"/>
+        <location filename="../basegui.cpp" line="1723"/>
         <source>Zoom &amp;-</source>
         <translation>זום &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1721"/>
+        <location filename="../basegui.cpp" line="1724"/>
         <source>Zoom &amp;+</source>
         <translation>זום &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1722"/>
+        <location filename="../basegui.cpp" line="1725"/>
         <source>&amp;Reset</source>
         <translation>&amp;אפס</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1726"/>
+        <location filename="../basegui.cpp" line="1729"/>
         <source>Move &amp;left</source>
         <translation>הזז &amp;שמאלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1727"/>
+        <location filename="../basegui.cpp" line="1730"/>
         <source>Move &amp;right</source>
         <translation>הזז י&amp;מינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1728"/>
+        <location filename="../basegui.cpp" line="1731"/>
         <source>Move &amp;up</source>
         <translation>הזז מ&amp;עלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1729"/>
+        <location filename="../basegui.cpp" line="1732"/>
         <source>Move &amp;down</source>
         <translation>הזז מ&amp;טה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1772"/>
+        <location filename="../basegui.cpp" line="1775"/>
         <source>&amp;Previous line in subtitles</source>
         <translation>שורה &amp;קודמת בכתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1774"/>
+        <location filename="../basegui.cpp" line="1777"/>
         <source>N&amp;ext line in subtitles</source>
         <translation>שורה ב&amp;אה בכתוביות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2130"/>
-        <source>%1 log</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="2133"/>
-        <source>SMPlayer log</source>
-        <translation type="unfinished"/>
+        <source>%1 log</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2146"/>
-        <location filename="../basegui.cpp" line="2147"/>
-        <location filename="../basegui.cpp" line="2148"/>
+        <location filename="../basegui.cpp" line="2136"/>
+        <source>SMPlayer log</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2149"/>
+        <location filename="../basegui.cpp" line="2150"/>
+        <location filename="../basegui.cpp" line="2151"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2150"/>
-        <location filename="../basegui.cpp" line="2151"/>
-        <location filename="../basegui.cpp" line="2152"/>
+        <location filename="../basegui.cpp" line="2153"/>
+        <location filename="../basegui.cpp" line="2154"/>
+        <location filename="../basegui.cpp" line="2155"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1858"/>
+        <location filename="../basegui.cpp" line="1861"/>
         <source>Dec volume (2)</source>
         <translation>הנמך עוצמת שמע (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1643"/>
+        <location filename="../basegui.cpp" line="1646"/>
         <source>&amp;Blu-ray from drive</source>
         <translation>&amp;Blu-ray מתוך תיקייה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1644"/>
+        <location filename="../basegui.cpp" line="1647"/>
         <source>Blu-&amp;ray from folder...</source>
         <translation>Blu-&amp;ray מתוך תיקייה...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1676"/>
+        <location filename="../basegui.cpp" line="1679"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1695"/>
+        <location filename="../basegui.cpp" line="1698"/>
         <source>&amp;Half speed</source>
         <translation>מהירות &amp;חצויה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1711"/>
+        <location filename="../basegui.cpp" line="1714"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1714"/>
+        <location filename="../basegui.cpp" line="1717"/>
         <source>Thumb&amp;nail Generator...</source>
         <translation>מחולל תמונות &amp;ציפורן...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1718"/>
+        <location filename="../basegui.cpp" line="1721"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1736"/>
+        <location filename="../basegui.cpp" line="1739"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1776"/>
-        <source>Seek to next subtitle</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="1777"/>
-        <source>Seek to previous subtitle</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1779"/>
+        <source>Seek to next subtitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1780"/>
+        <source>Seek to previous subtitle</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="1782"/>
         <source>Use custo&amp;m style</source>
         <translation>השתמש בסגנון &amp;מותאם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1785"/>
+        <location filename="../basegui.cpp" line="1788"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
         <translation>מציאת כתוביות אצל &amp;OpenSubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1795"/>
+        <location filename="../basegui.cpp" line="1798"/>
         <source>&amp;Default</source>
         <comment>subfps menu</comment>
         <translation>&amp;ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1820"/>
+        <location filename="../basegui.cpp" line="1823"/>
         <source>First Steps &amp;Guide</source>
         <translation>&amp;מדריך צעדים ראשונים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1826"/>
+        <location filename="../basegui.cpp" line="1829"/>
         <source>Update &amp;Youtube code</source>
         <translation>עדכן קוד &amp;Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1829"/>
+        <location filename="../basegui.cpp" line="1832"/>
         <source>&amp;Open configuration folder</source>
         <translation>&amp;פתח תיקיית תצורה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1844"/>
+        <location filename="../basegui.cpp" line="1847"/>
         <source>Size &amp;+</source>
         <translation>גודל &amp;+</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1845"/>
+        <location filename="../basegui.cpp" line="1848"/>
         <source>Size &amp;-</source>
         <translation>גודל &amp;-</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1859"/>
+        <location filename="../basegui.cpp" line="1862"/>
         <source>Inc volume (2)</source>
         <translation>הגבר עוצמת שמע (2)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1862"/>
+        <location filename="../basegui.cpp" line="1865"/>
         <source>Exit fullscreen</source>
         <translation>עזוב מסך מלא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1864"/>
+        <location filename="../basegui.cpp" line="1867"/>
         <source>OSD - Next level</source>
         <translation>OSD - שלב בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1865"/>
+        <location filename="../basegui.cpp" line="1868"/>
         <source>Dec contrast</source>
         <translation>הנמך חדות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1866"/>
+        <location filename="../basegui.cpp" line="1869"/>
         <source>Inc contrast</source>
         <translation>הגבר חדות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1867"/>
+        <location filename="../basegui.cpp" line="1870"/>
         <source>Dec brightness</source>
         <translation>הנמך בהירות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1868"/>
+        <location filename="../basegui.cpp" line="1871"/>
         <source>Inc brightness</source>
         <translation>הגבר בהירות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1869"/>
+        <location filename="../basegui.cpp" line="1872"/>
         <source>Dec hue</source>
         <translation>הנמך גוון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1870"/>
+        <location filename="../basegui.cpp" line="1873"/>
         <source>Inc hue</source>
         <translation>הגבר גוון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1871"/>
+        <location filename="../basegui.cpp" line="1874"/>
         <source>Dec saturation</source>
         <translation>הנמך רוויה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1873"/>
+        <location filename="../basegui.cpp" line="1876"/>
         <source>Dec gamma</source>
         <translation>הנמך גאמה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1876"/>
+        <location filename="../basegui.cpp" line="1879"/>
         <source>Next audio</source>
         <translation>אודיו בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1877"/>
+        <location filename="../basegui.cpp" line="1880"/>
         <source>Next subtitle</source>
         <translation>כתובית באה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1878"/>
+        <location filename="../basegui.cpp" line="1881"/>
         <source>Next chapter</source>
         <translation>פרק בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1879"/>
+        <location filename="../basegui.cpp" line="1882"/>
         <source>Previous chapter</source>
         <translation>פרק קודם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1888"/>
+        <location filename="../basegui.cpp" line="1891"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1979"/>
+        <location filename="../basegui.cpp" line="1982"/>
         <source>De&amp;noise</source>
         <translation>דיכוי &amp;רעש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1982"/>
+        <location filename="../basegui.cpp" line="1985"/>
         <source>Blur/S&amp;harp</source>
         <translation>טשטש/ח&amp;דד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2005"/>
+        <location filename="../basegui.cpp" line="2008"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
         <translation>&amp;כבוי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2006"/>
+        <location filename="../basegui.cpp" line="2009"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
         <translation>&amp;רגיל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2007"/>
+        <location filename="../basegui.cpp" line="2010"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
         <translation>&amp;רך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2009"/>
+        <location filename="../basegui.cpp" line="2012"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
         <translation>&amp;כלום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2010"/>
+        <location filename="../basegui.cpp" line="2013"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
         <translation>&amp;טשטש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2011"/>
+        <location filename="../basegui.cpp" line="2014"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
         <translation>&amp;חדד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2045"/>
+        <location filename="../basegui.cpp" line="2048"/>
         <source>&amp;6.1 Surround</source>
         <translation>&amp;6.1 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2046"/>
+        <location filename="../basegui.cpp" line="2049"/>
         <source>&amp;7.1 Surround</source>
         <translation>&amp;7.1 סראונד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2051"/>
+        <location filename="../basegui.cpp" line="2054"/>
         <source>&amp;Mono</source>
         <translation>&amp;מונו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2052"/>
+        <location filename="../basegui.cpp" line="2055"/>
         <source>Re&amp;verse</source>
         <translation>ה&amp;פוך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2056"/>
+        <location filename="../basegui.cpp" line="2059"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2063"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2070"/>
+        <location filename="../basegui.cpp" line="2073"/>
         <source>F&amp;rames per second</source>
         <translation>מס&amp;גרות לכל שנייה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2084"/>
+        <location filename="../basegui.cpp" line="2087"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2094"/>
-        <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2095"/>
-        <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2096"/>
-        <source>Previous bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2097"/>
-        <source>Next bookmark</source>
-        <translation type="unfinished"/>
+        <source>&amp;Add new bookmark</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4846"/>
+        <location filename="../basegui.cpp" line="2098"/>
+        <source>&amp;Edit bookmarks</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2099"/>
+        <source>Previous bookmark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2100"/>
+        <source>Next bookmark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="4855"/>
         <source>Connection failed</source>
         <translation>חיבור נכשל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4847"/>
+        <location filename="../basegui.cpp" line="4856"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>הוידאו אשר ביקשת צריך לפתוח חיבור HTTPS.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4848"/>
+        <location filename="../basegui.cpp" line="4857"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>למרבה הצער, מרכיב OpenSSL, דרוש לזאת, אינו זמין בתוך המערכת שלך.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4849"/>
+        <location filename="../basegui.cpp" line="4858"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>בבקשה, בקר את %1 כדי לדעת איך לתקן את בעיה זו.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4850"/>
+        <location filename="../basegui.cpp" line="4859"/>
         <source>this link</source>
         <translation>קישור זה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4860"/>
+        <location filename="../basegui.cpp" line="4869"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>למרבה הצער בגין שינויים בעמוד Youtube, סרטון זה ל יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4867"/>
-        <location filename="../basegui.cpp" line="4875"/>
+        <location filename="../basegui.cpp" line="4876"/>
+        <location filename="../basegui.cpp" line="4884"/>
         <source>Problems with Youtube</source>
         <translation>בעיות עם Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5645"/>
-        <location filename="../basegui.cpp" line="5665"/>
+        <location filename="../basegui.cpp" line="5702"/>
+        <location filename="../basegui.cpp" line="5722"/>
         <source>%1 Error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5646"/>
+        <location filename="../basegui.cpp" line="5703"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5667"/>
+        <location filename="../basegui.cpp" line="5724"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5668"/>
+        <location filename="../basegui.cpp" line="5725"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5670"/>
+        <location filename="../basegui.cpp" line="5727"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5748"/>
+        <location filename="../basegui.cpp" line="5809"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5749"/>
+        <location filename="../basegui.cpp" line="5810"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4863"/>
+        <location filename="../basegui.cpp" line="4872"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>למרבה הצער בעקבות שינויים בעמוד Youtube, הוידאו &apos;%1&apos; לא מסוגל להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4869"/>
+        <location filename="../basegui.cpp" line="4878"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>האם ברצונך לעדכן את הקוד של Youtube? זה עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4877"/>
+        <location filename="../basegui.cpp" line="4886"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>אולי עדכון של SMPlayer עשוי לתקן את הבעיה.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2116"/>
+        <location filename="../basegui.cpp" line="2119"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>ש&amp;תף את SMPlayer עם חברים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3154"/>
-        <location filename="../basegui.cpp" line="3882"/>
+        <location filename="../basegui.cpp" line="3165"/>
+        <location filename="../basegui.cpp" line="3893"/>
         <source>Information</source>
         <translation>מידע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3155"/>
+        <location filename="../basegui.cpp" line="3166"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>עליך להפעיל מחדש את SMPlayer כדי להשתמש בממשק החדש.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3655"/>
+        <location filename="../basegui.cpp" line="3666"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>אימות מחיקה - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3656"/>
+        <location filename="../basegui.cpp" line="3667"/>
         <source>Delete the list of recent files?</source>
         <translation>למחוק את הרשימה של קבצים אחרונים?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3883"/>
+        <location filename="../basegui.cpp" line="3894"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>הערכים הנוכחיים אוחסנו לשימוש בתור ערכים שגרתיים.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1872"/>
+        <location filename="../basegui.cpp" line="1875"/>
         <source>Inc saturation</source>
         <translation>הגבר רוויה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1874"/>
+        <location filename="../basegui.cpp" line="1877"/>
         <source>Inc gamma</source>
         <translation>הגבר גאמה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1751"/>
+        <location filename="../basegui.cpp" line="1754"/>
         <source>&amp;Load external file...</source>
         <translation>&amp;טען קובץ חיצוני...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2006"/>
         <source>&amp;Kerndeint</source>
         <translation>‏&amp;Kerndeint‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2003"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (רגילה)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2001"/>
+        <location filename="../basegui.cpp" line="2004"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (שיעור מסגרת כפול)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1848"/>
+        <location filename="../basegui.cpp" line="1851"/>
         <source>&amp;Next</source>
         <translation>ה&amp;באה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1849"/>
+        <location filename="../basegui.cpp" line="1852"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;קודמת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1759"/>
+        <location filename="../basegui.cpp" line="1762"/>
         <source>Volume &amp;normalization</source>
         <translation>&amp;נורמליזציית עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1639"/>
+        <location filename="../basegui.cpp" line="1642"/>
         <source>&amp;Audio CD</source>
         <translation>&amp;תקליטור שמע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1880"/>
+        <location filename="../basegui.cpp" line="1883"/>
         <source>&amp;Toggle double size</source>
         <translation>&amp;החלף מידה כפולה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1769"/>
+        <location filename="../basegui.cpp" line="1772"/>
         <source>S&amp;ize -</source>
         <translation>ג&amp;ודל -</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1770"/>
+        <location filename="../basegui.cpp" line="1773"/>
         <source>Si&amp;ze +</source>
         <translation>גו&amp;דל +</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1738"/>
+        <location filename="../basegui.cpp" line="1741"/>
         <source>Add &amp;black borders</source>
         <translation>הוסף גבולות &amp;שחורים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1739"/>
+        <location filename="../basegui.cpp" line="1742"/>
         <source>Soft&amp;ware scaling</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1821"/>
+        <location filename="../basegui.cpp" line="1824"/>
         <source>&amp;FAQ</source>
         <translation>&amp;שו&quot;ת</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1822"/>
+        <location filename="../basegui.cpp" line="1825"/>
         <source>&amp;Command line options</source>
         <translation>&amp;אפשרויות שורת פקודה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4331"/>
+        <location filename="../basegui.cpp" line="4342"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayer אפשרויות שורת פקודה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1780"/>
+        <location filename="../basegui.cpp" line="1783"/>
         <source>&amp;Forced subtitles only</source>
         <translation>&amp;כתוביות כפויות בלבד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1881"/>
+        <location filename="../basegui.cpp" line="1884"/>
         <source>Reset video equalizer</source>
         <translation>אפס מאזן וידאו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4913"/>
+        <location filename="../basegui.cpp" line="4922"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>השרת החזיר &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5647"/>
+        <location filename="../basegui.cpp" line="5704"/>
         <source>Exit code: %1</source>
         <translation>קוד יציאה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5671"/>
+        <location filename="../basegui.cpp" line="5728"/>
         <source>See the log for more info.</source>
         <translation>ראה את היומן למידע נוסף.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1968"/>
+        <location filename="../basegui.cpp" line="1971"/>
         <source>&amp;Rotate</source>
         <translation>&amp;סובב</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2013"/>
+        <location filename="../basegui.cpp" line="2016"/>
         <source>&amp;Off</source>
         <translation>&amp;כבוי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2014"/>
+        <location filename="../basegui.cpp" line="2017"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;סובב 90 מעלות בכיוון שעון והפוך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2015"/>
+        <location filename="../basegui.cpp" line="2018"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>סובב 90 מעלות ב&amp;כיוון שעון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2016"/>
+        <location filename="../basegui.cpp" line="2019"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>סובב 90 מעלות ב&amp;ניגוד לכיוון שעון</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2017"/>
+        <location filename="../basegui.cpp" line="2020"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>&amp;סובב 90 מעלות בניגוד לכיוון שעון והפוך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1691"/>
+        <location filename="../basegui.cpp" line="1694"/>
         <source>&amp;Jump to...</source>
         <translation>&amp;קפוץ אל...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1883"/>
+        <location filename="../basegui.cpp" line="1886"/>
         <source>Show context menu</source>
         <translation>הצג תפריט הקשר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4072"/>
+        <location filename="../basegui.cpp" line="4083"/>
         <source>Multimedia</source>
         <translation>מולטימדיה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1742"/>
+        <location filename="../basegui.cpp" line="1745"/>
         <source>E&amp;qualizer</source>
         <translation>מ&amp;אזן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1882"/>
+        <location filename="../basegui.cpp" line="1885"/>
         <source>Reset audio equalizer</source>
         <translation>אפס מאזן אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1786"/>
+        <location filename="../basegui.cpp" line="1789"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
         <translation>&amp;העלה כתוביות אל OpenSubtitles.org..‏.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1985"/>
+        <location filename="../basegui.cpp" line="1988"/>
         <source>&amp;Auto</source>
         <translation>&amp;אוטומטית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1699"/>
+        <location filename="../basegui.cpp" line="1702"/>
         <source>Speed -&amp;4%</source>
         <translation>מהירות -&amp;4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1700"/>
+        <location filename="../basegui.cpp" line="1703"/>
         <source>&amp;Speed +4%</source>
         <translation>&amp;מהירות +4%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1701"/>
+        <location filename="../basegui.cpp" line="1704"/>
         <source>Speed -&amp;1%</source>
         <translation>מהירות -&amp;1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1702"/>
+        <location filename="../basegui.cpp" line="1705"/>
         <source>S&amp;peed +1%</source>
         <translation>מ&amp;הירות +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1975"/>
+        <location filename="../basegui.cpp" line="1978"/>
         <source>Scree&amp;n</source>
         <translation>מרק&amp;ע</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2025"/>
+        <location filename="../basegui.cpp" line="2028"/>
         <source>&amp;Default</source>
         <translation>&amp;ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1717"/>
+        <location filename="../basegui.cpp" line="1720"/>
         <source>Mirr&amp;or image</source>
         <translation>&amp;שקף תמונה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1875"/>
+        <location filename="../basegui.cpp" line="1878"/>
         <source>Next video</source>
         <translation>וידאו בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1946"/>
+        <location filename="../basegui.cpp" line="1949"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;רצועה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2029"/>
+        <location filename="../basegui.cpp" line="2032"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;רצועה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4762"/>
+        <location filename="../basegui.cpp" line="4771"/>
         <source>Warning - Using old MPlayer</source>
         <translation>אזהרה - גרסא ישנה של MPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4763"/>
+        <location filename="../basegui.cpp" line="4772"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>הגרסא של MPlayer (%1) שמותקנת במערכתך הינה מיושנת. SMPlayer לא מסוגל לעבוד עם זו היטב: אפשרויות מסוימות לא יעבדו, מבחר כתובית עשוי להיכשל...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4768"/>
+        <location filename="../basegui.cpp" line="4777"/>
         <source>Please, update your MPlayer.</source>
         <translation>אנא עדכן את MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4770"/>
+        <location filename="../basegui.cpp" line="4779"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(אזהרה זו לא תוצג עוד)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1884"/>
+        <location filename="../basegui.cpp" line="1887"/>
         <source>Next aspect ratio</source>
         <translation>יחס רוחב גובה בא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1723"/>
+        <location filename="../basegui.cpp" line="1726"/>
         <source>&amp;Auto zoom</source>
         <translation>זום &amp;אוטומטי</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1724"/>
+        <location filename="../basegui.cpp" line="1727"/>
         <source>Zoom for &amp;16:9</source>
         <translation>זום מיוחד &amp;16:9</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1725"/>
+        <location filename="../basegui.cpp" line="1728"/>
         <source>Zoom for &amp;2.35:1</source>
         <translation>זום מיוחד &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2019"/>
+        <location filename="../basegui.cpp" line="2022"/>
         <source>&amp;Always</source>
         <translation>&amp;תמיד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Never</source>
         <translation>&amp;אף פעם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2021"/>
+        <location filename="../basegui.cpp" line="2024"/>
         <source>While &amp;playing</source>
         <translation>במהלך &amp;נגינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2105"/>
+        <location filename="../basegui.cpp" line="2108"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;תפריט</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2107"/>
+        <location filename="../basegui.cpp" line="2110"/>
         <source>DVD &amp;previous menu</source>
         <translation>DVD תפריט &amp;קודם</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2101"/>
+        <location filename="../basegui.cpp" line="2104"/>
         <source>DVD menu, move up</source>
         <translation>DVD תפריט, הזז מעלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2102"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>DVD menu, move down</source>
         <translation>DVD תפריט, הזז מטה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2103"/>
+        <location filename="../basegui.cpp" line="2106"/>
         <source>DVD menu, move left</source>
         <translation>DVD תפריט, הזז שמאלה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2104"/>
+        <location filename="../basegui.cpp" line="2107"/>
         <source>DVD menu, move right</source>
         <translation>DVD תפריט, הזז ימינה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2106"/>
+        <location filename="../basegui.cpp" line="2109"/>
         <source>DVD menu, select option</source>
         <translation>DVD תפריט, בחר אפשרות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2111"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD תפריט, קליק עכבר</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1750"/>
+        <location filename="../basegui.cpp" line="1753"/>
         <source>Set dela&amp;y...</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1766"/>
+        <location filename="../basegui.cpp" line="1769"/>
         <source>Se&amp;t delay...</source>
         <translation>&amp;קבע שיהוי...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4427"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;קפוץ אל:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4417"/>
+        <location filename="../basegui.cpp" line="4428"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - חיפוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4428"/>
-        <location filename="../basegui.cpp" line="4432"/>
+        <location filename="../basegui.cpp" line="4439"/>
+        <location filename="../basegui.cpp" line="4443"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - שיהוי אודיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4429"/>
-        <location filename="../basegui.cpp" line="4433"/>
+        <location filename="../basegui.cpp" line="4440"/>
+        <location filename="../basegui.cpp" line="4444"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>שיהוי אודיו (במאיות שניה):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4444"/>
-        <location filename="../basegui.cpp" line="4448"/>
+        <location filename="../basegui.cpp" line="4455"/>
+        <location filename="../basegui.cpp" line="4459"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - שיהוי כתובית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4445"/>
-        <location filename="../basegui.cpp" line="4449"/>
+        <location filename="../basegui.cpp" line="4456"/>
+        <location filename="../basegui.cpp" line="4460"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>שיהוי כתובית (במאיות שניה):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2022"/>
+        <location filename="../basegui.cpp" line="2025"/>
         <source>Toggle stay on top</source>
         <translation>תמיד השאר בשיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5295"/>
+        <location filename="../basegui.cpp" line="5304"/>
         <source>Jump to %1</source>
         <translation>‭%1 לא ץופק</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1709"/>
+        <location filename="../basegui.cpp" line="1712"/>
         <source>Start/stop takin&amp;g screenshots</source>
         <translation>התחל/הפסק ל&amp;קחת תצלומי מסך</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1782"/>
+        <location filename="../basegui.cpp" line="1785"/>
         <source>Subtitle &amp;visibility</source>
         <translation>&amp;ראות כתובית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1885"/>
+        <location filename="../basegui.cpp" line="1888"/>
         <source>Next wheel function</source>
         <translation>פונקציית גלגל באה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2089"/>
+        <location filename="../basegui.cpp" line="2092"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>&amp;תוכנית</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1932"/>
+        <location filename="../basegui.cpp" line="1935"/>
         <source>&amp;TV</source>
         <translation>&amp;טלוויזיה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1935"/>
+        <location filename="../basegui.cpp" line="1938"/>
         <source>Radi&amp;o</source>
         <translation>&amp;רדיו</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1893"/>
+        <location filename="../basegui.cpp" line="1896"/>
         <source>Subtitles onl&amp;y</source>
         <translation>כתוביות &amp;בלבד</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1894"/>
+        <location filename="../basegui.cpp" line="1897"/>
         <source>Volume + &amp;Seek</source>
         <translation>ויסות עוצמת שמע + &amp;חיפוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1895"/>
+        <location filename="../basegui.cpp" line="1898"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>ויסות עוצמת שמע + חיפוש + &amp;קוצב זמן</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1896"/>
+        <location filename="../basegui.cpp" line="1899"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>ויסות עוצמת שמע + חיפוש + קוצב זמן + זמן &amp;כולל</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1578"/>
+        <location filename="../basegui.cpp" line="1581"/>
         <source>Video filters are disabled when using vdpau</source>
         <translation>מסנני וידאו הינם מנוטרלים כאשר vdpau מצוי בשימוש</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1716"/>
+        <location filename="../basegui.cpp" line="1719"/>
         <source>Fli&amp;p image</source>
         <translation>&amp;הפוך תמונה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1956"/>
+        <location filename="../basegui.cpp" line="1959"/>
         <source>Zoo&amp;m</source>
         <translation>&amp;זום</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1887"/>
+        <location filename="../basegui.cpp" line="1890"/>
         <source>Show filename on OSD</source>
         <translation>הצג שם קובץ עם OSD</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1686"/>
+        <location filename="../basegui.cpp" line="1689"/>
         <source>Set &amp;A marker</source>
         <translation>קבע נקודת &amp;A‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1687"/>
+        <location filename="../basegui.cpp" line="1690"/>
         <source>Set &amp;B marker</source>
         <translation>קבע נקודת &amp;B‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1688"/>
+        <location filename="../basegui.cpp" line="1691"/>
         <source>&amp;Clear A-B markers</source>
         <translation>&amp;טהר נקודות A-B‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1942"/>
+        <location filename="../basegui.cpp" line="1945"/>
         <source>&amp;A-B section</source>
         <translation>נקודות &amp;A-B‏</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1889"/>
+        <location filename="../basegui.cpp" line="1892"/>
         <source>Toggle deinterlacing</source>
         <translation>החלף איון שזירה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2067"/>
+        <location filename="../basegui.cpp" line="2070"/>
         <source>&amp;Closed captions</source>
         <translation>&amp;כותרות מוסגרות</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1925"/>
+        <location filename="../basegui.cpp" line="1928"/>
         <source>&amp;Disc</source>
         <translation>&amp;תקליטור</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1929"/>
+        <location filename="../basegui.cpp" line="1932"/>
         <source>F&amp;avorites</source>
         <translation>מו&amp;עדפים</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1823"/>
+        <location filename="../basegui.cpp" line="1826"/>
         <source>Check for &amp;updates</source>
         <translation>&amp;בדוק עבור עדכונים</translation>
     </message>
@@ -1993,38 +1995,38 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>‭%1 :עמש תמצוע</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4035"/>
+        <location filename="../core.cpp" line="4045"/>
         <source>Zoom: %1</source>
         <translation>‭%1 :םוז</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4263"/>
+        <location filename="../core.cpp" line="4273"/>
         <source>Buffering...</source>
         <translation>אוגר כעת...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3289"/>
-        <location filename="../core.cpp" line="3300"/>
+        <location filename="../core.cpp" line="3299"/>
+        <location filename="../core.cpp" line="3310"/>
         <source>Font scale: %1</source>
         <translation>‭%1 :ןפוג לש הדימ הנק</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3876"/>
+        <location filename="../core.cpp" line="3886"/>
         <source>Aspect ratio: %1</source>
         <translation>‭%1 :הבוג בחור סחי</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4259"/>
+        <location filename="../core.cpp" line="4269"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>מעדכן כעת מטמון גופנים. זה עשוי לקחת כמה שניות...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3214"/>
+        <location filename="../core.cpp" line="3224"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>‭ש&quot;מ %1 :תויבותכ יוהיש</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3232"/>
+        <location filename="../core.cpp" line="3242"/>
         <source>Audio delay: %1 ms</source>
         <translation>‭ש&quot;מ %1 :וידוא יוהיש</translation>
     </message>
@@ -2044,42 +2046,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>אין אפשרות לאתר כתובת URL של וידאו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3377"/>
+        <location filename="../core.cpp" line="3387"/>
         <source>Subtitles on</source>
         <translation>‭קולד :תויבותכ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3379"/>
+        <location filename="../core.cpp" line="3389"/>
         <source>Subtitles off</source>
         <translation>‭יובכ :תויבותכ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3924"/>
+        <location filename="../core.cpp" line="3934"/>
         <source>Mouse wheel seeks now</source>
         <translation>גלגל עכבר: מחפש עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3927"/>
+        <location filename="../core.cpp" line="3937"/>
         <source>Mouse wheel changes volume now</source>
         <translation>גלגל עכבר: משנה עוצמת שמע עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3930"/>
+        <location filename="../core.cpp" line="3940"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>גלגל עכבר: משנה רמת זון עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3933"/>
+        <location filename="../core.cpp" line="3943"/>
         <source>Mouse wheel changes speed now</source>
         <translation>גלגל עכבר: משנה מהירות עכשיו</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4237"/>
+        <location filename="../core.cpp" line="4247"/>
         <source>Screenshot saved as %1</source>
         <translation>צילום מסך נשמר בתור %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4268"/>
+        <location filename="../core.cpp" line="4278"/>
         <source>Starting...</source>
         <translation>כעת מתחיל...</translation>
     </message>
@@ -2144,7 +2146,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="530"/>
         <source>Ready</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="589"/>
@@ -2195,7 +2197,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../defaultgui.cpp" line="603"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2211,7 +2213,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2441,13 +2443,13 @@ The configuration dialog will be shown now, so you can do it.</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2492,12 +2494,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="88"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="89"/>
@@ -2550,7 +2552,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">אפשרויות</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -2605,12 +2607,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
         <source>Number of &amp;retries:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2673,7 +2675,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>כתובית %n חולצה</numerusform><numerusform>%n כתוביות חולצו</numerusform></translation>
+        <translation>
+            <numerusform>כתובית %n חולצה</numerusform>
+            <numerusform>%n כתוביות חולצו</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2771,7 +2776,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>זה לא היה אפשרי ללשמור את הקובץ
@@ -3714,7 +3719,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="203"/>
         <source>Xhosa</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="204"/>
@@ -3729,7 +3734,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="206"/>
         <source>Zhuang</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="207"/>
@@ -3806,7 +3811,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="302"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="303"/>
@@ -4002,7 +4007,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
@@ -4047,12 +4052,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
@@ -4068,7 +4073,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
@@ -4144,7 +4149,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="333"/>
         <source>Slovene</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4395,56 +4400,56 @@ Do you want to overwrite?</source>
         <translation>&amp;ערוך</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="916"/>
-        <location filename="../playlist.cpp" line="941"/>
+        <location filename="../playlist.cpp" line="935"/>
+        <location filename="../playlist.cpp" line="960"/>
         <source>Playlists</source>
         <translation>רשימות נגינה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="914"/>
+        <location filename="../playlist.cpp" line="933"/>
         <source>Choose a file</source>
         <translation>בחירת קובץ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="939"/>
+        <location filename="../playlist.cpp" line="958"/>
         <source>Choose a filename</source>
         <translation>בחירת שם קובץ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="950"/>
+        <location filename="../playlist.cpp" line="969"/>
         <source>Confirm overwrite?</source>
         <translation>לאמת החלפה?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="951"/>
+        <location filename="../playlist.cpp" line="970"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>הקובץ %1 כבר קיים, האם ברצונך להחליף?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="916"/>
-        <location filename="../playlist.cpp" line="941"/>
-        <location filename="../playlist.cpp" line="1155"/>
+        <location filename="../playlist.cpp" line="935"/>
+        <location filename="../playlist.cpp" line="960"/>
+        <location filename="../playlist.cpp" line="1174"/>
         <source>All files</source>
         <translation>כל הקבצים</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1152"/>
+        <location filename="../playlist.cpp" line="1171"/>
         <source>Select one or more files to open</source>
         <translation>בחירת קובץ אחד או יותר לפתיחה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1220"/>
+        <location filename="../playlist.cpp" line="1239"/>
         <source>Choose a directory</source>
         <translation>בחירת מדור</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1427"/>
+        <location filename="../playlist.cpp" line="1446"/>
         <source>Edit name</source>
         <translation>עריכת שם</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1428"/>
+        <location filename="../playlist.cpp" line="1447"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>הקלד את השם שיופיע בתוך הרשימה עבור קובץ זה:</translation>
     </message>
@@ -4529,37 +4534,37 @@ Do you want to overwrite?</source>
         <translation>SMPlayer - רשימת נגינה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1458"/>
+        <location filename="../playlist.cpp" line="1477"/>
         <source>Confirm deletion</source>
         <translation>אמת מחיקה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1459"/>
+        <location filename="../playlist.cpp" line="1478"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>אתה עומד למחוק את הקובץ &apos;%1&apos; מתוך הכונן שלך.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1460"/>
+        <location filename="../playlist.cpp" line="1479"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>פעולה זו לא ניתנת לביטול. האם אתה בטוח כי ברצונך להמשיך?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1472"/>
+        <location filename="../playlist.cpp" line="1491"/>
         <source>Deletion failed</source>
         <translation>מחיקה נכשלה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1473"/>
+        <location filename="../playlist.cpp" line="1492"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>זה לא היה אפשרי למחוק את &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1478"/>
+        <location filename="../playlist.cpp" line="1497"/>
         <source>Error deleting the file</source>
         <translation>שגיאה במחיקת הקובץ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1479"/>
+        <location filename="../playlist.cpp" line="1498"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>אין זה אפשרי למחוק את &apos;%1&apos; מתוך המערכת קבצים.</translation>
     </message>
@@ -4574,17 +4579,17 @@ Do you want to overwrite?</source>
         <translation>הסר...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="983"/>
+        <location filename="../playlist.cpp" line="1002"/>
         <source>Playlist modified</source>
         <translation>רשימת נגינה שונתה</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="984"/>
+        <location filename="../playlist.cpp" line="1003"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>קיימים שינויים שלא נשמרו, האם ברצונך לשמור את רשימת הנגינה?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1154"/>
+        <location filename="../playlist.cpp" line="1173"/>
         <source>Multimedia</source>
         <translation>מולטימדיה</translation>
     </message>
@@ -4662,13 +4667,13 @@ Do you want to overwrite?</source>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="438"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="612"/>
@@ -4718,7 +4723,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -4813,7 +4818,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="570"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="571"/>
@@ -4828,17 +4833,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="577"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="582"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="583"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="589"/>
@@ -4853,17 +4858,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
@@ -4873,73 +4878,73 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="474"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Report %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="508"/>
@@ -4964,18 +4969,18 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="543"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="546"/>
@@ -5084,12 +5089,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefassociations.cpp" line="234"/>
         <source>Note:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5188,7 +5193,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5219,8 +5224,8 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="108"/>
-        <location filename="../prefgeneral.cpp" line="910"/>
+        <location filename="../prefgeneral.cpp" line="130"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>General</source>
         <translation>כלליות</translation>
     </message>
@@ -5230,904 +5235,933 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;כלליות</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="53"/>
+        <location filename="../prefgeneral.ui" line="76"/>
         <source>Media settings</source>
         <translation>הגדרות מדיה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Start videos in fullscreen</source>
         <translation>התחל וידאו במסך מלא</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Disable screensaver</source>
         <translation>נטרל שומר מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="148"/>
         <source>Select the mplayer executable</source>
-        <translation>בחירת מגשר עורפי mplayer</translation>
+        <translation type="obsolete">בחירת מגשר עורפי mplayer</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="121"/>
+        <location filename="../prefgeneral.cpp" line="152"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (6.1 סראונד)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="122"/>
+        <location filename="../prefgeneral.cpp" line="153"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (7.1 סראונד)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="150"/>
+        <location filename="../prefgeneral.cpp" line="179"/>
+        <source>Select the %1 executable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="181"/>
         <source>Executables</source>
         <translation>ברי השמה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="152"/>
+        <location filename="../prefgeneral.cpp" line="183"/>
         <source>All files</source>
         <translation>כל הקבצים</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="154"/>
+        <location filename="../prefgeneral.cpp" line="185"/>
         <source>Select a directory</source>
         <translation>בחירת מדור</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="166"/>
+        <location filename="../prefgeneral.cpp" line="198"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="374"/>
-        <location filename="../prefgeneral.cpp" line="375"/>
+        <location filename="../prefgeneral.cpp" line="407"/>
+        <location filename="../prefgeneral.cpp" line="408"/>
         <source>Default</source>
         <translation>שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="912"/>
+        <location filename="../prefgeneral.cpp" line="984"/>
+        <source>Multimedia engine</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="985"/>
+        <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="986"/>
+        <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>%1 executable</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="913"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="941"/>
+        <location filename="../prefgeneral.cpp" line="1018"/>
         <source>Screenshots folder</source>
         <translation>תיקיית תצלום מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="947"/>
+        <location filename="../prefgeneral.cpp" line="1024"/>
         <source>Template for screenshots</source>
         <translation>תבנית לתצלומי מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="949"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="950"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="960"/>
+        <location filename="../prefgeneral.cpp" line="1037"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="961"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="979"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Video output driver</source>
         <translation>התקן פלט וידאו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1083"/>
+        <location filename="../prefgeneral.cpp" line="1160"/>
         <source>Audio output driver</source>
         <translation>התקן פלט אודיו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Select the audio output driver.</source>
         <translation>בחר התקן פלט של אודיו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="918"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>Remember settings</source>
         <translation>זכור הגדרות</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1159"/>
+        <location filename="../prefgeneral.cpp" line="1236"/>
         <source>Preferred audio language</source>
         <translation>שפת אודיו מועדפת</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1169"/>
+        <location filename="../prefgeneral.cpp" line="1246"/>
         <source>Preferred subtitle language</source>
         <translation>שפת כתובית מועדפת</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1023"/>
+        <location filename="../prefgeneral.cpp" line="1100"/>
         <source>Software video equalizer</source>
         <translation>מאזן וידאו תוכנה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="948"/>
+        <location filename="../prefgeneral.cpp" line="145"/>
+        <source>Other...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1025"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="952"/>
+        <location filename="../prefgeneral.cpp" line="1029"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="956"/>
-        <location filename="../prefgeneral.cpp" line="963"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
+        <location filename="../prefgeneral.cpp" line="1040"/>
         <source>This option only works with mpv.</source>
         <translation>אפשרות זו עובדת רק עם mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="978"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>Shut down computer</source>
         <translation>כבה מחשב</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>באפשרותך לסמן את אפשרות זו אם מאזן וידאו אינו נתמך על ידי כרטיס המסך שלך או על ידי התקן פלט הוידאו הנבחר.&lt;br&gt;&lt;b&gt;הערה:&lt;/b&gt; אפשרות זו עשויה שלא להתאים עם התקני פלט וידאו מסוימים .</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1123"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>במידה ואפשרות זו מסומנת, כל הסרטונים יתחילו במצב של מסך מלא.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>Global audio equalizer</source>
         <translation>מאזן אודיו גלובלי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1184"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>במידה ואפשרות זאת נבחרה על קבצי המדיה חולקים את אותו המאזן.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1108"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1213"/>
         <source>Software volume control</source>
         <translation>בקרת עוצמת שמע תוכנה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>סמן את אפשרות זו כדי להשתמש במערבל תוכנה, במקום להשתמש במערבל כרטיס קול.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1009"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Postprocessing quality</source>
         <translation>איכות עובר-עיבוד</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>משנה באופן עובר-עיבוד באופן נמרץ בהתאם לרזרבה הזמינה של זמן CPU. המספר שתציין יהיה הרמה הגבוהה ביותר שתנוצל. לרוב באפשרותך להשתמש במספר גדול במידת מה.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1122"/>
+        <location filename="../prefgeneral.ui" line="1145"/>
         <source>&amp;Audio:</source>
         <translation>או&amp;דיו:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="59"/>
+        <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
         <translation>&amp;זכור הגדרות לכל הקבצים (רצועות שמע, כתוביות...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1141"/>
+        <location filename="../prefgeneral.ui" line="1164"/>
         <source>Su&amp;btitles:</source>
         <translation>&amp;כתוביות:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="415"/>
+        <location filename="../prefgeneral.ui" line="438"/>
         <source>&amp;Quality:</source>
         <translation>אי&amp;כות:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="187"/>
+        <location filename="../prefgeneral.ui" line="35"/>
+        <source>Multimedia &amp;engine:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="210"/>
         <source>Temp&amp;late:</source>
         <translation>תב&amp;נית:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="207"/>
+        <location filename="../prefgeneral.ui" line="230"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="275"/>
+        <location filename="../prefgeneral.ui" line="298"/>
         <source>S&amp;hut down computer</source>
         <translation>&amp;כבה מחשב</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="580"/>
+        <location filename="../prefgeneral.ui" line="603"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>התחל וידאו ב&amp;מסך מלא</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="594"/>
+        <location filename="../prefgeneral.ui" line="617"/>
         <source>Disable &amp;screensaver</source>
         <translation>נטרל שומר מ&amp;סך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="728"/>
+        <location filename="../prefgeneral.ui" line="751"/>
         <source>Global audio e&amp;qualizer</source>
         <translation>מא&amp;זן אודיו גלובלי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="847"/>
+        <location filename="../prefgeneral.ui" line="870"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>השתמש בבקרת עוצמת שמע של &amp;תוכנה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="870"/>
+        <location filename="../prefgeneral.ui" line="893"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>הגברה &amp;מרבית:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="737"/>
+        <location filename="../prefgeneral.ui" line="760"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS מקום-חצייה S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1106"/>
         <source>Direct rendering</source>
         <translation>Direct rendering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Double buffering</source>
         <translation>אגירה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="546"/>
+        <location filename="../prefgeneral.ui" line="569"/>
         <source>D&amp;irect rendering</source>
         <translation>&amp;Direct rendering</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="553"/>
+        <location filename="../prefgeneral.ui" line="576"/>
         <source>Dou&amp;ble buffering</source>
         <translation>א&amp;גירה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1035"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>אגירה כפולה מתקנת הבלחה בעזרת אחסון שתי מסגרות בזיכרון, ובהצגת אחת בעת פענוח האחרת. במידה ומנוטרלת זו יכולה להשפיע באופן שלילי על OSD, אולם לעתים תכופות מסירה הבלחת OSD.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="395"/>
+        <location filename="../prefgeneral.ui" line="418"/>
         <source>&amp;Enable postprocessing by default</source>
         <translation>אפ&amp;שר עובר-עיבוד באופן שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="898"/>
+        <location filename="../prefgeneral.ui" line="921"/>
         <source>Volume &amp;normalization by default</source>
         <translation>&amp;נורמליזציית עוצמת שמע באופן שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="973"/>
+        <location filename="../prefgeneral.cpp" line="1050"/>
         <source>Close when finished</source>
         <translation>סגור בעת סיום</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="974"/>
+        <location filename="../prefgeneral.cpp" line="1051"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>במידה ואפשרות זו מסומנת, החלון הראשי יסגר אוטומטית כאשר הקובץ/רשימת הנגינה הנוכחית מסתיימת.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="118"/>
+        <location filename="../prefgeneral.cpp" line="149"/>
         <source>2 (Stereo)</source>
         <translation>2 (סטריאו)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="119"/>
+        <location filename="../prefgeneral.cpp" line="150"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 סראונד)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="120"/>
+        <location filename="../prefgeneral.cpp" line="151"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 סראונד)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="752"/>
+        <location filename="../prefgeneral.ui" line="775"/>
         <source>C&amp;hannels by default:</source>
         <translation>ערו&amp;צים ברירת מחדל:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="236"/>
+        <location filename="../prefgeneral.ui" line="259"/>
         <source>&amp;Pause when minimized</source>
         <translation>&amp;השהה בעת מזעור</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="968"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Pause when minimized</source>
         <translation>השהה בעת מזעור</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Enable postprocessing by default</source>
         <translation>אפשר עובר-עיבוד באופן שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1217"/>
         <source>Max. Amplification</source>
         <translation>הגברה מרבית</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
+        <location filename="../prefgeneral.cpp" line="1188"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS מקום-חצייה S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1147"/>
+        <location filename="../prefgeneral.cpp" line="1224"/>
         <source>Volume normalization by default</source>
         <translation>נורמליזציית עוצמת שמע באופן שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1225"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>ממקסמת את עוצמת השמע מבלי לסלף צלילים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Channels by default</source>
         <translation>ערוצים ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>קובעת את ההגברה המרבית באחוז (ברירת מחדל: 110). ערך של 200 יתיר לך להתאים את עוצמת השמע עד אל מירוב כפול של הרמה הנוכחית. עם ערכים מתחת 100 עוצמת השמע הראשונית (קרי 100%) תהיה מעל למקסימום, זו למשל OSD לא תוכל להיראות באופן מדויק.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1007"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>עובר-עיבוד ינוצל באופן שגרתי עבור קבצים פתוחים חדשים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
+        <location filename="../prefgeneral.cpp" line="1256"/>
         <source>Audio track</source>
         <translation>רצועת אודיו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>מציינת רצועת אודיו שגרתית אשר תנוצל בעת נגינת קבצים חדשים. במידה והרצועה לא קיימת, הראשונה תימצא בשימוש. &lt;br&gt;&lt;b&gt;הערה:&lt;/b&gt; לאפשרות &lt;i&gt;&quot;שפת אודיו מועדפת&quot;&lt;/i&gt; יש עדיפות על אפשרות זו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1262"/>
         <source>Subtitle track</source>
         <translation>רצועת כתובית</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1263"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>מציינת רצועת כתובית שגרתית אשר תנוצל בעת נגינת קבצים חדשים. במידה והרצועה לא קיימת, הראשונה תימצא בשימוש. &lt;br&gt;&lt;b&gt;הערה:&lt;/b&gt; לאפשרות &lt;i&gt;&quot;שפת כתובית מועדפת&quot;&lt;/i&gt; יש עדיפות על אפשרות זו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1250"/>
+        <location filename="../prefgeneral.ui" line="1273"/>
         <source>Or choose a track number:</source>
         <translation>או בחר מספר רצועה:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1191"/>
+        <location filename="../prefgeneral.ui" line="1214"/>
         <source>Audi&amp;o:</source>
         <translation>א&amp;ודיו:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1157"/>
+        <location filename="../prefgeneral.ui" line="1180"/>
         <source>Preferred language:</source>
         <translation>שפה מועדפת:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1049"/>
+        <location filename="../prefgeneral.ui" line="1072"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>כתוביות ואודיו מו&amp;עדפים</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1204"/>
+        <location filename="../prefgeneral.ui" line="1227"/>
         <source>&amp;Subtitle:</source>
         <translation>כ&amp;תובית:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="157"/>
+        <location filename="../prefgeneral.cpp" line="188"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>כאן באפשרותך להקליד את השפה המועדפת עליך עבור זרמי אודיו וכתובית. כאשר מצויה מדיה בעלת זרמים מרובים של אודיו או כתובית, SMPlayer ינסה להשתמש בשפה המועדפת עליך. זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי האודיו או הכתובית, כמו תקליטי DVD או קבצי mkv.&lt;br&gt;שדות אלו מקבלות ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את הרצועה אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="788"/>
+        <location filename="../prefgeneral.ui" line="811"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>נגינה במהירות גבוהה ללא שינוי &amp;pitch</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1204"/>
         <source>High speed playback without altering pitch</source>
         <translation>נגינה במהירות גבוהה ללא שינוי pitch</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="315"/>
+        <location filename="../prefgeneral.ui" line="338"/>
         <source>&amp;Video</source>
         <translation>&amp;וידאו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="539"/>
+        <location filename="../prefgeneral.ui" line="562"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>השתמש במאזן וידאו של &amp;תוכנה</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="638"/>
+        <location filename="../prefgeneral.ui" line="661"/>
         <source>A&amp;udio</source>
         <translation>או&amp;דיו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="823"/>
+        <location filename="../prefgeneral.ui" line="846"/>
         <source>Volume</source>
         <translation>עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="983"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Video</source>
         <translation>וידאו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1158"/>
         <source>Audio</source>
         <translation>אודיו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1234"/>
         <source>Preferred audio and subtitles</source>
         <translation>כתוביות ואודיו מועדפים</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="126"/>
+        <location filename="../prefgeneral.cpp" line="157"/>
         <source>None</source>
         <translation>אל תאיין</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="127"/>
+        <location filename="../prefgeneral.cpp" line="158"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="128"/>
+        <location filename="../prefgeneral.cpp" line="159"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (רגילה)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="129"/>
+        <location filename="../prefgeneral.cpp" line="160"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (שיעור מסגרת כפול)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="130"/>
+        <location filename="../prefgeneral.cpp" line="161"/>
         <source>Linear Blend</source>
         <translation>שילוב לינארי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="131"/>
+        <location filename="../prefgeneral.cpp" line="162"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Deinterlace by default</source>
         <translation>איין שזירה באופן שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>בחר מסננת איון שזירה אשר ברצונך לתעל עבור סרטונים חדשים שנפתחים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="923"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>Remember time position</source>
         <translation>זכור ציר זמן</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="93"/>
+        <location filename="../prefgeneral.ui" line="116"/>
         <source>Remember &amp;time position</source>
         <translation>ז&amp;כור ציר זמן</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1103"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Enable the audio equalizer</source>
         <translation>אפשר מאזן אודיו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>סמן את אפשרות זו אם ברצונך להשתמש במאזן אודיו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="705"/>
+        <location filename="../prefgeneral.ui" line="728"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>אפ&amp;שר מאזן אודיו</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1039"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Draw video using slices</source>
         <translation>שרטט וידאו בעזרת פרוסות</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>אפשר/נטרל שרטוט וידאו בפרוסות/פסים של 16-פיקסל גובה. היה וזו מנוטרלת, כל המסגרת תהה משורטטת בהרצה בודדת. עשויה להיות מהירה יותר או איטית יותר, תלוי על כרטיס מסך ועל מטמון זמין. לזו יש תוצא רק עם הקודק libmpeg2 ועם הקודק libavcodec.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="560"/>
+        <location filename="../prefgeneral.ui" line="583"/>
         <source>Dra&amp;w video using slices</source>
         <translation>שר&amp;טט וידאו בעזרת פרוסות</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="243"/>
+        <location filename="../prefgeneral.ui" line="266"/>
         <source>&amp;Close when finished playback</source>
         <translation>&amp;סגור בעת סיום פס קול</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="382"/>
-        <location filename="../prefgeneral.cpp" line="389"/>
         <location filename="../prefgeneral.cpp" line="415"/>
+        <location filename="../prefgeneral.cpp" line="422"/>
+        <location filename="../prefgeneral.cpp" line="448"/>
         <source>fast</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="383"/>
-        <location filename="../prefgeneral.cpp" line="411"/>
-        <source>slow</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="416"/>
-        <source>fast - ATI cards</source>
-        <translation type="unfinished"/>
+        <location filename="../prefgeneral.cpp" line="444"/>
+        <source>slow</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="438"/>
-        <location filename="../prefgeneral.cpp" line="467"/>
+        <location filename="../prefgeneral.cpp" line="449"/>
+        <source>fast - ATI cards</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="471"/>
+        <location filename="../prefgeneral.cpp" line="500"/>
         <source>User defined...</source>
         <translation>מוגדר משתמש...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Default zoom</source>
         <translation>זום שגרתי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1020"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>אפשרות זו קובעת את הזום השגרתי בו יעשה שימוש עבור סרטונים חדשים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="485"/>
+        <location filename="../prefgeneral.ui" line="508"/>
         <source>Default &amp;zoom:</source>
         <translation>&amp;זום שגרתי:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="915"/>
+        <location filename="../prefgeneral.cpp" line="992"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>היה ואפשרות זו מכוונת בצורה שגויה, SMPlayer לא יוכל לנגן מאום!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="986"/>
+        <location filename="../prefgeneral.cpp" line="1063"/>
         <source>Select the video output driver. %1 provides the best performance.</source>
         <translation>בחר התקן פלט של וידאו. %1 מספק את הביצועים הטובים ביותר.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1094"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>%1 is the recommended one. Try to avoid %2 and %3, they are slow and can have an impact on performance.</source>
         <translation>%1 הינו ההתקן המומלץ. נסה להימנע מן %2 וגם מן %3, אלה איטיים ועלולים לפגוע בביצועים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="919"/>
+        <location filename="../prefgeneral.cpp" line="996"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>בדרך כלל SMPlayer יזכור את ההגדרות עבור כל קובץ שאתה מנגן (רצועת אודיו נבחרת, עוצמת שמע, מסננים...). נטרל את אפשרות זו אם אין לך רצון באפשרות זו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="969"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>במידה ואפשרות זו מאופשרת, הקובץ יושהה כאשר החלון הראשי מוסתר. כאשר החלון משוחזר, השמעת הקלטה תחודש.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1075"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>סמן את אפשרות זו כדי לנטרל שור מסך במהלך נגינה.&lt;br&gt;שומר מסך יאופשר שוב כאשר נגינה מפסיקה.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1160"/>
+        <location filename="../prefgeneral.cpp" line="1237"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>כאן באפשרותך להקליד את השפה המועדפת עליך עבור זרמי אודיו. כאשר מצויה מדיה בעלת זרמי אודיו מרובים, SMPlayer ינסה להשתמש בשפה המועדפת עליך.&lt;br&gt;זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי האודיו, כגון DVD או קבצי mkv.&lt;br&gt;שדה זה מקבל ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את רצועת האודיו אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1170"/>
+        <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>כאן באפשרותך להקליד את השפה המועדפת עליך עבור זרמי כתובית. כאשר מצויה מדיה בעלת זרמי כתובית מרובים, SMPlayer ינסה להשתמש בשפה המועדפת עליך.&lt;br&gt;זו תעבוד רק עם מדיה שמציעה מידע אודות השפה של זרמי הכתובית, כגון DVD או קבצי mkv.&lt;br&gt;שדה זה מקבל ביטויים רגולריים. דוגמא: &lt;b&gt;es|esp|spa&lt;/b&gt; יבחר את רצועת הכתובית אם זו מתאימה עם &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; או &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="323"/>
-        <location filename="../prefgeneral.ui" line="646"/>
+        <location filename="../prefgeneral.ui" line="346"/>
+        <location filename="../prefgeneral.ui" line="669"/>
         <source>Ou&amp;tput driver:</source>
         <translation>התקן &amp;פלט:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Add black borders on fullscreen</source>
         <translation>הוסף גבולות שחורים במסך מלא</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>במידה ואפשרות זו מאופשרת, גבולות שחורים יוספו אל התמונה במצב מסך מלא. זו מתירה לכתוביות להיות מוצגות על הגבולות השחורים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="587"/>
+        <location filename="../prefgeneral.ui" line="610"/>
         <source>&amp;Add black borders on fullscreen</source>
         <translation>&amp;הוסף גבולות שחורים במסך מלא</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="136"/>
+        <location filename="../prefgeneral.cpp" line="167"/>
         <source>one ini file</source>
         <translation>קובץ ini אחד</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="137"/>
+        <location filename="../prefgeneral.cpp" line="168"/>
         <source>multiple ini files</source>
         <translation>קבצי ini מרובים</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="928"/>
+        <location filename="../prefgeneral.cpp" line="1005"/>
         <source>Method to store the file settings</source>
         <translation>שיטה לאחסון הגדרות קובץ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="929"/>
+        <location filename="../prefgeneral.cpp" line="1006"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>אפשרות זו מתירה לך לשנות את הדרך בה הגדרות קובץ יאוחסנו . לרשותך עומדות האפשרויות הבאות:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="931"/>
+        <location filename="../prefgeneral.cpp" line="1008"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;קובץ ini אחד&lt;/b&gt;: ההגדרות עבור כל הקבצים המנוגנים ישמרו בתוך קובץ ini בודד (‎%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="935"/>
+        <location filename="../prefgeneral.cpp" line="1012"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>השיטה האחרונה עשויה להיות מהירה יותר בהינתן מידע של קבצים רבים.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="105"/>
+        <location filename="../prefgeneral.ui" line="128"/>
         <source>&amp;Store settings in</source>
         <translation>אחסן הגדרות ב&amp;תוך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="933"/>
+        <location filename="../prefgeneral.cpp" line="1010"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;קבצי ini מרובים&lt;/b&gt;: קובץ ini אחד יתועל עבור כל קובץ מנוגן. קבצי ini יישמרו בתוך התיקייה ‎%1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="924"/>
+        <location filename="../prefgeneral.cpp" line="1001"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>במידה ותסמן את אפשרות זו, SMPlayer יזכור את המיקום האחרון של הקובץ כאשר תפתח אותו שוב. אפשרות זו עובדת רק עם קבצים רגילים (לא עם ‏DVD, ‏CD, ‏URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>במידה ומסומנת, הדלק direct rendering (לא נתמכת על ידי כל הקודקים ופלטי הוידאו)&lt;br&gt;&lt;b&gt;אזהרה:&lt;/b&gt; זו עלולה לגרום להשחתת OSD/SUB!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="937"/>
+        <location filename="../prefgeneral.cpp" line="1014"/>
         <source>Enable screenshots</source>
         <translation>אפשר תצלומי מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="938"/>
+        <location filename="../prefgeneral.cpp" line="1015"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>באפשרותך להשתמש באפשרות זו כדי לאפשר או לנטרל את האפשרות לקחת תצלומי מסך.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="942"/>
+        <location filename="../prefgeneral.cpp" line="1019"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>כאן באפשרותך לציין תיקייה בה תצלומי מסך שנלקחים בעזרת SMPlayer יאוחסנו. במידה והתיקייה אינה ברת תוקף תכונת תצלום מסך תנוטרל.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="142"/>
+        <location filename="../prefgeneral.ui" line="165"/>
         <source>Screenshots</source>
         <translation>תצלומי מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="148"/>
+        <location filename="../prefgeneral.ui" line="171"/>
         <source>&amp;Enable screenshots</source>
         <translation>אפשר ת&amp;צלומי מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="160"/>
+        <location filename="../prefgeneral.ui" line="183"/>
         <source>&amp;Folder:</source>
         <translation>&amp;תיקייה:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1130"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>Global volume</source>
         <translation>עוצמת שמע גלובלית</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1208"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>במידה ואפשרות זו מסומנת, אותה עומצת שמע תימצא בשימוש עבור כל הקבצים שתנגן. אם האפשרות אינה מסומנת כל קובץ משתמש בעוצמת השמע של עצמו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1211"/>
         <source>This option also applies for the mute control.</source>
         <translation>אפשרות זו חלה גם עבור בקרת השתק.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="832"/>
+        <location filename="../prefgeneral.ui" line="855"/>
         <source>Glo&amp;bal volume</source>
         <translation>עוצמת שמע גלו&amp;בלית</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Switch screensaver off</source>
         <translation>כבה שומר מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>אפשרות זו מכבה שומר מסך ממש לפני התחלת נגינת קובץ ומדליקה אותו כאשר פס קול מסתיים. במידה ואפשרות זו מאופשרת, שומר מסך יחדל מלהופיע גם אם מתנגנים קבצי אודיו או כאשר קובץ מושהה.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>Avoid screensaver</source>
         <translation>המנע משומר מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1144"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>כאשר אפשרות זו מסומנת, SMPlayer ינסה למנוע משומר מסך מלהופיע בעת נגינת קובץ וידאו. שומר מסך יותר להיראות כאשר מנוגן קובץ אודיו או כאשר מצוי במצב השהה. אפשרות זו עובדת רק כאשר חלון SMPlayer מצוי ברקע הקדמי.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="601"/>
+        <location filename="../prefgeneral.ui" line="624"/>
         <source>Screensaver</source>
         <translation>שומר מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="607"/>
+        <location filename="../prefgeneral.ui" line="630"/>
         <source>Swit&amp;ch screensaver off</source>
         <translation>כ&amp;בה שומר מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="614"/>
+        <location filename="../prefgeneral.ui" line="637"/>
         <source>Avoid &amp;screensaver</source>
         <translation>המנע מ&amp;שומר מסך</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1150"/>
+        <location filename="../prefgeneral.cpp" line="1227"/>
         <source>Audio/video auto synchronization</source>
         <translation>אודיו/וידאו סינכרון אוטומטי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1228"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>מתאימה בהדרגתיות סינכרון A/V בהתבסס על מדידות שיהוי אודיו.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1231"/>
         <source>A-V sync correction</source>
         <translation>סינכרון תיקון A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1155"/>
+        <location filename="../prefgeneral.cpp" line="1232"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>סינכרון תיקון A-V מרבי לכל מסגרת (בשניות)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="908"/>
+        <location filename="../prefgeneral.ui" line="931"/>
         <source>Synchronization</source>
         <translation>סינכרון</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="919"/>
+        <location filename="../prefgeneral.ui" line="942"/>
         <source>Audio/video auto &amp;synchronization</source>
         <translation>אודיו/וידאו &amp;סינכרון אוטומטי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="945"/>
+        <location filename="../prefgeneral.ui" line="968"/>
         <source>&amp;Factor:</source>
         <translation>&amp;גורם:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="981"/>
+        <location filename="../prefgeneral.ui" line="1004"/>
         <source>A-V sync &amp;correction</source>
         <translation>סינכרון &amp;תיקון A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1004"/>
+        <location filename="../prefgeneral.ui" line="1027"/>
         <source>&amp;Max. correction:</source>
         <translation>&amp;תיקון מרבי:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1017"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;הערה:&lt;/b&gt; אפשרות זו לא תתועל עבור ערוצי טלוויזיה.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="448"/>
+        <location filename="../prefgeneral.ui" line="471"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
         <translation>איין &amp;שזירה באופן שגרתי (חוץ מטלוויזיה):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1189"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>משתמשת במקום חצייה AC3 של חומרה.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1113"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;הערה:&lt;/b&gt; אף מסנן אודיו לא יהיה בשימוש כאשר אפשרות זו מאופשרת.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="390"/>
+        <location filename="../prefgeneral.cpp" line="423"/>
         <source>snap mode</source>
         <translation>מצב היתפסות</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="391"/>
+        <location filename="../prefgeneral.cpp" line="424"/>
         <source>slower dive mode</source>
         <translation>מצב צלילה איטי</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="446"/>
+        <location filename="../prefgeneral.cpp" line="479"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="447"/>
+        <location filename="../prefgeneral.cpp" line="480"/>
         <source>dart mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1088"/>
+        <location filename="../prefgeneral.cpp" line="1165"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
         <translation>%1 הינו ההתקן המומלץ. %2 זמין רק על MPlayer ישן יותר (טרם גרסא %3)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="352"/>
+        <location filename="../prefgeneral.ui" line="375"/>
         <source>Configu&amp;re...</source>
         <translation>&amp;הגדר...</translation>
     </message>
@@ -6150,35 +6184,41 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="138"/>
+        <location filename="../prefinput.ui" line="136"/>
         <source>Button functions:</source>
         <translation>פונקציות לחצן:</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="340"/>
+        <location filename="../prefinput.ui" line="333"/>
+        <source>Dra&amp;g function:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.ui" line="375"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
         <translation>אל תעורר לחיצה שמאלית באמצעות ל&amp;חיצה כפולה</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
-        <location filename="../prefinput.cpp" line="356"/>
+        <location filename="../prefinput.cpp" line="388"/>
         <source>Media seeking</source>
         <translation>חיפוש מדיה</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="146"/>
-        <location filename="../prefinput.cpp" line="359"/>
+        <location filename="../prefinput.cpp" line="391"/>
         <source>Volume control</source>
         <translation>בקרת עוצמת שמע</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="147"/>
-        <location filename="../prefinput.cpp" line="362"/>
+        <location filename="../prefinput.cpp" line="394"/>
         <source>Zoom video</source>
         <translation>וידאו זום</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="53"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>None</source>
         <translation>כלום</translation>
     </message>
@@ -6188,62 +6228,62 @@ Example: extrastereo,karaoke</source>
         <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או לחץ Enter על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.cpp" line="167"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>כאן באפשרותך לשנות כל מקש קיצור. בכדי לעשות זאת הקלק או התחל להקליד על תא קיצור דרך. כאופציה באפשרותך גם לשמור את הרשימה כדי לשתפה עם אנשים אחרים או להטעינה בתוך מחשב אחר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="148"/>
+        <location filename="../prefinput.ui" line="146"/>
         <source>&amp;Left click</source>
         <translation>קליק &amp;שמאלי</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="171"/>
+        <location filename="../prefinput.ui" line="169"/>
         <source>&amp;Double click</source>
         <translation>קליק &amp;כפול</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="292"/>
+        <location filename="../prefinput.ui" line="290"/>
         <source>&amp;Wheel function:</source>
         <translation>&amp;פונקציית גלגל:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="313"/>
+        <location filename="../prefinput.cpp" line="336"/>
         <source>Shortcut editor</source>
         <translation>עורך קיצור דרך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="314"/>
+        <location filename="../prefinput.cpp" line="337"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>טבלה זו מתירה לך לשנות קיצורי דרך של רוב הפעולות הזמינות. קליק כפול או לחץ enter על פריט, או לחץ על הלחצן &lt;b&gt;שנה קיצור דרך&lt;/b&gt; כדי להיכנס אל תיבת דו שיח &lt;i&gt;התאמת קיצור דרך&lt;/i&gt;. קיימות שתי דרכים לשנות קיצור דרך: כאשר הלחצן &lt;b&gt;תפוס&lt;/b&gt; מופעל אז פשוט תלחץ את המקש או את הצירוף החדש אשר ברצונך להקצות עבוד הפעולה (למרבה הצער זו לא עובדת עבור כל המקשים). כאשר הלחצן &lt;b&gt;תפוס&lt;/b&gt; כבוי אז באפשרותך להזין את השם המלא של המקש.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="326"/>
+        <location filename="../prefinput.cpp" line="349"/>
         <source>Left click</source>
         <translation>קליק שמאלי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="327"/>
+        <location filename="../prefinput.cpp" line="350"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק שמאלי בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="329"/>
+        <location filename="../prefinput.cpp" line="352"/>
         <source>Double click</source>
         <translation>קליק כפול</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="330"/>
+        <location filename="../prefinput.cpp" line="353"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק כפול בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="341"/>
+        <location filename="../prefinput.cpp" line="364"/>
         <source>Wheel function</source>
         <translation>פונקציית גלגל</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="342"/>
+        <location filename="../prefinput.cpp" line="365"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>בחר את הפעולה עבור גלגל העכבר.</translation>
     </message>
@@ -6329,7 +6369,7 @@ Example: extrastereo,karaoke</source>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="148"/>
-        <location filename="../prefinput.cpp" line="365"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Change speed</source>
         <translation>שנה מהירות</translation>
     </message>
@@ -6339,37 +6379,37 @@ Example: extrastereo,karaoke</source>
         <translation>מהירות רגילה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="311"/>
+        <location filename="../prefinput.cpp" line="334"/>
         <source>Keyboard</source>
         <translation>מקלדת</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="324"/>
+        <location filename="../prefinput.cpp" line="347"/>
         <source>Mouse</source>
         <translation>עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="332"/>
+        <location filename="../prefinput.cpp" line="355"/>
         <source>Middle click</source>
         <translation>קליק אמצעי</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="333"/>
+        <location filename="../prefinput.cpp" line="356"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>בחר את הפעולה עבור קליק תיכוני בעכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="217"/>
+        <location filename="../prefinput.ui" line="215"/>
         <source>M&amp;iddle click</source>
         <translation>קליק אמ&amp;צעי</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="230"/>
+        <location filename="../prefinput.ui" line="228"/>
         <source>X Button &amp;1</source>
         <translation>לחצן X‏ &amp;1</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="243"/>
+        <location filename="../prefinput.ui" line="241"/>
         <source>X Button &amp;2</source>
         <translation>לחצן X‏ &amp;2</translation>
     </message>
@@ -6414,7 +6454,7 @@ Example: extrastereo,karaoke</source>
         <translation>הצג תפריט הקשר</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="194"/>
+        <location filename="../prefinput.ui" line="192"/>
         <source>&amp;Right click</source>
         <translation>קליק &amp;ימני</translation>
     </message>
@@ -6429,22 +6469,22 @@ Example: extrastereo,karaoke</source>
         <translation>הנמך עוצמת שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="335"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>X Button 1</source>
         <translation>לחצן X‏ 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="336"/>
+        <location filename="../prefinput.cpp" line="359"/>
         <source>Select the action for the X button 1.</source>
         <translation>בחר פעולה עבור לחצן X‏ 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="338"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>X Button 2</source>
         <translation>לחצן X‏ 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="339"/>
+        <location filename="../prefinput.cpp" line="362"/>
         <source>Select the action for the X button 2.</source>
         <translation>בחר פעולה עבור לחצן X‏ 2.</translation>
     </message>
@@ -6524,19 +6564,51 @@ Example: extrastereo,karaoke</source>
         <translation>הפעל אפשרות הדגשה בתפריטי DVD</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="344"/>
+        <location filename="../prefinput.cpp" line="159"/>
+        <location filename="../prefinput.cpp" line="369"/>
+        <source>Move window</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="161"/>
+        <location filename="../prefinput.cpp" line="371"/>
+        <source>Seek and volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="367"/>
+        <source>Drag function</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="368"/>
+        <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="369"/>
+        <source>the main window is moved</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="372"/>
+        <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="376"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>אל תעורר לחיצה שמאלית באמצעות לחיצה כפולה</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="345"/>
+        <location filename="../prefinput.cpp" line="377"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="348"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
@@ -6544,76 +6616,76 @@ Example: extrastereo,karaoke</source>
         <translation>שנה פונקציה של גלגל</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="395"/>
+        <location filename="../prefinput.ui" line="428"/>
         <location filename="../prefinput.cpp" line="151"/>
         <source>Media &amp;seeking</source>
         <translation>חי&amp;פוש מדיה</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="409"/>
+        <location filename="../prefinput.ui" line="442"/>
         <location filename="../prefinput.cpp" line="152"/>
         <source>&amp;Zoom video</source>
         <translation>&amp;הקרב וידאו</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="402"/>
+        <location filename="../prefinput.ui" line="435"/>
         <location filename="../prefinput.cpp" line="153"/>
         <source>&amp;Volume control</source>
         <translation>בקרת עוצמת &amp;שמע</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="416"/>
+        <location filename="../prefinput.ui" line="449"/>
         <location filename="../prefinput.cpp" line="154"/>
         <source>&amp;Change speed</source>
         <translation>&amp;שנה מהירות</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="354"/>
+        <location filename="../prefinput.cpp" line="386"/>
         <source>Mouse wheel functions</source>
         <translation>פונקציות גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="357"/>
+        <location filename="../prefinput.cpp" line="389"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>סמן את זו כדי לאפשר חיפוש כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="360"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>סמן את זו כדי לאפשר שינוי עוצמה כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="363"/>
+        <location filename="../prefinput.cpp" line="395"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>סמן את זו כדי לאפשר זום כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="366"/>
+        <location filename="../prefinput.cpp" line="398"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>סמן את זו כדי לאפשר שינוי מהירות כפונקציה אחת.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="373"/>
+        <location filename="../prefinput.ui" line="406"/>
         <source>M&amp;ouse wheel functions</source>
         <translation>&amp;פונקציות גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="385"/>
+        <location filename="../prefinput.ui" line="418"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
         <translation>בחר את הפעולות שיש להחליפן כאשר משתמשים באפשרות &quot;שנה פונקציית גלגל&quot;.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="351"/>
+        <location filename="../prefinput.cpp" line="383"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>חיפוש מדיה גלגל מהופך</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="352"/>
+        <location filename="../prefinput.cpp" line="384"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>סמן את זו כדי לחפש בכיוון הנגדי.</translation>
     </message>
     <message>
-        <location filename="../prefinput.ui" line="347"/>
+        <location filename="../prefinput.ui" line="382"/>
         <source>R&amp;everse wheel media seeking</source>
         <translation>חיפוש מדיה גלגל מהופ&amp;ך</translation>
     </message>
@@ -6622,7 +6694,7 @@ Example: extrastereo,karaoke</source>
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="655"/>
+        <location filename="../prefinterface.cpp" line="657"/>
         <source>Interface</source>
         <translation>ממשק</translation>
     </message>
@@ -6658,23 +6730,23 @@ Example: extrastereo,karaoke</source>
         <translation>רק כעבור הטענת וידאו חדש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="830"/>
+        <location filename="../prefinterface.ui" line="823"/>
         <source>Privac&amp;y</source>
         <translation>&amp;פרטיות</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="836"/>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.ui" line="829"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Recent files</source>
         <translation>קבצים אחרונים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="677"/>
         <source>Language</source>
         <translation>שפה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="679"/>
+        <location filename="../prefinterface.cpp" line="678"/>
         <source>Here you can change the language of the application.</source>
         <translation>כאן באפשרותך לשנות את השפה של היישום.</translation>
     </message>
@@ -6699,27 +6771,27 @@ Example: extrastereo,karaoke</source>
         <translation>קפיצת &amp;גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="636"/>
+        <location filename="../prefinterface.ui" line="629"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
         <translation>&amp;השתמש במאורע אחד מורץ של SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="848"/>
+        <location filename="../prefinterface.ui" line="841"/>
         <source>Ma&amp;x. items</source>
         <translation>מ&amp;ספר פריטים מרבי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="345"/>
+        <location filename="../prefinterface.ui" line="338"/>
         <source>St&amp;yle:</source>
         <translation>ס&amp;גנון:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="249"/>
+        <location filename="../prefinterface.ui" line="242"/>
         <source>Ico&amp;n set:</source>
         <translation>מערך צ&amp;למית:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="180"/>
+        <location filename="../prefinterface.ui" line="173"/>
         <source>L&amp;anguage:</source>
         <translation>ש&amp;פה:</translation>
     </message>
@@ -6736,7 +6808,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -6749,486 +6821,487 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;זכור מיקום ומידה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="155"/>
         <source>&amp;Move the window when the video area is dragged</source>
-        <translation>&amp;הזז את החלון כאשר אזור הוידאו נגרר</translation>
+        <translation type="obsolete">&amp;הזז את החלון כאשר אזור הוידאו נגרר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="297"/>
+        <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
         <translation>&amp;סקין:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="404"/>
+        <location filename="../prefinterface.ui" line="397"/>
         <source>Default font:</source>
         <translation>גופן ברירת מחדל:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="418"/>
+        <location filename="../prefinterface.ui" line="411"/>
         <source>&amp;Change...</source>
         <translation>&amp;שנה...</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="506"/>
+        <location filename="../prefinterface.ui" line="499"/>
         <source>&amp;Behaviour of time slider:</source>
         <translation>&amp;התנהגות של מחוון זמן:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="523"/>
+        <location filename="../prefinterface.ui" line="516"/>
         <source>Seek to position while dragging</source>
         <translation>חפש אל מקום במהלך גרירה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="528"/>
+        <location filename="../prefinterface.ui" line="521"/>
         <source>Seek to position when released</source>
         <translation>חפש אל מקום כאשר משוחרר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="613"/>
+        <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
         <translation>לחי&amp;צה אחת על הלחצן עצור מאפסת את ציר הזמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="678"/>
+        <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="765"/>
+        <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="781"/>
+        <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
         <translation>ז&amp;מן (באלפית שנייה) להסתרת הבקרה:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="887"/>
+        <location filename="../prefinterface.ui" line="880"/>
         <source>URLs</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="899"/>
+        <location filename="../prefinterface.ui" line="892"/>
         <source>&amp;Max. items</source>
         <translation>&amp;מספר פריטים מרבי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="938"/>
+        <location filename="../prefinterface.ui" line="931"/>
         <source>&amp;Remember last directory</source>
         <translation>&amp;זכור מדור אחרון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="629"/>
+        <location filename="../prefinterface.ui" line="622"/>
         <source>TextLabel</source>
         <translation>תוית_טקסט</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="441"/>
+        <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Seeking</source>
         <translation>&amp;חיפוש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="563"/>
+        <location filename="../prefinterface.ui" line="556"/>
         <source>&amp;Absolute seeking</source>
         <translation>חיפוש מו&amp;חלט</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="576"/>
+        <location filename="../prefinterface.ui" line="569"/>
         <source>&amp;Relative seeking</source>
         <translation>חיפווש יח&amp;סי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="621"/>
+        <location filename="../prefinterface.ui" line="614"/>
         <source>Ins&amp;tances</source>
         <translation>מ&amp;קרים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="657"/>
+        <location filename="../prefinterface.cpp" line="659"/>
         <source>Autoresize</source>
         <translation>שנה מידה אוטומטית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="658"/>
+        <location filename="../prefinterface.cpp" line="660"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>ניתן לשנות אוטומטית את מידתו של החלון הראשי. בחר את האפשרות שאתה מעדיף.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="668"/>
+        <location filename="../prefinterface.cpp" line="670"/>
         <source>Remember position and size</source>
         <translation>זכור מיקום ומידה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="669"/>
+        <location filename="../prefinterface.cpp" line="671"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>במידה ותסמן את אפשרות זו, המיקום והמידה של החלון הראשי ישמרו וישוחזרו כאשר SMPlayer יורץ שוב.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="682"/>
+        <location filename="../prefinterface.cpp" line="681"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>בחר את הממשק הגרפי המועדף עליך בשביל התוכנית.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="683"/>
+        <location filename="../prefinterface.cpp" line="682"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="684"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="693"/>
+        <location filename="../prefinterface.cpp" line="692"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="689"/>
+        <location filename="../prefinterface.cpp" line="688"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="791"/>
         <source>Privacy</source>
         <translation>פרטיות</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="795"/>
+        <location filename="../prefinterface.cpp" line="794"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>בחר את המספר המרבי של פריטים שיראו בתוך תפריט המשנה &lt;b&gt;פתיחה-&gt;קבצים אחרונים&lt;/b&gt;. אם תקבע את זו אל 0 התפריט הזה לא יוצג כלל.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="698"/>
+        <location filename="../prefinterface.cpp" line="697"/>
         <source>Icon set</source>
         <translation>מערך צלמית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="207"/>
+        <location filename="../prefinterface.cpp" line="208"/>
         <source>Basic GUI</source>
         <translation>ממשק בסיסי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="213"/>
+        <location filename="../prefinterface.cpp" line="217"/>
         <source>Skinnable GUI</source>
         <translation>ממשק בר הלבשה (סקין)</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="661"/>
+        <location filename="../prefinterface.cpp" line="663"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="664"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="665"/>
+        <location filename="../prefinterface.cpp" line="667"/>
         <source>Center window</source>
         <translation>מרכוז חלון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="668"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="675"/>
         <source>Move the window when the video area is dragged</source>
-        <translation>הזז את החלון כאשר אזור הוידאו נגרר</translation>
+        <translation type="obsolete">הזז את החלון כאשר אזור הוידאו נגרר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="676"/>
         <source>If this option is checked, the main window will be moved if you drag the mouse over the video area.</source>
-        <translation>במידה ואפשרות זו מסומנת, החלון הראשי יזוז אם תגרור את העכבר על אזור הוידאו.</translation>
+        <translation type="obsolete">במידה ואפשרות זו מסומנת, החלון הראשי יזוז אם תגרור את העכבר על אזור הוידאו.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="699"/>
+        <location filename="../prefinterface.cpp" line="698"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>בחר מערך צלמית עבור היישום בהתאם להעדפתך.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="702"/>
+        <location filename="../prefinterface.cpp" line="701"/>
         <source>Skin</source>
         <translation>סקין</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="703"/>
+        <location filename="../prefinterface.cpp" line="702"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>בחר סקין עבור היישום בהתאם להעדפתך. זמינה רק עם ממשק בר הלבשה.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="706"/>
+        <location filename="../prefinterface.cpp" line="705"/>
         <source>Style</source>
         <translation>סגנון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="707"/>
+        <location filename="../prefinterface.cpp" line="706"/>
         <source>Select the style you prefer for the application.</source>
         <translation>בחר סגנון עבור היישום בהתאם להעדפתך.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="710"/>
+        <location filename="../prefinterface.cpp" line="709"/>
         <source>Default font</source>
         <translation>גופן ברירת מחדל</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="711"/>
+        <location filename="../prefinterface.cpp" line="710"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>באפשרותך לשנות כאן את גופן היישום.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="712"/>
         <source>Seeking</source>
         <translation>חיפוש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="714"/>
         <source>Short jump</source>
         <translation>קפיצה קצרה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="716"/>
-        <location filename="../prefinterface.cpp" line="720"/>
-        <location filename="../prefinterface.cpp" line="724"/>
+        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="723"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>בחר את הזמן שאמור ללכת קדימה או אחורה בבוחרך את הפעולה %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="717"/>
+        <location filename="../prefinterface.cpp" line="716"/>
         <source>short jump</source>
         <translation>קפיצה קצרה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="718"/>
         <source>Medium jump</source>
         <translation>קפיצה בינונית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="721"/>
+        <location filename="../prefinterface.cpp" line="720"/>
         <source>medium jump</source>
         <translation>קפיצה בינונית</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="723"/>
+        <location filename="../prefinterface.cpp" line="722"/>
         <source>Long jump</source>
         <translation>קפיצה ארוכה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="724"/>
         <source>long jump</source>
         <translation>קפיצה ארוכה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="727"/>
+        <location filename="../prefinterface.cpp" line="726"/>
         <source>Mouse wheel jump</source>
         <translation>קפיצת גלגל עכבר</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="728"/>
+        <location filename="../prefinterface.cpp" line="727"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>בחר את הזמן שאמור ללכת קדימה או אחורה בהזיזך את גלגל העכבר.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="731"/>
+        <location filename="../prefinterface.cpp" line="730"/>
         <source>Behaviour of time slider</source>
         <translation>התנהגות של מחוון זמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="732"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>בחר מה לעשות בעת גרירת מחוון הזמן.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>לחיצה אחת על הלחצן עצור מאפסת את ציר הזמן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only once press of the stop button.</source>
-        <translation>באופן רגיל, כאשר הלחצן עצור נלחץ,  המיקום על ציר הזמן נזכר כך שאם אתה לוחץ על הלחצן נגן, המדיה תוחזר מאותה נקודה. עליך ללחוץ על הלחצן עצור פעמיים בכדי לאפס את  המיקום על ציר הזמן, ואולם אם אפשרות זו מסומנת, המיקום על ציר הזמן יקובע אל 0 בעזרת לחיצה אחת בלבד על הלחצן עצור.</translation>
+        <translation type="obsolete">באופן רגיל, כאשר הלחצן עצור נלחץ,  המיקום על ציר הזמן נזכר כך שאם אתה לוחץ על הלחצן נגן, המדיה תוחזר מאותה נקודה. עליך ללחוץ על הלחצן עצור פעמיים בכדי לאפס את  המיקום על ציר הזמן, ואולם אם אפשרות זו מסומנת, המיקום על ציר הזמן יקובע אל 0 בעזרת לחיצה אחת בלבד על הלחצן עצור.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>הצג רק בעת הזזת העכבר לתחתית המסך</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="778"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="783"/>
+        <location filename="../prefinterface.cpp" line="782"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>במידה ואפשות זו מאופשרת, הבקרה הצפה תופיע גם עם מצב קומפקטי.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>This option only works with the basic GUI.</source>
         <translation>אפשרות זו פועלת רק עם ממשק בסיסי.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;אזהרה:&lt;/b&gt; הבקרה הצפה לא נועדה עבור מצב קומפקטי וזו עלולה שלא לעבוד היטב.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Time to hide the control</source>
         <translation>זמן להסתרת הבקרה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>קביעת הזמן (באלפית שנייה) להסתרת הבקרה לאחר שהעכבר הורחק מן הבקרה.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="799"/>
+        <location filename="../prefinterface.cpp" line="798"/>
         <source>Max. URLs</source>
         <translation>מספר כתובות מרבי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="799"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>בחר את המספר המרבי של פריטים שתיבת דו שיח &lt;b&gt;פתיחה-&gt;URL&lt;/b&gt; תזכור. קבע את זו אל 0 אם אין ברצונך לאחסן שום URL.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="803"/>
         <source>Remember last directory</source>
         <translation>זכור מדור אחרון</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="805"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>במידה ואפשות זו מסומנת, SMPlayer יזכור את התיקייה האחרונה בה השתמשת לפתיחת קובץ.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="551"/>
-        <location filename="../prefinterface.cpp" line="735"/>
+        <location filename="../prefinterface.ui" line="544"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>Seeking method</source>
         <translation>שיטת חיפוש</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="736"/>
+        <location filename="../prefinterface.cpp" line="735"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>קובעת את השיטה שתנוצל כאשר מחפשים בעזרת המחוון. חיפוש מוחלט עשוי להיות קצת יותר מדויק, בעוד שחיפוש יחסי עשוי לפעול יותר טוב עם אורך שגוי.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="746"/>
+        <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Instances</source>
         <translation>מקרים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>השתמש במאורע אחד מורץ של SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>סמן את אפשרות זו אם ברצונך להשתמש במאורע מורץ זה מכבר של SMPlayer בעת פתיחת קבצים אחרים.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="208"/>
+        <location filename="../prefinterface.cpp" line="211"/>
         <source>Mini GUI</source>
         <translation>ממשק גרפי מוקטן</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="680"/>
         <source>GUI</source>
         <translation>ממשק גרפי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="216"/>
+        <location filename="../prefinterface.ui" line="209"/>
         <source>&amp;GUI</source>
         <translation>ממשק &amp;גרפי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>Floating control</source>
         <translation>בקרה צפה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>Animated</source>
         <translation>מונפשת</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>במידה ואפשות זו מאופשרת, הבקרה הצפה תופיע עם הנפשה.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>Width</source>
         <translation>רוחב</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="769"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>מציינת את הרוחב של הבקרה (אמת מידה של אחוז).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="770"/>
         <source>Margin</source>
         <translation>שוליים</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>אפשרות זו מציינת את הריחוק של הבקרה הצפה מתחתית המסך, במספר של פיקסלים. שימושית כאשר המרקע הוא טלוויזיה, כאשר מיפוי יתר עשוי למנוע מהבקרה מלהיראות.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Display in compact mode too</source>
         <translation>הצג גם במצב קומפקטי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="672"/>
+        <location filename="../prefinterface.ui" line="665"/>
         <source>&amp;Floating control</source>
         <translation>&amp;בקרה צפה</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="688"/>
+        <location filename="../prefinterface.ui" line="681"/>
         <source>&amp;Animated</source>
         <translation>&amp;מונפשת</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="697"/>
+        <location filename="../prefinterface.ui" line="690"/>
         <source>&amp;Width:</source>
         <translation>&amp;רוחב:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="723"/>
-        <location filename="../prefinterface.ui" line="756"/>
+        <location filename="../prefinterface.ui" line="716"/>
+        <location filename="../prefinterface.ui" line="749"/>
         <source>0</source>
         <translation>0</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="730"/>
+        <location filename="../prefinterface.ui" line="723"/>
         <source>&amp;Margin:</source>
         <translation>&amp;שוליים:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="772"/>
+        <location filename="../prefinterface.ui" line="765"/>
         <source>Display in &amp;compact mode too</source>
         <translation>הצג גם במצב &amp;קומפקטי</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="210"/>
+        <location filename="../prefinterface.cpp" line="214"/>
         <source>Mpc GUI</source>
         <translation>ממשק גרפי Mpc</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="672"/>
+        <location filename="../prefinterface.cpp" line="674"/>
         <source>Hide video window when playing audio files</source>
         <translation>הסתר חלון וידאו בעת נגינת קבצי אודיו</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="675"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>במידה ואפשות זו מאופשרת, חלון הוידאו יוסתר בעת נגינת קבצי אודיו.</translation>
     </message>
@@ -7238,22 +7311,22 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;הסתר חלון וידאו בעת נגינת קבצי אודיו</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="740"/>
         <source>Precise seeking</source>
         <translation>חיפוש מדוייק</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="742"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>במידה ואפשות זו מאופשרת, חיפושים יהיו מהירים יותר ואולם אלו יכולים להיות איטיים יותר במידת מה. עשויה שלא לעבוד עם פורמטים מסוימים של וידאו.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>הערה: אפשרות זו פועלת רק עם MPlayer2</translation>
     </message>
     <message>
-        <location filename="../prefinterface.ui" line="599"/>
+        <location filename="../prefinterface.ui" line="592"/>
         <source>&amp;Precise seeking</source>
         <translation>חיפוש מ&amp;דוייק</translation>
     </message>
@@ -7338,7 +7411,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="146"/>
         <source>Youtube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="148"/>
@@ -7348,7 +7421,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="149"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="151"/>
@@ -7368,7 +7441,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>
@@ -7378,7 +7451,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="162"/>
@@ -7428,7 +7501,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">במידה והפרוקסי מצריך התאמתות, זו קובעת את שם המשתמש.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="179"/>
@@ -7448,7 +7521,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.cpp" line="184"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">בחר טיפוס פרוקסי לשימוש.</translation>
     </message>
 </context>
 <context>
@@ -7683,17 +7756,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">אוטומטית</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="277"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="293"/>
@@ -7703,7 +7776,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="294"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
@@ -7713,32 +7786,32 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="298"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="299"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="303"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="306"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
@@ -7768,12 +7841,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -7946,12 +8019,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8006,7 +8079,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8178,7 +8251,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8188,12 +8261,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -8288,7 +8361,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8373,7 +8446,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -8436,12 +8509,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -8569,7 +8642,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -8589,7 +8662,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -8682,7 +8755,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8732,7 +8805,7 @@ Example: extrastereo,karaoke</source>
         <translation>the main window will be closed when the file/playlist finishes.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="547"/>
+        <location filename="../smplayer.cpp" line="565"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>This is SMPlayer v. %1 running on %2</translation>
     </message>
@@ -8827,13 +8900,19 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n שניה</numerusform><numerusform>%n שניות</numerusform></translation>
+        <translation>
+            <numerusform>%n שניה</numerusform>
+            <numerusform>%n שניות</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n דקה</numerusform><numerusform>%n דקות</numerusform></translation>
+        <translation>
+            <numerusform>%n דקה</numerusform>
+            <numerusform>%n דקות</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -8886,17 +8965,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
@@ -8917,7 +8996,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9095,7 +9174,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
@@ -9105,122 +9184,122 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
-        <source>Anaglyph green/magenta colored </source>
-        <translation type="unfinished"/>
+        <source>Anaglyph green/magenta colored</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">אוטומטית</translation>
     </message>
 </context>
 <context>
