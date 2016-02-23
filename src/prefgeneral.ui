@@ -32,7 +32,7 @@
          <item>
           <widget class="QLabel" name="executable_label">
            <property name="text">
-            <string notr="true">Multimedia &amp;engine:</string>
+            <string>Multimedia &amp;engine:</string>
            </property>
            <property name="wordWrap">
             <bool>false</bool>
