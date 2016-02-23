@@ -155,9 +155,11 @@ void PrefInput::retranslateStrings() {
 
 	int drag_function = drag_function_combo->currentIndex();
 	drag_function_combo->clear();
-	drag_function_combo->addItem( tr("Do nothing"), Preferences::DragDisabled);
+	drag_function_combo->addItem( tr("None"), Preferences::DragDisabled);
 	drag_function_combo->addItem( tr("Move window"), Preferences::MoveWindow);
+#ifdef MOUSE_GESTURES
 	drag_function_combo->addItem( tr("Seek and volume"), Preferences::Gestures);
+#endif
 	drag_function_combo->setCurrentIndex(drag_function);
 
 #if !USE_SHORTCUTGETTER
@@ -364,9 +366,12 @@ void PrefInput::createHelp() {
 
 	setWhatsThis(drag_function_combo, tr("Drag function"),
 		tr("This option controls what to do when the mouse is moved while pressing the left button.") + "<br>" +
-		"<b>" + tr("Move window") + "</b>:" + tr("the main window is moved") + "<br>" +
-		"<b>" + tr("Seek and volume") + "</b>:" +
-		tr("a horizontal movement changes the time position while a vertical movement changes the volume") );
+		"<b>" + tr("Move window") + "</b>:" + tr("the main window is moved") + "<br>"
+#ifdef MOUSE_GESTURES
+		+ "<b>" + tr("Seek and volume") + "</b>:" +
+		tr("a horizontal movement changes the time position while a vertical movement changes the volume")
+#endif
+	);
 
 	setWhatsThis(delay_left_check, tr("Don't trigger the left click function with a double click"),
 		tr("If this option is enabled when you double click on the "

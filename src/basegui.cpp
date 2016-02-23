@@ -5538,6 +5538,8 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	#endif
 
 	if (pref->drag_function == Preferences::Gestures) {
+		if (core->state() == Core::Stopped) return;
+
 		int t = 1;
 
 		int h_desp = qAbs(diff.x());
