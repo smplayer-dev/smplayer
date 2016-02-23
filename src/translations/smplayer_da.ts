@@ -478,7 +478,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1675"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Et billede frem</translation>
+        <translation>&amp;Et billede fremad</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1694"/>
@@ -803,7 +803,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>&amp;Donér / Del med dine venner</translation>
+        <translation>&amp;Donér/del med dine venner</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4127"/>
@@ -814,7 +814,7 @@ Vil du overskrive den?</translation>
         <location filename="../basegui.cpp" line="4128"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CD-ROM- / DVD-drevene er endnu ikke sat op.
+        <translation>CD-ROM-/DVD-drevene er endnu ikke sat op.
 Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     </message>
     <message>
@@ -860,12 +860,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1678"/>
         <source>Play / Pause</source>
-        <translation>Afspil / Pause</translation>
+        <translation>Afspil/pause</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1681"/>
         <source>Pause / Frame step</source>
-        <translation>Pause / Et billede frem</translation>
+        <translation>Pause/et billede fremad</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1752"/>
@@ -1319,7 +1319,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4869"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation>Vil du opdatere YouTube-koden. Det kan måske rette problemet.</translation>
+        <translation>Vil du opdatere YouTube-koden. Det vil måske rette problemet.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4877"/>
@@ -1957,7 +1957,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Der opstod en fejl ved download af filen: &lt;br&gt;%1</translation>
+        <translation>Der opstod en fejl ved download af filen:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2250,7 +2250,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
         <source>Icon</source>
-        <translation>ikon</translation>
+        <translation>Ikon</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="94"/>
@@ -2884,7 +2884,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="94"/>
         <source>Copyright</source>
-        <translation>Ophavsret/Copyright</translation>
+        <translation>Ophavsret</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="95"/>
@@ -4352,7 +4352,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Play / Pause</source>
-        <translation>Afspil / Pause</translation>
+        <translation>Afspil/pause</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
@@ -4911,7 +4911,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>Hvis du slår denne indstilling til, indlejres %1  videovinduet ikke i SMPlayer&apos;s hovedvindue, men i stedet bruges dets eget vindue. Bemærk at muse- og tastaturbegivenheder håndteres direkte af %1, hvilket betyder at tastaturgenveje og museklik formodentligt ikke virker som forventet når %1 vinduet har fokus.</translation>
+        <translation>Hvis du slår denne indstilling til, indlejres %1 videovinduet ikke i SMPlayer&apos;s hovedvindue, men i stedet bruges dets eget vindue. Bemærk at muse- og tastaturbegivenheder håndteres direkte af %1, hvilket betyder at tastaturgenveje og museklik formodentligt ikke virker som forventet når %1 vinduet har fokus.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
@@ -4971,7 +4971,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="539"/>
         <source>Here you can add video filters for %1.</source>
-        <translation>Kan kan du tilføje videofiltre til %1.</translation>
+        <translation>Her kan du tilføje videofiltre til %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="540"/>
@@ -5200,17 +5200,17 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;Bemærk 1&lt;/b&gt;: cache vil være deaktiveret. Dette kan påvirke ydelsen.</translation>
+        <translation>&lt;b&gt;Bemærkning 1&lt;/b&gt;: cache vil være deaktiveret. Dette kan påvirke ydelsen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;Bemærk 2&lt;/b&gt;: det kan være at du vil tildele handlingen &quot;aktivér indstilling i DVD-menuer&quot; til en af knapperne på musen.</translation>
+        <translation>&lt;b&gt;Bemærkning 2&lt;/b&gt;: det kan være at du vil tildele handlingen &quot;aktivér indstilling i DVD-menuer&quot; til en af knapperne på musen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
         <source>&lt;b&gt;Note 3&lt;/b&gt;: this feature is under development, expect a lot of issues with it.</source>
-        <translation>&lt;b&gt;Bemærk 3&lt;/b&gt;: denne funktion er under udvikling. Forvent massere af problemer med den.</translation>
+        <translation>&lt;b&gt;Bemærkning 3&lt;/b&gt;: denne funktion er under udvikling. Forvent massere af problemer med den.</translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="225"/>
@@ -5931,7 +5931,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="931"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation>&lt;b&gt;én ini-fil&lt;/b&gt;: Indstillingerne for alle afspillede filer vil blive gemt i en enkelt ini-fil (%1)</translation>
+        <translation>&lt;b&gt;én ini-fil&lt;/b&gt;: indstillingerne for alle afspillede filer vil blive gemt i en enkelt ini-fil (%1)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="935"/>
@@ -5946,7 +5946,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="933"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation>&lt;b&gt;flere ini-filer&lt;/b&gt;: Der vil blive brugt en ini-fil for hver afspillet fil. Disse ini-filer vil blive gemt i mappen %1</translation>
+        <translation>&lt;b&gt;flere ini-filer&lt;/b&gt;: der vil blive brugt en ini-fil for hver afspillet fil. Disse ini-filer vil blive gemt i mappen %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="924"/>
@@ -6312,12 +6312,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.cpp" line="55"/>
         <source>Play / Pause</source>
-        <translation>Afspil / Pause</translation>
+        <translation>Afspil/pause</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
         <source>Pause / Frame step</source>
-        <translation>Pause / Et billede frem</translation>
+        <translation>Pause/et billede fremad</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="75"/>
@@ -6693,7 +6693,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
         <source>&amp;Medium jump</source>
-        <translation>&amp;Mellem spring</translation>
+        <translation>&amp;Medium spring</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="179"/>
@@ -6793,7 +6793,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.ui" line="613"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>Ét tryk på stop-knappen &amp;nulstiller tidspositionen</translation>
+        <translation>Et tryk på stop-knappen &amp;nulstiller tidspositionen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="678"/>
@@ -7010,12 +7010,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="719"/>
         <source>Medium jump</source>
-        <translation>Mellem spring</translation>
+        <translation>Medium spring</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="721"/>
         <source>medium jump</source>
-        <translation>mellem spring</translation>
+        <translation>medium spring</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="723"/>
@@ -7050,7 +7050,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation>Ét tryk på stop-knappen nulstiller tidspositionen</translation>
+        <translation>Et tryk på stop-knappen nulstiller tidspositionen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
@@ -7760,17 +7760,17 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
-        <translation>&lt;b&gt;Aktiveret&lt;/b&gt;: Loop-filteret springes ikke over</translation>
+        <translation>&lt;b&gt;Aktiveret&lt;/b&gt;: loop-filteret springes ikke over</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="324"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation>&lt;b&gt;Skip (altid)&lt;/b&gt;: Loop-filteret springes over uanset videoens opløsning</translation>
+        <translation>&lt;b&gt;Skip (altid)&lt;/b&gt;: loop-filteret springes over uanset videoens opløsning</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="326"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation>&lt;b&gt;Spring kun over ved HD-videoer&lt;/b&gt;: Loop-filteret spring kun over ved videoer hvis højde er %1 eller større.</translation>
+        <translation>&lt;b&gt;Spring kun over ved HD-videoer&lt;/b&gt;: loop-filteret spring kun over ved videoer hvis højde er %1 eller større.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="331"/>
@@ -8975,7 +8975,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>Donér / del SMPlayer med dine venner</translation>
+        <translation>Donér/del SMPlayer med dine venner</translation>
     </message>
 </context>
 <context>
@@ -9263,7 +9263,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../tvlist.cpp" line="113"/>
         <source>TV/Radio list</source>
-        <translation>TV/Radio-liste</translation>
+        <translation>TV/radio-liste</translation>
     </message>
 </context>
 <context>
@@ -9314,7 +9314,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation>&amp;Ikon størrelse:</translation>
+        <translation>&amp;Ikonstørrelse:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
