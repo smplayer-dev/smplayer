@@ -35,7 +35,6 @@
 #endif
 #endif
 
-#define MOUSE_GESTURES
 #ifdef MOUSE_GESTURES
 	#define MG_DELAYED_SEEK
 #endif
