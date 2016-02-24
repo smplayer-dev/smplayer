@@ -156,7 +156,7 @@ void PrefNetwork::createHelp() {
 #endif
 
 #ifdef MPV_SUPPORT
-	setWhatsThis(streaming_check, tr("Enable MPV's support for streaming sites"),
+	setWhatsThis(streaming_check, tr("Enable mpv's support for streaming sites"),
 		tr("If this option is checked, SMPlayer will try to play videos from "
            "streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.") + "<br>"+
 		tr("Requires mpv and youtube-dl.") );
