@@ -154,6 +154,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #endif
 #ifdef MG_DELAYED_SEEK
 	, delayed_seek_timer(0)
+	, delayed_seek_value(0)
 #endif
 {
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -5533,7 +5534,8 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	if (delayed_seek_timer == 0) {
 		delayed_seek_timer = new QTimer(this);
 		delayed_seek_timer->setSingleShot(true);
-		delayed_seek_timer->setInterval(20);
+		delayed_seek_timer->setInterval(250);
+		connect(delayed_seek_timer, SIGNAL(timeout()), this, SLOT(delayedSeek()));
 	}
 	#endif
 
@@ -5549,8 +5551,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 			// Horizontal
 			if (diff.x() > t) {
 				#ifdef MG_DELAYED_SEEK
-				delayed_seek_timer->disconnect();
-				connect(delayed_seek_timer, SIGNAL(timeout()), core, SLOT(sforward()));
+				delayed_seek_value += h_desp;
 				delayed_seek_timer->start();
 				#else
 				core->sforward();
@@ -5559,13 +5560,26 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 			else
 			if (diff.x() < -t) {
 				#ifdef MG_DELAYED_SEEK
-				delayed_seek_timer->disconnect();
-				connect(delayed_seek_timer, SIGNAL(timeout()), core, SLOT(srewind()));
+				delayed_seek_value -= h_desp;
 				delayed_seek_timer->start();
 				#else
 				core->srewind();
 				#endif
 			}
+			#ifdef MG_DELAYED_SEEK
+			int time = qAbs(delayed_seek_value);
+			int minutes = time / 60;
+			int seconds = time - (minutes * 60);
+			QString s;
+			if (delayed_seek_value >= 0) s = "+"; else s = "-";
+			if (minutes > 0) s += QString("%1").arg(minutes, 2, 10, QChar('0')) + ":";
+			s += QString("%1").arg(seconds, 2, 10, QChar('0'));
+			if (pref->fullscreen) {
+				core->displayTextOnOSD(s, 1000);
+			} else {
+				displayMessage(s, 1000);
+			}
+			#endif
 		} else {
 			// Vertical
 			if (diff.y() > t) core->decVolume(1);
@@ -5612,6 +5626,17 @@ void BaseGui::moveWindowDiff(QPoint diff) {
 	move(pos() + diff);
 #endif
 }
+
+#ifdef MG_DELAYED_SEEK
+void BaseGui::delayedSeek() {
+	qDebug() << "BaseGui::delayedSeek:" << delayed_seek_value;
+	if (delayed_seek_value != 0) {
+		core->seek(delayed_seek_value);
+		delayed_seek_value = 0;
+	}
+}
+#endif
+
 
 #if QT_VERSION < 0x050000
 void BaseGui::showEvent( QShowEvent * ) {
