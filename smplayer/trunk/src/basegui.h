@@ -296,6 +296,9 @@ protected slots:
 
 	virtual void processMouseMovedDiff(QPoint diff);
 	virtual void moveWindowDiff(QPoint diff);
+#ifdef MG_DELAYED_SEEK
+	virtual void delayedSeek();
+#endif
 
 	// Single instance stuff
 #ifdef SINGLE_INSTANCE
@@ -862,6 +865,7 @@ protected:
 
 #ifdef MG_DELAYED_SEEK
 	QTimer * delayed_seek_timer;
+	int delayed_seek_value;
 #endif
 
 private:
