@@ -489,7 +489,7 @@ void PrefAdvanced::createHelp() {
 
 #ifdef MPLAYER_SUPPORT
 	setWhatsThis(use_playlist_check, tr("Pass the %1 option to MPlayer (security risk)").arg("-playlist"),
-		tr("This option may be needed to play playlist files (m3u, pls...)."
+		tr("This option may be needed to play playlist files (m3u, pls...). "
            "However it can involve a security risk when playing internet sources because "
            "the way MPlayer parses and uses playlist files is not "
            "safe against maliciously constructed files.") );
