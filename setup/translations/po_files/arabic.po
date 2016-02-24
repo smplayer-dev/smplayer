@@ -28,7 +28,7 @@ msgstr "تنزيل MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr "استعادة MPV من تنصيبة سابقة..."
+msgstr "استعادة MPV من تثبيت سابق..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
@@ -36,7 +36,7 @@ msgstr "الخزن الإحتياطي لـ MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr "استعادة SMTube من تنصيبة سابقة..."
+msgstr "استعادة SMTube من تثبيت سابق..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
@@ -68,11 +68,11 @@ msgstr "حذف الملفات..."
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
-msgstr "استعادة المرمِّزات من تنصيبة سابقة..."
+msgstr "استعادة المرمِّزات من تثبيت سابق..."
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr "النَسْخ الإحتياطي للمرمِّزات من تنصيبة سابقة..."
+msgstr "النَسْخ الإحتياطي للمرمِّزات من تثبيت سابق..."
 
 # Application_Description
 msgid ""
@@ -86,11 +86,11 @@ msgstr ""
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr "يمكن إزالة تثبيت هذه التنصيبة على نظام ويندوز Windows 64-بت فقط."
+msgstr "يمكن إزالة تثبيت هذا التثبيت على نظام ويندوز Windows 64-بت فقط."
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
-msgstr "لا يمكن العثور على تنصيبة SMPlayer."
+msgstr "لا يمكن العثور على تثبيت SMPlayer."
 
 # Uninstaller_NotInstalled
 msgid ""
@@ -108,7 +108,7 @@ msgstr "أُحبِطت إزالة التثبيت من قبَل المستخدم.
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
-msgstr "يمكن إزالة تثبيت هذه التنصيبة من قبَل مستخدم لديه صلاحيات مدير."
+msgstr "يمكن إزالة تثبيت هذا التثبيت من قبَل مستخدم لديه صلاحيات مدير."
 
 # Codecs_Inst_Failed
 msgid "Failed to install MPlayer codecs."
@@ -152,7 +152,7 @@ msgstr "غيِّر إعدادات التثبيت"
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr "اضغط إزالة التنصيب عندما تكون مستعداً للمواصَلة."
+msgstr "اضغط إزالة التثبيت عندما تكون مستعداً للمواصَلة."
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
@@ -164,11 +164,11 @@ msgstr "اضغط البدء عندما تكون مستعداً للمواصَل�
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
-msgstr "ازالة التنصيب (ازالة) للتنصيبة الموجودة"
+msgstr "ازالة التثبيت (ازالة) للتثبيت الموجود"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr "الكتابة على ($Inst_Type) التنصيبة الموجودة"
+msgstr "الكتابة على ($Inst_Type) التثبيت الموجود"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
@@ -176,11 +176,11 @@ msgstr "رجاءاً اختر كيفية المواصَلة:"
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr "لديك تنصيبة موجودة من SMPlayer في المجلد التالي:"
+msgstr "لديك تثبيت موجود من SMPlayer في المجلد التالي:"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr "اختر نمط الكتابة على التنصيبة السابقة او ازالة تنصيبها."
+msgstr "اختر نمط الكتابة على التثبيت السابق او ازالة التثبيت."
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
@@ -303,14 +303,14 @@ msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
 "bit SMPlayer first."
 msgstr ""
-"توجد حاليا تنصيبة 64-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 64-بت أولاً."
+"يوجد حاليا تثبيت 64-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 64-بت أولاً."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
 "bit SMPlayer first."
 msgstr ""
-"توجد حاليا تنصيبة 32-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 32-بت أولاً."
+"يوجد حاليا تثبيت 32-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 32-بت أولاً."
 
 # Win64_Required
 msgid "A 64-bit Windows operating system is required to install this software."
@@ -343,14 +343,13 @@ msgstr "المثبِّت مشتغل سلفاً."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Riyadh, 2014-2015
+# Riyadh, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-02-02 21:02+0000\n"
+"PO-Revision-Date: 2016-01-09 20:02+0000\n"
 "Last-Translator: Riyadh\n"
-"Language-Team: Arabic (http://www.transifex.com/projects/p/smplayer/language/"
-"ar/)\n"
+"Language-Team: Arabic (http://www.transifex.com/rvm/smplayer/language/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

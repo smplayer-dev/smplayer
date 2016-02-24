@@ -230,7 +230,7 @@ msgstr ""
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "Богатый возможностями форк MPlayer и MPlayer2"
+msgstr "Богатый возможностями форк MPlayer и MPlayer2."
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -245,19 +245,19 @@ msgstr "Бинарные кодеки"
 
 # Section_MPlayer_Desc
 msgid "MPlayer; required for playback."
-msgstr "MPlayer; необходимо для воспроизведения."
+msgstr "MPlayer, требуется для воспроизведения."
 
 # Section_MPlayer
 msgid "MPlayer (required)"
-msgstr "MPlayer (необходимо)"
+msgstr "MPlayer (требуется)"
 
 # Section_StartMenu_Desc
 msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Создаёт ярлыки SMPlayer в стартовом меню."
+msgstr "Создаёт ярлыки SMPlayer в меню «Пуск»."
 
 # Section_StartMenu
 msgid "Start Menu"
-msgstr "Стартовое меню"
+msgstr "Меню «Пуск»"
 
 # Section_DesktopShortcut_Desc
 msgid "Creates a shortcut to SMPlayer on the desktop."
@@ -357,10 +357,9 @@ msgstr "Программа установки уже запущена."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-03-31 15:45+0000\n"
+"PO-Revision-Date: 2015-11-21 17:56+0000\n"
 "Last-Translator: Andrei Stepanov\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/smplayer/"
-"language/ru/)\n"
+"Language-Team: Russian (http://www.transifex.com/rvm/smplayer/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

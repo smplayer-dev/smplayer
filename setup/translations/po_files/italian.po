@@ -1,78 +1,78 @@
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "I codec binari non sono supportati in questa versione."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr ""
+msgstr "Impossibile scaricare Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL non è stato installato correttamente. Riprovare?"
 
 # MPV_Inst_Failed
 msgid "Failed to install MPV."
-msgstr ""
+msgstr "Installazione di MPV non riuscita."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr ""
+msgstr "Impossibile scaricare MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV non è stato installato correttamente. Riprovare?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr ""
+msgstr "Scaricamento MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
-msgstr ""
+msgstr "Ripristino di MPV dall'installazione precedente..."
 
 # Info_MPV_Backup
 msgid "Backing up MPV..."
-msgstr ""
+msgstr "Copia di sicurezza di MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "Ripristino di SMTube dall'installazione precedente..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "Copia di sicurezza di SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
-msgstr ""
+msgstr "Estrazione file..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr ""
+msgstr "Rollback delle modifiche..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr ""
+msgstr "Ripristino associazioni file..."
 
 # Info_Del_Shortcuts
 msgid "Deleting Shortcuts..."
-msgstr ""
+msgstr "Eliminazione collegamenti..."
 
 # Info_Del_Registry
 msgid "Deleting Registry Keys..."
-msgstr ""
+msgstr "Eliminazione chiavi di registro..."
 
 # Info_Del_Files
 msgid "Deleting Files..."
-msgstr ""
+msgstr "Eliminazione file..."
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
-msgstr ""
+msgstr "Ripristino codec dell'installazione precedente..."
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr ""
+msgstr "Copia di sicurezza dei codec dell'installazione precedente..."
 
 # Application_Description
 msgid ""
@@ -86,11 +86,11 @@ msgstr ""
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
+msgstr "Questa installazione può essere disinstallata solo su Windows 64-bit."
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
-msgstr ""
+msgstr "Installazione di SMPlayer non trovata."
 
 # Uninstaller_NotInstalled
 msgid ""
@@ -114,15 +114,15 @@ msgstr ""
 
 # Codecs_Inst_Failed
 msgid "Failed to install MPlayer codecs."
-msgstr "Installazione dei codec di MPlayer fallita."
+msgstr "Installazione dei codec di MPlayer non riuscita."
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Scaricamento dei codec di MPlayer fallito: '$R0'."
+msgstr "Impossibile scaricare i codec di MPlayer: '$R0'."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "I codec di MPlayer non sono stati completamente installati. Riprova?"
+msgstr "I codec di MPlayer non sono stati installati correttamente. Riprovare?"
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
@@ -130,63 +130,64 @@ msgstr "Sto scaricando i codec di MPlayer..."
 
 # StartBtn
 msgid "Start"
-msgstr ""
+msgstr "Installa"
 
 # Type_Upgrade
 msgid "upgrade"
-msgstr ""
+msgstr "aggiorna"
 
 # Type_Downgrade
 msgid "downgrade"
-msgstr ""
+msgstr "retrocedi"
 
 # Type_Reinstall
 msgid "reinstall"
-msgstr ""
+msgstr "reinstalla"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
-msgstr ""
+msgstr "Rimuovi configurazione di SMPlayer"
 
 # Reinstall_Msg4
 msgid "Change Installation Settings"
-msgstr ""
+msgstr "Cambia le impostazioni di installazione"
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr ""
+msgstr "Per proseguire, scegli Disinstalla"
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
-msgstr ""
+msgstr "Per proseguire, scegliere Avanti."
 
 # Reinstall_Msg3_1
 msgid "Click Start when ready to proceed."
-msgstr ""
+msgstr "Per proseguire, scegliere Installa."
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
-msgstr ""
+msgstr "Disinstalla (rimuovi) l'installazione esistente"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
+msgstr "Sovrascrivi ($Inst_Type) l'installazione esistente"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
-msgstr ""
+msgstr "Scegliere come proseguire:"
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
 msgstr ""
+"Un'installazione già presente di SMPlayer è presente nella cartella seguente:"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr ""
+msgstr "Scegliere se sovrascrivere o disinstallare."
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
-msgstr ""
+msgstr "Scegliere tipo di installazione"
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -202,7 +203,7 @@ msgstr ""
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
+msgstr "Cancella preferenze di SMPlayer lasciate da installazioni precedenti."
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
@@ -225,10 +226,12 @@ msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
+"Un programma integrativo di MPlayer che può essere usato per codificare o "
+"trasformare flussi audio o video supportati."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Una fork di MPlayer && MPlayer2 ricca di funzioni"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -275,7 +278,7 @@ msgstr "SMPlayer (essenziale)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Motore Multimediale"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -292,26 +295,36 @@ msgid ""
 "starting setup. This will make it possible to update relevant program files "
 "without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
+"Questa è l'installazione guidata di $(^NameDA).[:r:][:n:][:r:][:n:]Si "
+"raccomanda di chiudere tutte le istanze di SMPlayer prima di cominciare. "
+"Questo renderà possibile installare i file del programma senza dover "
+"riavviare la macchina.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr ""
+msgstr "Installazione guidata di $(^NameDA)"
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
 "bit SMPlayer first."
 msgstr ""
+"Un'installazione a 64-bit di SMPlayer è già presente. Si deve prima "
+"disinstallare SMPlayer a 64-bit."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
 "bit SMPlayer first."
 msgstr ""
+"Un'installazione a 32-bit di SMPlayer è già presente. Si deve prima "
+"disinstallare SMPlayer a 32-bit."
 
 # Win64_Required
 msgid "A 64-bit Windows operating system is required to install this software."
 msgstr ""
+"È richiesto un sistema operativo Windows a 64-bit per installare questo "
+"software."
 
 # OS_Not_Supported
 msgid ""
@@ -319,15 +332,19 @@ msgid ""
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Sistema operativo non supportato. [:n:]SmPlayer ${SMPLAYER_VERSION} richiede "
+"almeno Windows XP e potrebbe non funzionare correttamente su questo sistema. "
+"[:n:]Si vuole davvero proseguire con l'installazione?"
 
 # SMPlayer_Is_Running
 msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr ""
+msgstr "Un'istanza di SMPlayer è in esecuzione. Esci da SMPlayer e riprova."
 
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
 msgstr ""
-"Devi essere autenticato come amministratore per installare questo programma."
+"È necessario essere autenticati come amministratore per installare questo "
+"programma."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -337,9 +354,16 @@ msgstr "Il programma di installazione è già in esecuzione."
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
+# Translators:
+# Giuseppe Pignataro <rogepix@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: SMPlayer\n"
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2015-10-14 11:47+0000\n"
+"Last-Translator: Luigi Baldoni <aloisio@gmx.com>\n"
+"Language-Team: Italian (http://www.transifex.com/rvm/smplayer/language/it/)\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
