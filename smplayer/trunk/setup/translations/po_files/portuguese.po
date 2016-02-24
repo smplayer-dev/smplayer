@@ -4,7 +4,7 @@ msgstr "Esta versão não tem suporte a codificadores binários."
 
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
-msgstr "Falha ao transferir Youtube-DL: '$R0'."
+msgstr "Falha ao descarregar a Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "YouTube-DL was not successfully installed. Retry?"
@@ -16,7 +16,7 @@ msgstr "Falha ao instalar o mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download MPV: '$R0'."
-msgstr "Falha ao transferir o mpv: '$R0'."
+msgstr "Falha ao descarregar o mpv: '$R0'."
 
 # MPV_DL_Retry
 msgid "MPV was not successfully installed. Retry?"
@@ -24,7 +24,7 @@ msgstr "O mpv não foi instalado. Tentar novamente?"
 
 # MPV_DL_Msg
 msgid "Downloading MPV..."
-msgstr "A transferir o mpv..."
+msgstr "A descarregar o mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring MPV from previous installation..."
@@ -117,7 +117,7 @@ msgstr "Falha ao instalar os codificadores MPlayer."
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Falha ao transferir os codificadores MPlayer: '$R0'."
+msgstr "Falha ao descarregar os codificadores MPlayer: '$R0'."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
@@ -126,7 +126,7 @@ msgstr ""
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
-msgstr "A transferir os codificadores MPlayer..."
+msgstr "A descarregar os codificadores MPlayer..."
 
 # StartBtn
 msgid "Start"
@@ -350,14 +350,14 @@ msgstr "O instalador já está em execução."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Sérgio Marques <smarquespt@gmail.com>, 2014-2015
+# Sérgio Marques <smarquespt@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-04-22 10:36+0000\n"
+"PO-Revision-Date: 2016-01-14 11:48+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/smplayer/"
-"language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/rvm/smplayer/language/"
+"pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"

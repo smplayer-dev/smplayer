@@ -52,7 +52,7 @@ msgstr "Відкочування змін..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr "Відновлення асоціяцій файлів..."
+msgstr "Відновлення асоціацій файлів..."
 
 # Info_Del_Shortcuts
 msgid "Deleting Shortcuts..."
@@ -81,7 +81,7 @@ msgid ""
 "MPlayer filters, edl lists, and more."
 msgstr ""
 "SMPlayer - повноцінна оболонка для MPlayer, починаючи від базових функцій "
-"типу відтворення видивофайлів, DVD, VCD й закінчуючи просунутішими типу "
+"типу відтворення відеофайлів, DVD, VCD й закінчуючи просунутішими типу "
 "підтримки фільтрів MPlayer, переліків тощо."
 
 # Uninstaller_64bitOnly
@@ -226,8 +226,8 @@ msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
-"Супутня MPlayer проґрама, яку можна використовувати для кодування та "
-"перетворення підтримуваних аудіо та видиво потоків."
+"Супутня MPlayer програма, яку можна використовувати для кодування та "
+"перетворення підтримуваних аудіо та відео потоків."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
@@ -342,8 +342,8 @@ msgstr ""
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
 msgstr ""
-"Ви повинні увійти у систему в якості адміністратора під час встановлення "
-"цієї проґрами."
+"Ви повинні увійти в систему в якості адміністратора під час встановлення "
+"цієї програми."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -354,17 +354,18 @@ msgstr "Встановлювач вже запущений."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
+# Austin Powers, 2016
 # vitrolov <vitrolov@i.ua>, 2014
 # zubr139, 2014
 # Микола Ткач <Stuartlittle1970@gmail.com>, 2015
-# Олександр <6c6c6.ukr@gmail.com>, 2014
+# Олександр (6c6c6) <6c6c6.ukr@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-05-13 18:58+0000\n"
-"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/smplayer/"
-"language/uk/)\n"
+"PO-Revision-Date: 2016-01-19 12:12+0000\n"
+"Last-Translator: Austin Powers\n"
+"Language-Team: Ukrainian (http://www.transifex.com/rvm/smplayer/language/"
+"uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
