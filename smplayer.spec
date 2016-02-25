@@ -123,6 +123,11 @@ update-desktop-database &> /dev/null || :
 %{_docdir}/%{name}/
 
 %changelog
+* Thu Feb 25 2016 Ricardo Villalba <rvm@users.sourceforge.net>
+- Remove smtube
+- Remove some patches
+- Install smplayer-themes and smplayer-skins
+
 * Sun Jan 17 2016 Sérgio Basto <sergio@serjux.com> - 16.1.0-1
 - Update 16.1.0
 
