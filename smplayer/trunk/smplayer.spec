@@ -1,5 +1,6 @@
 Name:           smplayer
 Version:        16.1.0
+%global smplayer_themes_ver 15.12.0
 Release:        1%{?dist}
 Summary:        A graphical frontend for mplayer
 
@@ -11,6 +12,7 @@ Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.ta
 # see also: 
 # https://sourceforge.net/tracker/?func=detail&atid=913576&aid=2052905&group_id=185512
 Source1:        smplayer_enqueue_kde4.desktop
+Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
 
 # Fix regression in Thunar (TODO: re-check in upcoming versions!)
 # https://bugzilla.rpmfusion.org/show_bug.cgi?id=1217
@@ -33,8 +35,8 @@ at the same point and with the same settings. smplayer is developed with
 the Qt toolkit, so it's multi-platform.
 
 %prep
-%setup -q
-#%setup -a3 -qn %{name}-%{version}
+#%setup -q
+%setup -a3 -qn %{name}-%{version}
 #remove some bundle sources
 #rm -rf zlib
 
@@ -61,7 +63,10 @@ sed -i '/cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make/s!$! %{?_smp_mflags}!'
 echo "NotShowIn=KDE;" >> smplayer_enqueue.desktop
 
 %build
-make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAKE_OPTS=DEFINES+=SIMPLE_BUILD
+make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
+#make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAKE_OPTS=DEFINES+=SIMPLE_BUILD
+#touch src/smplayer
+#touch src/translations/smplayer_es.qm
 
 #pushd smtube-%{smtube_ver}
 #sed -i 's|/usr/local|%{_prefix}|' Makefile
@@ -70,12 +75,20 @@ make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAK
 #make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4
 #popd
 
+pushd smplayer-themes-%{smplayer_themes_ver}
+make
+popd
 
 %install
 make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
 #pushd smtube-%{smtube_ver}
 #make install DESTDIR=%{buildroot}
 #popd
+
+pushd smplayer-themes-%{smplayer_themes_ver}
+make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
+popd
+
 
 desktop-file-install --delete-original                   \
         --vendor "rpmfusion"                             \
