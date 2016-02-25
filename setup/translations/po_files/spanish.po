@@ -2,6 +2,18 @@
 msgid "Binary codecs are not supported in this version."
 msgstr "Los códecs binarios no están disponibles en esta versión."
 
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr "Borrando la configuración de SMPlayer..."
+
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr "Borrando la caché de fontconfig..."
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "Comprobando actualizaciones de youtube-dl..."
+
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
 msgstr "No se ha podido descargar Youtube-DL: '$R0'."
@@ -144,6 +156,14 @@ msgstr "desactualizar"
 # Type_Reinstall
 msgid "reinstall"
 msgstr "reinstalar"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be "
+"reversed."
+msgstr ""
+"¿Estás seguro de que quieres reiniciar la configuración de SMPlayer? "
+"Esta acción no se puede revertir."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
