@@ -10,7 +10,7 @@ License:        GPLv2+
 URL:            http://smplayer.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
 # Add a servicemenu to enqeue files in smplayer's playlist. 
-# see also: 
+# see also:
 # https://sourceforge.net/tracker/?func=detail&atid=913576&aid=2052905&group_id=185512
 Source1:        smplayer_enqueue_kde4.desktop
 Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
@@ -41,10 +41,6 @@ and with the same settings.
 %setup -a3 -a4 -qn %{name}-%{version}
 
 %patch0 -p0 -b .desktop-files
-#%patch2 -p1 -b .qtsingleapplication
-#pushd smtube-%{smtube_ver}
-#%patch3 -p1 -b .qtsingleapplication
-#popd
 
 # correction for wrong-file-end-of-line-encoding
 %{__sed} -i 's/\r//' *.txt
@@ -67,13 +63,6 @@ make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAK
 #touch src/smplayer
 #touch src/translations/smplayer_es.qm
 
-#pushd smtube-%{smtube_ver}
-#sed -i 's|/usr/local|%{_prefix}|' Makefile
-#sed -i 's|doc/smtube|doc/%{name}/smtube|' Makefile
-#sed -i 's|smtube/translations|smplayer/translations|' Makefile
-#make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4
-#popd
-
 pushd smplayer-themes-%{smplayer_themes_ver}
 make
 popd
@@ -84,9 +73,6 @@ popd
 
 %install
 make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
-#pushd smtube-%{smtube_ver}
-#make install DESTDIR=%{buildroot}
-#popd
 
 pushd smplayer-themes-%{smplayer_themes_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
@@ -106,8 +92,6 @@ desktop-file-install --delete-original                   \
         --vendor "rpmfusion"                             \
         --dir %{buildroot}%{_datadir}/applications/      \
         %{buildroot}%{_datadir}/applications/%{name}_enqueue.desktop
-
-#desktop-file-validate %{buildroot}%{_datadir}/applications/smtube.desktop
 
 # Add servicemenus dependend on the version of KDE:
 # https://sourceforge.net/tracker/index.php?func=detail&aid=2052905&group_id=185512&atid=913576
@@ -129,12 +113,9 @@ update-desktop-database &> /dev/null || :
 
 %files
 %{_bindir}/smplayer
-#%{_bindir}/smtube
 %{_datadir}/applications/rpmfusion-smplayer*.desktop
-#%{_datadir}/applications/smtube.desktop
 %{_datadir}/icons/hicolor/*/apps/smplayer.png
 %{_datadir}/icons/hicolor/*/apps/smplayer.svg
-#%{_datadir}/icons/hicolor/*/apps/smtube.png
 %{_datadir}/smplayer/
 %dir %{_datadir}/kde4/services/ServiceMenus/
 %{_datadir}/kde4/services/ServiceMenus/smplayer_enqueue.desktop
