@@ -31,11 +31,11 @@ ${LangFileString} Section_SMPlayer_Desc "SMPlayer, разделяемые биб
 ${LangFileString} Section_DesktopShortcut "Рабочий стол"
 ${LangFileString} Section_DesktopShortcut_Desc "Создаёт ярлыки SMPlayer на рабочем столе."
 
-${LangFileString} Section_StartMenu "Стартовое меню"
-${LangFileString} Section_StartMenu_Desc "Создаёт ярлыки SMPlayer в стартовом меню."
+${LangFileString} Section_StartMenu "Меню «Пуск»"
+${LangFileString} Section_StartMenu_Desc "Создаёт ярлыки SMPlayer в меню «Пуск»."
 
-${LangFileString} Section_MPlayer "MPlayer (необходимо)"
-${LangFileString} Section_MPlayer_Desc "MPlayer; необходимо для воспроизведения."
+${LangFileString} Section_MPlayer "MPlayer (требуется)"
+${LangFileString} Section_MPlayer_Desc "MPlayer, требуется для воспроизведения."
 
 ${LangFileString} Section_MPlayerCodecs "Бинарные кодеки"
 !ifdef WIN64
@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Бинарные кодеки не
 ${LangFileString} Section_MPlayerCodecs_Desc "Дополнительные кодеки для MPlayer. (Для установки требуется подключение к сети Интернет)"
 !endif
 
-${LangFileString} Section_MPV_Desc "Богатый возможностями форк MPlayer и MPlayer2"
+${LangFileString} Section_MPV_Desc "Богатый возможностями форк MPlayer и MPlayer2."
 
 ${LangFileString} Section_MEncoder_Desc "Сопутствующая MPlayer программа, которую можно использовать для кодирования и преобразования поддерживаемых аудио и видео потоков."
 
@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Откат изменений..."
 ${LangFileString} Info_Files_Extract "Извлечение файлов..."
 ${LangFileString} Info_SMTube_Backup "Резервируется SMTube..."
 ${LangFileString} Info_SMTube_Restore "Восстановление SMTube из предыдущей установки..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Восстановление MPV из предыдущей установки..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Загрузка MPV..."
-${LangFileString} MPV_DL_Retry "Не удалось установить MPV. Попытаться ещё раз?"
-${LangFileString} MPV_DL_Failed "Не удалось загрузить MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Ошибка при установке MPV."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "Не удалось установить YouTube-DL. Попытаться ещё раз?"
-${LangFileString} YTDL_DL_Failed "Не удалось загрузить Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

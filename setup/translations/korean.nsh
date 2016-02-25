@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "변경점을 원상 복원하는 중..."
 ${LangFileString} Info_Files_Extract "파일 압축을 해제하는 중..."
 ${LangFileString} Info_SMTube_Backup "SMTube를 백업하는 중..."
 ${LangFileString} Info_SMTube_Restore "SMTube는 이전 설치에서 복원하는 중..."
-${LangFileString} Info_MPV_Backup "MPV를 백업하는 중..."
-${LangFileString} Info_MPV_Restore "MPV를 이전 설치에서 복원하는 중..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "MPV 다운로드 중..."
-${LangFileString} MPV_DL_Retry "MPV 설치에 실패했습니다. 재시도할까요?"
-${LangFileString} MPV_DL_Failed "MPV 다운로드 실패:  '$R0'."
-${LangFileString} MPV_Inst_Failed "MPV 설치에 실패했습니다."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL 설치에 실패했습니다. 재시도할까요?"
-${LangFileString} YTDL_DL_Failed "YouTube-DL 다운로드 실패:  '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

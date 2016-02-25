@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Mengembalikan pengubahan..."
 ${LangFileString} Info_Files_Extract "Mengekstrak berkas..."
 ${LangFileString} Info_SMTube_Backup "Mencadangkan SMTube..."
 ${LangFileString} Info_SMTube_Restore "Mengembalikan SMTube dari pemasangan sebelumnya..."
-${LangFileString} Info_MPV_Backup "Mencadangkan MPV..."
-${LangFileString} Info_MPV_Restore "Mengembalikan MPV dari pemasangan sebelumnya..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Mengunduh MPV..."
-${LangFileString} MPV_DL_Retry "MPV tidak berhasil dipasang. Coba lagi?"
-${LangFileString} MPV_DL_Failed "Gagal mengunduh MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Gagal memasang MPV."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL tidak berhasil dipasang. Coba lagi?"
-${LangFileString} YTDL_DL_Failed "Gagal mengunduh Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

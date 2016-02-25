@@ -81,9 +81,9 @@ ${LangFileString} Type_Upgrade "Atualizar"
 ${LangFileString} StartBtn "Iniciar"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "A transferir os codificadores MPlayer..."
+${LangFileString} Codecs_DL_Msg "A descarregar os codificadores MPlayer..."
 ${LangFileString} Codecs_DL_Retry "Os codificadores MPlayer não foram instalados corretamente. Tentar novamente?"
-${LangFileString} Codecs_DL_Failed "Falha ao transferir os codificadores MPlayer: '$R0'."
+${LangFileString} Codecs_DL_Failed "Falha ao descarregar os codificadores MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Falha ao instalar os codificadores MPlayer."
 
 ; Uninstaller
@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "A reverter alterações..."
 ${LangFileString} Info_Files_Extract "A extrair ficheiros..."
 ${LangFileString} Info_SMTube_Backup "A criar backup do SMTube..."
 ${LangFileString} Info_SMTube_Restore "A restaurar o SMTube da instalação anterior..."
-${LangFileString} Info_MPV_Backup "A criar backup do mpv..."
-${LangFileString} Info_MPV_Restore "A restaurar o mpv da instalação anterior..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "A transferir o mpv..."
-${LangFileString} MPV_DL_Retry "O mpv não foi instalado. Tentar novamente?"
-${LangFileString} MPV_DL_Failed "Falha ao transferir o mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Falha ao instalar o mpv."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL não foi instalada. Tentar novamente?"
-${LangFileString} YTDL_DL_Failed "Falha ao transferir Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

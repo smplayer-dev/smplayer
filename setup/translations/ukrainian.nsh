@@ -8,7 +8,7 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Встановлювач вже запущений."
-${LangFileString} Installer_No_Admin "Ви повинні увійти у систему в якості адміністратора під час встановлення цієї проґрами."
+${LangFileString} Installer_No_Admin "Ви повинні увійти в систему в якості адміністратора під час встановлення цієї програми."
 ${LangFileString} SMPlayer_Is_Running "Запущено екземпляр SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
 
 ${LangFileString} OS_Not_Supported "Непідтримувана версія операційної системи.$\nSMPlayer ${SMPLAYER_VERSION} потребує як мінімум Windows XP й може працювати неправильно на Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
@@ -46,7 +46,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Додаткові кодеки д
 
 ${LangFileString} Section_MPV_Desc "Багатий можливостями форк MPlayer і MPlayer2"
 
-${LangFileString} Section_MEncoder_Desc "Супутня MPlayer проґрама, яку можна використовувати для кодування та перетворення підтримуваних аудіо та видиво потоків."
+${LangFileString} Section_MEncoder_Desc "Супутня MPlayer програма, яку можна використовувати для кодування та перетворення підтримуваних аудіо та відео потоків."
 
 ${LangFileString} Section_IconThemes "Теми піктограм"
 ${LangFileString} Section_IconThemes_Desc "Додаткові теми піктограм для SMPlayer."
@@ -94,7 +94,7 @@ ${LangFileString} Uninstaller_InvalidDirectory "Встановлення SMPlaye
 ${LangFileString} Uninstaller_64bitOnly "Це встановлення може бути вилучене лише на 64-бітовій Windows."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer - повноцінна оболонка для MPlayer, починаючи від базових функцій типу відтворення видивофайлів, DVD, VCD й закінчуючи просунутішими типу підтримки фільтрів MPlayer, переліків тощо."
+${LangFileString} Application_Description "SMPlayer - повноцінна оболонка для MPlayer, починаючи від базових функцій типу відтворення відеофайлів, DVD, VCD й закінчуючи просунутішими типу підтримки фільтрів MPlayer, переліків тощо."
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Виконується резервне копіювання кодеків з попереднього встановлення..."
@@ -102,23 +102,23 @@ ${LangFileString} Info_Codecs_Restore "Відновити кодеки з поп
 ${LangFileString} Info_Del_Files "Видалення файлів..."
 ${LangFileString} Info_Del_Registry "Вилучення ключів реєстру..."
 ${LangFileString} Info_Del_Shortcuts "Вилучення ярликів..."
-${LangFileString} Info_Rest_Assoc "Відновлення асоціяцій файлів..."
+${LangFileString} Info_Rest_Assoc "Відновлення асоціацій файлів..."
 ${LangFileString} Info_RollBack "Відкочування змін..."
 ${LangFileString} Info_Files_Extract "Витягнення файлів..."
 ${LangFileString} Info_SMTube_Backup "Резервується SMTube..."
 ${LangFileString} Info_SMTube_Restore "Відновлення SMTube з попереднього встановлення..."
-${LangFileString} Info_MPV_Backup "Backing up MPV..."
-${LangFileString} Info_MPV_Restore "Відновлення MPV з попереднього встановлення..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Завантаження MPV..."
-${LangFileString} MPV_DL_Retry "Не вдалося встановити MPV. Спробувати ще раз?"
-${LangFileString} MPV_DL_Failed "Не вдалося завантажити MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Помилка при встановленні MPV."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "Не вдалося встановити YouTube-DL. Спробувати ще раз?"
-${LangFileString} YTDL_DL_Failed "Не вдалося завантажити Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

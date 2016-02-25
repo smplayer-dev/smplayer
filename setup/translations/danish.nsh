@@ -74,22 +74,22 @@ ${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
 
 ${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
 
-${LangFileString} Type_Reinstall "geninstaller"
+${LangFileString} Type_Reinstall "geninstallér"
 ${LangFileString} Type_Downgrade "nedgrader"
 ${LangFileString} Type_Upgrade "opgrader"
 
 ${LangFileString} StartBtn "Start"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Henter MPlayer-codecs..."
+${LangFileString} Codecs_DL_Msg "Downloader MPlayer-codecs..."
 ${LangFileString} Codecs_DL_Retry "MPlayer codecs blev ikke installeret korrekt. Prøv igen?"
-${LangFileString} Codecs_DL_Failed "Hentning af MPlayer-codecs mislykkedes: '$R0'."
+${LangFileString} Codecs_DL_Failed "Download af MPlayer-codecs mislykkedes: "$R0"."
 ${LangFileString} Codecs_Inst_Failed "Installation af MPlayer-codecs mislykkedes."
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Denne installation kan kun afinstalleres af en bruger med administrator tilladelser."
 ${LangFileString} Uninstaller_Aborted "Afinstallation afbrudt af bruger."
-${LangFileString} Uninstaller_NotInstalled "Det ser ikke ud til at SMPlayer er installeret i mappen '$INSTDIR'.$\r$\nFortsæt alligevel (anbefales ikke)?"
+${LangFileString} Uninstaller_NotInstalled "Det ser ikke ud til at SMPlayer er installeret i mappen "$INSTDIR".$\r$\nFortsæt alligevel (anbefales ikke)?"
 ${LangFileString} Uninstaller_InvalidDirectory "SMPlayer-installation blev ikke fundet."
 ${LangFileString} Uninstaller_64bitOnly "Denne installation kan kun afinstalleres på 64-bit Windows."
 
@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Gendanner ændringer..."
 ${LangFileString} Info_Files_Extract "Udpakker filer..."
 ${LangFileString} Info_SMTube_Backup "Opretter backup af SMTube..."
 ${LangFileString} Info_SMTube_Restore "Gendanner SMTube fra tidligere installation..."
-${LangFileString} Info_MPV_Backup "Opretter backup af MPV..."
-${LangFileString} Info_MPV_Restore "Gendanner MPV fra tidligere installation..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Henter MPV..."
-${LangFileString} MPV_DL_Retry "MPV blev ikke korrekt installeret. Prøv igen?"
-${LangFileString} MPV_DL_Failed "Hentning af MPV mislykkedes: '$R0'."
-${LangFileString} MPV_Inst_Failed "Installation af MPV mislykkedes."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL blev ikke korrekt installeret. Forsøg igen?"
-${LangFileString} YTDL_DL_Failed "Download af YouTube-DL mislykkedes: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

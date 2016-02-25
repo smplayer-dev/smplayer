@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "変更を元に戻しています..."
 ${LangFileString} Info_Files_Extract "ファイルを展開しています..."
 ${LangFileString} Info_SMTube_Backup "SMTube をバックアップしています..."
 ${LangFileString} Info_SMTube_Restore "以前のインストールからの SMTube を復元しています..."
-${LangFileString} Info_MPV_Backup "MPV をバックアップしています..."
-${LangFileString} Info_MPV_Restore "以前のインストールからの MPV を復元しています..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "MPV をダウンロードしています..."
-${LangFileString} MPV_DL_Retry "MPV は正常にインストールされませんでした。再試行しますか?"
-${LangFileString} MPV_DL_Failed "MPV のダウンロードに失敗しました: '$R0'。"
-${LangFileString} MPV_Inst_Failed "MPV のインストールに失敗しました。"
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL は正常にインストールされませんでした。再試行しますか?"
-${LangFileString} YTDL_DL_Failed "YouTube-DL のダウンロードに失敗しました: '$R0'。"
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

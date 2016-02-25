@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Aldaketak desegiten..."
 ${LangFileString} Info_Files_Extract "Agiriak ateratzen..."
 ${LangFileString} Info_SMTube_Backup "SMTube babeskopiatzen..."
 ${LangFileString} Info_SMTube_Restore "SMTube aurreko ezarpenetik leheneratzen"
-${LangFileString} Info_MPV_Backup "MPV babeskopiatzen..."
-${LangFileString} Info_MPV_Restore "MPV aurreko ezarpenetik leheneratzen..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Jeitsi MPV"
-${LangFileString} MPV_DL_Retry "MPV ez da ongi ezarri. Saiatu berriro?"
-${LangFileString} MPV_DL_Failed "Hutsegitea MPV kodekak jeisterakoan: '$R0'."
-${LangFileString} MPV_Inst_Failed "Hutsegitea MPV ezartzerakoan"
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL ez da ongi ezarri? Saiatu berriro?"
-${LangFileString} YTDL_DL_Failed "Hutsegitea Youtube-DL jeisterakoan: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

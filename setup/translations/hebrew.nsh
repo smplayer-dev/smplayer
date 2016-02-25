@@ -44,7 +44,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "קודקים של בינארי א�
 ${LangFileString} Section_MPlayerCodecs_Desc "קודקי לא מחייבים (רשות) עבור MPlayer. (חיבור אינטרנט נדרש לשם התקנה)"
 !endif
 
-${LangFileString} Section_MPV_Desc "הסתעפות רב-תכליתית של MPlayer ו-MPlayer2"
+${LangFileString} Section_MPV_Desc "הסתעפות רב-תכליתית של MPlayer וגם MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "תוכנית משותפת ליישום MPlayer אשר מסוגלת לשמש כדי לקודד או לשנות זרמי אודיו או וידאו נתמכים."
 
@@ -56,7 +56,7 @@ ${LangFileString} Section_Translations_Desc "קבצים של שפות לא-אנ�
 
 ${LangFileString} Section_ResetSettings_Desc "מחיקת העדפות SMPlayer אשר נותרו מתוך התקנות קודמות."
 
-${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for codecs that are not yet implemented natively, like newer RealVideo variants and a lot of uncommon formats.$\nNote that they are not necessary to play most common formats like DVDs, MPEG-1/2/4, etc."
+${LangFileString} MPlayer_Codec_Msg "חבילות בינארי codec מוסיפות תמיכה לקודקים אשר לא מיושמים במערכת באופן טבעי, כגון RealVideo על סוגיו ועוד פורמטים רבים לא נפוצים.$\nלתשומת לבך אלו לא נדרשים כדי לנגן את רוב הפורמטים הנפוצים כגון DVD, MPEG-1/2/4, וכו׳."
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "בחר טיפוס התקנה"
@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "משחזר כעת שינויים..."
 ${LangFileString} Info_Files_Extract "מחלץ כעת קבצים..."
 ${LangFileString} Info_SMTube_Backup "מגבה כעת את SMTube..."
 ${LangFileString} Info_SMTube_Restore "משחזר כעת את SMTube מתוך התקנה קודמת..."
-${LangFileString} Info_MPV_Backup "מגבה כעת את MPV..."
-${LangFileString} Info_MPV_Restore "משחזר כעת את MPV מתוך התקנה קודמת..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "מוריד כעת את MPV..."
-${LangFileString} MPV_DL_Retry "MPV לא הותקן בהצלחה. לנסות שוב?"
-${LangFileString} MPV_DL_Failed "נכשל להוריד MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "נכשל להתקין MPV."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL לא הותקן בהצלחה. לנסות שוב?"
-${LangFileString} YTDL_DL_Failed "נכשל להוריד את Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install
