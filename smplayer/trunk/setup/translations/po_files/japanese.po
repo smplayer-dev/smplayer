@@ -2,6 +2,18 @@
 msgid "Binary codecs are not supported in this version."
 msgstr "バイナリ コーデックはこのバージョンではサポートされていません。"
 
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr ""
+
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr ""
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr ""
+
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
 msgstr "YouTube-DL のダウンロードに失敗しました: '$R0'。"
@@ -145,6 +157,12 @@ msgstr "ダウングレード"
 # Type_Reinstall
 msgid "reinstall"
 msgstr "再インストール"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be "
+"reversed."
+msgstr ""
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
