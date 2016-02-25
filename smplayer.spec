@@ -6,10 +6,10 @@ Release:        1%{?dist}
 Summary:        A great media player
 
 Group:          Applications/Multimedia
-License:        GPLv2+
+License:        GPL-2.0+
 URL:            http://smplayer.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
-# Add a servicemenu to enqeue files in smplayer's playlist. 
+# Add a servicemenu to enqeue files in smplayer's playlist.
 # see also:
 # https://sourceforge.net/tracker/?func=detail&atid=913576&aid=2052905&group_id=185512
 Source1:        smplayer_enqueue_kde4.desktop
@@ -20,12 +20,20 @@ Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smpla
 # https://bugzilla.rpmfusion.org/show_bug.cgi?id=1217
 Patch0:         smplayer-0.8.3-desktop-files.patch
 
-BuildRequires:  desktop-file-utils
+%if 0%{?suse_version}
+BuildRequires:  libqt4-devel
+BuildRequires:  hicolor-icon-theme
+BuildRequires:  kde4-filesystem
+Requires:       kde4-filesystem
+%else
 BuildRequires:  qt4-devel
-BuildRequires:  qtwebkit-devel
+#BuildRequires:  qtwebkit-devel
+Requires:       kde-filesystem
+%endif
+BuildRequires:  desktop-file-utils
+
 # smplayer without mplayer is quite useless
 Requires:       mplayer
-Requires:       kde-filesystem
 %{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
 
 %description
@@ -49,7 +57,9 @@ iconv -f Latin1 -t UTF-8 -o Changelog.utf8 Changelog
 mv Changelog.utf8 Changelog
 
 # fix path of docs
+%if !0%{?suse_version}
 sed -i 's|DOC_PATH=$(PREFIX)/share/doc/packages/smplayer|DOC_PATH=$(PREFIX)/share/doc/smplayer|' Makefile
+%endif
 
 # use %{?_smp_mflags}
 sed -i '/cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make/s!$! %{?_smp_mflags}!' Makefile
@@ -58,8 +68,15 @@ sed -i '/cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make/s!$! %{?_smp_mflags}!'
 echo "NotShowIn=KDE;" >> smplayer_enqueue.desktop
 
 %build
-make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
-#make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} LRELEASE=%{_bindir}/lrelease-qt4 QMAKE_OPTS=DEFINES+=SIMPLE_BUILD
+make \
+	PREFIX=%{_prefix} \
+%if !0%{?suse_version}
+	QMAKE=%{_qt4_qmake} \
+	LRELEASE=%{_bindir}/lrelease-qt4 \
+%endif
+#	QMAKE_OPTS=DEFINES+=SIMPLE_BUILD
+	QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
+
 #touch src/smplayer
 #touch src/translations/smplayer_es.qm
 
@@ -72,7 +89,7 @@ make
 popd
 
 %install
-make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
+make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
 
 pushd smplayer-themes-%{smplayer_themes_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
@@ -112,10 +129,12 @@ fi
 update-desktop-database &> /dev/null || :
 
 %files
+%defattr(-,root,root)
 %{_bindir}/smplayer
-%{_datadir}/applications/rpmfusion-smplayer*.desktop
-%{_datadir}/icons/hicolor/*/apps/smplayer.png
-%{_datadir}/icons/hicolor/*/apps/smplayer.svg
+%{_datadir}/applications/*.desktop
+%dir %{_datadir}/icons/hicolor/*/
+%dir %{_datadir}/icons/hicolor/*/apps/
+%{_datadir}/icons/hicolor/*/apps/%{name}.*
 %{_datadir}/smplayer/
 %dir %{_datadir}/kde4/services/ServiceMenus/
 %{_datadir}/kde4/services/ServiceMenus/smplayer_enqueue.desktop
@@ -123,7 +142,7 @@ update-desktop-database &> /dev/null || :
 %{_docdir}/%{name}/
 
 %changelog
-* Thu Feb 25 2016 Ricardo Villalba <rvm@users.sourceforge.net>
+* Thu Feb 25 2016 Ricardo Villalba <rvm@users.sourceforge.net> - 16.1.0
 - Remove smtube
 - Remove some patches
 - Install smplayer-themes and smplayer-skins
