@@ -83,13 +83,13 @@ ${LangFileString} StartBtn "Start"
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "Downloader MPlayer-codecs..."
 ${LangFileString} Codecs_DL_Retry "MPlayer codecs blev ikke installeret korrekt. Prøv igen?"
-${LangFileString} Codecs_DL_Failed "Download af MPlayer-codecs mislykkedes: "$R0"."
+${LangFileString} Codecs_DL_Failed "Download af MPlayer-codecs mislykkedes: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Installation af MPlayer-codecs mislykkedes."
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "Denne installation kan kun afinstalleres af en bruger med administrator tilladelser."
 ${LangFileString} Uninstaller_Aborted "Afinstallation afbrudt af bruger."
-${LangFileString} Uninstaller_NotInstalled "Det ser ikke ud til at SMPlayer er installeret i mappen "$INSTDIR".$\r$\nFortsæt alligevel (anbefales ikke)?"
+${LangFileString} Uninstaller_NotInstalled "Det ser ikke ud til at SMPlayer er installeret i mappen '$INSTDIR'.$\r$\nFortsæt alligevel (anbefales ikke)?"
 ${LangFileString} Uninstaller_InvalidDirectory "SMPlayer-installation blev ikke fundet."
 ${LangFileString} Uninstaller_64bitOnly "Denne installation kan kun afinstalleres på 64-bit Windows."
 
