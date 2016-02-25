@@ -1,6 +1,7 @@
 Name:           smplayer
 Version:        16.1.0
 %global smplayer_themes_ver 15.12.0
+%global smplayer_skins_ver 15.2.0
 Release:        1%{?dist}
 Summary:        A graphical frontend for mplayer
 
@@ -13,6 +14,7 @@ Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.ta
 # https://sourceforge.net/tracker/?func=detail&atid=913576&aid=2052905&group_id=185512
 Source1:        smplayer_enqueue_kde4.desktop
 Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
+Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
 
 # Fix regression in Thunar (TODO: re-check in upcoming versions!)
 # https://bugzilla.rpmfusion.org/show_bug.cgi?id=1217
@@ -35,11 +37,7 @@ at the same point and with the same settings. smplayer is developed with
 the Qt toolkit, so it's multi-platform.
 
 %prep
-#%setup -q
-%setup -a3 -qn %{name}-%{version}
-#remove some bundle sources
-#rm -rf zlib
-
+%setup -a3 -a4 -qn %{name}-%{version}
 
 %patch0 -p0 -b .desktop-files
 #%patch2 -p1 -b .qtsingleapplication
@@ -79,6 +77,10 @@ pushd smplayer-themes-%{smplayer_themes_ver}
 make
 popd
 
+pushd smplayer-skins-%{smplayer_skins_ver}
+make
+popd
+
 %install
 make QMAKE=%{_qt4_qmake} PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
 #pushd smtube-%{smtube_ver}
@@ -89,6 +91,9 @@ pushd smplayer-themes-%{smplayer_themes_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
 popd
 
+pushd smplayer-skins-%{smplayer_skins_ver}
+make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
+popd
 
 desktop-file-install --delete-original                   \
         --vendor "rpmfusion"                             \
