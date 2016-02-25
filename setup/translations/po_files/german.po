@@ -15,36 +15,36 @@ msgid "Checking for youtube-dl updates..."
 msgstr ""
 
 # YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
-msgstr "Fehler beim Herunterladen von Youtube-DL: »$R0«."
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr ""
 
 # YTDL_DL_Retry
-msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr "YouTube-DL ist nicht erfolgreich installiert worden. Erneut versuchen?"
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr ""
 
 # MPV_Inst_Failed
-msgid "Failed to install MPV."
-msgstr "Fehler beim Installieren von MPV."
+msgid "Failed to install mpv."
+msgstr ""
 
 # MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
-msgstr "Fehler beim Herunterladen von MPV: »$R0«."
+msgid "Failed to download mpv: '$R0'."
+msgstr ""
 
 # MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
-msgstr "MPV ist nicht erfolgreich installiert worden. Erneut versuchen?"
+msgid "mpv was not successfully installed. Retry?"
+msgstr ""
 
 # MPV_DL_Msg
-msgid "Downloading MPV..."
-msgstr "MPV wird heruntergeladen ..."
+msgid "Downloading mpv..."
+msgstr ""
 
 # Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
-msgstr "MPV wird aus vorheriger Installation wiederhergestellt..."
+msgid "Restoring mpv from previous installation..."
+msgstr ""
 
 # Info_MPV_Backup
-msgid "Backing up MPV..."
-msgstr "MPV wird gesichert ..."
+msgid "Backing up mpv..."
+msgstr ""
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -395,3 +395,36 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Info_MPV_Backup
+#~ msgid "Backing up MPV..."
+#~ msgstr "MPV wird gesichert ..."
+
+# Info_MPV_Restore
+#~ msgid "Restoring MPV from previous installation..."
+#~ msgstr "MPV wird aus vorheriger Installation wiederhergestellt..."
+
+# MPV_DL_Msg
+#~ msgid "Downloading MPV..."
+#~ msgstr "MPV wird heruntergeladen ..."
+
+# MPV_DL_Retry
+#~ msgid "MPV was not successfully installed. Retry?"
+#~ msgstr "MPV ist nicht erfolgreich installiert worden. Erneut versuchen?"
+
+# MPV_DL_Failed
+#~ msgid "Failed to download MPV: '$R0'."
+#~ msgstr "Fehler beim Herunterladen von MPV: »$R0«."
+
+# MPV_Inst_Failed
+#~ msgid "Failed to install MPV."
+#~ msgstr "Fehler beim Installieren von MPV."
+
+# YTDL_DL_Retry
+#~ msgid "YouTube-DL was not successfully installed. Retry?"
+#~ msgstr ""
+#~ "YouTube-DL ist nicht erfolgreich installiert worden. Erneut versuchen?"
+
+# YTDL_DL_Failed
+#~ msgid "Failed to download Youtube-DL: '$R0'."
+#~ msgstr "Fehler beim Herunterladen von Youtube-DL: »$R0«."
