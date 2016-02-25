@@ -3,7 +3,7 @@ Version:        16.1.0
 %global smplayer_themes_ver 15.12.0
 %global smplayer_skins_ver 15.2.0
 Release:        1%{?dist}
-Summary:        A graphical frontend for mplayer
+Summary:        A great media player
 
 Group:          Applications/Multimedia
 License:        GPLv2+
@@ -29,12 +29,13 @@ Requires:       kde-filesystem
 %{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
 
 %description
-smplayer intends to be a complete front-end for Mplayer, from basic features
-like playing videos, DVDs, and VCDs to more advanced features like support
-for Mplayer filters and more. One of the main features is the ability to
-remember the state of a played file, so when you play it later it will resume
-at the same point and with the same settings. smplayer is developed with
-the Qt toolkit, so it's multi-platform.
+SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
+and also for mpv. But apart from providing access for the most common
+and useful options of mplayer and mpv, SMPlayer adds other interesting features
+like the possibility to play Youtube videos or search and download subtitles.
+One of the main features is the ability to remember the state of a
+played file, so when you play it later it will be resumed at the same point
+and with the same settings.
 
 %prep
 %setup -a3 -a4 -qn %{name}-%{version}
