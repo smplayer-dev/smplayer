@@ -15,36 +15,36 @@ msgid "Checking for youtube-dl updates..."
 msgstr ""
 
 # YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
-msgstr "Не удалось загрузить Youtube-DL: '$R0'."
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr ""
 
 # YTDL_DL_Retry
-msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr "Не удалось установить YouTube-DL. Попытаться ещё раз?"
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr ""
 
 # MPV_Inst_Failed
-msgid "Failed to install MPV."
-msgstr "Ошибка при установке MPV."
+msgid "Failed to install mpv."
+msgstr ""
 
 # MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
-msgstr "Не удалось загрузить MPV: '$R0'."
+msgid "Failed to download mpv: '$R0'."
+msgstr ""
 
 # MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
-msgstr "Не удалось установить MPV. Попытаться ещё раз?"
+msgid "mpv was not successfully installed. Retry?"
+msgstr ""
 
 # MPV_DL_Msg
-msgid "Downloading MPV..."
-msgstr "Загрузка MPV..."
+msgid "Downloading mpv..."
+msgstr ""
 
 # Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
-msgstr "Восстановление MPV из предыдущей установки..."
+msgid "Restoring mpv from previous installation..."
+msgstr ""
 
 # Info_MPV_Backup
-msgid "Backing up MPV..."
-msgstr "Backing up MPV..."
+msgid "Backing up mpv..."
+msgstr ""
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -385,3 +385,35 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
 "%100>=11 && n%100<=14)? 2 : 3);\n"
+
+# Info_MPV_Backup
+#~ msgid "Backing up MPV..."
+#~ msgstr "Backing up MPV..."
+
+# Info_MPV_Restore
+#~ msgid "Restoring MPV from previous installation..."
+#~ msgstr "Восстановление MPV из предыдущей установки..."
+
+# MPV_DL_Msg
+#~ msgid "Downloading MPV..."
+#~ msgstr "Загрузка MPV..."
+
+# MPV_DL_Retry
+#~ msgid "MPV was not successfully installed. Retry?"
+#~ msgstr "Не удалось установить MPV. Попытаться ещё раз?"
+
+# MPV_DL_Failed
+#~ msgid "Failed to download MPV: '$R0'."
+#~ msgstr "Не удалось загрузить MPV: '$R0'."
+
+# MPV_Inst_Failed
+#~ msgid "Failed to install MPV."
+#~ msgstr "Ошибка при установке MPV."
+
+# YTDL_DL_Retry
+#~ msgid "YouTube-DL was not successfully installed. Retry?"
+#~ msgstr "Не удалось установить YouTube-DL. Попытаться ещё раз?"
+
+# YTDL_DL_Failed
+#~ msgid "Failed to download Youtube-DL: '$R0'."
+#~ msgstr "Не удалось загрузить Youtube-DL: '$R0'."

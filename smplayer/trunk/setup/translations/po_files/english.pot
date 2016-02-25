@@ -274,35 +274,35 @@ msgid "Restoring SMTube from previous installation..."
 msgstr ""
 
 # Info_MPV_Backup
-msgid "Backing up MPV..."
+msgid "Backing up mpv..."
 msgstr ""
 
 # Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
+msgid "Restoring mpv from previous installation..."
 msgstr ""
 
 # MPV_DL_Msg
-msgid "Downloading MPV..."
+msgid "Downloading mpv..."
 msgstr ""
 
 # MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
+msgid "mpv was not successfully installed. Retry?"
 msgstr ""
 
 # MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
+msgid "Failed to download mpv: '$R0'."
 msgstr ""
 
 # MPV_Inst_Failed
-msgid "Failed to install MPV."
+msgid "Failed to install mpv."
 msgstr ""
 
 # YTDL_DL_Retry
-msgid "YouTube-DL was not successfully installed. Retry?"
+msgid "youtube-dl was not successfully installed. Retry?"
 msgstr ""
 
 # YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
+msgid "Failed to download youtube-dl: '$R0'."
 msgstr ""
 
 # YTDL_Update_Check
