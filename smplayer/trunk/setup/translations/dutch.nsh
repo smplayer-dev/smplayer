@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Veranderingen ongedaan maken..."
 ${LangFileString} Info_Files_Extract "Uitpakken van bestanden..."
 ${LangFileString} Info_SMTube_Backup "Back-up SMTube..."
 ${LangFileString} Info_SMTube_Restore "Herstel SMTube van de oude installatie..."
-${LangFileString} Info_MPV_Backup "Bak-up MPV..."
-${LangFileString} Info_MPV_Restore "Herstel MPV van de oude installatie..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Download MPV..."
-${LangFileString} MPV_DL_Retry "MPV was niet succesvol geïnstalleerd. Opnieuw?"
-${LangFileString} MPV_DL_Failed "De download van MPV is mislukt: '$R0'."
-${LangFileString} MPV_Inst_Failed "De installatie van MPV is mislukt."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL was niet succesvol geïnstalleerd. Opniew?"
-${LangFileString} YTDL_DL_Failed "De download van Youtube-DL is mislukt: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

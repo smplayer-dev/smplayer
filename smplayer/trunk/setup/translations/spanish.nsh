@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "Pulsa Desinstalar cuando estés listo."
 ${LangFileString} Reinstall_Msg4 "Cambiar las opciones de instalación"
 ${LangFileString} Reinstall_Msg5 "Reiniciar la configuración de SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "¿Estás seguro de que quieres reiniciar la configuración de SMPlayer? Esta acción no se puede revertir."
 
 ${LangFileString} Type_Reinstall "reinstalar"
 ${LangFileString} Type_Downgrade "desactualizar"
@@ -107,20 +107,20 @@ ${LangFileString} Info_RollBack "Deshaciendo cambios..."
 ${LangFileString} Info_Files_Extract "Extrayendo ficheros..."
 ${LangFileString} Info_SMTube_Backup "Creando una copia de SMTube..."
 ${LangFileString} Info_SMTube_Restore "Restaurando SMTube desde una instalación anterior..."
-${LangFileString} Info_MPV_Backup "Creando una copia de MPV..."
-${LangFileString} Info_MPV_Restore "Restaurando MPV desde una instalación anterior..."
+${LangFileString} Info_MPV_Backup "Creando una copia de mpv..."
+${LangFileString} Info_MPV_Restore "Restaurando mpv desde una instalación anterior..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Descargando MPV..."
-${LangFileString} MPV_DL_Retry "MPV no se ha instalado correctamente. ¿Reintentar?"
-${LangFileString} MPV_DL_Failed "No se ha podido descargar MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "No se ha podido instalar MPV."
+${LangFileString} MPV_DL_Msg "Descargando mpv..."
+${LangFileString} MPV_DL_Retry "mpv no se ha instalado correctamente. ¿Reintentar?"
+${LangFileString} MPV_DL_Failed "No se ha podido descargar mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "No se ha podido instalar mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL no se ha instalado correctamente. ¿Reintentar?"
-${LangFileString} YTDL_DL_Failed "No se ha podido descargar Youtube-DL: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youTube-dl no se ha instalado correctamente. ¿Reintentar?"
+${LangFileString} YTDL_DL_Failed "No se ha podido descargar youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Comprobando actualizaciones de youtube-dl..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Borrando la caché de fontconfig..."
+${LangFileString} Info_Cleaning_SMPlayer "Borrando la configuración de SMPlayer..."

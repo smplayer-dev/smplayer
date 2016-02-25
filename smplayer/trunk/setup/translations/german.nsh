@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Änderungen werden zurückgesetzt …"
 ${LangFileString} Info_Files_Extract "Dateien werden entpackt …"
 ${LangFileString} Info_SMTube_Backup "SMTube wird gesichert ..."
 ${LangFileString} Info_SMTube_Restore "SMTube wird aus vorheriger Installation wiederhergestellt ..."
-${LangFileString} Info_MPV_Backup "MPV wird gesichert ..."
-${LangFileString} Info_MPV_Restore "MPV wird aus vorheriger Installation wiederhergestellt..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "MPV wird heruntergeladen ..."
-${LangFileString} MPV_DL_Retry "MPV ist nicht erfolgreich installiert worden. Erneut versuchen?"
-${LangFileString} MPV_DL_Failed "Fehler beim Herunterladen von MPV: »$R0«."
-${LangFileString} MPV_Inst_Failed "Fehler beim Installieren von MPV."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL ist nicht erfolgreich installiert worden. Erneut versuchen?"
-${LangFileString} YTDL_DL_Failed "Fehler beim Herunterladen von Youtube-DL: »$R0«."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

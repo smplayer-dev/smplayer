@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "正在復原變更..."
 ${LangFileString} Info_Files_Extract "正在解壓縮檔案..."
 ${LangFileString} Info_SMTube_Backup "正在備份 SMTube..."
 ${LangFileString} Info_SMTube_Restore "正在從以前的安裝中恢復 SMTube..."
-${LangFileString} Info_MPV_Backup "正在備份 MPV..."
-${LangFileString} Info_MPV_Restore "正在從以前的安裝中恢復 MPV..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "正在下載 MPV..."
-${LangFileString} MPV_DL_Retry "MPV 沒有成功安裝。是否重試？"
-${LangFileString} MPV_DL_Failed "無法下載 MPV：「$R0」。"
-${LangFileString} MPV_Inst_Failed "無法安裝 MPV。"
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL 沒有成功安裝。是否重試？"
-${LangFileString} YTDL_DL_Failed "無法下載 Youtube-DL：「$R0」。"
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install

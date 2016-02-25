@@ -107,18 +107,18 @@ ${LangFileString} Info_RollBack "Връщане на промените..."
 ${LangFileString} Info_Files_Extract "Разархивиране на файлове..."
 ${LangFileString} Info_SMTube_Backup "Създаване на резервно копие на SMTube..."
 ${LangFileString} Info_SMTube_Restore "Възстановяване на SMTube от предишна инсталация..."
-${LangFileString} Info_MPV_Backup "Създаване на резервно копие на MPV..."
-${LangFileString} Info_MPV_Restore "Възстановяване на MPV от предишна инсталация..."
+${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Изтегляне на MPV..."
-${LangFileString} MPV_DL_Retry "MPV не е инсталиран успешно. Искате ли да опитате отново?"
-${LangFileString} MPV_DL_Failed "Неуспех при изтеглянето на MPV: '$R0'."
-${LangFileString} MPV_Inst_Failed "Неуспех при инсталиране на MPV."
+${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
+${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Failed to install mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "YouTube-DL не е инсталиран успешно. Искате ли да опитате отново?"
-${LangFileString} YTDL_DL_Failed "Неуспех при изтеглянето на Youtube-DL: '$R0'."
+${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
 ; Post install
