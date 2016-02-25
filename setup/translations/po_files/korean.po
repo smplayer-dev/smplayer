@@ -2,6 +2,18 @@
 msgid "Binary codecs are not supported in this version."
 msgstr "이 버전에서 바이너리 코덱은 지원하지 않습니다."
 
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr ""
+
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr ""
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr ""
+
 # YTDL_DL_Failed
 msgid "Failed to download Youtube-DL: '$R0'."
 msgstr "YouTube-DL 다운로드 실패:  '$R0'."
@@ -140,6 +152,12 @@ msgstr "다운그레이드"
 # Type_Reinstall
 msgid "reinstall"
 msgstr "재설치"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be "
+"reversed."
+msgstr ""
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
