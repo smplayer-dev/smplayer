@@ -4949,10 +4949,6 @@ Example: extrastereo,karaoke</source>
         <translation>Предаване на опцията %1 към MPlayer (рисковано за сигурността)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Тази опция може да бъде необходима за възпроизвеждане на списъци (m3u, pls...). Въпреки това може да съществува риск за сигурността, когато се възпроизвежда от интернет източници, защото начинът, по който MPlayer анализира и използва списъците не е безопасен срещу файлове със заразни конструкции.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Превключва %1 в експериментален режим, в който времеположението на кадрите се калкулира различно и се поддържат видео филтрите, които добавят нови кадри или променят времеположението на съществущите. По-точното времеположение е забележимо, например, когато се възпроизвеждат субтитри заключени във времето към дадена сцена с активирана SSA/ASS библиотека. Без точен ключ за времеположение времето на субтитрите обикновено би се разминавало с няколко кадъра. Тази опция не работи както трябва с някои кодеци и демултиплексори.</translation>
@@ -7345,10 +7341,6 @@ Example: extrastereo,karaoke</source>
         <translation>По&amp;требителски агент</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Включване на &amp;MPV поддръжка за поточни сайтове</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7437,10 +7429,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Задайте потребителски агент, който SMPlayer ще използва, когато се свързва с Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Включване на MPV поддръжка за поточни сайтове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

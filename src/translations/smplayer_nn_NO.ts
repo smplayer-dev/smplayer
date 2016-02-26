@@ -7339,10 +7339,6 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
         <translation>&amp;Brukaragent</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Slå på &amp;MPV-støtte for å strøyma sider</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>

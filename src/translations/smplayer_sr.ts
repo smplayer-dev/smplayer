@@ -7338,10 +7338,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;Кориснички агент</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Омогући &amp;МПВ подршку за стриминг сајтове</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7430,10 +7426,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Подеси кориснички агент који ће SMPlayer користити када се повеже са Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Омогући МПВ подршку за стриминг сајтове</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

@@ -4950,10 +4950,6 @@ Example: extrastereo,karaoke</source>
         <translation>Передавати параметр %1 в MPlayer (небезпечно)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Ця опція може бути потрібна для відтворення плейлистів (m3u, pls та ін.). Однак, це являє деяку загрозу через те, що MPlayer практично беззахисний при роботі з різноманітними плейлистами з інтернета.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Перемикає %1 в експериментальний режим, в якому тайминг відео кадрів розраховується незалежно, і тим самим підтримуються відео фільтри, що додають нові кадри чи міняють тайминг існуючих. Більш точний тайминг може бути помітний, наприклад, при відтворенні з опцією −ass субтитрів, прив&apos;язаних до зміни сцени, Без −correct−pts тайминг субтитрів, зазвичай, буде вимкнений деякими кадрами. З деякими демультиплексорами та кодеками ця опція працює некоректно.</translation>
@@ -7346,10 +7342,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Уві&amp;мкнути підтримку потокових сайтів у MPV</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7438,10 +7430,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Вкажіть user agent, який буде використовуватися SMPlayer при під’єднанні до Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Увімкнути підтримку потокових сайтів у MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

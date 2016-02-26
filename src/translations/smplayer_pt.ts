@@ -4730,7 +4730,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção pode ser necessária para reproduzir algumas listas de reprodução (m3u, pls..). No entanto, pode envolver alguns riscos de segurança ao reproduzir ficheiros através da Internet, porque a forma como o Mplayer processa estes ficheiros não está protegida contra ficheiros maliciosos.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -4947,10 +4947,6 @@ Exemplo: extrastereo,karaoke</translation>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>Transmitir a opção %1 ao Mplayer (perigoso)</translation>
-    </message>
-    <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Esta opção pode ser necessária para reproduzir alguns ficheiros de listas de reprodução (m3u, pls..). No entanto, pode envolver alguns riscos de segurança ao reproduzir ficheiros através da Internet, porque a forma como o Mplayer processa estes ficheiros não está protegida contra ficheiros maliciosos.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -7345,13 +7341,9 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>Agente de &amp;utilizador</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Ativar emissões de sítios web através do &amp;mpv</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar emissões de sítios web através do &amp;mpv</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7439,13 +7431,9 @@ Exemplo: extrastereo,karaoke</translation>
         <translation>Defina o agente de utilizador utilizado pelo SMPlayer para estabelecer ligação ao Youtube.</translation>
     </message>
     <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Ativar emissões de sítios web através do mpv</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar emissões de sítios web através do mpv</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>

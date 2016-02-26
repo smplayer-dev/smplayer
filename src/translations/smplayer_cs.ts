@@ -4950,10 +4950,6 @@ Příklad: extrastereo,karaoke</translation>
         <translation>Předat možnost %1 MPlayeru (bezpečnostní riziko)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Tato volba může být nutná pro přehrávání souborů v playlistu (m3u, pls, ...). Nicméně, může to znamenat bezpečnostní riziko při přehrávání internetových zdrojů, protože způsob, jakým MPlayer analyzuje a používá soubory z playlistu není bezpečný při použití záškodnických programů.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Přepne %1 do experimentálního módu, který počítá časová razítka pro snímky videa jiným způsobem a je možné použít filtry, které přidávají snimky nebo modifikují časová razítka. Přesnější výpočty časových razítek jsou viditelné například při přehrávání filmů s titulky časovanými podle změn ve scéně přes SSA/ASS knihovnu. Bez správného pts budou titulky většinou zobrazeny o několik snímků mimo. Tato možnost nefunguje správně s některými demuxery a kodeky.</translation>
@@ -7348,10 +7344,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Povolit podporu &amp;MPV pro streamovací stránky</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7440,10 +7432,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Nastavte user agent, který se použije při spojení s Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Povolit podporu MPV pro streamovací stránky</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>
