@@ -31,6 +31,7 @@ BuildRequires:  qt4-devel
 Requires:       kde-filesystem
 %endif
 BuildRequires:  desktop-file-utils
+BuildRequires:  gcc-c++
 
 # smplayer without mplayer is quite useless
 Requires:       mplayer
@@ -146,6 +147,7 @@ update-desktop-database &> /dev/null || :
 - Remove smtube
 - Remove some patches
 - Install smplayer-themes and smplayer-skins
+- Build with opensuse too
 
 * Sun Jan 17 2016 Sérgio Basto <sergio@serjux.com> - 16.1.0-1
 - Update 16.1.0
