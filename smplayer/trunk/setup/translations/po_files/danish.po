@@ -109,7 +109,7 @@ msgid ""
 "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
 "r:][:n:]Continue anyway (not recommended)?"
 msgstr ""
-"Det ser ikke ud til at SMPlayer er installeret i mappen \"$INSTDIR\".[:r:][:"
+"Det ser ikke ud til at SMPlayer er installeret i mappen '$INSTDIR'.[:r:][:"
 "n:]Fortsæt alligevel (anbefales ikke)?"
 
 # Uninstaller_Aborted
@@ -130,7 +130,7 @@ msgstr "Installation af MPlayer-codecs mislykkedes."
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Download af MPlayer-codecs mislykkedes: \"$R0\"."
+msgstr "Download af MPlayer-codecs mislykkedes: '$R0'."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
