@@ -4948,10 +4948,6 @@ Example: extrastereo,karaoke</source>
         <translation>将 1% 选项传送给 MPlayer (安全风险)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">播放文件列表(m3u等)需要使用此选项，但是这可能导致安全风险，因为MPlayer 无法正确处理恶意文件。</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>切换 %1 到试验模式，其中视频帧时间戳的计算方式不同，且支持视频过滤器添加新的帧或修改现有的时间戳。例如当正在播放的字幕同步到场景变化时(已启用 SSA/ASS 库)，可得到更精确的时间戳。如果没有校正 PTS，字幕同步通常会被某些帧关闭。此选项不能与某些解复用器和编解码器一起正常工作。</translation>
@@ -7344,10 +7340,6 @@ Example: extrastereo,karaoke</source>
         <translation>用户代理 (&amp;U)</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">启用 &amp;MPV 流媒体网站支持</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7436,10 +7428,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>设置连接 Youtube 时使用的代理。</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">启用 MPV 流媒体网站支持</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

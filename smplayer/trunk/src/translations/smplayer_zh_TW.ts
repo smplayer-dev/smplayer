@@ -4729,7 +4729,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>這個選項也許會在播放播放清單檔案（m3u、pls...）時需要。然而，這可能會在播放網際網路的來源時造成潛在的安全性問題，因為 MPlayer 分析與使用播放清單檔案的方式對於刻意製造的惡意檔案來說並不安全。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -4946,10 +4946,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>傳遞 %1 選項給 MPlayer（有潛在的安全問題）</translation>
-    </message>
-    <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">這個選項也許會在播放播放清單檔案（m3u、pls...）時需要。然而，這可能會在播放網際網路的來源時造成潛在的安全性問題，因為 MPlayer 分析與使用播放清單檔案的方式對於刻意製造的惡意檔案來說並不安全。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -7344,13 +7340,9 @@ Example: extrastereo,karaoke</source>
         <translation>使用者代理(&amp;U)</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">啟用 MPV 對串流頁面的支援(&amp;M)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用 mpv 對串流頁面的支援(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7438,13 +7430,9 @@ Example: extrastereo,karaoke</source>
         <translation>設定 SMPlayer 將會用來連接到 Youtube 的使用者代理。</translation>
     </message>
     <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">啟用 MPV 對串流頁面的支援</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用 mpv 對串流頁面的支援</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>

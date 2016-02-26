@@ -4950,10 +4950,6 @@ Npr: extrastereo,karaoke</translation>
         <translation>Propusti %1 mogućnost na MPlayer (sigurnosni rizik)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Ova mogućnost možda je potrebna za reprodukciju datoteka popisa izvođenja (m3u, pls...). Međutim, kao posljedicu ima sigurnosni rizik pri reprodukciji Internetskih izvora zbog načina na koji Mplayer obrađuje i koristi datoteke popisa izvođenja nije siguran pri korištenju zlonamjerno konstruiranih datoteka.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Prebacivanjem %1a u eksperimentalni način gdje podaci za video sličice su drugačije izračunati filtri slike koji dodaju nove sličice ili mijenjaju podatke postojećih sličica su podržani. Točniji podaci mogu biti vidljivi npr. kada su reproducirani podnaslovi podešeni prema promjenama scena sa omogućenom SSA/ASS knjižnicom. Bez ispravnog PTS-a trajanje podnaslova obično će biti isključeno od strane neke sličice. Ova mogućnost ne radi ispravno sa nekim demultiplekserima i kôdekima. </translation>
@@ -7346,10 +7342,6 @@ Npr: extrastereo,karaoke</translation>
         <translation>&amp;Korisnikov agent</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Omogući &amp;MPV podršku za streamanje stranica</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7438,10 +7430,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Postavite korisnikovog agenta kojeg će SMPlayer koristiti za povezivanje na Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Omogući MPV podršku za streamanje stranica</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

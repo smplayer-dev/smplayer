@@ -4949,10 +4949,6 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>Pasatu %1 aukera MPlayer-i (segurtasun arriskua)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Aukera hau beharrezkoa izan daiteke irakur-zerrendak (m3u, pls...) irakurtzeko. Edonola segurtasun arrisku bat eragin dezake interneteko iturburuak irakurtzerakoan MPlayer-ek irakur-zerrendak aztertzeko eta erabiltzeko duen modua ez delako segurua maltzurki eraikitako agirien aurka.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>%1 modu esperimental batera aldatzen du non bideo framentzako denbora markak ezberdin kalkulatzen diren eta bideo iragazkiek frame berriak gehitzen dituzten edo denbora markak aldatzea sostengatuta dagoen. Denbora marka zehatzagoak ikusi daitezke adibidez azpidatziak irakurtzen denboratuta agerraldi aldaketetarako SSA/ASS liburutegia gaiturik. Pts zuzen gabe azpidatzien denboratzea frame batzuetan aldiberetugabe joango da. Aukera honek ez du zuzen lan egiten demultiplexatzaile eta kodek batzuekin.</translation>
@@ -7345,10 +7341,6 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>&amp;Erabiltzaile ordezkaria</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Gaitu &amp;MPV-ren sostengua jario guneetarako</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7437,10 +7429,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Ezarri SMPlayer-ek Youtube-ra elkartzerakoan erabiliko duen erabiltzaile ordezkaria.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Gaitu MPV-ren sostengua jario guneetarako</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

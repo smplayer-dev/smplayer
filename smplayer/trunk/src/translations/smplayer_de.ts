@@ -4950,10 +4950,6 @@ Beispiel: extrastereo,karaoke</translation>
         <translation>Option %1 an den MPlayer weitergeben (Sicherheitsrisiko)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Diese Option könnte notwendig sein, um Wiedergabelistendateien abzuspielen (m3u, pls, …). Allerdings könnte es ein Sicherheitsrisiko darstellen wenn Internetquellen abgespielt werden, aufgrund der Art auf die MPlayer Wiedergabelistendateien analysiert und nutzt ist es nicht sicher vor bösartig erstellten Dateien.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Schaltet %1 in einen experimentellen Modus, der Zeitstempel für Video-Einzelbilder anders berechnet und Videofilter, die neue Einzelbilder hinzufügen oder Zeitstempel von vorhandenen Einzelbildern verändern, unterstützt. Die genaueren Zeitstempel können sichtbar sein, zum Beispiel bei der Wiedergabe von Untertiteln mittels SSA/ASS-Bibliothek, die auf Szenenwechsel abgestimmt sind. Ohne korrektes PTS wird diese Abstimmung der Untertitel typischerweise um einige Einzelbilder daneben liegen. Diese Option arbeitet mit einigen Demuxern und Codecs nicht richtig zusammen.</translation>
@@ -7347,10 +7343,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Benutzerkennung</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">&amp;MPVs Unterstützung für Streaming-Seiten aktivieren</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7439,10 +7431,6 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Die Benutzerkennung einstellen, die benutzt werden soll, wenn SMPlayer sich mit Youtube verbindet.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">MPVs Unterstützung für Streaming-Seiten aktivieren</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

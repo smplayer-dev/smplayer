@@ -4951,10 +4951,6 @@ Example: extrastereo,karaoke</source>
         <translation>مرر خيار %1 الى MPlayer (مخاطرة أمنية)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">قد يكون هذا الخيار مطلوبا لتشغيل ملفات قوائم التشغيل (m3u، pls...). لكنه قد ينطوي على مخاطرة أمنية عند تشغيل موارد من الانترنت لأن طريقة تفسير MPlayer لملفات قوائم التشغيل و استخدامها غير آمنة تجاه الملفات المركبة بطريقة ضارّة.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>يبدّل %1 الى نمط تجريبي تُحسب فيه بصمات الوقت لإطارات الفيديو بصورة مختلفة و تُدعَم فيه مرشحات الفيديو التي تضيف إطارات جديدة او تعدّل بصمات الوقت للإطارات الموجودة. يمكن أن تكون بصمات الوقت الدقيقة مرئية مثلا عند تشغيل ترجمات مؤقتة مع تغيرات المشهد و حيث تكون مكتبات SSA/ASS ممكَّنة. بدون بصمة وقت عَرض pts صحيحة فإن توقيت الترجمة سيكون عادة زاحفاً لبضعة إطارات. لا يعمل هذا الخيار بصورة صحيحة مع بعض مفككات التضميم و المرمّزات.</translation>
@@ -7347,10 +7343,6 @@ Example: extrastereo,karaoke</source>
         <translation>&amp;وسيط من المستخدِم</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">تمكين دعم MPV لمواقع بث الد&amp;فق</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7439,10 +7431,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>أعِدَّ البرنامج الوسيط من المستخدِم و الذي سيستخدمه عند الإتصال باليوتيوب Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">تمكين دعم MPV لمواقع بث الدفق</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

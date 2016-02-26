@@ -4949,10 +4949,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Lalui opsi %1 untuk MPlayer (resiko keamanan)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Pilihan ini mungkin diperlukan untuk memutar berkas daftar-putar (m3u, pls...). Namun itu dapat melibatkan risiko keamanan saat memutar sumber internet karena cara MPlayer mengurai dan menggunakan berkas daftar-putar tidak aman terhadap berkas jahat terkontruksi.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Peralihan %1 ke modus eksperimental di mana cap-waktu untuk frame video dihitung secara berbeda dan filter video di mana tambahan frame baru atau memodifikasi cap-waktu dari yang sudah ada yang didukung. Cap-waktu yang lebih akurat dapat terlihat misalnya ketika memutar subtitle waktunya untuk perubahan adegan dengan pustaka SSA/ASS diaktifkan. Tanpa poin yang benar timing subtitle biasanya akan dinonaktifkan oleh beberapa frame. Pilihan ini tidak bekerja dengan benar dengan beberapa demuxers dan codec.</translation>
@@ -7345,10 +7341,6 @@ Contoh: extrastereo,karaoke</translation>
         <translation>&amp;Agen pengguna</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Aktifkan dukungan MPV untuk situs streaming</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7437,10 +7429,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Setel agen pengguna itu SMPlayer akan menggunakan ketika menyambung ke YouTube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Aktifkan dukungan MPV untuk situs streaming</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

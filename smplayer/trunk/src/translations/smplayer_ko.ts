@@ -4729,7 +4729,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션은 재생목록 파일(m3u, pls...)을 재생하는데 필요할 것입니다. 그러나  MPlayer가 재생목록을 분석하고 사용하는 방법이 악의적으로 만들어진 파일에 대해서는 안전하지 않기 때문에 인터넷 소스를 재생할 때 보안 위험 요소를 수반할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -4946,10 +4946,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>%1 옵션을 MPlayer에 전달합니다 (보안 위험 요소)</translation>
-    </message>
-    <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">이 옵션은 재생목록 파일(m3u, pls...)을 재생하는데 필요할 것입니다. 그러나  MPlayer가 재생목록을 분석하고 사용하는 방법이 악의적으로 만들어진 파일에 대해서는 안전하지 않기 때문에 인터넷 소스를 재생할 때 보안 위험 요소를 수반할 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -7345,13 +7341,9 @@ Example: extrastereo,karaoke</source>
         <translation>사용자 에이전트</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">스트리밍 사이트에 &amp;MPV 사용하기</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>스트리밍 사이트에 &amp;mpv 사용하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7439,13 +7431,9 @@ Example: extrastereo,karaoke</source>
         <translation>SMPlayer가 유투브에 접속할 때 사용할 사용자 에이전트를 설정하세요.</translation>
     </message>
     <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">스트리밍 사이트에 MPV 사용하기</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>스트리밍 사이트에 mpv 사용하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
@@ -9251,7 +9239,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglyph green/magenta colored</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>

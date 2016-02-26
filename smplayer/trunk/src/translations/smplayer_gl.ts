@@ -4730,7 +4730,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción pode ser necesaria para reproducir ficheiros de listas de reprodución (m3u, pls...). Con todo pode supoñer un risco de seguranza cando se reproduza desde fontes de internet porque o xeito en que MPlayer analiza e usa estes ficheiros non é seguro contra arquivos construídos maliciosamente.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -4947,10 +4947,6 @@ Por exemplo: extraestereo,karaoke</translation>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
         <translation>Pasar a opción %1 ao MPlayer (risco de seguranza)</translation>
-    </message>
-    <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Esta opción pode ser necesaria para reproducir ficheiros de listas de reprodución (m3u, pls...). Con todo pode supoñer un risco de seguranza cando se reproduza desde fontes de internet porque o xeito en que MPlayer analiza e usa estes ficheiros non é seguro contra arquivos maliciosos.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
@@ -5273,7 +5269,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar o executábel do %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="181"/>
@@ -5304,17 +5300,17 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="984"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"></translation>
+        <translation>Motor multimedia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="985"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccione o motor multimedia que desexa usar, MPlayer ou mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation>A opción «Outra» permite seleccionar manualmente a ruta do executábel.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="989"/>
@@ -5399,7 +5395,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="145"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation>Outra...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -5500,7 +5496,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Motor multimedia:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="210"/>
@@ -6198,7 +6194,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefinput.ui" line="333"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"></translation>
+        <translation>Función A&amp;rrastrar:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="375"/>
@@ -6574,33 +6570,33 @@ Por exemplo: extraestereo,karaoke</translation>
         <location filename="../prefinput.cpp" line="159"/>
         <location filename="../prefinput.cpp" line="369"/>
         <source>Move window</source>
-        <translation type="unfinished"></translation>
+        <translation>Mover xanela</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
         <location filename="../prefinput.cpp" line="371"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar e volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="367"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>Función Arrastrar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="368"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opción controla que facer cando se move o rato mentres se preme o botón esquerdo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="369"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation>móvese a xanela principal</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="372"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"></translation>
+        <translation>un movemento horizontal cambia a posición no tempo mentres que un movemento vertical cambia o volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="376"/>
@@ -7178,7 +7174,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Por defecto cando se preme o botón de parar gárdase a posición de tempo no que estaba, co cal, cando se lle dá ao botón de reproducir empezarase desde ese mesmo momento. Precisa premer o botón de parar dúas veces para reiniciar a posición de tempo, agás que teña esta opción marcada xa que así a posición de tempo porase no 0 con tan só premer unha vez o botón de parar.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -7345,13 +7341,9 @@ Por exemplo: extraestereo,karaoke</translation>
         <translation>Axente do &amp;usuario</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Activar a compatibilidade de &amp;MPV para webs de fluxos</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar a compatibilidade do &amp;mpv para webs de fluxos</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="114"/>
@@ -7439,13 +7431,9 @@ Por exemplo: extraestereo,karaoke</translation>
         <translation>Estabelecer o axente do usuario que SMPlayer usará na conexión con Youtube.</translation>
     </message>
     <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Activar a compatibilidade de MPV para webs de fluxos</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Activar a compatibilidade co &amp;mpv para webs de fluxos</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="160"/>
@@ -9253,7 +9241,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anáglifo coas cores verde/maxenta</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>

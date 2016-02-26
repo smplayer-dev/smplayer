@@ -4950,10 +4950,6 @@ Esempio: extrastereo,karaoke</translation>
         <translation>Passa l&apos;opzione %1 a MPlayer (rischio per la sicurezza)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Questa opzione può essere necessaria per riprodurre file playlist (m3u, pls...). Tuttavia può introdurre un rischio per la sicurezza riproducendo sorgenti internet perché il modo in cui MPlayer analizza ed usa i file playlist non è sicuro nei confronti di file malevoli.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Commuta %1 ad una modalità sperimentale in cui la marcatura oraria per i fotogrammi viene calcolata diversamente e i filtri video che aggiungono nuovi fotogrammi o modificano la marcatura oraria di quelli esistenti è supportata. La marcatura temporale più accurata può essere vista ad esempio quando vengono riprodotti sottotitoli sincronizzati coi cambi di scena con la libreria SSA/ASS abilitata. Senza pts corretto la temporizzazione dei sototitoli avrà tipicamente uno scarto di alcuni fotogrammi. Questa opzione non funziona correttamente con alcuni demuxer e codec.</translation>
@@ -7346,10 +7342,6 @@ Esempio: extrastereo,karaoke</translation>
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Abilita il supporto streaming in &amp;MPV</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7438,10 +7430,6 @@ Esempio: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Imposta lo user agent che SMPlayer userà collegandosi a Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Abilita il supporto streaming in MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>

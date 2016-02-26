@@ -4949,10 +4949,6 @@ Example: extrastereo,karaoke</source>
 Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     </message>
     <message>
-        <source>This option may be needed to play playlist files (m3u, pls...).However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="obsolete">Cette option peut être nécessaire pour jouer les fichiers de listes de lectures (m3u, pls...). Cependant, cela peut présenter un risque de sécurité lors de la lecture de sources Internet car la façon dont MPlayer analyse et utilise les fichiers playlist n&apos;est pas sure contre les fichiers malicieusement construits.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="499"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
         <translation>Bascule %1 dans un mode expérimental où l&apos;horodatage des images vidéo est calculé différemment et où les filtres vidéo qui ajoutent des images ou modifient l&apos;horodatage d&apos;images existantes sont supportés. Les horodatages les plus précis peuvent être visibles par exemple lors de la lecture de sous-titres synchronisés avec des changements de scène avec la librairie SSA/ASS activée. Sans pts correct, le minutage des sous-titres est typiquement décalé de quelques images. Cette option ne fonctionne pas correctement avec certains démultiplexeurs et certains codecs.</translation>
@@ -7347,10 +7343,6 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <translation>&amp;Identité du navigateur</translation>
     </message>
     <message>
-        <source>Enable &amp;MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Activer le support des fluxs en ligne pour &amp;mpv</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
         <translation type="unfinished"></translation>
@@ -7439,10 +7431,6 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
         <translation>Paramétrer l’identité utilisée par SMPlayer lorsqu’il se connecte sur Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable MPV&apos;s support for streaming sites</source>
-        <translation type="obsolete">Activer le support mpv pour les flux en ligne</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="159"/>
