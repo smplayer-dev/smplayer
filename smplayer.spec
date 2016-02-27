@@ -9,32 +9,20 @@ Group:          Applications/Multimedia
 License:        GPL-2.0+
 URL:            http://smplayer.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
-# Add a servicemenu to enqeue files in smplayer's playlist.
-# see also:
-# https://sourceforge.net/tracker/?func=detail&atid=913576&aid=2052905&group_id=185512
-Source1:        smplayer_enqueue_kde4.desktop
 Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
 Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
-
-# Fix regression in Thunar (TODO: re-check in upcoming versions!)
-# https://bugzilla.rpmfusion.org/show_bug.cgi?id=1217
-Patch0:         smplayer-0.8.3-desktop-files.patch
 
 %if 0%{?suse_version}
 BuildRequires:  libqt4-devel
 BuildRequires:  hicolor-icon-theme
-BuildRequires:  kde4-filesystem
-Requires:       kde4-filesystem
 %else
 BuildRequires:  qt4-devel
 #BuildRequires:  qtwebkit-devel
-Requires:       kde-filesystem
 %endif
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
 
-# smplayer without mplayer is quite useless
-Requires:       mplayer
+Requires:       mpv
 %{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
 
 %description
@@ -49,33 +37,20 @@ and with the same settings.
 %prep
 %setup -a3 -a4 -qn %{name}-%{version}
 
-%patch0 -p0 -b .desktop-files
-
 # correction for wrong-file-end-of-line-encoding
 %{__sed} -i 's/\r//' *.txt
 # fix files which are not UTF-8 
 iconv -f Latin1 -t UTF-8 -o Changelog.utf8 Changelog 
 mv Changelog.utf8 Changelog
 
-# fix path of docs
-%if !0%{?suse_version}
-sed -i 's|DOC_PATH=$(PREFIX)/share/doc/packages/smplayer|DOC_PATH=$(PREFIX)/share/doc/smplayer|' Makefile
-%endif
-
-# use %{?_smp_mflags}
-sed -i '/cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make/s!$! %{?_smp_mflags}!' Makefile
-
-# don't show smplayer_enqueue.desktop in KDE and use servicemenus instead
-echo "NotShowIn=KDE;" >> smplayer_enqueue.desktop
-
 %build
 make \
-	PREFIX=%{_prefix} \
 %if !0%{?suse_version}
 	QMAKE=%{_qt4_qmake} \
 	LRELEASE=%{_bindir}/lrelease-qt4 \
 %endif
-#	QMAKE_OPTS=DEFINES+=SIMPLE_BUILD
+	PREFIX=%{_prefix} \
+	DOC_PATH="\\\"%{_docdir}/%{name}/\\\"" \
 	QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
 
 #touch src/smplayer
@@ -90,7 +65,7 @@ make
 popd
 
 %install
-make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ install
+make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ DOC_PATH=%{_docdir}/%{name}/ install
 
 pushd smplayer-themes-%{smplayer_themes_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
@@ -99,21 +74,6 @@ popd
 pushd smplayer-skins-%{smplayer_skins_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
 popd
-
-desktop-file-install --delete-original                   \
-        --vendor "rpmfusion"                             \
-        --dir %{buildroot}%{_datadir}/applications/      \
-        %{buildroot}%{_datadir}/applications/%{name}.desktop
-
-
-desktop-file-install --delete-original                   \
-        --vendor "rpmfusion"                             \
-        --dir %{buildroot}%{_datadir}/applications/      \
-        %{buildroot}%{_datadir}/applications/%{name}_enqueue.desktop
-
-# Add servicemenus dependend on the version of KDE:
-# https://sourceforge.net/tracker/index.php?func=detail&aid=2052905&group_id=185512&atid=913576
-install -Dpm 0644 %{SOURCE1} %{buildroot}%{_datadir}/kde4/services/ServiceMenus/smplayer_enqueue.desktop
 
 %post
 touch --no-create %{_datadir}/icons/hicolor
@@ -137,8 +97,6 @@ update-desktop-database &> /dev/null || :
 %dir %{_datadir}/icons/hicolor/*/apps/
 %{_datadir}/icons/hicolor/*/apps/%{name}.*
 %{_datadir}/smplayer/
-%dir %{_datadir}/kde4/services/ServiceMenus/
-%{_datadir}/kde4/services/ServiceMenus/smplayer_enqueue.desktop
 %{_mandir}/man1/smplayer.1.gz
 %{_docdir}/%{name}/
 
