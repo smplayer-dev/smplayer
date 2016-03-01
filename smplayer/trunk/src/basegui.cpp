@@ -207,6 +207,11 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #if STYLE_SWITCHING
 	qApp->setStyleSheet("");
 	default_style = qApp->style()->objectName();
+	#ifdef Q_OS_LINUX
+	// Some controls aren't displayed correctly with the adwaita style
+	// so try to prevent to use it as the default style
+	if (default_style.toLower() == "adwaita") default_style = "gtk+";
+	#endif
 	qDebug() << "BaseGui::BaseGui: default_style:" << default_style;
 	//qDebug() << "BaseGui::BaseGui: qApp->style:" << qApp->style();
 #endif
