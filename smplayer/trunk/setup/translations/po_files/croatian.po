@@ -4,47 +4,47 @@ msgstr "Binarni kôdeki nisu podržani  u ovoj inačici."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Brisanje SMPlayer postavki..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Brisanje priručne memorije slova..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Provjeravanje youtube-dl nadopuna..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Neuspjelo preuzimanje Youtube-dl: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-dl nije uspješno instaliran. Pokušaj ponovno?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Neuspjelo instaliranje mpv-a."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Neuspjelo preuzimanje mpv-a: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv nije uspješno instaliran. Pokušaj ponovno?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Preuzimanje mpv-a..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Vraćanje sigurnosne kopije prijašnje instalacije mpv-a..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Sigurnosno kopiranje mpv-a..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -162,6 +162,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Sigurno želite vratiti izvorne SMPlayer postavke? Ova radnja se ne može "
+"poništiti."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -371,49 +373,17 @@ msgstr "Instalacijski program je već pokrenut."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# gogo <trebelnik2@gmail.com>, 2014-2015
+# gogo <trebelnik2@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-02-02 22:34+0000\n"
+"PO-Revision-Date: 2016-02-28 13:05+0000\n"
 "Last-Translator: gogo <trebelnik2@gmail.com>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/smplayer/"
-"language/hr/)\n"
+"Language-Team: Croatian (http://www.transifex.com/rvm/smplayer/language/"
+"hr/)\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "Sigurnosno kopiranje MPV-a..."
-
-# Info_MPV_Restore
-#~ msgid "Restoring MPV from previous installation..."
-#~ msgstr "Vraćanje sigurnosne kopije prijašnje instalacije MPV-a..."
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "Preuzimanje MPV-a..."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "MPV nije uspješno instaliran. Pokušaj ponovno?"
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "Neuspjelo preuzimanje MPV-a: '$R0'."
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "Neuspjelo instaliranje MPV-a."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "YouTube-DL nije uspješno instaliran. Pokušaj ponovno?"
-
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "Neuspjelo preuzimanje Youtube-DL: '$R0'."

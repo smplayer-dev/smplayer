@@ -4,47 +4,47 @@ msgstr "Бінарні кодеки не підтримується цією в�
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Очистка налаштувань SMPlayer..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Очистка кешу шрифтів..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Перевірка наявности оновлень Youtube-DL..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Не вдалося завантажити Youtube-DL: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "Не вдалося встановити YouTube-DL. Спробувати ще раз?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Помилка при встановленні MPV."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Не вдалося завантажити MPV: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "Не вдалося встановити MPV. Спробувати ще раз?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Завантаження MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Відновлення MPV із попереднього встановлення..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Створення резервної копії MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -161,6 +161,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Ви справді волієте скинути налаштування SMPlayer? Дана дія не може бути "
+"скасована."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -375,13 +377,13 @@ msgstr "Встановлювач вже запущений."
 # Austin Powers, 2016
 # vitrolov <vitrolov@i.ua>, 2014
 # zubr139, 2014
-# Микола Ткач <Stuartlittle1970@gmail.com>, 2015
+# Микола Ткач <Stuartlittle1970@gmail.com>, 2015-2016
 # Олександр (6c6c6) <6c6c6.ukr@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-01-19 12:12+0000\n"
-"Last-Translator: Austin Powers\n"
+"PO-Revision-Date: 2016-02-27 16:58+0000\n"
+"Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/rvm/smplayer/language/"
 "uk/)\n"
 "Language: uk\n"
@@ -390,35 +392,3 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "Backing up MPV..."
-
-# Info_MPV_Restore
-#~ msgid "Restoring MPV from previous installation..."
-#~ msgstr "Відновлення MPV з попереднього встановлення..."
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "Завантаження MPV..."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "Не вдалося встановити MPV. Спробувати ще раз?"
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "Не вдалося завантажити MPV: '$R0'."
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "Помилка при встановленні MPV."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "Не вдалося встановити YouTube-DL. Спробувати ще раз?"
-
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "Не вдалося завантажити Youtube-DL: '$R0'."

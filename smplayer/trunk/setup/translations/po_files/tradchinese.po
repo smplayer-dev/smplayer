@@ -4,47 +4,47 @@ msgstr "此版本不支援二進制解碼器。"
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "正在清除 SMPlayer 設定..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "正在清除 fontconfig 快取..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "正在檢查 youtube-dl 的更新..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "無法下載 youtube-dl：「$R0」。"
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl 沒有成功安裝。是否重試？"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "無法安裝 mpv。"
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "無法下載 mpv：「$R0」。"
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv 沒有成功安裝。是否重試？"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "正在下載 mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "正在從以前的安裝中復原 mpv..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "正在備份 mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -156,7 +156,7 @@ msgstr "重新安裝"
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
-msgstr ""
+msgstr "您確定您想要重置您的的 SMPlayer 設定嗎？這個動作無法還原。"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -354,49 +354,17 @@ msgstr "安裝程式已經在執行。"
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Jeff Huang <s8321414@gmail.com>, 2015
+# Jeff Huang <s8321414@gmail.com>, 2015-2016
 # taijuin lee <taijuin@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-02-05 04:11+0000\n"
+"PO-Revision-Date: 2016-02-25 04:56+0000\n"
 "Last-Translator: Jeff Huang <s8321414@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/"
-"smplayer/language/zh_TW/)\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/rvm/smplayer/"
+"language/zh_TW/)\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "正在備份 MPV..."
-
-# Info_MPV_Restore
-#~ msgid "Restoring MPV from previous installation..."
-#~ msgstr "正在從以前的安裝中恢復 MPV..."
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "正在下載 MPV..."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "MPV 沒有成功安裝。是否重試？"
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "無法下載 MPV：「$R0」。"
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "無法安裝 MPV。"
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "YouTube-DL 沒有成功安裝。是否重試？"
-
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "無法下載 Youtube-DL：「$R0」。"

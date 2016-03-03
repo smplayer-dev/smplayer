@@ -365,8 +365,8 @@ msgstr "المثبِّت مشتغل سلفاً."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-01-09 20:02+0000\n"
-"Last-Translator: Riyadh\n"
+"PO-Revision-Date: 2016-02-25 00:24+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/rvm/smplayer/language/ar/)\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -374,35 +374,3 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
-
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "الخزن الإحتياطي لـ MPV..."
-
-# Info_MPV_Restore
-#~ msgid "Restoring MPV from previous installation..."
-#~ msgstr "استعادة MPV من تثبيت سابق..."
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "تنزيل MPV..."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "لم يُثبَّت MPV بنجاح. إعادة المحاولة؟"
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "فشل تنزيل MPV: '$R0'."
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "فشل تثبيت MPV."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "لم تُثبَّت YouTube-DL بنجاح. إعادة المحاولة؟"
-
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "فشل تنزيل Youtube-DL: '$R0'."
