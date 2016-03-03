@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "Натисніть Вилучити, щоб 
 ${LangFileString} Reinstall_Msg4 "Змінити параметри встановлення"
 ${LangFileString} Reinstall_Msg5 "Скинути мою конфігурацію SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Ви справді волієте скинути налаштування SMPlayer? Дана дія не може бути скасована."
 
 ${LangFileString} Type_Reinstall "перевстановити"
 ${LangFileString} Type_Downgrade "повернення до попередньої версії"
@@ -107,20 +107,20 @@ ${LangFileString} Info_RollBack "Відкочування змін..."
 ${LangFileString} Info_Files_Extract "Витягнення файлів..."
 ${LangFileString} Info_SMTube_Backup "Резервується SMTube..."
 ${LangFileString} Info_SMTube_Restore "Відновлення SMTube з попереднього встановлення..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Створення резервної копії MPV..."
+${LangFileString} Info_MPV_Restore "Відновлення MPV із попереднього встановлення..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Завантаження MPV..."
+${LangFileString} MPV_DL_Retry "Не вдалося встановити MPV. Спробувати ще раз?"
+${LangFileString} MPV_DL_Failed "Не вдалося завантажити MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Помилка при встановленні MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "Не вдалося встановити YouTube-DL. Спробувати ще раз?"
+${LangFileString} YTDL_DL_Failed "Не вдалося завантажити Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Перевірка наявности оновлень Youtube-DL..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Очистка кешу шрифтів..."
+${LangFileString} Info_Cleaning_SMPlayer "Очистка налаштувань SMPlayer..."

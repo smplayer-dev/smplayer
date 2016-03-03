@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "続行するには [アンインストール
 ${LangFileString} Reinstall_Msg4 "インストール構成を変更する"
 ${LangFileString} Reinstall_Msg5 "SMPlayer の設定をリセットする"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "SMPlayer の設定をリセットしてもよろしいですか? この動作は元に戻せません。"
 
 ${LangFileString} Type_Reinstall "再インストール"
 ${LangFileString} Type_Downgrade "ダウングレード"
@@ -107,20 +107,20 @@ ${LangFileString} Info_RollBack "変更を元に戻しています..."
 ${LangFileString} Info_Files_Extract "ファイルを展開しています..."
 ${LangFileString} Info_SMTube_Backup "SMTube をバックアップしています..."
 ${LangFileString} Info_SMTube_Restore "以前のインストールからの SMTube を復元しています..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "mpv をバックアップしています..."
+${LangFileString} Info_MPV_Restore "以前のインストールからの mpv を復元しています..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "mpv をダウンロードしています..."
+${LangFileString} MPV_DL_Retry "mpv は正常にインストールされませんでした。再試行しますか?"
+${LangFileString} MPV_DL_Failed "mpv のダウンロードに失敗しました: '$R0'。"
+${LangFileString} MPV_Inst_Failed "mpv のインストールに失敗しました。"
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl は正常にインストールされませんでした。再試行しますか?"
+${LangFileString} YTDL_DL_Failed "youtube-dl のダウンロードに失敗しました: '$R0'。"
+${LangFileString} YTDL_Update_Check "youtube-dl の更新を確認しています..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "fontconfig キャッシュをクリーンアップしてます..."
+${LangFileString} Info_Cleaning_SMPlayer "SMPlayer の設定をクリーンアップしています..."
