@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "לחץ בטל התקנה כאשר אתה מ�
 ${LangFileString} Reinstall_Msg4 "שנה הגדרות התקנה"
 ${LangFileString} Reinstall_Msg5 "אפס תצורת SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "האם אתה בטוח כי ברצונך לאפס את הגדרות SMPlayer? פעולה זו היא בלתי הפיכה."
 
 ${LangFileString} Type_Reinstall "התקן מחדש"
 ${LangFileString} Type_Downgrade "הנמך"
@@ -107,20 +107,20 @@ ${LangFileString} Info_RollBack "משחזר כעת שינויים..."
 ${LangFileString} Info_Files_Extract "מחלץ כעת קבצים..."
 ${LangFileString} Info_SMTube_Backup "מגבה כעת את SMTube..."
 ${LangFileString} Info_SMTube_Restore "משחזר כעת את SMTube מתוך התקנה קודמת..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "כעת מגבה את mpv..."
+${LangFileString} Info_MPV_Restore "כעת משחזר את mpv מתוך התקנה קודמת..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "כעת מוריד את mpv..."
+${LangFileString} MPV_DL_Retry "mpv לא הותקן בהצלחה. לנסות שוב?"
+${LangFileString} MPV_DL_Failed "נכשל להוריד את mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "נכשל להתקין את mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl לא הותקן בהצלחה. לנסות שוב?"
+${LangFileString} YTDL_DL_Failed "נכשל להוריד את youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "כעת בודק עדכונים עבור youtube-dl..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "כעת מנקה מטמון fontconfig..."
+${LangFileString} Info_Cleaning_SMPlayer "כעת מנקה הגדרות SMPlayer..."

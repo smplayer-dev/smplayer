@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "當準備好進行時，點擊「解除安�
 ${LangFileString} Reinstall_Msg4 "更改安裝設定"
 ${LangFileString} Reinstall_Msg5 "重置 SMPlayer 設定"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "您確定您想要重置您的的 SMPlayer 設定嗎？這個動作無法還原。"
 
 ${LangFileString} Type_Reinstall "重新安裝"
 ${LangFileString} Type_Downgrade "降級"
@@ -107,20 +107,20 @@ ${LangFileString} Info_RollBack "正在復原變更..."
 ${LangFileString} Info_Files_Extract "正在解壓縮檔案..."
 ${LangFileString} Info_SMTube_Backup "正在備份 SMTube..."
 ${LangFileString} Info_SMTube_Restore "正在從以前的安裝中恢復 SMTube..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "正在備份 mpv..."
+${LangFileString} Info_MPV_Restore "正在從以前的安裝中復原 mpv..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "正在下載 mpv..."
+${LangFileString} MPV_DL_Retry "mpv 沒有成功安裝。是否重試？"
+${LangFileString} MPV_DL_Failed "無法下載 mpv：「$R0」。"
+${LangFileString} MPV_Inst_Failed "無法安裝 mpv。"
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl 沒有成功安裝。是否重試？"
+${LangFileString} YTDL_DL_Failed "無法下載 youtube-dl：「$R0」。"
+${LangFileString} YTDL_Update_Check "正在檢查 youtube-dl 的更新..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "正在清除 fontconfig 快取..."
+${LangFileString} Info_Cleaning_SMPlayer "正在清除 SMPlayer 設定..."

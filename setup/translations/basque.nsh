@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "Klikatu Kendu jarraitzeko gertu zaudenean."
 ${LangFileString} Reinstall_Msg4 "Aldatu Ezarpenaren Hobespenak"
 ${LangFileString} Reinstall_Msg5 "Berrezarri SMPlayer itxurapena"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Zihur zaude zure SMPlayer ezarpenak berrezartzea nahi dituzula? Ekintza hau ezin da desegin."
 
 ${LangFileString} Type_Reinstall "berrezarri"
 ${LangFileString} Type_Downgrade "aurrekoratu"
@@ -107,20 +107,20 @@ ${LangFileString} Info_RollBack "Aldaketak desegiten..."
 ${LangFileString} Info_Files_Extract "Agiriak ateratzen..."
 ${LangFileString} Info_SMTube_Backup "SMTube babeskopiatzen..."
 ${LangFileString} Info_SMTube_Restore "SMTube aurreko ezarpenetik leheneratzen"
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "mpv babeskopiatzen..."
+${LangFileString} Info_MPV_Restore "mpv aurreko ezarpenetik leheneratzen..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "mpv jeisten..."
+${LangFileString} MPV_DL_Retry "mpv ez da ongi ezarri. Saiatu berriro?"
+${LangFileString} MPV_DL_Failed "Hutsegitea mpv jeisterakoan: '$R0'."
+${LangFileString} MPV_Inst_Failed "Hutsegitea mpv ezartzerakoan."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl ez da ongi ezarri. Berriro saiatu?"
+${LangFileString} YTDL_DL_Failed "Hutsegitea youtube-dl jeisterakoan: '$R0'."
+${LangFileString} YTDL_Update_Check "youtube-dl eguneraketarik dagoen egiaztatzen..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "fonconfig katxea garbitzen..."
+${LangFileString} Info_Cleaning_SMPlayer "SMPlayer ezarpenak garbitzen..."

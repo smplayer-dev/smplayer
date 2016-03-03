@@ -72,7 +72,7 @@ ${LangFileString} Reinstall_Msg3_3 "Klik på Afinstaller når du er klar til at 
 ${LangFileString} Reinstall_Msg4 "Skift installationsindstillinger"
 ${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Er du sikker på at du vil nulstille dine SMPlayer indstillinger? Denne handling kan ikke gøres om."
 
 ${LangFileString} Type_Reinstall "geninstallér"
 ${LangFileString} Type_Downgrade "nedgrader"
@@ -108,19 +108,19 @@ ${LangFileString} Info_Files_Extract "Udpakker filer..."
 ${LangFileString} Info_SMTube_Backup "Opretter backup af SMTube..."
 ${LangFileString} Info_SMTube_Restore "Gendanner SMTube fra tidligere installation..."
 ${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Restore "Genskaber mpv fra tidligere installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Downloader mpv..."
+${LangFileString} MPV_DL_Retry "mpv blev ikke installeret. Prøv igen?"
+${LangFileString} MPV_DL_Failed "Kunne ikke downloade mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Kunne ikke installere mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl blev ikke installeret. Prøv igen?"
+${LangFileString} YTDL_DL_Failed "Kunne ikke downloade youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Søger efter opdateringer til youtube-dl..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Rydder op i fontconfig-cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer indstillinger..."
