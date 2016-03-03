@@ -4,47 +4,47 @@ msgstr "Esta versão não tem suporte a codificadores binários."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "A limpar definições do SMPlayer..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "A limpar cache de fontes..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "A procurar atualizações para youtube-dl..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Falha ao descarregar a youtube-dl: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl não foi instalada. Tentar novamente?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Falha ao instalar o mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Falha ao descarregar o mpv: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "O mpv não foi instalado. Tentar novamente?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "A descarregar o mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "A restaurar o mpv da instalação anterior..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "A criar backup do mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -161,6 +161,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Tem a certeza de que deseja repor as definições do SMPlayer? Esta ação não "
+"pode ser revertida."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -372,7 +374,7 @@ msgstr "O instalador já está em execução."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-01-14 11:48+0000\n"
+"PO-Revision-Date: 2016-02-25 14:04+0000\n"
 "Last-Translator: Sérgio Marques <smarquespt@gmail.com>\n"
 "Language-Team: Portuguese (http://www.transifex.com/rvm/smplayer/language/"
 "pt/)\n"
@@ -381,35 +383,3 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "A criar backup do mpv..."
-
-# Info_MPV_Restore
-#~ msgid "Restoring MPV from previous installation..."
-#~ msgstr "A restaurar o mpv da instalação anterior..."
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "A descarregar o mpv..."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "O mpv não foi instalado. Tentar novamente?"
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "Falha ao descarregar o mpv: '$R0'."
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "Falha ao instalar o mpv."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "YouTube-DL não foi instalada. Tentar novamente?"
-
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "Falha ao descarregar a Youtube-DL: '$R0'."

@@ -374,45 +374,12 @@ msgstr "Инсталациони програм је већ покренут."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-05-11 12:06+0000\n"
-"Last-Translator: Slobodan Simić (Слободан Симић) <slsimic@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/smplayer/"
-"language/sr/)\n"
+"PO-Revision-Date: 2016-02-25 00:24+0000\n"
+"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"Language-Team: Serbian (http://www.transifex.com/rvm/smplayer/language/sr/)\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "Правим резерву за MPV..."
-
-# Info_MPV_Restore
-#~ msgid "Restoring MPV from previous installation..."
-#~ msgstr "Враћам MPV од претходне инсталације..."
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "Преузимам MPV..."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "MPV није успешно инсталиран. Покушајте поново?"
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "Неуспешно преузимање MPV: '$R0'."
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "Неуспела инсталација MPV."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "YouTube-DL није успешно инсталиран. Да покушам поново?"
-
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "Неуспешно преузимање Youtube-DL: '$R0'."
