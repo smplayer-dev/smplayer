@@ -22,7 +22,7 @@ BuildRequires:  qt4-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
 
-Requires:       mpv
+Requires:       mplayer
 %{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
 
 %description
