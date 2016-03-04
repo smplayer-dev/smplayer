@@ -69,7 +69,7 @@ public:
 	static QStringList resolveSymlinks(const QStringList & files);
 #endif
 
-#ifdef Q_OS_LINUX
+#ifndef Q_OS_WIN
 	//! Tries to find the executable in the path.
 	//! Returns the path if found or QString::null if not.
 	static QString findExecutable(const QString & name);
