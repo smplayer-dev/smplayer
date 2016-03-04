@@ -5828,13 +5828,13 @@ void BaseGui::showVideoPreviewDialog() {
 #ifdef YOUTUBE_SUPPORT
 void BaseGui::showTubeBrowser() {
 	qDebug("BaseGui::showTubeBrowser");
-	#ifdef Q_OS_LINUX
-	QString exec = Helper::findExecutable("smtube");
+	#ifdef Q_OS_WIN
+	QString exec = Paths::appPath() + "/smtube.exe";
 	#else
-	QString exec = Paths::appPath() + "/smtube";
+	QString exec = Helper::findExecutable("smtube");
 	#endif
 
-	if (exec.isEmpty()) {
+	if (exec.isEmpty() || !QFile::exists(exec)) {
 		QMessageBox::warning(this, "SMPlayer",
 			tr("The YouTube Browser is not installed.") +"<br>"+ 
 			tr("Visit %1 to get it.").arg("<a href=http://www.smtube.org>http://www.smtube.org</a>"));

@@ -324,7 +324,7 @@ QStringList Helper::resolveSymlinks(const QStringList & files) {
 }
 #endif
 
-#ifdef Q_OS_LINUX
+#ifndef Q_OS_WIN
 QString Helper::findExecutable(const QString & name) {
 	QByteArray env = qgetenv("PATH");
 	QStringList search_paths = QString::fromLocal8Bit(env.constData()).split(':', QString::SkipEmptyParts);
