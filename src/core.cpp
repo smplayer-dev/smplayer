@@ -1509,6 +1509,12 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	#endif
 	yt->close();
+
+	if (pref->enable_yt_support) {
+		if (file == yt->latestPreferredUrl()) {
+			qDebug() << "Core::startMplayer: YT: it's youtube";
+		}
+	}
 #endif
 
 	// DVD
