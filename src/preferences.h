@@ -51,6 +51,7 @@ public:
 	enum OptionState { Detect = -1, Disabled = 0, Enabled = 1 };
 	enum H264LoopFilter { LoopDisabled = 0, LoopEnabled = 1, LoopDisabledOnHD = 2 };
 	enum AutoAddToPlaylistFilter { NoFiles = 0, VideoFiles = 1, AudioFiles = 2, MultimediaFiles = 3, ConsecutiveFiles = 4 };
+	enum Streaming { NoStreaming = 0, StreamingAuto = 1, StreamingYT = 2, StreamingYTDL = 3 };
 
 	Q_DECLARE_FLAGS(WheelFunctions, WheelFunction);
 
@@ -212,17 +213,6 @@ public:
 	int cache_for_vcds;
 	int cache_for_audiocds;
 	int cache_for_tv;
-
-#ifdef YOUTUBE_SUPPORT
-	bool enable_yt_support;
-	int yt_quality;
-	QString yt_user_agent;
-	bool yt_use_https_main;
-	bool yt_use_https_vi;
-#endif
-#ifdef MPV_SUPPORT
-	bool enable_streaming_sites;
-#endif
 
 
 	/* *********
@@ -468,6 +458,15 @@ public:
     /* ********
        Network
        ******** */
+
+	// Streaming
+	int streaming_type;
+	#ifdef YOUTUBE_SUPPORT
+	int yt_quality;
+	QString yt_user_agent;
+	bool yt_use_https_main;
+	bool yt_use_https_vi;
+	#endif
 
 	// Proxy
 	bool use_proxy;
