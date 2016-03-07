@@ -35,13 +35,13 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_VIDEO_CODEC=${=video-codec}\n"
 
 //			"INFO_AUDIO_BITRATE=${=audio-bitrate}\n"
-//			"INFO_AUDIO_FORMAT=${=audio-format}\n"
-			"INFO_AUDIO_FORMAT=${=audio-codec-name:${=audio-format}}\n"
+//			"INFO_AUDIO_FORMAT=${=audio-format}\n" // old
+			"INFO_AUDIO_FORMAT=${=audio-codec-name}\n"
 			"INFO_AUDIO_CODEC=${=audio-codec}\n"
-//			"INFO_AUDIO_RATE=${=audio-samplerate}\n"
-			"INFO_AUDIO_RATE=${=audio-params/samplerate:${=audio-samplerate}}\n"
-//			"INFO_AUDIO_NCH=${=audio-channels}\n"
-			"INFO_AUDIO_NCH=${=audio-params/channel-count:${=audio-channels}}\n"
+//			"INFO_AUDIO_RATE=${=audio-samplerate}\n" // old
+			"INFO_AUDIO_RATE=${=audio-params/samplerate}\n"
+//			"INFO_AUDIO_NCH=${=audio-channels}\n" // old
+			"INFO_AUDIO_NCH=${=audio-params/channel-count}\n"
 
 //			"INFO_LENGTH=${=length}\n"
 			"INFO_LENGTH=${=duration:${=length}}\n"
