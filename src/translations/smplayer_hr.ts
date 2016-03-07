@@ -1317,12 +1317,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="5850"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube preglednik se ne može pokrenuti.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5851"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pobrinite se da je instaliran.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4878"/>
@@ -1976,153 +1976,153 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2967"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Brightness: %1</source>
         <translation>Svjetlina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2983"/>
+        <location filename="../core.cpp" line="2994"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2998"/>
+        <location filename="../core.cpp" line="3009"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3013"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Hue: %1</source>
         <translation>Ton boje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3028"/>
+        <location filename="../core.cpp" line="3039"/>
         <source>Saturation: %1</source>
         <translation>Zasićenje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3171"/>
+        <location filename="../core.cpp" line="3182"/>
         <source>Volume: %1</source>
         <translation>Glasnoća zvuka: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4045"/>
+        <location filename="../core.cpp" line="4056"/>
         <source>Zoom: %1</source>
         <translation>Zumiranje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4273"/>
+        <location filename="../core.cpp" line="4284"/>
         <source>Buffering...</source>
         <translation>Međuspremanje...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3299"/>
         <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3321"/>
         <source>Font scale: %1</source>
         <translation>Promjena veličine slova: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3886"/>
+        <location filename="../core.cpp" line="3897"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4269"/>
+        <location filename="../core.cpp" line="4280"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Nadopuna priručne memorije slova. Ovo može potrajati nekoliko sekundi...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3224"/>
+        <location filename="../core.cpp" line="3235"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje podnasalova: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3253"/>
         <source>Audio delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje zvuka: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Speed: %1</source>
         <translation>Brzina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="559"/>
+        <location filename="../core.cpp" line="561"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Nemoguće učitavanje Youtube stranice</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="563"/>
+        <location filename="../core.cpp" line="565"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Nemoguće pronalažanje URL video snimke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3398"/>
         <source>Subtitles on</source>
         <translation>Podnaslovi uključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3389"/>
+        <location filename="../core.cpp" line="3400"/>
         <source>Subtitles off</source>
         <translation>Podnaslovi isključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3934"/>
+        <location filename="../core.cpp" line="3945"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kotačić miša trenutno pretražuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3937"/>
+        <location filename="../core.cpp" line="3948"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kotačić miša trenutno mijenja glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3940"/>
+        <location filename="../core.cpp" line="3951"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kotačić miša trenutno mijenja razinu zumiranja</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3943"/>
+        <location filename="../core.cpp" line="3954"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kotačić miša trenutno mijenja brzinu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4247"/>
+        <location filename="../core.cpp" line="4258"/>
         <source>Screenshot saved as %1</source>
         <translation>Snimka zaslona spremljena kao %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4278"/>
+        <location filename="../core.cpp" line="4289"/>
         <source>Starting...</source>
         <translation>Pokretanje...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1403"/>
+        <location filename="../core.cpp" line="1405"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Snimka zaslona NIJE snimljena, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1416"/>
+        <location filename="../core.cpp" line="1418"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Snimke zaslona NISU snimljene, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2634"/>
+        <location filename="../core.cpp" line="2645"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2651"/>
+        <location filename="../core.cpp" line="2662"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2666"/>
+        <location filename="../core.cpp" line="2677"/>
         <source>A-B markers cleared</source>
         <translation>A-B odabir uklonjen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="555"/>
+        <location filename="../core.cpp" line="557"/>
         <source>Connecting to %1</source>
         <translation>Povezivanje na %1</translation>
     </message>
@@ -7333,62 +7333,74 @@ Npr: extrastereo,karaoke</translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation>&amp;Youtube (i druge stranice)</translation>
+        <translation type="obsolete">&amp;Youtube (i druge stranice)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation>&amp;Omogući Youtube unutrašnju podršku</translation>
+        <translation type="obsolete">&amp;Omogući Youtube unutrašnju podršku</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="45"/>
+        <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Kvaliteta &amp;reprodukcije</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="75"/>
+        <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>&amp;Korisnikov agent</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation>Omogući &amp;mpv podršku za streamanje stranica</translation>
+        <translation type="obsolete">Omogući &amp;mpv podršku za streamanje stranica</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="114"/>
+        <location filename="../prefnetwork.ui" line="24"/>
+        <source>&amp;YouTube (and other sites)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="32"/>
+        <source>Support for &amp;video sites:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="67"/>
+        <source>Options for YouTube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="137"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="120"/>
+        <location filename="../prefnetwork.ui" line="143"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Omogući proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="133"/>
+        <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;Host:</source>
         <translation>&amp;Računalo:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="146"/>
+        <location filename="../prefnetwork.ui" line="169"/>
         <source>&amp;Port:</source>
         <translation>&amp;Ulaz:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="166"/>
+        <location filename="../prefnetwork.ui" line="189"/>
         <source>&amp;Username:</source>
         <translation>&amp;Korisničko ime:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="179"/>
+        <location filename="../prefnetwork.ui" line="202"/>
         <source>Pa&amp;ssword:</source>
         <translation>Lo&amp;zinka:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="196"/>
+        <location filename="../prefnetwork.ui" line="219"/>
         <source>&amp;Type:</source>
         <translation>&amp;Vrsta:</translation>
     </message>
@@ -7403,122 +7415,170 @@ Npr: extrastereo,karaoke</translation>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="68"/>
+        <location filename="../prefnetwork.cpp" line="63"/>
         <source>Network</source>
         <translation>Mreža</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="146"/>
         <source>Youtube</source>
-        <translation>Youtube</translation>
+        <translation type="obsolete">Youtube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="148"/>
         <source>Enable Youtube internal support</source>
-        <translation>Omogući Youtube unutrašnju podršku</translation>
+        <translation type="obsolete">Omogući Youtube unutrašnju podršku</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="149"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>Ako je ova mogućnost omogućena, SMPlayer će pokušati reproducirati video snimke s Youtube URL-a.</translation>
+        <translation type="obsolete">Ako je ova mogućnost omogućena, SMPlayer će pokušati reproducirati video snimke s Youtube URL-a.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="151"/>
         <source>Youtube quality</source>
-        <translation>Youtube kvaliteta</translation>
+        <translation type="obsolete">Youtube kvaliteta</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="152"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Odaberite željenu kvalitetu Youtube video snimaka.</translation>
+        <translation type="obsolete">Odaberite željenu kvalitetu Youtube video snimaka.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="154"/>
+        <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>Korisnikov agent</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation>Postavite korisnikovog agenta kojeg će SMPlayer koristiti za povezivanje na Youtube.</translation>
+        <translation type="obsolete">Postavite korisnikovog agenta kojeg će SMPlayer koristiti za povezivanje na Youtube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation>Omogući mpv podršku za streamanje stranica</translation>
+        <translation type="obsolete">Omogući mpv podršku za streamanje stranica</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="160"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation>Ako je ova mogućnost omogućena, SMPlayer će pokušati reproducirati video snimke sa streaming stranica poput Youtuba, Dailymotiona, Vimea, Veva, itd.</translation>
+        <translation type="obsolete">Ako je ova mogućnost omogućena, SMPlayer će pokušati reproducirati video snimke sa streaming stranica poput Youtuba, Dailymotiona, Vimea, Veva, itd.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="162"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation>Zahtijeva mpv i youtube-dl.</translation>
+        <translation type="obsolete">Zahtijeva mpv i youtube-dl.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="75"/>
+        <location filename="../prefnetwork.cpp" line="169"/>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="77"/>
+        <location filename="../prefnetwork.cpp" line="171"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
+        <source>YouTube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="167"/>
+        <source>Support for video sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="169"/>
+        <source>support for video sites is turned off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="171"/>
+        <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="174"/>
+        <source>only the internal support for YouTube will be used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="177"/>
+        <source>uses mpv + youtube-dl for all sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="187"/>
+        <source>Playback quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="188"/>
+        <source>Select the preferred quality for YouTube videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="191"/>
+        <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="202"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="167"/>
+        <location filename="../prefnetwork.cpp" line="204"/>
         <source>Enable proxy</source>
         <translation>Omogući proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="168"/>
+        <location filename="../prefnetwork.cpp" line="205"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Omogući/Onemogući korištenje proxya.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="170"/>
+        <location filename="../prefnetwork.cpp" line="207"/>
         <source>Host</source>
         <translation>Računalo</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="171"/>
+        <location filename="../prefnetwork.cpp" line="208"/>
         <source>The host name of the proxy.</source>
         <translation>Naziv računala proxya.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="173"/>
+        <location filename="../prefnetwork.cpp" line="210"/>
         <source>Port</source>
         <translation>Ulaz</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="174"/>
+        <location filename="../prefnetwork.cpp" line="211"/>
         <source>The port of the proxy.</source>
         <translation>Ulaz proxya.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="176"/>
+        <location filename="../prefnetwork.cpp" line="213"/>
         <source>Username</source>
         <translation>Korisničko ime</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="177"/>
+        <location filename="../prefnetwork.cpp" line="214"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Ako proxy zahtijeva autentifikaciju, ovdje upišite korisničko ime.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="179"/>
+        <location filename="../prefnetwork.cpp" line="216"/>
         <source>Password</source>
         <translation>Lozinka</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="180"/>
+        <location filename="../prefnetwork.cpp" line="217"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Lozinka za proxy. &lt;b&gt;Upozorenje:&lt;/b&gt; lozinka će biti spremljena kao običan tekst u datoteci podešavanja.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="183"/>
+        <location filename="../prefnetwork.cpp" line="220"/>
         <source>Type</source>
         <translation>Vrsta</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="184"/>
+        <location filename="../prefnetwork.cpp" line="221"/>
         <source>Select the proxy type to be used.</source>
         <translation>Odaberite vrstu proxya koji će se koristiti.</translation>
     </message>

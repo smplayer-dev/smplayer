@@ -1317,12 +1317,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5850"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube 瀏覽器執行失敗。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5851"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>請確保它已正確地安裝。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4878"/>
@@ -1976,153 +1976,153 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2967"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2983"/>
+        <location filename="../core.cpp" line="2994"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2998"/>
+        <location filename="../core.cpp" line="3009"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3013"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3028"/>
+        <location filename="../core.cpp" line="3039"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3171"/>
+        <location filename="../core.cpp" line="3182"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4045"/>
+        <location filename="../core.cpp" line="4056"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4273"/>
+        <location filename="../core.cpp" line="4284"/>
         <source>Buffering...</source>
         <translation>緩衝中...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3299"/>
         <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3321"/>
         <source>Font scale: %1</source>
         <translation>字體縮放：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3886"/>
+        <location filename="../core.cpp" line="3897"/>
         <source>Aspect ratio: %1</source>
         <translation>長寬比：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4269"/>
+        <location filename="../core.cpp" line="4280"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字型快取，可能需要幾秒鐘時間......</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3224"/>
+        <location filename="../core.cpp" line="3235"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3253"/>
         <source>Audio delay: %1 ms</source>
         <translation>音訊延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Speed: %1</source>
         <translation>速度：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="559"/>
+        <location filename="../core.cpp" line="561"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>無法檢索 YouTube 頁面</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="563"/>
+        <location filename="../core.cpp" line="565"/>
         <source>Unable to locate the URL of the video</source>
         <translation>無法找到該影片的網址</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3398"/>
         <source>Subtitles on</source>
         <translation>開啟字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3389"/>
+        <location filename="../core.cpp" line="3400"/>
         <source>Subtitles off</source>
         <translation>關閉字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3934"/>
+        <location filename="../core.cpp" line="3945"/>
         <source>Mouse wheel seeks now</source>
         <translation>滑鼠滾輪尋找</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3937"/>
+        <location filename="../core.cpp" line="3948"/>
         <source>Mouse wheel changes volume now</source>
         <translation>滑鼠滾輪更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3940"/>
+        <location filename="../core.cpp" line="3951"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>滑鼠滾輪更改縮放等級</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3943"/>
+        <location filename="../core.cpp" line="3954"/>
         <source>Mouse wheel changes speed now</source>
         <translation>滑鼠滾輪更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4247"/>
+        <location filename="../core.cpp" line="4258"/>
         <source>Screenshot saved as %1</source>
         <translation>螢幕截圖已儲存於 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4278"/>
+        <location filename="../core.cpp" line="4289"/>
         <source>Starting...</source>
         <translation>正在啟動...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1403"/>
+        <location filename="../core.cpp" line="1405"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1416"/>
+        <location filename="../core.cpp" line="1418"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2634"/>
+        <location filename="../core.cpp" line="2645"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>標誌 &quot;A&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2651"/>
+        <location filename="../core.cpp" line="2662"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>標誌 &quot;B&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2666"/>
+        <location filename="../core.cpp" line="2677"/>
         <source>A-B markers cleared</source>
         <translation>A-B 標記清除</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="555"/>
+        <location filename="../core.cpp" line="557"/>
         <source>Connecting to %1</source>
         <translation>連接到 %1</translation>
     </message>
@@ -7331,62 +7331,74 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation>Youtube（及其他網站）(&amp;Y)</translation>
+        <translation type="obsolete">Youtube（及其他網站）(&amp;Y)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation>啟用 Youtube 內部支援(&amp;E)</translation>
+        <translation type="obsolete">啟用 Youtube 內部支援(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="45"/>
+        <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>播放畫質(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="75"/>
+        <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>使用者代理(&amp;U)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation>啟用 mpv 對串流頁面的支援(&amp;M)</translation>
+        <translation type="obsolete">啟用 mpv 對串流頁面的支援(&amp;M)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="114"/>
+        <location filename="../prefnetwork.ui" line="24"/>
+        <source>&amp;YouTube (and other sites)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="32"/>
+        <source>Support for &amp;video sites:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="67"/>
+        <source>Options for YouTube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="137"/>
         <source>&amp;Proxy</source>
         <translation>代理(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="120"/>
+        <location filename="../prefnetwork.ui" line="143"/>
         <source>&amp;Enable proxy</source>
         <translation>啟用代理(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="133"/>
+        <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;Host:</source>
         <translation>主機(&amp;H)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="146"/>
+        <location filename="../prefnetwork.ui" line="169"/>
         <source>&amp;Port:</source>
         <translation>連接埠(&amp;P)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="166"/>
+        <location filename="../prefnetwork.ui" line="189"/>
         <source>&amp;Username:</source>
         <translation>使用者名稱(&amp;U)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="179"/>
+        <location filename="../prefnetwork.ui" line="202"/>
         <source>Pa&amp;ssword:</source>
         <translation>密碼(&amp;S)：</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="196"/>
+        <location filename="../prefnetwork.ui" line="219"/>
         <source>&amp;Type:</source>
         <translation>類型(&amp;T)：</translation>
     </message>
@@ -7401,122 +7413,170 @@ Example: extrastereo,karaoke</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="68"/>
+        <location filename="../prefnetwork.cpp" line="63"/>
         <source>Network</source>
         <translation>網路</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="146"/>
         <source>Youtube</source>
-        <translation>Youtube</translation>
+        <translation type="obsolete">Youtube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="148"/>
         <source>Enable Youtube internal support</source>
-        <translation>啟用 Youtube 內部支援</translation>
+        <translation type="obsolete">啟用 Youtube 內部支援</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="149"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>如果這個選項被勾選，SMPlayer 將會嘗試從 Youtube 的 URL 播放影片。</translation>
+        <translation type="obsolete">如果這個選項被勾選，SMPlayer 將會嘗試從 Youtube 的 URL 播放影片。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="151"/>
         <source>Youtube quality</source>
-        <translation>Youtube 畫質</translation>
+        <translation type="obsolete">Youtube 畫質</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="152"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>選取 Youtube 影片偏好的畫質。</translation>
+        <translation type="obsolete">選取 Youtube 影片偏好的畫質。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="154"/>
+        <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>使用者代理</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation>設定 SMPlayer 將會用來連接到 Youtube 的使用者代理。</translation>
+        <translation type="obsolete">設定 SMPlayer 將會用來連接到 Youtube 的使用者代理。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation>啟用 mpv 對串流頁面的支援</translation>
+        <translation type="obsolete">啟用 mpv 對串流頁面的支援</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="160"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation>如果這個選項被勾選，SMPlayer 將會嘗試從像是 Youtube、Dailymotion、Vimeo、Vevo 等的串流網站播放影片。</translation>
+        <translation type="obsolete">如果這個選項被勾選，SMPlayer 將會嘗試從像是 Youtube、Dailymotion、Vimeo、Vevo 等的串流網站播放影片。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="162"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation>需要 mpv 與 youtube-dl。</translation>
+        <translation type="obsolete">需要 mpv 與 youtube-dl。</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="75"/>
+        <location filename="../prefnetwork.cpp" line="169"/>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="77"/>
+        <location filename="../prefnetwork.cpp" line="171"/>
+        <source>Auto</source>
+        <translation type="unfinished">自動</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
+        <source>YouTube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="167"/>
+        <source>Support for video sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="169"/>
+        <source>support for video sites is turned off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="171"/>
+        <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="174"/>
+        <source>only the internal support for YouTube will be used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="177"/>
+        <source>uses mpv + youtube-dl for all sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="187"/>
+        <source>Playback quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="188"/>
+        <source>Select the preferred quality for YouTube videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="191"/>
+        <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="202"/>
         <source>Proxy</source>
         <translation>代理伺服器</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="167"/>
+        <location filename="../prefnetwork.cpp" line="204"/>
         <source>Enable proxy</source>
         <translation>啟用代理</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="168"/>
+        <location filename="../prefnetwork.cpp" line="205"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>啟用/停用代理的使用。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="170"/>
+        <location filename="../prefnetwork.cpp" line="207"/>
         <source>Host</source>
         <translation>主機</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="171"/>
+        <location filename="../prefnetwork.cpp" line="208"/>
         <source>The host name of the proxy.</source>
         <translation>代理主機名稱。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="173"/>
+        <location filename="../prefnetwork.cpp" line="210"/>
         <source>Port</source>
         <translation>連接埠</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="174"/>
+        <location filename="../prefnetwork.cpp" line="211"/>
         <source>The port of the proxy.</source>
         <translation>代理伺服器的連接埠。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="176"/>
+        <location filename="../prefnetwork.cpp" line="213"/>
         <source>Username</source>
         <translation>使用者名稱</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="177"/>
+        <location filename="../prefnetwork.cpp" line="214"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>如果代理需要身份驗證，請在這裡設定使用者名稱。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="179"/>
+        <location filename="../prefnetwork.cpp" line="216"/>
         <source>Password</source>
         <translation>密碼</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="180"/>
+        <location filename="../prefnetwork.cpp" line="217"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>代理的密碼。&lt;b&gt;警告：&lt;/b&gt;密碼將被儲存為設定檔中的純文字。</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="183"/>
+        <location filename="../prefnetwork.cpp" line="220"/>
         <source>Type</source>
         <translation>類型</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="184"/>
+        <location filename="../prefnetwork.cpp" line="221"/>
         <source>Select the proxy type to be used.</source>
         <translation>選擇要使用的代理類型。</translation>
     </message>

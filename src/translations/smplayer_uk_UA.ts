@@ -1976,153 +1976,153 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2967"/>
+        <location filename="../core.cpp" line="2978"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2983"/>
+        <location filename="../core.cpp" line="2994"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2998"/>
+        <location filename="../core.cpp" line="3009"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3013"/>
+        <location filename="../core.cpp" line="3024"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3028"/>
+        <location filename="../core.cpp" line="3039"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3171"/>
+        <location filename="../core.cpp" line="3182"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4045"/>
+        <location filename="../core.cpp" line="4056"/>
         <source>Zoom: %1</source>
         <translation>Мірило: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4273"/>
+        <location filename="../core.cpp" line="4284"/>
         <source>Buffering...</source>
         <translation>Буферизація...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3299"/>
         <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3321"/>
         <source>Font scale: %1</source>
         <translation>Мірило шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3886"/>
+        <location filename="../core.cpp" line="3897"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4269"/>
+        <location filename="../core.cpp" line="4280"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3224"/>
+        <location filename="../core.cpp" line="3235"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3242"/>
+        <location filename="../core.cpp" line="3253"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="559"/>
+        <location filename="../core.cpp" line="561"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Не можна отримати доступ на сторінку Youtube</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="563"/>
+        <location filename="../core.cpp" line="565"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Неможливо знайти URL з відео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3387"/>
+        <location filename="../core.cpp" line="3398"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3389"/>
+        <location filename="../core.cpp" line="3400"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3934"/>
+        <location filename="../core.cpp" line="3945"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3937"/>
+        <location filename="../core.cpp" line="3948"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3940"/>
+        <location filename="../core.cpp" line="3951"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює мірило</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3943"/>
+        <location filename="../core.cpp" line="3954"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4247"/>
+        <location filename="../core.cpp" line="4258"/>
         <source>Screenshot saved as %1</source>
         <translation>Зняток збережено як %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4278"/>
+        <location filename="../core.cpp" line="4289"/>
         <source>Starting...</source>
         <translation>Запуск...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1403"/>
+        <location filename="../core.cpp" line="1405"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Зняток екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1416"/>
+        <location filename="../core.cpp" line="1418"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Знятки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2634"/>
+        <location filename="../core.cpp" line="2645"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2651"/>
+        <location filename="../core.cpp" line="2662"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2666"/>
+        <location filename="../core.cpp" line="2677"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="555"/>
+        <location filename="../core.cpp" line="557"/>
         <source>Connecting to %1</source>
         <translation>З&apos;єднання з %1</translation>
     </message>
@@ -7333,62 +7333,74 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;Youtube (and other sites)</source>
-        <translation>&amp;Youtube (та інші сайти)</translation>
+        <translation type="obsolete">&amp;Youtube (та інші сайти)</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="30"/>
         <source>&amp;Enable Youtube internal support</source>
-        <translation>&amp;Увімкнути внутрішню підтримку Youtube</translation>
+        <translation type="obsolete">&amp;Увімкнути внутрішню підтримку Youtube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="45"/>
+        <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Якість &amp;відтворення</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="75"/>
+        <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>&amp;User agent</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="93"/>
         <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation>Увім&amp;кнути підтримку потокових сайтів в MPV</translation>
+        <translation type="obsolete">Увім&amp;кнути підтримку потокових сайтів в MPV</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="114"/>
+        <location filename="../prefnetwork.ui" line="24"/>
+        <source>&amp;YouTube (and other sites)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="32"/>
+        <source>Support for &amp;video sites:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="67"/>
+        <source>Options for YouTube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.ui" line="137"/>
         <source>&amp;Proxy</source>
         <translation>&amp;Проксі</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="120"/>
+        <location filename="../prefnetwork.ui" line="143"/>
         <source>&amp;Enable proxy</source>
         <translation>&amp;Увімкнути проксі</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="133"/>
+        <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;Host:</source>
         <translation>&amp;Сервер:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="146"/>
+        <location filename="../prefnetwork.ui" line="169"/>
         <source>&amp;Port:</source>
         <translation>П&amp;орт:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="166"/>
+        <location filename="../prefnetwork.ui" line="189"/>
         <source>&amp;Username:</source>
         <translation>&amp;Ім&apos;я користувача:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="179"/>
+        <location filename="../prefnetwork.ui" line="202"/>
         <source>Pa&amp;ssword:</source>
         <translation>П&amp;ароль:</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.ui" line="196"/>
+        <location filename="../prefnetwork.ui" line="219"/>
         <source>&amp;Type:</source>
         <translation>&amp;Тип:</translation>
     </message>
@@ -7403,122 +7415,170 @@ Example: extrastereo,karaoke</source>
         <translation>SOCKS5</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="68"/>
+        <location filename="../prefnetwork.cpp" line="63"/>
         <source>Network</source>
         <translation>Мережа</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="146"/>
         <source>Youtube</source>
-        <translation>Youtube</translation>
+        <translation type="obsolete">Youtube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="148"/>
         <source>Enable Youtube internal support</source>
-        <translation>Увімкнути внутрішню підтримку Youtube</translation>
+        <translation type="obsolete">Увімкнути внутрішню підтримку Youtube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="149"/>
         <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation>Якщо опція увімкнена, SMPlayer намагатиметься відтворювати відео з Youtube.</translation>
+        <translation type="obsolete">Якщо опція увімкнена, SMPlayer намагатиметься відтворювати відео з Youtube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="151"/>
         <source>Youtube quality</source>
-        <translation>Якість відео з YouTube</translation>
+        <translation type="obsolete">Якість відео з YouTube</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="152"/>
         <source>Select the preferred quality for youtube videos.</source>
-        <translation>Оберіть бажану якість для відео з YouTube.</translation>
+        <translation type="obsolete">Оберіть бажану якість для відео з YouTube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="154"/>
+        <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>User agent</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="155"/>
         <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation>Вкажіть user agent, який буде використовуватися SMPlayer при під’єднанні до Youtube.</translation>
+        <translation type="obsolete">Вкажіть user agent, який буде використовуватися SMPlayer при під’єднанні до Youtube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="159"/>
         <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation>Увімкнути підтримку потокових сайтів в MPV</translation>
+        <translation type="obsolete">Увімкнути підтримку потокових сайтів в MPV</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="160"/>
         <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation>Якщо ця опція увімкнена, SMPlayer буде намагатися відтворювати потокове відео з сайтів Youtube, Dailymotion, Vimeo, Vevo та ін.</translation>
+        <translation type="obsolete">Якщо ця опція увімкнена, SMPlayer буде намагатися відтворювати потокове відео з сайтів Youtube, Dailymotion, Vimeo, Vevo та ін.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="162"/>
         <source>Requires mpv and youtube-dl.</source>
-        <translation>Необхідні mpv та youtube-dl.</translation>
+        <translation type="obsolete">Необхідні mpv та youtube-dl.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="75"/>
+        <location filename="../prefnetwork.cpp" line="169"/>
+        <source>Disabled</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="77"/>
+        <location filename="../prefnetwork.cpp" line="171"/>
+        <source>Auto</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
+        <source>YouTube</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="167"/>
+        <source>Support for video sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="169"/>
+        <source>support for video sites is turned off</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="171"/>
+        <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="174"/>
+        <source>only the internal support for YouTube will be used</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="177"/>
+        <source>uses mpv + youtube-dl for all sites</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="187"/>
+        <source>Playback quality</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="188"/>
+        <source>Select the preferred quality for YouTube videos.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="191"/>
+        <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="202"/>
         <source>Proxy</source>
         <translation>Проксі</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="167"/>
+        <location filename="../prefnetwork.cpp" line="204"/>
         <source>Enable proxy</source>
         <translation>Увімкнути проксі</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="168"/>
+        <location filename="../prefnetwork.cpp" line="205"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Увімкнути/вимкнути використання проксі.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="170"/>
+        <location filename="../prefnetwork.cpp" line="207"/>
         <source>Host</source>
         <translation>Сервер</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="171"/>
+        <location filename="../prefnetwork.cpp" line="208"/>
         <source>The host name of the proxy.</source>
         <translation>Назва серверу проксі.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="173"/>
+        <location filename="../prefnetwork.cpp" line="210"/>
         <source>Port</source>
         <translation>Порт</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="174"/>
+        <location filename="../prefnetwork.cpp" line="211"/>
         <source>The port of the proxy.</source>
         <translation>Порт проксі.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="176"/>
+        <location filename="../prefnetwork.cpp" line="213"/>
         <source>Username</source>
         <translation>Ім&apos;я користувача</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="177"/>
+        <location filename="../prefnetwork.cpp" line="214"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Якщо проксі портебує автентифікації, це встановлює ім&apos;я користувача.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="179"/>
+        <location filename="../prefnetwork.cpp" line="216"/>
         <source>Password</source>
         <translation>Пароль</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="180"/>
+        <location filename="../prefnetwork.cpp" line="217"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Пароль для проксі. &lt;b&gt;Увага:&lt;/b&gt; пароль буде збережений як звичайний текст в файлі налаштувань.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="183"/>
+        <location filename="../prefnetwork.cpp" line="220"/>
         <source>Type</source>
         <translation>Тип</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="184"/>
+        <location filename="../prefnetwork.cpp" line="221"/>
         <source>Select the proxy type to be used.</source>
         <translation>Виберіть, який використовувати тип проксі.</translation>
     </message>
