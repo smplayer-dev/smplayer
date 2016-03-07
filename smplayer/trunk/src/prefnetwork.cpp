@@ -48,13 +48,6 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 
 	yt_quality_combo->addItem( "1080p (mp4)", RetrieveYoutubeUrl::MP4_1080p );
 	yt_quality_combo->addItem( "1080p (webm)", RetrieveYoutubeUrl::WEBM_1080p );
-#else
-	yt_support_check->hide();
-	youtube_widget->hide();
-#endif
-
-#ifndef MPV_SUPPORT
-	streaming_check->hide();
 #endif
 
 	connect(streaming_type_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(streaming_type_combo_changed(int)));
@@ -169,7 +162,6 @@ void PrefNetwork::streaming_type_combo_changed(int i) {
 void PrefNetwork::createHelp() {
 	clearHelp();
 
-#ifdef YOUTUBE_SUPPORT
 	addSectionTitle(tr("YouTube"));
 
 	setWhatsThis(streaming_type_combo, tr("Support for video sites"),
@@ -197,7 +189,6 @@ void PrefNetwork::createHelp() {
 
 	setWhatsThis(yt_user_agent_edit, tr("User agent"),
 		tr("Set the user agent that SMPlayer will use when connecting to YouTube.") );
-#endif
 
 #ifdef MPV_SUPPORT
 	/*
