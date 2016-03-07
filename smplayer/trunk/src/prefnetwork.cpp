@@ -57,7 +57,9 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	streaming_check->hide();
 #endif
 
-	createHelp();
+	connect(streaming_type_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(streaming_type_combo_changed(int)));
+
+	retranslateStrings();
 }
 
 PrefNetwork::~PrefNetwork()
@@ -74,6 +76,21 @@ QPixmap PrefNetwork::sectionIcon() {
 
 void PrefNetwork::retranslateStrings() {
 	retranslateUi(this);
+
+	int streaming_item = streaming_type_combo->currentIndex();
+	streaming_type_combo->clear();
+	streaming_type_combo->addItem(tr("Disabled"), Preferences::NoStreaming);
+	#if defined(YOUTUBE_SUPPORT) && defined(MPV_SUPPORT)
+	streaming_type_combo->addItem(tr("Auto"), Preferences::StreamingAuto);
+	#endif
+	#ifdef YOUTUBE_SUPPORT
+	streaming_type_combo->addItem("YouTube", Preferences::StreamingYT);
+	#endif
+	#ifdef MPV_SUPPORT
+	streaming_type_combo->addItem("mpv + youtube-dl", Preferences::StreamingYTDL);
+	#endif
+	streaming_type_combo->setCurrentIndex(streaming_item);
+
 	createHelp();
 }
 
@@ -86,13 +103,10 @@ void PrefNetwork::setData(Preferences * pref) {
 
 	setProxyType(pref->proxy_type);
 
+	setStreamingType(pref->streaming_type);
 #ifdef YOUTUBE_SUPPORT
-	yt_support_check->setChecked(pref->enable_yt_support);
 	setYTQuality( pref->yt_quality );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
-#endif
-#ifdef MPV_SUPPORT
-	streaming_check->setChecked(pref->enable_streaming_sites);
 #endif
 }
 
@@ -107,13 +121,10 @@ void PrefNetwork::getData(Preferences * pref) {
 
 	pref->proxy_type = proxyType();
 
+	pref->streaming_type = streamingType();
 #ifdef YOUTUBE_SUPPORT
-	pref->enable_yt_support = yt_support_check->isChecked();
 	pref->yt_quality = YTQuality();
 	pref->yt_user_agent = yt_user_agent_edit->text();
-#endif
-#ifdef MPV_SUPPORT
-	pref->enable_streaming_sites = streaming_check->isChecked();
 #endif
 }
 
@@ -139,27 +150,62 @@ int PrefNetwork::YTQuality() {
 }
 #endif
 
+void PrefNetwork::setStreamingType(int type) {
+	int i = streaming_type_combo->findData(type);
+	if (i < 0) i = 0;
+	streaming_type_combo->setCurrentIndex(i);
+}
+
+int PrefNetwork::streamingType() {
+	int i = streaming_type_combo->currentIndex();
+	return streaming_type_combo->itemData(i).toInt();
+}
+
+void PrefNetwork::streaming_type_combo_changed(int i) {
+	//qDebug() << "PrefNetwork::streaming_type_combo_changed:" << i;
+	youtube_box->setEnabled(i == Preferences::StreamingYT || i == Preferences::StreamingAuto);
+}
+
 void PrefNetwork::createHelp() {
 	clearHelp();
 
 #ifdef YOUTUBE_SUPPORT
-	addSectionTitle(tr("Youtube"));
+	addSectionTitle(tr("YouTube"));
 
+	setWhatsThis(streaming_type_combo, tr("Support for video sites"),
+		"<ul>"
+		"<li><b>" + tr("Disabled") +":</b> " + tr("support for video sites is turned off") +"</li>"+
+		#if defined(YOUTUBE_SUPPORT) && defined(MPV_SUPPORT)
+		"<li><b>" + tr("Auto") +":</b> " + tr("enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites") +"</li>"+
+		#endif
+		#ifdef YOUTUBE_SUPPORT
+		"<li><b>YouTube:</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
+		#endif
+		#ifdef MPV_SUPPORT
+		"<li><b>mpv + youtube-dl:</b> " +tr("uses mpv + youtube-dl for all sites") +"</li>"+
+		#endif
+		"</ul>"
+	);
+
+	/*
 	setWhatsThis(yt_support_check, tr("Enable Youtube internal support"),
 		tr("If this option is checked, SMPlayer will try to play videos from Youtube URLs.") );
+	*/
 
-	setWhatsThis(yt_quality_combo, tr("Youtube quality"),
-		tr("Select the preferred quality for youtube videos.") );
+	setWhatsThis(yt_quality_combo, tr("Playback quality"),
+		tr("Select the preferred quality for YouTube videos.") );
 
 	setWhatsThis(yt_user_agent_edit, tr("User agent"),
-		tr("Set the user agent that SMPlayer will use when connecting to Youtube.") );
+		tr("Set the user agent that SMPlayer will use when connecting to YouTube.") );
 #endif
 
 #ifdef MPV_SUPPORT
+	/*
 	setWhatsThis(streaming_check, tr("Enable mpv's support for streaming sites"),
 		tr("If this option is checked, SMPlayer will try to play videos from "
            "streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.") + "<br>"+
 		tr("Requires mpv and youtube-dl.") );
+	*/
 #endif
 
 	addSectionTitle(tr("Proxy"));

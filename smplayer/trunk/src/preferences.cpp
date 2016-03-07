@@ -233,18 +233,6 @@ void Preferences::reset() {
 	cache_for_audiocds = 1024;
 	cache_for_tv = 3000;
 
-#ifdef YOUTUBE_SUPPORT
-	enable_yt_support = true;
-	yt_quality = RetrieveYoutubeUrl::MP4_720p;
-	//yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
-	yt_user_agent = "";
-	yt_use_https_main = false;
-	yt_use_https_vi = false;
-#endif
-#ifdef MPV_SUPPORT
-	enable_streaming_sites = false;
-#endif
-
 
     /* *********
        Subtitles
@@ -473,6 +461,15 @@ void Preferences::reset() {
     /* ********
        Network
        ******** */
+
+	streaming_type = StreamingAuto;
+#ifdef YOUTUBE_SUPPORT
+	yt_quality = RetrieveYoutubeUrl::MP4_720p;
+	//yt_user_agent = "Mozilla/5.0 (X11; Linux x86_64; rv:5.0.1) Gecko/20100101 Firefox/5.0.1";
+	yt_user_agent = "";
+	yt_use_https_main = false;
+	yt_use_https_vi = false;
+#endif
 
 	// Proxy
 	use_proxy = false;
@@ -736,23 +733,6 @@ void Preferences::save() {
 
 	set->endGroup(); // performance
 
-#ifdef YOUTUBE_SUPPORT
-	set->beginGroup("youtube");
-	set->setValue("enable_yt_support", enable_yt_support);
-	set->setValue("quality", yt_quality);
-	set->setValue("user_agent", yt_user_agent);
-	set->setValue("yt_use_https_main", yt_use_https_main);
-	set->setValue("yt_use_https_vi", yt_use_https_vi);
-	set->endGroup();
-#endif
-
-#ifdef MPV_SUPPORT
-	set->beginGroup("streaming");
-	set->setValue("enable_streaming_sites", enable_streaming_sites);
-	set->endGroup();
-#endif
-
-
 
     /* *********
        Subtitles
@@ -974,6 +954,19 @@ void Preferences::save() {
     /* ********
        Network
        ******** */
+
+	set->beginGroup("streaming");
+	set->setValue("streaming_type", streaming_type);
+
+	#ifdef YOUTUBE_SUPPORT
+	set->beginGroup("streaming/youtube");
+	set->setValue("quality", yt_quality);
+	set->setValue("user_agent", yt_user_agent);
+	set->setValue("yt_use_https_main", yt_use_https_main);
+	set->setValue("yt_use_https_vi", yt_use_https_vi);
+	set->endGroup();
+	#endif
+	set->endGroup(); // streaming
 
 	set->beginGroup("proxy");
 	set->setValue("use_proxy", use_proxy);
@@ -1274,22 +1267,6 @@ void Preferences::load() {
 
 	set->endGroup(); // performance
 
-#ifdef YOUTUBE_SUPPORT
-	set->beginGroup("youtube");
-	enable_yt_support = set->value("enable_yt_support", enable_yt_support).toBool();
-	yt_quality = set->value("quality", yt_quality).toInt();
-	yt_user_agent = set->value("user_agent", yt_user_agent).toString();
-	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();
-	yt_use_https_vi = set->value("yt_use_https_vi", yt_use_https_vi).toBool();
-	set->endGroup();
-#endif
-
-#ifdef MPV_SUPPORT
-	set->beginGroup("streaming");
-	enable_streaming_sites = set->value("enable_streaming_sites", enable_streaming_sites).toBool();
-	set->endGroup();
-#endif
-
 
     /* *********
        Subtitles
@@ -1518,6 +1495,19 @@ void Preferences::load() {
     /* ********
        Network
        ******** */
+
+	set->beginGroup("streaming");
+	streaming_type = set->value("streaming_type", streaming_type).toInt();
+
+	#ifdef YOUTUBE_SUPPORT
+	set->beginGroup("streaming/youtube");
+	yt_quality = set->value("quality", yt_quality).toInt();
+	yt_user_agent = set->value("user_agent", yt_user_agent).toString();
+	yt_use_https_main = set->value("yt_use_https_main", yt_use_https_main).toBool();
+	yt_use_https_vi = set->value("yt_use_https_vi", yt_use_https_vi).toBool();
+	set->endGroup();
+	#endif
+	set->endGroup(); // streaming
 
 	set->beginGroup("proxy");
 	use_proxy = set->value("use_proxy", use_proxy).toBool();

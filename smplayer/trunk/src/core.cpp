@@ -65,6 +65,8 @@
   #ifdef YT_USE_YTSIG
   #include "ytsig.h"
   #endif
+
+  #define PREF_YT_ENABLED pref->streaming_type == Preferences::StreamingYT || pref->streaming_type == Preferences::StreamingAuto
 #endif
 
 using namespace Global;
@@ -900,7 +902,7 @@ void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
 
 #ifdef YOUTUBE_SUPPORT
-	if (pref->enable_yt_support) {
+	if (PREF_YT_ENABLED) {
 		// Check if the stream is a youtube url
 		QString yt_full_url = yt->fullUrl(name);
 		if (!yt_full_url.isEmpty()) {
@@ -1034,7 +1036,7 @@ void Core::initPlaying(int seek) {
 	if (seek > -1) start_sec = seek;
 
 #ifdef YOUTUBE_SUPPORT
-	if (pref->enable_yt_support) {
+	if (PREF_YT_ENABLED) {
 		// Avoid to pass to mplayer the youtube page url
 		if (mdat.type == TYPE_STREAM) {
 			if (mdat.filename == yt->origUrl()) {
@@ -1153,7 +1155,7 @@ void Core::finishRestart() {
 	}
 
 #ifdef YOUTUBE_SUPPORT
-	if (pref->enable_yt_support) {
+	if (PREF_YT_ENABLED) {
 		// Change the real url with the youtube page url and set the title
 		if (mdat.type == TYPE_STREAM) {
 			if (mdat.filename == yt->latestPreferredUrl()) {
@@ -1509,12 +1511,6 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	#endif
 	yt->close();
-
-	if (pref->enable_yt_support) {
-		if (file == yt->latestPreferredUrl()) {
-			qDebug() << "Core::startMplayer: YT: it's youtube";
-		}
-	}
 #endif
 
 	// DVD
@@ -2362,7 +2358,16 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 #ifdef MPV_SUPPORT
-	proc->setOption("enable_streaming_sites_support", pref->enable_streaming_sites);
+	if (pref->streaming_type == Preferences::StreamingAuto) {
+		bool is_youtube = false;
+		#ifdef YOUTUBE_SUPPORT
+		if (PREF_YT_ENABLED) is_youtube = (file == yt->latestPreferredUrl());
+		#endif
+		qDebug() << "Core::startMplayer: is_youtube:" << is_youtube;
+		proc->setOption("enable_streaming_sites_support", !is_youtube);
+	} else {
+		proc->setOption("enable_streaming_sites_support", pref->streaming_type == Preferences::StreamingYTDL);
+	}
 #endif
 
 #ifndef Q_OS_WIN

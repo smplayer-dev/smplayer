@@ -53,6 +53,12 @@ protected:
 	int YTQuality();
 #endif
 
+	void setStreamingType(int);
+	int streamingType();
+
+protected slots:
+	void streaming_type_combo_changed(int);
+
 protected:
 	virtual void retranslateStrings();
 };
