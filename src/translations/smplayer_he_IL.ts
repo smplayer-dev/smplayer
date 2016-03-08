@@ -7325,14 +7325,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (ואתרים אחרים)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">&amp;אפשר תמיכה פנימית Youtube</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>איכות &amp;נגינה</translation>
@@ -7408,25 +7400,9 @@ Example: extrastereo,karaoke</source>
         <translation>רשת עבודה</translation>
     </message>
     <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">אפשר תמיכה פנימית Youtube</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">איכות Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">בחר את האיכות המועדפת עליך לסרטוני youtube.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>סוכן משתמש</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">מצריך mpv וגם youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

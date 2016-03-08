@@ -7332,14 +7332,6 @@ Példa: extrastereo,karaoke </translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;YouTube (és más oldalak)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">A YouTube-&amp;támogatás engedélyezése</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>&amp;Lejátszási minőség</translation>
@@ -7348,10 +7340,6 @@ Példa: extrastereo,karaoke </translation>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>&amp;Böngészőazonosító</translation>
-    </message>
-    <message>
-        <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Mpv-s streamelés &amp;engedélyezése</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7419,41 +7407,9 @@ Példa: extrastereo,karaoke </translation>
         <translation>Hálózat</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">YouTube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Youtube belső támogatásának engedélyezése</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Ha ezt az opciót bejelöli, akkor az SMPlayer megpróbálja lejátszani a YouTube URL címekhez tartozó videókat.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube minőség</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Válassza ki a kívánt minőséget youtube videókhoz.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>Böngészőazonosító</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Böngészőazonosító megadása a YouTube eléréséhez</translation>
-    </message>
-    <message>
-        <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Az mpv streamelési lehetőségének használata</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">Az mpv és a youtube-dl szükséges hozzá.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

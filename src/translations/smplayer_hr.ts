@@ -7333,14 +7333,6 @@ Npr: extrastereo,karaoke</translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (i druge stranice)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">&amp;Omogući Youtube unutrašnju podršku</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Kvaliteta &amp;reprodukcije</translation>
@@ -7349,10 +7341,6 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>&amp;Korisnikov agent</translation>
-    </message>
-    <message>
-        <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Omogući &amp;mpv podršku za streamanje stranica</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7420,45 +7408,9 @@ Npr: extrastereo,karaoke</translation>
         <translation>Mreža</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Omogući Youtube unutrašnju podršku</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Ako je ova mogućnost omogućena, SMPlayer će pokušati reproducirati video snimke s Youtube URL-a.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube kvaliteta</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Odaberite željenu kvalitetu Youtube video snimaka.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>Korisnikov agent</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Postavite korisnikovog agenta kojeg će SMPlayer koristiti za povezivanje na Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Omogući mpv podršku za streamanje stranica</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">Ako je ova mogućnost omogućena, SMPlayer će pokušati reproducirati video snimke sa streaming stranica poput Youtuba, Dailymotiona, Vimea, Veva, itd.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">Zahtijeva mpv i youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

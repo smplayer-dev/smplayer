@@ -7332,14 +7332,6 @@ Adibidez: extrastereo,karaoke</translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (eta beste gune batzuk)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">&amp;Gaitu Youtube barneko sostengua</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Irakurketa &amp;ontasuna</translation>
@@ -7348,10 +7340,6 @@ Adibidez: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>&amp;Erabiltzaile ordezkaria</translation>
-    </message>
-    <message>
-        <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Gaitu &amp;mpv-ren jario guneetarako sostengua</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7419,45 +7407,9 @@ Adibidez: extrastereo,karaoke</translation>
         <translation>Sarea</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Gaitu Youtube barneko sostengua</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Aukera hau hautaturik badago, SMPlayer bideoak Youtube URL-etatik irakurtzen saiatuko da.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube ontasuna</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Hautatu zure ontasun hobetsia youtube bideoentzat.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>Erabiltzaile ordezkaria</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Ezarri SMPlayer-ek Youtube-ra elkartzerakoan erabiliko duen erabiltzaile ordezkaria.</translation>
-    </message>
-    <message>
-        <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Gaitu mpv-ren jario guneetarako sostengua</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">Aukera hau hautaturik badago, SMPlayer Youtube, Dailymotion, Vimeo, Vevo, etab. bezalako jario guneetatik bideoak irakurtzen saiatuko da.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">mpv eta youtube-dl behar du.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

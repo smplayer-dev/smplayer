@@ -7324,10 +7324,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (dhe faqe te tjera)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation type="unfinished"></translation>
@@ -7401,18 +7397,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="63"/>
         <source>Network</source>
         <translation>Rrjeti</translation>
-    </message>
-    <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Aktivizo suportinë e brëndshëm të Youtube</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Kualiteti i Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="190"/>
