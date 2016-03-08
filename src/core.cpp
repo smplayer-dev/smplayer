@@ -4286,7 +4286,7 @@ void Core::displayBuffering() {
 
 void Core::displayPlaying() {
 	qDebug("Core::displayPlaying");
-	emit showMessage(tr("Starting..."));
+	emit showMessage(tr("Starting..."), 60000);
 }
 
 void Core::gotWindowResolution(int w, int h) {
