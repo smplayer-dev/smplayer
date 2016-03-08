@@ -7331,14 +7331,6 @@ Contoh: extrastereo,karaoke</translation>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (dan lain-lain laman)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">B&amp;enarkan sokongan dalaman Youtube</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Kua&amp;liti main balik</translation>
@@ -7414,41 +7406,9 @@ Contoh: extrastereo,karaoke</translation>
         <translation>Rangkaian</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Benarkan sokongan dalaman Youtube</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Jika pilihan ini ditanda, SMPlayer akan cuba memainkan video dari URL Youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Kualiti Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Pilih kualiti yang dikehendaki untuk video youtube.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>Ejen pengguna</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Tetapkan ejen pengguna yang mana SMPlayer akan guna bila menyambung ke Youtube.</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">Jika pilihan ini ditanda, SMPlayer akan cuba mainkan video dari laman penstriman seperti Youtube, Dailymotion, Vimeo, Vevo, dll.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">Perlukan mpv dan youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

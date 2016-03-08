@@ -7333,14 +7333,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (та інші сайти)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">&amp;Увімкнути внутрішню підтримку Youtube</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Якість &amp;відтворення</translation>
@@ -7349,10 +7341,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
         <translation>&amp;User agent</translation>
-    </message>
-    <message>
-        <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Увім&amp;кнути підтримку потокових сайтів в MPV</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7420,45 +7408,9 @@ Example: extrastereo,karaoke</source>
         <translation>Мережа</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Увімкнути внутрішню підтримку Youtube</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Якщо опція увімкнена, SMPlayer намагатиметься відтворювати відео з Youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Якість відео з YouTube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Оберіть бажану якість для відео з YouTube.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>User agent</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Вкажіть user agent, який буде використовуватися SMPlayer при під’єднанні до Youtube.</translation>
-    </message>
-    <message>
-        <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">Увімкнути підтримку потокових сайтів в MPV</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">Якщо ця опція увімкнена, SMPlayer буде намагатися відтворювати потокове відео з сайтів Youtube, Dailymotion, Vimeo, Vevo та ін.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">Необхідні mpv та youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

@@ -7335,14 +7335,6 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (a ostatní strany)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">&amp;Povolit vnitřní podporu Youtube </translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Playback &amp;kvalita</translation>
@@ -7418,42 +7410,9 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Síť</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Povolit vnitřní podporu Youtube </translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Pokud je tato možnost zaškrtnuta, SMPlayer zkusí přehrát videa z URL Youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Kvalita YouTube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Vyberte kvalitu pro videa z YouTube.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>User agent</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Nastavte user agent, který se použije při spojení s Youtube.</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">Pokud je zaškrtnuta tato možnost, SMPlayer zkusí přehrát videa ze stránek typu Youtube, 
-Dailymotion, Vimeo, Vevo, atd.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">Vyžaduje mpv a youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

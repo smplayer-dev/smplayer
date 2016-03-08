@@ -7329,14 +7329,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (и други сајтови)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">&amp;Омогући Youtube интерну подршку</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Квалитет р&amp;епродукције</translation>
@@ -7412,41 +7404,9 @@ Example: extrastereo,karaoke</source>
         <translation>Мрежа</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">Омогући Youtube интерну подршку</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">Ако је означена ова опција, SMPlayer ће пробати да репродукује видео са Youtube линкова.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube квалитет</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Одаберите квалитет за приказивање Youtube видеа.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>Кориснички агент</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">Подеси кориснички агент који ће SMPlayer користити када се повеже са Youtube.</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">Ако је ова опција означена, SMPlayer ће пробати да репродукује видео са стриминг сајтова као што су Youtube, Dailymotion, Vimeo, Vevo, итд.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">Захтевани су mpv и youtube-dl.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

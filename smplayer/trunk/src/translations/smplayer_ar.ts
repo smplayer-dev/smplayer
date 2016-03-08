@@ -7334,14 +7334,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;يوتيوب Youtube (و مواقع أخرى)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">تمكين ال&amp;دعم الداخلي لليوتيوب Youtube</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>نوعية ال&amp;تشغيل</translation>
@@ -7417,41 +7409,9 @@ Example: extrastereo,karaoke</source>
         <translation>الشبكة</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">يوتيوب Youtube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">تمكين الدعم الداخلي لليوتيوب Youtube</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">إن مُكِّن هذا الخيار، سيحاول SMPlayer تشغيل الفيديوات من روابط يوتيوب Youtube.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">نوعية يوتيوب Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">اختر النوعية المفضلة لفيديوات يوتيوب Youtube.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>وسيط من المستخدِم</translation>
-    </message>
-    <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">أعِدَّ البرنامج الوسيط من المستخدِم و الذي سيستخدمه عند الإتصال باليوتيوب Youtube.</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">إذا أُشّر هذا الخيار فسيحاول SMPlayer تشغيل الفيديوات من مواقع بث الدفق مثل اليوتيوب Youtube و ديلي موشن Dailymotion و فيميو Vimeo و فيفو Vevo و غيرها.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">يتطلب وجود  mpv و  youtube-d.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="75"/>

@@ -7401,10 +7401,6 @@ Example: extrastereo,karaoke</source>
         <translation>Netwerk</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">Youtube</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation type="unfinished"></translation>

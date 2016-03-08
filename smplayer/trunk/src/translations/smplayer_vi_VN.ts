@@ -7401,14 +7401,6 @@ Example: extrastereo,karaoke</source>
         <translation>Mạng</translation>
     </message>
     <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Chất lượng Youtube</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">Chọn chất lượng mong muốn cho video youtube.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation type="unfinished"></translation>

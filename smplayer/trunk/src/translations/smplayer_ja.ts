@@ -7331,14 +7331,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">YouTube (およびその他のサイト)(&amp;Y)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">YouTube の内部サポートを有効にする(&amp;E)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>再生の品質(&amp;Q)</translation>
@@ -7349,23 +7341,19 @@ Example: extrastereo,karaoke</source>
         <translation>ユーザー エージェント(&amp;U)</translation>
     </message>
     <message>
-        <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">mpv のストリーミング サイトへの対応を有効にする(&amp;M)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube (およびその他のサイト)(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>動画サイトのサポート(&amp;V):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube のオプション</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7418,102 +7406,66 @@ Example: extrastereo,karaoke</source>
         <translation>ネットワーク</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">YouTube</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">YouTube の内部サポートを有効にする</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、SMPlayer は YouTube の URL のビデオの再生を試行します。</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">YouTube の品質</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">優先される YouTube 動画の品質を選択します。</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>ユーザー エージェント</translation>
     </message>
     <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">SMPlayer が YouTube への接続時に使用するユーザー エージェントを設定します。</translation>
-    </message>
-    <message>
-        <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">mpv のストリーミング サイトへの対応を有効にする</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">このオプションがチェックされている場合、SMPlayer は YouTube、Dailymotion、Vimeo、Vevo などのストリーミング サイトの動画の再生を試行します。</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">mpv および youtube-dl を必要とします。</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>無効</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished">自動</translation>
+        <translation>自動</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>動画サイトのサポート</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>動画サイトのサポートはオフになります</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube の内部サポートを有効にしてその他のサイトには mpv と youtube-dl を使用します</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube の内部サポートのみ使用されます</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>すべてのサイトに mpv と youtube-dl を使用します</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>再生の品質</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube 動画で優先される品質を選択します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer が YouTube への接続時に使用するユーザー エージェントを設定します。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>

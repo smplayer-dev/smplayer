@@ -7325,10 +7325,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">&amp;Youtube (ve diğer siteler)</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>Oynatma &amp;kalitesi</translation>
@@ -7402,14 +7398,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="63"/>
         <source>Network</source>
         <translation>Ağ</translation>
-    </message>
-    <message>
-        <source>Youtube</source>
-        <translation type="obsolete">&amp;Youtube</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">Youtube kalitesi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="190"/>

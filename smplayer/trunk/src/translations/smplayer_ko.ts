@@ -81,7 +81,7 @@
     <message>
         <location filename="../about.ui" line="38"/>
         <source>&amp;Info</source>
-        <translation>정보</translation>
+        <translation>정보(&amp;I)</translation>
     </message>
     <message>
         <location filename="../about.ui" line="58"/>
@@ -104,7 +104,7 @@
     <message>
         <location filename="../about.ui" line="206"/>
         <source>&amp;License</source>
-        <translation>라이센스</translation>
+        <translation>라이센스(&amp;L)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="52"/>
@@ -739,7 +739,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="2121"/>
         <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
+        <translation>화면 정보 표시(&amp;OSD)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2130"/>
@@ -800,12 +800,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1817"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation>유투브%1 브라우저</translation>
+        <translation>유투브%1 브라우저(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1840"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>기부 / 친구들과 공유하기</translation>
+        <translation>기부 / 친구들과 공유하기(&amp;D)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4144"/>
@@ -1033,12 +1033,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
         <source>First Steps &amp;Guide</source>
-        <translation>첫걸음 가이드</translation>
+        <translation>첫걸음 가이드(&amp;G)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>Update &amp;Youtube code</source>
-        <translation>유투브 코드 업데이트하기</translation>
+        <translation>유투브 코드 업데이트하기(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
@@ -1865,7 +1865,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
         <source>Check for &amp;updates</source>
-        <translation>업데이트 검사</translation>
+        <translation>업데이트 검사(&amp;U)</translation>
     </message>
 </context>
 <context>
@@ -1878,7 +1878,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="210"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>시스템 트레이에 아이콘 보이기</translation>
+        <translation>시스템 트레이에 아이콘 보이기(&amp;H)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="221"/>
@@ -2142,7 +2142,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="555"/>
         <source>&amp;Main toolbar</source>
-        <translation>기본 툴바</translation>
+        <translation>기본 툴바(&amp;M)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="558"/>
@@ -2152,7 +2152,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="549"/>
         <source>&amp;Toolbars</source>
-        <translation>툴바</translation>
+        <translation>툴바(&amp;T)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="530"/>
@@ -6205,12 +6205,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefinput.ui" line="333"/>
         <source>Dra&amp;g function:</source>
-        <translation>드래그 기능(&amp;G):</translation>
+        <translation>드래그 기능:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="375"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation>더블 클릭시 왼쪽 클릭이 동작하지 않도록 합니다(&amp;T)</translation>
+        <translation>더블 클릭시 왼쪽 클릭이 동작하지 않도록 하기</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="145"/>
@@ -7332,14 +7332,6 @@ Example: extrastereo,karaoke</source>
 <context>
     <name>PrefNetwork</name>
     <message>
-        <source>&amp;Youtube (and other sites)</source>
-        <translation type="obsolete">유투브 (다른 사이트)</translation>
-    </message>
-    <message>
-        <source>&amp;Enable Youtube internal support</source>
-        <translation type="obsolete">유투브 내부 지원 활성화하기</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
         <translation>재생 품질</translation>
@@ -7350,23 +7342,19 @@ Example: extrastereo,karaoke</source>
         <translation>사용자 에이전트</translation>
     </message>
     <message>
-        <source>Enable &amp;mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">스트리밍 사이트에 &amp;mpv 사용하기</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 (다른 사이트)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 사이트 지원(&amp;V):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 옵션</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7419,102 +7407,66 @@ Example: extrastereo,karaoke</source>
         <translation>네트워크</translation>
     </message>
     <message>
-        <source>Youtube</source>
-        <translation type="obsolete">유투브</translation>
-    </message>
-    <message>
-        <source>Enable Youtube internal support</source>
-        <translation type="obsolete">유투브 내부 지원 활성화하기</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from Youtube URLs.</source>
-        <translation type="obsolete">이 옵션 사용시 SMPlayer는 유투브 URL에서 동영상 재생을 시도하게 됩니다.</translation>
-    </message>
-    <message>
-        <source>Youtube quality</source>
-        <translation type="obsolete">유투브 품질</translation>
-    </message>
-    <message>
-        <source>Select the preferred quality for youtube videos.</source>
-        <translation type="obsolete">유투브 동영상의 선호 품질을 선택하세요.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="190"/>
         <source>User agent</source>
         <translation>사용자 에이전트</translation>
     </message>
     <message>
-        <source>Set the user agent that SMPlayer will use when connecting to Youtube.</source>
-        <translation type="obsolete">SMPlayer가 유투브에 접속할 때 사용할 사용자 에이전트를 설정하세요.</translation>
-    </message>
-    <message>
-        <source>Enable mpv&apos;s support for streaming sites</source>
-        <translation type="obsolete">스트리밍 사이트에 mpv 사용하기</translation>
-    </message>
-    <message>
-        <source>If this option is checked, SMPlayer will try to play videos from streaming sites like Youtube, Dailymotion, Vimeo, Vevo, etc.</source>
-        <translation type="obsolete">이 옵션 사용시 SMPlayer는  Youtube, Dailymotion, Vimeo, Vevo 등과 같은 스트리밍 사이트에서 동영상 재생을 시도할 것입니다.</translation>
-    </message>
-    <message>
-        <source>Requires mpv and youtube-dl.</source>
-        <translation type="obsolete">mpv와 youtube-dl이 필요합니다.</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>비활성화</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished">자동</translation>
+        <translation>자동</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 사이트 지원</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>비디오 사이트 지원이 꺼져 있습니다</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"></translation>
+        <translation>유투브 내부 지원을 활성화하고 나머지 사이트에서는 mpv + youtube-dl을 사용합니다.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>유투부 내부 지원만 사용합니다</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>모든 사이트에서 mpv + youtube-dl을 사용합니다</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>재생 품질</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>선호하는 유투브 동영상 품질을 선택하세요.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer가 유투브에 접속할 때 사용할 사용자 에이전트를 설정하세요.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
@@ -8137,7 +8089,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation>이전 파일 재생 실패시에도 다음 파일 재생하기(&amp;N)</translation>
+        <translation>이전 파일 재생 실패시에도 다음 파일 재생하기</translation>
     </message>
 </context>
 <context>
