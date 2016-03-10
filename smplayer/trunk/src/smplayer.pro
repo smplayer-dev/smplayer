@@ -469,6 +469,24 @@ contains( DEFINES, VIDEOPREVIEW ) {
 	FORMS += videopreview/videopreviewconfigdialog.ui
 }
 
+
+# Note to distro maintainers:
+# By disabling REMINDER_ACTIONS or SHAREWIDGET
+# you're preventing SMPlayer to get donations and thus
+# SERIOUSLY HURTING THE DEVELOPMENT AND PUTTING
+# AT RISK THE CONTINUATION OF THIS PROJECT
+# Please don't.
+
+!contains( DEFINES, REMINDER_ACTIONS ) {
+	DEFINES += REMINDER_ACTIONS
+	message("REMINDER_ACTIONS re-enabled. See smplayer.pro to know why.")
+}
+
+!contains( DEFINES, SHAREWIDGET ) {
+	DEFINES += SHAREWIDGET
+	message("SHAREWIDGET re-enabled. See smplayer.pro to know why.")
+}
+
 contains( DEFINES, REMINDER_ACTIONS ) {
 	HEADERS += sharedialog.h
 	SOURCES += sharedialog.cpp
