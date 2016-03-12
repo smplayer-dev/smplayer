@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1317,12 +1315,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="5850"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pelayar YouTube gagal dijalankan.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5851"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pastikan ia telah dipasang dengan betul.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4878"/>
@@ -2689,9 +2687,7 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2789,7 +2785,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -4740,7 +4736,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="492"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini diperlukan untuk main fail senarai main (m3u, pls...). Akan tetapi ia melibatkan risiko keselamatan jika memainkan sumber internet kerana cara MPlayer menghurai dan menggunakan fail senarai main adalah tidak selamat terhadap fail terbina secara jahat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="516"/>
@@ -5279,7 +5275,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih bolehlaku %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="181"/>
@@ -5310,17 +5306,17 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="984"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"></translation>
+        <translation>Enjin multimedia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="985"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih enjin multimedia yang anda mahu gunakan, sama ada MPlayer atau mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan &apos;lain&apos; membolehkan anda pilih laluan bolehlaku secara manual.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="989"/>
@@ -5405,7 +5401,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="145"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lain...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -5506,7 +5502,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Enjin multimedia:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="210"/>
@@ -6204,7 +6200,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinput.ui" line="333"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fungsi se&amp;ret:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="375"/>
@@ -6580,33 +6576,33 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefinput.cpp" line="159"/>
         <location filename="../prefinput.cpp" line="369"/>
         <source>Move window</source>
-        <translation type="unfinished"></translation>
+        <translation>Alih tetingkap</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
         <location filename="../prefinput.cpp" line="371"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Jangkau dan volum</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="367"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>Fungsi seret</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="368"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini mengawal apa perlu dibuat bila tetikus bergerak ketika menekan butang kiri.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="369"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation>Tetingkap utama dialih</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="372"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Pergerakan mengufuk mengubah kedudukan masa manakala pergerakan menegak mengubah volum</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="376"/>
@@ -7184,7 +7180,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Secara lalai bila butang henti ditekan kedudukan masa diingat supaya jika anda tekan butang main, media akan sambung semula pada tempat yang sama. Anda perlu tekan butang henti dua kali untuk tetap semula kedudukan masa, tetapi jika pilihan ini ditanda kedudukan masa akan ditetapkan kepada 0 bila menekan butang henti sekali sahaja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -7343,17 +7339,17 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Youtube (dan lain-lain laman)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sokongan laman &amp;video:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan untuk YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7414,58 +7410,58 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Dilumpuhkan</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Sokongan untuk laman video</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>Sokongan  untuk laman video dimatikan</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"></translation>
+        <translation>benarkan sokongan dalaman untuk YouTube dan gunakan mpv + youtube-dl untuk laman yang lain</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>hanya sokongan dalaman untuk YouTube akan digunakan</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>gunakan mpv + youtube-dl untuk semua laman</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Kualiti main balik</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilih kualiti yang dikehendaki untuk video YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tetapkan ejen pengguna yang mana SMPlayer akan guna bila menyambung ke Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
@@ -8909,17 +8905,13 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9261,7 +9253,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglif hijau/magenta berwarna</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
