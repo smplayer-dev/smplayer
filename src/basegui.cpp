@@ -129,11 +129,11 @@
   #endif
 #endif
 
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 #include "sharedialog.h"
 #endif
 
-#ifdef SHAREWIDGET
+#ifdef SHARE_WIDGET
 #include "sharewidget.h"
 #endif
 
@@ -257,7 +257,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	QTimer::singleShot(2000, this, SLOT(checkIfUpgraded()));
 #endif
 
-#if defined(REMINDER_ACTIONS) && !defined(SHAREWIDGET)
+#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
 	QTimer::singleShot(1000, this, SLOT(checkReminder()));
 #endif
 
@@ -904,7 +904,7 @@ void BaseGui::createActions() {
 	connect( showConfigAct, SIGNAL(triggered()),
              this, SLOT(helpShowConfig()) );
 
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 	donateAct = new MyAction( this, "donate" );
 	connect( donateAct, SIGNAL(triggered()),
              this, SLOT(helpDonate()) );
@@ -1836,7 +1836,7 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 	donateAct->change( Images::icon("donate"), tr("&Donate / Share with your friends") );
 #endif
 	aboutThisAct->change( Images::icon("logo"), tr("About &SMPlayer") );
@@ -2300,10 +2300,10 @@ void BaseGui::createMplayerWindow() {
 	mplayerwindow->setAnimatedLogo( pref->animated_logo);
 #endif
 
-#ifdef SHAREWIDGET
+#ifdef SHARE_WIDGET
 	sharewidget = new ShareWidget(Global::settings, mplayerwindow);
 	mplayerwindow->setCornerWidget(sharewidget);
-	#ifdef REMINDER_ACTIONS
+	#ifdef SHARE_ACTIONS
 	connect(sharewidget, SIGNAL(supportClicked()), this, SLOT(helpDonate()));
 	#endif
 #endif
@@ -2917,7 +2917,7 @@ void BaseGui::createMenus() {
 	helpMenu->addSeparator();
 	helpMenu->addAction(showConfigAct);
 	helpMenu->addSeparator();
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
 #endif
@@ -4363,12 +4363,12 @@ void BaseGui::helpShowConfig() {
 	QDesktopServices::openUrl(QUrl::fromLocalFile(Paths::configPath()));
 }
 
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 void BaseGui::helpDonate() {
 	ShareDialog d(this);
 	d.showRemindCheck(false);
 
-	#ifdef SHAREWIDGET
+	#ifdef SHARE_WIDGET
 	d.setActions(sharewidget->actions());
 	#endif
 
@@ -4377,7 +4377,7 @@ void BaseGui::helpDonate() {
 	qDebug("BaseGui::helpDonate: action: %d", action);
 
 	if (action > 0) {
-		#ifdef SHAREWIDGET
+		#ifdef SHARE_WIDGET
 		sharewidget->setActions(action);
 		#else
 		QSettings * set = Global::settings;
@@ -4418,7 +4418,7 @@ void BaseGui::shareSMPlayer() {
 	if (sender() == facebookAct) {
 		QDesktopServices::openUrl(QUrl("http://www.facebook.com/sharer.php?u=" + url + "&t=" + text));
 
-		#ifdef REMINDER_ACTIONS
+		#ifdef SHARE_ACTIONS
 		QSettings * set = Global::settings;
 		set->beginGroup("reminder");
 		set->setValue("action", 2);
@@ -4811,7 +4811,7 @@ void BaseGui::checkIfUpgraded() {
 }
 #endif
 
-#if defined(REMINDER_ACTIONS) && !defined(SHAREWIDGET)
+#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
 void BaseGui::checkReminder() {
 	qDebug("BaseGui::checkReminder");
 

@@ -66,7 +66,7 @@ class Favorites;
 class TVList;
 class UpdateChecker;
 
-#ifdef SHAREWIDGET
+#ifdef SHARE_WIDGET
 class ShareWidget;
 #endif
 
@@ -122,7 +122,7 @@ public slots:
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpCheckUpdates();
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 	virtual void helpDonate();
 #endif
 	virtual void helpShowConfig();
@@ -236,7 +236,7 @@ protected slots:
 	void checkIfUpgraded();
 #endif
 
-#if defined(REMINDER_ACTIONS) && !defined(SHAREWIDGET)
+#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
 	void checkReminder();
 #endif
 
@@ -550,7 +550,7 @@ protected:
 	MyAction * updateYTAct;
 #endif
 	MyAction * showConfigAct;
-#ifdef REMINDER_ACTIONS
+#ifdef SHARE_ACTIONS
 	MyAction * donateAct;
 #endif
 	MyAction * aboutThisAct;
@@ -851,7 +851,7 @@ protected:
 	UpdateChecker * update_checker;
 #endif
 
-#ifdef SHAREWIDGET
+#ifdef SHARE_WIDGET
 	ShareWidget * sharewidget;
 #endif
 

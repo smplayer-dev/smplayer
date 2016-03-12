@@ -25,8 +25,8 @@ DEFINES += SKINS
 DEFINES += MPRIS2
 DEFINES += UPDATE_CHECKER
 DEFINES += CHECK_UPGRADED
-DEFINES += REMINDER_ACTIONS
-DEFINES += SHAREWIDGET
+DEFINES += SHARE_ACTIONS
+DEFINES += SHARE_WIDGET
 #DEFINES += USE_FONTCONFIG_OPTIONS
 DEFINES += AUTO_SHUTDOWN_PC
 DEFINES += CAPTURE_STREAM
@@ -50,8 +50,8 @@ contains( DEFINES, SIMPLE_BUILD ) {
 	DEFINES -= MPRIS2
 	DEFINES -= UPDATE_CHECKER
 	DEFINES -= CHECK_UPGRADED
-	DEFINES -= REMINDER_ACTIONS
-	DEFINES -= SHAREWIDGET
+	DEFINES -= SHARE_ACTIONS
+	DEFINES -= SHARE_WIDGET
 	DEFINES -= AUTO_SHUTDOWN_PC
 	DEFINES -= BOOKMARKS
 }
@@ -471,29 +471,29 @@ contains( DEFINES, VIDEOPREVIEW ) {
 
 
 # Note to distro maintainers:
-# By disabling REMINDER_ACTIONS or SHAREWIDGET
+# By disabling SHARE_ACTIONS or SHARE_WIDGET
 # you're preventing SMPlayer to get donations and thus
 # SERIOUSLY HURTING THE DEVELOPMENT AND PUTTING
 # AT RISK THE CONTINUATION OF THIS PROJECT
 # Please don't.
 
-!contains( DEFINES, REMINDER_ACTIONS ) {
-	DEFINES += REMINDER_ACTIONS
-	message("REMINDER_ACTIONS re-enabled. See smplayer.pro to know why.")
+!contains( DEFINES, SHARE_ACTIONS ) {
+	DEFINES += SHARE_ACTIONS
+	message("SHARE_ACTIONS re-enabled. See smplayer.pro to know why.")
 }
 
-!contains( DEFINES, SHAREWIDGET ) {
-	DEFINES += SHAREWIDGET
-	message("SHAREWIDGET re-enabled. See smplayer.pro to know why.")
+!contains( DEFINES, SHARE_WIDGET ) {
+	DEFINES += SHARE_WIDGET
+	message("SHARE_WIDGET re-enabled. See smplayer.pro to know why.")
 }
 
-contains( DEFINES, REMINDER_ACTIONS ) {
+contains( DEFINES, SHARE_ACTIONS ) {
 	HEADERS += sharedialog.h
 	SOURCES += sharedialog.cpp
 	FORMS += sharedialog.ui
 }
 
-contains( DEFINES, SHAREWIDGET|REMINDER_ACTIONS ) {
+contains( DEFINES, SHARE_WIDGET|SHARE_ACTIONS ) {
 	HEADERS += sharewidget.h sharedata.h
 	SOURCES += sharewidget.cpp sharedata.cpp
 }
