@@ -41,6 +41,10 @@ class MyAction;
 class SeekingButton;
 #endif
 
+#ifdef BUFFERING_ANIMATION
+class StateWidget;
+#endif
+
 class DefaultGui : public BaseGuiPlus
 {
 	Q_OBJECT
@@ -104,6 +108,9 @@ protected:
 	QLabel * frame_display;
 	QLabel * ab_section_display;
 	QLabel * video_info_display;
+#ifdef BUFFERING_ANIMATION
+	StateWidget * state_widget;
+#endif
 
 	EditableToolbar * controlwidget;
 	EditableToolbar * controlwidget_mini;

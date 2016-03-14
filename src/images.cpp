@@ -99,18 +99,22 @@ QString Images::file(const QString & name) {
 	if (!current_theme.isEmpty()) {
 	#ifdef USE_RESOURCES
 		if (has_rcc) {
-			icon_name = ":/" + current_theme + "/"+ name + ".png";
+			icon_name = ":/" + current_theme + "/"+ name;
 		} else {
-			icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
+			icon_name = themes_path +"/"+ current_theme + "/"+ name;
 		}
 	#else
-		icon_name = themes_path +"/"+ current_theme + "/"+ name + ".png";
+		icon_name = themes_path +"/"+ current_theme + "/"+ name;
 	#endif
 	}
 
+	bool has_extension = name.contains(".");
+	if (!has_extension) icon_name += ".png";
+
 	//qDebug() << "Images::file:" << icon_name;
 	if ((icon_name.isEmpty()) || (!QFile::exists(icon_name))) {
-		icon_name = ":/default-theme/" + name + ".png";
+		icon_name = ":/default-theme/" + name;
+		if (!has_extension) icon_name += ".png";
 	}
 
 	//qDebug() << "Images::file:" << icon_name;
