@@ -516,7 +516,7 @@ void DefaultGui::createStatusBar() {
 	video_info_display->setFrameShape(QFrame::NoFrame);
 
 #ifdef BUFFERING_ANIMATION
-	StateWidget * state_widget = new StateWidget(statusBar());
+	state_widget = new StateWidget(statusBar());
 	connect(core, SIGNAL(stateChanged(Core::State)), state_widget, SLOT(watchState(Core::State)));
 	statusBar()->addPermanentWidget(state_widget);
 #endif
@@ -580,6 +580,10 @@ void DefaultGui::retranslateStrings() {
 	editControl1Act->change( tr("Edit &control bar") );
 	editControl2Act->change( tr("Edit m&ini control bar") );
 	editFloatingControlAct->change( tr("Edit &floating control") );
+#endif
+
+#ifdef BUFFERING_ANIMATION
+	state_widget->setAnimation(Images::file("buffering.gif"));
 #endif
 }
 
