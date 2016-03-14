@@ -33,6 +33,9 @@ DEFINES += MOUSE_GESTURES
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
 
+# Whether to include support for the obsolete mplayer2 or not
+# (requires MPLAYER_SUPPORT)
+DEFINES += MPLAYER2_SUPPORT
 
 # Note to distro maintainers:
 # By disabling SHARE_ACTIONS or SHARE_WIDGET

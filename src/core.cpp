@@ -1584,12 +1584,14 @@ void Core::startMplayer( QString file, double seek ) {
 		mplayer_bin = fi.absoluteFilePath();
 	}
 
+#ifdef MPLAYER2_SUPPORT
 	if (fi.baseName().toLower() == "mplayer2") {
 		if (!pref->mplayer_is_mplayer2) {
 			qDebug("Core::startMplayer: this seems mplayer2");
 			pref->mplayer_is_mplayer2 = true;
 		}
 	}
+#endif
 
 	proc->setExecutable(mplayer_bin);
 	proc->setFixedOptions();
@@ -1830,7 +1832,10 @@ void Core::startMplayer( QString file, double seek ) {
 
 		proc->setOption("ass-font-scale", QString::number(mset.sub_scale_ass));
 
-		if (!pref->mplayer_is_mplayer2) {
+		#ifdef MPLAYER2_SUPPORT
+		if (!pref->mplayer_is_mplayer2)
+		#endif
+		{
 			proc->setOption("flip-hebrew",false); // It seems to be necessary to display arabic subtitles correctly when using -ass
 		}
 
@@ -2421,11 +2426,13 @@ void Core::startMplayer( QString file, double seek ) {
 	// Global
 	if (!pref->mplayer_additional_options.isEmpty()) {
 		QString additional_options = pref->mplayer_additional_options;
+		#ifdef MPLAYER2_SUPPORT
 		// mplayer2 doesn't support -fontconfig and -nofontconfig
 		if (pref->mplayer_is_mplayer2) {
 			additional_options.replace("-fontconfig", "");
 			additional_options.replace("-nofontconfig", "");
 		}
+		#endif
 		QStringList args = MyProcess::splitArguments(additional_options);
 		for (int n = 0; n < args.count(); n++) {
 			QString arg = args[n].simplified();
@@ -4261,10 +4268,12 @@ void Core::displayScreenshotName(QString filename) {
 	QString text = tr("Screenshot saved as %1").arg(fi.fileName());
 	//QString text = QString("Screenshot saved as %1").arg(fi.fileName());
 
+#ifdef MPLAYER2_SUPPORT
 	if (MplayerVersion::isMplayer2()) {
 		displayTextOnOSD(text, 3000, 1, "");
 	}
 	else
+#endif
 	if (MplayerVersion::isMplayerAtLeast(27665)) {
 		displayTextOnOSD(text, 3000, 1, "pausing_keep_force");
 	}
@@ -4670,10 +4679,12 @@ void Core::dvdTitleIsMovie() {
 QString Core::pausing_prefix() {
 	qDebug("Core::pausing_prefix");
 
+#ifdef MPLAYER2_SUPPORT
 	if (MplayerVersion::isMplayer2()) {
 		return QString::null;
 	}
 	else
+#endif
 	if ( (pref->use_pausing_keep_force) && 
          (MplayerVersion::isMplayerAtLeast(27665)) ) 
 	{

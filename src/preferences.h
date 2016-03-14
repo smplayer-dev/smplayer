@@ -383,7 +383,7 @@ public:
 	//! percentage (with fractions) instead of time.
 	bool relative_seeking;  
 #endif
-	bool precise_seeking; //! Enable precise_seeking (only available with mplayer2)
+	bool precise_seeking; //! Enable precise_seeking (only available with mpv)
 
 	bool reset_stop; //! Pressing the stop button resets the position
 
@@ -529,8 +529,10 @@ public:
 	//! the version can't be parsed from mplayer output
 	int mplayer_user_supplied_version;
 
+#ifdef MPLAYER2_SUPPORT
 	bool mplayer_is_mplayer2; //! True if the detected version is mplayer2
 	QString mplayer2_detected_version;
+#endif
 
 
     /* *********

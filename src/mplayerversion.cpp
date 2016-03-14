@@ -24,10 +24,13 @@
 
 using namespace Global;
 
-QString MplayerVersion::mplayer2_version;
 QString MplayerVersion::mpv_version;
-bool MplayerVersion::is_mplayer2 = false;
 bool MplayerVersion::is_mpv = false;
+
+#ifdef MPLAYER2_SUPPORT
+QString MplayerVersion::mplayer2_version;
+bool MplayerVersion::is_mplayer2 = false;
+#endif
 
 int MplayerVersion::mplayerVersion(QString string) {
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
@@ -35,7 +38,9 @@ int MplayerVersion::mplayerVersion(QString string) {
 	static QRegExp rx_mplayer_version("^MPlayer ([a-z0-9.]+)-(.*)");
 	static QRegExp rx_mplayer_git("^MPlayer GIT(.*)", Qt::CaseInsensitive);
 	static QRegExp rx_mplayer_version_final("1.0rc([0-9])");
+#ifdef MPLAYER2_SUPPORT
 	static QRegExp rx_mplayer2_version("^MPlayer2 (.*) \\(C\\).*", Qt::CaseInsensitive);
+#endif
 	static QRegExp rx_mpv_version("^mpv (.*) \\(C\\).*", Qt::CaseInsensitive);
 #ifndef Q_OS_WIN
 	static QRegExp rx_mplayer_version_ubuntu("^MPlayer (\\d):(\\d)\\.(\\d)~(.*)");
@@ -44,9 +49,11 @@ int MplayerVersion::mplayerVersion(QString string) {
 #endif
 
 	int mplayer_svn = 0;
+	is_mpv = false;
+#ifdef MPLAYER2_SUPPORT
 	mplayer2_version = QString::null;
 	is_mplayer2 = false;
-	is_mpv = false;
+#endif
 
 #ifdef Q_OS_WIN
 	// Hack to recognize mplayer 1.0rc2 from CCCP:
@@ -119,6 +126,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 		mplayer_svn = MPLAYER_1_2;
 	}
 	else
+#ifdef MPLAYER2_SUPPORT
 	if (rx_mplayer2_version.indexIn(string) > -1) {
 		mplayer2_version = rx_mplayer2_version.cap(1);
 		qDebug("MplayerVersion::mplayerVersion: MPlayer2 version found: %s", mplayer2_version.toUtf8().data());
@@ -126,18 +134,23 @@ int MplayerVersion::mplayerVersion(QString string) {
 		mplayer_svn = MPLAYER_1_0_RC4_SVN; // simulates mplayer 1.0rc4
 	}
 	else
+#endif
 	if (rx_mpv_version.indexIn(string) > -1) {
 		mpv_version = rx_mpv_version.cap(1);
 		qDebug("MplayerVersion::mplayerVersion: mpv version found: %s", mpv_version.toUtf8().data());
 		is_mpv = true;
+		#ifdef MPLAYER2_SUPPORT
 		is_mplayer2 = true;
+		#endif
 		mplayer_svn = MPLAYER_1_0_RC4_SVN; // simulates mplayer 1.0rc4
 	}
 
 	if (pref) {
 		pref->mplayer_detected_version = mplayer_svn;
+		#ifdef MPLAYER2_SUPPORT
 		pref->mplayer_is_mplayer2 = is_mplayer2;
 		pref->mplayer2_detected_version = mplayer2_version;
+		#endif
 	}
 
 	qDebug("MplayerVersion::mplayerVersion: mplayer_svn: %d", mplayer_svn);
