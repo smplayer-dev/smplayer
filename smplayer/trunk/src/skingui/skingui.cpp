@@ -416,7 +416,8 @@ void SkinGui::displayState(Core::State state) {
 	BaseGuiPlus::displayState(state);
 
 	switch (state) {
-		case Core::Playing:		mediaBarPanel->displayMessage( tr("Playing %1").arg(core->mdat.filename)); break;
+		//case Core::Playing:		mediaBarPanel->displayMessage( tr("Playing %1").arg(core->mdat.filename)); break;
+		case Core::Playing:		mediaBarPanel->displayMessage( tr("Playing") ); break;
 		case Core::Paused:		mediaBarPanel->displayMessage( tr("Pause") ); break;
 		case Core::Stopped:		mediaBarPanel->displayMessage( tr("Stop") ); break;
 		case Core::Buffering:	/* mediaBarPanel->displayMessage( tr("Buffering...") ); */ break;

@@ -4285,7 +4285,7 @@ void Core::displayUpdatingFontCache() {
 
 void Core::displayBuffering() {
 	setState(Buffering);
-	emit showMessage(tr("Buffering..."));
+//	emit showMessage(tr("Buffering..."));
 }
 
 void Core::displayPlaying() {
