@@ -19,6 +19,8 @@
 #ifndef DEFAULTGUI_H
 #define DEFAULTGUI_H
 
+#define BUFFERING_ANIMATION
+
 #include "guiconfig.h"
 #include "baseguiplus.h"
 #include <QPoint>
@@ -37,6 +39,10 @@ class MyAction;
 
 #if MINI_ARROW_BUTTONS
 class SeekingButton;
+#endif
+
+#ifdef BUFFERING_ANIMATION
+class QMovie;
 #endif
 
 class DefaultGui : public BaseGuiPlus
@@ -84,6 +90,9 @@ protected slots:
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
+#ifdef BUFFERING_ANIMATION
+	virtual void displayBuffering();
+#endif
 
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
@@ -102,6 +111,10 @@ protected:
 	QLabel * frame_display;
 	QLabel * ab_section_display;
 	QLabel * video_info_display;
+#ifdef BUFFERING_ANIMATION
+	QLabel * buffering_label;
+	QMovie * movie;
+#endif
 
 	EditableToolbar * controlwidget;
 	EditableToolbar * controlwidget_mini;

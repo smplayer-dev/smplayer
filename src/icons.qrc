@@ -146,6 +146,7 @@
         <file>default-theme/record.png</file>
         <file>default-theme/bookmarks.png</file>
         <file>default-theme/add_bookmark.png</file>
+        <file>default-theme/buffering.gif</file>
         <file>default-theme/style.qss</file>
         <file>mpcgui/mpc_toolbar.png</file>
         <file>mpcgui/mpc_mono.png</file>

@@ -45,6 +45,7 @@
 #include <QPushButton>
 #include <QToolButton>
 #include <QMenuBar>
+#include <QMovie>
 
 #define TOOLBAR_VERSION 1
 
@@ -66,8 +67,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 
 	createActions();
 	createMainToolBars();
-    createControlWidget();
-    createControlWidgetMini();
+	createControlWidget();
+	createControlWidgetMini();
 	createFloatingControl();
 	createMenus();
 
@@ -85,6 +86,11 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 #endif
 
 	menuBar()->setObjectName("menubar");
+
+#ifdef BUFFERING_ANIMATION
+	connect(core, SIGNAL(buffering()), this, SLOT(displayBuffering()));
+	connect(core, SIGNAL(receivedPlaying()), this, SLOT(displayBuffering()));
+#endif
 
 	retranslateStrings();
 
@@ -510,6 +516,21 @@ void DefaultGui::createStatusBar() {
 	video_info_display->setAlignment(Qt::AlignRight);
 	video_info_display->setFrameShape(QFrame::NoFrame);
 
+#ifdef BUFFERING_ANIMATION
+	qDebug() << "DefaultGui::createStatusBar: supported formats for QMovie:" << QMovie::supportedFormats();
+	buffering_label = new QLabel(statusBar());
+	// Buffering icon from: http://preloaders.net/
+	movie = new QMovie(":/default-theme/buffering.gif");
+	movie->setScaledSize(QSize(16, 16));
+	if (movie->isValid()) {
+		buffering_label->setMovie(movie);
+	} else {
+		qWarning() << "DefaultGui::createStatusBar: movie is not valid";
+	}
+	statusBar()->addPermanentWidget(buffering_label);
+	buffering_label->hide();
+#endif
+
 	statusBar()->setAutoFillBackground(true);
 
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
@@ -527,11 +548,11 @@ void DefaultGui::createStatusBar() {
 	statusBar()->addPermanentWidget( video_info_display );
 	statusBar()->addPermanentWidget( ab_section_display );
 
-    statusBar()->showMessage( tr("Ready") );
+	statusBar()->showMessage( tr("Ready") );
 	statusBar()->addPermanentWidget( frame_display, 0 );
 	frame_display->setText( "0" );
 
-    statusBar()->addPermanentWidget( time_display, 0 );
+	statusBar()->addPermanentWidget( time_display, 0 );
 	time_display->setText(" 00:00:00 / 00:00:00 ");
 
 	time_display->show();
@@ -576,6 +597,13 @@ void DefaultGui::retranslateStrings() {
 void DefaultGui::displayTime(QString text) {
 	time_display->setText( text );
 	time_label_action->setText(text);
+
+#ifdef BUFFERING_ANIMATION
+	if (buffering_label->isVisible()) {
+		movie->stop();
+		buffering_label->hide();
+	}
+#endif
 }
 
 void DefaultGui::displayFrame(int frame) {
@@ -605,6 +633,13 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 		video_info_display->setText(" ");
 	}
 }
+
+#ifdef BUFFERING_ANIMATION
+void DefaultGui::displayBuffering() {
+	buffering_label->show();
+	movie->start();
+}
+#endif
 
 void DefaultGui::updateWidgets() {
 	qDebug("DefaultGui::updateWidgets");
