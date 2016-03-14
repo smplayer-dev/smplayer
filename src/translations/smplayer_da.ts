@@ -6167,7 +6167,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1165"/>
         <source>%1 is the recommended one. %2 is only available on older MPlayer (before version %3)</source>
-        <translation>%1 er den anbefalede udgave. %2 er kun muligt med ældre udgaver af MPlayer (før version %3)</translation>
+        <translation>%1 er den anbefalede udgave. %2 er kun muligt med ældre MPlayer (før version %3)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="375"/>
