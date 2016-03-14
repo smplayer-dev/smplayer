@@ -221,8 +221,10 @@ void InfoReaderMplayer::readLine(QByteArray ba) {
 
 	if (line.startsWith("MPlayer ") || line.startsWith("MPlayer2 ")) {
 		mplayer_svn = MplayerVersion::mplayerVersion(line);
+		#ifdef MPLAYER2_SUPPORT
 		mplayer2_version = MplayerVersion::mplayer2Version();
 		is_mplayer2 = MplayerVersion::isMplayer2();
+		#endif
 	}
 }
 
