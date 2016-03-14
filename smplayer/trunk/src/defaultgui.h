@@ -41,10 +41,6 @@ class MyAction;
 class SeekingButton;
 #endif
 
-#ifdef BUFFERING_ANIMATION
-class QMovie;
-#endif
-
 class DefaultGui : public BaseGuiPlus
 {
 	Q_OBJECT
@@ -90,10 +86,6 @@ protected slots:
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
-#ifdef BUFFERING_ANIMATION
-	virtual void displayBuffering();
-	virtual void watchState(Core::State);
-#endif
 
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
@@ -112,10 +104,6 @@ protected:
 	QLabel * frame_display;
 	QLabel * ab_section_display;
 	QLabel * video_info_display;
-#ifdef BUFFERING_ANIMATION
-	QLabel * buffering_label;
-	QMovie * movie;
-#endif
 
 	EditableToolbar * controlwidget;
 	EditableToolbar * controlwidget_mini;

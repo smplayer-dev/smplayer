@@ -38,6 +38,10 @@
 #include "playlistdock.h"
 #endif
 
+#ifdef BUFFERING_ANIMATION
+#include "statewidget.h"
+#endif
+
 #include <QMenu>
 #include <QSettings>
 #include <QLabel>
@@ -86,12 +90,6 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 #endif
 
 	menuBar()->setObjectName("menubar");
-
-#ifdef BUFFERING_ANIMATION
-	connect(core, SIGNAL(buffering()), this, SLOT(displayBuffering()));
-	connect(core, SIGNAL(receivedPlaying()), this, SLOT(displayBuffering()));
-	connect(core, SIGNAL(stateChanged(Core::State)), this, SLOT(watchState(Core::State)));
-#endif
 
 	retranslateStrings();
 
@@ -518,18 +516,9 @@ void DefaultGui::createStatusBar() {
 	video_info_display->setFrameShape(QFrame::NoFrame);
 
 #ifdef BUFFERING_ANIMATION
-	qDebug() << "DefaultGui::createStatusBar: supported formats for QMovie:" << QMovie::supportedFormats();
-	buffering_label = new QLabel(statusBar());
-	// Buffering icon from: http://preloaders.net/
-	movie = new QMovie(":/default-theme/buffering.gif");
-	movie->setScaledSize(QSize(16, 16));
-	if (movie->isValid()) {
-		buffering_label->setMovie(movie);
-	} else {
-		qWarning() << "DefaultGui::createStatusBar: movie is not valid";
-	}
-	statusBar()->addPermanentWidget(buffering_label);
-	buffering_label->hide();
+	StateWidget * state_widget = new StateWidget(statusBar());
+	connect(core, SIGNAL(stateChanged(Core::State)), state_widget, SLOT(watchState(Core::State)));
+	statusBar()->addPermanentWidget(state_widget);
 #endif
 
 	statusBar()->setAutoFillBackground(true);
@@ -598,13 +587,6 @@ void DefaultGui::retranslateStrings() {
 void DefaultGui::displayTime(QString text) {
 	time_display->setText( text );
 	time_label_action->setText(text);
-
-#ifdef BUFFERING_ANIMATION
-	if (buffering_label->isVisible()) {
-		movie->stop();
-		buffering_label->hide();
-	}
-#endif
 }
 
 void DefaultGui::displayFrame(int frame) {
@@ -634,22 +616,6 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 		video_info_display->setText(" ");
 	}
 }
-
-#ifdef BUFFERING_ANIMATION
-void DefaultGui::displayBuffering() {
-	buffering_label->show();
-	movie->start();
-}
-
-void DefaultGui::watchState(Core::State state) {
-	qDebug() << "DefaultGui::watchState:" << state;
-
-	if (state == Core::Stopped) {
-		movie->stop();
-		buffering_label->hide();
-	}
-}
-#endif
 
 void DefaultGui::updateWidgets() {
 	qDebug("DefaultGui::updateWidgets");

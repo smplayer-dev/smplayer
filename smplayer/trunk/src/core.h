@@ -50,7 +50,7 @@ class Core : public QObject
     Q_OBJECT
     
 public:
-	enum State { Stopped = 0, Playing = 1, Paused = 2 };
+	enum State { Stopped = 0, Playing = 1, Paused = 2, Buffering = 3 };
 
 	Core( MplayerWindow *mpw, QWidget* parent = 0 );
 	~Core();
@@ -476,7 +476,6 @@ protected:
 
 signals:
 	void buffering();
-	void receivedPlaying();
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer
 	void mediaLoaded();
 	void mediaInfoChanged();

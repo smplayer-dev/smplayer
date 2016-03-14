@@ -194,6 +194,7 @@ HEADERS += guiconfig.h \
 	favorites.h \
 	tvlist.h \
 	favoriteeditor.h \
+	statewidget.h \
 	basegui.h \
 	baseguiplus.h \
 	autohidewidget.h \
@@ -291,6 +292,7 @@ SOURCES	+= version.cpp \
 	favorites.cpp \
 	tvlist.cpp \
 	favoriteeditor.cpp \
+	statewidget.cpp \
 	basegui.cpp \
 	baseguiplus.cpp \
 	autohidewidget.cpp \
