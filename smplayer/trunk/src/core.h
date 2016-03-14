@@ -476,6 +476,7 @@ protected:
 
 signals:
 	void buffering();
+	void receivedPlaying();
 	void aboutToStartPlaying(); // Signal emited just before to start mplayer
 	void mediaLoaded();
 	void mediaInfoChanged();
