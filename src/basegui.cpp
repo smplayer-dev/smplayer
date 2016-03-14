@@ -5115,6 +5115,7 @@ void BaseGui::displayState(Core::State state) {
 		case Core::Playing:	statusBar()->showMessage( tr("Playing %1").arg(core->mdat.filename), 2000); break;
 		case Core::Paused:	statusBar()->showMessage( tr("Pause") ); break;
 		case Core::Stopped:	statusBar()->showMessage( tr("Stop") , 2000); break;
+		case Core::Buffering: /* statusBar()->showMessage(tr("Buffering...")); */ break;
 	}
 	if (state == Core::Stopped) setWindowCaption( "SMPlayer" );
 

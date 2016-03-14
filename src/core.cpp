@@ -147,9 +147,6 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	connect( proc, SIGNAL(receivedPlaying()),
 			 this, SLOT(displayPlaying()));
 
-	connect( proc, SIGNAL(receivedPlaying()),
-			 this, SIGNAL(receivedPlaying()));
-
 	connect( proc, SIGNAL(receivedCacheEmptyMessage(QString)),
 			 this, SIGNAL(buffering()));
 
@@ -4287,11 +4284,13 @@ void Core::displayUpdatingFontCache() {
 }
 
 void Core::displayBuffering() {
+	setState(Buffering);
 	emit showMessage(tr("Buffering..."));
 }
 
 void Core::displayPlaying() {
 	qDebug("Core::displayPlaying");
+	setState(Buffering);
 	emit showMessage(tr("Starting..."), 60000);
 }
 

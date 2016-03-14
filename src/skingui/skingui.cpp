@@ -419,6 +419,7 @@ void SkinGui::displayState(Core::State state) {
 		case Core::Playing:		mediaBarPanel->displayMessage( tr("Playing %1").arg(core->mdat.filename)); break;
 		case Core::Paused:		mediaBarPanel->displayMessage( tr("Pause") ); break;
 		case Core::Stopped:		mediaBarPanel->displayMessage( tr("Stop") ); break;
+		case Core::Buffering:	/* mediaBarPanel->displayMessage( tr("Buffering...") ); */ break;
 	}
 }
 
