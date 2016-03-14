@@ -92,6 +92,7 @@ protected slots:
 	virtual void displayVideoInfo(int width, int height, double fps);
 #ifdef BUFFERING_ANIMATION
 	virtual void displayBuffering();
+	virtual void watchState(Core::State);
 #endif
 
 	// Reimplemented:

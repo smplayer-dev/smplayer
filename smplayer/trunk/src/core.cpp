@@ -350,6 +350,7 @@ void Core::changeFileSettingsMethod(QString method) {
 #endif
 
 void Core::setState(State s) {
+	//qDebug() << "Core::setState: old state:" << _state << "new state:" << s;
 	if (s != _state) {
 		_state = s;
 		emit stateChanged(_state);
@@ -1445,6 +1446,8 @@ void Core::processFinished()
 	int exit_code = proc->exitCode();
 	qDebug("Core::processFinished: exit_code: %d", exit_code);
 	if (exit_code != 0) {
+		setState(Stopped);
+		emit stateChanged(Stopped);
 		emit mplayerFinishedWithError(exit_code);
 	}
 }
