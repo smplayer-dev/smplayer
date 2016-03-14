@@ -90,6 +90,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 #ifdef BUFFERING_ANIMATION
 	connect(core, SIGNAL(buffering()), this, SLOT(displayBuffering()));
 	connect(core, SIGNAL(receivedPlaying()), this, SLOT(displayBuffering()));
+	connect(core, SIGNAL(stateChanged(Core::State)), this, SLOT(watchState(Core::State)));
 #endif
 
 	retranslateStrings();
@@ -638,6 +639,15 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 void DefaultGui::displayBuffering() {
 	buffering_label->show();
 	movie->start();
+}
+
+void DefaultGui::watchState(Core::State state) {
+	qDebug() << "DefaultGui::watchState:" << state;
+
+	if (state == Core::Stopped) {
+		movie->stop();
+		buffering_label->hide();
+	}
 }
 #endif
 
