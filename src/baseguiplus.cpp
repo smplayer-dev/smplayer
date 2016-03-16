@@ -63,7 +63,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 	mainwindow_pos = pos();
 
-	tray = new QSystemTrayIcon( Images::icon("logo", 22), this );
+	tray = new QSystemTrayIcon(this);
 
 	tray->setToolTip( "SMPlayer" );
 	connect( tray, SIGNAL(activated(QSystemTrayIcon::ActivationReason)), 
@@ -156,6 +156,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 BaseGuiPlus::~BaseGuiPlus() {
 	saveConfig();
+	tray->hide();
 }
 
 bool BaseGuiPlus::startHidden() {
@@ -205,6 +206,8 @@ void BaseGuiPlus::quit() {
 
 void BaseGuiPlus::retranslateStrings() {
 	BaseGui::retranslateStrings();
+
+	tray->setIcon(Images::icon("logo", 22));
 
 	quitAct->change( Images::icon("exit"), tr("&Quit") );
 	showTrayAct->change( Images::icon("systray"), tr("S&how icon in system tray") );
