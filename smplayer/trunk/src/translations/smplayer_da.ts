@@ -5306,12 +5306,12 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="984"/>
         <source>Multimedia engine</source>
-        <translation>Multimedie motor</translation>
+        <translation>Multimediemotor</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="985"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation>Vælg den multimedie motor du vil bruge, enten MPlayer eller mpv.</translation>
+        <translation>Vælg den multimediemotor du vil bruge, enten MPlayer eller mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
@@ -5502,7 +5502,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>Multimedie &amp;motor:</translation>
+        <translation>Multimedie&amp;motor:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="210"/>
