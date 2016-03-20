@@ -4,47 +4,47 @@ msgstr "Kodeks binari tidak disokong dalam versi ini."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Membersihkan tetapan SMPlayer..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Membersihkan cache konfig fon..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Memeriksa kemaskini youtube-dl..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Gagal memuat turun youtube-dl: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl gagal dipasang. Cuba lagi?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Gagal memasang mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Gagal memuat turun mpv: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv gagal dipasang. Cuba lagi?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Memuat turun mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Memulihkan mpv dari pemasangan terdahulu..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Menyandar mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -161,6 +161,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Anda pasti mahu menetap semula tetapan SMPlayer anda? Tindakan ini tidak "
+"boleh dikembalikan."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -371,12 +373,12 @@ msgstr "Pemasang sudah berjalan."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# abuyop <abuyop@gmail.com>, 2014-2015
+# abuyop <abuyop@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm3000@gmail.com>\n"
+"PO-Revision-Date: 2016-03-11 07:33+0000\n"
+"Last-Translator: abuyop <abuyop@gmail.com>\n"
 "Language-Team: Malay (Malaysia) (http://www.transifex.com/rvm/smplayer/"
 "language/ms_MY/)\n"
 "Language: ms_MY\n"

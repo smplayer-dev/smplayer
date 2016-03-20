@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# antiparvos <marcoslansgarza@gmail.com>, 2014-2015
+# antiparvos <marcoslansgarza@gmail.com>, 2014-2016
 # Miguel Branco <mgl.branco@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2015-01-31 12:52+0000\n"
+"PO-Revision-Date: 2016-02-26 17:02+0000\n"
 "Last-Translator: antiparvos <marcoslansgarza@gmail.com>\n"
 "Language-Team: Galician (http://www.transifex.com/rvm/smplayer/language/gl/)\n"
 "MIME-Version: 1.0\n"
@@ -203,6 +203,12 @@ msgstr "Cambiar os axustes da instalación"
 msgid "Reset my SMPlayer configuration"
 msgstr "Restabelecer a configuración do SMPlayer"
 
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be"
+" reversed."
+msgstr "Confirma o restabelecemento dos axustes do SMPlayer? Esta acción non se pode desfacer."
+
 # Type_Reinstall
 msgid "reinstall"
 msgstr "reinstalar"
@@ -307,36 +313,48 @@ msgid "Restoring SMTube from previous installation..."
 msgstr "Restabelecendo SMTube desde a instalación anterior..."
 
 # Info_MPV_Backup
-msgid "Backing up MPV..."
-msgstr "Facendo copia de seguranza de MPV..."
+msgid "Backing up mpv..."
+msgstr "Facendo copia de seguranza do mpv..."
 
 # Info_MPV_Restore
-msgid "Restoring MPV from previous installation..."
-msgstr "Restabelecendo MPV desde a instalación anterior..."
+msgid "Restoring mpv from previous installation..."
+msgstr "Restabelecendo o mpv desde a instalación anterior..."
 
 # MPV_DL_Msg
-msgid "Downloading MPV..."
-msgstr "Descargando MPV..."
+msgid "Downloading mpv..."
+msgstr "Descargando mpv..."
 
 # MPV_DL_Retry
-msgid "MPV was not successfully installed. Retry?"
-msgstr "Os códecs de MPV non se instalaron correctamente. Desexa tentalo de novo?"
+msgid "mpv was not successfully installed. Retry?"
+msgstr "Os códecs do mpv non se instalaron correctamente. Desexa tentalo de novo?"
 
 # MPV_DL_Failed
-msgid "Failed to download MPV: '$R0'."
-msgstr "A descarga de MPV fallou: «$R0»."
+msgid "Failed to download mpv: '$R0'."
+msgstr "A descarga do mpv fallou: «$R0»."
 
 # MPV_Inst_Failed
-msgid "Failed to install MPV."
-msgstr "Produciuse un fallo ao instalar MPV."
+msgid "Failed to install mpv."
+msgstr "Produciuse un fallo ao instalar o mpv."
 
 # YTDL_DL_Retry
-msgid "YouTube-DL was not successfully installed. Retry?"
-msgstr "Non se instalou correctamente YouTube-DL. Desexa tentalo de novo?"
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr "Non se instalou correctamente youtube-dl. Desexa tentalo de novo?"
 
 # YTDL_DL_Failed
-msgid "Failed to download Youtube-DL: '$R0'."
-msgstr "A descarga de Youtube-DL fallou: «$R0»."
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr "A descarga de youtube-dl fallou: «$R0»."
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "Buscando actualizacións para o youtube-dl..."
+
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
+msgstr "Borrando a caché do fontconfig..."
+
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr "Borrando os axustes do SMPlayer..."
 
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."

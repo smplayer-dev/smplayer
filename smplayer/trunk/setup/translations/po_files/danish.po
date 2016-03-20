@@ -44,7 +44,7 @@ msgstr "Genskaber mpv fra tidligere installation..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Opretter backup af mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -296,7 +296,7 @@ msgstr "SMPlayer (påkrævet)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr "Multimedie motor"
+msgstr "Multimediemotor"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
@@ -375,7 +375,7 @@ msgstr "Installationsprogrammet kører allerede."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-27 16:58+0000\n"
+"PO-Revision-Date: 2016-03-17 15:50+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/rvm/smplayer/language/da/)\n"
 "Language: da\n"
