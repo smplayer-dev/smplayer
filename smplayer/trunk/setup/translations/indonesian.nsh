@@ -11,14 +11,14 @@ ${LangFileString} Installer_Is_Running "Pemasang telah berjalan."
 ${LangFileString} Installer_No_Admin "Anda harus masuk sebagai administrator ketika memasang program."
 ${LangFileString} SMPlayer_Is_Running "Sebuah instansi SMPlayer masih berjalan. Tolong tutup SMPlayer dan coba lagi."
 
-${LangFileString} OS_Not_Supported "Sistem operasi tidak didukung.$\nSMPlayer ${SMPLAYER_VERSION} membutuhkan setidaknya Windows XP dan mungkin tidak bekerja dengan baik pada sistem anda.$\n Apakah anda ingin melanjutkan pemasangan?"
+${LangFileString} OS_Not_Supported "Sistem operasi tidak didukung.$\nSMPlayer ${SMPLAYER_VERSION} membutuhkan setidaknya Windows XP dan mungkin tidak bekerja dengan baik pada sistem Anda.$\n Apakah Anda ingin melanjutkan pemasangan?"
 ${LangFileString} Win64_Required "Sistem operasi Windows 64-bit diperlukan untuk memasang perangkat lunak ini."
 ${LangFileString} Existing_32bitInst "Pemasang SMPlayer 32-bit masih terpasang. Anda harus mencopot SMPlayer 32-bit terlebih dahulu."
 ${LangFileString} Existing_64bitInst "SMPlayer 64-bit masih terpasang. Anda harus mencopot SMPlayer 64-bit terlebih dahulu."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) Wisaya"
-${LangFileString} WelcomePage_Text "Wisaya ini akan memandu anda pada pemasangan $(^NameDA).$\r$\n$\r$\n Disarankan agar anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui berkas program tanpa harus memulai ulang komputer anda.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Wisaya ini akan memandu Anda pada pemasangan $(^NameDA).$\r$\n$\r$\n Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui berkas program tanpa harus memulai ulang komputer Anda.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Pintasan"
@@ -32,7 +32,7 @@ ${LangFileString} Section_DesktopShortcut "Desktop"
 ${LangFileString} Section_DesktopShortcut_Desc "Buat pintasan untuk SMPlayer pada desktop."
 
 ${LangFileString} Section_StartMenu "Start Menu"
-${LangFileString} Section_StartMenu_Desc "Buat jalur masuk untuk SMPlayer pad Start Menu."
+${LangFileString} Section_StartMenu_Desc "Buat sebuah entri Start Menu untuk SMPlayer."
 
 ${LangFileString} Section_MPlayer "MPlayer (dibutuhkan)"
 ${LangFileString} Section_MPlayer_Desc "MPlayer; dibutuhkan untuk pemutaran."
@@ -69,14 +69,14 @@ ${LangFileString} Reinstall_Uninstall "Copot (lepas) pemasang yang ada"
 ${LangFileString} Reinstall_Msg3_1 "Klik Mulai untuk mempersiapkan proses."
 ${LangFileString} Reinstall_Msg3_2 "Klik Berikutnya ketika siap untuk proses."
 ${LangFileString} Reinstall_Msg3_3 "Klik Copot ketika siap untuk diproses."
-${LangFileString} Reinstall_Msg4 "Ubah Pengaturan Pemasangan"
-${LangFileString} Reinstall_Msg5 "Atur Ulang pengaturan SMPlayer saya"
+${LangFileString} Reinstall_Msg4 "Ubah Setelan Pemasangan"
+${LangFileString} Reinstall_Msg5 "Setel ulang konfigurasi SMPlayer saya"
 
 ${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
 
 ${LangFileString} Type_Reinstall "pasang ulang"
-${LangFileString} Type_Downgrade "turunkan tingkatan"
-${LangFileString} Type_Upgrade "naikkan tingkatan"
+${LangFileString} Type_Downgrade "penurunan"
+${LangFileString} Type_Upgrade "peningkatan"
 
 ${LangFileString} StartBtn "Mulai"
 
@@ -87,14 +87,14 @@ ${LangFileString} Codecs_DL_Failed "Gagal mengunduh kodek MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Gagal memasang kodek MPlayer"
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "Pemasangan ini hanya bisa dicopot oleh pengguna dengan ijin administrator."
+${LangFileString} Uninstaller_No_Admin "Pemasangan ini hanya bisa dicopot oleh pengguna dengan izin administrator."
 ${LangFileString} Uninstaller_Aborted "Pencopotan dibatalkan oleh pengguna."
 ${LangFileString} Uninstaller_NotInstalled "Sepertinya tidak terlihat bahwa SMPlayer terinstal didirektori '$INSTDIR'.$\r$\nLanjutkan saja(tidak direkomendasikan)?"
 ${LangFileString} Uninstaller_InvalidDirectory "Pemasangan SMPlayer tidak tersedia."
 ${LangFileString} Uninstaller_64bitOnly "Pemasangan hanya bisa dicopot pada Windows 64-bit."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMplayer adalah aplikasi antarmuka lengkap untuk MPlayer, dari fitur dasar seperti memutar video, DVD, VCD ke fitur tingkat lanjut seperti mendukung penyaringan MPlayer, daftar edl, dan banyak lainnya."
+${LangFileString} Application_Description "SMplayer adalah aplikasi antarmuka lengkap untuk MPlayer, dari fitur dasar seperti memutar video, DVD, VCD ke fitur lanjutan seperti mendukung penyaringan MPlayer, daftar edl, dan banyak lainnya."
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Mencadangkan kodek dari pemasangan sebelumnya..."

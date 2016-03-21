@@ -23,7 +23,7 @@ ${LangFileString} WelcomePage_Text "Installationsprogrammet guider dig gennem in
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Genveje"
 ${LangFileString} MPlayerGroupTitle "MPlayer Komponenter"
-${LangFileString} MPlayerMPVGroupTitle "Multimedie motor"
+${LangFileString} MPlayerMPVGroupTitle "Multimediemotor"
 
 ${LangFileString} Section_SMPlayer "SMPlayer (påkrævet)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, delte biblioteker, og dokumentation."
@@ -107,7 +107,7 @@ ${LangFileString} Info_RollBack "Gendanner ændringer..."
 ${LangFileString} Info_Files_Extract "Udpakker filer..."
 ${LangFileString} Info_SMTube_Backup "Opretter backup af SMTube..."
 ${LangFileString} Info_SMTube_Restore "Gendanner SMTube fra tidligere installation..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Backup "Opretter backup af mpv..."
 ${LangFileString} Info_MPV_Restore "Genskaber mpv fra tidligere installation..."
 
 ; MPV
