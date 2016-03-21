@@ -1,5 +1,31 @@
 Version 16.x:
 
+(2016-03-16)
+ * Update the system tray icon when changing themes.
+
+(2016-03-15)
+ * Possibility to compile without mplayer2 support.
+   (Support for mplayer2 will be removed soon).
+
+(2016-03-14)
+ * Add an animated icon for buffering.
+
+(2016-03-07)
+ * The option to support streaming sites in Preferences -> Network is
+   different now, and allows these values:
+     Disabled: support for video sites is turned off
+     Auto: enables internal support for YouTube and uses mpv + youtube-dl
+           for the rest of the sites
+     YouTube: only the internal support for YouTube will be used
+     mpv + youtube-dl: uses mpv + youtube-dl for all sites
+
+(2016-03-04)
+ * A fix for saving bookmarks.
+ * (Linux) Look for the smtube executable in the system path.
+
+(2016-02-26)
+ * New smplayer.spec (works for Fedora and openSUSE).
+
 (2016-02-20)
  * The option "Move the window when the video area is dragged" in
    Preferences -> Interface has been removed.
