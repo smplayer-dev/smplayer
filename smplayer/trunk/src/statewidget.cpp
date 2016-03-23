@@ -26,7 +26,7 @@ StateWidget::StateWidget(QWidget * parent, Qt::WindowFlags f)
 	qDebug() << "StateWidget::StateWidget: supported formats for QMovie:" << QMovie::supportedFormats();
 
 	movie = new QMovie();
-	movie->setScaledSize(QSize(16, 16));
+	//movie->setScaledSize(QSize(16, 16));
 
 	// Buffering icon from: http://preloaders.net/
 	setAnimation(":/default-theme/buffering.gif");
