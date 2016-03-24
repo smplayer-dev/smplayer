@@ -32,7 +32,7 @@ public:
 	QString getInfo(MediaData md);
 
 protected:
-	QString title(QString text);
+	QString title(QString text, QString icon);
 	QString openPar(QString text);
 	QString closePar();
 	QString openItem();
