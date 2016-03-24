@@ -22,6 +22,8 @@
 #include "discname.h"
 #include "images.h"
 
+//#define INFO_SIMPLE_LAYOUT
+
 
 InfoFile::InfoFile() {
 	row = 0;
@@ -127,12 +129,8 @@ QString InfoFile::getInfo(MediaData md) {
 	// Audio Tracks
 	if (md.audios.numItems() > 0) {
 		s += openPar( tr("Audio Streams") );
-		row++;
-		s += openItem();
-		s += "<td>" + tr("#", "Info for translators: this is a abbreviation for number") + "</td><td>" + 
-              tr("Language") + "</td><td>" + tr("Name") +"</td><td>" +
-              tr("ID", "Info for translators: this is a identification code") + "</td>";
-		s += closeItem();
+		s += addTrackColumns( QStringList() << "#" << tr("Language") << tr("Name") << "ID" );
+
 		for (int n = 0; n < md.audios.numItems(); n++) {
 			row++;
 			s += openItem();
@@ -140,9 +138,7 @@ QString InfoFile::getInfo(MediaData md) {
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("empty")+"&gt;</i>";
 			QString name = md.audios.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("empty")+"&gt;</i>";
-			s += QString("<td>%1</td><td>%2</td><td>%3</td><td>%4</td>")
-                 .arg(n).arg(lang).arg(name)
-                 .arg(md.audios.itemAt(n).ID());
+			s += addTrack(n, lang, name, md.audios.itemAt(n).ID());
 			s += closeItem();
 		}
 		s += closePar();
@@ -151,13 +147,7 @@ QString InfoFile::getInfo(MediaData md) {
 	// Subtitles
 	if (md.subs.numItems() > 0) {
 		s += openPar( tr("Subtitles") );
-		row++;
-		s += openItem();
-		s += "<td>" + tr("#", "Info for translators: this is a abbreviation for number") + "</td><td>" + 
-              tr("Type") + "</td><td>" +
-              tr("Language") + "</td><td>" + tr("Name") +"</td><td>" +
-              tr("ID", "Info for translators: this is a identification code") + "</td>";
-		s += closeItem();
+		s += addTrackColumns( QStringList() << "#" << tr("Type") << tr("Language") << tr("Name") << "ID" );
 		for (int n = 0; n < md.subs.numItems(); n++) {
 			row++;
 			s += openItem();
@@ -171,14 +161,7 @@ QString InfoFile::getInfo(MediaData md) {
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("empty")+"&gt;</i>";
 			QString name = md.subs.itemAt(n).name();
 			if (name.isEmpty()) name = "<i>&lt;"+tr("empty")+"&gt;</i>";
-			/*
-			s += QString("<td>%1</td><td>%2</td><td>%3</td><td>%4</td><td>%5</td>")
-                 .arg(n).arg(t).arg(lang).arg(name)
-                 .arg(md.subs.itemAt(n).ID());
-			*/
-            s += "<td>" + QString::number(n) + "</td><td>" + t + 
-                 "</td><td>" + lang + "</td><td>" + name + 
-                 "</td><td>" + QString::number(md.subs.itemAt(n).ID()) + "</td>";
+			s += addTrack(n, lang, name, md.subs.itemAt(n).ID(), t);
 			s += closeItem();
 		}
 		s += closePar();
@@ -190,6 +173,45 @@ QString InfoFile::getInfo(MediaData md) {
 QString InfoFile::title(QString text) {
 	return "<h1>" + text + "</h1>";
 }
+
+#ifdef INFO_SIMPLE_LAYOUT
+QString InfoFile::openPar(QString text) {
+	return "<h2>" + text + "</h2><ul>";
+}
+
+QString InfoFile::closePar() {
+	return "</ul>";
+}
+
+QString InfoFile::openItem() {
+	return "<li>";
+}
+
+QString InfoFile::closeItem() {
+	return "</li>";
+}
+
+QString InfoFile::addItem( QString tag, QString value ) {
+	return openItem() + QString("<b>%1</b>: %2").arg(tag).arg(value) + closeItem();
+}
+
+QString InfoFile::addTrackColumns(QStringList /*l*/) {
+	return "";
+}
+
+QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString type) {
+	QString s = "<b>" + tr("Track %1").arg(n) + "</b>";
+	s += "<ul>";
+	s += "<li>" + tr("Language: %1").arg(lang) + "</li>";
+	s += "<li>" + tr("Name: %1").arg(name) + "</li>";
+	s += "<li>" + tr("ID: %1").arg(ID) + "</li>";
+	if (!type.isEmpty()) {
+		s += "<li>" + tr("Type: %1").arg(type) + "</li>";
+	}
+	s += "</ul>";
+	return s;
+}
+#else
 
 QString InfoFile::openPar(QString text) {
 	return "<h2>" + text + "</h2>"
@@ -212,6 +234,14 @@ QString InfoFile::closeItem() {
 	return "</tr>";
 }
 
+QString InfoFile::addTrackColumns(QStringList l) {
+	row = 0;
+	QString s = openItem();
+	foreach(QString i, l) { s += "<td>" + i + "</td>"; }
+	s += closeItem();
+	return s;
+}
+
 QString InfoFile::addItem( QString tag, QString value ) {
 	row++;
 	return openItem() + 
@@ -220,6 +250,13 @@ QString InfoFile::addItem( QString tag, QString value ) {
            closeItem();
 }
 
+QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString type) {
+	QString s = "<td>" + QString::number(n) + "</td>";
+	if (!type.isEmpty()) s += "<td>" + type + "</td>";
+	s += QString("<td>%1</td><td>%2</td><td>%3</td>").arg(lang).arg(name).arg(ID);
+	return s;
+}
+#endif
 
 inline QString InfoFile::tr( const char * sourceText, const char * comment, int n )  {
 #if QT_VERSION >= 0x050000
