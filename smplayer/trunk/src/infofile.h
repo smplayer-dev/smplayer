@@ -38,7 +38,10 @@ protected:
 	QString openItem();
 	QString closeItem();
 
+	QString addTrackColumns(QStringList l);
+
 	QString addItem( QString tag, QString value );
+	QString addTrack(int n, QString lang, QString name, int ID, QString type = "");
 
 	int row;
 
