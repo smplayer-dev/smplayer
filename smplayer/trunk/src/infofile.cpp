@@ -17,10 +17,12 @@
 */
 
 #include "infofile.h"
-#include <QFileInfo>
-#include <QCoreApplication>
 #include "discname.h"
 #include "images.h"
+
+#include <QFileInfo>
+#include <QCoreApplication>
+#include <QFile>
 #include <QDebug>
 
 InfoFile::InfoFile() {
@@ -228,7 +230,7 @@ QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString ty
 	return s;
 }
 
-QString InfoFile::style() {
+QString InfoFile::defaultStyle() {
 	return
 		"ul { margin: 0px; }"
 		//"body { background-color: gray; }"
@@ -286,10 +288,24 @@ QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString ty
 	return s;
 }
 
-QString InfoFile::style() {
+QString InfoFile::defaultStyle() {
 	return "";
 }
 #endif
+
+QString InfoFile::style() {
+	QString s = defaultStyle();
+
+	QString stylesheet_file = Images::file("infofile.css");
+	qDebug() << "InfoFile::style: stylesheet_file:" << stylesheet_file;
+
+	QFile file(stylesheet_file);
+	if (file.exists() && file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+		s = file.readAll();
+	}
+
+	return s;
+}
 
 inline QString InfoFile::tr( const char * sourceText, const char * comment, int n )  {
 #if QT_VERSION >= 0x050000
