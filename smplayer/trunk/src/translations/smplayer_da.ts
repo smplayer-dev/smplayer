@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="da">
 <context>
     <name>About</name>
     <message>
@@ -596,7 +598,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1717"/>
         <source>&amp;Screenshot</source>
-        <translation>&amp;Skærmbillede</translation>
+        <translation>Skærm&amp;billede</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1980"/>
@@ -652,7 +654,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;Stereo tilstand</translation>
+        <translation>S&amp;tereotilstand</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -672,12 +674,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1757"/>
         <source>&amp;Delay -</source>
-        <translation>&amp;Forsinkelse -</translation>
+        <translation>Forsinke&amp;lse -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1758"/>
         <source>D&amp;elay +</source>
-        <translation>F&amp;orsinkelse +</translation>
+        <translation>Forsinkels&amp;e +</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2067"/>
@@ -752,7 +754,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
         <source>About &amp;SMPlayer</source>
-        <translation>Om &amp;SMPlayer</translation>
+        <translation>&amp;Om SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3483"/>
@@ -843,17 +845,16 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Desværre kan denne video ikke afspilles.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5115"/>
         <source>Playing %1</source>
-        <translation>Afspiller %1</translation>
+        <translation type="obsolete">Afspiller %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5116"/>
+        <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5117"/>
+        <location filename="../basegui.cpp" line="5119"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1276,49 +1277,49 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Problemer med YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5732"/>
-        <location filename="../basegui.cpp" line="5752"/>
+        <location filename="../basegui.cpp" line="5736"/>
+        <location filename="../basegui.cpp" line="5756"/>
         <source>%1 Error</source>
         <translation>%1 Fejl</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5733"/>
+        <location filename="../basegui.cpp" line="5737"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 er afsluttet uventet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5754"/>
+        <location filename="../basegui.cpp" line="5758"/>
         <source>%1 failed to start.</source>
         <translation>%1 kunne ikke starte.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5755"/>
+        <location filename="../basegui.cpp" line="5759"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Tjek venligst stien %1 i indstillinger.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5757"/>
+        <location filename="../basegui.cpp" line="5761"/>
         <source>%1 has crashed.</source>
         <translation>%1 er holdt op med at virke.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5839"/>
+        <location filename="../basegui.cpp" line="5843"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube-browseren er ikke installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5840"/>
-        <location filename="../basegui.cpp" line="5852"/>
+        <location filename="../basegui.cpp" line="5844"/>
+        <location filename="../basegui.cpp" line="5856"/>
         <source>Visit %1 to get it.</source>
         <translation>Besøg %1 for at hente den.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5850"/>
+        <location filename="../basegui.cpp" line="5854"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube-browseren kunne ikke køre.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5851"/>
+        <location filename="../basegui.cpp" line="5855"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Sørg for det er korrekt installeret.</translation>
     </message>
@@ -1381,7 +1382,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Load external file...</source>
-        <translation>&amp;Indlæs ekstern fil...</translation>
+        <translation>Indlæs &amp;ekstern fil...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2012"/>
@@ -1446,7 +1447,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;OSS</translation>
+        <translation>O&amp;SS</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
@@ -1474,19 +1475,19 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Serveren returnerede &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5734"/>
+        <location filename="../basegui.cpp" line="5738"/>
         <source>Exit code: %1</source>
         <translation>Afslutningskode: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5758"/>
+        <location filename="../basegui.cpp" line="5762"/>
         <source>See the log for more info.</source>
         <translation>Se loggen for mere info.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1977"/>
         <source>&amp;Rotate</source>
-        <translation>&amp;Roter</translation>
+        <translation>R&amp;otér</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2022"/>
@@ -1496,22 +1497,22 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2023"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
-        <translation>&amp;Drej 90 grader med uret og vend</translation>
+        <translation>&amp;Rotér 90 grader med uret og vend</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2024"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
-        <translation>Drej 90 grader &amp;med uret</translation>
+        <translation>Rotér 90 grader &amp;med uret</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2025"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
-        <translation>Drej 90 grader mod &amp;uret</translation>
+        <translation>Rotér 90 grader mod &amp;uret</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2026"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
-        <translation>Drej 90 grader mod uret og &amp;vend</translation>
+        <translation>Rotér 90 grader mod uret og &amp;vend</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1700"/>
@@ -1581,7 +1582,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Mirr&amp;or image</source>
-        <translation>Spe&amp;jlbillede</translation>
+        <translation>S&amp;pejlvend billede</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
@@ -1745,7 +1746,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Øverst til/fra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5310"/>
+        <location filename="../basegui.cpp" line="5314"/>
         <source>Jump to %1</source>
         <translation>Gå til %1</translation>
     </message>
@@ -1813,7 +1814,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1965"/>
         <source>Zoo&amp;m</source>
-        <translation>Zoo&amp;m</translation>
+        <translation>&amp;Zoom</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1896"/>
@@ -1863,38 +1864,38 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
         <source>Check for &amp;updates</source>
-        <translation>&amp;Søg efter opdateringer</translation>
+        <translation>Søg &amp;efter opdateringer</translation>
     </message>
 </context>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="189"/>
+        <location filename="../baseguiplus.cpp" line="190"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer kører stadig</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="210"/>
+        <location filename="../baseguiplus.cpp" line="213"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>&amp;Vis ikon på proceslinje</translation>
+        <translation>Vis ikon på &amp;proceslinje</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="221"/>
+        <location filename="../baseguiplus.cpp" line="224"/>
         <source>&amp;Hide</source>
         <translation>&amp;Skjul</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="223"/>
+        <location filename="../baseguiplus.cpp" line="226"/>
         <source>&amp;Restore</source>
         <translation>&amp;Genskab</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="209"/>
+        <location filename="../baseguiplus.cpp" line="212"/>
         <source>&amp;Quit</source>
         <translation>&amp;Afslut</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="215"/>
+        <location filename="../baseguiplus.cpp" line="218"/>
         <source>Playlist</source>
         <translation>Spilleliste</translation>
     </message>
@@ -1974,153 +1975,152 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2978"/>
+        <location filename="../core.cpp" line="2988"/>
         <source>Brightness: %1</source>
         <translation>Lysstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2994"/>
+        <location filename="../core.cpp" line="3004"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3009"/>
+        <location filename="../core.cpp" line="3019"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3024"/>
+        <location filename="../core.cpp" line="3034"/>
         <source>Hue: %1</source>
         <translation>Farvetone: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3039"/>
+        <location filename="../core.cpp" line="3049"/>
         <source>Saturation: %1</source>
         <translation>Mætning: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3182"/>
+        <location filename="../core.cpp" line="3192"/>
         <source>Volume: %1</source>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4056"/>
+        <location filename="../core.cpp" line="4066"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4284"/>
         <source>Buffering...</source>
-        <translation>Gemmer i buffer...</translation>
+        <translation type="obsolete">Gemmer i buffer...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
-        <location filename="../core.cpp" line="3321"/>
+        <location filename="../core.cpp" line="3320"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
         <translation>Skalér skrifttype: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3897"/>
+        <location filename="../core.cpp" line="3907"/>
         <source>Aspect ratio: %1</source>
         <translation>Højde-bredde-forhold: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4280"/>
+        <location filename="../core.cpp" line="4292"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Opdaterer skrifttype-cache. Dette kan tage nogle sekunder...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3235"/>
+        <location filename="../core.cpp" line="3245"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Forsink undertekst: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3253"/>
+        <location filename="../core.cpp" line="3263"/>
         <source>Audio delay: %1 ms</source>
         <translation>Forsink lyd: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3093"/>
+        <location filename="../core.cpp" line="3103"/>
         <source>Speed: %1</source>
         <translation>Hastighed: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="561"/>
+        <location filename="../core.cpp" line="562"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Kunne ikke hente YouTube siden</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="565"/>
+        <location filename="../core.cpp" line="566"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Kunne ikke finde videoens URL</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3398"/>
+        <location filename="../core.cpp" line="3408"/>
         <source>Subtitles on</source>
         <translation>Undertekster til</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3400"/>
+        <location filename="../core.cpp" line="3410"/>
         <source>Subtitles off</source>
         <translation>Undertekster fra</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3945"/>
+        <location filename="../core.cpp" line="3955"/>
         <source>Mouse wheel seeks now</source>
         <translation>Musehjulet søger nu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3948"/>
+        <location filename="../core.cpp" line="3958"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Musehjulet ændrer nu lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3951"/>
+        <location filename="../core.cpp" line="3961"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Musehjulet ændrer nu zoom-niveau</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3954"/>
+        <location filename="../core.cpp" line="3964"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Musehjulet ændrer nu hastighed</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4258"/>
+        <location filename="../core.cpp" line="4268"/>
         <source>Screenshot saved as %1</source>
         <translation>Skærmbillede gemt som %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4289"/>
+        <location filename="../core.cpp" line="4303"/>
         <source>Starting...</source>
         <translation>Starter...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1405"/>
+        <location filename="../core.cpp" line="1406"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Skærmbilledet blev IKKE taget, mappe er ikke sat op</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1418"/>
+        <location filename="../core.cpp" line="1419"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Skærmbillederne blev IKKE taget, mappe er ikke sat op</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2645"/>
+        <location filename="../core.cpp" line="2655"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot;-markør sat til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2662"/>
+        <location filename="../core.cpp" line="2672"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot;-markør sat til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2677"/>
+        <location filename="../core.cpp" line="2687"/>
         <source>A-B markers cleared</source>
         <translation>A-B markører ryddet</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="557"/>
+        <location filename="../core.cpp" line="558"/>
         <source>Connecting to %1</source>
         <translation>Forbinder til %1</translation>
     </message>
@@ -2128,82 +2128,82 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="561"/>
+        <location filename="../defaultgui.cpp" line="572"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="562"/>
+        <location filename="../defaultgui.cpp" line="573"/>
         <source>Subtitle</source>
         <translation>Undertekst</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="555"/>
+        <location filename="../defaultgui.cpp" line="566"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hovedværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="558"/>
+        <location filename="../defaultgui.cpp" line="569"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Sprogværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="549"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Værktøjslinjer</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Ready</source>
         <translation>Klar</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="589"/>
+        <location filename="../defaultgui.cpp" line="604"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="593"/>
+        <location filename="../defaultgui.cpp" line="608"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="552"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>Status&amp;bar</source>
         <translation>Status&amp;linje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="575"/>
         <source>&amp;Video info</source>
         <translation>&amp;Videoinfo</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="565"/>
+        <location filename="../defaultgui.cpp" line="576"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Billedtæller</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="568"/>
+        <location filename="../defaultgui.cpp" line="579"/>
         <source>Edit main &amp;toolbar</source>
         <translation>&amp;Redigér hovedværktøjslinje</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="569"/>
+        <location filename="../defaultgui.cpp" line="580"/>
         <source>Edit &amp;control bar</source>
         <translation>Redigér &amp;kommandopanel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="570"/>
+        <location filename="../defaultgui.cpp" line="581"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Redigér m&amp;inikontrolpanel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="571"/>
+        <location filename="../defaultgui.cpp" line="582"/>
         <source>Edit &amp;floating control</source>
         <translation>Redigér &amp;flydende panel</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="603"/>
+        <location filename="../defaultgui.cpp" line="618"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2687,7 +2687,10 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
+        <translation>
+            <numerusform>%n undertekst udpakket</numerusform>
+            <numerusform>%n undertekster udpakket</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2785,7 +2788,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -2826,174 +2829,207 @@ Tjek rettighederne for den mappe.</translation>
 <context>
     <name>InfoFile</name>
     <message>
-        <location filename="../infofile.cpp" line="71"/>
+        <location filename="../infofile.cpp" line="75"/>
         <source>General</source>
         <translation>Generelt</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="79"/>
         <source>Size</source>
         <translation>Størrelse</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="79"/>
         <source>%1 KB (%2 MB)</source>
         <translation>%1 KB (%2 MB)</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="79"/>
+        <location filename="../infofile.cpp" line="83"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="81"/>
+        <location filename="../infofile.cpp" line="85"/>
         <source>Length</source>
         <translation>Varighed</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="82"/>
+        <location filename="../infofile.cpp" line="86"/>
         <source>Demuxer</source>
         <translation>Demuxer</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="87"/>
-        <location filename="../infofile.cpp" line="133"/>
-        <location filename="../infofile.cpp" line="158"/>
+        <location filename="../infofile.cpp" line="91"/>
+        <location filename="../infofile.cpp" line="134"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>Name</source>
         <translation>Navn</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="88"/>
+        <location filename="../infofile.cpp" line="92"/>
         <source>Artist</source>
         <translation>Kunstner</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="89"/>
+        <location filename="../infofile.cpp" line="93"/>
         <source>Author</source>
         <translation>Forfatter</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="90"/>
+        <location filename="../infofile.cpp" line="94"/>
         <source>Album</source>
         <translation>Album</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="91"/>
+        <location filename="../infofile.cpp" line="95"/>
         <source>Genre</source>
         <translation>Genre</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="92"/>
+        <location filename="../infofile.cpp" line="96"/>
         <source>Date</source>
         <translation>Dato</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="93"/>
+        <location filename="../infofile.cpp" line="97"/>
         <source>Track</source>
         <translation>Spor</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="94"/>
+        <location filename="../infofile.cpp" line="98"/>
         <source>Copyright</source>
         <translation>Ophavsret</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="95"/>
+        <location filename="../infofile.cpp" line="99"/>
         <source>Comment</source>
         <translation>Kommentar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="96"/>
+        <location filename="../infofile.cpp" line="100"/>
         <source>Software</source>
         <translation>Software</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="101"/>
+        <location filename="../infofile.cpp" line="105"/>
         <source>Clip info</source>
         <translation>Info om klip</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="108"/>
+        <location filename="../infofile.cpp" line="112"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="109"/>
+        <location filename="../infofile.cpp" line="113"/>
         <source>Resolution</source>
         <translation>Opløsning</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="110"/>
+        <location filename="../infofile.cpp" line="114"/>
         <source>Aspect ratio</source>
         <translation>Højde-bredde-forhold</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="111"/>
-        <location filename="../infofile.cpp" line="120"/>
+        <location filename="../infofile.cpp" line="115"/>
+        <location filename="../infofile.cpp" line="124"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="112"/>
-        <location filename="../infofile.cpp" line="121"/>
+        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="125"/>
         <source>Bitrate</source>
         <translation>Bithastighed</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="112"/>
-        <location filename="../infofile.cpp" line="121"/>
+        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="125"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="113"/>
+        <location filename="../infofile.cpp" line="117"/>
         <source>Frames per second</source>
         <translation>Billeder pr. sekund</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="114"/>
-        <location filename="../infofile.cpp" line="124"/>
+        <location filename="../infofile.cpp" line="118"/>
+        <location filename="../infofile.cpp" line="128"/>
         <source>Selected codec</source>
         <translation>Valgt codec</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="119"/>
+        <location filename="../infofile.cpp" line="123"/>
         <source>Initial Audio Stream</source>
-        <translation>Indledende lydstream</translation>
+        <translation>Første lydstream</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="122"/>
+        <location filename="../infofile.cpp" line="126"/>
         <source>Rate</source>
         <translation>Hastighed</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="122"/>
+        <location filename="../infofile.cpp" line="126"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="123"/>
+        <location filename="../infofile.cpp" line="127"/>
         <source>Channels</source>
         <translation>Kanaler</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="129"/>
+        <location filename="../infofile.cpp" line="133"/>
         <source>Audio Streams</source>
         <translation>Lydstream</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="133"/>
-        <location filename="../infofile.cpp" line="158"/>
+        <location filename="../infofile.cpp" line="134"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>Language</source>
         <translation>Sprog</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="140"/>
         <location filename="../infofile.cpp" line="142"/>
-        <location filename="../infofile.cpp" line="171"/>
-        <location filename="../infofile.cpp" line="173"/>
+        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="167"/>
+        <location filename="../infofile.cpp" line="169"/>
+        <source>undefined</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="212"/>
+        <source>Track %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="215"/>
+        <location filename="../infofile.cpp" line="223"/>
+        <source>Language: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="216"/>
+        <location filename="../infofile.cpp" line="224"/>
+        <source>Name: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="217"/>
+        <location filename="../infofile.cpp" line="225"/>
+        <source>ID: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="219"/>
+        <location filename="../infofile.cpp" line="227"/>
+        <source>Type: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>empty</source>
-        <translation>tom</translation>
+        <translation type="obsolete">tom</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -3001,36 +3037,32 @@ Tjek rettighederne for den mappe.</translation>
         <translation>Undertekster</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="157"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="159"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation>ID</translation>
+        <translation type="obsolete">ID</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="156"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation>#</translation>
+        <translation type="obsolete">#</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="97"/>
+        <location filename="../infofile.cpp" line="101"/>
         <source>Stream title</source>
         <translation>Streamtitel</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="98"/>
+        <location filename="../infofile.cpp" line="102"/>
         <source>Stream URL</source>
         <translation>Stream-URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="74"/>
+        <location filename="../infofile.cpp" line="78"/>
         <source>File</source>
         <translation>Fil</translation>
     </message>
@@ -7180,7 +7212,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefinterface.cpp" line="746"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="753"/>
@@ -8905,13 +8937,19 @@ Eksempel: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
+        <translation>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekunder</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minutter</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9148,17 +9186,21 @@ Eksempel: extrastereo,karaoke</translation>
         <translation>&amp;Rulletitel</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="419"/>
-        <source>Playing %1</source>
-        <translation>Afspiller %1</translation>
+        <location filename="../skingui/skingui.cpp" line="420"/>
+        <source>Playing</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="420"/>
+        <source>Playing %1</source>
+        <translation type="obsolete">Afspiller %1</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="421"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>

@@ -845,17 +845,16 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Denne videoen kan diverre ikkje spelast av.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5115"/>
         <source>Playing %1</source>
-        <translation>Spelar %1</translation>
+        <translation type="obsolete">Spelar %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5116"/>
+        <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5117"/>
+        <location filename="../basegui.cpp" line="5119"/>
         <source>Stop</source>
         <translation>Stopp</translation>
     </message>
@@ -1204,12 +1203,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Prim&amp;ærspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2072"/>
         <source>Secondary trac&amp;k</source>
-        <translation>Sekundært spo&amp;r</translation>
+        <translation>Sekundærspo&amp;r</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2079"/>
@@ -1219,27 +1218,27 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2093"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bokmerke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2103"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Legg til eit nytt bokmerke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2104"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Rediger bokmerke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2105"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Førre bokmerke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2106"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Neste bokmerke</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4861"/>
@@ -1278,51 +1277,51 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Problem med Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5732"/>
-        <location filename="../basegui.cpp" line="5752"/>
+        <location filename="../basegui.cpp" line="5736"/>
+        <location filename="../basegui.cpp" line="5756"/>
         <source>%1 Error</source>
         <translation>%1 feil</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5733"/>
+        <location filename="../basegui.cpp" line="5737"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 avslutta uventa.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5754"/>
+        <location filename="../basegui.cpp" line="5758"/>
         <source>%1 failed to start.</source>
         <translation>%1 klarte ikkje å starta.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5755"/>
+        <location filename="../basegui.cpp" line="5759"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Ver snill og kontroller %1-bana i Innstillingar.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5757"/>
+        <location filename="../basegui.cpp" line="5761"/>
         <source>%1 has crashed.</source>
         <translation>%1 krasja.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5839"/>
+        <location filename="../basegui.cpp" line="5843"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube-lesaren er ikkje installert.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5840"/>
-        <location filename="../basegui.cpp" line="5852"/>
+        <location filename="../basegui.cpp" line="5844"/>
+        <location filename="../basegui.cpp" line="5856"/>
         <source>Visit %1 to get it.</source>
         <translation>Gå til %1 for å få det.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5850"/>
+        <location filename="../basegui.cpp" line="5854"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Klarte ikkje å køyra YouTube-lesaren.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5851"/>
+        <location filename="../basegui.cpp" line="5855"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Forsikra deg om at han er installert rett.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4878"/>
@@ -1476,12 +1475,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Tenaren returnerte &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5734"/>
+        <location filename="../basegui.cpp" line="5738"/>
         <source>Exit code: %1</source>
         <translation>Feilmelding: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5758"/>
+        <location filename="../basegui.cpp" line="5762"/>
         <source>See the log for more info.</source>
         <translation>Sjå loggen for meir informasjon.</translation>
     </message>
@@ -1747,7 +1746,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Av/på - ligg øvst</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5310"/>
+        <location filename="../basegui.cpp" line="5314"/>
         <source>Jump to %1</source>
         <translation>Hopp til %1</translation>
     </message>
@@ -1871,32 +1870,32 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="189"/>
+        <location filename="../baseguiplus.cpp" line="190"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer køyrer framleis</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="210"/>
+        <location filename="../baseguiplus.cpp" line="213"/>
         <source>S&amp;how icon in system tray</source>
         <translation>S&amp;yn ikon i systemtrauet</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="221"/>
+        <location filename="../baseguiplus.cpp" line="224"/>
         <source>&amp;Hide</source>
         <translation>&amp;Gøym</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="223"/>
+        <location filename="../baseguiplus.cpp" line="226"/>
         <source>&amp;Restore</source>
         <translation>%Atterreisa</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="209"/>
+        <location filename="../baseguiplus.cpp" line="212"/>
         <source>&amp;Quit</source>
         <translation>&amp;Avslutt</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="215"/>
+        <location filename="../baseguiplus.cpp" line="218"/>
         <source>Playlist</source>
         <translation>Speleliste</translation>
     </message>
@@ -1906,27 +1905,27 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Rediger bokmerke</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Nytt bokmerke</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Slett bokmerke</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Tid</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Namn</translation>
+        <translation>Namn</translation>
     </message>
 </context>
 <context>
@@ -1976,153 +1975,152 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2978"/>
+        <location filename="../core.cpp" line="2988"/>
         <source>Brightness: %1</source>
         <translation>Ljosstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2994"/>
+        <location filename="../core.cpp" line="3004"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3009"/>
+        <location filename="../core.cpp" line="3019"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3024"/>
+        <location filename="../core.cpp" line="3034"/>
         <source>Hue: %1</source>
         <translation>Fargetone: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3039"/>
+        <location filename="../core.cpp" line="3049"/>
         <source>Saturation: %1</source>
         <translation>Metting: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3182"/>
+        <location filename="../core.cpp" line="3192"/>
         <source>Volume: %1</source>
         <translation>Lydstyrke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4056"/>
+        <location filename="../core.cpp" line="4066"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4284"/>
         <source>Buffering...</source>
-        <translation>Mellomlagrar </translation>
+        <translation type="obsolete">Mellomlagrar </translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
-        <location filename="../core.cpp" line="3321"/>
+        <location filename="../core.cpp" line="3320"/>
+        <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
         <translation>Skrift storleik: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3897"/>
+        <location filename="../core.cpp" line="3907"/>
         <source>Aspect ratio: %1</source>
         <translation>Bildeformat: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4280"/>
+        <location filename="../core.cpp" line="4292"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Oppdaterer mellomlager for skrift. Dette vil ta nokre sekund...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3235"/>
+        <location filename="../core.cpp" line="3245"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Undertekst forseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3253"/>
+        <location filename="../core.cpp" line="3263"/>
         <source>Audio delay: %1 ms</source>
         <translation>Lydforseinking: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3093"/>
+        <location filename="../core.cpp" line="3103"/>
         <source>Speed: %1</source>
         <translation>Fart: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="561"/>
+        <location filename="../core.cpp" line="562"/>
         <source>Unable to retrieve the Youtube page</source>
         <translation>Ikkje mogleg å henta YouTube-sida</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="565"/>
+        <location filename="../core.cpp" line="566"/>
         <source>Unable to locate the URL of the video</source>
         <translation>Klarte ikkje å finna URL til videoen</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3398"/>
+        <location filename="../core.cpp" line="3408"/>
         <source>Subtitles on</source>
         <translation>Undertekstar på</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3400"/>
+        <location filename="../core.cpp" line="3410"/>
         <source>Subtitles off</source>
         <translation>Undertekstar av</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3945"/>
+        <location filename="../core.cpp" line="3955"/>
         <source>Mouse wheel seeks now</source>
         <translation>Museskroll - navigering no</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3948"/>
+        <location filename="../core.cpp" line="3958"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Museskroll - endring av lydstyrke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3951"/>
+        <location filename="../core.cpp" line="3961"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Museskroll - endring av zoom-nivå</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3954"/>
+        <location filename="../core.cpp" line="3964"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Museskroll - endring av tempo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4258"/>
+        <location filename="../core.cpp" line="4268"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Skjermbilete lagra som %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4289"/>
+        <location filename="../core.cpp" line="4303"/>
         <source>Starting...</source>
         <translation>Startar …</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1405"/>
+        <location filename="../core.cpp" line="1406"/>
         <source>Screenshot NOT taken, folder not configured</source>
         <translation>Skjermbilete ikkje teke, mappe ikkje konfigurert.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="1418"/>
+        <location filename="../core.cpp" line="1419"/>
         <source>Screenshots NOT taken, folder not configured</source>
         <translation>Skjermbileta ikkje tekne, plassering ikkje konfigurert.</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2645"/>
+        <location filename="../core.cpp" line="2655"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>‹‹A›› punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2662"/>
+        <location filename="../core.cpp" line="2672"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>‹‹B›› punkt sett til %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2677"/>
+        <location filename="../core.cpp" line="2687"/>
         <source>A-B markers cleared</source>
         <translation>A-B punkta fjerna</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="557"/>
+        <location filename="../core.cpp" line="558"/>
         <source>Connecting to %1</source>
         <translation>Koplar til %1</translation>
     </message>
@@ -2130,82 +2128,82 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="561"/>
+        <location filename="../defaultgui.cpp" line="572"/>
         <source>Audio</source>
         <translation>Lyd</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="562"/>
+        <location filename="../defaultgui.cpp" line="573"/>
         <source>Subtitle</source>
         <translation>Undertekstar</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="555"/>
+        <location filename="../defaultgui.cpp" line="566"/>
         <source>&amp;Main toolbar</source>
         <translation>&amp;Hovudverktylina </translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="558"/>
+        <location filename="../defaultgui.cpp" line="569"/>
         <source>&amp;Language toolbar</source>
         <translation>&amp;Verktylina for språk</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="549"/>
+        <location filename="../defaultgui.cpp" line="560"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Verktyliner</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="530"/>
+        <location filename="../defaultgui.cpp" line="541"/>
         <source>Ready</source>
         <translation>Klar</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="589"/>
+        <location filename="../defaultgui.cpp" line="604"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="593"/>
+        <location filename="../defaultgui.cpp" line="608"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="552"/>
+        <location filename="../defaultgui.cpp" line="563"/>
         <source>Status&amp;bar</source>
         <translation>Status&amp;lina</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="564"/>
+        <location filename="../defaultgui.cpp" line="575"/>
         <source>&amp;Video info</source>
         <translation>&amp;Videoinfo</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="565"/>
+        <location filename="../defaultgui.cpp" line="576"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Bileteteljar</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="568"/>
+        <location filename="../defaultgui.cpp" line="579"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Rediger hovud-&amp;verktylina</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="569"/>
+        <location filename="../defaultgui.cpp" line="580"/>
         <source>Edit &amp;control bar</source>
         <translation>Redigering &amp;kontrollina</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="570"/>
+        <location filename="../defaultgui.cpp" line="581"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Rediger m&amp;ini-kontrollina</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="571"/>
+        <location filename="../defaultgui.cpp" line="582"/>
         <source>Edit &amp;floating control</source>
         <translation>Rediger &amp;flytande kontroll</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="603"/>
+        <location filename="../defaultgui.cpp" line="618"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2224,7 +2222,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../errordialog.cpp" line="30"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Ojsann, noko gjekk gale</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="57"/>
@@ -2495,7 +2493,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="86"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;al for %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="87"/>
@@ -2828,174 +2826,207 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
 <context>
     <name>InfoFile</name>
     <message>
-        <location filename="../infofile.cpp" line="71"/>
+        <location filename="../infofile.cpp" line="75"/>
         <source>General</source>
         <translation>Generelt</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="79"/>
         <source>Size</source>
         <translation>Storleik</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="79"/>
         <source>%1 KB (%2 MB)</source>
         <translation>%1 kB (%2 MB)</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="79"/>
+        <location filename="../infofile.cpp" line="83"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="81"/>
+        <location filename="../infofile.cpp" line="85"/>
         <source>Length</source>
         <translation>Lengde</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="82"/>
+        <location filename="../infofile.cpp" line="86"/>
         <source>Demuxer</source>
         <translation>Splittar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="87"/>
-        <location filename="../infofile.cpp" line="133"/>
-        <location filename="../infofile.cpp" line="158"/>
+        <location filename="../infofile.cpp" line="91"/>
+        <location filename="../infofile.cpp" line="134"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>Name</source>
         <translation>Namn</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="88"/>
+        <location filename="../infofile.cpp" line="92"/>
         <source>Artist</source>
         <translation>Artist</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="89"/>
+        <location filename="../infofile.cpp" line="93"/>
         <source>Author</source>
         <translation>Forfattar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="90"/>
+        <location filename="../infofile.cpp" line="94"/>
         <source>Album</source>
         <translation>Album</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="91"/>
+        <location filename="../infofile.cpp" line="95"/>
         <source>Genre</source>
         <translation>Sjanger</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="92"/>
+        <location filename="../infofile.cpp" line="96"/>
         <source>Date</source>
         <translation>Dato</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="93"/>
+        <location filename="../infofile.cpp" line="97"/>
         <source>Track</source>
         <translation>Spor</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="94"/>
+        <location filename="../infofile.cpp" line="98"/>
         <source>Copyright</source>
         <translation>Opphavsrett</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="95"/>
+        <location filename="../infofile.cpp" line="99"/>
         <source>Comment</source>
         <translation>Kommentar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="96"/>
+        <location filename="../infofile.cpp" line="100"/>
         <source>Software</source>
         <translation>Programvare</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="101"/>
+        <location filename="../infofile.cpp" line="105"/>
         <source>Clip info</source>
         <translation>Klippinfo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="108"/>
+        <location filename="../infofile.cpp" line="112"/>
         <source>Video</source>
         <translation>Video</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="109"/>
+        <location filename="../infofile.cpp" line="113"/>
         <source>Resolution</source>
         <translation>Oppløysing</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="110"/>
+        <location filename="../infofile.cpp" line="114"/>
         <source>Aspect ratio</source>
         <translation>Bildeformat</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="111"/>
-        <location filename="../infofile.cpp" line="120"/>
+        <location filename="../infofile.cpp" line="115"/>
+        <location filename="../infofile.cpp" line="124"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="112"/>
-        <location filename="../infofile.cpp" line="121"/>
+        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="125"/>
         <source>Bitrate</source>
         <translation>Bitfart</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="112"/>
-        <location filename="../infofile.cpp" line="121"/>
+        <location filename="../infofile.cpp" line="116"/>
+        <location filename="../infofile.cpp" line="125"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="113"/>
+        <location filename="../infofile.cpp" line="117"/>
         <source>Frames per second</source>
         <translation>Bilete pr. sekund</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="114"/>
-        <location filename="../infofile.cpp" line="124"/>
+        <location filename="../infofile.cpp" line="118"/>
+        <location filename="../infofile.cpp" line="128"/>
         <source>Selected codec</source>
         <translation>Vald kodek</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="119"/>
+        <location filename="../infofile.cpp" line="123"/>
         <source>Initial Audio Stream</source>
         <translation>Opphavleg lydstraum</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="122"/>
+        <location filename="../infofile.cpp" line="126"/>
         <source>Rate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="122"/>
+        <location filename="../infofile.cpp" line="126"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="123"/>
+        <location filename="../infofile.cpp" line="127"/>
         <source>Channels</source>
         <translation>Kanalar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="129"/>
+        <location filename="../infofile.cpp" line="133"/>
         <source>Audio Streams</source>
         <translation>Lydstraumar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="133"/>
-        <location filename="../infofile.cpp" line="158"/>
+        <location filename="../infofile.cpp" line="134"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>Language</source>
         <translation>Språk</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="140"/>
         <location filename="../infofile.cpp" line="142"/>
-        <location filename="../infofile.cpp" line="171"/>
-        <location filename="../infofile.cpp" line="173"/>
+        <location filename="../infofile.cpp" line="144"/>
+        <location filename="../infofile.cpp" line="167"/>
+        <location filename="../infofile.cpp" line="169"/>
+        <source>undefined</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="212"/>
+        <source>Track %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="215"/>
+        <location filename="../infofile.cpp" line="223"/>
+        <source>Language: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="216"/>
+        <location filename="../infofile.cpp" line="224"/>
+        <source>Name: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="217"/>
+        <location filename="../infofile.cpp" line="225"/>
+        <source>ID: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../infofile.cpp" line="219"/>
+        <location filename="../infofile.cpp" line="227"/>
+        <source>Type: %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>empty</source>
-        <translation>tom</translation>
+        <translation type="obsolete">tom</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -3003,36 +3034,32 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <translation>Undertekstar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="157"/>
+        <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="159"/>
         <source>ID</source>
         <comment>Info for translators: this is a identification code</comment>
-        <translation>ID</translation>
+        <translation type="obsolete">ID</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="132"/>
-        <location filename="../infofile.cpp" line="156"/>
         <source>#</source>
         <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation>Nr.</translation>
+        <translation type="obsolete">Nr.</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="97"/>
+        <location filename="../infofile.cpp" line="101"/>
         <source>Stream title</source>
         <translation>Strøymetittel</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="98"/>
+        <location filename="../infofile.cpp" line="102"/>
         <source>Stream URL</source>
         <translation>Strøyme-URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="74"/>
+        <location filename="../infofile.cpp" line="78"/>
         <source>File</source>
         <translation>Fil</translation>
     </message>
@@ -3042,17 +3069,17 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Legg til nytt bokmerke</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tid:</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Namn (valfritt):</translation>
     </message>
 </context>
 <context>
@@ -4632,12 +4659,12 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="679"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dette valet er hovudsakleg meint for feilsøking av programmet.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="480"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om du kryssar av for dette valet kan det redusera flimring, men det kan òg gjera at videoen ikkje vert vist rett.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="588"/>
@@ -4652,7 +4679,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="119"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk la&amp;vf demuxer som standard</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="341"/>
@@ -4672,7 +4699,7 @@ Vil du overskrive?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="234"/>
         <source>&amp;Colorkey:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Fargenykel:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="378"/>
@@ -4725,7 +4752,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="469"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Bruk lavf demuxer som standard</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="470"/>
@@ -4890,7 +4917,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"></translation>
+        <translation>V&amp;al for %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -5416,7 +5443,7 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefgeneral.cpp" line="1033"/>
         <location filename="../prefgeneral.cpp" line="1040"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dette valet fungerar berre med mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1055"/>
@@ -5511,7 +5538,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="230"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;ormat:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="298"/>
@@ -5551,7 +5578,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1106"/>
         <source>Direct rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>Direkte rendering</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1111"/>
@@ -5561,7 +5588,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="569"/>
         <source>D&amp;irect rendering</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;irekte rendering</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="576"/>
@@ -5611,7 +5638,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.ui" line="775"/>
         <source>C&amp;hannels by default:</source>
-        <translation type="unfinished"></translation>
+        <translation>K&amp;analar som standard:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="259"/>
@@ -5651,7 +5678,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Channels by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanalar som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1218"/>
@@ -7352,7 +7379,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Innstillingar for YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7397,7 +7424,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="63"/>
@@ -7413,23 +7440,23 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Avslått</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Støtte for videonettstadar</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
@@ -7454,12 +7481,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Avfspelingskvalitet</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vel føretrekt kvalitet for YouTube-videoar.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
@@ -7469,7 +7496,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
         <source>Proxy</source>
-        <translation type="unfinished">Mellomtenar</translation>
+        <translation>Mellomtenar</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="204"/>
@@ -7530,7 +7557,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="221"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Vel mellomtenartype.</translation>
+        <translation>Vel mellomtenartype.</translation>
     </message>
 </context>
 <context>
@@ -7660,12 +7687,12 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="336"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished"></translation>
+        <translation>Rask veksling av lydspor</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="347"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation type="unfinished"></translation>
+        <translation>Raskt søk til kapittel i dvd-ar</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="348"/>
@@ -7690,7 +7717,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="354"/>
         <source>Cache for files</source>
-        <translation type="unfinished"></translation>
+        <translation>Snøgglager for filer</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="355"/>
@@ -7700,7 +7727,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="358"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Snøgglager for straumar</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="359"/>
@@ -7735,7 +7762,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
-        <translation type="unfinished"></translation>
+        <translation>Snøgglager for &amp;straumar:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="84"/>
@@ -7825,7 +7852,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="310"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dette valet fungerar berre med mpv.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="322"/>
@@ -7890,7 +7917,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"></translation>
+        <translation>Snøgglager for &amp;VCD-ar:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="289"/>
@@ -9158,17 +9185,21 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="419"/>
-        <source>Playing %1</source>
-        <translation>Spelar %1</translation>
+        <location filename="../skingui/skingui.cpp" line="420"/>
+        <source>Playing</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="420"/>
+        <source>Playing %1</source>
+        <translation type="obsolete">Spelar %1</translation>
+    </message>
+    <message>
+        <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../skingui/skingui.cpp" line="421"/>
+        <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Stop</source>
         <translation>Stopp</translation>
     </message>
