@@ -19,10 +19,12 @@
 #ifndef INFOFILE_H
 #define INFOFILE_H
 
+#define INFO_SIMPLE_LAYOUT
+
 #include "mediadata.h"
 #include <QString>
 
-class InfoFile 
+class InfoFile
 {
 
 public:
@@ -43,7 +45,11 @@ protected:
 	QString addItem( QString tag, QString value );
 	QString addTrack(int n, QString lang, QString name, int ID, QString type = "");
 
+	QString style();
+
+#ifndef INFO_SIMPLE_LAYOUT
 	int row;
+#endif
 
 private:
 	inline QString tr( const char * sourceText, const char * comment = 0, int n = -1 );
