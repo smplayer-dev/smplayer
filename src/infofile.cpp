@@ -23,11 +23,10 @@
 #include "images.h"
 #include <QDebug>
 
-#define INFO_SIMPLE_LAYOUT
-
-
 InfoFile::InfoFile() {
+#ifndef INFO_SIMPLE_LAYOUT
 	row = 0;
+#endif
 }
 
 InfoFile::~InfoFile() {
@@ -133,7 +132,9 @@ QString InfoFile::getInfo(MediaData md) {
 		s += addTrackColumns( QStringList() << "#" << tr("Language") << tr("Name") << "ID" );
 
 		for (int n = 0; n < md.audios.numItems(); n++) {
+			#ifndef INFO_SIMPLE_LAYOUT
 			row++;
+			#endif
 			s += openItem();
 			QString lang = md.audios.itemAt(n).lang();
 			if (lang.isEmpty()) lang = "<i>&lt;"+tr("undefined")+"&gt;</i>";
@@ -150,7 +151,9 @@ QString InfoFile::getInfo(MediaData md) {
 		s += openPar( tr("Subtitles") );
 		s += addTrackColumns( QStringList() << "#" << tr("Type") << tr("Language") << tr("Name") << "ID" );
 		for (int n = 0; n < md.subs.numItems(); n++) {
+			#ifndef INFO_SIMPLE_LAYOUT
 			row++;
+			#endif
 			s += openItem();
 			QString t;
 			switch (md.subs.itemAt(n).type()) {
@@ -168,18 +171,14 @@ QString InfoFile::getInfo(MediaData md) {
 		s += closePar();
 	}
 
-	QString page = "<html><body>"+ s + "</body></html>";
+	QString page = "<html><head><style type=\"text/css\">" + style() + "</style></head><body>"+ s + "</body></html>";
 	//qDebug() << "InfoFile::getInfo:" << page;
 	return page;
 }
 
 
 #ifdef INFO_SIMPLE_LAYOUT
-QString InfoFile::title(QString text, QString icon) {
-	/*
-	QString style = "background-color: lightgray;";
-	return QString("<h1 style=\"%3\"><img src=\"%1\">%2</h1>").arg(Images::file(icon)).arg(text).arg(style);
-	*/
+QString InfoFile::title(QString text, QString /* icon */) {
 	return QString("<h1>%1</h1>").arg(text);
 }
 
@@ -203,7 +202,7 @@ QString InfoFile::addItem( QString tag, QString value ) {
 	return openItem() + QString("<b>%1</b>: %2").arg(tag).arg(value) + closeItem();
 }
 
-QString InfoFile::addTrackColumns(QStringList /*l*/) {
+QString InfoFile::addTrackColumns(QStringList /* l */) {
 	return "";
 }
 
@@ -227,6 +226,14 @@ QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString ty
 	}
 	#endif
 	return s;
+}
+
+QString InfoFile::style() {
+	return
+		"ul { margin: 0px; }"
+		//"body { background-color: gray; }"
+		"h2 { background-color: whitesmoke; color: navy;}"
+	;
 }
 
 #else
@@ -277,6 +284,10 @@ QString InfoFile::addTrack(int n, QString lang, QString name, int ID, QString ty
 	if (!type.isEmpty()) s += "<td>" + type + "</td>";
 	s += QString("<td>%1</td><td>%2</td><td>%3</td>").arg(lang).arg(name).arg(ID);
 	return s;
+}
+
+QString InfoFile::style() {
+	return "";
 }
 #endif
 
