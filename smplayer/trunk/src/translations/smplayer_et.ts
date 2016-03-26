@@ -845,10 +845,6 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Mängin %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Paus</translation>
@@ -3021,10 +3017,6 @@ Palun kontrolli kausta nõuet.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">Tühi</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Subtiitrid</translation>
@@ -3033,16 +3025,6 @@ Palun kontrolli kausta nõuet.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Tüüp</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9179,10 +9161,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Mängin %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

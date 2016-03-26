@@ -845,10 +845,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>โชคไม่ดีเลย วิดีโอนี้ไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">กำลังเล่น %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>พัก</translation>
@@ -2010,10 +2006,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ขยาย: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">กำลังบัฟเฟอร์...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3024,10 +3016,6 @@ Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">ว่าง</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>ศัพท์บรรยาย</translation>
@@ -3036,16 +3024,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>ชนิด</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9180,10 +9158,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">กำลังเล่น %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

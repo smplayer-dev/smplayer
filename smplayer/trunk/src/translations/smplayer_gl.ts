@@ -845,10 +845,6 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Non é posíbel reproducir este vídeo.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Reproducindo %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pausar</translation>
@@ -2010,10 +2006,6 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Ampliación: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Buffering...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -2996,40 +2988,36 @@ Verifica os permisos dese cartafol.</translation>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>sen definir</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pista %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Idioma: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ID: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>empty</source>
-        <translation type="obsolete">baleiro</translation>
+        <translation>Tipo: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -3040,16 +3028,6 @@ Verifica os permisos dese cartafol.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Tipo</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">Nº</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9188,11 +9166,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Reproducindo %1</translation>
+        <translation>Reprodución</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

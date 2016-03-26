@@ -845,10 +845,6 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Valitettavasti tätä videota ei voi toistaa.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Toistaa %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Tauko</translation>
@@ -3021,10 +3017,6 @@ Tarkista kansion oikeudet.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">tyhjä</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Tekstitykset</translation>
@@ -3033,11 +3025,6 @@ Tarkista kansion oikeudet.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Tyyppi</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">tunnistuskoodi</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9174,10 +9161,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Toistetaan %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

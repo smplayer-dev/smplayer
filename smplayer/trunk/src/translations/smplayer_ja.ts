@@ -845,10 +845,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>残念ながらこのビデオは再生できません。</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 を再生中</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>一時停止</translation>
@@ -2010,10 +2006,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">バッファ中...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -2995,40 +2987,36 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>未定義</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>トラック %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>言語: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>名前: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ID: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>empty</source>
-        <translation type="obsolete">空</translation>
+        <translation>種類: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -3039,16 +3027,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>種類</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">番号</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9185,11 +9163,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 を再生中</translation>
+        <translation>再生中</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

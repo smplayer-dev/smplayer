@@ -845,10 +845,6 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Không may là video này không thể phát được.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Đang chơi %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Tạm dừng</translation>
@@ -2010,10 +2006,6 @@ Hộp thoại cấu hình sẽ được hiện ra bây giờ để bạn thực 
         <translation>Phóng: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Đang tải...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3024,10 +3016,6 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">trống rỗng</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Các phụ đề</translation>
@@ -3036,16 +3024,6 @@ Xin hãy kiểm tra permissions trong thư mục đó.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Kiểu</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9181,10 +9159,6 @@ Example: extrastereo,karaoke</source>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Đang chơi %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

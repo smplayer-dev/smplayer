@@ -845,10 +845,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Ezt a videót a program nem tudja lejátszani.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 lejátszása</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Szünet</translation>
@@ -2010,10 +2006,6 @@ A beállító panel megjelenik most, állítsa be az eszközöket.</translation>
         <translation>Nagyítás: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Pufferelés...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3028,10 +3020,6 @@ Please check the permissions of that folder.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">üres</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Feliratok</translation>
@@ -3040,16 +3028,6 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Típus</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">Azonosító</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9187,10 +9165,6 @@ Példa: extrastereo,karaoke </translation>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Lejátszás: %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

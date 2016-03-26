@@ -845,10 +845,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Zorigaitzez bideoa hau ezin da irakurri.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 irakurtzen</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pausatu</translation>
@@ -2010,10 +2006,6 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Zooma: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Oroimeneratzen...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -2996,40 +2988,36 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>Zehaztugabea</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Bidea %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Hizkuntza: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Izena: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ID-a: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>empty</source>
-        <translation type="obsolete">hutsik</translation>
+        <translation>Mota: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -3040,16 +3028,6 @@ Mesedez egiaztatu agiritegiaren baimenak.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Mota</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID-a</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">Z</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9188,11 +9166,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 irakurtzen</translation>
+        <translation>Irakurtzen</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

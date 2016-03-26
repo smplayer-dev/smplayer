@@ -845,10 +845,6 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Denne videoen kan diverre ikkje spelast av.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Spelar %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pause</translation>
@@ -2010,10 +2006,6 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Mellomlagrar </translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3025,10 +3017,6 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">tom</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Undertekstar</translation>
@@ -3037,16 +3025,6 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Type</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">Nr.</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9188,10 +9166,6 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Spelar %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

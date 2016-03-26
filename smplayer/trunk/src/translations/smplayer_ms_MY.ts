@@ -845,10 +845,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Malangnya video ini tidak boleh dimain.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Memainkan %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Jeda</translation>
@@ -2010,10 +2006,6 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
         <translation>Zum: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Menimbal...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3027,10 +3019,6 @@ Sila semak keizinan folder tersebut.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">kosong</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Sarikata</translation>
@@ -3039,16 +3027,6 @@ Sila semak keizinan folder tersebut.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Jenis</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9186,10 +9164,6 @@ Contoh: extrastereo,karaoke</translation>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Memainkan %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

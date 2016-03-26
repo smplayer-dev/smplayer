@@ -845,10 +845,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Malheureusement cette vidéo ne peut être lue.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Lecture de %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pause</translation>
@@ -2010,10 +2006,6 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <translation>Zoom : %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Mise en mémoire tampon...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3028,10 +3020,6 @@ Veuillez vérifier les droits sur ce dossier.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">vide</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Sous-titres</translation>
@@ -3040,16 +3028,6 @@ Veuillez vérifier les droits sur ce dossier.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Type</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9191,10 +9169,6 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Lecture de %1</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

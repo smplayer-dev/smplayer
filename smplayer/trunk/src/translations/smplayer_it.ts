@@ -846,10 +846,6 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Sfortunatamente questo video non può essere riprodotto.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 in riproduzione</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pausa</translation>
@@ -2011,10 +2007,6 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
         <translation>Zoom %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Buffering...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -3029,10 +3021,6 @@ Controllarne i relativi permessi.</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>empty</source>
-        <translation type="obsolete">vuoto</translation>
-    </message>
-    <message>
         <location filename="../infofile.cpp" line="153"/>
         <source>Subtitles</source>
         <translation>Sottotitoli</translation>
@@ -3041,16 +3029,6 @@ Controllarne i relativi permessi.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Tipo</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">N°</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9190,10 +9168,6 @@ Esempio: extrastereo,karaoke</translation>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">%1 in riproduzione</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
