@@ -845,10 +845,6 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Desværre kan denne video ikke afspilles.</translation>
     </message>
     <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Afspiller %1</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="5118"/>
         <source>Pause</source>
         <translation>Pause</translation>
@@ -2010,10 +2006,6 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <source>Buffering...</source>
-        <translation type="obsolete">Gemmer i buffer...</translation>
-    </message>
-    <message>
         <location filename="../core.cpp" line="3320"/>
         <location filename="../core.cpp" line="3331"/>
         <source>Font scale: %1</source>
@@ -2996,24 +2988,24 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>udefineret</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Spor %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Sprog: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Navn: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
@@ -3025,11 +3017,7 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>empty</source>
-        <translation type="obsolete">tom</translation>
+        <translation>Type: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -3040,16 +3028,6 @@ Tjek rettighederne for den mappe.</translation>
         <location filename="../infofile.cpp" line="154"/>
         <source>Type</source>
         <translation>Type</translation>
-    </message>
-    <message>
-        <source>ID</source>
-        <comment>Info for translators: this is a identification code</comment>
-        <translation type="obsolete">ID</translation>
-    </message>
-    <message>
-        <source>#</source>
-        <comment>Info for translators: this is a abbreviation for number</comment>
-        <translation type="obsolete">#</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="101"/>
@@ -9188,11 +9166,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Playing %1</source>
-        <translation type="obsolete">Afspiller %1</translation>
+        <translation>Afspiller</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
