@@ -232,6 +232,7 @@ QMap<QString,QString> Languages::most_used_list() {
 
 QMap<QString,QString> Languages::translations() {
 	QMap <QString,QString> m;
+	m["am"] = QString::fromUtf8("አማርኛ"); //tr("Amharic");
 	m["ar"] = QString::fromUtf8("العربية"); //tr("Arabic");
 	m["ar_SY"] = tr("Arabic - Syria");
 	m["bg"] = QString::fromUtf8("Български"); //tr("Bulgarian");
@@ -245,6 +246,7 @@ QMap<QString,QString> Languages::translations() {
 	m["es"] =  QString::fromUtf8("Español"); //tr("Spanish");
 	m["et"] = "Eesti"; //tr("Estonian");
 	m["eu"] = "Euskara"; //tr("Basque");
+	m["fa"] = QString::fromUtf8("فارسی"); //tr("Persian");
 	m["fi"] = "Suomen kieli"; //tr("Finnish");
 	m["fr"] = QString::fromUtf8("Français"); // tr("French");
 	m["gl"] = "Galego"; //tr("Galician");
