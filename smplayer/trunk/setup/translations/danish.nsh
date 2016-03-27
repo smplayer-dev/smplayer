@@ -12,7 +12,7 @@ ${LangFileString} Installer_No_Admin "Du skal være logget på som administrator
 ${LangFileString} SMPlayer_Is_Running "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
 
 ${LangFileString} OS_Not_Supported "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver som minimum Windows XP og vil måske ikke virke korrekt på dit system.$\nEr du sikker på at du vil fortsætte installationen?"
-${LangFileString} Win64_Required "Det kræver et 64-bit Windows-styresystem at installere denne software."
+${LangFileString} Win64_Required "Det kræver et 64-bit Windows-styresystem at installere dette software."
 ${LangFileString} Existing_32bitInst "Der findes allerede en 32-bit installation af SMPlayer. Du skal først afinstallere 32-bit SMPlayer."
 ${LangFileString} Existing_64bitInst "Der findes allerede en 64-bit installation af SMPlayer. Du skal først afinstallere 64-bit SMPlayer."
 
