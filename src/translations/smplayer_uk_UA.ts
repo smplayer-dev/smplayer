@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1312,12 +1310,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5854"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не вдалося запустити переглядач YouTube.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5855"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>Будьте впевнені він встановлений коректно.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4878"/>
@@ -2679,11 +2677,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2781,7 +2775,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -2989,36 +2983,36 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>не визначено</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Доріжка %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Мова: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ім’я: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ідентифікaтор: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Тип: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -7350,17 +7344,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube (та інші сайти)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтримка &amp;відео-сайтів:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Налаштування YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7421,58 +7415,58 @@ Example: extrastereo,karaoke</source>
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Вимкнено</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished"></translation>
+        <translation>Авто</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтримка відео-сайтів</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>Підтримка відео-сайтів вимкнена</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"></translation>
+        <translation>забезпечує внутрішню підтримку YouTube та використовує mpv + youtube-dl для решти сайтів</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>буде використовуватися лише внутрішня підтримка YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>використовує mpv + youtube-dl для усіх сайтів</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Якість відтворення</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Виберіть бажану якість для відео з YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Вкажіть user agent, який буде використовуватися SMPlayer при під’єднанні до YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
@@ -8916,21 +8910,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9169,7 +9155,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Відтворюється</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2679,11 +2677,7 @@ Przykład: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Rozpakowano %n napis</numerusform>
-            <numerusform>Rozpakowano %n napisy</numerusform>
-            <numerusform>Rozpakowano %n napisów</numerusform>
-        </translation>
+        <translation><numerusform>Rozpakowano %n napis</numerusform><numerusform>Rozpakowano %n napisy</numerusform><numerusform>Rozpakowano %n napisów</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2781,7 +2775,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -2989,36 +2983,36 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>nieokreślony</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Ścieżka %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Język: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nazwa: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Rodzaj: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -8917,21 +8911,13 @@ Przykład: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekund(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9170,7 +9156,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
