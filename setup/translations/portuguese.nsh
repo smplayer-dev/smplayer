@@ -54,7 +54,7 @@ ${LangFileString} Section_IconThemes_Desc "Ícones adicionais para o SMPlayer."
 ${LangFileString} Section_Translations "Idiomas"
 ${LangFileString} Section_Translations_Desc "Idiomas adicionais para o SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Elimina as preferências de uma anterior instalação do SMPlayer."
+${LangFileString} Section_ResetSettings_Desc "Remove as preferências de uma anterior instalação do SMPlayer."
 
 ${LangFileString} MPlayer_Codec_Msg "O pacote de codificadores adiciona suporte aos formatos que ainda não foram implementados no MPlayer, tais como as novas variantes RealVideo e outros formatos menos utilizados.$\nEstes codificadores não são necessários para os formatos mais comuns como DVD, MPEG-1/2/4, etc."
 
