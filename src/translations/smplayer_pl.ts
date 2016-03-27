@@ -3006,7 +3006,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"/>
+        <translation>ID: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
@@ -9156,7 +9156,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"/>
+        <translation>Odtwarzanie</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
