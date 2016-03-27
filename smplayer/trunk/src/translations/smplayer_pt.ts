@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2679,10 +2677,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2780,7 +2775,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro
@@ -2988,36 +2983,36 @@ Verifique as permissões da pasta.</translation>
         <location filename="../infofile.cpp" line="167"/>
         <location filename="../infofile.cpp" line="169"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>não definido</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="212"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Faixa: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="215"/>
         <location filename="../infofile.cpp" line="223"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Idioma: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="216"/>
         <location filename="../infofile.cpp" line="224"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Nome: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="217"/>
         <location filename="../infofile.cpp" line="225"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>ID: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="219"/>
         <location filename="../infofile.cpp" line="227"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Tipo: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="153"/>
@@ -8915,19 +8910,13 @@ Exemplo: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9166,7 +9155,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>A reproduzir</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
