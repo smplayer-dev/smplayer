@@ -1,6 +1,9 @@
 Version 16.x:
 
 (2016-03-25)
+ * Add translations for Amharic and Persian (unfinished).
+
+(2016-03-25)
  * A new layout is used to display the media information (Options -> View
   info and properties).
 
