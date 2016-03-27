@@ -1,5 +1,9 @@
 Version 16.x:
 
+(2016-03-25)
+ * A new layout is used to display the media information (Options -> View
+  info and properties).
+
 (2016-03-16)
  * Update the system tray icon when changing themes.
 

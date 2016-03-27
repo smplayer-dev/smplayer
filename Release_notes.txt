@@ -1,3 +1,30 @@
+Version 16.x
+
+ * The Windows installer now includes mpv as well.
+ * Now it's easier to switch between mplayer and mpv (Preferences -> General,
+   select either mplayer or mpv as multimedia engine).
+ * The extrastereo filter works again when using mpv.
+ * Possibility to use the VLC shortcuts. (Preferences -> Keyboard and
+   mouse, click the load button, select vlc.keys)
+ * Possibility to enable mouse gestures (when the mouse is dragged up or down
+   in the video window the volume changes. If dragged left or right it
+   changes the time position).
+   You can enable this option in Preferences -> Keyboard and
+   mouse -> Mouse -> Drag function: seek and volume.
+ * A fix for saving bookmarks.
+ * The option for streaming sites in Preferences -> Network is
+   different now, and allows these values:
+     Disabled: support for video sites is turned off
+     Auto: enables the internal support for YouTube and uses mpv + youtube-dl
+     for the rest of sites
+     YouTube: only the internal support for YouTube will be used
+     mpv + youtube-dl: uses mpv + youtube-dl for all sites
+ * An animated icon has been added in the status bar to indicate when the player
+   is buffering.
+ * A new layout is used to display the media information (Options -> View info and
+   properties).
+
+
 Version 16.1
 
  * Fix for YouTube.
