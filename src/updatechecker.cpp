@@ -44,6 +44,19 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 	check_url = URL_VERSION_INFO;
 	user_agent = "SMPlayer";
 
+	/*
+	It looks like some distro maintainers disable this update checker...
+	This is a very very bad idea. Main reason: in order to play Youtube videos
+	with SMPlayer a very recent version is required. Distros usually provide
+	ancient versions...
+	If you remove the possibility to inform the user about new versions they will
+	probably use a version with broken support for Youtube like forever.
+
+	If you still want to disable this option, the correct way to do it is by
+	removing the UPDATE_CHECKER define in smplayer.pro, and not by removing the
+	following code.
+	*/
+
 	connect(this, SIGNAL(newVersionFound(const QString &)),
             this, SLOT(reportNewVersionAvailable(const QString &)));
 
@@ -58,9 +71,9 @@ UpdateChecker::UpdateChecker(QWidget * parent, UpdateCheckerData * data) : QObje
 	//now = now.addDays(27);
 	int days = QDateTime(d->last_checked).daysTo(QDateTime(now));
 
-	qDebug("UpdateChecker::UpdateChecker: enabled: %d", d->enabled);
-	qDebug("UpdateChecker::UpdateChecker: days_to_check: %d", d->days_to_check);
-	qDebug("UpdateChecker::UpdateChecker: days since last check: %d", days);
+	qDebug() << "UpdateChecker::UpdateChecker: enabled:" << d->enabled;
+	qDebug() << "UpdateChecker::UpdateChecker: days_to_check:" << d->days_to_check;
+	qDebug() << "UpdateChecker::UpdateChecker: days since last check:" <<  days;
 
 	if ((!d->enabled) || (days < d->days_to_check)) return;
 
