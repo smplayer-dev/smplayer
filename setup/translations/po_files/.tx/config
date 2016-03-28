@@ -40,4 +40,5 @@ trans.th = thai.po
 trans.zh_TW = tradchinese.po
 trans.tr = turkish.po
 trans.uk = ukrainian.po
+trans.vi = vietnamese.po
 minimum_perc = 50
