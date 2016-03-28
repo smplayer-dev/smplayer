@@ -18,14 +18,14 @@
 
 #include "version.h"
 
-#define USE_SVN_VERSIONS 1
+#define USE_SVN_VERSIONS 0
 
-#define VERSION "16.1.0"
+#define VERSION "16.4.0"
 
 #if USE_SVN_VERSIONS
 #include "svn_revision.h"
 #else
-#define SVN_REVISION "7318"
+#define SVN_REVISION "7558"
 #endif
 
 #ifdef Q_OS_WIN
