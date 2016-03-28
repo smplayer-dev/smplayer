@@ -1,10 +1,10 @@
-﻿;Language: Persian (1065)
-;Persian language strings for the Windows SMPlayer NSIS installer.
+﻿;Language: Farsi (1065)
+;Farsi language strings for the Windows SMPlayer NSIS installer.
 ;
 ;Save file as UTF-8 w/ BOM
 ;
 
-!insertmacro LANGFILE "Persian" "فارسی"
+!insertmacro LANGFILE "Farsi" "فارسی"
 
 ; Startup
 ${LangFileString} Installer_Is_Running "نصب کننده شما آماده اجرا است"
