@@ -30,6 +30,7 @@ trans.nn = norwegian.po
 trans.pl = polish.po
 trans.pt_BR = portuguesebrazil.po
 trans.pt = portuguese.po
+trans.ro = romanian.po
 trans.ru = russian.po
 trans.sr = serbian.po
 trans.zh_CN = simpchinese.po
