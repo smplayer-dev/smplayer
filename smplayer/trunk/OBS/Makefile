@@ -2,7 +2,7 @@
 # deb packages at build.opensuse.org
 
 PACKAGE = smplayer
-VERSION = 16.1.0
+VERSION = 16.4.0
 DEPENDS = debhelper (>= 5), libqt4-dev, zlib1g-dev
 
 DSC_FILE = $(PACKAGE).dsc
