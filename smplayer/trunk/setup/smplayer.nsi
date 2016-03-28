@@ -247,6 +247,7 @@
   !insertmacro MUI_LANGUAGE "Galician"
   !insertmacro MUI_LANGUAGE "Indonesian"
   !insertmacro MUI_LANGUAGE "Turkish"
+  !insertmacro MUI_LANGUAGE "Vietnamese"
 
 ;Custom translations for setup
 
@@ -285,6 +286,7 @@
   !insertmacro LANGFILE_INCLUDE "translations\galician.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\indonesian.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\turkish.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\vietnamese.nsh"
 
 ;--------------------------------
 ;Reserve Files
