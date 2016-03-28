@@ -257,7 +257,7 @@
 
   !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\albanian.nsh"
-  !insertmacro LANGFILE_INCLUDE "translations\amharic.nsh"
+  ;!insertmacro LANGFILE_INCLUDE "translations\amharic.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\arabic.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\bulgarian.nsh"
