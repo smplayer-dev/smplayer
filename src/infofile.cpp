@@ -25,10 +25,12 @@
 #include <QFile>
 #include <QDebug>
 
-InfoFile::InfoFile() {
+InfoFile::InfoFile(QObject * parent)
+	: QObject(parent)
 #ifndef INFO_SIMPLE_LAYOUT
-	row = 0;
+	, row(0)
 #endif
+{
 }
 
 InfoFile::~InfoFile() {
@@ -307,11 +309,4 @@ QString InfoFile::style() {
 	return s;
 }
 
-inline QString InfoFile::tr( const char * sourceText, const char * comment, int n )  {
-#if QT_VERSION >= 0x050000
-	return QCoreApplication::translate("InfoFile", sourceText, comment, n );
-#else
-	return QCoreApplication::translate("InfoFile", sourceText, comment, QCoreApplication::CodecForTr, n );
-#endif
-}
-
+#include "moc_infofile.cpp"
