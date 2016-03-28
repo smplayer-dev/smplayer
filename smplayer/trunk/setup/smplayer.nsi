@@ -214,6 +214,7 @@
 
   !insertmacro MUI_LANGUAGE "English"
   !insertmacro MUI_LANGUAGE "Albanian"
+  !insertmacro MUI_LANGUAGE "Amharic"
   !insertmacro MUI_LANGUAGE "Arabic"
   !insertmacro MUI_LANGUAGE "Basque"
   !insertmacro MUI_LANGUAGE "Bulgarian"
@@ -225,6 +226,7 @@
   !insertmacro MUI_LANGUAGE "Finnish"
   !insertmacro MUI_LANGUAGE "French"
   !insertmacro MUI_LANGUAGE "German"
+  !insertmacro MUI_LANGUAGE "Greek"
   !insertmacro MUI_LANGUAGE "Hebrew"
   !insertmacro MUI_LANGUAGE "Hungarian"
   !insertmacro MUI_LANGUAGE "Italian"
@@ -255,6 +257,7 @@
 
   !insertmacro LANGFILE_INCLUDE "translations\english.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\albanian.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\amharic.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\arabic.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\basque.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\bulgarian.nsh"
@@ -266,6 +269,7 @@
   !insertmacro LANGFILE_INCLUDE "translations\finnish.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\french.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\german.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\greek.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\hebrew.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\hungarian.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\italian.nsh"

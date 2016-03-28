@@ -6,6 +6,7 @@ type = PO
 source_lang = en
 source_file = english.pot
 trans.sq_AL = albanian.po
+trans.am = amharic.po
 trans.ar = arabic.po
 trans.eu = basque.po
 trans.bg = bulgarian.po
