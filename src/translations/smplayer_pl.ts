@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="pl">
 <context>
     <name>About</name>
     <message>
@@ -2677,7 +2679,11 @@ Przykład: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="697"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>Rozpakowano %n napis</numerusform><numerusform>Rozpakowano %n napisy</numerusform><numerusform>Rozpakowano %n napisów</numerusform></translation>
+        <translation>
+            <numerusform>Rozpakowano %n napis</numerusform>
+            <numerusform>Rozpakowano %n napisy</numerusform>
+            <numerusform>Rozpakowano %n napisów</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="757"/>
@@ -2775,7 +2781,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="523"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="630"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -2816,226 +2822,226 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
 <context>
     <name>InfoFile</name>
     <message>
-        <location filename="../infofile.cpp" line="75"/>
+        <location filename="../infofile.cpp" line="77"/>
         <source>General</source>
         <translation>Ogólne</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="79"/>
+        <location filename="../infofile.cpp" line="81"/>
         <source>Size</source>
         <translation>Rozmiar</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="79"/>
+        <location filename="../infofile.cpp" line="81"/>
         <source>%1 KB (%2 MB)</source>
         <translation>%1 KB (%2 MB)</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="83"/>
+        <location filename="../infofile.cpp" line="85"/>
         <source>URL</source>
         <translation>URL</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="85"/>
+        <location filename="../infofile.cpp" line="87"/>
         <source>Length</source>
         <translation>Długość</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="86"/>
+        <location filename="../infofile.cpp" line="88"/>
         <source>Demuxer</source>
         <translation>Demukser</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="91"/>
-        <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="154"/>
+        <location filename="../infofile.cpp" line="93"/>
+        <location filename="../infofile.cpp" line="136"/>
+        <location filename="../infofile.cpp" line="156"/>
         <source>Name</source>
         <translation>Nazwa</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="92"/>
+        <location filename="../infofile.cpp" line="94"/>
         <source>Artist</source>
         <translation>Artysta</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="93"/>
+        <location filename="../infofile.cpp" line="95"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="94"/>
+        <location filename="../infofile.cpp" line="96"/>
         <source>Album</source>
         <translation>Album</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="95"/>
+        <location filename="../infofile.cpp" line="97"/>
         <source>Genre</source>
         <translation>Gatunek</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="96"/>
+        <location filename="../infofile.cpp" line="98"/>
         <source>Date</source>
         <translation>Data</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="97"/>
+        <location filename="../infofile.cpp" line="99"/>
         <source>Track</source>
         <translation>Ścieżka</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="98"/>
+        <location filename="../infofile.cpp" line="100"/>
         <source>Copyright</source>
         <translation>Prawa autorskie</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="99"/>
+        <location filename="../infofile.cpp" line="101"/>
         <source>Comment</source>
         <translation>Komentarz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="100"/>
+        <location filename="../infofile.cpp" line="102"/>
         <source>Software</source>
         <translation>Oprogramowanie</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="105"/>
+        <location filename="../infofile.cpp" line="107"/>
         <source>Clip info</source>
         <translation>Info o klipie</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="112"/>
+        <location filename="../infofile.cpp" line="114"/>
         <source>Video</source>
         <translation>Wideo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="113"/>
+        <location filename="../infofile.cpp" line="115"/>
         <source>Resolution</source>
         <translation>Rozdzielczość</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="114"/>
+        <location filename="../infofile.cpp" line="116"/>
         <source>Aspect ratio</source>
         <translation>Współczynnik proporcji</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="115"/>
-        <location filename="../infofile.cpp" line="124"/>
+        <location filename="../infofile.cpp" line="117"/>
+        <location filename="../infofile.cpp" line="126"/>
         <source>Format</source>
         <translation>Format</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="116"/>
-        <location filename="../infofile.cpp" line="125"/>
+        <location filename="../infofile.cpp" line="118"/>
+        <location filename="../infofile.cpp" line="127"/>
         <source>Bitrate</source>
         <translation>Szybkość transmisji</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="116"/>
-        <location filename="../infofile.cpp" line="125"/>
+        <location filename="../infofile.cpp" line="118"/>
+        <location filename="../infofile.cpp" line="127"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="117"/>
+        <location filename="../infofile.cpp" line="119"/>
         <source>Frames per second</source>
         <translation>Ramek na sekundę</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="118"/>
-        <location filename="../infofile.cpp" line="128"/>
+        <location filename="../infofile.cpp" line="120"/>
+        <location filename="../infofile.cpp" line="130"/>
         <source>Selected codec</source>
         <translation>Wybrany kodek</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="123"/>
+        <location filename="../infofile.cpp" line="125"/>
         <source>Initial Audio Stream</source>
         <translation>Początkowy strumień audio</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="126"/>
+        <location filename="../infofile.cpp" line="128"/>
         <source>Rate</source>
         <translation>Tempo</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="126"/>
+        <location filename="../infofile.cpp" line="128"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="127"/>
+        <location filename="../infofile.cpp" line="129"/>
         <source>Channels</source>
         <translation>Kanały</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="133"/>
+        <location filename="../infofile.cpp" line="135"/>
         <source>Audio Streams</source>
         <translation>Strumienie audio</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="134"/>
-        <location filename="../infofile.cpp" line="154"/>
+        <location filename="../infofile.cpp" line="136"/>
+        <location filename="../infofile.cpp" line="156"/>
         <source>Language</source>
         <translation>Język</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="142"/>
         <location filename="../infofile.cpp" line="144"/>
-        <location filename="../infofile.cpp" line="167"/>
+        <location filename="../infofile.cpp" line="146"/>
         <location filename="../infofile.cpp" line="169"/>
+        <location filename="../infofile.cpp" line="171"/>
         <source>undefined</source>
         <translation>nieokreślony</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="212"/>
+        <location filename="../infofile.cpp" line="214"/>
         <source>Track %1</source>
         <translation>Ścieżka %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="215"/>
-        <location filename="../infofile.cpp" line="223"/>
+        <location filename="../infofile.cpp" line="217"/>
+        <location filename="../infofile.cpp" line="225"/>
         <source>Language: %1</source>
         <translation>Język: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="216"/>
-        <location filename="../infofile.cpp" line="224"/>
+        <location filename="../infofile.cpp" line="218"/>
+        <location filename="../infofile.cpp" line="226"/>
         <source>Name: %1</source>
         <translation>Nazwa: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="217"/>
-        <location filename="../infofile.cpp" line="225"/>
+        <location filename="../infofile.cpp" line="219"/>
+        <location filename="../infofile.cpp" line="227"/>
         <source>ID: %1</source>
         <translation>ID: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="219"/>
-        <location filename="../infofile.cpp" line="227"/>
+        <location filename="../infofile.cpp" line="221"/>
+        <location filename="../infofile.cpp" line="229"/>
         <source>Type: %1</source>
         <translation>Rodzaj: %1</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="153"/>
+        <location filename="../infofile.cpp" line="155"/>
         <source>Subtitles</source>
         <translation>Napisy</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="154"/>
+        <location filename="../infofile.cpp" line="156"/>
         <source>Type</source>
         <translation>Rodzaj</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="101"/>
+        <location filename="../infofile.cpp" line="103"/>
         <source>Stream title</source>
         <translation>Nazwa strumienia</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="102"/>
+        <location filename="../infofile.cpp" line="104"/>
         <source>Stream URL</source>
         <translation>URL strumienia</translation>
     </message>
     <message>
-        <location filename="../infofile.cpp" line="78"/>
+        <location filename="../infofile.cpp" line="80"/>
         <source>File</source>
         <translation>Plik</translation>
     </message>
@@ -3156,7 +3162,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Arabic</source>
         <translation>Arabski</translation>
     </message>
@@ -3182,7 +3188,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="323"/>
+        <location filename="../languages.cpp" line="325"/>
         <source>Bulgarian</source>
         <translation>Bułgarski</translation>
     </message>
@@ -3223,7 +3229,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="324"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Czech</source>
         <translation>Czeski</translation>
     </message>
@@ -3267,7 +3273,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="325"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Estonian</source>
         <translation>Estoński</translation>
     </message>
@@ -3340,13 +3346,13 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Croatian</source>
         <translation>Chorwacki</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Hungarian</source>
         <translation>Węgierski</translation>
     </message>
@@ -3449,13 +3455,13 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Lithuanian</source>
         <translation>Litewski</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Latvian</source>
         <translation>Łotewski</translation>
     </message>
@@ -3548,7 +3554,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Polish</source>
         <translation>Polski</translation>
     </message>
@@ -3571,8 +3577,8 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="304"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Russian</source>
         <translation>Rosyjski</translation>
     </message>
@@ -3593,7 +3599,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Slovak</source>
         <translation>Słowacki</translation>
     </message>
@@ -3680,7 +3686,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Turkish</source>
         <translation>Turecki</translation>
     </message>
@@ -3706,7 +3712,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Ukrainian</source>
         <translation>Ukraiński</translation>
     </message>
@@ -3753,7 +3759,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Chinese</source>
         <translation>Chiński</translation>
     </message>
@@ -3763,117 +3769,117 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <translation>Zuluski</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="236"/>
+        <location filename="../languages.cpp" line="237"/>
         <source>Arabic - Syria</source>
         <translation>Arabski - Syria</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="289"/>
+        <location filename="../languages.cpp" line="291"/>
         <source>Unicode</source>
         <translation>Unikod</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="290"/>
+        <location filename="../languages.cpp" line="292"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="291"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Western European Languages</source>
         <translation>Języki Zachodnioeuropejskie</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Western European Languages with Euro</source>
         <translation>Języki Zachodnioeuropejskie z Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Slavic/Central European Languages</source>
         <translation>Języki Słowiańskie/Środkowoeuropejskie</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galicyjski, Maltański, Turecki</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Old Baltic charset</source>
         <translation>Starobałtycki zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Cyrillic</source>
         <translation>Cyrylica</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Modern Greek</source>
         <translation>Nowa greka</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Baltic</source>
         <translation>Bałtycki</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Celtic</source>
         <translation>Celtycki</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>South-Eastern European</source>
         <translation>Południowo-wschodni europejski</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Hebrew charsets</source>
         <translation>Hebrajski zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukraiński, Białoruski</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Simplified Chinese charset</source>
         <translation>Chiński uproszczony zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="309"/>
         <source>Traditional Chinese charset</source>
         <translation>Chiński tradycyjny zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Japanese charsets</source>
         <translation>Japoński zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Korean charset</source>
         <translation>Koreański zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Thai charset</source>
         <translation>Tajski zestaw znaków</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Cyrillic Windows</source>
         <translation>Cyrylica Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Slavic/Central European Windows</source>
         <translation>Słowiański/Środkowoeuropejski - Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Arabic Windows</source>
         <translation>Arabski - Windows</translation>
     </message>
@@ -3899,7 +3905,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="322"/>
+        <location filename="../languages.cpp" line="324"/>
         <source>Belarusian</source>
         <translation>Białoruski</translation>
     </message>
@@ -4161,7 +4167,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Slovene</source>
         <translation>Słoweński</translation>
     </message>
@@ -4201,7 +4207,7 @@ Proszę sprawdź uprawnienia tego katalogu.</translation>
         <translation>Waloński</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Modern Greek Windows</source>
         <translation>Nowa greka - Windows</translation>
     </message>
@@ -8911,13 +8917,21 @@ Przykład: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform></translation>
+        <translation>
+            <numerusform>%n sekunda</numerusform>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekund(y)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
+        <translation>
+            <numerusform>%n minuta</numerusform>
+            <numerusform>%n minut(y)</numerusform>
+            <numerusform>%n minut(y)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9445,59 +9459,59 @@ Przykład: extrastereo,karaoke</translation>
 <context>
     <name>UpdateChecker</name>
     <message>
-        <location filename="../updatechecker.cpp" line="148"/>
+        <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
         <translation>Nie udało się uzyskać najnowszego numeru wersji</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="183"/>
+        <location filename="../updatechecker.cpp" line="196"/>
         <source>New version available</source>
         <translation>Nowa wersja dostępna</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="184"/>
+        <location filename="../updatechecker.cpp" line="197"/>
         <source>A new version of SMPlayer is available.</source>
         <translation>Nowa wersja SMPlayera jest dostępna.</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="185"/>
-        <location filename="../updatechecker.cpp" line="202"/>
+        <location filename="../updatechecker.cpp" line="198"/>
+        <location filename="../updatechecker.cpp" line="215"/>
         <source>Installed version: %1</source>
         <translation>Zainstalowana wersja: %1</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="186"/>
-        <location filename="../updatechecker.cpp" line="203"/>
+        <location filename="../updatechecker.cpp" line="199"/>
+        <location filename="../updatechecker.cpp" line="216"/>
         <source>Available version: %1</source>
         <translation>Dostępna wersja: %1</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="187"/>
+        <location filename="../updatechecker.cpp" line="200"/>
         <source>Would you like to know more about this new version?</source>
         <translation>Chcesz dowiedzieć się więcej o tej nowej wersji?</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="200"/>
+        <location filename="../updatechecker.cpp" line="213"/>
         <source>Checking for updates</source>
         <translation>Sprawdzanie dostępności aktualizacji</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="201"/>
+        <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
         <translation>Gratulacje, SMPlayer jest aktualny.</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="208"/>
+        <location filename="../updatechecker.cpp" line="221"/>
         <source>Error</source>
         <translation>Błąd</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="209"/>
+        <location filename="../updatechecker.cpp" line="222"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
         <translation>Wystąpił błąd podczas pobrania informacji o najnowszej dostępnej wersji.</translation>
     </message>
     <message>
-        <location filename="../updatechecker.cpp" line="210"/>
+        <location filename="../updatechecker.cpp" line="223"/>
         <source>Error code: %1</source>
         <translation>Kod błędu: %1</translation>
     </message>
