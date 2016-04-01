@@ -19,37 +19,38 @@
 #ifndef MPC_STYLES_H
 #define MPC_STYLES_H
 
-#include <QWindowsStyle>
+#include <QProxyStyle>
 #include <QStyleOptionToolBar>
+#include <QStyleFactory>
 
 enum QSliderDirection { SlUp, SlDown, SlLeft, SlRight };
 
-class MpcToolbarStyle : public QWindowsStyle
+class MpcToolbarStyle : public QProxyStyle
 {
     Q_OBJECT
 
 public:
-    MpcToolbarStyle() {};
+    MpcToolbarStyle() { setBaseStyle(QStyleFactory::create("windows")); };
     void drawControl(ControlElement control, const QStyleOption *option,
                       QPainter *painter, const QWidget *widget) const;
 };
 
-class MpcTimeSlideStyle : public QWindowsStyle
+class MpcTimeSlideStyle : public QProxyStyle
 {
     Q_OBJECT
 
 public:
-    MpcTimeSlideStyle() {};
+    MpcTimeSlideStyle() { setBaseStyle(QStyleFactory::create("windows")); };
     void drawComplexControl(ComplexControl cc, const QStyleOptionComplex *opt,
                                        QPainter *p, const QWidget *widget) const;
 };
 
-class MpcVolumeSlideStyle : public QWindowsStyle
+class MpcVolumeSlideStyle : public QProxyStyle
 {
     Q_OBJECT
 
 public:
-    MpcVolumeSlideStyle() {};
+    MpcVolumeSlideStyle() { setBaseStyle(QStyleFactory::create("windows")); };
     void drawComplexControl(ComplexControl cc, const QStyleOptionComplex *opt,
                                        QPainter *p, const QWidget *widget) const;
 };
