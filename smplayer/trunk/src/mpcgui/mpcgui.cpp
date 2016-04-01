@@ -69,8 +69,8 @@ void MpcGui::createActions() {
 #if USE_VOLUME_BAR
 	volumeslider_action = createVolumeSliderAction(this);
 	volumeslider_action->disable();
-    volumeslider_action->setCustomStyle( new MpcVolumeSlideStyle() );
-    volumeslider_action->setFixedSize( QSize(50,18) );
+	volumeslider_action->setCustomStyle( new MpcVolumeSlideStyle() );
+	volumeslider_action->setFixedSize( QSize(50,18) );
 	volumeslider_action->setTickPosition( QSlider::NoTicks );
 #endif
 
@@ -393,7 +393,7 @@ void MpcGui::createStatusBar() {
 	frame_display->setMinimumSize(frame_display->sizeHint());
     frame_display->setContentsMargins(15,2,1,1);
 
-	statusBar()->setAutoFillBackground(TRUE);   
+	statusBar()->setAutoFillBackground(true);
 
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
 	ColorUtils::setForegroundColor( statusBar(), QColor(255,255,255) );
@@ -403,7 +403,7 @@ void MpcGui::createStatusBar() {
 	ColorUtils::setForegroundColor( frame_display, QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( audiochannel_display, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( audiochannel_display, QColor(255,255,255) );
-	statusBar()->setSizeGripEnabled(FALSE);
+	statusBar()->setSizeGripEnabled(false);
 
     
 

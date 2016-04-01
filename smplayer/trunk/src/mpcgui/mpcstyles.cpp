@@ -18,11 +18,11 @@
 
 #include "mpcstyles.h"
 
-#include <QWindowsStyle>
+#include <QProxyStyle>
 #include <QStyleOptionToolBar>
 #include <QSlider>
 #include <QPainter>
-
+#include <qdrawutil.h>
 
 void
 MpcToolbarStyle::drawControl(ControlElement control, const QStyleOption *option,
@@ -78,13 +78,13 @@ MpcToolbarStyle::drawControl(ControlElement control, const QStyleOption *option,
             }
             else
             {
-                QWindowsStyle::drawControl(control,toolbar, painter, widget);
+                QProxyStyle::drawControl(control,toolbar, painter, widget);
             }
         }
     }
     else
     {
-        QWindowsStyle::drawControl(control,option, painter, widget);
+        QProxyStyle::drawControl(control,option, painter, widget);
     }
 }
 
@@ -108,7 +108,7 @@ void MpcVolumeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOpti
                                 QPoint(groove.x() + groove.width() -2 , groove.y()  ),
                             };
                     QPen oldPen = p->pen();
-                    
+
                     p->setPen(slider->palette.dark().color());
                     p->drawLine(QPoint(points[0].x(), points[0].y() -2 ),QPoint(points[2].x(), points[2].y()));
 
@@ -127,11 +127,13 @@ void MpcVolumeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOpti
             }
 
             if (slider->subControls & SC_SliderHandle) {
+                /*
                 const QColor c0 = slider->palette.shadow().color();
                 const QColor c1 = slider->palette.dark().color();
                 // const QColor c2 = g.button();
                 const QColor c3 = slider->palette.midlight().color();
                 const QColor c4 = slider->palette.light().color();
+                */
                 QBrush handleBrush;
 
                 if (slider->state & State_Enabled) {
@@ -163,7 +165,7 @@ void MpcVolumeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOpti
     }
     else
     {
-        QWindowsStyle::drawComplexControl(cc,opt,p,widget);
+        QProxyStyle::drawComplexControl(cc,opt,p,widget);
     }
 }
 
@@ -196,11 +198,13 @@ void MpcTimeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOption
             }
 
             if (slider->subControls & SC_SliderHandle) {
+                /*
                 const QColor c0 = slider->palette.shadow().color();
                 const QColor c1 = slider->palette.dark().color();
                 // const QColor c2 = g.button();
                 const QColor c3 = slider->palette.midlight().color();
                 const QColor c4 = slider->palette.light().color();
+                */
                 QBrush handleBrush;
 
                 if (slider->state & State_Enabled) {
@@ -233,7 +237,7 @@ void MpcTimeSlideStyle::drawComplexControl(ComplexControl cc, const QStyleOption
     }
     else
     {
-        QWindowsStyle::drawComplexControl(cc,opt,p,widget);
+        QProxyStyle::drawComplexControl(cc,opt,p,widget);
     }
 }
 
