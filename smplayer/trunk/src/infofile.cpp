@@ -95,7 +95,15 @@ QString InfoFile::getInfo(MediaData md) {
 	if (!md.clip_author.isEmpty()) c+= addItem( tr("Author"), md.clip_author );
 	if (!md.clip_album.isEmpty()) c+= addItem( tr("Album"), md.clip_album );
 	if (!md.clip_genre.isEmpty()) c+= addItem( tr("Genre"), md.clip_genre );
-	if (!md.clip_date.isEmpty()) c+= addItem( tr("Date"), md.clip_date );
+	if (!md.clip_date.isEmpty()) {
+		QString s = md.clip_date;
+		QDateTime d = QDateTime::fromString(md.clip_date, Qt::ISODate);
+		if (d.isValid()) {
+			s = d.toString("yyyy-MM-dd hh:mm:ss");
+			/* s = QLocale::system().toString(d, QLocale::ShortFormat); */
+		}
+		c+= addItem( tr("Date"), s );
+	}
 	if (!md.clip_track.isEmpty()) c+= addItem( tr("Track"), md.clip_track );
 	if (!md.clip_copyright.isEmpty()) c+= addItem( tr("Copyright"), md.clip_copyright );
 	if (!md.clip_comment.isEmpty()) c+= addItem( tr("Comment"), md.clip_comment );
