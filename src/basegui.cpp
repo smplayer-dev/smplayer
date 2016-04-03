@@ -1603,7 +1603,7 @@ void BaseGui::enableActionsOnPlaying() {
 
 
 #ifdef BOOKMARKS
-	if (pref->dont_remember_media_settings || core->mdat.type != TYPE_FILE) {
+	if (pref->dont_remember_media_settings || (core->mdat.type != TYPE_FILE && core->mdat.type != TYPE_STREAM)) {
 		addBookmarkAct->setEnabled(false);
 		editBookmarksAct->setEnabled(false);
 	} else {
