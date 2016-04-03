@@ -464,6 +464,7 @@ protected:
 
 #ifndef NO_USE_INI_FILES
 	void saveMediaInfo();
+	void restoreSettingsForMedia(const QString & name, int type);
 #endif
 
     void initializeMenus();

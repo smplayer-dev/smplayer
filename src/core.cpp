@@ -392,12 +392,43 @@ void Core::saveMediaInfo() {
 		return;
 	}
 
-	if ( (mdat.type == TYPE_FILE) && (!mdat.filename.isEmpty()) ) {
-		file_settings->saveSettingsFor(mdat.filename, mset, proc->player());
+	if ( (mdat.type == TYPE_FILE || mdat.type == TYPE_STREAM) && (!mdat.filename.isEmpty()) ) {
+		file_settings->saveSettingsFor(mdat.filename, mdat.type, mset, proc->player());
 	}
 	else
 	if ( (mdat.type == TYPE_TV) && (!mdat.filename.isEmpty()) ) {
-		tv_settings->saveSettingsFor(mdat.filename, mset, proc->player());
+		tv_settings->saveSettingsFor(mdat.filename, mdat.type, mset, proc->player());
+	}
+}
+
+void Core::restoreSettingsForMedia(const QString & name, int type) {
+	qDebug() << "Core::restoreSettingsForMedia:" << name << "type:" << type;
+
+	if (!pref->dont_remember_media_settings) {
+		file_settings->loadSettingsFor(name, type, mset, proc->player());
+		qDebug("Core::restoreSettingsForMedia: media settings read");
+
+		// Resize the window and set the aspect as soon as possible
+		int saved_width = mset.win_width;
+		int saved_height = mset.win_height;
+		// 400x300 is the default size for win_width and win_height
+		// so we set them to 0 to avoid to resize the window on
+		// audio files
+		if ((saved_width == 400) && (saved_height == 300)) {
+			saved_width = 0;
+			saved_height = 0;
+		}
+		if ((saved_width > 0) && (saved_height > 0)) {
+			emit needResize(mset.win_width, mset.win_height);
+			changeAspectRatio(mset.aspect_ratio_id);
+		}
+
+		if (pref->dont_remember_time_pos) {
+			mset.current_sec = 0;
+			qDebug("Core::restoreSettingsForMedia: time pos reset to 0");
+		}
+	} else {
+		qDebug("Core::restoreSettingsForMedia: media settings have not read because of preferences setting");
 	}
 }
 #endif // NO_USE_INI_FILES
@@ -884,11 +915,11 @@ void Core::openTV(QString channel_id) {
 #ifndef NO_USE_INI_FILES
 	if (!pref->dont_remember_media_settings) {
 		// Check if we already have info about this file
-		if (tv_settings->existSettingsFor(channel_id)) {
+		if (tv_settings->existSettingsFor(channel_id, mdat.type)) {
 			qDebug("Core::openTV: we have settings for this file!!!");
 
 			// In this case we read info from config
-			tv_settings->loadSettingsFor(channel_id, mset, proc->player());
+			tv_settings->loadSettingsFor(channel_id, mdat.type, mset, proc->player());
 			qDebug("Core::openTV: media settings read");
 		}
 	}
@@ -938,6 +969,14 @@ void Core::openStream(QString name) {
 
 	mset.reset();
 
+#ifndef NO_USE_INI_FILES
+	// Check if we already have info about this file
+	if (file_settings->existSettingsFor(name, mdat.type)) {
+		qDebug("Core::openStream: we have settings for this stream");
+		restoreSettingsForMedia(name, mdat.type);
+	}
+#endif
+
 	/* initializeMenus(); */
 
 	initPlaying();
@@ -966,36 +1005,9 @@ void Core::playNewFile(QString file, int seek) {
 
 #ifndef NO_USE_INI_FILES
 	// Check if we already have info about this file
-	if (file_settings->existSettingsFor(file)) {
-		qDebug("Core::playNewFile: We have settings for this file!!!");
-
-		// In this case we read info from config
-		if (!pref->dont_remember_media_settings) {
-			file_settings->loadSettingsFor(file, mset, proc->player());
-			qDebug("Core::playNewFile: Media settings read");
-
-			// Resize the window and set the aspect as soon as possible
-			int saved_width = mset.win_width;
-			int saved_height = mset.win_height;
-			// 400x300 is the default size for win_width and win_height
-			// so we set them to 0 to avoid to resize the window on
-			// audio files
-			if ((saved_width == 400) && (saved_height == 300)) {
-				saved_width = 0;
-				saved_height = 0;
-			}
-			if ((saved_width > 0) && (saved_height > 0)) {
-				emit needResize(mset.win_width, mset.win_height);
-				changeAspectRatio(mset.aspect_ratio_id);
-			}
-
-			if (pref->dont_remember_time_pos) {
-				mset.current_sec = 0;
-				qDebug("Core::playNewFile: Time pos reset to 0");
-			}
-		} else {
-			qDebug("Core::playNewFile: Media settings have not read because of preferences setting");
-		}
+	if (file_settings->existSettingsFor(file, mdat.type)) {
+		qDebug("Core::playNewFile: we have settings for this file");
+		restoreSettingsForMedia(file, mdat.type);
 	} else {
 		// Recover volume
 		mset.volume = old_volume;

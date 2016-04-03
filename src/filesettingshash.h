@@ -27,14 +27,14 @@ public:
 	FileSettingsHash(QString directory);
 	virtual ~FileSettingsHash();
 
-	virtual bool existSettingsFor(QString filename);
+	virtual bool existSettingsFor(QString filename, int type);
 
-	virtual void loadSettingsFor(QString filename, MediaSettings & mset, int player);
+	virtual void loadSettingsFor(QString filename, int type, MediaSettings & mset, int player);
 
-	virtual void saveSettingsFor(QString filename, MediaSettings & mset, int player);
+	virtual void saveSettingsFor(QString filename, int type, MediaSettings & mset, int player);
 
 private:
-	QString configFile(const QString & filename, QString * output_dir = 0);
+	QString configFile(const QString & filename, int type, QString * output_dir = 0);
 	QString base_dir;
 };
 
