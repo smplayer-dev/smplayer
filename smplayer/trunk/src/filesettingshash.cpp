@@ -18,10 +18,12 @@
 
 #include "filesettingshash.h"
 #include "mediasettings.h"
+#include "mediadata.h"
 #include "filehash.h" // hash function
 #include <QSettings>
 #include <QFile>
 #include <QDir>
+#include <QDebug>
 
 FileSettingsHash::FileSettingsHash(QString directory) : FileSettingsBase(directory) 
 {
@@ -32,10 +34,17 @@ FileSettingsHash::~FileSettingsHash() {
 }
 
 
-QString FileSettingsHash::configFile(const QString & filename, QString * output_dir) {
+QString FileSettingsHash::configFile(const QString & filename, int type, QString * output_dir) {
 	QString res;
 
-	QString hash = FileHash::calculateHash(filename);
+	QString hash;
+	if (type == TYPE_FILE) {
+		hash = FileHash::calculateHash(filename);
+	} else {
+		QByteArray ba = filename.toUtf8();
+		hash = ba.toBase64();
+	}
+
 	if (!hash.isEmpty()) {
 		if (output_dir != 0) (*output_dir) = hash[0];
 		res = base_dir +"/"+ hash[0] +"/"+ hash + ".ini";
@@ -43,22 +52,26 @@ QString FileSettingsHash::configFile(const QString & filename, QString * output_
 	return res;
 }
 
-bool FileSettingsHash::existSettingsFor(QString filename) {
-	qDebug("FileSettingsHash::existSettingsFor: '%s'", filename.toUtf8().constData());
+bool FileSettingsHash::existSettingsFor(QString filename, int type) {
+	qDebug() << "FileSettingsHash::existSettingsFor:" << filename;
 
-	QString config_file = configFile(filename);
+	if (type != TYPE_FILE && type != TYPE_STREAM) return false;
 
-	qDebug("FileSettingsHash::existSettingsFor: config_file: '%s'", config_file.toUtf8().constData());
+	QString config_file = configFile(filename, type);
+
+	qDebug() << "FileSettingsHash::existSettingsFor: config_file:" << config_file;
 
 	return QFile::exists(config_file);
 }
 
-void FileSettingsHash::loadSettingsFor(QString filename, MediaSettings & mset, int player) {
-	qDebug("FileSettings::loadSettingsFor: '%s'", filename.toUtf8().constData());
+void FileSettingsHash::loadSettingsFor(QString filename, int type, MediaSettings & mset, int player) {
+	qDebug() << "FileSettings::loadSettingsFor:" << filename << "type:" << type;
 
-	QString config_file = configFile(filename);
+	if (type != TYPE_FILE && type != TYPE_STREAM) return;
 
-	qDebug("FileSettingsHash::loadSettingsFor: config_file: '%s'", config_file.toUtf8().constData());
+	QString config_file = configFile(filename, type);
+
+	qDebug() << "FileSettingsHash::loadSettingsFor: config_file:" << config_file;
 
 	mset.reset();
 
@@ -71,14 +84,16 @@ void FileSettingsHash::loadSettingsFor(QString filename, MediaSettings & mset, i
 	}
 }
 
-void FileSettingsHash::saveSettingsFor(QString filename, MediaSettings & mset, int player) {
-	qDebug("FileSettingsHash::saveSettingsFor: '%s'", filename.toUtf8().constData());
+void FileSettingsHash::saveSettingsFor(QString filename, int type, MediaSettings & mset, int player) {
+	qDebug() << "FileSettingsHash::saveSettingsFor:" << filename << "type:" << type;
+
+	if (type != TYPE_FILE && type != TYPE_STREAM) return;
 
 	QString output_dir;
-	QString config_file = configFile(filename, &output_dir);
+	QString config_file = configFile(filename, type, &output_dir);
 
-	qDebug("FileSettingsHash::saveSettingsFor: config_file: '%s'", config_file.toUtf8().constData());
-	qDebug("FileSettingsHash::saveSettingsFor: output_dir: '%s'", output_dir.toUtf8().constData());
+	qDebug() << "FileSettingsHash::saveSettingsFor: config_file:" << config_file;
+	qDebug() << "FileSettingsHash::saveSettingsFor: output_dir:" << output_dir;
 
 	if (!config_file.isEmpty()) {
 		QDir d(base_dir);
