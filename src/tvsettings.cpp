@@ -20,6 +20,7 @@
 #include "mediasettings.h"
 #include <QSettings>
 #include <QFileInfo>
+#include <QDebug>
 
 TVSettings::TVSettings(QString directory) : FileSettingsBase(directory) 
 {
@@ -42,11 +43,11 @@ QString TVSettings::filenameToGroupname(const QString & filename) {
 }
 
 bool TVSettings::existSettingsFor(QString filename, int type) {
-	qDebug("TVSettings::existSettingsFor: '%s'", filename.toUtf8().constData());
+	qDebug() << "TVSettings::existSettingsFor:" << filename;
 
 	QString group_name = filenameToGroupname(filename);
 
-	qDebug("TVSettings::existSettingsFor: group_name: '%s'", group_name.toUtf8().constData());
+	qDebug() << "TVSettings::existSettingsFor: group_name:'" << group_name;
 
 	my_settings->beginGroup( group_name );
 	bool saved = my_settings->value("saved", false).toBool();
@@ -56,11 +57,11 @@ bool TVSettings::existSettingsFor(QString filename, int type) {
 }
 
 void TVSettings::loadSettingsFor(QString filename, int type, MediaSettings & mset, int player) {
-	qDebug("TVSettings::loadSettingsFor: '%s'", filename.toUtf8().constData());
+	qDebug() << "TVSettings::loadSettingsFor:" << filename;
 
 	QString group_name = filenameToGroupname(filename);
 
-	qDebug("TVSettings::loadSettingsFor: group_name: '%s'", group_name.toUtf8().constData());
+	qDebug() << "TVSettings::loadSettingsFor: group_name:" << group_name;
 
 	mset.reset();
 
@@ -70,11 +71,11 @@ void TVSettings::loadSettingsFor(QString filename, int type, MediaSettings & mse
 }
 
 void TVSettings::saveSettingsFor(QString filename, int type, MediaSettings & mset, int player) {
-	qDebug("TVSettings::saveSettingsFor: '%s'", filename.toUtf8().constData());
+	qDebug() << "TVSettings::saveSettingsFor" << filename;
 
 	QString group_name = filenameToGroupname(filename);
 
-	qDebug("TVSettings::saveSettingsFor: group_name: '%s'", group_name.toUtf8().constData());
+	qDebug() << "TVSettings::saveSettingsFor: group_name:" << group_name;
 
 	my_settings->beginGroup( group_name );
 	my_settings->setValue("saved", true);
