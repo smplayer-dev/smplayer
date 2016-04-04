@@ -970,6 +970,11 @@ void Core::openStream(QString name) {
 	mset.reset();
 
 #ifndef NO_USE_INI_FILES
+	#ifdef YOUTUBE_SUPPORT
+	if (PREF_YT_ENABLED) {
+		if (mdat.filename == yt->latestPreferredUrl()) name = yt->origUrl();
+	}
+	#endif
 	// Check if we already have info about this file
 	if (file_settings->existSettingsFor(name, mdat.type)) {
 		qDebug("Core::openStream: we have settings for this stream");
