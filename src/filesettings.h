@@ -35,7 +35,7 @@ public:
 
 	virtual void saveSettingsFor(QString filename, int type, MediaSettings & mset, int player);
 
-	static QString filenameToGroupname(const QString & filename);
+	static QString filenameToGroupname(const QString & filename, int type);
 
 private:
 	QSettings * my_settings;
