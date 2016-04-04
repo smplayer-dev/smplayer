@@ -99,7 +99,7 @@ void FileSettingsHash::saveSettingsFor(QString filename, int type, MediaSettings
 		QDir d(base_dir);
 		if (!d.exists(output_dir)) {
 			if (!d.mkpath(output_dir)) {
-				qWarning("FileSettingsHash::saveSettingsFor: can't create directory '%s'", QString(base_dir + "/" + output_dir).toUtf8().constData());
+				qWarning() << "FileSettingsHash::saveSettingsFor: can't create directory" << QString(base_dir + "/" + output_dir);
 				return;
 			}
 		}
