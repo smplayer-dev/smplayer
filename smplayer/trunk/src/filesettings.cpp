@@ -32,7 +32,7 @@ FileSettings::~FileSettings() {
 	delete my_settings;
 }
 
-QString FileSettings::filenameToGroupname(const QString & filename) {
+QString FileSettings::filenameToGroupname(const QString & filename, int type) {
 	QString s = filename;
 	s = s.replace('/', '_');
 	s = s.replace('\\', '_');
@@ -40,12 +40,14 @@ QString FileSettings::filenameToGroupname(const QString & filename) {
 	s = s.replace('.', '_');
 	s = s.replace(' ', '_');
 
-	QFileInfo fi(filename);
-	if (fi.exists()) {
-		s += "_" + QString::number( fi.size() );
+	if (type == TYPE_FILE) {
+		QFileInfo fi(filename);
+		if (fi.exists()) {
+			s += "_" + QString::number(fi.size());
+		}
 	}
 
-	return s;	
+	return s;
 }
 
 bool FileSettings::existSettingsFor(QString filename, int type) {
@@ -53,7 +55,7 @@ bool FileSettings::existSettingsFor(QString filename, int type) {
 
 	if (type != TYPE_FILE && type != TYPE_STREAM) return false;
 
-	QString group_name = filenameToGroupname(filename);
+	QString group_name = filenameToGroupname(filename, type);
 
 	qDebug() << "FileSettings::existSettingsFor: group_name:" << group_name;
 
@@ -69,7 +71,7 @@ void FileSettings::loadSettingsFor(QString filename, int type, MediaSettings & m
 
 	if (type != TYPE_FILE && type != TYPE_STREAM) return;
 
-	QString group_name = filenameToGroupname(filename);
+	QString group_name = filenameToGroupname(filename, type);
 
 	qDebug() << "FileSettings::loadSettingsFor: group_name:" << group_name;
 
@@ -85,7 +87,7 @@ void FileSettings::saveSettingsFor(QString filename, int type, MediaSettings & m
 
 	if (type != TYPE_FILE && type != TYPE_STREAM) return;
 
-	QString group_name = filenameToGroupname(filename);
+	QString group_name = filenameToGroupname(filename, type);
 
 	qDebug() << "FileSettings::saveSettingsFor: group_name:" << group_name;
 
