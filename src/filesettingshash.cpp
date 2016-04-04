@@ -41,7 +41,11 @@ QString FileSettingsHash::configFile(const QString & filename, int type, QString
 	if (type == TYPE_FILE) {
 		hash = FileHash::calculateHash(filename);
 	} else {
-		QByteArray ba = filename.toUtf8();
+		QByteArray ba;
+		for (int n = filename.count()-1; n >= 0; --n) {
+			ba += filename.at(n);
+		}
+		//qDebug() << "FileSettingsHash::configFile: ba:" << ba;
 		hash = ba.toBase64();
 	}
 
