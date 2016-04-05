@@ -23,6 +23,7 @@
 #include <QFileInfo>
 #include <QCoreApplication>
 #include <QFile>
+#include <QDateTime>
 #include <QDebug>
 
 InfoFile::InfoFile(QObject * parent)
