@@ -23,6 +23,10 @@
 
 int main( int argc, char ** argv ) 
 {
+#if QT_VERSION >= 0x050600
+	QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#endif
+	
 	MyApplication a( "smplayer", argc, argv );
 	/*
 	if (a.isRunning()) { 
