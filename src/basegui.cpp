@@ -5581,6 +5581,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 				#endif
 			}
 			#ifdef MG_DELAYED_SEEK
+			/*
 			int time = qAbs(delayed_seek_value);
 			int minutes = time / 60;
 			int seconds = time - (minutes * 60);
@@ -5588,6 +5589,10 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 			if (delayed_seek_value >= 0) s = "+"; else s = "-";
 			s += QString("%1").arg(minutes, 2, 10, QChar('0')) + ":";
 			s += QString("%1").arg(seconds, 2, 10, QChar('0'));
+			*/
+			int time = core->mset.current_sec + delayed_seek_value;
+			QString s;
+			s = tr("Jump to %1").arg(Helper::formatTime(time));
 			if (pref->fullscreen) {
 				core->displayTextOnOSD(s, 1000);
 			} else {
