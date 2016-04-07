@@ -166,6 +166,8 @@ void Playlist::createTable() {
 	//listView->setAlternatingRowColors(true);
 
 #if QT_VERSION >= 0x050000
+	QScroller::grabGesture(listView->viewport(), QScroller::LeftMouseButtonGesture);
+
 	listView->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
 	listView->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
 #else
@@ -184,10 +186,6 @@ void Playlist::createTable() {
 	listView->setAcceptDrops(true);
 	listView->setDropIndicatorShown(true);
 	listView->setDragDropMode(QAbstractItemView::InternalMove);
-#endif
-
-#if QT_VERSION >= 0x050000
-	QScroller::grabGesture(listView->viewport(), QScroller::LeftMouseButtonGesture);
 #endif
 
 	connect( listView, SIGNAL(cellActivated(int,int)),

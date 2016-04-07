@@ -24,11 +24,14 @@
 #include <QItemDelegate>
 #include "filechooser.h"
 
+#if QT_VERSION >= 0x050000
+#include <QScroller>
+#endif
+
 #define COL_ICON 0
 #define COL_NAME 1
 #define COL_FILE 2
 
-#include <QItemDelegate>
 
 class FEDelegate : public QItemDelegate 
 {
@@ -95,6 +98,8 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 
 	table->setAlternatingRowColors(true);
 #if QT_VERSION >= 0x050000
+	QScroller::grabGesture(table->viewport(), QScroller::LeftMouseButtonGesture);
+
 	table->horizontalHeader()->setSectionResizeMode(COL_FILE, QHeaderView::Stretch);
 #else
 	table->horizontalHeader()->setResizeMode(COL_FILE, QHeaderView::Stretch);

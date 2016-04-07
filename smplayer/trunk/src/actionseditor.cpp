@@ -158,9 +158,7 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 
 #if QT_VERSION >= 0x050000
 	QScroller::grabGesture(actionsTable->viewport(), QScroller::LeftMouseButtonGesture);
-#endif
 
-#if QT_VERSION >= 0x050000
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_DESC, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_CONFLICTS, QHeaderView::ResizeToContents);

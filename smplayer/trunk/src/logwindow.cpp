@@ -37,8 +37,8 @@ LogWindow::LogWindow( QWidget* parent )
 	setupUi(this);
 
 	browser->setFont( QFont("fixed") );
-	
-	#if QT_VERSION >= 0x050000
+
+#if QT_VERSION >= 0x050000
 	QScroller::grabGesture(browser, QScroller::LeftMouseButtonGesture);
 #endif
 
