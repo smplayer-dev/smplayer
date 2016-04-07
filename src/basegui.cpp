@@ -5555,6 +5555,11 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 
 		int h_desp = qAbs(diff.x());
 		int v_desp = qAbs(diff.y());
+		
+		int d = qAbs(h_desp - v_desp);
+		
+		//qDebug() << "BaseGui::processMouseMovedDiff: h_desp:" << h_desp << "v_desp:" << v_desp << "d:" << d;
+		if (d < 2) return;
 
 		if (h_desp > v_desp) {
 			// Horizontal
@@ -5581,7 +5586,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 			int seconds = time - (minutes * 60);
 			QString s;
 			if (delayed_seek_value >= 0) s = "+"; else s = "-";
-			if (minutes > 0) s += QString("%1").arg(minutes, 2, 10, QChar('0')) + ":";
+			s += QString("%1").arg(minutes, 2, 10, QChar('0')) + ":";
 			s += QString("%1").arg(seconds, 2, 10, QChar('0'));
 			if (pref->fullscreen) {
 				core->displayTextOnOSD(s, 1000);
@@ -5589,7 +5594,9 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 				displayMessage(s, 1000);
 			}
 			#endif
-		} else {
+		} 
+		else
+		if (h_desp < v_desp) {
 			// Vertical
 			if (diff.y() > t) core->decVolume(1);
 			else
