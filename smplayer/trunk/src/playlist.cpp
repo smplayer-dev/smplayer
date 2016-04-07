@@ -43,6 +43,10 @@
 #include <QDomDocument>
 #include <QDebug>
 
+#if QT_VERSION >= 0x050000
+#include <QScroller>
+#endif
+
 #include "mytablewidget.h"
 #include "myaction.h"
 #include "filedialog.h"
@@ -180,6 +184,10 @@ void Playlist::createTable() {
 	listView->setAcceptDrops(true);
 	listView->setDropIndicatorShown(true);
 	listView->setDragDropMode(QAbstractItemView::InternalMove);
+#endif
+
+#if QT_VERSION >= 0x050000
+	QScroller::grabGesture(listView->viewport(), QScroller::LeftMouseButtonGesture);
 #endif
 
 	connect( listView, SIGNAL(cellActivated(int,int)),
