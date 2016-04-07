@@ -30,6 +30,10 @@
 #include "winfileassoc.h"
 #include "extensions.h"
 
+#if QT_VERSION >= 0x050000
+#include <QScroller>
+#endif
+
 static Qt::CheckState CurItemCheckState = Qt::Unchecked; 
 
 
@@ -37,6 +41,10 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 : PrefWidget(parent, f )
 {
 	setupUi(this);
+
+#if QT_VERSION >= 0x050000
+	QScroller::grabGesture(listWidget->viewport(), QScroller::LeftMouseButtonGesture);
+#endif
 
 	connect(selectAll, SIGNAL(clicked(bool)), this, SLOT(selectAllClicked(bool)));
 	connect(selectNone, SIGNAL(clicked(bool)), this, SLOT(selectNoneClicked(bool)));
