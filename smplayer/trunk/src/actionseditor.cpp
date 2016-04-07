@@ -44,6 +44,9 @@
 
 #include "shortcutgetter.h"
 
+#if QT_VERSION >= 0x050000
+#include <QScroller>
+#endif
 
 /*
 #include <QLineEdit>
@@ -152,6 +155,10 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	actionsTable = new QTableWidget(0, COL_NAME +1, this);
 	actionsTable->setSelectionMode( QAbstractItemView::SingleSelection );
 	actionsTable->verticalHeader()->hide();
+
+#if QT_VERSION >= 0x050000
+	QScroller::grabGesture(actionsTable->viewport(), QScroller::LeftMouseButtonGesture);
+#endif
 
 #if QT_VERSION >= 0x050000
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_DESC, QHeaderView::Stretch);
