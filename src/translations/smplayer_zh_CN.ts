@@ -1934,7 +1934,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>正在连接到 1%</translation>
+        <translation>正在连接到 %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -2114,7 +2114,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="558"/>
         <source>Connecting to %1</source>
-        <translation>正在连接到 1%</translation>
+        <translation>正在连接到 %1</translation>
     </message>
 </context>
 <context>
@@ -2387,7 +2387,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="60"/>
         <source>Connecting to %1</source>
-        <translation>正在连接到 1%</translation>
+        <translation>正在连接到 %1</translation>
     </message>
 </context>
 <context>
@@ -4926,7 +4926,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation>将 1% 选项传送给 MPlayer (安全风险)(&amp;s)</translation>
+        <translation>将 %1 选项传送给 MPlayer (安全风险)(&amp;s)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -4961,7 +4961,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../prefadvanced.cpp" line="491"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation>将 1% 选项传送给 MPlayer (安全风险)</translation>
+        <translation>将 %1 选项传送给 MPlayer (安全风险)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="499"/>
