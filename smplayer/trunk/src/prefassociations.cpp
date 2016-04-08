@@ -31,7 +31,7 @@
 #include "extensions.h"
 
 #if QT_VERSION >= 0x050000
-#include <QScroller>
+#include "myscroller.h"
 #endif
 
 static Qt::CheckState CurItemCheckState = Qt::Unchecked; 
@@ -43,7 +43,7 @@ PrefAssociations::PrefAssociations(QWidget * parent, Qt::WindowFlags f)
 	setupUi(this);
 
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(listWidget->viewport(), QScroller::LeftMouseButtonGesture);
+	MyScroller::setScroller(listWidget->viewport());
 #endif
 
 	connect(selectAll, SIGNAL(clicked(bool)), this, SLOT(selectAllClicked(bool)));

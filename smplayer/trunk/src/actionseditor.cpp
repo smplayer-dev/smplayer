@@ -45,7 +45,7 @@
 #include "shortcutgetter.h"
 
 #if QT_VERSION >= 0x050000
-#include <QScroller>
+#include "myscroller.h"
 #endif
 
 /*
@@ -157,7 +157,7 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	actionsTable->verticalHeader()->hide();
 
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(actionsTable->viewport(), QScroller::LeftMouseButtonGesture);
+	MyScroller::setScroller(actionsTable->viewport());
 
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_DESC, QHeaderView::Stretch);
 	actionsTable->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);

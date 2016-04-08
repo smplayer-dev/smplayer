@@ -44,7 +44,7 @@
 #include <QDebug>
 
 #if QT_VERSION >= 0x050000
-#include <QScroller>
+#include "myscroller.h"
 #endif
 
 #include "mytablewidget.h"
@@ -166,7 +166,7 @@ void Playlist::createTable() {
 	//listView->setAlternatingRowColors(true);
 
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(listView->viewport(), QScroller::LeftMouseButtonGesture);
+	MyScroller::setScroller(listView->viewport());
 
 	listView->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
 	listView->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);

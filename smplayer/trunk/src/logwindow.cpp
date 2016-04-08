@@ -28,7 +28,7 @@
 #include "images.h"
 
 #if QT_VERSION >= 0x050000
-#include <QScroller>
+#include "myscroller.h"
 #endif
 
 LogWindow::LogWindow( QWidget* parent )
@@ -39,7 +39,7 @@ LogWindow::LogWindow( QWidget* parent )
 	browser->setFont( QFont("fixed") );
 
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(browser, QScroller::LeftMouseButtonGesture);
+	MyScroller::setScroller(browser);
 #endif
 
 	retranslateStrings();
