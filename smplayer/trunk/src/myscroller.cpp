@@ -24,9 +24,9 @@
 #include <QScrollerProperties>
 #endif
 
-void MyScroller::setScroller(QObject * w) {
+void MyScroller::setScroller(QObject * w, bool touch) {
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(w, QScroller::LeftMouseButtonGesture);
+	QScroller::grabGesture(w, touch ? QScroller::TouchGesture : QScroller::LeftMouseButtonGesture);
 
 	// Change properties
 	QVariant overshoot = QVariant::fromValue<QScrollerProperties::OvershootPolicy>(QScrollerProperties::OvershootAlwaysOff);
