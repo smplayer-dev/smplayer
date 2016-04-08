@@ -36,6 +36,10 @@
 #include "prefassociations.h"
 #endif
 
+#if QT_VERSION >= 0x050000
+#include "myscroller.h"
+#endif
+
 #include "preferences.h"
 
 #include <QVBoxLayout>
@@ -66,6 +70,10 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	help_window->setWindowTitle( tr("SMPlayer - Help") );
 	help_window->setWindowIcon( Images::icon("logo") );
 	help_window->setOpenExternalLinks(true);
+
+	#if QT_VERSION >= 0x050000
+	MyScroller::setScroller(help_window);
+#endif
 
 	page_general = new PrefGeneral;
 	addSection( page_general );
