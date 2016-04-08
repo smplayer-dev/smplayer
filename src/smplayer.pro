@@ -146,6 +146,7 @@ HEADERS += guiconfig.h \
 	recents.h \
 	urlhistory.h \
 	core.h \
+	myscroller.h \
 	logwindow.h \
 	infofile.h \
 	seekwidget.h \
@@ -244,6 +245,7 @@ SOURCES	+= version.cpp \
 	recents.cpp \
 	urlhistory.cpp \
 	core.cpp \
+	myscroller.cpp \
 	logwindow.cpp \
 	infofile.cpp \
 	seekwidget.cpp \

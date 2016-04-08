@@ -26,7 +26,7 @@
 #include "playerid.h"
 
 #if QT_VERSION >= 0x050000
-#include <QScroller>
+#include "myscroller.h"
 #endif
 
 FilePropertiesDialog::FilePropertiesDialog( QWidget* parent, Qt::WindowFlags f )
@@ -53,10 +53,10 @@ FilePropertiesDialog::FilePropertiesDialog( QWidget* parent, Qt::WindowFlags f )
 #endif
 
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(info_edit, QScroller::LeftMouseButtonGesture);
-	QScroller::grabGesture(demuxer_listbox->viewport(), QScroller::LeftMouseButtonGesture);
-	QScroller::grabGesture(vc_listbox->viewport(), QScroller::LeftMouseButtonGesture);
-	QScroller::grabGesture(ac_listbox->viewport(), QScroller::LeftMouseButtonGesture);
+	MyScroller::setScroller(info_edit);
+	MyScroller::setScroller(demuxer_listbox->viewport());
+	MyScroller::setScroller(vc_listbox->viewport());
+	MyScroller::setScroller(ac_listbox->viewport());
 #endif
 
 	retranslateStrings();

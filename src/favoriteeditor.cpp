@@ -25,7 +25,7 @@
 #include "filechooser.h"
 
 #if QT_VERSION >= 0x050000
-#include <QScroller>
+#include "myscroller.h"
 #endif
 
 #define COL_ICON 0
@@ -98,7 +98,7 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 
 	table->setAlternatingRowColors(true);
 #if QT_VERSION >= 0x050000
-	QScroller::grabGesture(table->viewport(), QScroller::LeftMouseButtonGesture);
+	MyScroller::setScroller(table->viewport());
 
 	table->horizontalHeader()->setSectionResizeMode(COL_FILE, QHeaderView::Stretch);
 #else
