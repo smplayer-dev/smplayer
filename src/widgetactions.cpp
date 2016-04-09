@@ -46,8 +46,7 @@ void MyWidgetAction::disable() {
 void MyWidgetAction::propagate_enabled(bool b) {
 	QList<QWidget *> l = createdWidgets();
 	for (int n=0; n < l.count(); n++) {
-		TimeSlider *s = (TimeSlider*) l[n];
-		s->setEnabled(b);;
+		l[n]->setEnabled(b);
 	}
 	setEnabled(b);
 }
