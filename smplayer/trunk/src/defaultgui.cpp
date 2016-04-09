@@ -432,7 +432,7 @@ void DefaultGui::createFloatingControl() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
-	floatingcontrol_actions << "play" << "pause" << "stop" << "separator";
+	floatingcontrol_actions << "play_or_pause" << "stop" << "separator";
 	#if MINI_ARROW_BUTTONS
 	floatingcontrol_actions << "rewindbutton_action";
 	#else
@@ -447,8 +447,11 @@ void DefaultGui::createFloatingControl() {
 	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action";
 	iw->setDefaultActions(floatingcontrol_actions);
 #else
+	/*
 	iw->addAction(playAct);
 	iw->addAction(pauseAct);
+	*/
+	iw->addAction(playOrPauseAct);
 	iw->addAction(stopAct);
 	iw->addSeparator();
 
