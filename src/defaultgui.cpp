@@ -62,6 +62,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 
 	connect( this, SIGNAL(timeChanged(QString)),
              this, SLOT(displayTime(QString)) );
+	connect( this, SIGNAL(secondChanged(double)),
+             this, SLOT(displayCurrentTime(double)));
     connect( this, SIGNAL(frameChanged(int)),
              this, SLOT(displayFrame(int)) );
 	connect( this, SIGNAL(ABMarkersChanged(int,int)),
@@ -139,6 +141,14 @@ void DefaultGui::createActions() {
 	// Create the time label
 	time_label_action = new TimeLabelAction(this);
 	time_label_action->setObjectName("timelabel_action");
+
+	current_time_label_action = new TimeLabelAction(this);
+	current_time_label_action->setObjectName("currenttimelabel_action");
+	current_time_label_action->setText("00:00:00");
+
+	total_time_label_action = new TimeLabelAction(this);
+	total_time_label_action->setObjectName("totaltimelabel_action");
+	total_time_label_action->setText("00:00:00");
 
 #if MINI_ARROW_BUTTONS
 	QList<QAction*> rewind_actions;
@@ -591,6 +601,11 @@ void DefaultGui::retranslateStrings() {
 void DefaultGui::displayTime(QString text) {
 	time_display->setText( text );
 	time_label_action->setText(text);
+}
+
+void DefaultGui::displayCurrentTime(double t) {
+	current_time_label_action->setText(Helper::formatTime((int) t));
+	total_time_label_action->setText(Helper::formatTime((int) core->mdat.duration));
 }
 
 void DefaultGui::displayFrame(int frame) {
