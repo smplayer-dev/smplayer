@@ -438,13 +438,13 @@ void DefaultGui::createFloatingControl() {
 	#else
 	floatingcontrol_actions << "rewind3" << "rewind2" << "rewind1";
 	#endif
-	floatingcontrol_actions << "timeslider_action";
+	floatingcontrol_actions << "currenttimelabel_action" << "timeslider_action" << "totaltimelabel_action";
 	#if MINI_ARROW_BUTTONS
 	floatingcontrol_actions << "forwardbutton_action";
 	#else
 	floatingcontrol_actions << "forward1" << "forward2" << "forward3";
 	#endif
-	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action" << "separator" << "timelabel_action";
+	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action";
 	iw->setDefaultActions(floatingcontrol_actions);
 #else
 	iw->addAction(playAct);
@@ -460,7 +460,9 @@ void DefaultGui::createFloatingControl() {
 	iw->addAction(rewind1Act);
 	#endif
 
+	iw->addAction(current_time_label_action);
 	iw->addAction(timeslider_action);
+	iw->addAction(total_time_label_action);
 
 	#if MINI_ARROW_BUTTONS
 	iw->addAction( forwardbutton_action );
@@ -474,8 +476,10 @@ void DefaultGui::createFloatingControl() {
 	iw->addAction(fullscreenAct);
 	iw->addAction(muteAct);
 	iw->addAction(volumeslider_action);
+	/*
 	iw->addSeparator();
 	iw->addAction(time_label_action);
+	*/
 #endif // USE_CONFIGURABLE_TOOLBARS
 
 	floating_control->setInternalWidget(iw);
