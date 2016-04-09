@@ -219,14 +219,17 @@ void TimeLabelAction::setText(QString s) {
 QWidget * TimeLabelAction::createWidget ( QWidget * parent ) {
 	QLabel * time_label = new QLabel(parent);
 	time_label->setObjectName("time_label");
-    time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
-    time_label->setAutoFillBackground(true);
+	time_label->setAlignment(Qt::AlignVCenter | Qt::AlignHCenter);
+	time_label->setAutoFillBackground(true);
 
-    ColorUtils::setBackgroundColor( time_label, QColor(0,0,0) );
-    ColorUtils::setForegroundColor( time_label, QColor(255,255,255) );
-    time_label->setText( "00:00:00 / 00:00:00" );
-    time_label->setFrameShape( QFrame::Panel );
-    time_label->setFrameShadow( QFrame::Sunken );
+	ColorUtils::setBackgroundColor( time_label, QColor(0,0,0) );
+	ColorUtils::setForegroundColor( time_label, QColor(255,255,255) );
+
+	if (_text.isEmpty()) _text = "00:00:00 / 00:00:00";
+	time_label->setText(_text);
+
+	time_label->setFrameShape( QFrame::Panel );
+	time_label->setFrameShadow( QFrame::Sunken );
 
 	connect( this, SIGNAL(newText(QString)), 
              time_label, SLOT(setText(QString)) );
