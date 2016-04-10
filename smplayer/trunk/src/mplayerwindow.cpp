@@ -44,6 +44,7 @@
 
 #ifdef HANDLE_GESTURES
 #include <QGestureEvent>
+#include <QTapGesture>
 #endif
 
 Screen::Screen(QWidget* parent, Qt::WindowFlags f)
