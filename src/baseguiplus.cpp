@@ -622,12 +622,22 @@ VolumeSliderAction * BaseGuiPlus::createVolumeSliderAction(QWidget * parent) {
 	VolumeSliderAction * volumeslider_action = new VolumeSliderAction(parent);
 	volumeslider_action->setObjectName("volumeslider_action");
 
-	connect( volumeslider_action, SIGNAL( valueChanged(int) ), 
+	connect( volumeslider_action, SIGNAL( valueChanged(int) ),
              core, SLOT( setVolume(int) ) );
 	connect( core, SIGNAL(volumeChanged(int)),
              volumeslider_action, SLOT(setValue(int)) );
 
 	return volumeslider_action;
+}
+
+TimeLabelAction * BaseGuiPlus::createTimeLabelAction(TimeLabelAction::TimeLabelType type, QWidget * parent) {
+	TimeLabelAction * time_label_action = new TimeLabelAction(type, parent);
+	time_label_action->setObjectName("timelabel_action");
+
+	connect(this, SIGNAL(timeChanged(double)), time_label_action, SLOT(setCurrentTime(double)));
+	connect(core, SIGNAL(newDuration(double)), time_label_action, SLOT(setTotalTime(double)));
+
+	return time_label_action;
 }
 
 #ifdef Q_OS_OS2

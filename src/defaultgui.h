@@ -86,8 +86,6 @@ protected:
 protected slots:
 	virtual void updateWidgets();
 	virtual void applyNewPreferences();
-	virtual void displayTime(QString text);
-	virtual void displayCurrentTime(double);
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
@@ -134,6 +132,7 @@ protected:
 	TimeLabelAction * time_label_action;
 	TimeLabelAction * current_time_label_action;
 	TimeLabelAction * total_time_label_action;
+	TimeLabelAction * remaining_time_label_action;
 
 	MyAction * viewFrameCounterAct;
 	MyAction * viewVideoInfoAct;

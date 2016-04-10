@@ -60,11 +60,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 {
 	createStatusBar();
 
-	connect( this, SIGNAL(timeChanged(QString)),
-             this, SLOT(displayTime(QString)) );
-	connect( this, SIGNAL(secondChanged(double)),
-             this, SLOT(displayCurrentTime(double)));
-    connect( this, SIGNAL(frameChanged(int)),
+	connect( this, SIGNAL(frameChanged(int)),
              this, SLOT(displayFrame(int)) );
 	connect( this, SIGNAL(ABMarkersChanged(int,int)),
              this, SLOT(displayABSection(int,int)) );
@@ -139,16 +135,17 @@ void DefaultGui::createActions() {
 #endif
 
 	// Create the time label
-	time_label_action = new TimeLabelAction(this);
+	time_label_action = createTimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
 	time_label_action->setObjectName("timelabel_action");
 
-	current_time_label_action = new TimeLabelAction(this);
-	current_time_label_action->setObjectName("currenttimelabel_action");
-	current_time_label_action->setText("00:00:00");
+	current_time_label_action = createTimeLabelAction(TimeLabelAction::CurrentTime, this);
+	current_time_label_action->setObjectName("current_timelabel_action");
 
-	total_time_label_action = new TimeLabelAction(this);
-	total_time_label_action->setObjectName("totaltimelabel_action");
-	total_time_label_action->setText("00:00:00");
+	total_time_label_action = createTimeLabelAction(TimeLabelAction::TotalTime, this);
+	total_time_label_action->setObjectName("total_timelabel_action");
+
+	remaining_time_label_action = createTimeLabelAction(TimeLabelAction::RemainingTime, this);
+	remaining_time_label_action->setObjectName("remaining_timelabel_action");
 
 #if MINI_ARROW_BUTTONS
 	QList<QAction*> rewind_actions;
@@ -438,7 +435,7 @@ void DefaultGui::createFloatingControl() {
 	#else
 	floatingcontrol_actions << "rewind3" << "rewind2" << "rewind1";
 	#endif
-	floatingcontrol_actions << "currenttimelabel_action" << "timeslider_action" << "totaltimelabel_action";
+	floatingcontrol_actions << "current_timelabel_action" << "timeslider_action" << "remaining_timelabel_action";
 	#if MINI_ARROW_BUTTONS
 	floatingcontrol_actions << "forwardbutton_action";
 	#else
@@ -465,7 +462,7 @@ void DefaultGui::createFloatingControl() {
 
 	iw->addAction(current_time_label_action);
 	iw->addAction(timeslider_action);
-	iw->addAction(total_time_label_action);
+	iw->addAction(remaining_time_label_action);
 
 	#if MINI_ARROW_BUTTONS
 	iw->addAction( forwardbutton_action );
@@ -512,6 +509,7 @@ void DefaultGui::createStatusBar() {
 	time_display->setFrameShape(QFrame::NoFrame);
 	time_display->setText(" 88:88:88 / 88:88:88 ");
 	time_display->setMinimumSize(time_display->sizeHint());
+	connect(this, SIGNAL(timeChanged(QString)), time_display, SLOT(setText(QString)));
 
 	frame_display = new QLabel( statusBar() );
 	frame_display->setObjectName("frame_display");
@@ -604,16 +602,6 @@ void DefaultGui::retranslateStrings() {
 #endif
 }
 
-
-void DefaultGui::displayTime(QString text) {
-	time_display->setText( text );
-	time_label_action->setText(text);
-}
-
-void DefaultGui::displayCurrentTime(double t) {
-	current_time_label_action->setText(Helper::formatTime((int) t));
-	total_time_label_action->setText(Helper::formatTime((int) core->mdat.duration));
-}
 
 void DefaultGui::displayFrame(int frame) {
 	if (frame_display->isVisible()) {
