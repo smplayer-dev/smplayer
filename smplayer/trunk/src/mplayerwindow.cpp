@@ -224,7 +224,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	logo->setObjectName("mplayerwindowlogo");
 
 	// Set colors
-#if 1
+#ifdef CHANGE_WIDGET_COLOR
 	setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
 	mplayerlayer->setAutoFillBackground(true);
@@ -283,7 +283,9 @@ void MplayerWindow::setCornerWidget(QWidget * w) {
 
 #if USE_COLORKEY
 void MplayerWindow::setColorKey( QColor c ) {
+	#ifdef CHANGE_WIDGET_COLOR
 	ColorUtils::setBackgroundColor( mplayerlayer, c );
+	#endif
 }
 #endif
 

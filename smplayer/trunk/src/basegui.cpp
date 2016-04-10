@@ -2438,7 +2438,9 @@ void BaseGui::createPanel() {
 	ColorUtils::setBackgroundColor( panel, QColor(0,0,0) );
 	*/
 
-	//panel->setStyleSheet("background-color: black;");
+#ifndef CHANGE_WIDGET_COLOR
+	panel->setStyleSheet("background-color: black;");
+#endif
 }
 
 void BaseGui::createPreferencesDialog() {

@@ -51,6 +51,7 @@ QString ColorUtils::colorToAABBGGRR(unsigned int color) {
 	return s.sprintf("00%02x%02x%02x", c.blue(), c.green(), c.red() );
 }
 
+#ifdef CHANGE_WIDGET_COLOR
 void ColorUtils::setForegroundColor(QWidget * w, const QColor & color) {
 	QPalette p = w->palette(); 
 	p.setColor(w->foregroundRole(), color); 
@@ -62,6 +63,7 @@ void ColorUtils::setBackgroundColor(QWidget * w, const QColor & color) {
 	p.setColor(w->backgroundRole(), color); 
 	w->setPalette(p);
 }
+#endif
 
 #if COLOR_OUTPUT_SUPPORT
 QString ColorUtils::stripColorsTags(QString s) {

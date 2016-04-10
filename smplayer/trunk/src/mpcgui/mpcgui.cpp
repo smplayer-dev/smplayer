@@ -126,7 +126,7 @@ void MpcGui::createControlWidget() {
 
 void MpcGui::createFloatingControl() {
 	// Floating control
-	floating_control = new AutohideWidget(panel);
+	floating_control = new AutohideWidget(panel, this);
 	floating_control->setAutoHide(true);
 	floating_control->hide();
 	spacer = new QSpacerItem(10,10);
@@ -134,8 +134,11 @@ void MpcGui::createFloatingControl() {
 	floating_control_time = new QLabel(floating_control);
 	floating_control_time->setAlignment(Qt::AlignRight);
 	floating_control_time->setAutoFillBackground(true);
+	floating_control_time->setObjectName("floating_control_time");
+#ifdef CHANGE_WIDGET_COLOR
 	ColorUtils::setBackgroundColor( floating_control_time, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( floating_control_time, QColor(255,255,255) );
+#endif
 
 	connect(this, SIGNAL(timeChanged(QString)), floating_control_time, SLOT(setText(QString)));
 }
@@ -390,6 +393,7 @@ void MpcGui::createStatusBar() {
 
 	statusBar()->setAutoFillBackground(true);
 
+#ifdef CHANGE_WIDGET_COLOR
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
 	ColorUtils::setForegroundColor( statusBar(), QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( time_display, QColor(0,0,0) );
@@ -398,6 +402,8 @@ void MpcGui::createStatusBar() {
 	ColorUtils::setForegroundColor( frame_display, QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( audiochannel_display, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( audiochannel_display, QColor(255,255,255) );
+#endif
+
 	statusBar()->setSizeGripEnabled(false);
 
 	statusBar()->addPermanentWidget( frame_display, 0 );

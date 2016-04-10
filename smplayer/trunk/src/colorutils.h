@@ -25,6 +25,8 @@
 #define COLOR_OUTPUT_SUPPORT 1
 #endif
 
+#define CHANGE_WIDGET_COLOR
+
 class QWidget;
 class QColor;
 
@@ -41,11 +43,13 @@ public:
 
 	static QString colorToAABBGGRR(unsigned int color);
 
+#ifdef CHANGE_WIDGET_COLOR
 	//! Changes the foreground color of the specified widget
 	static void setForegroundColor(QWidget * w, const QColor & color);
 
 	//! Changes the background color of the specified widget
 	static void setBackgroundColor(QWidget * w, const QColor & color);
+#endif
 
     /**
      ** \brief Strip colors and tags from MPlayer output lines
