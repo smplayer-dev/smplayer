@@ -55,9 +55,6 @@ SkinGui::SkinGui( QWidget * parent, Qt::WindowFlags flags )
 	: BaseGuiPlus( parent, flags )
 	, was_muted(false)
 {
-	connect( this, SIGNAL(timeChanged(QString)),
-             this, SLOT(displayTime(QString)) );
-
 	createActions();
 	createMainToolBars();
 	createControlWidget();
@@ -105,7 +102,7 @@ void SkinGui::createActions() {
 	volumeslider_action->disable();
 
 	// Create the time label
-	time_label_action = new TimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
+	time_label_action = createTimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
 	time_label_action->setObjectName("timelabel_action");
 
 #if MINI_ARROW_BUTTONS
@@ -406,10 +403,6 @@ void SkinGui::retranslateStrings() {
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 	scrollTitleAct->change(Images::icon("scroll_title"), tr("&Scroll title") );
-}
-
-void SkinGui::displayTime(QString text) {
-	time_label_action->setText(text);
 }
 
 void SkinGui::displayState(Core::State state) {

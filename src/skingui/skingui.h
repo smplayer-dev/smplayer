@@ -73,7 +73,6 @@ protected:
 
 protected slots:
 	virtual void updateWidgets();
-	virtual void displayTime(QString text);
 	virtual void displayState(Core::State state);
 	virtual void displayMessage(QString message, int time);
 	virtual void displayMessage(QString message);
