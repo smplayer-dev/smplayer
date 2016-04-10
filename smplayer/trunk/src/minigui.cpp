@@ -85,11 +85,8 @@ void MiniGui::createActions() {
 	#endif
 #endif
 
-	time_label_action = new TimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
+	time_label_action = createTimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
 	time_label_action->setObjectName("timelabel_action");
-
-	connect( this, SIGNAL(timeChanged(QString)),
-             time_label_action, SLOT(setText(QString)) );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editControlAct = new MyAction( this, "edit_control_minigui" );
