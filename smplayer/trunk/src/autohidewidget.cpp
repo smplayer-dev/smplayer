@@ -155,7 +155,7 @@ bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 			QGestureEvent * gesture_event = static_cast<QGestureEvent*>(event);
 			if (gesture_event->gesture(Qt::TapGesture)) {
 				qDebug() << "AutohideWidget::eventFilter: tap event detected";
-				if (!isVisible()) show(); else hide();
+				if (!isVisible()) show(); //else hide();
 				event->setAccepted(true);
 				return true;
 			} 
