@@ -27,6 +27,12 @@
 #include <QPropertyAnimation>
 #endif
 
+#define HANDLE_TAP_EVENT
+
+#ifdef HANDLE_TAP_EVENT
+#include <QGestureEvent>
+#endif
+
 AutohideWidget::AutohideWidget(QWidget * parent)
 	: QWidget(parent)
 	, turned_on(false)
@@ -86,6 +92,9 @@ void AutohideWidget::installFilter(QObject *o) {
 			w->setMouseTracking(true);
 			w->installEventFilter(this);
 			installFilter(children[n]);
+			#ifdef HANDLE_TAP_EVENT
+			//w->grabGesture(Qt::TapGesture);
+			#endif
 		}
 	}
 }
@@ -140,6 +149,19 @@ void AutohideWidget::resizeAndMove() {
 bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 	if (turned_on) {
 		//qDebug() << "AutohideWidget::eventFilter: obj:" << obj << "type:" << event->type();
+		#ifdef HANDLE_TAP_EVENT
+		if (event->type() == QEvent::Gesture) {
+			qDebug() << "AutohideWidget::eventFilter: obj:" << obj << "gesture:" << event;
+			QGestureEvent * gesture_event = static_cast<QGestureEvent*>(event);
+			if (gesture_event->gesture(Qt::TapGesture)) {
+				qDebug() << "AutohideWidget::eventFilter: tap event detected";
+				if (!isVisible()) show(); else hide();
+				event->setAccepted(true);
+				return true;
+			} 
+		}
+		else
+		#endif
 		if (event->type() == QEvent::MouseMove) {
 			//qDebug() << "AutohideWidget::eventFilter: mouse move" << obj;
 			if (!isVisible()) {
