@@ -1,3 +1,19 @@
+/*
+#panel {
+	background-color: black;
+}
+
+MplayerWindow, MplayerLayer, #mplayerwindowlogo {
+	background-color: transparent;
+}
+*/
+
+QLabel#floating_control_time {
+	background-color: black;
+	color: white;
+}
+
+
 QStatusBar,
 QStatusBar QLabel {
 	background: black;

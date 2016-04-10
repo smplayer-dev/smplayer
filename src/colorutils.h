@@ -25,7 +25,7 @@
 #define COLOR_OUTPUT_SUPPORT 1
 #endif
 
-#define CHANGE_WIDGET_COLOR
+//#define CHANGE_WIDGET_COLOR
 
 class QWidget;
 class QColor;
