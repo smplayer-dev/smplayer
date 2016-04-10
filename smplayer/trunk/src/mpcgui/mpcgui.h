@@ -26,7 +26,6 @@
 
 class TimeSliderAction;
 class VolumeSliderAction;
-class TimeLabelAction;
 class AutohideWidget;
 class QSpacerItem;
 class QToolBar;
@@ -48,7 +47,6 @@ protected slots:
     void iconChange(Core::State state);
     void updateAudioChannels();
 
-    void displayTime(QString text);
     void displayFrame(int frame);
     void showFullscreenControls();
     void hideFullscreenControls();
@@ -97,7 +95,6 @@ protected:
 #if USE_VOLUME_BAR
 	VolumeSliderAction * volumeslider_action;
 #endif
-	TimeLabelAction * time_label_action;
 };
 
 #endif
