@@ -33,7 +33,7 @@
 #include <QGestureEvent>
 #endif
 
-AutohideWidget::AutohideWidget(QWidget * widget_to_check, QWidget * parent)
+AutohideWidget::AutohideWidget(QWidget * widget_to_watch, QWidget * parent)
 	: QWidget(parent)
 	, turned_on(false)
 	, auto_hide(false)
@@ -51,8 +51,8 @@ AutohideWidget::AutohideWidget(QWidget * widget_to_check, QWidget * parent)
 	setAutoFillBackground(true);
 	setLayoutDirection(Qt::LeftToRight);
 
-	widget_to_check->installEventFilter(this);
-	installFilter(widget_to_check);
+	widget_to_watch->installEventFilter(this);
+	installFilter(widget_to_watch);
 
 	timer = new QTimer(this);
 	connect(timer, SIGNAL(timeout()), this, SLOT(checkUnderMouse()));
