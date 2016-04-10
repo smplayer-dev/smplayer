@@ -435,7 +435,7 @@ void DefaultGui::createFloatingControl() {
 	#else
 	floatingcontrol_actions << "rewind3" << "rewind2" << "rewind1";
 	#endif
-	floatingcontrol_actions << "current_timelabel_action" << "timeslider_action" << "remaining_timelabel_action";
+	floatingcontrol_actions << "current_timelabel_action" << "timeslider_action" << "total_timelabel_action";
 	#if MINI_ARROW_BUTTONS
 	floatingcontrol_actions << "forwardbutton_action";
 	#else
@@ -462,7 +462,7 @@ void DefaultGui::createFloatingControl() {
 
 	iw->addAction(current_time_label_action);
 	iw->addAction(timeslider_action);
-	iw->addAction(remaining_time_label_action);
+	iw->addAction(total_time_label_action);
 
 	#if MINI_ARROW_BUTTONS
 	iw->addAction( forwardbutton_action );
