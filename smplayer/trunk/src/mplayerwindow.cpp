@@ -40,6 +40,12 @@
 #include <QPropertyAnimation>
 #endif
 
+//#define HANDLE_GESTURES
+
+#ifdef HANDLE_GESTURES
+#include <QGestureEvent>
+#endif
+
 Screen::Screen(QWidget* parent, Qt::WindowFlags f)
 	: QWidget(parent, f )
 	, check_mouse_timer(0)
@@ -235,6 +241,10 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 
 	setSizePolicy( QSizePolicy::Expanding , QSizePolicy::Expanding );
 	setFocusPolicy( Qt::StrongFocus );
+	
+//#ifdef HANDLE_GESTURES
+	grabGesture(Qt::TapGesture);
+//#endif
 
 	installEventFilter(this);
 	mplayerlayer->installEventFilter(this);
@@ -489,7 +499,20 @@ void MplayerWindow::wheelEvent( QWheelEvent * e ) {
 }
 
 bool MplayerWindow::eventFilter( QObject * object, QEvent * event ) {
-
+#ifdef HANDLE_GESTURES
+	if (event->type() == QEvent::Gesture) {
+		qDebug() << "MplayerWindow::eventFilter: event:" << event;
+		QGestureEvent * ge = static_cast<QGestureEvent*>(event);
+		qDebug() << "MplayerWindow::eventFilter: ge:" << ge;
+		if (QGesture * tap = ge->gesture(Qt::TapGesture)) {
+			QTapGesture * tg = static_cast<QTapGesture *>(tap);
+			qDebug() << "MplayerWindow::eventFilter: tg:" << tg;
+			event->setAccepted(true);
+			return false;
+		}
+	}
+#endif
+	
     if (!mouse_drag_tracking)
         return false;
 
