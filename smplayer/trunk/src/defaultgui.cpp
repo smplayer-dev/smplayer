@@ -538,6 +538,7 @@ void DefaultGui::createStatusBar() {
 
 	statusBar()->setAutoFillBackground(true);
 
+	/*
 	ColorUtils::setBackgroundColor( statusBar(), QColor(0,0,0) );
 	ColorUtils::setForegroundColor( statusBar(), QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( time_display, QColor(0,0,0) );
@@ -548,6 +549,7 @@ void DefaultGui::createStatusBar() {
 	ColorUtils::setForegroundColor( ab_section_display, QColor(255,255,255) );
 	ColorUtils::setBackgroundColor( video_info_display, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( video_info_display, QColor(255,255,255) );
+	*/
 	statusBar()->setSizeGripEnabled(false);
 
 	statusBar()->addPermanentWidget( video_info_display );
