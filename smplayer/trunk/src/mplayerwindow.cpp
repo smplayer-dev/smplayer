@@ -218,7 +218,7 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	mplayerlayer->setAutoFillBackground(true);
 
 	logo = new QLabel( mplayerlayer );
-	logo->setObjectName("mplayerwindow logo");
+	logo->setObjectName("mplayerwindowlogo");
 	logo->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 

@@ -2430,6 +2430,7 @@ void BaseGui::createPanel() {
 	panel->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Expanding );
 	panel->setMinimumSize( QSize(1,1) );
 	panel->setFocusPolicy( Qt::StrongFocus );
+	panel->setObjectName("panel");
 
 	// panel
 	/*
