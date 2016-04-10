@@ -2437,6 +2437,8 @@ void BaseGui::createPanel() {
 	panel->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( panel, QColor(0,0,0) );
 	*/
+
+	//panel->setStyleSheet("background-color: black;");
 }
 
 void BaseGui::createPreferencesDialog() {

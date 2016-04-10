@@ -210,17 +210,25 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
     , start_drag(QPoint(0,0))
     , mouse_drag_tracking(false)
 {
-	setAutoFillBackground(true);
-	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
-
 	mplayerlayer = new MplayerLayer(this);
 	mplayerlayer->setObjectName("mplayerlayer");
-	mplayerlayer->setAutoFillBackground(true);
 
 	logo = new QLabel( mplayerlayer );
 	logo->setObjectName("mplayerwindowlogo");
+
+	// Set colors
+#if 1
+	setAutoFillBackground(true);
+	ColorUtils::setBackgroundColor( this, QColor(0,0,0) );
+	mplayerlayer->setAutoFillBackground(true);
 	logo->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
+#else
+	/*
+	setStyleSheet("background-color: blue;");
+	mplayerlayer->setStyleSheet("background-color: black;");
+	*/
+#endif
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
 	mplayerlayerLayout->addWidget( logo, 0, Qt::AlignHCenter | Qt::AlignVCenter );
