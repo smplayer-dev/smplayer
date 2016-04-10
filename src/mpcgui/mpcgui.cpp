@@ -73,12 +73,6 @@ void MpcGui::createActions() {
 	volumeslider_action->setFixedSize( QSize(50,18) );
 	volumeslider_action->setTickPosition( QSlider::NoTicks );
 #endif
-
-	time_label_action = new TimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
-	time_label_action->setObjectName("timelabel_action");
-
-	connect( this, SIGNAL(timeChanged(QString)),
-             time_label_action, SLOT(setText(QString)) );
 }
 
 
@@ -143,6 +137,7 @@ void MpcGui::createFloatingControl() {
 	ColorUtils::setBackgroundColor( floating_control_time, QColor(0,0,0) );
 	ColorUtils::setForegroundColor( floating_control_time, QColor(255,255,255) );
 
+	connect(this, SIGNAL(timeChanged(QString)), floating_control_time, SLOT(setText(QString)));
 }
 
 void MpcGui::retranslateStrings() {
@@ -151,7 +146,7 @@ void MpcGui::retranslateStrings() {
 	controlwidget->setWindowTitle( tr("Control bar") );
 	timeslidewidget->setWindowTitle( tr("Seek bar") );
 
-    setupIcons();
+	setupIcons();
 }
 
 #if AUTODISABLE_ACTIONS
@@ -315,13 +310,14 @@ void MpcGui::setupIcons() {
     pauseAct->setCheckable(true);
     playAct->setCheckable(true);
     stopAct->setCheckable(true);
+
 	connect( muteAct, SIGNAL(toggled(bool)),
              this, SLOT(muteIconChange(bool)) );
 
 	connect( core , SIGNAL(mediaInfoChanged()),
              this, SLOT(updateAudioChannels()) );
 
-    connect( core , SIGNAL(stateChanged(Core::State)),
+	connect( core , SIGNAL(stateChanged(Core::State)),
              this, SLOT(iconChange(Core::State)) );
 }
 
@@ -368,7 +364,6 @@ void MpcGui::muteIconChange(bool b) {
 
 
 void MpcGui::createStatusBar() {
-
     // remove frames around statusbar items
     statusBar()->setStyleSheet("QStatusBar::item { border: 0px solid black }; ");
 
@@ -380,18 +375,18 @@ void MpcGui::createStatusBar() {
     audiochannel_display->setMinimumSize(audiochannel_display->sizeHint());
     audiochannel_display->setMaximumSize(audiochannel_display->sizeHint());
     audiochannel_display->setPixmap( QPixmap("") );
-    
+
 	time_display = new QLabel( statusBar() );
 	time_display->setAlignment(Qt::AlignRight);
 	time_display->setText(" 88:88:88 / 88:88:88 ");
 	time_display->setMinimumSize(time_display->sizeHint());
-    time_display->setContentsMargins(15,2,1,1);
+	time_display->setContentsMargins(15,2,1,1);
 
 	frame_display = new QLabel( statusBar() );
 	frame_display->setAlignment(Qt::AlignRight);
 	frame_display->setText("88888888");
 	frame_display->setMinimumSize(frame_display->sizeHint());
-    frame_display->setContentsMargins(15,2,1,1);
+	frame_display->setContentsMargins(15,2,1,1);
 
 	statusBar()->setAutoFillBackground(true);
 
@@ -405,30 +400,19 @@ void MpcGui::createStatusBar() {
 	ColorUtils::setForegroundColor( audiochannel_display, QColor(255,255,255) );
 	statusBar()->setSizeGripEnabled(false);
 
-    
-
 	statusBar()->addPermanentWidget( frame_display, 0 );
 	frame_display->setText( "0" );
 
-    statusBar()->addPermanentWidget( time_display, 0 );
+	statusBar()->addPermanentWidget( time_display, 0 );
 	time_display->setText(" 00:00:00 / 00:00:00 ");
 
-    statusBar()->addPermanentWidget( audiochannel_display, 0 );
+	statusBar()->addPermanentWidget( audiochannel_display, 0 );
 
 	time_display->show();
 	frame_display->hide();
 
-	connect( this, SIGNAL(timeChanged(QString)),
-             this, SLOT(displayTime(QString)) );
-
-	connect( this, SIGNAL(frameChanged(int)),
-             this, SLOT(displayFrame(int)) );
-}
-
-void MpcGui::displayTime(QString text) {
-	time_display->setText( text );
-	time_label_action->setText(text );
-	floating_control_time->setText(text);
+	connect(this, SIGNAL(timeChanged(QString)), time_display, SLOT(setText(QString)));
+	connect(this, SIGNAL(frameChanged(int)), this, SLOT(displayFrame(int)));
 }
 
 void MpcGui::displayFrame(int frame) {
@@ -451,7 +435,7 @@ void MpcGui::showFullscreenControls() {
     if(pref->fullscreen && controlwidget->isHidden() && timeslidewidget->isHidden() && 
         !pref->compact_mode )
     {
-	    controlwidget->show();
+        controlwidget->show();
         timeslidewidget->show();
         statusBar()->show();
     }
@@ -500,8 +484,7 @@ void MpcGui::setJumpTexts() {
 }
 
 void MpcGui::updateWidgets() {
-
-    BaseGui::updateWidgets();
+	BaseGui::updateWidgets();
 
 	// Frame counter
 	/* frame_display->setVisible( pref->show_frame_counter ); */
