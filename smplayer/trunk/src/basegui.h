@@ -343,7 +343,7 @@ signals:
 	void ABMarkersChanged(int secs_a, int secs_b);
 	void videoInfoChanged(int width, int height, double fps);
 	void timeChanged(QString time_ready_to_print);
-	void secondChanged(double);
+	void timeChanged(double current_time);
 
 	/*
 	void wheelUp();

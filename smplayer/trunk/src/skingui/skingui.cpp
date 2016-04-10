@@ -105,7 +105,7 @@ void SkinGui::createActions() {
 	volumeslider_action->disable();
 
 	// Create the time label
-	time_label_action = new TimeLabelAction(this);
+	time_label_action = new TimeLabelAction(TimeLabelAction::CurrentAndTotalTime, this);
 	time_label_action->setObjectName("timelabel_action");
 
 #if MINI_ARROW_BUTTONS

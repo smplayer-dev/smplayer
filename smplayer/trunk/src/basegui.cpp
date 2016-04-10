@@ -5157,8 +5157,8 @@ void BaseGui::gotCurrentTime(double sec) {
 
 	//qDebug( " duration: %f, current_sec: %f", core->mdat.duration, core->mset.current_sec);
 
+	emit timeChanged(sec);
 	emit timeChanged(time);
-	emit secondChanged(sec);
 }
 
 void BaseGui::changeSizeFactor(int factor) {

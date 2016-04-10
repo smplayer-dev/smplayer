@@ -20,6 +20,7 @@
 #define BASEGUIPLUS_H
 
 #include "basegui.h"
+#include "widgetactions.h"
 #include <QSystemTrayIcon>
 #include <QPoint>
 #include "guiconfig.h"
@@ -29,6 +30,7 @@ class PlaylistDock;
 
 class TimeSliderAction;
 class VolumeSliderAction;
+class TimeLabelAction;
 
 class BaseGuiPlus : public BaseGui
 {
@@ -57,6 +59,7 @@ protected:
 	// Functions for other GUI's
 	TimeSliderAction * createTimeSliderAction(QWidget * parent);
 	VolumeSliderAction * createVolumeSliderAction(QWidget * parent);
+	TimeLabelAction * createTimeLabelAction(TimeLabelAction::TimeLabelType type, QWidget * parent);
 
 protected slots:
 	// Reimplemented methods

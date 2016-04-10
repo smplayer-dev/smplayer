@@ -126,22 +126,29 @@ class TimeLabelAction : public MyWidgetAction
 	Q_OBJECT
 
 public:
-	TimeLabelAction( QWidget * parent );
+	enum TimeLabelType { CurrentTime = 0, TotalTime = 1, CurrentAndTotalTime = 2, RemainingTime = 3 };
+
+	TimeLabelAction(TimeLabelType type, QWidget * parent );
 	~TimeLabelAction();
 
-	virtual QString text() { return _text; };
+	virtual QString text() { return current_text; };
 
 public slots:
 	virtual void setText(QString s);
+	virtual void setCurrentTime(double);
+	virtual void setTotalTime(double);
 
 signals:
 	void newText(QString s);
 
 protected:
 	virtual QWidget * createWidget ( QWidget * parent );
+	virtual void updateText();
 
 private:
-	QString _text;
+	QString current_text;
+	double current_time, total_time;
+	TimeLabelType label_type;
 };
 
 

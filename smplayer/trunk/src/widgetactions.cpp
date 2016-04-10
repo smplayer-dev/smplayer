@@ -18,6 +18,7 @@
 
 #include "widgetactions.h"
 #include "colorutils.h"
+#include "helper.h"
 #include <QLabel>
 #include <QDebug>
 
@@ -202,16 +203,44 @@ QWidget * VolumeSliderAction::createWidget ( QWidget * parent ) {
 }
 
 
-TimeLabelAction::TimeLabelAction( QWidget * parent )
+TimeLabelAction::TimeLabelAction(TimeLabelType type, QWidget * parent )
 	: MyWidgetAction(parent)
 {
+	label_type = type;
+	current_time = 0;
+	total_time = 0;
+	updateText();
 }
 
 TimeLabelAction::~TimeLabelAction() {
 }
 
+void TimeLabelAction::setCurrentTime(double t) {
+	current_time = t;
+	updateText();
+}
+
+void TimeLabelAction::setTotalTime(double t) {
+	total_time = t;
+	updateText();
+}
+
+void TimeLabelAction::updateText() {
+	QString ct = Helper::formatTime(current_time);
+	QString tt = Helper::formatTime(total_time);
+	QString rt;
+	if (total_time < 1) rt = "00:00:00"; else rt = "-" + Helper::formatTime(total_time - current_time);
+
+	switch (label_type) {
+		case CurrentTime: setText(ct); break;
+		case TotalTime: setText(tt); break;
+		case CurrentAndTotalTime: setText(ct + " / " + tt); break;
+		case RemainingTime: setText(rt); break;
+	}
+}
+
 void TimeLabelAction::setText(QString s) {
-	_text = s;
+	current_text = s;
 	emit newText(s);
 }
 
@@ -224,8 +253,8 @@ QWidget * TimeLabelAction::createWidget ( QWidget * parent ) {
 	//ColorUtils::setBackgroundColor( time_label, QColor(0,0,0) );
 	//ColorUtils::setForegroundColor( time_label, QColor(255,255,255) );
 
-	if (_text.isEmpty()) _text = "00:00:00 / 00:00:00";
-	time_label->setText(_text);
+	if (current_text.isEmpty()) current_text = "00:00:00 / 00:00:00";
+	time_label->setText(current_text);
 
 	//time_label->setFrameShape( QFrame::Panel );
 	//time_label->setFrameShadow( QFrame::Sunken );

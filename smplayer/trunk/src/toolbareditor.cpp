@@ -258,9 +258,11 @@ QString ToolbarEditor::fixname(const QString & name, const QString & action_name
 	else
 	if (action_name == "timelabel_action") s = tr("Display time");
 	else
-	if (action_name == "currenttimelabel_action") s = tr("Current time");
+	if (action_name == "current_timelabel_action") s = tr("Current time");
 	else
-	if (action_name == "totaltimelabel_action") s = tr("Total time");
+	if (action_name == "total_timelabel_action") s = tr("Total time");
+	else
+	if (action_name == "remaining_timelabel_action") s = tr("Remaining time");
 	else
 	if (action_name == "rewindbutton_action") s = tr("3 in 1 rewind");
 	else
