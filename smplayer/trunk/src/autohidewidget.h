@@ -67,6 +67,7 @@ private slots:
 private:
 	void installFilter(QObject *o);
 	void resizeAndMove();
+	bool visiblePopups();
 
 private:
 	bool turned_on;
