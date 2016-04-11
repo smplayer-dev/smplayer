@@ -104,16 +104,30 @@ void AutohideWidget::installFilter(QObject *o) {
 bool AutohideWidget::visiblePopups() {
 	// Check if any of the menus in the internal widget is visible
 	QObjectList children = internal_widget->children();
-	for (int n=0; n < children.count(); n++) {
-		if (children[n]->isWidgetType()) {
-			//qDebug() << "AutohideWidget::visiblePopups: child name:" << children[n]->objectName();
-			QWidget *w = static_cast<QWidget *>(children[n]);
+	foreach(QObject * child, children) {
+		if (child->isWidgetType()) {
+			//qDebug() << "AutohideWidget::visiblePopups:" << child << "child name:" << child->objectName();
+			QWidget *w = static_cast<QWidget *>(child);
+
 			QList<QAction *> actions = w->actions();
-			for (int a = 0; a < actions.count(); a++) {
-				//qDebug() << "AutohideWidget::visiblePopups: action:" << actions[a];
-				QMenu * menu = actions[a]->menu();
+			foreach(QAction * action, actions) {
+				//qDebug() << "AutohideWidget::visiblePopups: action:" << action;
+
+				QList<QWidget *> aw = action->associatedWidgets();
+				//qDebug() << "AutohideWidget::visiblePopups: aw:" << aw;
+
+				QMenu * menu = 0;
+				foreach(QWidget * widget, aw) {
+					//qDebug() << "AutohideWidget::visiblePopups: widget:" << widget;
+					if ((menu = qobject_cast<QMenu *>(widget))) {
+						qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
+						if (menu->isVisible()) return true;
+					}
+				}
+
+				menu = action->menu();
 				if (menu) {
-					//qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
+					qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
 					if (menu->isVisible()) return true;
 				}
 			}
