@@ -21,6 +21,8 @@
 #include <QEvent>
 #include <QVBoxLayout>
 #include <QMouseEvent>
+#include <QAction>
+#include <QMenu>
 #include <QDebug>
 
 #if QT_VERSION >= 0x040600
@@ -99,6 +101,27 @@ void AutohideWidget::installFilter(QObject *o) {
 	}
 }
 
+bool AutohideWidget::visiblePopups() {
+	// Check if any of the menus in the internal widget is visible
+	QObjectList children = internal_widget->children();
+	for (int n=0; n < children.count(); n++) {
+		if (children[n]->isWidgetType()) {
+			//qDebug() << "AutohideWidget::visiblePopups: child name:" << children[n]->objectName();
+			QWidget *w = static_cast<QWidget *>(children[n]);
+			QList<QAction *> actions = w->actions();
+			for (int a = 0; a < actions.count(); a++) {
+				//qDebug() << "AutohideWidget::visiblePopups: action:" << actions[a];
+				QMenu * menu = actions[a]->menu();
+				if (menu) {
+					//qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
+					if (menu->isVisible()) return true;
+				}
+			}
+		}
+	}
+	return false;
+}
+
 void AutohideWidget::activate() {
 	turned_on = true;
 	timer->start();
@@ -131,7 +154,9 @@ void AutohideWidget::setAutoHide(bool b) {
 void AutohideWidget::checkUnderMouse() {
 	if (auto_hide) {
 		//qDebug("AutohideWidget::checkUnderMouse");
-		if ((isVisible()) && (!underMouse())) hide();
+		if (isVisible() && !underMouse() && !visiblePopups()) {
+			hide();
+		}
 	}
 }
 
