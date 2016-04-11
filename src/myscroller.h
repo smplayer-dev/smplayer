@@ -24,7 +24,7 @@ class QObject;
 class MyScroller {
 
 public:
-	static void setScroller(QObject * w, bool touch = false);
+	static void setScroller(QObject * w, bool touch = true);
 };
 
 #endif
