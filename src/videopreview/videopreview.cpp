@@ -286,10 +286,12 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
 		QString format = (prop.extract_format == PNG) ? "png:png-compression=0" : "jpg";
 		args << QString("--vo=image=format=%1:outdir=\"%2\"").arg(format).arg(full_output_dir);
-		
+
+		/*
 		#ifdef Q_OS_WIN
-		args << "--use-text-osd=no";
+		args << "--use-text-osd=no"; // option removed in mpv 0.12
 		#endif
+		*/
 		#endif // MPV_SUPPORT
 	}
 	else {
