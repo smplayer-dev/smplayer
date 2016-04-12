@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "SimpChinese" "简体中文"
+!else
+!insertmacro LANGFILE "SimpChinese" "Chinese (Simplified)" "中文(简体)" "Hanyu (Jiantizi)"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "安装程序已在运行。"

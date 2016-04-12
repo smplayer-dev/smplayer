@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Hebrew" "עברית"
+!else
+!insertmacro LANGFILE "Hebrew" = "עברית" "Ivrit"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "המתקין כבר מורץ."

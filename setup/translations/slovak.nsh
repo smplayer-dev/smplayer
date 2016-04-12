@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Slovak" "Slovenčina"
+!else
+!insertmacro LANGFILE "Slovak" = "Slovenčina" "Slovencina"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "The installer is already running."

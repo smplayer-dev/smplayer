@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Danish" "Dansk"
+!else
+!insertmacro LANGFILE "Danish" = "Dansk" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Installationsprogrammet kører allerede."

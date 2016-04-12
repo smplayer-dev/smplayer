@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Thai" "ไทย"
+!else
+!insertmacro LANGFILE "Thai" = "ไทย" /* TODO: ISO 11940? */ "Thai"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "ตัวติดตั้งกำลังรันอยู่แล้ว"

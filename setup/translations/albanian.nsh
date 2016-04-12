@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Albanian" "Gjuha shqipe"
+!else
+!insertmacro LANGFILE "Albanian" = "Shqip" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Instaluesi eshte ne egzekutim."

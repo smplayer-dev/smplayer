@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Japanese" "日本語"
+!else
+!insertmacro LANGFILE "Japanese" = "日本語" "Nihongo"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "インストーラーは既に実行中です。"

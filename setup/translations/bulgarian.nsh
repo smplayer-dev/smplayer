@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Bulgarian" "Български"
+!else
+!insertmacro LANGFILE "Bulgarian" = "Български" "Balgarski"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Инсталаторът вече работи."

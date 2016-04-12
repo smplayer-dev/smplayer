@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Galician" "Galego"
+!else
+!insertmacro LANGFILE "Galician" = "Galego" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Xa se está executando o instalador."

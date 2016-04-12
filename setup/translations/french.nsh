@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "French" "Français"
+!else
+!insertmacro LANGFILE "French" = "Français" "Francais"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "L'installateur est déjà en cours d'exécution."

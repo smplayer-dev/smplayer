@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Malay" "Melayu"
+!else
+!insertmacro LANGFILE "Malay" = "Bahasa Melayu" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Pemasang sudah berjalan."
