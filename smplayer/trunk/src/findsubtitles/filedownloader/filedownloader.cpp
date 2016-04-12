@@ -28,6 +28,8 @@ FileDownloader::FileDownloader(QWidget *parent) : QProgressDialog(parent)
 
 	setMinimumDuration(0);
 	setRange(0,0);
+	
+	reset(); // Prevent the dialog to be shown on initialization (Qt 5.5)
 
 	connect(this, SIGNAL(canceled()), this, SLOT(cancelDownload()));
 	/*
