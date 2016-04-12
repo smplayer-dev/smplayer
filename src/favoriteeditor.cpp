@@ -106,7 +106,7 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 #endif
 
 	table->setSelectionBehavior(QAbstractItemView::SelectRows);
-	table->setSelectionMode(QAbstractItemView::ExtendedSelection);
+	table->setSelectionMode(QAbstractItemView::SingleSelection);
 
 	table->setItemDelegateForColumn( COL_NAME, new FEDelegate(table) );
 	table->setItemDelegateForColumn( COL_FILE, new FEDelegate(table) );
