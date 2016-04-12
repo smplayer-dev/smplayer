@@ -362,7 +362,7 @@ Section $(Section_SMPlayer) SecSMPlayer
 
   ;Qt imageformats
   SetOutPath "$INSTDIR\imageformats"
-  File /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
+  File /nonfatal /r "${SMPLAYER_BUILD_DIR}\imageformats\*.*"
 
   ;Open fonts
   ; SetOutPath "$INSTDIR\open-fonts"

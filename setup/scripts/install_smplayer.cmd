@@ -18,6 +18,10 @@ set MPV_DIR=mpv
 rem set QT_DIR=C:\QtSDK\Desktop\Qt\%QTVER%\mingw
 set QT_DIR=C:\Qt\%QTVER%
 
+if %QTVER% == 5.5.1 (
+  set QT_DIR=C:\Qt\Qt5.5.1\5.5\mingw492_32
+)
+
 echo.
 echo ######      SMPlayer, QT libs      #######
 echo.
@@ -26,26 +30,42 @@ mkdir %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\src\release\smplayer.exe %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\dxlist\release\dxlist.exe %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\zlib\zlib1.dll %OUTPUT_DIR%
-copy %SMPLAYER_DIR%\setup\sample.avi %OUTPUT_DIR%
+rem copy %SMPLAYER_DIR%\setup\sample.avi %OUTPUT_DIR%
 copy %SMPLAYER_DIR%\*.txt %OUTPUT_DIR%
-copy %QT_DIR%\bin\QtCore4.dll %OUTPUT_DIR%
-copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
-copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
-copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
-copy %QT_DIR%\bin\QtScript4.dll %OUTPUT_DIR%
-copy %QT_DIR%\bin\QtDBus4.dll %OUTPUT_DIR%
-copy %QT_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
-if %QTVER% geq 4.6.0 (
-copy %QT_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
+
+if %QTVER% geq 5.0.0 (
+  copy %QT_DIR%\bin\Qt5Core.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\Qt5Gui.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\Qt5Network.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\Qt5Script.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\Qt5Widgets.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\Qt5Xml.dll %OUTPUT_DIR%
+  copy "%QT_DIR%\bin\libstdc++-6.dll" %OUTPUT_DIR%
+  copy %QT_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\libwinpthread-1.dll %OUTPUT_DIR%
+) else (
+  copy %QT_DIR%\bin\QtCore4.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\QtGui4.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\QtNetwork4.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\QtXml4.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\QtScript4.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\QtDBus4.dll %OUTPUT_DIR%
+  copy %QT_DIR%\bin\mingwm10.dll %OUTPUT_DIR%
+  if %QTVER% geq 4.6.0 (
+    copy %QT_DIR%\bin\libgcc_s_dw2-1.dll %OUTPUT_DIR%
+  )
+  if %QTVER% geq 4.8.0 (
+    copy %QT_DIR%\bin\libwinpthread-1.dll %OUTPUT_DIR%
+    copy "%QT_DIR%\bin\libstdc++-6.dll" %OUTPUT_DIR%
+  )
 )
-if %QTVER% geq 4.8.0 (
-copy %QT_DIR%\bin\libwinpthread-1.dll %OUTPUT_DIR%
-copy "%QT_DIR%\bin\libstdc++-6.dll" %OUTPUT_DIR%
-)
+
 copy openssl\*.dll %OUTPUT_DIR%
 
 mkdir %OUTPUT_DIR%\imageformats
-copy %QT_DIR%\plugins\imageformats\qjpeg4.dll %OUTPUT_DIR%\imageformats\
+if %QTVER% lss 5.0.0 (
+  copy %QT_DIR%\plugins\imageformats\qjpeg4.dll %OUTPUT_DIR%\imageformats\
+)
 
 echo.
 echo ######            Fonts            #######
