@@ -153,7 +153,8 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 	latest_dir = Paths::shortcutsPath();
 
 	actionsTable = new QTableWidget(0, COL_NAME +1, this);
-	actionsTable->setSelectionMode( QAbstractItemView::SingleSelection );
+	actionsTable->setSelectionMode(QAbstractItemView::SingleSelection);
+	actionsTable->setSelectionBehavior(QAbstractItemView::SelectRows);
 	actionsTable->verticalHeader()->hide();
 
 #if QT_VERSION >= 0x050000
@@ -169,10 +170,6 @@ ActionsEditor::ActionsEditor(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 	actionsTable->setAlternatingRowColors(true);
-#if USE_SHORTCUTGETTER
-	actionsTable->setSelectionBehavior(QAbstractItemView::SelectRows);
-	actionsTable->setSelectionMode(QAbstractItemView::ExtendedSelection);
-#endif
 	//actionsTable->setItemDelegateForColumn( COL_SHORTCUT, new MyDelegate(actionsTable) );
 
 #if !USE_SHORTCUTGETTER
