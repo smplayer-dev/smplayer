@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Spanish" "Español"
+!else
+!insertmacro LANGFILE "Spanish" = "Español" "Espanol"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "La instalación ya se está ejecutando."

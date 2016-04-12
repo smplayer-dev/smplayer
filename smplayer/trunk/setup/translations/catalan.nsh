@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Catalan" "Català"
+!else
+!insertmacro LANGFILE "Catalan" = "Català" "Catala"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "The installer is already running."

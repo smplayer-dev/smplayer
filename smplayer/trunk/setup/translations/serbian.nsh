@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Serbian" "Српски"
+!else
+!insertmacro LANGFILE "Serbian" "Serbian (Cyrillic)" "Српски" "Srpski (Cyrillic)"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Инсталациони програм је већ покренут."

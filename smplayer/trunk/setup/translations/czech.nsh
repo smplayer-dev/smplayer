@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Czech" "Čeština"
+!else
+!insertmacro LANGFILE "Czech" = "Čeština" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Instalátor již běží."

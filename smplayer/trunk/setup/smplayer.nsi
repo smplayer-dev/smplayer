@@ -1,9 +1,18 @@
-﻿;Installer script for win32/win64 SMPlayer
+;Installer script for win32/win64 SMPlayer
 ;Written by redxii (redxii@users.sourceforge.net)
-;Tested/Developed with Unicode NSIS 2.46.5
+;Tested/Developed with Unicode NSIS 2.46.5/3.0
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
+!endif
+
+;Use this to make 3.0+ mandatory
+;!if 0x2999999 >= "${NSIS_PACKEDVERSION}"
+;!error "NSIS 3.0 or higher required"
+;!endif
+
+!if ${NSIS_PACKEDVERSION} > 0x2999999
+  Unicode true
 !endif
 
 ;--------------------------------
@@ -304,7 +313,11 @@
   ;Only for solid compression (by default, solid compression is enabled for BZIP2 and LZMA)
 
   !insertmacro MUI_RESERVEFILE_LANGDLL
-  ReserveFile "${NSISDIR}\Plugins\UserInfo.dll"
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
+  ReserveFile /nonfatal "${NSISDIR}\Plugins\UserInfo.dll"
+!else
+  ReserveFile /nonfatal "${NSISDIR}\Plugins\x86-unicode\UserInfo.dll"
+!endif
 
 ;--------------------------------
 ;Installer Sections

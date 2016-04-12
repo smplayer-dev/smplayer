@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Arabic" "العربية"
+!else
+!insertmacro LANGFILE "Arabic" = "العربية" "Al-Arabiyyah"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "المثبِّت مشتغل سلفاً."

@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "Finnish" "Suomi"
+!else
+!insertmacro LANGFILE "Finnish" = "Suomi" =
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "The installer is already running."

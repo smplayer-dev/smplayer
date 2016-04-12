@@ -4,7 +4,11 @@
 ;Save file as UTF-8 w/ BOM
 ;
 
+!if ! ${NSIS_PACKEDVERSION} > 0x2999999
 !insertmacro LANGFILE "TradChinese" "漢語(繁體)"
+!else
+!insertmacro LANGFILE "TradChinese" "Chinese (Traditional)" "中文(繁體)" "Hanyu (Fantizi)"
+!endif
 
 ; Startup
 ${LangFileString} Installer_Is_Running "安裝程式已經在執行。"
