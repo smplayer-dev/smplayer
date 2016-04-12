@@ -70,6 +70,7 @@ VideoPreview::VideoPreview(QString mplayer_path, QWidget * parent) : QWidget(par
 
 	progress = new QProgressDialog(parent != 0 ? parent : this);
 	progress->setMinimumDuration(0);
+	progress->reset(); // Prevent the dialog to be shown on initialization (Qt 5.5)
 	connect( progress, SIGNAL(canceled()), this, SLOT(cancelPressed()) );
 
 	w_contents = new QWidget(this);
