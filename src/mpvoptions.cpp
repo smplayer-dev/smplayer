@@ -909,6 +909,10 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 		arg << QString("--sub-text-bold=%1").arg(styles.bold ? "yes" : "no");
 	}
 
+	if (isOptionAvailable("--sub-text-italic")) {
+		arg << QString("--sub-text-italic=%1").arg(styles.italic ? "yes" : "no");
+	}
+
 	QString halign;
 	switch (styles.halignment) {
 		case AssStyles::Left: halign = "left"; break;
