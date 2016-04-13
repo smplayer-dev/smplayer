@@ -391,7 +391,7 @@ void Favorites::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
-		QWidget::changeEvent(e);
+		QMenu::changeEvent(e);
 	}
 }
 
