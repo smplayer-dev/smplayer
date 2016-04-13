@@ -769,6 +769,7 @@ protected:
 	QMenu *audioMenu;
 	QMenu *subtitlesMenu;
 	QMenu *browseMenu;
+	QMenu *viewMenu;
 	QMenu *optionsMenu;
 	QMenu *helpMenu;
 
@@ -802,7 +803,7 @@ protected:
 	QMenu * videofilter_menu;
 	QMenu * audiofilter_menu;
 #if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
-	QMenu * logs_menu;
+	//QMenu * logs_menu;
 #endif
 	QMenu * zoom_menu;
 	QMenu * rotate_menu;

@@ -1811,7 +1811,7 @@ void BaseGui::retranslateStrings() {
 
 	// Menu Options
 	showPlaylistAct->change( Images::icon("playlist"), tr("&Playlist") );
-	showPropertiesAct->change( Images::icon("info"), tr("View &info and properties...") );
+	showPropertiesAct->change( Images::icon("info"), tr("&Information and properties...") );
 	showPreferencesAct->change( Images::icon("prefs"), tr("P&references") );
 #ifdef YOUTUBE_SUPPORT
 	showTubeBrowserAct->change( Images::icon("tubebrowser"), tr("&YouTube%1 browser").arg(QChar(0x2122)) );
@@ -1819,10 +1819,10 @@ void BaseGui::retranslateStrings() {
 
 	// Submenu Logs
 #ifdef LOG_MPLAYER
-	showLogMplayerAct->change(PLAYER_NAME);
+	showLogMplayerAct->change(tr("%1 log").arg(PLAYER_NAME));
 #endif
 #ifdef LOG_SMPLAYER
-	showLogSmplayerAct->change( "SMPlayer" );
+	showLogSmplayerAct->change(tr("SMPlayer log"));
 #endif
 
 	// Menu Help
@@ -1912,6 +1912,7 @@ void BaseGui::retranslateStrings() {
 	audioMenu->menuAction()->setText( tr("&Audio") );
 	subtitlesMenu->menuAction()->setText( tr("&Subtitles") );
 	browseMenu->menuAction()->setText( tr("&Browse") );
+	viewMenu->menuAction()->setText( tr("Vie&w") );
 	optionsMenu->menuAction()->setText( tr("Op&tions") );
 	helpMenu->menuAction()->setText( tr("&Help") );
 
@@ -2127,8 +2128,8 @@ void BaseGui::retranslateStrings() {
 #endif
 
 #if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
-	logs_menu->menuAction()->setText( tr("&View logs") );
-	logs_menu->menuAction()->setIcon( Images::icon("logs") );
+	//logs_menu->menuAction()->setText( tr("&View logs") );
+	//logs_menu->menuAction()->setIcon( Images::icon("logs") );
 #endif
 
 	// To be sure that the "<empty>" string is translated
@@ -2473,6 +2474,7 @@ void BaseGui::createMenus() {
 	subtitlesMenu = menuBar()->addMenu("Subtitles");
 	/* menuBar()->addMenu(favorites); */
 	browseMenu = menuBar()->addMenu("Browse");
+	viewMenu = menuBar()->addMenu("View");
 	optionsMenu = menuBar()->addMenu("Options");
 	helpMenu = menuBar()->addMenu("Help");
 
@@ -2843,9 +2845,9 @@ void BaseGui::createMenus() {
 #endif
 
 
-	// OPTIONS MENU
-	optionsMenu->addAction(showPropertiesAct);
-	optionsMenu->addAction(showPlaylistAct);
+	// VIEW MENU
+	viewMenu->addAction(showPropertiesAct);
+	viewMenu->addAction(showPlaylistAct);
 #ifdef YOUTUBE_SUPPORT
 	#if 0
 	// Check if the smplayer youtube browser is installed
@@ -2855,17 +2857,31 @@ void BaseGui::createMenus() {
 		tube_exec += ".exe";
 		#endif
 		if (QFile::exists(tube_exec)) {
-			optionsMenu->addAction(showTubeBrowserAct);
+			viewMenu->addAction(showTubeBrowserAct);
 			qDebug("BaseGui::createMenus: %s does exist", tube_exec.toUtf8().constData());
 		} else {
 			qDebug("BaseGui::createMenus: %s does not exist", tube_exec.toUtf8().constData());
 		}
 	}
 	#else
-	optionsMenu->addAction(showTubeBrowserAct);
+	viewMenu->addAction(showTubeBrowserAct);
 	#endif
 #endif
+	// Logs submenu
+#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
+	viewMenu->addSeparator()->setText(tr("Logs"));
+	//logs_menu = new QMenu(this);
+	#ifdef LOG_MPLAYER
+	viewMenu->addAction(showLogMplayerAct);
+	#endif
+	#ifdef LOG_SMPLAYER
+	viewMenu->addAction(showLogSmplayerAct);
+	#endif
+	//viewMenu->addMenu(logs_menu);
+#endif
 
+
+	// OPTIONS MENU
 	// OSD submenu
 	osd_menu = new QMenu(this);
 	osd_menu->menuAction()->setObjectName("osd_menu");
@@ -2874,20 +2890,7 @@ void BaseGui::createMenus() {
 	osd_menu->addAction(decOSDScaleAct);
 	osd_menu->addAction(incOSDScaleAct);
 
-
 	optionsMenu->addMenu(osd_menu);
-
-	// Logs submenu
-#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
-	logs_menu = new QMenu(this);
-	#ifdef LOG_MPLAYER
-	logs_menu->addAction(showLogMplayerAct);
-	#endif
-	#ifdef LOG_SMPLAYER
-	logs_menu->addAction(showLogSmplayerAct);
-	#endif
-	optionsMenu->addMenu(logs_menu);
-#endif
 
 	optionsMenu->addAction(showPreferencesAct);
 
@@ -2941,6 +2944,7 @@ void BaseGui::createMenus() {
 	popup->addMenu( subtitlesMenu );
 	popup->addMenu( favorites );
 	popup->addMenu( browseMenu );
+	popup->addMenu( viewMenu );
 	popup->addMenu( optionsMenu );
 
 	// let's show something, even a <empty> entry
