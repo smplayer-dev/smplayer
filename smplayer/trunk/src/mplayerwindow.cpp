@@ -674,7 +674,7 @@ void MplayerWindow::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		retranslateStrings();
 	} else {
-		QWidget::changeEvent(e);
+		Screen::changeEvent(e);
 	}
 }
 
