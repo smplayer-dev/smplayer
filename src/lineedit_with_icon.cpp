@@ -23,7 +23,7 @@
 
 LineEditWithIcon::LineEditWithIcon(QWidget *parent) : QLineEdit(parent)
 {
-    button = new QToolButton(this);
+	button = new QToolButton(this);
 	button->setCursor(Qt::ArrowCursor);
 	setupButton();
 }
@@ -50,11 +50,10 @@ void LineEditWithIcon::setIcon(const QPixmap & pixmap) {
     */
 }
 
-void LineEditWithIcon::resizeEvent(QResizeEvent *)
-{
-    QSize sz = button->sizeHint();
-    int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
-    button->move(rect().right() - frameWidth - sz.width(),
+void LineEditWithIcon::resizeEvent(QResizeEvent *) {
+	QSize sz = button->sizeHint();
+	int frameWidth = style()->pixelMetric(QStyle::PM_DefaultFrameWidth);
+	button->move(rect().right() - frameWidth - sz.width(),
                  (rect().bottom() + 1 - sz.height())/2);
 }
 
@@ -63,7 +62,7 @@ void LineEditWithIcon::changeEvent(QEvent *e) {
 	if (e->type() == QEvent::LanguageChange) {
 		setupButton();
 	} else {
-		QWidget::changeEvent(e);
+		QLineEdit::changeEvent(e);
 	}
 }
 
