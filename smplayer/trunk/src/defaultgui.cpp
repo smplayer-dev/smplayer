@@ -430,17 +430,23 @@ void DefaultGui::createFloatingControl() {
 #if USE_CONFIGURABLE_TOOLBARS
 	QStringList floatingcontrol_actions;
 	floatingcontrol_actions << "play_or_pause" << "stop" << "separator";
+	/*
 	#if MINI_ARROW_BUTTONS
 	floatingcontrol_actions << "rewindbutton_action";
 	#else
 	floatingcontrol_actions << "rewind3" << "rewind2" << "rewind1";
 	#endif
+	*/
+	floatingcontrol_actions << "rewind1";
 	floatingcontrol_actions << "current_timelabel_action" << "timeslider_action" << "total_timelabel_action";
+	/*
 	#if MINI_ARROW_BUTTONS
 	floatingcontrol_actions << "forwardbutton_action";
 	#else
 	floatingcontrol_actions << "forward1" << "forward2" << "forward3";
 	#endif
+	*/
+	floatingcontrol_actions << "forward1";
 	floatingcontrol_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action";
 	iw->setDefaultActions(floatingcontrol_actions);
 #else
