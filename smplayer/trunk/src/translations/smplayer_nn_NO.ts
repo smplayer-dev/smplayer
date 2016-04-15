@@ -3121,7 +3121,7 @@ Skjekk om du har skrive rettar for plasseringa. </translation>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation>SMPlayer - Skriv inn URL</translation>
+        <translation>SMPlayer - Skriv inn ei adresse</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
@@ -4342,7 +4342,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation>Skriv inn URL(ar)</translation>
+        <translation>Skriv inn adresse(r)</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
