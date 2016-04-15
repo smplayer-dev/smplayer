@@ -405,7 +405,8 @@ bool VideoPreview::addPicture(const QString & filename, int num, int time) {
 
 void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 	// Display info about the video
-	QTime t = QTime().addSecs(i.length);
+	QTime t(0,0);
+	t = t.addSecs(i.length);
 
 	QString aspect = QString::number(i.aspect);
 	if (fabs(1.77 - i.aspect) < 0.1) aspect = "16:9";
