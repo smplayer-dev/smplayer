@@ -175,6 +175,8 @@ void Preferences::reset() {
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 
+	tablet_mode = false;
+
 
     /* ***************
        Drives (CD/DVD)
@@ -677,6 +679,8 @@ void Preferences::save() {
 	set->setValue("osd_delay", osd_delay);
 
 	set->setValue("file_settings_method", file_settings_method);
+
+	set->setValue("tablet_mode", tablet_mode);
 
 	set->endGroup(); // General
 
@@ -1213,6 +1217,8 @@ void Preferences::load() {
 	osd_delay = set->value("osd_delay", osd_delay).toInt();
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
+
+	tablet_mode = set->value("tablet_mode", tablet_mode).toBool();
 
 	set->endGroup(); // General
 

@@ -877,6 +877,11 @@ void BaseGui::createActions() {
              this, SLOT(showLog()) );
 #endif
 
+	tabletModeAct = new MyAction(this, "tablet_mode");
+	tabletModeAct->setCheckable(true);
+	connect(tabletModeAct, SIGNAL(toggled(bool)), this, SLOT(setTabletMode(bool)));
+
+
 	// Menu Help
 	showFirstStepsAct = new MyAction( this, "first_steps" );
 	connect( showFirstStepsAct, SIGNAL(triggered()),
@@ -1824,6 +1829,7 @@ void BaseGui::retranslateStrings() {
 #ifdef LOG_SMPLAYER
 	showLogSmplayerAct->change(tr("SMPlayer log"));
 #endif
+	tabletModeAct->change(Images::icon("tablet_mode"), tr("T&ablet mode"));
 
 	// Menu Help
 	showFirstStepsAct->change( Images::icon("guide"), tr("First Steps &Guide") );
@@ -2894,6 +2900,7 @@ void BaseGui::createMenus() {
 
 	// OPTIONS MENU
 	optionsMenu->addAction(showPreferencesAct);
+	optionsMenu->addAction(tabletModeAct);
 
 
 	// HELP MENU
@@ -3092,9 +3099,7 @@ void BaseGui::applyNewPreferences() {
 		#endif
 	}
 
-#ifdef MOUSE_GESTURES
-	mplayerwindow->activateMouseDragTracking(true);
-#else
+#ifndef MOUSE_GESTURES
 	mplayerwindow->activateMouseDragTracking(pref->drag_function == Preferences::MoveWindow);
 #endif
 	mplayerwindow->delayLeftClick(pref->delay_left_click);
@@ -3875,6 +3880,8 @@ void BaseGui::updateWidgets() {
 	seekNextSubAct->setEnabled(e);
 	seekPrevSubAct->setEnabled(e);
 #endif
+
+	tabletModeAct->setChecked(pref->tablet_mode);
 }
 
 void BaseGui::updateVideoEqualizer() {
@@ -5470,7 +5477,7 @@ QString BaseGui::loadQss(QString filename) {
 }
 
 void BaseGui::changeStyleSheet(QString style) {
-	qDebug("BaseGui::changeStyleSheet: %s", style.toUtf8().constData());
+	qDebug() << "BaseGui::changeStyleSheet:" << style;
 
 	// Load default stylesheet
 	QString stylesheet = loadQss(":/default-theme/style.qss");
@@ -5492,12 +5499,16 @@ void BaseGui::changeStyleSheet(QString style) {
 
 		// Load style file
 		if (QFile::exists(qss_file)) {
-			qDebug("BaseGui::changeStyleSheet: '%s'", qss_file.toUtf8().data());
+			qDebug() << "BaseGui::changeStyleSheet:" <<  qss_file;
 			stylesheet += loadQss(qss_file);
 		}
 	}
 
-	//qDebug("BaseGui::changeStyleSheet: styleSheet: %s", stylesheet.toUtf8().constData());
+	if (pref->tablet_mode) {
+		stylesheet += "QWidget { font-size: 14pt; } QMenu { menu-scrollable: 1;}"; // FIXME: read stylesheet from a file
+	}
+
+	//qDebug() << "BaseGui::changeStyleSheet: styleSheet:" << stylesheet;
 	qApp->setStyleSheet(stylesheet);
 }
 #endif
@@ -5519,8 +5530,14 @@ void BaseGui::applyStyles() {
 		qApp->setPalette(qApp->style()->standardPalette());
 	}
 #endif
-
 }
+
+void BaseGui::setTabletMode(bool b) {
+	qDebug("BaseGui::setTabletMode");
+	pref->tablet_mode = b;
+	applyStyles();
+}
+
 
 void BaseGui::loadActions() {
 	qDebug("BaseGui::loadActions");
@@ -5557,7 +5574,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	}
 	#endif
 
-	if (pref->drag_function == Preferences::Gestures) {
+	if (pref->drag_function == Preferences::Gestures || pref->tablet_mode) {
 		if (core->state() == Core::Stopped) return;
 
 		int t = 1;
@@ -5620,7 +5637,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 	}
 #endif
 
-	if (pref->drag_function == Preferences::MoveWindow) {
+	if (pref->drag_function == Preferences::MoveWindow && !pref->tablet_mode) {
 		moveWindowDiff(diff);
 	}
 }

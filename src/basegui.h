@@ -320,6 +320,8 @@ protected slots:
 
 	void applyStyles();
 
+	virtual void setTabletMode(bool);
+
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
@@ -541,6 +543,7 @@ protected:
 #ifdef LOG_SMPLAYER
 	MyAction * showLogSmplayerAct;
 #endif
+	MyAction * tabletModeAct;
 
 	// Menu Help
 	MyAction * showFirstStepsAct;
