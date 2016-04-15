@@ -1713,7 +1713,9 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (pref->vo != "player_default") {
 		if (!pref->vo.isEmpty()) {
-			proc->setOption("vo", pref->vo );
+			QString vo = pref->vo;
+			if (!vo.endsWith(",")) vo += ",";
+			proc->setOption("vo", vo);
 		} else {
 			#ifdef Q_OS_WIN
 			if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
@@ -1735,7 +1737,9 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (pref->ao != "player_default") {
 		if (!pref->ao.isEmpty()) {
-			proc->setOption("ao", pref->ao );
+			QString ao = pref->ao;
+			if (!ao.endsWith(",")) ao += ",";
+			proc->setOption("ao", ao);
 		}
 	}
 
