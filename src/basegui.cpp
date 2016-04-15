@@ -5505,7 +5505,13 @@ void BaseGui::changeStyleSheet(QString style) {
 	}
 
 	if (pref->tablet_mode) {
-		stylesheet += "QWidget { font-size: 14pt; } QMenu { menu-scrollable: 1;}"; // FIXME: read stylesheet from a file
+		QString tf = Images::file("tabletmode.css");
+		qDebug() << "BaseGui::changeStyleSheet: tablet stylesheet file:" << tf;
+
+		QFile file(tf);
+		if (file.exists() && file.open(QIODevice::ReadOnly | QIODevice::Text)) {
+			stylesheet += file.readAll();
+		}
 	}
 
 	//qDebug() << "BaseGui::changeStyleSheet: styleSheet:" << stylesheet;
