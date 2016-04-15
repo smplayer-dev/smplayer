@@ -2867,6 +2867,17 @@ void BaseGui::createMenus() {
 	viewMenu->addAction(showTubeBrowserAct);
 	#endif
 #endif
+
+	// OSD submenu
+	osd_menu = new QMenu(this);
+	osd_menu->menuAction()->setObjectName("osd_menu");
+	osd_menu->addActions(osdGroup->actions());
+	osd_menu->addSeparator();
+	osd_menu->addAction(decOSDScaleAct);
+	osd_menu->addAction(incOSDScaleAct);
+
+	viewMenu->addMenu(osd_menu);
+
 	// Logs submenu
 #if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	viewMenu->addSeparator()->setText(tr("Logs"));
@@ -2882,23 +2893,8 @@ void BaseGui::createMenus() {
 
 
 	// OPTIONS MENU
-	// OSD submenu
-	osd_menu = new QMenu(this);
-	osd_menu->menuAction()->setObjectName("osd_menu");
-	osd_menu->addActions(osdGroup->actions());
-	osd_menu->addSeparator();
-	osd_menu->addAction(decOSDScaleAct);
-	osd_menu->addAction(incOSDScaleAct);
-
-	optionsMenu->addMenu(osd_menu);
-
 	optionsMenu->addAction(showPreferencesAct);
 
-	/*
-	Favorites * fav = new Favorites(Paths::configPath() + "/test.fav", this);
-	connect(fav, SIGNAL(activated(QString)), this, SLOT(open(QString)));
-	optionsMenu->addMenu( fav->menu() )->setText("Favorites");
-	*/
 
 	// HELP MENU
 	// Share submenu
