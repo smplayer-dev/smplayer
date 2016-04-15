@@ -4891,7 +4891,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation>Prijavite ruš&amp;enje %1a  </translation>
+        <translation>P&amp;rijavite %1 rušenje</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="97"/>
@@ -4927,7 +4927,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>Run %1 in its own window</source>
-        <translation>&amp;Pokreni %1 u vlastitom prozoru</translation>
+        <translation>Pokreni %1 u vlastitom prozoru</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
@@ -4947,7 +4947,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="485"/>
         <source>Report %1 crashes</source>
-        <translation>Prijavite ruš&amp;enje %1a  </translation>
+        <translation>Prijavite %1 rušenje</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="486"/>
@@ -8004,7 +8004,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="144"/>
         <source>Play files from start</source>
-        <translation>Reproduciraj datoteke od početka</translation>
+        <translation>Reproduciraj datoteke ispočetka</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="145"/>
@@ -8029,12 +8029,12 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Play next file even if the previous file failed</source>
-        <translation>Reproduciraj slijedeću datoteku ako reprodukcija prijašnje nije uspjela</translation>
+        <translation>Reproduciraj sljedeću datoteku ako reprodukcija prijašnje nije uspjela</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>Ako je ova mogućnost odabrana, popis izvođenja će zanemariti greške reprodukcije prijašnje datoteke i reproducirati će slijedeću datoteku na popisu.</translation>
+        <translation>Ako je ova mogućnost odabrana, popis izvođenja će zanemariti greške reprodukcije prijašnje datoteke i reproducirati će sljedeću datoteku na popisu.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8069,7 +8069,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
         <source>P&amp;lay files from start</source>
-        <translation>&amp;Reproduciraj datoteke od početka</translation>
+        <translation>&amp;Reproduciraj datoteke ispočetka</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="110"/>
