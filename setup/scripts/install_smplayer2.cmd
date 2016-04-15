@@ -75,9 +75,9 @@ if %QT_VER% lss 5.0.0 (
 
 ) else if %QT_VER% geq 5.0.0 (
 
-  copy "%QT_DIR%\bin\icudt*.dll" "%OUTPUT_DIR%"
-  copy "%QT_DIR%\bin\icuin*.dll" "%OUTPUT_DIR%"
-  copy "%QT_DIR%\bin\icuuc*.dll" "%OUTPUT_DIR%"
+  REM copy "%QT_DIR%\bin\icudt*.dll" "%OUTPUT_DIR%"
+  REM copy "%QT_DIR%\bin\icuin*.dll" "%OUTPUT_DIR%"
+  REM copy "%QT_DIR%\bin\icuuc*.dll" "%OUTPUT_DIR%"
   copy "%QT_DIR%\bin\Qt5Core%QT_DEBUG_DLL_SUFFIX%.dll" "%OUTPUT_DIR%"
   REM copy "%QT_DIR%\bin\Qt5DBus%QT_DEBUG_DLL_SUFFIX%.dll" "%OUTPUT_DIR%"
   copy "%QT_DIR%\bin\Qt5Gui%QT_DEBUG_DLL_SUFFIX%.dll" "%OUTPUT_DIR%"
