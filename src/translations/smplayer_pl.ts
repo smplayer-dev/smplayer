@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -742,10 +740,6 @@ Czy chcesz go zastąpić?</translation>
         <translation>Menu ekran&amp;owe</translation>
     </message>
     <message>
-        <source>&amp;View logs</source>
-        <translation type="obsolete">Pokaż dzienniki (&amp;v)</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>P&amp;references</source>
         <translation>Ustawienia (&amp;r)</translation>
@@ -878,10 +872,6 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
         <location filename="../basegui.cpp" line="1656"/>
         <source>C&amp;lose</source>
         <translation>Zamknij (&amp;L)</translation>
-    </message>
-    <message>
-        <source>View &amp;info and properties...</source>
-        <translation type="obsolete">Pokaż &amp;informację i właściwości...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1028,7 +1018,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1138,7 +1128,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -1249,7 +1239,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="2872"/>
         <source>Logs</source>
-        <translation type="unfinished">Dzienniki</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4870"/>
@@ -2695,11 +2685,7 @@ Przykład: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Rozpakowano %n napis</numerusform>
-            <numerusform>Rozpakowano %n napisy</numerusform>
-            <numerusform>Rozpakowano %n napisów</numerusform>
-        </translation>
+        <translation><numerusform>Rozpakowano %n napis</numerusform><numerusform>Rozpakowano %n napisy</numerusform><numerusform>Rozpakowano %n napisów</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2797,7 +2783,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -8933,21 +8919,13 @@ Przykład: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekund(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9446,17 +9424,17 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>

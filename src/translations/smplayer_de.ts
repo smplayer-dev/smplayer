@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -573,7 +571,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../basegui.cpp" line="1743"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblocking</translation>
+        <translation>&amp;Klötzchenfilter</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
@@ -742,10 +740,6 @@ Möchten Sie sie Überschreiben?</translation>
         <translation>&amp;Bildschirmanzeige</translation>
     </message>
     <message>
-        <source>&amp;View logs</source>
-        <translation type="obsolete">&amp;Protokolle einsehen</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>P&amp;references</source>
         <translation>&amp;Einstellungen</translation>
@@ -878,10 +872,6 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
         <location filename="../basegui.cpp" line="1656"/>
         <source>C&amp;lose</source>
         <translation>&amp;Schließen</translation>
-    </message>
-    <message>
-        <source>View &amp;info and properties...</source>
-        <translation type="obsolete">&amp;Infos und Eigenschaften anzeigen …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1028,7 +1018,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informationen und Eigenschaften …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1138,17 +1128,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Anzeigen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
         <source>De&amp;noise</source>
-        <translation>Ent&amp;rauschen</translation>
+        <translation>&amp;Entrauschen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1992"/>
         <source>Blur/S&amp;harp</source>
-        <translation>Weichzeichnen/Sc&amp;härfen</translation>
+        <translation>&amp;Weichzeichnen/Schärfen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2015"/>
@@ -1249,7 +1239,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2872"/>
         <source>Logs</source>
-        <translation type="unfinished">Protokolle</translation>
+        <translation>Protokolle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4870"/>
@@ -2696,10 +2686,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2797,7 +2784,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -7784,7 +7771,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation>Diese Option ermöglicht das Überspringen des Schleifenfilters (auch bekannt als Deblocking) während der H.264-Dekodierung. Da bei den gefilterten Einzelbildern davon ausgegangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden, hat dies einen schlechteren Effekt auf die Qualität, als beispielsweise das Übersrpingen des Schleifenfilters bei MPEG-2-Videos. Jedoch ergibt sich zumindest bei HDTV mit hohen Bitraten, eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
+        <translation>Diese Option ermöglicht das Überspringen des Schleifenfilters (auch bekannt als Klötzchenfilter) während der H.264-Dekodierung. Da bei den gefilterten Einzelbildern davon ausgegangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden, hat dies einen schlechteren Effekt auf die Qualität, als beispielsweise das Übersrpingen des Schleifenfilters bei MPEG-2-Videos. Jedoch ergibt sich zumindest bei HDTV mit hohen Bitraten, eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8933,19 +8920,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9444,17 +9425,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Zeit</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Gesamtzeit</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Verbleibende Zeit</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>

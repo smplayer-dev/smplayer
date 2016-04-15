@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -742,10 +740,6 @@ Do you want to overwrite?</source>
         <translation>OSD(&amp;O)</translation>
     </message>
     <message>
-        <source>&amp;View logs</source>
-        <translation type="obsolete">ログの表示(&amp;V)</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>P&amp;references</source>
         <translation>環境設定(&amp;R)</translation>
@@ -878,10 +872,6 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1656"/>
         <source>C&amp;lose</source>
         <translation>閉じる(&amp;L)</translation>
-    </message>
-    <message>
-        <source>View &amp;info and properties...</source>
-        <translation type="obsolete">情報とプロパティの表示(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1028,7 +1018,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>情報とプロパティ(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1138,7 +1128,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation>表示(&amp;W)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -1249,7 +1239,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2872"/>
         <source>Logs</source>
-        <translation type="unfinished">ログ</translation>
+        <translation>ログ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4870"/>
@@ -2695,9 +2685,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 個の字幕が抽出されました</numerusform>
-        </translation>
+        <translation><numerusform>%n 個の字幕が抽出されました</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2795,7 +2783,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -8930,17 +8918,13 @@ Example: extrastereo,karaoke</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9439,17 +9423,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation>現在時間</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation>合計時間</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>残り時間</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>

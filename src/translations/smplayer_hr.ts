@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -742,10 +740,6 @@ Do you want to overwrite?</source>
         <translation>&amp;OSD</translation>
     </message>
     <message>
-        <source>&amp;View logs</source>
-        <translation type="obsolete">&amp;Pogledaj zapise</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1815"/>
         <source>P&amp;references</source>
         <translation>O&amp;sobitosti</translation>
@@ -878,10 +872,6 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <location filename="../basegui.cpp" line="1656"/>
         <source>C&amp;lose</source>
         <translation>Z&amp;atvori</translation>
-    </message>
-    <message>
-        <source>View &amp;info and properties...</source>
-        <translation type="obsolete">Pogledaj &amp;informacije i svojstva...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1028,7 +1018,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informacije i svojstva...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1138,7 +1128,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation>Pog&amp;led</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -1249,7 +1239,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="2872"/>
         <source>Logs</source>
-        <translation type="unfinished">Zapisi</translation>
+        <translation>Zapisi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4870"/>
@@ -2695,11 +2685,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2797,7 +2783,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -8932,21 +8918,13 @@ Npr: extrastereo,karaoke</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9445,17 +9423,17 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation>Trenutno vrijeme</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Ukupno vrijeme</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Preostalo vrijeme</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
