@@ -5604,6 +5604,7 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 			s += QString("%1").arg(seconds, 2, 10, QChar('0'));
 			*/
 			int time = core->mset.current_sec + delayed_seek_value;
+			if (time < 0) time = 0;
 			QString s;
 			s = tr("Jump to %1").arg(Helper::formatTime(time));
 			if (pref->fullscreen) {
