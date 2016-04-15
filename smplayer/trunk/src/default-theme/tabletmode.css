@@ -1,0 +1,9 @@
+/* This stylesheet will be added to the style's stylesheet in tablet mode */
+
+QWidget {
+	font-size: 14pt;
+}
+
+QMenu {
+	menu-scrollable: 1;
+}

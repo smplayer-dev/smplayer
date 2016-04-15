@@ -148,6 +148,7 @@
         <file>default-theme/add_bookmark.png</file>
         <file>default-theme/buffering.gif</file>
         <file>default-theme/style.qss</file>
+        <file>default-theme/tabletmode.css</file>
         <file>mpcgui/mpc_toolbar.png</file>
         <file>mpcgui/mpc_mono.png</file>
         <file>mpcgui/mpc_stereo.png</file>
