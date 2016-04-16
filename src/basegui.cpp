@@ -2472,69 +2472,27 @@ void BaseGui::createFilePropertiesDialog() {
 
 
 void BaseGui::createMenus() {
-	// MENUS
-	openMenu = menuBar()->addMenu("Open");
-	playMenu = menuBar()->addMenu("Play");
-	videoMenu = menuBar()->addMenu("Video");
-	audioMenu = menuBar()->addMenu("Audio");
-	subtitlesMenu = menuBar()->addMenu("Subtitles");
-	/* menuBar()->addMenu(favorites); */
-	browseMenu = menuBar()->addMenu("Browse");
-	viewMenu = menuBar()->addMenu("View");
-	optionsMenu = menuBar()->addMenu("Options");
-	helpMenu = menuBar()->addMenu("Help");
+	// Submenus
 
-	// OPEN MENU
-	openMenu->addAction(openFileAct);
-
+	// Recents submenu
 	recentfiles_menu = new QMenu(this);
+	recentfiles_menu->setObjectName("recents_menu");
 	/*
-	recentfiles_menu->addAction( clearRecentsAct );
+	recentfiles_menu->addAction(clearRecentsAct);
 	recentfiles_menu->addSeparator();
 	*/
-
-	openMenu->addMenu( recentfiles_menu );
-	openMenu->addMenu(favorites);
-	openMenu->addAction(openDirectoryAct);
-	openMenu->addAction(openPlaylistAct);
 
 	// Disc submenu
 	disc_menu = new QMenu(this);
 	disc_menu->menuAction()->setObjectName("disc_menu");
 	disc_menu->addAction(openDVDAct);
 	disc_menu->addAction(openDVDFolderAct);
-#ifdef BLURAY_SUPPORT
+	#ifdef BLURAY_SUPPORT
 	disc_menu->addAction(openBluRayAct);
 	disc_menu->addAction(openBluRayFolderAct);
-#endif
+	#endif
 	disc_menu->addAction(openVCDAct);
 	disc_menu->addAction(openAudioCDAct);
-
-	openMenu->addMenu(disc_menu);
-
-	openMenu->addAction(openURLAct);
-/* #ifndef Q_OS_WIN */
-	openMenu->addMenu(tvlist);
-	openMenu->addMenu(radiolist);
-/* #endif */
-	openMenu->addSeparator();
-	openMenu->addAction(exitAct);
-	
-	// PLAY MENU
-	playMenu->addAction(playAct);
-	playMenu->addAction(pauseAct);
-	/* playMenu->addAction(playOrPauseAct); */
-	playMenu->addAction(stopAct);
-	playMenu->addAction(frameStepAct);
-	playMenu->addAction(frameBackStepAct);
-	playMenu->addSeparator();
-	playMenu->addAction(rewind1Act);
-	playMenu->addAction(forward1Act);
-	playMenu->addAction(rewind2Act);
-	playMenu->addAction(forward2Act);
-	playMenu->addAction(rewind3Act);
-	playMenu->addAction(forward3Act);
-	playMenu->addSeparator();
 
 	// Speed submenu
 	speed_menu = new QMenu(this);
@@ -2553,8 +2511,6 @@ void BaseGui::createMenus() {
 	speed_menu->addAction(decSpeed1Act);
 	speed_menu->addAction(incSpeed1Act);
 
-	playMenu->addMenu(speed_menu);
-
 	// A-B submenu
 	ab_menu = new QMenu(this);
 	ab_menu->menuAction()->setObjectName("ab_menu");
@@ -2564,39 +2520,23 @@ void BaseGui::createMenus() {
 	ab_menu->addSeparator();
 	ab_menu->addAction(repeatAct);
 
-	playMenu->addSeparator();
-	playMenu->addMenu(ab_menu);
-
-	playMenu->addSeparator();
-	playMenu->addAction(gotoAct);
-	playMenu->addSeparator();
-	playMenu->addAction(playPrevAct);
-	playMenu->addAction(playNextAct);
-	
-	// VIDEO MENU
+	// Video track submenu
 	videotrack_menu = new QMenu(this);
 	videotrack_menu->menuAction()->setObjectName("videotrack_menu");
-
-	videoMenu->addMenu(videotrack_menu);
-
-	videoMenu->addAction(fullscreenAct);
-	videoMenu->addAction(compactAct);
 
 #if USE_ADAPTER
 	// Screen submenu
 	screen_menu = new QMenu(this);
 	screen_menu->menuAction()->setObjectName("screen_menu");
-	screen_menu->addActions( screenGroup->actions() );
-	videoMenu->addMenu(screen_menu);
+	screen_menu->addActions(screenGroup->actions());
 #endif
 
-	// Size submenu
+	// Video size submenu
 	videosize_menu = new QMenu(this);
 	videosize_menu->menuAction()->setObjectName("videosize_menu");
-	videosize_menu->addActions( sizeGroup->actions() );
+	videosize_menu->addActions(sizeGroup->actions());
 	videosize_menu->addSeparator();
 	videosize_menu->addAction(doubleSizeAct);
-	videoMenu->addMenu(videosize_menu);
 
 	// Zoom submenu
 	zoom_menu = new QMenu(this);
@@ -2615,21 +2555,15 @@ void BaseGui::createMenus() {
 	zoom_menu->addAction(moveUpAct);
 	zoom_menu->addAction(moveDownAct);
 
-	videoMenu->addMenu(zoom_menu);
-
 	// Aspect submenu
 	aspect_menu = new QMenu(this);
 	aspect_menu->menuAction()->setObjectName("aspect_menu");
-	aspect_menu->addActions( aspectGroup->actions() );
-
-	videoMenu->addMenu(aspect_menu);
+	aspect_menu->addActions(aspectGroup->actions());
 
 	// Deinterlace submenu
 	deinterlace_menu = new QMenu(this);
 	deinterlace_menu->menuAction()->setObjectName("deinterlace_menu");
-	deinterlace_menu->addActions( deinterlaceGroup->actions() );
-
-	videoMenu->addMenu(deinterlace_menu);
+	deinterlace_menu->addActions(deinterlaceGroup->actions());
 
 	// Video filter submenu
 	videofilter_menu = new QMenu(this);
@@ -2654,21 +2588,181 @@ void BaseGui::createMenus() {
 	unsharp_menu->menuAction()->setObjectName("unsharp_menu");
 	unsharp_menu->addActions(unsharpGroup->actions());
 	videofilter_menu->addMenu(unsharp_menu);
-	/*
-	videofilter_menu->addSeparator();
-	videofilter_menu->addActions(denoiseGroup->actions());
-	videofilter_menu->addSeparator();
-	videofilter_menu->addActions(unsharpGroup->actions());
-	*/
-	videoMenu->addMenu(videofilter_menu);
 
 	// Rotate submenu
 	rotate_menu = new QMenu(this);
 	rotate_menu->menuAction()->setObjectName("rotate_menu");
 	rotate_menu->addActions(rotateGroup->actions());
 
-	videoMenu->addMenu(rotate_menu);
+	// Ontop submenu
+	ontop_menu = new QMenu(this);
+	ontop_menu->menuAction()->setObjectName("ontop_menu");
+	ontop_menu->addActions(onTopActionGroup->actions());
 
+
+	// Audio track submenu
+	audiotrack_menu = new QMenu(this);
+	audiotrack_menu->menuAction()->setObjectName("audiotrack_menu");
+
+	// Audio filter submenu
+	audiofilter_menu = new QMenu(this);
+	audiofilter_menu->menuAction()->setObjectName("audiofilter_menu");
+	audiofilter_menu->addAction(extrastereoAct);
+	#ifdef MPLAYER_SUPPORT
+	audiofilter_menu->addAction(karaokeAct);
+	#endif
+	audiofilter_menu->addAction(volnormAct);
+
+	// Audio channels submenu
+	audiochannels_menu = new QMenu(this);
+	audiochannels_menu->menuAction()->setObjectName("audiochannels_menu");
+	audiochannels_menu->addActions(channelsGroup->actions());
+
+	// Stereo mode submenu
+	stereomode_menu = new QMenu(this);
+	stereomode_menu->menuAction()->setObjectName("stereomode_menu");
+	stereomode_menu->addActions(stereoGroup->actions());
+
+
+	// Subtitles track submenu
+	subtitles_track_menu = new QMenu(this);
+	subtitles_track_menu->menuAction()->setObjectName("subtitlestrack_menu");
+
+	// Subtitles secondary track submenu
+	#ifdef MPV_SUPPORT
+	secondary_subtitles_track_menu = new QMenu(this);
+	secondary_subtitles_track_menu->menuAction()->setObjectName("secondary_subtitles_track_menu");
+	#endif
+
+	// Subtitles fps submenu
+	subfps_menu = new QMenu(this);
+	subfps_menu->menuAction()->setObjectName("subfps_menu");
+	subfps_menu->addAction( subFPSNoneAct );
+	/* subfps_menu->addAction( subFPS23Act ); */
+	subfps_menu->addAction( subFPS23976Act );
+	subfps_menu->addAction( subFPS24Act );
+	subfps_menu->addAction( subFPS25Act );
+	subfps_menu->addAction( subFPS29970Act );
+	subfps_menu->addAction( subFPS30Act );
+
+	// Closed captions submenu
+	closed_captions_menu = new QMenu(this);
+	closed_captions_menu->menuAction()->setObjectName("closed_captions_menu");
+	closed_captions_menu->addAction( ccNoneAct);
+	closed_captions_menu->addAction( ccChannel1Act);
+	closed_captions_menu->addAction( ccChannel2Act);
+	closed_captions_menu->addAction( ccChannel3Act);
+	closed_captions_menu->addAction( ccChannel4Act);
+
+
+	// Titles submenu
+	titles_menu = new QMenu(this);
+	titles_menu->menuAction()->setObjectName("titles_menu");
+
+	// Chapters submenu
+	chapters_menu = new QMenu(this);
+	chapters_menu->menuAction()->setObjectName("chapters_menu");
+
+	// Angles submenu
+	angles_menu = new QMenu(this);
+	angles_menu->menuAction()->setObjectName("angles_menu");
+
+	// Bookmarks submenu
+	#ifdef BOOKMARKS
+	bookmark_menu = new QMenu(this);
+	bookmark_menu->menuAction()->setObjectName("bookmarks_menu");
+	#endif
+
+	// Program submenu
+	#if PROGRAM_SWITCH
+	programtrack_menu = new QMenu(this);
+	programtrack_menu->menuAction()->setObjectName("programtrack_menu");
+	#endif
+
+
+	// OSD submenu
+	osd_menu = new QMenu(this);
+	osd_menu->menuAction()->setObjectName("osd_menu");
+	osd_menu->addActions(osdGroup->actions());
+	osd_menu->addSeparator();
+	osd_menu->addAction(decOSDScaleAct);
+	osd_menu->addAction(incOSDScaleAct);
+
+
+	// Share submenu
+	#ifdef SHARE_MENU
+	share_menu = new QMenu(this);
+	share_menu->addAction(facebookAct);
+	share_menu->addAction(twitterAct);
+	share_menu->addAction(gmailAct);
+	share_menu->addAction(hotmailAct);
+	share_menu->addAction(yahooAct);
+	#endif
+
+	// MENUS
+	openMenu = menuBar()->addMenu("Open");
+	playMenu = menuBar()->addMenu("Play");
+	videoMenu = menuBar()->addMenu("Video");
+	audioMenu = menuBar()->addMenu("Audio");
+	subtitlesMenu = menuBar()->addMenu("Subtitles");
+	/* menuBar()->addMenu(favorites); */
+	browseMenu = menuBar()->addMenu("Browse");
+	viewMenu = menuBar()->addMenu("View");
+	optionsMenu = menuBar()->addMenu("Options");
+	helpMenu = menuBar()->addMenu("Help");
+
+	// OPEN MENU
+	openMenu->addAction(openFileAct);
+	openMenu->addMenu(recentfiles_menu);
+	openMenu->addMenu(favorites);
+	openMenu->addAction(openDirectoryAct);
+	openMenu->addAction(openPlaylistAct);
+	openMenu->addMenu(disc_menu);
+	openMenu->addAction(openURLAct);
+	/* #ifndef Q_OS_WIN */
+	openMenu->addMenu(tvlist);
+	openMenu->addMenu(radiolist);
+	/* #endif */
+	openMenu->addSeparator();
+	openMenu->addAction(exitAct);
+
+	// PLAY MENU
+	playMenu->addAction(playAct);
+	playMenu->addAction(pauseAct);
+	/* playMenu->addAction(playOrPauseAct); */
+	playMenu->addAction(stopAct);
+	playMenu->addAction(frameStepAct);
+	playMenu->addAction(frameBackStepAct);
+	playMenu->addSeparator();
+	playMenu->addAction(rewind1Act);
+	playMenu->addAction(forward1Act);
+	playMenu->addAction(rewind2Act);
+	playMenu->addAction(forward2Act);
+	playMenu->addAction(rewind3Act);
+	playMenu->addAction(forward3Act);
+	playMenu->addSeparator();
+	playMenu->addMenu(speed_menu);
+	playMenu->addSeparator();
+	playMenu->addMenu(ab_menu);
+	playMenu->addSeparator();
+	playMenu->addAction(gotoAct);
+	playMenu->addSeparator();
+	playMenu->addAction(playPrevAct);
+	playMenu->addAction(playNextAct);
+
+	// VIDEO MENU
+	videoMenu->addMenu(videotrack_menu);
+	videoMenu->addAction(fullscreenAct);
+	videoMenu->addAction(compactAct);
+	#if USE_ADAPTER
+	videoMenu->addMenu(screen_menu);
+	#endif
+	videoMenu->addMenu(videosize_menu);
+	videoMenu->addMenu(zoom_menu);
+	videoMenu->addMenu(aspect_menu);
+	videoMenu->addMenu(deinterlace_menu);
+	videoMenu->addMenu(videofilter_menu);
+	videoMenu->addMenu(rotate_menu);
 	videoMenu->addAction(flipAct);
 	videoMenu->addAction(mirrorAct);
 	videoMenu->addAction(stereo3dAct);
@@ -2676,54 +2770,18 @@ void BaseGui::createMenus() {
 	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
 	videoMenu->addAction(screenshotsAct);
-
-	// Ontop submenu
-	ontop_menu = new QMenu(this);
-	ontop_menu->menuAction()->setObjectName("ontop_menu");
-	ontop_menu->addActions(onTopActionGroup->actions());
-
 	videoMenu->addMenu(ontop_menu);
-
-#ifdef VIDEOPREVIEW
+	#ifdef VIDEOPREVIEW
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoPreviewAct);
-#endif
+	#endif
 
-
-    // AUDIO MENU
-
-	// Audio track submenu
-	audiotrack_menu = new QMenu(this);
-	audiotrack_menu->menuAction()->setObjectName("audiotrack_menu");
-
+	// AUDIO MENU
 	audioMenu->addMenu(audiotrack_menu);
-
 	audioMenu->addAction(loadAudioAct);
 	audioMenu->addAction(unloadAudioAct);
-
-	// Filter submenu
-	audiofilter_menu = new QMenu(this);
-	audiofilter_menu->menuAction()->setObjectName("audiofilter_menu");
-	audiofilter_menu->addAction(extrastereoAct);
-#ifdef MPLAYER_SUPPORT
-	audiofilter_menu->addAction(karaokeAct);
-#endif
-	audiofilter_menu->addAction(volnormAct);
-
 	audioMenu->addMenu(audiofilter_menu);
-
-	// Audio channels submenu
-	audiochannels_menu = new QMenu(this);
-	audiochannels_menu->menuAction()->setObjectName("audiochannels_menu");
-	audiochannels_menu->addActions( channelsGroup->actions() );
-
 	audioMenu->addMenu(audiochannels_menu);
-
-	// Stereo mode submenu
-	stereomode_menu = new QMenu(this);
-	stereomode_menu->menuAction()->setObjectName("stereomode_menu");
-	stereomode_menu->addActions( stereoGroup->actions() );
-
 	audioMenu->addMenu(stereomode_menu);
 	audioMenu->addAction(audioEqualizerAct);
 	audioMenu->addSeparator();
@@ -2739,46 +2797,17 @@ void BaseGui::createMenus() {
 
 
 	// SUBTITLES MENU
-	// Track submenu
-	subtitles_track_menu = new QMenu(this);
-	subtitles_track_menu->menuAction()->setObjectName("subtitlestrack_menu");
-
-#ifdef MPV_SUPPORT
-	secondary_subtitles_track_menu = new QMenu(this);
-	secondary_subtitles_track_menu->menuAction()->setObjectName("secondary_subtitles_track_menu");
-#endif
-
 	subtitlesMenu->addMenu(subtitles_track_menu);
-#ifdef MPV_SUPPORT
+	#ifdef MPV_SUPPORT
 	subtitlesMenu->addMenu(secondary_subtitles_track_menu);
-#endif
+	#endif
 	subtitlesMenu->addSeparator();
-
 	subtitlesMenu->addAction(loadSubsAct);
 	subtitlesMenu->addAction(unloadSubsAct);
-
-	subfps_menu = new QMenu(this);
-	subfps_menu->menuAction()->setObjectName("subfps_menu");
-	subfps_menu->addAction( subFPSNoneAct );
-	/* subfps_menu->addAction( subFPS23Act ); */
-	subfps_menu->addAction( subFPS23976Act );
-	subfps_menu->addAction( subFPS24Act );
-	subfps_menu->addAction( subFPS25Act );
-	subfps_menu->addAction( subFPS29970Act );
-	subfps_menu->addAction( subFPS30Act );
 	subtitlesMenu->addMenu(subfps_menu);
 	subtitlesMenu->addSeparator();
-
-	closed_captions_menu = new QMenu(this);
-	closed_captions_menu->menuAction()->setObjectName("closed_captions_menu");
-	closed_captions_menu->addAction( ccNoneAct);
-	closed_captions_menu->addAction( ccChannel1Act);
-	closed_captions_menu->addAction( ccChannel2Act);
-	closed_captions_menu->addAction( ccChannel3Act);
-	closed_captions_menu->addAction( ccChannel4Act);
 	subtitlesMenu->addMenu(closed_captions_menu);
 	subtitlesMenu->addSeparator();
-
 	subtitlesMenu->addAction(decSubDelayAct);
 	subtitlesMenu->addAction(incSubDelayAct);
 	subtitlesMenu->addSeparator();
@@ -2792,146 +2821,81 @@ void BaseGui::createMenus() {
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubStepAct);
 	subtitlesMenu->addAction(incSubStepAct);
-#ifdef MPV_SUPPORT
+	#ifdef MPV_SUPPORT
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(seekPrevSubAct);
 	subtitlesMenu->addAction(seekNextSubAct);
-#endif
+	#endif
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useForcedSubsOnlyAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(subVisibilityAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useCustomSubStyleAct);
-#ifdef FIND_SUBTITLES
-	subtitlesMenu->addSeparator(); //turbos
+	#ifdef FIND_SUBTITLES
+	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(showFindSubtitlesDialogAct);
-	subtitlesMenu->addAction(openUploadSubtitlesPageAct); //turbos
-#endif
+	subtitlesMenu->addAction(openUploadSubtitlesPageAct);
+	#endif
 
 	// BROWSE MENU
-	// Titles submenu
-	titles_menu = new QMenu(this);
-	titles_menu->menuAction()->setObjectName("titles_menu");
-
 	browseMenu->addMenu(titles_menu);
-
-	// Chapters submenu
-	chapters_menu = new QMenu(this);
-	chapters_menu->menuAction()->setObjectName("chapters_menu");
-
 	browseMenu->addMenu(chapters_menu);
-
-	// Angles submenu
-	angles_menu = new QMenu(this);
-	angles_menu->menuAction()->setObjectName("angles_menu");
-
 	browseMenu->addMenu(angles_menu);
-
-#ifdef BOOKMARKS
-	// Bookmarks submenu
-	bookmark_menu = new QMenu(this);
-	bookmark_menu->menuAction()->setObjectName("bookmarks_menu");
-
+	#ifdef BOOKMARKS
 	browseMenu->addMenu(bookmark_menu);
-#endif
-
-#if DVDNAV_SUPPORT
+	#endif
+	#if DVDNAV_SUPPORT
 	browseMenu->addSeparator();
 	browseMenu->addAction(dvdnavMenuAct);
 	browseMenu->addAction(dvdnavPrevAct);
-#endif
-
-#if PROGRAM_SWITCH
-	programtrack_menu = new QMenu(this);
-	programtrack_menu->menuAction()->setObjectName("programtrack_menu");
-
+	#endif
+	#if PROGRAM_SWITCH
 	browseMenu->addSeparator();
 	browseMenu->addMenu(programtrack_menu);
-#endif
-
+	#endif
 
 	// VIEW MENU
 	viewMenu->addAction(showPropertiesAct);
 	viewMenu->addAction(showPlaylistAct);
-#ifdef YOUTUBE_SUPPORT
-	#if 0
-	// Check if the smplayer youtube browser is installed
-	{
-		QString tube_exec = Paths::appPath() + "/smtube";
-		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-		tube_exec += ".exe";
-		#endif
-		if (QFile::exists(tube_exec)) {
-			viewMenu->addAction(showTubeBrowserAct);
-			qDebug("BaseGui::createMenus: %s does exist", tube_exec.toUtf8().constData());
-		} else {
-			qDebug("BaseGui::createMenus: %s does not exist", tube_exec.toUtf8().constData());
-		}
-	}
-	#else
+	#ifdef YOUTUBE_SUPPORT
 	viewMenu->addAction(showTubeBrowserAct);
 	#endif
-#endif
-
-	// OSD submenu
-	osd_menu = new QMenu(this);
-	osd_menu->menuAction()->setObjectName("osd_menu");
-	osd_menu->addActions(osdGroup->actions());
-	osd_menu->addSeparator();
-	osd_menu->addAction(decOSDScaleAct);
-	osd_menu->addAction(incOSDScaleAct);
-
 	viewMenu->addMenu(osd_menu);
-
-	// Logs submenu
-#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
+	#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
 	viewMenu->addSeparator()->setText(tr("Logs"));
-	//logs_menu = new QMenu(this);
-	#ifdef LOG_MPLAYER
-	viewMenu->addAction(showLogMplayerAct);
+	  #ifdef LOG_MPLAYER
+	  viewMenu->addAction(showLogMplayerAct);
+	  #endif
+	  #ifdef LOG_SMPLAYER
+	  viewMenu->addAction(showLogSmplayerAct);
+	  #endif
 	#endif
-	#ifdef LOG_SMPLAYER
-	viewMenu->addAction(showLogSmplayerAct);
-	#endif
-	//viewMenu->addMenu(logs_menu);
-#endif
-
 
 	// OPTIONS MENU
 	optionsMenu->addAction(showPreferencesAct);
 	optionsMenu->addAction(tabletModeAct);
 
-
 	// HELP MENU
-	// Share submenu
-#ifdef SHARE_MENU
-	share_menu = new QMenu(this);
-	share_menu->addAction(facebookAct);
-	share_menu->addAction(twitterAct);
-	share_menu->addAction(gmailAct);
-	share_menu->addAction(hotmailAct);
-	share_menu->addAction(yahooAct);
-
+	#ifdef SHARE_MENU
 	helpMenu->addMenu(share_menu);
 	helpMenu->addSeparator();
-#endif
-
+	#endif
 	helpMenu->addAction(showFirstStepsAct);
 	helpMenu->addAction(showFAQAct);
 	helpMenu->addAction(showCLOptionsAct);
 	helpMenu->addSeparator();
 	helpMenu->addAction(showCheckUpdatesAct);
-#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
+	#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
 	helpMenu->addAction(updateYTAct);
-#endif
+	#endif
 	helpMenu->addSeparator();
 	helpMenu->addAction(showConfigAct);
 	helpMenu->addSeparator();
-#ifdef SHARE_ACTIONS
+	#ifdef SHARE_ACTIONS
 	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
-#endif
+	#endif
 	helpMenu->addAction(aboutThisAct);
 
 	// POPUP MENU
