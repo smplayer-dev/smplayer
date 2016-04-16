@@ -2813,8 +2813,8 @@ void BaseGui::populateMainMenu() {
 	if (!pref->tablet_mode) {
 		videoMenu->addAction(stereo3dAct);
 		videoMenu->addSeparator();
-		videoMenu->addAction(videoEqualizerAct);
 	}
+	videoMenu->addAction(videoEqualizerAct);
 	videoMenu->addAction(screenshotAct);
 	if (!pref->tablet_mode) {
 		videoMenu->addAction(screenshotsAct);
@@ -2900,7 +2900,9 @@ void BaseGui::populateMainMenu() {
 	// BROWSE MENU
 	if (!pref->tablet_mode) {
 		browseMenu->addMenu(titles_menu);
-		browseMenu->addMenu(chapters_menu);
+	}
+	browseMenu->addMenu(chapters_menu);
+	if (!pref->tablet_mode) {
 		browseMenu->addMenu(angles_menu);
 	}
 	#ifdef BOOKMARKS
