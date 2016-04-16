@@ -37,6 +37,7 @@ MiniGui::MiniGui( QWidget * parent, Qt::WindowFlags flags )
 	createActions();
 	createControlWidget();
 	createFloatingControl();
+	populateMainMenu();
 
 #if USE_CONFIGURABLE_TOOLBARS
 	connect( editControlAct, SIGNAL(triggered()), controlwidget, SLOT(edit()) );
