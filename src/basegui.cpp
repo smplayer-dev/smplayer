@@ -2476,11 +2476,7 @@ void BaseGui::createMenus() {
 
 	// Recents submenu
 	recentfiles_menu = new QMenu(this);
-	recentfiles_menu->setObjectName("recents_menu");
-	/*
-	recentfiles_menu->addAction(clearRecentsAct);
-	recentfiles_menu->addSeparator();
-	*/
+	recentfiles_menu->menuAction()->setObjectName("recents_menu");
 
 	// Disc submenu
 	disc_menu = new QMenu(this);
