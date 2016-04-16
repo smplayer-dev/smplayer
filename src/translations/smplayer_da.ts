@@ -1018,7 +1018,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Information og egenskaber...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1128,7 +1128,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Vis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -9423,17 +9423,17 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Nuværende tid</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Samlet tid</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Resterende tid</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
