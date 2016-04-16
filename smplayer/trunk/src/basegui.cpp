@@ -2734,31 +2734,49 @@ void BaseGui::createMenus() {
 }
 
 void BaseGui::populateMainMenu() {
+	qDebug("BaseGui::populateMainMenu");
+
+	openMenu->clear();
+	playMenu->clear();
+	videoMenu->clear();
+	audioMenu->clear();
+	subtitlesMenu->clear();
+	browseMenu->clear();
+	viewMenu->clear();
+	optionsMenu->clear();
+	helpMenu->clear();
+
 	// OPEN MENU
 	openMenu->addAction(openFileAct);
 	openMenu->addMenu(recentfiles_menu);
 	openMenu->addMenu(favorites);
 	openMenu->addAction(openDirectoryAct);
 	openMenu->addAction(openPlaylistAct);
-	openMenu->addMenu(disc_menu);
+	if (!pref->tablet_mode) {
+		openMenu->addMenu(disc_menu);
+	}
 	openMenu->addAction(openURLAct);
-	/* #ifndef Q_OS_WIN */
-	openMenu->addMenu(tvlist);
-	openMenu->addMenu(radiolist);
-	/* #endif */
+	if (!pref->tablet_mode) {
+		openMenu->addMenu(tvlist);
+		openMenu->addMenu(radiolist);
+	}
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);
 
 	// PLAY MENU
-	playMenu->addAction(playAct);
-	playMenu->addAction(pauseAct);
-	/* playMenu->addAction(playOrPauseAct); */
-	playMenu->addAction(stopAct);
+	if (!pref->tablet_mode) {
+		playMenu->addAction(playAct);
+		playMenu->addAction(pauseAct);
+		/* playMenu->addAction(playOrPauseAct); */
+		playMenu->addAction(stopAct);
+	}
 	playMenu->addAction(frameStepAct);
 	playMenu->addAction(frameBackStepAct);
 	playMenu->addSeparator();
-	playMenu->addAction(rewind1Act);
-	playMenu->addAction(forward1Act);
+	if (!pref->tablet_mode) {
+		playMenu->addAction(rewind1Act);
+		playMenu->addAction(forward1Act);
+	}
 	playMenu->addAction(rewind2Act);
 	playMenu->addAction(forward2Act);
 	playMenu->addAction(rewind3Act);
@@ -2766,20 +2784,24 @@ void BaseGui::populateMainMenu() {
 	playMenu->addSeparator();
 	playMenu->addMenu(speed_menu);
 	playMenu->addSeparator();
-	playMenu->addMenu(ab_menu);
-	playMenu->addSeparator();
-	playMenu->addAction(gotoAct);
-	playMenu->addSeparator();
+	if (!pref->tablet_mode) {
+		playMenu->addMenu(ab_menu);
+		playMenu->addSeparator();
+		playMenu->addAction(gotoAct);
+		playMenu->addSeparator();
+	}
 	playMenu->addAction(playPrevAct);
 	playMenu->addAction(playNextAct);
 
 	// VIDEO MENU
 	videoMenu->addMenu(videotrack_menu);
 	videoMenu->addAction(fullscreenAct);
-	videoMenu->addAction(compactAct);
-	#if USE_ADAPTER
-	videoMenu->addMenu(screen_menu);
-	#endif
+	if (!pref->tablet_mode) {
+		videoMenu->addAction(compactAct);
+		#if USE_ADAPTER
+		videoMenu->addMenu(screen_menu);
+		#endif
+	}
 	videoMenu->addMenu(videosize_menu);
 	videoMenu->addMenu(zoom_menu);
 	videoMenu->addMenu(aspect_menu);
@@ -2788,12 +2810,16 @@ void BaseGui::populateMainMenu() {
 	videoMenu->addMenu(rotate_menu);
 	videoMenu->addAction(flipAct);
 	videoMenu->addAction(mirrorAct);
-	videoMenu->addAction(stereo3dAct);
-	videoMenu->addSeparator();
-	videoMenu->addAction(videoEqualizerAct);
+	if (!pref->tablet_mode) {
+		videoMenu->addAction(stereo3dAct);
+		videoMenu->addSeparator();
+		videoMenu->addAction(videoEqualizerAct);
+	}
 	videoMenu->addAction(screenshotAct);
-	videoMenu->addAction(screenshotsAct);
-	videoMenu->addMenu(ontop_menu);
+	if (!pref->tablet_mode) {
+		videoMenu->addAction(screenshotsAct);
+		videoMenu->addMenu(ontop_menu);
+	}
 	#ifdef VIDEOPREVIEW
 	videoMenu->addSeparator();
 	videoMenu->addAction(videoPreviewAct);
@@ -2804,95 +2830,115 @@ void BaseGui::populateMainMenu() {
 	audioMenu->addAction(loadAudioAct);
 	audioMenu->addAction(unloadAudioAct);
 	audioMenu->addMenu(audiofilter_menu);
-	audioMenu->addMenu(audiochannels_menu);
-	audioMenu->addMenu(stereomode_menu);
+	if (!pref->tablet_mode) {
+		audioMenu->addMenu(audiochannels_menu);
+		audioMenu->addMenu(stereomode_menu);
+	}
 	audioMenu->addAction(audioEqualizerAct);
 	audioMenu->addSeparator();
-	audioMenu->addAction(muteAct);
-	audioMenu->addSeparator();
-	audioMenu->addAction(decVolumeAct);
-	audioMenu->addAction(incVolumeAct);
-	audioMenu->addSeparator();
+	if (!pref->tablet_mode) {
+		audioMenu->addAction(muteAct);
+		audioMenu->addSeparator();
+		audioMenu->addAction(decVolumeAct);
+		audioMenu->addAction(incVolumeAct);
+		audioMenu->addSeparator();
+	}
 	audioMenu->addAction(decAudioDelayAct);
 	audioMenu->addAction(incAudioDelayAct);
-	audioMenu->addSeparator();
 	audioMenu->addAction(audioDelayAct);
 
 
 	// SUBTITLES MENU
 	subtitlesMenu->addMenu(subtitles_track_menu);
 	#ifdef MPV_SUPPORT
-	subtitlesMenu->addMenu(secondary_subtitles_track_menu);
+	if (!pref->tablet_mode) {
+		subtitlesMenu->addMenu(secondary_subtitles_track_menu);
+	}
 	#endif
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(loadSubsAct);
 	subtitlesMenu->addAction(unloadSubsAct);
-	subtitlesMenu->addMenu(subfps_menu);
-	subtitlesMenu->addSeparator();
-	subtitlesMenu->addMenu(closed_captions_menu);
+	if (!pref->tablet_mode) {
+		subtitlesMenu->addMenu(subfps_menu);
+		subtitlesMenu->addSeparator();
+		subtitlesMenu->addMenu(closed_captions_menu);
+	}
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(decSubDelayAct);
 	subtitlesMenu->addAction(incSubDelayAct);
-	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(subDelayAct);
 	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(decSubPosAct);
-	subtitlesMenu->addAction(incSubPosAct);
-	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(decSubScaleAct);
-	subtitlesMenu->addAction(incSubScaleAct);
-	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(decSubStepAct);
-	subtitlesMenu->addAction(incSubStepAct);
-	#ifdef MPV_SUPPORT
-	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(seekPrevSubAct);
-	subtitlesMenu->addAction(seekNextSubAct);
-	#endif
-	subtitlesMenu->addSeparator();
-	subtitlesMenu->addAction(useForcedSubsOnlyAct);
-	subtitlesMenu->addSeparator();
+	if (!pref->tablet_mode) {
+		subtitlesMenu->addAction(decSubPosAct);
+		subtitlesMenu->addAction(incSubPosAct);
+		subtitlesMenu->addSeparator();
+		subtitlesMenu->addAction(decSubScaleAct);
+		subtitlesMenu->addAction(incSubScaleAct);
+		subtitlesMenu->addSeparator();
+		subtitlesMenu->addAction(decSubStepAct);
+		subtitlesMenu->addAction(incSubStepAct);
+		#ifdef MPV_SUPPORT
+		subtitlesMenu->addSeparator();
+		subtitlesMenu->addAction(seekPrevSubAct);
+		subtitlesMenu->addAction(seekNextSubAct);
+		#endif
+		subtitlesMenu->addSeparator();
+		subtitlesMenu->addAction(useForcedSubsOnlyAct);
+		subtitlesMenu->addSeparator();
+	}
 	subtitlesMenu->addAction(subVisibilityAct);
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(useCustomSubStyleAct);
 	#ifdef FIND_SUBTITLES
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(showFindSubtitlesDialogAct);
-	subtitlesMenu->addAction(openUploadSubtitlesPageAct);
+	if (!pref->tablet_mode) {
+		subtitlesMenu->addAction(openUploadSubtitlesPageAct);
+	}
 	#endif
 
 	// BROWSE MENU
-	browseMenu->addMenu(titles_menu);
-	browseMenu->addMenu(chapters_menu);
-	browseMenu->addMenu(angles_menu);
+	if (!pref->tablet_mode) {
+		browseMenu->addMenu(titles_menu);
+		browseMenu->addMenu(chapters_menu);
+		browseMenu->addMenu(angles_menu);
+	}
 	#ifdef BOOKMARKS
 	browseMenu->addMenu(bookmark_menu);
 	#endif
 	#if DVDNAV_SUPPORT
-	browseMenu->addSeparator();
-	browseMenu->addAction(dvdnavMenuAct);
-	browseMenu->addAction(dvdnavPrevAct);
+	if (!pref->tablet_mode) {
+		browseMenu->addSeparator();
+		browseMenu->addAction(dvdnavMenuAct);
+		browseMenu->addAction(dvdnavPrevAct);
+	}
 	#endif
 	#if PROGRAM_SWITCH
-	browseMenu->addSeparator();
-	browseMenu->addMenu(programtrack_menu);
+	if (!pref->tablet_mode) {
+		browseMenu->addSeparator();
+		browseMenu->addMenu(programtrack_menu);
+	}
 	#endif
 
 	// VIEW MENU
 	viewMenu->addAction(showPropertiesAct);
 	viewMenu->addAction(showPlaylistAct);
 	#ifdef YOUTUBE_SUPPORT
-	viewMenu->addAction(showTubeBrowserAct);
+	if (!pref->tablet_mode) {
+		viewMenu->addAction(showTubeBrowserAct);
+	}
 	#endif
 	viewMenu->addMenu(osd_menu);
 	#if defined(LOG_MPLAYER) || defined(LOG_SMPLAYER)
-	viewMenu->addSeparator()->setText(tr("Logs"));
-	  #ifdef LOG_MPLAYER
-	  viewMenu->addAction(showLogMplayerAct);
-	  #endif
-	  #ifdef LOG_SMPLAYER
-	  viewMenu->addAction(showLogSmplayerAct);
-	  #endif
+	if (!pref->tablet_mode) {
+		viewMenu->addSeparator()->setText(tr("Logs"));
+		#ifdef LOG_MPLAYER
+		viewMenu->addAction(showLogMplayerAct);
+		#endif
+		#ifdef LOG_SMPLAYER
+		viewMenu->addAction(showLogSmplayerAct);
+		#endif
+	}
 	#endif
 
 	// OPTIONS MENU
@@ -2901,20 +2947,26 @@ void BaseGui::populateMainMenu() {
 
 	// HELP MENU
 	#ifdef SHARE_MENU
-	helpMenu->addMenu(share_menu);
-	helpMenu->addSeparator();
+	if (!pref->tablet_mode) {
+		helpMenu->addMenu(share_menu);
+		helpMenu->addSeparator();
+	}
 	#endif
-	helpMenu->addAction(showFirstStepsAct);
-	helpMenu->addAction(showFAQAct);
-	helpMenu->addAction(showCLOptionsAct);
-	helpMenu->addSeparator();
+	if (!pref->tablet_mode) {
+		helpMenu->addAction(showFirstStepsAct);
+		helpMenu->addAction(showFAQAct);
+		helpMenu->addAction(showCLOptionsAct);
+		helpMenu->addSeparator();
+	}
 	helpMenu->addAction(showCheckUpdatesAct);
 	#if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
 	helpMenu->addAction(updateYTAct);
 	#endif
 	helpMenu->addSeparator();
-	helpMenu->addAction(showConfigAct);
-	helpMenu->addSeparator();
+	if (!pref->tablet_mode) {
+		helpMenu->addAction(showConfigAct);
+		helpMenu->addSeparator();
+	}
 	#ifdef SHARE_ACTIONS
 	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
@@ -5509,6 +5561,7 @@ void BaseGui::applyStyles() {
 void BaseGui::setTabletMode(bool b) {
 	qDebug("BaseGui::setTabletMode");
 	pref->tablet_mode = b;
+	populateMainMenu();
 	applyStyles();
 }
 

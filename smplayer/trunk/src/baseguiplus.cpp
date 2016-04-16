@@ -150,10 +150,14 @@ BaseGuiPlus::~BaseGuiPlus() {
 }
 
 void BaseGuiPlus::populateMainMenu() {
+	qDebug("BaseGuiPlus::populateMainMenu");
+
 	BaseGui::populateMainMenu();
 
-	openMenu->addAction(quitAct);
-	optionsMenu->addAction(showTrayAct);
+	if (!pref->tablet_mode) {
+		openMenu->addAction(quitAct);
+		optionsMenu->addAction(showTrayAct);
+	}
 }
 
 bool BaseGuiPlus::startHidden() {
