@@ -227,6 +227,8 @@ void DefaultGui::createMenus() {
 }
 
 void DefaultGui::populateMainMenu() {
+	qDebug("DefaultGui::populateMainMenu");
+
 	BaseGuiPlus::populateMainMenu();
 
 	optionsMenu->addSeparator();
