@@ -405,6 +405,7 @@ protected:
 	void setActionsEnabled(bool);
 #endif
 	void createMenus();
+	virtual void populateMainMenu();
 #ifdef BOOKMARKS
 	void updateBookmarks();
 #endif

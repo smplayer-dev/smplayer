@@ -179,12 +179,19 @@ void SkinGui::createMenus() {
 	toolbar_menu->addAction(editFloatingControlAct);
 	#endif
 #endif
-	optionsMenu->addSeparator();
-	optionsMenu->addMenu(toolbar_menu);
 
 	statusbar_menu = new QMenu(this);
 	statusbar_menu->addAction(viewVideoInfoAct);
 	statusbar_menu->addAction(scrollTitleAct);
+
+	populateMainMenu();
+}
+
+void SkinGui::populateMainMenu() {
+	BaseGuiPlus::populateMainMenu();
+
+	optionsMenu->addSeparator();
+	optionsMenu->addMenu(toolbar_menu);
 	optionsMenu->addMenu(statusbar_menu);
 }
 

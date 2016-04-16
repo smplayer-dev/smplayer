@@ -44,13 +44,14 @@ public:
 
 protected:
 	virtual void retranslateStrings();
+	virtual void populateMainMenu();
 
 	void loadConfig();
 	void saveConfig();
 	void updateShowAllAct();
 
-    virtual void aboutToEnterFullscreen();
-    virtual void aboutToExitFullscreen();
+	virtual void aboutToEnterFullscreen();
+	virtual void aboutToExitFullscreen();
 	virtual void aboutToEnterCompactMode();
 	virtual void aboutToExitCompactMode();
 
@@ -73,9 +74,6 @@ protected slots:
 	virtual void showAll(bool b);
 	virtual void showAll();
 	virtual void quit();
-#ifdef Q_OS_OS2
-	void trayAvailable();
-#endif
 
 #if DOCK_PLAYLIST
 	virtual void showPlaylist(bool b);
@@ -110,16 +108,15 @@ protected:
 	//QPoint infowindow_pos;
 	//bool infowindow_visible;
 
-   int widgets_size; // To be able to restore the original size after exiting from compact mode
+	int widgets_size; // To be able to restore the original size after exiting from compact mode
 
 #if DOCK_PLAYLIST
-    PlaylistDock * playlistdock;
+	PlaylistDock * playlistdock;
 	bool fullscreen_playlist_was_visible;
 	bool fullscreen_playlist_was_floating;
 	bool compact_playlist_was_visible;
 	bool ignore_playlist_events;
 #endif
-
 };
 
 #endif

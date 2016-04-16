@@ -218,13 +218,19 @@ void DefaultGui::createMenus() {
 	toolbar_menu->addAction(editControl2Act);
 	toolbar_menu->addAction(editFloatingControlAct);
 #endif
-	optionsMenu->addSeparator();
-	optionsMenu->addMenu(toolbar_menu);
 
 	statusbar_menu = new QMenu(this);
 	statusbar_menu->addAction(viewVideoInfoAct);
 	statusbar_menu->addAction(viewFrameCounterAct);
 
+	populateMainMenu();
+}
+
+void DefaultGui::populateMainMenu() {
+	BaseGuiPlus::populateMainMenu();
+
+	optionsMenu->addSeparator();
+	optionsMenu->addMenu(toolbar_menu);
 	optionsMenu->addMenu(statusbar_menu);
 }
 

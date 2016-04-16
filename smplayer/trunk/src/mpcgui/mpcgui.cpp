@@ -44,6 +44,7 @@ MpcGui::MpcGui( QWidget * parent, Qt::WindowFlags flags )
 	createControlWidget();
 	createStatusBar();
 	createFloatingControl();
+	populateMainMenu();
 
 	retranslateStrings();
 

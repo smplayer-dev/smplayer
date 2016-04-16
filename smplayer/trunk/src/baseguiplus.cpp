@@ -70,26 +70,16 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
              this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
 
 	quitAct = new MyAction(QKeySequence("Ctrl+Q"), this, "quit");
-    connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
-	openMenu->addAction(quitAct);
+	connect( quitAct, SIGNAL(triggered()), this, SLOT(quit()) );
 
 	showTrayAct = new MyAction(this, "show_tray_icon" );
 	showTrayAct->setCheckable(true);
 	connect( showTrayAct, SIGNAL(toggled(bool)),
              tray, SLOT(setVisible(bool)) );
 
-#ifndef Q_OS_OS2
-	optionsMenu->addAction(showTrayAct);
-#else
-	trayAvailable();
-	connect( optionsMenu, SIGNAL(aboutToShow()),
-             this, SLOT(trayAvailable()) );
-#endif
-
 	showAllAct = new MyAction(this, "restore/hide");
 	connect( showAllAct, SIGNAL(triggered()),
              this, SLOT(toggleShowAll()) );
-
 
 	context_menu = new QMenu(this);
 	context_menu->addAction(showAllAct);
@@ -115,7 +105,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	context_menu->addAction(showPreferencesAct);
 	context_menu->addSeparator();
 	context_menu->addAction(quitAct);
-	
+
 	tray->setContextMenu( context_menu );
 
 #if DOCK_PLAYLIST
@@ -151,12 +141,19 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 	retranslateStrings();
 
-    loadConfig();
+	loadConfig();
 }
 
 BaseGuiPlus::~BaseGuiPlus() {
 	saveConfig();
 	tray->hide();
+}
+
+void BaseGuiPlus::populateMainMenu() {
+	BaseGui::populateMainMenu();
+
+	openMenu->addAction(quitAct);
+	optionsMenu->addAction(showTrayAct);
 }
 
 bool BaseGuiPlus::startHidden() {
@@ -639,17 +636,5 @@ TimeLabelAction * BaseGuiPlus::createTimeLabelAction(TimeLabelAction::TimeLabelT
 
 	return time_label_action;
 }
-
-#ifdef Q_OS_OS2
-// we test if xcenter is available at all. if not disable the tray action. this is possible when xcenter is not opened or crashed
-void BaseGuiPlus::trayAvailable() {
-	if (!tray->isSystemTrayAvailable()) {
-			optionsMenu->removeAction(showTrayAct);
-	}
-	else {
-		optionsMenu->addAction(showTrayAct);
-	}
-}
-#endif
 
 #include "moc_baseguiplus.cpp"

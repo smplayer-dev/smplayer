@@ -2711,6 +2711,29 @@ void BaseGui::createMenus() {
 	optionsMenu = menuBar()->addMenu("Options");
 	helpMenu = menuBar()->addMenu("Help");
 
+	// POPUP MENU
+	if (!popup)
+		popup = new QMenu(this);
+	else
+		popup->clear();
+
+	popup->addMenu( openMenu );
+	popup->addMenu( playMenu );
+	popup->addMenu( videoMenu );
+	popup->addMenu( audioMenu );
+	popup->addMenu( subtitlesMenu );
+	popup->addMenu( favorites );
+	popup->addMenu( browseMenu );
+	popup->addMenu( viewMenu );
+	popup->addMenu( optionsMenu );
+
+	//populateMainMenu();
+
+	// let's show something, even a <empty> entry
+	initializeMenus();
+}
+
+void BaseGui::populateMainMenu() {
 	// OPEN MENU
 	openMenu->addAction(openFileAct);
 	openMenu->addMenu(recentfiles_menu);
@@ -2897,25 +2920,6 @@ void BaseGui::createMenus() {
 	helpMenu->addSeparator();
 	#endif
 	helpMenu->addAction(aboutThisAct);
-
-	// POPUP MENU
-	if (!popup)
-		popup = new QMenu(this);
-	else
-		popup->clear();
-
-	popup->addMenu( openMenu );
-	popup->addMenu( playMenu );
-	popup->addMenu( videoMenu );
-	popup->addMenu( audioMenu );
-	popup->addMenu( subtitlesMenu );
-	popup->addMenu( favorites );
-	popup->addMenu( browseMenu );
-	popup->addMenu( viewMenu );
-	popup->addMenu( optionsMenu );
-
-	// let's show something, even a <empty> entry
-	initializeMenus();
 }
 
 /*

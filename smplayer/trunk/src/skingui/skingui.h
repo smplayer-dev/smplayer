@@ -62,6 +62,7 @@ protected:
 	void createFloatingControl();
 	void createActions();
 	void createMenus();
+	virtual void populateMainMenu();
 
 	void loadConfig();
 	void saveConfig();
