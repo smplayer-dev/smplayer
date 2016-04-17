@@ -19,10 +19,18 @@
 #include "errordialog.h"
 #include "images.h"
 
+#if QT_VERSION >= 0x050000
+#include "myscroller.h"
+#endif
+
 ErrorDialog::ErrorDialog( QWidget* parent, Qt::WindowFlags f )
 	: QDialog(parent, f)
 {
 	setupUi(this);
+
+#if QT_VERSION >= 0x050000
+	MyScroller::setScroller(log->viewport());
+#endif
 
 	icon->setText("");
 	icon->setPixmap( Images::icon("crash") );
