@@ -1018,7 +1018,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Інформація та властивості...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1128,7 +1128,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation>Пе&amp;регляд</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -1239,7 +1239,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2872"/>
         <source>Logs</source>
-        <translation type="unfinished"/>
+        <translation>Журнали</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4870"/>
@@ -9423,17 +9423,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Поточний час</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Загальний час</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Залишок часу</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
