@@ -322,11 +322,12 @@ protected slots:
 
 	virtual void setTabletMode(bool);
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-#ifdef AVOID_SCREENSAVER
+#ifdef Q_OS_WIN
+	void checkSystemTabletMode();
+	#ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
 	void clear_just_stopped();
-#endif
+	#endif
 #endif
 
 #ifdef LOG_MPLAYER

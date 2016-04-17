@@ -5557,7 +5557,7 @@ void BaseGui::applyStyles() {
 }
 
 void BaseGui::setTabletMode(bool b) {
-	qDebug("BaseGui::setTabletMode");
+	qDebug() << "BaseGui::setTabletMode:" << b;
 	pref->tablet_mode = b;
 	populateMainMenu();
 	applyStyles();
@@ -5946,12 +5946,17 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 	if (m && m->message == WM_SETTINGCHANGE && m->lParam) {
 		QString text = QString::fromWCharArray((TCHAR*)m->lParam);
 		qDebug() << "BaseGui::winEvent: WM_SETTINGCHANGE:" << text;
-		
+		/*
 		bool slate_mode = (GetSystemMetrics(SM_CONVERTIBLESLATEMODE) == 0);
 		qDebug() << "BaseGui::winEvent: slate_mode:" << slate_mode;
 
 		bool docked = (GetSystemMetrics(SM_SYSTEMDOCKED) != 0);
 		qDebug() << "BaseGui::winEvent: docked:" << docked;
+		*/
+		
+		if (text == "UserInteractionMode") {
+			QTimer::singleShot(1000, this, SLOT(checkSystemTabletMode()));
+		}
 		
 		*result = 0;
 		return true;
@@ -6000,7 +6005,19 @@ bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, long * re
 
 #endif
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef Q_OS_WIN
+void BaseGui::checkSystemTabletMode() {
+	QSettings set("HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\ImmersiveShell", QSettings::NativeFormat);
+	QVariant v = set.value("TabletMode");
+	if (v.isValid()) {
+		bool system_tablet_mode = (v.toInt() == 1);
+		qDebug() << "BaseGui::checkSystemTabletMode: system_tablet_mode:" << system_tablet_mode;
+		if (pref->tablet_mode != system_tablet_mode) {
+			setTabletMode(system_tablet_mode);
+		}
+ 	}
+}
+
 #ifdef AVOID_SCREENSAVER
 void BaseGui::clear_just_stopped() {
 	qDebug("BaseGui::clear_just_stopped");
