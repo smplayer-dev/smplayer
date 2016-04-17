@@ -5937,7 +5937,9 @@ void BaseGui::changeEvent(QEvent *e) {
 bool BaseGui::winEvent ( MSG * m, long * result ) {
 	//qDebug() << "BaseGui::winEvent:" << m;
 	if (m && m->message == WM_SETTINGCHANGE && m->lParam) {
-		qDebug("BaseGui::winEvent: WM_SETTINGCHANGE");
+		QString text = QString::fromWCharArray((TCHAR*)m->lParam);
+		qDebug() << "BaseGui::winEvent: WM_SETTINGCHANGE:" << text;
+		
 		*result = 0;
 		return true;
 	}
