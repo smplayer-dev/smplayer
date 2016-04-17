@@ -381,6 +381,10 @@ protected:
 	#ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
 	virtual bool winEvent ( MSG * m, long * result );
+	
+	#if QT_VERSION >= 0x050000
+	virtual bool nativeEvent(const QByteArray &eventType, void * message, long * result);
+	#endif
 	#endif
 #endif
 
