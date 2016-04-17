@@ -5932,17 +5932,31 @@ void BaseGui::changeEvent(QEvent *e) {
 }
 
 #ifdef Q_OS_WIN
-#ifdef AVOID_SCREENSAVER
-/* Disable screensaver by event */
+
+#ifndef SM_CONVERTIBLESLATEMODE
+#define SM_CONVERTIBLESLATEMODE 0x2003
+#endif
+
+#ifndef SM_SYSTEMDOCKED
+#define SM_SYSTEMDOCKED 0x2004
+#endif
+
 bool BaseGui::winEvent ( MSG * m, long * result ) {
 	//qDebug() << "BaseGui::winEvent:" << m;
 	if (m && m->message == WM_SETTINGCHANGE && m->lParam) {
 		QString text = QString::fromWCharArray((TCHAR*)m->lParam);
 		qDebug() << "BaseGui::winEvent: WM_SETTINGCHANGE:" << text;
 		
+		bool slate_mode = (GetSystemMetrics(SM_CONVERTIBLESLATEMODE) == 0);
+		qDebug() << "BaseGui::winEvent: slate_mode:" << slate_mode;
+
+		bool docked = (GetSystemMetrics(SM_SYSTEMDOCKED) != 0);
+		qDebug() << "BaseGui::winEvent: docked:" << docked;
+		
 		*result = 0;
 		return true;
 	}
+#ifdef AVOID_SCREENSAVER
 	else
 	if (m->message==WM_SYSCOMMAND) {
 		if ((m->wParam & 0xFFF0)==SC_SCREENSAVE || (m->wParam & 0xFFF0)==SC_MONITORPOWER) {
@@ -5967,6 +5981,7 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 			}
 		}
 	}
+#endif
 	return false;
 }
 
@@ -5983,7 +5998,6 @@ bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, long * re
 }
 #endif
 
-#endif
 #endif
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
