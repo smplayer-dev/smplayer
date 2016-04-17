@@ -28,6 +28,10 @@
 #include <QFile>
 #include <QDesktopServices>
 
+#if QT_VERSION >= 0x050000
+#include "myscroller.h"
+#endif
+
 using namespace Global;
 
 About::About(QWidget * parent, Qt::WindowFlags f)
@@ -35,6 +39,10 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 	setWindowIcon( Images::icon("logo", 64) );
+
+#if QT_VERSION >= 0x050000
+	MyScroller::setScroller(info->viewport());
+#endif
 
 	logo->setPixmap( QPixmap(":/default-theme/logo.png").scaledToHeight(64, Qt::SmoothTransformation) );
 	contrib_icon->setPixmap( Images::icon("contributors" ) );
