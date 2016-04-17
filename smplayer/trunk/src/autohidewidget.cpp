@@ -73,6 +73,7 @@ AutohideWidget::~AutohideWidget() {
 }
 
 void AutohideWidget::setInternalWidget(QWidget * w) {
+	//qDebug() << "AutohideWidget::setInternalWidget:" << w;
 	layout()->addWidget(w);
 	internal_widget = w;
 }
@@ -102,6 +103,9 @@ void AutohideWidget::installFilter(QObject *o) {
 }
 
 bool AutohideWidget::visiblePopups() {
+	//qDebug() << "AutohideWidget::visiblePopups: internal_widget:" << internal_widget;
+	if (!internal_widget) return false;
+
 	// Check if any of the menus in the internal widget is visible
 	QObjectList children = internal_widget->children();
 	foreach(QObject * child, children) {
@@ -120,14 +124,14 @@ bool AutohideWidget::visiblePopups() {
 				foreach(QWidget * widget, aw) {
 					//qDebug() << "AutohideWidget::visiblePopups: widget:" << widget;
 					if ((menu = qobject_cast<QMenu *>(widget))) {
-						qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
+						//qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
 						if (menu->isVisible()) return true;
 					}
 				}
 
 				menu = action->menu();
 				if (menu) {
-					qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
+					//qDebug() << "AutohideWidget::visiblePopups: menu:" << menu << "visible:" << menu->isVisible();
 					if (menu->isVisible()) return true;
 				}
 			}
