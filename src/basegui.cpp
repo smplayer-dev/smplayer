@@ -5935,7 +5935,13 @@ void BaseGui::changeEvent(QEvent *e) {
 #ifdef AVOID_SCREENSAVER
 /* Disable screensaver by event */
 bool BaseGui::winEvent ( MSG * m, long * result ) {
-	//qDebug("BaseGui::winEvent");
+	//qDebug() << "BaseGui::winEvent:" << m;
+	if (m && m->message == WM_SETTINGCHANGE && m->lParam) {
+		qDebug("BaseGui::winEvent: WM_SETTINGCHANGE");
+		*result = 0;
+		return true;
+	}
+	else
 	if (m->message==WM_SYSCOMMAND) {
 		if ((m->wParam & 0xFFF0)==SC_SCREENSAVE || (m->wParam & 0xFFF0)==SC_MONITORPOWER) {
 			qDebug("BaseGui::winEvent: received SC_SCREENSAVE or SC_MONITORPOWER");
@@ -5961,6 +5967,20 @@ bool BaseGui::winEvent ( MSG * m, long * result ) {
 	}
 	return false;
 }
+
+#if QT_VERSION >= 0x050000
+bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, long * result) {
+	//qDebug() << "BaseGui::nativeEvent:" << eventType;
+	
+	if (eventType == "windows_generic_MSG") {
+		MSG * m = (MSG*) message;
+		return winEvent(m, result);
+	}
+	
+	return false;
+}
+#endif
+
 #endif
 #endif
 
