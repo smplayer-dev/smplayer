@@ -6013,7 +6013,8 @@ void BaseGui::checkSystemTabletMode() {
 		bool system_tablet_mode = (v.toInt() == 1);
 		qDebug() << "BaseGui::checkSystemTabletMode: system_tablet_mode:" << system_tablet_mode;
 		if (pref->tablet_mode != system_tablet_mode) {
-			setTabletMode(system_tablet_mode);
+			//setTabletMode(system_tablet_mode);
+			qDebug("BaseGui::checkSystemTabletMode: tablet mode should be changed");
 		}
  	}
 }
