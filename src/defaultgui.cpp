@@ -52,6 +52,7 @@
 #include <QMovie>
 
 #define TOOLBAR_VERSION 1
+#define FLOATING_CONTROL_VERSION 1
 
 using namespace Global;
 
@@ -836,6 +837,7 @@ void DefaultGui::saveConfig() {
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	set->setValue("floating_control", iw->actionsToStringList() );
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
+	set->setValue("floating_control_version", FLOATING_CONTROL_VERSION);
 	set->endGroup();
 
 	set->beginGroup("toolbars_icon_size");
@@ -895,7 +897,14 @@ void DefaultGui::loadConfig() {
 	controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
 	controlwidget_mini->setActionsFromStringList( set->value("controlwidget_mini", controlwidget_mini->defaultActions()).toStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
-	iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
+
+	int floating_control_version = set->value("floating_control_version", 0).toInt();
+	if (floating_control_version >= FLOATING_CONTROL_VERSION) {
+		iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
+	} else {
+		qDebug("DefaultGui::loadConfig: floating control too old, loading default one");
+		iw->setActionsFromStringList( iw->defaultActions() );
+	}
 	set->endGroup();
 
 	set->beginGroup("toolbars_icon_size");
