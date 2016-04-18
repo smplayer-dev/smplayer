@@ -23,7 +23,7 @@
       <attribute name="title">
        <string>&amp;Advanced</string>
       </attribute>
-      <layout class="QVBoxLayout">
+      <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
         <layout class="QHBoxLayout">
          <property name="spacing">
@@ -193,6 +193,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="show_tag_in_title_check">
+         <property name="text">
+          <string>Show tag in&amp;fo in window title</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <layout class="QHBoxLayout">
          <property name="spacing">
           <number>6</number>
@@ -247,13 +254,6 @@
           </spacer>
          </item>
         </layout>
-       </item>
-       <item>
-        <widget class="QCheckBox" name="show_tag_in_title_check">
-         <property name="text">
-          <string>Show tag in&amp;fo in window title</string>
-         </property>
-        </widget>
        </item>
        <item>
         <spacer>
@@ -675,9 +675,9 @@
   <tabstop>repaint_video_background_check</tabstop>
   <tabstop>correct_pts_combo</tabstop>
   <tabstop>actions_to_run_edit</tabstop>
+  <tabstop>show_tag_in_title_check</tabstop>
   <tabstop>colorkey_view</tabstop>
   <tabstop>changeButton</tabstop>
-  <tabstop>show_tag_in_title_check</tabstop>
   <tabstop>mplayer_args_edit</tabstop>
   <tabstop>mplayer_vfilters_edit</tabstop>
   <tabstop>mplayer_afilters_edit</tabstop>
