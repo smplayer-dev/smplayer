@@ -1018,7 +1018,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Informacje i właściwości...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1829"/>
@@ -1128,7 +1128,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Widok</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1989"/>
@@ -1239,7 +1239,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="2872"/>
         <source>Logs</source>
-        <translation type="unfinished"/>
+        <translation>Dzienniki</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4870"/>
@@ -9424,17 +9424,17 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Bieżący czas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Całkowity czas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Pozostały czas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
