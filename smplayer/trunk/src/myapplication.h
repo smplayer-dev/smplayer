@@ -23,16 +23,17 @@
 
 #ifdef Q_OS_WIN
   #define USE_WINEVENTFILTER
-  #if QT_VERSION >= 0x050000
-  #include <QAbstractNativeEventFilter>
-  #endif
+#endif
+
+#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
+#include <QAbstractNativeEventFilter>
 #endif
 
 #ifdef SINGLE_INSTANCE
 #include "QtSingleApplication"
 
 class MyApplication : public QtSingleApplication
-#if QT_VERSION >= 0x050000
+#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
 , QAbstractNativeEventFilter
 #endif
 {
@@ -61,11 +62,14 @@ public:
 #include <QApplication>
 
 class MyApplication : public QApplication
+#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
+, QAbstractNativeEventFilter
+#endif
 {
 	Q_OBJECT
 
 public:
-	MyApplication ( const QString & appId, int & argc, char ** argv ) : QApplication(argc, argv) {};
+	MyApplication ( const QString & appId, int & argc, char ** argv );
 
 	virtual void commitData ( QSessionManager & /*manager*/ ) {
 		// Nothing to do, let the application to close
@@ -73,6 +77,9 @@ public:
 	
 #ifdef USE_WINEVENTFILTER
 	virtual bool winEventFilter(MSG * msg, long * result);
+	#if QT_VERSION >= 0x050000
+	virtual bool nativeEventFilter(const QByteArray &eventType, void *message, long *result);
+	#endif
 #endif
 };
 

@@ -27,6 +27,18 @@ MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv )
 #endif
 };
 
+#else
+
+MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv ) 
+	: QApplication(argc, argv)
+{
+#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
+	installNativeEventFilter(this);
+#endif
+};
+
+#endif
+	
 #if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
 bool MyApplication::nativeEventFilter(const QByteArray &eventType, void *message, long *result) {
 	//qDebug() << "MyApplication::nativeEventFilter:" <<eventType;
@@ -38,7 +50,6 @@ bool MyApplication::nativeEventFilter(const QByteArray &eventType, void *message
 	
 	return false;
 }
-#endif
 #endif
 
 #ifdef USE_WINEVENTFILTER
