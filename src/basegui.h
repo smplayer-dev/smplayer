@@ -401,7 +401,7 @@ protected:
 	void createPreferencesDialog();
 	void createFilePropertiesDialog();
 	void setDataToFileProperties();
-	void initializeGui();
+
 	void createActions();
 #if AUTODISABLE_ACTIONS
 	void setActionsEnabled(bool);

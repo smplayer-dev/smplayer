@@ -247,7 +247,12 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	panel->setFocus();
 
 	setupNetworkProxy();
-	initializeGui();
+
+	/* Initialize GUI */
+	if (pref->compact_mode) toggleCompactMode(true);
+	changeStayOnTop(pref->stay_on_top);
+	updateRecents();
+	QTimer::singleShot(20, this, SLOT(loadActions()));
 
 #ifdef UPDATE_CHECKER
 	update_checker = new UpdateChecker(this, &pref->update_checker_data);
@@ -264,21 +269,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #ifdef MPRIS2
 	if (pref->use_mpris2) new Mpris2(this, this);
 #endif
-}
-
-void BaseGui::initializeGui() {
-	if (pref->compact_mode) toggleCompactMode(true);
-	changeStayOnTop(pref->stay_on_top);
-
-	updateRecents();
-
-	// Call loadActions() outside initialization of the class.
-	// Otherwise DefaultGui (and other subclasses) doesn't exist, and 
-	// its actions are not loaded
-	QTimer::singleShot(20, this, SLOT(loadActions()));
-
-	// Single instance
-	/* Deleted */
 }
 
 void BaseGui::setupNetworkProxy() {
