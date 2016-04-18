@@ -549,7 +549,7 @@ void Preferences::reset() {
        **************** */
 
 	floating_control_margin = 0;
-	floating_control_width = 70; //70 %
+	floating_control_width = 100; //100%
 	floating_control_animated = true;
 	floating_display_in_compact_mode = false;
 	floating_activation_area = AutohideWidget::Anywhere;
