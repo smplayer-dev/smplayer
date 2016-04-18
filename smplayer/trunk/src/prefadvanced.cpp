@@ -491,17 +491,17 @@ void PrefAdvanced::createHelp() {
            "not when the %1 process is restarted (e.g. you select an "
            "audio or video filter).").arg(PLAYER_NAME) );
 
+	setWhatsThis(show_tag_in_title_check, tr("Show tag info in window title"),
+		tr("If this option is enabled, information from tags will be "
+		   "shown in window title. "
+           "Otherwise only the filename will be shown.") );
+
 #if USE_COLORKEY
 	setWhatsThis(colorkey_view, tr("Colorkey"),
         tr("If you see parts of the video over any other window, you can "
            "change the colorkey to fix it. Try to select a color close to "
            "black.") );
 #endif
-
-	setWhatsThis(show_tag_in_title_check, tr("Show tag info in window title"),
-		tr("If this option is enabled, information from tags will be "
-		   "shown in window title. "
-           "Otherwise only the filename will be shown.") );
 
 
 	addSectionTitle(PLAYER_NAME);

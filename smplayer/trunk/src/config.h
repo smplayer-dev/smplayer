@@ -90,7 +90,7 @@
 
 // Just for testing, possibility to disable the use of the colorkey
 
-#define USE_COLORKEY 1
+#define USE_COLORKEY 0
 
 
 // USE_MINIMUMSIZE
