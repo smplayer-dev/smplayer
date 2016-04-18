@@ -40,8 +40,8 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 
 	// Style combo
 #if !STYLE_SWITCHING
-    style_label->hide();
-    style_combo->hide();
+	style_label->hide();
+	style_combo->hide();
 #else
 	style_combo->addItem( "<default>" );
 	style_combo->addItems( QStyleFactory::keys() );
@@ -431,16 +431,19 @@ bool PrefInterface::saveSize() {
 
 
 void PrefInterface::setStyle(QString style) {
-	if (style.isEmpty()) 
+	if (style.isEmpty()) {
 		style_combo->setCurrentIndex(0);
-	else
-		style_combo->setCurrentText(style);
+	} else {
+		int i = style_combo->findText(style, Qt::MatchFixedString);
+		if (i < 0) i = 0;
+		style_combo->setCurrentIndex(i);
+	}
 }
 
 QString PrefInterface::style() {
-	if (style_combo->currentIndex()==0)
+	if (style_combo->currentIndex() == 0)
 		return "";
-	else 
+	else
 		return style_combo->currentText();
 }
 
