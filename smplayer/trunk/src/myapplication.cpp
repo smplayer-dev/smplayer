@@ -18,6 +18,29 @@
 
 #include "myapplication.h"
 
+#ifdef SINGLE_INSTANCE
+MyApplication::MyApplication ( const QString & appId, int & argc, char ** argv ) 
+	: QtSingleApplication(appId, argc, argv)
+{
+#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
+	installNativeEventFilter(this);
+#endif
+};
+
+#if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
+bool MyApplication::nativeEventFilter(const QByteArray &eventType, void *message, long *result) {
+	//qDebug() << "MyApplication::nativeEventFilter:" <<eventType;
+	
+	if (eventType == "windows_generic_MSG" || eventType == "windows_dispatcher_MSG") {
+		MSG * m = static_cast<MSG *>(message);
+		return winEventFilter(m, result);
+	}
+	
+	return false;
+}
+#endif
+#endif
+
 #ifdef USE_WINEVENTFILTER
 #include <QKeyEvent>
 #include <QEvent>
