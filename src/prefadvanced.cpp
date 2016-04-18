@@ -94,9 +94,9 @@ void PrefAdvanced::retranslateStrings() {
 	mplayer_use_window_check->setText( tr("&Run %1 in its own window").arg(PLAYER_NAME) );
 	shortnames_check->setText( tr("&Pass short filenames (8+3) to %1").arg(PLAYER_NAME) );
 	mplayer_crashes_check->setText( tr("R&eport %1 crashes").arg(PLAYER_NAME) );
-	advanced_tab->setTabText(1, tr("O&ptions for %1").arg(PLAYER_NAME) );
-	options_info_label->setText( tr("Here you can pass extra options to %1.").arg(PLAYER_NAME) +"<br>"+
-		tr("Write them separated by spaces.") + "<br>" + tr("Example:") + " -volume 50 -fps 25" );
+	advanced_tab->setTabText(1, PLAYER_NAME);
+	player_group->setTitle(tr("Options for %1").arg(PLAYER_NAME));
+	options_info_label->setText( tr("Here you can pass options and filters to %1.").arg(PLAYER_NAME) );
 	mplayer_log_box->setTitle(PLAYER_NAME);
 	log_mplayer_check->setText( tr("Log %1 &output").arg(PLAYER_NAME) );
 	log_mplayer_save_check->setText( tr("A&utosave %1 log to file").arg(PLAYER_NAME) );
@@ -109,7 +109,7 @@ void PrefAdvanced::retranslateStrings() {
 void PrefAdvanced::setData(Preferences * pref) {
 	setMonitorAspect( pref->monitor_aspect );
 
-#if REPAINT_BACKGROUND_OPTION	
+#if REPAINT_BACKGROUND_OPTION
 	setRepaintVideoBackground( pref->repaint_video_background );
 #endif
 	setUseMplayerWindow( pref->use_mplayer_window );
@@ -451,14 +451,6 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(monitoraspect_combo, tr("Monitor aspect"),
         tr("Select the aspect ratio of your monitor.") );
 
-	setWhatsThis(mplayer_use_window_check, tr("Run %1 in its own window").arg(PLAYER_NAME),
-        tr("If you check this option, the %1 video window won't be "
-           "embedded in SMPlayer's main window but instead it will use its "
-           "own window. Note that mouse and keyboard events will be handled "
-           "directly by %1, that means key shortcuts and mouse clicks "
-           "probably won't work as expected when the %1 window has the "
-           "focus.").arg(PLAYER_NAME) );
-
 	setWhatsThis(idx_check, tr("Rebuild index if needed"),
 		tr("Rebuilds index of files if no index was found, allowing seeking. "
 		   "Useful with broken/incomplete downloads, or badly created files. "
@@ -469,31 +461,13 @@ void PrefAdvanced::createHelp() {
 	setWhatsThis(lavf_demuxer_check, tr("Use the lavf demuxer by default"),
 		tr("If this option is checked, the lavf demuxer will be used for all formats."));
 
-#ifdef Q_OS_WIN
-	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to %1").arg(PLAYER_NAME),
-		tr("If this option is checked, SMPlayer will pass to %1 the short version of the filenames.").arg(PLAYER_NAME) );
-#endif
-
 #if REPAINT_BACKGROUND_OPTION
-	setWhatsThis(repaint_video_background_check, 
+	setWhatsThis(repaint_video_background_check,
         tr("Repaint the background of the video window"),
 		tr("Checking this option may reduce flickering, but it also might "
            "produce that the video won't be displayed properly.") );
 #endif
 
-	setWhatsThis(mplayer_crashes_check, 
-		tr("Report %1 crashes").arg(PLAYER_NAME),
-		tr("If this option is checked, a window will appear to inform "
-           "about %1 crashes. Otherwise those failures will be "
-           "silently ignored.").arg(PLAYER_NAME) );
-
-#ifdef MPLAYER_SUPPORT
-	setWhatsThis(use_playlist_check, tr("Pass the %1 option to MPlayer (security risk)").arg("-playlist"),
-		tr("This option may be needed to play playlist files (m3u, pls...). "
-           "However it can involve a security risk when playing internet sources because "
-           "the way MPlayer parses and uses playlist files is not "
-           "safe against maliciously constructed files.") );
-#endif
 
 	setWhatsThis(correct_pts_combo, tr("Correct pts"),
 		tr("Switches %1 to an experimental mode where timestamps for "
@@ -529,19 +503,48 @@ void PrefAdvanced::createHelp() {
 		   "shown in window title. "
            "Otherwise only the filename will be shown.") );
 
-	addSectionTitle(tr("Options for %1").arg(PLAYER_NAME));
+
+	addSectionTitle(PLAYER_NAME);
 
 	setWhatsThis(mplayer_args_edit, tr("Options"),
         tr("Here you can type options for %1.").arg(PLAYER_NAME) +" "+
-        tr("Write them separated by spaces."));
+        tr("Write them separated by spaces.") +"<br>"+ tr("Example:") +" -flip -nosound");
 
 	setWhatsThis(mplayer_vfilters_edit, tr("Video filters"),
         tr("Here you can add video filters for %1.").arg(PLAYER_NAME) +" "+
-        tr("Write them separated by commas. Don't use spaces!"));
+        tr("Write them separated by commas. Don't use spaces!") +"<br>"+ tr("Example:") +" scale=512:-2,mirror");
 
 	setWhatsThis(mplayer_afilters_edit, tr("Audio filters"),
         tr("Here you can add audio filters for %1.").arg(PLAYER_NAME) +" "+
-        tr("Write them separated by commas. Don't use spaces!"));
+        tr("Write them separated by commas. Don't use spaces!") +"<br>"+ tr("Example:") +" extrastereo,karaoke");
+
+	setWhatsThis(mplayer_use_window_check, tr("Run %1 in its own window").arg(PLAYER_NAME),
+        tr("If you check this option, the %1 video window won't be "
+           "embedded in SMPlayer's main window but instead it will use its "
+           "own window. Note that mouse and keyboard events will be handled "
+           "directly by %1, that means key shortcuts and mouse clicks "
+           "probably won't work as expected when the %1 window has the "
+           "focus.").arg(PLAYER_NAME) );
+
+	setWhatsThis(mplayer_crashes_check,
+		tr("Report %1 crashes").arg(PLAYER_NAME),
+		tr("If this option is checked, a window will appear to inform "
+           "about %1 crashes. Otherwise those failures will be "
+           "silently ignored.").arg(PLAYER_NAME) );
+
+#ifdef MPLAYER_SUPPORT
+	setWhatsThis(use_playlist_check, tr("Pass the %1 option to MPlayer (security risk)").arg("-playlist"),
+		tr("This option may be needed to play playlist files (m3u, pls...). "
+           "However it can involve a security risk when playing internet sources because "
+           "the way MPlayer parses and uses playlist files is not "
+           "safe against maliciously constructed files.") );
+#endif
+
+#ifdef Q_OS_WIN
+	setWhatsThis(shortnames_check, tr("Pass short filenames (8+3) to %1").arg(PLAYER_NAME),
+		tr("If this option is checked, SMPlayer will pass to %1 the short version of the filenames.").arg(PLAYER_NAME) );
+#endif
+
 
 	addSectionTitle(tr("Network"));
 
