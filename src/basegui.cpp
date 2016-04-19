@@ -5985,7 +5985,7 @@ bool BaseGui::nativeEvent(const QByteArray &eventType, void * message, long * re
 	//qDebug() << "BaseGui::nativeEvent:" << eventType;
 	
 	if (eventType == "windows_generic_MSG") {
-		MSG * m = (MSG*) message;
+		MSG * m = static_cast<MSG *>(message);
 		return winEvent(m, result);
 	}
 	
