@@ -25,6 +25,10 @@
 #include <QPoint>
 #include "guiconfig.h"
 
+#if QT_VERSION >= 0x050000
+#define SCREENS_SUPPORT
+#endif
+
 class QMenu;
 class PlaylistDock;
 
@@ -61,6 +65,10 @@ protected:
 	TimeSliderAction * createTimeSliderAction(QWidget * parent);
 	VolumeSliderAction * createVolumeSliderAction(QWidget * parent);
 	TimeLabelAction * createTimeLabelAction(TimeLabelAction::TimeLabelType type, QWidget * parent);
+
+#ifdef SCREENS_SUPPORT
+	void listScreens();
+#endif
 
 protected slots:
 	// Reimplemented methods
