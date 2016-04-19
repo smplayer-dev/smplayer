@@ -48,6 +48,10 @@
 #include <QScreen>
 #endif
 
+#ifdef DETACH_VIDEO_WINDOW
+#include <QVBoxLayout>
+#include "mplayerwindow.h"
+#endif
 
 using namespace Global;
 
@@ -144,6 +148,12 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	ignore_playlist_events = false;
 #endif // DOCK_PLAYLIST
 
+#ifdef DETACH_VIDEO_WINDOW
+	detachVideoAct = new MyAction(this, "detach_video");
+	detachVideoAct->setCheckable(true);
+	connect(detachVideoAct, SIGNAL(toggled(bool)), this, SLOT(detachVideo(bool)));
+#endif
+
 	retranslateStrings();
 
 	loadConfig();
@@ -167,6 +177,10 @@ void BaseGuiPlus::populateMainMenu() {
 		openMenu->addAction(quitAct);
 		optionsMenu->addAction(showTrayAct);
 	}
+
+#ifdef DETACH_VIDEO_WINDOW
+	optionsMenu->addAction(detachVideoAct);
+#endif
 }
 
 bool BaseGuiPlus::startHidden() {
@@ -226,6 +240,10 @@ void BaseGuiPlus::retranslateStrings() {
 
 #if DOCK_PLAYLIST
     playlistdock->setWindowTitle( tr("Playlist") );
+#endif
+
+#ifdef DETACH_VIDEO_WINDOW
+	detachVideoAct->change("Detach video");
 #endif
 }
 
@@ -680,6 +698,40 @@ void BaseGuiPlus::listScreens() {
 		qDebug() << "BaseGuiPlus::listScreens:   Virtual size:" << screen->virtualSize().width() << "x" << screen->virtualSize().height();
 	}
 }
+#endif
+
+#ifdef DETACH_VIDEO_WINDOW
+void BaseGuiPlus::detachVideo(bool detach) {
+	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
+
+	if (detach) {
+		panel->layout()->removeWidget(mplayerwindow);
+		mplayerwindow->setParent(0);
+		mplayerwindow->show();
+	} else {
+		mplayerwindow->setParent(panel);
+		panel->layout()->addWidget(mplayerwindow);
+	}
+}
+
+void BaseGuiPlus::toggleFullscreen(bool b) {
+	qDebug() << "BaseGuiPlus::toggleFullscreen:" << b;
+	if (mplayerwindow->parent() != 0) {
+		BaseGui::toggleFullscreen(b);
+	} else {
+		if (b == pref->fullscreen) return;
+		pref->fullscreen = b;
+
+		if (pref->fullscreen) {
+			aboutToEnterFullscreen();
+			mplayerwindow->showFullScreen();
+		} else {
+			mplayerwindow->showNormal();
+			aboutToExitFullscreen();
+		}
+	}
+}
+
 #endif
 
 #include "moc_baseguiplus.cpp"

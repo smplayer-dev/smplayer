@@ -2285,7 +2285,8 @@ void BaseGui::createCore() {
 }
 
 void BaseGui::createMplayerWindow() {
-    mplayerwindow = new MplayerWindow( panel );
+	mplayerwindow = new MplayerWindow(panel);
+	mplayerwindow->show();
 	mplayerwindow->setObjectName("mplayerwindow");
 #if USE_COLORKEY
 	mplayerwindow->setColorKey( pref->color_key );
@@ -5660,6 +5661,9 @@ void BaseGui::processMouseMovedDiff(QPoint diff) {
 void BaseGui::moveWindowDiff(QPoint diff) {
 	//qDebug() << "BaseGui::moveWindowDiff:" << diff;
 
+	QWidget * w = this;
+	if (mplayerwindow->parent() == 0) w = mplayerwindow;
+
 	if (pref->fullscreen || isMaximized()) {
 		return;
 	}
@@ -5676,17 +5680,17 @@ void BaseGui::moveWindowDiff(QPoint diff) {
 
 	if (count > 3) {
 		//qDebug() << "BaseGui::moveWindowDiff:" << d;
-		QPoint new_pos = pos() + d;
+		QPoint new_pos = w->pos() + d;
 		if (new_pos.y() < 0) new_pos.setY(0);
 		if (new_pos.x() < 0) new_pos.setX(0);
 		//qDebug() << "BaseGui::moveWindowDiff: new_pos:" << new_pos;
-		move(new_pos);
+		w->move(new_pos);
 		count = 0;
 		d = QPoint(0,0);
 	}
 #else
 	//qDebug() << "BaseGui::moveWindowDiff:" << diff;
-	move(pos() + diff);
+	w->move(w->pos() + diff);
 #endif
 }
 

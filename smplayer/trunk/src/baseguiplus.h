@@ -29,6 +29,8 @@
 #define SCREENS_SUPPORT
 #endif
 
+#define DETACH_VIDEO_WINDOW
+
 class QMenu;
 class PlaylistDock;
 
@@ -45,6 +47,10 @@ public:
 	~BaseGuiPlus();
 
 	virtual bool startHidden();
+
+#ifdef DETACH_VIDEO_WINDOW
+	virtual void toggleFullscreen(bool);
+#endif
 
 protected:
 	virtual void retranslateStrings();
@@ -97,6 +103,10 @@ protected slots:
 	void shrinkWindow();
 #endif
 
+#ifdef DETACH_VIDEO_WINDOW
+	void detachVideo(bool);
+#endif
+
 
 protected:
 	QSystemTrayIcon * tray;
@@ -105,6 +115,10 @@ protected:
 	MyAction * quitAct;
 	MyAction * showTrayAct;
 	MyAction * showAllAct;
+
+#ifdef DETACH_VIDEO_WINDOW
+	MyAction * detachVideoAct;
+#endif
 
 	// To save state
 	QPoint mainwindow_pos;
