@@ -35,7 +35,7 @@
 #include <QGestureEvent>
 #endif
 
-AutohideWidget::AutohideWidget(QWidget * widget_to_watch, QWidget * parent)
+AutohideWidget::AutohideWidget(QWidget * parent)
 	: QWidget(parent)
 	, turned_on(false)
 	, auto_hide(false)
@@ -53,6 +53,7 @@ AutohideWidget::AutohideWidget(QWidget * widget_to_watch, QWidget * parent)
 	setAutoFillBackground(true);
 	setLayoutDirection(Qt::LeftToRight);
 
+	QWidget * widget_to_watch = parent;
 	widget_to_watch->installEventFilter(this);
 	installFilter(widget_to_watch);
 
