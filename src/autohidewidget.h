@@ -31,7 +31,7 @@ class AutohideWidget : public QWidget
 public:
 	enum Activation { Anywhere = 1, Bottom = 2 };
 
-	AutohideWidget(QWidget * widget_to_watch, QWidget * parent = 0);
+	AutohideWidget(QWidget * parent = 0);
 	~AutohideWidget();
 
 	void setInternalWidget(QWidget * w);

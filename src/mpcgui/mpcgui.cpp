@@ -127,7 +127,7 @@ void MpcGui::createControlWidget() {
 
 void MpcGui::createFloatingControl() {
 	// Floating control
-	floating_control = new AutohideWidget(mplayerwindow, this);
+	floating_control = new AutohideWidget(mplayerwindow);
 	floating_control->setAutoHide(true);
 	floating_control->hide();
 	spacer = new QSpacerItem(10,10);
