@@ -2437,7 +2437,7 @@ void BaseGui::createPanel() {
 	*/
 
 #ifndef CHANGE_WIDGET_COLOR
-	panel->setStyleSheet("background-color: black;");
+	panel->setStyleSheet("#panel { background-color: black; }");
 #endif
 }
 
