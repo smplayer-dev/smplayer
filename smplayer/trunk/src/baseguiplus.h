@@ -29,7 +29,7 @@
 #define SCREENS_SUPPORT
 #endif
 
-#define DETACH_VIDEO_WINDOW
+//#define DETACH_VIDEO_WINDOW
 
 class QMenu;
 class PlaylistDock;
