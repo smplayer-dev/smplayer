@@ -231,10 +231,8 @@ MplayerWindow::MplayerWindow(QWidget* parent, Qt::WindowFlags f)
 	logo->setAutoFillBackground(true);
 	ColorUtils::setBackgroundColor( logo, QColor(0,0,0) );
 #else
-	/*
-	setStyleSheet("background-color: blue;");
+	setStyleSheet("MplayerWindow { background-color: black;}");
 	mplayerlayer->setStyleSheet("background-color: black;");
-	*/
 #endif
 
 	QVBoxLayout * mplayerlayerLayout = new QVBoxLayout( mplayerlayer );
