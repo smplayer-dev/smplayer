@@ -802,7 +802,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 	if (detach) {
 		if (!isVideoDetached()) {
 			toggleFullscreen(false);
-			fullscreenAct->setEnabled(false);
+			//fullscreenAct->setEnabled(false);
 			
 			panel->layout()->removeWidget(mplayerwindow);
 			mplayerwindow->setParent(0);
@@ -810,7 +810,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 		mplayerwindow->show();
 	} else {
 		if (isVideoDetached()) {
-			fullscreenAct->setEnabled(true);
+			//fullscreenAct->setEnabled(true);
 			
 			mplayerwindow->setParent(panel);
 			panel->layout()->addWidget(mplayerwindow);
@@ -818,7 +818,6 @@ void BaseGuiPlus::detachVideo(bool detach) {
 	}
 }
 
-/*
 void BaseGuiPlus::toggleFullscreen(bool b) {
 	qDebug() << "BaseGuiPlus::toggleFullscreen:" << b;
 	if (!isVideoDetached()) {
@@ -828,15 +827,14 @@ void BaseGuiPlus::toggleFullscreen(bool b) {
 		pref->fullscreen = b;
 
 		if (pref->fullscreen) {
-			aboutToEnterFullscreen();
+			//aboutToEnterFullscreen();
 			mplayerwindow->showFullScreen();
 		} else {
 			mplayerwindow->showNormal();
-			aboutToExitFullscreen();
+			//aboutToExitFullscreen();
 		}
 	}
 }
-*/
 #endif
 
 #include "moc_baseguiplus.cpp"
