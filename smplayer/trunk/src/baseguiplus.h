@@ -71,6 +71,7 @@ protected:
 
 #ifdef SCREENS_SUPPORT
 	void listScreens();
+	bool isVideoDetached();
 #endif
 
 protected slots:

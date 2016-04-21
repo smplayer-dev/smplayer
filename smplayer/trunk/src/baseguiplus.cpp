@@ -49,6 +49,10 @@
 #include <QScreen>
 #include <QVBoxLayout>
 #include "mplayerwindow.h"
+
+#if QT_VERSION >= 0x050000
+#include <QWindow>
+#endif
 #endif
 
 using namespace Global;
@@ -764,29 +768,48 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 
 	if (screen < n_screens) {
 		#if QT_VERSION >= 0x050000
-		QRect geometry = screen_list[screen]->geometry();
+		//QRect geometry = screen_list[screen]->geometry();
+		bool is_primary_screen = (screen_list[screen] == qApp->primaryScreen());
+		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
+		if (is_primary_screen) {
+			detachVideo(false);
+		} else {
+			detachVideo(true);
+			mplayerwindow->windowHandle()->setScreen(screen_list[screen]);
+		}
 		#else
+		bool is_primary_screen = (screen == dw->primaryScreen());
 		QRect geometry = dw->screenGeometry(screen);
-		#endif
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
-		detachVideo(true);
-		mplayerwindow->move(geometry.x(), geometry.y());
+		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
+		if (is_primary_screen) {
+			detachVideo(false);
+		} else {
+			detachVideo(true);
+			mplayerwindow->move(geometry.x(), geometry.y());
+		}
+		#endif
 	} else {
 		// Error
+		qWarning() << "BaseGuiPlus::sendVideoToScreen: screen" << screen << "is not valid";
 	}
+}
+
+bool BaseGuiPlus::isVideoDetached() {
+	return (mplayerwindow->parent() == 0);
 }
 
 void BaseGuiPlus::detachVideo(bool detach) {
 	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
 
 	if (detach) {
-		if (mplayerwindow->parent() != 0) {
+		if (!isVideoDetached()) {
 			panel->layout()->removeWidget(mplayerwindow);
 			mplayerwindow->setParent(0);
 		}
 		mplayerwindow->show();
 	} else {
-		if (mplayerwindow->parent() == 0) {
+		if (isVideoDetached()) {
 			mplayerwindow->setParent(panel);
 			panel->layout()->addWidget(mplayerwindow);
 		}
