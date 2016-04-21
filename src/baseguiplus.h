@@ -25,7 +25,7 @@
 #include <QPoint>
 #include "guiconfig.h"
 
-#define SCREENS_SUPPORT
+//#define SCREENS_SUPPORT
 //#define DETACH_VIDEO_WINDOW
 
 class QMenu;
@@ -106,6 +106,7 @@ protected slots:
 
 #ifdef SCREENS_SUPPORT
 	void updateSendToScreen();
+	void sendVideoToScreen(int screen);
 #endif
 
 protected:

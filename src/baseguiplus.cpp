@@ -162,6 +162,8 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	sendToScreen_menu->menuAction()->setObjectName("send_to_screen_menu");
 
 	sendToScreenGroup = new MyActionGroup(this);
+	connect(sendToScreenGroup, SIGNAL(activated(int)), this, SLOT(sendVideoToScreen(int)));
+
 	updateSendToScreen();
 #endif
 
@@ -751,6 +753,33 @@ void BaseGuiPlus::updateSendToScreen() {
 	sendToScreen_menu->clear();
 	sendToScreen_menu->addActions(sendToScreenGroup->actions());
 }
+
+void BaseGuiPlus::sendVideoToScreen(int screen) {
+	qDebug() << "BaseGuiPlus::sendVideoToScreen:" << screen;
+
+#if QT_VERSION >= 0x050000
+	QList<QScreen *> screen_list = qApp->screens();
+	int n_screens = screen_list.count();
+#else
+	QDesktopWidget * dw = qApp->desktop();
+	int n_screens = dw->screenCount();
+#endif
+
+	if (screen < n_screens) {
+		#if QT_VERSION >= 0x050000
+		QRect geometry = screen_list[screen]->geometry();
+		#else
+		QRect geometry = dw->screenGeometry(screen);
+		#endif
+		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
+		#ifdef DETACH_VIDEO_WINDOW
+		detachVideo(true);
+		mplayerwindow->move(geometry.x(), geometry.y());
+		#endif
+	} else {
+		// Error
+	}
+}
 #endif
 
 #ifdef DETACH_VIDEO_WINDOW
@@ -758,12 +787,16 @@ void BaseGuiPlus::detachVideo(bool detach) {
 	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
 
 	if (detach) {
-		panel->layout()->removeWidget(mplayerwindow);
-		mplayerwindow->setParent(0);
+		if (mplayerwindow->parent() != 0) {
+			panel->layout()->removeWidget(mplayerwindow);
+			mplayerwindow->setParent(0);
+		}
 		mplayerwindow->show();
 	} else {
-		mplayerwindow->setParent(panel);
-		panel->layout()->addWidget(mplayerwindow);
+		if (mplayerwindow->parent() == 0) {
+			mplayerwindow->setParent(panel);
+			panel->layout()->addWidget(mplayerwindow);
+		}
 	}
 }
 
@@ -784,7 +817,6 @@ void BaseGuiPlus::toggleFullscreen(bool b) {
 		}
 	}
 }
-
 #endif
 
 #include "moc_baseguiplus.cpp"
