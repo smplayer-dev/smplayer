@@ -30,6 +30,7 @@
 #endif
 
 #include "widgetactions.h"
+#include "myactiongroup.h"
 
 #include <QMenu>
 #include <QCloseEvent>
@@ -154,13 +155,18 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect(detachVideoAct, SIGNAL(toggled(bool)), this, SLOT(detachVideo(bool)));
 #endif
 
-	retranslateStrings();
-
-	loadConfig();
-
 #ifdef SCREENS_SUPPORT
 	listScreens();
+
+	sendToScreen_menu = new QMenu(this);
+	sendToScreen_menu->menuAction()->setObjectName("send_to_screen_menu");
+
+	sendToScreenGroup = new MyActionGroup(this);
+	updateSendToScreen();
 #endif
+
+	retranslateStrings();
+	loadConfig();
 }
 
 BaseGuiPlus::~BaseGuiPlus() {
@@ -180,6 +186,10 @@ void BaseGuiPlus::populateMainMenu() {
 
 #ifdef DETACH_VIDEO_WINDOW
 	optionsMenu->addAction(detachVideoAct);
+#endif
+
+#ifdef SCREENS_SUPPORT
+	optionsMenu->addMenu(sendToScreen_menu);
 #endif
 }
 
@@ -244,6 +254,10 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef DETACH_VIDEO_WINDOW
 	detachVideoAct->change("Detach video");
+#endif
+
+#ifdef SCREENS_SUPPORT
+	sendToScreen_menu->menuAction()->setText( tr("Send video to screen") );
 #endif
 }
 
@@ -708,6 +722,34 @@ void BaseGuiPlus::listScreens() {
 		qDebug() << "BaseGuiPlus::listScreens:   Geometry:" << dw->screenGeometry(n).x() << dw->screenGeometry(n).y() << dw->screenGeometry(n).width() << "x" << dw->screenGeometry(n).height();
 	}
 #endif
+}
+
+void BaseGuiPlus::updateSendToScreen() {
+	qDebug("BaseGuiPlus::updateSendToScreen");
+
+	sendToScreenGroup->clear(true);
+
+#if QT_VERSION >= 0x050000
+	QList<QScreen *> screen_list = qApp->screens();
+	int n_screens = screen_list.count();
+#else
+	QDesktopWidget * dw = qApp->desktop();
+	int n_screens = dw->screenCount();
+#endif
+
+	for (int n = 0; n < n_screens; n++) {
+		QString name;
+		#if QT_VERSION >= 0x050000
+		name = screen_list[n]->name();
+		#endif
+		MyAction * screen_item = new MyActionGroupItem(this, sendToScreenGroup, QString("send_to_screen_%1").arg(n+1).toLatin1().constData(), n);
+		QString desc = "&" + QString::number(n+1);
+		if (!name.isEmpty()) desc += " (" + name + ")";
+		screen_item->change(desc);
+	}
+
+	sendToScreen_menu->clear();
+	sendToScreen_menu->addActions(sendToScreenGroup->actions());
 }
 #endif
 
