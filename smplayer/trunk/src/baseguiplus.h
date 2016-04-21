@@ -25,10 +25,7 @@
 #include <QPoint>
 #include "guiconfig.h"
 
-#if QT_VERSION >= 0x050000
 #define SCREENS_SUPPORT
-#endif
-
 //#define DETACH_VIDEO_WINDOW
 
 class QMenu;

@@ -670,6 +670,7 @@ TimeLabelAction * BaseGuiPlus::createTimeLabelAction(TimeLabelAction::TimeLabelT
 
 #ifdef SCREENS_SUPPORT
 void BaseGuiPlus::listScreens() {
+#if QT_VERSION >= 0x050000
 	qDebug() << "BaseGuiPlus::listScreens: primary screen name:" << qApp->primaryScreen()->name();
 
 	QList<QScreen *> screen_list = qApp->screens();
@@ -697,6 +698,16 @@ void BaseGuiPlus::listScreens() {
 		qDebug() << "BaseGuiPlus::listScreens:   Virtual geometry:" << screen->virtualGeometry().x() << screen->virtualGeometry().y() << screen->virtualGeometry().width() << "x" << screen->virtualGeometry().height();
 		qDebug() << "BaseGuiPlus::listScreens:   Virtual size:" << screen->virtualSize().width() << "x" << screen->virtualSize().height();
 	}
+#else
+	QDesktopWidget * dw = qApp->desktop();
+	qDebug() << "BaseGuiPlus::listScreens: primary screen:" << dw->primaryScreen();
+	qDebug() << "BaseGuiPlus::listScreens: number of screens:" << dw->screenCount();
+	for (int n = 0; n < dw->screenCount(); n++) {
+		qDebug() << "BaseGuiPlus::listScreens: Information for screen:" << n;
+		qDebug() << "BaseGuiPlus::listScreens:   Available geometry:" << dw->availableGeometry(n).x() << dw->availableGeometry(n).y() << dw->availableGeometry(n).width() << "x" << dw->availableGeometry(n).height();
+		qDebug() << "BaseGuiPlus::listScreens:   Geometry:" << dw->screenGeometry(n).x() << dw->screenGeometry(n).y() << dw->screenGeometry(n).width() << "x" << dw->screenGeometry(n).height();
+	}
+#endif
 }
 #endif
 
