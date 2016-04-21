@@ -47,9 +47,6 @@
 
 #ifdef SCREENS_SUPPORT
 #include <QScreen>
-#endif
-
-#ifdef DETACH_VIDEO_WINDOW
 #include <QVBoxLayout>
 #include "mplayerwindow.h"
 #endif
@@ -149,7 +146,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	ignore_playlist_events = false;
 #endif // DOCK_PLAYLIST
 
-#ifdef DETACH_VIDEO_WINDOW
+#ifdef DETACH_VIDEO_OPTION
 	detachVideoAct = new MyAction(this, "detach_video");
 	detachVideoAct->setCheckable(true);
 	connect(detachVideoAct, SIGNAL(toggled(bool)), this, SLOT(detachVideo(bool)));
@@ -186,7 +183,7 @@ void BaseGuiPlus::populateMainMenu() {
 		optionsMenu->addAction(showTrayAct);
 	}
 
-#ifdef DETACH_VIDEO_WINDOW
+#ifdef DETACH_VIDEO_OPTION
 	optionsMenu->addAction(detachVideoAct);
 #endif
 
@@ -254,7 +251,7 @@ void BaseGuiPlus::retranslateStrings() {
     playlistdock->setWindowTitle( tr("Playlist") );
 #endif
 
-#ifdef DETACH_VIDEO_WINDOW
+#ifdef DETACH_VIDEO_OPTION
 	detachVideoAct->change("Detach video");
 #endif
 
@@ -772,17 +769,13 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		QRect geometry = dw->screenGeometry(screen);
 		#endif
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
-		#ifdef DETACH_VIDEO_WINDOW
 		detachVideo(true);
 		mplayerwindow->move(geometry.x(), geometry.y());
-		#endif
 	} else {
 		// Error
 	}
 }
-#endif
 
-#ifdef DETACH_VIDEO_WINDOW
 void BaseGuiPlus::detachVideo(bool detach) {
 	qDebug() << "BaseGuiPlus::detachVideo:" << detach;
 
