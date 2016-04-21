@@ -744,10 +744,14 @@ void BaseGuiPlus::updateSendToScreen() {
 		QString name;
 		#if QT_VERSION >= 0x050000
 		name = screen_list[n]->name();
+		bool is_primary_screen = (screen_list[n] == qApp->primaryScreen());
+		#else
+		bool is_primary_screen = (n == dw->primaryScreen());
 		#endif
 		MyAction * screen_item = new MyActionGroupItem(this, sendToScreenGroup, QString("send_to_screen_%1").arg(n+1).toLatin1().constData(), n);
 		QString desc = "&" + QString::number(n+1);
-		if (!name.isEmpty()) desc += " (" + name + ")";
+		if (!name.isEmpty()) desc += " - " + name;
+		if (is_primary_screen) desc += " (" + tr("Primary screen") + ")";
 		screen_item->change(desc);
 	}
 
@@ -778,6 +782,7 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
 		//is_primary_screen = false;
 		if (is_primary_screen) {
+			mplayerwindow->showNormal();
 			detachVideo(false);
 		} else {
 			detachVideo(true);
@@ -787,7 +792,8 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 			mplayerwindow->move(geometry.x(), geometry.y());
 			//#endif
 			qApp->processEvents();
-			toggleFullscreen(true);
+			//toggleFullscreen(true);
+			mplayerwindow->showFullScreen();
 		}
 	} else {
 		// Error
@@ -805,7 +811,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 	if (detach) {
 		if (!isVideoDetached()) {
 			toggleFullscreen(false);
-			//fullscreenAct->setEnabled(false);
+			fullscreenAct->setEnabled(false);
 			
 			panel->layout()->removeWidget(mplayerwindow);
 			mplayerwindow->setParent(0);
@@ -813,7 +819,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 		mplayerwindow->show();
 	} else {
 		if (isVideoDetached()) {
-			//fullscreenAct->setEnabled(true);
+			fullscreenAct->setEnabled(true);
 			
 			mplayerwindow->setParent(panel);
 			panel->layout()->addWidget(mplayerwindow);
@@ -821,6 +827,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 	}
 }
 
+/*
 void BaseGuiPlus::toggleFullscreen(bool b) {
 	qDebug() << "BaseGuiPlus::toggleFullscreen:" << b;
 	if (!isVideoDetached()) {
@@ -838,6 +845,7 @@ void BaseGuiPlus::toggleFullscreen(bool b) {
 		}
 	}
 }
+*/
 #endif
 
 #include "moc_baseguiplus.cpp"

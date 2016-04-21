@@ -25,7 +25,7 @@
 #include <QPoint>
 #include "guiconfig.h"
 
-//#define SCREENS_SUPPORT
+#define SCREENS_SUPPORT
 //#define DETACH_VIDEO_OPTION
 
 class QMenu;
@@ -46,7 +46,7 @@ public:
 	virtual bool startHidden();
 
 #ifdef SCREENS_SUPPORT
-	virtual void toggleFullscreen(bool);
+	/* virtual void toggleFullscreen(bool); */
 #endif
 
 protected:
