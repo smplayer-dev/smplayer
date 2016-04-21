@@ -192,7 +192,8 @@ void BaseGuiPlus::populateMainMenu() {
 #endif
 
 #ifdef SCREENS_SUPPORT
-	optionsMenu->addMenu(sendToScreen_menu);
+	videoMenu->insertMenu(videosize_menu->menuAction(), sendToScreen_menu);
+	//optionsMenu->addMenu(sendToScreen_menu);
 #endif
 }
 
@@ -260,7 +261,7 @@ void BaseGuiPlus::retranslateStrings() {
 #endif
 
 #ifdef SCREENS_SUPPORT
-	sendToScreen_menu->menuAction()->setText( tr("Send video to screen") );
+	sendToScreen_menu->menuAction()->setText( tr("Send &video to screen") );
 #endif
 }
 
