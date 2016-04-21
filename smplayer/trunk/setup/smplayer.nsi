@@ -487,6 +487,9 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
 !ifdef QT5
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icuin*.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icuuc*.dll" "$INSTDIR"
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icudt*.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5WebKit.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Sql.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5Qml.dll" "$INSTDIR"
