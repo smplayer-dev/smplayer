@@ -768,27 +768,24 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 
 	if (screen < n_screens) {
 		#if QT_VERSION >= 0x050000
-		//QRect geometry = screen_list[screen]->geometry();
 		bool is_primary_screen = (screen_list[screen] == qApp->primaryScreen());
-		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
-		if (is_primary_screen) {
-			detachVideo(false);
-		} else {
-			detachVideo(true);
-			mplayerwindow->windowHandle()->setScreen(screen_list[screen]);
-		}
 		#else
 		bool is_primary_screen = (screen == dw->primaryScreen());
-		QRect geometry = dw->screenGeometry(screen);
+		QRect geometry = dw->screenGeometry(screen);	
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: screen geometry:" << geometry;
+		#endif
 		qDebug() << "BaseGuiPlus::sendVideoToScreen: is_primary_screen:" << is_primary_screen;
+		//is_primary_screen = false;
 		if (is_primary_screen) {
 			detachVideo(false);
 		} else {
 			detachVideo(true);
+			#if QT_VERSION >= 0x050000
+			mplayerwindow->windowHandle()->setScreen(screen_list[screen]);
+			#else
 			mplayerwindow->move(geometry.x(), geometry.y());
+			#endif
 		}
-		#endif
 	} else {
 		// Error
 		qWarning() << "BaseGuiPlus::sendVideoToScreen: screen" << screen << "is not valid";
