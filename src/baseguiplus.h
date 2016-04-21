@@ -46,7 +46,7 @@ public:
 	virtual bool startHidden();
 
 #ifdef SCREENS_SUPPORT
-	/* virtual void toggleFullscreen(bool); */
+	virtual void toggleFullscreen(bool);
 #endif
 
 protected:
