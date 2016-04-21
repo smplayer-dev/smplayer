@@ -818,7 +818,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 
 void BaseGuiPlus::toggleFullscreen(bool b) {
 	qDebug() << "BaseGuiPlus::toggleFullscreen:" << b;
-	if (mplayerwindow->parent() != 0) {
+	if (!isVideoDetached()) {
 		BaseGui::toggleFullscreen(b);
 	} else {
 		if (b == pref->fullscreen) return;
