@@ -769,6 +769,7 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 	if (screen < n_screens) {
 		#if QT_VERSION >= 0x050000
 		bool is_primary_screen = (screen_list[screen] == qApp->primaryScreen());
+		QRect geometry = screen_list[screen]->geometry();
 		#else
 		bool is_primary_screen = (screen == dw->primaryScreen());
 		QRect geometry = dw->screenGeometry(screen);	
@@ -780,11 +781,13 @@ void BaseGuiPlus::sendVideoToScreen(int screen) {
 			detachVideo(false);
 		} else {
 			detachVideo(true);
-			#if QT_VERSION >= 0x050000
-			mplayerwindow->windowHandle()->setScreen(screen_list[screen]);
-			#else
+			//#if QT_VERSION >= 0x050000
+			//mplayerwindow->windowHandle()->setScreen(screen_list[screen]); // Doesn't work
+			//#else
 			mplayerwindow->move(geometry.x(), geometry.y());
-			#endif
+			//#endif
+			qApp->processEvents();
+			toggleFullscreen(true);
 		}
 	} else {
 		// Error
