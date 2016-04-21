@@ -26,7 +26,7 @@
 #include "guiconfig.h"
 
 //#define SCREENS_SUPPORT
-//#define DETACH_VIDEO_WINDOW
+//#define DETACH_VIDEO_OPTION
 
 class QMenu;
 class PlaylistDock;
@@ -45,7 +45,7 @@ public:
 
 	virtual bool startHidden();
 
-#ifdef DETACH_VIDEO_WINDOW
+#ifdef SCREENS_SUPPORT
 	virtual void toggleFullscreen(bool);
 #endif
 
@@ -100,13 +100,11 @@ protected slots:
 	void shrinkWindow();
 #endif
 
-#ifdef DETACH_VIDEO_WINDOW
-	void detachVideo(bool);
-#endif
-
 #ifdef SCREENS_SUPPORT
 	void updateSendToScreen();
 	void sendVideoToScreen(int screen);
+
+	void detachVideo(bool);
 #endif
 
 protected:
@@ -117,7 +115,7 @@ protected:
 	MyAction * showTrayAct;
 	MyAction * showAllAct;
 
-#ifdef DETACH_VIDEO_WINDOW
+#ifdef DETACH_VIDEO_OPTION
 	MyAction * detachVideoAct;
 #endif
 
