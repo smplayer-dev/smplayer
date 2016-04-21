@@ -104,6 +104,9 @@ protected slots:
 	void detachVideo(bool);
 #endif
 
+#ifdef SCREENS_SUPPORT
+	void updateSendToScreen();
+#endif
 
 protected:
 	QSystemTrayIcon * tray;
@@ -115,6 +118,11 @@ protected:
 
 #ifdef DETACH_VIDEO_WINDOW
 	MyAction * detachVideoAct;
+#endif
+
+#ifdef SCREENS_SUPPORT
+	QMenu * sendToScreen_menu;
+	MyActionGroup * sendToScreenGroup;
 #endif
 
 	// To save state
