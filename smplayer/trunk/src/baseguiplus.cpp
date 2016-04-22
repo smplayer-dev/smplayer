@@ -744,6 +744,39 @@ void BaseGuiPlus::showScreensInfo() {
 
 	QString t = "<h1>" + tr("Information about connected screens") + "</h1>";
 #if QT_VERSION >= 0x050000
+	QList<QScreen *> screen_list = qApp->screens();
+	t += "<p>" + tr("Number of screens: %1").arg(screen_list.count());
+	t += "<p>" + tr("Primary screen: %1").arg(qApp->primaryScreen()->name());
+
+	t += "<ul>";
+	foreach(QScreen *screen, screen_list) {
+		t += "<li>" + tr("Information for screen %1").arg(screen->name());
+		t += "<ul>";
+		t += "<li>" + tr("Available geometry: %1 %2 %3 x %4").arg(screen->availableGeometry().x()).arg(screen->availableGeometry().y())
+						.arg(screen->availableGeometry().width()).arg(screen->availableGeometry().height()) + "</li>";
+		t += "<li>" + tr("Available size: %1 x %2").arg(screen->availableSize().width()).arg(screen->availableSize().height()) + "</li>";
+		t += "<li>" + tr("Available virtual geometry: %1 %2 %3 x %4").arg(screen->availableVirtualGeometry().x())
+						.arg(screen->availableVirtualGeometry().y())
+						.arg(screen->availableVirtualGeometry().width())
+						.arg(screen->availableVirtualGeometry().height()) + "</li>";
+		t += "<li>" + tr("Available virtual size: %1 x %2").arg(screen->availableVirtualSize().width())
+						.arg(screen->availableVirtualSize().height()) + "</li>";
+		t += "<li>" + tr("Depth: %1 bits").arg(screen->depth()) + "</li>";
+		t += "<li>" + tr("Geometry: %1 %2 %3 x %4").arg(screen->geometry().x()).arg(screen->geometry().y())
+						.arg(screen->geometry().width()).arg(screen->geometry().height()) + "</li>";
+		t += "<li>" + tr("Logical DPI: %1").arg(screen->logicalDotsPerInch()) + "</li>";
+		//t += "<li>" + tr("Orientation: %1").arg(screen->orientation()) + "</li>";
+		t += "<li>" + tr("Physical DPI: %1").arg(screen->physicalDotsPerInch()) + "</li>";
+		t += "<li>" + tr("Physical size: %1 x %2 mm").arg(screen->physicalSize().width()).arg(screen->physicalSize().height()) + "</li>";
+		//t += "<li>" + tr("Primary orientation: %1").arg(screen->primaryOrientation()) + "</li>";
+		t += "<li>" + tr("Refresh rate: %1 Hz").arg(screen->refreshRate()) + "</li>";
+		t += "<li>" + tr("Size: %1 x %2").arg(screen->size().width()).arg(screen->size().height()) + "</li>";
+		t += "<li>" + tr("Virtual geometry: %1 %2 %3 x %4").arg(screen->virtualGeometry().x()).arg(screen->virtualGeometry().y())
+						.arg(screen->virtualGeometry().width()).arg(screen->virtualGeometry().height()) + "</li>";
+		t += "<li>" + tr("Virtual size: %1 x %2").arg(screen->virtualSize().width()).arg(screen->virtualSize().height()) + "</li>";
+		t += "</ul></li>";
+	}
+	t += "</ul>";
 #else
 	QDesktopWidget * dw = qApp->desktop();
 	t += "<p>" + tr("Number of screens: %1").arg(dw->screenCount());
@@ -760,10 +793,10 @@ void BaseGuiPlus::showScreensInfo() {
 		t += "</ul></li>";
 	}
 	t += "</ul>";
+#endif
 
 	screens_info_window->setHtml(t);
 	screens_info_window->show();
-#endif
 }
 
 void BaseGuiPlus::updateSendToScreen() {
