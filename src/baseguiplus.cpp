@@ -63,19 +63,18 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #ifdef SCREENS_SUPPORT
 	, screens_info_window(0)
 #endif
+	, mainwindow_visible(true)
+	, trayicon_playlist_was_visible(false)
+	, widgets_size(0)
+#if DOCK_PLAYLIST
+	, fullscreen_playlist_was_visible(false)
+	, fullscreen_playlist_was_floating(false)
+	, compact_playlist_was_visible(false)
+	, ignore_playlist_events(false)
+#endif
 {
 	// Initialize variables
-	mainwindow_visible = true;
 	//infowindow_visible = false;
-	trayicon_playlist_was_visible = false;
-	widgets_size = 0;
-#if DOCK_PLAYLIST
-	fullscreen_playlist_was_visible = false;
-	fullscreen_playlist_was_floating = false;
-	compact_playlist_was_visible = false;
-	ignore_playlist_events = false;
-#endif
-
 	mainwindow_pos = pos();
 
 	tray = new QSystemTrayIcon(this);
