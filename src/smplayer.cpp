@@ -658,7 +658,7 @@ void SMPlayer::myMessageOutput( QtMsgType type, const char *msg ) {
 			#endif
 			line2 = "CRITICAL: " + orig_line;
 			break;
-		#if QT_VERSION >= 0x050000
+		#if QT_VERSION >= 0x050500
 		case QtInfoMsg:
 			break;
 		#endif
