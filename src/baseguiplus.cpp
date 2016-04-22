@@ -49,6 +49,7 @@
 #include <QScreen>
 #include <QVBoxLayout>
 #include "mplayerwindow.h"
+#include "logwindow.h"
 
 #if QT_VERSION >= 0x050000
 #include <QWindow>
@@ -59,6 +60,9 @@ using namespace Global;
 
 BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	: BaseGui( parent, flags )
+#ifdef SCREENS_SUPPORT
+	, screens_info_window(0)
+#endif
 {
 	// Initialize variables
 	mainwindow_visible = true;
@@ -166,6 +170,9 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect(sendToScreenGroup, SIGNAL(activated(int)), this, SLOT(sendVideoToScreen(int)));
 
 	updateSendToScreen();
+
+	showScreensInfoAct = new MyAction(this, "screens_info");
+	connect(showScreensInfoAct, SIGNAL(triggered()), this, SLOT(showScreensInfo()));
 #endif
 
 	retranslateStrings();
@@ -194,6 +201,8 @@ void BaseGuiPlus::populateMainMenu() {
 #ifdef SCREENS_SUPPORT
 	videoMenu->insertMenu(videosize_menu->menuAction(), sendToScreen_menu);
 	//optionsMenu->addMenu(sendToScreen_menu);
+
+	optionsMenu->addAction(showScreensInfoAct);
 #endif
 }
 
@@ -262,6 +271,7 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef SCREENS_SUPPORT
 	sendToScreen_menu->menuAction()->setText( tr("Send &video to screen") );
+	showScreensInfoAct->change(tr("Screens info"));
 #endif
 }
 
@@ -725,6 +735,34 @@ void BaseGuiPlus::listScreens() {
 		qDebug() << "BaseGuiPlus::listScreens:   Available geometry:" << dw->availableGeometry(n).x() << dw->availableGeometry(n).y() << dw->availableGeometry(n).width() << "x" << dw->availableGeometry(n).height();
 		qDebug() << "BaseGuiPlus::listScreens:   Geometry:" << dw->screenGeometry(n).x() << dw->screenGeometry(n).y() << dw->screenGeometry(n).width() << "x" << dw->screenGeometry(n).height();
 	}
+#endif
+}
+
+void BaseGuiPlus::showScreensInfo() {
+	qDebug("BaseGuiPlus::showScreensInfo");
+	if (!screens_info_window) screens_info_window = new LogWindow(this);
+
+	QString t = "<h1>" + tr("Information about connected screens") + "</h1>";
+#if QT_VERSION >= 0x050000
+#else
+	QDesktopWidget * dw = qApp->desktop();
+	t += "<p>" + tr("Number of screens: %1").arg(dw->screenCount());
+	t += "<p>" + tr("Primary screen: %1").arg(dw->primaryScreen()+1);
+
+	t += "<ul>";
+	for (int n = 0; n < dw->screenCount(); n++) {
+		t += "<li>" + tr("Information for screen %1").arg(n+1);
+		t += "<ul>";
+		t += "<li>" + tr("Available geometry: %1 %2 %3 x %4").arg(dw->availableGeometry(n).x()).arg(dw->availableGeometry(n).y())
+						.arg(dw->availableGeometry(n).width()).arg(dw->availableGeometry(n).height()) + "</li>";
+		t += "<li>" + tr("Geometry: %1 %2 %3 x %4").arg(dw->screenGeometry(n).x()).arg(dw->screenGeometry(n).y())
+						.arg(dw->screenGeometry(n).width()).arg(dw->screenGeometry(n).height()) + "</li>";
+		t += "</ul></li>";
+	}
+	t += "</ul>";
+
+	screens_info_window->setHtml(t);
+	screens_info_window->show();
 #endif
 }
 

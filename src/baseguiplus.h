@@ -34,6 +34,7 @@ class PlaylistDock;
 class TimeSliderAction;
 class VolumeSliderAction;
 class TimeLabelAction;
+class LogWindow;
 
 class BaseGuiPlus : public BaseGui
 {
@@ -106,6 +107,8 @@ protected slots:
 	void sendVideoToScreen(int screen);
 
 	void detachVideo(bool);
+
+	void showScreensInfo();
 #endif
 
 protected:
@@ -121,8 +124,11 @@ protected:
 #endif
 
 #ifdef SCREENS_SUPPORT
+	MyAction * showScreensInfoAct;
 	QMenu * sendToScreen_menu;
 	MyActionGroup * sendToScreenGroup;
+
+	LogWindow * screens_info_window;
 #endif
 
 	// To save state
