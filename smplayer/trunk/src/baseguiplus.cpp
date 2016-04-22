@@ -161,8 +161,6 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #endif
 
 #ifdef SCREENS_SUPPORT
-	listScreens();
-
 	sendToScreen_menu = new QMenu(this);
 	sendToScreen_menu->menuAction()->setObjectName("send_to_screen_menu");
 
@@ -697,47 +695,6 @@ TimeLabelAction * BaseGuiPlus::createTimeLabelAction(TimeLabelAction::TimeLabelT
 }
 
 #ifdef SCREENS_SUPPORT
-void BaseGuiPlus::listScreens() {
-#if QT_VERSION >= 0x050000
-	qDebug() << "BaseGuiPlus::listScreens: primary screen name:" << qApp->primaryScreen()->name();
-
-	QList<QScreen *> screen_list = qApp->screens();
-	qDebug() << "BaseGuiPlus::listScreens: number of screens:" << screen_list.count();
-
-	foreach(QScreen *screen, screen_list) {
-		qDebug() << "BaseGuiPlus::listScreens: Information for screen:" << screen->name();
-		qDebug() << "BaseGuiPlus::listScreens:   Available geometry:" << screen->availableGeometry().x() << screen->availableGeometry().y() << screen->availableGeometry().width() << "x" << screen->availableGeometry().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Available size:" << screen->availableSize().width() << "x" << screen->availableSize().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Available virtual geometry:" << screen->availableVirtualGeometry().x() << screen->availableVirtualGeometry().y() << screen->availableVirtualGeometry().width() << "x" << screen->availableVirtualGeometry().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Available virtual size:" << screen->availableVirtualSize().width() << "x" << screen->availableVirtualSize().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Depth:" << screen->depth() << "bits";
-		qDebug() << "BaseGuiPlus::listScreens:   Geometry:" << screen->geometry().x() << screen->geometry().y() << screen->geometry().width() << "x" << screen->geometry().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Logical DPI:" << screen->logicalDotsPerInch();
-		qDebug() << "BaseGuiPlus::listScreens:   Logical DPI X:" << screen->logicalDotsPerInchX();
-		qDebug() << "BaseGuiPlus::listScreens:   Logical DPI Y:" << screen->logicalDotsPerInchY();
-		qDebug() << "BaseGuiPlus::listScreens:   Orientation:" << screen->orientation();
-		qDebug() << "BaseGuiPlus::listScreens:   Physical DPI:" << screen->physicalDotsPerInch();
-		qDebug() << "BaseGuiPlus::listScreens:   Physical DPI X:" << screen->physicalDotsPerInchX();
-		qDebug() << "BaseGuiPlus::listScreens:   Physical DPI Y:" << screen->physicalDotsPerInchY();
-		qDebug() << "BaseGuiPlus::listScreens:   Physical size:" << screen->physicalSize().width() << "x" << screen->physicalSize().height() << "mm";
-		qDebug() << "BaseGuiPlus::listScreens:   Primary orientation:" << screen->primaryOrientation();
-		qDebug() << "BaseGuiPlus::listScreens:   Refresh rate:" << screen->refreshRate() << "Hz";
-		qDebug() << "BaseGuiPlus::listScreens:   Size:" << screen->size().width() << "x" << screen->size().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Virtual geometry:" << screen->virtualGeometry().x() << screen->virtualGeometry().y() << screen->virtualGeometry().width() << "x" << screen->virtualGeometry().height();
-		qDebug() << "BaseGuiPlus::listScreens:   Virtual size:" << screen->virtualSize().width() << "x" << screen->virtualSize().height();
-	}
-#else
-	QDesktopWidget * dw = qApp->desktop();
-	qDebug() << "BaseGuiPlus::listScreens: primary screen:" << dw->primaryScreen();
-	qDebug() << "BaseGuiPlus::listScreens: number of screens:" << dw->screenCount();
-	for (int n = 0; n < dw->screenCount(); n++) {
-		qDebug() << "BaseGuiPlus::listScreens: Information for screen:" << n;
-		qDebug() << "BaseGuiPlus::listScreens:   Available geometry:" << dw->availableGeometry(n).x() << dw->availableGeometry(n).y() << dw->availableGeometry(n).width() << "x" << dw->availableGeometry(n).height();
-		qDebug() << "BaseGuiPlus::listScreens:   Geometry:" << dw->screenGeometry(n).x() << dw->screenGeometry(n).y() << dw->screenGeometry(n).width() << "x" << dw->screenGeometry(n).height();
-	}
-#endif
-}
-
 void BaseGuiPlus::showScreensInfo() {
 	qDebug("BaseGuiPlus::showScreensInfo");
 	if (!screens_info_window) screens_info_window = new LogWindow(this);

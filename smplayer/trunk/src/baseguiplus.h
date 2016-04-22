@@ -71,7 +71,6 @@ protected:
 	TimeLabelAction * createTimeLabelAction(TimeLabelAction::TimeLabelType type, QWidget * parent);
 
 #ifdef SCREENS_SUPPORT
-	void listScreens();
 	bool isVideoDetached();
 #endif
 
