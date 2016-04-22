@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Трябва да сте вписан ка
 ${LangFileString} SMPlayer_Is_Running "Има работеща инстанция на SMPlayer. Моля, излезте от SMPlayer и опитайте отново."
 
 ${LangFileString} OS_Not_Supported "Неподдържана операционна система.$\nSMPlayer ${SMPLAYER_VERSION} изисква поне Windows XP и може към момента да не работи с Вашата система.$\nНаистина ли искате да продължите с инсталацията?"
+${LangFileString} OS_Not_Supported_VistaRequired "Неподдържана операционна система.$\nSMPlayer ${SMPLAYER_VERSION} изисква поне Windows Vista и може към момента да не работи с Вашата система.$\nНаистина ли искате да продължите с инсталацията?"
 ${LangFileString} Win64_Required "Изисква се 64-битова операционна система Windows, за да инсталирате този софтуер. "
 ${LangFileString} Existing_32bitInst "Има инсталирана 32-битова версия на SMPlayer. Трябва първо да деинсталирате 32-битовия SMPlayer."
 ${LangFileString} Existing_64bitInst "Има инсталирана 64-битова версия на SMPlayer. Трябва първо да деинсталирате 64-битовия SMPlayer."

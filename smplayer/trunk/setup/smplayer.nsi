@@ -762,10 +762,11 @@ Function .onInit
 
 !ifdef WIN64
   ${Unless} ${AtLeastWinVista}
+    MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported_VistaRequired) /SD IDNO IDYES installonoldwindows
 !else
   ${Unless} ${AtLeastWinXP}
-!endif
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
+!endif
     Abort
   installonoldwindows:
   ${EndIf}

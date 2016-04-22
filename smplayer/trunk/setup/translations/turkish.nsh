@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Bu programı yüklerken yönetici olarak o
 ${LangFileString} SMPlayer_Is_Running "SMPlayer bir örneği çalışıyor. SMPlayer'ı kapatın ve tekrar deneyin."
 
 ${LangFileString} OS_Not_Supported "İşletim sistemi desteklenmiyor.$\nSMPlayer ${SMPLAYER_VERSION} en az Windows XP gerektirir ve sisteminizde düzgün çalışmayabilir.$\nGerçekten kuruluma devam etmek istiyor musunuz?"
+${LangFileString} OS_Not_Supported_VistaRequired "İşletim sistemi desteklenmiyor.$\nSMPlayer ${SMPLAYER_VERSION} en az Windows Vista gerektirir ve sisteminizde düzgün çalışmayabilir.$\nGerçekten kuruluma devam etmek istiyor musunuz?"
 ${LangFileString} Win64_Required "Bu yazılım kurulumu için 64-bit Windows işletim sistemi gerekli."
 ${LangFileString} Existing_32bitInst "SMPlayer için varolan bir 32-bit yükleme var. Öncelikle 32-bit SMPlayer'ı kaldırmanız gerekir."
 ${LangFileString} Existing_64bitInst "SMPlayer için varolan bir 64-bit yükleme var. Öncelikle 64-bit SMPlayer'ı kaldırmanız gerekir."

@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "이 프로그램을 설치하려면 관리
 ${LangFileString} SMPlayer_Is_Running "SMPlayer가 실행 중입니다. SMPlayer를 종료 후 다시 시도하세요."
 
 ${LangFileString} OS_Not_Supported "미지원 운영 체계.$\nSMPlayer ${SMPLAYER_VERSION} 는 윈도우 XP 이상이 필요하고 당신의 시스템에서 정상적인 동작을 보장할 수 없습니다.$\n설치를 계속 진행할까요?"
+${LangFileString} OS_Not_Supported_VistaRequired "미지원 운영 체계.$\nSMPlayer ${SMPLAYER_VERSION} 는 윈도우 Vista 이상이 필요하고 당신의 시스템에서 정상적인 동작을 보장할 수 없습니다.$\n설치를 계속 진행할까요?"
 ${LangFileString} Win64_Required "이 프로그램은 윈도우 64비트 운영 체계에서만 설치할 수 있습니다."
 ${LangFileString} Existing_32bitInst "32비트 버전의 SMPlayer가 이미 설치되어 있습니다. 32비트 SMPlayer를 먼저 제거하세요."
 ${LangFileString} Existing_64bitInst "64비트 버전의 SMPlayer가 이미 설치되어 있습니다. 64비트 SMPlayer를 먼저 제거하세요."

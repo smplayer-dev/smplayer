@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Ви повинні увійти в сис
 ${LangFileString} SMPlayer_Is_Running "Запущено екземпляр SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
 
 ${LangFileString} OS_Not_Supported "Непідтримувана версія операційної системи.$\nSMPlayer ${SMPLAYER_VERSION} потребує як мінімум Windows XP й може працювати неправильно на Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
+${LangFileString} OS_Not_Supported_VistaRequired "Непідтримувана версія операційної системи.$\nSMPlayer ${SMPLAYER_VERSION} потребує як мінімум Windows Vista й може працювати неправильно на Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
 ${LangFileString} Win64_Required "64-розрядна операційна система Windows, необхідна для встановлення цього проґрамного забезпечення."
 ${LangFileString} Existing_32bitInst "Існує 32-бітове встановлення SMPlayer. Спочатку вилучіть 32-бітовий SMPlayer."
 ${LangFileString} Existing_64bitInst "Існує 64-бітове встановлення SMPlayer. Спочатку вилучіть 64-бітовий SMPlayer."

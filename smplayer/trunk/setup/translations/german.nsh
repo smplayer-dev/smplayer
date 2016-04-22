@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Sie müssen als Administrator angemeldet s
 ${LangFileString} SMPlayer_Is_Running "Eine Instanz vom SMPlayer läuft. Bitte SMPlayer beenden und erneut versuchen."
 
 ${LangFileString} OS_Not_Supported "Nicht unterstütztes Betriebssystem.$\nSMPlayer ${SMPLAYER_VERSION} benötigt mindestens Windows XP und kann nicht richtig auf Ihrem System funktionieren.$\nWollen Sie wirklich mit der Installation fortfahren?"
+${LangFileString} OS_Not_Supported_VistaRequired "Nicht unterstütztes Betriebssystem.$\nSMPlayer ${SMPLAYER_VERSION} benötigt mindestens Windows Vista und kann nicht richtig auf Ihrem System funktionieren.$\nWollen Sie wirklich mit der Installation fortfahren?"
 ${LangFileString} Win64_Required "Ein 64-Bit-Windows-Betriebssystem ist erforderlich, um diese Software zu installieren."
 ${LangFileString} Existing_32bitInst "Es existiert eine vorhandene 32-Bit-Installation vom SMPlayer. Sie müssen zuerst den 32-Bit-SMPlayer deinstallieren."
 ${LangFileString} Existing_64bitInst "Es existiert eine vorhandene 64-Bit-Installation vom SMPlayer. Sie müssen zuerst den 64-Bit-SMPlayer deinstallieren."

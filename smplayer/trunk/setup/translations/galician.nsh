@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Debe acceder como administrador para insta
 ${LangFileString} SMPlayer_Is_Running "Xa se está executando unha instancia do SMPlayer. Peche o programa e ténteo de novo."
 
 ${LangFileString} OS_Not_Supported "Sistema operativo non soportado. $\nSMPlayer ${SMPLAYER_VERSION} precisa cando menos de Windows XP, e podería non funcionar correctamente no seu sistema. $\nQueres seguir coa instalación?"
+${LangFileString} OS_Not_Supported_VistaRequired "Sistema operativo non soportado. $\nSMPlayer ${SMPLAYER_VERSION} precisa cando menos de Windows Vista, e podería non funcionar correctamente no seu sistema. $\nQueres seguir coa instalación?"
 ${LangFileString} Win64_Required "Precísase un sistema operativo Windows de 64-bits para instalar esta aplicación."
 ${LangFileString} Existing_32bitInst "Xa existe unha instalación de 32-bits de SMPlayer. Precisas desinstalar o SMPlayer de 32-bits."
 ${LangFileString} Existing_64bitInst "Xa existe unha instalación de 64-bits de SMPlayer. Precisas desinstalar o SMPlayer de 64-bits."
