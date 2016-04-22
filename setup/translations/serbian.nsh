@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Морате бити пријављени
 ${LangFileString} SMPlayer_Is_Running "СМПлејер је већ покренут. Затворите СМПлејер и покушајте поново."
 
 ${LangFileString} OS_Not_Supported "Неподржан оперативни систем.$\nСМПлејер ${SMPLAYER_VERSION} захтева најмање Windows XP и можда неће радити на вашем систему.$\nДа ли стварно желите да наставите инсталацију?"
+${LangFileString} OS_Not_Supported_VistaRequired "Неподржан оперативни систем.$\nСМПлејер ${SMPLAYER_VERSION} захтева најмање Windows Vista и можда неће радити на вашем систему.$\nДа ли стварно желите да наставите инсталацију?"
 ${LangFileString} Win64_Required "64-битни Windows оперативни систем је потребан за инсталацију овог програма."
 ${LangFileString} Existing_32bitInst "Тренутно је инсталирана 32-битна верзија СМПлејера. Морате прво деинсталирати 32-битни СМПлејер."
 ${LangFileString} Existing_64bitInst "Тренутно је инсталирана 64-битна верзија СМПлејера. Морате прво деинсталирати 64-битни СМПлејер."

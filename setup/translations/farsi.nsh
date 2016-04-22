@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "در هنگام نصب شما باید ب�
 ${LangFileString} SMPlayer_Is_Running "یک نمونه از smplayer در حال اجراست ، لطفا smplayer را ببندید و دوباره تلاش کنید"
 
 ${LangFileString} OS_Not_Supported "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows XP and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "یک ویندوز 64 بیتی درخواست نصب این نرم افزار را دارد"
 ${LangFileString} Existing_32bitInst "یک نسخه 32 بیتی از SMPlayer نصب شده است ، ابتدا آن نسخه 32 بیتی را حذف نمایید."
 ${LangFileString} Existing_64bitInst "یک نسخه 64 بیتی از smplayer نصب شده است . شما باید ابتدا این نسخه 64 بیتی smplayer را حذف کنید."

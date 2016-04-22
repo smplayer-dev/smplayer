@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "安装此程序时，您必须以管理员
 ${LangFileString} SMPlayer_Is_Running "SMPlayer 的实例正在运行。请退出 SMPlayer，然后重试。"
 
 ${LangFileString} OS_Not_Supported "不支持的操作系统。$\nSMPlayer ${SMPLAYER_VERSION} 至少需要 Windows XP，其在您的系统上可能无法正常工作。$\n您真的要继续安装吗?"
+${LangFileString} OS_Not_Supported_VistaRequired "不支持的操作系统。$\nSMPlayer ${SMPLAYER_VERSION} 至少需要 Windows Vista，其在您的系统上可能无法正常工作。$\n您真的要继续安装吗?"
 ${LangFileString} Win64_Required "安装此软件需要 64 位 Windows 操作系统。"
 ${LangFileString} Existing_32bitInst "SMPlayer 的 32 位安装已存在。您必须先卸载 32 位的 SMPlayer。"
 ${LangFileString} Existing_64bitInst "SMPlayer 的 64 位安装已存在。您必须先卸载 64 位的 SMPlayer。"

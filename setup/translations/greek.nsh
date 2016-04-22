@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Θα πρέπει να συνδεθείτ�
 ${LangFileString} SMPlayer_Is_Running "Μια υπόσταση του SMPlayer εκτελείται. Παρακαλώ τερματίστε την και προσπαθήστε εκ νέου."
 
 ${LangFileString} OS_Not_Supported "Μη υποστηριζόμενο λειτουργικό σύστημα.$\nSMPlayer ${SMPLAYER_VERSION} απαιτεί τουλάχιστον Windows XP και ίσως να μην λειτουργεί σωστά στο σύστημά σας.$\nΘέλετε πραγματικά να συνεχίσετε την εγκατάσταση;"
+${LangFileString} OS_Not_Supported_VistaRequired "Μη υποστηριζόμενο λειτουργικό σύστημα.$\nSMPlayer ${SMPLAYER_VERSION} απαιτεί τουλάχιστον Windows Vista και ίσως να μην λειτουργεί σωστά στο σύστημά σας.$\nΘέλετε πραγματικά να συνεχίσετε την εγκατάσταση;"
 ${LangFileString} Win64_Required "Απαιτείται ένα λειτουργικό σύστημα Windows 64 bit ούτως ώστε να εγκαταστήσετε αυτό το λογισμικό."
 ${LangFileString} Existing_32bitInst "Υπάρχει ήδη μια εγκατάσταση 32-bit του SMPlayer. Πρέπει πρώτα να την απεγκαταστήσετε. "
 ${LangFileString} Existing_64bitInst "Υπάρχει ήδη μια εγκατάσταση 64-bit του SMPlayer. Πρέπει πρώτα να την απεγκαταστήσετε."

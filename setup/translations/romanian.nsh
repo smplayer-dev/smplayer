@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Trebuie să fiți autentificat ca administ
 ${LangFileString} SMPlayer_Is_Running "O instanță a SMPlayer rulează. Închideți SMPlayer și încercați din nou."
 
 ${LangFileString} OS_Not_Supported "Sistem de operare nesuportat.$\nSMPlayer ${SMPLAYER_VERSION} este necesar cel puțin ultimul Windows XP și poate să nu funcționeze corect pe sistemul dumneavoastră.$\n Sigur doriți să continuați cu instalarea?"
+${LangFileString} OS_Not_Supported_VistaRequired "Sistem de operare nesuportat.$\nSMPlayer ${SMPLAYER_VERSION} este necesar cel puțin ultimul Windows Vista și poate să nu funcționeze corect pe sistemul dumneavoastră.$\n Sigur doriți să continuați cu instalarea?"
 ${LangFileString} Win64_Required "Un sistem de operare Windows la 64-bit este necesar pentru instalarea acestei aplicații."
 ${LangFileString} Existing_32bitInst "Există o instalare SMPlayer de 32-bit. Trebuie să dezinstalați întâi SMPlayer la 32-bit."
 ${LangFileString} Existing_64bitInst "Există o instalare SMPlayer de 64-bit. Trebuie să dezinstalați întâi SMPlayer la 64-bit."

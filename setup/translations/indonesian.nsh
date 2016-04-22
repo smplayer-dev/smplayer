@@ -16,6 +16,7 @@ ${LangFileString} Installer_No_Admin "Anda harus masuk sebagai administrator ket
 ${LangFileString} SMPlayer_Is_Running "Sebuah instansi SMPlayer masih berjalan. Tolong tutup SMPlayer dan coba lagi."
 
 ${LangFileString} OS_Not_Supported "Sistem operasi tidak didukung.$\nSMPlayer ${SMPLAYER_VERSION} membutuhkan setidaknya Windows XP dan mungkin tidak bekerja dengan baik pada sistem Anda.$\n Apakah Anda ingin melanjutkan pemasangan?"
+${LangFileString} OS_Not_Supported_VistaRequired "Sistem operasi tidak didukung.$\nSMPlayer ${SMPLAYER_VERSION} membutuhkan setidaknya Windows Vista dan mungkin tidak bekerja dengan baik pada sistem Anda.$\n Apakah Anda ingin melanjutkan pemasangan?"
 ${LangFileString} Win64_Required "Sistem operasi Windows 64-bit diperlukan untuk memasang perangkat lunak ini."
 ${LangFileString} Existing_32bitInst "Pemasang SMPlayer 32-bit masih terpasang. Anda harus mencopot SMPlayer 32-bit terlebih dahulu."
 ${LangFileString} Existing_64bitInst "SMPlayer 64-bit masih terpasang. Anda harus mencopot SMPlayer 64-bit terlebih dahulu."

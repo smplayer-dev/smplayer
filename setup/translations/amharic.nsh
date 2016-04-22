@@ -12,6 +12,7 @@ ${LangFileString} Installer_No_Admin "እርስዎ ይህን ፕሮግራም ሲ
 ${LangFileString} SMPlayer_Is_Running "የ SMP ማጫወቻ እየሄደ ነው: እባክዎን ከ SMP ማጫወቻ ይውጡ እና እንደገና ይሞክሩ"
 
 ${LangFileString} OS_Not_Supported "ያልተደገፈ አይነት የ መስሪያ ስርአት $\nSMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.$\nበ እርግጥ መግጠሙን መቀጠል ይፈልጋሉ?"
+${LangFileString} OS_Not_Supported_VistaRequired "ያልተደገፈ አይነት የ መስሪያ ስርአት $\nSMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ Windows Vista እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.$\nበ እርግጥ መግጠሙን መቀጠል ይፈልጋሉ?"
 ${LangFileString} Win64_Required "የ 64-ቢት መስኮት መስሪያ ስርአት ያስፈልጋል ይህን ፕሮግራም ለ መግጠም"
 ${LangFileString} Existing_32bitInst "ቀደም ያለ የ 32-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 32-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
 ${LangFileString} Existing_64bitInst "ቀደም ያለ የ 64-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 64-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
