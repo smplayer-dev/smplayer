@@ -200,7 +200,10 @@ void BaseGuiPlus::populateMainMenu() {
 	videoMenu->insertMenu(videosize_menu->menuAction(), sendToScreen_menu);
 	//optionsMenu->addMenu(sendToScreen_menu);
 
-	optionsMenu->addAction(showScreensInfoAct);
+	if (!pref->tablet_mode) {
+		viewMenu->addSeparator();
+		viewMenu->addAction(showScreensInfoAct);
+	}
 #endif
 }
 
@@ -269,7 +272,7 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef SCREENS_SUPPORT
 	sendToScreen_menu->menuAction()->setText( tr("Send &video to screen") );
-	showScreensInfoAct->change(tr("Screens info"));
+	showScreensInfoAct->change(tr("Information about connected &screens"));
 #endif
 }
 
@@ -697,9 +700,12 @@ TimeLabelAction * BaseGuiPlus::createTimeLabelAction(TimeLabelAction::TimeLabelT
 #ifdef SCREENS_SUPPORT
 void BaseGuiPlus::showScreensInfo() {
 	qDebug("BaseGuiPlus::showScreensInfo");
-	if (!screens_info_window) screens_info_window = new LogWindow(this);
+	if (!screens_info_window) {
+		screens_info_window = new LogWindow(this);
+		screens_info_window->setWindowTitle(tr("Information about connected screens"));
+	}
 
-	QString t = "<h1>" + tr("Information about connected screens") + "</h1>";
+	QString t = "<h1>" + tr("Connected screens") + "</h1>";
 #if QT_VERSION >= 0x050000
 	QList<QScreen *> screen_list = qApp->screens();
 	t += "<p>" + tr("Number of screens: %1").arg(screen_list.count());
