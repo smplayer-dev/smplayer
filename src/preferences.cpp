@@ -176,7 +176,9 @@ void Preferences::reset() {
 	file_settings_method = "hash"; // Possible values: normal & hash
 
 	tablet_mode = false;
-
+	#ifdef Q_OS_WIN
+	tablet_mode_change_answer = "";
+	#endif
 
     /* ***************
        Drives (CD/DVD)
@@ -681,6 +683,9 @@ void Preferences::save() {
 	set->setValue("file_settings_method", file_settings_method);
 
 	set->setValue("tablet_mode", tablet_mode);
+	#ifdef Q_OS_WIN
+	set->setValue("tablet_mode_change_answer", tablet_mode_change_answer);
+	#endif
 
 	set->endGroup(); // General
 
@@ -1219,6 +1224,9 @@ void Preferences::load() {
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 
 	tablet_mode = set->value("tablet_mode", tablet_mode).toBool();
+	#ifdef Q_OS_WIN
+	tablet_mode_change_answer = set->value("tablet_mode_change_answer", tablet_mode_change_answer).toString();
+	#endif
 
 	set->endGroup(); // General
 
