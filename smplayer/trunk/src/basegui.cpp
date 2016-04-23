@@ -6029,22 +6029,36 @@ void BaseGui::systemTabletModeChanged(bool system_tablet_mode) {
 	qDebug() << "BaseGui::systemTabletModeChanged:" << system_tablet_mode;
 	
 	if (pref->tablet_mode != system_tablet_mode) {
-		//setTabletMode(system_tablet_mode);
 		qDebug("BaseGui::systemTabletModeChanged: tablet mode should be changed");
 		
-		QString text;
-		if (system_tablet_mode)
-			text = tr("The system has changed to tablet mode. Should SMPlayer change to tablet mode as well?");
-		else
-			text = tr("The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?");
-		
-		#if QT_VERSION >= 0x050200
-		QCheckBox cb(tr("Remember my decision and don't ask again"));
-		mb.setCheckBox(&cb);
-		#endif
-		QMessageBox mb(QMessageBox::Question, "SMPlayer", text, QMessageBox::Yes | QMessageBox::No);
-		if (mb.exec() == QMessageBox::Yes) {
+		if (pref->tablet_mode_change_answer == "yes") {
 			setTabletMode(system_tablet_mode);
+		}
+		else
+		if (pref->tablet_mode_change_answer == "no") {
+			return;
+		}
+		else {
+			// Ask the user
+			QString text;
+			if (system_tablet_mode)
+				text = tr("The system has changed to tablet mode. Should SMPlayer change to tablet mode as well?");
+			else
+				text = tr("The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?");
+		
+			QMessageBox mb(QMessageBox::Question, "SMPlayer", text, QMessageBox::Yes | QMessageBox::No);
+			#if QT_VERSION >= 0x050200
+			QCheckBox cb(tr("Remember my decision and don't ask again"));
+			mb.setCheckBox(&cb);
+			#endif
+			if (mb.exec() == QMessageBox::Yes) {
+				setTabletMode(system_tablet_mode);
+			}
+			#if QT_VERSION >= 0x050200
+			if (cb.isChecked()) {
+				pref->tablet_mode_change_answer = (mb.result() == QMessageBox::Yes ? "yes" : "no");
+			}
+			#endif
 		}
 	}
 }

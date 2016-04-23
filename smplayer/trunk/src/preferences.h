@@ -164,7 +164,9 @@ public:
 	QString file_settings_method; //!< Method to be used for saving file settings
 
 	bool tablet_mode;
-
+	#ifdef Q_OS_WIN
+	QString tablet_mode_change_answer;
+	#endif
 
     /* ***************
        Drives (CD/DVD)
