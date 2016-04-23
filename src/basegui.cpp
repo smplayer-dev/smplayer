@@ -6008,10 +6008,7 @@ void BaseGui::checkSystemTabletMode() {
 		if (v.isValid()) {
 			bool system_tablet_mode = (v.toInt() == 1);
 			qDebug() << "BaseGui::checkSystemTabletMode: system_tablet_mode:" << system_tablet_mode;
-			if (pref->tablet_mode != system_tablet_mode) {
-				//setTabletMode(system_tablet_mode);
-				qDebug("BaseGui::checkSystemTabletMode: tablet mode should be changed");
-			}
+			systemTabletModeChanged(system_tablet_mode);
 		}
 	}
 	else
@@ -6023,12 +6020,33 @@ void BaseGui::checkSystemTabletMode() {
 		qDebug() << "BaseGui::checkSystemTabletMode: docked:" << docked;
 		*/
 		bool system_tablet_mode = slate_mode;
-		if (pref->tablet_mode != system_tablet_mode) {
-			//setTabletMode(system_tablet_mode);
-			qDebug("BaseGui::checkSystemTabletMode: tablet mode should be changed");
-		}
+		systemTabletModeChanged(system_tablet_mode);
 	}
 	#endif
+}
+
+void BaseGui::systemTabletModeChanged(bool system_tablet_mode) {
+	qDebug() << "BaseGui::systemTabletModeChanged:" << system_tablet_mode;
+	
+	if (pref->tablet_mode != system_tablet_mode) {
+		//setTabletMode(system_tablet_mode);
+		qDebug("BaseGui::systemTabletModeChanged: tablet mode should be changed");
+		
+		QString text;
+		if (system_tablet_mode)
+			text = tr("The system has changed to tablet mode. Should SMPlayer change to tablet mode as well?");
+		else
+			text = tr("The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?");
+		
+		#if QT_VERSION >= 0x050200
+		QCheckBox cb(tr("Remember my decision and don't ask again"));
+		mb.setCheckBox(&cb);
+		#endif
+		QMessageBox mb(QMessageBox::Question, "SMPlayer", text, QMessageBox::Yes | QMessageBox::No);
+		if (mb.exec() == QMessageBox::Yes) {
+			setTabletMode(system_tablet_mode);
+		}
+	}
 }
 
 #ifdef AVOID_SCREENSAVER

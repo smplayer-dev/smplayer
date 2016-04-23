@@ -324,6 +324,8 @@ protected slots:
 
 #ifdef Q_OS_WIN
 	void checkSystemTabletMode();
+	void systemTabletModeChanged(bool);
+	
 	#ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
 	void clear_just_stopped();
