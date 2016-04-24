@@ -887,11 +887,9 @@ private:
 	QSize win_size;
 	bool was_maximized;
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-#ifdef AVOID_SCREENSAVER
+#if defined(AVOID_SCREENSAVER) && defined(Q_OS_WIN)
 	/* Disable screensaver by event */
 	bool just_stopped;
-#endif
 #endif
 
 #ifdef LOG_MPLAYER
@@ -903,6 +901,6 @@ private:
 
 	bool ignore_show_hide_events;
 };
-    
+
 #endif
 
