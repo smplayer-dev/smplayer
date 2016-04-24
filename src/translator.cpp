@@ -25,6 +25,9 @@
 Translator::Translator() {
 	qApp->installTranslator( &app_trans );
 	qApp->installTranslator( &qt_trans );
+	#if QT_VERSION >= 0x050000
+	qApp->installTranslator( &qtbase_trans );
+	#endif
 }
 
 Translator::~Translator() {
@@ -52,12 +55,20 @@ void Translator::load(QString locale) {
 	// In windows and OS2 try to load the qt translation from the app path, as
     // most users won't have Qt installed.
 	loadCatalog(qt_trans, "qt", locale, trans_path );
+	#if QT_VERSION >= 0x050000
+	loadCatalog(qtbase_trans, "qtbase", locale, trans_path);
+	#endif
 #else
 	// In linux try to load it first from app path (in case there's an updated
     // translation), if it fails it will try then from the Qt path.
 	if (! loadCatalog(qt_trans, "qt", locale, trans_path ) ) {
 		loadCatalog(qt_trans, "qt", locale, qt_trans_path);
 	}
+	#if QT_VERSION >= 0x050000
+	if (! loadCatalog(qtbase_trans, "qtbase", locale, trans_path ) ) {
+		loadCatalog(qtbase_trans, "qtbase", locale, qt_trans_path);
+	}
+	#endif
 #endif
 	loadCatalog(app_trans, "smplayer", locale, trans_path);
 }

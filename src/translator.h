@@ -36,6 +36,9 @@ protected:
 
 	QTranslator app_trans;
 	QTranslator qt_trans;
+	#if QT_VERSION >= 0x050000
+	QTranslator qtbase_trans;
+#endif
 };
 
 #endif
