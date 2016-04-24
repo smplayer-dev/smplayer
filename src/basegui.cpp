@@ -149,38 +149,33 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 #if QT_VERSION >= 0x050000
 	, was_minimized(false)
 #endif
+	, popup(0)
+	, clhelp_window(0)
+	, pref_dialog(0)
+	, file_dialog (0)
+#ifdef FIND_SUBTITLES
+	, find_subs_dialog(0)
+#endif
+#ifdef VIDEOPREVIEW
+	, video_preview(0)
+#endif
 #ifdef UPDATE_CHECKER
 	, update_checker(0)
 #endif
+	, arg_close_on_finish(-1)
+	, arg_start_in_fullscreen(-1)
 #ifdef MG_DELAYED_SEEK
 	, delayed_seek_timer(0)
 	, delayed_seek_value(0)
 #endif
-{
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-#ifdef AVOID_SCREENSAVER
+	, was_maximized(false)
+#if defined(AVOID_SCREENSAVER) && defined(Q_OS_WIN)
 	/* Disable screensaver by event */
-	just_stopped = false;
+	, just_stopped(false)
 #endif
-#endif
-	ignore_show_hide_events = false;
-
-	arg_close_on_finish = -1;
-	arg_start_in_fullscreen = -1;
-
+	, ignore_show_hide_events(false)
+{
 	setWindowTitle( "SMPlayer" );
-
-	// Not created objects
-	popup = 0;
-	pref_dialog = 0;
-	file_dialog = 0;
-	clhelp_window = 0;
-#ifdef FIND_SUBTITLES
-	find_subs_dialog = 0;
-#endif
-#ifdef VIDEOPREVIEW
-	video_preview = 0;
-#endif
 
 	// Create objects:
 	createPanel();
