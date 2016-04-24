@@ -6060,6 +6060,8 @@ void BaseGui::systemTabletModeChanged(bool system_tablet_mode) {
 			}
 			#endif
 		}
+		// Update action button
+		tabletModeAct->setChecked(pref->tablet_mode);
 	}
 }
 
