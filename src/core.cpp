@@ -44,14 +44,12 @@
 #include "filters.h"
 #include "tvlist.h"
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
 #include <QSysInfo> // To get Windows version
 #endif
 #ifdef SCREENSAVER_OFF
 #include "screensaver.h"
-#endif
 #endif
 
 #ifndef NO_USE_INI_FILES
@@ -277,14 +275,12 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 #endif
 	mplayerwindow->setMonitorAspect( pref->monitor_aspect_double() );
 
-#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 	// Windows or OS2 screensaver
 	win_screensaver = new WinScreenSaver();
 	connect( this, SIGNAL(aboutToStartPlaying()), this, SLOT(disableScreensaver()) );
 	connect( proc, SIGNAL(processExited()), this, SLOT(enableScreensaver()) );
 	connect( proc, SIGNAL(error(QProcess::ProcessError)), this, SLOT(enableScreensaver()) );
-#endif
 #endif
 
 #ifdef YOUTUBE_SUPPORT
@@ -323,10 +319,8 @@ Core::~Core() {
 	delete tv_settings;
 #endif
 
-#if  defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 	delete win_screensaver;
-#endif
 #endif
 
 #ifdef YOUTUBE_SUPPORT
@@ -598,7 +592,6 @@ void Core::YTNoVideoUrl() {
 }
 #endif
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 void Core::enableScreensaver() {
 	qDebug("Core::enableScreensaver");
@@ -613,7 +606,6 @@ void Core::disableScreensaver() {
 		win_screensaver->disable();
 	}
 }
-#endif
 #endif
 
 void Core::loadSub(const QString & sub ) {
