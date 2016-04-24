@@ -6042,7 +6042,7 @@ void BaseGui::systemTabletModeChanged(bool system_tablet_mode) {
 			// Ask the user
 			QString text;
 			if (system_tablet_mode)
-				text = tr("The system has changed to tablet mode. Should SMPlayer change to tablet mode as well?");
+				text = tr("The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?");
 			else
 				text = tr("The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?");
 		
