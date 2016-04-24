@@ -134,6 +134,7 @@ echo.
 echo --       Qt Translations       --
 echo.
 copy "%QT_DIR%\translations\qt_*.qm" %OUTPUT_DIR%\translations
+copy "%QT_DIR%\translations\qtbase*.qm" %OUTPUT_DIR%\translations
 copy "%SMPLAYER_DIR%\qt-translations\qt_*.qm" "%OUTPUT_DIR%\translations"
 del "%OUTPUT_DIR%\translations\qt_help_*.qm"
 
