@@ -35,10 +35,8 @@ class PlayerProcess;
 class MplayerWindow;
 class QSettings;
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 class WinScreenSaver;
-#endif
 #endif
 
 #ifdef YOUTUBE_SUPPORT
@@ -446,11 +444,9 @@ protected slots:
 	void YTNoVideoUrl();
 #endif
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 	void enableScreensaver();
 	void disableScreensaver();
-#endif
 #endif
 
 protected:
@@ -539,10 +535,8 @@ protected:
 	FileSettingsBase * tv_settings;
 #endif
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef SCREENSAVER_OFF
 	WinScreenSaver * win_screensaver;
-#endif
 #endif
 
 #ifdef YOUTUBE_SUPPORT

@@ -122,7 +122,7 @@ void Preferences::reset() {
 	autoq = 6;
 	add_blackborders_on_fullscreen = false;
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
 	turn_screensaver_off = false;
 	#endif
@@ -633,7 +633,7 @@ void Preferences::save() {
 	set->setValue("autoq", autoq);
 	set->setValue("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen);
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
 	set->setValue("turn_screensaver_off", turn_screensaver_off);
 	#endif
@@ -1174,7 +1174,7 @@ void Preferences::load() {
 	autoq = set->value("autoq", autoq).toInt();
 	add_blackborders_on_fullscreen = set->value("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen).toBool();
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
 	turn_screensaver_off = set->value("turn_screensaver_off", turn_screensaver_off).toBool();
 	#endif

@@ -169,8 +169,7 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	, delayed_seek_value(0)
 #endif
 	, was_maximized(false)
-#if defined(AVOID_SCREENSAVER) && defined(Q_OS_WIN)
-	/* Disable screensaver by event */
+#ifdef AVOID_SCREENSAVER
 	, just_stopped(false)
 #endif
 	, ignore_show_hide_events(false)
@@ -5138,7 +5137,6 @@ void BaseGui::displayState(Core::State state) {
 
 	if (state == Core::Stopped) setWindowCaption( "SMPlayer" );
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 #ifdef AVOID_SCREENSAVER
 	/* Disable screensaver by event */
 	just_stopped = false;
@@ -5148,7 +5146,6 @@ void BaseGui::displayState(Core::State state) {
 		int time = 1000 * 60; // 1 minute
 		QTimer::singleShot( time, this, SLOT(clear_just_stopped()) );
 	}
-#endif
 #endif
 }
 

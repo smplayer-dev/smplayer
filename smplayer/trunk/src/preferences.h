@@ -106,7 +106,7 @@ public:
 	int autoq; 	//!< Postprocessing quality
 	bool add_blackborders_on_fullscreen;
 
-#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
+#ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
 	bool turn_screensaver_off;
 	#endif

@@ -28,11 +28,8 @@
 #include "config.h"
 #include "guiconfig.h"
 
-#ifdef Q_OS_WIN
 #ifdef AVOID_SCREENSAVER
-/* Disable screensaver by event */
 #include <windows.h>
-#endif
 #endif
 
 #ifdef MOUSE_GESTURES
@@ -327,7 +324,6 @@ protected slots:
 	void systemTabletModeChanged(bool);
 	
 	#ifdef AVOID_SCREENSAVER
-	/* Disable screensaver by event */
 	void clear_just_stopped();
 	#endif
 #endif
@@ -887,8 +883,7 @@ private:
 	QSize win_size;
 	bool was_maximized;
 
-#if defined(AVOID_SCREENSAVER) && defined(Q_OS_WIN)
-	/* Disable screensaver by event */
+#ifdef AVOID_SCREENSAVER
 	bool just_stopped;
 #endif
 
