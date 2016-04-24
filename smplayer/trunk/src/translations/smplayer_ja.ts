@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1319,7 +1317,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="5902"/>
         <location filename="../basegui.cpp" line="5914"/>
         <source>Visit %1 to get it.</source>
-        <translation>取得するには%1にアクセスしてください。</translation>
+        <translation>取得するには %1 にアクセスしてください。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5912"/>
@@ -1334,17 +1332,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6045"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>システムがタブレット モードへ切り替えられました。SMPlayer もタブレット モードへ変更しますか?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>システムがタブレット モードを終了しました。SMPlayer もタブレット モードをオフにしますか?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6051"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation>選択を記憶して二度と質問しない</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4899"/>
@@ -1906,12 +1904,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"></translation>
+        <translation>画面へビデオを送信(&amp;V)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="274"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"></translation>
+        <translation>接続された画面の情報(&amp;S)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="280"/>
@@ -1926,102 +1924,102 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="704"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation>接続された画面の情報</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="707"/>
         <source>Connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation>接続された画面</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="710"/>
         <location filename="../baseguiplus.cpp" line="744"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>画面の数: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>第 1 画面: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="715"/>
         <location filename="../baseguiplus.cpp" line="749"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"></translation>
+        <translation>画面 %1 の情報</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="717"/>
         <location filename="../baseguiplus.cpp" line="751"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能な座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="719"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能なサイズ: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能な仮想座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="724"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>利用可能な仮想サイズ: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="726"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>深さ: %1 ビット</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <location filename="../baseguiplus.cpp" line="753"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="729"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>論理 DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="731"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>物理 DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"></translation>
+        <translation>物理サイズ: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="734"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>リフレッシュ レート: %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>サイズ: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>仮想座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="738"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>仮想サイズ: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation>第 1 画面</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
@@ -2817,9 +2815,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 個の字幕が抽出されました</numerusform>
-        </translation>
+        <translation><numerusform>%n 個の字幕が抽出されました</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2917,7 +2913,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -9032,17 +9028,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

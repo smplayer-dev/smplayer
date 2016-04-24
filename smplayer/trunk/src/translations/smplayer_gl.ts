@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1334,17 +1332,17 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="6045"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>O sistema cambiou ao modo tableta. Desexa que o SMPlayer cambie ao modo tableta tamén?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>O sistema saiu do modo tableta. Debería o SMPlayer desactivar o modo tableta tamén?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6051"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation>Lembrar esta decisión e non prenguntar máis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4899"/>
@@ -1906,12 +1904,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar o &amp;vídeo á pantalla</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="274"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"></translation>
+        <translation>Información sobre &amp;pantallas conectadas</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="280"/>
@@ -1926,102 +1924,102 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="704"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation>Información sobre pantallas conectadas</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="707"/>
         <source>Connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantallas conectadas</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="710"/>
         <location filename="../baseguiplus.cpp" line="744"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Número de pantallas: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantalla primaria: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="715"/>
         <location filename="../baseguiplus.cpp" line="749"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Información para a pantalla %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="717"/>
         <location filename="../baseguiplus.cpp" line="751"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Xeometrías dispoñíbeis: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="719"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaño dispoñíbel: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Xeometría virtual dispoñíbel: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="724"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaño virtual dispoñíbel: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="726"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"></translation>
+        <translation>Profundidade: %1 bits</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <location filename="../baseguiplus.cpp" line="753"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Xeometrías: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="729"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>PPP lóxicos: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="731"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>PPP físicos: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaño físico: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="734"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation>Taxa de actualización: %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaño: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>Xeometrías virtuais: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="738"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Tamaño virtual: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Pantalla primaria</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
@@ -2817,10 +2815,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2918,7 +2913,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -9033,19 +9028,13 @@ Desexas sobrescribilo?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

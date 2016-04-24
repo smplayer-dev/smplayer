@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="bg">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="bg" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1020,12 +1018,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1809"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
@@ -1135,7 +1133,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1911"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1985"/>
@@ -1246,7 +1244,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2923"/>
         <source>Logs</source>
-        <translation type="unfinished">Отчети</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4882"/>
@@ -1324,27 +1322,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5912"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5913"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6045"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6051"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4899"/>
@@ -1906,12 +1904,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="274"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="280"/>
@@ -1926,102 +1924,102 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="704"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="707"/>
         <source>Connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="710"/>
         <location filename="../baseguiplus.cpp" line="744"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="715"/>
         <location filename="../baseguiplus.cpp" line="749"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="717"/>
         <location filename="../baseguiplus.cpp" line="751"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="719"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="724"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="726"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <location filename="../baseguiplus.cpp" line="753"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="729"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="731"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="734"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="738"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
@@ -2817,10 +2815,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитра е извлечена</numerusform>
-            <numerusform>%n субтитри са извлечени</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитра е извлечена</numerusform><numerusform>%n субтитри са извлечени</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2918,7 +2913,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Немовъзможно е запазването на сваления
@@ -3126,36 +3121,36 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="178"/>
         <location filename="../infofile.cpp" line="180"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="223"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="226"/>
         <location filename="../infofile.cpp" line="234"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="227"/>
         <location filename="../infofile.cpp" line="235"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="228"/>
         <location filename="../infofile.cpp" line="236"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="230"/>
         <location filename="../infofile.cpp" line="238"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../infofile.cpp" line="164"/>
@@ -4803,7 +4798,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4863,7 +4858,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
@@ -5028,7 +5023,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5129,7 +5124,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5403,7 +5398,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="181"/>
@@ -5434,17 +5429,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="984"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="985"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="986"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="989"/>
@@ -5529,7 +5524,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="145"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1025"/>
@@ -5630,7 +5625,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="210"/>
@@ -6328,7 +6323,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="333"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.ui" line="375"/>
@@ -6704,33 +6699,33 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="159"/>
         <location filename="../prefinput.cpp" line="369"/>
         <source>Move window</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="161"/>
         <location filename="../prefinput.cpp" line="371"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="367"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="368"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="369"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="372"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="376"/>
@@ -7308,7 +7303,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="749"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
@@ -7467,17 +7462,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7538,58 +7533,58 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished">Автоматично</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
@@ -9033,19 +9028,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n минута</numerusform>
-            <numerusform>%n минути</numerusform>
-        </translation>
+        <translation><numerusform>%n минута</numerusform><numerusform>%n минути</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9284,7 +9273,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9387,7 +9376,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
@@ -9544,17 +9533,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>

@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1025,7 +1023,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
@@ -1334,17 +1332,17 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="6045"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6051"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4899"/>
@@ -1906,12 +1904,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="274"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="280"/>
@@ -1926,102 +1924,102 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="704"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="707"/>
         <source>Connected screens</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="710"/>
         <location filename="../baseguiplus.cpp" line="744"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="715"/>
         <location filename="../baseguiplus.cpp" line="749"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="717"/>
         <location filename="../baseguiplus.cpp" line="751"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="719"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="724"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="726"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <location filename="../baseguiplus.cpp" line="753"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="729"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="731"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="734"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="738"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
@@ -2817,11 +2815,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2919,7 +2913,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -4804,7 +4798,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -9034,21 +9028,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
