@@ -18,19 +18,22 @@ fakeroot, build-essential, devscripts, debhelper and g++.
 
 sudo apt-get install libqt4-dev zlib1g-dev fakeroot build-essential devscripts debhelper g++
 
+(Packages to compile with Qt5: qtbase5-dev qt5-qmake qt5-default qtscript5-dev
+qttools5-dev-tools libqt5webkit5-dev)
+
 Now run ./create_deb.sh
 
 
-2) How to make a rpm package
+2) How to make a rpm package (obsolete)
 ----------------------------
 Run rpmbuild -tb smplayer-0.6.x.tar.bz2
-You'll find the rpm pachage under /usr/src/packages/RPMS/i586/
+You'll find the rpm package under /usr/src/packages/RPMS/i586/
 
 Take a look at this document to know how to create a rpm from the SVN sources:
 http://smplayer.berlios.de/forums/viewtopic.php?id=188
 
 
-3) Generic compilation
+3) Generic compilation (obsolete)
 ----------------------
 You need at least Qt 4.3 to compile smplayer. It won't work with an older
 version.
@@ -78,7 +81,7 @@ That would compile smplayer for /usr but in fact it will be installed in
 /tmp/usr/
 
 
-5) How to compile in Windows
+5) How to compile in Windows (obsolete)
 ----------------------------
 First you need to download and install Qt (OpenSource edition) in your
 computer. You can get a package with installer from
