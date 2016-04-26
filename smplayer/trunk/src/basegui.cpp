@@ -1822,7 +1822,7 @@ void BaseGui::retranslateStrings() {
 	showCheckUpdatesAct->change( Images::icon("check_updates"), tr("Check for &updates") );
 
 #if defined(YOUTUBE_SUPPORT) && defined(YT_USE_YTSIG)
-	updateYTAct->change( Images::icon("update_youtube"), tr("Update &Youtube code") );
+	updateYTAct->change( Images::icon("update_youtube"), tr("Update the &YouTube code") );
 #endif
 
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
