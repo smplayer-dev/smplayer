@@ -2832,9 +2832,7 @@ void BaseGui::populateMainMenu() {
 	// SUBTITLES MENU
 	subtitlesMenu->addMenu(subtitles_track_menu);
 	#ifdef MPV_SUPPORT
-	if (!pref->tablet_mode) {
-		subtitlesMenu->addMenu(secondary_subtitles_track_menu);
-	}
+	subtitlesMenu->addMenu(secondary_subtitles_track_menu);
 	#endif
 	subtitlesMenu->addSeparator();
 	subtitlesMenu->addAction(loadSubsAct);
