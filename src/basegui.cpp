@@ -3883,6 +3883,15 @@ void BaseGui::updateWidgets() {
 #endif
 
 	tabletModeAct->setChecked(pref->tablet_mode);
+
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
+	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPLAYER) {
+		secondary_subtitles_track_menu->setEnabled(false);
+		frameBackStepAct->setEnabled(false);
+	} else {
+		karaokeAct->setEnabled(false);
+	}
+#endif
 }
 
 void BaseGui::updateVideoEqualizer() {
