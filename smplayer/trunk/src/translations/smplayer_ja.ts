@@ -1342,7 +1342,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6051"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation>選択を記憶して二度と質問しない</translation>
+        <translation>設定を記憶して今後確認しない</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4899"/>
