@@ -1332,17 +1332,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6045"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>시스템이 태블릿 모드로 전환되었습니다. SMPlayer도 태블릿 모드로 전환할까요?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>시스템이 태블릿 모드를 종료했습니다. SMPlayer도 태블릿 모드를 끌까요?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6051"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>내 결정을 기억하고 다시 묻지 않기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4899"/>
@@ -1904,12 +1904,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>비디오를 화면으로 보내기(&amp;V)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="274"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>연결된 화면의 정보(&amp;S)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="280"/>
@@ -1924,102 +1924,102 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="704"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>연결된 화면에 대한 정보</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="707"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>연결된 화면</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="710"/>
         <location filename="../baseguiplus.cpp" line="744"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>화면 개수: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>첫 번째 화면: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="715"/>
         <location filename="../baseguiplus.cpp" line="749"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>%1 화면 정보</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="717"/>
         <location filename="../baseguiplus.cpp" line="751"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>이용 가능한 지오메트리: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="719"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>이용 가능한 크기: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>이용 가능한 가상 지오메트리: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="724"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>이용 가능한 가상 크기: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="726"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>깊이: %1 비트</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <location filename="../baseguiplus.cpp" line="753"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>지오메트리: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="729"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>논리적 DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="731"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>물리적 DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>물리적 크기: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="734"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"/>
+        <translation>갱신 속도: %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>크기: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>가상 지오메트리: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="738"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>가상 크기: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Primary screen</source>
-        <translation type="unfinished"/>
+        <translation>첫 번째 화면</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
