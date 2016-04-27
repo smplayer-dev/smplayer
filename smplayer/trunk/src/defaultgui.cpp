@@ -99,7 +99,9 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	if (pref->compact_mode) {
 		controlwidget->hide();
 		toolbar1->hide();
+		#ifdef LANGUAGE_TOOLBAR
 		toolbar2->hide();
+		#endif
 
 		if (pref->floating_display_in_compact_mode) {
 			reconfigureFloatingControl();
@@ -211,7 +213,10 @@ void DefaultGui::togglePlayAction(Core::State state) {
 void DefaultGui::createMenus() {
 	toolbar_menu = new QMenu(this);
 	toolbar_menu->addAction(toolbar1->toggleViewAction());
+#ifdef LANGUAGE_TOOLBAR
 	toolbar_menu->addAction(toolbar2->toggleViewAction());
+#endif
+
 #if USE_CONFIGURABLE_TOOLBARS
 	toolbar_menu->addSeparator();
 	toolbar_menu->addAction(editToolbar1Act);
@@ -292,6 +297,7 @@ void DefaultGui::createMainToolBars() {
 	button->setPopupMode(QToolButton::InstantPopup);
 #endif
 
+#ifdef LANGUAGE_TOOLBAR
 	toolbar2 = new QToolBar( this );
 	toolbar2->setObjectName("toolbar2");
 	//toolbar2->setMovable(false);
@@ -304,6 +310,7 @@ void DefaultGui::createMainToolBars() {
 	select_subtitle = new QPushButton( this );
 	select_subtitle->setMenu( subtitles_track_menu );
 	toolbar2->addWidget(select_subtitle);
+#endif
 
 	/*
 	toolbar1->show();
@@ -316,9 +323,11 @@ void DefaultGui::createMainToolBars() {
 	tba->setObjectName("show_main_toolbar");
 	tba->setShortcut(Qt::Key_F5);
 
+#ifdef LANGUAGE_TOOLBAR
 	tba = toolbar2->toggleViewAction();
 	tba->setObjectName("show_language_toolbar");
 	tba->setShortcut(Qt::Key_F6);
+#endif
 }
 
 
@@ -598,11 +607,13 @@ void DefaultGui::retranslateStrings() {
 	toolbar1->setWindowTitle( tr("&Main toolbar") );
 	toolbar1->toggleViewAction()->setIcon(Images::icon("main_toolbar"));
 
+#ifdef LANGUAGE_TOOLBAR
 	toolbar2->setWindowTitle( tr("&Language toolbar") );
 	toolbar2->toggleViewAction()->setIcon(Images::icon("lang_toolbar"));
 
 	select_audio->setText( tr("Audio") );
 	select_subtitle->setText( tr("Subtitle") );
+#endif
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 	viewFrameCounterAct->change( Images::icon("frame_counter"), tr("&Frame counter") );
@@ -690,7 +701,9 @@ void DefaultGui::aboutToEnterFullscreen() {
 
 	// Save visibility of toolbars
 	fullscreen_toolbar1_was_visible = toolbar1->isVisible();
+#ifdef LANGUAGE_TOOLBAR
 	fullscreen_toolbar2_was_visible = toolbar2->isVisible();
+#endif
 
 	if (!pref->compact_mode) {
 		//menuBar()->hide();
@@ -698,7 +711,9 @@ void DefaultGui::aboutToEnterFullscreen() {
 		controlwidget->hide();
 		controlwidget_mini->hide();
 		toolbar1->hide();
+		#ifdef LANGUAGE_TOOLBAR
 		toolbar2->hide();
+		#endif
 	}
 }
 
@@ -718,7 +733,9 @@ void DefaultGui::aboutToExitFullscreen() {
 		controlwidget->show();
 
 		toolbar1->setVisible( fullscreen_toolbar1_was_visible );
+		#ifdef LANGUAGE_TOOLBAR
 		toolbar2->setVisible( fullscreen_toolbar2_was_visible );
+		#endif
 	}
 }
 
@@ -735,14 +752,18 @@ void DefaultGui::aboutToEnterCompactMode() {
 
 	// Save visibility of toolbars
 	compact_toolbar1_was_visible = toolbar1->isVisible();
+#ifdef LANGUAGE_TOOLBAR
 	compact_toolbar2_was_visible = toolbar2->isVisible();
+#endif
 
 	//menuBar()->hide();
 	//statusBar()->hide();
 	controlwidget->hide();
 	controlwidget_mini->hide();
 	toolbar1->hide();
+#ifdef LANGUAGE_TOOLBAR
 	toolbar2->hide();
+#endif
 }
 
 void DefaultGui::aboutToExitCompactMode() {
@@ -758,7 +779,9 @@ void DefaultGui::aboutToExitCompactMode() {
 	controlwidget->show();
 
 	toolbar1->setVisible( compact_toolbar1_was_visible );
+#ifdef LANGUAGE_TOOLBAR
 	toolbar2->setVisible( compact_toolbar2_was_visible );
+#endif
 
 	// Recheck size of controlwidget
 	resizeEvent( new QResizeEvent( size(), size() ) );
@@ -816,9 +839,11 @@ void DefaultGui::saveConfig() {
 	set->setValue("frame_counter", viewFrameCounterAct->isChecked());
 
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
-	set->setValue("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
+#ifdef LANGUAGE_TOOLBAR
+	set->setValue("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible);
 	set->setValue("compact_toolbar2_was_visible", compact_toolbar2_was_visible);
+#endif
 
 	if (pref->save_window_size_on_exit) {
 		qDebug("DefaultGui::saveConfig: w: %d h: %d", width(), height());
@@ -862,9 +887,11 @@ void DefaultGui::loadConfig() {
 	viewFrameCounterAct->setChecked(set->value("frame_counter", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
-	fullscreen_toolbar2_was_visible = set->value("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();
+#ifdef LANGUAGE_TOOLBAR
+	fullscreen_toolbar2_was_visible = set->value("fullscreen_toolbar2_was_visible", fullscreen_toolbar2_was_visible).toBool();
 	compact_toolbar2_was_visible = set->value("compact_toolbar2_was_visible", compact_toolbar2_was_visible).toBool();
+#endif
 
 	if (pref->save_window_size_on_exit) {
 		QPoint p = set->value("pos", pos()).toPoint();

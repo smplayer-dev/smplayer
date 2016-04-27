@@ -20,6 +20,7 @@
 #define DEFAULTGUI_H
 
 #define BUFFERING_ANIMATION
+//#define LANGUAGE_TOOLBAR
 
 #include "guiconfig.h"
 #include "baseguiplus.h"
@@ -116,10 +117,12 @@ protected:
 	EditableToolbar * controlwidget_mini;
 
 	EditableToolbar * toolbar1;
-	QToolBar * toolbar2;
 
+#ifdef LANGUAGE_TOOLBAR
+	QToolBar * toolbar2;
 	QPushButton * select_audio;
 	QPushButton * select_subtitle;
+#endif
 
 	TimeSliderAction * timeslider_action;
 	VolumeSliderAction * volumeslider_action;
@@ -151,9 +154,11 @@ protected:
 	int last_second;
 
 	bool fullscreen_toolbar1_was_visible;
-	bool fullscreen_toolbar2_was_visible;
 	bool compact_toolbar1_was_visible;
+#ifdef LANGUAGE_TOOLBAR
+	bool fullscreen_toolbar2_was_visible;
 	bool compact_toolbar2_was_visible;
+#endif
 };
 
 #endif
