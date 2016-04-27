@@ -933,7 +933,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>Atualizar o código &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2146"/>
