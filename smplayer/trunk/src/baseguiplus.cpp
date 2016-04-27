@@ -271,6 +271,7 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef SCREENS_SUPPORT
 	sendToScreen_menu->menuAction()->setText( tr("Send &video to screen") );
+	sendToScreen_menu->menuAction()->setIcon(Images::icon("send_to_screen"));
 	showScreensInfoAct->change(tr("Information about connected &screens"));
 #endif
 }
