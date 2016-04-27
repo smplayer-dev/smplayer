@@ -129,8 +129,8 @@
         <file>default-theme/donate.png</file>
         <file>default-theme/donate_big.png</file>
         <file>default-theme/update_youtube.png</file>
-        <file>default-theme/bookmark_add.png</file>
-        <file>default-theme/bookmark_folder.png</file>
+        <file>default-theme/favorite-add.png</file>
+        <file>default-theme/favorite-folder.png</file>
         <file>default-theme/trash.png</file>
         <file>default-theme/clear_left.png</file>
         <file>default-theme/folder_open.png</file>

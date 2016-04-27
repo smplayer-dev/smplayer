@@ -86,8 +86,8 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 {
 	setupUi(this);
 
-	add_button->setIcon( Images::icon("bookmark_add") );
-	add_submenu_button->setIcon( Images::icon("bookmark_folder") );
+	add_button->setIcon( Images::icon("favorite-add") );
+	add_submenu_button->setIcon( Images::icon("favorite-folder") );
 	delete_button->setIcon( Images::icon("delete") );
 	delete_all_button->setIcon( Images::icon("trash") );
 	up_button->setIcon( Images::icon("up") );
@@ -119,7 +119,7 @@ FavoriteEditor::FavoriteEditor( QWidget* parent, Qt::WindowFlags f )
 	setIntro( tr("You can edit, delete, sort or add new items. Double click on "
                  "a cell to edit its contents.") );
 
-	setDialogIcon( Images::icon("favorite") );
+	setDialogIcon( Images::icon("favorite", 64) );
 }
 
 FavoriteEditor::~FavoriteEditor() {
