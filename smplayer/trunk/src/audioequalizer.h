@@ -76,6 +76,7 @@ protected:
 	QPushButton * apply_button;
 	QPushButton * reset_button;
 	QPushButton * set_default_button;
+	QPushButton * close_button;
 	QMap<int,AudioEqualizerList> preset_list;
 };
 
