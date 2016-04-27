@@ -324,6 +324,13 @@
        </property>
       </widget>
      </item>
+     <item>
+      <widget class="QPushButton" name="close_button">
+       <property name="text">
+        <string>&amp;Close</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
   </layout>
@@ -339,5 +346,22 @@
   <tabstop>reset_button</tabstop>
  </tabstops>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>close_button</sender>
+   <signal>clicked()</signal>
+   <receiver>VideoEqualizer</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>399</x>
+     <y>234</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>225</x>
+     <y>128</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
