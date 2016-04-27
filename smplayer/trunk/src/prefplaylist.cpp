@@ -36,7 +36,7 @@ QString PrefPlaylist::sectionName() {
 }
 
 QPixmap PrefPlaylist::sectionIcon() {
-    return Images::icon("playlist", 22);
+	return Images::icon("pref_playlist", 22);
 }
 
 void PrefPlaylist::retranslateStrings() {
