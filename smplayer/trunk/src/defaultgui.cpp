@@ -51,7 +51,7 @@
 #include <QMenuBar>
 #include <QMovie>
 
-#define TOOLBAR_VERSION 1
+#define TOOLBAR_VERSION 2
 #define FLOATING_CONTROL_VERSION 1
 
 using namespace Global;
@@ -251,7 +251,9 @@ QMenu * DefaultGui::createPopupMenu() {
 	m->addAction(editFloatingControlAct);
 #else
 	m->addAction(toolbar1->toggleViewAction());
+	#ifdef LANGUAGE_TOOLBAR
 	m->addAction(toolbar2->toggleViewAction());
+	#endif
 #endif
 	return m;
 }
@@ -266,7 +268,8 @@ void DefaultGui::createMainToolBars() {
 	toolbar1_actions << "open_file" << "open_url" << "favorites_menu" << "separator"
                      << "screenshot" << "separator" << "show_file_properties" << "show_playlist"
                      << "show_tube_browser" << "separator" << "show_preferences"
-                     << "separator" << "play_prev" << "play_next";
+                     << "separator" << "play_prev" << "play_next"
+                     << "separator" << "audiotrack_menu" << "subtitlestrack_menu";
 
 	toolbar1->setDefaultActions(toolbar1_actions);
 #else
@@ -288,12 +291,22 @@ void DefaultGui::createMainToolBars() {
 	toolbar1->addSeparator();
 	toolbar1->addAction(playPrevAct);
 	toolbar1->addAction(playNextAct);
+	toolbar1->addSeparator();
+	toolbar1->addAction(audiotrack_menu->menuAction());
+	toolbar1->addAction(subtitles_track_menu->menuAction());
+
 	// Test:
 	//toolbar1->addSeparator();
 	//toolbar1->addAction(timeslider_action);
 	//toolbar1->addAction(volumeslider_action);
 
 	QToolButton * button = qobject_cast<QToolButton *>(toolbar1->widgetForAction(favorites->menuAction()));
+	button->setPopupMode(QToolButton::InstantPopup);
+
+	button = qobject_cast<QToolButton *>(toolbar1->widgetForAction(audiotrack_menu->menuAction()));
+	button->setPopupMode(QToolButton::InstantPopup);
+
+	button = qobject_cast<QToolButton *>(toolbar1->widgetForAction(subtitles_track_menu->menuAction()));
 	button->setPopupMode(QToolButton::InstantPopup);
 #endif
 
@@ -328,6 +341,8 @@ void DefaultGui::createMainToolBars() {
 	tba->setObjectName("show_language_toolbar");
 	tba->setShortcut(Qt::Key_F6);
 #endif
+
+	toolbar1->setIconSize(QSize(32,32));
 }
 
 
@@ -434,6 +449,8 @@ void DefaultGui::createControlWidget() {
 	/*
 	controlwidget->show();
 	*/
+
+	controlwidget->setIconSize(QSize(40,40));
 }
 
 void DefaultGui::createFloatingControl() {
@@ -507,6 +524,7 @@ void DefaultGui::createFloatingControl() {
 #endif // USE_CONFIGURABLE_TOOLBARS
 
 	floating_control->setInternalWidget(iw);
+	iw->setIconSize(QSize(48,48));
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	// To make work the ESC key (exit fullscreen) and Ctrl-X (close) in Windows and OS2
@@ -821,11 +839,13 @@ void DefaultGui::adjustFloatingControlSize() {
 	qDebug("DefaultGui::adjustFloatingControlSize");
 	//floating_control->adjustSize();
 	QWidget *iw = floating_control->internalWidget();
-	QSize iws = iw->size();
-	QMargins m = floating_control->contentsMargins();
-	int new_height = iws.height() + m.top() + m.bottom();
-	if (new_height < 32) new_height = 32;
-	floating_control->resize(floating_control->width(), new_height);
+	if (iw) {
+		QSize iws = iw->size();
+		QMargins m = floating_control->contentsMargins();
+		int new_height = iws.height() + m.top() + m.bottom();
+		if (new_height < 32) new_height = 32;
+		floating_control->resize(floating_control->width(), new_height);
+	}
 }
 
 void DefaultGui::saveConfig() {
