@@ -2028,6 +2028,7 @@ void BaseGui::retranslateStrings() {
 	// Menu Audio
 	audiotrack_menu->menuAction()->setText( tr("&Track", "audio") );
 	audiotrack_menu->menuAction()->setIcon( Images::icon("audio_track") );
+	audiotrack_menu->menuAction()->setToolTip(tr("Select audio track"));
 
 	audiofilter_menu->menuAction()->setText( tr("&Filters") );
 	audiofilter_menu->menuAction()->setIcon( Images::icon("audio_filters") );
@@ -2058,10 +2059,12 @@ void BaseGui::retranslateStrings() {
 	subtitles_track_menu->menuAction()->setText( tr("&Select") );
 #endif
 	subtitles_track_menu->menuAction()->setIcon( Images::icon("sub") );
+	subtitles_track_menu->menuAction()->setToolTip(tr("Select subtitle track"));
 
 #ifdef MPV_SUPPORT
 	secondary_subtitles_track_menu->menuAction()->setText( tr("Secondary trac&k") );
 	secondary_subtitles_track_menu->menuAction()->setIcon( Images::icon("secondary_sub") );
+	secondary_subtitles_track_menu->menuAction()->setToolTip(tr("Select secondary subtitle track"));
 #endif
 
 	closed_captions_menu->menuAction()->setText( tr("&Closed captions") );
