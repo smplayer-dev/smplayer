@@ -176,7 +176,9 @@ void ShareWidget::setVisible(bool visible) {
 					// User already clicked all buttons
 					v = false;
 				} else {
-					if ((qrand() % 10) != 1) v = false;
+					int r = (qrand() % 10);
+					//qDebug("ShareWidget::setVisible: r: %d", r);
+					if (r != 1) v = false;
 				}
 			}
 		}
