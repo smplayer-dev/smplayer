@@ -34,7 +34,7 @@ build-stamp: configure-stamp
 	dh_testdir
 
 	# Add here commands to compile the package.
-	$(MAKE) PREFIX=/usr QMAKE=qmake-qt4 LRELEASE=lrelease-qt4 \
+	$(MAKE) PREFIX=/usr QMAKE=qmake LRELEASE=lrelease \
             DOC_PATH="\\\"/usr/share/doc/smplayer\\\"" \
             QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
 
