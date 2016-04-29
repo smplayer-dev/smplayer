@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -267,7 +265,7 @@ Seguro que desexas sobrescribilo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Pechar</translation>
+        <translation>&amp;Pechar</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -1191,7 +1189,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Seleccionar a pista de son</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1221,7 +1219,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar a pista dos subtítulos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1231,7 +1229,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar a pista secundaria dos subtítulos</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -2837,10 +2835,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2938,7 +2933,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -9053,19 +9048,13 @@ Desexas sobrescribilo?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9758,7 +9747,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Pechar</translation>
+        <translation>&amp;Pechar</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>

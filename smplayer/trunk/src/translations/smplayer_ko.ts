@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -267,7 +265,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">닫기</translation>
+        <translation>닫기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -1191,7 +1189,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 트랙 선택하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1221,7 +1219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>자막 트랙 선택하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1231,7 +1229,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>두번째 자막 트랙 선택하기</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -2837,9 +2835,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 자막을 추출했습니다</numerusform>
-        </translation>
+        <translation><numerusform>%n 자막을 추출했습니다</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2937,7 +2933,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>다운로드한 파일을 폴더에 저장할 수 없습니다.
@@ -9053,17 +9049,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 초</numerusform>
-        </translation>
+        <translation><numerusform>%n 초</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 분</numerusform>
-        </translation>
+        <translation><numerusform>%n 분</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9756,7 +9748,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">닫기</translation>
+        <translation>닫기(&amp;C)</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
