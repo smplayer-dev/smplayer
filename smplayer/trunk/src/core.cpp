@@ -45,6 +45,7 @@
 
 #ifdef TV_SUPPORT
 #include "tvlist.h"
+#include "tvsettings.h"
 #endif
 
 #ifdef Q_OS_WIN
@@ -55,11 +56,8 @@
 #include "screensaver.h"
 #endif
 
-#ifndef NO_USE_INI_FILES
 #include "filesettings.h"
 #include "filesettingshash.h"
-#include "tvsettings.h"
-#endif
 
 #ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"
@@ -90,15 +88,13 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	dvdnav_title_is_menu = true; // Enabled by default for compatibility with previous versions of mplayer
 #endif
 
-#ifndef NO_USE_INI_FILES
 	// Create file_settings
 	file_settings = 0;
 	changeFileSettingsMethod(pref->file_settings_method);
 
 	// TV settings
-	#ifdef TV_SUPPORT
+#ifdef TV_SUPPORT
 	tv_settings = new TVSettings(Paths::iniPath());
-	#endif
 #endif
 
 	proc = PlayerProcess::createPlayerProcess(pref->mplayer_bin);
@@ -311,19 +307,15 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 
 
 Core::~Core() {
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	if (proc->isRunning()) stopMplayer();
 	proc->terminate();
 	delete proc;
 
-#ifndef NO_USE_INI_FILES
 	delete file_settings;
-	#ifdef TV_SUPPORT
+#ifdef TV_SUPPORT
 	delete tv_settings;
-	#endif
 #endif
 
 #ifdef SCREENSAVER_OFF
@@ -335,7 +327,6 @@ Core::~Core() {
 #endif
 }
 
-#ifndef NO_USE_INI_FILES 
 void Core::changeFileSettingsMethod(QString method) {
 	qDebug("Core::changeFileSettingsMethod: %s", method.toUtf8().constData());
 	if (file_settings) delete file_settings;
@@ -345,7 +336,6 @@ void Core::changeFileSettingsMethod(QString method) {
 	else
 		file_settings = new FileSettings(Paths::iniPath());
 }
-#endif
 
 void Core::setState(State s) {
 	//qDebug() << "Core::setState: old state:" << _state << "new state:" << s;
@@ -384,7 +374,6 @@ void Core::reload() {
 	initPlaying();
 }
 
-#ifndef NO_USE_INI_FILES
 void Core::saveMediaInfo() {
 	qDebug("Core::saveMediaInfo");
 
@@ -434,7 +423,6 @@ void Core::restoreSettingsForMedia(const QString & name, int type) {
 		qDebug("Core::restoreSettingsForMedia: media settings have not read because of preferences setting");
 	}
 }
-#endif // NO_USE_INI_FILES
 
 void Core::initializeMenus() {
 	qDebug("Core::initializeMenus");
@@ -737,9 +725,7 @@ void Core::openVCD(int title) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	mdat.reset();
 	mdat.filename = "vcd://" + QString::number(title);
@@ -765,9 +751,7 @@ void Core::openAudioCD(int title) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	mdat.reset();
 	mdat.filename = "cdda://" + QString::number(title);
@@ -812,9 +796,7 @@ void Core::openDVD(QString dvd_url) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	mdat.reset();
 	mdat.filename = dvd_url;
@@ -860,9 +842,7 @@ void Core::openBluRay(QString bluray_url) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	mdat.reset();
 	mdat.filename = bluray_url;
@@ -889,9 +869,7 @@ void Core::openTV(QString channel_id) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	// Use last channel if the name is just "dvb://" or "tv://"
 	if ((channel_id == "dvb://") && (!pref->last_dvb_channel.isEmpty())) {
@@ -916,7 +894,6 @@ void Core::openTV(QString channel_id) {
 	// Set the default deinterlacer for TV
 	mset.current_deinterlacer = pref->initial_tv_deinterlace;
 
-#ifndef NO_USE_INI_FILES
 	if (!pref->dont_remember_media_settings) {
 		// Check if we already have info about this file
 		if (tv_settings->existSettingsFor(channel_id, mdat.type)) {
@@ -927,7 +904,6 @@ void Core::openTV(QString channel_id) {
 			qDebug("Core::openTV: media settings read");
 		}
 	}
-#endif
 
 	/* initializeMenus(); */
 
@@ -964,9 +940,7 @@ void Core::openStream(QString name) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	mdat.reset();
 	mdat.filename = name;
@@ -974,7 +948,6 @@ void Core::openStream(QString name) {
 
 	mset.reset();
 
-#ifndef NO_USE_INI_FILES
 	#ifdef YOUTUBE_SUPPORT
 	if (PREF_YT_ENABLED) {
 		if (mdat.filename == yt->latestPreferredUrl()) name = yt->origUrl();
@@ -985,7 +958,6 @@ void Core::openStream(QString name) {
 		qDebug("Core::openStream: we have settings for this stream");
 		restoreSettingsForMedia(name, mdat.type);
 	}
-#endif
 
 	/* initializeMenus(); */
 
@@ -1002,9 +974,7 @@ void Core::playNewFile(QString file, int seek) {
 	}
 
 	// Save data of previous file:
-#ifndef NO_USE_INI_FILES
 	saveMediaInfo();
-#endif
 
 	mdat.reset();
 	mdat.filename = file;
@@ -1013,7 +983,6 @@ void Core::playNewFile(QString file, int seek) {
 	int old_volume = mset.volume;
 	mset.reset();
 
-#ifndef NO_USE_INI_FILES
 	// Check if we already have info about this file
 	if (file_settings->existSettingsFor(file, mdat.type)) {
 		qDebug("Core::playNewFile: we have settings for this file");
@@ -1022,10 +991,6 @@ void Core::playNewFile(QString file, int seek) {
 		// Recover volume
 		mset.volume = old_volume;
 	}
-#else
-	// Recover volume
-	mset.volume = old_volume;
-#endif // NO_USE_INI_FILES
 
 	/* initializeMenus(); */
 

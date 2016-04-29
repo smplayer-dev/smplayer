@@ -27,9 +27,7 @@
 
 #include "config.h"
 
-#ifndef NO_USE_INI_FILES
 class FileSettingsBase;
-#endif
 
 class PlayerProcess;
 class MplayerWindow;
@@ -369,9 +367,7 @@ public:
 	int firstDVDTitle();
 	int firstBlurayTitle();
 
-#ifndef NO_USE_INI_FILES
 	void changeFileSettingsMethod(QString method);
-#endif
 
 protected:
 	//! Returns the prefix to keep pausing on slave commands
@@ -460,12 +456,10 @@ protected:
     void startMplayer(QString file, double seek = -1 );
 	void stopMplayer();
 
-#ifndef NO_USE_INI_FILES
 	void saveMediaInfo();
 	void restoreSettingsForMedia(const QString & name, int type);
-#endif
 
-    void initializeMenus();
+	void initializeMenus();
 	void updateWidgets();
 
 	//! Returns true if changing the subscale requires to restart mplayer
@@ -532,11 +526,9 @@ protected:
 	PlayerProcess * proc;
 	MplayerWindow * mplayerwindow;
 
-#ifndef NO_USE_INI_FILES
 	FileSettingsBase * file_settings;
-	#ifdef TV_SUPPORT
+#ifdef TV_SUPPORT
 	FileSettingsBase * tv_settings;
-	#endif
 #endif
 
 #ifdef SCREENSAVER_OFF
