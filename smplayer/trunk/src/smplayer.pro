@@ -140,7 +140,6 @@ HEADERS += guiconfig.h \
 	filesettings.h \
 	filesettingshash.h \
 	filehash.h \
-	tvsettings.h \
 	images.h \
 	inforeader.h \
 	deviceinfo.h \
@@ -237,7 +236,6 @@ SOURCES	+= version.cpp \
 	filesettings.cpp \
 	filesettingshash.cpp \
 	filehash.cpp \
-	tvsettings.cpp \
 	images.cpp \
 	inforeader.cpp \
 	deviceinfo.cpp \
@@ -315,8 +313,8 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         toolbareditor.ui multilineinputdialog.ui
 
 contains( DEFINES, TV_SUPPORT ) {
-	HEADERS += tvlist.h preftv.h
-	SOURCES += tvlist.cpp preftv.cpp
+	HEADERS += tvlist.h preftv.h tvsettings.h
+	SOURCES += tvlist.cpp preftv.cpp tvsettings.cpp
 	FORMS += preftv.ui
 }
 

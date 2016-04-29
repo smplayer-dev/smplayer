@@ -89,7 +89,11 @@
 #include "config.h"
 #include "actionseditor.h"
 
+#ifdef TV_SUPPORT
 #include "tvlist.h"
+#else
+#include "favorites.h"
+#endif
 
 #include "preferencesdialog.h"
 #include "prefgeneral.h"
