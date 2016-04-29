@@ -535,7 +535,7 @@
         </spacer>
        </item>
        <item row="6" column="0">
-        <widget class="QLabel" name="label_14">
+        <widget class="QLabel" name="cachetv_label">
          <property name="text">
           <string>Cache for &amp;TV:</string>
          </property>
@@ -552,7 +552,7 @@
         </widget>
        </item>
        <item row="6" column="2">
-        <widget class="QLabel" name="label_15">
+        <widget class="QLabel" name="cachetv_label2">
          <property name="text">
           <string>KB</string>
          </property>

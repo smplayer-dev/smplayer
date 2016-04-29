@@ -346,8 +346,11 @@ BaseGui::~BaseGui() {
 #endif
 
 	delete favorites;
+
+#ifdef TV_SUPPORT
 	delete tvlist;
 	delete radiolist;
+#endif
 
 //#if !DOCK_PLAYLIST
 	if (playlist) {
@@ -433,6 +436,7 @@ void BaseGui::createActions() {
             favorites, SLOT(getCurrentMedia(const QString &, const QString &)));
 
 	// TV and Radio
+#ifdef TV_SUPPORT
 	tvlist = new TVList(pref->check_channels_conf_on_startup, 
                         TVList::TV, Paths::configPath() + "/tv.m3u8", this);
 	tvlist->menuAction()->setObjectName( "tv_menu" );
@@ -466,6 +470,7 @@ void BaseGui::createActions() {
 	connect(radiolist, SIGNAL(activated(QString)), this, SLOT(open(QString)));
 	connect(core, SIGNAL(mediaPlaying(const QString &, const QString &)),
             radiolist, SLOT(getCurrentMedia(const QString &, const QString &)));
+#endif
 
 
 	// Menu Play
@@ -1929,11 +1934,13 @@ void BaseGui::retranslateStrings() {
 	favorites->menuAction()->setText( tr("F&avorites") );
 	favorites->menuAction()->setIcon( Images::icon("open_favorites") ); 
 
+#ifdef TV_SUPPORT
 	tvlist->menuAction()->setText( tr("&TV") );
 	tvlist->menuAction()->setIcon( Images::icon("open_tv") );
 
 	radiolist->menuAction()->setText( tr("Radi&o") );
 	radiolist->menuAction()->setIcon( Images::icon("open_radio") );
+#endif
 
 	// Menu Play
 	speed_menu->menuAction()->setText( tr("Sp&eed") );
@@ -2740,10 +2747,12 @@ void BaseGui::populateMainMenu() {
 		openMenu->addMenu(disc_menu);
 	}
 	openMenu->addAction(openURLAct);
+#ifdef TV_SUPPORT
 	if (!pref->tablet_mode) {
 		openMenu->addMenu(tvlist);
 		openMenu->addMenu(radiolist);
 	}
+#endif
 	openMenu->addSeparator();
 	openMenu->addAction(exitAct);
 

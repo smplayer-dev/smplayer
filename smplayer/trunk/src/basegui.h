@@ -850,8 +850,10 @@ protected:
 
 	Favorites * favorites;
 
+#ifdef TV_SUPPORT
 	TVList * tvlist;
 	TVList * radiolist;
+#endif
 
 #ifdef UPDATE_CHECKER
 	UpdateChecker * update_checker;

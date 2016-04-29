@@ -216,7 +216,9 @@ public:
 	int cache_for_dvds;
 	int cache_for_vcds;
 	int cache_for_audiocds;
+#ifdef TV_SUPPORT
 	int cache_for_tv;
+#endif
 
 
 	/* *********
@@ -452,11 +454,12 @@ public:
     /* ********
        TV (dvb)
        ******** */
-
+#ifdef TV_SUPPORT
 	bool check_channels_conf_on_startup;
 	int initial_tv_deinterlace;
 	QString last_dvb_channel;
 	QString last_tv_channel;
+#endif
 
 
     /* ********

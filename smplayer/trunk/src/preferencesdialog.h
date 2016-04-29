@@ -102,7 +102,9 @@ protected:
 	PrefInterface * page_interface;
 	PrefInput * page_input;
 	PrefPlaylist * page_playlist;
+#ifdef TV_SUPPORT
 	PrefTV * page_tv;
+#endif
 	PrefUpdates * page_updates;
 	PrefNetwork * page_network;
 	PrefAdvanced * page_advanced;

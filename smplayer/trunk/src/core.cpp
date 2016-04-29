@@ -42,7 +42,10 @@
 #include "colorutils.h"
 #include "discname.h"
 #include "filters.h"
+
+#ifdef TV_SUPPORT
 #include "tvlist.h"
+#endif
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -93,7 +96,9 @@ Core::Core( MplayerWindow *mpw, QWidget* parent )
 	changeFileSettingsMethod(pref->file_settings_method);
 
 	// TV settings
+	#ifdef TV_SUPPORT
 	tv_settings = new TVSettings(Paths::iniPath());
+	#endif
 #endif
 
 	proc = PlayerProcess::createPlayerProcess(pref->mplayer_bin);
@@ -316,7 +321,9 @@ Core::~Core() {
 
 #ifndef NO_USE_INI_FILES
 	delete file_settings;
+	#ifdef TV_SUPPORT
 	delete tv_settings;
+	#endif
 #endif
 
 #ifdef SCREENSAVER_OFF
@@ -389,10 +396,12 @@ void Core::saveMediaInfo() {
 	if ( (mdat.type == TYPE_FILE || mdat.type == TYPE_STREAM) && (!mdat.filename.isEmpty()) ) {
 		file_settings->saveSettingsFor(mdat.filename, mdat.type, mset, proc->player());
 	}
+#ifdef TV_SUPPORT
 	else
 	if ( (mdat.type == TYPE_TV) && (!mdat.filename.isEmpty()) ) {
 		tv_settings->saveSettingsFor(mdat.filename, mdat.type, mset, proc->player());
 	}
+#endif
 }
 
 void Core::restoreSettingsForMedia(const QString & name, int type) {
@@ -549,11 +558,13 @@ void Core::open(QString file, int seek) {
 			openAudioCD();
 		}
 	}
+#ifdef TV_SUPPORT
 	else
 	if ((file.toLower().startsWith("dvb:")) || (file.toLower().startsWith("tv:"))) {
 		qDebug("Core::open: * identified as TV");
 		openTV(file);
 	}
+#endif
 	else {
 		qDebug("Core::open: * not identified, playing as stream");
 		openStream(file);
@@ -868,6 +879,7 @@ void Core::openBluRay(QString bluray_url) {
 }
 #endif
 
+#ifdef TV_SUPPORT
 void Core::openTV(QString channel_id) {
 	qDebug("Core::openTV: '%s'", channel_id.toUtf8().constData());
 
@@ -921,6 +933,7 @@ void Core::openTV(QString channel_id) {
 
 	initPlaying();
 }
+#endif
 
 void Core::openStream(QString name) {
 	qDebug("Core::openStream: '%s'", name.toUtf8().data());
@@ -2088,7 +2101,9 @@ void Core::startMplayer( QString file, double seek ) {
 		case TYPE_STREAM 	: cache = pref->cache_for_streams; break;
 		case TYPE_VCD 		: cache = pref->cache_for_vcds; break;
 		case TYPE_AUDIO_CD	: cache = pref->cache_for_audiocds; break;
+#ifdef TV_SUPPORT
 		case TYPE_TV		: cache = pref->cache_for_tv; break;
+#endif
 #ifdef BLURAY_SUPPORT
 		case TYPE_BLURAY	: cache = pref->cache_for_dvds; break; // FIXME: use cache for bluray?
 #endif
@@ -2391,7 +2406,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-#ifndef Q_OS_WIN
+#if defined(TV_SUPPORT) && !defined(Q_OS_WIN)
 	if (proc->isMPV() && file.startsWith("dvb:")) {
 		QString channels_file = TVList::findChannelsFile();
 		qDebug("Core::startMplayer: channels_file: %s", channels_file.toUtf8().constData());

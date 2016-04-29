@@ -58,6 +58,12 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	fast_audio_combo->hide();
 #endif
 
+#ifndef TV_SUPPORT
+	cachetv_label->hide();
+	cache_tv_spin->hide();
+	cachetv_label2->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -97,7 +103,9 @@ void PrefPerformance::setData(Preferences * pref) {
 	setCacheForDVDs( pref->cache_for_dvds );
 	setCacheForAudioCDs( pref->cache_for_audiocds );
 	setCacheForVCDs( pref->cache_for_vcds );
+#ifdef TV_SUPPORT
 	setCacheForTV( pref->cache_for_tv );
+#endif
 
 	setPriority( pref->priority );
 	setFrameDrop( pref->frame_drop );
@@ -122,7 +130,9 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->cache_for_dvds, cacheForDVDs());
 	TEST_AND_SET(pref->cache_for_audiocds, cacheForAudioCDs());
 	TEST_AND_SET(pref->cache_for_vcds, cacheForVCDs());
+#ifdef TV_SUPPORT
 	TEST_AND_SET(pref->cache_for_tv, cacheForTV());
+#endif
 
 	TEST_AND_SET(pref->priority, priority());
 	TEST_AND_SET(pref->frame_drop, frameDrop());
@@ -179,6 +189,7 @@ int PrefPerformance::cacheForVCDs() {
 	return cache_vcds_spin->value();
 }
 
+#ifdef TV_SUPPORT
 void PrefPerformance::setCacheForTV(int n) {
 	cache_tv_spin->setValue(n);
 }
@@ -186,6 +197,7 @@ void PrefPerformance::setCacheForTV(int n) {
 int PrefPerformance::cacheForTV() {
 	return cache_tv_spin->value();
 }
+#endif
 
 void PrefPerformance::setPriority(int n) {
 	priority_combo->setCurrentIndex(n);

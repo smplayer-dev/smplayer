@@ -15,6 +15,7 @@ DEFINES += FIND_SUBTITLES
 DEFINES += VIDEOPREVIEW
 DEFINES += YOUTUBE_SUPPORT
 DEFINES += BLURAY_SUPPORT
+DEFINES += TV_SUPPORT
 DEFINES += GUI_CHANGE_ON_RUNTIME
 DEFINES += LOG_MPLAYER
 DEFINES += LOG_SMPLAYER
@@ -171,7 +172,6 @@ HEADERS += guiconfig.h \
 	prefsubtitles.h \
 	prefadvanced.h \
 	prefplaylist.h \
-	preftv.h \
 	prefupdates.h \
 	prefnetwork.h \
 	filepropertiesdialog.h \
@@ -195,7 +195,6 @@ HEADERS += guiconfig.h \
 	errordialog.h \
 	timedialog.h \
 	favorites.h \
-	tvlist.h \
 	favoriteeditor.h \
 	statewidget.h \
 	basegui.h \
@@ -270,7 +269,6 @@ SOURCES	+= version.cpp \
 	prefsubtitles.cpp \
 	prefadvanced.cpp \
 	prefplaylist.cpp \
-	preftv.cpp \
 	prefupdates.cpp \
 	prefnetwork.cpp \
 	filepropertiesdialog.cpp \
@@ -294,7 +292,6 @@ SOURCES	+= version.cpp \
 	errordialog.cpp \
 	timedialog.cpp \
 	favorites.cpp \
-	tvlist.cpp \
 	favoriteeditor.cpp \
 	statewidget.cpp \
 	basegui.cpp \
@@ -313,9 +310,15 @@ FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui videoequalizer.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
-        prefplaylist.ui preftv.ui prefupdates.ui prefnetwork.ui favoriteeditor.ui \
+        prefplaylist.ui prefupdates.ui prefnetwork.ui favoriteeditor.ui \
         about.ui inputmplayerversion.ui errordialog.ui timedialog.ui stereo3ddialog.ui \
         toolbareditor.ui multilineinputdialog.ui
+
+contains( DEFINES, TV_SUPPORT ) {
+	HEADERS += tvlist.h preftv.h
+	SOURCES += tvlist.cpp preftv.cpp
+	FORMS += preftv.ui
+}
 
 contains( DEFINES, MPV_SUPPORT ) {
 	HEADERS += mpvprocess.h inforeadermpv.h

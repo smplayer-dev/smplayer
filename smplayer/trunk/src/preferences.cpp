@@ -235,7 +235,9 @@ void Preferences::reset() {
 	cache_for_dvds = 0; // not recommended to use cache for dvds
 	cache_for_vcds = 1024;
 	cache_for_audiocds = 1024;
+#ifdef TV_SUPPORT
 	cache_for_tv = 3000;
+#endif
 
 
     /* *********
@@ -455,11 +457,12 @@ void Preferences::reset() {
     /* ********
        TV (dvb)
        ******** */
-
+#ifdef TV_SUPPORT
 	check_channels_conf_on_startup = true;
 	initial_tv_deinterlace = MediaSettings::Yadif_1;
 	last_dvb_channel = "";
 	last_tv_channel = "";
+#endif
 
 
     /* ********
@@ -744,7 +747,9 @@ void Preferences::save() {
 	set->setValue("cache_for_dvds", cache_for_dvds);
 	set->setValue("cache_for_vcds", cache_for_vcds);
 	set->setValue("cache_for_audiocds", cache_for_audiocds);
+#ifdef TV_SUPPORT
 	set->setValue("cache_for_tv", cache_for_tv);
+#endif
 
 	set->endGroup(); // performance
 
@@ -957,13 +962,14 @@ void Preferences::save() {
     /* ********
        TV (dvb)
        ******** */
-
+#ifdef TV_SUPPORT
 	set->beginGroup( "tv");
 	set->setValue("check_channels_conf_on_startup", check_channels_conf_on_startup);
 	set->setValue("initial_tv_deinterlace", initial_tv_deinterlace);
 	set->setValue("last_dvb_channel", last_dvb_channel);
 	set->setValue("last_tv_channel", last_tv_channel);
 	set->endGroup(); // tv
+#endif
 
 
     /* ********
@@ -1285,7 +1291,9 @@ void Preferences::load() {
 	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
 	cache_for_vcds = set->value("cache_for_vcds", cache_for_vcds).toInt();
 	cache_for_audiocds = set->value("cache_for_audiocds", cache_for_audiocds).toInt();
+#ifdef TV_SUPPORT
 	cache_for_tv = set->value("cache_for_tv", cache_for_tv).toInt();
+#endif
 
 	set->endGroup(); // performance
 
@@ -1505,13 +1513,14 @@ void Preferences::load() {
     /* ********
        TV (dvb)
        ******** */
-
+#ifdef TV_SUPPORT
 	set->beginGroup( "tv");
 	check_channels_conf_on_startup = set->value("check_channels_conf_on_startup", check_channels_conf_on_startup).toBool();
 	initial_tv_deinterlace = set->value("initial_tv_deinterlace", initial_tv_deinterlace).toInt();
 	last_dvb_channel = set->value("last_dvb_channel", last_dvb_channel).toString();
 	last_tv_channel = set->value("last_tv_channel", last_tv_channel).toString();
 	set->endGroup(); // tv
+#endif
 
 
     /* ********
