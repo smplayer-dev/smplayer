@@ -265,7 +265,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>Fe&amp;char</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -1189,7 +1189,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Selecionar faixa de áudio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1219,7 +1219,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Selecionar faixa de legenda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1229,7 +1229,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Selecionar faixa de legenda secundária</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -9747,7 +9747,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>Fe&amp;char</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>

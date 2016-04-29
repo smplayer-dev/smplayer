@@ -265,7 +265,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Закрити</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -938,7 +938,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>Оновити код &amp;YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2149"/>
@@ -2024,7 +2024,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Розмір: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="737"/>
@@ -5144,7 +5144,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"/>
+        <translation>Фільтри &amp;звуку:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -9747,7 +9747,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Закрити</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
