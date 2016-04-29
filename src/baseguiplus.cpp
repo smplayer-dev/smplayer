@@ -23,10 +23,10 @@
 #include "images.h"
 #include "playlist.h"
 
-#ifdef Q_OS_WIN
-#include "favorites.h"
-#else
+#ifdef TV_SUPPORT
 #include "tvlist.h"
+#else
+#include "favorites.h"
 #endif
 
 #include "widgetactions.h"

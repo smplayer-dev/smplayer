@@ -43,11 +43,6 @@
 #include "discname.h"
 #include "filters.h"
 
-#ifdef TV_SUPPORT
-#include "tvlist.h"
-#include "tvsettings.h"
-#endif
-
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
 #include <QSysInfo> // To get Windows version
@@ -58,6 +53,11 @@
 
 #include "filesettings.h"
 #include "filesettingshash.h"
+
+#ifdef TV_SUPPORT
+#include "tvlist.h"
+#include "tvsettings.h"
+#endif
 
 #ifdef YOUTUBE_SUPPORT
 #include "retrieveyoutubeurl.h"

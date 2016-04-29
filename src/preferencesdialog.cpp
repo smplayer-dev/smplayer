@@ -28,9 +28,12 @@
 #include "prefsubtitles.h"
 #include "prefadvanced.h"
 #include "prefplaylist.h"
-#include "preftv.h"
 #include "prefupdates.h"
 #include "prefnetwork.h"
+
+#ifdef TV_SUPPORT
+#include "preftv.h"
+#endif
 
 #if USE_ASSOCIATIONS
 #include "prefassociations.h"
