@@ -104,7 +104,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	context_menu->addAction(openDVDAct);
 	context_menu->addAction(openURLAct);
 	context_menu->addMenu(favorites);
-#ifndef Q_OS_WIN
+#if defined(TV_SUPPORT) && !defined(Q_OS_WIN)
 	context_menu->addMenu(tvlist);
 	context_menu->addMenu(radiolist);
 #endif

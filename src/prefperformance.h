@@ -60,8 +60,10 @@ protected:
 	void setCacheForVCDs(int n);
 	int cacheForVCDs();
 
+#ifdef TV_SUPPORT
 	void setCacheForTV(int n);
 	int cacheForTV();
+#endif
 
 	void setPriority(int n);
 	int priority();

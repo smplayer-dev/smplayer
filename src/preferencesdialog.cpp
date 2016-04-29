@@ -96,8 +96,10 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	page_playlist = new PrefPlaylist;
 	addSection( page_playlist );
 
+#ifdef TV_SUPPORT
 	page_tv = new PrefTV;
 	addSection( page_tv );
+#endif
 
 #if USE_ASSOCIATIONS
 	page_associations = new PrefAssociations;
@@ -190,7 +192,9 @@ void PreferencesDialog::setData(Preferences * pref) {
 	page_subtitles->setData(pref);
 	page_advanced->setData(pref);
 	page_playlist->setData(pref);
+#ifdef TV_SUPPORT
 	page_tv->setData(pref);
+#endif
 	page_updates->setData(pref);
 	page_network->setData(pref);
 
@@ -208,7 +212,9 @@ void PreferencesDialog::getData(Preferences * pref) {
 	page_subtitles->getData(pref);
 	page_advanced->getData(pref);
 	page_playlist->getData(pref);
+#ifdef TV_SUPPORT
 	page_tv->getData(pref);
+#endif
 	page_updates->getData(pref);
 	page_network->getData(pref);
 
@@ -226,7 +232,9 @@ bool PreferencesDialog::requiresRestart() {
 	if (!need_restart) need_restart = page_subtitles->requiresRestart();
 	if (!need_restart) need_restart = page_advanced->requiresRestart();
 	if (!need_restart) need_restart = page_playlist->requiresRestart();
+#ifdef TV_SUPPORT
 	if (!need_restart) need_restart = page_tv->requiresRestart();
+#endif
 	if (!need_restart) need_restart = page_updates->requiresRestart();
 	if (!need_restart) need_restart = page_network->requiresRestart();
 

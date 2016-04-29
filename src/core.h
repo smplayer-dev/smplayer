@@ -86,7 +86,9 @@ public slots:
 #endif
 	void openVCD(int title = -1);
 	void openAudioCD(int title = -1);
+#ifdef TV_SUPPORT
 	void openTV(QString channel_id);
+#endif
 
 #ifdef YOUTUBE_SUPPORT
 	void openYT(const QString & url);
@@ -532,7 +534,9 @@ protected:
 
 #ifndef NO_USE_INI_FILES
 	FileSettingsBase * file_settings;
+	#ifdef TV_SUPPORT
 	FileSettingsBase * tv_settings;
+	#endif
 #endif
 
 #ifdef SCREENSAVER_OFF
