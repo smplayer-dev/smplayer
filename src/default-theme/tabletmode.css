@@ -1,9 +1,25 @@
 /* This stylesheet will be added to the style's stylesheet in tablet mode */
 
 QWidget {
-	font-size: 14pt;
+	font-size: 12pt;
 }
 
 QMenu {
 	menu-scrollable: 1;
+}
+
+.QPushButton {
+	border: 0px;
+	background-color: white;
+	margin: 2px;
+	padding: 10px;
+}
+
+QGroupBox {
+	border: 0px;
+	padding-top: 18px;
+	padding-bottom: 2px;
+	color: darkblue;
+	font: bold;
+	margin: 2px;
 }
