@@ -93,7 +93,7 @@ void GlobalShortcuts::activateShortcut(Qt::Key key) {
 			foreach(QKeySequence s, shortcuts) {
 				bool match = (s == ks);
 				//qDebug() << "GlobalShortcuts::activateShortcut: action:" << action << "shortcut:" << s << "match:" << match;
-				if (match) {
+				if (match && action->isEnabled()) {
 					if (action->isCheckable()) action->toggle(); else action->trigger();
 					return;
 				}
