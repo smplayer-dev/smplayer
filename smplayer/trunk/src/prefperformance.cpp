@@ -44,7 +44,6 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	hwdec_combo->addItem("dxva2-copy", "dxva2-copy");
 	#endif
 
-	// Priority is only for windows, so we disable for other systems
 #ifndef Q_OS_WIN
 	priority_group->hide();
 #endif
@@ -107,7 +106,9 @@ void PrefPerformance::setData(Preferences * pref) {
 	setCacheForTV( pref->cache_for_tv );
 #endif
 
+#ifdef Q_OS_WIN
 	setPriority( pref->priority );
+#endif
 	setFrameDrop( pref->frame_drop );
 	setHardFrameDrop( pref->hard_frame_drop );
 	setCoreavcUsage( pref->coreavc );
@@ -134,7 +135,9 @@ void PrefPerformance::getData(Preferences * pref) {
 	TEST_AND_SET(pref->cache_for_tv, cacheForTV());
 #endif
 
+#ifdef Q_OS_WIN
 	TEST_AND_SET(pref->priority, priority());
+#endif
 	TEST_AND_SET(pref->frame_drop, frameDrop());
 	TEST_AND_SET(pref->hard_frame_drop, hardFrameDrop());
 	TEST_AND_SET(pref->coreavc, coreavcUsage())
@@ -199,6 +202,7 @@ int PrefPerformance::cacheForTV() {
 }
 #endif
 
+#ifdef Q_OS_WIN
 void PrefPerformance::setPriority(int n) {
 	priority_combo->setCurrentIndex(n);
 }
@@ -206,6 +210,7 @@ void PrefPerformance::setPriority(int n) {
 int PrefPerformance::priority() {
 	return priority_combo->currentIndex();
 }
+#endif
 
 void PrefPerformance::setFrameDrop(bool b) {
 	framedrop_check->setChecked(b);

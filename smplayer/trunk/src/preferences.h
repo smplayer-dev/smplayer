@@ -191,7 +191,9 @@ public:
        Performance
        *********** */
 
+#ifdef Q_OS_WIN
 	int priority;
+#endif
 	bool frame_drop;
 	bool hard_frame_drop;
 	bool coreavc;

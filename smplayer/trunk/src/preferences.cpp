@@ -207,7 +207,9 @@ void Preferences::reset() {
        Performance
        *********** */
 
-	priority = Normal; // Option only for windows
+#ifdef Q_OS_WIN
+	priority = Normal;
+#endif
 	frame_drop = false;
 	hard_frame_drop = false;
 	coreavc = false;
@@ -719,7 +721,9 @@ void Preferences::save() {
 
 	set->beginGroup( "performance");
 
+#ifdef Q_OS_WIN
 	set->setValue("priority", priority);
+#endif
 	set->setValue("frame_drop", frame_drop);
 	set->setValue("hard_frame_drop", hard_frame_drop);
 	set->setValue("coreavc", coreavc);
@@ -1263,7 +1267,9 @@ void Preferences::load() {
 
 	set->beginGroup( "performance");
 
+#ifdef Q_OS_WIN
 	priority = set->value("priority", priority).toInt();
+#endif
 	frame_drop = set->value("frame_drop", frame_drop).toBool();
 	hard_frame_drop = set->value("hard_frame_drop", hard_frame_drop).toBool();
 	coreavc = set->value("coreavc", coreavc).toBool();
