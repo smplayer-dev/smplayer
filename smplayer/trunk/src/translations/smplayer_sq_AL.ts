@@ -24,7 +24,7 @@
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer eshte nje GUI per %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
@@ -265,7 +265,7 @@ Deshironi ta mbishkruani?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Mbyll</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -1315,7 +1315,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5818"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"/>
+        <translation>%1 dështoi të niset.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5819"/>
@@ -2076,7 +2076,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished"/>
+        <translation>Emri</translation>
     </message>
 </context>
 <context>
@@ -3147,13 +3147,13 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="226"/>
         <location filename="../infofile.cpp" line="234"/>
         <source>Language: %1</source>
-        <translation type="unfinished"/>
+        <translation>Gjuha: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="227"/>
         <location filename="../infofile.cpp" line="235"/>
         <source>Name: %1</source>
-        <translation type="unfinished"/>
+        <translation>Emri: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="228"/>
@@ -7559,7 +7559,7 @@ Deshironi ta mbishkruani?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"/>
+        <translation>Youtube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
