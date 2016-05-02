@@ -107,6 +107,13 @@ contains(QT_VERSION, ^4\\.[0-3]\\..*) {
 	}
 }
 
+contains( DEFINES, GLOBALSHORTCUTS ) {
+	lessThan(QT_MAJOR_VERSION, 5) {
+		DEFINES -= GLOBALSHORTCUTS
+		message("GLOBALSHORTCUTS requires Qt 5. Disabled.")
+	}
+}
+
 HEADERS += guiconfig.h \
 	config.h \
 	constants.h \
