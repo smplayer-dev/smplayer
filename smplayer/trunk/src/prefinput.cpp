@@ -27,6 +27,10 @@ PrefInput::PrefInput(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 
+#ifndef GLOBALSHORTCUTS
+	globalshortcuts_check->hide();
+#endif
+
 	retranslateStrings();
 }
 
