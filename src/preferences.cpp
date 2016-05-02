@@ -207,7 +207,7 @@ void Preferences::reset() {
        Performance
        *********** */
 
-	priority = AboveNormal; // Option only for windows
+	priority = Normal; // Option only for windows
 	frame_drop = false;
 	hard_frame_drop = false;
 	coreavc = false;
