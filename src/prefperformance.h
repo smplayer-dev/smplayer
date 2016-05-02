@@ -65,8 +65,10 @@ protected:
 	int cacheForTV();
 #endif
 
+#ifdef Q_OS_WIN
 	void setPriority(int n);
 	int priority();
+#endif
 
 	void setFrameDrop(bool b);
 	bool frameDrop();
