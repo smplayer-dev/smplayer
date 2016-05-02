@@ -46,6 +46,11 @@ public:
 	// Pass action's list to dialog
 	/* void setActionsList(QStringList l); */
 
+#ifdef GLOBALSHORTCUTS
+	void setUseGlobalShortcuts(bool);
+	bool useGlobalShortcuts();
+#endif
+
 protected:
 	virtual void createHelp();
 

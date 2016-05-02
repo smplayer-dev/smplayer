@@ -186,6 +186,10 @@ void PrefInput::setData(Preferences * pref) {
 	delay_left_check->setChecked(pref->delay_left_click);
 
 	setDragFunction(pref->drag_function);
+
+#ifdef GLOBALSHORTCUTS
+	setUseGlobalShortcuts(pref->use_global_shortcuts);
+#endif
 }
 
 void PrefInput::getData(Preferences * pref) {
@@ -203,6 +207,10 @@ void PrefInput::getData(Preferences * pref) {
 	pref->delay_left_click = delay_left_check->isChecked();
 
 	pref->drag_function = dragFunction();
+
+#ifdef GLOBALSHORTCUTS
+	pref->use_global_shortcuts = useGlobalShortcuts();
+#endif
 }
 
 /*
@@ -328,6 +336,16 @@ int PrefInput::dragFunction() {
 	return drag_function_combo->itemData(drag_function_combo->currentIndex()).toInt();
 }
 
+#ifdef GLOBALSHORTCUTS
+void PrefInput::setUseGlobalShortcuts(bool b) {
+	globalshortcuts_check->setChecked(b);
+}
+
+bool PrefInput::useGlobalShortcuts() {
+	return globalshortcuts_check->isChecked();
+}
+#endif
+
 void PrefInput::createHelp() {
 	clearHelp();
 
@@ -343,6 +361,12 @@ void PrefInput::createHelp() {
            "assign for the action (unfortunately this doesn't work for all "
            "keys). If the <b>Capture</b> button is off "
            "then you could enter the full name of the key.") );
+
+#ifdef GLOBALSHORTCUTS
+	setWhatsThis(globalshortcuts_check, tr("Use the multimedia keys as global shortcuts"),
+		tr("When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) "
+           "will work even when SMPlayer is running in the background."));
+#endif
 
 	addSectionTitle(tr("Mouse"));
 

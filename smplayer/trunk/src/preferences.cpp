@@ -368,6 +368,10 @@ void Preferences::reset() {
 	center_window = false;
 	center_window_if_outside = true;
 
+#ifdef GLOBALSHORTCUTS
+	use_global_shortcuts = false;
+#endif
+
 #if DVDNAV_SUPPORT
 	mouse_left_click_function = "dvdnav_mouse";
 #else
@@ -881,6 +885,10 @@ void Preferences::save() {
 
 	set->setValue("center_window", center_window);
 	set->setValue("center_window_if_outside", center_window_if_outside);
+
+#ifdef GLOBALSHORTCUTS
+	set->setValue("use_global_shortcuts", use_global_shortcuts);
+#endif
 
 	set->setValue("mouse_left_click_function", mouse_left_click_function);
 	set->setValue("mouse_right_click_function", mouse_right_click_function);
@@ -1431,6 +1439,10 @@ void Preferences::load() {
 
 	center_window = set->value("center_window", center_window).toBool();
 	center_window_if_outside = set->value("center_window_if_outside", center_window_if_outside).toBool();
+
+#ifdef GLOBALSHORTCUTS
+	use_global_shortcuts = set->value("use_global_shortcuts", use_global_shortcuts).toBool();
+#endif
 
 	mouse_left_click_function = set->value("mouse_left_click_function", mouse_left_click_function).toString();
 	mouse_right_click_function = set->value("mouse_right_click_function", mouse_right_click_function).toString();

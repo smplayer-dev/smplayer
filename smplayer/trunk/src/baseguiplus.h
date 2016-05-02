@@ -35,6 +35,7 @@ class TimeSliderAction;
 class VolumeSliderAction;
 class TimeLabelAction;
 class LogWindow;
+class GlobalShortcuts;
 
 class BaseGuiPlus : public BaseGui
 {
@@ -110,6 +111,10 @@ protected slots:
 	void showScreensInfo();
 #endif
 
+#ifdef GLOBALSHORTCUTS
+	virtual void applyNewPreferences();
+#endif
+
 protected:
 	QSystemTrayIcon * tray;
 	QMenu * context_menu;
@@ -128,6 +133,10 @@ protected:
 	MyActionGroup * sendToScreenGroup;
 
 	LogWindow * screens_info_window;
+#endif
+
+#ifdef GLOBALSHORTCUTS
+	GlobalShortcuts * global_shortcuts;
 #endif
 
 	// To save state
