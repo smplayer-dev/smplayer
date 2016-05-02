@@ -360,6 +360,10 @@ public:
 	bool center_window; //!< Center the main window when playback starts
 	bool center_window_if_outside; //!< Center the main window after an autoresize if it's outside of the screen
 
+#ifdef GLOBALSHORTCUTS
+	bool use_global_shortcuts;
+#endif
+
 	// Function of mouse buttons:
 	QString mouse_left_click_function;
 	QString mouse_right_click_function;

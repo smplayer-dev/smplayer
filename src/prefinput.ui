@@ -79,6 +79,13 @@
          </property>
         </widget>
        </item>
+       <item>
+        <widget class="QCheckBox" name="globalshortcuts_check">
+         <property name="text">
+          <string>&amp;Use the multimedia keys as global shortcuts</string>
+         </property>
+        </widget>
+       </item>
       </layout>
      </widget>
      <widget class="QWidget" name="tab_2">
@@ -483,6 +490,7 @@
  </customwidgets>
  <tabstops>
   <tabstop>input_tab</tabstop>
+  <tabstop>globalshortcuts_check</tabstop>
   <tabstop>left_click_combo</tabstop>
   <tabstop>double_click_combo</tabstop>
   <tabstop>right_click_combo</tabstop>

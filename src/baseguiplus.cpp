@@ -56,6 +56,12 @@
 #endif
 #endif
 
+#ifdef GLOBALSHORTCUTS
+#include "globalshortcuts/globalshortcuts.h"
+#include "preferencesdialog.h"
+#include "prefinput.h"
+#endif
+
 using namespace Global;
 
 BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
@@ -170,6 +176,11 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 	showScreensInfoAct = new MyAction(this, "screens_info");
 	connect(showScreensInfoAct, SIGNAL(triggered()), this, SLOT(showScreensInfo()));
+#endif
+
+#ifdef GLOBALSHORTCUTS
+	global_shortcuts = new GlobalShortcuts(this);
+	global_shortcuts->setEnabled(pref->use_global_shortcuts);
 #endif
 
 	retranslateStrings();
@@ -638,6 +649,15 @@ void BaseGuiPlus::shrinkWindow() {
 }
 
 #endif
+
+#ifdef GLOBALSHORTCUTS
+void BaseGuiPlus::applyNewPreferences() {
+	qDebug("BaseGuiPlus::applyNewPreferences");
+	global_shortcuts->setEnabled(pref_dialog->mod_input()->useGlobalShortcuts());
+	BaseGui::applyNewPreferences();
+}
+#endif
+
 
 // Convenience functions intended for other GUI's
 TimeSliderAction * BaseGuiPlus::createTimeSliderAction(QWidget * parent) {

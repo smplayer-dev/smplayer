@@ -30,6 +30,7 @@ DEFINES += AUTO_SHUTDOWN_PC
 DEFINES += CAPTURE_STREAM
 DEFINES += BOOKMARKS
 DEFINES += MOUSE_GESTURES
+DEFINES += GLOBALSHORTCUTS
 
 DEFINES += MPV_SUPPORT
 DEFINES += MPLAYER_SUPPORT
@@ -518,6 +519,15 @@ contains( DEFINES, BOOKMARKS ) {
 	HEADERS += inputbookmark.h bookmarkdialog.h
 	SOURCES += inputbookmark.cpp bookmarkdialog.cpp
 	FORMS += inputbookmark.ui bookmarkdialog.ui
+}
+
+contains( DEFINES, GLOBALSHORTCUTS ) {
+	HEADERS += globalshortcuts/globalshortcuts.h
+	SOURCES += globalshortcuts/globalshortcuts.cpp
+	unix {
+		QT += gui-private
+		LIBS += $${QMAKE_LIBS_X11}
+	}
 }
 
 unix {
