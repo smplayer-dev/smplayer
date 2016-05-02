@@ -265,7 +265,7 @@ Möchten Sie sie Überschreiben?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>S&amp;chließen</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -938,7 +938,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>&amp;YouTube-Code aktualisieren</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2149"/>
@@ -1033,7 +1033,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"/>
+        <translation>T&amp;abletmodus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
@@ -1189,7 +1189,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Tonspur auswählen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1219,7 +1219,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Untertitelspur auswählen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1229,7 +1229,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Sekundäre Untertitelspur auswählen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -1352,17 +1352,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Das System wurde in den Tabletmodus umgeschaltet. Soll SMPlayer auch in den Tabletmodus wechseln?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6049"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Das System hat den Tabletmodus verlassen. Soll SMPlayer den Tabletmodus auch ausschalten?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6053"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>Meine Entscheidung merken und nicht erneut nachfragen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4903"/>
@@ -1892,7 +1892,7 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../basegui.cpp" line="2070"/>
         <source>&amp;Closed captions</source>
-        <translation>&amp;Untertitel</translation>
+        <translation>Ges&amp;chlossene Untertitel</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1925"/>
@@ -1925,12 +1925,12 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video an Bildschirm senden</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="275"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>Informationen über verbundene Bild&amp;schirme</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="281"/>
@@ -1945,102 +1945,102 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="705"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Informationen über verbundene Bildschirme</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="708"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Verbundene Bildschirme</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>Anzahl an Bildschirmen: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="712"/>
         <location filename="../baseguiplus.cpp" line="746"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>Primärer Bildschirm: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="716"/>
         <location filename="../baseguiplus.cpp" line="750"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>Informationen für Bildschirm %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="718"/>
         <location filename="../baseguiplus.cpp" line="752"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Verfügbare Geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Verfügbare Größe: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="721"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Verfügbare virtuelle Geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="725"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Verfügbare virtuelle Größe: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>Tiefe: %1 Bit</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="728"/>
         <location filename="../baseguiplus.cpp" line="754"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="730"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Logische DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Physikalische DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="733"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>Physikalische Größe: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"/>
+        <translation>Bildwiederholrate: %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Größe: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="737"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Virtuelle Geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="739"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Virtuelle Größe: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="789"/>
         <source>Primary screen</source>
-        <translation type="unfinished"/>
+        <translation>Primärer Bildschirm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
@@ -4417,7 +4417,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../logwindowbase.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation>&amp;Schließen</translation>
+        <translation>S&amp;chließen</translation>
     </message>
     <message>
         <location filename="../logwindowbase.ui" line="78"/>
@@ -4819,7 +4819,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"/>
+        <translation>Farb&amp;schlüssel:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -5044,7 +5044,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Hier können Sie Optionen und Filter an %1 weiterleiten.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5145,7 +5145,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;udiofilter:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5525,7 +5525,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="995"/>
         <source>Remember settings</source>
-        <translation>Einstellungen beibehalten</translation>
+        <translation>Einstellungen merken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1236"/>
@@ -5631,7 +5631,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>&amp;Einstellungen für alle Dateien beibehalten (Tonspur, Untertitel, …)</translation>
+        <translation>&amp;Einstellungen für alle Dateien merken (Tonspur, Untertitel, …)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1164"/>
@@ -5946,12 +5946,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
         <source>Remember time position</source>
-        <translation>Zeitposition beibehalten</translation>
+        <translation>Zeitposition merken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="116"/>
         <source>Remember &amp;time position</source>
-        <translation>&amp;Zeitposition beibehalten</translation>
+        <translation>&amp;Zeitposition merken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1180"/>
@@ -6045,7 +6045,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="996"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalerweise erinnert sich SMPlayer an die Einstellungen für jede Datei, die abgespielt wurde (die gewählte Tonspur, Lautstärke, Filter …). Deaktivieren Sie diese Option, falls Ihnen diese Funktion nicht gefällt.</translation>
+        <translation>Normalerweise merkt sich SMPlayer an die Einstellungen für jede Datei, die abgespielt wurde (die gewählte Tonspur, Lautstärke, Filter …). Deaktivieren Sie diese Option, falls Ihnen diese Funktion nicht gefällt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
@@ -6131,7 +6131,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1001"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation>Wenn Sie diese Option aktivieren, wird sich SMPlayer an die letzte Position der Datei erinnern, wenn sie erneut abgespielt wird. Diese Option funktioniert nur mit herkömmlichen Dateien (nicht mit DVDs, CDs, Adressen …).</translation>
+        <translation>Wenn Sie diese Option aktivieren, wird sich SMPlayer die letzte Position der Datei merken, wenn sie erneut abgespielt wird. Diese Option funktioniert nur mit herkömmlichen Dateien (nicht mit DVDs, CDs, Adressen …).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
@@ -7076,7 +7076,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="673"/>
         <source>Remember position and size</source>
-        <translation>Position und Größe beibehalten</translation>
+        <translation>Position und Größe merken</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="674"/>
@@ -7299,7 +7299,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="802"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Wählen Sie die maximale Anzahl an Einträgen, die der &lt;b&gt;Öffnen → Adresse&lt;/b&gt; Dialog speichern soll. Wählen Sie 0, wenn Sie nicht möchten, dass jede Adresse gespeichert werden soll.</translation>
+        <translation>Wählen Sie die maximale Anzahl an Einträgen, die der &lt;b&gt;Öffnen → Adresse&lt;/b&gt; Dialog sich merken soll. Wählen Sie 0, wenn Sie nicht möchten, dass jede Adresse gespeichert werden soll.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="806"/>
@@ -7309,7 +7309,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="807"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation>Wenn diese Option ausgewählt ist, merkt sich SMPlayer das letzte Ordner, in dem eine Datei geöffnet wurde.</translation>
+        <translation>Wenn diese Option ausgewählt ist, merkt sich SMPlayer den letzten Ordner, in dem eine Datei geöffnet wurde.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
@@ -9749,7 +9749,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>S&amp;chließen</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
@@ -10027,7 +10027,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation>&amp;Ordner zur Speicherung der Vorschau merken</translation>
+        <translation>&amp;Ordner, der zum Speichern der Vorschau verwendet wird, merken</translation>
     </message>
 </context>
 <context>

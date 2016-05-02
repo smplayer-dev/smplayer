@@ -1033,7 +1033,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1816"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"/>
+        <translation>П&amp;ляншетний режим</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1819"/>
@@ -1189,7 +1189,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Вибрати звукову доріжку</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1219,7 +1219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Вибрати субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1229,7 +1229,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Вибрати додаткові субтитри</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -1352,17 +1352,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Система перемкнута на пляншетовий режим. Чи повинен SMPlayer також змінити режим на пляншетовий?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6049"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Система вийшла із пляншетового режиму. Чи повинен SMPlayer також вимкнути пляншетовий режим?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6053"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>Запам’ятати моє рішення й не питати знову</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4903"/>
@@ -1924,12 +1924,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>Відправити &amp;відео на екран</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="275"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>Інформація про під’єднані &amp;екрани</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="281"/>
@@ -1944,82 +1944,82 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="705"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Інформація про під’єднані екрани</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="708"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Під’єднані екрани</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>Кількість екранів: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="712"/>
         <location filename="../baseguiplus.cpp" line="746"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>Первинний екран: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="716"/>
         <location filename="../baseguiplus.cpp" line="750"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>Інформація для екрану %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="718"/>
         <location filename="../baseguiplus.cpp" line="752"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Доступна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Доступний розмір: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="721"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Доступна віртуальна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="725"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Доступний віртуальний розмір: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>Глибина: %1 бітів</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="728"/>
         <location filename="../baseguiplus.cpp" line="754"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="730"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Логічне DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Фізичне DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="733"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>Фізичний розмір: %1 x %2 мм</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"/>
+        <translation>Частота оновлення: %1 Гц</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="736"/>
@@ -2029,17 +2029,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="737"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Віртуальна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="739"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Віртуальний розмір: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="789"/>
         <source>Primary screen</source>
-        <translation type="unfinished"/>
+        <translation>Первинний екран</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="259"/>
@@ -4818,7 +4818,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"/>
+        <translation>Код &amp;кольору:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -5043,7 +5043,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Тут Ви можете вказати параметри і фільтри %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>

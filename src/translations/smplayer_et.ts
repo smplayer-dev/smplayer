@@ -9,57 +9,57 @@
     <message>
         <location filename="../about.cpp" line="68"/>
         <source>Links:</source>
-        <translation type="unfinished"/>
+        <translation>Lingid:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
         <source>Official website:</source>
-        <translation type="unfinished"/>
+        <translation>Ametlik veebisait:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="70"/>
         <source>Support forum:</source>
-        <translation type="unfinished"/>
+        <translation>Tugifoorum:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer on graafiline kasutajaliides projektile %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="168"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"/>
+        <translation>Vajuta siia, et näha tõlkijate nimekirja transifexi meeskondadest</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="164"/>
         <source>Many people contributed with translations.</source>
-        <translation type="unfinished"/>
+        <translation>Tõlkida aitasid paljud inimesed.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayerit saab tõlkida ka teistesse keeltesse.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>Visit %1 and join a translation team.</source>
-        <translation type="unfinished"/>
+        <translation>Külasta lehte %1 ja liitu tõlkemeeskonnaga.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="54"/>
         <source>Using %1</source>
-        <translation type="unfinished"/>
+        <translation>Kasutab tarkvara %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="77"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer on graafiline kasutajaliides projektidele %1 ja %2.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="90"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"/>
+        <translation>Subtiitrite teenust pakub %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="193"/>
@@ -69,12 +69,12 @@
     <message>
         <location filename="../about.ui" line="14"/>
         <source>About SMPlayer</source>
-        <translation>SMPlayer`i info</translation>
+        <translation>Teave SMPlayeri kohta</translation>
     </message>
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"/>
+        <translation>Lehekülg</translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -92,7 +92,7 @@
     <message>
         <location filename="../about.ui" line="94"/>
         <source>&amp;Contributions</source>
-        <translation>&amp;Toetused</translation>
+        <translation>&amp;Kaastöö</translation>
     </message>
     <message>
         <location filename="../about.ui" line="150"/>
@@ -102,7 +102,7 @@
     <message>
         <location filename="../about.ui" line="206"/>
         <source>&amp;License</source>
-        <translation>&amp;Luba</translation>
+        <translation>&amp;Litsents</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="60"/>
@@ -112,22 +112,22 @@
     <message>
         <location filename="../about.cpp" line="66"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
-        <translation>Kasutades Qt`d %1 (ühilduvus koos Qt %2`ga)</translation>
+        <translation>Kasutab Qt versiooni %1 (kompileeritud Qt %2-ga)</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="124"/>
         <source>SMPlayer logo by %1</source>
-        <translation>SMPlayer`i logo %1 poolt</translation>
+        <translation>SMPlayeri logo valmistas %1</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="105"/>
         <source>Read the entire license</source>
-        <translation>Lugege kogu litsentsi</translation>
+        <translation>Loe tervet litsentsi</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="113"/>
         <source>Read a translation</source>
-        <translation>Lugege tõlget</translation>
+        <translation>Loe tõlget</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="125"/>
@@ -137,7 +137,7 @@
     <message>
         <location filename="../about.cpp" line="126"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Paljud teised aitavad kaasa avaldades uusi lahendusi. Detailide kuvamiseks uurige Muudatuste logi.</translation>
+        <translation>Täiendusi ja parandusi tegid ka paljud teised inimesed. Üksikasjad on kirjas muudatuste logis.</translation>
     </message>
 </context>
 <context>
@@ -165,7 +165,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="224"/>
         <source>&amp;Load</source>
-        <translation>&amp;Lae</translation>
+        <translation>&amp;Laadi</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="463"/>
@@ -181,14 +181,14 @@
     <message>
         <location filename="../actionseditor.cpp" line="472"/>
         <source>Confirm overwrite?</source>
-        <translation>Nõustu ümberkirjutamisega?</translation>
+        <translation>Nõustu ülekirjutamisega?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="473"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>%1 fail juba on olemas.
-Kas sa tahad ümber kirjutada?</translation>
+        <translation>Fail %1 on juba olemas.
+Kas kirjutada see üle?</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="512"/>
@@ -204,12 +204,12 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../actionseditor.cpp" line="486"/>
         <source>The file couldn&apos;t be saved</source>
-        <translation>Fail ei salvestatud</translation>
+        <translation>Faili ei õnnestunud salvestada</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="520"/>
         <source>The file couldn&apos;t be loaded</source>
-        <translation>Faili ei laetud</translation>
+        <translation>Faili ei õnnestunud laadida</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="228"/>
@@ -222,7 +222,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="185"/>
         <source>Audio Equalizer</source>
-        <translation>Audio Equalizer</translation>
+        <translation>Heli ekvalaiser</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="188"/>
@@ -231,7 +231,7 @@ Kas sa tahad ümber kirjutada?</translation>
         <location filename="../audioequalizer.cpp" line="191"/>
         <location filename="../audioequalizer.cpp" line="192"/>
         <source>%1 Hz</source>
-        <translation type="unfinished"/>
+        <translation>%1 Hz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="193"/>
@@ -240,7 +240,7 @@ Kas sa tahad ümber kirjutada?</translation>
         <location filename="../audioequalizer.cpp" line="196"/>
         <location filename="../audioequalizer.cpp" line="197"/>
         <source>%1 kHz</source>
-        <translation type="unfinished"/>
+        <translation>%1 kHz</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="199"/>
@@ -250,17 +250,17 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="200"/>
         <source>&amp;Apply</source>
-        <translation>&amp;Nõustuma</translation>
+        <translation>&amp;Rakenda</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="201"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Taasväärtusta</translation>
+        <translation>&amp;Algväärtused</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="202"/>
         <source>&amp;Set as default values</source>
-        <translation>&amp;Vali vaikeväärtustele</translation>
+        <translation>&amp;Taasta vaikeväärtused</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
@@ -365,22 +365,22 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="231"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation>Kasuta hetkel olevaid väärtusi uute videote jaoks.</translation>
+        <translation>Kasuta praegusi väärtusi uute videote jaoks.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="233"/>
         <source>Set all controls to zero.</source>
-        <translation>Vali kõik kontrollid 0-ks.</translation>
+        <translation>Seadista kõik 0-ks.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="248"/>
         <source>Information</source>
-        <translation>Informatsioon</translation>
+        <translation>Teave</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="249"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation>Hetkel olevad väärtused taastatakse.</translation>
+        <translation>Praegused väärtused on salvestatud vaikeväärtustena.</translation>
     </message>
 </context>
 <context>
@@ -393,7 +393,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1900"/>
         <source>&amp;Play</source>
-        <translation>&amp;Mängi</translation>
+        <translation>&amp;Esita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1901"/>
@@ -413,17 +413,17 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1904"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Uuri</translation>
+        <translation>&amp;Sirvi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
         <source>Op&amp;tions</source>
-        <translation>S&amp;eaded</translation>
+        <translation>&amp;Valikud</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1907"/>
         <source>&amp;Help</source>
-        <translation>&amp;Abi</translation>
+        <translation>A&amp;bi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1633"/>
@@ -433,12 +433,12 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1634"/>
         <source>D&amp;irectory...</source>
-        <translation>A&amp;adressiraamat...</translation>
+        <translation>&amp;Kaust...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Playlist...</translation>
+        <translation>&amp;Esitlusloend...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1638"/>
@@ -458,7 +458,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1923"/>
         <source>&amp;Clear</source>
-        <translation>&amp;Puhasta</translation>
+        <translation>&amp;Tühjenda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1921"/>
@@ -478,17 +478,17 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1672"/>
         <source>&amp;Stop</source>
-        <translation>&amp;Stop</translation>
+        <translation>&amp;Stopp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1673"/>
         <source>&amp;Frame step</source>
-        <translation>&amp;Frame samm</translation>
+        <translation>&amp;Järgmine kaader</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1692"/>
         <source>&amp;Normal speed</source>
-        <translation>&amp;Normaalne kiirus</translation>
+        <translation>&amp;Tavakiirus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1694"/>
@@ -514,7 +514,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1939"/>
         <source>Sp&amp;eed</source>
-        <translation>Ki&amp;irus</translation>
+        <translation>Esitusk&amp;iirus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1687"/>
@@ -529,24 +529,24 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>&amp;Compact mode</source>
-        <translation>&amp;Kompaktne mood</translation>
+        <translation>&amp;Kompaktne režiim</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1949"/>
         <source>Si&amp;ze</source>
-        <translation>Su&amp;urus</translation>
+        <translation>S&amp;uurus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1959"/>
         <source>&amp;Aspect ratio</source>
-        <translation>&amp;Vaatevinkli raadius</translation>
+        <translation>Ku&amp;vasuhe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1998"/>
         <location filename="../basegui.cpp" line="3460"/>
         <location filename="../basegui.cpp" line="3474"/>
         <source>&amp;None</source>
-        <translation>&amp;Tundmatu</translation>
+        <translation>&amp;Väljas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1999"/>
@@ -556,37 +556,37 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="2002"/>
         <source>Linear &amp;Blend</source>
-        <translation>Sirgjooneline &amp;Segu</translation>
+        <translation>Lineaarne &amp;segu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1962"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Deinterlace</translation>
+        <translation>&amp;Ülerealaotuse eemaldamine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1730"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Postprocessing</translation>
+        <translation>&amp;Järeltöötlus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>&amp;Autodetect phase</source>
-        <translation>&amp;Automaatselt tuvasta järk</translation>
+        <translation>&amp;Automaatne faasituvastus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1732"/>
         <source>&amp;Deblock</source>
-        <translation>&amp;Deblock</translation>
+        <translation>&amp;Plokkide vähendamine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>De&amp;ring</source>
-        <translation>De&amp;ring</translation>
+        <translation>Mü&amp;ravähendus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Add n&amp;oise</source>
-        <translation>Lisa m&amp;üra</translation>
+        <translation>M&amp;üra lisamine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1965"/>
@@ -596,7 +596,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
         <source>&amp;Equalizer</source>
-        <translation>&amp;Equalizer</translation>
+        <translation>&amp;Ekvalaiser</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1706"/>
@@ -606,7 +606,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1971"/>
         <source>S&amp;tay on top</source>
-        <translation>J&amp;ää toppi</translation>
+        <translation>J&amp;ää pealmiseks</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
@@ -632,12 +632,12 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="2044"/>
         <source>&amp;4.0 Surround</source>
-        <translation>&amp;4.0 Ümbritsema</translation>
+        <translation>&amp;4.0 ruumiline</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2045"/>
         <source>&amp;5.1 Surround</source>
-        <translation>&amp;5.1 Ümbritsema</translation>
+        <translation>&amp;5.1 ruumiline</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2036"/>
@@ -657,7 +657,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="2039"/>
         <source>&amp;Stereo mode</source>
-        <translation>&amp;stereo mood</translation>
+        <translation>&amp;Stereorežiim</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1743"/>
@@ -667,12 +667,12 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
         <source>Volume &amp;-</source>
-        <translation>Heli &amp;-</translation>
+        <translation>Helitugevus &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1745"/>
         <source>Volume &amp;+</source>
-        <translation>Heli &amp;+</translation>
+        <translation>Helitugevus &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1746"/>
@@ -692,7 +692,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="1760"/>
         <source>&amp;Load...</source>
-        <translation>&amp;Lae...</translation>
+        <translation>&amp;Laadi...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1762"/>
@@ -727,12 +727,12 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>&amp;Angle</source>
-        <translation>&amp;Ingel</translation>
+        <translation>&amp;Võttenurk</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1802"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Playlist</translation>
+        <translation>&amp;Esitlusloend</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1996"/>
@@ -779,7 +779,7 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="4117"/>
         <source>Playlists</source>
-        <translation>Playlistid</translation>
+        <translation>Esitlusloendid</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4118"/>
@@ -808,14 +808,14 @@ Kas sa tahad ümber kirjutada?</translation>
     <message>
         <location filename="../basegui.cpp" line="4169"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Informatsioon</translation>
+        <translation>SMPlayer – teave</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4170"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>CDROM / DVD kettad pole veel seadistatud.
-Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
+        <translation>CDROM-/DVD-draive pole veel seadistatud.
+Seadistamiseks avatakse nüüd seadistusaken.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4283"/>
@@ -825,7 +825,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="4296"/>
         <source>Choose a directory</source>
-        <translation>Vali käsiraamat</translation>
+        <translation>Vali kaust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4332"/>
@@ -850,23 +850,23 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="5144"/>
         <source>Stop</source>
-        <translation>Stop</translation>
+        <translation>Stopp</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1676"/>
         <source>Play / Pause</source>
-        <translation>Mängi / Paus</translation>
+        <translation>Esita / paus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1679"/>
         <source>Pause / Frame step</source>
-        <translation>Paus / Raami aste</translation>
+        <translation>Paus / järgmine kaader</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1750"/>
         <location filename="../basegui.cpp" line="1761"/>
         <source>U&amp;nload</source>
-        <translation>M&amp;ittelaetud</translation>
+        <translation>&amp;Eemalda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1636"/>
@@ -891,32 +891,32 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1720"/>
         <source>&amp;Reset</source>
-        <translation>&amp;Taasväärtusta</translation>
+        <translation>&amp;Algväärtusta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>Move &amp;left</source>
-        <translation>Liigu &amp;vasakule</translation>
+        <translation>Liiguta &amp;vasakule</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1725"/>
         <source>Move &amp;right</source>
-        <translation>Liigu &amp;paremale</translation>
+        <translation>Liiguta &amp;paremale</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Move &amp;up</source>
-        <translation>Liigu &amp;üles</translation>
+        <translation>Liiguta &amp;üles</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
         <source>Move &amp;down</source>
-        <translation>Liigu &amp;alla</translation>
+        <translation>Liiguta &amp;alla</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1770"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Eelmine rida subtiitris</translation>
+        <translation>&amp;Eelmine rida subtiitrites</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1772"/>
@@ -957,7 +957,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1857"/>
         <source>Dec volume (2)</source>
-        <translation>Dec heli (2)</translation>
+        <translation>Vähenda helitugevust (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1641"/>
@@ -997,7 +997,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation>Kokkupanemine (&amp;gradfun)</translation>
+        <translation>Ribade vähendamine (&amp;gradfun)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
@@ -1043,7 +1043,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1828"/>
         <source>&amp;Open configuration folder</source>
-        <translation>&amp; Avage seadistuskaust</translation>
+        <translation>&amp;Ava seadistuskaust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1843"/>
@@ -1058,7 +1058,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1858"/>
         <source>Inc volume (2)</source>
-        <translation>Inc heli (2)</translation>
+        <translation>Suurenda helitugevust (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1861"/>
@@ -1068,7 +1068,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1863"/>
         <source>OSD - Next level</source>
-        <translation>OSD - Järgmine aste</translation>
+        <translation>OSD - järgmine aste</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1864"/>
@@ -1078,42 +1078,42 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1865"/>
         <source>Inc contrast</source>
-        <translation>Inc kontrast</translation>
+        <translation>Vähenda kontrasti</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1866"/>
         <source>Dec brightness</source>
-        <translation>Dec helendus</translation>
+        <translation>Vähenda helendust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1867"/>
         <source>Inc brightness</source>
-        <translation>Inc helendus</translation>
+        <translation>Suurenda helendust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1868"/>
         <source>Dec hue</source>
-        <translation>Dec varjund</translation>
+        <translation>Eelmine värvitoon</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1869"/>
         <source>Inc hue</source>
-        <translation>Inc varjund</translation>
+        <translation>Järgmine värvitoon</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1870"/>
         <source>Dec saturation</source>
-        <translation>Dec saturation</translation>
+        <translation>Vähenda küllastust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1872"/>
         <source>Dec gamma</source>
-        <translation>Dec gamma</translation>
+        <translation>Vähenda gammaväärtust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1875"/>
         <source>Next audio</source>
-        <translation>Järgmine heli</translation>
+        <translation>Järgmine helirada</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1876"/>
@@ -1143,12 +1143,12 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1979"/>
         <source>De&amp;noise</source>
-        <translation>Mü&amp;ra maha </translation>
+        <translation>Mü&amp;ra eemaldamine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1982"/>
         <source>Blur/S&amp;harp</source>
-        <translation>Udune/T&amp;erav</translation>
+        <translation>Udustamine/t&amp;eravdamine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2005"/>
@@ -1160,7 +1160,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <location filename="../basegui.cpp" line="2006"/>
         <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation>&amp;Normaalne</translation>
+        <translation>&amp;Tavaline</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2007"/>
@@ -1172,19 +1172,19 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <location filename="../basegui.cpp" line="2009"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation>&amp;Tundmatu</translation>
+        <translation>&amp;Väljas</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2010"/>
         <source>&amp;Blur</source>
         <comment>unsharp menu</comment>
-        <translation>&amp;Udune</translation>
+        <translation>&amp;Udusta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2011"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation>&amp;Teravustatud</translation>
+        <translation>&amp;Teravda</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
@@ -1194,12 +1194,12 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
         <source>&amp;6.1 Surround</source>
-        <translation>&amp;6.1 Ruumiline</translation>
+        <translation>&amp;6.1 ruumiline</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;7.1 Surround</source>
-        <translation>&amp;7.1 Ruumiline</translation>
+        <translation>&amp;7.1 ruumiline</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2052"/>
@@ -1388,7 +1388,7 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
         <location filename="../basegui.cpp" line="3185"/>
         <location filename="../basegui.cpp" line="3924"/>
         <source>Information</source>
-        <translation>Informatsioon</translation>
+        <translation>Teave</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3186"/>
@@ -1413,17 +1413,17 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1871"/>
         <source>Inc saturation</source>
-        <translation>Inc saturation</translation>
+        <translation>Suurenda küllastust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1873"/>
         <source>Inc gamma</source>
-        <translation>Inc gamma</translation>
+        <translation>Suurenda gammaväärtust</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
         <source>&amp;Load external file...</source>
-        <translation>&amp;Lae väline fail...</translation>
+        <translation>&amp;Laadi väline fail...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2003"/>
@@ -1433,12 +1433,12 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="2000"/>
         <source>&amp;Yadif (normal)</source>
-        <translation>&amp;yadif (normaalne)</translation>
+        <translation>&amp;yadif (tavaline)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2001"/>
         <source>Y&amp;adif (double framerate)</source>
-        <translation>Y&amp;adif (kahekordne raamihinnang)</translation>
+        <translation>Y&amp;adif (kahekordne kaadrisagedus)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
@@ -1458,17 +1458,17 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Audio CD</source>
-        <translation>&amp;Heli CD</translation>
+        <translation>&amp;Heli-CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
         <source>&amp;Toggle double size</source>
-        <translation>&amp;Toggle kahekordseks</translation>
+        <translation>&amp;Kahekordne suurus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1767"/>
         <source>S&amp;ize -</source>
-        <translation>S&amp;uurus -</translation>
+        <translation>&amp;Suurus -</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1768"/>
@@ -1483,22 +1483,22 @@ Seadistamise dialoogi näidatakse präegu ja saad seadistada.</translation>
     <message>
         <location filename="../basegui.cpp" line="1737"/>
         <source>Soft&amp;ware scaling</source>
-        <translation>Tark&amp;vara ulatus</translation>
+        <translation>Tark&amp;varaline skaleerimine</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;FAQ</source>
-        <translation>&amp;FAQ</translation>
+        <translation>&amp;Korduma kippuvad küsimused</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Command line options</source>
-        <translation>&amp;Käskluse rea seaded</translation>
+        <translation>&amp;Käsurea valikud</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4373"/>
         <source>SMPlayer command line options</source>
-        <translation>SMPlayeri käskluse rea seaded</translation>
+        <translation>SMPlayeri käsurea valikud</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1778"/>
