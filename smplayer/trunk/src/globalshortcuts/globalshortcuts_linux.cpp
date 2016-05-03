@@ -71,6 +71,7 @@ bool GlobalShortcuts::nativeEventFilter(const QByteArray & eventType, void * mes
 			if (key_list.contains(keycode)) {
 				activateShortcut(key_list[keycode]);
 			}
+			return true;
 		}
 	}
 
