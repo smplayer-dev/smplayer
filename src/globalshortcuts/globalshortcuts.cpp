@@ -70,7 +70,9 @@ void GlobalShortcuts::unregisterAll() {
 void GlobalShortcuts::activateShortcut(Qt::Key key) {
 	qDebug() << "GlobalShortcuts::activateShortcut:" << key;
 
+#ifdef Q_OS_LINUX
 	if (QApplication::activeWindow()) return;
+#endif
 
 	QKeySequence ks(key);
 
