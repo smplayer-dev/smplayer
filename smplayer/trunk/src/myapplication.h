@@ -22,7 +22,7 @@
 #include <QtGlobal>
 
 #ifdef Q_OS_WIN
-  #define USE_WINEVENTFILTER
+  //#define USE_WINEVENTFILTER
 #endif
 
 #if defined(USE_WINEVENTFILTER) && QT_VERSION >= 0x050000
