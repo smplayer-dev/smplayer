@@ -89,6 +89,10 @@ void GlobalShortcuts::activateShortcut(Qt::Key key) {
 	// Search actions with the shortcut
 	if (isEnabled() && parent()) {
 		QWidget * w = qobject_cast<QWidget *>(parent());
+		if (!w) {
+			qWarning("GlobalShortcuts::activateShortcut: parent is not a widget");
+			return;
+		}
 		QList<QAction *> actions = w->actions();
 		foreach(QAction * action, actions) {
 			QList<QKeySequence> shortcuts = action->shortcuts();
