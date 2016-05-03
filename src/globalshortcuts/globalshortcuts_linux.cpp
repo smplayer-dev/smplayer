@@ -66,12 +66,12 @@ bool GlobalShortcuts::nativeEventFilter(const QByteArray & eventType, void * mes
 
 		if (kev != 0) {
 			unsigned int keycode = kev->detail;
-			//qDebug() << "GlobalShortcuts::nativeEventFilter: keycode:" << keycode;
+			qDebug() << "GlobalShortcuts::nativeEventFilter: keycode:" << keycode;
 
 			if (key_list.contains(keycode)) {
 				activateShortcut(key_list[keycode]);
+				return true;
 			}
-			return true;
 		}
 	}
 
