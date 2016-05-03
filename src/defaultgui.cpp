@@ -88,6 +88,8 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              iw, SLOT(edit()) );
 #endif
 
+	connect(this, SIGNAL(preferencesChanged()), this, SLOT(checkCompactMode()));
+
 	menuBar()->setObjectName("menubar");
 
 	retranslateStrings();
@@ -685,8 +687,8 @@ void DefaultGui::updateWidgets() {
 	panel->setFocus();
 }
 
-void DefaultGui::applyNewPreferences() {
-	qDebug("DefaultGui::applyNewPreferences");
+void DefaultGui::checkCompactMode() {
+	qDebug("DefaultGui::checkCompactMode");
 
 	if ((pref->compact_mode) && (pref->floating_display_in_compact_mode)) {
 		reconfigureFloatingControl();
@@ -694,8 +696,6 @@ void DefaultGui::applyNewPreferences() {
 	} else {
 		floating_control->deactivate();
 	}
-
-	BaseGuiPlus::applyNewPreferences();
 }
 
 void DefaultGui::reconfigureFloatingControl() {
