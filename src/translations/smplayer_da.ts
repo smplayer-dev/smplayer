@@ -265,7 +265,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Luk</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -938,7 +938,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>Opdatér &amp;YouTube-koden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2149"/>
@@ -1189,7 +1189,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Vælg lydspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1219,7 +1219,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Vælg undertekstspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1229,7 +1229,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Vælg sekundært undertekstspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -9747,7 +9747,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Luk</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
