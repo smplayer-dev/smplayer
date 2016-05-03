@@ -366,6 +366,8 @@ signals:
 	void guiChanged(QString gui);
 #endif
 
+	void preferencesChanged();
+
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);

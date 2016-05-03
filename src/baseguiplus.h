@@ -112,7 +112,7 @@ protected slots:
 #endif
 
 #ifdef GLOBALSHORTCUTS
-	virtual void applyNewPreferences();
+	void updateGlobalShortcuts();
 #endif
 
 protected:

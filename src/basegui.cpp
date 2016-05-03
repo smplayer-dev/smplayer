@@ -3183,6 +3183,7 @@ void BaseGui::applyNewPreferences() {
 
 	pref->save();
 
+	emit preferencesChanged();
 
 	if (_interface->guiChanged()) {
 #ifdef GUI_CHANGE_ON_RUNTIME
