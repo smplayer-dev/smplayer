@@ -181,6 +181,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #ifdef GLOBALSHORTCUTS
 	global_shortcuts = new GlobalShortcuts(this);
 	global_shortcuts->setEnabled(pref->use_global_shortcuts);
+	connect(this, SIGNAL(preferencesChanged()), this, SLOT(updateGlobalShortcuts()));
 #endif
 
 	retranslateStrings();
@@ -651,10 +652,9 @@ void BaseGuiPlus::shrinkWindow() {
 #endif
 
 #ifdef GLOBALSHORTCUTS
-void BaseGuiPlus::applyNewPreferences() {
-	qDebug("BaseGuiPlus::applyNewPreferences");
-	global_shortcuts->setEnabled(pref_dialog->mod_input()->useGlobalShortcuts());
-	BaseGui::applyNewPreferences();
+void BaseGuiPlus::updateGlobalShortcuts() {
+	qDebug("BaseGuiPlus::updateGlobalShortcuts");
+	global_shortcuts->setEnabled(pref->use_global_shortcuts);
 }
 #endif
 
