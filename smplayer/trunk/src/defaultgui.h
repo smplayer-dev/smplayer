@@ -87,10 +87,10 @@ protected:
 
 protected slots:
 	virtual void updateWidgets();
-	virtual void applyNewPreferences();
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
+	void checkCompactMode();
 
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
