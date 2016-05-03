@@ -155,9 +155,9 @@ bool MyApplication::winEventFilter(MSG * msg, long * result) {
 		if ((last_appcommand == APPCOMMAND_MEDIA_STOP) && (msg->wParam == VK_MEDIA_STOP)) eat_key = true;
 		
 		if (eat_key) { 
-			qDebug("MyApplication::winEventFilter: ignoring key %X", msg->wParam);
+			qDebug() << "MyApplication::winEventFilter: ignoring key" << msg->wParam;
 			last_appcommand = 0; 
-			*result = true; 
+			//*result = true; 
 			return true; 
 		}
 	}
@@ -198,7 +198,7 @@ bool MyApplication::winEventFilter(MSG * msg, long * result) {
 				QKeyEvent event(QEvent::KeyPress, key, modifier, name);
 				QWidget * w = QApplication::focusWidget();
 				if (w) QCoreApplication::sendEvent(w, &event);
-				*result = true;
+				//*result = true;
 				return true;
 			}
 		//}
