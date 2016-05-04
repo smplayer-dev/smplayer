@@ -2325,12 +2325,17 @@ void Core::startMplayer( QString file, double seek ) {
 			proc->addAF("volnorm", pref->filters->item("volnorm").options());
 		}
 
-		bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);
-		if (pref->use_scaletempo == Preferences::Detect) {
-			use_scaletempo = (MplayerVersion::isMplayerAtLeast(24924));
-		}
-		if (use_scaletempo) {
-			proc->addAF("scaletempo");
+		if (proc->isMPlayer()) {
+			bool use_scaletempo = (pref->use_scaletempo == Preferences::Enabled);
+			if (pref->use_scaletempo == Preferences::Detect) {
+				use_scaletempo = (MplayerVersion::isMplayerAtLeast(24924));
+			}
+			if (use_scaletempo) {
+				proc->addAF("scaletempo");
+			}
+		} else {
+			// MPV
+			proc->setOption("scaletempo", pref->use_scaletempo != Preferences::Disabled);
 		}
 
 		// Audio equalizer
