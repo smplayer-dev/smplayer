@@ -339,6 +339,13 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--mute=yes";
 	}
 	else
+	if (option_name == "scaletempo") {
+		if (isOptionAvailable("--audio-pitch-correction")) {
+			bool enabled = value.toBool();
+			if (enabled) arg << "--audio-pitch-correction=yes"; else arg << "--audio-pitch-correction=no";
+		}
+	}
+	else
 	if (option_name == "vf-add") {
 		if (!value.isNull()) arg << "--vf-add=" + value.toString();
 	}
