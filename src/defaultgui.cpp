@@ -273,8 +273,14 @@ void DefaultGui::createMainToolBars() {
                      << "show_tube_browser"
                      #endif
                      << "separator" << "show_preferences"
+                     #ifndef IDOPT_BUILD
                      << "separator" << "play_prev" << "play_next"
-                     << "separator" << "audiotrack_menu" << "subtitlestrack_menu";
+                     #endif
+                     << "separator" << "audiotrack_menu" << "subtitlestrack_menu"
+                     #ifdef IDOPT_BUILD
+                     << "separator" << "send_to_screen_menu" << "tablet_mode"
+                     #endif
+                     ;
 
 	toolbar1->setDefaultActions(toolbar1_actions);
 #else
