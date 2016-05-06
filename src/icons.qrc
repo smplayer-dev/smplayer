@@ -150,6 +150,8 @@
         <file>default-theme/add_bookmark.png</file>
         <file>default-theme/tablet_mode.png</file>
         <file>default-theme/recents.png</file>
+        <file>default-theme/send_to_screen.png</file>
+        <file>default-theme/video_track.png</file>
         <file>default-theme/buffering.gif</file>
         <file>default-theme/style.qss</file>
         <file>default-theme/tabletmode.css</file>
