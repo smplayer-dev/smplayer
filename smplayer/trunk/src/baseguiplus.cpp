@@ -176,6 +176,19 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 
 	showScreensInfoAct = new MyAction(this, "screens_info");
 	connect(showScreensInfoAct, SIGNAL(triggered()), this, SLOT(showScreensInfo()));
+
+	#if QT_VERSION >= 0x040600 && QT_VERSION < 0x050000
+	connect(qApp->desktop(), SIGNAL(screenCountChanged(int)), this, SLOT(updateSendToScreen()));
+	#endif
+	#if QT_VERSION >= 0x050000
+	connect(qApp, SIGNAL(screenAdded(QScreen *)), this, SLOT(updateSendToScreen()));
+	#endif
+	#if QT_VERSION >= 0x050400
+	connect(qApp, SIGNAL(screenRemoved(QScreen *)), this, SLOT(updateSendToScreen()));
+	#endif
+	#if QT_VERSION >= 0x050600
+	connect(qApp, SIGNAL(primaryScreenChanged(QScreen *)), this, SLOT(updateSendToScreen()));
+	#endif
 #endif
 
 #ifdef GLOBALSHORTCUTS
@@ -720,6 +733,11 @@ TimeLabelAction * BaseGuiPlus::createTimeLabelAction(TimeLabelAction::TimeLabelT
 #ifdef SCREENS_SUPPORT
 void BaseGuiPlus::showScreensInfo() {
 	qDebug("BaseGuiPlus::showScreensInfo");
+
+	/*
+	updateSendToScreen();
+	*/
+
 	if (!screens_info_window) {
 		screens_info_window = new LogWindow(this);
 		screens_info_window->setWindowTitle(tr("Information about connected screens"));
