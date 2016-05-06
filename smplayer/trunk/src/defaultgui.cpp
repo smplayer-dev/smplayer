@@ -269,7 +269,10 @@ void DefaultGui::createMainToolBars() {
 	QStringList toolbar1_actions;
 	toolbar1_actions << "open_file" << "open_url" << "favorites_menu" << "separator"
                      << "screenshot" << "separator" << "show_file_properties" << "show_playlist"
-                     << "show_tube_browser" << "separator" << "show_preferences"
+                     #ifndef IDOPT_BUILD
+                     << "show_tube_browser"
+                     #endif
+                     << "separator" << "show_preferences"
                      << "separator" << "play_prev" << "play_next"
                      << "separator" << "audiotrack_menu" << "subtitlestrack_menu";
 
