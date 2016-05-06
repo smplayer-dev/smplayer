@@ -265,7 +265,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Chiudi</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="208"/>
@@ -939,7 +939,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>Aggiorna codice &amp;Youtube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2149"/>
@@ -1190,7 +1190,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="2031"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Seleziona traccia audio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2046"/>
@@ -1220,7 +1220,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="2062"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Seleziona traccia sottotitolo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2065"/>
@@ -1230,7 +1230,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="2067"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Seleziona traccia sottotitolo secondaria</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2073"/>
@@ -1353,17 +1353,17 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="6047"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Il sistema è passato alla modalità tablet. Vuoi che anche SMPlayer passi a questa modalità?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6049"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Il sistema è uscito dalla modalità tablet. Vuoi che anche SMPlayer esca da questa modalità?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6053"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>Ricorda la decisione e non chiedere più</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4903"/>
@@ -1925,12 +1925,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>Invia &amp;video allo schermo</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="275"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>Informazioni riguardo &amp;schermi connessi</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="281"/>
@@ -1945,77 +1945,77 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../baseguiplus.cpp" line="705"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Informazioni riguardo schermi connessi</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="708"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Schermi connessi</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="711"/>
         <location filename="../baseguiplus.cpp" line="745"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>Numero di schermi: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="712"/>
         <location filename="../baseguiplus.cpp" line="746"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>Schermo primario: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="716"/>
         <location filename="../baseguiplus.cpp" line="750"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>Informazioni sullo schermo: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="718"/>
         <location filename="../baseguiplus.cpp" line="752"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Geometria disponibile: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="720"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Grandezza disponibile: %1 %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="721"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Geometria virtuale disponibile: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="725"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Grandezza virtuale disponibile: %1 %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="727"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>Profondità: %1 bits</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="728"/>
         <location filename="../baseguiplus.cpp" line="754"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Geometria: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="730"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>DPI logici: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="732"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>DPI fisici: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="733"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>Grandezza fisica: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="735"/>

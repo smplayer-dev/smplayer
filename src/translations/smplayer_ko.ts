@@ -433,7 +433,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1634"/>
         <source>D&amp;irectory...</source>
-        <translation>폴더(&amp;D)...</translation>
+        <translation>폴더(&amp;I)...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1635"/>
@@ -611,7 +611,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
         <source>&amp;Extrastereo</source>
-        <translation>&amp;Extrastereo (스테레오확장)</translation>
+        <translation>스테레오 확장(&amp;E)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1755"/>
@@ -667,12 +667,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
         <source>Volume &amp;-</source>
-        <translation>볼륨 -(&amp;-)</translation>
+        <translation>볼륨 &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1745"/>
         <source>Volume &amp;+</source>
-        <translation>볼륨 +(&amp;+)</translation>
+        <translation>볼륨 &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1746"/>
@@ -992,7 +992,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1716"/>
         <source>Stereo &amp;3D filter</source>
-        <translation>스테레오 3D 필터(&amp;3)</translation>
+        <translation>스테레오 &amp;3D 필터</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1734"/>
@@ -1458,7 +1458,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1637"/>
         <source>&amp;Audio CD</source>
-        <translation>오디오 CD(&amp;A)</translation>
+        <translation>오디오 &amp;CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1879"/>
@@ -1924,12 +1924,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="273"/>
         <source>Send &amp;video to screen</source>
-        <translation>비디오를 화면으로 보내기(&amp;V)</translation>
+        <translation>비디오 출력 화면&amp;V)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="275"/>
         <source>Information about connected &amp;screens</source>
-        <translation>연결된 화면의 정보(&amp;S)</translation>
+        <translation>연결된 화면 정보(&amp;S)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="281"/>
