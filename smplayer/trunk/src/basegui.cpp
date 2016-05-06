@@ -202,7 +202,13 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 
 #if STYLE_SWITCHING
 	qApp->setStyleSheet("");
+
+	#if QT_VERSION >= 0x050000
+	default_style = "fusion";
+	#else
 	default_style = qApp->style()->objectName();
+	#endif
+
 	#ifdef Q_OS_LINUX
 	// Some controls aren't displayed correctly with the adwaita style
 	// so try to prevent to use it as the default style
