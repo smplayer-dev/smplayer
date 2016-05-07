@@ -75,9 +75,11 @@ void Preferences::reset() {
 	config_version = CURRENT_CONFIG_VERSION;
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	mplayer_bin= "mplayer/mplayer.exe";
+	//mplayer_bin= "mplayer/mplayer.exe";
+	mplayer_bin= "mpv/mpv.exe";
 #else
-	mplayer_bin = "mplayer";
+	//mplayer_bin = "mplayer";
+	mplayer_bin = "mpv";
 #endif
 
 	vo = ""; 
