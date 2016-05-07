@@ -1724,7 +1724,8 @@ void Preferences::load() {
 		config_version = CURRENT_CONFIG_VERSION;
 	}
 
-#ifdef Q_OS_WIN
+#if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
+	#ifdef Q_OS_WIN
 	// Check if the mplayer binary exists and try to fix it
 	if (!QFile::exists(mplayer_bin)) {
 		qWarning("mplayer_bin '%s' doesn't exist", mplayer_bin.toLatin1().constData());
@@ -1747,8 +1748,8 @@ void Preferences::load() {
 			qWarning("mplayer_bin changed to '%s'", mplayer_bin.toLatin1().constData());
 		}
 	}
-#endif
-#ifdef Q_OS_LINUX
+	#endif
+	#ifdef Q_OS_LINUX
 	if (!QFile::exists(mplayer_bin)) {
 		QString app_path = Helper::findExecutable(mplayer_bin);
 		//qDebug("Preferences::load: app_path: %s", app_path.toUtf8().constData());
@@ -1767,6 +1768,7 @@ void Preferences::load() {
 			}
 		}
 	}
+	#endif
 #endif
 }
 
