@@ -33,8 +33,8 @@ AssStyles::AssStyles() {
 	halignment = HCenter;
 	valignment = Bottom;
 	borderstyle = Outline;
-	outline = 1;
-	shadow = 2;
+	outline = 0.3;
+	shadow = 1;
 	marginl = 20;
 	marginr = 20;
 	marginv = 8;
