@@ -6343,7 +6343,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>使用多媒體鍵作為全域快捷鍵(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6745,12 +6745,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>使用多媒體鍵作為全域快捷鍵</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>當此選項被啟用時，多媒體鍵（播放、停止、音量 +/-、靜音等等）將會在 SMPlayer 在背景運作時仍可使用。</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>

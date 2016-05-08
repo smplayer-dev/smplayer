@@ -6338,7 +6338,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Usar as teclas multimídia como atalhos globais</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6740,12 +6740,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar as teclas multimídia como atalhos globais</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se essa opção estiver habilitada, as teclas multimídia (Reproduzir, Parar, Volume+/-, Mudo, etc.) funcionarão mesmo que o SMPlayer esteja rodando em segundo plano.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>

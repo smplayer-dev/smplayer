@@ -6338,7 +6338,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>멀티미디어 키를 전역 단축키로 사용하기(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6740,12 +6740,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>멀티미디어 키를 전역 단축키로 사용하기(</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 SMPlayer가 백그라운드에서 실행중이더라도, 멀티미디어 키(재생, 정지, 볼륨+/-, 음소거 등)가 동작할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
