@@ -49,7 +49,7 @@
 #include <QScreen>
 #include <QVBoxLayout>
 #include "mplayerwindow.h"
-#include "logwindow.h"
+#include "infowindow.h"
 
 #if QT_VERSION >= 0x050000
 #include <QWindow>
@@ -739,7 +739,7 @@ void BaseGuiPlus::showScreensInfo() {
 	*/
 
 	if (!screens_info_window) {
-		screens_info_window = new LogWindow(this);
+		screens_info_window = new InfoWindow(this);
 		screens_info_window->setWindowTitle(tr("Information about connected screens"));
 	}
 
