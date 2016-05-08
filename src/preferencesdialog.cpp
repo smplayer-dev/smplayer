@@ -138,13 +138,12 @@ void PreferencesDialog::retranslateStrings() {
 	help_window->setWindowTitle( tr("SMPlayer - Help") );
 	help_window->setWindowIcon( Images::icon("logo") );
 
-	// Qt 4.2 doesn't update the buttons' text
-#if QT_VERSION < 0x040300
-	okButton->setText( tr("OK") );
-	cancelButton->setText( tr("Cancel") );
+	// Some Qt versions don't provide translated strings
+	// for these buttons
+	okButton->setText( tr("&OK") );
+	cancelButton->setText( tr("&Cancel") );
 	applyButton->setText( tr("Apply") );
 	helpButton->setText( tr("Help") );
-#endif
 }
 
 void PreferencesDialog::accept() {
