@@ -2,15 +2,9 @@ Source: smplayer
 Section: graphics
 Priority: extra
 Maintainer: Ricardo Villalba <rvm@users.sourceforge.net>
-Build-Depends:
- debhelper (>= 5),
- zlib1g-dev,
- qtbase5-dev (>= 5.4) | libqt4-dev,
- qt5-qmake (>= 5.4) | libqt4-dev,
- qtscript5-dev (>= 5.4) | libqt4-dev,
- qttools5-dev-tools (>= 5.4) | libqt4-dev,
- qt5-default (>= 5.4) | libqt4-dev
 Standards-Version: 3.7.2
+#Build-Depends: debhelper (>= 5), zlib1g-dev, libqt4-dev
+Build-Depends: debhelper (>= 5), zlib1g-dev, qtbase5-dev, qt5-qmake, qtscript5-dev, qttools5-dev-tools, qt5-default, qtbase5-private-dev
 
 Package: smplayer
 Architecture: any
