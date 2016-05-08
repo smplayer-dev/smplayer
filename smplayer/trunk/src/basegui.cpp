@@ -55,6 +55,7 @@
 #include "discname.h"
 #include "timeslider.h"
 #include "logwindow.h"
+#include "infowindow.h"
 #include "playlist.h"
 #include "filepropertiesdialog.h"
 #include "eqslider.h"
@@ -4382,9 +4383,10 @@ void BaseGui::helpFAQ() {
 
 void BaseGui::helpCLOptions() {
 	if (clhelp_window == 0) {
-		clhelp_window = new LogWindow(this);
+		clhelp_window = new InfoWindow(this);
 	}
 	clhelp_window->setWindowTitle( tr("SMPlayer command line options") );
+	clhelp_window->setWindowIcon( Images::icon("logo") );
 	clhelp_window->setHtml(CLHelp::help(true));
 	clhelp_window->show();
 }

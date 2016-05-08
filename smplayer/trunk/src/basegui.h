@@ -41,6 +41,7 @@
 class QWidget;
 class QMenu;
 class LogWindow;
+class InfoWindow;
 class MplayerWindow;
 
 class QLabel;
@@ -833,7 +834,7 @@ protected:
 #ifdef LOG_SMPLAYER
 	LogWindow * smplayer_log_window;
 #endif
-	LogWindow * clhelp_window;
+	InfoWindow * clhelp_window;
 
 	PreferencesDialog *pref_dialog;
 	FilePropertiesDialog *file_dialog;
