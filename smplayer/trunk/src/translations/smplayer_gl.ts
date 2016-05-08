@@ -4897,7 +4897,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
         <source>Use the lavf demuxer by default</source>
-        <translation>Usar o multiplexador LAVF de maneira predeterminada.</translation>
+        <translation>Usar o multiplexador LAVF de maneira predeterminada</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
@@ -5007,22 +5007,22 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
         <source>Log %1 output</source>
-        <translation>Rexistrar a &amp;saída do %1 </translation>
+        <translation>Rexistrar a saída do %1 </translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Se está marcada, SMPlayer almacenará a saída do %1 (pódea ver en &lt;b&gt;Opcións -&gt; Ver rexistros -&gt; MPlayer&lt;/b&gt;). De ter problemas este rexistro pode conter información importante, polo tanto é recomendábel manter activada esta opción.</translation>
+        <translation>Se está marcada, SMPlayer almacenará a saída do %1 (pódea ver en &lt;b&gt;Opcións -&gt; Ver rexistros -&gt; %1&lt;/b&gt;). De ter problemas este rexistro pode conter información importante, polo tanto é recomendábel manter activada esta opción.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
         <source>Autosave %1 log</source>
-        <translation>Gardar automaticamente o rexistro do MPlayer</translation>
+        <translation>Gardar automaticamente o rexistro do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="580"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Se esta opción está marcada, o rexistro do MPlayer gardarase no ficheiro especificado cada vez que se reproduza un novo ficheiro. Está destinado as aplicacións externas que queiran obter información sobre o ficheiro que se está reproducindo. </translation>
+        <translation>Se esta opción está marcada, o rexistro do %1 gardarase no ficheiro especificado cada vez que se reproduza un novo ficheiro. Está destinado as aplicacións externas que queiran obter información sobre o ficheiro que se está reproducindo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="585"/>
@@ -5057,7 +5057,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation>Informar de &amp;quebras de %1.</translation>
+        <translation>Informar de &amp;quebras de %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
@@ -5087,7 +5087,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Run %1 in its own window</source>
-        <translation>Executa&amp;r o %1 nunha xanela de seu</translation>
+        <translation>Executar o %1 nunha xanela de seu</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
@@ -5107,7 +5107,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Report %1 crashes</source>
-        <translation>Informar das &amp;quebras do %1.</translation>
+        <translation>Informar das quebras do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
