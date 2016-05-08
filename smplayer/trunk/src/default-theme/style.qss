@@ -27,8 +27,9 @@ QStatusBar::item {
 QToolTip {
 	background-color: lightyellow;
 	color: black;
-	border: 1px solid silver;
-	border-radius: 4px;
+	border: none;
+	padding: 0px;
+	margin: 0px;
 }
 
 ShareButton {
