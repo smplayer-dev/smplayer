@@ -27,7 +27,7 @@
 #endif
 */
 
-class QTextBrowser;
+class InfoWindow;
 class QPushButton;
 
 class PrefWidget;
@@ -113,7 +113,7 @@ protected:
 	PrefAssociations* page_associations;
 #endif
 
-	QTextBrowser * help_window;
+	InfoWindow * help_window;
 
 private:
 	QPushButton * okButton;
