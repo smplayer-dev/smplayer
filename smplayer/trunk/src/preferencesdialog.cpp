@@ -30,6 +30,10 @@
 #include "prefplaylist.h"
 #include "prefupdates.h"
 #include "prefnetwork.h"
+#include "infowindow.h"
+#include "preferences.h"
+#include "images.h"
+#include <QVBoxLayout>
 
 #ifdef TV_SUPPORT
 #include "preftv.h"
@@ -43,13 +47,6 @@
 #include "myscroller.h"
 #endif
 
-#include "preferences.h"
-
-#include <QVBoxLayout>
-#include <QTextBrowser>
-
-#include "images.h"
-
 PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f )
 {
@@ -62,21 +59,10 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	helpButton = buttonBox->button(QDialogButtonBox::Help);
 	connect( applyButton, SIGNAL(clicked()), this, SLOT(apply()) );
 	connect( helpButton, SIGNAL(clicked()), this, SLOT(showHelp()) );
-	
 
 	setWindowIcon( Images::icon("logo") );
 
-	help_window = new QTextBrowser(this);
-	help_window->setWindowFlags(Qt::Window);
-	help_window->resize(300, 450);
-	//help_window->adjustSize();
-	help_window->setWindowTitle( tr("SMPlayer - Help") );
-	help_window->setWindowIcon( Images::icon("logo") );
-	help_window->setOpenExternalLinks(true);
-
-	#if QT_VERSION >= 0x050000
-	MyScroller::setScroller(help_window);
-#endif
+	help_window = new InfoWindow(this);
 
 	page_general = new PrefGeneral;
 	addSection( page_general );
@@ -150,6 +136,7 @@ void PreferencesDialog::retranslateStrings() {
 	}
 
 	help_window->setWindowTitle( tr("SMPlayer - Help") );
+	help_window->setWindowIcon( Images::icon("logo") );
 
 	// Qt 4.2 doesn't update the buttons' text
 #if QT_VERSION < 0x040300

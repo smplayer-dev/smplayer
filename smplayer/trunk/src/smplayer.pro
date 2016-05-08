@@ -166,6 +166,7 @@ HEADERS += guiconfig.h \
 	core.h \
 	myscroller.h \
 	logwindow.h \
+	infowindow.h \
 	infofile.h \
 	seekwidget.h \
 	mytablewidget.h \
@@ -262,6 +263,7 @@ SOURCES	+= version.cpp \
 	core.cpp \
 	myscroller.cpp \
 	logwindow.cpp \
+	infowindow.cpp \
 	infofile.cpp \
 	seekwidget.cpp \
 	mytablewidget.cpp \
@@ -322,7 +324,7 @@ SOURCES	+= version.cpp \
 	myapplication.cpp \
 	main.cpp
 
-FORMS = inputdvddirectory.ui logwindowbase.ui filepropertiesdialog.ui \
+FORMS = inputdvddirectory.ui logwindowbase.ui infowindow.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui videoequalizer.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
