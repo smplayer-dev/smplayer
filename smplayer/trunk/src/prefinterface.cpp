@@ -145,7 +145,7 @@ void PrefInterface::createLanguageCombo() {
 	QStringList languages = translation_dir.entryList( QStringList() << "*.qm");
 	QRegExp rx_lang("smplayer_(.*)\\.qm");
 	language_combo->clear();
-	language_combo->addItem( tr("<Autodetect>") );
+	language_combo->addItem("<" + tr("System language") + ">");
 	for (int n=0; n < languages.count(); n++) {
 		if (rx_lang.indexIn(languages[n]) > -1) {
 			QString l = rx_lang.cap(1);
