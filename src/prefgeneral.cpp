@@ -1060,17 +1060,7 @@ void PrefGeneral::createHelp() {
 	addSectionTitle(tr("Video"));
 
 	setWhatsThis(vo_combo, tr("Video output driver"),
-		tr("Select the video output driver. %1 provides the best performance.")
-#ifdef Q_OS_WIN
-		  .arg("<b><i>directx</i></b>")
-#else
-#ifdef Q_OS_OS2
-		  .arg("<b><i>kva</i></b>")
-#else
-		  .arg("<b><i>xv</i></b>")
-#endif
-#endif
-		);
+		tr("Select the video output driver."));
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
 	/*
@@ -1158,24 +1148,7 @@ void PrefGeneral::createHelp() {
 	addSectionTitle(tr("Audio"));
 
 	setWhatsThis(ao_combo, tr("Audio output driver"),
-		tr("Select the audio output driver.") 
-#ifndef Q_OS_WIN
-#ifdef Q_OS_OS2
-        + " " +
-		tr("%1 is the recommended one. %2 is only available on older MPlayer (before version %3)")
-           .arg("<b><i>kai</i></b>")
-           .arg("<b><i>dart</i></b>")
-           .arg(MPLAYER_KAI_VERSION)
-#else
-        + " " + 
-		tr("%1 is the recommended one. Try to avoid %2 and %3, they are slow "
-           "and can have an impact on performance.")
-           .arg("<b><i>alsa</i></b>")
-           .arg("<b><i>esd</i></b>")
-           .arg("<b><i>arts</i></b>")
-#endif
-#endif
-		);
+		tr("Select the audio output driver."));
 
 	setWhatsThis(audio_equalizer_check, tr("Enable the audio equalizer"),
 		tr("Check this option if you want to use the audio equalizer.") );
