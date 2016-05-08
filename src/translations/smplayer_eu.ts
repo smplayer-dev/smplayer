@@ -6338,7 +6338,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Erabili multimedia teklak lastertekla orokor bezala</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6740,12 +6740,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Erabili multimedia teklak lastertekla orokor bezala</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau gaituta dagoenean multimedia teklek (Irakurri, Gelditu, Bolumena +/-, Mututu, etab.) lan egingo dute baita SMPlayer barrenean ekinean dagoenean ere.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
