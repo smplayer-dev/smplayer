@@ -34,7 +34,7 @@ class PlaylistDock;
 class TimeSliderAction;
 class VolumeSliderAction;
 class TimeLabelAction;
-class LogWindow;
+class InfoWindow;
 class GlobalShortcuts;
 
 class BaseGuiPlus : public BaseGui
@@ -132,7 +132,7 @@ protected:
 	QMenu * sendToScreen_menu;
 	MyActionGroup * sendToScreenGroup;
 
-	LogWindow * screens_info_window;
+	InfoWindow * screens_info_window;
 #endif
 
 #ifdef GLOBALSHORTCUTS
