@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
  <author>Ricardo Villalba</author>
- <class>LogWindowBase</class>
- <widget class="QWidget" name="LogWindowBase">
+ <class>LogWindow</class>
+ <widget class="QWidget" name="LogWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -92,7 +92,7 @@
   <connection>
    <sender>closeButton</sender>
    <signal>clicked()</signal>
-   <receiver>LogWindowBase</receiver>
+   <receiver>LogWindow</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
