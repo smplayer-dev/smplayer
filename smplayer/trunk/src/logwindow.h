@@ -19,11 +19,11 @@
 #ifndef LOGWINDOW_H
 #define LOGWINDOW_H
 
-#include "ui_logwindowbase.h"
+#include "ui_logwindow.h"
 
 class QTextEdit;
 
-class LogWindow : public QWidget, public Ui::LogWindowBase
+class LogWindow : public QWidget, public Ui::LogWindow
 {
 	Q_OBJECT
 

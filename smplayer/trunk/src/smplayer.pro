@@ -2,8 +2,8 @@ TEMPLATE = app
 LANGUAGE = C++
 
 CONFIG += qt warn_on
-#CONFIG += release
-CONFIG += debug
+CONFIG += release
+#CONFIG += debug
 
 QT += network xml
 
@@ -324,7 +324,7 @@ SOURCES	+= version.cpp \
 	myapplication.cpp \
 	main.cpp
 
-FORMS = inputdvddirectory.ui logwindowbase.ui infowindow.ui filepropertiesdialog.ui \
+FORMS = inputdvddirectory.ui logwindow.ui infowindow.ui filepropertiesdialog.ui \
         eqslider.ui seekwidget.ui inputurl.ui videoequalizer.ui vdpauproperties.ui \
         preferencesdialog.ui prefgeneral.ui prefdrives.ui prefinterface.ui \
         prefperformance.ui prefinput.ui prefsubtitles.ui prefadvanced.ui \
