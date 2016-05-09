@@ -26,6 +26,7 @@
 #include <QLabel>
 #include <QComboBox>
 #include <QMessageBox>
+#include <QDebug>
 
 using namespace Global;
 
@@ -80,9 +81,12 @@ AudioEqualizer::AudioEqualizer( QWidget* parent, Qt::WindowFlags f)
 
 	adjustSize();
 	//setFixedSize( sizeHint() );
+	
+	if (size().height() < 244) resize(size().width(), 244);
 }
 
 AudioEqualizer::~AudioEqualizer() {
+	//qDebug() << "AudioEqualizer::~AudioEqualizer: size:" << size();
 }
 
 void AudioEqualizer::createPresets() {
