@@ -42,6 +42,9 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 
 #if QT_VERSION >= 0x050000
 	MyScroller::setScroller(info->viewport());
+	MyScroller::setScroller(contributions->viewport());
+	MyScroller::setScroller(translators->viewport());
+	MyScroller::setScroller(license->viewport());
 #endif
 
 	logo->setPixmap( QPixmap(":/default-theme/logo.png").scaledToHeight(64, Qt::SmoothTransformation) );
