@@ -1714,7 +1714,7 @@ void Preferences::load() {
 		*/
 		if (config_version <= 4) {
 			use_slices = false;
-			osd = None;
+			osd = Seek;
 			frame_drop = false;
 			cache_for_files = 2048;
 			cache_for_streams = 2048;
