@@ -166,7 +166,7 @@ void Preferences::reset() {
 	autoload_m4a = true;
 	min_step = 4;
 
-	osd = None;
+	osd = Seek;
 	osd_scale = 1;
 	subfont_osd_scale = 3;
 	osd_delay = 2200;
@@ -388,7 +388,7 @@ void Preferences::reset() {
 	wheel_function_cycle = Seeking | Volume | Zoom | ChangeSpeed;
 	wheel_function_seeking_reverse = false;
 
-	drag_function = DragDisabled;
+	drag_function = MoveWindow;
 
 	seeking1 = 10;
 	seeking2 = 60;
