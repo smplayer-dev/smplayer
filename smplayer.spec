@@ -13,9 +13,15 @@ Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smpl
 Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
 
 %if 0%{?suse_version}
-#BuildRequires:  libqt4-devel
 BuildRequires:  hicolor-icon-theme
 BuildRequires:  libqt5-qttools-devel
+BuildRequires:  libQt5Gui-private-headers-devel
+%else
+BuildRequires:  qt5-qtbase-devel
+BuildRequires:  qt5-qttools-devel
+%endif
+BuildRequires:  desktop-file-utils
+BuildRequires:  gcc-c++
 BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5DBus)
@@ -27,14 +33,6 @@ BuildRequires:  pkgconfig(Qt5Sql)
 BuildRequires:  pkgconfig(Qt5WebKitWidgets)
 BuildRequires:  pkgconfig(Qt5Widgets)
 BuildRequires:  pkgconfig(Qt5Xml)
-BuildRequires:  libQt5Gui-private-headers-devel
-#BuildRequires:  libqt5-qtbase-common-devel
-%else
-BuildRequires:  qt4-devel
-#BuildRequires:  qtwebkit-devel
-%endif
-BuildRequires:  desktop-file-utils
-BuildRequires:  gcc-c++
 
 Requires:       mpv
 %{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
@@ -54,24 +52,17 @@ and with the same settings.
 # correction for wrong-file-end-of-line-encoding
 %{__sed} -i 's/\r//' *.txt
 # fix files which are not UTF-8 
-iconv -f Latin1 -t UTF-8 -o Changelog.utf8 Changelog 
+iconv -f Latin1 -t UTF-8 -o Changelog.utf8 Changelog
 mv Changelog.utf8 Changelog
 
 # change rcc binary
-%if 0%{?suse_version}
 %{__sed} -e 's/rcc -binary/rcc-qt5 -binary/' -i smplayer-themes-%{smplayer_themes_ver}/themes/Makefile
 %{__sed} -e 's/rcc -binary/rcc-qt5 -binary/' -i smplayer-skins-%{smplayer_skins_ver}/themes/Makefile
-%endif
 
 %build
 make \
-%if 0%{?suse_version}
-	QMAKE=%{_libqt5_bindir}/qmake \
-	LRELEASE=%{_libqt5_bindir}/lrelease \
-%else
-	QMAKE=%{_qt4_qmake} \
-	LRELEASE=%{_bindir}/lrelease-qt4 \
-%endif
+	QMAKE=%{_bindir}/qmake-qt5 \
+	LRELEASE=%{_bindir}/lrelease-qt5 \
 	PREFIX=%{_prefix} \
 	DOC_PATH="\\\"%{_docdir}/%{name}/\\\"" \
 	QMAKE_OPTS=DEFINES+=NO_DEBUG_ON_CONSOLE
