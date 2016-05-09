@@ -2075,7 +2075,11 @@ void Core::startMplayer( QString file, double seek ) {
 		default: cache = 0;
 	}
 
-	proc->setOption("cache", QString::number(cache));
+	if (pref->cache_auto) {
+		proc->setOption("cache_auto");
+	} else {
+		proc->setOption("cache", QString::number(cache));
+	}
 
 	if (mset.speed != 1.0) {
 		proc->setOption("speed", QString::number(mset.speed));

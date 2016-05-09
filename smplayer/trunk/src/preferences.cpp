@@ -230,6 +230,7 @@ void Preferences::reset() {
 	threads = 1;
 	hwdec = "no";
 
+	cache_auto = true;
 	cache_for_files = 2048;
 	cache_for_streams = 2048;
 	cache_for_dvds = 0; // not recommended to use cache for dvds
@@ -747,6 +748,7 @@ void Preferences::save() {
 	set->setValue("threads", threads);
 	set->setValue("hwdec", hwdec);
 
+	set->setValue("cache_auto", cache_auto);
 	set->setValue("cache_for_files", cache_for_files);
 	set->setValue("cache_for_streams", cache_for_streams);
 	set->setValue("cache_for_dvds", cache_for_dvds);
@@ -1297,6 +1299,7 @@ void Preferences::load() {
 	threads = set->value("threads", threads).toInt();
 	hwdec = set->value("hwdec", hwdec).toString();
 
+	cache_auto = set->value("cache_auto", cache_auto).toBool();
 	cache_for_files = set->value("cache_for_files", cache_for_files).toInt();
 	cache_for_streams = set->value("cache_for_streams", cache_for_streams).toInt();
 	cache_for_dvds = set->value("cache_for_dvds", cache_for_dvds).toInt();
