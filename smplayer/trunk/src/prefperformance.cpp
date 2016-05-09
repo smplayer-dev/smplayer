@@ -97,6 +97,7 @@ void PrefPerformance::retranslateStrings() {
 }
 
 void PrefPerformance::setData(Preferences * pref) {
+	cache_auto_check->setChecked(pref->cache_auto);
 	setCacheForFiles( pref->cache_for_files );
 	setCacheForStreams( pref->cache_for_streams );
 	setCacheForDVDs( pref->cache_for_dvds );
@@ -126,6 +127,7 @@ void PrefPerformance::setData(Preferences * pref) {
 void PrefPerformance::getData(Preferences * pref) {
 	requires_restart = false;
 
+	TEST_AND_SET(pref->cache_auto, cache_auto_check->isChecked());
 	TEST_AND_SET(pref->cache_for_files, cacheForFiles());
 	TEST_AND_SET(pref->cache_for_streams, cacheForStreams());
 	TEST_AND_SET(pref->cache_for_dvds, cacheForDVDs());
@@ -368,7 +370,10 @@ void PrefPerformance::createHelp() {
 
 	addSectionTitle(tr("Cache"));
 
-	setWhatsThis(cache_files_spin, tr("Cache for files"), 
+	setWhatsThis(cache_auto_check, tr("Auto"),
+		tr("Usually this option will enable the cache when it's necessary."));
+
+	setWhatsThis(cache_files_spin, tr("Cache for files"),
 		tr("This option specifies how much memory (in kBytes) to use when "
            "precaching a file.") );
 
