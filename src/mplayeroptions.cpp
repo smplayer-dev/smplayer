@@ -72,6 +72,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		}
 	}
 	else
+	if (option_name == "cache_auto") {
+		// Nothing to do
+	}
+	else
 	if (option_name == "stop-xscreensaver") {
 		bool stop_ss = value.toBool();
 		if (stop_ss) arg << "-stop-xscreensaver"; else arg << "-nostop-xscreensaver";
