@@ -1,5 +1,5 @@
 Name:           smplayer
-Version:        16.4.0
+Version:        16.4.0.7815
 %global smplayer_themes_ver 15.12.0
 %global smplayer_skins_ver 15.2.0
 Release:        1%{?dist}
@@ -15,6 +15,20 @@ Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smpla
 %if 0%{?suse_version}
 BuildRequires:  libqt4-devel
 BuildRequires:  hicolor-icon-theme
+BuildRequires:  libqt5-qttools-devel
+BuildRequires:  pkgconfig(Qt5Concurrent)
+BuildRequires:  pkgconfig(Qt5Core)
+BuildRequires:  pkgconfig(Qt5DBus)
+BuildRequires:  pkgconfig(Qt5Gui)
+BuildRequires:  pkgconfig(Qt5Network)
+BuildRequires:  pkgconfig(Qt5PrintSupport)
+BuildRequires:  pkgconfig(Qt5Script)
+BuildRequires:  pkgconfig(Qt5Sql)
+BuildRequires:  pkgconfig(Qt5WebKitWidgets)
+BuildRequires:  pkgconfig(Qt5Widgets)
+BuildRequires:  pkgconfig(Qt5Xml)
+BuildRequires:  libQt5Gui-private-headers-devel
+#BuildRequires:  libqt5-qtbase-common-devel
 %else
 BuildRequires:  qt4-devel
 #BuildRequires:  qtwebkit-devel
@@ -22,7 +36,7 @@ BuildRequires:  qt4-devel
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
 
-Requires:       mplayer
+Requires:       mpv
 %{?_qt4_version:Requires: qt4%{?_isa} >= %{_qt4_version}}
 
 %description
@@ -45,7 +59,10 @@ mv Changelog.utf8 Changelog
 
 %build
 make \
-%if !0%{?suse_version}
+%if 0%{?suse_version}
+	QMAKE=%{_libqt5_bindir}/qmake \
+	LRELEASE=%{_libqt5_bindir}/lrelease \
+%else
 	QMAKE=%{_qt4_qmake} \
 	LRELEASE=%{_bindir}/lrelease-qt4 \
 %endif
