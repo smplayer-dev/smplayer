@@ -24,16 +24,8 @@
 // DOCK_PLAYLIST
 // if 1, the playlist will be docked in the main window, instead
 // of being a top level window
-#ifdef Q_OS_WIN
+
 #define DOCK_PLAYLIST 1
-#else
-  #if QT_VERSION >= 0x050000
-  // There's problems with the playlist with Qt5 when using compiz
-  #define DOCK_PLAYLIST 0
-  #else
-  #define DOCK_PLAYLIST 1
-  #endif
-#endif
 
 
 // AUTODISABLE_ACTIONS
