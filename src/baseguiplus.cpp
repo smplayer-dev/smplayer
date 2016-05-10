@@ -492,7 +492,9 @@ void BaseGuiPlus::aboutToEnterFullscreen() {
 	if ((playlist_screen == mainwindow_screen) /* || 
         (!fullscreen_playlist_was_floating) */ ) 
 	{
+		#if QT_VERSION < 0x050000 || !defined(Q_OS_LINUX)
 		playlistdock->setFloating(true);
+		#endif
 		playlistdock->hide();
 	}
 #endif
