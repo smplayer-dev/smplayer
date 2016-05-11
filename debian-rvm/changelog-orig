@@ -1,4 +1,4 @@
-smplayer (16.4.0) precise; urgency=low
+smplayer (16.4.0.7834) precise; urgency=low
 
   * The Windows installer now includes mpv as well.
   * Now it's easier to switch between mplayer and mpv (Preferences -> General,
