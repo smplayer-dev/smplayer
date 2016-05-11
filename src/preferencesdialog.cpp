@@ -34,6 +34,7 @@
 #include "preferences.h"
 #include "images.h"
 #include <QVBoxLayout>
+#include <QDebug>
 
 #ifdef TV_SUPPORT
 #include "preftv.h"
@@ -49,12 +50,14 @@
 
 PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f )
+	, icon_mode(false)
 {
 	setupUi(this);
 	/*
 	sections->setUniformItemSizes(true);
 	sections->setResizeMode(QListView::Adjust);
 	*/
+	sections->setMovement(QListView::Static);
 
 	// Setup buttons
 	okButton = buttonBox->button(QDialogButtonBox::Ok);
@@ -113,10 +116,31 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 
 	//adjustSize();
 	retranslateStrings();
+
+	/*
+	qDebug() << "PreferencesDialog: movement:" << sections->movement();
+	qDebug() << "PreferencesDialog: maximumWidth:" << sections->maximumWidth();
+	qDebug() << "PreferencesDialog: spacing:" << sections->spacing();
+	*/
 }
 
-PreferencesDialog::~PreferencesDialog()
-{
+PreferencesDialog::~PreferencesDialog() {
+}
+
+void PreferencesDialog::setIconMode(bool b) {
+	qDebug() << "PreferencesDialog::setIconMode:" << b;
+
+	if (b) {
+		sections->setUniformItemSizes(true);
+		sections->setViewMode(QListView::IconMode);
+		sections->setMaximumWidth(128);
+		sections->setSpacing(12);
+	} else {
+		sections->setUniformItemSizes(false);
+		sections->setViewMode(QListView::ListMode);
+		sections->setMaximumWidth(16777215);
+		sections->setSpacing(0);
+	}
 }
 
 void PreferencesDialog::showSection(Section s) {
