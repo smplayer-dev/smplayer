@@ -216,7 +216,7 @@ QString PrefAssociations::sectionName() {
 }
 
 QPixmap PrefAssociations::sectionIcon() {
-	return Images::icon("pref_associations", 22);
+	return Images::icon("pref_associations");
 }
 
 void PrefAssociations::retranslateStrings() {

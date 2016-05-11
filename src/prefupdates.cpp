@@ -47,7 +47,7 @@ QString PrefUpdates::sectionName() {
 }
 
 QPixmap PrefUpdates::sectionIcon() {
-    return Images::icon("pref_updates", 22);
+	return Images::icon("pref_updates");
 }
 
 void PrefUpdates::retranslateStrings() {

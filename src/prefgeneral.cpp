@@ -131,7 +131,7 @@ QString PrefGeneral::sectionName() {
 }
 
 QPixmap PrefGeneral::sectionIcon() {
-	return Images::icon("pref_general", 22);
+	return Images::icon("pref_general");
 }
 
 void PrefGeneral::retranslateStrings() {
