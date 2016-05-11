@@ -27,8 +27,7 @@ PrefPlaylist::PrefPlaylist(QWidget * parent, Qt::WindowFlags f)
 	retranslateStrings();
 }
 
-PrefPlaylist::~PrefPlaylist()
-{
+PrefPlaylist::~PrefPlaylist() {
 }
 
 QString PrefPlaylist::sectionName() {
@@ -36,7 +35,7 @@ QString PrefPlaylist::sectionName() {
 }
 
 QPixmap PrefPlaylist::sectionIcon() {
-	return Images::icon("pref_playlist", 22);
+	return Images::icon("pref_playlist");
 }
 
 void PrefPlaylist::retranslateStrings() {

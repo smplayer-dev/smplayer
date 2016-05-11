@@ -64,7 +64,7 @@ QString PrefNetwork::sectionName() {
 }
 
 QPixmap PrefNetwork::sectionIcon() {
-	return Images::icon("pref_network", 22);
+	return Images::icon("pref_network");
 }
 
 void PrefNetwork::retranslateStrings() {

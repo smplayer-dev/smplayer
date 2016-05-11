@@ -42,7 +42,7 @@ QString PrefTV::sectionName() {
 }
 
 QPixmap PrefTV::sectionIcon() {
-	return Images::icon("pref_tv", 22);
+	return Images::icon("pref_tv");
 }
 
 void PrefTV::retranslateStrings() {
