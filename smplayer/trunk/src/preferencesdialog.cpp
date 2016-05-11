@@ -51,6 +51,10 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	: QDialog(parent, f )
 {
 	setupUi(this);
+	/*
+	sections->setUniformItemSizes(true);
+	sections->setResizeMode(QListView::Adjust);
+	*/
 
 	// Setup buttons
 	okButton = buttonBox->button(QDialogButtonBox::Ok);
@@ -128,6 +132,7 @@ void PreferencesDialog::retranslateStrings() {
 		PrefWidget * w = (PrefWidget*) pages->widget(n);
 		sections->item(n)->setText( w->sectionName() );
 		sections->item(n)->setIcon( w->sectionIcon() );
+		sections->item(n)->setToolTip( w->sectionName() );
 	}
 
 	if (help_window->isVisible()) {
