@@ -5051,6 +5051,11 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 		return;
 	}
 
+	if (dir_list.count() == 1 && file_list.isEmpty()) {
+		openDirectory(dir_list[0]);
+		return;
+	}
+
 	if (pref->auto_add_to_playlist) {
 		if (!playlist->maybeSave()) return;
 		playlist->clear();
