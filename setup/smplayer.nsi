@@ -940,9 +940,9 @@ Function Backup_SMTube
 
   IfFileExists "$SMPlayer_Path\smtube.exe" 0 NoBackup
 !ifdef QT5
-    IfFileExists "$SMPlayer_Path\Qt5WebKit.dll" 0 NoBackup
+    IfFileExists "$SMPlayer_Path\Qt5WebKit.dll" 0 QtVerMismatch
 !else
-    IfFileExists "$SMPlayer_Path\QtWebKit4.dll" 0 NoBackup
+    IfFileExists "$SMPlayer_Path\QtWebKit4.dll" 0 QtVerMismatch
 !endif
       DetailPrint $(Info_SMTube_Backup)
       CreateDirectory "$PLUGINSDIR\smtubebak\translations"
@@ -972,6 +972,10 @@ Function Backup_SMTube
 
     StrCpy $Restore_SMTube 1
     Return
+  QtVerMismatch:
+    DetailPrint "Current SMTube version is incompatible with this version of SMPlayer."
+    DetailPrint "Please upgrade to a newer version of SMTube."
+    Sleep 5000
   NoBackup:
     StrCpy $Restore_SMTube 0
 
