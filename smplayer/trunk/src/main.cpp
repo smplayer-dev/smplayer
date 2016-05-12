@@ -21,16 +21,17 @@
 
 #include <QDir>
 
-int main( int argc, char ** argv ) 
-{
-#if QT_VERSION >= 0x050400 && QT_VERSION < 0x050600
-	if (qgetenv("QT_DEVICE_PIXEL_RATIO").isEmpty()) {
-		qputenv("QT_DEVICE_PIXEL_RATIO", QByteArray("auto"));
-	}
-#elif QT_VERSION >= 0x050600
-	QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
+#ifdef HDPI_SUPPORT
+#include "paths.h"
+#include "hdpisupport.h"
 #endif
-	
+
+int main( int argc, char ** argv )
+{
+#ifdef HDPI_SUPPORT
+	HDPISupport * hdpi = new HDPISupport(Paths::configPath());
+#endif
+
 	MyApplication a( "smplayer", argc, argv );
 	/*
 	if (a.isRunning()) { 
@@ -90,6 +91,10 @@ int main( int argc, char ** argv )
 	int r = a.exec();
 
 	delete smplayer;
+
+#ifdef HDPI_SUPPORT
+	delete hdpi;
+#endif
 
 	return r;
 }
