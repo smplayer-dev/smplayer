@@ -59,6 +59,10 @@ PreferencesDialog::PreferencesDialog(QWidget * parent, Qt::WindowFlags f)
 	*/
 	sections->setMovement(QListView::Static);
 
+#if QT_VERSION >= 0x050000
+	MyScroller::setScroller(sections->viewport());
+#endif
+
 	// Setup buttons
 	okButton = buttonBox->button(QDialogButtonBox::Ok);
 	cancelButton = buttonBox->button(QDialogButtonBox::Cancel);
