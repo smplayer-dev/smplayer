@@ -45,8 +45,8 @@ public:
 	void setScaleFactor(double v) { scale_factor = v; };
 	double scaleFactor() { return scale_factor; };
 
-	void setPixelRatio(double v) { pixel_ratio = v; };
-	double pixelRatio() { return pixel_ratio; };
+	void setPixelRatio(int v) { pixel_ratio = v; };
+	int pixelRatio() { return pixel_ratio; };
 
 	static HDPISupport * instance();
 
@@ -56,7 +56,7 @@ private:
 	bool enabled;
 	bool auto_scale;
 	double scale_factor;
-	double pixel_ratio;
+	int pixel_ratio;
 };
 
 #endif

@@ -74,7 +74,7 @@ bool HDPISupport::load() {
 	enabled = set->value("enabled", enabled).toBool();
 	auto_scale = set->value("auto_scale", auto_scale).toBool();
 	scale_factor = set->value("scale_factor", scale_factor).toDouble();
-	pixel_ratio = set->value("pixel_ratio", pixel_ratio).toDouble();
+	pixel_ratio = set->value("pixel_ratio", pixel_ratio).toInt();
 	set->endGroup();
 
 	return true;
