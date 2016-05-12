@@ -32,7 +32,10 @@ HDPISupport * HDPISupport::instance() {
 
 HDPISupport::HDPISupport(const QString & config_path)
 	: set(0)
-	, enabled(false)
+	, enabled(true)
+	, auto_scale(true)
+	, scale_factor(1)
+	, pixel_ratio(2)
 {
 	if (!config_path.isEmpty()) setConfigPath(config_path);
 	instance_obj = this;
@@ -57,8 +60,9 @@ void HDPISupport::setConfigPath(const QString & config_path) {
 		qDebug() << "HDPISupport::setConfigPath: ini file:" << inifile;
 		set = new QSettings(inifile, QSettings::IniFormat);
 		load();
-		apply();
 	}
+
+	apply();
 }
 
 bool HDPISupport::load() {
@@ -67,7 +71,10 @@ bool HDPISupport::load() {
 	if (!set) return false;
 
 	set->beginGroup("hdpisupport");
-	enabled = set->value("enabled", false).toBool();
+	enabled = set->value("enabled", enabled).toBool();
+	auto_scale = set->value("auto_scale", auto_scale).toBool();
+	scale_factor = set->value("scale_factor", scale_factor).toDouble();
+	pixel_ratio = set->value("pixel_ratio", pixel_ratio).toDouble();
 	set->endGroup();
 
 	return true;
@@ -80,6 +87,9 @@ bool HDPISupport::save() {
 
 	set->beginGroup("hdpisupport");
 	set->setValue("enabled", enabled);
+	set->setValue("auto_scale", auto_scale);
+	set->setValue("scale_factor", scale_factor);
+	set->setValue("pixel_ratio", pixel_ratio);
 	set->endGroup();
 
 	return true;
@@ -89,12 +99,18 @@ void HDPISupport::apply() {
 	qDebug("HDPISupport::apply");
 
 	if (enabled) {
-	#if QT_VERSION >= 0x050400 && QT_VERSION < 0x050600
+		#if QT_VERSION >= 0x050400 && QT_VERSION < 0x050600
 		if (qgetenv("QT_DEVICE_PIXEL_RATIO").isEmpty()) {
 			qputenv("QT_DEVICE_PIXEL_RATIO", QByteArray("auto"));
 		}
-	#elif QT_VERSION >= 0x050600
+		if (!auto_scale) {
+			qputenv("QT_DEVICE_PIXEL_RATIO", QByteArray::number(pixel_ratio));
+		}
+		#elif QT_VERSION >= 0x050600
 		QApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
-	#endif
+		if (!auto_scale) {
+			qputenv("QT_SCALE_FACTOR", QByteArray::number(scale_factor));
+		}
+		#endif
 	}
 }

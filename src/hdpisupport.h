@@ -36,7 +36,17 @@ public:
 
 	void apply();
 
+	void setHDPiEnabled(bool b) { enabled = b; };
 	bool isHDPIEnabled() { return enabled; };
+
+	void setAutoScale(bool b) { auto_scale = b; };
+	bool autoScale() { return auto_scale; };
+
+	void setScaleFactor(double v) { scale_factor = v; };
+	double scaleFactor() { return scale_factor; };
+
+	void setPixelRatio(double v) { pixel_ratio = v; };
+	double pixelRatio() { return pixel_ratio; };
 
 	static HDPISupport * instance();
 
@@ -44,6 +54,9 @@ private:
 	static HDPISupport * instance_obj;
 	QSettings * set;
 	bool enabled;
+	bool auto_scale;
+	double scale_factor;
+	double pixel_ratio;
 };
 
 #endif
