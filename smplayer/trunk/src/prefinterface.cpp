@@ -39,6 +39,7 @@
 #endif
 
 #define SINGLE_INSTANCE_TAB 2
+#define HDPI_TAB 5
 
 PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
@@ -133,6 +134,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 #ifdef HDPI_SUPPORT
 	connect(hdpi_scale_slider, SIGNAL(valueChanged(int)), this, SLOT(updateHDPIScaleNumber(int)));
 #else
+	tabWidget->setTabEnabled(HDPI_TAB, false);
 #endif
 
 	retranslateStrings();

@@ -949,7 +949,7 @@
      </widget>
      <widget class="QWidget" name="tab_6">
       <attribute name="title">
-       <string>High &amp;DPI support</string>
+       <string>High &amp;DPI</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_9">
        <item>
