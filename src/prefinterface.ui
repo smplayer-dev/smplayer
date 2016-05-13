@@ -947,6 +947,95 @@
        </item>
       </layout>
      </widget>
+     <widget class="QWidget" name="tab_6">
+      <attribute name="title">
+       <string>High &amp;DPI support</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_9">
+       <item>
+        <widget class="QCheckBox" name="enable_hdpi_check">
+         <property name="text">
+          <string>&amp;Enable support for high DPI screens</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QGroupBox" name="scale_group">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="title">
+          <string>Scale</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_8">
+          <item>
+           <widget class="QCheckBox" name="auto_scale_check">
+            <property name="text">
+             <string>A&amp;uto</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_5">
+            <item>
+             <widget class="QLabel" name="hdpi_scale_label">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string notr="true">Scale fact&amp;or:</string>
+              </property>
+              <property name="buddy">
+               <cstring>hdpi_scale_slider</cstring>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QSlider" name="hdpi_scale_slider">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="orientation">
+               <enum>Qt::Horizontal</enum>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="hdpi_scale_num_label">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="frameShape">
+               <enum>QFrame::Panel</enum>
+              </property>
+              <property name="frameShadow">
+               <enum>QFrame::Sunken</enum>
+              </property>
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>319</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
     </widget>
    </item>
   </layout>
@@ -992,6 +1081,9 @@
   <tabstop>recents_max_items_spin</tabstop>
   <tabstop>url_max_items_spin</tabstop>
   <tabstop>save_dirs_check</tabstop>
+  <tabstop>enable_hdpi_check</tabstop>
+  <tabstop>auto_scale_check</tabstop>
+  <tabstop>hdpi_scale_slider</tabstop>
  </tabstops>
  <resources/>
  <connections>
@@ -1024,6 +1116,70 @@
     <hint type="destinationlabel">
      <x>480</x>
      <y>150</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>auto_scale_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>hdpi_scale_label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>69</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>auto_scale_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>hdpi_scale_slider</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>293</x>
+     <y>136</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>enable_hdpi_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>scale_group</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>245</x>
+     <y>50</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>245</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>auto_scale_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>hdpi_scale_num_label</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>103</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>460</x>
+     <y>136</y>
     </hint>
    </hints>
   </connection>

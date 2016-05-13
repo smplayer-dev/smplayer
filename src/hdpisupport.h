@@ -36,7 +36,7 @@ public:
 
 	void apply();
 
-	void setHDPiEnabled(bool b) { enabled = b; };
+	void setHDPIEnabled(bool b) { enabled = b; };
 	bool isHDPIEnabled() { return enabled; };
 
 	void setAutoScale(bool b) { auto_scale = b; };

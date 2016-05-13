@@ -128,6 +128,11 @@ protected:
 	void setRememberDirs(bool b);
 	bool rememberDirs();
 
+#ifdef HDPI_SUPPORT
+	void loadHDPIData();
+	void saveHDPIData();
+#endif
+
 protected slots:
 	void on_changeFontButton_clicked();
 #ifdef SINGLE_INSTANCE
@@ -137,6 +142,10 @@ protected slots:
 	void GUIChanged(int index);
 #endif
 	void resizeMethodChanged(int index);
+
+#ifdef HDPI_SUPPORT
+	void updateHDPIScaleNumber(int v);
+#endif
 
 protected:
 	virtual void retranslateStrings();
