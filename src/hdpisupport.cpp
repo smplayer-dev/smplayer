@@ -19,7 +19,12 @@
 #include "hdpisupport.h"
 #include <QSettings>
 #include <QApplication>
+
+//#define DEBUG
+
+#ifdef DEBUG
 #include <QDebug>
+#endif
 
 HDPISupport * HDPISupport::instance_obj = 0;
 
@@ -57,7 +62,10 @@ HDPISupport::~HDPISupport() {
 
 #ifdef HDPI_STORE_DATA
 void HDPISupport::setConfigPath(const QString & config_path) {
+	#ifdef DEBUG
 	qDebug() << "HDPISupport::setConfigPath:" << config_path;
+	#endif
+
 	if (set) {
 		delete set;
 		set = 0;
@@ -65,7 +73,9 @@ void HDPISupport::setConfigPath(const QString & config_path) {
 
 	if (!config_path.isEmpty()) {
 		QString inifile = config_path + "/hdpi.ini";
+		#ifdef DEBUG
 		qDebug() << "HDPISupport::setConfigPath: ini file:" << inifile;
+		#endif
 		set = new QSettings(inifile, QSettings::IniFormat);
 		load();
 	}
@@ -74,7 +84,9 @@ void HDPISupport::setConfigPath(const QString & config_path) {
 }
 
 bool HDPISupport::load() {
+	#ifdef DEBUG
 	qDebug("HDPISupport::load");
+	#endif
 
 	if (!set) return false;
 
@@ -89,7 +101,9 @@ bool HDPISupport::load() {
 }
 
 bool HDPISupport::save() {
+	#ifdef DEBUG
 	qDebug("HDPISupport::save");
+	#endif
 
 	if (!set) return false;
 
@@ -105,7 +119,9 @@ bool HDPISupport::save() {
 #endif
 
 void HDPISupport::apply() {
+	#ifdef DEBUG
 	qDebug("HDPISupport::apply");
+	#endif
 
 	if (enabled) {
 		#if QT_VERSION >= 0x050400 && QT_VERSION < 0x050600
