@@ -30,6 +30,14 @@
 #include <QStyleFactory>
 #include <QFontDialog>
 
+#ifdef HDPI_SUPPORT
+#include "hdpisupport.h"
+
+#if QT_VERSION >= 0x050600
+#define HDPI_USE_SCALE_FACTOR
+#endif
+#endif
+
 #define SINGLE_INSTANCE_TAB 2
 
 PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
@@ -120,6 +128,11 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	skin_combo->hide();
 	skin_label->hide();
 	skin_sp->hide();
+#endif
+
+#ifdef HDPI_SUPPORT
+	connect(hdpi_scale_slider, SIGNAL(valueChanged(int)), this, SLOT(updateHDPIScaleNumber(int)));
+#else
 #endif
 
 	retranslateStrings();
@@ -225,6 +238,16 @@ void PrefInterface::retranslateStrings() {
 	floating_width_label->setNum(floating_width_slider->value());
 	floating_margin_label->setNum(floating_margin_slider->value());
 
+#ifdef HDPI_SUPPORT
+	#ifdef HDPI_USE_SCALE_FACTOR
+	hdpi_scale_label->setText(tr("Scale fact&or:"));
+	hdpi_scale_num_label->setNum((double) hdpi_scale_slider->value() / 10);
+	#else
+	hdpi_scale_label->setText(tr("Pixel rati&o:"));
+	hdpi_scale_num_label->setNum(hdpi_scale_slider->value());
+	#endif
+#endif
+
 	createHelp();
 }
 
@@ -274,6 +297,10 @@ void PrefInterface::setData(Preferences * pref) {
 	setRecentsMaxItems(pref->history_recents->maxItems());
 	setURLMaxItems(pref->history_urls->maxItems());
 	setRememberDirs(pref->save_dirs);
+
+#ifdef HDPI_SUPPORT
+	loadHDPIData();
+#endif
 }
 
 void PrefInterface::getData(Preferences * pref) {
@@ -352,6 +379,10 @@ void PrefInterface::getData(Preferences * pref) {
 	}
 
 	pref->save_dirs = rememberDirs();
+
+#ifdef HDPI_SUPPORT
+	saveHDPIData();
+#endif
 }
 
 void PrefInterface::setLanguage(QString lang) {
@@ -653,6 +684,44 @@ void PrefInterface::setRememberDirs(bool b) {
 bool PrefInterface::rememberDirs() {
 	return save_dirs_check->isChecked();
 }
+
+#ifdef HDPI_SUPPORT
+void PrefInterface::loadHDPIData() {
+	HDPISupport * hdpi = HDPISupport::instance();
+	enable_hdpi_check->setChecked(hdpi->isHDPIEnabled());
+	auto_scale_check->setChecked(hdpi->autoScale());
+
+	#ifdef HDPI_USE_SCALE_FACTOR
+	hdpi_scale_slider->setMinimum(0);
+	hdpi_scale_slider->setMaximum(4*10);
+	hdpi_scale_slider->setValue(hdpi->scaleFactor() * 10);
+	#else
+	hdpi_scale_slider->setMinimum(0);
+	hdpi_scale_slider->setMaximum(4);
+	hdpi_scale_slider->setValue(hdpi->pixelRatio());
+	#endif
+}
+
+void PrefInterface::updateHDPIScaleNumber(int v) {
+	#ifdef HDPI_USE_SCALE_FACTOR
+	hdpi_scale_num_label->setNum((double) v / 10);
+	#else
+	hdpi_scale_num_label->setNum(v);
+	#endif
+}
+
+void PrefInterface::saveHDPIData() {
+	HDPISupport * hdpi = HDPISupport::instance();
+	hdpi->setHDPIEnabled(enable_hdpi_check->isChecked());
+	hdpi->setAutoScale(auto_scale_check->isChecked());
+	#ifdef HDPI_USE_SCALE_FACTOR
+	hdpi->setScaleFactor((double) hdpi_scale_slider->value() / 10);
+	#else
+	hdpi->setPixelRatio(hdpi_scale_slider->value());
+	#endif
+	hdpi->save();
+}
+#endif
 
 void PrefInterface::createHelp() {
 	clearHelp();
