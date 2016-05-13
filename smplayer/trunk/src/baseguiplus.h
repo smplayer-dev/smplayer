@@ -133,6 +133,7 @@ protected:
 	MyActionGroup * sendToScreenGroup;
 
 	InfoWindow * screens_info_window;
+	QLabel * detached_label;
 #endif
 
 #ifdef GLOBALSHORTCUTS
