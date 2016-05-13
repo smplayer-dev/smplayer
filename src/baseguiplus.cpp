@@ -193,8 +193,9 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	#endif
 
 	// Label that replaces the mplayerwindow when detached
-	detached_label = new QLabel(0);
+	detached_label = new QLabel(panel);
 	detached_label->setAlignment(Qt::AlignCenter);
+	panel->layout()->addWidget(detached_label);
 	detached_label->hide();
 #endif
 
@@ -211,8 +212,6 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 BaseGuiPlus::~BaseGuiPlus() {
 	saveConfig();
 	tray->hide();
-
-	delete detached_label;
 }
 
 void BaseGuiPlus::populateMainMenu() {
@@ -904,7 +903,6 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			mplayerwindow->setParent(0);
 			mplayerwindow->setWindowTitle(tr("SMPlayer external screen output"));
 
-			panel->layout()->addWidget(detached_label);
 			detached_label->show();
 		}
 		mplayerwindow->show();
@@ -912,7 +910,6 @@ void BaseGuiPlus::detachVideo(bool detach) {
 		if (isVideoDetached()) {
 			fullscreenAct->setEnabled(true);
 
-			panel->layout()->removeWidget(detached_label);
 			detached_label->hide();
 
 			mplayerwindow->setWindowTitle(QString::null);
