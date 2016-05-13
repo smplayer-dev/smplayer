@@ -915,6 +915,7 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			panel->layout()->removeWidget(detached_label);
 			detached_label->hide();
 
+			mplayerwindow->setWindowTitle(QString::null);
 			mplayerwindow->setParent(panel);
 			panel->layout()->addWidget(mplayerwindow);
 		}
