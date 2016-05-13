@@ -31,23 +31,31 @@ HDPISupport * HDPISupport::instance() {
 }
 
 HDPISupport::HDPISupport(const QString & config_path)
-	: set(0)
-	, enabled(true)
+	: enabled(true)
 	, auto_scale(true)
 	, scale_factor(1)
 	, pixel_ratio(2)
 {
-	if (!config_path.isEmpty()) setConfigPath(config_path);
 	instance_obj = this;
+
+#ifdef HDPI_STORE_DATA
+	set = 0;
+	setConfigPath(config_path);
+#else
+	apply();
+#endif
 }
 
 HDPISupport::~HDPISupport() {
+#ifdef HDPI_STORE_DATA
 	if (set) {
 		save();
 		delete set;
 	}
+#endif
 }
 
+#ifdef HDPI_STORE_DATA
 void HDPISupport::setConfigPath(const QString & config_path) {
 	qDebug() << "HDPISupport::setConfigPath:" << config_path;
 	if (set) {
@@ -94,6 +102,7 @@ bool HDPISupport::save() {
 
 	return true;
 }
+#endif
 
 void HDPISupport::apply() {
 	qDebug("HDPISupport::apply");
