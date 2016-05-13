@@ -1027,7 +1027,7 @@
           <enum>QFrame::StyledPanel</enum>
          </property>
          <property name="text">
-          <string>Changes in this section requires to restart SMPlayer</string>
+          <string>Changes in this section requires to restart SMPlayer in order to take effect</string>
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
