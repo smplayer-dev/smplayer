@@ -1,70 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
-        <location filename="../about.cpp" line="61"/>
+        <location filename="../about.cpp" line="58"/>
         <source>Version: %1</source>
         <translation>Version: %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="71"/>
+        <location filename="../about.cpp" line="68"/>
         <source>Links:</source>
         <translation>Verweise:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="72"/>
+        <location filename="../about.cpp" line="69"/>
         <source>Official website:</source>
         <translation>Offizielle Internetseite:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="73"/>
+        <location filename="../about.cpp" line="70"/>
         <source>Support forum:</source>
         <translation>Unterstützungsforum:</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="84"/>
+        <location filename="../about.cpp" line="81"/>
         <source>SMPlayer is a graphical interface for %1.</source>
         <translation>SMPlayer ist eine grafische Oberfläche für %1.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="171"/>
+        <location filename="../about.cpp" line="168"/>
         <source>Click here to know the translators from the transifex teams</source>
         <translation>Hier klicken, um die Übersetzer aus den Transifex-Gruppen kennen zu lernen</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="167"/>
+        <location filename="../about.cpp" line="164"/>
         <source>Many people contributed with translations.</source>
         <translation>Viele Leute trugen mit Übersetzungen bei.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="168"/>
+        <location filename="../about.cpp" line="165"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
         <translation>Sie können auch mithelfen, den SMPlayer in Ihre eigene Sprache zu übersetzen.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="169"/>
+        <location filename="../about.cpp" line="166"/>
         <source>Visit %1 and join a translation team.</source>
         <translation>%1 besuchen und einer Übersetzungsgruppe beitreten.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="57"/>
+        <location filename="../about.cpp" line="54"/>
         <source>Using %1</source>
         <translation>%1 wird verwendet</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="80"/>
+        <location filename="../about.cpp" line="77"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
         <translation>SMPlayer ist eine grafische Oberfläche für %1 und %2.</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="93"/>
+        <location filename="../about.cpp" line="90"/>
         <source>Subtitles service powered by %1</source>
         <translation>Untertiteldienst betrieben von %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="196"/>
+        <location filename="../about.cpp" line="193"/>
         <source>&lt;b&gt;%1&lt;/b&gt; (%2)</source>
         <translation>&lt;b&gt;%1&lt;/b&gt; (%2)</translation>
     </message>
@@ -107,37 +105,37 @@
         <translation>&amp;Lizenz</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="63"/>
+        <location filename="../about.cpp" line="60"/>
         <source>Portable Edition</source>
         <translation>Portable Edition</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="69"/>
+        <location filename="../about.cpp" line="66"/>
         <source>Using Qt %1 (compiled with Qt %2)</source>
         <translation>Unter Einsatz von Qt %1 (Kompiliert mit Qt %2)</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="127"/>
+        <location filename="../about.cpp" line="124"/>
         <source>SMPlayer logo by %1</source>
         <translation>SMPlayer-Logo von %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="108"/>
+        <location filename="../about.cpp" line="105"/>
         <source>Read the entire license</source>
         <translation>Die gesamte Lizenz lesen</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="116"/>
+        <location filename="../about.cpp" line="113"/>
         <source>Read a translation</source>
         <translation>Eine Übersetzung lesen</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="128"/>
+        <location filename="../about.cpp" line="125"/>
         <source>Packages for Windows created by %1</source>
         <translation>Pakete für Windows erstellt von %1</translation>
     </message>
     <message>
-        <location filename="../about.cpp" line="129"/>
+        <location filename="../about.cpp" line="126"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
         <translation>Viele andere Leute haben Patches beigetragen. Einzelheiten können Sie im Changelog nachlesen.</translation>
     </message>
@@ -222,165 +220,165 @@ Möchten Sie sie Überschreiben?</translation>
 <context>
     <name>AudioEqualizer</name>
     <message>
-        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="185"/>
         <source>Audio Equalizer</source>
         <translation>Audio-Equalizer</translation>
     </message>
     <message>
+        <location filename="../audioequalizer.cpp" line="188"/>
+        <location filename="../audioequalizer.cpp" line="189"/>
+        <location filename="../audioequalizer.cpp" line="190"/>
+        <location filename="../audioequalizer.cpp" line="191"/>
         <location filename="../audioequalizer.cpp" line="192"/>
-        <location filename="../audioequalizer.cpp" line="193"/>
-        <location filename="../audioequalizer.cpp" line="194"/>
-        <location filename="../audioequalizer.cpp" line="195"/>
-        <location filename="../audioequalizer.cpp" line="196"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
+        <location filename="../audioequalizer.cpp" line="193"/>
+        <location filename="../audioequalizer.cpp" line="194"/>
+        <location filename="../audioequalizer.cpp" line="195"/>
+        <location filename="../audioequalizer.cpp" line="196"/>
         <location filename="../audioequalizer.cpp" line="197"/>
-        <location filename="../audioequalizer.cpp" line="198"/>
-        <location filename="../audioequalizer.cpp" line="199"/>
-        <location filename="../audioequalizer.cpp" line="200"/>
-        <location filename="../audioequalizer.cpp" line="201"/>
         <source>%1 kHz</source>
         <translation>%1 kHz</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="203"/>
+        <location filename="../audioequalizer.cpp" line="199"/>
         <source>&amp;Preset</source>
         <translation>&amp;Voreinstellung</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="204"/>
+        <location filename="../audioequalizer.cpp" line="200"/>
         <source>&amp;Apply</source>
         <translation>&amp;Anwenden</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="205"/>
+        <location filename="../audioequalizer.cpp" line="201"/>
         <source>&amp;Reset</source>
         <translation>&amp;Zurücksetzen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="206"/>
+        <location filename="../audioequalizer.cpp" line="202"/>
         <source>&amp;Set as default values</source>
-        <translation>Als &amp;Standardwerte einstellen</translation>
+        <translation>&amp;Als Standardwerte einstellen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="207"/>
+        <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Close</source>
         <translation>S&amp;chließen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="212"/>
+        <location filename="../audioequalizer.cpp" line="208"/>
         <source>Flat</source>
         <translation>Flach</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="213"/>
+        <location filename="../audioequalizer.cpp" line="209"/>
         <source>Classical</source>
         <translation>Klassik</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="214"/>
+        <location filename="../audioequalizer.cpp" line="210"/>
         <source>Club</source>
         <translation>Club</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="215"/>
+        <location filename="../audioequalizer.cpp" line="211"/>
         <source>Dance</source>
         <translation>Dance</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="216"/>
+        <location filename="../audioequalizer.cpp" line="212"/>
         <source>Full bass</source>
         <translation>Bassverstärkung</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="217"/>
+        <location filename="../audioequalizer.cpp" line="213"/>
         <source>Full bass and treble</source>
         <translation>Bass- und Höhenverstärkung</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="218"/>
+        <location filename="../audioequalizer.cpp" line="214"/>
         <source>Full treble</source>
         <translation>Höhenverstärkung</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="219"/>
+        <location filename="../audioequalizer.cpp" line="215"/>
         <source>Headphones</source>
         <translation>Kopfhörer</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="220"/>
+        <location filename="../audioequalizer.cpp" line="216"/>
         <source>Large hall</source>
         <translation>Großer Saal</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="221"/>
+        <location filename="../audioequalizer.cpp" line="217"/>
         <source>Live</source>
         <translation>Live</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="222"/>
+        <location filename="../audioequalizer.cpp" line="218"/>
         <source>Party</source>
         <translation>Party</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="223"/>
+        <location filename="../audioequalizer.cpp" line="219"/>
         <source>Pop</source>
         <translation>Pop</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="224"/>
+        <location filename="../audioequalizer.cpp" line="220"/>
         <source>Reggae</source>
         <translation>Reggae</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="225"/>
+        <location filename="../audioequalizer.cpp" line="221"/>
         <source>Rock</source>
         <translation>Rock</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="226"/>
+        <location filename="../audioequalizer.cpp" line="222"/>
         <source>Ska</source>
         <translation>Ska</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="227"/>
+        <location filename="../audioequalizer.cpp" line="223"/>
         <source>Soft</source>
         <translation>Soft</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="228"/>
+        <location filename="../audioequalizer.cpp" line="224"/>
         <source>Soft rock</source>
         <translation>Soft Rock</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="229"/>
+        <location filename="../audioequalizer.cpp" line="225"/>
         <source>Techno</source>
         <translation>Techno</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="230"/>
+        <location filename="../audioequalizer.cpp" line="226"/>
         <source>Custom</source>
         <translation>Benutzerdefiniert</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="235"/>
+        <location filename="../audioequalizer.cpp" line="231"/>
         <source>Use the current values as default values for new videos.</source>
         <translation>Die derzeitigen Werte als Standardwerte für neue Videos verwenden.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="237"/>
+        <location filename="../audioequalizer.cpp" line="233"/>
         <source>Set all controls to zero.</source>
         <translation>Alle Regler auf Null stellen.</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="252"/>
+        <location filename="../audioequalizer.cpp" line="248"/>
         <source>Information</source>
         <translation>Informationen</translation>
     </message>
     <message>
-        <location filename="../audioequalizer.cpp" line="253"/>
+        <location filename="../audioequalizer.cpp" line="249"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Die aktuellen Werte sind als Standard gespeichert worden.</translation>
     </message>
@@ -2130,68 +2128,68 @@ Das könnte das Problem beheben.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2990"/>
+        <location filename="../core.cpp" line="2986"/>
         <source>Brightness: %1</source>
         <translation>Helligkeit: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3006"/>
+        <location filename="../core.cpp" line="3002"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3017"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3036"/>
+        <location filename="../core.cpp" line="3032"/>
         <source>Hue: %1</source>
         <translation>Farbe: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3051"/>
+        <location filename="../core.cpp" line="3047"/>
         <source>Saturation: %1</source>
         <translation>Sättigung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3194"/>
+        <location filename="../core.cpp" line="3190"/>
         <source>Volume: %1</source>
         <translation>Lautstärke: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4064"/>
         <source>Zoom: %1</source>
         <translation>Vergrößerung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
-        <location filename="../core.cpp" line="3333"/>
+        <location filename="../core.cpp" line="3318"/>
+        <location filename="../core.cpp" line="3329"/>
         <source>Font scale: %1</source>
         <translation>Schriftskalierung: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3909"/>
+        <location filename="../core.cpp" line="3905"/>
         <source>Aspect ratio: %1</source>
         <translation>Seitenverhältnis: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4294"/>
+        <location filename="../core.cpp" line="4290"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Der Schriftzwischenspeicher wird aktualisiert. Das kann einige Sekunden dauern …</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3243"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Untertitelverzögerung: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3261"/>
         <source>Audio delay: %1 ms</source>
         <translation>Tonverzögerung: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3105"/>
+        <location filename="../core.cpp" line="3101"/>
         <source>Speed: %1</source>
         <translation>Geschwindigkeit: %1</translation>
     </message>
@@ -2206,42 +2204,42 @@ Das könnte das Problem beheben.</translation>
         <translation>Die Adresse des Videos kann nicht gefunden werden</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
+        <location filename="../core.cpp" line="3406"/>
         <source>Subtitles on</source>
         <translation>Untertitel An</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3412"/>
+        <location filename="../core.cpp" line="3408"/>
         <source>Subtitles off</source>
         <translation>Untertitel Aus</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3957"/>
+        <location filename="../core.cpp" line="3953"/>
         <source>Mouse wheel seeks now</source>
         <translation>Mausrad wird nun für das Spulen verwendet</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3960"/>
+        <location filename="../core.cpp" line="3956"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Mausrad ändert nun die Lautstärke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3963"/>
+        <location filename="../core.cpp" line="3959"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Mausrad ändert die Vergrößerungsstufe</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3966"/>
+        <location filename="../core.cpp" line="3962"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Mausrad ändert nun die Geschwindigkeit</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4270"/>
+        <location filename="../core.cpp" line="4266"/>
         <source>Screenshot saved as %1</source>
         <translation>Bildschirmfoto gespeichert als %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4305"/>
+        <location filename="../core.cpp" line="4301"/>
         <source>Starting...</source>
         <translation>Wird gestartet …</translation>
     </message>
@@ -2256,17 +2254,17 @@ Das könnte das Problem beheben.</translation>
         <translation>Keine Bildschirmfotos aufgenommen, da der Order nicht konfiguriert ist</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2657"/>
+        <location filename="../core.cpp" line="2653"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>„A“-Markierung ist eingestellt auf %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2674"/>
+        <location filename="../core.cpp" line="2670"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>„B“-Markierung ist eingestellt auf %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2689"/>
+        <location filename="../core.cpp" line="2685"/>
         <source>A-B markers cleared</source>
         <translation>A-B-Markierungen gelöscht</translation>
     </message>
@@ -2838,10 +2836,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2939,7 +2934,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -3209,7 +3204,7 @@ Bitte überprüfen Sie die Berechtigung für den Ordner.</translation>
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">S&amp;chließen</translation>
+        <translation>S&amp;chließen</translation>
     </message>
 </context>
 <context>
@@ -4416,23 +4411,23 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
         <location filename="../logwindow.ui" line="71"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>In die Zwischenablage kopieren</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="78"/>
         <source>Close</source>
-        <translation type="unfinished">Schließen</translation>
+        <translation>Schließen</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">S&amp;chließen</translation>
+        <translation>S&amp;chließen</translation>
     </message>
 </context>
 <context>
@@ -5525,7 +5520,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1063"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte Filmausgabetreiber auswählen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1150"/>
@@ -6334,7 +6329,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6736,12 +6731,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
@@ -6921,7 +6916,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="148"/>
         <source>System language</source>
-        <translation type="unfinished"></translation>
+        <translation>Systemsprache</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="178"/>
@@ -7693,7 +7688,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <name>PrefPerformance</name>
     <message>
         <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="289"/>
         <source>Performance</source>
         <translation>Leistungsverhalten</translation>
     </message>
@@ -7704,7 +7699,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="293"/>
         <source>Priority</source>
         <translation>Priorität</translation>
     </message>
@@ -7754,17 +7749,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Geräteentschlüsselung</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="355"/>
-        <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.ui" line="391"/>
-        <location filename="../prefperformance.ui" line="428"/>
-        <location filename="../prefperformance.ui" line="465"/>
-        <location filename="../prefperformance.ui" line="502"/>
-        <location filename="../prefperformance.ui" line="539"/>
-        <location filename="../prefperformance.ui" line="576"/>
+        <location filename="../prefperformance.ui" line="372"/>
+        <location filename="../prefperformance.ui" line="409"/>
+        <location filename="../prefperformance.ui" line="446"/>
+        <location filename="../prefperformance.ui" line="483"/>
+        <location filename="../prefperformance.ui" line="520"/>
+        <location filename="../prefperformance.ui" line="557"/>
         <source>KB</source>
         <translation>kB</translation>
     </message>
@@ -7774,22 +7764,22 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Das Verwenden eines Zwischenspeichers könnte das Leistungsverhalten bei langsamen Medien verbessern</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="299"/>
         <source>Allow frame drop</source>
         <translation>Überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="300"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Überspringen einiger Einzelbilder, um A/V-Synchronisation auf langsamen Systemen zu gewährleisten.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="304"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>Allow hard frame drop</source>
         <translation>Verstärktes überspringen von Bildern erlauben</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="303"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intensivere Einzelbildprünge (Lässt das Dekodieren fehlschlagen). Führt zu Bildverzerrungen.</translation>
     </message>
@@ -7819,22 +7809,22 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Schnelles Vorspulen zu DVD-Kapiteln</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="355"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>Fast audio track switching</source>
         <translation>Schneller Tonspurwechsel</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="364"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Schnelles Vorspulen zu DVD-Kapiteln</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="365"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Wenn diese Option aktiviert ist, wird die schnellste Methode zum Vorspulen der Kapitel gewählt, was möglicherweise mit einigen DVDs nicht funktioniert.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="331"/>
         <source>Skip loop filter</source>
         <translation>Schleifenfilter überspringen</translation>
     </message>
@@ -7844,37 +7834,37 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Mögliche Werte:&lt;br&gt;&lt;b&gt;Ja&lt;/b&gt;: Es wird versucht, die schnellste Methode zum Wechseln der Tonspur zu finden (möglicherweise funktioniert dies mit einigen Formaten nicht).&lt;br&gt;&lt;b&gt;Nein&lt;/b&gt;: der MPlayer-Prozess wird neu gestartet, wenn die Tonspur gewechselt wird.&lt;br&gt;&lt;b&gt;Automatisch&lt;/b&gt;: SMPlayer wird, je nach MPlayer-Version, selber entscheiden was zu tun ist.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="376"/>
+        <location filename="../prefperformance.cpp" line="371"/>
         <source>Cache for files</source>
         <translation>Zwischenspeicher für Dateien</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="372"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer Datei, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="380"/>
+        <location filename="../prefperformance.cpp" line="375"/>
         <source>Cache for streams</source>
         <translation>Zwischenspeicher für Datenströme</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="381"/>
+        <location filename="../prefperformance.cpp" line="376"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer Adresse, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <location filename="../prefperformance.cpp" line="379"/>
         <source>Cache for DVDs</source>
         <translation>Zwischenspeicher für DVDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="380"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer DVD, verwendet wird.&lt;br&gt;&lt;b&gt;Achtung:&lt;/b&gt; das Spulen (sowie auch das Wechseln von Kapiteln) wird eventuell nicht richtig funktionieren, wenn die Verwendung eines Zwischenspeichers für DVDs aktiviert ist.</translation>
     </message>
@@ -7884,17 +7874,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Zwischenspeicher</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="448"/>
+        <location filename="../prefperformance.ui" line="429"/>
         <source>Cache for &amp;DVDs:</source>
         <translation>Zwischenspeicher für &amp;DVDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="374"/>
+        <location filename="../prefperformance.ui" line="355"/>
         <source>Cache for &amp;local files:</source>
         <translation>Zwischenspeicher für &amp;lokale Dateien:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="411"/>
+        <location filename="../prefperformance.ui" line="392"/>
         <source>Cache for &amp;streams:</source>
         <translation>Zwischenspeicher für &amp;Datenströme:</translation>
     </message>
@@ -7919,7 +7909,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>Schleifen&amp;filter</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
+        <location filename="../prefperformance.cpp" line="332"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Diese Option ermöglicht das Überspringen des Schleifenfilters (auch bekannt als Klötzchenfilter) während der H.264-Dekodierung. Da bei den gefilterten Einzelbildern davon ausgegangen wird, dass sie als Referenz für das Entschlüsseln von abhängigen Einzelbildern verwendet werden, hat dies einen schlechteren Effekt auf die Qualität, als beispielsweise das Übersrpingen des Schleifenfilters bei MPEG-2-Videos. Jedoch ergibt sich zumindest bei HDTV mit hohen Bitraten, eine große Beschleunigung ohne sichtbaren Qualitätsverlust.</translation>
     </message>
@@ -7930,142 +7920,136 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="373"/>
         <source>Auto</source>
         <translation>Automatisch</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="294"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Legt die Prozessorpriorität für %1 fest, gemäß den unter Windows vordefinierten Prioritäten.&lt;br&gt;&lt;b&gt;Achtung:&lt;/b&gt;Das Verwenden von Echtzeit als Priorität kann das System sperren.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="310"/>
         <source>Hardware decoding</source>
         <translation>Geräteentschlüsselung</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="311"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Stellt die Schnittstelle der Gerätefilmentschlüsselung ein. Wenn die Geräteentschlüsselung nicht verfügbar ist, wird stattdessen die Programmentschlüsselung verwendet.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="313"/>
         <source>Available options:</source>
         <translation>Verfügbare Optionen:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="317"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>None: only software decoding will be used.</source>
         <translation>Keine: Nur Programmentschlüsselung wird verwendet.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>Automatisch: Es versucht automatisch die Geräteentschlüsselung zu aktivieren, durch Verwendung der ersten Methode.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="318"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: Für die vdpau- und opengl-Filmausgabe.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: Für die opengl- und vaapi-Filmausgabe. Nur für Intel-GPUs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="322"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>vaapi-copy: Es kopiert den Film zurück in den Systemarbeitsspeicher. Nur für Intel-GPUs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>dxva2-copy: Es kopiert den Film zurück in den Systemarbeitsspeicher. Experimentell.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="327"/>
         <source>This option only works with mpv.</source>
         <translation>Diese Option funktioniert nur mit mpv.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="339"/>
         <source>Possible values:</source>
         <translation>Mögliche Werte:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="342"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Eingeschaltet&lt;/b&gt;: der Schleifenfilter wird nicht überspringen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="343"/>
+        <location filename="../prefperformance.cpp" line="341"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Überspringen (immer)&lt;/b&gt;: Der Schleifenfilter wird, unabhängig von der Videoauflösung, übersprungen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="343"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Überspringen nur bei HD-Videos&lt;/b&gt;: der Schleifenfilter wird nur bei Videos, deren Höhe %1 oder größer ist, übersprungen.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="350"/>
+        <location filename="../prefperformance.cpp" line="348"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>Bitte den nicht freien CoreAVC-Codec versuchen, wenn keine anderer Codec angegeben ist und eine nicht-VDPAU-Video-Ausgabe ausgewählt ist.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="350"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>Erfordert %1 mit CoreAVC-Unterstützung erstellt.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="371"/>
+        <location filename="../prefperformance.cpp" line="369"/>
         <source>Cache</source>
         <translation>Zwischenspeicher</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="374"/>
-        <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../prefperformance.cpp" line="389"/>
+        <location filename="../prefperformance.cpp" line="384"/>
         <source>Cache for audio CDs</source>
         <translation>Zwischenspeicher für Audio-CDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="390"/>
+        <location filename="../prefperformance.cpp" line="385"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer Audio-CD, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="485"/>
+        <location filename="../prefperformance.ui" line="466"/>
         <source>Cache for &amp;audio CDs:</source>
         <translation>Zwischenspeicher für &amp;Audio-CDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="393"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>Cache for VCDs</source>
         <translation>Zwischenspeicher für VCDs</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="394"/>
+        <location filename="../prefperformance.cpp" line="389"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Diese Option gibt an, wie viel Speicher (in Kilobyte (kB)), beim Vorpuffern einer VCD, verwendet wird.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="522"/>
+        <location filename="../prefperformance.ui" line="503"/>
         <source>Cache for &amp;VCDs:</source>
         <translation>Zwischenspeicher für &amp;VCDs:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>Threads for decoding</source>
         <translation>Stränge zur Dekodierung</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Legt die Anzahl der Stränge zur Dekodierung fest. Nur für MPEG-1/2 und H.264</translation>
     </message>
@@ -8075,7 +8059,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>&amp;Stränge zur Dekodierung (MPEG-1/2 und H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="347"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>CoreAVC verwenden, wenn kein anderer Codec angegeben ist</translation>
     </message>
@@ -8085,7 +8069,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <translation>CoreAVC ver&amp;wenden, wenn kein anderer Codec angegeben ist</translation>
     </message>
     <message>
-        <location filename="../prefperformance.ui" line="559"/>
+        <location filename="../prefperformance.ui" line="540"/>
         <source>Cache for &amp;TV:</source>
         <translation>Zwischenspeicher für &amp;TV:</translation>
     </message>
@@ -8944,12 +8928,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="143"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="144"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>Abbre&amp;chen</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="145"/>
@@ -9075,19 +9059,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9765,12 +9743,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation>&amp;Software-Equalizer</translation>
+        <translation>Software-&amp;Equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation>Als &amp;Standardwerte einstellen</translation>
+        <translation>&amp;Als Standardwerte einstellen</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
