@@ -1022,6 +1022,22 @@
         </widget>
        </item>
        <item>
+        <widget class="QLabel" name="label_9">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="text">
+          <string>Changes in this section requires to restart SMPlayer</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="margin">
+          <number>14</number>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer name="verticalSpacer_2">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -1029,7 +1045,7 @@
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>319</height>
+           <height>266</height>
           </size>
          </property>
         </spacer>
