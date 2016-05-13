@@ -19,6 +19,10 @@
 #ifndef HDPISUPPORT_H
 #define HDPISUPPORT_H
 
+#ifndef PORTABLE_APP
+#define HDPI_STORE_DATA
+#endif
+
 #include <QString>
 
 class QSettings;
@@ -29,10 +33,12 @@ public:
 	HDPISupport(const QString & config_path = QString::null);
 	~HDPISupport();
 
+#ifdef HDPI_STORE_DATA
 	void setConfigPath(const QString & config_path);
 
 	bool load();
 	bool save();
+#endif
 
 	void apply();
 
@@ -52,7 +58,9 @@ public:
 
 private:
 	static HDPISupport * instance_obj;
+#ifdef HDPI_STORE_DATA
 	QSettings * set;
+#endif
 	bool enabled;
 	bool auto_scale;
 	double scale_factor;
