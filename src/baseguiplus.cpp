@@ -46,12 +46,13 @@
 #endif
 
 #ifdef SCREENS_SUPPORT
-#include <QScreen>
 #include <QVBoxLayout>
+#include <QLabel>
 #include "mplayerwindow.h"
 #include "infowindow.h"
 
 #if QT_VERSION >= 0x050000
+#include <QScreen>
 #include <QWindow>
 #endif
 #endif
@@ -68,6 +69,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	: BaseGui( parent, flags )
 #ifdef SCREENS_SUPPORT
 	, screens_info_window(0)
+	, detached_label(0)
 #endif
 	, mainwindow_visible(true)
 	, trayicon_playlist_was_visible(false)
@@ -189,6 +191,11 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	#if QT_VERSION >= 0x050600
 	connect(qApp, SIGNAL(primaryScreenChanged(QScreen *)), this, SLOT(updateSendToScreen()));
 	#endif
+
+	// Label that replaces the mplayerwindow when detached
+	detached_label = new QLabel(0);
+	detached_label->setAlignment(Qt::AlignCenter);
+	detached_label->hide();
 #endif
 
 #ifdef GLOBALSHORTCUTS
@@ -204,6 +211,8 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 BaseGuiPlus::~BaseGuiPlus() {
 	saveConfig();
 	tray->hide();
+
+	delete detached_label;
 }
 
 void BaseGuiPlus::populateMainMenu() {
@@ -298,6 +307,9 @@ void BaseGuiPlus::retranslateStrings() {
 	sendToScreen_menu->menuAction()->setText( tr("Send &video to screen") );
 	sendToScreen_menu->menuAction()->setIcon(Images::icon("send_to_screen"));
 	showScreensInfoAct->change(tr("Information about connected &screens"));
+
+	detached_label->setText("<img src=\"" + Images::file("send_to_screen") + "\">" +
+		"<p style=\"color: white;\">" + tr("Video is sent to an external screen") +"</p");
 #endif
 }
 
@@ -891,11 +903,17 @@ void BaseGuiPlus::detachVideo(bool detach) {
 			panel->layout()->removeWidget(mplayerwindow);
 			mplayerwindow->setParent(0);
 			mplayerwindow->setWindowTitle(tr("SMPlayer external screen output"));
+
+			panel->layout()->addWidget(detached_label);
+			detached_label->show();
 		}
 		mplayerwindow->show();
 	} else {
 		if (isVideoDetached()) {
 			fullscreenAct->setEnabled(true);
+
+			panel->layout()->removeWidget(detached_label);
+			detached_label->hide();
 
 			mplayerwindow->setParent(panel);
 			panel->layout()->addWidget(mplayerwindow);
