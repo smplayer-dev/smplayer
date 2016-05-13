@@ -845,12 +845,12 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
         <translation>Sayangnya video ini tidak dapat diputar.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5184"/>
+        <location filename="../basegui.cpp" line="5189"/>
         <source>Pause</source>
         <translation>Jeda</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5185"/>
+        <location filename="../basegui.cpp" line="5190"/>
         <source>Stop</source>
         <translation>Henti</translation>
     </message>
@@ -1305,64 +1305,64 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
         <translation>Masalah pada Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5837"/>
-        <location filename="../basegui.cpp" line="5857"/>
+        <location filename="../basegui.cpp" line="5842"/>
+        <location filename="../basegui.cpp" line="5862"/>
         <source>%1 Error</source>
         <translation>%1 Galat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5838"/>
+        <location filename="../basegui.cpp" line="5843"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 finis secara tak terduga.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5859"/>
+        <location filename="../basegui.cpp" line="5864"/>
         <source>%1 failed to start.</source>
         <translation>%1 gagal memulai.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5860"/>
+        <location filename="../basegui.cpp" line="5865"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Harap periksa alur %1 di preferensi.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5862"/>
+        <location filename="../basegui.cpp" line="5867"/>
         <source>%1 has crashed.</source>
         <translation>%1 telah macet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5944"/>
+        <location filename="../basegui.cpp" line="5949"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Peramban YouTube tidak terpasang.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5945"/>
-        <location filename="../basegui.cpp" line="5957"/>
+        <location filename="../basegui.cpp" line="5950"/>
+        <location filename="../basegui.cpp" line="5962"/>
         <source>Visit %1 to get it.</source>
         <translation>Kunjungi %1 untuk mendapatkannya.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5955"/>
+        <location filename="../basegui.cpp" line="5960"/>
         <source>The YouTube Browser failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5956"/>
+        <location filename="../basegui.cpp" line="5961"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6088"/>
+        <location filename="../basegui.cpp" line="6093"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6095"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1519,12 +1519,12 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
         <translation>Server dikembalikan ke &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5839"/>
+        <location filename="../basegui.cpp" line="5844"/>
         <source>Exit code: %1</source>
         <translation>Kode Keluar: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5863"/>
+        <location filename="../basegui.cpp" line="5868"/>
         <source>See the log for more info.</source>
         <translation>Lihat catatanuntuk info lebih.</translation>
     </message>
@@ -1790,8 +1790,8 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
         <translation>Nyala-matikan tetap diatas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5379"/>
-        <location filename="../basegui.cpp" line="5681"/>
+        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5686"/>
         <source>Jump to %1</source>
         <translation>Lompat ke %1</translation>
     </message>
@@ -1915,142 +1915,152 @@ Dialog konfigurasi akan ditampilkan sekarang, jadi Anda bisa melakukannya.</tran
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="262"/>
+        <location filename="../baseguiplus.cpp" line="271"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer masih berjalan di sini</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="285"/>
+        <location filename="../baseguiplus.cpp" line="294"/>
         <source>S&amp;how icon in system tray</source>
         <translation>&amp;Tampilkan ikon di sistem baki</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="298"/>
+        <location filename="../baseguiplus.cpp" line="307"/>
         <source>Send &amp;video to screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="300"/>
+        <location filename="../baseguiplus.cpp" line="309"/>
         <source>Information about connected &amp;screens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="306"/>
+        <location filename="../baseguiplus.cpp" line="312"/>
+        <source>Video is sent to an external screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="318"/>
         <source>&amp;Hide</source>
         <translation>Sembun&amp;yi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="308"/>
+        <location filename="../baseguiplus.cpp" line="320"/>
         <source>&amp;Restore</source>
         <translation>&amp;Balikkan</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="743"/>
+        <location filename="../baseguiplus.cpp" line="757"/>
         <source>Information about connected screens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="746"/>
+        <location filename="../baseguiplus.cpp" line="760"/>
         <source>Connected screens</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="749"/>
-        <location filename="../baseguiplus.cpp" line="783"/>
+        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Number of screens: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="750"/>
-        <location filename="../baseguiplus.cpp" line="784"/>
+        <location filename="../baseguiplus.cpp" line="764"/>
+        <location filename="../baseguiplus.cpp" line="798"/>
         <source>Primary screen: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="754"/>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="768"/>
+        <location filename="../baseguiplus.cpp" line="802"/>
         <source>Information for screen %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="756"/>
-        <location filename="../baseguiplus.cpp" line="790"/>
+        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="804"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="758"/>
+        <location filename="../baseguiplus.cpp" line="772"/>
         <source>Available size: %1 x %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="759"/>
+        <location filename="../baseguiplus.cpp" line="773"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="777"/>
         <source>Available virtual size: %1 x %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="765"/>
+        <location filename="../baseguiplus.cpp" line="779"/>
         <source>Depth: %1 bits</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="766"/>
-        <location filename="../baseguiplus.cpp" line="792"/>
+        <location filename="../baseguiplus.cpp" line="780"/>
+        <location filename="../baseguiplus.cpp" line="806"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="768"/>
+        <location filename="../baseguiplus.cpp" line="782"/>
         <source>Logical DPI: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="784"/>
         <source>Physical DPI: %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="771"/>
+        <location filename="../baseguiplus.cpp" line="785"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="773"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Refresh rate: %1 Hz</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="774"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Size: %1 x %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="775"/>
+        <location filename="../baseguiplus.cpp" line="789"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
+        <location filename="../baseguiplus.cpp" line="791"/>
         <source>Virtual size: %1 x %2</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="827"/>
+        <location filename="../baseguiplus.cpp" line="841"/>
         <source>Primary screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="284"/>
+        <location filename="../baseguiplus.cpp" line="905"/>
+        <source>SMPlayer external screen output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="293"/>
         <source>&amp;Quit</source>
         <translation>Kelua&amp;r</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="290"/>
+        <location filename="../baseguiplus.cpp" line="299"/>
         <source>Playlist</source>
         <translation>Daftar-putar</translation>
     </message>
@@ -6860,14 +6870,14 @@ Apakah Anda ingin menimpanya?</translation>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="660"/>
+        <location filename="../prefinterface.cpp" line="151"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Interface</source>
         <translation>Tampilan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
-        <location filename="../prefinterface.cpp" line="202"/>
+        <location filename="../prefinterface.cpp" line="217"/>
+        <location filename="../prefinterface.cpp" line="220"/>
         <source>Default</source>
         <translation>Baku</translation>
     </message>
@@ -6898,42 +6908,42 @@ Apakah Anda ingin menimpanya?</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Recent files</source>
         <translation>Berkas belakangan ini</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="680"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Language</source>
         <translation>Bahasa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>Here you can change the language of the application.</source>
         <translation>Di sini Anda dapat mengubah bahasa menggunakan aplikasi.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="177"/>
+        <location filename="../prefinterface.cpp" line="195"/>
         <source>&amp;Short jump</source>
         <translation>Lompatan &amp;pendek</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="148"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>System language</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="178"/>
+        <location filename="../prefinterface.cpp" line="196"/>
         <source>&amp;Medium jump</source>
         <translation>Lompatan &amp;menengah</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="179"/>
+        <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Long jump</source>
         <translation>Lompatan &amp;jau</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="180"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Lompatan roda &amp;mouse</translation>
     </message>
@@ -7053,6 +7063,31 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Ingat di&amp;rektori terakhir</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="952"/>
+        <source>High &amp;DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="958"/>
+        <source>&amp;Enable support for high DPI screens</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="968"/>
+        <source>Scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="974"/>
+        <source>A&amp;uto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="1030"/>
+        <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinterface.ui" line="622"/>
         <source>TextLabel</source>
         <translation>TeksLabel</translation>
@@ -7078,290 +7113,300 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Ins&amp;tansi</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>Autoresize</source>
         <translation>Pengubahan ukuran otomatis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="663"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Jendela utama dapat di ubah ukurannya secara otomatis. Pilih opsi yang Anda sukai.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Remember position and size</source>
         <translation>Ingat posisi dan ukuran.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="750"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Jika Anda mencentang opsi ini, posisi dan ukuran jendela utama akan tersimpan dan dikembalikan ketika Anda menjalankan SMPlayer lagi.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Gunakan antarmuka grafis yang Anda inginkan untuk aplikasi ini.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>&lt;b&gt;Antarmuka umum biasa&lt;/b&gt; menyediakan tampilan biasa, dengan bilah-alat dan bilah kendali.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>&lt;b&gt;Antarmuka pengguna Mini&lt;/b&gt; menyediakan tampilan lebih sederhana, tanpa bilah-alat dan sebuah bilah kendali dengan sedikit tombol.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>&lt;b&gt;Antarmuka pengguna bercorak&lt;/b&gt; menyediakan tampilan yang menyuguhkan sejumlah kulit untuk Antarmuka ini.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>&lt;b&gt;Antarmuka MPC&lt;/b&gt; menyediakan tampilan seperti Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="870"/>
         <source>Privacy</source>
         <translation>Privasi/</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="797"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Pilih jumlah maksimal item yang akan ditampilkan pada submenu &lt;b&gt;Buka -&gt; berkas baru-baru ini&lt;/b&gt;. Jika Anda menyetelnya ke angka 0, menu ini tidak akan menunjukkan apapun.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="700"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Icon set</source>
         <translation>Set ikon</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="208"/>
+        <location filename="../prefinterface.cpp" line="226"/>
         <source>Basic GUI</source>
         <translation>Antarmuka biasa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="217"/>
+        <location filename="../prefinterface.cpp" line="235"/>
         <source>Skinnable GUI</source>
         <translation>Antarmuka grafis yang dapat diganti tampilannya.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="248"/>
+        <source>Scale fact&amp;or:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="251"/>
+        <source>Pixel rati&amp;o:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Cegah jendela untuk menjadi ke luar layar</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="667"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Jika setelah ubah-ukuran-otomatis jendela utama menjadi ke luar dari layar pilihan ini akan memusatkan jendela untuk mencegahnya.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>Center window</source>
         <translation>Jendela pusat</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="671"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Ketika opsi ini diaktifkan, jendela utama akan terpusat pada desktop.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="701"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Pilih ikon yang ingin Anda gunakan.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Skin</source>
         <translation>Tampilan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="705"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Pilih tampilan yang Anda utamakan untuk aplikasi. Hanya tersedia dengan Antarmuka Pengguna yang dapat diubah tampilan nya.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="708"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>Style</source>
         <translation>Gaya</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Pilih gaya yang ingin Anda pakai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Default font</source>
         <translation>Fonta baku</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Anda bisa mengganti Fonta aplikasi di sini.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="791"/>
         <source>Seeking</source>
         <translation>Penjangkaan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="717"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Short jump</source>
         <translation>Pintasan pendek</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="718"/>
-        <location filename="../prefinterface.cpp" line="722"/>
-        <location filename="../prefinterface.cpp" line="726"/>
+        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="802"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Pilih waktu yang sebaiknya digunakan untuk maju kedepan atau mundur kebelakang ketika Anda memilih tindakan %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="795"/>
         <source>short jump</source>
         <translation>lompatan pendek</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="721"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Medium jump</source>
         <translation>Lompatan menengah</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="723"/>
+        <location filename="../prefinterface.cpp" line="799"/>
         <source>medium jump</source>
         <translation>lompatan menengah</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Long jump</source>
         <translation>Lompatan jauh</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="727"/>
+        <location filename="../prefinterface.cpp" line="803"/>
         <source>long jump</source>
         <translation>lompatan jauh</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Mouse wheel jump</source>
         <translation>Lompatan roda mouse</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="806"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Pilih waktu yang sebaiknya digunakan untuk maju kedepan atau mundur kebelakang saat Anda mengubah roda mouse Anda.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Behaviour of time slider</source>
         <translation>Tindakan slider waktu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="810"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Pilih apa yang akan dilakukan ketika menggeret slider waktu.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="824"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Menekan tombol henti sekali untuk menyetel ulang posisi waktu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="779"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Tunjukkan hanya ketika mouse berpindah ke dasar layar</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Jika opsi ini dicentang, kendali melayang hanya akan nampak apabila mouse berpindah ke dasar layar. Kendali melayang tidak akan tampak selain memindahkan mouse ke dasar layar.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Jika opsi ini diaktifkan, kendali melayang juga akan muncul pada mode ringkas.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="787"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Opsi ini hanya bekerja pada Antarmuka biasa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="864"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Peringatan:&lt;/b&gt; kendali melayang tidak dibuat untuk mode ringkas dan mungkin saja tidak dapat bekerja dengan baik.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="791"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Time to hide the control</source>
         <translation>Waktu untuk menyembunyikan kendali</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Tetapan waktu (dalam milidetik) untuk menyembunyikan kendali setelah mouse menjauh dari kendali.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="801"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Max. URLs</source>
         <translation>URL maksimal</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Pilih jumlah maksimal item pada dialog &lt;b&gt;Buka-&gt;URL&lt;/b&gt; yang akan diingat. Setel ke 0 jika Anda tidak ingin menyimpan URL apapun untuk disetorkan.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="882"/>
         <source>Remember last directory</source>
         <translation>Ingat direktori terakhir</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="807"/>
+        <location filename="../prefinterface.cpp" line="883"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Jika opsi ini dicentang, SMPlayer akan mengingat map terakhir yang Anda gunakan untuk membuka sebuah berkas.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="813"/>
         <source>Seeking method</source>
         <translation>Metode &amp;penjangkaan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="738"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Setel metode yang akan digunakan ketika penjangkaan dengan penggeser. Penjangkaan mutlak mungkin lebih sedikit akurat, selama penjangkaan relativ mungkin bekerja lebih baik dengan berkas yang memiliki panjang waktu yang salah.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="825"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="832"/>
         <source>Instances</source>
         <translation>Instansi</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Gunakan hanya satu instansi SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="836"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Centang opsi ini jika Anda ingin menggunakan instansi SMPlayer yang telah berjalan ketika membuka berkas lain</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="211"/>
+        <location filename="../prefinterface.cpp" line="229"/>
         <source>Mini GUI</source>
         <translation>Antarmuka Pengguna Mini</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="683"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>GUI</source>
         <translation>Antarmuka Pengguna</translation>
     </message>
@@ -7371,42 +7416,42 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Antarmuka Pen&amp;gguna</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="840"/>
         <source>Floating control</source>
         <translation>Kendali melayang</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Animated</source>
         <translation>Dianimasikan</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="767"/>
+        <location filename="../prefinterface.cpp" line="843"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Jika opsi ini diaktifkan, kendali melayang akan muncul dengan animasi.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="770"/>
+        <location filename="../prefinterface.cpp" line="846"/>
         <source>Width</source>
         <translation>Lebar</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="847"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Rincikan lebar pada kendali (dengan presentase).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="773"/>
+        <location filename="../prefinterface.cpp" line="849"/>
         <source>Margin</source>
         <translation>Batas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="774"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Opsi ini menyetel jumlah dari piksel pada kendali melayang untuk menjauh dari dasar tampilan. Berguna ketika tampilan tersebut adalah TV, sama seperti pemindaian berlebihan yang mungkin mencegah kendali untuk terlihat.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="860"/>
         <source>Display in compact mode too</source>
         <translation>Tampilkan pada mode kompak juga</translation>
     </message>
@@ -7428,6 +7473,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.ui" line="716"/>
         <location filename="../prefinterface.ui" line="749"/>
+        <location filename="../prefinterface.ui" line="1015"/>
         <source>0</source>
         <translation>0</translation>
     </message>
@@ -7442,17 +7488,17 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Tampilkan dalam mode &amp;kompak juga</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="214"/>
+        <location filename="../prefinterface.cpp" line="232"/>
         <source>Mpc GUI</source>
         <translation>Antarmuka Pengguna MPC</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="677"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Hide video window when playing audio files</source>
         <translation>Sembunyikan jendela video ketika memutar berkas audio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Jika opsi ini diaktifkan jendela video akan disembunyikan ketika memutar berkas audio.</translation>
     </message>
@@ -7462,17 +7508,17 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Sembunyikan jendela &amp;video ketika memutar berkas audio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Precise seeking</source>
         <translation>Penjangkaan cemerlang</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Jika opsi ini diaktifkan, penjangkaan akan lebih akurat namun jangka tersebut bisa sedikit lambat. Mungkin tidak bekerja pada beberapa format video.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="822"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Catatan: Opsi ini hanya bekerja dengan MPlayer2</translation>
     </message>
@@ -8091,112 +8137,112 @@ Apakah Anda ingin menimpanya?</translation>
 <context>
     <name>PrefPlaylist</name>
     <message>
-        <location filename="../prefplaylist.cpp" line="35"/>
+        <location filename="../prefplaylist.cpp" line="34"/>
         <source>Playlist</source>
         <translation>Daftar-putar</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="130"/>
+        <location filename="../prefplaylist.cpp" line="129"/>
         <source>Automatically add files to playlist</source>
         <translation>Otomatis tambahkan berkas ke daftar-putar</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="131"/>
+        <location filename="../prefplaylist.cpp" line="130"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Jika opsi ini diaktifkan, tiap kali sebuah berkas dibuka, SMPlayer akan membersihkan daftar-putar terlebih dahulu dan kemudian menambahkan berkas pada daftar-putar. Dalam hal ini, semua judul pada DVD, CD, dan VCD akan ditambahkan ke daftar-putar.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="47"/>
+        <location filename="../prefplaylist.cpp" line="46"/>
         <source>None</source>
         <translation>Tak satupun</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="48"/>
+        <location filename="../prefplaylist.cpp" line="47"/>
         <source>Video files</source>
         <translation>Berkas video</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="49"/>
+        <location filename="../prefplaylist.cpp" line="48"/>
         <source>Audio files</source>
         <translation>Berkas audio</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="50"/>
+        <location filename="../prefplaylist.cpp" line="49"/>
         <source>Video and audio files</source>
         <translation>Berkas video dan audio</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="51"/>
+        <location filename="../prefplaylist.cpp" line="50"/>
         <source>Consecutive files</source>
         <translation>Berkas berturut-turut</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="136"/>
+        <location filename="../prefplaylist.cpp" line="135"/>
         <source>Add files from folder</source>
         <translation>Tambah berkas dari direktori</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="137"/>
+        <location filename="../prefplaylist.cpp" line="136"/>
         <source>This option allows to add files automatically to the playlist:</source>
         <translation>Opsi ini memperbolehkan untuk menambah berkas secara otomatis ke dalam daftar-putar:</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="138"/>
+        <location filename="../prefplaylist.cpp" line="137"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;Nihil&lt;/b&gt;: tidak ada berkas yang akan ditambah</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="139"/>
+        <location filename="../prefplaylist.cpp" line="138"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;Berkas video&lt;/b&gt;: semua berkas video yang ditemukan di direktori akan ditambahkan</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="140"/>
+        <location filename="../prefplaylist.cpp" line="139"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Berkas audio&lt;/b&gt;: semua berkas audio yang ditemukan di direktori akan ditambahkan</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="141"/>
+        <location filename="../prefplaylist.cpp" line="140"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Berkas video dan audio&lt;/b&gt;: semua berkas video dan audio yang ditemukan di direktori akan ditambahkan</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="142"/>
+        <location filename="../prefplaylist.cpp" line="141"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;Berkas berurutan&lt;/b&gt;: berkas berurutan (seperti video_1.avi, video_2.avi) akan ditambahkan</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="144"/>
+        <location filename="../prefplaylist.cpp" line="143"/>
         <source>Play files from start</source>
         <translation>Putar berkas dari awal</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="145"/>
+        <location filename="../prefplaylist.cpp" line="144"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>Jika opsi ini diaktifkan, semua berkas dari daftar-putar akan dimulai untuk diputar dari awal melanjutkan dari pemutaran sebelumnya.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="154"/>
+        <location filename="../prefplaylist.cpp" line="153"/>
         <source>Get info automatically about files added</source>
         <translation>Dapatkan informasi otomatis tentang berkas yang ditambahkan</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="161"/>
+        <location filename="../prefplaylist.cpp" line="160"/>
         <source>Save copy of playlist on exit</source>
         <translation>Simpan salinan daftar-putar ketika keluar</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="162"/>
+        <location filename="../prefplaylist.cpp" line="161"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
         <translation>JIka opsi ini dicentang, salinan dari daftar-putar akan disimpan pada konfigurasi smplayer ketika smplayer ditutup, dan daftar-putar itu akan dimuat otomatis ketika smplayer dijalankan kembali.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="166"/>
+        <location filename="../prefplaylist.cpp" line="165"/>
         <source>Play next file even if the previous file failed</source>
         <translation>Putar berkas selanjutnya bahkan jika berkas sebelumnya gagal</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="167"/>
+        <location filename="../prefplaylist.cpp" line="166"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>Jika opsi ini diaktifkan, daftar-putar akan mengabaikan galat pemutaran dari berkas sebelumnya dan akan memutar berkas selanjutnya dalam daftar.</translation>
     </message>
@@ -8211,17 +8257,17 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Otom&amp;atis tambahkan berkas ke daftar-putar</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="149"/>
+        <location filename="../prefplaylist.cpp" line="148"/>
         <source>Add files in directories recursively</source>
         <translation>Tambah berkas dalam direktori secara rekursif</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="150"/>
+        <location filename="../prefplaylist.cpp" line="149"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Centang opsi ini jika Anda ingin menambah sebuah direktori dan juga beserta berkas dalam subdirektori secara recursif. Selain itu, hanya berkas yang dipilih yang akan ditambah.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="155"/>
+        <location filename="../prefplaylist.cpp" line="154"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Centang opsi ini untuk menanyakan berkas yang akan ditambahkan ke daftar-putar untuk beberapa info. Hal ini membolehkan Anda untuk melihat judul nama (jika tersedia) dan panjang berkas. Selain itu informasi tersebut tidak akan tersedia hingga berkas benar-benar diputar. Hati-hati: opsi ini juga bisa memperlambat kinerja, terutama jika Anda menambahkan banyak berkas.</translation>
     </message>
@@ -8935,27 +8981,27 @@ Apakah Anda ingin menimpanya?</translation>
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="138"/>
+        <location filename="../preferencesdialog.cpp" line="171"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Bantuan</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="143"/>
+        <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="144"/>
+        <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="145"/>
+        <location filename="../preferencesdialog.cpp" line="178"/>
         <source>Apply</source>
         <translation>Terapkan</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="146"/>
+        <location filename="../preferencesdialog.cpp" line="179"/>
         <source>Help</source>
         <translation>Bantuan</translation>
     </message>

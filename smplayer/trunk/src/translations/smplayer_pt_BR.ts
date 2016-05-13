@@ -845,12 +845,12 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Infelizmente esse vídeo não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5184"/>
+        <location filename="../basegui.cpp" line="5189"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5185"/>
+        <location filename="../basegui.cpp" line="5190"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -1305,64 +1305,64 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Problemas com o Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5837"/>
-        <location filename="../basegui.cpp" line="5857"/>
+        <location filename="../basegui.cpp" line="5842"/>
+        <location filename="../basegui.cpp" line="5862"/>
         <source>%1 Error</source>
         <translation>Erro em %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5838"/>
+        <location filename="../basegui.cpp" line="5843"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 terminou inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5859"/>
+        <location filename="../basegui.cpp" line="5864"/>
         <source>%1 failed to start.</source>
         <translation>Falha ao iniciar %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5860"/>
+        <location filename="../basegui.cpp" line="5865"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Por favor verifique o caminho do %1 nas Preferências.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5862"/>
+        <location filename="../basegui.cpp" line="5867"/>
         <source>%1 has crashed.</source>
         <translation>%1 travou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5944"/>
+        <location filename="../basegui.cpp" line="5949"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>O navegador do Youtube não está instalado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5945"/>
-        <location filename="../basegui.cpp" line="5957"/>
+        <location filename="../basegui.cpp" line="5950"/>
+        <location filename="../basegui.cpp" line="5962"/>
         <source>Visit %1 to get it.</source>
         <translation>VIsite %1 para baixar isso.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5955"/>
+        <location filename="../basegui.cpp" line="5960"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Falha na execução do navegador do YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5956"/>
+        <location filename="../basegui.cpp" line="5961"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Tenha certeza de que foi instalado corretamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6088"/>
+        <location filename="../basegui.cpp" line="6093"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>O sistema mudou para o modo tablet. Deseja que o SMPlayer mude para o modo tablet também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6095"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>O sistema saiu do modo tablet. Deseja que o SMPlayer saia também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6094"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Lembre-se da minha decisão e não pergunte novamente.</translation>
     </message>
@@ -1518,12 +1518,12 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>O servidor está &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5839"/>
+        <location filename="../basegui.cpp" line="5844"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5863"/>
+        <location filename="../basegui.cpp" line="5868"/>
         <source>See the log for more info.</source>
         <translation>Veja o registo para mais informações.</translation>
     </message>
@@ -1789,8 +1789,8 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Ativar/Desativar fica no topo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5379"/>
-        <location filename="../basegui.cpp" line="5681"/>
+        <location filename="../basegui.cpp" line="5384"/>
+        <location filename="../basegui.cpp" line="5686"/>
         <source>Jump to %1</source>
         <translation>Ir para %1</translation>
     </message>
@@ -1914,142 +1914,152 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="262"/>
+        <location filename="../baseguiplus.cpp" line="271"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer ainda está em execução</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="285"/>
+        <location filename="../baseguiplus.cpp" line="294"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Mostrar ícone na área de &amp;notificação</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="298"/>
+        <location filename="../baseguiplus.cpp" line="307"/>
         <source>Send &amp;video to screen</source>
         <translation>Enviar &amp;vídeo para tela</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="300"/>
+        <location filename="../baseguiplus.cpp" line="309"/>
         <source>Information about connected &amp;screens</source>
         <translation>Informações &amp;sobre telas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="306"/>
+        <location filename="../baseguiplus.cpp" line="312"/>
+        <source>Video is sent to an external screen</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="318"/>
         <source>&amp;Hide</source>
         <translation>&amp;Ocultar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="308"/>
+        <location filename="../baseguiplus.cpp" line="320"/>
         <source>&amp;Restore</source>
         <translation>&amp;Restaurar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="743"/>
+        <location filename="../baseguiplus.cpp" line="757"/>
         <source>Information about connected screens</source>
         <translation>Informações sobre telas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="746"/>
+        <location filename="../baseguiplus.cpp" line="760"/>
         <source>Connected screens</source>
         <translation>Telas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="749"/>
-        <location filename="../baseguiplus.cpp" line="783"/>
+        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Number of screens: %1</source>
         <translation>Número de telas: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="750"/>
-        <location filename="../baseguiplus.cpp" line="784"/>
+        <location filename="../baseguiplus.cpp" line="764"/>
+        <location filename="../baseguiplus.cpp" line="798"/>
         <source>Primary screen: %1</source>
         <translation>Tela primária: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="754"/>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="768"/>
+        <location filename="../baseguiplus.cpp" line="802"/>
         <source>Information for screen %1</source>
         <translation>Informações sobre a tela %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="756"/>
-        <location filename="../baseguiplus.cpp" line="790"/>
+        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="804"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Geometria disponível: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="758"/>
+        <location filename="../baseguiplus.cpp" line="772"/>
         <source>Available size: %1 x %2</source>
         <translation>Tamanho disponível: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="759"/>
+        <location filename="../baseguiplus.cpp" line="773"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria virtual disponível: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="777"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Tamanho virtual disponível: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="765"/>
+        <location filename="../baseguiplus.cpp" line="779"/>
         <source>Depth: %1 bits</source>
         <translation>Profundidade: %1 bits</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="766"/>
-        <location filename="../baseguiplus.cpp" line="792"/>
+        <location filename="../baseguiplus.cpp" line="780"/>
+        <location filename="../baseguiplus.cpp" line="806"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometria: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="768"/>
+        <location filename="../baseguiplus.cpp" line="782"/>
         <source>Logical DPI: %1</source>
         <translation>DPI lógico: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="784"/>
         <source>Physical DPI: %1</source>
         <translation>DPI físico: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="771"/>
+        <location filename="../baseguiplus.cpp" line="785"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Tamanho físico: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="773"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Taxa de atualização: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="774"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Size: %1 x %2</source>
         <translation>Tamanho: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="775"/>
+        <location filename="../baseguiplus.cpp" line="789"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria virtual: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
+        <location filename="../baseguiplus.cpp" line="791"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Tamanho virtual: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="827"/>
+        <location filename="../baseguiplus.cpp" line="841"/>
         <source>Primary screen</source>
         <translation>Tela primária</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="284"/>
+        <location filename="../baseguiplus.cpp" line="905"/>
+        <source>SMPlayer external screen output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="293"/>
         <source>&amp;Quit</source>
         <translation>&amp;Sair</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="290"/>
+        <location filename="../baseguiplus.cpp" line="299"/>
         <source>Playlist</source>
         <translation>Lista de reprodução</translation>
     </message>
@@ -6860,14 +6870,14 @@ Deseja substituí-lo?</translation>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="133"/>
-        <location filename="../prefinterface.cpp" line="660"/>
+        <location filename="../prefinterface.cpp" line="151"/>
+        <location filename="../prefinterface.cpp" line="736"/>
         <source>Interface</source>
         <translation>Interface</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
-        <location filename="../prefinterface.cpp" line="202"/>
+        <location filename="../prefinterface.cpp" line="217"/>
+        <location filename="../prefinterface.cpp" line="220"/>
         <source>Default</source>
         <translation>Padrão</translation>
     </message>
@@ -6898,42 +6908,42 @@ Deseja substituí-lo?</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Recent files</source>
         <translation>Arquivos recentes</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="680"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="681"/>
+        <location filename="../prefinterface.cpp" line="757"/>
         <source>Here you can change the language of the application.</source>
         <translation>Aqui pode mudar o idioma da aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="177"/>
+        <location filename="../prefinterface.cpp" line="195"/>
         <source>&amp;Short jump</source>
         <translation>Avanço &amp;Curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="148"/>
+        <location filename="../prefinterface.cpp" line="166"/>
         <source>System language</source>
         <translation>Idioma do sistema</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="178"/>
+        <location filename="../prefinterface.cpp" line="196"/>
         <source>&amp;Medium jump</source>
         <translation>Avanço &amp;Médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="179"/>
+        <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Long jump</source>
         <translation>Avanço &amp;Longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="180"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Avanço através da &amp;roda do mouse</translation>
     </message>
@@ -7053,6 +7063,31 @@ Deseja substituí-lo?</translation>
         <translation>Lembra&amp;r último diretório</translation>
     </message>
     <message>
+        <location filename="../prefinterface.ui" line="952"/>
+        <source>High &amp;DPI</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="958"/>
+        <source>&amp;Enable support for high DPI screens</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="968"/>
+        <source>Scale</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="974"/>
+        <source>A&amp;uto</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.ui" line="1030"/>
+        <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefinterface.ui" line="622"/>
         <source>TextLabel</source>
         <translation>Rótulo de texto</translation>
@@ -7078,290 +7113,300 @@ Deseja substituí-lo?</translation>
         <translation>Ins&amp;tâncias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="662"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>Autoresize</source>
         <translation>Redimensionar automaticamente</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="663"/>
+        <location filename="../prefinterface.cpp" line="739"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>A janela principal pode ser redimensionada automaticamente. Selecione a opção que preferir.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="673"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>Remember position and size</source>
         <translation>Lembrar posição e tamanho de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="674"/>
+        <location filename="../prefinterface.cpp" line="750"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Se selecionar esta opção, a posição e o tamanho da janela principal serão guardados e restaurados quando executar novamente o SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="684"/>
+        <location filename="../prefinterface.cpp" line="760"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Selecione a interface gráfica preferida para o aplicativo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="685"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>A &lt;b&gt;Interface básica&lt;/b&gt; fornece a interface tradicional, com as barras de ferramentas e de controle.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="687"/>
+        <location filename="../prefinterface.cpp" line="763"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>A &lt;b&gt;Interface mini&lt;/b&gt; fornece uma interface mais simples, sem a barra de ferramentas e com uma barra de controle com poucos botões.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="695"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>A &lt;b&gt;Interface personalizável&lt;/b&gt; fornece uma interface onde vários temas estão disponíveis.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="691"/>
+        <location filename="../prefinterface.cpp" line="767"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>A &lt;b&gt;Interface Mpc&lt;/b&gt; se assemelha à interface do Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="870"/>
         <source>Privacy</source>
         <translation>Privacidade</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="797"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Selecione o número máximo de itens a serem mostrados em&lt;b&gt;Arquivos Recentes&lt;/b&gt;. Se definir 0, o menu não será mostrado.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="700"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Icon set</source>
         <translation>Conjunto de ícones</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="208"/>
+        <location filename="../prefinterface.cpp" line="226"/>
         <source>Basic GUI</source>
         <translation>Interface básica</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="217"/>
+        <location filename="../prefinterface.cpp" line="235"/>
         <source>Skinnable GUI</source>
         <translation>Interface personalizável</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="666"/>
+        <location filename="../prefinterface.cpp" line="248"/>
+        <source>Scale fact&amp;or:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="251"/>
+        <source>Pixel rati&amp;o:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Previne a janela de ficar fora da tela</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="667"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Se após um auto ajuste do tamanho a janela principal ficar fora da tela, essa opção centralizará a janela como prevenção.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="670"/>
+        <location filename="../prefinterface.cpp" line="746"/>
         <source>Center window</source>
         <translation>Centralizar janela</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="671"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Habilitando essa opção, a janela principal ficará centralizada na área de trabalho.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="701"/>
+        <location filename="../prefinterface.cpp" line="777"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Selecione o conjunto de ícones que prefere para a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="704"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Skin</source>
         <translation>Tema</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="705"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Selecione o tema de sua preferência para o aplicativo. Somente disponível na Interface personalizável.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="708"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>Style</source>
         <translation>Estilo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="709"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Selecione o estilo que prefere para a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="712"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Default font</source>
         <translation>Fonte por padrão</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="713"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Pode alterar aqui o tipo de fonte da aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="715"/>
+        <location filename="../prefinterface.cpp" line="791"/>
         <source>Seeking</source>
         <translation>Procura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="717"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Short jump</source>
         <translation>Avanço Curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="718"/>
-        <location filename="../prefinterface.cpp" line="722"/>
-        <location filename="../prefinterface.cpp" line="726"/>
+        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="802"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Selecione os intervalos de tempo a serem usados quando seleciona a ação %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="719"/>
+        <location filename="../prefinterface.cpp" line="795"/>
         <source>short jump</source>
         <translation>avanço curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="721"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Medium jump</source>
         <translation>Avanço Médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="723"/>
+        <location filename="../prefinterface.cpp" line="799"/>
         <source>medium jump</source>
         <translation>avanço médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="725"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Long jump</source>
         <translation>Avanço Longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="727"/>
+        <location filename="../prefinterface.cpp" line="803"/>
         <source>long jump</source>
         <translation>avanço longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="729"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Mouse wheel jump</source>
         <translation>Avanço através da roda do mouse</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="730"/>
+        <location filename="../prefinterface.cpp" line="806"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Selecione os intervalos de tempo a serem usados quando move a roda do rato.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="733"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Behaviour of time slider</source>
         <translation>Comportamento do controle de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="734"/>
+        <location filename="../prefinterface.cpp" line="810"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Selecione o que deve acontecer ao arrastar o controlador de tempo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="824"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Pressionando o botão parar uma vez reinicia a posição de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="779"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Mostrar apenas quando mover o mouse para a parte de baixo da tela</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="780"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Selecionando essa opção, o controle flutuante será mostrado apenas quando o mouse for movido para a parte de baixo da tela. Do contrário o controle aparecerá sempre que o mouse se mover, independente de sua posição.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Se a opção estiver ativa, o controle flutuante aparecerá em modo compacto.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="787"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Essa opção funciona apenas com a GUI básica.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="788"/>
+        <location filename="../prefinterface.cpp" line="864"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Cuidado:&lt;/b&gt; o controle flutuante foi configurado para o modo compacto e pode não funcionar corretamente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="791"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Time to hide the control</source>
         <translation>Tempo para ocultar o controle</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Ajuste o tempo (em milissegundos) para ocultar o controle após o mouse se afastar.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="801"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Max. URLs</source>
         <translation>Máx. URLs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Selecione o número máximo de itens que o diálogo &lt;Abri-&gt;URL&lt;/b&gt; vai memorizar. Configure para 0 caso não queira nenhuma URL armazenada.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="882"/>
         <source>Remember last directory</source>
         <translation>Lembrar último diretório</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="807"/>
+        <location filename="../prefinterface.cpp" line="883"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Se essa opção estiver ativada, o SMPlayer vai lembrar a última pasta usada para abrir um arquivo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="813"/>
         <source>Seeking method</source>
         <translation>Método de procura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="738"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Define o método a utilizar ao procurar com o deslocador. A procura absoluta é mais precisa enquanto que a procura relativa pode funcionar melhor em arquivos com dimensão errada.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="749"/>
+        <location filename="../prefinterface.cpp" line="825"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>Por padrão, quando o botão parar é pressionado, a posição de tempo é lembrada, então se o botão reproduzir for pressionado a mídia vai retornar no mesmo ponto. É necessário pressionar o botão parar duas vezes para reiniciar a posição de tempo, mas se essa opção estiver marcada a posição de tempo vai ser configurada para 0 ao se pressionar o botão parar somente uma vez.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="756"/>
+        <location filename="../prefinterface.cpp" line="832"/>
         <source>Instances</source>
         <translation>Instâncias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Use apenas uma instância do SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="836"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Selecione esta opção se pretende usar a instância do SMPlayer em execução ao abrir outros arquivos.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="211"/>
+        <location filename="../prefinterface.cpp" line="229"/>
         <source>Mini GUI</source>
         <translation>Interface mini</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="683"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -7371,42 +7416,42 @@ Deseja substituí-lo?</translation>
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="840"/>
         <source>Floating control</source>
         <translation>Controle flutuante</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Animated</source>
         <translation>Animação</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="767"/>
+        <location filename="../prefinterface.cpp" line="843"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Se a opção estiver ativa, o controle flutuante aparecerá com uma animação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="770"/>
+        <location filename="../prefinterface.cpp" line="846"/>
         <source>Width</source>
         <translation>Largura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="771"/>
+        <location filename="../prefinterface.cpp" line="847"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Especifica a largura do controle ( como percentagem).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="773"/>
+        <location filename="../prefinterface.cpp" line="849"/>
         <source>Margin</source>
         <translation>Margem</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="774"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Esta opção define o número de pixeis entre o controle flutuante e a parte inferior da tela. Útil quando a tela for uma TV, permitindo assim a correta visualização do controle.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="784"/>
+        <location filename="../prefinterface.cpp" line="860"/>
         <source>Display in compact mode too</source>
         <translation>Apresentar também em modo compacto</translation>
     </message>
@@ -7428,6 +7473,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefinterface.ui" line="716"/>
         <location filename="../prefinterface.ui" line="749"/>
+        <location filename="../prefinterface.ui" line="1015"/>
         <source>0</source>
         <translation>0</translation>
     </message>
@@ -7442,17 +7488,17 @@ Deseja substituí-lo?</translation>
         <translation>Apresentar também em modo &amp;compacto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="214"/>
+        <location filename="../prefinterface.cpp" line="232"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="677"/>
+        <location filename="../prefinterface.cpp" line="753"/>
         <source>Hide video window when playing audio files</source>
         <translation>Esconder janela de vídeo quando tocando arquivos de áudio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="678"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Se essa opção estiver ativada a janela de vídeo vai ser ocultada quando tocando arquivos de áudio.</translation>
     </message>
@@ -7462,17 +7508,17 @@ Deseja substituí-lo?</translation>
         <translation>Esconder janela do vídeo quando tocando arquivos de áudio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Precise seeking</source>
         <translation>Busca precisa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Se esta opção estiver ativada, buscas serão mais precisas mas elas podem ser um pouco mais lentas. Pode não funcionar com alguns formatos de vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="746"/>
+        <location filename="../prefinterface.cpp" line="822"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Nota: essa opção apenas funciona com o MPlayer2</translation>
     </message>
@@ -8091,112 +8137,112 @@ Deseja substituí-lo?</translation>
 <context>
     <name>PrefPlaylist</name>
     <message>
-        <location filename="../prefplaylist.cpp" line="35"/>
+        <location filename="../prefplaylist.cpp" line="34"/>
         <source>Playlist</source>
         <translation>Lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="130"/>
+        <location filename="../prefplaylist.cpp" line="129"/>
         <source>Automatically add files to playlist</source>
         <translation>Adicionar os arquivos à lista de reprodução automaticamente</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="131"/>
+        <location filename="../prefplaylist.cpp" line="130"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Se esta opção estiver ativa, de cada vez que abrir um arquivo, o SMPlayer irá limpar a lista de reprodução e só depois o adicionará a esta. No caso de DVDs, CDs e VCDs, os títulos do disco serão adicionados à lista de reprodução.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="47"/>
+        <location filename="../prefplaylist.cpp" line="46"/>
         <source>None</source>
         <translation>Nenhum</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="48"/>
+        <location filename="../prefplaylist.cpp" line="47"/>
         <source>Video files</source>
         <translation>Arquivos de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="49"/>
+        <location filename="../prefplaylist.cpp" line="48"/>
         <source>Audio files</source>
         <translation>Arquivos de áudio</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="50"/>
+        <location filename="../prefplaylist.cpp" line="49"/>
         <source>Video and audio files</source>
         <translation>Arquivos de vídeo e áudio</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="51"/>
+        <location filename="../prefplaylist.cpp" line="50"/>
         <source>Consecutive files</source>
         <translation>Arquivos consecutivos</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="136"/>
+        <location filename="../prefplaylist.cpp" line="135"/>
         <source>Add files from folder</source>
         <translation>Adicionar arquivos da pasta</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="137"/>
+        <location filename="../prefplaylist.cpp" line="136"/>
         <source>This option allows to add files automatically to the playlist:</source>
         <translation>Essa opção lhe permite adicionar arquivos à lista de reprodução automaticamente:</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="138"/>
+        <location filename="../prefplaylist.cpp" line="137"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;Nenhum&lt;/b&gt;: nenhum arquivo será adicionado</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="139"/>
+        <location filename="../prefplaylist.cpp" line="138"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;Arquivos de vídeo&lt;/b&gt;: todos os arquivos de vídeo encontrados na pasta serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="140"/>
+        <location filename="../prefplaylist.cpp" line="139"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Arquivos de áudio&lt;/b&gt;: todos os arquivos de áudio encontrados na pasta serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="141"/>
+        <location filename="../prefplaylist.cpp" line="140"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Arquivos de vídeo e áudio&lt;/b&gt;: todos os arquivos de vídeo e áudio encontrados na pasta serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="142"/>
+        <location filename="../prefplaylist.cpp" line="141"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;Arquivos consecutivos&lt;/b&gt;: arquivos consecutivos (como vídeo_1.avi, vídeo_2.avi) serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="144"/>
+        <location filename="../prefplaylist.cpp" line="143"/>
         <source>Play files from start</source>
         <translation>Reproduzir desde o início</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="145"/>
+        <location filename="../prefplaylist.cpp" line="144"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>Se essa opção estiver ativada, todos os arquivos da lista de reprodução vão ser reproduzidos do início em vez de continuar de uma reprodução anterior.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="154"/>
+        <location filename="../prefplaylist.cpp" line="153"/>
         <source>Get info automatically about files added</source>
         <translation>Obter automaticamente as informações dos arquivos adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="161"/>
+        <location filename="../prefplaylist.cpp" line="160"/>
         <source>Save copy of playlist on exit</source>
         <translation>Guardar cópia da lista de reprodução ao sair</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="162"/>
+        <location filename="../prefplaylist.cpp" line="161"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
         <translation>Se essa opção estvier marcada, uma cópia da lista de reprodução será salva nas configurações do smplayer quando o smplayer for fechado, e vai recarregar automaticamente quando o smplayer rodar de novo.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="166"/>
+        <location filename="../prefplaylist.cpp" line="165"/>
         <source>Play next file even if the previous file failed</source>
         <translation>Reproduzir o próximo arquivo mesmo que o anterior tenha falhado</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="167"/>
+        <location filename="../prefplaylist.cpp" line="166"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>Habilitando essa opção, a lista de reprodução irá ignorar erros no arquivo anterior e reproduzirá o próximo arquivo na lista.</translation>
     </message>
@@ -8211,17 +8257,17 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Adicionar, automaticamente, os arquivos à lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="149"/>
+        <location filename="../prefplaylist.cpp" line="148"/>
         <source>Add files in directories recursively</source>
         <translation>Adicionar recursivamente os arquivos dos pastas </translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="150"/>
+        <location filename="../prefplaylist.cpp" line="149"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Selecione esta opção se pretende adicionar um pasta e sub pastas. Caso contrário, apenas os arquivos do pasta principal serão adicionados.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="155"/>
+        <location filename="../prefplaylist.cpp" line="154"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Selecione esta opção para adicionar à lista de reprodução as informações contidas no arquivo. Isto permite-lhe mostrar o título (se existente) e a duração dos arquivos. Caso contrário, esta informação não estará disponível. Atenção: esta ação pode ser demorada, principalmente se adicionar muitos arquivos.</translation>
     </message>
@@ -8935,27 +8981,27 @@ Deseja substituí-lo?</translation>
 <context>
     <name>PreferencesDialog</name>
     <message>
-        <location filename="../preferencesdialog.cpp" line="138"/>
+        <location filename="../preferencesdialog.cpp" line="171"/>
         <source>SMPlayer - Help</source>
         <translation>SMPlayer - Ajuda</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="143"/>
+        <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="144"/>
+        <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
         <translation>&amp;Cancelar</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="145"/>
+        <location filename="../preferencesdialog.cpp" line="178"/>
         <source>Apply</source>
         <translation>Aplicar</translation>
     </message>
     <message>
-        <location filename="../preferencesdialog.cpp" line="146"/>
+        <location filename="../preferencesdialog.cpp" line="179"/>
         <source>Help</source>
         <translation>Ajuda</translation>
     </message>
