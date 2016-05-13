@@ -697,7 +697,7 @@ void PrefInterface::loadHDPIData() {
 	auto_scale_check->setChecked(hdpi->autoScale());
 
 	#ifdef HDPI_USE_SCALE_FACTOR
-	hdpi_scale_slider->setMinimum(0);
+	hdpi_scale_slider->setMinimum(5);
 	hdpi_scale_slider->setMaximum(4*10);
 	hdpi_scale_slider->setValue(hdpi->scaleFactor() * 10);
 	#else

@@ -980,7 +980,7 @@
             <item>
              <widget class="QLabel" name="hdpi_scale_label">
               <property name="enabled">
-               <bool>false</bool>
+               <bool>true</bool>
               </property>
               <property name="text">
                <string notr="true">Scale fact&amp;or:</string>
@@ -993,7 +993,7 @@
             <item>
              <widget class="QSlider" name="hdpi_scale_slider">
               <property name="enabled">
-               <bool>false</bool>
+               <bool>true</bool>
               </property>
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
@@ -1003,7 +1003,7 @@
             <item>
              <widget class="QLabel" name="hdpi_scale_num_label">
               <property name="enabled">
-               <bool>false</bool>
+               <bool>true</bool>
               </property>
               <property name="frameShape">
                <enum>QFrame::Panel</enum>
@@ -1139,7 +1139,7 @@
    <sender>auto_scale_check</sender>
    <signal>toggled(bool)</signal>
    <receiver>hdpi_scale_label</receiver>
-   <slot>setEnabled(bool)</slot>
+   <slot>setDisabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
      <x>249</x>
@@ -1155,7 +1155,7 @@
    <sender>auto_scale_check</sender>
    <signal>toggled(bool)</signal>
    <receiver>hdpi_scale_slider</receiver>
-   <slot>setEnabled(bool)</slot>
+   <slot>setDisabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
      <x>249</x>
@@ -1187,7 +1187,7 @@
    <sender>auto_scale_check</sender>
    <signal>toggled(bool)</signal>
    <receiver>hdpi_scale_num_label</receiver>
-   <slot>setEnabled(bool)</slot>
+   <slot>setDisabled(bool)</slot>
    <hints>
     <hint type="sourcelabel">
      <x>249</x>
