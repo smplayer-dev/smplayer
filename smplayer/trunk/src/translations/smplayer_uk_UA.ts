@@ -1914,152 +1914,152 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="271"/>
+        <location filename="../baseguiplus.cpp" line="270"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer все ще працює тут</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="294"/>
+        <location filename="../baseguiplus.cpp" line="293"/>
         <source>S&amp;how icon in system tray</source>
         <translation>В&amp;ідображати піктограму у системному лотку</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="307"/>
+        <location filename="../baseguiplus.cpp" line="306"/>
         <source>Send &amp;video to screen</source>
         <translation>Відправити &amp;відео на екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="309"/>
+        <location filename="../baseguiplus.cpp" line="308"/>
         <source>Information about connected &amp;screens</source>
         <translation>Інформація про під’єднані &amp;екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="312"/>
+        <location filename="../baseguiplus.cpp" line="311"/>
         <source>Video is sent to an external screen</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="317"/>
         <source>&amp;Hide</source>
         <translation>&amp;Сховати</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="320"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>&amp;Restore</source>
         <translation>&amp;Відновити</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="757"/>
+        <location filename="../baseguiplus.cpp" line="756"/>
         <source>Information about connected screens</source>
         <translation>Інформація про під’єднані екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="760"/>
+        <location filename="../baseguiplus.cpp" line="759"/>
         <source>Connected screens</source>
         <translation>Під’єднані екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="763"/>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="762"/>
+        <location filename="../baseguiplus.cpp" line="796"/>
         <source>Number of screens: %1</source>
         <translation>Кількість екранів: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Primary screen: %1</source>
         <translation>Первинний екран: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="768"/>
-        <location filename="../baseguiplus.cpp" line="802"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
+        <location filename="../baseguiplus.cpp" line="801"/>
         <source>Information for screen %1</source>
         <translation>Інформація для екрану %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="770"/>
-        <location filename="../baseguiplus.cpp" line="804"/>
+        <location filename="../baseguiplus.cpp" line="769"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Доступна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="772"/>
+        <location filename="../baseguiplus.cpp" line="771"/>
         <source>Available size: %1 x %2</source>
         <translation>Доступний розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="773"/>
+        <location filename="../baseguiplus.cpp" line="772"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Доступна віртуальна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
+        <location filename="../baseguiplus.cpp" line="776"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Доступний віртуальний розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="778"/>
         <source>Depth: %1 bits</source>
         <translation>Глибина: %1 бітів</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="780"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="805"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="781"/>
         <source>Logical DPI: %1</source>
         <translation>Логічне DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="784"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
         <source>Physical DPI: %1</source>
         <translation>Фізичне DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="784"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Фізичний розмір: %1 x %2 мм</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="787"/>
+        <location filename="../baseguiplus.cpp" line="786"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Частота оновлення: %1 Гц</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Size: %1 x %2</source>
         <translation>Розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Віртуальна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="790"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Віртуальний розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="841"/>
+        <location filename="../baseguiplus.cpp" line="840"/>
         <source>Primary screen</source>
         <translation>Первинний екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="905"/>
+        <location filename="../baseguiplus.cpp" line="904"/>
         <source>SMPlayer external screen output</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="293"/>
+        <location filename="../baseguiplus.cpp" line="292"/>
         <source>&amp;Quit</source>
         <translation>&amp;Вихід</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="299"/>
+        <location filename="../baseguiplus.cpp" line="298"/>
         <source>Playlist</source>
         <translation>Перелік відтворення</translation>
     </message>
