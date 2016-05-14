@@ -1914,152 +1914,152 @@ Se mostrará a continuación el diálogo de configuración.</translation>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="271"/>
+        <location filename="../baseguiplus.cpp" line="270"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer sigue funcionando aquí</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="294"/>
+        <location filename="../baseguiplus.cpp" line="293"/>
         <source>S&amp;how icon in system tray</source>
         <translation>I&amp;cono en la bandeja del sistema</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="307"/>
+        <location filename="../baseguiplus.cpp" line="306"/>
         <source>Send &amp;video to screen</source>
         <translation>Enviar &amp;vídeo a la pantalla</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="309"/>
+        <location filename="../baseguiplus.cpp" line="308"/>
         <source>Information about connected &amp;screens</source>
         <translation>Información sobre las &amp;pantallas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="312"/>
+        <location filename="../baseguiplus.cpp" line="311"/>
         <source>Video is sent to an external screen</source>
         <translation>El vídeo se envía a una pantalla externa</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="317"/>
         <source>&amp;Hide</source>
         <translation>&amp;Ocultar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="320"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>&amp;Restore</source>
         <translation>&amp;Restaurar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="757"/>
+        <location filename="../baseguiplus.cpp" line="756"/>
         <source>Information about connected screens</source>
         <translation>Información sobre las pantallas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="760"/>
+        <location filename="../baseguiplus.cpp" line="759"/>
         <source>Connected screens</source>
         <translation>Pantallas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="763"/>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="762"/>
+        <location filename="../baseguiplus.cpp" line="796"/>
         <source>Number of screens: %1</source>
         <translation>Número de pantallas: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Primary screen: %1</source>
         <translation>Pantalla principal: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="768"/>
-        <location filename="../baseguiplus.cpp" line="802"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
+        <location filename="../baseguiplus.cpp" line="801"/>
         <source>Information for screen %1</source>
         <translation>Información sobre la pantalla %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="770"/>
-        <location filename="../baseguiplus.cpp" line="804"/>
+        <location filename="../baseguiplus.cpp" line="769"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Geometría disponible: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="772"/>
+        <location filename="../baseguiplus.cpp" line="771"/>
         <source>Available size: %1 x %2</source>
         <translation>Tamaño disponible: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="773"/>
+        <location filename="../baseguiplus.cpp" line="772"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometría virtual disponible: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
+        <location filename="../baseguiplus.cpp" line="776"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Tamaño virtual disponible: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="778"/>
         <source>Depth: %1 bits</source>
         <translation>Profundidad: %1 bits</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="780"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="805"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometría: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="781"/>
         <source>Logical DPI: %1</source>
         <translation>DPI lógicos: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="784"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
         <source>Physical DPI: %1</source>
         <translation>DPI físicos: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="784"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Tamaño físico: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="787"/>
+        <location filename="../baseguiplus.cpp" line="786"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Tasa de refresco: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Size: %1 x %2</source>
         <translation>Tamaño: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometría virtual: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="790"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Tamaño virtual: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="841"/>
+        <location filename="../baseguiplus.cpp" line="840"/>
         <source>Primary screen</source>
         <translation>Pantalla principal</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="905"/>
+        <location filename="../baseguiplus.cpp" line="904"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer - salida a pantalla externa</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="293"/>
+        <location filename="../baseguiplus.cpp" line="292"/>
         <source>&amp;Quit</source>
         <translation>&amp;Salir</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="299"/>
+        <location filename="../baseguiplus.cpp" line="298"/>
         <source>Playlist</source>
         <translation>Lista de reproducción</translation>
     </message>

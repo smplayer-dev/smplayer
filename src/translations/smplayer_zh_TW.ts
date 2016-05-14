@@ -1914,152 +1914,152 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="271"/>
+        <location filename="../baseguiplus.cpp" line="270"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer 仍然在這裡執行中</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="294"/>
+        <location filename="../baseguiplus.cpp" line="293"/>
         <source>S&amp;how icon in system tray</source>
         <translation>在系統匣顯示圖示(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="307"/>
+        <location filename="../baseguiplus.cpp" line="306"/>
         <source>Send &amp;video to screen</source>
         <translation>傳送影片至螢幕(&amp;V)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="309"/>
+        <location filename="../baseguiplus.cpp" line="308"/>
         <source>Information about connected &amp;screens</source>
         <translation>關於已連接螢幕的資訊(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="312"/>
+        <location filename="../baseguiplus.cpp" line="311"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"></translation>
+        <translation>視訊已傳送至外接螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="317"/>
         <source>&amp;Hide</source>
         <translation>隱藏(&amp;H)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="320"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>&amp;Restore</source>
         <translation>恢復(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="757"/>
+        <location filename="../baseguiplus.cpp" line="756"/>
         <source>Information about connected screens</source>
         <translation>關於已連接螢幕的資訊</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="760"/>
+        <location filename="../baseguiplus.cpp" line="759"/>
         <source>Connected screens</source>
         <translation>已連接螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="763"/>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="762"/>
+        <location filename="../baseguiplus.cpp" line="796"/>
         <source>Number of screens: %1</source>
         <translation>螢幕數：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Primary screen: %1</source>
         <translation>主螢幕：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="768"/>
-        <location filename="../baseguiplus.cpp" line="802"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
+        <location filename="../baseguiplus.cpp" line="801"/>
         <source>Information for screen %1</source>
         <translation>螢幕 %1 的資訊</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="770"/>
-        <location filename="../baseguiplus.cpp" line="804"/>
+        <location filename="../baseguiplus.cpp" line="769"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>可用形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="772"/>
+        <location filename="../baseguiplus.cpp" line="771"/>
         <source>Available size: %1 x %2</source>
         <translation>可用大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="773"/>
+        <location filename="../baseguiplus.cpp" line="772"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>可用虛擬形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
+        <location filename="../baseguiplus.cpp" line="776"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>可用虛擬大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="778"/>
         <source>Depth: %1 bits</source>
         <translation>深度：%1 位元</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="780"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="805"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="781"/>
         <source>Logical DPI: %1</source>
         <translation>邏輯 DPI：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="784"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
         <source>Physical DPI: %1</source>
         <translation>實際 DPI：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="784"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>實際大小：%1 x %2 毫米</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="787"/>
+        <location filename="../baseguiplus.cpp" line="786"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>重新整理頻率：%1 赫茲</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Size: %1 x %2</source>
         <translation>大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>虛擬形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="790"/>
         <source>Virtual size: %1 x %2</source>
         <translation>虛擬大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="841"/>
+        <location filename="../baseguiplus.cpp" line="840"/>
         <source>Primary screen</source>
         <translation>主螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="905"/>
+        <location filename="../baseguiplus.cpp" line="904"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer 外接螢幕輸出</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="293"/>
+        <location filename="../baseguiplus.cpp" line="292"/>
         <source>&amp;Quit</source>
         <translation>結束(&amp;Q)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="299"/>
+        <location filename="../baseguiplus.cpp" line="298"/>
         <source>Playlist</source>
         <translation>播放清單</translation>
     </message>
@@ -7070,27 +7070,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>高 DPI(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用對高 DPI 螢幕的支援(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>大小</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="974"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>自動(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1030"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>這邊的變動需要重新啟動 SMPlayer 以使其生效</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7190,12 +7190,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="248"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"></translation>
+        <translation>縮放係數：(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="251"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>像素比例：(&amp;O)</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
@@ -7805,7 +7805,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>自動(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8076,7 +8076,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>通常此選項會在需要時啟用快取。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>

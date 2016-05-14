@@ -1914,152 +1914,152 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
 <context>
     <name>BaseGuiPlus</name>
     <message>
-        <location filename="../baseguiplus.cpp" line="271"/>
+        <location filename="../baseguiplus.cpp" line="270"/>
         <source>SMPlayer is still running here</source>
         <translation>SMPlayer oraindik ekinean dago</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="294"/>
+        <location filename="../baseguiplus.cpp" line="293"/>
         <source>S&amp;how icon in system tray</source>
         <translation>Erakutsi i&amp;kurra sistema-erretiluan</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="307"/>
+        <location filename="../baseguiplus.cpp" line="306"/>
         <source>Send &amp;video to screen</source>
         <translation>Bidali &amp;bideoa ikusleihora</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="309"/>
+        <location filename="../baseguiplus.cpp" line="308"/>
         <source>Information about connected &amp;screens</source>
         <translation>Elkartutako &amp;ikusleihoei buruzko argibideak</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="312"/>
+        <location filename="../baseguiplus.cpp" line="311"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Bideoa kanpoko ikusleiho batera bidaltzen da</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="318"/>
+        <location filename="../baseguiplus.cpp" line="317"/>
         <source>&amp;Hide</source>
         <translation>E&amp;zkutatu</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="320"/>
+        <location filename="../baseguiplus.cpp" line="319"/>
         <source>&amp;Restore</source>
         <translation>&amp;Berrezarri</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="757"/>
+        <location filename="../baseguiplus.cpp" line="756"/>
         <source>Information about connected screens</source>
         <translation>Elkartutako ikusleihoei buruzko argibideak</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="760"/>
+        <location filename="../baseguiplus.cpp" line="759"/>
         <source>Connected screens</source>
         <translation>Elkartutako ikusleihoak</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="763"/>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="762"/>
+        <location filename="../baseguiplus.cpp" line="796"/>
         <source>Number of screens: %1</source>
         <translation>Ikusleiho zenbatekoa: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="763"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Primary screen: %1</source>
         <translation>Lehen ikusleihoa: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="768"/>
-        <location filename="../baseguiplus.cpp" line="802"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
+        <location filename="../baseguiplus.cpp" line="801"/>
         <source>Information for screen %1</source>
         <translation>%1 ikusleihoari buruzko argibideak</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="770"/>
-        <location filename="../baseguiplus.cpp" line="804"/>
+        <location filename="../baseguiplus.cpp" line="769"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Geometria eskuragarriak: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="772"/>
+        <location filename="../baseguiplus.cpp" line="771"/>
         <source>Available size: %1 x %2</source>
         <translation>Neurri eskuragarria: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="773"/>
+        <location filename="../baseguiplus.cpp" line="772"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria birtual eskuragarria: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
+        <location filename="../baseguiplus.cpp" line="776"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Neurri birtual eskuragarria: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="778"/>
         <source>Depth: %1 bits</source>
         <translation>Sakonera: %1 bits</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="780"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="805"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometria: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="781"/>
         <source>Logical DPI: %1</source>
         <translation>DPI logikoa: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="784"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
         <source>Physical DPI: %1</source>
         <translation>DPI fisikoa: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="784"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Neurri fisikoa: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="787"/>
+        <location filename="../baseguiplus.cpp" line="786"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Berritze neurria: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Size: %1 x %2</source>
         <translation>Neurria: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria birtuala: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="790"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Neurri birutala: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="841"/>
+        <location filename="../baseguiplus.cpp" line="840"/>
         <source>Primary screen</source>
         <translation>Lehen ikusleihoa</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="905"/>
+        <location filename="../baseguiplus.cpp" line="904"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer kanpoko ikusleiho irteera</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="293"/>
+        <location filename="../baseguiplus.cpp" line="292"/>
         <source>&amp;Quit</source>
         <translation>&amp;Utzi</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="299"/>
+        <location filename="../baseguiplus.cpp" line="298"/>
         <source>Playlist</source>
         <translation>Irakur-zerrenda</translation>
     </message>
@@ -7065,27 +7065,27 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;DPI Handia</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu &amp;DPI handiko ikusleihoentzako sostengua</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Neurriratu</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="974"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Berez</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1030"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Atal honetako aldaketek SMPlayer berrabiaraztea behar dute eragina izateko</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7185,12 +7185,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="248"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Neurriratze ezaugarria:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="251"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pixel maila:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="742"/>
@@ -7800,7 +7800,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Berez</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8071,7 +8071,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Arrunt aukera honek katxea gaituko du beharrezkoa denean.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
