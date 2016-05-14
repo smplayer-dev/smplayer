@@ -222,6 +222,11 @@ bool AutohideWidget::eventFilter(QObject * obj, QEvent * event) {
 				}
 			}
 		}
+		else
+		if (event->type() == QEvent::MouseButtonRelease && obj == this) {
+			event->setAccepted(true);
+			return true;
+		}
 	}
 
 	return QWidget::eventFilter(obj, event);
