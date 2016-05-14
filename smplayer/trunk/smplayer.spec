@@ -1,6 +1,6 @@
 Name:           smplayer
-Version:        16.4.0.7834
-%global smplayer_themes_ver 16.5.0
+Version:        16.4.0.7864
+%global smplayer_themes_ver 16.5.2
 %global smplayer_skins_ver 15.2.0
 Release:        1%{?dist}
 Summary:        A great media player
