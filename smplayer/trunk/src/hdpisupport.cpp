@@ -58,6 +58,7 @@ HDPISupport::~HDPISupport() {
 		delete set;
 	}
 #endif
+	instance_obj = 0;
 }
 
 #ifdef HDPI_STORE_DATA
