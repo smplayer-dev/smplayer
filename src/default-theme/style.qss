@@ -29,9 +29,12 @@ QToolTip {
 	color: black;
 	padding: 0px;
 	margin: 0px;
+	/*
 	border: 1px solid silver;
 	border-radius: 2px;
 	font-size: 14px;
+	*/
+	border: 0px;
 }
 
 ShareButton {
