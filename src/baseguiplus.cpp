@@ -760,11 +760,19 @@ void BaseGuiPlus::showScreensInfo() {
 #if QT_VERSION >= 0x050000
 	QList<QScreen *> screen_list = qApp->screens();
 	t += "<p>" + tr("Number of screens: %1").arg(screen_list.count());
-	t += "<p>" + tr("Primary screen: %1").arg(qApp->primaryScreen()->name());
+	QString screen_name = qApp->primaryScreen()->name();
+	#ifdef Q_OS_WIN
+	screen_name = screen_name.replace("\\\\.\\","");
+	#endif
+	t += "<p>" + tr("Primary screen: %1").arg(screen_name);
 
 	t += "<ul>";
 	foreach(QScreen *screen, screen_list) {
-		t += "<li>" + tr("Information for screen %1").arg(screen->name());
+		screen_name = screen->name();
+		#ifdef Q_OS_WIN
+		screen_name = screen_name.replace("\\\\.\\","");
+		#endif
+		t += "<li>" + tr("Information for screen %1").arg(screen_name);
 		t += "<ul>";
 		t += "<li>" + tr("Available geometry: %1 %2 %3 x %4").arg(screen->availableGeometry().x()).arg(screen->availableGeometry().y())
 						.arg(screen->availableGeometry().width()).arg(screen->availableGeometry().height()) + "</li>";
@@ -830,6 +838,9 @@ void BaseGuiPlus::updateSendToScreen() {
 		QString name;
 		#if QT_VERSION >= 0x050000
 		name = screen_list[n]->name();
+		#ifdef Q_OS_WIN
+		name = name.replace("\\\\.\\","");
+		#endif
 		bool is_primary_screen = (screen_list[n] == qApp->primaryScreen());
 		#else
 		bool is_primary_screen = (n == dw->primaryScreen());
