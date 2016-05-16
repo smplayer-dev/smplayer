@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>491</width>
+    <width>546</width>
     <height>502</height>
    </rect>
   </property>
@@ -953,6 +953,16 @@
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_9">
        <item>
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</string>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="enable_hdpi_check">
          <property name="text">
           <string>&amp;Enable support for high DPI screens</string>
@@ -962,7 +972,7 @@
        <item>
         <widget class="QGroupBox" name="scale_group">
          <property name="enabled">
-          <bool>false</bool>
+          <bool>true</bool>
          </property>
          <property name="title">
           <string>Scale</string>
@@ -1031,6 +1041,9 @@
          </property>
          <property name="alignment">
           <set>Qt::AlignCenter</set>
+         </property>
+         <property name="wordWrap">
+          <bool>true</bool>
          </property>
          <property name="margin">
           <number>14</number>

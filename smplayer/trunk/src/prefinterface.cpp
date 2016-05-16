@@ -132,6 +132,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 #ifdef HDPI_SUPPORT
+	scale_group->setEnabled(false);
 	connect(hdpi_scale_slider, SIGNAL(valueChanged(int)), this, SLOT(updateHDPIScaleNumber(int)));
 	#ifndef HDPI_STORE_DATA
 	tabWidget->setTabEnabled(HDPI_TAB, false);
