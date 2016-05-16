@@ -20,6 +20,10 @@
 #include <QSettings>
 #include <QApplication>
 
+#if QT_VERSION >= 0x050000
+#include <QStandardPaths>
+#endif
+
 //#define DEBUG
 
 #ifdef DEBUG
@@ -45,7 +49,14 @@ HDPISupport::HDPISupport(const QString & config_path)
 
 #ifdef HDPI_STORE_DATA
 	set = 0;
-	setConfigPath(config_path);
+	if (!config_path.isEmpty()) {
+		setConfigPath(config_path);
+	}
+	#if QT_VERSION >= 0x050000
+	else {
+		setConfigPath(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation));
+	}
+	#endif
 #else
 	apply();
 #endif
@@ -73,11 +84,11 @@ void HDPISupport::setConfigPath(const QString & config_path) {
 	}
 
 	if (!config_path.isEmpty()) {
-		QString inifile = config_path + "/hdpi.ini";
+		ini_file = config_path + "/smplayerhdpi.ini";
 		#ifdef DEBUG
-		qDebug() << "HDPISupport::setConfigPath: ini file:" << inifile;
+		qDebug() << "HDPISupport::setConfigPath: ini file:" << ini_file;
 		#endif
-		set = new QSettings(inifile, QSettings::IniFormat);
+		set = new QSettings(ini_file, QSettings::IniFormat);
 		load();
 	}
 

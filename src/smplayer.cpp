@@ -60,6 +60,10 @@
 #include "version.h"
 #endif
 
+#ifdef HDPI_SUPPORT
+#include "hdpisupport.h"
+#endif
+
 using namespace Global;
 
 BaseGui * SMPlayer::main_window = 0;
@@ -583,18 +587,21 @@ void SMPlayer::showInfo() {
 	qDebug("%s", s.toUtf8().data() );
 	qDebug("Compiled with Qt v. %s, using %s", QT_VERSION_STR, qVersion());
 
-	qDebug(" * application path: '%s'", Paths::appPath().toUtf8().data());
-	qDebug(" * data path: '%s'", Paths::dataPath().toUtf8().data());
-	qDebug(" * translation path: '%s'", Paths::translationPath().toUtf8().data());
-	qDebug(" * doc path: '%s'", Paths::docPath().toUtf8().data());
-	qDebug(" * themes path: '%s'", Paths::themesPath().toUtf8().data());
-	qDebug(" * shortcuts path: '%s'", Paths::shortcutsPath().toUtf8().data());
-	qDebug(" * config path: '%s'", Paths::configPath().toUtf8().data());
-	qDebug(" * ini path: '%s'", Paths::iniPath().toUtf8().data());
-	qDebug(" * file for subtitles' styles: '%s'", Paths::subtitleStyleFile().toUtf8().data());
-	qDebug(" * current path: '%s'", QDir::currentPath().toUtf8().data());
+	qDebug() << " * application path:" << Paths::appPath();
+	qDebug() << " * data path:" << Paths::dataPath();
+	qDebug() << " * translation path:" << Paths::translationPath();
+	qDebug() << " * doc path:" << Paths::docPath();
+	qDebug() << " * themes path:" << Paths::themesPath();
+	qDebug() << " * shortcuts path:" << Paths::shortcutsPath();
+	qDebug() << " * config path:" << Paths::configPath();
+	qDebug() << " * ini path:" << Paths::iniPath();
+#ifdef HDPI_SUPPORT
+	qDebug() << " * hdpi ini file:" << HDPISupport::instance()->iniFile();
+#endif
+	qDebug() << " * file for subtitles' styles:" << Paths::subtitleStyleFile();
+	qDebug() << " * current path:" << QDir::currentPath();
 #ifdef FONTS_HACK
-	qDebug(" * font path: '%s'", Paths::fontPath().toUtf8().data());
+	qDebug() << " * font path:" << Paths::fontPath();
 #endif
 }
 

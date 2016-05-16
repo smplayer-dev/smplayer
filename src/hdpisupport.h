@@ -38,6 +38,8 @@ public:
 
 	bool load();
 	bool save();
+
+	QString iniFile() { return ini_file; };
 #endif
 
 	void apply();
@@ -60,6 +62,7 @@ private:
 	static HDPISupport * instance_obj;
 #ifdef HDPI_STORE_DATA
 	QSettings * set;
+	QString ini_file;
 #endif
 	bool enabled;
 	bool auto_scale;
