@@ -22,14 +22,13 @@
 #include <QDir>
 
 #ifdef HDPI_SUPPORT
-#include "paths.h"
 #include "hdpisupport.h"
 #endif
 
 int main( int argc, char ** argv )
 {
 #ifdef HDPI_SUPPORT
-	HDPISupport * hdpi = new HDPISupport(Paths::configPath());
+	HDPISupport * hdpi = new HDPISupport();
 #endif
 
 	MyApplication a( "smplayer", argc, argv );
