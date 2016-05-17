@@ -60,7 +60,7 @@
 #include "version.h"
 #endif
 
-#if defined(HDPI_SUPPORT) && defined(HDPI_STORE_DATA)
+#ifdef HDPI_SUPPORT
 #include "hdpisupport.h"
 #endif
 
