@@ -987,7 +987,11 @@ void DefaultGui::loadConfig() {
 
 	int controlwidget_version = set->value("controlwidget_version", 0).toInt();
 	if (controlwidget_version >= CONTROLWIDGET_VERSION) {
-		controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
+		QStringList l = set->value("controlwidget", controlwidget->defaultActions()).toStringList();
+		#ifdef ADD_QUICK_ACCESS
+		if (l.indexOf("quick_access_menu") == -1) l << "quick_access_menu";
+		#endif
+		controlwidget->setActionsFromStringList(l);
 	} else {
 		controlwidget->setActionsFromStringList( controlwidget->defaultActions() );
 	}
