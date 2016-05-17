@@ -90,6 +90,10 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 
 	connect(this, SIGNAL(preferencesChanged()), this, SLOT(checkCompactMode()));
 
+#ifdef IDOPT_BUILD
+	connect(this, SIGNAL(tabletModeChanged(bool)), this, SLOT(adaptForTabletMode(bool)));
+#endif
+
 	menuBar()->setObjectName("menubar");
 
 	retranslateStrings();
@@ -707,6 +711,18 @@ void DefaultGui::checkCompactMode() {
 	}
 }
 
+#ifdef IDOPT_BUILD
+void DefaultGui::adaptForTabletMode(bool b) {
+	qDebug("DefaultGui::tabletModeChanged");
+
+	if (!pref->compact_mode) {
+		menuBar()->setVisible(!b);
+		toolbar1->setVisible(!b);
+	}
+	access_menu->menuAction()->setVisible(b);
+}
+#endif
+
 void DefaultGui::reconfigureFloatingControl() {
 	floating_control->setMargin(pref->floating_control_margin);
 	floating_control->setPercWidth(pref->floating_control_width);
@@ -764,6 +780,10 @@ void DefaultGui::aboutToExitFullscreen() {
 		toolbar2->setVisible( fullscreen_toolbar2_was_visible );
 		#endif
 	}
+
+	#ifdef IDOPT_BUILD
+	if (pref->tablet_mode) menuBar()->hide();
+	#endif
 }
 
 void DefaultGui::aboutToEnterCompactMode() {
@@ -809,6 +829,10 @@ void DefaultGui::aboutToExitCompactMode() {
 #ifdef LANGUAGE_TOOLBAR
 	toolbar2->setVisible( compact_toolbar2_was_visible );
 #endif
+
+	#ifdef IDOPT_BUILD
+	if (pref->tablet_mode) menuBar()->hide();
+	#endif
 
 	// Recheck size of controlwidget
 	resizeEvent( new QResizeEvent( size(), size() ) );
@@ -971,6 +995,13 @@ void DefaultGui::loadConfig() {
 	set->endGroup();
 
 	floating_control->adjustSize();
+
+	#ifdef IDOPT_BUILD
+	controlwidget->addAction(access_menu->menuAction());
+	QToolButton * button = qobject_cast<QToolButton *>(controlwidget->widgetForAction(access_menu->menuAction()));
+	button->setPopupMode(QToolButton::InstantPopup);
+	if (!pref->tablet_mode) access_menu->menuAction()->setVisible(false);
+	#endif
 #endif
 
 	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );

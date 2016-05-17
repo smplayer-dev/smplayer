@@ -91,6 +91,9 @@ protected slots:
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
 	void checkCompactMode();
+#ifdef IDOPT_BUILD
+	void adaptForTabletMode(bool);
+#endif
 
 	// Reimplemented:
 #if AUTODISABLE_ACTIONS
