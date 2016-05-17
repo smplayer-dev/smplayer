@@ -90,7 +90,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 
 	connect(this, SIGNAL(preferencesChanged()), this, SLOT(checkCompactMode()));
 
-#ifdef IDOPT_BUILD
+#ifdef ADD_QUICK_ACCESS
 	connect(this, SIGNAL(tabletModeChanged(bool)), this, SLOT(adaptForTabletMode(bool)));
 #endif
 
@@ -711,9 +711,9 @@ void DefaultGui::checkCompactMode() {
 	}
 }
 
-#ifdef IDOPT_BUILD
+#ifdef ADD_QUICK_ACCESS
 void DefaultGui::adaptForTabletMode(bool b) {
-	qDebug("DefaultGui::tabletModeChanged");
+	qDebug("DefaultGui::adaptForTabletMode");
 
 	if (!pref->compact_mode) {
 		menuBar()->setVisible(!b);
@@ -781,7 +781,7 @@ void DefaultGui::aboutToExitFullscreen() {
 		#endif
 	}
 
-	#ifdef IDOPT_BUILD
+	#ifdef ADD_QUICK_ACCESS
 	if (pref->tablet_mode) menuBar()->hide();
 	#endif
 }
@@ -830,7 +830,7 @@ void DefaultGui::aboutToExitCompactMode() {
 	toolbar2->setVisible( compact_toolbar2_was_visible );
 #endif
 
-	#ifdef IDOPT_BUILD
+	#ifdef ADD_QUICK_ACCESS
 	if (pref->tablet_mode) menuBar()->hide();
 	#endif
 
@@ -910,7 +910,14 @@ void DefaultGui::saveConfig() {
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
 	set->setValue("toolbar1", toolbar1->actionsToStringList() );
+	#ifdef ADD_QUICK_ACCESS
+	QStringList l = controlwidget->actionsToStringList();
+	int item = l.indexOf("quick_access_menu");
+	if (item > -1) l.removeAt(item);
+	set->setValue("controlwidget", l);
+	#else
 	set->setValue("controlwidget", controlwidget->actionsToStringList() );
+	#endif
 	set->setValue("controlwidget_mini", controlwidget_mini->actionsToStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	set->setValue("floating_control", iw->actionsToStringList() );
@@ -996,11 +1003,11 @@ void DefaultGui::loadConfig() {
 
 	floating_control->adjustSize();
 
-	#ifdef IDOPT_BUILD
+	#ifdef ADD_QUICK_ACCESS
 	controlwidget->addAction(access_menu->menuAction());
 	QToolButton * button = qobject_cast<QToolButton *>(controlwidget->widgetForAction(access_menu->menuAction()));
 	button->setPopupMode(QToolButton::InstantPopup);
-	if (!pref->tablet_mode) access_menu->menuAction()->setVisible(false);
+	adaptForTabletMode(pref->tablet_mode);
 	#endif
 #endif
 
