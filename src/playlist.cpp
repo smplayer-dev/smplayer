@@ -639,11 +639,19 @@ void Playlist::load_m3u(QString file) {
 				// Ignore line
 			}
 			else
+			/*
 			if (info.indexIn(line)!=-1) {
 				duration = info.cap(1).toDouble();
 				name = info.cap(2);
 				qDebug("Playlist::load_m3u: name: '%s', duration: %f", name.toUtf8().data(), duration );
 			} 
+			*/
+			if (line.startsWith("#EXTINF:")) {
+				QStringList fields = line.mid(8).split(",");
+				//qDebug() << "Playlist::load_m3u: fields:" << fields;
+				if (fields.count() >= 1) duration = fields[0].toDouble();
+				if (fields.count() >= 2) name = fields[1];
+			}
 			else
 			if (line.startsWith("#")) {
 				// Comment
