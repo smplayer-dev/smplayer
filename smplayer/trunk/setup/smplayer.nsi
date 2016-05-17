@@ -1,6 +1,6 @@
 ;Installer script for win32/win64 SMPlayer
 ;Written by redxii (redxii@users.sourceforge.net)
-;Tested/Developed with Unicode NSIS 2.46.5/3.0
+;Tested/Developed with Unicode NSIS 2.46.5/3.0rc1
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
@@ -51,6 +51,11 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
+  ; Not the same as Qt, check file properties of the webkit dll if unsure
+!ifndef QT_WEBKIT_VERSION
+  !define QT_WEBKIT_VERSION "5.6.1.0"
+!endif
+
 ;--------------------------------
 ;General
 
@@ -58,17 +63,9 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  ;!ifdef QT5
-  ;OutFile "output\Qt5\smplayer-${SMPLAYER_VERSION}-x64-qt5.exe"
-  ;!else
   OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
-  ;!endif
 !else
-  ;!ifdef QT5
-  ;OutFile "output\Qt5\smplayer-${SMPLAYER_VERSION}-win32-qt5.exe"
-  ;!else
   OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
-  ;!endif
 !endif
 
   ;Version tab properties
@@ -124,6 +121,10 @@
   Var SMPlayer_Path
   Var SMPlayer_UnStrPath
   Var SMPlayer_StartMenuFolder
+
+  Var Qt_Core_Source_Version
+  Var Qt_Core_Installed_Version
+  Var Qt_WebKit_Installed_Version
 
 ;--------------------------------
 ;Interface Settings
@@ -369,10 +370,8 @@ Section $(Section_SMPlayer) SecSMPlayer
   ; File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
 
   ;Qt platforms (Qt 5+)
-!ifdef QT5
   SetOutPath "$INSTDIR\platforms"
-  File /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
-!endif
+  File /nonfatal /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
 
   ;SMPlayer key shortcuts
   SetOutPath "$INSTDIR\shortcuts"
@@ -486,7 +485,6 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\smtube.exe" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
-!ifdef QT5
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icuin*.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icuuc*.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icudt*.dll" "$INSTDIR"
@@ -502,9 +500,6 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5OpenGL.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5PrintSupport.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5MultimediaWidgets.dll" "$INSTDIR"
-!else
-    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
-!endif
   ${EndIf}
 
 !ifndef WIN64
@@ -569,7 +564,9 @@ Section -Post
 
   Sleep 2500
 
-  ;SetAutoClose false
+!ifdef VER_REVISION
+  SetAutoClose false
+!endif
 
 SectionEnd
 
@@ -883,6 +880,8 @@ Function CheckPreviousVersion
       StrCpy $Reinstall_UninstallButton_State 0
       StrCpy $Reinstall_OverwriteButton_State 1
     ${EndIf}
+
+    Call RetrieveQtVersions
   ${EndIf}
 
   /* $Previous_Version_State Assignments:
@@ -939,41 +938,32 @@ FunctionEnd
 Function Backup_SMTube
 
   IfFileExists "$SMPlayer_Path\smtube.exe" 0 NoBackup
-!ifdef QT5
-    IfFileExists "$SMPlayer_Path\Qt5WebKit.dll" 0 QtVerMismatch
-!else
-    IfFileExists "$SMPlayer_Path\QtWebKit4.dll" 0 QtVerMismatch
-!endif
-      DetailPrint $(Info_SMTube_Backup)
-      CreateDirectory "$PLUGINSDIR\smtubebak\translations"
-      CreateDirectory "$PLUGINSDIR\smtubebak\docs\smtube"
-      CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
-      CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
-!ifdef QT5
-      CopyFiles /SILENT "$SMPlayer_Path\icuin*.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\icuuc*.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\icudt*.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKit.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5Sql.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5Qml.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5Quick.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5Positioning.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5Multimedia.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5Sensors.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5WebChannel.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKitWidgets.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5OpenGL.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5PrintSupport.dll" "$PLUGINSDIR\smtubebak"
-      CopyFiles /SILENT "$SMPlayer_Path\Qt5MultimediaWidgets.dll" "$PLUGINSDIR\smtubebak"
-!else
-      CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
-!endif
-
+    StrCmp "${QT_WEBKIT_VERSION}" "$Qt_WebKit_Installed_Version" 0 QtVerMismatch
+    DetailPrint $(Info_SMTube_Backup)
+    CreateDirectory "$PLUGINSDIR\smtubebak\translations"
+    CreateDirectory "$PLUGINSDIR\smtubebak\docs\smtube"
+    CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
+    CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
+    CopyFiles /SILENT "$SMPlayer_Path\icuin*.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\icuuc*.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\icudt*.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKit.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Sql.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Qml.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Quick.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Positioning.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Multimedia.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5Sensors.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5WebChannel.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5WebKitWidgets.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5OpenGL.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5PrintSupport.dll" "$PLUGINSDIR\smtubebak"
+    CopyFiles /SILENT "$SMPlayer_Path\Qt5MultimediaWidgets.dll" "$PLUGINSDIR\smtubebak"
     StrCpy $Restore_SMTube 1
     Return
   QtVerMismatch:
-    DetailPrint "Current SMTube version is incompatible with this version of SMPlayer."
+    DetailPrint "The current SMTube installation is incompatible with this version of SMPlayer."
     DetailPrint "Please upgrade to a newer version of SMTube."
     Sleep 5000
   NoBackup:
@@ -1132,6 +1122,46 @@ Function PageStartMenuPre
   ${IfNot} ${SectionIsSelected} ${SecStartMenuShortcut}
     Abort
   ${EndIf}
+
+FunctionEnd
+
+Function RetrieveQtVersions
+
+  ; Get version of Qt5Core.dll from the build sources (smplayer-build/smplayer-build64)
+  ClearErrors
+  GetDLLVersionLocal ${SMPLAYER_BUILD_DIR}\Qt5Core.dll $R0 $R1
+  IntOp $R2 $R0 / 0x00010000
+  IntOp $R3 $R0 & 0x0000FFFF
+  IntOp $R4 $R1 / 0x00010000
+  IntOp $R5 $R1 & 0x0000FFFF
+  StrCpy $Qt_Core_Source_Version "$R2.$R3.$R4.$R5"
+  ;MessageBox MB_OK "Qt Core source version:  $Qt_Core_Source_Version"
+
+  ; Get version of Qt Core.dll that is already installed
+  ClearErrors
+  GetDLLVersion "$INSTDIR\Qt5Core.dll" $R0 $R1
+  IfErrors 0 +2
+    GetDLLVersion "$INSTDIR\QtCore4.dll" $R0 $R1
+
+  IntOp $R2 $R0 / 0x00010000
+  IntOp $R3 $R0 & 0x0000FFFF
+  IntOp $R4 $R1 / 0x00010000
+  IntOp $R5 $R1 & 0x0000FFFF
+  StrCpy $Qt_Core_Installed_Version "$R2.$R3.$R4.$R5"
+  ;MessageBox MB_OK "Qt Core installed version:  $Qt_Core_Installed_Version"
+
+  ; Get version of Qt WebKit.dll that is already installed
+  ClearErrors
+  GetDLLVersion "$INSTDIR\Qt5WebKit.dll" $R0 $R1
+  IfErrors 0 +2
+    GetDLLVersion "$INSTDIR\QtWebKit4.dll" $R0 $R1
+
+  IntOp $R2 $R0 / 0x00010000
+  IntOp $R3 $R0 & 0x0000FFFF
+  IntOp $R4 $R1 / 0x00010000
+  IntOp $R5 $R1 & 0x0000FFFF
+  StrCpy $Qt_WebKit_Installed_Version "$R2.$R3.$R4.$R5"
+  ;MessageBox MB_OK "Qt WebKit installed version:  $Qt_WebKit_Installed_Version"
 
 FunctionEnd
 
