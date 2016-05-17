@@ -52,6 +52,7 @@
 #include <QMovie>
 
 #define TOOLBAR_VERSION 2
+#define CONTROLWIDGET_VERSION 1
 #define FLOATING_CONTROL_VERSION 1
 
 using namespace Global;
@@ -90,10 +91,6 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 
 	connect(this, SIGNAL(preferencesChanged()), this, SLOT(checkCompactMode()));
 
-#ifdef ADD_QUICK_ACCESS
-	connect(this, SIGNAL(tabletModeChanged(bool)), this, SLOT(adaptForTabletMode(bool)));
-#endif
-
 	menuBar()->setObjectName("menubar");
 
 	retranslateStrings();
@@ -116,6 +113,11 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 	}
 
 	applyStyles();
+
+#ifdef ADD_QUICK_ACCESS
+	connect(this, SIGNAL(tabletModeChanged(bool)), this, SLOT(adaptForTabletMode()));
+	adaptForTabletMode();
+#endif
 }
 
 DefaultGui::~DefaultGui() {
@@ -424,6 +426,11 @@ void DefaultGui::createControlWidget() {
 	controlwidget_actions << "forward1" << "forward2" << "forward3";
 	#endif
 	controlwidget_actions << "separator" << "fullscreen" << "mute" << "volumeslider_action";
+
+	#ifdef ADD_QUICK_ACCESS
+	controlwidget_actions << "quick_access_menu";
+	#endif
+
 	controlwidget->setDefaultActions(controlwidget_actions);
 #else
 	/*
@@ -712,8 +719,10 @@ void DefaultGui::checkCompactMode() {
 }
 
 #ifdef ADD_QUICK_ACCESS
-void DefaultGui::adaptForTabletMode(bool b) {
+void DefaultGui::adaptForTabletMode() {
 	qDebug("DefaultGui::adaptForTabletMode");
+
+	bool b = pref->tablet_mode;
 
 	if (!pref->compact_mode) {
 		menuBar()->setVisible(!b);
@@ -910,18 +919,12 @@ void DefaultGui::saveConfig() {
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
 	set->setValue("toolbar1", toolbar1->actionsToStringList() );
-	#ifdef ADD_QUICK_ACCESS
-	QStringList l = controlwidget->actionsToStringList();
-	int item = l.indexOf("quick_access_menu");
-	if (item > -1) l.removeAt(item);
-	set->setValue("controlwidget", l);
-	#else
 	set->setValue("controlwidget", controlwidget->actionsToStringList() );
-	#endif
 	set->setValue("controlwidget_mini", controlwidget_mini->actionsToStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 	set->setValue("floating_control", iw->actionsToStringList() );
 	set->setValue("toolbar1_version", TOOLBAR_VERSION);
+	set->setValue("controlwidget_version", CONTROLWIDGET_VERSION);
 	set->setValue("floating_control_version", FLOATING_CONTROL_VERSION);
 	set->endGroup();
 
@@ -981,7 +984,14 @@ void DefaultGui::loadConfig() {
 		qDebug("DefaultGui::loadConfig: toolbar too old, loading default one");
 		toolbar1->setActionsFromStringList( toolbar1->defaultActions() );
 	}
-	controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
+
+	int controlwidget_version = set->value("controlwidget_version", 0).toInt();
+	if (controlwidget_version >= CONTROLWIDGET_VERSION) {
+		controlwidget->setActionsFromStringList( set->value("controlwidget", controlwidget->defaultActions()).toStringList() );
+	} else {
+		controlwidget->setActionsFromStringList( controlwidget->defaultActions() );
+	}
+
 	controlwidget_mini->setActionsFromStringList( set->value("controlwidget_mini", controlwidget_mini->defaultActions()).toStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
 
@@ -1002,13 +1012,6 @@ void DefaultGui::loadConfig() {
 	set->endGroup();
 
 	floating_control->adjustSize();
-
-	#ifdef ADD_QUICK_ACCESS
-	controlwidget->addAction(access_menu->menuAction());
-	QToolButton * button = qobject_cast<QToolButton *>(controlwidget->widgetForAction(access_menu->menuAction()));
-	button->setPopupMode(QToolButton::InstantPopup);
-	adaptForTabletMode(pref->tablet_mode);
-	#endif
 #endif
 
 	restoreState( set->value( "toolbars_state" ).toByteArray(), Helper::qtVersion() );
