@@ -827,6 +827,7 @@ protected:
 
 	QMenu * popup;
 	QMenu * recentfiles_menu;
+	QMenu * access_menu;
 
 #ifdef LOG_MPLAYER
 	LogWindow * mplayer_log_window;

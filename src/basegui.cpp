@@ -2141,6 +2141,10 @@ void BaseGui::retranslateStrings() {
 	//logs_menu->menuAction()->setIcon( Images::icon("logs") );
 #endif
 
+	// Access menu
+	access_menu->menuAction()->setText( tr("Fast access menu") );
+	access_menu->menuAction()->setIcon( Images::icon("fast_access_menu") );
+
 	// To be sure that the "<empty>" string is translated
 	initializeMenus();
 
@@ -2727,6 +2731,10 @@ void BaseGui::createMenus() {
 	popup->addMenu( viewMenu );
 	popup->addMenu( optionsMenu );
 
+	// Access menu
+	access_menu = new QMenu(this);
+	access_menu->menuAction()->setObjectName("access_menu");
+
 	//populateMainMenu();
 
 	// let's show something, even a <empty> entry
@@ -2974,6 +2982,23 @@ void BaseGui::populateMainMenu() {
 	helpMenu->addSeparator();
 	#endif
 	helpMenu->addAction(aboutThisAct);
+
+	// Access menu
+	access_menu->addAction(openFileAct);
+	access_menu->addAction(openURLAct);
+	access_menu->addMenu(recentfiles_menu);
+	access_menu->addMenu(favorites);
+	access_menu->addSeparator();
+	access_menu->addAction(playPrevAct);
+	access_menu->addAction(playNextAct);
+	access_menu->addSeparator();
+	access_menu->addMenu(audiotrack_menu);
+	access_menu->addMenu(subtitles_track_menu);
+	access_menu->addSeparator();
+	access_menu->addMenu(aspect_menu);
+	access_menu->addSeparator();
+	access_menu->addAction(showPlaylistAct);
+	access_menu->addAction(showPreferencesAct);
 }
 
 /*
