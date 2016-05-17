@@ -22,6 +22,8 @@
 #define BUFFERING_ANIMATION
 //#define LANGUAGE_TOOLBAR
 
+#define ADD_QUICK_ACCESS
+
 #include "guiconfig.h"
 #include "baseguiplus.h"
 #include <QPoint>
@@ -91,7 +93,7 @@ protected slots:
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
 	void checkCompactMode();
-#ifdef IDOPT_BUILD
+#ifdef ADD_QUICK_ACCESS
 	void adaptForTabletMode(bool);
 #endif
 
