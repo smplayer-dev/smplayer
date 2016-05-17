@@ -60,7 +60,7 @@
 #include "version.h"
 #endif
 
-#ifdef HDPI_SUPPORT
+#if defined(HDPI_SUPPORT) && defined(HDPI_STORE_DATA)
 #include "hdpisupport.h"
 #endif
 
@@ -595,7 +595,7 @@ void SMPlayer::showInfo() {
 	qDebug() << " * shortcuts path:" << Paths::shortcutsPath();
 	qDebug() << " * config path:" << Paths::configPath();
 	qDebug() << " * ini path:" << Paths::iniPath();
-#ifdef HDPI_SUPPORT
+#if defined(HDPI_SUPPORT) && defined(HDPI_STORE_DATA)
 	qDebug() << " * hdpi ini file:" << HDPISupport::instance()->iniFile();
 #endif
 	qDebug() << " * file for subtitles' styles:" << Paths::subtitleStyleFile();
