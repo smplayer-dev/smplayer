@@ -325,6 +325,15 @@ void DefaultGui::createMainToolBars() {
 
 	button = qobject_cast<QToolButton *>(toolbar1->widgetForAction(subtitles_track_menu->menuAction()));
 	button->setPopupMode(QToolButton::InstantPopup);
+
+	#ifdef IDOPT_BUILD
+	toolbar1->addSeparator();
+	toolbar1->addAction(sendToScreen_menu->menuAction());
+	toolbar1->addAction(tabletModeAct);
+
+	button = qobject_cast<QToolButton *>(toolbar1->widgetForAction(sendToScreen_menu->menuAction()));
+	button->setPopupMode(QToolButton::InstantPopup);
+	#endif
 #endif
 
 #ifdef LANGUAGE_TOOLBAR
@@ -466,6 +475,12 @@ void DefaultGui::createControlWidget() {
 	controlwidget->addAction(muteAct);
 
 	controlwidget->addAction(volumeslider_action);
+
+	#ifdef ADD_QUICK_ACCESS
+	controlwidget->addAction(access_menu->menuAction());
+	QToolButton * button = qobject_cast<QToolButton *>(controlwidget->widgetForAction(access_menu->menuAction()));
+	button->setPopupMode(QToolButton::InstantPopup);
+	#endif
 #endif // USE_CONFIGURABLE_TOOLBARS
 
 	/*
