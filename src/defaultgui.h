@@ -96,7 +96,7 @@ protected slots:
 	virtual void displayVideoInfo(int width, int height, double fps);
 	void checkCompactMode();
 #ifdef ADD_QUICK_ACCESS
-	void adaptForTabletMode(bool);
+	void adaptForTabletMode();
 #endif
 
 	// Reimplemented:
