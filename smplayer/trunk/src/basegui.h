@@ -368,6 +368,7 @@ signals:
 #endif
 
 	void preferencesChanged();
+	void tabletModeChanged(bool new_mode);
 
 protected:
 	virtual void retranslateStrings();

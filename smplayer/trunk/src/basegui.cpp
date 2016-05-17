@@ -2142,8 +2142,8 @@ void BaseGui::retranslateStrings() {
 #endif
 
 	// Access menu
-	access_menu->menuAction()->setText( tr("Fast access menu") );
-	access_menu->menuAction()->setIcon( Images::icon("fast_access_menu") );
+	access_menu->menuAction()->setText( tr("Quick access menu") );
+	access_menu->menuAction()->setIcon( Images::icon("quick_access_menu") );
 
 	// To be sure that the "<empty>" string is translated
 	initializeMenus();
@@ -2733,7 +2733,7 @@ void BaseGui::createMenus() {
 
 	// Access menu
 	access_menu = new QMenu(this);
-	access_menu->menuAction()->setObjectName("access_menu");
+	access_menu->menuAction()->setObjectName("quick_access_menu");
 
 	//populateMainMenu();
 
@@ -2999,6 +2999,7 @@ void BaseGui::populateMainMenu() {
 	access_menu->addSeparator();
 	access_menu->addAction(showPlaylistAct);
 	access_menu->addAction(showPreferencesAct);
+	access_menu->addAction(tabletModeAct);
 }
 
 /*
@@ -5625,6 +5626,8 @@ void BaseGui::setTabletMode(bool b) {
 	pref->tablet_mode = b;
 	populateMainMenu();
 	applyStyles();
+
+	emit tabletModeChanged(b);
 }
 
 
