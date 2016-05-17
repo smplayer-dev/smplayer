@@ -21,6 +21,7 @@
 #include "preferences.h"
 
 #include <QRegExp>
+#include <QDebug>
 
 using namespace Global;
 
@@ -35,7 +36,7 @@ bool MplayerVersion::is_mplayer2 = false;
 int MplayerVersion::mplayerVersion(QString string) {
 	//static QRegExp rx_mplayer_revision("^MPlayer (\\S+)-SVN-r(\\d+)-(.*)");
 	static QRegExp rx_mplayer_revision("^MPlayer (.*)[-\\.]r(\\d+)(.*)");
-	static QRegExp rx_mplayer_version("^MPlayer ([a-z0-9.]+)-(.*)");
+	static QRegExp rx_mplayer_version("^MPlayer ([a-z0-9.]+)[-(.*)| (.*)]");
 	static QRegExp rx_mplayer_git("^MPlayer GIT(.*)", Qt::CaseInsensitive);
 	static QRegExp rx_mplayer_version_final("1.0rc([0-9])");
 #ifdef MPLAYER2_SUPPORT
@@ -59,7 +60,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 	// Hack to recognize mplayer 1.0rc2 from CCCP:
 	if (string.startsWith("MPlayer CCCP ")) { 
 		string.remove("CCCP "); 
-		qDebug("MplayerVersion::mplayerVersion: removing CCCP: '%s'", string.toUtf8().data()); 
+		qDebug() << "MplayerVersion::mplayerVersion: removing CCCP:" << string;
 	}
 #else
 	// Hack to recognize mplayer 1.0rc1 from Ubuntu:
@@ -69,14 +70,14 @@ int MplayerVersion::mplayerVersion(QString string) {
 		QString rest = rx_mplayer_version_ubuntu.cap(4);
 		//qDebug("%d - %d - %d", rx_mplayer_version_ubuntu.cap(1).toInt(), v1 , v2);
 		string = QString("MPlayer %1.%2%3").arg(v1).arg(v2).arg(rest);
-		qDebug("MplayerVersion::mplayerVersion: line converted to '%s'", string.toUtf8().data());
+		qDebug() << "MplayerVersion::mplayerVersion: line converted to" << string;
 	}
 	else
 	if (rx_mplayer_revision_ubuntu.indexIn(string) > -1) {
 		int svn = rx_mplayer_revision_ubuntu.cap(1).toInt();
 		QString rest = rx_mplayer_revision_ubuntu.cap(2);
 		string = QString("MPlayer SVN-r%1-%2").arg(svn).arg(rest);
-		qDebug("MplayerVersion::mplayerVersion: line converted to '%s'", string.toUtf8().data());
+		qDebug() << "MplayerVersion::mplayerVersion: line converted to" << string;
 	}
 
 	// Hack to recognize mplayer version from Mandriva:
@@ -85,7 +86,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 		QString v2 = rx_mplayer_version_mandriva.cap(2);
 		QString rest = rx_mplayer_version_mandriva.cap(3);
 		string = QString("MPlayer %1%2-%3").arg(v1).arg(v2).arg(rest);
-		qDebug("MplayerVersion::mplayerVersion: line converted to '%s'", string.toUtf8().data());
+		qDebug() << "MplayerVersion::mplayerVersion: line converted to" << string;
 	}
 #endif
 
@@ -96,12 +97,12 @@ int MplayerVersion::mplayerVersion(QString string) {
 	else
 	if (rx_mplayer_revision.indexIn(string) > -1) {
 		mplayer_svn = rx_mplayer_revision.cap(2).toInt();
-		qDebug("MplayerVersion::mplayerVersion: MPlayer SVN revision found: %d", mplayer_svn);
+		qDebug() << "MplayerVersion::mplayerVersion: MPlayer SVN revision found:" << mplayer_svn;
 	} 
 	else
 	if (rx_mplayer_version.indexIn(string) > -1) {
 		QString version = rx_mplayer_version.cap(1);
-		qDebug("MplayerVersion::mplayerVersion: MPlayer version found: %s", version.toUtf8().data());
+		qDebug() << "MplayerVersion::mplayerVersion: MPlayer version found:" << version;
 		mplayer_svn = 0;
 
 		if (version == "1.2") mplayer_svn = MPLAYER_1_2;
@@ -129,7 +130,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 #ifdef MPLAYER2_SUPPORT
 	if (rx_mplayer2_version.indexIn(string) > -1) {
 		mplayer2_version = rx_mplayer2_version.cap(1);
-		qDebug("MplayerVersion::mplayerVersion: MPlayer2 version found: %s", mplayer2_version.toUtf8().data());
+		qDebug() << "MplayerVersion::mplayerVersion: MPlayer2 version found:" << mplayer2_version;
 		is_mplayer2 = true;
 		mplayer_svn = MPLAYER_1_0_RC4_SVN; // simulates mplayer 1.0rc4
 	}
@@ -137,7 +138,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 #endif
 	if (rx_mpv_version.indexIn(string) > -1) {
 		mpv_version = rx_mpv_version.cap(1);
-		qDebug("MplayerVersion::mplayerVersion: mpv version found: %s", mpv_version.toUtf8().data());
+		qDebug() << "MplayerVersion::mplayerVersion: mpv version found:" << mpv_version;
 		is_mpv = true;
 		#ifdef MPLAYER2_SUPPORT
 		is_mplayer2 = true;
@@ -153,7 +154,7 @@ int MplayerVersion::mplayerVersion(QString string) {
 		#endif
 	}
 
-	qDebug("MplayerVersion::mplayerVersion: mplayer_svn: %d", mplayer_svn);
+	qDebug() << "MplayerVersion::mplayerVersion: mplayer_svn:" << mplayer_svn;
 
 	return mplayer_svn;
 }
