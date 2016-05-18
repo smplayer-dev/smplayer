@@ -6088,7 +6088,9 @@ void BaseGui::checkSystemTabletMode() {
 		}
 	}
 	else
-	if (QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8_1) {
+	if (QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8_1 || 
+        QSysInfo::windowsVersion() == QSysInfo::WV_WINDOWS8)
+	{
 		bool slate_mode = (GetSystemMetrics(SM_CONVERTIBLESLATEMODE) == 0);
 		qDebug() << "BaseGui::checkSystemTabletMode: slate_mode:" << slate_mode;
 		/*
