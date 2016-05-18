@@ -52,7 +52,7 @@
 #include <QMovie>
 
 #define TOOLBAR_VERSION 2
-#define CONTROLWIDGET_VERSION 1
+#define CONTROLWIDGET_VERSION 0
 #define FLOATING_CONTROL_VERSION 1
 
 using namespace Global;
