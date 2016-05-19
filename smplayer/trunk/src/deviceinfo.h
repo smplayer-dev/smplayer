@@ -23,7 +23,9 @@
 #include <QVariant>
 #include <QList>
 
+#ifndef Q_OS_WIN
 #define CACHE_DEVICE_INFO
+#endif
 
 class QSettings;
 
