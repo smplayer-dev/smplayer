@@ -7076,7 +7076,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Skala</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>

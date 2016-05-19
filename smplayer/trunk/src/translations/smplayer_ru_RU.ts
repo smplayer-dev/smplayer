@@ -2654,7 +2654,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation>Параматеры %1</translation>
+        <translation>Параметры %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
