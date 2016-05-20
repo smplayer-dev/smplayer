@@ -854,6 +854,8 @@ void BaseGuiPlus::updateSendToScreen() {
 
 	sendToScreen_menu->clear();
 	sendToScreen_menu->addActions(sendToScreenGroup->actions());
+	
+	if (n_screens == 1 && isVideoDetached()) detachVideo(false);
 }
 
 void BaseGuiPlus::sendVideoToScreen(int screen) {
