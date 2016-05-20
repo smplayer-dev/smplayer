@@ -7060,7 +7060,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>Високе &amp;DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
@@ -7070,7 +7070,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ввімкнути підтримку для високих DPI розширень</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7080,7 +7080,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>Ав&amp;томатично</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7800,7 +7800,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>Ав&amp;томатично</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8071,7 +8071,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"/>
+        <translation>Зазвичай ця опція дозволить кеш, коли це необхідно.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
