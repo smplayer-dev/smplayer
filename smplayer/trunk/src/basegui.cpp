@@ -2984,6 +2984,7 @@ void BaseGui::populateMainMenu() {
 	helpMenu->addAction(aboutThisAct);
 
 	// Access menu
+	access_menu->clear();
 	access_menu->addAction(openFileAct);
 	access_menu->addAction(openURLAct);
 	access_menu->addMenu(recentfiles_menu);
