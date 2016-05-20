@@ -236,6 +236,8 @@ void BaseGuiPlus::populateMainMenu() {
 		viewMenu->addSeparator();
 		viewMenu->addAction(showScreensInfoAct);
 	}
+
+	access_menu->insertMenu(tabletModeAct, sendToScreen_menu);
 #endif
 }
 
