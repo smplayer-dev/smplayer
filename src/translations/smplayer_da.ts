@@ -7070,7 +7070,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>Aktivér understøttelse af høj DPI skærme</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7190,7 +7190,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pixel højde-bredde-forhold:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
