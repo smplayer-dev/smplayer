@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1266,7 +1264,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2145"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2944"/>
@@ -1941,7 +1939,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="311"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="317"/>
@@ -2056,7 +2054,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="917"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="292"/>
@@ -2852,11 +2850,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2954,7 +2948,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -7076,7 +7070,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
@@ -7086,7 +7080,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7096,7 +7090,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7196,12 +7190,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
@@ -9130,21 +9124,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9668,7 +9654,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
