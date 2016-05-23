@@ -181,10 +181,10 @@ void DefaultGui::createActions() {
 	connect( viewFrameCounterAct, SIGNAL(toggled(bool)),
              frame_display, SLOT(setVisible(bool)) );
 
-	viewCodecInfoAct = new MyAction( this, "toggle_codec_info" );
-	viewCodecInfoAct->setCheckable( true );
-	connect( viewCodecInfoAct, SIGNAL(toggled(bool)),
-             codec_info_display, SLOT(setVisible(bool)) );
+	viewFormatInfoAct = new MyAction( this, "toggle_format_info" );
+	viewFormatInfoAct->setCheckable( true );
+	connect( viewFormatInfoAct, SIGNAL(toggled(bool)),
+             format_info_display, SLOT(setVisible(bool)) );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
@@ -240,7 +240,7 @@ void DefaultGui::createMenus() {
 
 	statusbar_menu = new QMenu(this);
 	statusbar_menu->addAction(viewVideoInfoAct);
-	statusbar_menu->addAction(viewCodecInfoAct);
+	statusbar_menu->addAction(viewFormatInfoAct);
 	statusbar_menu->addAction(viewFrameCounterAct);
 
 	populateMainMenu();
@@ -615,10 +615,10 @@ void DefaultGui::createStatusBar() {
 	video_info_display->setAlignment(Qt::AlignRight);
 	video_info_display->setFrameShape(QFrame::NoFrame);
 
-	codec_info_display = new QLabel( statusBar() );
-	codec_info_display->setObjectName("codec_info_display");
-	codec_info_display->setAlignment(Qt::AlignRight);
-	codec_info_display->setFrameShape(QFrame::NoFrame);
+	format_info_display = new QLabel( statusBar() );
+	format_info_display->setObjectName("format_info_display");
+	format_info_display->setAlignment(Qt::AlignRight);
+	format_info_display->setFrameShape(QFrame::NoFrame);
 
 #ifdef BUFFERING_ANIMATION
 	state_widget = new StateWidget(statusBar());
@@ -642,8 +642,8 @@ void DefaultGui::createStatusBar() {
 	*/
 	statusBar()->setSizeGripEnabled(false);
 
-	statusBar()->addPermanentWidget( codec_info_display );
 	statusBar()->addPermanentWidget( video_info_display );
+	statusBar()->addPermanentWidget( format_info_display );
 	statusBar()->addPermanentWidget( ab_section_display );
 
 	statusBar()->showMessage( tr("Ready") );
@@ -657,7 +657,7 @@ void DefaultGui::createStatusBar() {
 	frame_display->hide();
 	ab_section_display->show();
 	video_info_display->hide();
-	codec_info_display->hide();
+	format_info_display->hide();
 }
 
 void DefaultGui::retranslateStrings() {
@@ -685,7 +685,7 @@ void DefaultGui::retranslateStrings() {
 
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 	viewFrameCounterAct->change( Images::icon("frame_counter"), tr("&Frame counter") );
-	viewCodecInfoAct->change( Images::icon("view_codec_info"), tr("&Codec info") );
+	viewFormatInfoAct->change( Images::icon("view_format_info"), tr("F&ormat info") );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit main &toolbar") );
@@ -727,10 +727,10 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 		video_info_display->setText(" ");
 	}
 
-	QString codecs = core->mdat.video_codec;
-	if (!codecs.isEmpty() && !core->mdat.audio_codec.isEmpty()) codecs += " / ";
-	codecs += core->mdat.audio_codec;
-	codec_info_display->setText(codecs);
+	QString format = core->mdat.video_format;
+	if (!format.isEmpty() && !core->mdat.audio_format.isEmpty()) format += " / ";
+	format += core->mdat.audio_format;
+	format_info_display->setText(format.toUpper());
 }
 
 void DefaultGui::updateWidgets() {
@@ -933,7 +933,7 @@ void DefaultGui::saveConfig() {
 
 	set->setValue("video_info", viewVideoInfoAct->isChecked());
 	set->setValue("frame_counter", viewFrameCounterAct->isChecked());
-	set->setValue("codec_info", viewCodecInfoAct->isChecked());
+	set->setValue("format_info", viewFormatInfoAct->isChecked());
 
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
@@ -983,7 +983,7 @@ void DefaultGui::loadConfig() {
 
 	viewVideoInfoAct->setChecked(set->value("video_info", false).toBool());
 	viewFrameCounterAct->setChecked(set->value("frame_counter", false).toBool());
-	viewCodecInfoAct->setChecked(set->value("codec_info", false).toBool());
+	viewFormatInfoAct->setChecked(set->value("format_info", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();
