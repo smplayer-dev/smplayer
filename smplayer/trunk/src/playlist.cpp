@@ -60,7 +60,6 @@
 #include "extensions.h"
 #include "guiconfig.h"
 
-#include <stdlib.h>
 
 #if USE_INFOPROVIDER
 #include "infoprovider.h"
@@ -122,9 +121,8 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	setAttribute(Qt::WA_NoMousePropagation);
 
 	// Random seed
-	QTime t;
-	t.start();
-	srand( t.hour() * 3600 + t.minute() * 60 + t.second() );
+	QTime now = QTime::currentTime();
+	qsrand(now.msec());
 
 	loadSettings();
 
@@ -1383,7 +1381,7 @@ int Playlist::chooseRandomItem() {
 		qDebug("Playlist::chooseRandomItem: * item: %d", fi[i]);
 	}
 
-	int selected = (int) ((double) fi.count() * rand()/(RAND_MAX+1.0));
+	int selected = (qrand() % fi.count());
 	qDebug("Playlist::chooseRandomItem: selected item: %d (%d)", selected, fi[selected]);
 	return fi[selected];
 }
