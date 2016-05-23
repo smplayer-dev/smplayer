@@ -2323,6 +2323,11 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Klar</translation>
     </message>
     <message>
+        <location filename="../defaultgui.cpp" line="688"/>
+        <source>F&amp;ormat info</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
@@ -2346,11 +2351,6 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <location filename="../defaultgui.cpp" line="687"/>
         <source>&amp;Frame counter</source>
         <translation>&amp;Billedtæller</translation>
-    </message>
-    <message>
-        <location filename="../defaultgui.cpp" line="688"/>
-        <source>&amp;Codec info</source>
-        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="691"/>
@@ -4582,217 +4582,217 @@ Vil du overskrive den?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>Name</source>
         <translation>Navn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="309"/>
+        <location filename="../playlist.cpp" line="303"/>
         <source>Length</source>
         <translation>Varighed</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="314"/>
+        <location filename="../playlist.cpp" line="308"/>
         <source>&amp;Play</source>
         <translation>&amp;Afspil</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="342"/>
+        <location filename="../playlist.cpp" line="336"/>
         <source>&amp;Edit</source>
         <translation>&amp;Redigér</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="949"/>
-        <location filename="../playlist.cpp" line="974"/>
+        <location filename="../playlist.cpp" line="943"/>
+        <location filename="../playlist.cpp" line="968"/>
         <source>Playlists</source>
         <translation>Spillelister</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="947"/>
+        <location filename="../playlist.cpp" line="941"/>
         <source>Choose a file</source>
         <translation>Vælg en fil</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="972"/>
+        <location filename="../playlist.cpp" line="966"/>
         <source>Choose a filename</source>
         <translation>Vælg et filnavn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="983"/>
+        <location filename="../playlist.cpp" line="977"/>
         <source>Confirm overwrite?</source>
         <translation>Bekræft overskrivning?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="984"/>
+        <location filename="../playlist.cpp" line="978"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Filen %1 findes allerede.
 Vil du overskrive den?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="949"/>
-        <location filename="../playlist.cpp" line="974"/>
-        <location filename="../playlist.cpp" line="1188"/>
+        <location filename="../playlist.cpp" line="943"/>
+        <location filename="../playlist.cpp" line="968"/>
+        <location filename="../playlist.cpp" line="1182"/>
         <source>All files</source>
         <translation>Alle filer</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1185"/>
+        <location filename="../playlist.cpp" line="1179"/>
         <source>Select one or more files to open</source>
         <translation>Vælg en eller flere filer der skal åbnes</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1253"/>
+        <location filename="../playlist.cpp" line="1247"/>
         <source>Choose a directory</source>
         <translation>Vælg en mappe</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1460"/>
+        <location filename="../playlist.cpp" line="1454"/>
         <source>Edit name</source>
         <translation>Redigér navn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1461"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Indtast navnet der skal vises i spillelisten for denne fil:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="311"/>
+        <location filename="../playlist.cpp" line="305"/>
         <source>&amp;Load</source>
         <translation>&amp;Indlæs</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="312"/>
+        <location filename="../playlist.cpp" line="306"/>
         <source>&amp;Save</source>
         <translation>&amp;Gem</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="316"/>
+        <location filename="../playlist.cpp" line="310"/>
         <source>&amp;Next</source>
         <translation>&amp;Næste</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="317"/>
+        <location filename="../playlist.cpp" line="311"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Forrige</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="323"/>
+        <location filename="../playlist.cpp" line="317"/>
         <source>Move &amp;up</source>
         <translation>Flyt &amp;op</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="324"/>
+        <location filename="../playlist.cpp" line="318"/>
         <source>Move &amp;down</source>
         <translation>&amp;Flyt ned</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="326"/>
+        <location filename="../playlist.cpp" line="320"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Gentag</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="327"/>
+        <location filename="../playlist.cpp" line="321"/>
         <source>S&amp;huffle</source>
         <translation>&amp;Bland</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="330"/>
+        <location filename="../playlist.cpp" line="324"/>
         <source>Add &amp;current file</source>
         <translation>&amp;Tilføj nuværende fil</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="331"/>
+        <location filename="../playlist.cpp" line="325"/>
         <source>Add &amp;file(s)</source>
         <translation>Tilføj &amp;fil(er)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="332"/>
+        <location filename="../playlist.cpp" line="326"/>
         <source>Add &amp;directory</source>
         <translation>Tilføj &amp;mappe</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="333"/>
+        <location filename="../playlist.cpp" line="327"/>
         <source>Add &amp;URL(s)</source>
         <translation>Tilføj &amp;URL(er)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="336"/>
+        <location filename="../playlist.cpp" line="330"/>
         <source>Remove &amp;selected</source>
         <translation>Fjern &amp;markerede</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="337"/>
+        <location filename="../playlist.cpp" line="331"/>
         <source>Remove &amp;all</source>
         <translation>Fjern &amp;alle</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="339"/>
+        <location filename="../playlist.cpp" line="333"/>
         <source>&amp;Delete file from disk</source>
         <translation>Slet fil fra &amp;disk</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="352"/>
+        <location filename="../playlist.cpp" line="346"/>
         <source>SMPlayer - Playlist</source>
         <translation>SMPlayer - Spilleliste</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1491"/>
+        <location filename="../playlist.cpp" line="1485"/>
         <source>Confirm deletion</source>
         <translation>Bekræft sletning</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1492"/>
+        <location filename="../playlist.cpp" line="1486"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Du er ved at SLETTE filen &quot;%1&quot; fra dit drev.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1493"/>
+        <location filename="../playlist.cpp" line="1487"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Handlingen kan ikke fortrydes. Er du sikker på at du vil fortsætte?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1505"/>
+        <location filename="../playlist.cpp" line="1499"/>
         <source>Deletion failed</source>
         <translation>Sletning mislykkedes</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1506"/>
+        <location filename="../playlist.cpp" line="1500"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Det var ikke muligt at slette &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1511"/>
+        <location filename="../playlist.cpp" line="1505"/>
         <source>Error deleting the file</source>
         <translation>Fejl ved sletning af filen</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1512"/>
+        <location filename="../playlist.cpp" line="1506"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Det var ikke muligt at slette &quot;%1&quot; fra filsystemet.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="346"/>
+        <location filename="../playlist.cpp" line="340"/>
         <source>Add...</source>
         <translation>Tilføj...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="348"/>
+        <location filename="../playlist.cpp" line="342"/>
         <source>Remove...</source>
         <translation>Fjern...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1016"/>
+        <location filename="../playlist.cpp" line="1010"/>
         <source>Playlist modified</source>
         <translation>Spilleliste ændret</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1017"/>
+        <location filename="../playlist.cpp" line="1011"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Der er ikke-gemte ændringer, vil du gemme spillelisten?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1187"/>
+        <location filename="../playlist.cpp" line="1181"/>
         <source>Multimedia</source>
         <translation>Multimedie</translation>
     </message>
