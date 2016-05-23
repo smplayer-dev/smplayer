@@ -77,23 +77,19 @@ using namespace Global;
 
 
 Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
-	: QWidget(parent,f) 
+	: QWidget(parent,f)
+	, modified(false)
+	, recursive_add_directory(false)
+	, automatically_get_info(false)
+	, save_playlist_in_config(true)
+	, play_files_from_start(true)
+	, row_spacing(-1) // Default height
+	, automatically_play_next(true)
+	, ignore_player_errors(false)
 {
-	save_playlist_in_config = true;
-	recursive_add_directory = false;
-	automatically_get_info = false;
-	play_files_from_start = true;
-
-	automatically_play_next = true;
-	ignore_player_errors = false;
-
-	row_spacing = -1; // Default height
-
-	modified = false;
-
 	core = c;
-    playlist_path = "";
-    latest_dir = "";
+	playlist_path = "";
+	latest_dir = "";
 
 	createTable();
 	createActions();
@@ -109,7 +105,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	layout->addWidget( toolbar );
 	setLayout(layout);
 
-    clear();
+	clear();
 
 	retranslateStrings();
 
