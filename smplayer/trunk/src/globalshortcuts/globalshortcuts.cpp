@@ -68,13 +68,13 @@ void GlobalShortcuts::unregisterAll() {
 }
 
 void GlobalShortcuts::activateShortcut(Qt::Key key) {
-	qDebug() << "GlobalShortcuts::activateShortcut:" << key;
-
 #ifdef Q_OS_LINUX
 	//if (QApplication::activeWindow()) return;
 #endif
 
 	QKeySequence ks(key);
+
+	qDebug() << "GlobalShortcuts::activateShortcut:" << key << "shortcut:" << ks;
 
 #if 0
 	Qt::KeyboardModifiers modifier = Qt::NoModifier;
@@ -99,6 +99,9 @@ void GlobalShortcuts::activateShortcut(Qt::Key key) {
 			foreach(QKeySequence s, shortcuts) {
 				bool match = (s == ks);
 				//qDebug() << "GlobalShortcuts::activateShortcut: action:" << action << "shortcut:" << s << "match:" << match;
+				if (match) {
+					qDebug() << "GlobalShortcuts::activateShortcut: action found:" << action->objectName();
+				}
 				if (match && action->isEnabled()) {
 					if (action->isCheckable()) action->toggle(); else action->trigger();
 					return;
