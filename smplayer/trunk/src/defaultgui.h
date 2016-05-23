@@ -116,7 +116,7 @@ protected:
 	QLabel * frame_display;
 	QLabel * ab_section_display;
 	QLabel * video_info_display;
-	QLabel * codec_info_display;
+	QLabel * format_info_display;
 #ifdef BUFFERING_ANIMATION
 	StateWidget * state_widget;
 #endif
@@ -148,7 +148,7 @@ protected:
 
 	MyAction * viewFrameCounterAct;
 	MyAction * viewVideoInfoAct;
-	MyAction * viewCodecInfoAct;
+	MyAction * viewFormatInfoAct;
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
