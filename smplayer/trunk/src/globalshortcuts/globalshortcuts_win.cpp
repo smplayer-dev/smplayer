@@ -57,6 +57,7 @@ void GlobalShortcuts::createKeysList() {
 	key_list[VK_MEDIA_PREV_TRACK] = Qt::Key_MediaPrevious;
 	key_list[VK_MEDIA_NEXT_TRACK] = Qt::Key_MediaNext;
 	key_list[VK_PLAY] = Qt::Key_MediaPlay;
+	//key_list[VK_F11] = Qt::Key_MediaPlay; // TEST
 	//key_list[] = Qt::Key_MediaPause;
 	//key_list[] = Qt::Key_MediaRecord;
 }
