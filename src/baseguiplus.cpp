@@ -680,6 +680,12 @@ void BaseGuiPlus::shrinkWindow() {
 #endif
 
 #ifdef GLOBALSHORTCUTS
+void BaseGuiPlus::showPreferencesDialog() {
+	qDebug("BaseGuiPlus::showPreferencesDialog");
+	global_shortcuts->setEnabled(false);
+	BaseGui::showPreferencesDialog();
+}
+
 void BaseGuiPlus::updateGlobalShortcuts() {
 	qDebug("BaseGuiPlus::updateGlobalShortcuts");
 	global_shortcuts->setEnabled(pref->use_global_shortcuts);

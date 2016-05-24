@@ -51,6 +51,11 @@ public:
 	/* virtual void toggleFullscreen(bool); */
 #endif
 
+public slots:
+#ifdef GLOBALSHORTCUTS
+	virtual void showPreferencesDialog();
+#endif
+
 protected:
 	virtual void retranslateStrings();
 	virtual void populateMainMenu();
