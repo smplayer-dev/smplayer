@@ -1954,107 +1954,107 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>復元(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="758"/>
+        <location filename="../baseguiplus.cpp" line="764"/>
         <source>Information about connected screens</source>
         <translation>接続された画面の情報</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="761"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
         <source>Connected screens</source>
         <translation>接続された画面</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="812"/>
         <source>Number of screens: %1</source>
         <translation>画面の数: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="769"/>
-        <location filename="../baseguiplus.cpp" line="807"/>
+        <location filename="../baseguiplus.cpp" line="775"/>
+        <location filename="../baseguiplus.cpp" line="813"/>
         <source>Primary screen: %1</source>
         <translation>第 1 画面: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
-        <location filename="../baseguiplus.cpp" line="811"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
+        <location filename="../baseguiplus.cpp" line="817"/>
         <source>Information for screen %1</source>
         <translation>画面 %1 の情報</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
-        <location filename="../baseguiplus.cpp" line="813"/>
+        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="819"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>利用可能な座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="781"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Available size: %1 x %2</source>
         <translation>利用可能なサイズ: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>利用可能な仮想座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="786"/>
+        <location filename="../baseguiplus.cpp" line="792"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>利用可能な仮想サイズ: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="794"/>
         <source>Depth: %1 bits</source>
         <translation>深さ: %1 ビット</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
-        <location filename="../baseguiplus.cpp" line="815"/>
+        <location filename="../baseguiplus.cpp" line="795"/>
+        <location filename="../baseguiplus.cpp" line="821"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Logical DPI: %1</source>
         <translation>論理 DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="793"/>
+        <location filename="../baseguiplus.cpp" line="799"/>
         <source>Physical DPI: %1</source>
         <translation>物理 DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="794"/>
+        <location filename="../baseguiplus.cpp" line="800"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>物理サイズ: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="796"/>
+        <location filename="../baseguiplus.cpp" line="802"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>リフレッシュ レート: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Size: %1 x %2</source>
         <translation>サイズ: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="804"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>仮想座標: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="800"/>
+        <location filename="../baseguiplus.cpp" line="806"/>
         <source>Virtual size: %1 x %2</source>
         <translation>仮想サイズ: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="853"/>
+        <location filename="../baseguiplus.cpp" line="859"/>
         <source>Primary screen</source>
         <translation>第 1 画面</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer 外部画面出力</translation>
     </message>
@@ -2144,68 +2144,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2990"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Brightness: %1</source>
         <translation>明るさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3006"/>
+        <location filename="../core.cpp" line="2999"/>
         <source>Contrast: %1</source>
         <translation>コントラスト: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3014"/>
         <source>Gamma: %1</source>
         <translation>ガンマ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3036"/>
+        <location filename="../core.cpp" line="3029"/>
         <source>Hue: %1</source>
         <translation>色合い: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3051"/>
+        <location filename="../core.cpp" line="3044"/>
         <source>Saturation: %1</source>
         <translation>鮮やかさ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3194"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4061"/>
         <source>Zoom: %1</source>
         <translation>拡大率: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
-        <location filename="../core.cpp" line="3333"/>
+        <location filename="../core.cpp" line="3315"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Font scale: %1</source>
         <translation>フォント スケール: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3909"/>
+        <location filename="../core.cpp" line="3902"/>
         <source>Aspect ratio: %1</source>
         <translation>アスペクト比: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4294"/>
+        <location filename="../core.cpp" line="4287"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>フォント キャッシュを更新しています。これには数秒かかる可能性があります...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3240"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕の遅延: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Audio delay: %1 ms</source>
         <translation>オーディオの遅延: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3105"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Speed: %1</source>
         <translation>速度: %1</translation>
     </message>
@@ -2220,42 +2220,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>動画の URL を見つけることができません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Subtitles on</source>
         <translation>字幕 オン</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3412"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Subtitles off</source>
         <translation>字幕 オフ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3957"/>
+        <location filename="../core.cpp" line="3950"/>
         <source>Mouse wheel seeks now</source>
         <translation>今マウス ホイールするとシークします</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3960"/>
+        <location filename="../core.cpp" line="3953"/>
         <source>Mouse wheel changes volume now</source>
         <translation>今マウス ホイールすると音量を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3963"/>
+        <location filename="../core.cpp" line="3956"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>今マウス ホイールすると拡大率を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3966"/>
+        <location filename="../core.cpp" line="3959"/>
         <source>Mouse wheel changes speed now</source>
         <translation>今マウス ホイールすると速度を変更します</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4270"/>
+        <location filename="../core.cpp" line="4263"/>
         <source>Screenshot saved as %1</source>
         <translation>スクリーンショットが %1 として保存されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4305"/>
+        <location filename="../core.cpp" line="4298"/>
         <source>Starting...</source>
         <translation>開始しています...</translation>
     </message>
@@ -2270,17 +2270,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>スクリーンショットが撮られません、フォルダーが構成されていません</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2657"/>
+        <location filename="../core.cpp" line="2650"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; マーカーは %1 へ設定されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2674"/>
+        <location filename="../core.cpp" line="2667"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; マーカーは %1 へ設定されました</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2689"/>
+        <location filename="../core.cpp" line="2682"/>
         <source>A-B markers cleared</source>
         <translation>A-B マーカーがクリアされました</translation>
     </message>
@@ -5414,7 +5414,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="130"/>
-        <location filename="../prefgeneral.cpp" line="981"/>
+        <location filename="../prefgeneral.cpp" line="952"/>
         <source>General</source>
         <translation>全般</translation>
     </message>
@@ -5429,12 +5429,12 @@ Do you want to overwrite?</source>
         <translation>メディアの設定</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Start videos in fullscreen</source>
         <translation>全画面表示でビデオを開始する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Disable screensaver</source>
         <translation>スクリーンセーバーを無効にする</translation>
     </message>
@@ -5474,108 +5474,108 @@ Do you want to overwrite?</source>
         <translation>%1 実行ファイル(&amp;E):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="407"/>
-        <location filename="../prefgeneral.cpp" line="408"/>
+        <location filename="../prefgeneral.cpp" line="378"/>
+        <location filename="../prefgeneral.cpp" line="379"/>
         <source>Default</source>
         <translation>既定</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="984"/>
+        <location filename="../prefgeneral.cpp" line="955"/>
         <source>Multimedia engine</source>
         <translation>マルチメディア エンジン</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="956"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>使用したいマルチメディア エンジンを MPlayer と mpv から選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="986"/>
+        <location filename="../prefgeneral.cpp" line="957"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>オプション &apos;その他&apos; では実行ファイルのパスを手動で選択できます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="989"/>
+        <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
         <translation>%1 実行ファイル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="961"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>ここで SMPlayer が使用する %1 の実行ファイルを指定する必要があります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>Screenshots folder</source>
         <translation>スクリーンショット フォルダー</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>Template for screenshots</source>
         <translation>スクリーンショットのテンプレート</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="997"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>たとえば %1 は &apos;moviename_0001.png&apos; としてスクリーンショットを保存します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="998"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 は拡張子なしでビデオのファイル名を指定し、%2 は 0 で埋められた 4 桁の数字を追加します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1008"/>
         <source>Format for screenshots</source>
         <translation>スクリーンショットのフォーマット</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>このオプションはスクリーンショットの保存に使用されるイメージのファイルの種類を選択することを可能にします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>このオプションが有効な場合、コンピューターは SMPlayer が閉じた直後にシャットダウンします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Video output driver</source>
         <translation>ビデオの出力ドライバー</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Select the video output driver.</source>
         <translation>ビデオの出力ドライバーを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1150"/>
+        <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Audio output driver</source>
         <translation>オーディオの出力ドライバー</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Select the audio output driver.</source>
         <translation>オーディオの出力ドライバーを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="966"/>
         <source>Remember settings</source>
         <translation>設定を記憶する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Preferred audio language</source>
         <translation>オーディオの優先言語</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Preferred subtitle language</source>
         <translation>字幕の優先言語</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Software video equalizer</source>
         <translation>ソフトウェアのビデオ イコライザー</translation>
     </message>
@@ -5585,78 +5585,78 @@ Do you want to overwrite?</source>
         <translation>その他...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="996"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>このオプションはスクリーンショットの保存に使用されるファイル名のテンプレートを指定します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>テンプレート指定子の完全な一覧のためにはこのリンクにアクセスします:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>This option only works with mpv.</source>
         <translation>このオプションは MPV でのみ動作します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Shut down computer</source>
         <translation>コンピューターをシャットダウンする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>ビデオ イコライザーがお使いのグラフィック カードまたは選択されたビデオの出力ドライバーによってサポートされていない場合このオプションをチェックできます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; このオプションは一部のビデオの出力ドライバーとは互換性がないことがあります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1113"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>このオプションがチェックされている場合、すべてのビデオは全画面表示モードで開始されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Global audio equalizer</source>
         <translation>グローバル オーディオ イコライザー</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>このオプションがチェックされている場合、すべてのメディア ファイルがオーディオ イコライザーを共有します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>チェックされていない場合、オーディオ イコライザーの値はファイルごとに保存されそのファイルが後で再生されると再び読み込まれます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>再生チャンネルの数を要求します。%1 は指定されただけの数のチャンネルにオーディオをデコードするようデコーダーに要求します。次に要求が満たされるのはデコーダー次第です。これは通常 AC3 オーディオ (DVD のような) でビデオを再生するときのみ重要です。その場合は liba52 が既定でデコードして要求されたチャンネルの数にオーディオをダウンミックスします。&lt;b&gt;注意:&lt;/b&gt; このオプションはコーデック (AC3 のみ)、フィルター (サラウンド) およびオーディオの出力ドライバー (最低でも OSS) によって尊重されています。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>ピッチの変化なしの再生速度の変更を許可します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Software volume control</source>
         <translation>ソフトウェアのボリューム コントロール</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1187"/>
+        <location filename="../prefgeneral.cpp" line="1158"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>サウンド カード ミキサーを使用する代わりに、ソフトウェア ミキサーを使用するにはこのオプションをチェックします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Postprocessing quality</source>
         <translation>後処理の品質</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>利用可能なスペア CPU 時間次第で後処理のレベルを動的に変更します。指定する番号は使用される最大レベルになります。通常いくらかの大きい番号を使用できます。</translation>
     </message>
@@ -5731,12 +5731,12 @@ Do you want to overwrite?</source>
         <translation>AC3/DTS pass-through S/PDIF(&amp;A)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Direct rendering</source>
         <translation>直接描画</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Double buffering</source>
         <translation>ダブル バッファー</translation>
     </message>
@@ -5751,7 +5751,7 @@ Do you want to overwrite?</source>
         <translation>ダブル バッファー(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>ダブル バッファーはメモリに 2 つのフレームが保存されるのと、別のデコード中の表示によるちらつきを修正します。無効な場合は OSD を悪化させることがありますが、大抵 OSD のちらつきを削除します。</translation>
     </message>
@@ -5766,12 +5766,12 @@ Do you want to overwrite?</source>
         <translation>既定での音量の正規化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Close when finished</source>
         <translation>完了時に閉じる</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>このオプションがチェックされている場合、メイン ウィンドウは現在のファイル/プレイリストの完了時に自動的に閉じられます。</translation>
     </message>
@@ -5801,67 +5801,67 @@ Do you want to overwrite?</source>
         <translation>最小化時に一時停止する(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1016"/>
         <source>Pause when minimized</source>
         <translation>最小化時に一時停止する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>Enable postprocessing by default</source>
         <translation>既定で後処理を有効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Max. Amplification</source>
         <translation>最大増幅</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1161"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1168"/>
         <source>Volume normalization by default</source>
         <translation>既定での音量の正規化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>サウンドの歪曲なしで音量を最大化します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Channels by default</source>
         <translation>既定でのチャンネル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>パーセントで最大増幅レベルを設定します (既定: 110)。200 の値は最大で現在のレベルの倍へ音量を上方調整するのを許可します。100 より下の値では初期音量 (100%) が最大音量を上回り、OSD が正しく表示できなくなるなどします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>後処理は新しく開かれるファイルに既定で使用されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Audio track</source>
         <translation>オーディオ トラック</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>新しいファイルの再生時に使用される既定のオーディオ トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;オーディオの優先言語&quot;&lt;/i&gt; はこのオプションを超えて優先されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Subtitle track</source>
         <translation>字幕トラック</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>新しいファイルの再生時に使用される既定の字幕トラックを指定します。トラックが存在しない場合、最初のものが使用されます。&lt;br&gt;&lt;b&gt;注意:&lt;/b&gt; &lt;i&gt;&quot;字幕の優先言語&quot;&lt;/i&gt;はこのオプションを超えて優先されます。</translation>
     </message>
@@ -5901,7 +5901,7 @@ Do you want to overwrite?</source>
         <translation>ピッチの変化なしの高速再生(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1177"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>High speed playback without altering pitch</source>
         <translation>ピッチの変化なしの高速再生</translation>
     </message>
@@ -5926,17 +5926,17 @@ Do you want to overwrite?</source>
         <translation>音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Video</source>
         <translation>ビデオ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1119"/>
         <source>Audio</source>
         <translation>オーディオ</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Preferred audio and subtitles</source>
         <translation>優先オーディオおよび字幕</translation>
     </message>
@@ -5971,17 +5971,17 @@ Do you want to overwrite?</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Deinterlace by default</source>
         <translation>既定でのインターレース解除</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>開かれる新しいビデオに使用したいインターレース解除フィルターを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="971"/>
         <source>Remember time position</source>
         <translation>時間の位置を記憶する</translation>
     </message>
@@ -5991,12 +5991,12 @@ Do you want to overwrite?</source>
         <translation>時間の位置を記憶する(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Enable the audio equalizer</source>
         <translation>オーディオ イコライザーを有効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>オーディオ イコライザーを使用したい場合はこのオプションをチェックします。</translation>
     </message>
@@ -6006,12 +6006,12 @@ Do you want to overwrite?</source>
         <translation>オーディオ イコライザーを有効にする(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
         <source>Draw video using slices</source>
         <translation>スライスを使用してビデオを描画する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>16 ピクセル高のスライス/バンドによるビデオの描画を有効/無効にします。無効な場合、フレーム全体は単一の実行で描画されます。高速になるか低速になるかは、ビデオ カードと利用可能なキャッシュ次第です。libmpeg2 および libavcodec コーデックでのみ影響があります。</translation>
     </message>
@@ -6026,36 +6026,36 @@ Do you want to overwrite?</source>
         <translation>再生の完了時に閉じる(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="415"/>
-        <location filename="../prefgeneral.cpp" line="422"/>
-        <location filename="../prefgeneral.cpp" line="448"/>
+        <location filename="../prefgeneral.cpp" line="386"/>
+        <location filename="../prefgeneral.cpp" line="393"/>
+        <location filename="../prefgeneral.cpp" line="419"/>
         <source>fast</source>
         <translation>高速</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="416"/>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="387"/>
+        <location filename="../prefgeneral.cpp" line="415"/>
         <source>slow</source>
         <translation>低速</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="420"/>
         <source>fast - ATI cards</source>
         <translation>高速 - ATI カード</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="442"/>
         <location filename="../prefgeneral.cpp" line="471"/>
-        <location filename="../prefgeneral.cpp" line="500"/>
         <source>User defined...</source>
         <translation>ユーザー定義...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Default zoom</source>
         <translation>既定の拡大率</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>このオプションは新しいビデオに使用される既定の拡大率を設定します。</translation>
     </message>
@@ -6065,32 +6065,32 @@ Do you want to overwrite?</source>
         <translation>既定の拡大率(&amp;Z):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="992"/>
+        <location filename="../prefgeneral.cpp" line="963"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>この設定が間違っている場合、SMPlayer は何も再生することができません!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="996"/>
+        <location filename="../prefgeneral.cpp" line="967"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>通常 SMPlayer は再生するファイルごとに設定 (選択されたオーディオ トラック、音量、フィルター...) を記憶します。この機能がお好みでない場合はこの機能を無効にします。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>このオプションが有効な場合、ファイルはメイン ウィンドウが非表示であるときに一時停止されます。ウィンドウが復元されると、再生は再開されます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>再生中にスクリーンセーバーを無効にするにはこのオプションをチェックします。&lt;br&gt;スクリーンセーバーは再生の完了時に再び有効になります。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここではオーディオ ストリームの優先言語を入力できます。複数のオーディオ ストリームのあるメディアが見つかると、SMPlayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または MKV ファイルのような、オーディオ ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合にオーディオ トラックを選択します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1220"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>ここでは字幕ストリームの優先言語を入力できます。複数の字幕ストリームのあるメディアが見つかると、SMPlayer は優先言語の使用を試行します。&lt;br&gt;これは DVD または MKV ファイルのような、字幕ストリームの言語についての情報を提供するメディアでのみ動作します。&lt;br&gt;この欄は正規表現を受け入れます。例: &lt;b&gt;es|esp|spa&lt;/b&gt; は &lt;i&gt;es&lt;/i&gt;、&lt;i&gt;esp&lt;/i&gt; または &lt;i&gt;spa&lt;/i&gt; に一致する場合に字幕ストリームを選択します。</translation>
     </message>
@@ -6101,12 +6101,12 @@ Do you want to overwrite?</source>
         <translation>出力ドライバー(&amp;T):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Add black borders on fullscreen</source>
         <translation>全画面表示時に黒枠を追加する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>このオプションが有効な場合、黒枠は全画面モードでイメージに追加されます。これは字幕が黒枠上に表示されるのを許可します。</translation>
     </message>
@@ -6126,22 +6126,22 @@ Do you want to overwrite?</source>
         <translation>複数の ini ファイル</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="976"/>
         <source>Method to store the file settings</source>
         <translation>ファイルの設定を保存する方法</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="977"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>このオプションはファイルの設定が保存される方法の変更を許可します。以下のオプションが利用可能です:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1008"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;1 つの ini ファイル&lt;/b&gt;: すべての再生されるファイルの設定は単一の ini ファイル (%1) に保存されます</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1012"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>後者の方法は多くのファイルの情報がある場合に高速になることがあります。</translation>
     </message>
@@ -6151,32 +6151,32 @@ Do you want to overwrite?</source>
         <translation>設定を保存する場所(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;複数の ini ファイル&lt;/b&gt;: 1 つの ini ファイルは再生されるファイルごとに使用されます。それらの ini ファイルはフォルダ %1 に保存されます</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1001"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>このオプションをチェックすると、SMPlayer は再び開いたときにファイルの最後の位置を記憶します。このオプションは通常のファイル (DVD、CD、URL... でない) でのみ動作します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>チェックされている場合、直接描画をオンにします (すべてのコーデックとビデオ出力によってはサポートされていません)&lt;br&gt;&lt;b&gt;警告:&lt;/b&gt; OSD/SUB の破損を引き起こす可能性があります!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="985"/>
         <source>Enable screenshots</source>
         <translation>スクリーンショットを有効にする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>スクリーンショットの取得を可能または不可能にするのにこのオプションを使用できます。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>ここでは SMPlayer によって取得されるスクリーンショットが保存されるフォルダーを指定できます。フォルダーが有効でない場合スクリーンショット機能は無効になります。</translation>
     </message>
@@ -6196,17 +6196,17 @@ Do you want to overwrite?</source>
         <translation>フォルダー(&amp;F):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Global volume</source>
         <translation>グローバル音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1181"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>このオプションがチェックされている場合、同じボリュームが再生するすべてのファイルに使用されます。オプションがチェックされていない場合はそれぞれのファイルがその音量を使用します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option also applies for the mute control.</source>
         <translation>このオプションはミュート コントロールにも適用します。</translation>
     </message>
@@ -6216,22 +6216,22 @@ Do you want to overwrite?</source>
         <translation>グローバル音量(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Switch screensaver off</source>
         <translation>スクリーンセーバーをオフにする</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1098"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>このオプションはファイルの再生を開始する直前にスクリーンセーバーをオフにして再生の完了時にオンにします。このオプションが有効な場合、スクリーンセーバーはオーディオ ファイルの再生中またはファイルが一時停止中でも表示されません。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Avoid screensaver</source>
         <translation>スクリーンセーバーを回避する</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>このオプションがチェックされている場合、SMPlayer はビデオ ファイルの再生中のスクリーンセーバーの表示の防止を試行します。スクリーンセーバーはオーディオ ファイルの再生中または一時停止モードの場合に許可されます。</translation>
     </message>
@@ -6251,22 +6251,22 @@ Do you want to overwrite?</source>
         <translation>スクリーンセーバーを回避する(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Audio/video auto synchronization</source>
         <translation>オーディオ/ビデオの自動同期化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1201"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>オーディオの遅延測定に基づいて A/V 同期を徐々に調整します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1204"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>A-V sync correction</source>
         <translation>A-V 同期の修正</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>1 フレームあたりの 最大 A-V 同期の修正です (秒)</translation>
     </message>
@@ -6296,7 +6296,7 @@ Do you want to overwrite?</source>
         <translation>修正の最大値(&amp;M):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;注意:&lt;/b&gt; このオプションは TV チャンネルには使用されません。</translation>
     </message>
@@ -6306,32 +6306,32 @@ Do you want to overwrite?</source>
         <translation>既定でのインターレース解除 (TV を除く)(&amp;N):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>ハードウェア AC3 passthrough を使用します。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;注意:&lt;/b&gt; オーディオ フィルターはこのオプションが有効のときに使用されません。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="423"/>
+        <location filename="../prefgeneral.cpp" line="394"/>
         <source>snap mode</source>
         <translation>スナップ モード</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="424"/>
+        <location filename="../prefgeneral.cpp" line="395"/>
         <source>slower dive mode</source>
         <translation>高速ダイブ モード</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>uniaud mode</source>
         <translation>uniaud モード</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="480"/>
+        <location filename="../prefgeneral.cpp" line="451"/>
         <source>dart mode</source>
         <translation>dart モード</translation>
     </message>

@@ -1191,7 +1191,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2047"/>
         <source>Select audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مسار الصوت</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
@@ -1221,7 +1221,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر مسار الترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
@@ -1231,7 +1231,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر المسار الثانوي للترجمة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -1266,12 +1266,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2145"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة الوصول السريع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2944"/>
         <source>Logs</source>
-        <translation type="unfinished">السجلات</translation>
+        <translation>السجلات</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4929"/>
@@ -1349,27 +1349,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5989"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>فشل متصفح اليوتيوب أن يشتغل.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5990"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"></translation>
+        <translation>تأكد من كونه مثبَّتاً بصورة صحيحة.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6124"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>بُدّل النظام الى النمط اللوحي. أيتوجب على SMPlayer أن يغير الى النمط اللوحي كذلك؟</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6126"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>خرج النظام من النمط اللوحي. أيتوجب على SMPlayer أن يُطفئ النمط اللوحي كذلك؟</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6130"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation>تذكّر قراري و لا تسأل ثانيةً</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4946"/>
@@ -1941,7 +1941,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="313"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"></translation>
+        <translation>يُرسل الفيديو الى شاشة خارجية</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="319"/>
@@ -1954,109 +1954,109 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ا&amp;ستعِدْ</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="758"/>
-        <source>Information about connected screens</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="761"/>
-        <source>Connected screens</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <source>Information about connected screens</source>
+        <translation>معلومات عن الشاشات المرتبطة</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="767"/>
+        <source>Connected screens</source>
+        <translation>الشاشات المرتبطة</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="812"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>عدد الشاشات: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="769"/>
-        <location filename="../baseguiplus.cpp" line="807"/>
-        <source>Primary screen: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
-        <location filename="../baseguiplus.cpp" line="811"/>
-        <source>Information for screen %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
+        <location filename="../baseguiplus.cpp" line="775"/>
         <location filename="../baseguiplus.cpp" line="813"/>
+        <source>Primary screen: %1</source>
+        <translation>الشاشة الرئيسية: %1</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="783"/>
+        <location filename="../baseguiplus.cpp" line="817"/>
+        <source>Information for screen %1</source>
+        <translation>معلومات للشاشة %1</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="819"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <translation>التباعدات المتاحة: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="781"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
-        <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="786"/>
-        <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>الحجم المتاح: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
-        <source>Depth: %1 bits</source>
-        <translation type="unfinished"></translation>
+        <source>Available virtual geometry: %1 %2 %3 x %4</source>
+        <translation>التباعدات الإفتراضية المتاحة: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
-        <location filename="../baseguiplus.cpp" line="815"/>
-        <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
-        <source>Logical DPI: %1</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../baseguiplus.cpp" line="793"/>
-        <source>Physical DPI: %1</source>
-        <translation type="unfinished"></translation>
+        <location filename="../baseguiplus.cpp" line="792"/>
+        <source>Available virtual size: %1 x %2</source>
+        <translation>الحجم الإفتراضي المتاح:  %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="794"/>
-        <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"></translation>
+        <source>Depth: %1 bits</source>
+        <translation>العمق: %1 بت</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="796"/>
-        <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"></translation>
+        <location filename="../baseguiplus.cpp" line="795"/>
+        <location filename="../baseguiplus.cpp" line="821"/>
+        <source>Geometry: %1 %2 %3 x %4</source>
+        <translation>التباعد: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="797"/>
-        <source>Size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <source>Logical DPI: %1</source>
+        <translation>النقاط DPI المنطقية: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="798"/>
-        <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"></translation>
+        <location filename="../baseguiplus.cpp" line="799"/>
+        <source>Physical DPI: %1</source>
+        <translation>النقاط DPI الحقيقية: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="800"/>
+        <source>Physical size: %1 x %2 mm</source>
+        <translation>الحجم الحقيقي:  %1 x %2 ملم</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="802"/>
+        <source>Refresh rate: %1 Hz</source>
+        <translation>معدل التحديث: %1 هرتز</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="803"/>
+        <source>Size: %1 x %2</source>
+        <translation>الحجم: %1 x %2</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="804"/>
+        <source>Virtual geometry: %1 %2 %3 x %4</source>
+        <translation>التباعدات الإفتراضية:  %1 %2 %3 x %4</translation>
+    </message>
+    <message>
+        <location filename="../baseguiplus.cpp" line="806"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"></translation>
+        <translation>الحجم الإفتراضي: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="853"/>
+        <location filename="../baseguiplus.cpp" line="859"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation>الشاشة الرئيسية</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"></translation>
+        <translation>مخرجات الشاشة الخارجية لـ SMPlayer</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="294"/>
@@ -2144,68 +2144,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2990"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Brightness: %1</source>
         <translation>السطوع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3006"/>
+        <location filename="../core.cpp" line="2999"/>
         <source>Contrast: %1</source>
         <translation>التباين: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3014"/>
         <source>Gamma: %1</source>
         <translation>غاما: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3036"/>
+        <location filename="../core.cpp" line="3029"/>
         <source>Hue: %1</source>
         <translation>التدرج: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3051"/>
+        <location filename="../core.cpp" line="3044"/>
         <source>Saturation: %1</source>
         <translation>التشبع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3194"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Volume: %1</source>
         <translation>حجم الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4061"/>
         <source>Zoom: %1</source>
         <translation>التقريب: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
-        <location filename="../core.cpp" line="3333"/>
+        <location filename="../core.cpp" line="3315"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Font scale: %1</source>
         <translation>تحجيم الخطّ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3909"/>
+        <location filename="../core.cpp" line="3902"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4294"/>
+        <location filename="../core.cpp" line="4287"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>يُحدِّث الذاكرة الخبيئة للخطوط. قد يستغرق هذا بعض الثواني...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3240"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>تأخير الترجمة: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Audio delay: %1 ms</source>
         <translation>تأخير الصوت: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3105"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Speed: %1</source>
         <translation>السرعة: %1</translation>
     </message>
@@ -2220,42 +2220,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Subtitles on</source>
         <translation>أُظهرت الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3412"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Subtitles off</source>
         <translation>أُخفيتِ الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3957"/>
+        <location filename="../core.cpp" line="3950"/>
         <source>Mouse wheel seeks now</source>
         <translation>تحريك عجلة الفأرة الآن يتنقّل في المقطع</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3960"/>
+        <location filename="../core.cpp" line="3953"/>
         <source>Mouse wheel changes volume now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر حجم الصوت</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3963"/>
+        <location filename="../core.cpp" line="3956"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>تحريك عجلة الفأرة  الآن يغيّر درجة التقريب</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3966"/>
+        <location filename="../core.cpp" line="3959"/>
         <source>Mouse wheel changes speed now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر السرعة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4270"/>
+        <location filename="../core.cpp" line="4263"/>
         <source>Screenshot saved as %1</source>
         <translation>حُفظت اللقطة بالإسم %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4305"/>
+        <location filename="../core.cpp" line="4298"/>
         <source>Starting...</source>
         <translation>البدأ...</translation>
     </message>
@@ -2270,17 +2270,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>لم تُلتقط الصور، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2657"/>
+        <location filename="../core.cpp" line="2650"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;أ&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2674"/>
+        <location filename="../core.cpp" line="2667"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;ب&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2689"/>
+        <location filename="../core.cpp" line="2682"/>
         <source>A-B markers cleared</source>
         <translation>مُسحت الإشارتان &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
@@ -3169,36 +3169,36 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="178"/>
         <location filename="../infofile.cpp" line="180"/>
         <source>undefined</source>
-        <translation type="unfinished"></translation>
+        <translation>غير محدد</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="223"/>
         <source>Track %1</source>
-        <translation type="unfinished"></translation>
+        <translation>المسار %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="226"/>
         <location filename="../infofile.cpp" line="234"/>
         <source>Language: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>اللغة: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="227"/>
         <location filename="../infofile.cpp" line="235"/>
         <source>Name: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>الإسم: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="228"/>
         <location filename="../infofile.cpp" line="236"/>
         <source>ID: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>المعرِّف: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="230"/>
         <location filename="../infofile.cpp" line="238"/>
         <source>Type: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>النوع: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="164"/>
@@ -4437,18 +4437,18 @@ Do you want to overwrite?</source>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>حفظ</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
         <location filename="../logwindow.ui" line="71"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>النسخ الى الحافظة</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="78"/>
         <source>Close</source>
-        <translation type="unfinished">إغلاق</translation>
+        <translation>إغلاق</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="81"/>
@@ -4910,7 +4910,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"></translation>
+        <translation>قد يكون هذا الخيار مطلوباً لتشغيل ملفات قوائم التشغيل (m3u، pls...). لكنه يمكن أن يتضمن مخاطرة أمنية عند تشغيل موارد انترنت لأن الطريقة التي يفسر بها MPlayer ملفات قوائم التشغيل و و يستعملها ليست آمنة في مواجهة الملفات المركَّبة بصورة مريبة.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
@@ -5075,7 +5075,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكنك هنا تمرير خيارات و عوامل تصفية الى %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5413,7 +5413,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="130"/>
-        <location filename="../prefgeneral.cpp" line="981"/>
+        <location filename="../prefgeneral.cpp" line="952"/>
         <source>General</source>
         <translation>العامة</translation>
     </message>
@@ -5428,12 +5428,12 @@ Do you want to overwrite?</source>
         <translation>إعدادات الوسائط</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Start videos in fullscreen</source>
         <translation>ابدأ الفيديو ملءَ الشاشة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Disable screensaver</source>
         <translation>عطّل شاشة التوقف</translation>
     </message>
@@ -5450,7 +5450,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر الملف التنفيذي لـ %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="181"/>
@@ -5473,189 +5473,189 @@ Do you want to overwrite?</source>
         <translation>الملف الت&amp;نفيذي لـ %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="407"/>
-        <location filename="../prefgeneral.cpp" line="408"/>
+        <location filename="../prefgeneral.cpp" line="378"/>
+        <location filename="../prefgeneral.cpp" line="379"/>
         <source>Default</source>
         <translation>المبدئي</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="984"/>
+        <location filename="../prefgeneral.cpp" line="955"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"></translation>
+        <translation>محرّك وسائط</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="956"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر محرك الوسائط الذي تريد استخدامه، اما MPlayer أو mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="986"/>
+        <location filename="../prefgeneral.cpp" line="957"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation>الخيار ’أخرى‘ يسمح لك باختيار المسار الى الملف التنفيذي يدوياً.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="989"/>
+        <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
         <translation>الملف التنفيذي لـ %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="961"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>يجب أن تضيف هنا الملف التنفيذي لـ %1 و الذي سيستخدمه SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>Screenshots folder</source>
         <translation>مجلد الصور الملتقطة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>Template for screenshots</source>
         <translation>قالب للصور الملتقَطة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="997"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>مثلاً %1 ستحفظ الصورة الملتقَطة بإسم &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="998"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>الجزء %1 يحدد اسم ملف الفيديو بدون الإمتداد، أما %2 فيضيف رقماً بأربعة مراتب مملوءة بأصفار ابتداءاً.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1008"/>
         <source>Format for screenshots</source>
         <translation>صيغة للقطات</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>يسمح هذا الخيار باختيار نوع ملف الصورة المستخدَم لحفظ اللقطات.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>إذا مُكِّن هذا الخيار، فإن الحاسوب سيُطفأ فور إغلاق SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Video output driver</source>
         <translation>برنامج تشغيل مخرَجات الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر البرنامج التشغيلي لمخرجات الفيديو.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1150"/>
+        <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Audio output driver</source>
         <translation>برنامج تشغيل مخرَجات الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Select the audio output driver.</source>
         <translation>اختر برنامج تشغيل مخرَجات الصوت.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="966"/>
         <source>Remember settings</source>
         <translation>تذكر الإعدادات</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Preferred audio language</source>
         <translation>لغة الصوت المفضلة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Preferred subtitle language</source>
         <translation>لغة الترجمة المفضلة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Software video equalizer</source>
         <translation>مساوي الفيديو البرمجي</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="145"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation>أخرى...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="996"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>هذا الخيار يحدد  قالب اسم الملف المستخدَم لحفظ الصور الملتقَطة.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>للإطلاع على لائحة كاملة لمحددات القالب، زُر هذا الرابط:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>This option only works with mpv.</source>
         <translation>هذا الخيار يعمل مع mpv فقط.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Shut down computer</source>
         <translation>إطفاء الحاسوب</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>بإمكانك تمكين هذا الخيار إن لم تكن بطاقة الرسوم أو برنامج تشغيل مخرَجات الفيديو داعمين لمُساوي الفيديو.&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; قد لا يتوافق هذا الخيار مع بعض برامج تشغيل مخرَجات الفيديو.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1113"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>إن مُكِّن هذا الخيار، ستبدأ كل مقاطع الفيديو في وضع ملء الشاشة.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Global audio equalizer</source>
         <translation>مساوي صوتي عمومي</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>إن مُكن هذا الخيار، فإن كل ملفات الوسائط ستتشارك مساوي الصوت.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>اذا لم يؤشَّر، فإن قيم المساوي الصوتي تُحفَظ سوية مع كل ملف و تحمَّل ثانيةً عند تشغيل الملف لاحقاً.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>يطلب عدد قنوات التشغيل. يطلب %1 من المرمِّز ترميز الصوت الى ما يماثل عدد القنوات المحددة. ثم يُترك الأمر للمرمِّز للإيفاء بالمتطلبات. عادة ما يون هذا مهما فقط عند تشغيل فيديوات لها صوت AC3 (مثل الدي في دي). في هذه الحالة تقوم مكتبة liba52 بالترميز بدئيا و تتم مزج الصوت بصورة صحيحة الى العدد المطلوب من القنوات. &lt;b&gt;ملاحظة&lt;/b&gt;: يلتزم بهذا الخيار كل من المرمزات (فقط AC3) و المصافي (المحيطي) و برامج تعريف مخرَجات الصوت (على الاقل OSS).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>يسمح بتغيير سرعة التشغيل دون تغيير النبرة.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Software volume control</source>
         <translation>التحكم البرمجي بعلوّ الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1187"/>
+        <location filename="../prefgeneral.cpp" line="1158"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>مكّن هذا الخيار لاستعمال الخالط البرمجي بدل استعمال خالط بطاقة الصوت.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Postprocessing quality</source>
         <translation>جودة المعالجة اللاحقة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>يُغير مستوى المعالجة اللاحقة بما يُناسب ما متوفر من وقت المعالج. سيكون الرقم الذي تعينه أكبر مستوى يُستعمل. يمكنك غالباً استعمال رقم كبير.</translation>
     </message>
@@ -5730,12 +5730,12 @@ Do you want to overwrite?</source>
         <translation>&amp;تمرير باستخدام  S/PDIF لصيغة AC3/DT</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Direct rendering</source>
         <translation>تصيير مباشر</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Double buffering</source>
         <translation>تخزين مخبئ مضاعف</translation>
     </message>
@@ -5750,7 +5750,7 @@ Do you want to overwrite?</source>
         <translation>تخزين م&amp;خبئ مضاعف</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>التخزين المخبئ المضاعف يُصلِح الومض بتخزين إطارين في الذاكرة، وعرض أحدهما بينما يُفك ترميز الآخر. إن أُبطِل هذا الخيار فقد يُؤثّر سلباً على لوحة الأدوات على الشاشة، ولكنه غالباً ما ينقص وميضها.</translation>
     </message>
@@ -5765,12 +5765,12 @@ Do you want to overwrite?</source>
         <translation>سَ&amp;وِّ علوّ الصوت مبدئياً</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Close when finished</source>
         <translation>أغلق عند الانتهاء</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>إن مُكّن هذا الخيار، فستُغلَق النافذة الرئيسة تلقائياً عند ما ينتهي تشغيل الملف/قائمة التشغيل الحالية.</translation>
     </message>
@@ -5800,67 +5800,67 @@ Do you want to overwrite?</source>
         <translation>أل&amp;بث عند تصغير  النافذة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1016"/>
         <source>Pause when minimized</source>
         <translation>ألبث عند تصغير  النافذة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>Enable postprocessing by default</source>
         <translation>مكّن المعالجة اللاحقة مبدئياً</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Max. Amplification</source>
         <translation>أقصى تضخيم</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1161"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>تمرير باستخدام  S/PDIF لصيغة AC3/DT</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1168"/>
         <source>Volume normalization by default</source>
         <translation>تسوية حجم الصوت مبدئياً</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>يرفع العلوّ دون تشويه الصوت.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Channels by default</source>
         <translation>القنوات المبدئية</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>يعُين أقصى مستوى لتضخيم الصوت بالنسبة المئوية (المبدئي: 110). تعيين القيمة إلى 200 يسمح برفع العلوّ إلى حد أقصاه ضعف المستوى الحالي. إذا عُينت قيمة تحت 100 فسيكون العلوّ الأولي (وهو 100%) فوق الحد الأقصى، فلا تستطيع مثلا لوحة الأدوات على الشاشة عرضه كما ينبغي.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>ستُستعمل المعالجة اللاحقة مبدئياً للملفات المفتوحة جديداً. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Audio track</source>
         <translation>مسار الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>يُعين مسار الصوت المبدئي الذي سوف يُعتمد عند تشغيل ملفات جديدة. إن لم يُوجد المسار، سيُعتمد أول مسار.&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; الخيار &lt;i&gt;&quot;لغة الصوت المفضلة&quot;&lt;/i&gt; مُقدَّم على هذا.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Subtitle track</source>
         <translation>مسار الترجمة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>يُعين مسار الترجمة المبدئي الذي سوف يُعتمد عند تشغيل ملفات جديدة. إن لم يُوجد المسار، سيُعتمد الأول محله.&lt;br&gt;&lt;b&gt;ملاحظة:&lt;/b&gt; الخيار &lt;i&gt;&quot;لغة الترجمة المفضلة&quot;&lt;/i&gt; مُقدَّم على هذا.</translation>
     </message>
@@ -5900,7 +5900,7 @@ Do you want to overwrite?</source>
         <translation>تشغيلٌ عالي ال&amp;سرعة دون تغيير النبرة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1177"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>High speed playback without altering pitch</source>
         <translation>تشغيلٌ عالي السرعة دون تغيير النبرة</translation>
     </message>
@@ -5925,17 +5925,17 @@ Do you want to overwrite?</source>
         <translation>علوّ الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Video</source>
         <translation>الفيديو</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1119"/>
         <source>Audio</source>
         <translation>الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Preferred audio and subtitles</source>
         <translation>الصوت و الترجمة المفضلان</translation>
     </message>
@@ -5970,17 +5970,17 @@ Do you want to overwrite?</source>
         <translation>مرشِّح Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Deinterlace by default</source>
         <translation>فُك التشابك مبدئياً</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>اختر مُرشح فك التشابك الذي تريد أن يُستعمل لمقاطع الفيديو المفتوحة جديداً.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="971"/>
         <source>Remember time position</source>
         <translation>تذكر موضع الوقت</translation>
     </message>
@@ -5990,12 +5990,12 @@ Do you want to overwrite?</source>
         <translation>تذكّر موضع الوق&amp;ت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Enable the audio equalizer</source>
         <translation>مكّن مساوي الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>مكّن هذا الخيار إن أردت استعمال مساوي الصوت.</translation>
     </message>
@@ -6005,12 +6005,12 @@ Do you want to overwrite?</source>
         <translation>مكّن مُساو&amp;ي الصوت</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
         <source>Draw video using slices</source>
         <translation>ارسم الفيديو كشرائح مُقطّعة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>مكّن/عطّل رسم الفيديو بشرائح/رُزَم من 16-بكسل. اذا عطّلته، فسيُرسُم كامل الإطار في تشغيلة واحدة. قد يكون أسرع أو أبطأ، اعتمادا على بطاقة -كرت- الفيديو و الذاكرة الخبيئة المتوفرة. هذا له تأثير مع تشفيرات libmpeg2 و libavcodec فقط.</translation>
     </message>
@@ -6025,36 +6025,36 @@ Do you want to overwrite?</source>
         <translation>ا&amp;غلق عند انتهاء التشغيل</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="415"/>
-        <location filename="../prefgeneral.cpp" line="422"/>
-        <location filename="../prefgeneral.cpp" line="448"/>
+        <location filename="../prefgeneral.cpp" line="386"/>
+        <location filename="../prefgeneral.cpp" line="393"/>
+        <location filename="../prefgeneral.cpp" line="419"/>
         <source>fast</source>
         <translation>سريع</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="416"/>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="387"/>
+        <location filename="../prefgeneral.cpp" line="415"/>
         <source>slow</source>
         <translation>بطيء</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="420"/>
         <source>fast - ATI cards</source>
         <translation>سريع - بطاقات ATI</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="442"/>
         <location filename="../prefgeneral.cpp" line="471"/>
-        <location filename="../prefgeneral.cpp" line="500"/>
         <source>User defined...</source>
         <translation>معرَّف من المستخدِم ...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Default zoom</source>
         <translation>التقريب المبدئي</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>هذا الإعداد يضبط التقريب المبدئي المستخدَم للفيدوات الجديدة.</translation>
     </message>
@@ -6064,32 +6064,32 @@ Do you want to overwrite?</source>
         <translation>الت&amp;قريب المبدئي:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="992"/>
+        <location filename="../prefgeneral.cpp" line="963"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>اذا كان هذا الإعداد خاطئا فلن يكون SMPlayer قادراً على تشغيل اي شيء!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="996"/>
+        <location filename="../prefgeneral.cpp" line="967"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>عادة سيتذكر SMPlayer الإعدادات لكل ملف تشغّله (المقطع الصوتي المختار، علوّ الصوت، المرشحات...). عطِّل هذا الخيار اذا لم ترغب بهذه الميزة.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>إذا مُكِّن هذا الخيار فان الملف سيلبث عند إخفاء النافذة الرئيسية. عند إستعادة النافذة سيُستأنَف التشغيل.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>مكِّن هذا الخيار لتعطيل شاشة التوقف اثناء التشغيل.&lt;br&gt;ستمكَّن شاشة التوقف مرة أخرى عند انتهاء التشغيل.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>بإمكانك هنا كتابة لغتك المفضلة لدفقات الصوت. عندما يُوجد وسيط له أكثر من دفق واحد للصوت، سيحاول SMPlayer اعتماد لغتك المفضلة.&lt;br&gt; ينطبق هذا على الوسائط التي تتوفر على معلومات عن لغة دفقات الصوت، كأقراص DVD أو ملفات MKV.&lt;br&gt;يقبل هذا الحقل التعابير النظامية. مثلاً:  سيعتمد المسار الذي يوافق &lt;i&gt;ar&lt;/i&gt; أو &lt;i&gt;ara&lt;/i&gt; إذا أُدخل التعبير النظامي &lt;b&gt;ar|ara&lt;/b&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1220"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>بإمكانك هنا كتابة لغتك المفضلة لدفقات الترجمة. عندما يُوجد وسيط له أكثر من دفق واحد للترجمة، سيحاول SMPlayer اعتماد لغتك المفضلة.&lt;br&gt; ينطبق هذا على الوسائط التي تتوفر على معلومات عن لغة دفقات الترجمة، كأقراص DVD أو ملفات MKV.&lt;br&gt;يقبل هذا الحقل التعابير النظامية. مثلاً:  سيعتمد المسار الذي يوافق &lt;i&gt;ar&lt;/i&gt; أو &lt;i&gt;ara&lt;/i&gt; إذا أُدخل التعبير النظامي &lt;b&gt;ar|ara&lt;/b&gt;.</translation>
     </message>
@@ -6100,12 +6100,12 @@ Do you want to overwrite?</source>
         <translation>ب&amp;رنامج تشغيل المخرَجات:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Add black borders on fullscreen</source>
         <translation>اضف حدوداً سوداء في ملء الشاشة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>اذا مُكِّن هذا الخيار، فستُضاف حدود سوداء الى الصورة في وضع ملء الشاشة. هذا يسمح بعرض الترجمات على الحدود السوداء.</translation>
     </message>
@@ -6125,22 +6125,22 @@ Do you want to overwrite?</source>
         <translation>ملفات إعدادات ini متعددة</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="976"/>
         <source>Method to store the file settings</source>
         <translation>طريقة خزن إعدادات الملف</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="977"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>يسمح هذا الخيار بتغيير طريقة خزن إعدادات الملف. تتوفر الخيارات التالية:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1008"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;ملف إعدادات ini واحد&lt;/b&gt;: ستُحفَظ الإعدادات لكل الملفات المشتغلة في ملف إعدادات ini واحد (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1012"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>يمكن أن تكون الطريقة الأخيرة أسرع إن وُجدَت معلومات عن الكثير من الملفات.</translation>
     </message>
@@ -6150,32 +6150,32 @@ Do you want to overwrite?</source>
         <translation>ا&amp;خزن الإعدادات في</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;ملفات إعدادات ini متعددة&lt;/b&gt;:سيُستخدَم ملف إعدادات ini واحد لكل ملف مشتغل. ملفات الإعدادات ini هذه ستُحفَظ في المجلد %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1001"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>إذا أشّرتَ هذا الخيار، فإن SMPlayer سيتذكر المحل الأخير للملف عندما تفتحه مرة أخرى. هذا الخيار يعمل فقط مع الملفات النظامية (و ليس مع الدي في دي أو السي دي أو الروابط ...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>اذا أشر هذا الخيار، فانه ينشّط المعالجة المباشرة (غير مدعوم في كل الشفرات و مخرَجات الفيديو)&lt;br&gt;&lt;b&gt;تحذير:&lt;/b&gt;قد يسبب للعرض على الشاشة/الترجمات OSD/SUB تلفاً!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="985"/>
         <source>Enable screenshots</source>
         <translation>تمكين اللقطات</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>بإمكانك استخدام هذا الخيار لتمكين أو تعطيل إمكانية التقاط لقطات الشاشة.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>بإمكانك هنا تعيين المجلد الذي ستُخزن فيه اللقطات التي ياخذهاSMPlayer. إذا لم يكن هذا المجلد صحيحا فستُعطَّل ميزة اللقطات.</translation>
     </message>
@@ -6195,17 +6195,17 @@ Do you want to overwrite?</source>
         <translation>المج&amp;لّد:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Global volume</source>
         <translation>العلوّ العمومي</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1181"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>اذا أشّرتَ هذا الخيار، فسيُستخدَم نفس العلوّ لكل الملفات التي تشغلها. اذا لم تؤشّر الخيار فان كل ملف سيَستخدم العلوّ الخاص به.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option also applies for the mute control.</source>
         <translation>ينطبق هذا الخيار على على متحكم الكتم أيضاً.</translation>
     </message>
@@ -6215,22 +6215,22 @@ Do you want to overwrite?</source>
         <translation>العلوّ الع&amp;مومي</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Switch screensaver off</source>
         <translation>بدّل شاشة التوقف الى الإطفاء</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1098"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>هذا الخيار يبدّل شاشة التوقف الى الإطفاء مباشرة قبل بدء تشغيل ملف ما، و يعيد تشغيلها عند انتهاء التشغيل. اذا مُكِّن هذا الخيار، فان شاشة التوقف لن تظهر حتى عند تشغيل ملفات صوتية أو عند لبث الملف -ايقافه مؤقتاً .</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Avoid screensaver</source>
         <translation>تجنب شاشة التوقف</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>عند تأشير هذا الخيار فسيحاول SMPlayer منع ظهور شاشة التوقف عند تشغيل ملف الفيديو. سيُسمح بظهور شاشة التوقف عند تشغيل ملف صوتي او عندما يكون المشغل في وضع اللبث. هذا الخيار يعمل فقط إذا كانت نافذة SMPlayer في المقدمة.</translation>
     </message>
@@ -6250,22 +6250,22 @@ Do you want to overwrite?</source>
         <translation>&amp;تجنب شاشة التوقف</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Audio/video auto synchronization</source>
         <translation>مزامنة صوت/فيديو تلقائية</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1201"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>يضبِّط و بالتدريج مزامنة صوت/فيديو استناداً الى مقاسات تأخير الصوت.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1204"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>A-V sync correction</source>
         <translation>تصحيح مزامنة صوت-فيديو</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>تصحيح مزامنة الصوت-الفيديو الأقصى لكل إطار (بالثواني)</translation>
     </message>
@@ -6295,7 +6295,7 @@ Do you want to overwrite?</source>
         <translation>&amp;أقصى تصحيح:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;ملاحظة:&lt;/b&gt; لن يستخدم هذا الخيار لقنوات التلفاز.</translation>
     </message>
@@ -6305,32 +6305,32 @@ Do you want to overwrite?</source>
         <translation>فكّ التشاب&amp;ك مبدئياً (ما عدا للتلفاز):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>يستخدم تمرير AC3 العتادي.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;ملاحظة:&lt;/b&gt; لن يُستخدَم أيّ من مرشحات الصوت عند تمكين هذا الخيار.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="423"/>
+        <location filename="../prefgeneral.cpp" line="394"/>
         <source>snap mode</source>
         <translation>وضع snap</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="424"/>
+        <location filename="../prefgeneral.cpp" line="395"/>
         <source>slower dive mode</source>
         <translation>وضع الإنغماس البطيء</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>uniaud mode</source>
         <translation>وضع uniaud</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="480"/>
+        <location filename="../prefgeneral.cpp" line="451"/>
         <source>dart mode</source>
         <translation>وضع dart</translation>
     </message>
@@ -6746,43 +6746,43 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="163"/>
         <location filename="../prefinput.cpp" line="397"/>
         <source>Move window</source>
-        <translation type="unfinished"></translation>
+        <translation>تحريك النافذة</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation>التنقل و العلوّ</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>استخدام مفاتيح الوسائط كاختصارات شمولية</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>عند تمكين هذا الخيار فان مفاتيح الوسائط (تشغيل، ايقاف، علوّ الصوت +/-، كتيم، و غيرها) ستعمل حتى لو كان SMPlayer يعمل في الخلفية.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>وظيفة السحب</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation>يتحكم هذا الخيار ما سيُعمل عند تحريك الفأرة بينما يجري ضغط الزر الأيسر.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation>النافذة الرئيسية منقولة</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"></translation>
+        <translation>الحركة الافقية تغير موضع الوقت بينما الحركة العمودية تغير علوّ الصوت</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
@@ -6942,7 +6942,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"></translation>
+        <translation>لغة النظام</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -7082,7 +7082,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكن لـ  SMPlayer تحجيم الواجهة في الشاشات عالية الـ DPI. يمكنك هنا تعطيل هذه الميزة أو تغيير عامل التحجيم.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
@@ -7092,7 +7092,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>تحجيم</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7102,7 +7102,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>التغييرات في هذا القسم تتطلب إعادة تشغيل SMPlayer من أجل أن تأخذ حيز التنفيذ</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7400,7 +7400,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="826"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>افتراضيا عند ضغط زر الإيقاف فسيُتذ:َّر موضع الوقت، لذا فإن ضغطت زر التشغيل فان ملف الوسائط سيستأنف في نفس النقطة. يتوجب عليك ضغط زر الإيقاف مرتين لتصفير موضع الوقت، لكن إذا أشّؤت هذا الخيار فإن موضع الوقت سيُضبَط الى الصفر 0 بضغطة واحدة فقط لزر الإيقاف.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="833"/>
@@ -7631,58 +7631,58 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>معطّل</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished">تلقائي</translation>
+        <translation>تلقائي</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>يوتيوب</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>دعم لمواقع الفيديو</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>الدعم لمواقع الفيديو معطّل</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"></translation>
+        <translation>يمكّن الدعم لليوتيوب و يستخدم mpv + مكتبة اليوتيوب youtube-dl لبقية المواقع</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>سيُستخدَم فقط الدعم الداخلي لليوتيوب</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>يستخدم mpv + مكتبة اليوتيوب youtube-dl لكل المواقع</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>نوعية التشغيل</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>اختر النوعية المفضلة لفيديوات اليوتيوب.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>يضبط البرنامج العميل للمستخدم و الذي سيستخدمه SMPlayer عند الاتصال باليوتيوب.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
@@ -8088,7 +8088,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>عادة فإنّ هذا الخيار سيمكّن المخبئية عند الحاجة.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -9395,7 +9395,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>التشغيل</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9498,7 +9498,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>نقشيّ Anaglyph ملون بـ اخضر/قرمزي</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
@@ -9655,17 +9655,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation>الوقت الحالي</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation>الوقت الكلي</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>الوقت المتبقي</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -9680,7 +9680,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>قائمة الوصول السريع</translation>
     </message>
 </context>
 <context>
