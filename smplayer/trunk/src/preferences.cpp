@@ -82,8 +82,8 @@ void Preferences::reset() {
 	mplayer_bin = "mpv";
 #endif
 
-	vo = ""; 
-	ao = "";
+	vo = "player_default"; 
+	ao = "player_default";
 
 	use_screenshot = true;
 #ifdef MPV_SUPPORT
