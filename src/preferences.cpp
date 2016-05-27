@@ -45,7 +45,10 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
+//#define USE_CONFIG_VERSION
+#ifdef USE_CONFIG_VERSION
 #define CURRENT_CONFIG_VERSION 4
+#endif
 
 using namespace Global;
 
@@ -72,7 +75,9 @@ void Preferences::reset() {
        General
        ******* */
 
+#ifdef USE_CONFIG_VERSION
 	config_version = CURRENT_CONFIG_VERSION;
+#endif
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	//mplayer_bin= "mplayer/mplayer.exe";
@@ -1703,7 +1708,7 @@ void Preferences::load() {
 	if (vo == "player_default") vo = "";
 	if (ao == "player_default") ao = "";
 
-
+#ifdef USE_CONFIG_VERSION
 	qDebug("Preferences::load: config_version: %d, CURRENT_CONFIG_VERSION: %d", config_version, CURRENT_CONFIG_VERSION);
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {
@@ -1733,6 +1738,7 @@ void Preferences::load() {
 		}
 		config_version = CURRENT_CONFIG_VERSION;
 	}
+#endif
 
 #if defined(MPV_SUPPORT) && defined(MPLAYER_SUPPORT)
 	#ifdef Q_OS_WIN
