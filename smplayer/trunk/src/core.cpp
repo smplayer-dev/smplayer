@@ -1686,18 +1686,15 @@ void Core::startMplayer( QString file, double seek ) {
 			QString vo = pref->vo;
 			if (!vo.endsWith(",")) vo += ",";
 			proc->setOption("vo", vo);
-		} else {
-			#ifdef Q_OS_WIN
-			if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
-				proc->setOption("vo", "direct3d,");
-			} else {
-				proc->setOption("vo", "directx,");
-			}
-			#else
-			proc->setOption("vo", "xv,");
-			#endif
 		}
 	}
+	#ifdef Q_OS_WIN
+	else {
+		if (proc->isMPlayer() && QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
+			proc->setOption("vo", "direct3d,");
+		}
+	}
+	#endif
 
 #if USE_ADAPTER
 	if (pref->adapter > -1) {
