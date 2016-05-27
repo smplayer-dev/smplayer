@@ -211,37 +211,8 @@ void PrefGeneral::setData(Preferences * pref) {
 	setScreenshotFormat(pref->screenshot_format);
 #endif
 
-	QString vo = pref->vo;
-	if (vo.isEmpty()) {
-#ifdef Q_OS_WIN
-		if (QSysInfo::WindowsVersion >= QSysInfo::WV_VISTA) {
-			vo = "direct3d,";
-		} else {
-			vo = "directx,";
-		}
-#else
-#ifdef Q_OS_OS2
-		vo = "kva";
-#else
-		vo = "xv,";
-#endif
-#endif
-	}
-	setVO( vo );
-
-	QString ao = pref->ao;
-
-#ifdef Q_OS_OS2
-	if (ao.isEmpty()) {
-		if (pref->mplayer_detected_version >= MPLAYER_KAI_VERSION) {
-			ao = "kai";
-		} else {
-			ao = "dart";
-		}
-	}
-#endif
-
-	setAO( ao );
+	setVO( pref->vo );
+	setAO( pref->ao );
 
 	setRememberSettings( !pref->dont_remember_media_settings );
 	setRememberTimePos( !pref->dont_remember_time_pos );
@@ -404,32 +375,32 @@ void PrefGeneral::updateDriverCombos() {
 	vo_combo->clear();
 	ao_combo->clear();
 
-	vo_combo->addItem(tr("Default"), "player_default");
-	ao_combo->addItem(tr("Default"), "player_default");
+	vo_combo->addItem(tr("Default"), "");
+	ao_combo->addItem(tr("Default"), "");
 
 	QString vo;
 	for ( int n = 0; n < vo_list.count(); n++ ) {
 		vo = vo_list[n].name();
-#ifdef Q_OS_WIN
+		#ifdef Q_OS_WIN
 		if ( vo == "directx" ) {
 			vo_combo->addItem( "directx (" + tr("fast") + ")", "directx" );
 			vo_combo->addItem( "directx (" + tr("slow") + ")", "directx:noaccel" );
 		}
 		else
-#else
-#ifdef Q_OS_OS2
+		#else
+		#ifdef Q_OS_OS2
 		if ( vo == "kva") {
 			vo_combo->addItem( "kva (" + tr("fast") + ")", "kva" );
 			vo_combo->addItem( "kva (" + tr("snap mode") + ")", "kva:snap" );
 			vo_combo->addItem( "kva (" + tr("slower dive mode") + ")", "kva:dive" );
 		}
 		else
-#else
+		#else
 		/*
 		if (vo == "xv") vo_combo->addItem( "xv (" + tr("fastest") + ")", vo);
 		else
 		*/
-#if USE_XV_ADAPTORS
+		#if USE_XV_ADAPTORS
 		if ((vo == "xv") && (!xv_adaptors.isEmpty())) {
 			vo_combo->addItem(vo, vo);
 			for (int n=0; n < xv_adaptors.count(); n++) {
@@ -438,9 +409,9 @@ void PrefGeneral::updateDriverCombos() {
 			}
 		}
 		else
-#endif // USE_XV_ADAPTORS
-#endif
-#endif
+		#endif // USE_XV_ADAPTORS
+		#endif
+		#endif
 		if (vo == "x11") vo_combo->addItem( "x11 (" + tr("slow") + ")", vo);
 		else
 		if (vo == "gl") {
@@ -474,28 +445,28 @@ void PrefGeneral::updateDriverCombos() {
 	for ( int n = 0; n < ao_list.count(); n++) {
 		ao = ao_list[n].name();
 		ao_combo->addItem( ao, ao );
-#ifdef Q_OS_OS2
+		#ifdef Q_OS_OS2
 		if ( ao == "kai") {
 			ao_combo->addItem( "kai (" + tr("uniaud mode") + ")", "kai:uniaud" );
 			ao_combo->addItem( "kai (" + tr("dart mode") + ")", "kai:dart" );
 		}
-#endif
-#if USE_ALSA_DEVICES
+		#endif
+		#if USE_ALSA_DEVICES
 		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
 			for (int n=0; n < alsa_devices.count(); n++) {
 				ao_combo->addItem( "alsa (" + alsa_devices[n].ID().toString() + " - " + alsa_devices[n].desc() + ")", 
                                    "alsa:device=hw=" + alsa_devices[n].ID().toString() );
 			}
 		}
-#endif
-#if USE_DSOUND_DEVICES
+		#endif
+		#if USE_DSOUND_DEVICES
 		if ((ao == "dsound") && (!dsound_devices.isEmpty())) {
 			for (int n=0; n < dsound_devices.count(); n++) {
 				ao_combo->addItem( "dsound (" + dsound_devices[n].ID().toString() + " - " + dsound_devices[n].desc() + ")", 
                                    "dsound:device=" + dsound_devices[n].ID().toString() );
 			}
 		}
-#endif
+		#endif
 	}
 	ao_combo->addItem( tr("User defined..."), "user_defined" );
 

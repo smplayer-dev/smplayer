@@ -1681,12 +1681,10 @@ void Core::startMplayer( QString file, double seek ) {
 
 	proc->setOption("sub-fuzziness", pref->subfuzziness);
 
-	if (pref->vo != "player_default") {
-		if (!pref->vo.isEmpty()) {
-			QString vo = pref->vo;
-			if (!vo.endsWith(",")) vo += ",";
-			proc->setOption("vo", vo);
-		}
+	if (!pref->vo.isEmpty()) {
+		QString vo = pref->vo;
+		if (!vo.endsWith(",")) vo += ",";
+		proc->setOption("vo", vo);
 	}
 	#ifdef Q_OS_WIN
 	else {
@@ -1702,12 +1700,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 #endif
 
-	if (pref->ao != "player_default") {
-		if (!pref->ao.isEmpty()) {
-			QString ao = pref->ao;
-			if (!ao.endsWith(",")) ao += ",";
-			proc->setOption("ao", ao);
-		}
+	if (!pref->ao.isEmpty()) {
+		QString ao = pref->ao;
+		if (!ao.endsWith(",")) ao += ",";
+		proc->setOption("ao", ao);
 	}
 
 #if !defined(Q_OS_WIN) && !defined(Q_OS_OS2)
@@ -4341,21 +4337,25 @@ void Core::gotNoVideo() {
 }
 
 void Core::gotVO(QString vo) {
-	qDebug("Core::gotVO: '%s'", vo.toUtf8().data() );
+	qDebug() << "Core::gotVO:" << vo;
 
-	if ( pref->vo.isEmpty()) {
+	/*
+	if (pref->vo.isEmpty()) {
 		qDebug("Core::gotVO: saving vo");
 		pref->vo = vo;
 	}
+	*/
 }
 
 void Core::gotAO(QString ao) {
-	qDebug("Core::gotAO: '%s'", ao.toUtf8().data() );
+	qDebug() << "Core::gotAO:" << ao;
 
-	if ( pref->ao.isEmpty()) {
+	/*
+	if (pref->ao.isEmpty()) {
 		qDebug("Core::gotAO: saving ao");
 		pref->ao = ao;
 	}
+	*/
 }
 
 void Core::streamTitleChanged(QString title) {

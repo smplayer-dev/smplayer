@@ -1699,6 +1699,11 @@ void Preferences::load() {
 #endif
 
 
+	// Fix some options
+	if (vo == "player_default") vo = "";
+	if (ao == "player_default") ao = "";
+
+
 	qDebug("Preferences::load: config_version: %d, CURRENT_CONFIG_VERSION: %d", config_version, CURRENT_CONFIG_VERSION);
 	// Fix some values if config is old
 	if (config_version < CURRENT_CONFIG_VERSION) {
