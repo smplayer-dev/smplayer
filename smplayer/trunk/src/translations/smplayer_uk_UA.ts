@@ -1954,107 +1954,107 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;Відновити</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="758"/>
+        <location filename="../baseguiplus.cpp" line="764"/>
         <source>Information about connected screens</source>
         <translation>Інформація про під’єднані екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="761"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
         <source>Connected screens</source>
         <translation>Під’єднані екрани</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="812"/>
         <source>Number of screens: %1</source>
         <translation>Кількість екранів: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="769"/>
-        <location filename="../baseguiplus.cpp" line="807"/>
+        <location filename="../baseguiplus.cpp" line="775"/>
+        <location filename="../baseguiplus.cpp" line="813"/>
         <source>Primary screen: %1</source>
         <translation>Первинний екран: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
-        <location filename="../baseguiplus.cpp" line="811"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
+        <location filename="../baseguiplus.cpp" line="817"/>
         <source>Information for screen %1</source>
         <translation>Інформація для екрану %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
-        <location filename="../baseguiplus.cpp" line="813"/>
+        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="819"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Доступна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="781"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Available size: %1 x %2</source>
         <translation>Доступний розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Доступна віртуальна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="786"/>
+        <location filename="../baseguiplus.cpp" line="792"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Доступний віртуальний розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="794"/>
         <source>Depth: %1 bits</source>
         <translation>Глибина: %1 бітів</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
-        <location filename="../baseguiplus.cpp" line="815"/>
+        <location filename="../baseguiplus.cpp" line="795"/>
+        <location filename="../baseguiplus.cpp" line="821"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Logical DPI: %1</source>
         <translation>Логічне DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="793"/>
+        <location filename="../baseguiplus.cpp" line="799"/>
         <source>Physical DPI: %1</source>
         <translation>Фізичне DPI: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="794"/>
+        <location filename="../baseguiplus.cpp" line="800"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Фізичний розмір: %1 x %2 мм</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="796"/>
+        <location filename="../baseguiplus.cpp" line="802"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Частота оновлення: %1 Гц</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Size: %1 x %2</source>
         <translation>Розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="804"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Віртуальна геометрія: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="800"/>
+        <location filename="../baseguiplus.cpp" line="806"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Віртуальний розмір: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="853"/>
+        <location filename="../baseguiplus.cpp" line="859"/>
         <source>Primary screen</source>
         <translation>Первинний екран</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2144,68 +2144,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2990"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Brightness: %1</source>
         <translation>Яскравість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3006"/>
+        <location filename="../core.cpp" line="2999"/>
         <source>Contrast: %1</source>
         <translation>Контрасність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3014"/>
         <source>Gamma: %1</source>
         <translation>Гама: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3036"/>
+        <location filename="../core.cpp" line="3029"/>
         <source>Hue: %1</source>
         <translation>Колір: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3051"/>
+        <location filename="../core.cpp" line="3044"/>
         <source>Saturation: %1</source>
         <translation>Насиченість: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3194"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Volume: %1</source>
         <translation>Гучність: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4061"/>
         <source>Zoom: %1</source>
         <translation>Мірило: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
-        <location filename="../core.cpp" line="3333"/>
+        <location filename="../core.cpp" line="3315"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Font scale: %1</source>
         <translation>Мірило шрифта: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3909"/>
+        <location filename="../core.cpp" line="3902"/>
         <source>Aspect ratio: %1</source>
         <translation>Співвідношення сторін: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4294"/>
+        <location filename="../core.cpp" line="4287"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Оновити кеш шрифтів. Це може потребувати декількох секунд...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3240"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Затримка субтитрів: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Audio delay: %1 ms</source>
         <translation>Затримка аудіо: %1 мс</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3105"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Speed: %1</source>
         <translation>Швидкість: %1</translation>
     </message>
@@ -2220,42 +2220,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Неможливо знайти URL з відео</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Subtitles on</source>
         <translation>Субтитри увімкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3412"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Subtitles off</source>
         <translation>Субтитри вимкнені</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3957"/>
+        <location filename="../core.cpp" line="3950"/>
         <source>Mouse wheel seeks now</source>
         <translation>Тепер колесо миші здійснює переміщення</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3960"/>
+        <location filename="../core.cpp" line="3953"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Тепер колесо миші змінює гучність</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3963"/>
+        <location filename="../core.cpp" line="3956"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Тепер колесо миші змінює мірило</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3966"/>
+        <location filename="../core.cpp" line="3959"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Тепер колесо миші змінює швидкість</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4270"/>
+        <location filename="../core.cpp" line="4263"/>
         <source>Screenshot saved as %1</source>
         <translation>Зняток збережено як %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4305"/>
+        <location filename="../core.cpp" line="4298"/>
         <source>Starting...</source>
         <translation>Запуск...</translation>
     </message>
@@ -2270,17 +2270,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Знятки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2657"/>
+        <location filename="../core.cpp" line="2650"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Мітка &quot;А&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2674"/>
+        <location filename="../core.cpp" line="2667"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Мітка &quot;Б&quot; встановлена на %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2689"/>
+        <location filename="../core.cpp" line="2682"/>
         <source>A-B markers cleared</source>
         <translation>Мітки А-Б вилучені</translation>
     </message>
@@ -5412,7 +5412,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="130"/>
-        <location filename="../prefgeneral.cpp" line="981"/>
+        <location filename="../prefgeneral.cpp" line="952"/>
         <source>General</source>
         <translation>Загальні</translation>
     </message>
@@ -5427,12 +5427,12 @@ Do you want to overwrite?</source>
         <translation>Налаштування медіа</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Start videos in fullscreen</source>
         <translation>Стартувати відео у повноекранному режимі</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Disable screensaver</source>
         <translation>Вимкнути зберігач екрану</translation>
     </message>
@@ -5472,108 +5472,108 @@ Do you want to overwrite?</source>
         <translation>&amp;Виконуваний файл %1:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="407"/>
-        <location filename="../prefgeneral.cpp" line="408"/>
+        <location filename="../prefgeneral.cpp" line="378"/>
+        <location filename="../prefgeneral.cpp" line="379"/>
         <source>Default</source>
         <translation>Типово</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="984"/>
+        <location filename="../prefgeneral.cpp" line="955"/>
         <source>Multimedia engine</source>
         <translation>Рушій відтворення</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="956"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Виберіть, який мультимедійний рушій Ви бажаєте використовувати  MPlayer чи mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="986"/>
+        <location filename="../prefgeneral.cpp" line="957"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>Опція &apos;Інший&apos; дозволяє Вам вручну обрати шлях виконуваного файлу.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="989"/>
+        <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
         <translation>Виконуваний файл %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="961"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Тут ви повинні вказати виконуваний файл %1, який буде використаний у SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>Screenshots folder</source>
         <translation>Тека знятків екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>Template for screenshots</source>
         <translation>Шаблон для знятків екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="997"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>Як приклад %1 зберегти зняток як &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="998"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 задає ім&apos;я файлу відео без розширення, %2 додає 4-значний номер, доповнений нулями.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1008"/>
         <source>Format for screenshots</source>
         <translation>Формат знятків екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Цей параметр дозволяє вибрати тип графічного файлу для збереження знятків.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Якщо цю опцію увімкнено, комп&apos;ютер вимикається одразу після закриття SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Video output driver</source>
         <translation>Пристрій виведення відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Select the video output driver.</source>
         <translation>Виберіть драйвер виведення відео.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1150"/>
+        <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Audio output driver</source>
         <translation>Пристрій виведення звуку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Select the audio output driver.</source>
         <translation>Виберіть драйвер виведення звуку.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="966"/>
         <source>Remember settings</source>
         <translation>Запам&apos;ятати налаштування</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Preferred audio language</source>
         <translation>Бажана мова аудіо</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Preferred subtitle language</source>
         <translation>Бажана мова субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Software video equalizer</source>
         <translation>Проґрамний відеоеквалайзер</translation>
     </message>
@@ -5583,78 +5583,78 @@ Do you want to overwrite?</source>
         <translation>Інший...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="996"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Цей параметр визначає шаблон імені для збереження знятків екрану.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>Повний перелік параметрів шаблону зазначено тут:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>This option only works with mpv.</source>
         <translation>Ця опція працює лише з MPV.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Shut down computer</source>
         <translation>Вимкнути комп&apos;ютер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Ви можете спробувати ці опції, якщо відеоеквалайзер не підтримується Вашою відеокарткою чи вибраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення відео.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1113"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Якщо Ви виберете цю опцію, усі відеофайли будуть стартувати на увесь екран.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Global audio equalizer</source>
         <translation>Глобальний аудіо еквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Якщо ця опція активована, усі медіа-файли будуть використовувати аудіоеквалайзер.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Якщо не активована, налаштування аудіоеквалайзера будуть збережені разом з кожним файлом і будуть завантажуватися пізніше при кожному відтворенні файлу.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Запит кількості каналів відтворення. %1 просить декодер декодувати звук у вказану кількість каналів. Виконання завдання покладається на декодер. Зазвичай це необхідно лише при відтворенні відео з AC3 звуком (наприклад DVD). У цьому випадку liba52 здійснює декодування як зазвичай і коректно зводить аудіо в необхідну кількість каналів. &lt;b&gt;ПРИМІТКА&lt;/b&gt;: Ця опція враховується кодеками (AC3), фільтрами (об&apos;єм) та драйверами виведення звуку (принаймні OSS).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Дозволяє змінити швидкість відтворення без пітч-ефекту.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Software volume control</source>
         <translation>Проґрамне керування гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1187"/>
+        <location filename="../prefgeneral.cpp" line="1158"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Перевірте ці опції для використання проґрамного мікшера замість апаратного мікшера звукової картки.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Postprocessing quality</source>
         <translation>Якість післяобробки</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Динамічна зміна рівню післяобробки у залежності від вільного процесорного часу. Число, яке Ви вкажете, буде використане як максимальний рівень. Зазвичай можна вказати досить велике значення.</translation>
     </message>
@@ -5729,12 +5729,12 @@ Do you want to overwrite?</source>
         <translation>Передача &amp;AC3/DTS на S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Direct rendering</source>
         <translation>Пряме відтворення</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Double buffering</source>
         <translation>Подвійна буферизація</translation>
     </message>
@@ -5749,7 +5749,7 @@ Do you want to overwrite?</source>
         <translation>П&amp;одвійне буферування</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Подвійна буферизація виправляє мерехтіння тримаючи два кадри у пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
     </message>
@@ -5764,12 +5764,12 @@ Do you want to overwrite?</source>
         <translation>Типова нормалізація &amp;гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Close when finished</source>
         <translation>Вийти по закінченню</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Ця опція активує автоматичний вихід з проґрами по закінченню відтворення файлу чи переліку.</translation>
     </message>
@@ -5799,67 +5799,67 @@ Do you want to overwrite?</source>
         <translation>&amp;Призупинити при мінімізації</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1016"/>
         <source>Pause when minimized</source>
         <translation>Призупинити при мінімізації</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>Enable postprocessing by default</source>
         <translation>Типово увімкнути післяобробку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Max. Amplification</source>
         <translation>Максимальне підсилення</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1161"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>Передача AC3/DTS на S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1168"/>
         <source>Volume normalization by default</source>
         <translation>Типова нормалізація гучності</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Максимізація гучності без спотворення звуку.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Channels by default</source>
         <translation>Типові канали</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Встановлює максимальний рівень підсилення у відсотках (типово: 110). Значення 200 дозволить Вам зільшити гучність вдвічі від поточного значення. Зі значенням менше 100 початкова гучність (тобто 100%) буде вище максимуму, який неправильно відображається екранною індикацією.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Післяобробка буде використовуватися для усіх нових файлів.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Audio track</source>
         <translation>Звукова доріжка</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Задає звукову доріжку, яка буде використовуватися при відкритті нових файлів. Якщо доріжка не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Нотатка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова звуку&quot;&lt;/i&gt; має перевагу над цією опцією.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Subtitle track</source>
         <translation>Доріжка субтитрів</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Задає доріжку субтитрів, яка буде використовуватися при відкритті нових файлів. Якщо доріжка не існує, буде використано першу. &lt;br&gt;&lt;b&gt;Нотатка: &lt;/b&gt;&lt;i&gt;&quot;бажана мова субтитрів&quot;&lt;/i&gt; має перевагу над цією опцією.</translation>
     </message>
@@ -5899,7 +5899,7 @@ Do you want to overwrite?</source>
         <translation>В&amp;исока швидкість відтворення без зміни кроку</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1177"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>High speed playback without altering pitch</source>
         <translation>Висока швидкість відтворення без зміни кроку</translation>
     </message>
@@ -5924,17 +5924,17 @@ Do you want to overwrite?</source>
         <translation>Гучність</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Video</source>
         <translation>Відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1119"/>
         <source>Audio</source>
         <translation>Звук</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Preferred audio and subtitles</source>
         <translation>Бажані звук та субтитри</translation>
     </message>
@@ -5969,17 +5969,17 @@ Do you want to overwrite?</source>
         <translation>Ядерний деінтерлейсер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Deinterlace by default</source>
         <translation>Типовий деінтерлейсинг</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Виберіть фільтр деінтерлейсингу, який буде застосовано до нових відео при відкритті.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="971"/>
         <source>Remember time position</source>
         <translation>Запам&apos;ятати позицію часу</translation>
     </message>
@@ -5989,12 +5989,12 @@ Do you want to overwrite?</source>
         <translation>Запам&apos;ятати позицію &amp;часу</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Enable the audio equalizer</source>
         <translation>Увімкнути аудіоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Виберіть цю опцію, якщо ви бажаєте використавувати аудіоеквалайзер.</translation>
     </message>
@@ -6004,12 +6004,12 @@ Do you want to overwrite?</source>
         <translation>Уві&amp;мкнути аудіоеквалайзер</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
         <source>Draw video using slices</source>
         <translation>Промальовувати відео смугами</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Увімкнути/вимкнути промальовування відео смугами, висотою 16 пікселів. Якщо вимкнено, то цілий кадр малюється за раз. Може бути швидше або повільніше, у залежності відеокартки та наявного кешу. Діє лише з кодеками libmpeg2 та libavcodec.</translation>
     </message>
@@ -6024,36 +6024,36 @@ Do you want to overwrite?</source>
         <translation>В&amp;ийти по закінченню відтворення</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="415"/>
-        <location filename="../prefgeneral.cpp" line="422"/>
-        <location filename="../prefgeneral.cpp" line="448"/>
+        <location filename="../prefgeneral.cpp" line="386"/>
+        <location filename="../prefgeneral.cpp" line="393"/>
+        <location filename="../prefgeneral.cpp" line="419"/>
         <source>fast</source>
         <translation>швидко</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="416"/>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="387"/>
+        <location filename="../prefgeneral.cpp" line="415"/>
         <source>slow</source>
         <translation>повільно</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="420"/>
         <source>fast - ATI cards</source>
         <translation>швидко - картки ATI</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="442"/>
         <location filename="../prefgeneral.cpp" line="471"/>
-        <location filename="../prefgeneral.cpp" line="500"/>
         <source>User defined...</source>
         <translation>Визначені користувачем...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Default zoom</source>
         <translation>Типове мірило</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Ця опція встановлює типове мірило, яке буде застосовуватися для нових відеофайлів.</translation>
     </message>
@@ -6063,32 +6063,32 @@ Do you want to overwrite?</source>
         <translation>Типове &amp;мірило:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="992"/>
+        <location filename="../prefgeneral.cpp" line="963"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Якщо ці налаштування невірні, SMPlayer не зможе нічого програти!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="996"/>
+        <location filename="../prefgeneral.cpp" line="967"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>SMPlayer зазвичай запам&apos;ятовує налаштування для кожного файлу (вибрані доріжки, гучність, фільтри...). Вимкніть цю опцію, якщо Вам це не подобається.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Якщо ця опція увімкнена, файл буде призупинений, коли головне вікно сховане. Коли вікно відновиться, відтворення буде відновлене.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Встановіть цю опцію, щоб вимкнути зберігач екрану під час відтворення.&lt;br&gt;Зберігач екрану увімкнеться знову, коли відтворення завершиться.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Тут Ви можете вказати мову для звукових доріжок. При знаходженні декількох звукових доріжок SMPlayer буде намагатися використовувати вказану Вами мову.&lt;br&gt;Це працює лише для форматів, які надають відомості про мови для звукових доріжок, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1220"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Тут Ви можете вказати мову для звукових субтитрів. При знаходженні субтитрів для SMPlayer буде намагатися використати бажану для вас мову.&lt;br&gt;Це працює лише для форматів, які надають відомості про мови для субтитрів, такі як DVD чи mkv файли.&lt;br&gt;Поля приймають регулярні вирази. Приклад: &lt;b&gt;es|esp|spa&lt;/b&gt; призначить звукову доріжку, яка відповідатиме &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; чи &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
@@ -6099,12 +6099,12 @@ Do you want to overwrite?</source>
         <translation>Пристрої &amp;виведення:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Add black borders on fullscreen</source>
         <translation>Додати чорні межі при повному екрані</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Ящо ця опція увімкнена, межі будуть додані до зображення при повному екрані. Це дозволить відображати субтитри на чорних межах.</translation>
     </message>
@@ -6124,22 +6124,22 @@ Do you want to overwrite?</source>
         <translation>багатьох файлах ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="976"/>
         <source>Method to store the file settings</source>
         <translation>Спосіб збереження файлів налаштувань</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="977"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Ця опція дозволить змінити спосіб, у який будуть зберігатися файли налаштувань. Доступні такі опції:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1008"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;один файл ini&lt;/b&gt;: налаштування усіх відтворюваних файлів зберігатимуться в одному файлі ini (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1012"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Останній спосіб може бути швидшим, якщо є відомості для багатьох файлів.</translation>
     </message>
@@ -6149,32 +6149,32 @@ Do you want to overwrite?</source>
         <translation>З&amp;берігати налаштування у</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;багато файлів ini&lt;/b&gt;: буде використано один файл ini для кожного відтворюваного файлу. Ці файли ini будуть збережені у теці %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1001"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Якщо Ви виберете цю опцію, SMPlayer пам&apos;ятатиме останнє положення файлу, коли ви відкриєте його знову. Ця опція працює лише зі звичайними файлами (не з DVD, КД, URL...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Якщо увімкнено, вмикається пряме відтворення (підтримується не усіма кодеками та пристроями відеовиведення)&lt;br&gt;&lt;b&gt;Застереження:&lt;/b&gt; Може пошкодити екранну індикацію та субтитри!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="985"/>
         <source>Enable screenshots</source>
         <translation>Увімкнути знятки екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Ви можете використати цю опцію, щоб увімкнути чи вимкнути можливість робити знятки екрану.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Тут ви можете вказати теку, де будуть зберігатися знятки екрану, зроблені SMPlayer. Якщо тека вказана невірно, знятки екрану будуть вимкнені.</translation>
     </message>
@@ -6194,17 +6194,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Тека:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Global volume</source>
         <translation>Загальна гучність</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1181"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Якщо ця опція увімкнена, один і той же рівень гучності буде використаний для відтворення усіх файлів. Якщо вимкнена, кожен файл буде мати свою гучність.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option also applies for the mute control.</source>
         <translation>Ця опція також застосовується для керування вимкненням звуку.</translation>
     </message>
@@ -6214,22 +6214,22 @@ Do you want to overwrite?</source>
         <translation>Зага&amp;льна гучність</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Switch screensaver off</source>
         <translation>Вимкнути зберігач екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1098"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Ця опція вимикає зберігач екрану лише перед програванням файлу та вмикає його, коли програвання буде завершене. Якщо ця опція увімкнена, зберігач екрану не з&apos;являтиметься навіть коли програються аудіофайли або програвання призупинене.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Avoid screensaver</source>
         <translation>Уникати запуск зберігача екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Якщо ця опція увімкнена, SMPlayer намагатиметься попередити показ зберігача екрану під час відтворення відеофайлу. Показ зберігача екрану буде дозволений, якщо відтворюється аудіофайл або відтворення призупинене. Ця опція працює лише якщо вікно SMPlayer розрорнуте.</translation>
     </message>
@@ -6249,22 +6249,22 @@ Do you want to overwrite?</source>
         <translation>&amp;Уникати запуск зберігача екрану</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Audio/video auto synchronization</source>
         <translation>Автосинхронізація звуку/відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1201"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Поступове регулювання синхронізації аудіо-відео, основане на розмірах звукових затримок.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1204"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>A-V sync correction</source>
         <translation>Коригування синхронізації аудіо-відео</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Найбільше значення коригування аудіо-відео на кадр (с)</translation>
     </message>
@@ -6294,7 +6294,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Найбільше коригування:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Нотатка:&lt;/b&gt; Ця опція не буде використана для каналів ТБ.</translation>
     </message>
@@ -6304,32 +6304,32 @@ Do you want to overwrite?</source>
         <translation>Типовий деін&amp;терлейсинг (крім ТБ):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Використовувати апаратну передачу AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Нотатка:&lt;/b&gt; жоден з фільтрів аудіо не буде використовуватися, коли ця опція увімкнена.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="423"/>
+        <location filename="../prefgeneral.cpp" line="394"/>
         <source>snap mode</source>
         <translation>режим знятків</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="424"/>
+        <location filename="../prefgeneral.cpp" line="395"/>
         <source>slower dive mode</source>
         <translation>режим повільних стрибків</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>uniaud mode</source>
         <translation>режим uniaud</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="480"/>
+        <location filename="../prefgeneral.cpp" line="451"/>
         <source>dart mode</source>
         <translation>режим ривків</translation>
     </message>

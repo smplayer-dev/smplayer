@@ -1954,107 +1954,107 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>恢復(&amp;R)</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="758"/>
+        <location filename="../baseguiplus.cpp" line="764"/>
         <source>Information about connected screens</source>
         <translation>關於已連接螢幕的資訊</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="761"/>
+        <location filename="../baseguiplus.cpp" line="767"/>
         <source>Connected screens</source>
         <translation>已連接螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="764"/>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="770"/>
+        <location filename="../baseguiplus.cpp" line="812"/>
         <source>Number of screens: %1</source>
         <translation>螢幕數：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="769"/>
-        <location filename="../baseguiplus.cpp" line="807"/>
+        <location filename="../baseguiplus.cpp" line="775"/>
+        <location filename="../baseguiplus.cpp" line="813"/>
         <source>Primary screen: %1</source>
         <translation>主螢幕：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="777"/>
-        <location filename="../baseguiplus.cpp" line="811"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
+        <location filename="../baseguiplus.cpp" line="817"/>
         <source>Information for screen %1</source>
         <translation>螢幕 %1 的資訊</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="779"/>
-        <location filename="../baseguiplus.cpp" line="813"/>
+        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="819"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>可用形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="781"/>
+        <location filename="../baseguiplus.cpp" line="787"/>
         <source>Available size: %1 x %2</source>
         <translation>可用大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="788"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>可用虛擬形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="786"/>
+        <location filename="../baseguiplus.cpp" line="792"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>可用虛擬大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
+        <location filename="../baseguiplus.cpp" line="794"/>
         <source>Depth: %1 bits</source>
         <translation>深度：%1 位元</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="789"/>
-        <location filename="../baseguiplus.cpp" line="815"/>
+        <location filename="../baseguiplus.cpp" line="795"/>
+        <location filename="../baseguiplus.cpp" line="821"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="797"/>
         <source>Logical DPI: %1</source>
         <translation>邏輯 DPI：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="793"/>
+        <location filename="../baseguiplus.cpp" line="799"/>
         <source>Physical DPI: %1</source>
         <translation>實際 DPI：%1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="794"/>
+        <location filename="../baseguiplus.cpp" line="800"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>實際大小：%1 x %2 毫米</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="796"/>
+        <location filename="../baseguiplus.cpp" line="802"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>重新整理頻率：%1 赫茲</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="797"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Size: %1 x %2</source>
         <translation>大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="798"/>
+        <location filename="../baseguiplus.cpp" line="804"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>虛擬形狀：%1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="800"/>
+        <location filename="../baseguiplus.cpp" line="806"/>
         <source>Virtual size: %1 x %2</source>
         <translation>虛擬大小：%1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="853"/>
+        <location filename="../baseguiplus.cpp" line="859"/>
         <source>Primary screen</source>
         <translation>主螢幕</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="919"/>
+        <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
         <translation>SMPlayer 外接螢幕輸出</translation>
     </message>
@@ -2144,68 +2144,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="2990"/>
+        <location filename="../core.cpp" line="2983"/>
         <source>Brightness: %1</source>
         <translation>亮度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3006"/>
+        <location filename="../core.cpp" line="2999"/>
         <source>Contrast: %1</source>
         <translation>對比度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3021"/>
+        <location filename="../core.cpp" line="3014"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3036"/>
+        <location filename="../core.cpp" line="3029"/>
         <source>Hue: %1</source>
         <translation>色調: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3051"/>
+        <location filename="../core.cpp" line="3044"/>
         <source>Saturation: %1</source>
         <translation>飽和度: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3194"/>
+        <location filename="../core.cpp" line="3187"/>
         <source>Volume: %1</source>
         <translation>音量: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4061"/>
         <source>Zoom: %1</source>
         <translation>縮放: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3322"/>
-        <location filename="../core.cpp" line="3333"/>
+        <location filename="../core.cpp" line="3315"/>
+        <location filename="../core.cpp" line="3326"/>
         <source>Font scale: %1</source>
         <translation>字體縮放：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3909"/>
+        <location filename="../core.cpp" line="3902"/>
         <source>Aspect ratio: %1</source>
         <translation>長寬比：%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4294"/>
+        <location filename="../core.cpp" line="4287"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>正在更新字型快取，可能需要幾秒鐘時間......</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3247"/>
+        <location filename="../core.cpp" line="3240"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>字幕延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3265"/>
+        <location filename="../core.cpp" line="3258"/>
         <source>Audio delay: %1 ms</source>
         <translation>音訊延遲：%1 毫秒</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3105"/>
+        <location filename="../core.cpp" line="3098"/>
         <source>Speed: %1</source>
         <translation>速度：%1</translation>
     </message>
@@ -2220,42 +2220,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>無法找到該影片的網址</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
+        <location filename="../core.cpp" line="3403"/>
         <source>Subtitles on</source>
         <translation>開啟字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3412"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Subtitles off</source>
         <translation>關閉字幕</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3957"/>
+        <location filename="../core.cpp" line="3950"/>
         <source>Mouse wheel seeks now</source>
         <translation>滑鼠滾輪尋找</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3960"/>
+        <location filename="../core.cpp" line="3953"/>
         <source>Mouse wheel changes volume now</source>
         <translation>滑鼠滾輪更改音量</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3963"/>
+        <location filename="../core.cpp" line="3956"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>滑鼠滾輪更改縮放等級</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3966"/>
+        <location filename="../core.cpp" line="3959"/>
         <source>Mouse wheel changes speed now</source>
         <translation>滑鼠滾輪更改速度</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4270"/>
+        <location filename="../core.cpp" line="4263"/>
         <source>Screenshot saved as %1</source>
         <translation>螢幕截圖已儲存於 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4305"/>
+        <location filename="../core.cpp" line="4298"/>
         <source>Starting...</source>
         <translation>正在啟動...</translation>
     </message>
@@ -2270,17 +2270,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>無法擷取影像，因為沒有設定存放資料夾</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2657"/>
+        <location filename="../core.cpp" line="2650"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>標誌 &quot;A&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2674"/>
+        <location filename="../core.cpp" line="2667"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>標誌 &quot;B&quot; 已設定為 %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2689"/>
+        <location filename="../core.cpp" line="2682"/>
         <source>A-B markers cleared</source>
         <translation>A-B 標記清除</translation>
     </message>
@@ -5414,7 +5414,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="130"/>
-        <location filename="../prefgeneral.cpp" line="981"/>
+        <location filename="../prefgeneral.cpp" line="952"/>
         <source>General</source>
         <translation>一般</translation>
     </message>
@@ -5429,12 +5429,12 @@ Do you want to overwrite?</source>
         <translation>媒體設定</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Start videos in fullscreen</source>
         <translation>以全螢幕啟動視訊</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Disable screensaver</source>
         <translation>停用螢幕保護程式</translation>
     </message>
@@ -5474,108 +5474,108 @@ Do you want to overwrite?</source>
         <translation>%1 可執行檔 (&amp;E)：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="407"/>
-        <location filename="../prefgeneral.cpp" line="408"/>
+        <location filename="../prefgeneral.cpp" line="378"/>
+        <location filename="../prefgeneral.cpp" line="379"/>
         <source>Default</source>
         <translation>預設</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="984"/>
+        <location filename="../prefgeneral.cpp" line="955"/>
         <source>Multimedia engine</source>
         <translation>多媒體引擎</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="985"/>
+        <location filename="../prefgeneral.cpp" line="956"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>選取您想要使用的多媒體引擎，MPlayer 或 mpv。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="986"/>
+        <location filename="../prefgeneral.cpp" line="957"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>選項「其他」讓您可以手動選取執行檔路徑。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="989"/>
+        <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
         <translation>%1 可執行檔</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="961"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>您可以在這裡指定 SMPlayer 將要使用的 %1 可執行檔。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="989"/>
         <source>Screenshots folder</source>
         <translation>擷取的影像存放之資料夾</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>Template for screenshots</source>
         <translation>螢幕截圖範本</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1026"/>
+        <location filename="../prefgeneral.cpp" line="997"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>例如 %1 將會把螢幕截圖儲存為「moviename_0001.png」。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="998"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 指定不包含副檔名的影片檔案名稱，%2 補入 4 位數的 0。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1008"/>
         <source>Format for screenshots</source>
         <translation>螢幕截圖格式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>這個選項讓您可以選擇要用來儲存螢幕截圖的圖片檔格式。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1027"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>如果啟用此選項，SMPlayer 關閉後電腦會跟著關閉</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1033"/>
         <source>Video output driver</source>
         <translation>視訊輸出驅動程式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1063"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Select the video output driver.</source>
         <translation>選擇視訊輸出驅動程式。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1150"/>
+        <location filename="../prefgeneral.cpp" line="1121"/>
         <source>Audio output driver</source>
         <translation>音訊輸出驅動程式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Select the audio output driver.</source>
         <translation>選擇音訊輸出驅動程式。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="966"/>
         <source>Remember settings</source>
         <translation>記住設定</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1180"/>
         <source>Preferred audio language</source>
         <translation>偏好的音訊語言</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1219"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Preferred subtitle language</source>
         <translation>偏好的字幕語言</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Software video equalizer</source>
         <translation>軟體視訊等化器</translation>
     </message>
@@ -5585,78 +5585,78 @@ Do you want to overwrite?</source>
         <translation>其他...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="996"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>這個選項指定了要用於儲存螢幕截圖的檔案名稱範本。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>要觀看範本的完整列表請見這個連結：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1033"/>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>This option only works with mpv.</source>
         <translation>這個選項只與 mpv 一同運作。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>Shut down computer</source>
         <translation>關閉電腦</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>如果您的顯示卡或輸出驅動程式不支援視訊等化器，您可以勾選此項。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt;這個選項可能和一些影像輸出驅動程式不相容。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1113"/>
+        <location filename="../prefgeneral.cpp" line="1084"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>如果勾選這個選項，所有的視訊將一開始就使用全螢幕模式。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Global audio equalizer</source>
         <translation>總體音訊等化器</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>若勾選此項，所有媒體檔案將共享音訊等化器。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>如果未勾選，音訊等化器值會保存於各自的檔案，並且在之後要播放時，重新載入回來。 </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1167"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>請求播放頻道的數目。%1 會告訴解碼器將音訊如同指定的解碼到多的頻道。然後將會由解碼器來實現這個要求。這通常只在播放包含了 AC3 音訊的視訊（像是 DVD）時較重要。在這個例子中預設用 liba52 進行解碼，並正確的將音訊降混至請求數目的頻道。&lt;b&gt;注意&lt;/b&gt;：這個選項會被解編碼器（只有 AC3）、過濾器（環繞）及音訊輸出驅動程式（至少有 OSS）所使用。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1149"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>允許改變播放速度而不改變音調。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1157"/>
         <source>Software volume control</source>
         <translation>軟體音量控制</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1187"/>
+        <location filename="../prefgeneral.cpp" line="1158"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>勾選這個選項以使用軟體混音(不使用音效卡混音)。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Postprocessing quality</source>
         <translation>後處理品質</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>依照可用的 CPU 空閒時間，動態調整後期處理的程度。您指定的數字是變動程度的上限，通常可以使用較大的數字。</translation>
     </message>
@@ -5731,12 +5731,12 @@ Do you want to overwrite?</source>
         <translation>&amp;AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Direct rendering</source>
         <translation>直接算繪</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>Double buffering</source>
         <translation>雙重緩衝</translation>
     </message>
@@ -5751,7 +5751,7 @@ Do you want to overwrite?</source>
         <translation>雙重緩衝(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1073"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>雙重緩衝是將兩個畫格儲存在記憶體，顯示其中一個畫格並解碼另一個畫格。停用此項可能會對 OSD 造成負面影響，但通常能解決 OSD 閃爍問題。</translation>
     </message>
@@ -5766,12 +5766,12 @@ Do you want to overwrite?</source>
         <translation>預設音量標準化(&amp;N)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1021"/>
         <source>Close when finished</source>
         <translation>結束時關閉</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>如果勾選這個選項，當目前的檔案/播放清單播放完成後，主視窗將自動關閉。</translation>
     </message>
@@ -5801,67 +5801,67 @@ Do you want to overwrite?</source>
         <translation>最小化時暫停(&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1016"/>
         <source>Pause when minimized</source>
         <translation>最小化時暫停</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>Enable postprocessing by default</source>
         <translation>預設啟用後處理</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Max. Amplification</source>
         <translation>最大增幅</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1161"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS pass-through S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1168"/>
         <source>Volume normalization by default</source>
         <translation>預設音量標準化</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1198"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>在不失真的情況下將聲音最大化。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1137"/>
         <source>Channels by default</source>
         <translation>預設的頻道</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>以百分比形式設置最大擴音級別 (預設是：110)。數值200允許您調整的音量最高可達雙倍目前的水平。對於數值低於100的值，初始音量(為100％)會高於最大值，如OSD不能正確顯示。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1074"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>後處理將預設為被使用在新開啟的檔案上。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1229"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Audio track</source>
         <translation>曲目</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1201"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>指定播放新檔案時將要使用的預設音軌。如果該軌道不存在，將會使用第一個。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt; &lt;i&gt;「偏好的音訊語言」&lt;/i&gt; 將會蓋過此選項的設定。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Subtitle track</source>
         <translation>字幕軌</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1236"/>
+        <location filename="../prefgeneral.cpp" line="1207"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>指定播放新檔案時將要使用的預設字幕軌。如果該軌道不存在，將會使用第一個。&lt;br&gt;&lt;b&gt;注意：&lt;/b&gt; &lt;i&gt;「偏好的字幕語言」&lt;/i&gt; 將會蓋過此選項的設定。</translation>
     </message>
@@ -5903,7 +5903,7 @@ Do you want to overwrite?</source>
         <translation>在不改變音調下高速播放 (&amp;P)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1177"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>High speed playback without altering pitch</source>
         <translation>在不改變音調下高速播放</translation>
     </message>
@@ -5928,17 +5928,17 @@ Do you want to overwrite?</source>
         <translation>音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>Video</source>
         <translation>視訊</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1119"/>
         <source>Audio</source>
         <translation>音訊</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Preferred audio and subtitles</source>
         <translation>偏好的音訊和字幕</translation>
     </message>
@@ -5973,17 +5973,17 @@ Do you want to overwrite?</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Deinterlace by default</source>
         <translation>預設去交錯</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>選擇您想要用於新開啟影片的去交錯過濾器。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="971"/>
         <source>Remember time position</source>
         <translation>記住時間位置</translation>
     </message>
@@ -5993,12 +5993,12 @@ Do you want to overwrite?</source>
         <translation>記住時間位置(&amp;T)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1153"/>
+        <location filename="../prefgeneral.cpp" line="1124"/>
         <source>Enable the audio equalizer</source>
         <translation>啟用音訊等化器</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1125"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>如果您想使用音訊等化器，請勾選此選項。</translation>
     </message>
@@ -6008,12 +6008,12 @@ Do you want to overwrite?</source>
         <translation>啟用音訊等化器(&amp;E)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1077"/>
         <source>Draw video using slices</source>
         <translation>用切片方式繪製視訊</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>啟用／停用以 16 像素高的片／帶方式繪製視訊。如果停用了，所有畫面將會以整個畫面的方式一次繪製。可能會更快或更慢，這取決於視訊卡及可用的快取。它只對 libmpeg2 及 libavcodec 編解碼器有影響。</translation>
     </message>
@@ -6028,36 +6028,36 @@ Do you want to overwrite?</source>
         <translation>播放結束後關閉(&amp;C)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="415"/>
-        <location filename="../prefgeneral.cpp" line="422"/>
-        <location filename="../prefgeneral.cpp" line="448"/>
+        <location filename="../prefgeneral.cpp" line="386"/>
+        <location filename="../prefgeneral.cpp" line="393"/>
+        <location filename="../prefgeneral.cpp" line="419"/>
         <source>fast</source>
         <translation>快</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="416"/>
-        <location filename="../prefgeneral.cpp" line="444"/>
+        <location filename="../prefgeneral.cpp" line="387"/>
+        <location filename="../prefgeneral.cpp" line="415"/>
         <source>slow</source>
         <translation>慢</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="449"/>
+        <location filename="../prefgeneral.cpp" line="420"/>
         <source>fast - ATI cards</source>
         <translation>快 - ATI cards</translation>
     </message>
     <message>
+        <location filename="../prefgeneral.cpp" line="442"/>
         <location filename="../prefgeneral.cpp" line="471"/>
-        <location filename="../prefgeneral.cpp" line="500"/>
         <source>User defined...</source>
         <translation>使用者自訂的...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Default zoom</source>
         <translation>預設縮放影片</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>這個選項會設定預設縮放影片的大小，而它將被用於新開啟的影片。</translation>
     </message>
@@ -6067,34 +6067,34 @@ Do you want to overwrite?</source>
         <translation>預設縮放影片(&amp;Z)：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="992"/>
+        <location filename="../prefgeneral.cpp" line="963"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>如果這個設定是錯誤的，SMPlayer將無法播放任何東西！</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="996"/>
+        <location filename="../prefgeneral.cpp" line="967"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>通常 SMPlayer 會記得您播放的每個檔案設定 (音軌選擇，音量，過濾器...)。如果您不喜歡的話可以停用這個功能。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>如果啟用這個選項，在主視窗隱藏時，檔案會被暫停播放。當視窗被恢復時，播放將恢復。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>選擇此選項後，播放時將停用螢幕保護程式。&lt;br&gt;播放結束後螢幕保護程式會被再度啟用。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>您可以在這裡指定您偏好的音訊及字幕語言。若您播放的媒體有多種音訊或字幕串流，SMPlayer 會嘗試使用您偏好的語言。這個功能只對附帶語言資訊的媒體有效，像是 DVD 或 MKV 檔案。&lt;br&gt;
 &lt;br/&gt;
 此欄位接受正規表達式，例如填入 &lt;b&gt;es|esp|spa&lt;/b&gt; ，SMPlayer 便會選取符合 &lt;b&gt;es&lt;/b&gt;、&lt;b&gt;esp&lt;/b&gt; 或是 &lt;b&gt;spa&lt;/b&gt; 的軌道。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1220"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>您可以在這裡指定您偏好的音訊及字幕語言。若您播放的媒體有多種音訊或字幕串流，SMPlayer 會嘗試使用您偏好的語言。這個功能只對附帶語言資訊的媒體有效，像是 DVD 或 MKV 檔案。&lt;br&gt;
 &lt;br/&gt;
@@ -6107,12 +6107,12 @@ Do you want to overwrite?</source>
         <translation>輸出驅動程式(&amp;T)：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Add black borders on fullscreen</source>
         <translation>在全螢幕上加入黑色邊框</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1117"/>
+        <location filename="../prefgeneral.cpp" line="1088"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>如果啟用這個選項，在全螢幕模式下，黑色邊框將被加入到影像中。這將允許字幕顯示在黑色邊框上。</translation>
     </message>
@@ -6132,22 +6132,22 @@ Do you want to overwrite?</source>
         <translation>多個初始化檔案</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="976"/>
         <source>Method to store the file settings</source>
         <translation>存儲檔案設定的方法</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1006"/>
+        <location filename="../prefgeneral.cpp" line="977"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>您可以在這裡改變檔案設定的儲存方式，有以下兩種選項：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1008"/>
+        <location filename="../prefgeneral.cpp" line="979"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;單個初始化檔案&lt;/b&gt;：所有播放過的檔案，其設定都會保存在同一個初始化檔案 (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1012"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>後一種方法可能會較快，如果有大量檔案的資訊。</translation>
     </message>
@@ -6157,32 +6157,32 @@ Do you want to overwrite?</source>
         <translation>儲存設定在(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="981"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;多個初始化檔案&lt;/b&gt;：每個播放過的檔案都有各自的初始化檔案。所有的初始化檔案都會保存在資料夾中 %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1001"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>如果您勾選這個選項，當您再次使用 SMPlayer 開啟檔案，它會記得上一次播放的位置。這個選項僅適用於普通檔案 (不包括DVD，CD，網址...等)。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>勾選此項將會開啟直接算繪功能，但並非全部的解碼器和視訊輸出都支援。&lt;br&gt;&lt;b&gt;警告：&lt;/b&gt;可能導致視控調整功能毀損！</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="985"/>
         <source>Enable screenshots</source>
         <translation>啟用擷取影像功能</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>您可以使用該選項啟用或停用擷取影像的能力。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>在這裡，您可以指定一個 SMPlayer 擷取影像時儲存的資料夾。如果資料夾是無效的，擷取影像功能將無法使用。</translation>
     </message>
@@ -6202,17 +6202,17 @@ Do you want to overwrite?</source>
         <translation>存放資料夾(&amp;F)：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Global volume</source>
         <translation>總體音量</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1181"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>若勾選此項，所有您播放的檔案將使用相同的音量。若未勾選，每個檔案都將使用各自的音量。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option also applies for the mute control.</source>
         <translation>這個選項也適用於靜音控制。</translation>
     </message>
@@ -6222,22 +6222,22 @@ Do you want to overwrite?</source>
         <translation>總體音量(&amp;B)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Switch screensaver off</source>
         <translation>關閉螢幕保護程式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1098"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>這個選項會在播放影音之前關閉螢幕保護程式，播放結束之後再打開。如果啟用這個選項，即使播放的是純音訊檔，或者暫停播放（非完全停止），螢幕保護程式也不會出現。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>Avoid screensaver</source>
         <translation>避免使用螢幕保護程式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1105"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>這個選項會在播放視訊檔時關閉螢幕保護程式。播放純音訊檔案或暫停模式時，螢幕保護程式仍然可以啟動。SMPlayer 視窗必須在前景，此選項才會有效。</translation>
     </message>
@@ -6257,22 +6257,22 @@ Do you want to overwrite?</source>
         <translation>避免使用螢幕保護程式(&amp;S)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1200"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Audio/video auto synchronization</source>
         <translation>影音自動同步</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1201"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>基於音訊延遲檢測，逐步調整影音同步。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1204"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>A-V sync correction</source>
         <translation>影音同步修正</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>每個影格的最大影音同步校正(以秒為單位)</translation>
     </message>
@@ -6302,7 +6302,7 @@ Do you want to overwrite?</source>
         <translation>最大修正(&amp;M)：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;注意：&lt;/b&gt;這個選項將不會用於電視頻道上。</translation>
     </message>
@@ -6312,32 +6312,32 @@ Do you want to overwrite?</source>
         <translation>預設去交錯 (電視除外)：</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>使用硬體 AC3 passthrough。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1134"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;請注意：&lt;/b&gt; 勾選此項後，任何音訊過濾器都不會啟動。</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="423"/>
+        <location filename="../prefgeneral.cpp" line="394"/>
         <source>snap mode</source>
         <translation>捕捉模式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="424"/>
+        <location filename="../prefgeneral.cpp" line="395"/>
         <source>slower dive mode</source>
         <translation>慢速沉潛模式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="479"/>
+        <location filename="../prefgeneral.cpp" line="450"/>
         <source>uniaud mode</source>
         <translation>單一聽眾模式</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="480"/>
+        <location filename="../prefgeneral.cpp" line="451"/>
         <source>dart mode</source>
         <translation>飛鏢模式</translation>
     </message>
