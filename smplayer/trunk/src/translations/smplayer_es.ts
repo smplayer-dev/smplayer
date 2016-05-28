@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="es">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="es" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2353,10 +2351,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Contador de imágenes</translation>
     </message>
     <message>
-        <source>&amp;Codec info</source>
-        <translation type="obsolete">&amp;Información de codecs</translation>
-    </message>
-    <message>
         <location filename="../defaultgui.cpp" line="691"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Editar la &amp;barra de herramientas principal</translation>
@@ -2861,10 +2855,7 @@ Ejemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n subtítulo extraido</numerusform>
-            <numerusform>%n subtítulos extraidos</numerusform>
-        </translation>
+        <translation><numerusform>%n subtítulo extraido</numerusform><numerusform>%n subtítulos extraidos</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2962,7 +2953,7 @@ Ejemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>No se ha podido guardar el fichero descargado
@@ -7107,10 +7098,6 @@ Do you want to overwrite?</source>
         <translation>Para que entren en vigor los cambios de esta sección es necesario reiniciar SMPlayer</translation>
     </message>
     <message>
-        <source>Changes in this section requires to restart SMPlayer</source>
-        <translation type="obsolete">Cualquier cambio en esta sección requiere que se reinicie el SMPlayer</translation>
-    </message>
-    <message>
         <location filename="../prefinterface.ui" line="622"/>
         <source>TextLabel</source>
         <translation>TextLabel</translation>
@@ -9142,19 +9129,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
