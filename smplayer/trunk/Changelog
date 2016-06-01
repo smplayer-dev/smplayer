@@ -1,8 +1,44 @@
-Version 16.x:
+Version 16.6:
+
+(2016-05-27)
+ * Use the mplayer/mpv default video and audio output.
+
+(2016-05-25)
+ * Disable the global shortcuts when opening the preferences dialog.
+
+(2016-05-23)
+ * Add an option to display the format info in the status bar.
+
+(2016-05-17)
+ * Add a quick access menu.
+
+(2016-05-15)
+ * Don't use a border in the style of the tooltip. For some reason the
+   text is cut off with it.
+
+(2016-05-13)
+ * Add options in Preferences -> Interface to configure the high DPI
+   support.
+
+(2016-05-12)
+ * Possibility to display the section area in the preferences dialog in
+   icon mode.
+
+(2016-05-10)
+ * Add an option to set the cache to auto in Preferences -> Performance.
+ * Don't change the playlist to floating state when entering fullscreen,
+   if using Qt5 on linux. Seems to fix a problem when using Compiz.
+
+(2016-05-09)
+ * Increase the height of the audio equalizer.
+ * Set the OSD to Seek as default.
+ * Set the drag function to MoveWindow as default.
 
 (2016-05-08)
  * Change the default values for outline and shadow of the ASS style.
  * Use mpv as default if available.
+ * Remove the border of the tooltips. Otherwise, for some reason, the
+   text is not shown complete.
 
 (2016-05-06)
  * Use the style 'fusion' as default with Qt 5.
