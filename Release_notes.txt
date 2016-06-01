@@ -1,3 +1,34 @@
+Version 16.6
+
+ * Support for 2 in 1 computers with touch screens.
+   SMPlayer includes now a 'tablet mode', available in the menu Options.
+   When the option is turned on it makes some changes in the interface
+   so that it would be easier to control SMPlayer by touching the
+   screen.
+   When the user changes the tablet mode in the Windows 10 action
+   center, SMPlayer will detect it and ask if it should switch to the
+   SMPlayer's tablet mode as well.
+ * Option to send video to an external screen.
+   Now it's possible to send the video to a second screen connected to
+   the computer, while controlling the application in the computer's
+   screen.
+ * Support for high DPI screens.
+   On high DPI (dots per inch) screens SMPlayer looked very tiny. Now
+   the interface is automatically scaled so it looks correctly. There
+   are also settings in Preferences -> Interface -> High DPI where you
+   can adjust manually the scale factor or turn off this feature.
+ * Global shortcuts.
+   Now it's possible to use the media keys (play/pause, stop, volume+/-,
+   etc.) as global shortcuts. That means that those keys will work even
+   when SMPlayer is in the background. You can activate this option in
+   Preferences -> Keyboard and mouse.
+ * Settings are remembered for online streams too.
+   This means that, for example, SMPlayer can resume playback or set
+   bookmarks on YouTube videos or other online streams (as long as they
+   are seekable).
+ * SMPlayer is now built with Qt 5 by default.
+
+
 Version 16.4
 
  * The Windows installer now includes mpv as well.
