@@ -1,4 +1,4 @@
-all: amharic.po malay.po french.po hungarian.po basque.po danish.po simpchinese.po finnish.po norwegian.po hebrew.po russian.po persian.po croatian.po romanian.po portuguese.po czech.po arabic.po thai.po portuguesebrazil.po albanian.po dutch.po galician.po ukrainian.po serbian.po bulgarian.po slovak.po spanish.po indonesian.po italian.po tradchinese.po korean.po greek.po japanese.po german.po vietnamese.po catalan.po slovenian.po polish.po turkish.po 
+all: amharic.po malay.po french.po hungarian.po basque.po danish.po simpchinese.po finnish.po norwegian.po hebrew.po russian.po croatian.po romanian.po portuguese.po czech.po arabic.po thai.po portuguesebrazil.po albanian.po dutch.po galician.po ukrainian.po serbian.po bulgarian.po slovak.po spanish.po indonesian.po italian.po tradchinese.po korean.po farsi.po greek.po japanese.po german.po vietnamese.po catalan.po slovenian.po polish.po turkish.po 
 
 amharic.po: english.pot
 	msgmerge -F -U -N --backup=numbered amharic.po english.pot
@@ -32,9 +32,6 @@ hebrew.po: english.pot
 
 russian.po: english.pot
 	msgmerge -F -U -N --backup=numbered russian.po english.pot
-
-persian.po: english.pot
-	msgmerge -F -U -N --backup=numbered persian.po english.pot
 
 croatian.po: english.pot
 	msgmerge -F -U -N --backup=numbered croatian.po english.pot
@@ -92,6 +89,9 @@ tradchinese.po: english.pot
 
 korean.po: english.pot
 	msgmerge -F -U -N --backup=numbered korean.po english.pot
+
+farsi.po: english.pot
+	msgmerge -F -U -N --backup=numbered farsi.po english.pot
 
 greek.po: english.pot
 	msgmerge -F -U -N --backup=numbered greek.po english.pot

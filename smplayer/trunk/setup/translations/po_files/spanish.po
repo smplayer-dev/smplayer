@@ -338,6 +338,16 @@ msgstr "Existe una versión de 32 bits instalada. Debes desinstalarla primero."
 msgid "A 64-bit Windows operating system is required to install this software."
 msgstr "Se necesita un Windows de 64 bits para instalar este programa."
 
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"Sistema operativo no soportado.[:n:]SMPlayer ${SMPLAYER_VERSION} requiere al "
+"menos Windows Vista y podría no funcionar correctamente en este sistema.[:n:]"
+"¿Realmente quieres continuar con la instalación?"
+
 # OS_Not_Supported
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
@@ -371,34 +381,34 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# YTDL_DL_Failed
-#~ msgid "Failed to download Youtube-DL: '$R0'."
-#~ msgstr "No se ha podido descargar Youtube-DL: '$R0'."
-
-# YTDL_DL_Retry
-#~ msgid "YouTube-DL was not successfully installed. Retry?"
-#~ msgstr "YouTube-DL no se ha instalado correctamente. ¿Reintentar?"
-
-# MPV_Inst_Failed
-#~ msgid "Failed to install MPV."
-#~ msgstr "No se ha podido instalar MPV."
-
-# MPV_DL_Failed
-#~ msgid "Failed to download MPV: '$R0'."
-#~ msgstr "No se ha podido descargar MPV: '$R0'."
-
-# MPV_DL_Retry
-#~ msgid "MPV was not successfully installed. Retry?"
-#~ msgstr "MPV no se ha instalado correctamente. ¿Reintentar?"
-
-# MPV_DL_Msg
-#~ msgid "Downloading MPV..."
-#~ msgstr "Descargando MPV..."
+# Info_MPV_Backup
+#~ msgid "Backing up MPV..."
+#~ msgstr "Creando una copia de MPV..."
 
 # Info_MPV_Restore
 #~ msgid "Restoring MPV from previous installation..."
 #~ msgstr "Restaurando MPV desde una instalación anterior..."
 
-# Info_MPV_Backup
-#~ msgid "Backing up MPV..."
-#~ msgstr "Creando una copia de MPV..."
+# MPV_DL_Msg
+#~ msgid "Downloading MPV..."
+#~ msgstr "Descargando MPV..."
+
+# MPV_DL_Retry
+#~ msgid "MPV was not successfully installed. Retry?"
+#~ msgstr "MPV no se ha instalado correctamente. ¿Reintentar?"
+
+# MPV_DL_Failed
+#~ msgid "Failed to download MPV: '$R0'."
+#~ msgstr "No se ha podido descargar MPV: '$R0'."
+
+# MPV_Inst_Failed
+#~ msgid "Failed to install MPV."
+#~ msgstr "No se ha podido instalar MPV."
+
+# YTDL_DL_Retry
+#~ msgid "YouTube-DL was not successfully installed. Retry?"
+#~ msgstr "YouTube-DL no se ha instalado correctamente. ¿Reintentar?"
+
+# YTDL_DL_Failed
+#~ msgid "Failed to download Youtube-DL: '$R0'."
+#~ msgstr "No se ha podido descargar Youtube-DL: '$R0'."
