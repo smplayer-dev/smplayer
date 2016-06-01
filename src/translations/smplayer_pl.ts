@@ -2323,7 +2323,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>Informacje o f&amp;ormacie</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
