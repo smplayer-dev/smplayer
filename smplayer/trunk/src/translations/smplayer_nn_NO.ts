@@ -916,12 +916,12 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1784"/>
         <source>&amp;Previous line in subtitles</source>
-        <translation>&amp;Førre linje i undertekstar</translation>
+        <translation>&amp;Førre line i undertekstar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1786"/>
         <source>N&amp;ext line in subtitles</source>
-        <translation>N&amp;este linje i undertekstar</translation>
+        <translation>N&amp;este line i undertekstar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
@@ -1219,7 +1219,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Vel undertekstspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
@@ -4480,7 +4480,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../minigui.cpp" line="172"/>
         <source>Control bar</source>
-        <translation>Kontrollinje</translation>
+        <translation>Kontrolline</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="175"/>
@@ -4840,7 +4840,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"/>
+        <translation>Farge&amp;nykel:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4910,7 +4910,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
         <source>Colorkey</source>
-        <translation type="unfinished"/>
+        <translation>Fargenykel</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="501"/>
@@ -5010,7 +5010,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"/>
+        <translation>Autolagre %1 logg</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="580"/>
@@ -5040,7 +5040,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Køyr %1 i eige vindauge</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
@@ -5486,7 +5486,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
-        <translation type="unfinished"/>
+        <translation>%1 køyrbar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="961"/>
@@ -5939,7 +5939,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.cpp" line="158"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation>Lågpass5</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="159"/>
@@ -6689,7 +6689,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="86"/>
         <source>Next chapter</source>
-        <translation type="unfinished"/>
+        <translation>Neste kapittel</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
@@ -6936,7 +6936,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"/>
+        <translation>Systemspråk</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -6986,7 +6986,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="41"/>
         <source>Auto&amp;resize:</source>
-        <translation type="unfinished"/>
+        <translation>Auto&amp;skalering:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
@@ -7131,7 +7131,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"/>
+        <translation>Hovudvindauget kan automatisk skalerast. Vel det du føretrekkjer.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
@@ -7151,7 +7151,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Enkel GUI&lt;/b&gt; viser eit vanleg grensesnitt med verktøy- og kontrolline.</translation>
+        <translation>&lt;b&gt;Enkel GUI&lt;/b&gt; viser eit vanleg grensesnitt med verkty- og kontrolline.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
@@ -7211,7 +7211,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation>Om hovudvindauget kjem utanfor skjermen etter ei autoskalering, vil dette valet hindra det ved å midtstilla det.</translation>
+        <translation>Om hovudvindauget kjem utanfor skjermen etter ei autoskalering, vil dette valet hindra det ved å midtstilla vindauget.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
@@ -8775,7 +8775,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
         <source>Line spacing</source>
-        <translation>Linjeavstand</translation>
+        <translation>Lineavstand</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="445"/>
@@ -8999,12 +8999,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Avbryt</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9238,7 +9238,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Doner med PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
@@ -9345,7 +9345,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"/>
+        <translation>Status&amp;line</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
@@ -9834,7 +9834,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Lat att</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>

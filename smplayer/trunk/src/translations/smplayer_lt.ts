@@ -4429,7 +4429,7 @@ Norite perrašyti?</translation>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Išsaugoti</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
@@ -4753,7 +4753,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="1500"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+        <translation>Nepavyko ištrinti &quot;%1&quot;</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1505"/>
@@ -4763,7 +4763,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="1506"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"/>
+        <translation>Nepavyko iš failų sistemos ištrinti &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="340"/>

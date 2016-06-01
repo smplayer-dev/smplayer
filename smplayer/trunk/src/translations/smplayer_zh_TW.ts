@@ -2323,7 +2323,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>格式資訊(&amp;O)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
