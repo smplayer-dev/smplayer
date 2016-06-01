@@ -1264,7 +1264,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="2145"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Izbornik brzog pristupa</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2944"/>
@@ -2323,7 +2323,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>I&amp;nformacije formata</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -7095,7 +7095,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"/>
+        <translation>Kako bi se primijenile promjene u ovom odjeljku zahtijevaju ponovno pokretanje SMPlayera</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -9659,7 +9659,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Izbornik brzog pristupa</translation>
     </message>
 </context>
 <context>
