@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Anda mesti mendaftar masuk sebagai pentadb
 ${LangFileString} SMPlayer_Is_Running "Satu kejadian SMPlayer sedang berjalan. Sila keluar SMPlayer dan cuba lagi."
 
 ${LangFileString} OS_Not_Supported "Sistem pengoperasian tidak disokong.$\nSMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan baik pada sistem anda.$\nAnda pasti mahu teruskan pemasangan?"
-${LangFileString} OS_Not_Supported_VistaRequired "Sistem pengoperasian tidak disokong.$\nSMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows Vista dan tidak dapat berfungsi dengan baik pada sistem anda.$\nAnda pasti mahu teruskan pemasangan?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Sistem pengoperasian Windows 64-bit diperlukan untuk memasang perisian ini."
 ${LangFileString} Existing_32bitInst "Pemasangan 32-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 32-bit dahulu."
 ${LangFileString} Existing_64bitInst "Pemasangan 64-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 64-bit dahulu."

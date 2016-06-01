@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "このプログラムをインストール
 ${LangFileString} SMPlayer_Is_Running "SMPlayer のインスタンスが実行中です。SMPlayer を終了してやり直してください。"
 
 ${LangFileString} OS_Not_Supported "サポートされていないオペレーティング システムです。$\nSMPlayer ${SMPLAYER_VERSION} は Windows XP 以上を必要とし、お使いのシステムでは正常に動作しない可能性があります。$\n本当にインストールを続行しますか?"
-${LangFileString} OS_Not_Supported_VistaRequired "サポートされていないオペレーティング システムです。$\nSMPlayer ${SMPLAYER_VERSION} は Windows Vista 以上を必要とし、お使いのシステムでは正常に動作しない可能性があります。$\n本当にインストールを続行しますか?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "このソフトウェアをインストールするには 64 ビットの Windows オペレーティング システムが必要です。"
 ${LangFileString} Existing_32bitInst "32 ビットの SMPlayer が既にインストールされています。先に 32 ビットの SMPlayer をアンインストールする必要があります。"
 ${LangFileString} Existing_64bitInst "64 ビットの SMPlayer が既にインストールされています。先に 64 ビットの SMPlayer をアンインストールする必要があります。"

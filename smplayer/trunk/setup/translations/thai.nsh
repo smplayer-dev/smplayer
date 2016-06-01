@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "คุณต้องลงชื่อเ
 ${LangFileString} SMPlayer_Is_Running "มี SMPlayer กำลังรันอยู่ โปรดออกจาก SMPlayer แล้วลองอีกครั้ง"
 
 ${LangFileString} OS_Not_Supported "ไม่รองรับระบบปฏิบัติการ $\nSMPlayer ${SMPLAYER_VERSION} ต้องการอย่างน้อยคือ Windows XP และอาจจะทำงานได้ไม่ถูกต้องบนระบบของคุณ $\nคุณต้องการติดตั้งต่อไปหรือไม่?"
-${LangFileString} OS_Not_Supported_VistaRequired "ไม่รองรับระบบปฏิบัติการ $\nSMPlayer ${SMPLAYER_VERSION} ต้องการอย่างน้อยคือ Windows Vista และอาจจะทำงานได้ไม่ถูกต้องบนระบบของคุณ $\nคุณต้องการติดตั้งต่อไปหรือไม่?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "ต้องการระบบปฏิบัติการ 64-bit Windows เพื่อติดตั้งซอฟต์แวร์นี้"
 ${LangFileString} Existing_32bitInst "มีการติดตั้งแบบ 32-bit ของ SMPlayer อยู่แล้ว คุณต้องถอนการติดตั้งแบบ 32-bit SMPlayer ออกก่อน"
 ${LangFileString} Existing_64bitInst "มีการติดตั้ง 64-bit ของ SMPlayer อยู่แล้ว คุณต้องถอนการติดตั้งแบบ 64-bit SMPlayer ออกก่อน"

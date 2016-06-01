@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Θα πρέπει να συνδεθείτ�
 ${LangFileString} SMPlayer_Is_Running "Μια υπόσταση του SMPlayer εκτελείται. Παρακαλώ τερματίστε την και προσπαθήστε εκ νέου."
 
 ${LangFileString} OS_Not_Supported "Μη υποστηριζόμενο λειτουργικό σύστημα.$\nSMPlayer ${SMPLAYER_VERSION} απαιτεί τουλάχιστον Windows XP και ίσως να μην λειτουργεί σωστά στο σύστημά σας.$\nΘέλετε πραγματικά να συνεχίσετε την εγκατάσταση;"
-${LangFileString} OS_Not_Supported_VistaRequired "Μη υποστηριζόμενο λειτουργικό σύστημα.$\nSMPlayer ${SMPLAYER_VERSION} απαιτεί τουλάχιστον Windows Vista και ίσως να μην λειτουργεί σωστά στο σύστημά σας.$\nΘέλετε πραγματικά να συνεχίσετε την εγκατάσταση;"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Απαιτείται ένα λειτουργικό σύστημα Windows 64 bit ούτως ώστε να εγκαταστήσετε αυτό το λογισμικό."
 ${LangFileString} Existing_32bitInst "Υπάρχει ήδη μια εγκατάσταση 32-bit του SMPlayer. Πρέπει πρώτα να την απεγκαταστήσετε. "
 ${LangFileString} Existing_64bitInst "Υπάρχει ήδη μια εγκατάσταση 64-bit του SMPlayer. Πρέπει πρώτα να την απεγκαταστήσετε."
@@ -116,13 +116,13 @@ ${LangFileString} Info_MPV_Backup "Backing up mpv..."
 ${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Γίνεται λήψη του mpv..."
+${LangFileString} MPV_DL_Retry "Η εγκατάσταση του mpv απέτυχε. Να δοκιμάσω πάλι;"
+${LangFileString} MPV_DL_Failed "Απέτυχε η λήψη του mpv: «$R0»."
+${LangFileString} MPV_Inst_Failed "Απέτυχε η εγκατάσταση του mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Retry "Η εγκατάσταση του youtube-dl απέτυχε. Να δοκιμάσω πάλι;"
 ${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 
