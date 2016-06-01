@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "È necessario essere autenticati come ammi
 ${LangFileString} SMPlayer_Is_Running "Un'istanza di SMPlayer è in esecuzione. Esci da SMPlayer e riprova."
 
 ${LangFileString} OS_Not_Supported "Sistema operativo non supportato. $\nSmPlayer ${SMPLAYER_VERSION} richiede almeno Windows XP e potrebbe non funzionare correttamente su questo sistema. $\nSi vuole davvero proseguire con l'installazione?"
-${LangFileString} OS_Not_Supported_VistaRequired "Sistema operativo non supportato. $\nSmPlayer ${SMPLAYER_VERSION} richiede almeno Windows Vista e potrebbe non funzionare correttamente su questo sistema. $\nSi vuole davvero proseguire con l'installazione?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "È richiesto un sistema operativo Windows a 64-bit per installare questo software."
 ${LangFileString} Existing_32bitInst "Un'installazione a 32-bit di SMPlayer è già presente. Si deve prima disinstallare SMPlayer a 32-bit."
 ${LangFileString} Existing_64bitInst "Un'installazione a 64-bit di SMPlayer è già presente. Si deve prima disinstallare SMPlayer a 64-bit."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Per proseguire, scegli Disinstalla"
 ${LangFileString} Reinstall_Msg4 "Cambia le impostazioni di installazione"
 ${LangFileString} Reinstall_Msg5 "Rimuovi configurazione di SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Sei sicuro di voler ripristinare le impostazioni di SMPlayer? Questa azione non può essere annullata."
 
 ${LangFileString} Type_Reinstall "reinstalla"
 ${LangFileString} Type_Downgrade "retrocedi"
@@ -112,20 +112,20 @@ ${LangFileString} Info_RollBack "Rollback delle modifiche..."
 ${LangFileString} Info_Files_Extract "Estrazione file..."
 ${LangFileString} Info_SMTube_Backup "Copia di sicurezza di SMTube..."
 ${LangFileString} Info_SMTube_Restore "Ripristino di SMTube dall'installazione precedente..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Salvataggio mpv..."
+${LangFileString} Info_MPV_Restore "Ripristino mpv alla precedente installazione..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Scaricamento mpv..."
+${LangFileString} MPV_DL_Retry "mpv non è stato installato correttamente. Riprovare?"
+${LangFileString} MPV_DL_Failed "Impossibile scaricare mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Errore nell'installazione di mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl non è stato installato correttamente. Riprovare?"
+${LangFileString} YTDL_DL_Failed "Impossibile scaricare youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Verifica aggiornamenti per youtube-dl..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Pulizia cache fontconfig..."
+${LangFileString} Info_Cleaning_SMPlayer "Pulizia impostazioni SMPlayer..."

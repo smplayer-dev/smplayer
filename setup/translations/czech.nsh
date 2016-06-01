@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Instalaci tohoto programu je potřeba prov
 ${LangFileString} SMPlayer_Is_Running "Jeden SMPlayer je spuštěn. Ukončete, prosím, SMPlayer a zkuste to znovu."
 
 ${LangFileString} OS_Not_Supported "Nepodporovaný operační systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje nejméně Windows XP a nemusí pracovat správně na vašem systému.$\nOpravdu chce pokračovat v instalaci?"
-${LangFileString} OS_Not_Supported_VistaRequired "Nepodporovaný operační systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje nejméně Windows Vista a nemusí pracovat správně na vašem systému.$\nOpravdu chce pokračovat v instalaci?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Pro instalaci tohoto software je zapotřebí mít 64-bitový oprační systém Windows."
 ${LangFileString} Existing_32bitInst "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
 ${LangFileString} Existing_64bitInst "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."

@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Bạn phải đăng nhập tài khoản qu
 ${LangFileString} SMPlayer_Is_Running "Một tiến trình của SMPlayer đang chạy. Hãy thoát SMPlayer và thử lại."
 
 ${LangFileString} OS_Not_Supported "Hệ điều hành không được hỗ trợ.$\nSMPlayer ${SMPLAYER_VERSION} yêu cầu thấp nhất là Windows XP và có thể không hoạt động đúng cách trên hệ thống của bạn.$\nBạn thật sự muốn tiếp tục cài đặt?"
-${LangFileString} OS_Not_Supported_VistaRequired "Hệ điều hành không được hỗ trợ.$\nSMPlayer ${SMPLAYER_VERSION} yêu cầu thấp nhất là Windows Vista và có thể không hoạt động đúng cách trên hệ thống của bạn.$\nBạn thật sự muốn tiếp tục cài đặt?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Yêu cầu hệ điều hành Windows 64-bit để cài đặt phần mềm này."
 ${LangFileString} Existing_32bitInst "Bản cài đặt 32-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 32-bit của SMPlayer trước."
 ${LangFileString} Existing_64bitInst "Bản cài đặt 64-bit của SMPlayer đang tồn tại. Bạn phải gỡ bỏ bản 64-bit của SMPlayer trước."

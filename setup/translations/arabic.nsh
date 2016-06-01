@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "يجب أن تكون مسجّل الدخو
 ${LangFileString} SMPlayer_Is_Running "توجد نافذة مشتغلة لـ SMPlayer. رجاءاً اخرج من SMPlayer و حاول مرة أخرى."
 
 ${LangFileString} OS_Not_Supported "نظام تشغيلي غير مدعوم.$\nSMPlayer ${SMPLAYER_VERSION} يتطلب على الأقل ويندوز Windows XP و قد لا يعمل بصورة صحيحة على نظامك.$\nأتريد حقاً الإستمرار بالتثبيت؟"
-${LangFileString} OS_Not_Supported_VistaRequired "نظام تشغيلي غير مدعوم.$\nSMPlayer ${SMPLAYER_VERSION} يتطلب على الأقل ويندوز Windows Vista و قد لا يعمل بصورة صحيحة على نظامك.$\nأتريد حقاً الإستمرار بالتثبيت؟"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "يتطلب نظام تشغيل ويندوز Windows 64-بت لتثبيت هذا البرنامج."
 ${LangFileString} Existing_32bitInst "يوجد حاليا تثبيت 32-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 32-بت أولاً."
 ${LangFileString} Existing_64bitInst "يوجد حاليا تثبيت 64-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 64-بت أولاً."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "اضغط إزالة التثبيت عندم�
 ${LangFileString} Reinstall_Msg4 "غيِّر إعدادات التثبيت"
 ${LangFileString} Reinstall_Msg5 "صفِّر إعداداتي لـ SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "أأنت متأكد بأنك تريد تصفير إعدادات SMPlayer؟ لا يمكن التراجع عن هذا الإجراء."
 
 ${LangFileString} Type_Reinstall "أعِد التثبيت"
 ${LangFileString} Type_Downgrade "إنزال المرتبة"
@@ -112,20 +112,20 @@ ${LangFileString} Info_RollBack "عكس التغييرات..."
 ${LangFileString} Info_Files_Extract "استخراج الملفات..."
 ${LangFileString} Info_SMTube_Backup "الخزن الإحتياطي لـ SMTube..."
 ${LangFileString} Info_SMTube_Restore "استعادة SMTube من تثبيت سابق..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "يجري النسخ الاحتياطي لـ mpv..."
+${LangFileString} Info_MPV_Restore "تجري استعادة mpv من تثبيت سابق..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "تنزيل mpv..."
+${LangFileString} MPV_DL_Retry "لم يُثبَّت mpv بنجاح. إعادة المحاولة؟"
+${LangFileString} MPV_DL_Failed "فشل تنزيل mpv. '$R0'."
+${LangFileString} MPV_Inst_Failed "فشل تثبيت mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "لم تُبَّت مكتبة اليوتيوب youtube-dl بنجاح. إعادة المحاولة؟"
+${LangFileString} YTDL_DL_Failed "فشل تنزيل مكتبة اليوتيوب youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "التحري عن تحديثات مكتبة اليوتيوب youtube-dl..."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "تنظيف مخبئية إعدادات الخطوط ..."
+${LangFileString} Info_Cleaning_SMPlayer "تنظيف إعدادات SMPlayer..."

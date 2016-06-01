@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "U moet ingelogd zijn als beheerder tijdens
 ${LangFileString} SMPlayer_Is_Running "Een venster van SMPlayer is draaiende. Sluit SMPlayer en probeer het opnieuw."
 
 ${LangFileString} OS_Not_Supported "Niet-ondersteund besturingssysteem.$\nSMPlayer ${SMPLAYER_VERSION} vereist minimaal Windows XP en zal mogelijk niet juist werken op uw systeem.$\nWeet u zeker dat u de installatie wilt voortzetten?"
-${LangFileString} OS_Not_Supported_VistaRequired "Niet-ondersteund besturingssysteem.$\nSMPlayer ${SMPLAYER_VERSION} vereist minimaal Windows Vista en zal mogelijk niet juist werken op uw systeem.$\nWeet u zeker dat u de installatie wilt voortzetten?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "Een 64-bits-versie van Windows is benodigd om deze software te installeren."
 ${LangFileString} Existing_32bitInst "Een bestaande 32-bits-installatie van SMPlayer bestaat reeds. U moet deze eerst deïnstalleren."
 ${LangFileString} Existing_64bitInst "Een bestaande 64-bits-installatie van SMPlayer bestaat reeds. U moet deze eerst deïnstalleren."

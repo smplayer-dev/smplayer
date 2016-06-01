@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Morate biti prijavljeni kao administrator 
 ${LangFileString} SMPlayer_Is_Running "Primjerak SMPlayera je pokrenut. Zatvorite SMplayer i pokušajte ponovno."
 
 ${LangFileString} OS_Not_Supported "Nepodržan operativni sustav.$\nSMPlayer ${SMPLAYER_VERSION} zahtijeva minimum Windows XP i možda neće raditi ispravno na vašem sustavu.$\nSigurno želite nastaviti ovu instalaciju?"
-${LangFileString} OS_Not_Supported_VistaRequired "Nepodržan operativni sustav.$\nSMPlayer ${SMPLAYER_VERSION} zahtijeva minimum Windows Vista i možda neće raditi ispravno na vašem sustavu.$\nSigurno želite nastaviti ovu instalaciju?"
+${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
 ${LangFileString} Win64_Required "64-bitni Windows operativni sustav je potreban za instalaciju ovog softvera."
 ${LangFileString} Existing_32bitInst "Trenutno je instalirana 32-bitna instalacija SMPlayera. Najprije morate deinstalirati 32-bitni SMPlayer."
 ${LangFileString} Existing_64bitInst "Trenutno je instalirana 64-bitna instalacija SMPlayera. Najprije morate deinstalirati 64-bitni SMPlayer."
