@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-24 15:46+0000\n"
+"PO-Revision-Date: 2016-03-29 15:38+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/rvm/smplayer/language/da/)\n"
 "MIME-Version: 1.0\n"
