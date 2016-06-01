@@ -1,268 +1,89 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# Dimitrios Glentadakis <dglent@free.fr>, 2015
-# Γιάννης Ανθυμίδης, 2014,2016
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-04-29 12:51+0000\n"
-"Last-Translator: Γιάννης Ανθυμίδης\n"
-"Language-Team: Greek (http://www.transifex.com/rvm/smplayer/language/el/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: el\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "Το πρόγραμμα εγκατάστασης εκτελείται ήδη."
-
-# Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "Θα πρέπει να συνδεθείτε ως διαχειριστής κατά την εγκατάσταση του προγράμματος."
-
-# SMPlayer_Is_Running
-msgid ""
-"An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "Μια υπόσταση του SMPlayer εκτελείται. Παρακαλώ τερματίστε την και προσπαθήστε εκ νέου."
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr "Μη υποστηριζόμενο λειτουργικό σύστημα.[:n:]SMPlayer ${SMPLAYER_VERSION} απαιτεί τουλάχιστον Windows XP και ίσως να μην λειτουργεί σωστά στο σύστημά σας.[:n:]Θέλετε πραγματικά να συνεχίσετε την εγκατάσταση;"
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "Απαιτείται ένα λειτουργικό σύστημα Windows 64 bit ούτως ώστε να εγκαταστήσετε αυτό το λογισμικό."
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall "
-"32-bit SMPlayer first."
-msgstr "Υπάρχει ήδη μια εγκατάσταση 32-bit του SMPlayer. Πρέπει πρώτα να την απεγκαταστήσετε. "
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall "
-"64-bit SMPlayer first."
-msgstr "Υπάρχει ήδη μια εγκατάσταση 64-bit του SMPlayer. Πρέπει πρώτα να την απεγκαταστήσετε."
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) Εγκατάσταση"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMPlayer before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr ""
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "Συντομεύσεις"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "Μονάδες MPlayer"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "Μηχανή πολυμέσων"
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMPlayer (απαιτείται)"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "Ο SMPlayer, κοινές βιβλιοθήκες, και η τεκμηρίωση."
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "Επιφάνεια Εργασίας"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Δημιουργεί μια συντόμευση για τον SMPlayer στην επιφάνεια εργασίας."
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "Μενού «Έναρξη»"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "Δημιουργεί μια καταχώρηση στο Μενού «Έναρξη» για τον SMPlayer."
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "MPlayer (απαιτείται)"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "MPlayer· απαιτείται για αναπαραγωγή."
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr ""
-
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgid "Binary codecs are not supported in this version."
 msgstr ""
 
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
 msgstr ""
 
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
 msgstr ""
 
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "Θέματα Εικόνων"
-
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "Επιπλέον θέματα εικόνων για τον SMPlayer."
-
-# Section_Translations
-msgid "Languages"
-msgstr "Γλώσσες"
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "Αρχεία γλωσσών του SMPlayer για γλώσσες εκτός από τα Αγγλικά."
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr "Διαγράφει προτιμήσεις του SMPlayer που έχουν απομείνει από προηγούμενες εγκαταστάσεις."
-
-# MPlayer_Codec_Msg
-msgid ""
-"The binary codec packages add support for codecs that are not yet "
-"implemented natively, like newer RealVideo variants and a lot of uncommon "
-"formats.[:n:]Note that they are not necessary to play most common formats "
-"like DVDs, MPEG-1/2/4, etc."
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
 msgstr ""
 
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "Επιλέξτε Τύπο Εγκατάστασης"
-
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
 msgstr ""
 
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr "Η εγκατάσταση του youtube-dl απέτυχε. Να δοκιμάσω πάλι;"
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr "Απέτυχε η εγκατάσταση του mpv."
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr "Απέτυχε η λήψη του mpv: «$R0»."
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr "Η εγκατάσταση του mpv απέτυχε. Να δοκιμάσω πάλι;"
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr "Γίνεται λήψη του mpv..."
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
 msgstr ""
 
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
+# Info_MPV_Backup
+msgid "Backing up mpv..."
 msgstr ""
 
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
 msgstr ""
 
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "Απεγκατάσταση (αφαίρεση) της υπάρχουσας εγκατάστασης"
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
 msgstr ""
 
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "Αποσυμπίεση αρχείων..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
 msgstr ""
 
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
 msgstr ""
 
-# Reinstall_Msg4
-msgid "Change Installation Settings"
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "Διαγραφή συντομεύσεων..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Διαγραφή των κλειδιών του μητρώου..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "Διαγραφή αρχείων..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
 msgstr ""
 
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr ""
-
-# Remove_Settings_Confirmation
-msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be"
-" reversed."
-msgstr ""
-
-# Type_Reinstall
-msgid "reinstall"
-msgstr "επανεγκατάσταση"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "υποβάθμιση"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "αναβάθμιση"
-
-# StartBtn
-msgid "Start"
-msgstr "Έναρξη"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr ""
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr ""
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr ""
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr ""
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr ""
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr ""
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory "
-"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr ""
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
 msgstr ""
 
 # Application_Description
@@ -272,90 +93,287 @@ msgid ""
 "MPlayer filters, edl lists, and more."
 msgstr ""
 
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
 msgstr ""
 
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
 msgstr ""
 
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "Διαγραφή αρχείων..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr "Διαγραφή των κλειδιών του μητρώου..."
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "Διαγραφή συντομεύσεων..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
+"r:][:n:]Continue anyway (not recommended)?"
 msgstr ""
 
-# Info_RollBack
-msgid "Rolling back changes..."
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
 msgstr ""
 
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "Αποσυμπίεση αρχείων..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
 msgstr ""
 
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
 msgstr ""
 
-# Info_MPV_Backup
-msgid "Backing up mpv..."
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
 msgstr ""
 
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
 msgstr ""
 
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr "Γίνεται λήψη του mpv..."
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr "Η εγκατάσταση του mpv απέτυχε. Να δοκιμάσω πάλι;"
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr "Απέτυχε η λήψη του mpv: «$R0»."
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr "Απέτυχε η εγκατάσταση του mpv."
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr "Η εγκατάσταση του youtube-dl απέτυχε. Να δοκιμάσω πάλι;"
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
 msgstr ""
 
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
+# StartBtn
+msgid "Start"
+msgstr "Έναρξη"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "αναβάθμιση"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "υποβάθμιση"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "επανεγκατάσταση"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be "
+"reversed."
 msgstr ""
 
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
 msgstr ""
 
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr ""
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr ""
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr ""
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr ""
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "Απεγκατάσταση (αφαίρεση) της υπάρχουσας εγκατάστασης"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr ""
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr ""
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr ""
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr ""
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "Επιλέξτε Τύπο Εγκατάστασης"
+
+# MPlayer_Codec_Msg
+msgid ""
+"The binary codec packages add support for codecs that are not yet "
+"implemented natively, like newer RealVideo variants and a lot of uncommon "
+"formats.[:n:]Note that they are not necessary to play most common formats "
+"like DVDs, MPEG-1/2/4, etc."
+msgstr ""
+
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr ""
+"Διαγράφει προτιμήσεις του SMPlayer που έχουν απομείνει από προηγούμενες "
+"εγκαταστάσεις."
+
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "Αρχεία γλωσσών του SMPlayer για γλώσσες εκτός από τα Αγγλικά."
+
+# Section_Translations
+msgid "Languages"
+msgstr "Γλώσσες"
+
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "Επιπλέον θέματα εικόνων για τον SMPlayer."
+
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "Θέματα Εικόνων"
+
+# Section_MEncoder_Desc
+msgid ""
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
+msgstr ""
+
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
 msgstr ""
 
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
 msgstr ""
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr ""
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "MPlayer· απαιτείται για αναπαραγωγή."
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "MPlayer (απαιτείται)"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "Δημιουργεί μια καταχώρηση στο Μενού «Έναρξη» για τον SMPlayer."
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "Μενού «Έναρξη»"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "Δημιουργεί μια συντόμευση για τον SMPlayer στην επιφάνεια εργασίας."
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "Επιφάνεια Εργασίας"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "Ο SMPlayer, κοινές βιβλιοθήκες, και η τεκμηρίωση."
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMPlayer (απαιτείται)"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "Μηχανή πολυμέσων"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "Μονάδες MPlayer"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "Συντομεύσεις"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMPlayer before "
+"starting setup. This will make it possible to update relevant program files "
+"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
+msgstr ""
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) Εγκατάσταση"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
+"bit SMPlayer first."
+msgstr ""
+"Υπάρχει ήδη μια εγκατάσταση 64-bit του SMPlayer. Πρέπει πρώτα να την "
+"απεγκαταστήσετε."
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
+"bit SMPlayer first."
+msgstr ""
+"Υπάρχει ήδη μια εγκατάσταση 32-bit του SMPlayer. Πρέπει πρώτα να την "
+"απεγκαταστήσετε. "
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr ""
+"Απαιτείται ένα λειτουργικό σύστημα Windows 64 bit ούτως ώστε να "
+"εγκαταστήσετε αυτό το λογισμικό."
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"Μη υποστηριζόμενο λειτουργικό σύστημα.[:n:]SMPlayer ${SMPLAYER_VERSION} "
+"απαιτεί τουλάχιστον Windows XP και ίσως να μην λειτουργεί σωστά στο σύστημά "
+"σας.[:n:]Θέλετε πραγματικά να συνεχίσετε την εγκατάσταση;"
+
+# SMPlayer_Is_Running
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr ""
+"Μια υπόσταση του SMPlayer εκτελείται. Παρακαλώ τερματίστε την και "
+"προσπαθήστε εκ νέου."
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr ""
+"Θα πρέπει να συνδεθείτε ως διαχειριστής κατά την εγκατάσταση του "
+"προγράμματος."
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "Το πρόγραμμα εγκατάστασης εκτελείται ήδη."
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# Dimitrios Glentadakis <dglent@free.fr>, 2015
+# Γιάννης Ανθυμίδης, 2014,2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-04-29 12:51+0000\n"
+"Last-Translator: Γιάννης Ανθυμίδης\n"
+"Language-Team: Greek (http://www.transifex.com/rvm/smplayer/language/el/)\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"

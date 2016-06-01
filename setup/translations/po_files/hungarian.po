@@ -327,6 +327,13 @@ msgstr ""
 msgid "A 64-bit Windows operating system is required to install this software."
 msgstr ""
 
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+
 # OS_Not_Supported
 msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
