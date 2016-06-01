@@ -3487,7 +3487,9 @@ void Core::setAudioEq9(int value) {
 
 
 void Core::changeCurrentSec(double sec) {
-    mset.current_sec = sec;
+	//qDebug() << "Core::changeCurrentSec:" << sec << "starting_time:" << mset.starting_time;
+
+	mset.current_sec = sec;
 
 	if (mset.starting_time != -1) {
 		mset.current_sec -= mset.starting_time;
