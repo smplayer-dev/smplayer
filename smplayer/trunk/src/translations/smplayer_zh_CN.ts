@@ -265,7 +265,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>关闭(&amp;C)</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -938,7 +938,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1839"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>更新 YouTube 代码 (&amp;Y)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2169"/>
@@ -1033,7 +1033,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"/>
+        <translation>平板模式(&amp;a)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
@@ -1189,7 +1189,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2047"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>选择音轨</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
@@ -1219,7 +1219,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>选择字幕轨道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2081"/>
@@ -1229,7 +1229,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>选择第二字幕轨道</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -1264,7 +1264,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2145"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>快速访问菜单</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2944"/>
@@ -1357,17 +1357,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6124"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>系统已经切换为平板模式。需要将 SMPlayer 切换为平板模式吗？</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6126"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>系统已经退出了平板模式，SMPlayer也需要关闭平板模式吗？</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6130"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>记住我的选择，下次不再提醒</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4946"/>
@@ -1929,17 +1929,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="308"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>将视频发送到屏幕(&amp;v)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="310"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>已连接屏幕信息(&amp;s)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="313"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"/>
+        <translation>视频已发送到外部屏幕</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="319"/>
@@ -1954,56 +1954,56 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="764"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>已连接屏幕信息</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="767"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>已连接屏幕</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="770"/>
         <location filename="../baseguiplus.cpp" line="812"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>屏幕数: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="775"/>
         <location filename="../baseguiplus.cpp" line="813"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>主屏幕: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="783"/>
         <location filename="../baseguiplus.cpp" line="817"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>屏幕 %1 信息</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="785"/>
         <location filename="../baseguiplus.cpp" line="819"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>可用的分辨率：%1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="787"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>可用大小：%1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>可用的实际分辨率: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="792"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>可用虚拟大小：%1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="794"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>位深: %1 bit</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="795"/>
