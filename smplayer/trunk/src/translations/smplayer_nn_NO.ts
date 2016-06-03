@@ -1189,7 +1189,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2047"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Vel lydspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2062"/>
@@ -1229,7 +1229,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Vel sekundært undertekstspor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
@@ -1264,7 +1264,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="2145"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Snøgg tilgangsmeny</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2944"/>
@@ -1929,17 +1929,17 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="308"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>Send &amp;video til skjerm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="310"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>Informasjon om tilkopla &amp;skjermar</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="313"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"/>
+        <translation>Video is sendt til ein ekstern skjerm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="319"/>
@@ -2323,7 +2323,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>F&amp;ormat-info</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -2853,7 +2853,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n undertekst pakka ut</numerusform><numerusform>%n undertekstar pakka ut</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -5020,7 +5020,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="585"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"/>
+        <translation>Autolagra %1 loggfilnamn</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="586"/>
@@ -5050,12 +5050,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation>R&amp;apporter %1 krasj</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation>Skriv dei separert med mellomrom.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
@@ -5135,23 +5135,23 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"/>
+        <translation>Her kan du skriva val for %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation>Her kan du leggja til videofilter for %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"/>
+        <translation>Skriv dei separert med komma. Ikkje bruk mellomrom!</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation>Her kan du leggja til audiofilter for %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
@@ -5194,7 +5194,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="519"/>
         <source>&amp;Verbose</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Verbose</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="567"/>
@@ -10087,7 +10087,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation type="unfinished"/>
+        <translation>Legg til spele&amp;tid til miniatyrbilete</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
@@ -10097,12 +10097,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pakk ut rammer som</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"/>
+        <translation>Her skriv du inn DVD-eininga eller ei mappe med DVD-bilete.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
