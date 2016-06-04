@@ -64,11 +64,11 @@ msgstr "Відкочування змін..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr "Відновлення асоціацій файлів..."
+msgstr "Відновлення асоціяцій файлів..."
 
 # Info_Del_Shortcuts
 msgid "Deleting Shortcuts..."
-msgstr "Вилучення ярликів..."
+msgstr "Вилучення лейбів..."
 
 # Info_Del_Registry
 msgid "Deleting Registry Keys..."
@@ -246,12 +246,12 @@ msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
-"Супутня MPlayer програма, яку можна використовувати для кодування та "
+"Супутня MPlayer проґрама, яку можна використовувати для кодування та "
 "перетворення підтримуваних аудіо та відео потоків."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "Багатий можливостями форк MPlayer і MPlayer2"
+msgstr "Багате можливостями відгалуження(форк) MPlayer і MPlayer2"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -282,7 +282,7 @@ msgstr "Меню Пуск"
 
 # Section_DesktopShortcut_Desc
 msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "Створити ярлик SMPlayer на стільниці."
+msgstr "Створити лейбу SMPlayer на стільниці."
 
 # Section_DesktopShortcut
 msgid "Desktop"
@@ -306,7 +306,7 @@ msgstr "Компоненти MPlayer"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
-msgstr "Ярлик"
+msgstr "Лейба"
 
 # WelcomePage_Text
 msgid ""
@@ -350,6 +350,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Непідтримувана операційна система.[:n:]SMPlayer ${SMPLAYER_VERSION} потребує "
+"принаймні Windows Vista і може працювати неправильно на Вашій системі.[:n:]"
+"Ви справді бажаєте продовжити встановлення?"
 
 # OS_Not_Supported
 msgid ""
@@ -358,19 +361,19 @@ msgid ""
 "really want to continue with the installation?"
 msgstr ""
 "Непідтримувана версія операційної системи.[:n:]SMPlayer ${SMPLAYER_VERSION} "
-"потребує як мінімум Windows XP й може працювати неправильно на Вашій системі."
+"потребує щонайменш Windows XP й може працювати неправильно на Вашій системі."
 "[:n:]Ви справді бажаєте продовжити встановлення?"
 
 # SMPlayer_Is_Running
 msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 msgstr ""
-"Запущено екземпляр SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
+"Запущено примірник SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
 
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
 msgstr ""
 "Ви повинні увійти в систему в якості адміністратора під час встановлення "
-"цієї програми."
+"цієї проґрами."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -389,7 +392,7 @@ msgstr "Встановлювач вже запущений."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-26 17:27+0000\n"
+"PO-Revision-Date: 2016-06-03 14:36+0000\n"
 "Last-Translator: Микола Ткач <Stuartlittle1970@gmail.com>\n"
 "Language-Team: Ukrainian (http://www.transifex.com/rvm/smplayer/language/"
 "uk/)\n"

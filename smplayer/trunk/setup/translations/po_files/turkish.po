@@ -4,15 +4,15 @@ msgstr "İkili Kodekler bu sürüm için desteklenmiyor."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "SMPlayer ayarlarını temizleme..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Yazı türü yapılandırma önbelleğini temizleme"
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Youtube-dl için güncelleme kontrolü... "
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
@@ -156,6 +156,7 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"SMPlayer ayarlarını sıfırlamak istediğine emin misin? Bu eylem geri alınamaz."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -365,13 +366,14 @@ msgstr "Kurulum zaten çalışıyor."
 #
 # Translators:
 # Emre FIRAT <emrefirat93@gmail.com>, 2014-2015
+# mahmut özcan <mahmutozcan65@yahoo.com>, 2016
 # yakup <mutouk@yandex.ru>, 2014
 # yakup <mutouk@yandex.ru>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-23 16:04+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-06-03 10:51+0000\n"
+"Last-Translator: mahmut özcan <mahmutozcan65@yahoo.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/rvm/smplayer/language/tr/)\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
