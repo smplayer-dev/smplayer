@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "安裝此程式時，您必須先登入為
 ${LangFileString} SMPlayer_Is_Running "一個 SMPlayer 的執行個體正在運轉。請離開的SMPlayer，然後再試一次。"
 
 ${LangFileString} OS_Not_Supported "不支援的操作系統。$\nSMPlayer ${SMPLAYER_VERSION} 至少需要Windows XP，及可能無法在您的系統上正常運作。$\n您真的要繼續安裝嗎?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "不支援的作業系統。$\nSMPlayer ${SMPLAYER_VERSION} 需要至少使用 Windows Vista，不然可能無法在您的系統上正常運作。$\n您真的想要繼續安裝嗎？"
 ${LangFileString} Win64_Required "安裝此軟體，系統必須是64位元的 Windows。"
 ${LangFileString} Existing_32bitInst "一個現有的32位元已安裝 SMPlayer 存在。您必須先解除安裝32位元的 SMPlayer。"
 ${LangFileString} Existing_64bitInst "一個現有的64位元已安裝 SMPlayer 存在。您必須先解除安裝64位元的 SMPlayer。"

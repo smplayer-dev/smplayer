@@ -12,11 +12,11 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Встановлювач вже запущений."
-${LangFileString} Installer_No_Admin "Ви повинні увійти в систему в якості адміністратора під час встановлення цієї програми."
-${LangFileString} SMPlayer_Is_Running "Запущено екземпляр SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
+${LangFileString} Installer_No_Admin "Ви повинні увійти в систему в якості адміністратора під час встановлення цієї проґрами."
+${LangFileString} SMPlayer_Is_Running "Запущено примірник SMPlayer. Будь ласка, закрийте SMPlayer і спробуйте ще."
 
-${LangFileString} OS_Not_Supported "Непідтримувана версія операційної системи.$\nSMPlayer ${SMPLAYER_VERSION} потребує як мінімум Windows XP й може працювати неправильно на Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported "Непідтримувана версія операційної системи.$\nSMPlayer ${SMPLAYER_VERSION} потребує щонайменш Windows XP й може працювати неправильно на Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
+${LangFileString} OS_Not_Supported_VistaRequired "Непідтримувана операційна система.$\nSMPlayer ${SMPLAYER_VERSION} потребує принаймні Windows Vista і може працювати неправильно на Вашій системі.$\nВи справді бажаєте продовжити встановлення?"
 ${LangFileString} Win64_Required "64-розрядна операційна система Windows, необхідна для встановлення цього проґрамного забезпечення."
 ${LangFileString} Existing_32bitInst "Існує 32-бітове встановлення SMPlayer. Спочатку вилучіть 32-бітовий SMPlayer."
 ${LangFileString} Existing_64bitInst "Існує 64-бітове встановлення SMPlayer. Спочатку вилучіть 64-бітовий SMPlayer."
@@ -26,7 +26,7 @@ ${LangFileString} WelcomePage_Title "Встановлення $(^NameDA)"
 ${LangFileString} WelcomePage_Text "Майстер встановлення допоможе встановити $(^NameDA).$\r$\n$\r$\nПеред початком встановлення рекомендується закрити усі працюючі копії SMPlayer. Це дозволить оновити супутні проґрамні файли без перезавантаження комп’ютера.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
-${LangFileString} ShortcutGroupTitle "Ярлик"
+${LangFileString} ShortcutGroupTitle "Лейба"
 ${LangFileString} MPlayerGroupTitle "Компоненти MPlayer"
 ${LangFileString} MPlayerMPVGroupTitle "Рушій відтворення"
 
@@ -34,7 +34,7 @@ ${LangFileString} Section_SMPlayer "SMPlayer (обов'язково)"
 ${LangFileString} Section_SMPlayer_Desc "SMPlayer, спільні бібліотеки та документація."
 
 ${LangFileString} Section_DesktopShortcut "Стільниця"
-${LangFileString} Section_DesktopShortcut_Desc "Створити ярлик SMPlayer на стільниці."
+${LangFileString} Section_DesktopShortcut_Desc "Створити лейбу SMPlayer на стільниці."
 
 ${LangFileString} Section_StartMenu "Меню Пуск"
 ${LangFileString} Section_StartMenu_Desc "Створити запис для SMPlayer у Меню Пуск."
@@ -49,9 +49,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Бінарні кодеки не �
 ${LangFileString} Section_MPlayerCodecs_Desc "Додаткові кодеки для MPlayer. (Необхідне зєднання з Інтернетом для встановлення)"
 !endif
 
-${LangFileString} Section_MPV_Desc "Багатий можливостями форк MPlayer і MPlayer2"
+${LangFileString} Section_MPV_Desc "Багате можливостями відгалуження(форк) MPlayer і MPlayer2"
 
-${LangFileString} Section_MEncoder_Desc "Супутня MPlayer програма, яку можна використовувати для кодування та перетворення підтримуваних аудіо та відео потоків."
+${LangFileString} Section_MEncoder_Desc "Супутня MPlayer проґрама, яку можна використовувати для кодування та перетворення підтримуваних аудіо та відео потоків."
 
 ${LangFileString} Section_IconThemes "Теми піктограм"
 ${LangFileString} Section_IconThemes_Desc "Додаткові теми піктограм для SMPlayer."
@@ -106,8 +106,8 @@ ${LangFileString} Info_Codecs_Backup "Виконується резервне к
 ${LangFileString} Info_Codecs_Restore "Відновити кодеки з попереднього встановлення"
 ${LangFileString} Info_Del_Files "Видалення файлів..."
 ${LangFileString} Info_Del_Registry "Вилучення ключів реєстру..."
-${LangFileString} Info_Del_Shortcuts "Вилучення ярликів..."
-${LangFileString} Info_Rest_Assoc "Відновлення асоціацій файлів..."
+${LangFileString} Info_Del_Shortcuts "Вилучення лейбів..."
+${LangFileString} Info_Rest_Assoc "Відновлення асоціяцій файлів..."
 ${LangFileString} Info_RollBack "Відкочування змін..."
 ${LangFileString} Info_Files_Extract "Витягнення файлів..."
 ${LangFileString} Info_SMTube_Backup "Резервується SMTube..."
