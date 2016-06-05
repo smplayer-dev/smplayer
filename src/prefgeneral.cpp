@@ -214,8 +214,8 @@ void PrefGeneral::setData(Preferences * pref) {
 	setVO( pref->vo );
 	setAO( pref->ao );
 
-	setRememberSettings( !pref->dont_remember_media_settings );
-	setRememberTimePos( !pref->dont_remember_time_pos );
+	setRememberSettings( pref->remember_media_settings );
+	setRememberTimePos( pref->remember_time_pos );
 	setFileSettingsMethod( pref->file_settings_method );
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
@@ -298,11 +298,8 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->vo, VO());
 	TEST_AND_SET(pref->ao, AO());
 
-	bool dont_remember_ms = !rememberSettings();
-    TEST_AND_SET(pref->dont_remember_media_settings, dont_remember_ms);
-
-	bool dont_remember_time = !rememberTimePos();
-	TEST_AND_SET(pref->dont_remember_time_pos, dont_remember_time);
+	TEST_AND_SET(pref->remember_media_settings, rememberSettings());
+	TEST_AND_SET(pref->remember_time_pos, rememberTimePos());
 
 	if (pref->file_settings_method != fileSettingsMethod()) {
 		pref->file_settings_method = fileSettingsMethod();

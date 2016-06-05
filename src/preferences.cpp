@@ -111,8 +111,8 @@ void Preferences::reset() {
 	capture_directory = "";
 #endif
 
-	dont_remember_media_settings = false;
-	dont_remember_time_pos = false;
+	remember_media_settings = true;
+	remember_time_pos = true;
 
 	audio_lang = "";
 	subtitle_lang = "";
@@ -632,8 +632,8 @@ void Preferences::save() {
 	set->setValue("capture_directory", capture_directory);
 	#endif
 
-	set->setValue("dont_remember_media_settings", dont_remember_media_settings);
-	set->setValue("dont_remember_time_pos", dont_remember_time_pos);
+	set->setValue("remember_media_settings", remember_media_settings);
+	set->setValue("remember_time_pos", remember_time_pos);
 
 	set->setValue("audio_lang", audio_lang);
 	set->setValue("subtitle_lang", subtitle_lang);
@@ -1182,8 +1182,8 @@ void Preferences::load() {
 	capture_directory = set->value("capture_directory", capture_directory).toString();
 	#endif
 
-	dont_remember_media_settings = set->value("dont_remember_media_settings", dont_remember_media_settings).toBool();
-	dont_remember_time_pos = set->value("dont_remember_time_pos", dont_remember_time_pos).toBool();
+	remember_media_settings = set->value("remember_media_settings", remember_media_settings).toBool();
+	remember_time_pos = set->value("remember_time_pos", remember_time_pos).toBool();
 
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();

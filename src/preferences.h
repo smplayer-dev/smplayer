@@ -88,10 +88,9 @@ public:
 	QString capture_directory;
 #endif
 
-	// SMPlayer will remember all media settings for all videos.
-	// This options allow to disable it:
-	bool dont_remember_media_settings; 	// Will not remember anything
-	bool dont_remember_time_pos;		// Will not remember time pos
+	// Possibility to remember all media settings
+	bool remember_media_settings;
+	bool remember_time_pos;
 
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language
