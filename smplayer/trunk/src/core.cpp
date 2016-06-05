@@ -377,7 +377,7 @@ void Core::reload() {
 void Core::saveMediaInfo() {
 	qDebug("Core::saveMediaInfo");
 
-	if (pref->dont_remember_media_settings) {
+	if (!pref->remember_media_settings) {
 		qDebug("Core::saveMediaInfo: not saving settings, disabled by user");
 		return;
 	}
@@ -396,7 +396,7 @@ void Core::saveMediaInfo() {
 void Core::restoreSettingsForMedia(const QString & name, int type) {
 	qDebug() << "Core::restoreSettingsForMedia:" << name << "type:" << type;
 
-	if (!pref->dont_remember_media_settings) {
+	if (pref->remember_media_settings) {
 		file_settings->loadSettingsFor(name, type, mset, proc->player());
 		qDebug("Core::restoreSettingsForMedia: media settings read");
 
@@ -415,7 +415,7 @@ void Core::restoreSettingsForMedia(const QString & name, int type) {
 			changeAspectRatio(mset.aspect_ratio_id);
 		}
 
-		if (pref->dont_remember_time_pos) {
+		if (!pref->remember_time_pos) {
 			mset.current_sec = 0;
 			qDebug("Core::restoreSettingsForMedia: time pos reset to 0");
 		}
@@ -894,7 +894,7 @@ void Core::openTV(QString channel_id) {
 	// Set the default deinterlacer for TV
 	mset.current_deinterlacer = pref->initial_tv_deinterlace;
 
-	if (!pref->dont_remember_media_settings) {
+	if (pref->remember_media_settings) {
 		// Check if we already have info about this file
 		if (tv_settings->existSettingsFor(channel_id, mdat.type)) {
 			qDebug("Core::openTV: we have settings for this file!!!");
