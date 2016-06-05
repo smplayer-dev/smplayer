@@ -444,11 +444,9 @@ SectionGroup $(MPlayerMPVGroupTitle)
     Goto skip_ytdl
 
   YTDL:
-  NSISdl::download /TIMEOUT=30000 \
-  "http://yt-dl.org/latest/youtube-dl.exe" \
-  "$INSTDIR\mpv\youtube-dl.exe" /END
+  INetC::get /CONNECTTIMEOUT 30000 /POPUP "" "http://yt-dl.org/latest/youtube-dl.exe" "$INSTDIR\mpv\youtube-dl.exe" /END
   Pop $R0
-  StrCmp $R0 "success" +3 0
+  StrCmp $R0 "OK" +3 0
     DetailPrint $(YTDL_DL_Failed)
     MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY YTDL
 
