@@ -561,7 +561,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
         <source>&amp;Deinterlace</source>
-        <translation>&amp;Удаление &quot;гребёнки&quot;</translation>
+        <translation>&amp;Устранение чересстрочности</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1744"/>
@@ -1891,7 +1891,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1902"/>
         <source>Toggle deinterlacing</source>
-        <translation>Переключить режим удаления &quot;гребёнки&quot;</translation>
+        <translation>Переключить режим устранения чересстрочности</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2086"/>
@@ -5965,12 +5965,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1052"/>
         <source>Deinterlace by default</source>
-        <translation>Удаление &quot;гребёнки&quot; по умолчанию</translation>
+        <translation>Устранение чересстрочности по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1053"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Выберите фильтр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать по умолчанию для новых видеофайлов.</translation>
+        <translation>Выберите фильтр устранения чересстрочности, который вы хотите использовать по умолчанию для новых видеофайлов.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="971"/>
@@ -6295,7 +6295,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="471"/>
         <source>Dei&amp;nterlace by default (except for TV):</source>
-        <translation>&amp;Удаление &quot;гребёнки&quot; по умолчанию (кроме ТВ):</translation>
+        <translation>&amp;Устранение чересстрочности по умолчанию (кроме ТВ):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1133"/>
@@ -8897,12 +8897,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation>Удаление &quot;гребёнки&quot; по умолчанию для ТВ</translation>
+        <translation>Устранение чересстрочности по умолчанию для ТВ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation>Выберите фильтр деинтерлейсинга (удаление &quot;гребёнки&quot;), который вы хотите использовать для ТВ-каналов.</translation>
+        <translation>Выберите фильтр устранения чересстрочности, который вы хотите использовать для ТВ-каналов.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -8917,7 +8917,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation>&amp;Удаление &quot;гребёнки&quot; по умолчанию для ТВ:</translation>
+        <translation>&amp;Устранение чересстрочности по умолчанию для ТВ:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
