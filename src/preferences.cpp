@@ -113,6 +113,7 @@ void Preferences::reset() {
 
 	remember_media_settings = true;
 	remember_time_pos = true;
+	remember_stream_settings = true;
 
 	audio_lang = "";
 	subtitle_lang = "";
@@ -634,6 +635,7 @@ void Preferences::save() {
 
 	set->setValue("remember_media_settings", remember_media_settings);
 	set->setValue("remember_time_pos", remember_time_pos);
+	set->setValue("remember_stream_settings", remember_stream_settings);
 
 	set->setValue("audio_lang", audio_lang);
 	set->setValue("subtitle_lang", subtitle_lang);
@@ -1184,6 +1186,7 @@ void Preferences::load() {
 
 	remember_media_settings = set->value("remember_media_settings", remember_media_settings).toBool();
 	remember_time_pos = set->value("remember_time_pos", remember_time_pos).toBool();
+	remember_stream_settings = set->value("remember_stream_settings", remember_stream_settings).toBool();
 
 	audio_lang = set->value("audio_lang", audio_lang).toString();
 	subtitle_lang = set->value("subtitle_lang", subtitle_lang).toString();

@@ -91,6 +91,7 @@ public:
 	// Possibility to remember all media settings
 	bool remember_media_settings;
 	bool remember_time_pos;
+	bool remember_stream_settings;
 
 	QString audio_lang; 		// Preferred audio language
 	QString subtitle_lang;		// Preferred subtitle language

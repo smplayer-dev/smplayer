@@ -378,7 +378,12 @@ void Core::saveMediaInfo() {
 	qDebug("Core::saveMediaInfo");
 
 	if (!pref->remember_media_settings) {
-		qDebug("Core::saveMediaInfo: not saving settings, disabled by user");
+		qDebug("Core::saveMediaInfo: saving settings for files is disabled");
+		return;
+	}
+
+	if (mdat.type == TYPE_STREAM && !pref->remember_stream_settings) {
+		qDebug("Core::saveMediaInfo: saving settings for streams is disabled");
 		return;
 	}
 
@@ -396,31 +401,37 @@ void Core::saveMediaInfo() {
 void Core::restoreSettingsForMedia(const QString & name, int type) {
 	qDebug() << "Core::restoreSettingsForMedia:" << name << "type:" << type;
 
-	if (pref->remember_media_settings) {
-		file_settings->loadSettingsFor(name, type, mset, proc->player());
-		qDebug("Core::restoreSettingsForMedia: media settings read");
+	if (!pref->remember_media_settings) {
+		qDebug("Core::restoreSettingsForMedia: remember settings for files is disabled");
+		return;
+	}
 
-		// Resize the window and set the aspect as soon as possible
-		int saved_width = mset.win_width;
-		int saved_height = mset.win_height;
-		// 400x300 is the default size for win_width and win_height
-		// so we set them to 0 to avoid to resize the window on
-		// audio files
-		if ((saved_width == 400) && (saved_height == 300)) {
-			saved_width = 0;
-			saved_height = 0;
-		}
-		if ((saved_width > 0) && (saved_height > 0)) {
-			emit needResize(mset.win_width, mset.win_height);
-			changeAspectRatio(mset.aspect_ratio_id);
-		}
+	if (type == TYPE_STREAM && !pref->remember_stream_settings) {
+		qDebug("Core::restoreSettingsForMedia: remember settings for streams is disabled");
+		return;
+	}
 
-		if (!pref->remember_time_pos) {
-			mset.current_sec = 0;
-			qDebug("Core::restoreSettingsForMedia: time pos reset to 0");
-		}
-	} else {
-		qDebug("Core::restoreSettingsForMedia: media settings have not read because of preferences setting");
+	file_settings->loadSettingsFor(name, type, mset, proc->player());
+	qDebug("Core::restoreSettingsForMedia: media settings read");
+
+	// Resize the window and set the aspect as soon as possible
+	int saved_width = mset.win_width;
+	int saved_height = mset.win_height;
+	// 400x300 is the default size for win_width and win_height
+	// so we set them to 0 to avoid to resize the window on
+	// audio files
+	if ((saved_width == 400) && (saved_height == 300)) {
+		saved_width = 0;
+		saved_height = 0;
+	}
+	if ((saved_width > 0) && (saved_height > 0)) {
+		emit needResize(mset.win_width, mset.win_height);
+		changeAspectRatio(mset.aspect_ratio_id);
+	}
+
+	if (!pref->remember_time_pos) {
+		mset.current_sec = 0;
+		qDebug("Core::restoreSettingsForMedia: time pos reset to 0");
 	}
 }
 
