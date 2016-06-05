@@ -85,7 +85,7 @@
           </item>
           <item>
            <layout class="QGridLayout">
-            <item row="0" column="0" rowspan="2">
+            <item row="0" column="0" rowspan="3">
              <spacer>
               <property name="orientation">
                <enum>Qt::Horizontal</enum>
@@ -117,7 +117,7 @@
               </property>
              </widget>
             </item>
-            <item row="1" column="1">
+            <item row="2" column="1">
              <layout class="QHBoxLayout">
               <item>
                <widget class="QLabel" name="filesettings_method_label">
@@ -153,6 +153,16 @@
                </spacer>
               </item>
              </layout>
+            </item>
+            <item row="1" column="1">
+             <widget class="QCheckBox" name="remember_streams_check">
+              <property name="enabled">
+               <bool>false</bool>
+              </property>
+              <property name="text">
+               <string>Re&amp;member settings for streams</string>
+              </property>
+             </widget>
             </item>
            </layout>
           </item>
@@ -1313,6 +1323,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>mplayerbin_edit</tabstop>
   <tabstop>remember_all_check</tabstop>
   <tabstop>remember_time_check</tabstop>
+  <tabstop>remember_streams_check</tabstop>
   <tabstop>filesettings_method_combo</tabstop>
   <tabstop>use_screenshots_check</tabstop>
   <tabstop>screenshot_edit</tabstop>
@@ -1628,6 +1639,22 @@ For translators: don't translate this text, it will be replaced with another one
     <hint type="destinationlabel">
      <x>430</x>
      <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>remember_all_check</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>remember_streams_check</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>249</x>
+     <y>110</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>262</x>
+     <y>167</y>
     </hint>
    </hints>
   </connection>
