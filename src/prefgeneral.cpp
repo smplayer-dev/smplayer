@@ -216,6 +216,8 @@ void PrefGeneral::setData(Preferences * pref) {
 
 	setRememberSettings( pref->remember_media_settings );
 	setRememberTimePos( pref->remember_time_pos );
+	remember_streams_check->setChecked(pref->remember_stream_settings);
+
 	setFileSettingsMethod( pref->file_settings_method );
 	setAudioLang( pref->audio_lang );
 	setSubtitleLang( pref->subtitle_lang );
@@ -300,6 +302,8 @@ void PrefGeneral::getData(Preferences * pref) {
 
 	TEST_AND_SET(pref->remember_media_settings, rememberSettings());
 	TEST_AND_SET(pref->remember_time_pos, rememberTimePos());
+
+	pref->remember_stream_settings = remember_streams_check->isChecked();
 
 	if (pref->file_settings_method != fileSettingsMethod()) {
 		pref->file_settings_method = fileSettingsMethod();
@@ -969,6 +973,9 @@ void PrefGeneral::createHelp() {
 		tr("If you check this option, SMPlayer will remember the last position "
            "of the file when you open it again. This option works only with "
            "regular files (not with DVDs, CDs, URLs...).") );
+
+	setWhatsThis(remember_streams_check, tr("Remember settings for streams"),
+		tr("When this option is enabled the settings for online streams will be remembered as well."));
 
 	setWhatsThis(filesettings_method_combo, tr("Method to store the file settings"),
 		tr("This option allows to change the way the file settings would be "
