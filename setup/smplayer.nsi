@@ -56,6 +56,8 @@
   !define QT_WEBKIT_VERSION "5.6.1.0"
 !endif
 
+  !define STATUS_DLL_NOT_FOUND "-1073741515"
+
 ;--------------------------------
 ;General
 
@@ -125,6 +127,8 @@
   Var Qt_Core_Source_Version
   Var Qt_Core_Installed_Version
   Var Qt_WebKit_Installed_Version
+
+  Var YTDL_Exit_Code
 
 ;--------------------------------
 ;Interface Settings
@@ -438,17 +442,30 @@ SectionGroup $(MPlayerMPVGroupTitle)
   IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
     CopyFiles /SILENT "$PLUGINSDIR\youtube-dl.exe" "$INSTDIR\mpv"
 
-    DetailPrint $(YTDL_Update_Check)
+    ;DetailPrint $(YTDL_Update_Check)
     NsExec::ExecToLog '"$INSTDIR\mpv\youtube-dl.exe" -U'
 
-    Goto skip_ytdl
+    Goto check_ytdl
 
   YTDL:
   INetC::get /CONNECTTIMEOUT 30000 /POPUP "" "http://yt-dl.org/latest/youtube-dl.exe" "$INSTDIR\mpv\youtube-dl.exe" /END
   Pop $R0
   StrCmp $R0 "OK" +3 0
     DetailPrint $(YTDL_DL_Failed)
-    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY YTDL
+    MessageBox MB_RETRYCANCEL|MB_ICONEXCLAMATION $(YTDL_DL_Retry) /SD IDCANCEL IDRETRY YTDL IDCANCEL skip_ytdl
+
+  check_ytdl:
+    NsExec::Exec '"$INSTDIR\mpv\youtube-dl.exe" --version'
+    Pop $YTDL_Exit_Code
+
+    ${If} $YTDL_Exit_Code != "0"
+      DetailPrint "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+        ${If} $YTDL_Exit_Code == "${STATUS_DLL_NOT_FOUND}"
+          DetailPrint "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+        ${EndIf}
+
+      Sleep 5000
+    ${EndIf}
 
   skip_ytdl:
 
