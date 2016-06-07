@@ -32,6 +32,8 @@ ErrorDialog::ErrorDialog( QWidget* parent, Qt::WindowFlags f )
 	MyScroller::setScroller(log->viewport());
 #endif
 
+	text->setOpenExternalLinks(true);
+
 	icon->setText("");
 	icon->setPixmap( Images::icon("crash") );
 
