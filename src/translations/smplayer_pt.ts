@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2857,10 +2855,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2958,7 +2953,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro
@@ -5504,12 +5499,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Memorizar definições das emissões</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, as definições utilizadas para as emissões online serão memorizadas.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
@@ -5569,7 +5564,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="967"/>
         <source>Remember settings</source>
-        <translation>Lembrar definições</translation>
+        <translation>Memorizar definições</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1184"/>
@@ -5675,7 +5670,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>Lemb&amp;rar definições para todos os ficheiros (áudio, legendas...)</translation>
+        <translation>Memo&amp;rizar definições para todos os ficheiros (áudio, legendas...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1174"/>
@@ -5695,7 +5690,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Memorizar definições das emissões</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -5995,12 +5990,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="972"/>
         <source>Remember time position</source>
-        <translation>Lembrar posição temporal</translation>
+        <translation>Memorizar posição temporal</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="116"/>
         <source>Remember &amp;time position</source>
-        <translation>Lembrar posição &amp;temporal</translation>
+        <translation>Memorizar posição &amp;temporal</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -6084,7 +6079,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="968"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
-        <translation>Normalmente, o SMPlayer irá lembrar-se das definições para cada ficheiro que reproduza (áudio, posição, filtros...). Desative a opção se não gostar desta funcionalidade.</translation>
+        <translation>Normalmente, o SMPlayer irá memorizar as definições para cada ficheiro reproduzido (áudio, posição, filtros...). Desative a opção se não gostar desta funcionalidade.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1021"/>
@@ -6170,7 +6165,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="973"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation>Se ativar esta opção, o SMPlayer irá lembrar-se da posição temporal do ficheiro na próxima vez que for aberto. Esta opção só funciona com ficheiros normais (não com DVD, CD, URL...).</translation>
+        <translation>Se ativar esta opção, o SMPlayer irá memorizar a posição temporal do ficheiro reproduzido. Esta opção só funciona com ficheiros normais (não com DVD, CD, URL...).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1072"/>
@@ -7020,7 +7015,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
-        <translation>L&amp;embrar posição e tamanho</translation>
+        <translation>M&amp;emorizar posição e tamanho</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
@@ -7085,7 +7080,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
         <source>&amp;Remember last directory</source>
-        <translation>Lemb&amp;rar último diretório</translation>
+        <translation>Memo&amp;rizar último diretório</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
@@ -7155,7 +7150,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Remember position and size</source>
-        <translation>Lembrar posição e tamanho</translation>
+        <translation>Memorizar posição e tamanho</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
@@ -7392,7 +7387,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Remember last directory</source>
-        <translation>Lembrar último diretório</translation>
+        <translation>Memorizar último diretório</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="884"/>
@@ -9149,19 +9144,13 @@ Substituir?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -10137,7 +10126,7 @@ Substituir?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation>Lembrar pa&amp;sta utilizada para guardar a pré-visualização</translation>
+        <translation>Memorizar pa&amp;sta utilizada para guardar a pré-visualização</translation>
     </message>
 </context>
 <context>
