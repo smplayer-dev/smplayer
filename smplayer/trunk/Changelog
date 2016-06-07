@@ -1,7 +1,7 @@
 Version 16.6:
 
 (2016-06-05)
- * Add option "remember settings for streams" in Preferneces -> General.
+ * Add option "remember settings for streams" in Preferences -> General.
 
 (2016-05-27)
  * Use the mplayer/mpv default video and audio output.
