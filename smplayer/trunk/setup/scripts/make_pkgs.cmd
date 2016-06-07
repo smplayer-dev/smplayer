@@ -416,7 +416,7 @@ goto end
 
 :end
 
-pause
+timeout /t 10
 
 :superend
 set ALL_PKG_VER=
