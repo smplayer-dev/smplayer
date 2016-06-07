@@ -169,16 +169,16 @@ xcopy "%SMPLAYER_SKINS_DIR%\themes\%%b\main.css" "%OUTPUT_DIR%\themes\%%b\"
 echo.
 echo --           MPlayer           --
 echo.
-for /f %%i in ("%MPLAYER_DIR%") do set MPLAYER_DIR=%%~fi
-mklink /D "%OUTPUT_DIR%\mplayer" "%MPLAYER_DIR%"
-REM xcopy "%MPLAYER_DIR%" "%OUTPUT_DIR%\mplayer\" /E
+REM for /f %%i in ("%MPLAYER_DIR%") do set MPLAYER_DIR=%%~fi
+REM mklink /D "%OUTPUT_DIR%\mplayer" "%MPLAYER_DIR%"
+xcopy "%MPLAYER_DIR%" "%OUTPUT_DIR%\mplayer\" /E
 
 echo.
 echo --           MPV           --
 echo.
-for /f %%i in ("%MPV_DIR%") do set MPV_DIR=%%~fi
-mklink /D "%OUTPUT_DIR%\mpv" "%MPV_DIR%"
-REM xcopy "%MPV_DIR%" "%OUTPUT_DIR%\mpv\" /E
+REM for /f %%i in ("%MPV_DIR%") do set MPV_DIR=%%~fi
+REM mklink /D "%OUTPUT_DIR%\mpv" "%MPV_DIR%"
+xcopy "%MPV_DIR%" "%OUTPUT_DIR%\mpv\" /E
 
 echo.
 
