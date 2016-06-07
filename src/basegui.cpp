@@ -5871,11 +5871,30 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 	if (exit_code != 255 ) {
 		ErrorDialog d(this);
 		d.setWindowTitle(tr("%1 Error").arg(PLAYER_NAME));
-		d.setText(tr("%1 has finished unexpectedly.").arg(PLAYER_NAME) + " " + 
-	              tr("Exit code: %1").arg(exit_code));
-#ifdef LOG_MPLAYER
+		QString text = tr("%1 has finished unexpectedly.").arg(PLAYER_NAME) + " " + 
+					   tr("Exit code: %1").arg(exit_code);
+		
+		#if defined(Q_OS_WIN) && defined(LOG_MPLAYER)
+		// FIXME: newer versions of mpv don't show this message, so it would be necessary to try to run
+		// youtube-dl to be sure that it fails to run
+		if (mplayer_log.contains("youtube-dl not found, not executable, or broken")) {
+			QString ytdl_bin = QFileInfo(pref->mplayer_bin).absolutePath() +"/youtube-dl.exe";
+			bool exists_ytdl = QFile::exists(ytdl_bin);
+			qDebug() << "BaseGui::showExitCodeFromMplayer: check if" << ytdl_bin << "exists:" << exists_ytdl;
+			if (exists_ytdl) {
+				text += "<br><br>" + tr("The component youtube-dl failed to run.") +" "+
+						tr("Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.") +
+						"<br><a href=\"https://www.microsoft.com/en-US/download/details.aspx?id=5555\">" +
+						tr("Click here to get it") + "</a>.";
+			}
+		}
+		#endif
+		
+		d.setText(text);
+		
+		#ifdef LOG_MPLAYER
 		d.setLog( mplayer_log );
-#endif
+		#endif
 		d.exec();
 	} 
 }
