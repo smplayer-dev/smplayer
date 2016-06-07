@@ -1606,13 +1606,15 @@ void BaseGui::enableActionsOnPlaying() {
 
 
 #ifdef BOOKMARKS
-	if (!pref->remember_media_settings || (core->mdat.type != TYPE_FILE && core->mdat.type != TYPE_STREAM)) {
-		addBookmarkAct->setEnabled(false);
-		editBookmarksAct->setEnabled(false);
-	} else {
-		addBookmarkAct->setEnabled(true);
-		editBookmarksAct->setEnabled(true);
-	}
+	bool bookmarks_enabled = true;
+	if (!pref->remember_media_settings) bookmarks_enabled = false;
+	else
+	if (core->mdat.type == TYPE_STREAM && !pref->remember_stream_settings) bookmarks_enabled = false;
+	else
+	if (core->mdat.type != TYPE_FILE && core->mdat.type != TYPE_STREAM) bookmarks_enabled = false;
+
+	addBookmarkAct->setEnabled(bookmarks_enabled);
+	editBookmarksAct->setEnabled(bookmarks_enabled);
 #endif
 }
 
