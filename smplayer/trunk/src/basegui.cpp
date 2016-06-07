@@ -5875,18 +5875,31 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 					   tr("Exit code: %1").arg(exit_code);
 		
 		#if defined(Q_OS_WIN) && defined(LOG_MPLAYER)
-		// FIXME: newer versions of mpv don't show this message, so it would be necessary to try to run
-		// youtube-dl to be sure that it fails to run
+		bool ytdl_fails = false;
+		
+		QString ytdl_bin = QFileInfo(pref->mplayer_bin).absolutePath() +"/youtube-dl.exe";
+		qDebug() << "BaseGui::showExitCodeFromMplayer: youtube-dl path:" << ytdl_bin;
+		
+		#if 0
+		// Newer versions of mpv display this message
+		if (mplayer_log.contains("youtube-dl failed")) {
+			int code = QProcess::execute(ytdl_bin, QStringList() << "--version");
+			qDebug() << "BaseGui::showExitCodeFromMplayer: youtube-dl exit code:" << code;
+			if (code == -1) ytdl_fails = true;
+		}
+		else
+		#endif
 		if (mplayer_log.contains("youtube-dl not found, not executable, or broken")) {
-			QString ytdl_bin = QFileInfo(pref->mplayer_bin).absolutePath() +"/youtube-dl.exe";
 			bool exists_ytdl = QFile::exists(ytdl_bin);
 			qDebug() << "BaseGui::showExitCodeFromMplayer: check if" << ytdl_bin << "exists:" << exists_ytdl;
-			if (exists_ytdl) {
-				text += "<br><br>" + tr("The component youtube-dl failed to run.") +" "+
-						tr("Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.") +
-						"<br><a href=\"https://www.microsoft.com/en-US/download/details.aspx?id=5555\">" +
-						tr("Click here to get it") + "</a>.";
-			}
+			if (exists_ytdl) ytdl_fails = true;
+		}
+		
+		if (ytdl_fails) {
+			text += "<br><br>" + tr("The component youtube-dl failed to run.") +" "+
+					tr("Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.") +
+					"<br><a href=\"https://www.microsoft.com/en-US/download/details.aspx?id=5555\">" +
+					tr("Click here to get it") + "</a>.";
 		}
 		#endif
 		
