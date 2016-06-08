@@ -1323,17 +1323,17 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="5899"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Die Komponente youtube-dl konnte nicht gestartet werden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5900"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Installation des Microsoft Visual C++ 2010 Redistributable Package (x86) könnte das Problem beheben.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5902"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Klicken Sie hier, um es zu erhalten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5927"/>
@@ -5520,12 +5520,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen für Streams merken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiv ist, werden die Einstellungen für Online-Streams ebenfalls gemerkt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
@@ -5711,7 +5711,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Einstellungen für Streams &amp;merken</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>

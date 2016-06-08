@@ -1323,17 +1323,17 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="5899"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube-dl osagaiak huts egin du abiatzean.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5900"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) ezartzeak arazo zuzen du dezake.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5902"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Klikatu hemen lortzeko</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5927"/>

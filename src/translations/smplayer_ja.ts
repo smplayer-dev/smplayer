@@ -1323,17 +1323,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5899"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>コンポーネント youtube-dl の実行に失敗しました。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5900"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Microsoft Visual C++ 2010 再頒布可能パッケージ (x86) のインストールで問題を解決できるかもしれません。</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5902"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>取得するにはここをクリックします</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5927"/>
