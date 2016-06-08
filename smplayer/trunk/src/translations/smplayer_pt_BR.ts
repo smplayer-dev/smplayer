@@ -1323,17 +1323,17 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
     <message>
         <location filename="../basegui.cpp" line="5899"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Falha na execução do youtube-dl.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5900"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>A instalação do Microsoft Visual C++ 2010 Redistributable Package (x86) deve resolver o problema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5902"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Clique aqui para obtê-lo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5927"/>
