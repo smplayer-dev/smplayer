@@ -42,7 +42,11 @@ HDPISupport * HDPISupport::instance() {
 }
 
 HDPISupport::HDPISupport(const QString & config_path)
+#ifdef Q_OS_WIN
 	: enabled(true)
+#else
+	: enabled(false)
+#endif
 	, auto_scale(true)
 	, scale_factor(1)
 	, pixel_ratio(2)
