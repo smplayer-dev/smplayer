@@ -129,16 +129,6 @@ MplayerLayer::MplayerLayer(QWidget* parent, Qt::WindowFlags f)
 #endif
 	, playing(false)
 {
-#ifndef Q_OS_WIN
-	#if QT_VERSION < 0x050000
-	setAttribute(Qt::WA_OpaquePaintEvent);
-	#if QT_VERSION >= 0x040400
-	setAttribute(Qt::WA_NativeWindow);
-	#endif
-	setAttribute(Qt::WA_PaintUnclipped);
-	//setAttribute(Qt::WA_PaintOnScreen);
-	#endif
-#endif
 }
 
 MplayerLayer::~MplayerLayer() {
@@ -149,25 +139,15 @@ void MplayerLayer::setRepaintBackground(bool b) {
 	qDebug("MplayerLayer::setRepaintBackground: %d", b);
 	repaint_background = b;
 }
-
-void MplayerLayer::paintEvent( QPaintEvent * e ) {
-	//qDebug("MplayerLayer::paintEvent: repaint_background: %d", repaint_background);
-	if (repaint_background || !playing) {
-		//qDebug("MplayerLayer::paintEvent: painting");
-		QPainter painter(this);
-		painter.eraseRect( e->rect() );
-		//painter.fillRect( e->rect(), QColor(255,0,0) );
-	}
-}
 #endif
 
 void MplayerLayer::playingStarted() {
 	qDebug("MplayerLayer::playingStarted");
-	repaint();
+//	repaint();
 	playing = true;
 
 #ifndef Q_OS_WIN
-	setAttribute(Qt::WA_PaintOnScreen);
+	if (!repaint_background) setUpdatesEnabled(false);
 #endif
 
 	Screen::playingStarted();
@@ -178,10 +158,10 @@ void MplayerLayer::playingStopped() {
 	playing = false;
 
 #ifndef Q_OS_WIN
-	setAttribute(Qt::WA_PaintOnScreen, false);
+	setUpdatesEnabled(true);
 #endif
 
-	repaint();
+//	repaint();
 	Screen::playingStopped();
 }
 
