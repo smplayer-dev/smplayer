@@ -275,6 +275,12 @@ void MplayerWindow::retranslateStrings() {
 }
 
 void MplayerWindow::setLogoVisible( bool b) {
+	qDebug() << "MplayerWindow::setLogoVisible:" << b;
+
+#if REPAINT_BACKGROUND_OPTION
+	if (b) mplayerlayer->setUpdatesEnabled(true);
+#endif
+
 	if (corner_widget) {
 		corner_widget->setVisible(b);
 	}
