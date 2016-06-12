@@ -107,15 +107,10 @@ public:
 
 public slots:
 	//! Should be called when a file has started. 
-    /*! It's needed to know if the background has to be cleared or not. */
+	/*! It's needed to know if the background has to be cleared or not. */
 	virtual void playingStarted();
 	//! Should be called when a file has stopped.
 	virtual void playingStopped();
-
-#if REPAINT_BACKGROUND_OPTION
-protected:
-	virtual void paintEvent ( QPaintEvent * e );
-#endif
 
 private:
 #if REPAINT_BACKGROUND_OPTION
