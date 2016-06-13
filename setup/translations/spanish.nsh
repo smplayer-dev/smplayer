@@ -125,6 +125,12 @@ ${LangFileString} MPV_Inst_Failed "No se ha podido instalar mpv."
 ${LangFileString} YTDL_DL_Retry "youTube-dl no se ha instalado correctamente. ¿Reintentar?"
 ${LangFileString} YTDL_DL_Failed "No se ha podido descargar youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Comprobando actualizaciones de youtube-dl..."
+${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+
+; SMTube
+${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Borrando la caché de fontconfig..."
