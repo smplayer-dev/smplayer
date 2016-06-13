@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="eu">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="eu" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2651,7 +2649,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
         <source>&amp;Options:</source>
-        <translation>A&amp;ukerak:</translation>
+        <translation>Au&amp;kerak:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="347"/>
@@ -2872,10 +2870,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n azpidatzi aterata</numerusform>
-            <numerusform>%n azpidatzi aterata</numerusform>
-        </translation>
+        <translation><numerusform>%n azpidatzi aterata</numerusform><numerusform>%n azpidatzi aterata</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2973,7 +2968,7 @@ Adibidez: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ezin izan da jeitsitako agiria
@@ -4868,12 +4863,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
         <source>&amp;Options:</source>
-        <translation>A&amp;ukerak:</translation>
+        <translation>Au&amp;kerak:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="337"/>
         <source>V&amp;ideo filters:</source>
-        <translation>&amp;Bideo iragazkiak:</translation>
+        <translation>Bi&amp;deo iragazkiak:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="546"/>
@@ -5003,7 +4998,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="475"/>
         <source>Lo&amp;gs</source>
-        <translation>&amp;Oharrak</translation>
+        <translation>O&amp;harrak</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -5098,7 +5093,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation>Pa&amp;satu %1 aukera MPlayer-i (segurtasun arriskua)</translation>
+        <translation>&amp;Pasatu %1 aukera MPlayer-i (segurtasun arriskua)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -5212,12 +5207,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
         <source>C&amp;orrect PTS:</source>
-        <translation>PTS zu&amp;zena:</translation>
+        <translation>&amp;PTS zu&amp;zena:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="519"/>
         <source>&amp;Verbose</source>
-        <translation>&amp;Hitzjarioa</translation>
+        <translation>Hi&amp;tzjarioa</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="567"/>
@@ -5433,7 +5428,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="27"/>
         <source>&amp;General</source>
-        <translation>&amp;Orokorra</translation>
+        <translation>Oro&amp;korra</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="76"/>
@@ -5705,12 +5700,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>Multimedia &amp;gailua</translation>
+        <translation>&amp;Multimedia gailua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation>G&amp;ogoratu ezarpenak jarioentzat</translation>
+        <translation>Gogoratu ezarpenak &amp;jarioentzat</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -5725,7 +5720,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>S&amp;hut down computer</source>
-        <translation>Itzali &amp;ordenagailua</translation>
+        <translation>&amp;Itzali ordenagailua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="613"/>
@@ -5740,7 +5735,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="761"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation>A&amp;udio ekualizagailu orokorra</translation>
+        <translation>&amp;Audio ekualizagailu orokorra</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="880"/>
@@ -5755,7 +5750,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="770"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation>&amp;AC3/DTS S/PDIF bidez</translation>
+        <translation>AC3/DTS S/&amp;PDIF bidez</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
@@ -5915,7 +5910,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1237"/>
         <source>&amp;Subtitle:</source>
-        <translation>A&amp;zpidatzia:</translation>
+        <translation>Azpida&amp;tzia:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
@@ -6030,7 +6025,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="738"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>Gaitu audio e&amp;kualizagailua</translation>
+        <translation>&amp;Gaitu audio ekualizagailua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1081"/>
@@ -6315,12 +6310,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1014"/>
         <source>A-V sync &amp;correction</source>
-        <translation>A-B aldiberetze &amp;zuzenketa</translation>
+        <translation>A&amp;-B aldiberetze zuzenketa</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1037"/>
         <source>&amp;Max. correction:</source>
-        <translation>&amp;Gehienezko zuzenketa:</translation>
+        <translation>Geh. zuzenke&amp;ta:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1059"/>
@@ -6442,7 +6437,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinput.ui" line="153"/>
         <source>&amp;Left click</source>
-        <translation>E&amp;zker klika</translation>
+        <translation>Ez&amp;ker klika</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="176"/>
@@ -6452,7 +6447,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinput.ui" line="297"/>
         <source>&amp;Wheel function:</source>
-        <translation>&amp;Gurpil eginkizuna:</translation>
+        <translation>Gurpil egi&amp;nkizuna:</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="358"/>
@@ -7055,7 +7050,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="499"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation>&amp;Denbora irristariaren jokabidea:</translation>
+        <translation>De&amp;nbora irristariaren jokabidea:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="516"/>
@@ -7070,7 +7065,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation>&amp;Gelditu botoia behin sakatuz gero denbora kokapena berrezartzen du</translation>
+        <translation>Gelditu bo&amp;toia behin sakatuz gero denbora kokapena berrezartzen du</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
@@ -7080,7 +7075,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation>Erakutsi sagua ikusleihoaren &amp;beheren mugitzerakoan bakarrik</translation>
+        <translation>Erakutsi sagua i&amp;kusleihoaren beheren mugitzerakoan bakarrik</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
@@ -7100,7 +7095,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
         <source>&amp;Remember last directory</source>
-        <translation>Gogoratu azken &amp;zuzenbidea</translation>
+        <translation>Gogoratu azken z&amp;uzenbidea</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
@@ -7115,7 +7110,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation>Gaitu &amp;DPI handiko ikusleihoentzako sostengua</translation>
+        <translation>Gaitu D&amp;PI handiko ikusleihoentzako sostengua</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7125,7 +7120,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation>&amp;Berez</translation>
+        <translation>B&amp;erez</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7145,7 +7140,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="556"/>
         <source>&amp;Absolute seeking</source>
-        <translation>Bilaketa &amp;osoa</translation>
+        <translation>Bilaketa oso&amp;a</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="569"/>
@@ -7508,12 +7503,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="681"/>
         <source>&amp;Animated</source>
-        <translation>&amp;Animatuta</translation>
+        <translation>A&amp;nimatuta</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="690"/>
         <source>&amp;Width:</source>
-        <translation>&amp;Zabalera:</translation>
+        <translation>Zaba&amp;lera:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="716"/>
@@ -7570,7 +7565,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
         <source>&amp;Precise seeking</source>
-        <translation>Bilaketa &amp;zehatza</translation>
+        <translation>Bilaketa ze&amp;hatza</translation>
     </message>
 </context>
 <context>
@@ -7840,12 +7835,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation>Hardware &amp;dekodeaketa</translation>
+        <translation>&amp;Hardware dekodeaketa</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation>&amp;Berez</translation>
+        <translation>B&amp;erez</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8294,7 +8289,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation>Irakur-&amp;zerrenda</translation>
+        <translation>Irakur-ze&amp;rrenda</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
@@ -8339,12 +8334,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="124"/>
         <source>&amp;Save copy of playlist on exit</source>
-        <translation>&amp;Gorde irakur-zerrendaren kopia bat irtetzerakoan</translation>
+        <translation>Gor&amp;de irakur-zerrendaren kopia bat irtetzerakoan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation>Irakurri &amp;hurrengo agiria baita aurreko agiriak huts egiten badu ere</translation>
+        <translation>Irakurri h&amp;urrengo agiria baita aurreko agiriak huts egiten badu ere</translation>
     </message>
 </context>
 <context>
@@ -8952,7 +8947,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation>E&amp;zelkarloturik berez TB-rako:</translation>
+        <translation>&amp;Ezelkarloturik berez TB-rako:</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
@@ -9164,19 +9159,13 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundu</numerusform>
-            <numerusform>%n segundu</numerusform>
-        </translation>
+        <translation><numerusform>%n segundu</numerusform><numerusform>%n segundu</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minutu</numerusform>
-            <numerusform>%n minutu</numerusform>
-        </translation>
+        <translation><numerusform>%n minutu</numerusform><numerusform>%n minutu</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

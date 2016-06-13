@@ -5565,7 +5565,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Select the video output driver.</source>
-        <translation>Výbberte výstupní video ovladač.</translation>
+        <translation>Vyberte výstupní ovladač videa.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
@@ -5756,7 +5756,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Direct rendering</source>
-        <translation>Direct rendering</translation>
+        <translation>Přímé vykreslování</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1076"/>
@@ -5771,12 +5771,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="586"/>
         <source>Dou&amp;ble buffering</source>
-        <translation>Dou&amp;ble buffering</translation>
+        <translation>Dvo&amp;jité ukládání do vyrovnávací paměti</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1077"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Dvojité bufferování řeší blikání obrazu ukládáním dvou snímků do paměti a zobrazovaním jednoho během dekodování dalšího. Je-li vypnuto, může negativně ovlivnit OSD, ale často odstraní blikání OSD.</translation>
+        <translation>Dvojité ukládání do vyrovnávací paměti řeší blikání obrazu ukládáním dvou snímků do paměti a zobrazovaním jednoho během dekodování dalšího. Je-li vypnuto, může negativně ovlivnit OSD, ale často odstraní blikání OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
@@ -6786,7 +6786,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"/>
+        <translation>Je-li tato volba povolena, multimediální klávesy (Přehrát, Zastavit, Hlasitost +/-, Ztišit, atd.) budou fungovat, i když SMPlayer běží na pozadí.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
@@ -6796,17 +6796,17 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"/>
+        <translation>Tato volba určuje, co dělat, když se myš bude pohybovat při současném stisknutí levého tlačítka.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"/>
+        <translation>hlavní okno je přesunuto</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"/>
+        <translation>horizontální pohyb mění časovou pozici, zatímco vertikální hlasitost</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
@@ -6966,7 +6966,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"/>
+        <translation>Systémový jazyk</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -7101,32 +7101,32 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>Vysoké &amp;DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer může škálovat rozhraní na High DPI obrazovkách. Zde můžete tuto funkci vypnout nebo změnit měřítko.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Povolit podporu pro High DPI obrazovky</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Měřítko</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"/>
+        <translation>Změny v této sekci vyžadují spustit SMPlayer, aby se projevily</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7226,12 +7226,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>Měřítko:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation>Pomě&amp;r pixelů:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
@@ -7425,7 +7425,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefinterface.cpp" line="826"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"/>
+        <translation>Pokud je stisknuto tlačítko Stop, tak si SMPlayer ve výchozím nastavení pamatuje časovou pozici. Pokud tedy stisknete tlačítko Přehrát, soubory se začnou přehrávat z místa, kde jste minule skončili. Pro vynulování pozice 0 je potřeba  stisknout tlačítko Stop dvakrát.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="833"/>
@@ -7585,17 +7585,17 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"/>
+        <translation>&amp;YouTube (a ostatní webové stránky)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation>Podpora pro &amp;video weby:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"/>
+        <translation>Předvolby pro YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7656,58 +7656,58 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <location filename="../prefnetwork.cpp" line="75"/>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>Disabled</source>
-        <translation type="unfinished"/>
+        <translation>Vypnuto</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="77"/>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="165"/>
         <source>YouTube</source>
-        <translation type="unfinished"/>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="167"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"/>
+        <translation>Podpora pro video weby:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"/>
+        <translation>podpora pro video weby je vypnuta</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"/>
+        <translation>umožňuje interní podporu pro YouTube a používá mpv + youtube-dl pro zbytek webů</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"/>
+        <translation>použita bude pouze interní podpora pro YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="177"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"/>
+        <translation>používá mpv + youtube-dl pro všechny weby</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="187"/>
         <source>Playback quality</source>
-        <translation type="unfinished"/>
+        <translation>Kvalita přehrávání</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="188"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"/>
+        <translation>Zvolte preferovanou kvalitu videa na YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"/>
+        <translation>Nastavení uživatelského agenta, který SMPlayer použije pro připojení k YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="202"/>
@@ -7842,7 +7842,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8023,7 +8023,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation>Nastavit prioritu procesu pro %1 v souladu s předdefinovanými prioritami dostupnými pod Windows &lt;br&gt;&lt;b&gt;. Upozornění: &lt;/b&gt; Při použití priority v reálném čase může zamrznout systém.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -8103,7 +8103,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation>Vyžaduje %1 podporu CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="371"/>
@@ -8113,7 +8113,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"/>
+        <translation>Tato volba obvykle povolí cache, když je to nutné.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -8771,12 +8771,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation>Je-li tato možnost zaškrtnuta, kódování titulků se pro daný jazyk automaticky detekuje. Nepovede-li se určit kódování, použije se výchozí nastavení. Tato varianta požaduje %1 podporu ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Za normálních okolností byste měli tuto možnost zakázat. Povolte ji pouze v případě, že váš %1 je sestaven bez podpory freetype. &lt;b&gt;Deaktivací této možnosti by titulky nemusely pracovat vůbec! &lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -9030,12 +9030,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zrušit</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9406,7 +9406,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"/>
+        <translation>Přehrávání</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9509,7 +9509,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"/>
+        <translation>Anaglyf zelená/purpurová barevná</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
@@ -9666,17 +9666,17 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Aktuální čas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Celkový čas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Zbývající čas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -9691,7 +9691,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu Rychlého přístupu</translation>
     </message>
 </context>
 <context>
@@ -9865,7 +9865,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Zavřít</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
