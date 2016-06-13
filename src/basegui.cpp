@@ -6036,6 +6036,38 @@ void BaseGui::changeEvent(QEvent *e) {
 	}
 }
 
+#if !defined(Q_OS_WIN) && QT_VERSION >= 0x050000 && QT_VERSION < 0x050600
+// Due to a bug in Qt 5 on linux, accelerators in numeric keypad don't work
+// This catches the key presses in the numeric keypad and calls the associated action
+void BaseGui::keyPressEvent(QKeyEvent *event) {
+	if (event->modifiers().testFlag(Qt::KeypadModifier)) {
+		qDebug() << "BaseGui::keyPressEvent: key:" << event->key() << "modifiers:" << event->modifiers();
+
+		QKeySequence ks(event->key());
+		QList<QAction *> actions = this->actions();
+		foreach(QAction * action, actions) {
+			QList<QKeySequence> shortcuts = action->shortcuts();
+			foreach(QKeySequence s, shortcuts) {
+				bool match = (s == ks);
+				if (match) {
+					qDebug() << "BaseGui::keyPressEvent: action found:" << action->objectName() << "enabled:" << action->isEnabled();
+				}
+				if (match && action->isEnabled()) {
+					if (action->isCheckable() && action->objectName() != "play_or_pause") {
+						action->toggle();
+					} else {
+						action->trigger();
+					}
+					return;
+				}
+			}
+		}
+	}
+
+	QMainWindow::keyPressEvent(event);
+}
+#endif
+
 #ifdef Q_OS_WIN
 
 #ifndef SM_CONVERTIBLESLATEMODE

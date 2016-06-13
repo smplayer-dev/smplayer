@@ -388,6 +388,10 @@ protected:
 	#endif
 #endif
 
+#if !defined(Q_OS_WIN) && QT_VERSION >= 0x050000 && QT_VERSION < 0x050600
+	void keyPressEvent(QKeyEvent *event);
+#endif
+
 	virtual void aboutToEnterFullscreen();
 	virtual void aboutToExitFullscreen();
 	virtual void aboutToEnterCompactMode();
