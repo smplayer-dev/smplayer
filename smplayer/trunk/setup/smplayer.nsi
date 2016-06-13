@@ -459,9 +459,9 @@ SectionGroup $(MPlayerMPVGroupTitle)
     Pop $YTDL_Exit_Code
 
     ${If} $YTDL_Exit_Code != "0"
-      DetailPrint "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+      DetailPrint $(YTDL_Error_Msg1)
         ${If} $YTDL_Exit_Code == "${STATUS_DLL_NOT_FOUND}"
-          DetailPrint "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+          DetailPrint $(YTDL_Error_Msg2)
         ${EndIf}
 
       Sleep 5000
@@ -978,8 +978,8 @@ Function Backup_SMTube
     StrCpy $Restore_SMTube 1
     Return
   QtVerMismatch:
-    DetailPrint "The current SMTube installation is incompatible with this version of SMPlayer."
-    DetailPrint "Please upgrade to a newer version of SMTube."
+    DetailPrint $(SMTube_Incompatible_Msg1)
+    DetailPrint $(SMTube_Incompatible_Msg2)
     Sleep 5000
   NoBackup:
     StrCpy $Restore_SMTube 0

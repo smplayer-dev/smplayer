@@ -125,6 +125,12 @@ ${LangFileString} MPV_Inst_Failed "無法安裝 mpv。"
 ${LangFileString} YTDL_DL_Retry "youtube-dl 沒有成功安裝。是否重試？"
 ${LangFileString} YTDL_DL_Failed "無法下載 youtube-dl：「$R0」。"
 ${LangFileString} YTDL_Update_Check "正在檢查 youtube-dl 的更新..."
+${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
+${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
+
+; SMTube
+${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is incompatible with this version of SMPlayer."
+${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "正在清除 fontconfig 快取..."
