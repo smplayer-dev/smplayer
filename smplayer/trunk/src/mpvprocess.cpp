@@ -189,6 +189,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 	}
 
+	static double last_sec = -1;
+
 	// Parse A: V: line
 	//qDebug("MPVProcess::parseLine: %s", line.toUtf8().data());
 	if (rx_mpv_av.indexIn(line) > -1) {
@@ -206,24 +208,31 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#endif
 		}
 
-		if (paused && notified_pause) return;
+		if (paused && notified_pause) {
+			if (last_sec != sec) {
+				last_sec = sec;
+				emit receivedCurrentSec(sec);
+				emit receivedPause();
+			}
+			return;
+		}
 
 		if (paused) {
 			notified_pause = true;
 			qDebug("MPVProcess::parseLine: paused");
-			receivedPause();
+			emit receivedPause();
 			return;
 		}
 		else
 		if (buffering) {
 			qDebug("MPVProcess::parseLine: buffering");
-			receivedBuffering();
+			emit receivedBuffering();
 			return;
 		}
 		else
 		if (idle) {
 			qDebug("MPVProcess::parseLine: idle");
-			receivedBuffering();
+			emit receivedBuffering();
 			return;
 		}
 		notified_pause = false;
@@ -252,12 +261,12 @@ void MPVProcess::parseLine(QByteArray ba) {
 		}
 
 		if (status == "Paused") {
-			receivedPause();
+			emit receivedPause();
 			return;
 		}
 		else
 		if ((status == "...") || (status == "Buffering")) {
-			receivedBuffering();
+			emit receivedBuffering();
 			return;
 		}
 
