@@ -38,6 +38,10 @@
 
 //#define SHARE_MENU
 
+#if !defined(Q_OS_WIN) && QT_VERSION >= 0x050000 && QT_VERSION < 0x050501
+#define NUMPAD_WORKAROUND
+#endif
+
 class QWidget;
 class QMenu;
 class LogWindow;
@@ -388,7 +392,7 @@ protected:
 	#endif
 #endif
 
-#if !defined(Q_OS_WIN) && QT_VERSION >= 0x050000 && QT_VERSION < 0x050600
+#ifdef NUMPAD_WORKAROUND
 	void keyPressEvent(QKeyEvent *event);
 #endif
 
