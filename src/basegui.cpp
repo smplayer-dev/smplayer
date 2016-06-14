@@ -6036,7 +6036,7 @@ void BaseGui::changeEvent(QEvent *e) {
 	}
 }
 
-#if !defined(Q_OS_WIN) && QT_VERSION >= 0x050000 && QT_VERSION < 0x050600
+#ifdef NUMPAD_WORKAROUND
 // Due to a bug in Qt 5 on linux, accelerators in numeric keypad don't work
 // This catches the key presses in the numeric keypad and calls the associated action
 void BaseGui::keyPressEvent(QKeyEvent *event) {
