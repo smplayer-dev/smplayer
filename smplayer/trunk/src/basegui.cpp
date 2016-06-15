@@ -5813,7 +5813,7 @@ void BaseGui::hideEvent( QHideEvent * ) {
 bool BaseGui::event(QEvent * e) {
 	//qDebug("BaseGui::event: %d", e->type());
 
-	bool result = QWidget::event(e);
+	bool result = QMainWindow::event(e);
 	if ((ignore_show_hide_events) || (!pref->pause_when_hidden)) return result;
 
 	if (e->type() == QEvent::WindowStateChange) {
