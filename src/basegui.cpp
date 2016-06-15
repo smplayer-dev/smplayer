@@ -5619,7 +5619,9 @@ void BaseGui::applyStyles() {
 	qDebug() << "BaseGui::applyStyles: style:" << style;
 	if (!style.isEmpty()) {
 		qApp->setStyle(style);
+		#ifdef Q_OS_WIN
 		qApp->setPalette(qApp->style()->standardPalette());
+		#endif
 	}
 #endif
 }
