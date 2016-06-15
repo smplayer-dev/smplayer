@@ -119,7 +119,7 @@ void GlobalShortcuts::activateShortcut(Qt::Key key) {
 
 #include "moc_globalshortcuts.cpp"
 
-#ifdef Q_OS_LINUX
+#ifdef Q_OS_UNIX
 #include "globalshortcuts_linux.cpp"
 #endif
 
