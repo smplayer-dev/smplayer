@@ -371,7 +371,11 @@ void Preferences::reset() {
 	resize_method = Never;
 
 #if STYLE_SWITCHING
+	#if QT_VERSION >= 0x050000
+	style = "Fusion";
+	#else
 	style="";
+	#endif
 #endif
 
 	center_window = false;
@@ -891,7 +895,7 @@ void Preferences::save() {
 	set->setValue("resize_method", resize_method);
 
 #if STYLE_SWITCHING
-	set->setValue("style", style);
+	set->setValue("qt_style", style);
 #endif
 
 	set->setValue("center_window", center_window);
@@ -1447,7 +1451,7 @@ void Preferences::load() {
 	resize_method = set->value("resize_method", resize_method).toInt();
 
 #if STYLE_SWITCHING
-	style = set->value("style", style).toString();
+	style = set->value("qt_style", style).toString();
 #endif
 
 	center_window = set->value("center_window", center_window).toBool();
