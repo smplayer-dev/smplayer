@@ -1715,6 +1715,13 @@ void Preferences::load() {
 	if (vo == "player_default") vo = "";
 	if (ao == "player_default") ao = "";
 
+#if QT_VERSION < 0x050000
+	if (style.toLower() == "fusion") style = "";
+#endif
+
+	// Remove old option names
+	if (set->contains("gui/style")) set->remove("gui/style");
+
 #ifdef USE_CONFIG_VERSION
 	qDebug("Preferences::load: config_version: %d, CURRENT_CONFIG_VERSION: %d", config_version, CURRENT_CONFIG_VERSION);
 	// Fix some values if config is old
