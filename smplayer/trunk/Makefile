@@ -10,12 +10,8 @@ TRANSLATION_PATH=$(PREFIX)/share/smplayer/translations
 THEMES_PATH=$(PREFIX)/share/smplayer/themes
 SHORTCUTS_PATH=$(PREFIX)/share/smplayer/shortcuts
 
-#KDE_PREFIX=`kde-config --prefix`
-#KDE_PREFIX=/tmp/smplayer/kde/
-KDE_PREFIX=$(PREFIX)
-
-KDE_ICONS=$(KDE_PREFIX)/share/icons/hicolor/
-KDE_APPLNK=$(KDE_PREFIX)/share/applications/
+ICONS_DIR=$(PREFIX)/share/icons/hicolor/
+APPLNK_DIR=$(PREFIX)/share/applications/
 
 QMAKE=qmake
 LRELEASE=lrelease
@@ -24,20 +20,6 @@ DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
      TRANSLATION_PATH=\\\"$(TRANSLATION_PATH)\\\" \
      DOC_PATH=\\\"$(DOC_PATH)\\\" THEMES_PATH=\\\"$(THEMES_PATH)\\\" \
      SHORTCUTS_PATH=\\\"$(SHORTCUTS_PATH)\\\"
-
-
-ifdef KDE_SUPPORT
-
-# KDE paths, change if necessary
-
-KDE_INCLUDE_PATH=`kde-config --prefix`/include/
-KDE_LIB_PATH=`kde-config --prefix`/lib/
-KDE_LIBS=-lkio
-
-QMAKE_OPTS=DEFINES+=KDE_SUPPORT INCLUDEPATH+=$(KDE_INCLUDE_PATH) \
-           LIBS+="$(KDE_LIBS) -L$(KDE_LIB_PATH)"
-
-endif
 
 src/smplayer:
 	./get_svn_revision.sh
@@ -67,27 +49,27 @@ install: src/smplayer
 #	-install -d $(DESTDIR)$(THEMES_PATH)
 #	-tar -C src/themes/ --exclude=.svn -c -f - . | tar -C $(DESTDIR)$(THEMES_PATH) -x -f -
 
-	-install -d $(DESTDIR)$(KDE_ICONS)/512x512/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/256x256/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/192x192/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/128x128/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/64x64/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/32x32/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/22x22/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/16x16/apps/
-	-install -d $(DESTDIR)$(KDE_ICONS)/scalable/apps/
-	install -m 644 icons/smplayer_icon512.png $(DESTDIR)$(KDE_ICONS)/512x512/apps/smplayer.png
-	install -m 644 icons/smplayer_icon256.png $(DESTDIR)$(KDE_ICONS)/256x256/apps/smplayer.png
-	install -m 644 icons/smplayer_icon192.png $(DESTDIR)$(KDE_ICONS)/192x192/apps/smplayer.png
-	install -m 644 icons/smplayer_icon128.png $(DESTDIR)$(KDE_ICONS)/128x128/apps/smplayer.png
-	install -m 644 icons/smplayer_icon64.png $(DESTDIR)$(KDE_ICONS)/64x64/apps/smplayer.png
-	install -m 644 icons/smplayer_icon32.png $(DESTDIR)$(KDE_ICONS)/32x32/apps/smplayer.png
-	install -m 644 icons/smplayer_icon22.png $(DESTDIR)$(KDE_ICONS)/22x22/apps/smplayer.png
-	install -m 644 icons/smplayer_icon16.png $(DESTDIR)$(KDE_ICONS)/16x16/apps/smplayer.png
-	install -m 644 icons/smplayer.svg $(DESTDIR)$(KDE_ICONS)/scalable/apps/smplayer.svg
-	-install -d $(DESTDIR)$(KDE_APPLNK)
-	install -m 644 smplayer.desktop $(DESTDIR)$(KDE_APPLNK)
-	install -m 644 smplayer_enqueue.desktop $(DESTDIR)$(KDE_APPLNK)
+	-install -d $(DESTDIR)$(ICONS_DIR)/512x512/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/256x256/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/192x192/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/128x128/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/64x64/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/32x32/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/22x22/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/16x16/apps/
+	-install -d $(DESTDIR)$(ICONS_DIR)/scalable/apps/
+	install -m 644 icons/smplayer_icon512.png $(DESTDIR)$(ICONS_DIR)/512x512/apps/smplayer.png
+	install -m 644 icons/smplayer_icon256.png $(DESTDIR)$(ICONS_DIR)/256x256/apps/smplayer.png
+	install -m 644 icons/smplayer_icon192.png $(DESTDIR)$(ICONS_DIR)/192x192/apps/smplayer.png
+	install -m 644 icons/smplayer_icon128.png $(DESTDIR)$(ICONS_DIR)/128x128/apps/smplayer.png
+	install -m 644 icons/smplayer_icon64.png $(DESTDIR)$(ICONS_DIR)/64x64/apps/smplayer.png
+	install -m 644 icons/smplayer_icon32.png $(DESTDIR)$(ICONS_DIR)/32x32/apps/smplayer.png
+	install -m 644 icons/smplayer_icon22.png $(DESTDIR)$(ICONS_DIR)/22x22/apps/smplayer.png
+	install -m 644 icons/smplayer_icon16.png $(DESTDIR)$(ICONS_DIR)/16x16/apps/smplayer.png
+	install -m 644 icons/smplayer.svg $(DESTDIR)$(ICONS_DIR)/scalable/apps/smplayer.svg
+	-install -d $(DESTDIR)$(APPLNK_DIR)
+	install -m 644 smplayer.desktop $(DESTDIR)$(APPLNK_DIR)
+	install -m 644 smplayer_enqueue.desktop $(DESTDIR)$(APPLNK_DIR)
 	-install -d $(DESTDIR)$(PREFIX)/share/man/man1/
 	install -m 644 man/smplayer.1 $(DESTDIR)$(PREFIX)/share/man/man1/
 	gzip -9 -f $(DESTDIR)$(PREFIX)/share/man/man1/smplayer.1
@@ -99,11 +81,11 @@ uninstall:
 	-rm -f $(DOC_PATH)/Changelog
 	-rm -f $(DOC_PATH)/*.txt
 	-rm -f $(SHORTCUTS_PATH)/*.keys
-	-rm -f $(KDE_ICONS)/64x64/apps/smplayer.png
-	-rm -f $(KDE_ICONS)/32x32/apps/smplayer.png
-	-rm -f $(KDE_ICONS)/22x22/apps/smplayer.png
-	-rm -f $(KDE_ICONS)/16x16/apps/smplayer.png
-	-rm -f $(KDE_APPLNK)/smplayer.desktop
+	-rm -f $(ICONS_DIR)/64x64/apps/smplayer.png
+	-rm -f $(ICONS_DIR)/32x32/apps/smplayer.png
+	-rm -f $(ICONS_DIR)/22x22/apps/smplayer.png
+	-rm -f $(ICONS_DIR)/16x16/apps/smplayer.png
+	-rm -f $(APPLNK_DIR)/smplayer.desktop
 	-rm -f $(PREFIX)/share/man/man1/smplayer.1.gz
 	-rmdir $(SHORTCUTS_PATH)/
 	-rmdir $(TRANSLATION_PATH)/
