@@ -11,8 +11,7 @@ Architecture: any
 Pre-Depends: dpkg (>= 1.14.12ubuntu3)
 Depends: ${shlibs:Depends}, mplayer | mplayer-nogui | mpv (>= 0.6.2)
 Recommends: smplayer-themes, smplayer-skins, smtube, alsa-utils, x11-utils
-Replaces: smplayer-translations, smplayer-l10n, smplayer-qt4
-Conflicts: smplayer-qt4
+Replaces: smplayer-translations, smplayer-l10n
 Provides: smplayer-translations, smplayer-l10n
 Description: A great media player
  SMPlayer is a graphical user interface (GUI) for the award-winning mplayer
