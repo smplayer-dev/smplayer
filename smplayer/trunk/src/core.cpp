@@ -42,6 +42,7 @@
 #include "colorutils.h"
 #include "discname.h"
 #include "filters.h"
+#include "extensions.h"
 
 #ifdef Q_OS_WIN
 #include <windows.h> // To change app priority
@@ -2378,7 +2379,29 @@ void Core::startMplayer( QString file, double seek ) {
 		if (PREF_YT_ENABLED) is_youtube = (file == yt->latestPreferredUrl());
 		#endif
 		qDebug() << "Core::startMplayer: is_youtube:" << is_youtube;
-		proc->setOption("enable_streaming_sites_support", !is_youtube);
+		bool enable_sites = !is_youtube;
+
+		if (!is_youtube) {
+			// Check if the URL contains a media extension
+			qDebug() << "Core::startMplayer: file:" << file;
+			int pos = file.lastIndexOf(".");
+			if (pos != -1) {
+				QString extension = file.mid(pos+1).toLower();
+				// Check if extension contains a '?' and remove everything after it
+				pos = extension.lastIndexOf("?");
+				if (pos != -1) {
+					extension = extension.left(pos);
+				}
+				qDebug() << "Core::startMplayer: URL extension:" << extension;
+				Extensions e;
+				if (e.allPlayable().contains(extension)) {
+					qDebug() << "Core::startMplayer: extension found in URL";
+					enable_sites = false;
+				}
+			}
+		}
+		qDebug() << "Core::startMplayer: enable_sites:" << enable_sites;
+		proc->setOption("enable_streaming_sites_support", enable_sites);
 	} else {
 		proc->setOption("enable_streaming_sites_support", pref->streaming_type == Preferences::StreamingYTDL);
 	}
