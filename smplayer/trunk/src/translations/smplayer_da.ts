@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="da">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -26,7 +24,7 @@
     <message>
         <location filename="../about.cpp" line="84"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation>SMPlayer er en grafisk brugerflade til %1.</translation>
+        <translation>SMPlayer er en grafisk grænseflade til %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="171"/>
@@ -1266,7 +1264,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="2147"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvikmenu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2946"/>
@@ -1323,17 +1321,17 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="5899"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det lykkedes ikke at starte komponenten youtube-dl.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5900"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Det kan måske løse problemet at installere Microsoft Visual C++ 2010 Redistributable Package (x86).</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5902"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik her, for at hente det</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5927"/>
@@ -2071,7 +2069,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ekstern skærm-output</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="294"/>
@@ -2340,7 +2338,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;ormatinfo</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -2872,10 +2870,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n undertekst udpakket</numerusform>
-            <numerusform>%n undertekster udpakket</numerusform>
-        </translation>
+        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2973,7 +2968,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -5237,7 +5232,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="494"/>
         <source>Show tag info in window title</source>
-        <translation>Vis tag-info i vinduets titellinje</translation>
+        <translation>Vis taginfo i vinduets titellinje</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
@@ -5519,12 +5514,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Husk indstillinger for streams</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Når denne indstilling er aktiveret, vil indstillinger for online streams også blive husket.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
@@ -5569,7 +5564,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vælg video output-driveren.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1125"/>
@@ -5710,7 +5705,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Husk indstillinger for streams</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -7110,7 +7105,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer kan skalere grænsefladen på høj-DPI-skærme. Her kan du deaktivere denne funktion eller ændre skaleringsfaktoren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
@@ -7130,7 +7125,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Ændringer i dette afsnit træder først i kraft når SMPlayer er blevet genstartet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7180,27 +7175,27 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation>Vælg den grafiske brugerflade du foretrækker til programmet.</translation>
+        <translation>Vælg den grafiske grænseflade du foretrækker til programmet.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Basis GUI&lt;/b&gt; giver den traditionelle brugerflade, uden værktøjslinjen og kontrollinje.</translation>
+        <translation>&lt;b&gt;Basis GUI&lt;/b&gt; giver den traditionelle grænseflade, uden værktøjslinjen og kontrollinjen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;Mini GUI&lt;/b&gt; giver en enkel brugerflade, uden værktøjslinje og med kun få knapper på kontrollinjen.</translation>
+        <translation>&lt;b&gt;Mini GUI&lt;/b&gt; giver en mere simpel grænseflade, uden værktøjslinje og med kun få knapper på kontrollinjen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation>&lt;b&gt;Skinbar GUI&lt;/b&gt; giver en brugerflade med forskellige skins.</translation>
+        <translation>&lt;b&gt;Skinbar GUI&lt;/b&gt; giver en grænseflade med forskellige skins.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation>&lt;b&gt;MPC GUI&lt;/b&gt; ligner brugerfladen i Media Player Classic.</translation>
+        <translation>&lt;b&gt;MPC GUI&lt;/b&gt; ligner grænsefladen i Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="871"/>
@@ -8116,7 +8111,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Typisk aktiverer denne indstilling cachen, når det er nødvendigt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -9164,19 +9159,13 @@ Vil du overskrive den?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekunder</numerusform>
-        </translation>
+        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minut</numerusform>
-            <numerusform>%n minutter</numerusform>
-        </translation>
+        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9224,7 +9213,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="125"/>
         <source>opens the gui with support for skins.</source>
-        <translation>åbner brugerfladen der understøtter skins.</translation>
+        <translation>åbner den grafiske brugerflade med understøttelse af skins.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
@@ -9405,7 +9394,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
         <source>&amp;Video info</source>
-        <translation>&amp;Video info</translation>
+        <translation>&amp;Videoinfo</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
@@ -9700,7 +9689,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvikmenu</translation>
     </message>
 </context>
 <context>
