@@ -261,6 +261,7 @@ private:
 
 	bool automatically_play_next;
 	bool ignore_player_errors;
+	bool change_title;
 };
 
 

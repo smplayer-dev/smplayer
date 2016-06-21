@@ -85,6 +85,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	, row_spacing(-1) // Default height
 	, automatically_play_next(true)
 	, ignore_player_errors(false)
+	, change_title(false)
 {
 	core = c;
 	playlist_path = "";
@@ -1125,24 +1126,27 @@ void Playlist::getMediaInfo() {
 	double duration = core->mdat.duration;
 	QString artist = core->mdat.clip_artist;
 
-	QString name = core->mdat.clip_name;
-	if (name.isEmpty()) name = core->mdat.stream_title;
-
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
 	#endif
 
-	if (name.isEmpty()) {
-		QFileInfo fi(filename);
-		if (fi.exists()) {
-			// Local file
-			name = fi.fileName();
-		} else {
-			// Stream
-			name = filename;
+	QString name;
+	if (change_title) {
+		name = core->mdat.clip_name;
+		if (name.isEmpty()) name = core->mdat.stream_title;
+
+		if (name.isEmpty()) {
+			QFileInfo fi(filename);
+			if (fi.exists()) {
+				// Local file
+				name = fi.fileName();
+			} else {
+				// Stream
+				name = filename;
+			}
 		}
+		if (!artist.isEmpty()) name = artist + " - " + name;
 	}
-	if (!artist.isEmpty()) name = artist + " - " + name;
 
 	for (int n = 0; n < pl.count(); n++) {
 		if (pl[n].filename() == filename) {
@@ -1613,6 +1617,7 @@ void Playlist::saveSettings() {
 	set->setValue( "play_files_from_start", play_files_from_start );
 	set->setValue( "automatically_play_next", automatically_play_next );
 	set->setValue( "ignore_player_errors", ignore_player_errors );
+	set->setValue( "change_title", change_title );
 
 	set->setValue( "row_spacing", row_spacing );
 
@@ -1660,6 +1665,7 @@ void Playlist::loadSettings() {
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
 	automatically_play_next = set->value( "automatically_play_next", automatically_play_next ).toBool();
 	ignore_player_errors = set->value( "ignore_player_errors", ignore_player_errors ).toBool();
+	change_title = set->value( "change_title", change_title ).toBool();
 
 	row_spacing = set->value( "row_spacing", row_spacing ).toInt();
 
