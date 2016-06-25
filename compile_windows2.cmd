@@ -18,6 +18,8 @@ set runsvnup=yes
 set qmake_defs=
 set use_svn_revision=
 
+set num_jobs=1
+
 set config_file=setup\scripts\win32inst_vars.cmd
 
 :: Default prefix
@@ -34,6 +36,7 @@ rem set SMPLAYER_THEMES_DIR=..\..\smplayer-themes\trunk
 if "%1" == ""               goto build_env_info
 if "%1" == "-h"             goto usage
 if "%1" == "-prefix"        goto prefixTag
+if "%1" == "-jobs"          goto cfgJobs
 if "%1" == "-nothemes"      goto cfgThemes
 if "%1" == "-noskins"       goto cfgSkins
 if "%1" == "-noinst"        goto cfgInst
@@ -45,7 +48,7 @@ echo.
 goto usage
 
 :usage
-echo Usage: compile_windows2.cmd [-prefix (dir)]
+echo Usage: compile_windows2.cmd [-h] [-prefix (dir)] [-jobs]
 echo                             [-portable]
 echo                             [-noinst] [-nothemes] [-noskins] [-noupdate]
 echo.
@@ -54,6 +57,9 @@ echo   -h                     display this help and exit
 echo.
 echo   -prefix (dir)          prefix directory for installation 
 echo                          (default prefix: %build_prefix%)
+echo.
+echo   -jobs                  Specify number of threads ^(jobs^) for mingw32-make (default: %num_jobs%)
+echo                          Valid range: 1-32
 echo.
 echo Optional Features:
 echo   -portable              Compile portable executables
@@ -70,6 +76,14 @@ goto end
 
 shift
 set build_prefix=%1
+shift
+
+goto cmdline_parsing
+
+:cfgJobs
+
+shift
+if %1 geq 1 if %1 leq 32 set num_jobs=%1
 shift
 
 goto cmdline_parsing
@@ -197,7 +211,7 @@ if errorlevel 1 goto end
 cd ..\src
 lrelease smplayer.pro
 qmake "DEFINES += %qmake_defs%"
-mingw32-make
+mingw32-make -j%num_jobs%
 
 if errorlevel 1 goto end
 
@@ -255,3 +269,4 @@ set runinstcmd=
 set runsvnup=
 set qmake_defs=
 set use_svn_revision=
+set num_jobs=1
