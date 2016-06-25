@@ -18,7 +18,11 @@ set runsvnup=yes
 set qmake_defs=
 set use_svn_revision=
 
-set num_jobs=1
+if defined NUMBER_OF_PROCESSORS (
+  set num_jobs=%NUMBER_OF_PROCESSORS%
+) else (
+  set num_jobs=1
+)
 
 set config_file=setup\scripts\win32inst_vars.cmd
 
@@ -58,7 +62,7 @@ echo.
 echo   -prefix (dir)          prefix directory for installation 
 echo                          (default prefix: %build_prefix%)
 echo.
-echo   -jobs                  Specify number of threads ^(jobs^) for mingw32-make (default: %num_jobs%)
+echo   -jobs                  Specify number of threads (jobs) for mingw32-make (default: %num_jobs%)
 echo                          Valid range: 1-32
 echo.
 echo Optional Features:
@@ -269,4 +273,9 @@ set runinstcmd=
 set runsvnup=
 set qmake_defs=
 set use_svn_revision=
-set num_jobs=1
+
+if defined NUMBER_OF_PROCESSORS (
+  set num_jobs=%NUMBER_OF_PROCESSORS%
+) else (
+  set num_jobs=1
+)
