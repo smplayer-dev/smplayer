@@ -39,7 +39,7 @@ class QBuffer;
 class QuaZip;
 #endif
 
-class FindSubtitlesWindow : public QDialog, public Ui::FindSubtitlesWindow
+class FindSubtitlesWindow : public QWidget, public Ui::FindSubtitlesWindow
 {
 	Q_OBJECT
 
