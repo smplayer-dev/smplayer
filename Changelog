@@ -1,3 +1,34 @@
+Version 16.7:
+
+(2016-06-29)
+ * The find subtitles window has a close button in the title bar.
+
+(2016-06-23)
+ * Fix youtube.
+
+(2016-06-22)
+ * (mpv) Don't pass the URL to youtube-dl if it contains a multimedia extension.
+
+(2016-06-21)
+ * The names in the playlist are not replaced with the title from metadata.
+
+(2016-06-19)
+ * Save the hdpi config in the smplayer config dir.
+
+(2016-06-17)
+ * Selecting the 'default' style in preferences selects the system's
+   default style, instead of Fusion.
+
+(2016-06-15)
+ * Bugfix: (Qt 5) the playlist can be resized when docked to the main window.
+ * Don't change the style's palette on linux.
+
+(2016-06-14)
+ * (mpv) Update the current position in the seek bar on pause.
+ * In Qt 5 on linux accelerators in the numeric keypad don't work due
+   to a bug in Qt 5. Added a workaround.
+
+
 Version 16.6:
 
 (2016-06-05)
