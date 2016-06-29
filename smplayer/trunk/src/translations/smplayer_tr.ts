@@ -938,7 +938,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1841"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>&amp;YouTube kodlarını güncelle</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
@@ -1028,12 +1028,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1819"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"/>
+        <translation>B&amp;ilgi ve özellikler...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1832"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"/>
+        <translation>T&amp;ablet kipi</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
@@ -1138,7 +1138,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="1921"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation>Gö&amp;rünüm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1997"/>
@@ -1214,12 +1214,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="2075"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"/>
+        <translation>Birincil p&amp;arça</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2080"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Altyazı seç</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
@@ -1229,7 +1229,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="2085"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>İkinci altyazıyı seç</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2091"/>
@@ -1362,7 +1362,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="6023"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"/>
+        <translation>YouTube Tarayıcı çalıştırılamadı.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6024"/>
@@ -1944,12 +1944,12 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="308"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Videoyu ekrana gönder</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="310"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bağlı ekranlar hakkında bilgi</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="313"/>
@@ -1969,77 +1969,77 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="764"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Bağlı ekranlar hakkında bilgi</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="767"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Bağlı ekranlar</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="770"/>
         <location filename="../baseguiplus.cpp" line="812"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>Ekran sayısı: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="775"/>
         <location filename="../baseguiplus.cpp" line="813"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>Birinci ekran: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="783"/>
         <location filename="../baseguiplus.cpp" line="817"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>%1 ekranı bilgileri</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="785"/>
         <location filename="../baseguiplus.cpp" line="819"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Kullanılabilir çözünürlük: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="787"/>
         <source>Available size: %1 x %2</source>
-        <translation>Kullanılabilir bolut: %1 x %2</translation>
+        <translation>Kullanılabilir boyut: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Kullanılabilir sanal çözünürlük: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="792"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Kullanılabilir sanal boyut: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="794"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>Derinlik: %1 bit</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="795"/>
         <location filename="../baseguiplus.cpp" line="821"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Çözünürlük: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="797"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Mantıksal DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="799"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Fiziksel DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="800"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>Fiziksel boyut: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="802"/>
@@ -2054,17 +2054,17 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="804"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Sanal çözünürlük: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="806"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Sanal boyut: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="859"/>
         <source>Primary screen</source>
-        <translation type="unfinished"/>
+        <translation>Birinci ekran</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="925"/>
@@ -2635,13 +2635,16 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"/>
+        <translation>İlave video süzgeçleri de ekleyebilirsiniz.
+Süzgeçleri &quot;,&quot; ile ayırın. Boşluk kullanmayın!
+Örnek: scale=512:-2,mirror</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"/>
+        <translation>Ve son olarak ses süzgeçleri. Video süzgeçlerinde geçerli olan kurallar burada da geçerli.
+Örnek: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2686,12 +2689,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Burada %1 için ek seçenekleri ayarlayabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation>Seçenekleri aralarında boşluk bırakarak yazınız.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -3178,19 +3181,19 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../infofile.cpp" line="223"/>
         <source>Track %1</source>
-        <translation type="unfinished"/>
+        <translation>Parça %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="226"/>
         <location filename="../infofile.cpp" line="234"/>
         <source>Language: %1</source>
-        <translation type="unfinished"/>
+        <translation>Dil: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="227"/>
         <location filename="../infofile.cpp" line="235"/>
         <source>Name: %1</source>
-        <translation type="unfinished"/>
+        <translation>Ad: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="228"/>
@@ -5055,7 +5058,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation>%1&apos;i &amp;kendi penceresinde çalıştır</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
@@ -5065,7 +5068,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation>&amp;1 çökm&amp;e raporu</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
@@ -5075,22 +5078,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"/>
+        <translation>%1 çı&amp;ktısının kaydını tut</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Burada %1 için süzgeçleri ve seçenekleri kullanabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"/>
+        <translation>%1 k&amp;aydını otomatik olarak dosyaya kaydet</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation>&amp;MPlayer&apos;ın %1 seçeneğini kullanın (güvenlik riski)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -5155,7 +5158,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation>Burada %1 için video süzgeçleri ekleyebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
@@ -5166,7 +5169,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation>Burada %1 için ses süzgeçleri ekleyebilirsiniz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
@@ -5176,12 +5179,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="169"/>
         <source>R&amp;un the following actions every time a file is opened. The actions must be separated with spaces:</source>
-        <translation type="unfinished"/>
+        <translation>D&amp;osya her açıldığında aşağıdaki eylemleri çalıştır. Eylemler boşluk karakteriyle ayrılmalıdır:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"/>
+        <translation>Ses &amp;süzgeçleri:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5491,12 +5494,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"/>
+        <translation>Kullanmak istediğiniz çoklu ortam motorunu seçin; MPlayer veya mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="958"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"/>
+        <translation>&apos;Diğer&apos; seçeneği çalıştırılabilir bir yolu elle seçmenize izin verir.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="961"/>
@@ -5511,12 +5514,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>Yayınların ayarlarını hatırla</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçeneği işaretlerseniz çevrimiçi yayınların ayarları da hatırlanacaktır.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
@@ -5531,12 +5534,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1001"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"/>
+        <translation>Örneğin %1 ekran görüntüsünü &apos;görüntüadı_0001.png&apos; şeklinde kaydedecktir.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1002"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"/>
+        <translation>%1 dosya adını uzantısı olmadan belirtir, %2 eksik varsa başı sıfırlarla doldurulmuş 4 basamaklı sayı ekler.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
@@ -5546,7 +5549,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1013"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçenek kaydedilecek ekran görüntülerinin dosya tipini seçmenize izin verir.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1031"/>
@@ -5601,18 +5604,18 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçenek ekran görüntülerini kaydetmek için kullanılan dosya adı şablonunu gösterir.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1004"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"/>
+        <translation>Şablon belirteçlerinin tamamı için bağlantıyı ziyaret ediniz:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1008"/>
         <location filename="../prefgeneral.cpp" line="1015"/>
         <source>This option only works with mpv.</source>
-        <translation>Bu seçenek yanlız mpv ile çalışmaktadır.</translation>
+        <translation>Bu seçenek yalnız mpv ile çalışmaktadır.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
@@ -5697,7 +5700,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"/>
+        <translation>Çoklu ortam &amp;motoru:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
@@ -5712,7 +5715,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Biçim:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -6375,7 +6378,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation>Evrensel kısayollar olarak çoklu ortam t&amp;uşlarını kullan</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6777,7 +6780,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation>Evrensel kısayollar olarak çoklu ortam tuşlarını kullan</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
@@ -6881,7 +6884,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="425"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"/>
+        <translation>&quot;Fare tekerleğinin değiştirme işlevini&quot; kullanırken bu işlevin dönüşebileceği eylemleri seçin.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
@@ -7067,7 +7070,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>Tam ekran kipinde fare ettirildiğinde kayan denetimler görünür.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
@@ -7077,7 +7080,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>D&amp;enetimlerin kaybolma zamanı (milisaniye):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
@@ -7242,7 +7245,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>Center window</source>
-        <translation>Orta pencere</translation>
+        <translation>Pencereyi ortala</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
@@ -7585,12 +7588,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video siteleri için destekler</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"/>
+        <translation>YouTube seçenekleri</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7832,7 +7835,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Donanımsal kod çözme</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
@@ -8108,7 +8111,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"/>
+        <translation>Bu seçenek, gerekli olduğunda önbelleği etkinleştirir.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -8336,7 +8339,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"/>
+        <translation>Ö&amp;nceki dosya başarısız olsa bile sonrakini oynat</translation>
     </message>
 </context>
 <context>
@@ -8618,7 +8621,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation>Biçemi ASS dosyalarına da uygula</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8977,7 +8980,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Güncelleme sonrası güncellemeyle ilgili bilgilendirme sayfasını aç</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -9025,12 +9028,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tamam</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;İptal</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9396,12 +9399,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kayan video başlığı</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"/>
+        <translation>Oynatılıyor</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
