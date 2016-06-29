@@ -938,7 +938,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1841"/>
         <source>Update the &amp;YouTube code</source>
-        <translation>&amp;Eguneratu YouTube kodea</translation>
+        <translation>Eguneratu &amp;YouTube kodea</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2171"/>
@@ -1939,7 +1939,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../baseguiplus.cpp" line="295"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>Erakutsi i&amp;kurra sistema-erretiluan</translation>
+        <translation>E&amp;rakutsi ikurra sistema-erretiluan</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="308"/>
