@@ -68,7 +68,7 @@
 #define COL_USER 5
 
 FindSubtitlesWindow::FindSubtitlesWindow( QWidget * parent, Qt::WindowFlags f )
-	: QDialog(parent,f)
+	: QWidget(parent,f)
 {
 	setupUi(this);
 
