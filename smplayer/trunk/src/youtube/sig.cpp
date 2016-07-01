@@ -96,12 +96,12 @@ QString Sig::findFunctions(const QString & text) {
 				qDebug() << "Sig::findFunctions: possible var:" << possible_var;
 				#endif
 				if ((possible_var != "a") && (possible_var != "")) {
-					QString s = findText(text, "var "+ possible_var, "};");
+					QString s = findText(text, "var "+ possible_var +"=", "};");
 					#ifdef ULTRAVERBOSE
 					qDebug() << "Sig::findFunctions: s:" << s;
 					#endif
 					if (!s.isEmpty()) {
-						function2 = "var "+ possible_var +" "+ s +" };";
+						function2 = "var "+ possible_var +" = "+ s +" };";
 						break;
 					}
 				}
