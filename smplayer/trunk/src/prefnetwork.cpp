@@ -52,6 +52,10 @@ PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 
 	connect(streaming_type_combo, SIGNAL(currentIndexChanged(int)), this, SLOT(streaming_type_combo_changed(int)));
 
+#ifndef YOUTUBE_SUPPORT
+	youtube_box->hide();
+#endif
+
 	retranslateStrings();
 }
 
@@ -73,7 +77,7 @@ void PrefNetwork::retranslateStrings() {
 	int streaming_item = streaming_type_combo->currentIndex();
 	streaming_type_combo->clear();
 	streaming_type_combo->addItem(tr("Disabled"), Preferences::NoStreaming);
-	#if defined(YOUTUBE_SUPPORT) && defined(MPV_SUPPORT)
+	#ifdef MPV_SUPPORT
 	streaming_type_combo->addItem(tr("Auto"), Preferences::StreamingAuto);
 	#endif
 	#ifdef YOUTUBE_SUPPORT
@@ -167,8 +171,8 @@ void PrefNetwork::createHelp() {
 	setWhatsThis(streaming_type_combo, tr("Support for video sites"),
 		"<ul>"
 		"<li><b>" + tr("Disabled") +":</b> " + tr("support for video sites is turned off") +"</li>"+
-		#if defined(YOUTUBE_SUPPORT) && defined(MPV_SUPPORT)
-		"<li><b>" + tr("Auto") +":</b> " + tr("enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites") +"</li>"+
+		#ifdef MPV_SUPPORT
+		"<li><b>" + tr("Auto") +":</b> " + tr("it will try to use mpv + youtube-dl only for the sites that require it") +"</li>"+
 		#endif
 		#ifdef YOUTUBE_SUPPORT
 		"<li><b>YouTube:</b> " + tr("only the internal support for YouTube will be used") +"</li>"+
