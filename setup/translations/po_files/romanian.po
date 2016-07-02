@@ -24,7 +24,7 @@ msgstr ""
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "A eșuat instalarea mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
@@ -36,7 +36,7 @@ msgstr ""
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Se descarcă mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
@@ -385,8 +385,8 @@ msgstr "Instalatorul rulează deja."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-06-22 18:19+0000\n"
+"Last-Translator: titus <titus0818@gmail.com>\n"
 "Language-Team: Romanian (http://www.transifex.com/rvm/smplayer/language/"
 "ro/)\n"
 "Language: ro\n"

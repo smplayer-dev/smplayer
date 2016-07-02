@@ -4,47 +4,47 @@ msgstr "Binární kodeky nejsou v této verzi podporovány."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Čištění nastavení SMPlayeru..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Čištění mezipaměti nastavení písma ..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Kontrolování aktualizací pro youtube-dl..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Nelze stáhnout youtube-dl: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "Instlace youtube-dl nebyla úspěšná. Zkusit znovu?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Chyba při instalaci mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Nelze stáhnout mpv: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "Instlace mpv nebyla úspěšná. Zkusit znovu?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Stahování mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Obnovování mpv z předchozích instalací..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Zálohování mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -159,6 +159,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Jste si jisti, že chcete obnovit nastavení SMPlayer? Tuto akci nelze vrátit "
+"zpět."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -345,6 +347,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Nepodporovaný operační systém.[:n:]SMPlayer ${SMPLAYER_VERSION} vyžaduje "
+"nejméně Windows XP a nemusí pracovat správně na vašem systému.[:n:]Opravdu "
+"chce pokračovat v instalaci?"
 
 # OS_Not_Supported
 msgid ""
@@ -374,12 +379,12 @@ msgstr "Instalátor již běží."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Petr Šimáček <petr.simacek@gmail.com>, 2014-2015
+# Petr Šimáček <petr.simacek@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-06-10 15:34+0000\n"
+"Last-Translator: Petr Šimáček <petr.simacek@gmail.com>\n"
 "Language-Team: Czech (http://www.transifex.com/rvm/smplayer/language/cs/)\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"

@@ -347,6 +347,10 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Неподдерживаемая версия операционной системы.[:n:]SMPlayer "
+"${SMPLAYER_VERSION} требует как минимум Windows Vista и может работать "
+"неправильно на вашей системе.[:n:]Вы действительно хотите продолжить "
+"установку?"
 
 # OS_Not_Supported
 msgid ""
@@ -380,12 +384,13 @@ msgstr "Программа установки уже запущена."
 # Translators:
 # Andrei Stepanov, 2014-2016
 # angry_snake <inactive+angry_snake@transifex.com>, 2014
+# Simple88, 2016
 # Andrei Stepanov, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-03-21 05:36+0000\n"
-"Last-Translator: Andrei Stepanov\n"
+"PO-Revision-Date: 2016-06-24 15:32+0000\n"
+"Last-Translator: Simple88\n"
 "Language-Team: Russian (http://www.transifex.com/rvm/smplayer/language/ru/)\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
