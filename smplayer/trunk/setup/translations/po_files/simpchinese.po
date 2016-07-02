@@ -4,47 +4,47 @@ msgstr "此版本不支持二进制解码器"
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "清除 SMPlayer 设置中..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "清除字体配置缓存中..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "检查 youtube-dl 更新中..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "下载 youtube-dl 失败：'$R0'。"
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl 未安装成功。是否重试？"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "安装 mpv 失败。"
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "下载 mpv 失败： '$R0'。"
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv 未安装成功。是否重试？"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "下载 mpv 中..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "从上次安装恢复 MPV 中..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "备份 mpv 中..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -156,7 +156,7 @@ msgstr "重新安装"
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
-msgstr ""
+msgstr "确定重置 SMPlayer 设置？此操作不可恢复！"
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -332,6 +332,8 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"不支持的操作系统。[:n:]SMPlayer ${SMPLAYER_VERSION} 最低支持 Windows Vista，"
+"其在您的系统上可能无法正常工作。[:n:]您真的要继续安装吗?"
 
 # OS_Not_Supported
 msgid ""
@@ -359,12 +361,12 @@ msgstr "安装程序已在运行。"
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# zhangmin <zm1990s@gmail.com>, 2014-2015
+# zhangmin <zm1990s@gmail.com>, 2014-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-06-15 09:19+0000\n"
+"Last-Translator: zhangmin <zm1990s@gmail.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/rvm/smplayer/"
 "language/zh_CN/)\n"
 "Language: zh_CN\n"

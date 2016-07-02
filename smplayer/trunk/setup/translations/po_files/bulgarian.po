@@ -4,47 +4,47 @@ msgstr "Бинарните кодеци не са поддържани за та
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Изчистване на SMPlayer насройки..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Изчистване на шрифтовите запаси с настройки..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Проверка за обновления на youtube-dl..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Неуспешно изтегляне на youtube-dl: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl е неуспешно инсталиран. Повторен опит?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Неуспешно инсталиране на mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Неуспешно изтегляне на mpv: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv е неуспешно инсталиран. Повторен опит?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Изтегляне на mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Възстановяване на mpv от предишна инсталация..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Резервиране копие на mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -162,6 +162,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Сигурни ли сте, че искате да анулирате настройките на SMPlayer? Това "
+"действие няма обратно на себе си."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -350,6 +352,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Неподдържана операционна система.[:n:]SMPlayer ${SMPLAYER_VERSION} изисква "
+"версия на поне Windows Vista и може да не работи добре на Вашата система.[:"
+"n:]Сигурни ли сте, че икате да продължите с инсталацията?"
 
 # OS_Not_Supported
 msgid ""
@@ -382,11 +387,12 @@ msgstr "Инсталаторът вече работи."
 #
 # Translators:
 # Радослав Иванов <reckku@gmail.com>, 2014-2015
+# Радослав Иванов <reckku@gmail.com>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-06-13 13:21+0000\n"
+"Last-Translator: Радослав Иванов <reckku@gmail.com>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/rvm/smplayer/language/"
 "bg/)\n"
 "Language: bg\n"
