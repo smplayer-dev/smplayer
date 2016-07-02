@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Instalaci tohoto programu je potřeba prov
 ${LangFileString} SMPlayer_Is_Running "Jeden SMPlayer je spuštěn. Ukončete, prosím, SMPlayer a zkuste to znovu."
 
 ${LangFileString} OS_Not_Supported "Nepodporovaný operační systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje nejméně Windows XP a nemusí pracovat správně na vašem systému.$\nOpravdu chce pokračovat v instalaci?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Nepodporovaný operační systém.$\nSMPlayer ${SMPLAYER_VERSION} vyžaduje nejméně Windows XP a nemusí pracovat správně na vašem systému.$\nOpravdu chce pokračovat v instalaci?"
 ${LangFileString} Win64_Required "Pro instalaci tohoto software je zapotřebí mít 64-bitový oprační systém Windows."
 ${LangFileString} Existing_32bitInst "Máte nainstalovánu 32-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 32-bitový SMPlayer."
 ${LangFileString} Existing_64bitInst "Máte nainstalovánu 64-bitovou verzi SMPlayeru. Musíte nejprve odinstalovat 64-bitový SMPlayer."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Stiskněte Odinstalovat jste-li připraveni.
 ${LangFileString} Reinstall_Msg4 "Změnit nastavení instalace"
 ${LangFileString} Reinstall_Msg5 "Resetovat moje nastavení SMPlayeru"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Jste si jisti, že chcete obnovit nastavení SMPlayer? Tuto akci nelze vrátit zpět."
 
 ${LangFileString} Type_Reinstall "reinstalovat"
 ${LangFileString} Type_Downgrade "ponížit verzi"
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "Beru zpět změny..."
 ${LangFileString} Info_Files_Extract "Extrahuji soubory..."
 ${LangFileString} Info_SMTube_Backup "Zálohování SMtube..."
 ${LangFileString} Info_SMTube_Restore "Obnovení SMtube z předchozí instalace..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Zálohování mpv..."
+${LangFileString} Info_MPV_Restore "Obnovování mpv z předchozích instalací..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Stahování mpv..."
+${LangFileString} MPV_DL_Retry "Instlace mpv nebyla úspěšná. Zkusit znovu?"
+${LangFileString} MPV_DL_Failed "Nelze stáhnout mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Chyba při instalaci mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "Instlace youtube-dl nebyla úspěšná. Zkusit znovu?"
+${LangFileString} YTDL_DL_Failed "Nelze stáhnout youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Kontrolování aktualizací pro youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Čištění mezipaměti nastavení písma ..."
+${LangFileString} Info_Cleaning_SMPlayer "Čištění nastavení SMPlayeru..."
