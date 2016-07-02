@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "安装此程序时，您必须以管理员
 ${LangFileString} SMPlayer_Is_Running "SMPlayer 的实例正在运行。请退出 SMPlayer，然后重试。"
 
 ${LangFileString} OS_Not_Supported "不支持的操作系统。$\nSMPlayer ${SMPLAYER_VERSION} 至少需要 Windows XP，其在您的系统上可能无法正常工作。$\n您真的要继续安装吗?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "不支持的操作系统。$\nSMPlayer ${SMPLAYER_VERSION} 最低支持 Windows Vista，其在您的系统上可能无法正常工作。$\n您真的要继续安装吗?"
 ${LangFileString} Win64_Required "安装此软件需要 64 位 Windows 操作系统。"
 ${LangFileString} Existing_32bitInst "SMPlayer 的 32 位安装已存在。您必须先卸载 32 位的 SMPlayer。"
 ${LangFileString} Existing_64bitInst "SMPlayer 的 64 位安装已存在。您必须先卸载 64 位的 SMPlayer。"
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "单击『卸载』继续。"
 ${LangFileString} Reinstall_Msg4 "更改安装设置"
 ${LangFileString} Reinstall_Msg5 "重置 SMPlayer 设置"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "确定重置 SMPlayer 设置？此操作不可恢复！"
 
 ${LangFileString} Type_Reinstall "重新安装"
 ${LangFileString} Type_Downgrade "降级"
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "正在回滚更改..."
 ${LangFileString} Info_Files_Extract "正在提取文件..."
 ${LangFileString} Info_SMTube_Backup "备份 SMTube 中..."
 ${LangFileString} Info_SMTube_Restore "恢复上次安装的 SMTube 中..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "备份 mpv 中..."
+${LangFileString} Info_MPV_Restore "从上次安装恢复 MPV 中..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "下载 mpv 中..."
+${LangFileString} MPV_DL_Retry "mpv 未安装成功。是否重试？"
+${LangFileString} MPV_DL_Failed "下载 mpv 失败： '$R0'。"
+${LangFileString} MPV_Inst_Failed "安装 mpv 失败。"
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl 未安装成功。是否重试？"
+${LangFileString} YTDL_DL_Failed "下载 youtube-dl 失败：'$R0'。"
+${LangFileString} YTDL_Update_Check "检查 youtube-dl 更新中..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "清除字体配置缓存中..."
+${LangFileString} Info_Cleaning_SMPlayer "清除 SMPlayer 设置中..."

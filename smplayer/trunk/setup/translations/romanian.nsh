@@ -116,10 +116,10 @@ ${LangFileString} Info_MPV_Backup "Backing up mpv..."
 ${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
+${LangFileString} MPV_DL_Msg "Se descarcă mpv..."
 ${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
 ${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_Inst_Failed "A eșuat instalarea mpv."
 
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"

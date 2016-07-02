@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Du skal være logget på som administrator
 ${LangFileString} SMPlayer_Is_Running "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
 
 ${LangFileString} OS_Not_Supported "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver som minimum Windows XP og vil måske ikke virke korrekt på dit system.$\nEr du sikker på at du vil fortsætte installationen?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver mindst Windows Vista og virker måske ikke korrekt på dit system.$\nVil du virkelig fortsætte installationen?"
 ${LangFileString} Win64_Required "Det kræver et 64-bit Windows-styresystem at installere dette software."
 ${LangFileString} Existing_32bitInst "Der findes allerede en 32-bit installation af SMPlayer. Du skal først afinstallere 32-bit SMPlayer."
 ${LangFileString} Existing_64bitInst "Der findes allerede en 64-bit installation af SMPlayer. Du skal først afinstallere 64-bit SMPlayer."
@@ -99,7 +99,7 @@ ${LangFileString} Uninstaller_InvalidDirectory "SMPlayer-installation blev ikke 
 ${LangFileString} Uninstaller_64bitOnly "Denne installation kan kun afinstalleres på 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer er en komplet brugerflade til MPlayer, fra grundlæggende funktionalitet såsom at afspille videoer, DVD'er, VCD'er til avanceret funktionalitet såsom understøttelse af MPlayer filtre, EDL lister, og andet."
+${LangFileString} Application_Description "SMPlayer er en komplet front-end til MPlayer, fra grundlæggende funktioner såsom at afspille videoer, DVD'er, VCD'er til avanceret funktioner såsom understøttelse af MPlayer filtre, EDL lister, og andet."
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Foretager backup af codecs fra tidligere installation..."

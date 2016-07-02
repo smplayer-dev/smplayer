@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Трябва да сте вписан ка
 ${LangFileString} SMPlayer_Is_Running "Има работеща инстанция на SMPlayer. Моля, излезте от SMPlayer и опитайте отново."
 
 ${LangFileString} OS_Not_Supported "Неподдържана операционна система.$\nSMPlayer ${SMPLAYER_VERSION} изисква поне Windows XP и може към момента да не работи с Вашата система.$\nНаистина ли искате да продължите с инсталацията?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Неподдържана операционна система.$\nSMPlayer ${SMPLAYER_VERSION} изисква версия на поне Windows Vista и може да не работи добре на Вашата система.$\nСигурни ли сте, че икате да продължите с инсталацията?"
 ${LangFileString} Win64_Required "Изисква се 64-битова операционна система Windows, за да инсталирате този софтуер. "
 ${LangFileString} Existing_32bitInst "Има инсталирана 32-битова версия на SMPlayer. Трябва първо да деинсталирате 32-битовия SMPlayer."
 ${LangFileString} Existing_64bitInst "Има инсталирана 64-битова версия на SMPlayer. Трябва първо да деинсталирате 64-битовия SMPlayer."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Кликнете Деинсталиране,
 ${LangFileString} Reinstall_Msg4 "Промяна на настройките за инсталацията"
 ${LangFileString} Reinstall_Msg5 "Анулиране на моите настройки на SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Сигурни ли сте, че искате да анулирате настройките на SMPlayer? Това действие няма обратно на себе си."
 
 ${LangFileString} Type_Reinstall "преинсталиране"
 ${LangFileString} Type_Downgrade "връщане на версия"
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "Връщане на промените..."
 ${LangFileString} Info_Files_Extract "Разархивиране на файлове..."
 ${LangFileString} Info_SMTube_Backup "Създаване на резервно копие на SMTube..."
 ${LangFileString} Info_SMTube_Restore "Възстановяване на SMTube от предишна инсталация..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Резервиране копие на mpv..."
+${LangFileString} Info_MPV_Restore "Възстановяване на mpv от предишна инсталация..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Изтегляне на mpv..."
+${LangFileString} MPV_DL_Retry "mpv е неуспешно инсталиран. Повторен опит?"
+${LangFileString} MPV_DL_Failed "Неуспешно изтегляне на mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Неуспешно инсталиране на mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl е неуспешно инсталиран. Повторен опит?"
+${LangFileString} YTDL_DL_Failed "Неуспешно изтегляне на youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Проверка за обновления на youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Изчистване на шрифтовите запаси с настройки..."
+${LangFileString} Info_Cleaning_SMPlayer "Изчистване на SMPlayer насройки..."
