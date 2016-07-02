@@ -1,3 +1,10 @@
+smplayer (16.7.0) precise; urgency=low
+
+  * Fix for YouTube.
+  * Some bug fixes mainly for Qt 5.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 03 Jul 2016 00:52:31 +0200
+
 smplayer (16.6.0) precise; urgency=low
 
   * Support for 2 in 1 computers with touch screens.
