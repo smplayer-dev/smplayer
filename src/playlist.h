@@ -23,37 +23,43 @@
 #include <QList>
 #include <QStringList>
 #include <QWidget>
+#include <QModelIndex>
+#include <QStandardItem>
 #include <QProcess>
 
-class PlaylistItem {
-
+class PLItem : public QStandardItem {
 public:
-	PlaylistItem() { _filename=""; _name=""; _duration=0; 
-                     _played = false; _deleted=false; };
-	PlaylistItem(QString filename, QString name, double duration) {
-		         _filename = filename; _name = name; _duration = duration; 
-                 _played = false; _deleted = false; };
-	~PlaylistItem() {};
+	PLItem();
+	PLItem(const QString filename, const QString name, double duration);
+	~PLItem();
 
-	void setFilename(QString filename) { _filename = filename; };
-	void setName(QString name) { _name = name; };
-	void setDuration(double duration) { _duration = duration; };
-	void setPlayed(bool b) { _played = b; };
-	void setMarkForDeletion(bool b) { _deleted = b; };
+	void setFilename(const QString filename);
+	void setName(const QString name);
+	void setDuration(double duration);
+	void setPlayed(bool played);
+	void setPosition(int position);
+	void setCurrent(bool b);
 
-	QString filename() { return _filename; };
-	QString name() { return _name; };
-	double duration() { return _duration; };
-	bool played() { return _played; };
-	bool markedForDeletion() { return _deleted; };
+	QString filename();
+	QString name();
+	double duration();
+	bool played();
+	int position();
+	bool isCurrent();
 
-private:
-	QString _filename, _name;
-	double _duration;
-	bool _played, _deleted;
+	QList<QStandardItem *> items();
+
+protected:
+	QStandardItem * col_num;
+	QStandardItem * col_duration;
+	QStandardItem * col_filename;
 };
 
-class MyTableWidget;
+
+class QTableView;
+class QStandardItemModel;
+class QStandardItem;
+
 class QToolBar;
 class MyAction;
 class Core;
@@ -74,11 +80,14 @@ public:
 
 	void clear();
 	void list();
+
 	int count();
 	bool isEmpty();
-	QString print(QString seperator);
 
 	bool isModified() { return modified; };
+
+	PLItem * itemData(int row);
+	void changeItem(int row, const QString & filename, const QString name, double duration, bool played = false, int pos = -1);
 
 public slots:
 	void addItem(QString filename, QString name, double duration);
@@ -96,10 +105,6 @@ public slots:
 
 	virtual void removeSelected();
 	virtual void removeAll();
-	virtual void remove(int);
-
-	virtual void moveItemUp(int);
-	virtual void moveItemDown(int);
 
 	virtual void addCurrentFile();
 	virtual void addFiles();
@@ -115,15 +120,11 @@ public slots:
 	// Adds a directory, maybe with recursion (depends on user config)
 	virtual void addDirectory(QString dir);
 
-	// EDIT BY NEO -->
-	virtual void sortBy(int section);
-	// <--
-
 	virtual void deleteSelectedFileFromDisk();
 
 	virtual bool maybeSave();
-    virtual void load();
-    virtual bool save();
+	virtual void load();
+	virtual bool save();
 
 	virtual void load_m3u(QString file);
 	virtual bool save_m3u(QString file);
@@ -152,8 +153,6 @@ public:
 	bool playFilesFromStart() { return play_files_from_start; };
 	bool ignorePlayerErrors() { return ignore_player_errors; };
 
-	QList<PlaylistItem> playlist(){return pl;};
-
 /*
 public:
 	MyAction * playPrevAct() { return prevAct; };
@@ -166,24 +165,20 @@ signals:
 	void modifiedChanged(bool);
 
 protected:
-	void updateView();
 	void setCurrentItem(int current);
+	int findCurrentItem();
 	void clearPlayedTag();
 	int chooseRandomItem();
-	void swapItems(int item1, int item2 );
-	// EDIT BY NEO -->
-	void sortBy(int section, bool revert, int count);
-	// <--
 	QString lastDir();
 
 protected slots:
 	virtual void playCurrent();
-	virtual void itemDoubleClicked(int row);
+	virtual void itemActivated(const QModelIndex & index );
 	virtual void showPopup(const QPoint & pos);
 	virtual void upItem();
 	virtual void downItem();
 	virtual void editCurrentItem();
-	virtual void editItem(int item);
+	virtual void editItem(int row);
 
 	virtual void saveSettings();
 	virtual void loadSettings();
@@ -208,10 +203,6 @@ protected:
 	virtual void closeEvent( QCloseEvent * e );
 
 protected:
-	typedef QList <PlaylistItem> PlaylistItemList;
-	PlaylistItemList pl;
-	int current_item;
-
 	QString playlist_path;
 	QString latest_dir;
 
@@ -220,7 +211,8 @@ protected:
 	QMenu * remove_menu;
 	QMenu * popup;
 
-	MyTableWidget * listView;
+	QTableView * listView;
+	QStandardItemModel * table;
 
 	QToolBar * toolbar;
 	QToolButton * add_button;
@@ -264,6 +256,4 @@ private:
 	bool change_title;
 };
 
-
 #endif
-
