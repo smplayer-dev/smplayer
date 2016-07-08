@@ -18,6 +18,9 @@
 
 #include "playlist.h"
 
+#include <QTableView>
+#include <QStandardItemModel>
+#include <QStyledItemDelegate>
 #include <QToolBar>
 #include <QFile>
 #include <QTextStream>
@@ -47,7 +50,6 @@
 #include "myscroller.h"
 #endif
 
-#include "mytablewidget.h"
 #include "myaction.h"
 #include "filedialog.h"
 #include "helper.h"
@@ -68,11 +70,134 @@
 #define DRAG_ITEMS 0
 #define PL_ALLOW_DUPLICATES 1
 
-#define COL_PLAY 0
+#define COL_NUM 0
 #define COL_NAME 1
 #define COL_TIME 2
+#define COL_FILENAME 3
+
+// Roles
+#define VAR_PLAYED Qt::UserRole + 2
+#define VAR_CURRENT Qt::UserRole + 3
 
 using namespace Global;
+
+class PlaylistDelegate : public QStyledItemDelegate {
+public:
+	PlaylistDelegate(QObject * parent = 0) : QStyledItemDelegate(parent) {};
+	virtual void paint(QPainter * painter, const QStyleOptionViewItem & option, const QModelIndex & index) const {
+		QStyleOptionViewItem opt = option;
+		initStyleOption(&opt, index);
+		if (index.column() == COL_NAME) {
+			bool played = index.data(VAR_PLAYED).toBool();
+			bool current = index.data(VAR_CURRENT).toBool();
+			if (current) opt.font.setBold(true);
+			else
+			if (played) opt.font.setItalic(true);
+		}
+		else
+		if (index.column() == COL_FILENAME) {
+			opt.textElideMode = Qt::ElideMiddle;
+		}
+		QStyledItemDelegate::paint(painter, opt, index);
+	}
+};
+
+
+/* ----------------------------------------------------------- */
+
+
+PLItem::PLItem() : QStandardItem() {
+	col_num = new QStandardItem();
+	col_duration = new QStandardItem();
+	col_filename = new QStandardItem();
+
+	setDuration(0);
+	setPlayed(false);
+	setCurrent(false);
+
+	col_num->setTextAlignment(Qt::AlignRight | Qt::AlignVCenter);
+}
+
+PLItem::PLItem(const QString filename, const QString name, double duration) : QStandardItem() {
+	col_num = new QStandardItem();
+	col_duration = new QStandardItem();
+	col_filename = new QStandardItem();
+
+	setFilename(filename);
+	setName(name);
+	setDuration(duration);
+	setPlayed(false);
+	setCurrent(false);
+
+	col_num->setTextAlignment(Qt::AlignRight | Qt::AlignVCenter);
+}
+
+PLItem::~PLItem() {
+}
+
+void PLItem::setFilename(const QString filename) {
+	col_filename->setText(filename);
+	col_filename->setToolTip(filename);
+	col_filename->setData(filename);
+}
+
+void PLItem::setName(const QString name) {
+	setText(name);
+	setData(name);
+	setToolTip(name);
+}
+
+void PLItem::setDuration(double duration) {
+	col_duration->setData(duration);
+	col_duration->setText(Helper::formatTime(duration));
+}
+
+void PLItem::setPlayed(bool played) {
+	setData(played, VAR_PLAYED);
+}
+
+void PLItem::setPosition(int position) {
+	//col_num->setText(QString("%1").arg(position, 4, 10, QChar('0')));
+	col_num->setText(QString::number(position));
+	col_num->setData(position);
+}
+
+void PLItem::setCurrent(bool b) {
+	setData(b, VAR_CURRENT);
+}
+
+QString PLItem::filename() {
+	return col_filename->data().toString();
+}
+
+QString PLItem::name() {
+	return text();
+}
+
+double PLItem::duration() {
+	return col_duration->data().toDouble();
+}
+
+bool PLItem::played() {
+	return data(VAR_PLAYED).toBool();
+}
+
+int PLItem::position() {
+	return col_num->data().toInt();
+}
+
+bool PLItem::isCurrent() {
+	return data(VAR_CURRENT).toBool();
+}
+
+QList<QStandardItem *> PLItem::items() {
+	QList<QStandardItem *> l;
+	l << col_num << this << col_duration << col_filename;
+	return l;
+}
+
+
+/* ----------------------------------------------------------- */
 
 
 Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
@@ -150,30 +275,46 @@ void Playlist::setModified(bool mod) {
 }
 
 void Playlist::createTable() {
-	listView = new MyTableWidget( 0, COL_TIME + 1, this);
+	table = new QStandardItemModel(this);
+	table->setColumnCount(COL_FILENAME + 1);
+	table->setSortRole(Qt::UserRole + 1);
+
+	PlaylistDelegate * pl_delegate = new PlaylistDelegate(this);
+
+	listView = new QTableView(this);
+	listView->setModel(table);
+	listView->setItemDelegateForColumn(COL_NAME, pl_delegate);
+	listView->setItemDelegateForColumn(COL_FILENAME, pl_delegate);
+
 	listView->setObjectName("playlist_table");
 	listView->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Expanding );
 	listView->setSelectionBehavior(QAbstractItemView::SelectRows);
 	listView->setSelectionMode(QAbstractItemView::ExtendedSelection);
 	listView->setContextMenuPolicy( Qt::CustomContextMenu );
 	listView->setShowGrid(false);
-	listView->setSortingEnabled(false);
+	listView->setSortingEnabled(true);
 	//listView->setAlternatingRowColors(true);
+	listView->setEditTriggers(QAbstractItemView::NoEditTriggers);
+
+	listView->verticalHeader()->hide();
 
 #if QT_VERSION >= 0x050000
 	MyScroller::setScroller(listView->viewport());
 
 	listView->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
-	listView->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
+//	listView->horizontalHeader()->setSectionResizeMode(COL_NAME, QHeaderView::Stretch);
 #else
 	listView->horizontalHeader()->setResizeMode(QHeaderView::Interactive);
-	listView->horizontalHeader()->setResizeMode(COL_NAME, QHeaderView::Stretch);
+//	listView->horizontalHeader()->setResizeMode(COL_NAME, QHeaderView::Stretch);
+//	listView->horizontalHeader()->setResizeMode(COL_FILENAME, QHeaderView::Interactive);
 #endif
+	listView->horizontalHeader()->setStretchLastSection(true);
+
 	/*
 	listView->horizontalHeader()->setResizeMode(COL_TIME, QHeaderView::ResizeToContents);
 	listView->horizontalHeader()->setResizeMode(COL_PLAY, QHeaderView::ResizeToContents);
 	*/
-	listView->setIconSize( Images::icon("ok").size() );
+	//listView->setIconSize( Images::icon("ok").size() );
 
 #if DRAG_ITEMS
 	listView->setSelectionMode(QAbstractItemView::SingleSelection);
@@ -183,12 +324,8 @@ void Playlist::createTable() {
 	listView->setDragDropMode(QAbstractItemView::InternalMove);
 #endif
 
-	connect( listView, SIGNAL(cellActivated(int,int)),
-             this, SLOT(itemDoubleClicked(int)) );
-
-	// EDIT BY NEO -->
-	connect( listView->horizontalHeader(), SIGNAL(sectionClicked(int)), this, SLOT(sortBy(int)));
-	// <--
+	connect(listView, SIGNAL(activated(const QModelIndex &)),
+            this, SLOT(itemActivated(const QModelIndex &)) );
 }
 
 void Playlist::createActions() {
@@ -300,8 +437,7 @@ void Playlist::createToolbar() {
 }
 
 void Playlist::retranslateStrings() {
-	listView->setHorizontalHeaderLabels( QStringList() << "   " <<
-        tr("Name") << tr("Length") );
+	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename") );
 
 	openAct->change( Images::icon("open"), tr("&Load") );
 	saveAct->change( Images::icon("save"), tr("&Save") );
@@ -350,124 +486,87 @@ void Playlist::retranslateStrings() {
 void Playlist::list() {
 	qDebug("Playlist::list");
 
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		qDebug( "filename: '%s', name: '%s' duration: %f",
-               (*it).filename().toUtf8().data(), (*it).name().toUtf8().data(),
-               (*it).duration() );
+	for (int n = 0; n < count(); n++) {
+		PLItem * i = itemData(n);
+		qDebug() << "Playlist::list: filename:" << i->filename() << "name:" << i->name() << "duration:" << i->duration();
 	}
-}
-
-
-QString Playlist::print(QString seperator){
-	qDebug("Playlist::print");
-	QString output = "";
-
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		output += it->filename() + seperator + it->name() + seperator + QString::number(it->duration()) + "\r\n";
-	}
-
-	return output;
-}
-
-void Playlist::updateView() {
-	qDebug("Playlist::updateView");
-
-	listView->setRowCount( pl.count() );
-
-	//QString number;
-	QString name;
-	QString time;
-
-	for (int n=0; n < pl.count(); n++) {
-		name = pl[n].name();
-		if (name.isEmpty()) name = pl[n].filename();
-		time = Helper::formatTime( (int) pl[n].duration() );
-		
-		//listView->setText(n, COL_POS, number);
-		qDebug("Playlist::updateView: name: '%s'", name.toUtf8().data());
-		listView->setText(n, COL_NAME, name);
-		listView->setText(n, COL_TIME, time);
-
-		if (pl[n].played()) {
-			listView->setIcon(n, COL_PLAY, Images::icon("ok") );
-		} else {
-			listView->setIcon(n, COL_PLAY, QPixmap() );
-		}
-
-		if (row_spacing > -1) listView->setRowHeight(n, listView->font().pointSize() + row_spacing);
-	}
-	//listView->resizeColumnsToContents();
-	listView->resizeColumnToContents(COL_PLAY);
-	listView->resizeColumnToContents(COL_TIME);
-
-	setCurrentItem(current_item);
-
-	//adjustSize();
 }
 
 void Playlist::setCurrentItem(int current) {
-	QIcon play_icon;
-	play_icon = Images::icon("play");
-
-	int old_current = current_item;
-	current_item = current;
-
-	if ((current_item > -1) && (current_item < pl.count())) {
-		pl[current_item].setPlayed(true);
+	for (int n = 0; n < count(); n++) {
+		PLItem * item = itemData(n);
+		item->setCurrent( (n == current) );
+		if (n == current) {
+			item->setPlayed(true);
+		}
 	}
 
-	if ( (old_current >= 0) && (old_current < listView->rowCount()) ) {
-		listView->setIcon(old_current, COL_PLAY, QPixmap() );
-	}
+	listView->selectionModel()->setCurrentIndex(listView->model()->index(current, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+}
 
-	if ( (current_item >= 0) && (current_item < listView->rowCount()) ) {
-		listView->setIcon(current_item, COL_PLAY, play_icon );
+int Playlist::findCurrentItem() {
+	for (int n = 0; n < count(); n++) {
+		if (itemData(n)->isCurrent()) return n;
 	}
-	//if (current_item >= 0) listView->selectRow(current_item);
-	if (current_item >= 0) {
-		listView->clearSelection();
-		listView->setCurrentCell( current_item, 0);
-	}
+	return -1;
 }
 
 void Playlist::clear() {
-	pl.clear();
-
-	listView->clearContents();
-	listView->setRowCount(0);
-
+	table->setRowCount(0);
 	setCurrentItem(0);
-
-	setModified( false );
-}
-
-void Playlist::remove(int i){
-	if(i > -1 && i < pl.count()){
-		pl.removeAt(i);
-		if(current_item == i && i == (pl.count() - 1))
-			setCurrentItem(i - 1);
-		setModified(false);
-		updateView();
-	} //end if
+	setModified(false);
 }
 
 int Playlist::count() {
-	return pl.count();
+	return table->rowCount();
 }
 
 bool Playlist::isEmpty() {
-	return pl.isEmpty();
+	return (table->rowCount() > 0);
+}
+
+PLItem * Playlist::itemData(int row) {
+	QStandardItem * i = table->item(row, COL_NAME);
+	return static_cast<PLItem*>(i);
+}
+
+void Playlist::changeItem(int row, const QString & filename, const QString name, double duration, bool played, int pos) {
+	PLItem * i = itemData(row);
+
+	int position = row + 1;
+	if (pos != -1) position = pos;
+	i->setPosition(position);
+
+	i->setFilename(filename);
+	i->setName(name);
+	i->setDuration(duration);
+	i->setPlayed(played);
 }
 
 void Playlist::addItem(QString filename, QString name, double duration) {
-	qDebug("Playlist::addItem: '%s'", filename.toUtf8().data());
+	qDebug() << "Playlist::addItem:" << filename;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
 	#endif
 
+		if (name.isEmpty()) {
+			QFileInfo fi(filename);
+			// Let's see if it looks like a file (no dvd://1 or something)
+			if (filename.indexOf(QRegExp("^.*://.*")) == -1) {
+				// Local file
+				name = fi.fileName();
+			} else {
+				// Stream
+				name = filename;
+			}
+		}
+
+	PLItem * i = new PLItem(filename, name, duration);
+	i->setPosition(count()+1);
+	table->appendRow(i->items());
+
+/*
 #if !PL_ALLOW_DUPLICATES
 	// Test if already is in the list
 	bool exists = false;
@@ -506,98 +605,9 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 		qDebug("Playlist::addItem: item not added, already in the list");
 	}
 #endif
+*/
 }
 
-// EDIT BY NEO -->
-void Playlist::sortBy(int section) {
-	qDebug("Playlist::sortBy");
-
-	sortBy(section, false, 0);
-}
-
-void Playlist::sortBy(int section, bool revert, int count) {
-    // Bubble sort
-    bool swaped = false;
-
-    for ( int n = 0; n < (pl.count() - count); n++) {
-
-      int last = n - 1;
-      int current = n;
-
-      // Revert the sort
-      if (revert) {
-          last = n;
-          current = n - 1;
-      }
-
-      if (n > 0) {
-          int compare = 0;
-
-          if (section == 0) {
-              // Sort by played
-              bool lastItem = pl[last].played();
-              bool currentItem = pl[current].played();
-
-              if (!lastItem && currentItem) {
-                  compare = 1;
-              } else if (lastItem && currentItem) {
-                  if (last == current_item) {
-                     compare = 1;
-                 } else {
-                     compare = -1;
-                 }
-              } else {
-                  compare = -1;
-              }
-          }
-          else if (section == 1) {
-              // Sort alphabetically
-              QString lastItem = pl[last].name();
-              QString currentItem = pl[current].name();
-              compare = lastItem.compare(currentItem);
-          } else if (section == 2) {
-              // Sort by duration
-              double lastItem = pl[last].duration();
-              double currentItem = pl[current].duration();
-
-              if (lastItem == currentItem) {
-                  compare = 0;
-              } else if (lastItem > currentItem) {
-                  compare = 1;
-              } else {
-                  compare = -1;
-              }
-          }
-
-          // Swap items
-          if(compare > 0) {
-              swapItems(n, n - 1);
-
-              if (current_item == (n - 1)) {
-                  current_item = n;
-              } else if (current_item == n) {
-                  current_item = n - 1;
-              }
-
-              listView->clearSelection();
-              listView->setCurrentCell(n - 1, 0);
-
-              swaped = true;
-          }
-      }
-    }
-
-    if ((count == 0) && !swaped && !revert) {
-        // Revert sort
-        sortBy(section, true, 0);
-    }else if(swaped) {
-        // Sort until there is nothing to sort
-        sortBy(section, revert, ++count);
-    } else {
-        updateView();
-    }
-}
-// <--
 
 void Playlist::load_m3u(QString file) {
 	qDebug("Playlist::load_m3u");
@@ -668,8 +678,7 @@ void Playlist::load_m3u(QString file) {
 			}
 		}
 		f.close();
-		list();
-		updateView();
+		//list();
 
 		setModified( false );
 
@@ -718,8 +727,7 @@ void Playlist::load_pls(QString file) {
 
 	set.endGroup();
 
-	list();
-	updateView();
+	//list();
 
 	setModified( false );
 
@@ -762,15 +770,14 @@ void Playlist::loadXSPF(const QString & filename) {
 			track = track.nextSiblingElement("track");
 		}
 
-		list();
-		updateView();
+		//list();
 		setModified( false );
 		startPlay();
 	}
 }
 
 bool Playlist::save_m3u(QString file) {
-	qDebug("Playlist::save_m3u: '%s'", file.toUtf8().data());
+	qDebug() << "Playlist::save_m3u:" << file;
 
 	QString dir_path = QFileInfo(file).path();
 	if (!dir_path.endsWith("/")) dir_path += "/";
@@ -779,15 +786,15 @@ bool Playlist::save_m3u(QString file) {
 	dir_path = Helper::changeSlashes(dir_path);
 	#endif
 
-	qDebug(" * dirPath: '%s'", dir_path.toUtf8().data());
+	qDebug() << "Playlist::save_m3u: dir_path:" << dir_path;
 
 	bool utf8 = (QFileInfo(file).suffix().toLower() == "m3u8");
 
 	QFile f( file );
-    if ( f.open( QIODevice::WriteOnly ) ) {
-        QTextStream stream( &f );
+	if ( f.open( QIODevice::WriteOnly ) ) {
+		QTextStream stream( &f );
 
-		if (utf8) 
+		if (utf8)
 			stream.setCodec("UTF-8");
 		else
 			stream.setCodec(QTextCodec::codecForLocale());
@@ -797,33 +804,33 @@ bool Playlist::save_m3u(QString file) {
 		stream << "#EXTM3U" << "\n";
 		stream << "# Playlist created by SMPlayer " << Version::printable() << " \n";
 
-		PlaylistItemList::iterator it;
-		for ( it = pl.begin(); it != pl.end(); ++it ) {
-			filename = (*it).filename();
+		for (int n = 0; n < count(); n++) {
+			PLItem * i = itemData(n);
+			filename = i->filename();
 			#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 			filename = Helper::changeSlashes(filename);
 			#endif
 			stream << "#EXTINF:";
-			stream << (*it).duration() << ",";
-			stream << (*it).name() << "\n";
+			stream << i->duration() << ",";
+			stream << i->name() << "\n";
 			// Try to save the filename as relative instead of absolute
 			if (filename.startsWith( dir_path )) {
 				filename = filename.mid( dir_path.length() );
 			}
 			stream << filename << "\n";
 		}
-        f.close();
+		f.close();
 
 		setModified( false );
 		return true;
-    } else {
+	} else {
 		return false;
 	}
 }
 
 
 bool Playlist::save_pls(QString file) {
-	qDebug("Playlist::save_pls: '%s'", file.toUtf8().data());
+	qDebug() << "Playlist::save_pls:" << file;
 
 	QString dir_path = QFileInfo(file).path();
 	if (!dir_path.endsWith("/")) dir_path += "/";
@@ -832,16 +839,16 @@ bool Playlist::save_pls(QString file) {
 	dir_path = Helper::changeSlashes(dir_path);
 	#endif
 
-	qDebug(" * dirPath: '%s'", dir_path.toUtf8().data());
+	qDebug() << "Playlist::save_pls: dir_path:" << dir_path;
 
 	QSettings set(file, QSettings::IniFormat);
 	set.beginGroup( "playlist");
-	
+
 	QString filename;
 
-	PlaylistItemList::iterator it;
-	for ( int n=0; n < pl.count(); n++ ) {
-		filename = pl[n].filename();
+	for (int n = 0; n < count(); n++) {
+		PLItem * i = itemData(n);
+		filename = i->filename();
 		#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 		filename = Helper::changeSlashes(filename);
 		#endif
@@ -852,11 +859,11 @@ bool Playlist::save_pls(QString file) {
 		}
 
 		set.setValue("File"+QString::number(n+1), filename);
-		set.setValue("Title"+QString::number(n+1), pl[n].name());
-		set.setValue("Length"+QString::number(n+1), (int) pl[n].duration());
+		set.setValue("Title"+QString::number(n+1), i->name());
+		set.setValue("Length"+QString::number(n+1), (int) i->duration());
 	}
 
-	set.setValue("NumberOfEntries", pl.count());
+	set.setValue("NumberOfEntries", count());
 	set.setValue("Version", 2);
 
 	set.endGroup();
@@ -881,10 +888,11 @@ bool Playlist::saveXSPF(const QString & filename) {
 		stream << "<playlist version=\"1\" xmlns=\"http://xspf.org/ns/0/\">\n";
 		stream << "\t<trackList>\n";
 
-		for ( int n=0; n < pl.count(); n++ ) {
-			QString location = pl[n].filename();
+		for (int n = 0; n < count(); n++) {
+			PLItem * i = itemData(n);
+			QString location = i->filename();
 			qDebug() << "Playlist::saveXSPF:" << location;
-	
+
 			bool is_local = QFile::exists(location);
 			
 			#ifdef Q_OS_WIN
@@ -906,8 +914,8 @@ bool Playlist::saveXSPF(const QString & filename) {
 				#endif
 			}
 
-			QString title = pl[n].name();
-			int duration = pl[n].duration() * 1000;
+			QString title = i->name();
+			int duration = i->duration() * 1000;
 
 			#if QT_VERSION >= 0x050000
 			location = location.toHtmlEscaped();
@@ -957,6 +965,7 @@ void Playlist::load() {
 			else {
 				load_m3u(s);
 			}
+			//listView->resizeColumnsToContents();
 		}
 	}
 }
@@ -1022,15 +1031,15 @@ bool Playlist::maybeSave() {
 }
 
 void Playlist::playCurrent() {
-	int current = listView->currentRow();
+	int current = listView->currentIndex().row();
 	if (current > -1) {
 		playItem(current);
 	}
 }
 
-void Playlist::itemDoubleClicked(int row) {
-	qDebug("Playlist::itemDoubleClicked: row: %d", row );
-	playItem(row);
+void Playlist::itemActivated(const QModelIndex & index ) {
+	qDebug() << "Playlist::itemActivated: row:" << index.row();
+	playItem(index.row());
 }
 
 void Playlist::showPopup(const QPoint & pos) {
@@ -1051,28 +1060,22 @@ void Playlist::startPlay() {
 }
 
 void Playlist::playItem( int n ) {
-	qDebug("Playlist::playItem: %d (count:%d)", n, pl.count());
+	qDebug("Playlist::playItem: %d (count: %d)", n, count());
 
-	if ( (n >= pl.count()) || (n < 0) ) {
+	if ( (n >= count()) || (n < 0) ) {
 		qDebug("Playlist::playItem: out of range");
 		emit playlistEnded();
 		return;
 	}
 
-	qDebug(" playlist_path: '%s'", playlist_path.toUtf8().data() );
-
-	QString filename = pl[n].filename();
-	QString filename_with_path = playlist_path + "/" + filename;
-
+	QString filename = itemData(n)->filename();
 	if (!filename.isEmpty()) {
-		//pl[n].setPlayed(true);
 		setCurrentItem(n);
 		if (play_files_from_start) 
 			core->open(filename, 0);
 		else
 			core->open(filename);
 	}
-
 }
 
 void Playlist::playNext() {
@@ -1089,33 +1092,38 @@ void Playlist::playNext() {
 				if (chosen_item == -1) chosen_item = 0;
 			}
 		}
-		playItem( chosen_item );
+		playItem(chosen_item);
 	} else {
-		bool finished_list = (current_item+1 >= pl.count());
+		int current = findCurrentItem();
+		bool finished_list = (current + 1 >= count());
 		if (finished_list) clearPlayedTag();
 
-		if ( (repeatAct->isChecked()) && (finished_list) ) {
+		if (repeatAct->isChecked() && finished_list) {
 			playItem(0);
 		} else {
-			playItem( current_item+1 );
+			playItem(current + 1);
 		}
 	}
 }
 
 void Playlist::playPrev() {
 	qDebug("Playlist::playPrev");
-	if (current_item > 0) {
-		playItem( current_item-1 );
+	int current = findCurrentItem() - 1;
+	if (current >= 0) {
+		playItem(current);
 	} else {
-		if (pl.count() > 1) playItem( pl.count() -1 );
+		if (count() > 1) playItem(count() - 1);
 	}
 }
 
 
 void Playlist::resumePlay() {
-	if (pl.count() > 0) {
-		if (current_item < 0) current_item = 0;
-		playItem(current_item);
+	qDebug("Playlist::resumePlay");
+
+	if (count() > 0) {
+		int current = findCurrentItem();
+		if (current < 0) current = 0;
+		playItem(current);
 	}
 }
 
@@ -1148,24 +1156,23 @@ void Playlist::getMediaInfo() {
 		if (!artist.isEmpty()) name = artist + " - " + name;
 	}
 
-	for (int n = 0; n < pl.count(); n++) {
-		if (pl[n].filename() == filename) {
+	for (int n = 0; n < count(); n++) {
+		PLItem * i = itemData(n);
+		if (i->filename() == filename) {
 			// Found item
-			if (pl[n].duration() < 1) {
+			if (i->duration() < 1) {
 				if (!name.isEmpty()) {
-					pl[n].setName(name);
+					i->setName(name);
 				}
-				pl[n].setDuration(duration);
+				i->setDuration(duration);
 			}
 			else
 			// Edited name (sets duration to 1)
-			if (pl[n].duration() == 1) {
-				pl[n].setDuration(duration);
+			if (i->duration() == 1) {
+				i->setDuration(duration);
 			}
 		}
 	}
-
-	updateView();
 }
 
 // Add current file to playlist
@@ -1191,7 +1198,7 @@ void Playlist::addFiles() {
 void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 	qDebug("Playlist::addFiles");
 
-#if USE_INFOPROVIDER
+	#if USE_INFOPROVIDER
 	bool get_info = (auto_get_info == GetInfo);
 	if (auto_get_info == UserDefined) {
 		get_info = automatically_get_info;
@@ -1199,31 +1206,31 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 
 	MediaData data;
 	setCursor(Qt::WaitCursor);
-#endif
+	#endif
 
 	QString initial_file;
-	if (pl.count() == 1) initial_file = pl[0].filename();
+	if (count() == 1) initial_file = itemData(0)->filename();
 	int new_current_item = -1;
 
 	for (int n = 0; n < files.count(); n++) {
 		QString name = "";
 		double duration = 0;
-#if USE_INFOPROVIDER
+		#if USE_INFOPROVIDER
 		if ( (get_info) && (QFile::exists(files[n])) ) {
 			data = InfoProvider::getInfo(files[n]);
 			name = data.displayName();
 			duration = data.duration;
-			//updateView();
 			//qApp->processEvents();
 		}
-#endif
+		#endif
 
 		//qDebug() << "Playlist::addFiles: comparing:" << initial_file << "with" << files[n];
 
 		if (!initial_file.isEmpty() && files[n] == initial_file) {
-			PlaylistItem first_item = pl.takeFirst();
-			name = first_item.name();
-			duration = first_item.duration();
+			PLItem * first_item = itemData(0);
+			name = first_item->name();
+			duration = first_item->duration();
+			table->removeRow(0);
 			new_current_item = n;
 		}
 		addItem(files[n], name, duration);
@@ -1232,14 +1239,13 @@ void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
 			latest_dir = QFileInfo(files[n]).absolutePath();
 		}
 	}
-#if USE_INFOPROVIDER
+	#if USE_INFOPROVIDER
 	unsetCursor();
-#endif
+	#endif
 
 	if (new_current_item != -1) setCurrentItem(new_current_item);
-	updateView();
 
-	qDebug( "Playlist::addFiles: latest_dir: '%s'", latest_dir.toUtf8().constData() );
+	qDebug() << "Playlist::addFiles: latest_dir:" << latest_dir;
 }
 
 void Playlist::addFile(QString file, AutoGetInfo auto_get_info) {
@@ -1264,7 +1270,6 @@ void Playlist::addUrls() {
 		foreach(QString u, urls) {
 			if (!u.isEmpty()) addItem( u, "", 0 );
 		}
-		updateView();
 	}
 }
 
@@ -1278,8 +1283,8 @@ void Playlist::addOneDirectory(QString dir) {
 	QStringList dir_list = QDir(dir).entryList();
 
 	QString filename;
-    QStringList::Iterator it = dir_list.begin();
-    while( it != dir_list.end() ) {
+	QStringList::Iterator it = dir_list.begin();
+	while( it != dir_list.end() ) {
 		filename = dir;
 		if (filename.right(1)!="/") filename += "/";
 		filename += (*it);
@@ -1312,68 +1317,39 @@ void Playlist::addDirectory(QString dir) {
 void Playlist::removeSelected() {
 	qDebug("Playlist::removeSelected");
 
-	int first_selected = -1;
-	int number_previous_item = 0;
+	QModelIndexList indexes = listView->selectionModel()->selectedRows();
+	int count = indexes.count();
 
-	for (int n=0; n < listView->rowCount(); n++) {
-		if (listView->isSelected(n, 0)) {
-			qDebug(" row %d selected", n);
-			pl[n].setMarkForDeletion(true);
-			number_previous_item++;
-			if (first_selected == -1) first_selected = n;
-		}
+	for (int n = count; n > 0; n--) {
+		table->removeRow(indexes.at(n-1).row());
+		setModified(true);
 	}
-
-	PlaylistItemList::iterator it;
-	for ( it = pl.begin(); it != pl.end(); ++it ) {
-		if ( (*it).markedForDeletion() ) {
-			qDebug("Remove '%s'", (*it).filename().toUtf8().data());
-			it = pl.erase(it);
-			it--;
-			setModified( true );
-		}
-	}
-
-
-    if (first_selected < current_item) {
-        current_item -= number_previous_item;
-    }
 
 	if (isEmpty()) setModified(false);
-	updateView();
 
-	if (first_selected >= listView->rowCount()) 
-		first_selected = listView->rowCount() - 1;
-
-	if ( ( first_selected > -1) && ( first_selected < listView->rowCount() ) ) {
-		listView->clearSelection();
-		listView->setCurrentCell( first_selected, 0);
-		//listView->selectRow( first_selected );
+	if (findCurrentItem() == -1) {
+		int current = indexes.at(0).row() - 1;
+		if (current < 0) current = 0;
+		setCurrentItem(current);
 	}
 }
 
 void Playlist::removeAll() {
-	/*
-	pl.clear();
-	updateView();
-	setModified( false );
-	*/
 	clear();
 }
 
 void Playlist::clearPlayedTag() {
-	for (int n = 0; n < pl.count(); n++) {
-		pl[n].setPlayed(false);
+	for (int n = 0; n < count(); n++) {
+		itemData(n)->setPlayed(false);
 	}
-	updateView();
 }
 
 int Playlist::chooseRandomItem() {
 	qDebug( "Playlist::chooseRandomItem");
 
-	QList <int> fi; //List of not played items (free items)
-	for (int n = 0; n < pl.count(); n++) {
-		if (!pl[n].played()) fi.append(n);
+	QList<int> fi; //List of not played items (free items)
+	for (int n = 0; n < count(); n++) {
+		if (!itemData(n)->played()) fi.append(n);
 	}
 
 	qDebug("Playlist::chooseRandomItem: free items: %d", fi.count() );
@@ -1390,125 +1366,100 @@ int Playlist::chooseRandomItem() {
 	return fi[selected];
 }
 
-void Playlist::swapItems(int item1, int item2 ) {
-	PlaylistItem it1 = pl[item1];
-	pl[item1] = pl[item2];
-	pl[item2] = it1;
-	setModified( true );
-}
-
-
 void Playlist::upItem() {
 	qDebug("Playlist::upItem");
 
-	int current = listView->currentRow();
-	qDebug(" currentRow: %d", current );
-
-	moveItemUp(current);
-
+	int row = listView->currentIndex().row();
+	if (row >= 1) {
+		QList<QStandardItem*> cells = table->takeRow(row);
+		table->insertRow(row-1, cells);
+		listView->selectionModel()->setCurrentIndex(listView->model()->index(row-1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+	}
 }
 
 void Playlist::downItem() {
 	qDebug("Playlist::downItem");
 
-	int current = listView->currentRow();
-	qDebug(" currentRow: %d", current );
-
-	moveItemDown(current);
-}
-
-void Playlist::moveItemUp(int current){
-	qDebug("Playlist::moveItemUp");
-
-	if (current >= 1) {
-		swapItems( current, current-1 );
-		if (current_item == (current-1)) current_item = current;
-		else
-		if (current_item == current) current_item = current-1;
-		updateView();
-		listView->clearSelection();
-		listView->setCurrentCell( current-1, 0);
-	}
-}
-void Playlist::moveItemDown(int current	){
-	qDebug("Playlist::moveItemDown");
-
-	if ( (current > -1) && (current < (pl.count()-1)) ) {
-		swapItems( current, current+1 );
-		if (current_item == (current+1)) current_item = current;
-		else
-		if (current_item == current) current_item = current+1;
-		updateView();
-		listView->clearSelection();
-		listView->setCurrentCell( current+1, 0);
+	int row = listView->currentIndex().row();
+	if (row < (table->rowCount()-1)) {
+		QList<QStandardItem*> cells = table->takeRow(row);
+		table->insertRow(row+1, cells);
+		listView->selectionModel()->setCurrentIndex(listView->model()->index(row+1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 	}
 }
 
 void Playlist::editCurrentItem() {
-	int current = listView->currentRow();
+	int current = listView->currentIndex().row();
 	if (current > -1) editItem(current);
 }
 
-void Playlist::editItem(int item) {
-	QString current_name = pl[item].name();
-	if (current_name.isEmpty()) current_name = pl[item].filename();
+void Playlist::editItem(int row) {
+	qDebug() << "Playlist::editItem:" << row;
+
+	PLItem * i = itemData(row);
+	QString current_name = i->name();
+	if (current_name.isEmpty()) current_name = i->filename();
 
 	bool ok;
 	QString text = QInputDialog::getText( this,
-            tr("Edit name"), 
-            tr("Type the name that will be displayed in the playlist for this file:"), 
+            tr("Edit name"),
+            tr("Type the name that will be displayed in the playlist for this file:"),
             QLineEdit::Normal,
             current_name, &ok );
     if ( ok && !text.isEmpty() ) {
-        // user entered something and pressed OK
-		pl[item].setName(text);
+		// user entered something and pressed OK
+		i->setName(text);
 
 		// If duration == 0 the name will be overwritten!
-		if (pl[item].duration()<1) pl[item].setDuration(1); 
-		updateView();
+		if (i->duration() < 1) i->setDuration(1);
 
 		setModified( true );
-    } 
+	}
 }
 
 void Playlist::deleteSelectedFileFromDisk() {
 	qDebug("Playlist::deleteSelectedFileFromDisk");
 
-	int current = listView->currentRow();
-	if (current > -1) {
-		// If more that one row is selected, select only the current one
-		listView->clearSelection();
-		listView->setCurrentCell(current, 0);
+	QModelIndex index = listView->currentIndex();
+	if (!index.isValid()) return;
 
-		QString filename = pl[current].filename();
-		qDebug() << "Playlist::deleteSelectedFileFromDisk: current file:" << filename;
+	int current = index.row();
+	qDebug() << "Playlist::deleteSelectedFileFromDisk: current row:" << current;
 
-		QFileInfo fi(filename);
-		if (fi.exists() && fi.isFile() && fi.isWritable()) {
-			// Ask the user for confirmation
-			int res = QMessageBox::question(this, tr("Confirm deletion"),
-						tr("You're about to DELETE the file '%1' from your drive.").arg(filename) + "<br>"+
-						tr("This action cannot be undone. Are you sure you want to proceed?"),
-						QMessageBox::Yes, QMessageBox::No);
+	// Select only the current row
+	listView->selectionModel()->setCurrentIndex(listView->model()->index(current, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 
-			if (res == QMessageBox::Yes) {
-				// Delete file
-				bool success = QFile::remove(filename);
-				//bool success = false;
+	QString filename = itemData(current)->filename();
+	qDebug() << "Playlist::deleteSelectedFileFromDisk: current file:" << filename;
 
-				if (success) {
-					// Remove item from the playlist
-					removeSelected();
-				} else {
-					QMessageBox::warning(this, tr("Deletion failed"),
-						tr("It wasn't possible to delete '%1'").arg(filename));
+	QFileInfo fi(filename);
+	if (fi.exists() && fi.isFile() && fi.isWritable()) {
+		// Ask the user for confirmation
+		int res = QMessageBox::question(this, tr("Confirm deletion"),
+					tr("You're about to DELETE the file '%1' from your drive.").arg(filename) + "<br>"+
+					tr("This action cannot be undone. Are you sure you want to proceed?"),
+					QMessageBox::Yes, QMessageBox::No);
+
+		if (res == QMessageBox::Yes) {
+			// Delete file
+			bool success = QFile::remove(filename);
+			//bool success = false;
+
+			if (success) {
+				// Remove item from the playlist
+				table->removeRow(current);
+				if (findCurrentItem() == -1) {
+					if (current > 0) setCurrentItem(current-1); else setCurrentItem(0);
 				}
+			} else {
+				QMessageBox::warning(this, tr("Deletion failed"),
+					tr("It wasn't possible to delete '%1'").arg(filename));
 			}
-		} else {
-			qDebug("Playlist::deleteSelectedFileFromDisk: file doesn't exists, it's not a file or it's not writable");
-			QMessageBox::information(this, tr("Error deleting the file"),
-				tr("It's not possible to delete '%1' from the filesystem.").arg(filename));
 		}
+	} else {
+		qDebug("Playlist::deleteSelectedFileFromDisk: file doesn't exists, it's not a file or it's not writable");
+		QMessageBox::information(this, tr("Error deleting the file"),
+			tr("It's not possible to delete '%1' from the filesystem.").arg(filename));
 	}
 }
 
@@ -1624,6 +1575,8 @@ void Playlist::saveSettings() {
 #if !DOCK_PLAYLIST
 	set->setValue( "size", size() );
 #endif
+	set->setValue(QString("header_state/%1").arg(Helper::qtVersion()), listView->horizontalHeader()->saveState());
+
 	if (save_dirs) {
 		set->setValue( "latest_dir", latest_dir );
 	} else {
@@ -1636,13 +1589,14 @@ void Playlist::saveSettings() {
 		//Save current list
 		set->beginGroup( "playlist_contents");
 
-		set->setValue( "count", (int) pl.count() );
-		for ( int n=0; n < pl.count(); n++ ) {
-			set->setValue( QString("item_%1_filename").arg(n), pl[n].filename() );
-			set->setValue( QString("item_%1_duration").arg(n), pl[n].duration() );
-			set->setValue( QString("item_%1_name").arg(n), pl[n].name() );
+		set->setValue( "count", count() );
+		for ( int n=0; n < count(); n++ ) {
+			PLItem * i = itemData(n);
+			set->setValue( QString("item_%1_filename").arg(n), i->filename() );
+			set->setValue( QString("item_%1_duration").arg(n), i->duration() );
+			set->setValue( QString("item_%1_name").arg(n), i->name() );
 		}
-		set->setValue( "current_item", current_item );
+		set->setValue( "current_item", findCurrentItem() );
 		set->setValue( "modified", modified );
 
 		set->endGroup();
@@ -1672,6 +1626,7 @@ void Playlist::loadSettings() {
 #if !DOCK_PLAYLIST
 	resize( set->value("size", size()).toSize() );
 #endif
+	listView->horizontalHeader()->restoreState(set->value(QString("header_state/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray());
 
 	latest_dir = set->value( "latest_dir", latest_dir ).toString();
 
@@ -1692,9 +1647,9 @@ void Playlist::loadSettings() {
 		}
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
 		setModified( set->value( "modified", false ).toBool() );
-		updateView();
 
 		set->endGroup();
+		//listView->resizeColumnsToContents();
 	}
 }
 
