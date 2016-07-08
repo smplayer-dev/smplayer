@@ -1138,6 +1138,8 @@ void Playlist::getMediaInfo() {
 	filename = Helper::changeSlashes(filename);
 	#endif
 
+	int current = findCurrentItem();
+
 	QString name;
 	if (change_title) {
 		name = core->mdat.clip_name;
@@ -1159,6 +1161,7 @@ void Playlist::getMediaInfo() {
 	for (int n = 0; n < count(); n++) {
 		PLItem * i = itemData(n);
 		if (i->filename() == filename) {
+			if (current == -1) setCurrentItem(n);
 			// Found item
 			if (i->duration() < 1) {
 				if (!name.isEmpty()) {
