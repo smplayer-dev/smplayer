@@ -59,9 +59,11 @@ protected:
 class QTableView;
 class QStandardItemModel;
 class QStandardItem;
+class QSortFilterProxyModel;
 
 class QToolBar;
 class MyAction;
+class MyLineEdit;
 class Core;
 class QMenu;
 class QSettings;
@@ -87,7 +89,12 @@ public:
 	bool isModified() { return modified; };
 
 	PLItem * itemData(int row);
+	PLItem * itemFromProxy(int row);
+	bool existsItem(int row);
+
+	/*
 	void changeItem(int row, const QString & filename, const QString name, double duration, bool played = false, int pos = -1);
+	*/
 
 public slots:
 	void addItem(QString filename, QString name, double duration);
@@ -139,6 +146,8 @@ public slots:
 
 	void setModified(bool);
 
+	void setFilter(const QString & filter);
+
 	// Preferences
 	void setDirectoryRecursion(bool b) { recursive_add_directory = b; };
 	void setAutoGetInfo(bool b) { automatically_get_info = b; };
@@ -160,6 +169,7 @@ public:
 */
 
 signals:
+	void requestToPlayFile(const QString & filename, int seek = -1);
 	void playlistEnded();
 	void visibilityChanged(bool visible);
 	void modifiedChanged(bool);
@@ -188,6 +198,8 @@ protected slots:
 	void playerFailed(QProcess::ProcessError);
 	void playerFinishedWithError(int);
 
+	void filterEditChanged(const QString &);
+
 protected:
 	void createTable();
 	void createActions();
@@ -213,10 +225,13 @@ protected:
 
 	QTableView * listView;
 	QStandardItemModel * table;
+	QSortFilterProxyModel * proxy;
 
 	QToolBar * toolbar;
 	QToolButton * add_button;
 	QToolButton * remove_button;
+
+	MyLineEdit * filter_edit;
 
 	MyAction * openAct;
 	MyAction * saveAct;

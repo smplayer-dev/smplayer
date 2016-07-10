@@ -20,6 +20,7 @@
 
 #include <QTableView>
 #include <QStandardItemModel>
+#include <QSortFilterProxyModel>
 #include <QStyledItemDelegate>
 #include <QToolBar>
 #include <QFile>
@@ -51,6 +52,7 @@
 #endif
 
 #include "myaction.h"
+#include "mylineedit.h"
 #include "filedialog.h"
 #include "helper.h"
 #include "images.h"
@@ -277,12 +279,17 @@ void Playlist::setModified(bool mod) {
 void Playlist::createTable() {
 	table = new QStandardItemModel(this);
 	table->setColumnCount(COL_FILENAME + 1);
-	table->setSortRole(Qt::UserRole + 1);
+	//table->setSortRole(Qt::UserRole + 1);
+
+	proxy = new QSortFilterProxyModel(this);
+	proxy->setSourceModel(table);
+	proxy->setSortRole(Qt::UserRole + 1);
+	proxy->setFilterKeyColumn(COL_NAME);
 
 	PlaylistDelegate * pl_delegate = new PlaylistDelegate(this);
 
 	listView = new QTableView(this);
-	listView->setModel(table);
+	listView->setModel(proxy);
 	listView->setItemDelegateForColumn(COL_NAME, pl_delegate);
 	listView->setItemDelegateForColumn(COL_FILENAME, pl_delegate);
 
@@ -387,6 +394,7 @@ void Playlist::createActions() {
 void Playlist::createToolbar() {
 	toolbar = new QToolBar(this);
 	toolbar->setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Minimum );
+	//toolbar->setIconSize(QSize(48,48));
 
 	toolbar->addAction(openAct);
 	toolbar->addAction(saveAct);;
@@ -410,6 +418,9 @@ void Playlist::createToolbar() {
 	remove_button->setMenu( remove_menu );
 	remove_button->setPopupMode(QToolButton::InstantPopup);
 
+	filter_edit = new MyLineEdit(this);
+	connect(filter_edit, SIGNAL(textChanged(const QString &)), this, SLOT(filterEditChanged(const QString &)));
+
 	toolbar->addWidget(add_button);
 	toolbar->addWidget(remove_button);
 
@@ -424,6 +435,8 @@ void Playlist::createToolbar() {
 	toolbar->addSeparator();
 	toolbar->addAction(moveUpAct);
 	toolbar->addAction(moveDownAct);
+	toolbar->addSeparator();
+	toolbar->addWidget(filter_edit);
 
 	// Popup menu
 	popup = new QMenu(this);
@@ -478,6 +491,11 @@ void Playlist::retranslateStrings() {
 	remove_button->setIcon( Images::icon("minus") );
 	remove_button->setToolTip( tr("Remove...") );
 
+	// Filter edit
+#if QT_VERSION >= 0x040700
+	filter_edit->setPlaceholderText(tr("Search"));
+#endif
+
 	// Icon
 	setWindowIcon( Images::icon("logo", 64) );
 	setWindowTitle( tr( "SMPlayer - Playlist" ) );
@@ -492,22 +510,55 @@ void Playlist::list() {
 	}
 }
 
+void Playlist::setFilter(const QString & filter) {
+	proxy->setFilterWildcard(filter);
+}
+
+void Playlist::filterEditChanged(const QString & text) {
+	qDebug() << "Playlist::filterEditChanged:" << text;
+	setFilter(text);
+}
+
 void Playlist::setCurrentItem(int current) {
+	QModelIndex index = proxy->index(current, 0);
+	QModelIndex s_index = proxy->mapToSource(index);
+
+	//qDebug() << "Playlist::setCurrentItem: index:" << index.row() << "s_index:" << s_index.row();
+
+	int s_current = s_index.row();
+
+	PLItem * item = 0;
 	for (int n = 0; n < count(); n++) {
-		PLItem * item = itemData(n);
-		item->setCurrent( (n == current) );
-		if (n == current) {
+		item = itemData(n);
+		item->setCurrent( (n == s_current) );
+		if (n == s_current) {
 			item->setPlayed(true);
 		}
 	}
 
+	listView->clearSelection();
 	listView->selectionModel()->setCurrentIndex(listView->model()->index(current, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 }
 
 int Playlist::findCurrentItem() {
-	for (int n = 0; n < count(); n++) {
-		if (itemData(n)->isCurrent()) return n;
+	//qDebug("Playlist::findCurrentItem");
+
+	static int last_current = -1;
+
+	// Check if the last found current is still the current item to save time
+	PLItem * i = itemFromProxy(last_current);
+	if (i && i->isCurrent()) {
+		//qDebug() << "Playlist::findCurrentItem: return last_current:" << last_current;
+		return last_current;
 	}
+
+	for (int n = 0; n < proxy->rowCount(); n++) {
+		if (itemFromProxy(n)->isCurrent()) {
+			last_current = n;
+			return n;
+		}
+	}
+
 	return -1;
 }
 
@@ -525,11 +576,27 @@ bool Playlist::isEmpty() {
 	return (table->rowCount() > 0);
 }
 
+bool Playlist::existsItem(int row) {
+	return (row > -1 && row < table->rowCount());
+}
+
 PLItem * Playlist::itemData(int row) {
 	QStandardItem * i = table->item(row, COL_NAME);
 	return static_cast<PLItem*>(i);
 }
 
+PLItem * Playlist::itemFromProxy(int row) {
+	QModelIndex index = proxy->index(row, 0);
+	QModelIndex s_index = proxy->mapToSource(index);
+	//qDebug() << "Playlist::itemFromProxy: index is valid:" << index.isValid() << "s_index is valid:" << s_index.isValid();
+	if (index.isValid() && s_index.isValid()) {
+		return itemData(s_index.row());
+	} else {
+		return 0;
+	}
+}
+
+/*
 void Playlist::changeItem(int row, const QString & filename, const QString name, double duration, bool played, int pos) {
 	PLItem * i = itemData(row);
 
@@ -542,9 +609,10 @@ void Playlist::changeItem(int row, const QString & filename, const QString name,
 	i->setDuration(duration);
 	i->setPlayed(played);
 }
+*/
 
 void Playlist::addItem(QString filename, QString name, double duration) {
-	qDebug() << "Playlist::addItem:" << filename;
+	//qDebug() << "Playlist::addItem:" << filename;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
@@ -565,6 +633,8 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 	PLItem * i = new PLItem(filename, name, duration);
 	i->setPosition(count()+1);
 	table->appendRow(i->items());
+
+	if (findCurrentItem() == -1) setCurrentItem(0);
 
 /*
 #if !PL_ALLOW_DUPLICATES
@@ -1060,21 +1130,22 @@ void Playlist::startPlay() {
 }
 
 void Playlist::playItem( int n ) {
-	qDebug("Playlist::playItem: %d (count: %d)", n, count());
+	qDebug("Playlist::playItem: %d (count: %d)", n, proxy->rowCount());
 
-	if ( (n >= count()) || (n < 0) ) {
+	if ( (n >= proxy->rowCount()) || (n < 0) ) {
 		qDebug("Playlist::playItem: out of range");
 		emit playlistEnded();
 		return;
 	}
 
-	QString filename = itemData(n)->filename();
+	QString filename = itemFromProxy(n)->filename();
 	if (!filename.isEmpty()) {
 		setCurrentItem(n);
-		if (play_files_from_start) 
-			core->open(filename, 0);
-		else
-			core->open(filename);
+		if (play_files_from_start) {
+			emit requestToPlayFile(filename, 0);
+		} else {
+			emit requestToPlayFile(filename);
+		}
 	}
 }
 
@@ -1095,7 +1166,7 @@ void Playlist::playNext() {
 		playItem(chosen_item);
 	} else {
 		int current = findCurrentItem();
-		bool finished_list = (current + 1 >= count());
+		bool finished_list = (current + 1 >= proxy->rowCount());
 		if (finished_list) clearPlayedTag();
 
 		if (repeatAct->isChecked() && finished_list) {
@@ -1112,7 +1183,7 @@ void Playlist::playPrev() {
 	if (current >= 0) {
 		playItem(current);
 	} else {
-		if (count() > 1) playItem(count() - 1);
+		if (proxy->rowCount() > 1) playItem(proxy->rowCount() - 1);
 	}
 }
 
@@ -1138,7 +1209,7 @@ void Playlist::getMediaInfo() {
 	filename = Helper::changeSlashes(filename);
 	#endif
 
-	int current = findCurrentItem();
+	//int current = findCurrentItem();
 
 	QString name;
 	if (change_title) {
@@ -1161,7 +1232,7 @@ void Playlist::getMediaInfo() {
 	for (int n = 0; n < count(); n++) {
 		PLItem * i = itemData(n);
 		if (i->filename() == filename) {
-			if (current == -1) setCurrentItem(n);
+			//if (current == -1) setCurrentItem(n);
 			// Found item
 			if (i->duration() < 1) {
 				if (!name.isEmpty()) {
@@ -1324,7 +1395,8 @@ void Playlist::removeSelected() {
 	int count = indexes.count();
 
 	for (int n = count; n > 0; n--) {
-		table->removeRow(indexes.at(n-1).row());
+		QModelIndex s_index = proxy->mapToSource(indexes.at(n-1));
+		table->removeRow(s_index.row());
 		setModified(true);
 	}
 
@@ -1351,8 +1423,8 @@ int Playlist::chooseRandomItem() {
 	qDebug( "Playlist::chooseRandomItem");
 
 	QList<int> fi; //List of not played items (free items)
-	for (int n = 0; n < count(); n++) {
-		if (!itemData(n)->played()) fi.append(n);
+	for (int n = 0; n < proxy->rowCount(); n++) {
+		if (!itemFromProxy(n)->played()) fi.append(n);
 	}
 
 	qDebug("Playlist::chooseRandomItem: free items: %d", fi.count() );
@@ -1370,29 +1442,48 @@ int Playlist::chooseRandomItem() {
 }
 
 void Playlist::upItem() {
-	qDebug("Playlist::upItem");
+	QModelIndex index = listView->currentIndex();
+	QModelIndex s_index = proxy->mapToSource(index);
 
-	int row = listView->currentIndex().row();
-	if (row >= 1) {
+	QModelIndex prev = listView->model()->index(index.row()-1, 0);
+	QModelIndex s_prev = proxy->mapToSource(prev);
+
+	qDebug() << "Playlist::upItem: row:" << index.row() << "source row:" << s_index.row();
+	qDebug() << "Playlist::upItem: previous row:" << prev.row() << "previous source row:" << s_prev.row();
+
+	if (s_index.isValid() && s_prev.isValid()) {
+		int row = s_index.row();
 		QList<QStandardItem*> cells = table->takeRow(row);
-		table->insertRow(row-1, cells);
-		listView->selectionModel()->setCurrentIndex(listView->model()->index(row-1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+		table->insertRow(s_prev.row(), cells);
+		listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row()-1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 	}
 }
 
 void Playlist::downItem() {
 	qDebug("Playlist::downItem");
 
-	int row = listView->currentIndex().row();
-	if (row < (table->rowCount()-1)) {
+	QModelIndex index = listView->currentIndex();
+	QModelIndex s_index = proxy->mapToSource(index);
+
+	QModelIndex next = listView->model()->index(index.row()+1, 0);
+	QModelIndex s_next = proxy->mapToSource(next);
+
+	qDebug() << "Playlist::downItem: row:" << index.row() << "source row:" << s_index.row();
+	qDebug() << "Playlist::downItem: next row:" << next.row() << "next source row:" << s_next.row();
+
+	if (s_index.isValid() && s_next.isValid()) {
+		int row = s_index.row();
 		QList<QStandardItem*> cells = table->takeRow(row);
-		table->insertRow(row+1, cells);
-		listView->selectionModel()->setCurrentIndex(listView->model()->index(row+1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+		table->insertRow(s_next.row(), cells);
+		listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row()+1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 	}
 }
 
 void Playlist::editCurrentItem() {
-	int current = listView->currentIndex().row();
+	QModelIndex v_index = listView->currentIndex();
+	QModelIndex s_index = proxy->mapToSource(v_index);
+	qDebug() << "Playlist::editCurrentItem: row:" << v_index.row() << "source row:" << s_index.row();
+	int current = s_index.row();
 	if (current > -1) editItem(current);
 }
 
@@ -1426,11 +1517,13 @@ void Playlist::deleteSelectedFileFromDisk() {
 	QModelIndex index = listView->currentIndex();
 	if (!index.isValid()) return;
 
-	int current = index.row();
-	qDebug() << "Playlist::deleteSelectedFileFromDisk: current row:" << current;
+	QModelIndex s_index = proxy->mapToSource(index);
+
+	qDebug() << "Playlist::deleteSelectedFileFromDisk: row:" << index.row() << "source row:" << s_index.row();
+	int current = s_index.row();
 
 	// Select only the current row
-	listView->selectionModel()->setCurrentIndex(listView->model()->index(current, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+	listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row(), 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
 
 	QString filename = itemData(current)->filename();
 	qDebug() << "Playlist::deleteSelectedFileFromDisk: current file:" << filename;
