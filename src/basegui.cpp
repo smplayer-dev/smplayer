@@ -2435,6 +2435,8 @@ void BaseGui::createPlaylist() {
              this, SLOT(playlistVisibilityChanged()) );
 	*/
 
+	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int)),
+            core, SLOT(open(const QString &, int)));
 }
 
 void BaseGui::createPanel() {
