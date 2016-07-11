@@ -117,6 +117,14 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 		// Not supported
 	}
 	else
+	if (option_name == "softvol") {
+		if (value.toString() != "off") {
+			int v = value.toInt();
+			if (v < 100) v = 100;
+			arg << "-softvol" << "-softvol-max" << QString::number(v);
+		}
+	}
+	else
 	if (option_name == "keepaspect" ||
 	    option_name == "dr" || option_name == "double" ||
 	    option_name == "fs" || option_name == "slices" ||

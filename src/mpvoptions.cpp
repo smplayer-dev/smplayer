@@ -246,13 +246,20 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "softvol") {
-		arg << "--softvol=yes";
-	}
-	else
-	if (option_name == "softvol-max") {
-		int v = value.toInt();
-		if (v < 100) v = 100;
-		arg << "--softvol-max=" + QString::number(v);
+		if (value.toString() == "off") {
+			if (isOptionAvailable("--volume-max")) {
+				arg << "--volume-max=100";
+			}
+		} else {
+			int v = value.toInt();
+			if (v < 100) v = 100;
+			if (isOptionAvailable("--volume-max")) {
+				arg << "--volume-max=" + QString::number(v);
+			} else {
+				arg << "--softvol=yes";
+				arg << "--softvol-max=" + QString::number(v);
+			}
+		}
 	}
 	else
 	if (option_name == "subfps") {

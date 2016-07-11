@@ -2368,8 +2368,9 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	if (pref->use_soft_vol) {
-		proc->setOption("softvol");
-		proc->setOption("softvol-max", QString::number(pref->softvol_max));
+		proc->setOption("softvol", QString::number(pref->softvol_max));
+	} else {
+		proc->setOption("softvol", "off");
 	}
 
 #ifdef MPV_SUPPORT
