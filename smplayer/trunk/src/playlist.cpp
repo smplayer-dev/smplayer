@@ -77,12 +77,9 @@
 #define COL_TIME 2
 #define COL_FILENAME 3
 
-// Roles
-#define VAR_PLAYED Qt::UserRole + 2
-#define VAR_CURRENT Qt::UserRole + 3
-
 using namespace Global;
 
+#if 0
 class PlaylistDelegate : public QStyledItemDelegate {
 public:
 	PlaylistDelegate(QObject * parent = 0) : QStyledItemDelegate(parent) {};
@@ -103,7 +100,7 @@ public:
 		QStyledItemDelegate::paint(painter, opt, index);
 	}
 };
-
+#endif
 
 /* ----------------------------------------------------------- */
 
@@ -141,6 +138,17 @@ void PLItem::setFilename(const QString filename) {
 	col_filename->setText(filename);
 	col_filename->setToolTip(filename);
 	col_filename->setData(filename);
+
+	if (!filename.contains("://") && filename.count() > 50) {
+		QStringList parts = filename.split(QDir::separator());
+		//if (!parts.isEmpty() && parts[0].isEmpty()) parts[0] = "/";
+		//qDebug() << "PLItem::setFilename: parts count:" << parts.count() << "parts:" << parts;
+		if (parts.count() >= 2) {
+			QString s = parts[parts.count()-2] + QDir::separator() + parts[parts.count()-1];
+			if (parts.count() > 2) s = QString("...") + QDir::separator() + s;
+			col_filename->setText(s);
+		}
+	}
 }
 
 void PLItem::setName(const QString name) {
@@ -155,7 +163,10 @@ void PLItem::setDuration(double duration) {
 }
 
 void PLItem::setPlayed(bool played) {
-	setData(played, VAR_PLAYED);
+	setData(played, Role_Played);
+	QFont f = font();
+	f.setItalic(played);
+	setFont(f);
 }
 
 void PLItem::setPosition(int position) {
@@ -165,7 +176,11 @@ void PLItem::setPosition(int position) {
 }
 
 void PLItem::setCurrent(bool b) {
-	setData(b, VAR_CURRENT);
+	setData(b, Role_Current);
+	QFont f = font();
+	f.setBold(b);
+	f.setItalic(b ? false : played());
+	setFont(f);
 }
 
 QString PLItem::filename() {
@@ -181,7 +196,7 @@ double PLItem::duration() {
 }
 
 bool PLItem::played() {
-	return data(VAR_PLAYED).toBool();
+	return data(Role_Played).toBool();
 }
 
 int PLItem::position() {
@@ -189,7 +204,7 @@ int PLItem::position() {
 }
 
 bool PLItem::isCurrent() {
-	return data(VAR_CURRENT).toBool();
+	return data(Role_Current).toBool();
 }
 
 QList<QStandardItem *> PLItem::items() {
@@ -284,14 +299,19 @@ void Playlist::createTable() {
 	proxy = new QSortFilterProxyModel(this);
 	proxy->setSourceModel(table);
 	proxy->setSortRole(Qt::UserRole + 1);
-	proxy->setFilterKeyColumn(COL_NAME);
+	proxy->setFilterRole(Qt::UserRole + 1);
+	proxy->setFilterKeyColumn(-1); // All columns
 
+#if 0
 	PlaylistDelegate * pl_delegate = new PlaylistDelegate(this);
+#endif
 
 	listView = new QTableView(this);
 	listView->setModel(proxy);
+#if 0
 	listView->setItemDelegateForColumn(COL_NAME, pl_delegate);
 	listView->setItemDelegateForColumn(COL_FILENAME, pl_delegate);
+#endif
 
 	listView->setObjectName("playlist_table");
 	listView->setSizePolicy( QSizePolicy::Expanding, QSizePolicy::Expanding );
@@ -300,7 +320,7 @@ void Playlist::createTable() {
 	listView->setContextMenuPolicy( Qt::CustomContextMenu );
 	listView->setShowGrid(false);
 	listView->setSortingEnabled(true);
-	//listView->setAlternatingRowColors(true);
+	listView->setAlternatingRowColors(true);
 	listView->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
 	listView->verticalHeader()->hide();
@@ -530,10 +550,10 @@ void Playlist::setCurrentItem(int current) {
 	PLItem * item = 0;
 	for (int n = 0; n < count(); n++) {
 		item = itemData(n);
-		item->setCurrent( (n == s_current) );
 		if (n == s_current) {
 			item->setPlayed(true);
 		}
+		item->setCurrent( (n == s_current) );
 	}
 
 	listView->clearSelection();
@@ -1673,6 +1693,9 @@ void Playlist::saveSettings() {
 #endif
 	set->setValue(QString("header_state/%1").arg(Helper::qtVersion()), listView->horizontalHeader()->saveState());
 
+	set->setValue( "sort_column", proxy->sortColumn() );
+	set->setValue( "sort_order", proxy->sortOrder() );
+
 	if (save_dirs) {
 		set->setValue( "latest_dir", latest_dir );
 	} else {
@@ -1724,6 +1747,9 @@ void Playlist::loadSettings() {
 #endif
 	listView->horizontalHeader()->restoreState(set->value(QString("header_state/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray());
 
+	int sort_column = set->value("sort_column", COL_NUM).toInt();
+	int sort_order = set->value("sort_order", Qt::AscendingOrder).toInt();
+
 	latest_dir = set->value( "latest_dir", latest_dir ).toString();
 
 	set->endGroup();
@@ -1747,6 +1773,8 @@ void Playlist::loadSettings() {
 		set->endGroup();
 		//listView->resizeColumnsToContents();
 	}
+
+	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 }
 
 QString Playlist::lastDir() {
