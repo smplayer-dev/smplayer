@@ -29,6 +29,8 @@
 
 class PLItem : public QStandardItem {
 public:
+	 enum PLItem_Roles { Role_Played = Qt::UserRole + 2, Role_Current = Qt::UserRole + 3 };
+
 	PLItem();
 	PLItem(const QString filename, const QString name, double duration);
 	~PLItem();
