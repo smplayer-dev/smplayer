@@ -209,6 +209,7 @@ protected slots:
 	virtual void exitFullscreenOnStop();
 	virtual void exitFullscreenIfNeeded();
 	virtual void playlistHasFinished();
+	virtual void addToPlaylistCurrentFile();
 
 	virtual void displayState(Core::State state);
 	virtual void displayMessage(QString message, int time);

@@ -1277,6 +1277,8 @@ void Core::finishRestart() {
 	emit mediaInfoChanged();
 	emit newDuration(mdat.duration);
 
+	emit mediaDataReceived(mdat);
+
 	updateWidgets(); // New
 
 	qDebug("Core::finishRestart: --- end ---");

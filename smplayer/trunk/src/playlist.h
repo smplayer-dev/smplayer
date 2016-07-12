@@ -26,6 +26,7 @@
 #include <QModelIndex>
 #include <QStandardItem>
 #include <QProcess>
+#include "mediadata.h"
 
 class PLItem : public QStandardItem {
 public:
@@ -66,7 +67,6 @@ class QSortFilterProxyModel;
 class QToolBar;
 class MyAction;
 class MyLineEdit;
-class Core;
 class QMenu;
 class QSettings;
 class QToolButton;
@@ -79,7 +79,7 @@ class Playlist : public QWidget
 public:
 	enum AutoGetInfo { NoGetInfo = 0, GetInfo = 1, UserDefined = 2 };
 
-	Playlist( Core *c, QWidget * parent = 0, Qt::WindowFlags f = Qt::Window );
+	Playlist(QWidget * parent = 0, Qt::WindowFlags f = Qt::Window );
 	~Playlist();
 
 	void clear();
@@ -107,62 +107,67 @@ public slots:
 
 	void playItem(int n);
 
-	virtual void playNext();
-	virtual void playPrev();
+	void playNext();
+	void playPrev();
 
-	virtual void resumePlay();
+	void resumePlay();
 
-	virtual void removeSelected();
-	virtual void removeAll();
+	void removeSelected();
+	void removeAll();
 
-	virtual void addCurrentFile();
-	virtual void addFiles();
-	virtual void addDirectory();
-	virtual void addUrls();
+	void addCurrentFile();
+	void addFiles();
+	void addDirectory();
+	void addUrls();
 
-	virtual void addFile(QString file, AutoGetInfo auto_get_info = UserDefined);
-	virtual void addFiles(QStringList files, AutoGetInfo auto_get_info = UserDefined);
+	void addFile(QString file, AutoGetInfo auto_get_info = UserDefined);
+	void addFiles(QStringList files, AutoGetInfo auto_get_info = UserDefined);
 
 	// Adds a directory, no recursive
-	virtual void addOneDirectory(QString dir);
+	void addOneDirectory(QString dir);
 
 	// Adds a directory, maybe with recursion (depends on user config)
-	virtual void addDirectory(QString dir);
+	void addDirectory(QString dir);
 
-	virtual void deleteSelectedFileFromDisk();
+	void deleteSelectedFileFromDisk();
 
-	virtual bool maybeSave();
-	virtual void load();
-	virtual bool save();
+	bool maybeSave();
+	void load();
+	bool save();
 
-	virtual void load_m3u(QString file);
-	virtual bool save_m3u(QString file);
+	void load_m3u(QString file);
+	bool save_m3u(QString file);
 
-	virtual void load_pls(QString file);
-	virtual bool save_pls(QString file);
+	void load_pls(QString file);
+	bool save_pls(QString file);
 
 	void loadXSPF(const QString & filename);
 	bool saveXSPF(const QString & filename);
-
-	virtual void getMediaInfo();
 
 	void setModified(bool);
 
 	void setFilter(const QString & filter);
 
+	// Slots to connect from basegui
+	void getMediaInfo(const MediaData &);
+	void playerFailed(QProcess::ProcessError);
+	void playerFinishedWithError(int);
+
+public:
 	// Preferences
 	void setDirectoryRecursion(bool b) { recursive_add_directory = b; };
 	void setAutoGetInfo(bool b) { automatically_get_info = b; };
 	void setSavePlaylistOnExit(bool b) { save_playlist_in_config = b; };
 	void setPlayFilesFromStart(bool b) { play_files_from_start = b; };
 	void setIgnorePlayerErrors(bool b) { ignore_player_errors = b; };
+	void setAutomaticallyPlayNext(bool b) { automatically_play_next = b; };
 
-public:
 	bool directoryRecursion() { return recursive_add_directory; };
 	bool autoGetInfo() { return automatically_get_info; };
 	bool savePlaylistOnExit() { return save_playlist_in_config; };
 	bool playFilesFromStart() { return play_files_from_start; };
 	bool ignorePlayerErrors() { return ignore_player_errors; };
+	bool automaticallyPlayNext() { return automatically_play_next; };
 
 /*
 public:
@@ -172,6 +177,7 @@ public:
 
 signals:
 	void requestToPlayFile(const QString & filename, int seek = -1);
+	void requestToAddCurrentFile();
 	void playlistEnded();
 	void visibilityChanged(bool visible);
 	void modifiedChanged(bool);
@@ -184,21 +190,18 @@ protected:
 	QString lastDir();
 
 protected slots:
-	virtual void playCurrent();
-	virtual void itemActivated(const QModelIndex & index );
-	virtual void showPopup(const QPoint & pos);
-	virtual void upItem();
-	virtual void downItem();
-	virtual void editCurrentItem();
-	virtual void editItem(int row);
+	void playCurrent();
+	void itemActivated(const QModelIndex & index );
+	void showPopup(const QPoint & pos);
+	void upItem();
+	void downItem();
+	void editCurrentItem();
+	void editItem(int row);
 
-	virtual void saveSettings();
-	virtual void loadSettings();
+	void saveSettings();
+	void loadSettings();
 
-	virtual void maybeSaveSettings();
-
-	void playerFailed(QProcess::ProcessError);
-	void playerFinishedWithError(int);
+	void maybeSaveSettings();
 
 	void filterEditChanged(const QString &);
 
@@ -220,7 +223,6 @@ protected:
 	QString playlist_path;
 	QString latest_dir;
 
-	Core * core;
 	QMenu * add_menu;
 	QMenu * remove_menu;
 	QMenu * popup;

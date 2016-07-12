@@ -2414,29 +2414,28 @@ void BaseGui::createAudioEqualizer() {
 
 void BaseGui::createPlaylist() {
 #if DOCK_PLAYLIST
-	playlist = new Playlist(core, this, 0);
+	playlist = new Playlist(this, 0);
 #else
-	//playlist = new Playlist(core, this, "playlist");
-	playlist = new Playlist(core, 0);
+	playlist = new Playlist(0);
 #endif
 
-	/*
-	connect( playlist, SIGNAL(playlistEnded()),
-             this, SLOT(exitFullscreenOnStop()) );
-	*/
 	connect( playlist, SIGNAL(playlistEnded()),
              this, SLOT(playlistHasFinished()) );
 
 	connect( playlist, SIGNAL(playlistEnded()),
              mplayerwindow, SLOT(showLogo()) );
 
-	/*
-	connect( playlist, SIGNAL(visibilityChanged()),
-             this, SLOT(playlistVisibilityChanged()) );
-	*/
-
 	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int)),
             core, SLOT(open(const QString &, int)));
+
+	connect(playlist, SIGNAL(requestToAddCurrentFile()), this, SLOT(addToPlaylistCurrentFile()));
+
+	if (playlist->automaticallyPlayNext()) {
+		connect( core, SIGNAL(mediaFinished()), playlist, SLOT(playNext()), Qt::QueuedConnection );
+	}
+	connect( core, SIGNAL(mplayerFailed(QProcess::ProcessError)), playlist, SLOT(playerFailed(QProcess::ProcessError)) );
+	connect( core, SIGNAL(mplayerFinishedWithError(int)), playlist, SLOT(playerFinishedWithError(int)) );
+	connect(core, SIGNAL(mediaDataReceived(const MediaData &)), playlist, SLOT(getMediaInfo(const MediaData &)));
 }
 
 void BaseGui::createPanel() {
@@ -5203,6 +5202,14 @@ void BaseGui::playlistHasFinished() {
 			#endif
 			exitAct->trigger();
 		}
+	}
+}
+
+void BaseGui::addToPlaylistCurrentFile() {
+	qDebug("BaseGui::addToPlaylistCurrentFile");
+	if (!core->mdat.filename.isEmpty()) {
+		playlist->addItem(core->mdat.filename, "", 0);
+		playlist->getMediaInfo(core->mdat);
 	}
 }
 
