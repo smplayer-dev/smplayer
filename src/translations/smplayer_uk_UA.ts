@@ -2069,7 +2069,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"/>
+        <translation>Вивід SMPlayer на зовнішній екран</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="294"/>
@@ -2338,7 +2338,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>Інформація про ф&amp;ормат</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -4571,7 +4571,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Stop</source>
-        <translation>Стоп</translation>
+        <translation>Зупинити</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
@@ -5519,7 +5519,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="978"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"/>
+        <translation>Якщо обрана ця опція, то налаштування для мережевих-потоків будуть запам’ятовуватися.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
@@ -6427,7 +6427,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Тут Ви можете змінити будь-яку сполучення клявіш. Двічі клацніть або натисніть ENTER на чарунку сполучення. Додатково Ви можете зберегти перелік сполучень для розповсюдження іншим або завантаження на іншому комп&apos;ютері.</translation>
+        <translation>Тут Ви можете змінити будь-яке сполучення клявіш. Двічі клацніть або натисніть ENTER на чарунку сполучення. Додатково Ви можете зберегти перелік сполучень для розповсюдження іншим або завантаження на іншому комп&apos;ютері.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="171"/>
@@ -7105,7 +7105,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer може масштабувати інтерфейс на високих роздільностях. Тут Ви можете відімкнути цю опцію або змінити коефіцієнт масштабування.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
@@ -7115,7 +7115,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Мірило</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7125,7 +7125,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"/>
+        <translation>Зміни у цій секції потребують перезапуску SMPlayer для застосування</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7225,12 +7225,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>Коефіцієнт масш&amp;табування:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation>Співвідношення пікс&amp;елів:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
@@ -9689,7 +9689,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Меню швидкого запуску</translation>
     </message>
 </context>
 <context>

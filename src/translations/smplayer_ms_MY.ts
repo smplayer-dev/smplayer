@@ -4599,7 +4599,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="303"/>
         <source>Length</source>
-        <translation>Pangjang</translation>
+        <translation>Jangka Masa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="308"/>
