@@ -3199,7 +3199,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <location filename="../infofile.cpp" line="228"/>
         <location filename="../infofile.cpp" line="236"/>
         <source>ID: %1</source>
-        <translation type="unfinished"/>
+        <translation>ID: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="230"/>
@@ -4445,7 +4445,7 @@ Do you want to overwrite?</source>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation>Kaydet</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
@@ -5143,7 +5143,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="483"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation type="unfinished"/>
+        <translation>Bir dosya açıldığında her zaman çalışacak &lt;i&gt;eylemlerin&lt;i&gt; listesini burada belirtebilirsiniz. Bütün kullanılabilir eylemleri &lt;b&gt;Klavye ve fare&lt;/b&gt; bölümündeki kısayol tuşları düzenleyicisinde bulabilirsiniz. Eylemler boşluk karakteri ile ayrılmalıdır. Kontrol edilebilen eylemlerden sonra &lt;i&gt;true&lt;/i&gt; veya &lt;i&gt;false&lt;/i&gt; yazarak eylemi etkinleştirebilir veya devredışı bırakabilirsiniz.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -5705,7 +5705,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>Y&amp;ayınların ayarlarını hatırla</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -7680,7 +7680,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="unfinished"/>
+        <translation>dahili YouTube desteği etkinleştirilir ve geri kalan siteler için mpv + youtube-dl kullanılır</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="174"/>
@@ -9863,7 +9863,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kapat</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
