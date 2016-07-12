@@ -60,7 +60,6 @@
 #include "multilineinputdialog.h"
 #include "version.h"
 #include "global.h"
-#include "core.h"
 #include "extensions.h"
 #include "guiconfig.h"
 
@@ -71,6 +70,7 @@
 
 #define DRAG_ITEMS 0
 #define PL_ALLOW_DUPLICATES 1
+#define SIMULATE_FILE_DELETION 0
 
 #define COL_NUM 0
 #define COL_NAME 1
@@ -217,7 +217,7 @@ QList<QStandardItem *> PLItem::items() {
 /* ----------------------------------------------------------- */
 
 
-Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
+Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
 	, modified(false)
 	, recursive_add_directory(false)
@@ -229,18 +229,12 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	, ignore_player_errors(false)
 	, change_name(true)
 {
-	core = c;
 	playlist_path = "";
 	latest_dir = "";
 
 	createTable();
 	createActions();
 	createToolbar();
-
-	connect( core, SIGNAL(mediaFinished()), this, SLOT(playNext()), Qt::QueuedConnection );
-	connect( core, SIGNAL(mplayerFailed(QProcess::ProcessError)), this, SLOT(playerFailed(QProcess::ProcessError)) );
-	connect( core, SIGNAL(mplayerFinishedWithError(int)), this, SLOT(playerFinishedWithError(int)) );
-	connect( core, SIGNAL(mediaLoaded()), this, SLOT(getMediaInfo()) );
 
 	QVBoxLayout *layout = new QVBoxLayout;
 	layout->addWidget( listView );
@@ -269,15 +263,10 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 
 	loadSettings();
 
-	// Ugly hack to avoid to play next item automatically
-	if (!automatically_play_next) {
-		disconnect( core, SIGNAL(mediaFinished()), this, SLOT(playNext()) );
-	}
-
 	// Save config every 5 minutes.
 	save_timer = new QTimer(this);
 	connect( save_timer, SIGNAL(timeout()), this, SLOT(maybeSaveSettings()) );
-	save_timer->start( 5 * 60000 ); 
+	save_timer->start( 5 * 60000 );
 }
 
 Playlist::~Playlist() {
@@ -1218,12 +1207,12 @@ void Playlist::resumePlay() {
 	}
 }
 
-void Playlist::getMediaInfo() {
+void Playlist::getMediaInfo(const MediaData & mdat) {
 	qDebug("Playlist::getMediaInfo");
 
-	QString filename = core->mdat.filename;
-	double duration = core->mdat.duration;
-	QString artist = core->mdat.clip_artist;
+	QString filename = mdat.filename;
+	double duration = mdat.duration;
+	QString artist = mdat.clip_artist;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
@@ -1231,8 +1220,8 @@ void Playlist::getMediaInfo() {
 
 	QString name;
 	if (change_name) {
-		name = core->mdat.clip_name;
-		if (name.isEmpty()) name = core->mdat.stream_title;
+		name = mdat.clip_name;
+		if (name.isEmpty()) name = mdat.stream_title;
 
 		if (name.isEmpty()) {
 			QFileInfo fi(filename);
@@ -1270,10 +1259,7 @@ void Playlist::getMediaInfo() {
 // Add current file to playlist
 void Playlist::addCurrentFile() {
 	qDebug("Playlist::addCurrentFile");
-	if (!core->mdat.filename.isEmpty()) {
-		addItem( core->mdat.filename, "", 0 );
-		getMediaInfo();
-	}
+	emit requestToAddCurrentFile();
 }
 
 void Playlist::addFiles() {
@@ -1556,8 +1542,11 @@ void Playlist::deleteSelectedFileFromDisk() {
 
 		if (res == QMessageBox::Yes) {
 			// Delete file
+			#if SIMULATE_FILE_DELETION
+			bool success = true;
+			#else
 			bool success = QFile::remove(filename);
-			//bool success = false;
+			#endif
 
 			if (success) {
 				// Remove item from the playlist
