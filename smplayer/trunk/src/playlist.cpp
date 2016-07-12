@@ -227,7 +227,7 @@ Playlist::Playlist( Core *c, QWidget * parent, Qt::WindowFlags f)
 	, row_spacing(-1) // Default height
 	, automatically_play_next(true)
 	, ignore_player_errors(false)
-	, change_title(false)
+	, change_name(true)
 {
 	core = c;
 	playlist_path = "";
@@ -1229,10 +1229,8 @@ void Playlist::getMediaInfo() {
 	filename = Helper::changeSlashes(filename);
 	#endif
 
-	//int current = findCurrentItem();
-
 	QString name;
-	if (change_title) {
+	if (change_name) {
 		name = core->mdat.clip_name;
 		if (name.isEmpty()) name = core->mdat.stream_title;
 
@@ -1252,10 +1250,10 @@ void Playlist::getMediaInfo() {
 	for (int n = 0; n < count(); n++) {
 		PLItem * i = itemData(n);
 		if (i->filename() == filename) {
-			//if (current == -1) setCurrentItem(n);
 			// Found item
+			bool modified_name = !(i->filename().endsWith(i->name()));
 			if (i->duration() < 1) {
-				if (!name.isEmpty()) {
+				if (!modified_name && !name.isEmpty()) {
 					i->setName(name);
 				}
 				i->setDuration(duration);
@@ -1684,7 +1682,7 @@ void Playlist::saveSettings() {
 	set->setValue( "play_files_from_start", play_files_from_start );
 	set->setValue( "automatically_play_next", automatically_play_next );
 	set->setValue( "ignore_player_errors", ignore_player_errors );
-	set->setValue( "change_title", change_title );
+	set->setValue( "change_name", change_name );
 
 	set->setValue( "row_spacing", row_spacing );
 
@@ -1695,6 +1693,8 @@ void Playlist::saveSettings() {
 
 	set->setValue( "sort_column", proxy->sortColumn() );
 	set->setValue( "sort_order", proxy->sortOrder() );
+	set->setValue( "filter_case_sensivity", proxy->filterCaseSensitivity() );
+	set->setValue( "filter", filter_edit->text() );
 
 	if (save_dirs) {
 		set->setValue( "latest_dir", latest_dir );
@@ -1720,6 +1720,8 @@ void Playlist::saveSettings() {
 
 		set->endGroup();
 	}
+
+	if (set->contains("playlist/change_title")) set->remove("playlist/change_title");
 }
 
 void Playlist::loadSettings() {
@@ -1738,7 +1740,7 @@ void Playlist::loadSettings() {
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
 	automatically_play_next = set->value( "automatically_play_next", automatically_play_next ).toBool();
 	ignore_player_errors = set->value( "ignore_player_errors", ignore_player_errors ).toBool();
-	change_title = set->value( "change_title", change_title ).toBool();
+	change_name = set->value( "change_name", change_name ).toBool();
 
 	row_spacing = set->value( "row_spacing", row_spacing ).toInt();
 
@@ -1749,6 +1751,8 @@ void Playlist::loadSettings() {
 
 	int sort_column = set->value("sort_column", COL_NUM).toInt();
 	int sort_order = set->value("sort_order", Qt::AscendingOrder).toInt();
+	int filter_case_sensivity = set->value("filter_case_sensivity", Qt::CaseInsensitive).toInt();
+	QString filter = set->value( "filter").toString();
 
 	latest_dir = set->value( "latest_dir", latest_dir ).toString();
 
@@ -1775,6 +1779,8 @@ void Playlist::loadSettings() {
 	}
 
 	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
+	proxy->setFilterCaseSensitivity( (Qt::CaseSensitivity) filter_case_sensivity);
+	filter_edit->setText(filter);
 }
 
 QString Playlist::lastDir() {
