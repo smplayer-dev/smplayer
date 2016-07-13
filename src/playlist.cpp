@@ -459,7 +459,7 @@ void Playlist::createToolbar() {
 }
 
 void Playlist::retranslateStrings() {
-	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename") );
+	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") );
 
 	openAct->change( Images::icon("open"), tr("&Load") );
 	saveAct->change( Images::icon("save"), tr("&Save") );
