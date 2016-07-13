@@ -379,7 +379,7 @@ void Preferences::reset() {
 #endif
 
 	center_window = false;
-	center_window_if_outside = true;
+	center_window_if_outside = false;
 
 #ifdef GLOBALSHORTCUTS
 	use_global_shortcuts = false;
