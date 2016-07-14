@@ -90,6 +90,9 @@ public:
 	void setAudioDelay(double delay);
 	void setSubDelay(double delay);
 	void setLoop(int v);
+	void setAMarker(int sec);
+	void setBMarker(int sec);
+	void clearABMarkers();
 	void takeScreenshot(ScreenshotType t, bool include_subtitles = false);
 #ifdef CAPTURE_STREAM
 	void switchCapturing();
