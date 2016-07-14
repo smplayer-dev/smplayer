@@ -5329,11 +5329,12 @@ void BaseGui::resizeMainWindow(int w, int h) {
 
 	qDebug("BaseGui::resizeWindow: new_width: %d new_height: %d", new_width, new_height);
 
-#if 0
-	QSize desktop_size = DesktopInfo::desktop_size(this);
+#ifdef Q_OS_WIN
+	QRect desktop_rect = QApplication::desktop()->availableGeometry(this);
+	QSize desktop_size = QSize(desktop_rect.width(), desktop_rect.height());
 	//desktop_size.setWidth(1000); desktop_size.setHeight(1000); // test
 	if (new_width > desktop_size.width()) {
-		double aspect = (double) new_width / new_height;
+		//double aspect = (double) new_width / new_height;
 		qDebug("BaseGui::resizeWindow: width (%d) is larger than desktop width (%d)", new_width, desktop_size.width());
 		new_width = desktop_size.width();
 		/*
@@ -5361,7 +5362,7 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	// Check if a part of the window is outside of the desktop
 	// and center the window in that case
 	if ((pref->center_window_if_outside) && (!core->mdat.novideo)) {
-		QRect screen_rect = QApplication::desktop()->screenGeometry(this);
+		QRect screen_rect = QApplication::desktop()->availableGeometry(this);
 		QPoint right_bottom = QPoint(this->pos().x() + this->width(), this->pos().y() + this->height());
 		qDebug("BaseGui::resizeWindow: right bottom point: %d, %d", right_bottom.x(), right_bottom.y());;
 		if (!screen_rect.contains(right_bottom) || !screen_rect.contains(this->pos())) {
@@ -5369,6 +5370,12 @@ void BaseGui::resizeMainWindow(int w, int h) {
 			//move(screen_rect.x(), screen_rect.y());
 			int x = screen_rect.x() + ((screen_rect.width() - width()) / 2);
 			int y = screen_rect.y() + ((screen_rect.height() - height()) / 2);
+			//qDebug() << "BaseGui::resizeWindow: screen_rect.x:" << screen_rect.x() << "screen_rect.y:" << screen_rect.y();
+			//qDebug() << "BaseGui::resizeWindow: width:" << ((screen_rect.width() - width()) / 2);
+			//qDebug() << "BaseGui::resizeWindow: height:" << ((screen_rect.height() - height()) / 2);
+			if (x < screen_rect.x()) x = screen_rect.x();
+			if (y < screen_rect.y()) y = screen_rect.y();
+			//qDebug() << "BaseGui::resizeWindow: x:" << x << "y:" << y;
 			move(x, y);
 		}
 	}
