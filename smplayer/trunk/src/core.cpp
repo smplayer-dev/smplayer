@@ -2095,8 +2095,15 @@ void Core::startMplayer( QString file, double seek ) {
 	if (mdat.type != TYPE_TV) {
 		// Play A - B
 		if ((mset.A_marker > -1) && (mset.B_marker > mset.A_marker)) {
-			proc->setOption("ss", QString::number(mset.A_marker));
-			proc->setOption("endpos", QString::number(mset.B_marker - mset.A_marker));
+			if (proc->isMPV()) {
+				if (mset.loop) {
+					proc->setOption("ab-loop-a", QString::number(mset.A_marker));
+					proc->setOption("ab-loop-b", QString::number(mset.B_marker));
+				}
+			} else {
+				proc->setOption("ss", QString::number(mset.A_marker));
+				proc->setOption("endpos", QString::number(mset.B_marker - mset.A_marker));
+			}
 		}
 		else
 		// If seek < 5 it's better to allow the video to start from the beginning
@@ -2686,8 +2693,13 @@ void Core::setAMarker(int sec) {
 	mset.A_marker = sec;
 	displayMessage( tr("\"A\" marker set to %1").arg(Helper::formatTime(sec)) );
 
-	if (mset.B_marker > mset.A_marker) {
-		if (proc->isRunning()) restartPlay();
+	if (proc->isMPV()) {
+		if (mset.loop) proc->setAMarker(sec);
+	} else {
+		// MPlayer
+		if (mset.B_marker > mset.A_marker) {
+			if (proc->isRunning()) restartPlay();
+		}
 	}
 
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
@@ -2703,8 +2715,13 @@ void Core::setBMarker(int sec) {
 	mset.B_marker = sec;
 	displayMessage( tr("\"B\" marker set to %1").arg(Helper::formatTime(sec)) );
 
-	if ((mset.A_marker > -1) && (mset.A_marker < mset.B_marker)) {
-		if (proc->isRunning()) restartPlay();
+	if (proc->isMPV()) {
+		if (mset.loop) proc->setBMarker(sec);
+	} else {
+		// MPlayer
+		if ((mset.A_marker > -1) && (mset.A_marker < mset.B_marker)) {
+			if (proc->isRunning()) restartPlay();
+		}
 	}
 
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
@@ -2717,7 +2734,12 @@ void Core::clearABMarkers() {
 		mset.A_marker = -1;
 		mset.B_marker = -1;
 		displayMessage( tr("A-B markers cleared") );
-		if (proc->isRunning()) restartPlay();
+		if (proc->isMPV()) {
+			proc->clearABMarkers();
+		} else {
+			// MPlayer
+			if (proc->isRunning()) restartPlay();
+		}
 	}
 
 	emit ABMarkersChanged(mset.A_marker, mset.B_marker);
@@ -2736,6 +2758,14 @@ void Core::toggleRepeat(bool b) {
 			// Use slave command
 			int v = -1; // no loop
 			if (mset.loop) v = 0; // infinite loop
+			if (proc->isMPV()) {
+				// Enable A-B markers
+				proc->clearABMarkers();
+				if (b) {
+					if (mset.A_marker > -1) proc->setAMarker(mset.A_marker);
+					if (mset.B_marker > -1) proc->setBMarker(mset.B_marker);
+				}
+			}
 			proc->setLoop(v);
 		} else {
 			// Restart mplayer

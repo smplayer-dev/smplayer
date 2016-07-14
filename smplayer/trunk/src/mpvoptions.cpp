@@ -384,7 +384,8 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "autosync" ||
 	    option_name == "dvd-device" || option_name == "cdrom-device" ||
 	    option_name == "demuxer" ||
-	    option_name == "frames")
+	    option_name == "frames" ||
+	    option_name == "ab-loop-a" || option_name == "ab-loop-b")
 	{
 		QString s = "--" + option_name;
 		if (!value.isNull()) s += "=" + value.toString();
@@ -730,6 +731,19 @@ void MPVProcess::setLoop(int v) {
 		default: o = QString::number(v);
 	}
 	writeToStdin(QString("set loop %1").arg(o));
+}
+
+void MPVProcess::setAMarker(int sec) {
+	writeToStdin(QString("set ab-loop-a %1").arg(sec));
+}
+
+void MPVProcess::setBMarker(int sec) {
+	writeToStdin(QString("set ab-loop-b %1").arg(sec));
+}
+
+void MPVProcess::clearABMarkers() {
+	writeToStdin("set ab-loop-a no");
+	writeToStdin("set ab-loop-b no");
 }
 
 void MPVProcess::takeScreenshot(ScreenshotType t, bool include_subtitles) {

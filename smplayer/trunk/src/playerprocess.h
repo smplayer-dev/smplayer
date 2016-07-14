@@ -100,6 +100,9 @@ public:
 	virtual void setAudioDelay(double delay) = 0;
 	virtual void setSubDelay(double delay) = 0;
 	virtual void setLoop(int v) = 0;
+	virtual void setAMarker(int sec) = 0;
+	virtual void setBMarker(int sec) = 0;
+	virtual void clearABMarkers() = 0;
 	virtual void takeScreenshot(ScreenshotType t, bool include_subtitles = false) = 0;
 #ifdef CAPTURE_STREAM
 	virtual void switchCapturing() = 0;
