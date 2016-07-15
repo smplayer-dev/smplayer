@@ -4674,7 +4674,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="462"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Agirizena / URL-a</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="465"/>
@@ -4749,7 +4749,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Bilatu</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>
@@ -7658,7 +7658,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>mpv + youtube-dl beharrezkoa duten guneekin bakarrik erabiltzen saiatuko da</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>

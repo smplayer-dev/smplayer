@@ -265,7 +265,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>إ&amp;غلاق</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -938,7 +938,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1836"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation>تحدسث النص الب&amp;رمجي لليوتيوب</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2166"/>
@@ -1028,12 +1028,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1814"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"/>
+        <translation>م&amp;علومات و خصائص...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1827"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"/>
+        <translation>النمط ال&amp;لوحي</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
@@ -1138,7 +1138,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1916"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation>م&amp;عاينة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1992"/>
@@ -1944,12 +1944,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="308"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>ارسال الفيديو الى ال&amp;شاشة</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="310"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>معلومات عن ال&amp;شاشات المربوطة</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="313"/>
@@ -2338,7 +2338,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>معلومات ال&amp;صيغة</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -3237,7 +3237,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>إ&amp;غلاق</translation>
     </message>
 </context>
 <context>
@@ -4459,7 +4459,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>إ&amp;غلاق</translation>
     </message>
 </context>
 <context>
@@ -4672,7 +4672,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="462"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>اسم الملف / رابط</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="465"/>
@@ -4747,7 +4747,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>بحث</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>
@@ -4866,7 +4866,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"/>
+        <translation>المفت&amp;اح اللوني</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -5192,7 +5192,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"/>
+        <translation>مُرشّحات ال&amp;صوت:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5708,12 +5708,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"/>
+        <translation>مح&amp;رك الوسائط</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>تذ&amp;كّر الإعدادات للدفقات</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -6386,7 +6386,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation>استخدم مفاتيح الوسائط المتعددة كاخت&amp;صارات عمومية</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6401,7 +6401,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"/>
+        <translation>وظيفة الإسق&amp;اط</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
@@ -7108,7 +7108,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>نسبةDPI &amp;عالية</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
@@ -7118,7 +7118,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>&amp;تمكين الدعم للشاشات عالية الـ DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7128,7 +7128,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>تلقا&amp;ئي</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7233,12 +7233,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>معامل الق&amp;ياس</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation>نسبة الب&amp;كسل:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
@@ -7591,12 +7591,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"/>
+        <translation>&amp;يوتيوب (و مواقع اخرى)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation>الدعم لمواقع ال&amp;فيديو:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
@@ -7656,7 +7656,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>سيحاول استخدام مشغل mpv مع   youtube-dl فقط للمواقع التي تتطلبه</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
@@ -7848,7 +7848,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>تل&amp;قائي</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -9036,12 +9036,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>م&amp;وافق</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>الغا&amp;ء</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9871,7 +9871,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>إغ&amp;لاق</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
