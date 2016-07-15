@@ -2418,6 +2418,7 @@ void BaseGui::createPlaylist() {
 #else
 	playlist = new Playlist(0);
 #endif
+	playlist->setConfigPath(Paths::configPath());
 
 	connect( playlist, SIGNAL(playlistEnded()),
              this, SLOT(playlistHasFinished()) );
