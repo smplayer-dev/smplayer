@@ -1138,7 +1138,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1916"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rodinys</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1992"/>
@@ -1214,12 +1214,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="2070"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"/>
+        <translation>Pirm&amp;inis takelis</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2075"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Pasirinkti subtitrų takelį</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2078"/>
@@ -1229,7 +1229,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="2080"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Pasirinkti antrinį subtitrų takelį</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2086"/>
@@ -1239,27 +1239,27 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="2100"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>Ž&amp;ymelės</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2110"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pridėti naują žymelę</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2111"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Taisyti žymeles</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2112"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Ankstesnė žymelė</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2113"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Kita žymelė</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2142"/>
@@ -1326,7 +1326,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="5906"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) įdiegimas gali išspręsti problemą.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5908"/>
@@ -2087,17 +2087,17 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>Taisyti žymeles</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Nauja žymelė</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ištrinti žymelę</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
@@ -2265,7 +2265,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../core.cpp" line="4302"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"/>
+        <translation>Momentinis vaizdas išsaugotas kaip %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4337"/>
@@ -2333,7 +2333,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="649"/>
         <source>Ready</source>
-        <translation type="unfinished"/>
+        <translation>Pasiruošę</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
@@ -3245,7 +3245,7 @@ Patikrinkite prieigos teises.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Pridėti naują žymelę</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
@@ -5498,17 +5498,17 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="955"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"/>
+        <translation>Multimedijos modulis</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="956"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"/>
+        <translation>Pasirinkite kurį multimedijos modulį norite naudoti, ar MPlayer, ar mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="957"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"/>
+        <translation>Parinktis &quot;kita&quot; leidžia jums rankiniu būdu pasirinkti kelią į vykdomąjį failą.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
@@ -5543,7 +5543,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"/>
+        <translation>Pavyzdžiui, %1 išsaugtoų momentinį vaizdą kaip &quot;filmopavadinimas_0001.png&quot;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1001"/>
@@ -5608,7 +5608,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="145"/>
         <source>Other...</source>
-        <translation type="unfinished"/>
+        <translation>Kita...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="999"/>
@@ -5709,7 +5709,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"/>
+        <translation>Multimedijos &amp;modulis:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
@@ -5719,12 +5719,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"/>
+        <translation>Ša&amp;blonas:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation>F&amp;ormatas:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -7244,7 +7244,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>Neleisti langui išeiti už ekrano ribų</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
