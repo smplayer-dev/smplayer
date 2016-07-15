@@ -82,6 +82,8 @@ public:
 	Playlist(QWidget * parent = 0, Qt::WindowFlags f = Qt::Window );
 	~Playlist();
 
+	void setConfigPath(const QString & config_path);
+
 	void clear();
 	void list();
 
@@ -259,6 +261,8 @@ protected:
 
 	MyAction * deleteSelectedFileFromDiskAct;
 
+	QSettings * set;
+
 private:
 	bool modified;
 	QTimer * save_timer;
@@ -273,6 +277,7 @@ private:
 	bool automatically_play_next;
 	bool ignore_player_errors;
 	bool change_name;
+	bool save_dirs;
 };
 
 #endif

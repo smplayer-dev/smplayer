@@ -77,8 +77,6 @@
 #define COL_TIME 2
 #define COL_FILENAME 3
 
-using namespace Global;
-
 #if 0
 class PlaylistDelegate : public QStyledItemDelegate {
 public:
@@ -219,6 +217,7 @@ QList<QStandardItem *> PLItem::items() {
 
 Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	: QWidget(parent,f)
+	, set(0)
 	, modified(false)
 	, recursive_add_directory(false)
 	, automatically_get_info(false)
@@ -228,6 +227,7 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	, automatically_play_next(true)
 	, ignore_player_errors(false)
 	, change_name(true)
+	, save_dirs(true)
 {
 	playlist_path = "";
 	latest_dir = "";
@@ -261,7 +261,7 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	QTime now = QTime::currentTime();
 	qsrand(now.msec());
 
-	loadSettings();
+	//loadSettings();
 
 	// Save config every 5 minutes.
 	save_timer = new QTimer(this);
@@ -271,7 +271,25 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 
 Playlist::~Playlist() {
 	saveSettings();
+	if (set) delete set;
 }
+
+void Playlist::setConfigPath(const QString & config_path) {
+	qDebug() << "Playlist::setConfigPath:" << config_path;
+
+	if (set) {
+		delete set;
+		set = 0;
+	}
+
+	if (!config_path.isEmpty()) {
+		QString inifile = config_path + "/playlist.ini";
+		qDebug() << "Playlist::setConfigPath: ini file:" << inifile;
+		set = new QSettings(inifile, QSettings::IniFormat);
+		loadSettings();
+	}
+}
+
 
 void Playlist::setModified(bool mod) {
 	qDebug("Playlist::setModified: %d", mod);
@@ -1654,11 +1672,7 @@ void Playlist::maybeSaveSettings() {
 void Playlist::saveSettings() {
 	qDebug("Playlist::saveSettings");
 
-	QSettings * set = settings;
-
-	set->beginGroup( "directories");
-	bool save_dirs = set->value("save_dirs", false).toBool();
-	set->endGroup();
+	if (!set) return;
 
 	set->beginGroup( "playlist");
 
@@ -1685,25 +1699,26 @@ void Playlist::saveSettings() {
 	set->setValue( "filter_case_sensivity", proxy->filterCaseSensitivity() );
 	set->setValue( "filter", filter_edit->text() );
 
-	if (save_dirs) {
-		set->setValue( "latest_dir", latest_dir );
-	} else {
-		set->setValue( "latest_dir", "" );
-	}
+	set->endGroup();
 
+	set->beginGroup( "directories");
+	set->setValue("save_dirs", save_dirs);
+	set->setValue("latest_dir", save_dirs ? latest_dir : "" );
 	set->endGroup();
 
 	if (save_playlist_in_config) {
 		//Save current list
-		set->beginGroup( "playlist_contents");
-
-		set->setValue( "count", count() );
-		for ( int n=0; n < count(); n++ ) {
+		set->beginGroup("playlist_contents");
+		set->beginWriteArray("items");
+		//set->setValue( "count", count() );
+		for (int n = 0; n < count(); n++ ) {
+			set->setArrayIndex(n);
 			PLItem * i = itemData(n);
 			set->setValue( QString("item_%1_filename").arg(n), i->filename() );
 			set->setValue( QString("item_%1_duration").arg(n), i->duration() );
 			set->setValue( QString("item_%1_name").arg(n), i->name() );
 		}
+		set->endArray();
 		set->setValue( "current_item", findCurrentItem() );
 		set->setValue( "modified", modified );
 
@@ -1716,7 +1731,7 @@ void Playlist::saveSettings() {
 void Playlist::loadSettings() {
 	qDebug("Playlist::loadSettings");
 
-	QSettings * set = settings;
+	if (!set) return;
 
 	set->beginGroup( "playlist");
 
@@ -1743,23 +1758,30 @@ void Playlist::loadSettings() {
 	int filter_case_sensivity = set->value("filter_case_sensivity", Qt::CaseInsensitive).toInt();
 	QString filter = set->value( "filter").toString();
 
-	latest_dir = set->value( "latest_dir", latest_dir ).toString();
+	set->endGroup();
 
+	set->beginGroup( "directories");
+	save_dirs = set->value("save_dirs", save_dirs).toBool();
+	if (save_dirs) {
+		latest_dir = set->value("latest_dir", latest_dir).toString();
+	}
 	set->endGroup();
 
 	if (save_playlist_in_config) {
 		//Load latest list
-		set->beginGroup( "playlist_contents");
+		set->beginGroup("playlist_contents");
+		int count = set->beginReadArray("items");
 
-		int count = set->value( "count", 0 ).toInt();
 		QString filename, name;
 		double duration;
-		for ( int n=0; n < count; n++ ) {
+		for (int n = 0; n < count; n++) {
+			set->setArrayIndex(n);
 			filename = set->value( QString("item_%1_filename").arg(n), "" ).toString();
 			duration = set->value( QString("item_%1_duration").arg(n), -1 ).toDouble();
 			name = set->value( QString("item_%1_name").arg(n), "" ).toString();
 			addItem( filename, name, duration );
 		}
+		set->endArray();
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
 		setModified( set->value( "modified", false ).toBool() );
 
@@ -1774,7 +1796,6 @@ void Playlist::loadSettings() {
 
 QString Playlist::lastDir() {
 	QString last_dir = latest_dir;
-	if (last_dir.isEmpty()) last_dir = pref->latest_dir;
 	return last_dir;
 }
 
