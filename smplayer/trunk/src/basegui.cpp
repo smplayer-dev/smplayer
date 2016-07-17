@@ -149,7 +149,7 @@ using namespace Global;
 
 BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags ) 
 	: QMainWindow( parent, flags )
-#if QT_VERSION >= 0x050000
+#ifdef DETECT_MINIMIZE_WORKAROUND
 	, was_minimized(false)
 #endif
 	, popup(0)
@@ -5800,7 +5800,7 @@ void BaseGui::delayedSeek() {
 #endif
 
 
-#if QT_VERSION < 0x050000
+#ifndef DETECT_MINIMIZE_WORKAROUND
 void BaseGui::showEvent( QShowEvent * ) {
 	qDebug("BaseGui::showEvent");
 

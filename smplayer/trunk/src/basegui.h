@@ -37,6 +37,7 @@
 #endif
 
 //#define SHARE_MENU
+//#define DETECT_MINIMIZE_WORKAROUND
 
 #if !defined(Q_OS_WIN) && QT_VERSION >= 0x050000 && QT_VERSION < 0x050501
 #define NUMPAD_WORKAROUND
@@ -378,7 +379,7 @@ signals:
 protected:
 	virtual void retranslateStrings();
 	virtual void changeEvent(QEvent * event);
-#if QT_VERSION < 0x050000
+#ifndef DETECT_MINIMIZE_WORKAROUND
 	virtual void hideEvent( QHideEvent * );
 	virtual void showEvent( QShowEvent * );
 #else
