@@ -381,6 +381,18 @@ void MplayerProcess::setLoop(int v) {
 	writeToStdin(QString("loop %1 1").arg(v));
 }
 
+void MplayerProcess::setAMarker(int /*sec*/) {
+	/* Not supported */
+}
+
+void MplayerProcess::setBMarker(int /*sec*/) {
+	/* Not supported */
+}
+
+void MplayerProcess::clearABMarkers() {
+	/* Not supported */
+}
+
 void MplayerProcess::takeScreenshot(ScreenshotType t, bool /*include_subtitles*/) {
 	if (t == Single) {
 		writeToStdin(pausing_prefix + " screenshot 0");
