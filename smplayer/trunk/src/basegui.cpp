@@ -5774,8 +5774,10 @@ void BaseGui::moveWindowDiff(QPoint diff) {
 	if (count > 3) {
 		//qDebug() << "BaseGui::moveWindowDiff:" << d;
 		QPoint new_pos = w->pos() + d;
+		/*
 		if (new_pos.y() < 0) new_pos.setY(0);
 		if (new_pos.x() < 0) new_pos.setX(0);
+		*/
 		//qDebug() << "BaseGui::moveWindowDiff: new_pos:" << new_pos;
 		w->move(new_pos);
 		count = 0;
