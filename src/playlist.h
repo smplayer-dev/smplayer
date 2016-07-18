@@ -16,7 +16,6 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 */
 
-
 #ifndef PLAYLIST_H
 #define PLAYLIST_H
 
@@ -27,6 +26,8 @@
 #include <QStandardItem>
 #include <QProcess>
 #include "mediadata.h"
+
+#define PLAYLIST_DOWNLOAD
 
 class PLItem : public QStandardItem {
 public:
@@ -67,10 +68,13 @@ class QSortFilterProxyModel;
 class QToolBar;
 class MyAction;
 class MyLineEdit;
+class LoadPage;
 class QMenu;
 class QSettings;
 class QToolButton;
 class QTimer;
+
+class URLHistory;
 
 class Playlist : public QWidget
 {
@@ -136,6 +140,11 @@ public slots:
 	bool maybeSave();
 	void load();
 	bool save();
+
+#ifdef PLAYLIST_DOWNLOAD
+	void openUrl();
+	void openUrl(const QString & url);
+#endif
 
 	void load_m3u(QString file);
 	bool save_m3u(QString file);
@@ -207,6 +216,11 @@ protected slots:
 
 	void filterEditChanged(const QString &);
 
+#ifdef PLAYLIST_DOWNLOAD
+	void playlistDownloaded(QByteArray);
+	void errorOcurred(int error_number, QString error_str);
+#endif
+
 protected:
 	void createTable();
 	void createActions();
@@ -240,6 +254,9 @@ protected:
 	MyLineEdit * filter_edit;
 
 	MyAction * openAct;
+#ifdef PLAYLIST_DOWNLOAD
+	MyAction * openUrlAct;
+#endif
 	MyAction * saveAct;
 	MyAction * playAct;
 	MyAction * prevAct;
@@ -262,6 +279,11 @@ protected:
 	MyAction * deleteSelectedFileFromDiskAct;
 
 	QSettings * set;
+
+#ifdef PLAYLIST_DOWNLOAD
+	LoadPage * downloader;
+	URLHistory * history_urls;
+#endif
 
 private:
 	bool modified;
