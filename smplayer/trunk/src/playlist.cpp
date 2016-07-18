@@ -29,7 +29,6 @@
 #include <QFileInfo>
 #include <QMessageBox>
 #include <QPushButton>
-#include <QRegExp>
 #include <QMenu>
 #include <QDateTime>
 #include <QSettings>
@@ -69,6 +68,7 @@
 #include <QNetworkAccessManager>
 #include <QTemporaryFile>
 #include <QClipboard>
+#include <QMovie>
 #endif
 
 #if USE_INFOPROVIDER
@@ -78,13 +78,14 @@
 #define DRAG_ITEMS 0
 #define PL_ALLOW_DUPLICATES 1
 #define SIMULATE_FILE_DELETION 0
+#define USE_ITEM_DELEGATE 0
 
 #define COL_NUM 0
 #define COL_NAME 1
 #define COL_TIME 2
 #define COL_FILENAME 3
 
-#if 0
+#if USE_ITEM_DELEGATE
 class PlaylistDelegate : public QStyledItemDelegate {
 public:
 	PlaylistDelegate(QObject * parent = 0) : QStyledItemDelegate(parent) {};
@@ -92,8 +93,8 @@ public:
 		QStyleOptionViewItem opt = option;
 		initStyleOption(&opt, index);
 		if (index.column() == COL_NAME) {
-			bool played = index.data(VAR_PLAYED).toBool();
-			bool current = index.data(VAR_CURRENT).toBool();
+			bool played = index.data(PLItem::Role_Played).toBool();
+			bool current = index.data(PLItem::Role_Current).toBool();
 			if (current) opt.font.setBold(true);
 			else
 			if (played) opt.font.setItalic(true);
@@ -169,9 +170,11 @@ void PLItem::setDuration(double duration) {
 
 void PLItem::setPlayed(bool played) {
 	setData(played, Role_Played);
+#if !USE_ITEM_DELEGATE
 	QFont f = font();
 	f.setItalic(played);
 	setFont(f);
+#endif
 }
 
 void PLItem::setPosition(int position) {
@@ -182,10 +185,12 @@ void PLItem::setPosition(int position) {
 
 void PLItem::setCurrent(bool b) {
 	setData(b, Role_Current);
+#if !USE_ITEM_DELEGATE
 	QFont f = font();
 	f.setBold(b);
 	f.setItalic(b ? false : played());
 	setFont(f);
+#endif
 }
 
 QString PLItem::filename() {
@@ -329,15 +334,16 @@ void Playlist::createTable() {
 	proxy->setFilterRole(Qt::UserRole + 1);
 	proxy->setFilterKeyColumn(-1); // All columns
 
-#if 0
+#if USE_ITEM_DELEGATE
 	PlaylistDelegate * pl_delegate = new PlaylistDelegate(this);
 #endif
 
 	listView = new QTableView(this);
 	listView->setModel(proxy);
-#if 0
+
+#if USE_ITEM_DELEGATE
 	listView->setItemDelegateForColumn(COL_NAME, pl_delegate);
-	listView->setItemDelegateForColumn(COL_FILENAME, pl_delegate);
+	//listView->setItemDelegateForColumn(COL_FILENAME, pl_delegate);
 #endif
 
 	listView->setObjectName("playlist_table");
@@ -347,7 +353,9 @@ void Playlist::createTable() {
 	listView->setContextMenuPolicy( Qt::CustomContextMenu );
 	listView->setShowGrid(false);
 	listView->setSortingEnabled(true);
+#if !USE_ITEM_DELEGATE
 	listView->setAlternatingRowColors(true);
+#endif
 	listView->setEditTriggers(QAbstractItemView::NoEditTriggers);
 
 	listView->verticalHeader()->hide();
@@ -476,6 +484,13 @@ void Playlist::createToolbar() {
 	filter_edit = new MyLineEdit(this);
 	connect(filter_edit, SIGNAL(textChanged(const QString &)), this, SLOT(filterEditChanged(const QString &)));
 
+#ifdef PLAYLIST_DOWNLOAD
+	QLabel * loading_label = new QLabel(this);
+	animation = new QMovie();
+	animation->setFileName(Images::file("buffering.gif"));
+	loading_label->setMovie(animation);
+#endif
+
 	toolbar->addWidget(add_button);
 	toolbar->addWidget(remove_button);
 
@@ -492,6 +507,11 @@ void Playlist::createToolbar() {
 	toolbar->addAction(moveDownAct);
 	toolbar->addSeparator();
 	toolbar->addWidget(filter_edit);
+
+#ifdef PLAYLIST_DOWNLOAD
+	loading_label_action = toolbar->addWidget(loading_label);
+	loading_label_action->setVisible(false);
+#endif
 
 	// Popup menu
 	popup = new QMenu(this);
@@ -1729,6 +1749,7 @@ void Playlist::saveSettings() {
 	set->setValue( "sort_order", proxy->sortOrder() );
 	set->setValue( "filter_case_sensivity", proxy->filterCaseSensitivity() );
 	set->setValue( "filter", filter_edit->text() );
+	set->setValue( "sort_case_sensivity", proxy->sortCaseSensitivity() );
 
 	set->endGroup();
 
@@ -1794,6 +1815,7 @@ void Playlist::loadSettings() {
 	int sort_order = set->value("sort_order", Qt::AscendingOrder).toInt();
 	int filter_case_sensivity = set->value("filter_case_sensivity", Qt::CaseInsensitive).toInt();
 	QString filter = set->value( "filter").toString();
+	int sort_case_sensivity = set->value("sort_case_sensivity", Qt::CaseInsensitive).toInt();
 
 	set->endGroup();
 
@@ -1832,8 +1854,9 @@ void Playlist::loadSettings() {
 	set->endGroup();
 #endif
 
-	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 	proxy->setFilterCaseSensitivity( (Qt::CaseSensitivity) filter_case_sensivity);
+	proxy->setSortCaseSensitivity( (Qt::CaseSensitivity) sort_case_sensivity);
+	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 	filter_edit->setText(filter);
 }
 
@@ -1870,6 +1893,8 @@ void Playlist::openUrl() {
 void Playlist::openUrl(const QString & url) {
 	qDebug() << "Playlist::openUrl:" << url;
 	downloader->fetchPage(url);
+
+	showLoadingAnimation(true);
 }
 
 void Playlist::playlistDownloaded(QByteArray data) {
@@ -1896,12 +1921,20 @@ void Playlist::playlistDownloaded(QByteArray data) {
 	else {
 		QMessageBox::warning(this, "SMPlayer", tr("It's not possible to load this playlist") +": "+ tr("Unrecognized format."));
 	}
+
+	showLoadingAnimation(false);
 }
 
 void Playlist::errorOcurred(int error_number, QString error_str) {
-	qDebug() << "Playlist::errorOcurred:" << error_number << ":" << error_str;
+	showLoadingAnimation(false);
 
+	qDebug() << "Playlist::errorOcurred:" << error_number << ":" << error_str;
 	QMessageBox::warning(this, "SMPlayer", error_str);
+}
+
+void Playlist::showLoadingAnimation(bool b) {
+	if (b) animation->start(); else animation->stop();
+	loading_label_action->setVisible(b);
 }
 #endif
 

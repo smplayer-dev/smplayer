@@ -64,7 +64,6 @@ class QTableView;
 class QStandardItemModel;
 class QStandardItem;
 class QSortFilterProxyModel;
-
 class QToolBar;
 class MyAction;
 class MyLineEdit;
@@ -73,7 +72,7 @@ class QMenu;
 class QSettings;
 class QToolButton;
 class QTimer;
-
+class QMovie;
 class URLHistory;
 
 class Playlist : public QWidget
@@ -219,6 +218,7 @@ protected slots:
 #ifdef PLAYLIST_DOWNLOAD
 	void playlistDownloaded(QByteArray);
 	void errorOcurred(int error_number, QString error_str);
+	void showLoadingAnimation(bool b);
 #endif
 
 protected:
@@ -283,6 +283,8 @@ protected:
 #ifdef PLAYLIST_DOWNLOAD
 	LoadPage * downloader;
 	URLHistory * history_urls;
+	QMovie * animation;
+	QAction * loading_label_action;
 #endif
 
 private:
