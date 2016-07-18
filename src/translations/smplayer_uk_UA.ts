@@ -4749,7 +4749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Пошук</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>
