@@ -4675,7 +4675,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="462"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Dateiname / URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="465"/>
@@ -4750,7 +4750,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Suche</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>

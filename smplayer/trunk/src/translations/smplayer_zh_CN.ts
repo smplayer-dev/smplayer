@@ -4674,7 +4674,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="462"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>文件名/网址</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="465"/>
@@ -4749,7 +4749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>搜索</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>
@@ -7658,7 +7658,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>仅在需要的网站才会使用 mpv + youtube-dl 组合</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
