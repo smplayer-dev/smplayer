@@ -59,10 +59,17 @@
 #include "preferences.h"
 #include "multilineinputdialog.h"
 #include "version.h"
-#include "global.h"
 #include "extensions.h"
 #include "guiconfig.h"
 
+#ifdef PLAYLIST_DOWNLOAD
+#include "inputurl.h"
+#include "youtube/loadpage.h"
+#include "urlhistory.h"
+#include <QNetworkAccessManager>
+#include <QTemporaryFile>
+#include <QClipboard>
+#endif
 
 #if USE_INFOPROVIDER
 #include "infoprovider.h"
@@ -267,11 +274,24 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	save_timer = new QTimer(this);
 	connect( save_timer, SIGNAL(timeout()), this, SLOT(maybeSaveSettings()) );
 	save_timer->start( 5 * 60000 );
+
+#ifdef PLAYLIST_DOWNLOAD
+	downloader = new LoadPage(new QNetworkAccessManager(this), this);
+	downloader->setUserAgent("SMPlayer");
+	connect(downloader, SIGNAL(pageLoaded(QByteArray)), this, SLOT(playlistDownloaded(QByteArray)));
+	connect(downloader, SIGNAL(errorOcurred(int, QString)), this, SLOT(errorOcurred(int, QString)));
+
+	history_urls = new URLHistory;
+#endif
 }
 
 Playlist::~Playlist() {
 	saveSettings();
 	if (set) delete set;
+
+#ifdef PLAYLIST_DOWNLOAD
+	delete history_urls;
+#endif
 }
 
 void Playlist::setConfigPath(const QString & config_path) {
@@ -366,6 +386,11 @@ void Playlist::createActions() {
 	openAct = new MyAction(this, "pl_open", false);
 	connect( openAct, SIGNAL(triggered()), this, SLOT(load()) );
 
+#ifdef PLAYLIST_DOWNLOAD
+	openUrlAct = new MyAction(this, "pl_open_url", false);
+	connect( openUrlAct, SIGNAL(triggered()), this, SLOT(openUrl()) );
+#endif
+
 	saveAct = new MyAction(this, "pl_save", false);
 	connect( saveAct, SIGNAL(triggered()), this, SLOT(save()) );
 
@@ -424,6 +449,9 @@ void Playlist::createToolbar() {
 	//toolbar->setIconSize(QSize(48,48));
 
 	toolbar->addAction(openAct);
+#ifdef PLAYLIST_DOWNLOAD
+	toolbar->addAction(openUrlAct);
+#endif
 	toolbar->addAction(saveAct);;
 	toolbar->addSeparator();
 
@@ -480,6 +508,9 @@ void Playlist::retranslateStrings() {
 	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") );
 
 	openAct->change( Images::icon("open"), tr("&Load") );
+#ifdef PLAYLIST_DOWNLOAD
+	openUrlAct->change( Images::icon("url"), tr("&Open URL") );
+#endif
 	saveAct->change( Images::icon("save"), tr("&Save") );
 
 	playAct->change( tr("&Play") );
@@ -1725,6 +1756,12 @@ void Playlist::saveSettings() {
 		set->endGroup();
 	}
 
+#ifdef PLAYLIST_DOWNLOAD
+	set->beginGroup("history");
+	set->setValue("urls", history_urls->toStringList());
+	set->endGroup();
+#endif
+
 	if (set->contains("playlist/change_title")) set->remove("playlist/change_title");
 }
 
@@ -1789,6 +1826,12 @@ void Playlist::loadSettings() {
 		//listView->resizeColumnsToContents();
 	}
 
+#ifdef PLAYLIST_DOWNLOAD
+	set->beginGroup("history");
+	history_urls->fromStringList( set->value("urls", history_urls->toStringList()).toStringList() );
+	set->endGroup();
+#endif
+
 	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 	proxy->setFilterCaseSensitivity( (Qt::CaseSensitivity) filter_case_sensivity);
 	filter_edit->setText(filter);
@@ -1798,6 +1841,69 @@ QString Playlist::lastDir() {
 	QString last_dir = latest_dir;
 	return last_dir;
 }
+
+#ifdef PLAYLIST_DOWNLOAD
+void Playlist::openUrl() {
+	qDebug("Playlist::openUrl");
+
+	InputURL d(this);
+
+	// Get url from clipboard
+	QString clipboard_text = QApplication::clipboard()->text();
+	if (!clipboard_text.isEmpty() && clipboard_text.contains("://")) {
+		d.setURL(clipboard_text);
+	}
+
+	for (int n = 0; n < history_urls->count(); n++) {
+		d.setURL(history_urls->url(n));
+	}
+
+	if (d.exec() == QDialog::Accepted ) {
+		QString url = d.url();
+		if (!url.isEmpty()) {
+			history_urls->addUrl(url);
+			openUrl(url);
+		}
+	}
+}
+
+void Playlist::openUrl(const QString & url) {
+	qDebug() << "Playlist::openUrl:" << url;
+	downloader->fetchPage(url);
+}
+
+void Playlist::playlistDownloaded(QByteArray data) {
+	qDebug("Playlist::playlistDownloaded");
+	// Save to a temporary file
+	QTemporaryFile tf;
+	tf.open();
+	tf.write(data);
+	tf.close();
+	QString tfile = tf.fileName();
+	qDebug() << "Playlist::playlistDownloaded: tfile:" << tfile;
+
+	if (data.contains("#EXTM3U")) {
+		load_m3u(tfile);
+	}
+	else
+	if (data.contains("[playlist]")) {
+		load_pls(tfile);
+	}
+	else
+	if (data.contains("xspf.org")) {
+		loadXSPF(tfile);
+	}
+	else {
+		QMessageBox::warning(this, "SMPlayer", tr("It's not possible to load this playlist") +": "+ tr("Unrecognized format."));
+	}
+}
+
+void Playlist::errorOcurred(int error_number, QString error_str) {
+	qDebug() << "Playlist::errorOcurred:" << error_number << ":" << error_str;
+
+	QMessageBox::warning(this, "SMPlayer", error_str);
+}
+#endif
 
 // Language change stuff
 void Playlist::changeEvent(QEvent *e) {
