@@ -1,5 +1,7 @@
 @echo off
 
+for /f %%d in ('wmic os get localdatetime ^|findstr /b [0-9]') do @set datetime=%%d
+
 REM Read from generated file during compile if exist
 REM Relative paths are relative to install_smplayer
 
@@ -18,8 +20,8 @@ if exist win32inst_vars.cmd (
   echo Warning: it will only work with sources from the SVN and the command svn has to be in the path
   echo.
 
-  set /P QT_VER="Qt Version (Default: 5.5.1): "
-  if "%QT_VER%"=="" set QT_VER=5.5.1
+  set /P QT_VER="Qt Version (Default: 5.6.0): "
+  if "%QT_VER%"=="" set QT_VER=5.6.0
 
   set SMPLAYER_DIR=svn\smplayer
   REM set SMTUBE_DIR=svn\smtube
@@ -36,11 +38,17 @@ if exist win32inst_vars.cmd (
 )
 
 if [%X86_64%]==[yes] (
+  set BASE_BUILD_DIR=smplayer-build64
   set OUTPUT_DIR=%BUILD_PREFIX%\smplayer-build64
   set OPENSSL_DIR=openssl64
 ) else (
+  set BASE_BUILD_DIR=smplayer-build
   set OUTPUT_DIR=%BUILD_PREFIX%\smplayer-build
   set OPENSSL_DIR=openssl
+)
+
+if exist "%OUTPUT_DIR%" (
+  ren "%OUTPUT_DIR%" "%BASE_BUILD_DIR%.%datetime%"
 )
 
 if [%DEBUG%]==[yes] (
