@@ -21,6 +21,7 @@
 #define DESKTOPINFO_H
 
 #include <QSize>
+#include <QPoint>
 
 class QWidget;
 
@@ -32,6 +33,8 @@ public:
 
 	//! Returns true if the widget is inside the current screen
 	static bool isInsideScreen(QWidget *w);
+
+	static QPoint topLeftPrimaryScreen();
 };
 
 #endif

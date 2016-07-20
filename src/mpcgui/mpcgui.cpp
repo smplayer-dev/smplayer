@@ -286,8 +286,9 @@ void MpcGui::loadConfig() {
 		setWindowState( (Qt::WindowStates) set->value("state", 0).toInt() );
 
 		if (!DesktopInfo::isInsideScreen(this)) {
-			move(0,0);
-			qWarning("MpcGui::loadConfig: window is outside of the screen, moved to 0x0");
+			QPoint tl = DesktopInfo::topLeftPrimaryScreen();
+			move(tl);
+			qWarning("DefaultGui::loadConfig: window is outside of the screen, moved to %d x %d", tl.x(), tl.y());
 		}
 	}
 

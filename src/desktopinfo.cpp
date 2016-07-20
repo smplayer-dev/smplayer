@@ -47,3 +47,10 @@ bool DesktopInfo::isInsideScreen(QWidget *w) {
 	qDebug("DesktopInfo::isInsideScreen: geometry of screen: x:%d y:%d w:%d h:%d", r.x(), r.y(), r.width(), r.height() );
 	return r.contains(w->pos());
 }
+
+QPoint DesktopInfo::topLeftPrimaryScreen() {
+	int screen = QApplication::desktop()->primaryScreen();
+	QRect r = QApplication::desktop()->screenGeometry(screen);
+	return r.topLeft();
+}
+
