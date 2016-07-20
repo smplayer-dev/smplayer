@@ -5350,6 +5350,8 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	}
 #endif
 
+
+	if (isMaximized()) showNormal();
 	resize(new_width, new_height);
 
 	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
