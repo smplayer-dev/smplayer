@@ -5268,6 +5268,8 @@ void BaseGui::changeSizeFactor(int factor) {
 	// If fullscreen, don't resize!
 	if (pref->fullscreen) return;
 
+	if (isMaximized()) showNormal();
+
 	if (!pref->use_mplayer_window) {
 		pref->size_factor = factor;
 		resizeMainWindow(core->mset.win_width, core->mset.win_height);
@@ -5281,8 +5283,8 @@ void BaseGui::toggleDoubleSize() {
 void BaseGui::resizeWindow(int w, int h) {
 	qDebug("BaseGui::resizeWindow: %d, %d", w, h);
 
-	// If fullscreen, don't resize!
-	if (pref->fullscreen) return;
+	// If fullscreen or maximized, don't resize!
+	if (pref->fullscreen || isMaximized()) return;
 
 	if ( (pref->resize_method==Preferences::Never) && (panel->isVisible()) ) {
 		return;
@@ -5350,8 +5352,6 @@ void BaseGui::resizeMainWindow(int w, int h) {
 	}
 #endif
 
-
-	if (isMaximized()) showNormal();
 	resize(new_width, new_height);
 
 	qDebug("BaseGui::resizeWindow: done: window size: %d, %d", this->width(), this->height());
