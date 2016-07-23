@@ -210,10 +210,6 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 }
 
 BaseGuiPlus::~BaseGuiPlus() {
-#ifdef DETACH_VIDEO_OPTION
-	if (isVideoDetached()) detachVideo(false);
-#endif
-
 	saveConfig();
 	tray->hide();
 }

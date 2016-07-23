@@ -375,6 +375,10 @@ BaseGui::~BaseGui() {
 		delete video_preview;
 	}
 #endif
+
+	if (mplayerwindow) {
+		delete mplayerwindow;
+	}
 }
 
 void BaseGui::createActions() {
