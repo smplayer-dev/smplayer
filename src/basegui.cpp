@@ -5530,7 +5530,9 @@ void BaseGui::changeStayOnTop(int stay_on_top) {
 void BaseGui::checkStayOnTop(Core::State state) {
 	qDebug("BaseGui::checkStayOnTop");
 	if ((!pref->fullscreen) && (pref->stay_on_top == Preferences::WhilePlayingOnTop)) {
-		setStayOnTop((state == Core::Playing));
+		if (state != Core::Buffering) {
+			setStayOnTop((state == Core::Playing));
+		}
 	}
 }
 
