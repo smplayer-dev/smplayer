@@ -97,3 +97,7 @@
 
      * http://www.pd4pic.com/anaglyph-3d-cellophane-glasses-3dimensional-movie.html
        license: Public Domain CC0
+
+     * The animations src/default-theme/buffering.gif and src/default-theme/pl_loading.gif
+       were created at http://www.ajaxload.info/
+       license: Do What The Fuck You Want To Public License (http://www.wtfpl.net)
