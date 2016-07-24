@@ -487,7 +487,7 @@ void Playlist::createToolbar() {
 #ifdef PLAYLIST_DOWNLOAD
 	QLabel * loading_label = new QLabel(this);
 	animation = new QMovie();
-	animation->setFileName(Images::file("buffering.gif"));
+	animation->setFileName(Images::file("pl_loading.gif"));
 	loading_label->setMovie(animation);
 #endif
 
