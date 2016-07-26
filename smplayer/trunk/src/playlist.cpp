@@ -530,6 +530,7 @@ void Playlist::retranslateStrings() {
 	openAct->change( Images::icon("open"), tr("&Load") );
 #ifdef PLAYLIST_DOWNLOAD
 	openUrlAct->change( Images::icon("url"), tr("&Open URL") );
+	openUrlAct->setToolTip(tr("Download playlist from URL"));
 #endif
 	saveAct->change( Images::icon("save"), tr("&Save") );
 
