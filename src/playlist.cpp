@@ -757,10 +757,15 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 }
 
 
-void Playlist::load_m3u(QString file) {
-	qDebug("Playlist::load_m3u");
+void Playlist::load_m3u(QString file, M3UFormat format) {
+	bool utf8 = false;
+	if (format == DetectFormat) {
+		utf8 = (QFileInfo(file).suffix().toLower() == "m3u8");
+	} else {
+		utf8 = (format == M3U8);
+	}
 
-	bool utf8 = (QFileInfo(file).suffix().toLower() == "m3u8");
+	qDebug() << "Playlist::load_m3u: utf8:" << utf8;
 
 	QRegExp m3u_id("^#EXTM3U|^#M3U");
 	QRegExp info("^#EXTINF:(.*),(.*)");
@@ -1908,7 +1913,7 @@ void Playlist::playlistDownloaded(QByteArray data) {
 	qDebug() << "Playlist::playlistDownloaded: tfile:" << tfile;
 
 	if (data.contains("#EXTM3U")) {
-		load_m3u(tfile);
+		load_m3u(tfile, M3U8);
 	}
 	else
 	if (data.contains("[playlist]")) {
