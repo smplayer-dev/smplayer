@@ -81,6 +81,7 @@ class Playlist : public QWidget
 
 public:
 	enum AutoGetInfo { NoGetInfo = 0, GetInfo = 1, UserDefined = 2 };
+	enum M3UFormat { M3U = 0, M3U8 = 1, DetectFormat = 2 };
 
 	Playlist(QWidget * parent = 0, Qt::WindowFlags f = Qt::Window );
 	~Playlist();
@@ -145,7 +146,7 @@ public slots:
 	void openUrl(const QString & url);
 #endif
 
-	void load_m3u(QString file);
+	void load_m3u(QString file, M3UFormat format = DetectFormat);
 	bool save_m3u(QString file);
 
 	void load_pls(QString file);
