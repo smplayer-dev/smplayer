@@ -1785,6 +1785,7 @@ void Playlist::saveSettings() {
 
 #ifdef PLAYLIST_DOWNLOAD
 	set->beginGroup("history");
+	set->setValue("max_items", history_urls->maxItems());
 	set->setValue("urls", history_urls->toStringList());
 	set->endGroup();
 #endif
@@ -1856,6 +1857,7 @@ void Playlist::loadSettings() {
 
 #ifdef PLAYLIST_DOWNLOAD
 	set->beginGroup("history");
+	history_urls->setMaxItems(set->value("max_items", 50).toInt());
 	history_urls->fromStringList( set->value("urls", history_urls->toStringList()).toStringList() );
 	set->endGroup();
 #endif
