@@ -180,6 +180,11 @@ public:
 	bool ignorePlayerErrors() { return ignore_player_errors; };
 	bool automaticallyPlayNext() { return automatically_play_next; };
 
+#ifdef PLAYLIST_DOWNLOAD
+	void setMaxItemsUrlHistory(int max_items);
+	int maxItemsUrlHistory();
+#endif
+
 /*
 public:
 	MyAction * playPrevAct() { return prevAct; };
