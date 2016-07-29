@@ -4749,7 +4749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Arama</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>
@@ -6785,7 +6785,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"/>
+        <translation>Arama ve ses</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
@@ -6800,7 +6800,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
         <source>Drag function</source>
-        <translation type="unfinished"/>
+        <translation>Sürükleme işlevi</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
@@ -6810,7 +6810,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"/>
+        <translation>ana pencere taşındı</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
@@ -6975,7 +6975,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"/>
+        <translation>Sistem dili</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -7125,7 +7125,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Ölçek</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7185,7 +7185,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Uygulama için tercih ettiğiniz arayüzü seçin</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
@@ -7663,7 +7663,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
         <source>User agent</source>
-        <translation type="unfinished"/>
+        <translation>Kullanıcı aracısı</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="79"/>
@@ -9659,12 +9659,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
-        <translation type="unfinished"/>
+        <translation>Zaman kaydırıcı</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="257"/>
         <source>Volume slider</source>
-        <translation type="unfinished"/>
+        <translation>Ses kaydırıcı</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
@@ -9674,17 +9674,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Güncel zaman</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Toplam süre</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Kalan süre</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -9699,7 +9699,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Hızlı erişim menüsü</translation>
     </message>
 </context>
 <context>
@@ -9725,7 +9725,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"/>
+        <translation>Alınan en son sürüm numarası başarısız oldu</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
@@ -9762,7 +9762,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"/>
+        <translation>Kutlarız, SMPlayer güncellendi.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>

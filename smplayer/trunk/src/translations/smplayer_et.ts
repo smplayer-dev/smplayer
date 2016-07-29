@@ -5680,7 +5680,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1050"/>
         <source>Postprocessing quality</source>
-        <translation>Postprocessing kvaliteet</translation>
+        <translation>Järeltöötluse kvaliteet</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1051"/>
@@ -8026,7 +8026,7 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefperformance.cpp" line="34"/>
         <location filename="../prefperformance.cpp" line="373"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Automaatne</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
@@ -8081,12 +8081,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"/>
+        <translation>See valik töötab ainult mpv-ga.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="341"/>
         <source>Possible values:</source>
-        <translation type="unfinished"/>
+        <translation>Võimalikud väärtused:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="342"/>
@@ -8496,7 +8496,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="109"/>
         <source>Encoding</source>
-        <translation type="unfinished"/>
+        <translation>Kodeering</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
@@ -8556,7 +8556,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Italic</source>
-        <translation type="unfinished"/>
+        <translation>Kursiiv</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="462"/>
@@ -9049,7 +9049,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
         <source>Apply</source>
-        <translation>Võimalda</translation>
+        <translation>Rakenda</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="179"/>
@@ -9118,7 +9118,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
         <source>Enqueue in SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Lisa SMPlayeri esitusloendisse</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="115"/>
@@ -9291,22 +9291,22 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Anneta PayPali kaudu</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"/>
+        <translation>Jaga SMPlayerit Facebookis</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="115"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"/>
+        <translation>Jaga SMPlayerit Twitteris</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="117"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Toeta SMPlayerit</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
@@ -9334,7 +9334,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Lisa otsetee</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
@@ -9357,7 +9357,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"/>
+        <translation>Arvuti väljalülitamine</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
