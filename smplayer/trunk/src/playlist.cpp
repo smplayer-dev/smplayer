@@ -1944,6 +1944,14 @@ void Playlist::showLoadingAnimation(bool b) {
 	if (b) animation->start(); else animation->stop();
 	loading_label_action->setVisible(b);
 }
+
+void Playlist::setMaxItemsUrlHistory(int max_items) {
+	history_urls->setMaxItems(max_items);
+}
+
+int Playlist::maxItemsUrlHistory() {
+	return history_urls->maxItems();
+}
 #endif
 
 // Language change stuff

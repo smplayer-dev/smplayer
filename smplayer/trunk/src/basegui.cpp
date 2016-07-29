@@ -2441,6 +2441,10 @@ void BaseGui::createPlaylist() {
 	connect( core, SIGNAL(mplayerFailed(QProcess::ProcessError)), playlist, SLOT(playerFailed(QProcess::ProcessError)) );
 	connect( core, SIGNAL(mplayerFinishedWithError(int)), playlist, SLOT(playerFinishedWithError(int)) );
 	connect(core, SIGNAL(mediaDataReceived(const MediaData &)), playlist, SLOT(getMediaInfo(const MediaData &)));
+
+#ifdef PLAYLIST_DOWNLOAD
+	playlist->setMaxItemsUrlHistory( pref->history_urls->maxItems() );
+#endif
 }
 
 void BaseGui::createPanel() {
@@ -3196,6 +3200,9 @@ void BaseGui::applyNewPreferences() {
 	playlist->setPlayFilesFromStart(pl->playFilesFromStart());
 	playlist->setIgnorePlayerErrors(pl->ignorePlayerErrors());
 
+#ifdef PLAYLIST_DOWNLOAD
+	playlist->setMaxItemsUrlHistory( pref->history_urls->maxItems() );
+#endif
 
 	if (need_update_language) {
 		translator->load(pref->language);
