@@ -4674,7 +4674,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="462"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Файл / URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="465"/>
@@ -7658,7 +7658,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>він буде намагатися використовувати MPV + YouTube-DL тільки для сайтів, які вимагають цього</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
