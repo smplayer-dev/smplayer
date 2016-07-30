@@ -255,7 +255,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>&amp;Reset</source>
-        <translation>Сб&amp;рос</translation>
+        <translation>&amp;Сброс</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
@@ -4604,7 +4604,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="467"/>
         <source>&amp;Play</source>
-        <translation>Воспро&amp;изведение</translation>
+        <translation>&amp;Воспроизведение</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="495"/>
@@ -4674,7 +4674,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="462"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Путь к файлу</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="465"/>
@@ -4684,7 +4684,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="469"/>
         <source>&amp;Next</source>
-        <translation>С&amp;ледующий</translation>
+        <translation>&amp;Следующий</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="470"/>
@@ -4749,7 +4749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="505"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Поиск</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="510"/>
@@ -7658,7 +7658,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>будет пытаться использовать связку mpv + youtube-dl только для сайтов, которые требуют её</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
@@ -7700,7 +7700,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="181"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation>использует mpv + youtube-dl для всех сайтов</translation>
+        <translation>использует связку mpv + youtube-dl для всех сайтов</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
@@ -9762,7 +9762,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation>Поздравляем, у вас последняя весия SMPlayer.</translation>
+        <translation>Поздравляем, у вас последняя версия SMPlayer.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>
