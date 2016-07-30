@@ -325,7 +325,10 @@ void Preferences::reset() {
 #if REPAINT_BACKGROUND_OPTION
 	// "Repaint video background" in the preferences dialog
 	#ifndef Q_OS_WIN
-	repaint_video_background = false;
+	// Note: on linux there could be flickering when using mplayer if this option is true
+	// but setting it to false could display a corrupted window
+	// from the moment the user press play until playback actually starts
+	repaint_video_background = true;
 	#else
 	repaint_video_background = true;
 	#endif
