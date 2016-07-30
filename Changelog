@@ -1,3 +1,33 @@
+Version 16.8:
+
+(2016-07-23)
+ * Ignore the buffering state in checkStayOnTop.
+
+(2016-07-20)
+ * Don't try to resize the main window when it's maximized.
+
+(2016-07-19)
+ * (Playlist) Display an animation when loading.
+
+(2016-07-18)
+ * Possibility to download playlists from internet.
+
+(2016-07-16)
+ * The playlist settings are now saved to its own ini file (playlist.ini).
+
+(2016-07-14)
+ * Use the mpv ab-loop options.
+
+(2016-07-11)
+ * Don't use softvol and softvol-max with mpv 0.18.1.
+
+(2016-07-10)
+ * Possibility to search (filter) in  the playlist.
+
+(2016-07-08)
+ * Lots of internal changes in the playlist.
+
+
 Version 16.7:
 
 (2016-06-29)
