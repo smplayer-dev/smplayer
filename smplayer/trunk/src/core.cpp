@@ -1066,11 +1066,13 @@ void Core::newMediaPlaying() {
 	mset.current_demuxer = mdat.demuxer;
 
 	// Video
+	#if 0
 	if ( (mset.current_video_id == MediaSettings::NoneSelected) && 
          (mdat.videos.numItems() > 0) ) 
 	{
 		changeVideo( mdat.videos.itemAt(0).ID(), false ); // Don't allow to restart
 	}
+	#endif
 
 #if !DELAYED_AUDIO_SETUP_ON_STARTUP && !NOTIFY_AUDIO_CHANGES
 	// First audio if none selected
