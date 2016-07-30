@@ -4,32 +4,27 @@
 #include <QDir>
 
 #define DO_REMOVE
+//#define REMOVE_FILE_SETTINGS
 
 void CleanConfig::clean(const QString & config_path) {
 	qDebug("CleanConfig::clean");
 
+	QStringList files;
+	files << "smplayer.ini" << "styles.ass" << "smplayer_files.ini"
+          << "ytcode.script" << "yt.js" << "sig.ini" << "player_info.ini"
+          << "device_info.ini" << "hdpi.ini" << "playlist.ini";
+
 	QStringList files_to_delete;
 
-	QString s = config_path + "/smplayer.ini";
-	if (QFile::exists(s)) files_to_delete << s;
+	foreach(QString f, files) {
+		QString s = config_path +"/"+ f;
+		if (QFile::exists(s)) files_to_delete << s;
+	}
 
-	s = config_path + "/styles.ass";
-	if (QFile::exists(s)) files_to_delete << s;
-
-	s = config_path + "/smplayer_files.ini";
-	if (QFile::exists(s)) files_to_delete << s;
-
-	s = config_path + "/ytcode.script";
-	if (QFile::exists(s)) files_to_delete << s;
-
-	s = config_path + "/yt.js";
-	if (QFile::exists(s)) files_to_delete << s;
-	
-	s = config_path + "/player_info.ini";
-	if (QFile::exists(s)) files_to_delete << s;
-
-	s = config_path + "/file_settings";
+#ifdef REMOVE_FILE_SETTINGS
+	QString s = config_path + "/file_settings";
 	if (QFile::exists(s)) files_to_delete << listDir(s);
+#endif
 
 	printf("Deleting files:\n");
 	for (int n = 0; n < files_to_delete.count(); n++) {
