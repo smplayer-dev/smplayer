@@ -1548,10 +1548,14 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	qDebug("Core::startMplayer: url_is_playlist: %d", url_is_playlist);
 
-	// Quick hack: don't use ss with m3u(8) streams
-	bool is_m3u = (file.toLower().contains(".m3u"));
-	qDebug() << "Core::startMplayer: is_m3u:" << is_m3u;
-	if (is_m3u) seek = 0;
+	// Hack: don't use -ss with m3u(8) streams
+	if (mdat.type == TYPE_STREAM) {
+		QString extension = Extensions::extensionFromUrl(file);
+		qDebug() << "Core::startMplayer: URL extension:" << extension;
+		if (extension.contains("m3u")) {
+			seek = 0;
+		}
+	}
 
 	// Check if a m4a file exists with the same name of file, in that cause if will be used as audio
 	if (pref->autoload_m4a && mset.external_audio.isEmpty()) {
@@ -2389,25 +2393,18 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 #ifdef MPV_SUPPORT
-	if (pref->streaming_type == Preferences::StreamingAuto) {
-		bool is_youtube = false;
-		#ifdef YOUTUBE_SUPPORT
-		if (PREF_YT_ENABLED) is_youtube = (file == yt->latestPreferredUrl());
-		#endif
-		qDebug() << "Core::startMplayer: is_youtube:" << is_youtube;
-		bool enable_sites = !is_youtube;
+	if (mdat.type == TYPE_STREAM) {
+		if (pref->streaming_type == Preferences::StreamingAuto) {
+			bool is_youtube = false;
+			#ifdef YOUTUBE_SUPPORT
+			if (PREF_YT_ENABLED) is_youtube = (file == yt->latestPreferredUrl());
+			#endif
+			qDebug() << "Core::startMplayer: is_youtube:" << is_youtube;
+			bool enable_sites = !is_youtube;
 
-		if (!is_youtube) {
-			// Check if the URL contains a media extension
-			qDebug() << "Core::startMplayer: file:" << file;
-			int pos = file.lastIndexOf(".");
-			if (pos != -1) {
-				QString extension = file.mid(pos+1).toLower();
-				// Check if extension contains a '?' and remove everything after it
-				pos = extension.lastIndexOf("?");
-				if (pos != -1) {
-					extension = extension.left(pos);
-				}
+			if (!is_youtube) {
+				// Check if the URL contains a media extension
+				QString extension = Extensions::extensionFromUrl(file);
 				qDebug() << "Core::startMplayer: URL extension:" << extension;
 				Extensions e;
 				if (e.allPlayable().contains(extension)) {
@@ -2415,11 +2412,11 @@ void Core::startMplayer( QString file, double seek ) {
 					enable_sites = false;
 				}
 			}
+			qDebug() << "Core::startMplayer: enable_sites:" << enable_sites;
+			proc->setOption("enable_streaming_sites_support", enable_sites);
+		} else {
+			proc->setOption("enable_streaming_sites_support", pref->streaming_type == Preferences::StreamingYTDL);
 		}
-		qDebug() << "Core::startMplayer: enable_sites:" << enable_sites;
-		proc->setOption("enable_streaming_sites_support", enable_sites);
-	} else {
-		proc->setOption("enable_streaming_sites_support", pref->streaming_type == Preferences::StreamingYTDL);
 	}
 #endif
 
