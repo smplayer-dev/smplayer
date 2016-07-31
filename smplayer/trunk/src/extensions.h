@@ -31,7 +31,7 @@ public:
 	QString forRegExp();
 };
 
-class Extensions 
+class Extensions
 {
 public:
 	Extensions();
@@ -43,6 +43,8 @@ public:
 	ExtensionList subtitles() { return _subtitles; };
 	ExtensionList multimedia() { return _multimedia; };
 	ExtensionList allPlayable() { return _all_playable; };
+
+	static QString extensionFromUrl(const QString & url);
 
 protected:
 	ExtensionList _video, _audio, _playlist, _subtitles;

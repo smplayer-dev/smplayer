@@ -17,6 +17,7 @@
 */
 
 #include "extensions.h"
+#include <QDebug>
 
 ExtensionList::ExtensionList() : QStringList()
 {
@@ -80,5 +81,23 @@ Extensions::Extensions()
 }
 
 Extensions::~Extensions() {
+}
+
+QString Extensions::extensionFromUrl(const QString & url) {
+	//qDebug() << "Extensions::extensionFromUrl:" << url;
+
+	QString extension;
+	int pos = url.lastIndexOf(".");
+	if (pos != -1) {
+		extension = url.mid(pos+1).toLower();
+		// Check if extension contains a '?' and remove everything after it
+		pos = extension.lastIndexOf("?");
+		if (pos != -1) {
+			extension = extension.left(pos);
+		}
+	}
+
+	//qDebug() << "Extensions::extensionFromUrl: extension:" << extension;
+	return extension;
 }
 
