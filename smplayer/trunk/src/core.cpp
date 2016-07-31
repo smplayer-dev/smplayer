@@ -1548,6 +1548,10 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 	qDebug("Core::startMplayer: url_is_playlist: %d", url_is_playlist);
 
+	// Quick hack: don't use ss with m3u(8) streams
+	bool is_m3u = (file.toLower().contains(".m3u"));
+	qDebug() << "Core::startMplayer: is_m3u:" << is_m3u;
+	if (is_m3u) seek = 0;
 
 	// Check if a m4a file exists with the same name of file, in that cause if will be used as audio
 	if (pref->autoload_m4a && mset.external_audio.isEmpty()) {
