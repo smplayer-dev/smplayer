@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ja">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ja" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2340,7 +2338,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation>フォーマット情報(&amp;O)</translation>
+        <translation>形式情報(&amp;O)</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -2827,7 +2825,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="235"/>
         <source>Format</source>
-        <translation>フォーマット</translation>
+        <translation>形式</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="236"/>
@@ -2872,9 +2870,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 個の字幕が抽出されました</numerusform>
-        </translation>
+        <translation><numerusform>%n 個の字幕が抽出されました</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2972,7 +2968,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>フォルダー %1 にダウンロードされたファイルを
@@ -3118,7 +3114,7 @@ Please check the permissions of that folder.</source>
         <location filename="../infofile.cpp" line="126"/>
         <location filename="../infofile.cpp" line="135"/>
         <source>Format</source>
-        <translation>フォーマット</translation>
+        <translation>形式</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="127"/>
@@ -4683,12 +4679,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL を開く(&amp;O)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"></translation>
+        <translation>URL からプレイリストをダウンロード</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4808,12 +4804,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>このプレイリストを読み込むことができません</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"></translation>
+        <translation>認識されない形式です。</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -4947,7 +4943,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation>このオプションがチェックされている場合、lavf デミュクサーがすべてのフォーマットに使用されます。</translation>
+        <translation>このオプションがチェックされている場合、lavf デミュクサーがすべての形式に使用されます。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
@@ -5578,7 +5574,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1011"/>
         <source>Format for screenshots</source>
-        <translation>スクリーンショットのフォーマット</translation>
+        <translation>スクリーンショットの形式</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
@@ -5749,7 +5745,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation>フォーマット(&amp;O):</translation>
+        <translation>形式(&amp;O):</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -7589,7 +7585,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation>このオプションが有効な場合、シークはより正確になりますがやや遅くなることがあります。一部のビデオ フォーマットでは動作しない可能性があります。</translation>
+        <translation>このオプションが有効な場合、シークはより正確になりますがやや遅くなることがあります。一部のビデオ形式では動作しない可能性があります。</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="823"/>
@@ -7964,7 +7960,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに最速の方法を試行します (一部のフォーマットでは動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
+        <translation>可能な値:&lt;br&gt; &lt;b&gt;はい&lt;/b&gt;: オーディオ トラックの切り替えに最速の方法を試行します (一部の形式では動作しない可能性があります).&lt;br&gt; &lt;b&gt;いいえ&lt;/b&gt;: MPlayer プロセスはオーディオ トラックの切り替え時にいつも再起動されます。&lt;br&gt; &lt;b&gt;自動&lt;/b&gt;: SMPlayer は MPlayer バージョンによってどうするかを決定します。</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="376"/>
@@ -9193,17 +9189,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 秒</numerusform>
-        </translation>
+        <translation><numerusform>%n 秒</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 分</numerusform>
-        </translation>
+        <translation><numerusform>%n 分</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9281,7 +9273,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&apos;media&apos; は SMPlayer が開けるあらゆるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u や pls のフォーマットのローカル プレイリストを受け付けます。</translation>
+        <translation>&apos;media&apos; は SMPlayer が開けるあらゆるファイルです。ローカル ファイル、DVD (例: dvd://1)、インターネット ストリーム (例: mms://....) または m3u や pls 形式のローカル プレイリストを受け付けます。</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -9465,12 +9457,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation>ビデオの 3D フォーマット(&amp;3):</translation>
+        <translation>ビデオの 3D 形式(&amp;3):</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation>出力フォーマット(&amp;O)</translation>
+        <translation>出力形式(&amp;O)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -9994,7 +9986,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="434"/>
         <source>Video format: %1</source>
-        <translation>ビデオのフォーマット: %1</translation>
+        <translation>ビデオ形式: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="435"/>
@@ -10149,7 +10141,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation>いくつかのフレームはプレビューを作成するためにビデオから抽出されます。ここでは抽出されるフレームのイメージ フォーマットを選択できます。PNG が高品質でしょう。</translation>
+        <translation>いくつかのフレームはプレビューを作成するためにビデオから抽出されます。ここでは抽出されるフレームのイメージ形式を選択できます。PNG が高品質でしょう。</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
@@ -10164,7 +10156,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
         <source>&amp;Extract frames as</source>
-        <translation>フォーマット(&amp;E):</translation>
+        <translation>形式(&amp;E):</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
