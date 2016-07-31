@@ -47,6 +47,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_LENGTH=${=duration:${=length}}\n"
 
 			"INFO_DEMUXER=${=demuxer}\n"
+			"INFO_SEEKABLE=${=seekable}\n"
 			"INFO_TITLES=${=disc-titles}\n"
 			"INFO_CHAPTERS=${=chapters}\n"
 			"INFO_TRACKS_COUNT=${=track-list/count}\n"
