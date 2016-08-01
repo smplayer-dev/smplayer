@@ -249,8 +249,11 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	createToolbar();
 
 	QVBoxLayout *layout = new QVBoxLayout;
-	layout->addWidget( listView );
-	layout->addWidget( toolbar );
+	layout->addWidget(listView);
+	layout->addWidget(toolbar);
+#ifdef PLAYLIST_DOUBLE_TOOLBAR
+	layout->addWidget(toolbar2);
+#endif
 	setLayout(layout);
 
 	clear();
@@ -457,6 +460,11 @@ void Playlist::createToolbar() {
 	toolbar->setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Minimum );
 	//toolbar->setIconSize(QSize(48,48));
 
+#ifdef PLAYLIST_DOUBLE_TOOLBAR
+	toolbar2 = new QToolBar(this);
+	toolbar2->setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Minimum );
+#endif
+
 	toolbar->addAction(openAct);
 #ifdef PLAYLIST_DOWNLOAD
 	toolbar->addAction(openUrlAct);
@@ -497,9 +505,19 @@ void Playlist::createToolbar() {
 
 	toolbar->addSeparator();
 	toolbar->addAction(playAct);
-	toolbar->addSeparator();
 	toolbar->addAction(prevAct);
 	toolbar->addAction(nextAct);
+#ifdef PLAYLIST_DOUBLE_TOOLBAR
+	toolbar2->addAction(moveUpAct);
+	toolbar2->addAction(moveDownAct);
+	toolbar2->addAction(repeatAct);
+	toolbar2->addAction(shuffleAct);
+	toolbar2->addSeparator();
+	toolbar2->addWidget(filter_edit);
+	#ifdef PLAYLIST_DOWNLOAD
+	loading_label_action = toolbar2->addWidget(loading_label);
+	#endif
+#else
 	toolbar->addSeparator();
 	toolbar->addAction(repeatAct);
 	toolbar->addAction(shuffleAct);
@@ -508,9 +526,12 @@ void Playlist::createToolbar() {
 	toolbar->addAction(moveDownAct);
 	toolbar->addSeparator();
 	toolbar->addWidget(filter_edit);
+	#ifdef PLAYLIST_DOWNLOAD
+	loading_label_action = toolbar->addWidget(loading_label);
+	#endif
+#endif
 
 #ifdef PLAYLIST_DOWNLOAD
-	loading_label_action = toolbar->addWidget(loading_label);
 	loading_label_action->setVisible(false);
 #endif
 

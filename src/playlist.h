@@ -28,6 +28,7 @@
 #include "mediadata.h"
 
 #define PLAYLIST_DOWNLOAD
+//#define PLAYLIST_DOUBLE_TOOLBAR
 
 class PLItem : public QStandardItem {
 public:
@@ -254,6 +255,9 @@ protected:
 	QSortFilterProxyModel * proxy;
 
 	QToolBar * toolbar;
+#ifdef PLAYLIST_DOUBLE_TOOLBAR
+	QToolBar * toolbar2;
+#endif
 	QToolButton * add_button;
 	QToolButton * remove_button;
 
