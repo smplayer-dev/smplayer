@@ -1,3 +1,15 @@
+Version 16.8
+
+ * The playlist has been improved. Now it's possible to sort by any
+   column. There's a new column, with the path of the file (or URL)
+   (this allows you to sort the list by folder).
+   Now it's possible to search (actually filter) in the playlist.
+   And finally there's a new option to load a playlist from internet.
+   As example, you can enter this URL: http://smplayer.info/onlinetv.php
+   It will download a playlist with some online TV streams.
+ * Bug fixes.
+
+
 Version 16.7
 
  * Fix for YouTube.
