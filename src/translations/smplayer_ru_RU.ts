@@ -4684,7 +4684,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Скачать плейлист из сети интернет</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -7710,7 +7710,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>support for video sites is turned off</source>
-        <translation>Поддержка видео-сайтов выключена</translation>
+        <translation>поддержка видео-сайтов выключена</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="178"/>

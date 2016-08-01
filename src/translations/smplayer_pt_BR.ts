@@ -4679,12 +4679,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;brir URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Baixar a lista de reprodução da URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4804,12 +4804,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Não foi possível carregar essa lista de reprodução</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Formato não reconhecido.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
