@@ -1533,6 +1533,16 @@ void Playlist::upItem() {
 
 	if (s_index.isValid() && s_prev.isValid()) {
 		int row = s_index.row();
+		int prev_row = s_prev.row();
+
+		int pos_num_current = itemData(row)->position();
+		int pos_num_prev = itemData(prev_row)->position();
+
+		qDebug() << "Playlist::upItem: pos_num_current:" << pos_num_current << "pos_num_prev:" << pos_num_prev;
+
+		itemData(row)->setPosition(pos_num_prev);
+		itemData(prev_row)->setPosition(pos_num_current);
+
 		QList<QStandardItem*> cells = table->takeRow(row);
 		table->insertRow(s_prev.row(), cells);
 		listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row()-1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
@@ -1553,6 +1563,16 @@ void Playlist::downItem() {
 
 	if (s_index.isValid() && s_next.isValid()) {
 		int row = s_index.row();
+		int next_row = s_next.row();
+
+		int pos_num_current = itemData(row)->position();
+		int pos_num_next = itemData(next_row)->position();
+
+		qDebug() << "Playlist::downItem: pos_num_current:" << pos_num_current << "pos_num_next:" << pos_num_next;
+
+		itemData(row)->setPosition(pos_num_next);
+		itemData(next_row)->setPosition(pos_num_current);
+
 		QList<QStandardItem*> cells = table->takeRow(row);
 		table->insertRow(s_next.row(), cells);
 		listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row()+1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
