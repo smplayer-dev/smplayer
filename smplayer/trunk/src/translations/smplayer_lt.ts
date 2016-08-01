@@ -2688,7 +2688,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Čia galite perduoti papildomas parinktis, skirtas %1.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -4673,17 +4673,17 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="529"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Failo pavadinimas / URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Atverti URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Atsisiųsti grojaraštį iš URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4778,7 +4778,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="1616"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"/>
+        <translation>Šis veiksmas negali būti atšauktas. Ar tikrai norite tęsti?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1634"/>
@@ -4803,12 +4803,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Neįmanoma įkelti šio grojaraščio</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Neatpažintas formatas.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -4947,7 +4947,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"/>
+        <translation>Šios parinkties gali prireikti, norint groti grojaraščio failus (m3u, pls...). Kita vertus, grojant internetinius šaltinius, tai gali sukelti saugumo riziką, kadangi būdas, kuriuo MPlayer analizuoja ir naudoja grojaraščio failus nėra apsaugotas nuo kenkėjiškai sukonkstruotų failų.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
@@ -5087,7 +5087,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Paleisti %1 atskirame lange</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
@@ -5112,7 +5112,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"/>
+        <translation>Čia galite perduoti parinktis ir filtrus, skirtus %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5122,12 +5122,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation>Pe&amp;rduoti %1 parinktį į MPlayer (saugumo rizika)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation>Paleisti %1 atskirame lange</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
@@ -5157,7 +5157,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation>Perduoti %1 parinktį į MPlayer (saugumo rizika)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
@@ -5507,7 +5507,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="198"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"/>
+        <translation>%1 &amp;vykdomasis:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="378"/>
@@ -5533,7 +5533,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
-        <translation type="unfinished"/>
+        <translation>%1 vykdomasis</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="961"/>
@@ -5558,7 +5558,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="998"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"/>
+        <translation>Momentinių vaizdų šablonas</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
@@ -5578,7 +5578,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Ši parinktis leidžia pasirinkti paveikslų failo tipą, kuris bus naudojamas momentinių vaizdų išsaugojimui.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
@@ -5593,7 +5593,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1037"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"/>
+        <translation>Pasirinkite video išvesties tvarkyklę.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1124"/>
@@ -5633,7 +5633,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="999"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Ši parinktis nurodo failo pavadinimo šabloną, kuris bus naudojamas momentinių vaizdų išsaugojimui.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1003"/>
@@ -6422,7 +6422,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"/>
+        <translation>Vil&amp;kimo funkcija:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
@@ -6804,7 +6804,7 @@ Norite perrašyti?</translation>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"/>
+        <translation>Prasukimas ir garso lygis</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
@@ -6819,7 +6819,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
         <source>Drag function</source>
-        <translation type="unfinished"/>
+        <translation>Vilkimo funkcija</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
@@ -7607,7 +7607,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"/>
+        <translation>Naudotojo agentas</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7682,7 +7682,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
         <source>User agent</source>
-        <translation type="unfinished"/>
+        <translation>Naudotojo agentas</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="79"/>
@@ -7734,7 +7734,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="195"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"/>
+        <translation>Nustatykite naudotojo agentą, kuri SMPlayer naudos, jungdamasi prie YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="206"/>
@@ -8308,7 +8308,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="165"/>
         <source>Play next file even if the previous file failed</source>
-        <translation type="unfinished"/>
+        <translation>Groti kitą failą netgi jei ankstesnio failo atkūrimas nepavyko</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
@@ -8368,7 +8368,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="131"/>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="unfinished"/>
+        <translation>Groti &amp;kitą failą netgi jei ankstesnio failo atkūrimas nepavyko</translation>
     </message>
 </context>
 <context>
