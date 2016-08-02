@@ -49,9 +49,9 @@ ${LangFileString} Section_MPlayerCodecs_Desc "İkili Kodekler bu sürüm için d
 ${LangFileString} Section_MPlayerCodecs_Desc "MPlayer için isteğe bağlı kodekler. (Kurulum için internet bağlantısı gereklidir)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "Özellik açısından zengin bir MPlayer && MPlayer2 çatallaması"
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "Desteklenen ses veya video yayınlarını çözmek veya dönüştürmek için kullanılabilen, MPlayer'a eşlik eden bir program."
 
 ${LangFileString} Section_IconThemes "Simge Temaları"
 ${LangFileString} Section_IconThemes_Desc "SMPlayer için ek simge temaları."

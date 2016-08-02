@@ -72,7 +72,7 @@ ${LangFileString} Section_DesktopShortcut "ደስክቶፕ"
 ${LangFileString} Section_DesktopShortcut_Desc "በ ዴስክቶፕ ላይ አቋራጭ መፍጠሪያ ለ SMP ማጫወቻ"
 
 ${LangFileString} Section_StartMenu "ዝርዝር ማስጀመሪያ"
-${LangFileString} Section_StartMenu_Desc "Create a Start Menu entry for SMPlayer."
+${LangFileString} Section_StartMenu_Desc "ለ SMPlayer የ ማስጀመሪያ ዝርዝር ማስገቢያ መፍጠሪያ"
 
 ${LangFileString} Section_MPlayer "SMP ማጫወቻ (ያስፈልጋል)"
 ${LangFileString} Section_MPlayer_Desc "SMP ማጫወቻ; ያስፈልጋል በ ድጋሚ ለማጫወት"
@@ -100,17 +100,17 @@ ${LangFileString} MPlayer_Codec_Msg "The binary codec packages add support for c
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "የ መግጠሚያ አይነት ይምረጡ"
-${LangFileString} Reinstall_Header_SubText "Select Overwrite or Uninstall mode."
+${LangFileString} Reinstall_Header_SubText "ይምረጡ በላዩ ላይ ደርቦ መጻፊያ ወይንም ማጥፊያ ዘዴ"
 
 ${LangFileString} Reinstall_Msg1 "You have an existing installation of SMPlayer in the following folder:"
 ${LangFileString} Reinstall_Msg2 "እባክዎን እንዴት መቀጠል እንደሚፈልጉ ይምረጡ"
-${LangFileString} Reinstall_Overwrite "Overwrite ($Inst_Type) the existing installation"
-${LangFileString} Reinstall_Uninstall "Uninstall (remove) the existing installation"
+${LangFileString} Reinstall_Overwrite " በላዩ ላይ ደርቦ መጻፊያ ($Inst_Type) በ ነበረው መግጠሚያ ላይ"
+${LangFileString} Reinstall_Uninstall "ማጥፊያ (ማስወገጃ) የ ነበረውን መግጠሚያ"
 ${LangFileString} Reinstall_Msg3_1 "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ "
 ${LangFileString} Reinstall_Msg3_2 "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ "
 ${LangFileString} Reinstall_Msg3_3 "ይጫኑ ማጥፊያውን ለ መቀጠል ዝግጁ ሲሆኑ "
 ${LangFileString} Reinstall_Msg4 "የ መግጠሚያ ማሰናጃ መቀየሪያ"
-${LangFileString} Reinstall_Msg5 "Reset my SMPlayer configuration"
+${LangFileString} Reinstall_Msg5 "እንደ ነበር መመለሻ የ እኔን SMPlayer ማዋቀሪያ"
 
 ${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
 
@@ -147,14 +147,14 @@ ${LangFileString} Info_RollBack "Rolling back changes..."
 ${LangFileString} Info_Files_Extract "ፋይሎች በ ማራገፍ ላይ..."
 ${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
 ${LangFileString} Info_SMTube_Restore "Restoring SMTube from previous installation..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
+${LangFileString} Info_MPV_Backup "ተተኪ በማሰናዳት ላይ የ mpv..."
 ${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "በማውረድ ላይ mpv..."
+${LangFileString} MPV_DL_Retry "mpv ተሳክቶ አልተገጠመም: እንደገና ልሞክር?"
+${LangFileString} MPV_DL_Failed "ማውረድ አልተቻለም: '$R0'."
+${LangFileString} MPV_Inst_Failed "መግጠም አልተቻለም mpv."
 
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
@@ -169,4 +169,4 @@ ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_SMPlayer "በማጽዳት ላይ የ SMPlayer ማሰናጃ"

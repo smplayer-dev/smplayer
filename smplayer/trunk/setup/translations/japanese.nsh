@@ -61,7 +61,7 @@ ${LangFileString} Section_Translations_Desc "SMPlayer の英語以外のの言�
 
 ${LangFileString} Section_ResetSettings_Desc "前のインストールから残っている SMPlayer の環境設定を削除します。"
 
-${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少なフォーマットなど、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
+${LangFileString} MPlayer_Codec_Msg "バイナリ コーデック パッケージは新しい RealVideo 派生や多くの希少な形式など、まだ自然には実装されていないコーデックへのサポートを追加します。$\nDVD、MPEG-1/2/4 などの最も一般的なフォーマットの再生には必要でないことにご注意ください。"
 
 ; Upgrade/Reinstall Page
 ${LangFileString} Reinstall_Header_Text "インストールの種類の選択"

@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Yderligere codecs til MPlayer. (kr
 
 ${LangFileString} Section_MPV_Desc "En funktionsrig fork af MPlayer og MPlayer2"
 
-${LangFileString} Section_MEncoder_Desc "Et medfølgende program til MPlayer der kan bruges til at indkode eller transformere understøttede lyd- og videostreams."
+${LangFileString} Section_MEncoder_Desc "Et medfølgende program til MPlayer der kan bruges til at indkode eller transformere understøttede lyd- og videostrømme."
 
 ${LangFileString} Section_IconThemes "Ikon-temaer"
 ${LangFileString} Section_IconThemes_Desc "Yderligere ikon-temaer til SMPlayer."

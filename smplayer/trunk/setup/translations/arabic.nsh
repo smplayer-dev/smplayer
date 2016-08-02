@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "يجب أن تكون مسجّل الدخو
 ${LangFileString} SMPlayer_Is_Running "توجد نافذة مشتغلة لـ SMPlayer. رجاءاً اخرج من SMPlayer و حاول مرة أخرى."
 
 ${LangFileString} OS_Not_Supported "نظام تشغيلي غير مدعوم.$\nSMPlayer ${SMPLAYER_VERSION} يتطلب على الأقل ويندوز Windows XP و قد لا يعمل بصورة صحيحة على نظامك.$\nأتريد حقاً الإستمرار بالتثبيت؟"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "نظام تشغيلي غير مدعوم.$\nSMPlayer ${SMPLAYER_VERSION} يتطلب على الأقل ويندوز فيستا Windows Vista و قد لا يعمل بصورة صحيحة على نظامك.$\nأتريد حقاً الإستمرار بالتثبيت؟"
 ${LangFileString} Win64_Required "يتطلب نظام تشغيل ويندوز Windows 64-بت لتثبيت هذا البرنامج."
 ${LangFileString} Existing_32bitInst "يوجد حاليا تثبيت 32-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 32-بت أولاً."
 ${LangFileString} Existing_64bitInst "يوجد حاليا تثبيت 64-بت من SMPlayer. يجب ان تزيل تثبيت SMPlayer 64-بت أولاً."
