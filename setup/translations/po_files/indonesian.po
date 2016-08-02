@@ -4,47 +4,47 @@ msgstr "Kodek binari tidak didukung pada versi ini."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Membersihkan setelan SMPlayer..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Membersihkan singgahan fontconfig..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Memeriksa pembaruan youtube-dl..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "Gagal mengunduh youtube-dl: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "youtube-dl tidak sukses dipasang. Coba kembali?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Gagal memasang mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Gagal mengunduh mpv: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv tidak sukses dipasang. Coba kembali?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Mengunduh mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Mengembalikan mpv dari pemasangan sebelumnya..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Mencadangkan mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -56,7 +56,7 @@ msgstr "Mencadangkan SMTube..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
-msgstr "Mengekstrak berkas..."
+msgstr "Mengekstrak file..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
@@ -64,7 +64,7 @@ msgstr "Mengembalikan pengubahan..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr "Mengembalikan asosiasi berkas..."
+msgstr "Mengembalikan asosiasi file..."
 
 # Info_Del_Shortcuts
 msgid "Deleting Shortcuts..."
@@ -76,7 +76,7 @@ msgstr "Menghapus Kunci Registri..."
 
 # Info_Del_Files
 msgid "Deleting Files..."
-msgstr "Menghapus berkas..."
+msgstr "Menghapus file..."
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
@@ -120,8 +120,7 @@ msgstr "Pencopotan dibatalkan oleh pengguna."
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
-msgstr ""
-"Pemasangan ini hanya bisa dicopot oleh pengguna dengan izin administrator."
+msgstr "Pemasangan ini hanya bisa dicopot oleh pengguna dengan izin pengurus."
 
 # Codecs_Inst_Failed
 msgid "Failed to install MPlayer codecs."
@@ -160,6 +159,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Apakah kamu yakin ingin menyetel ulang setelan SMPlayer-mu? Tindakan ini "
+"tidak dapat dikembalikan."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -224,7 +225,7 @@ msgstr "Hapus pengaturan SMPlayer yang tersisa ada pemasangan sebelumnya."
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
-msgstr "Berkas Bahasa Non-Inggris untuk SMPlayer."
+msgstr "File Bahasa Non-Inggris untuk SMPlayer."
 
 # Section_Translations
 msgid "Languages"
@@ -313,8 +314,8 @@ msgid ""
 msgstr ""
 "Wisaya ini akan memandu Anda pada pemasangan $(^NameDA).[:r:][:n:][:r:][:n:] "
 "Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. "
-"Hal ini akan memungkinkan untuk memperbarui berkas program tanpa harus "
-"memulai ulang komputer Anda.[:r:][:n:][:r:][:n:]$_CLICK"
+"Hal ini akan memungkinkan untuk memperbarui file program tanpa harus memulai "
+"ulang komputer Anda.[:r:][:n:][:r:][:n:]$_CLICK"
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
@@ -347,6 +348,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Sistem operasi tak didukung.[:n:]SMPlayer ${SMPLAYER_VERSION} perlu di "
+"Windows Vista terkini dan mungkin tidak bekerja dengan benar pada sistemmu.[:"
+"n:]Apakah kamu benar-benar ingin melanjutkan pemasangan?"
 
 # OS_Not_Supported
 msgid ""
@@ -365,7 +369,7 @@ msgstr ""
 
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
-msgstr "Anda harus masuk sebagai administrator ketika memasang program."
+msgstr "Anda harus masuk sebagai pengurus ketika memasang program."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -379,12 +383,12 @@ msgstr "Pemasang telah berjalan."
 # Aulia Firdaus Simbolon <dausbajing@hotmail.co.id>, 2014
 # Mohamad Hasan Al Banna <se7entime@protonmail.com>, 2014
 # Rendiyono Wahyu Saputro <rendi.7936@gmail.com>, 2015
-# wantoyo <wantoyo@yahoo.com>, 2015
+# wantoyo <wantoyo@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-07-09 12:46+0000\n"
+"Last-Translator: wantoyo <wantoyo@yahoo.com>\n"
 "Language-Team: Indonesian (http://www.transifex.com/rvm/smplayer/language/"
 "id/)\n"
 "Language: id\n"
