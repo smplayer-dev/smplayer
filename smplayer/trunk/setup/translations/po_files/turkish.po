@@ -235,10 +235,12 @@ msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
+"Desteklenen ses veya video yayınlarını çözmek veya dönüştürmek için "
+"kullanılabilen, MPlayer'a eşlik eden bir program."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Özellik açısından zengin bir MPlayer && MPlayer2 çatallaması"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
@@ -376,7 +378,7 @@ msgstr "Kurulum zaten çalışıyor."
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-06-27 21:54+0000\n"
+"PO-Revision-Date: 2016-07-05 22:27+0000\n"
 "Last-Translator: Mehmet <mehmet337402@gmail.com>\n"
 "Language-Team: Turkish (http://www.transifex.com/rvm/smplayer/language/tr/)\n"
 "Language: tr\n"

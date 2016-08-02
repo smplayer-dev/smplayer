@@ -4,7 +4,7 @@ msgstr ""
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "በማጽዳት ላይ የ SMPlayer ማሰናጃ"
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
@@ -24,19 +24,19 @@ msgstr ""
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "መግጠም አልተቻለም mpv."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "ማውረድ አልተቻለም: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "mpv ተሳክቶ አልተገጠመም: እንደገና ልሞክር?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "በማውረድ ላይ mpv..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
@@ -44,7 +44,7 @@ msgstr ""
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "ተተኪ በማሰናዳት ላይ የ mpv..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -157,7 +157,7 @@ msgstr ""
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
-msgstr ""
+msgstr "እንደ ነበር መመለሻ የ እኔን SMPlayer ማዋቀሪያ"
 
 # Reinstall_Msg4
 msgid "Change Installation Settings"
@@ -177,11 +177,11 @@ msgstr "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ 
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
-msgstr ""
+msgstr "ማጥፊያ (ማስወገጃ) የ ነበረውን መግጠሚያ"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
+msgstr " በላዩ ላይ ደርቦ መጻፊያ ($Inst_Type) በ ነበረው መግጠሚያ ላይ"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
@@ -193,7 +193,7 @@ msgstr ""
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr ""
+msgstr "ይምረጡ በላዩ ላይ ደርቦ መጻፊያ ወይንም ማጥፊያ ዘዴ"
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
@@ -244,7 +244,7 @@ msgstr ""
 
 # Section_MPlayerCodecs
 msgid "Binary Codecs"
-msgstr ""
+msgstr "Binary Codecs"
 
 # Section_MPlayer_Desc
 msgid "MPlayer; required for playback."
@@ -256,7 +256,7 @@ msgstr "SMP ማጫወቻ (ያስፈልጋል)"
 
 # Section_StartMenu_Desc
 msgid "Create a Start Menu entry for SMPlayer."
-msgstr ""
+msgstr "ለ SMPlayer የ ማስጀመሪያ ዝርዝር ማስገቢያ መፍጠሪያ"
 
 # Section_StartMenu
 msgid "Start Menu"
@@ -352,12 +352,12 @@ msgstr "መግጠሚያው እየሄደ ነው"
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# samson <sambelet@yahoo.com>, 2015
+# samson <sambelet@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-07-25 01:28+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/rvm/smplayer/language/am/)\n"
 "Language: am\n"
 "MIME-Version: 1.0\n"
