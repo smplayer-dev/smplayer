@@ -12,18 +12,18 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Pemasang telah berjalan."
-${LangFileString} Installer_No_Admin "Anda harus masuk sebagai administrator ketika memasang program."
+${LangFileString} Installer_No_Admin "Anda harus masuk sebagai pengurus ketika memasang program."
 ${LangFileString} SMPlayer_Is_Running "Sebuah instansi SMPlayer masih berjalan. Tolong tutup SMPlayer dan coba lagi."
 
 ${LangFileString} OS_Not_Supported "Sistem operasi tidak didukung.$\nSMPlayer ${SMPLAYER_VERSION} membutuhkan setidaknya Windows XP dan mungkin tidak bekerja dengan baik pada sistem Anda.$\n Apakah Anda ingin melanjutkan pemasangan?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Sistem operasi tak didukung.$\nSMPlayer ${SMPLAYER_VERSION} perlu di Windows Vista terkini dan mungkin tidak bekerja dengan benar pada sistemmu.$\nApakah kamu benar-benar ingin melanjutkan pemasangan?"
 ${LangFileString} Win64_Required "Sistem operasi Windows 64-bit diperlukan untuk memasang perangkat lunak ini."
 ${LangFileString} Existing_32bitInst "Pemasang SMPlayer 32-bit masih terpasang. Anda harus mencopot SMPlayer 32-bit terlebih dahulu."
 ${LangFileString} Existing_64bitInst "SMPlayer 64-bit masih terpasang. Anda harus mencopot SMPlayer 64-bit terlebih dahulu."
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) Wisaya"
-${LangFileString} WelcomePage_Text "Wisaya ini akan memandu Anda pada pemasangan $(^NameDA).$\r$\n$\r$\n Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui berkas program tanpa harus memulai ulang komputer Anda.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "Wisaya ini akan memandu Anda pada pemasangan $(^NameDA).$\r$\n$\r$\n Disarankan agar Anda menutup semua instansi SMPlayer sebelum memulai wisaya. Hal ini akan memungkinkan untuk memperbarui file program tanpa harus memulai ulang komputer Anda.$\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "Pintasan"
@@ -57,7 +57,7 @@ ${LangFileString} Section_IconThemes "Tema Ikon"
 ${LangFileString} Section_IconThemes_Desc "Tema ikon tambahan untuk SMPlayer."
 
 ${LangFileString} Section_Translations "Bahasa"
-${LangFileString} Section_Translations_Desc "Berkas Bahasa Non-Inggris untuk SMPlayer."
+${LangFileString} Section_Translations_Desc "File Bahasa Non-Inggris untuk SMPlayer."
 
 ${LangFileString} Section_ResetSettings_Desc "Hapus pengaturan SMPlayer yang tersisa ada pemasangan sebelumnya."
 
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Klik Copot ketika siap untuk diproses."
 ${LangFileString} Reinstall_Msg4 "Ubah Setelan Pemasangan"
 ${LangFileString} Reinstall_Msg5 "Setel ulang konfigurasi SMPlayer saya"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Apakah kamu yakin ingin menyetel ulang setelan SMPlayer-mu? Tindakan ini tidak dapat dikembalikan."
 
 ${LangFileString} Type_Reinstall "pasang ulang"
 ${LangFileString} Type_Downgrade "penurunan"
@@ -92,7 +92,7 @@ ${LangFileString} Codecs_DL_Failed "Gagal mengunduh kodek MPlayer: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Gagal memasang kodek MPlayer"
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "Pemasangan ini hanya bisa dicopot oleh pengguna dengan izin administrator."
+${LangFileString} Uninstaller_No_Admin "Pemasangan ini hanya bisa dicopot oleh pengguna dengan izin pengurus."
 ${LangFileString} Uninstaller_Aborted "Pencopotan dibatalkan oleh pengguna."
 ${LangFileString} Uninstaller_NotInstalled "Sepertinya tidak terlihat bahwa SMPlayer terinstal didirektori '$INSTDIR'.$\r$\nLanjutkan saja(tidak direkomendasikan)?"
 ${LangFileString} Uninstaller_InvalidDirectory "Pemasangan SMPlayer tidak tersedia."
@@ -104,27 +104,27 @@ ${LangFileString} Application_Description "SMplayer adalah aplikasi antarmuka le
 ; Misc
 ${LangFileString} Info_Codecs_Backup "Mencadangkan kodek dari pemasangan sebelumnya..."
 ${LangFileString} Info_Codecs_Restore "Mengembalikan kodek dari pemasangan sebelumnya..."
-${LangFileString} Info_Del_Files "Menghapus berkas..."
+${LangFileString} Info_Del_Files "Menghapus file..."
 ${LangFileString} Info_Del_Registry "Menghapus Kunci Registri..."
 ${LangFileString} Info_Del_Shortcuts "Menghapus Pintasan..."
-${LangFileString} Info_Rest_Assoc "Mengembalikan asosiasi berkas..."
+${LangFileString} Info_Rest_Assoc "Mengembalikan asosiasi file..."
 ${LangFileString} Info_RollBack "Mengembalikan pengubahan..."
-${LangFileString} Info_Files_Extract "Mengekstrak berkas..."
+${LangFileString} Info_Files_Extract "Mengekstrak file..."
 ${LangFileString} Info_SMTube_Backup "Mencadangkan SMTube..."
 ${LangFileString} Info_SMTube_Restore "Mengembalikan SMTube dari pemasangan sebelumnya..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Mencadangkan mpv..."
+${LangFileString} Info_MPV_Restore "Mengembalikan mpv dari pemasangan sebelumnya..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Mengunduh mpv..."
+${LangFileString} MPV_DL_Retry "mpv tidak sukses dipasang. Coba kembali?"
+${LangFileString} MPV_DL_Failed "Gagal mengunduh mpv: '$R0'."
+${LangFileString} MPV_Inst_Failed "Gagal memasang mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl tidak sukses dipasang. Coba kembali?"
+${LangFileString} YTDL_DL_Failed "Gagal mengunduh youtube-dl: '$R0'."
+${LangFileString} YTDL_Update_Check "Memeriksa pembaruan youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Membersihkan singgahan fontconfig..."
+${LangFileString} Info_Cleaning_SMPlayer "Membersihkan setelan SMPlayer..."
