@@ -1,3 +1,14 @@
+smplayer (16.8.0) precise; urgency=low
+
+  * The playlist has been improved. Now it's possible to sort by any
+    column. There's a new column, with the path of the file (or URL).
+    This allows you to sort the list by folder.
+    Now it's possible to search (actually filter) in the playlist.
+    And finally there's a new option to load a playlist from internet.
+  * Bug fixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Tue, 02 Aug 2016 22:55:15 +0200
+
 smplayer (16.7.0) precise; urgency=low
 
   * Fix for YouTube.
