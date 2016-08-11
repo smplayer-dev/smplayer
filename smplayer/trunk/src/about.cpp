@@ -59,14 +59,12 @@ About::About(QWidget * parent, Qt::WindowFlags f)
 	info->setText(
 		"<b>SMPlayer</b> &copy; 2006-2016 Ricardo Villalba &lt;rvm@users.sourceforge.net&gt;<br><br>"
 		"<b>" + tr("Version: %1").arg(Version::printable()) + "</b>" +
+		(Version::is_unstable() ? "<br><i>" + tr("Development version") +"</i>" : "") +
 #if PORTABLE_APP
-                " (" + tr("Portable Edition") + ")" +
+		"<br>" + tr("Portable Edition") +
 #endif
-#ifdef EXPERIMENTAL
-        "<br>Experimental branch<br>"
-#endif
-        "<br>" +
-        tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br>" +
+		"<p>" +
+		tr("Using Qt %1 (compiled with Qt %2)").arg(qVersion()).arg(QT_VERSION_STR) + "<br>" +
 		mplayer_version + "<br><br>" +
 		"<b>"+ tr("Links:") +"</b><br>"+
 		tr("Official website:") +" "+  link(URL_HOMEPAGE) +"<br>"+

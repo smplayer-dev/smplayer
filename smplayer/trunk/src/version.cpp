@@ -17,12 +17,14 @@
 */
 
 #include "version.h"
+#include <QObject>
 
 #define USE_SVN_VERSIONS 1
+#define DEVELOPMENT_VERSION 1
 
 #define VERSION "16.8.0"
 
-#if USE_SVN_VERSIONS
+#if USE_SVN_VERSIONS && DEVELOPMENT_VERSION
 #include "svn_revision.h"
 #else
 #define SVN_REVISION "8066"
@@ -39,15 +41,15 @@
 QString Version::printable() {
 #if USE_SVN_VERSIONS
 #ifdef Q_OS_WIN
-    return QString(QString(VERSION) + " (svn r" + QString(SVN_REVISION) + ") " + QString(SMPWIN_ARCH));
+	return QObject::tr("%1 (revision %2) %3").arg(VERSION).arg(SVN_REVISION).arg(SMPWIN_ARCH);
 #else
-    return QString(QString(VERSION) + " (svn r" + QString(SVN_REVISION) + ")");
+	return QObject::tr("%1 (revision %2)").arg(VERSION).arg(SVN_REVISION);
 #endif
 #else
 #ifdef Q_OS_WIN
-    return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
+	return QString(QString(VERSION) + " " + QString(SMPWIN_ARCH));
 #else
-    return QString(VERSION);
+	return QString(VERSION);
 #endif
 #endif
 }
@@ -60,3 +62,6 @@ QString Version::revision() {
 	return QString(SVN_REVISION);
 }
 
+bool Version::is_unstable() {
+	return (DEVELOPMENT_VERSION == 1);
+}
