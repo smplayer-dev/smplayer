@@ -27,6 +27,7 @@ public:
 	static QString stable();
 	static QString revision();
 	static QString with_revision() { return stable() + "." + revision(); }
+	static bool is_unstable();
 };
 
 #endif
