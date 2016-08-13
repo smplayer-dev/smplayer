@@ -1481,12 +1481,14 @@ void BaseGui::enableActionsOnPlaying() {
 	playAct->setEnabled(false);
 
 	// Screenshot option
+	/*
 	bool screenshots_enabled = ( (pref->use_screenshot) && 
                                  (!pref->screenshot_directory.isEmpty()) &&
                                  (QFileInfo(pref->screenshot_directory).isDir()) );
 
 	screenshotAct->setEnabled( screenshots_enabled );
 	screenshotsAct->setEnabled( screenshots_enabled );
+	*/
 
 #ifdef CAPTURE_STREAM
 	capturingAct->setEnabled(!pref->capture_directory.isEmpty() && QFileInfo(pref->capture_directory).isDir());
@@ -1567,8 +1569,10 @@ void BaseGui::enableActionsOnPlaying() {
 #ifndef Q_OS_WIN
 	// Disable video filters if using vdpau
 	if ((pref->vdpau.disable_video_filters) && (pref->vo.startsWith("vdpau"))) {
+		/*
 		screenshotAct->setEnabled(false);
 		screenshotsAct->setEnabled(false);
+		*/
 		flipAct->setEnabled(false);
 		mirrorAct->setEnabled(false);
 		stereo3dAct->setEnabled(false);

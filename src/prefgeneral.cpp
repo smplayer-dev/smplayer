@@ -518,7 +518,7 @@ void PrefGeneral::setScreenshotDir( QString path ) {
 }
 
 QString PrefGeneral::screenshotDir() {
-	return screenshot_edit->text();
+	return screenshot_edit->text().trimmed();
 }
 
 #ifdef MPV_SUPPORT
