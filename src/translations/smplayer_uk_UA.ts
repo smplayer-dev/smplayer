@@ -4679,12 +4679,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Відкрити URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Завантажити перелік з URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4804,12 +4804,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Неможливо завантажити цей перелік</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Нерозпізнаний формат.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>

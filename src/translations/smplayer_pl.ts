@@ -4675,17 +4675,17 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="529"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Nazwa pliku / adres URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Otwórz adres URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Pobierz listę odtwarzania z adresu URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4760,7 +4760,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="576"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Szukaj</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="581"/>
@@ -4805,12 +4805,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Nie można otworzyć tej listy odtwarzania</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Format nierozpoznany.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -7679,7 +7679,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>program spróbuje użyć mpv + youtube-dl tylko dla stron, które tego wymagają</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>

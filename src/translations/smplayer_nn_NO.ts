@@ -982,7 +982,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"/>
+        <translation>Start/stopp opptak av straum</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
@@ -4671,17 +4671,17 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="529"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Filenamn/URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Opne URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Last ned speleliste frå URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4756,7 +4756,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="576"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Søk</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="581"/>
@@ -4801,12 +4801,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Denne spelelista kan ikkje lastast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Ukjend filformat.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -5030,12 +5030,13 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
         <source>Rebuild index if needed</source>
-        <translation type="unfinished"/>
+        <translation>Bygg oppat innhaldslista om nødvendig</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="105"/>
         <source>Rebuild &amp;index if needed</source>
-        <translation type="unfinished"/>
+        <translation>Bygg oppattt &amp;innhaldslista om nødvendig
+</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
@@ -5045,7 +5046,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"/>
+        <translation>Logg %1 utgang</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
@@ -5105,7 +5106,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"/>
+        <translation>Logg %1 &amp;utgang</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5485,7 +5486,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="179"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"/>
+        <translation>Vel køyrbar %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="181"/>
@@ -5505,7 +5506,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="198"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"/>
+        <translation>%1 køyrbar:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="378"/>
@@ -5541,7 +5542,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="976"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>Hugs innstillingar for straumar</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
@@ -5571,7 +5572,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1011"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"/>
+        <translation>Format for skjermbilde</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1012"/>
@@ -6004,7 +6005,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.cpp" line="159"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"/>
+        <translation>Yadif (normal)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="160"/>
@@ -6014,12 +6015,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.cpp" line="161"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"/>
+        <translation>Lineær Blend</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="162"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1055"/>
@@ -6151,7 +6152,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
         <location filename="../prefgeneral.ui" line="356"/>
         <location filename="../prefgeneral.ui" line="679"/>
         <source>Ou&amp;tput driver:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Utgangsdrivar:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1090"/>
@@ -6251,7 +6252,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Global volume</source>
-        <translation type="unfinished"/>
+        <translation>Globalt volum</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
@@ -6266,7 +6267,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.ui" line="865"/>
         <source>Glo&amp;bal volume</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Globalt volum</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1100"/>
@@ -6366,7 +6367,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.cpp" line="1137"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Merk:&lt;/b&gt; ingen av lydfiltera vert brukte når dette valet er slått på.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="394"/>
@@ -6391,7 +6392,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Still inn</translation>
     </message>
 </context>
 <context>
@@ -6424,7 +6425,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Dragefunksjon</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
@@ -6885,7 +6886,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.cpp" line="414"/>
         <source>Mouse wheel functions</source>
-        <translation>Musehjul-kontrollar</translation>
+        <translation>Musehjulkontrollar</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
@@ -7131,7 +7132,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>Høg &amp;DPI</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
@@ -7146,12 +7147,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Skaler</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7181,7 +7182,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Førekomstar</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="739"/>
@@ -7363,7 +7364,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="806"/>
         <source>Mouse wheel jump</source>
-        <translation>Musehjul-hopp</translation>
+        <translation>Musehjulhopp</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="807"/>
@@ -7459,7 +7460,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="833"/>
         <source>Instances</source>
-        <translation type="unfinished"/>
+        <translation>Førekomstar</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="836"/>
@@ -7529,7 +7530,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="665"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Flytande kontroll</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="681"/>
@@ -7556,7 +7557,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"/>
+        <translation>Vis òg i &amp;kompakt modus</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7581,7 +7582,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="820"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation>Presis søking</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="821"/>
@@ -7596,7 +7597,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="592"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Presis søking</translation>
     </message>
 </context>
 <context>
@@ -7871,7 +7872,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8637,7 +8638,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Border style</source>
-        <translation type="unfinished"/>
+        <translation>Kantstil</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
@@ -8652,7 +8653,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation>Bruk òg stil på ASS-filer</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8662,12 +8663,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Halvfeit</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="435"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kursiv</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="447"/>
@@ -8682,7 +8683,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.ui" line="482"/>
         <source>&amp;Border:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kant</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="534"/>
@@ -8722,7 +8723,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.ui" line="653"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kantstil:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="679"/>
@@ -8732,17 +8733,17 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.ui" line="699"/>
         <source>Shado&amp;w:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Skugge</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bruk òg stil på ASS-filer</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation>Bruk &amp;tilpassa stil</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
@@ -8825,7 +8826,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"/>
+        <translation>Standardskalering</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8850,7 +8851,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Standardskalering:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -8938,7 +8939,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"/>
+        <translation>Yadif (normal)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
@@ -8948,7 +8949,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"/>
+        <translation>Lineær blanding</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
@@ -9364,12 +9365,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
         <source>Capture</source>
-        <translation type="unfinished"/>
+        <translation>Opptak</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="313"/>
         <source>Capture keystrokes</source>
-        <translation type="unfinished"/>
+        <translation>Registrer tastetrykk</translation>
     </message>
 </context>
 <context>
@@ -9382,7 +9383,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"/>
+        <translation>Avspelinga er ferdig. SMPlayer er i ferd med å avslutta.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
