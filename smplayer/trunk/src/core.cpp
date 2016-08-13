@@ -1398,8 +1398,8 @@ void Core::frameBackStep() {
 void Core::screenshot() {
 	qDebug("Core::screenshot");
 
-	if ( (!pref->screenshot_directory.isEmpty()) && 
-         (QFileInfo(pref->screenshot_directory).isDir()) ) 
+	if (!pref->screenshot_directory.isEmpty()
+        /* && QFileInfo(pref->screenshot_directory).isDir() */)
 	{
 		proc->setPausingPrefix(pausing_prefix());
 		proc->takeScreenshot(PlayerProcess::Single, pref->subtitles_on_screenshots);
@@ -1413,8 +1413,8 @@ void Core::screenshot() {
 void Core::screenshots() {
 	qDebug("Core::screenshots");
 
-	if ( (!pref->screenshot_directory.isEmpty()) && 
-         (QFileInfo(pref->screenshot_directory).isDir()) ) 
+	if (!pref->screenshot_directory.isEmpty()
+        /* && QFileInfo(pref->screenshot_directory).isDir() */)
 	{
 		proc->takeScreenshot(PlayerProcess::Multiple, pref->subtitles_on_screenshots);
 	} else {
@@ -1577,9 +1577,8 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 
-	bool screenshot_enabled = ( (pref->use_screenshot) && 
-                                (!pref->screenshot_directory.isEmpty()) && 
-                                (QFileInfo(pref->screenshot_directory).isDir()) );
+	bool screenshot_enabled = (pref->use_screenshot && !pref->screenshot_directory.isEmpty()
+                               /* && QFileInfo(pref->screenshot_directory).isDir() */);
 
 	proc->clearArguments();
 
