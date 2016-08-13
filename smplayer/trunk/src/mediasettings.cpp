@@ -102,7 +102,9 @@ void MediaSettings::reset() {
 
 	zoom_factor = pref->initial_zoom_factor; // 1.0;
 
+#ifdef MSET_USE_STARTING_TIME
 	starting_time = -1; // Not set yet.
+#endif
 
 	rotate = NoRotate;
 	flip = false;
@@ -286,7 +288,10 @@ void MediaSettings::list() {
 	qDebug("  win_height: %d", win_height); 
 	qDebug("  win_aspect(): %f", win_aspect()); 
 
+#ifdef MSET_USE_STARTING_TIME
 	qDebug("  starting_time: %f", starting_time);
+#endif
+
 	qDebug("  is264andHD: %d", is264andHD);
 }
 
@@ -419,7 +424,9 @@ void MediaSettings::save(QSettings * set, int player_id) {
 	set->setValue( "win_width", win_width );
 	set->setValue( "win_height", win_height );
 
+#ifdef MSET_USE_STARTING_TIME
 	set->setValue( "starting_time", starting_time );
+#endif
 
 	set->setValue( "is264andHD", is264andHD );
 }
@@ -552,7 +559,9 @@ void MediaSettings::load(QSettings * set, int player_id) {
 	win_width = set->value( "win_width", win_width ).toInt();
 	win_height = set->value( "win_height", win_height ).toInt();
 
+#ifdef MSET_USE_STARTING_TIME
 	starting_time = set->value( "starting_time", starting_time ).toDouble();
+#endif
 
 	is264andHD = set->value( "is264andHD", is264andHD ).toBool();
 

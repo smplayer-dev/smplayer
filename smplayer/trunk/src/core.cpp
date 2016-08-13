@@ -3560,6 +3560,7 @@ void Core::changeCurrentSec(double sec) {
 
 	mset.current_sec = sec;
 
+#ifdef MSET_USE_STARTING_TIME
 	if (mset.starting_time != -1) {
 		mset.current_sec -= mset.starting_time;
 
@@ -3568,7 +3569,8 @@ void Core::changeCurrentSec(double sec) {
 			mset.current_sec += 8589934592.0 / 90000.0;	// 2^33 / 90 kHz
 		}
 	}
-	
+#endif
+
 	if (state() != Playing) {
 		setState(Playing);
 		qDebug("Core::changeCurrentSec: mplayer reports that now it's playing");
@@ -3606,10 +3608,13 @@ void Core::changeCurrentSec(double sec) {
 void Core::gotStartingTime(double time) {
 	qDebug("Core::gotStartingTime: %f", time);
 	qDebug("Core::gotStartingTime: current_sec: %f", mset.current_sec);
+
+#ifdef MSET_USE_STARTING_TIME
 	if ((mset.starting_time == -1.0) && (mset.current_sec == 0)) {
 		mset.starting_time = time;
 		qDebug("Core::gotStartingTime: starting time set to %f", time);
 	}
+#endif
 }
 
 void Core::gotVideoBitrate(int b) {
