@@ -1321,7 +1321,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="5930"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"/>
+        <translation>Youtube-dl parçası çalıştırılamadı.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5931"/>
@@ -1331,7 +1331,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="5933"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"/>
+        <translation>Almak için buraya tıkla</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5958"/>
@@ -1367,22 +1367,22 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="6055"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"/>
+        <translation>Doğru kurduğunuzdan emin olun.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6221"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Sistem tablet kipine alınmış. SMPlayer da tablet kipine geçirilsin mi?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6223"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation>Sistem tablet kipinden çıktı. SMPlayer da tablet kipini kapatsın mı?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6227"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>Kararımı anımsa ve tekrar sorma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4956"/>
@@ -1954,7 +1954,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="313"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"/>
+        <translation>Görüntü dış ekrana aktarıldı</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="319"/>
@@ -2069,7 +2069,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="925"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer dış ekran çıkışı</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="294"/>
@@ -3205,7 +3205,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
         <location filename="../infofile.cpp" line="230"/>
         <location filename="../infofile.cpp" line="238"/>
         <source>Type: %1</source>
-        <translation type="unfinished"/>
+        <translation>Tür: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="164"/>
@@ -3238,7 +3238,7 @@ Lütfen bu klasöre yazma izniniz olup olmadığını kontrol edin.</translation
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kapat</translation>
     </message>
 </context>
 <context>
@@ -4674,7 +4674,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="529"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Dosya adı / URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="533"/>
@@ -4804,12 +4804,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Bu çalma listesini yüklemek olanaksız</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Tanınmayan biçim.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -5103,7 +5103,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation>Aralarında boşluk bırakarak yazınız.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>

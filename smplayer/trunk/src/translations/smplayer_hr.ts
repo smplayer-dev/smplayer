@@ -4674,17 +4674,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="529"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Naziv datoteke / URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Otvori URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Preuzmi popis izvođenja s URL-a</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4759,7 +4759,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="576"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Pretraži</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="581"/>
@@ -4804,12 +4804,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Nije moguće učitati ovaj popis izvođenja</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Neprepoznat format.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -7678,7 +7678,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>pokušat će se koristiti mpv + youtube-dl samo za stranice za koje je potreban.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>

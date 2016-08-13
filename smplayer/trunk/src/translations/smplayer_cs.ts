@@ -4679,12 +4679,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Otevřít URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Stáhnout seznam skladeb z URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4804,12 +4804,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Tento seznam skladeb není možné načíst</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Nerozpoznaný formát.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>

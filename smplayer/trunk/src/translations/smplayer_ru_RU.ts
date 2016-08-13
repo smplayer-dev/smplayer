@@ -4679,12 +4679,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Открыть ссылку</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation>Скачать плейлист из сети интернет</translation>
+        <translation>Загрузить плейлист из сети Интернет</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4714,7 +4714,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="550"/>
         <source>&amp;Repeat</source>
-        <translation>Пов&amp;торить</translation>
+        <translation>&amp;Повторить</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="551"/>
@@ -4744,12 +4744,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="560"/>
         <source>Remove &amp;selected</source>
-        <translation>Убрать в&amp;ыбранные</translation>
+        <translation>Убрать &amp;выбранные</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="561"/>
         <source>Remove &amp;all</source>
-        <translation>Убрать в&amp;се</translation>
+        <translation>Убрать &amp;все</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="563"/>
@@ -4804,12 +4804,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Невозможно загрузить этот плейлист</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Неизвестный формат.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -7678,7 +7678,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation>будет пытаться использовать связку mpv + youtube-dl только для сайтов, которые требуют её</translation>
+        <translation>осуществляется попытка использования связки mpv + youtube-dl только для сайтов, которые требуют её</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
@@ -7715,12 +7715,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="178"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation>будет использоваться только внутренняя поддержка YouTube</translation>
+        <translation>используется только внутренняя поддержка YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="181"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation>использует связку mpv + youtube-dl для всех сайтов</translation>
+        <translation>используется связка mpv + youtube-dl для всех сайтов</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>

@@ -7680,7 +7680,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>wird es versucht, mpv + youtube-dl nur für die Seiten zu verwenden, die es auch erfordern</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>

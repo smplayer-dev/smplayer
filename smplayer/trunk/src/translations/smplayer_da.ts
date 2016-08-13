@@ -982,7 +982,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>Start/stop capturing stream</source>
-        <translation>Start/stop optagelse af stream</translation>
+        <translation>Start/stop optagelse af strøm</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1727"/>
@@ -3142,7 +3142,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="134"/>
         <source>Initial Audio Stream</source>
-        <translation>Første lydstream</translation>
+        <translation>Første lydstrøm</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="137"/>
@@ -3162,7 +3162,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="144"/>
         <source>Audio Streams</source>
-        <translation>Lydstream</translation>
+        <translation>Lydstrøm</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="145"/>
@@ -3220,12 +3220,12 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../infofile.cpp" line="112"/>
         <source>Stream title</source>
-        <translation>Streamtitel</translation>
+        <translation>Strøm-titel</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="113"/>
         <source>Stream URL</source>
-        <translation>Stream-URL</translation>
+        <translation>Strøm-URL</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
@@ -4674,17 +4674,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="529"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Filnavn/URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Åbn URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Download spilleliste fra URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="536"/>
@@ -4759,7 +4759,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="576"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Søg</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="581"/>
@@ -4804,12 +4804,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Det er ikke muligt at indlæse denne spilleliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Ikke-genkendt format.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -5544,12 +5544,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="976"/>
         <source>Remember settings for streams</source>
-        <translation>Husk indstillinger for streams</translation>
+        <translation>Husk indstillinger for strømme</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="977"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation>Når denne indstilling er aktiveret, vil indstillinger for online streams også blive husket.</translation>
+        <translation>Når denne indstilling er aktiveret, vil indstillinger for online strømme også blive husket.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="992"/>
@@ -5735,7 +5735,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation>&amp;Husk indstillinger for streams</translation>
+        <translation>&amp;Husk indstillinger for strømme</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -5945,7 +5945,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du angive dit foretrukne sprog til lyd- og undertekststreams. Når et medie med flere lyd- eller undertekststreams findes, vil SMPlayer prøve at bruge dit foretrukne sprog. Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststreams, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Disse felter accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Her kan du angive dit foretrukne sprog til lyd- og undertekststrømme. Når et medie med flere lyd- eller undertekststrømme findes, vil SMPlayer prøve at bruge dit foretrukne sprog. Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststrømme, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Disse felter accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="821"/>
@@ -6139,12 +6139,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1184"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du angive dit foretrukne sprog til lydstream. Når et medie med flere lydstreams findes, vil SMPlayer prøve at bruge dit foretrukne sprog.&lt;br&gt;Dette vil kun virke med medier som tilbyder information om sproget på lydstreams, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Dette felt accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Her kan du angive dit foretrukne sprog til lydstrøm. Når et medie med flere lydstrømme findes, vil SMPlayer prøve at bruge dit foretrukne sprog.&lt;br&gt;Dette vil kun virke med medier som tilbyder information om sproget på lydstrømme, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Dette felt accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du angive dit foretrukne sprog til undertekststreams. Når et medie med flere undertekststreams findes, vil SMPlayer prøve at bruge dit foretrukne sprog.&lt;br&gt;Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststreams, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Dette felt accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Her kan du angive dit foretrukne sprog til undertekststrømme. Når et medie med flere undertekststrømme findes, vil SMPlayer prøve at bruge dit foretrukne sprog.&lt;br&gt;Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststreams, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Dette felt accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -7678,7 +7678,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>den vil kun prøve at bruge mpv + youtube-dl for steder som kræver det</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
@@ -7975,7 +7975,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="380"/>
         <source>Cache for streams</source>
-        <translation>Cache til streams</translation>
+        <translation>Cache til strømme</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="381"/>
@@ -8010,7 +8010,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Cache til &amp;streams:</translation>
+        <translation>Cache til &amp;strømme:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="89"/>
@@ -9273,7 +9273,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&quot;medie&quot; er alle slags filer som SMPlayer kan åbne. Det kan være en lokal fil, en DVD (eksempelvis dvd://1), en internet-stream (f.eks. mms://....) eller en lokal spilleliste i m3u-format eller pls-format.</translation>
+        <translation>&quot;medie&quot; er alle slags filer som SMPlayer kan åbne. Det kan være en lokal fil, en DVD (eksempelvis dvd://1), en internet-strøm (f.eks. mms://....) eller en lokal spilleliste i m3u-format eller pls-format.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
