@@ -28,7 +28,7 @@
 #include "mediadata.h"
 
 #define PLAYLIST_DOWNLOAD
-//#define PLAYLIST_DOUBLE_TOOLBAR
+#define PLAYLIST_DOUBLE_TOOLBAR
 
 class PLItem : public QStandardItem {
 public:
