@@ -228,6 +228,11 @@ protected slots:
 	void showLoadingAnimation(bool b);
 #endif
 
+	void setPositionColumnVisible(bool b);
+	void setNameColumnVisible(bool b);
+	void setDurationColumnVisible(bool b);
+	void setFilenameColumnVisible(bool b);
+
 protected:
 	void createTable();
 	void createActions();
@@ -287,6 +292,11 @@ protected:
 	MyAction * removeAllAct;
 
 	MyAction * deleteSelectedFileFromDiskAct;
+
+	MyAction * showPositionColumnAct;
+	MyAction * showNameColumnAct;
+	MyAction * showDurationColumnAct;
+	MyAction * showFilenameColumnAct;
 
 	QSettings * set;
 

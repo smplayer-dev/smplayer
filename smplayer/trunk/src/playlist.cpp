@@ -454,6 +454,22 @@ void Playlist::createActions() {
 
 	deleteSelectedFileFromDiskAct = new MyAction(this, "pl_delete_from_disk");
 	connect( deleteSelectedFileFromDiskAct, SIGNAL(triggered()), this, SLOT(deleteSelectedFileFromDisk()));
+
+	showPositionColumnAct = new MyAction(this, "pl_show_position_column");
+	showPositionColumnAct->setCheckable(true);
+	connect(showPositionColumnAct, SIGNAL(toggled(bool)), this, SLOT(setPositionColumnVisible(bool)));
+
+	showNameColumnAct = new MyAction(this, "pl_show_name_column");
+	showNameColumnAct->setCheckable(true);
+	connect(showNameColumnAct, SIGNAL(toggled(bool)), this, SLOT(setNameColumnVisible(bool)));
+
+	showDurationColumnAct = new MyAction(this, "pl_show_duration_column");
+	showDurationColumnAct->setCheckable(true);
+	connect(showDurationColumnAct, SIGNAL(toggled(bool)), this, SLOT(setDurationColumnVisible(bool)));
+
+	showFilenameColumnAct = new MyAction(this, "pl_show_filename_column");
+	showFilenameColumnAct->setCheckable(true);
+	connect(showFilenameColumnAct, SIGNAL(toggled(bool)), this, SLOT(setFilenameColumnVisible(bool)));
 }
 
 void Playlist::createToolbar() {
@@ -542,6 +558,11 @@ void Playlist::createToolbar() {
 	popup->addAction(removeSelectedAct);
 	popup->addAction(editAct);
 	popup->addAction(deleteSelectedFileFromDiskAct);
+	popup->addSeparator();
+	popup->addAction(showPositionColumnAct);
+	popup->addAction(showNameColumnAct);
+	popup->addAction(showDurationColumnAct);
+	popup->addAction(showFilenameColumnAct);
 
 	connect( listView, SIGNAL(customContextMenuRequested(const QPoint &)),
              this, SLOT(showPopup(const QPoint &)) );
@@ -583,6 +604,11 @@ void Playlist::retranslateStrings() {
 	removeAllAct->change( tr("Remove &all") );
 
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
+
+	showPositionColumnAct->change(tr("Show position column"));
+	showNameColumnAct->change(tr("Show name column"));
+	showDurationColumnAct->change(tr("Show duration column"));
+	showFilenameColumnAct->change(tr("Show filename column"));
 
 	// Edit
 	editAct->change( tr("&Edit") );
@@ -1914,6 +1940,22 @@ void Playlist::loadSettings() {
 QString Playlist::lastDir() {
 	QString last_dir = latest_dir;
 	return last_dir;
+}
+
+void Playlist::setPositionColumnVisible(bool b) {
+	listView->setColumnHidden(COL_NUM, !b);
+}
+
+void Playlist::setNameColumnVisible(bool b) {
+	listView->setColumnHidden(COL_NAME, !b);
+}
+
+void Playlist::setDurationColumnVisible(bool b) {
+	listView->setColumnHidden(COL_TIME, !b);
+}
+
+void Playlist::setFilenameColumnVisible(bool b) {
+	listView->setColumnHidden(COL_FILENAME, !b);
 }
 
 #ifdef PLAYLIST_DOWNLOAD
