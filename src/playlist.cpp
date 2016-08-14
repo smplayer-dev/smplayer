@@ -249,10 +249,13 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	createToolbar();
 
 	QVBoxLayout *layout = new QVBoxLayout;
+#ifdef PLAYLIST_DOUBLE_TOOLBAR
+	layout->addWidget(toolbar);
+	layout->addWidget(listView);
+	layout->addWidget(toolbar2);
+#else
 	layout->addWidget(listView);
 	layout->addWidget(toolbar);
-#ifdef PLAYLIST_DOUBLE_TOOLBAR
-	layout->addWidget(toolbar2);
 #endif
 	setLayout(layout);
 
