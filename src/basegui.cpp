@@ -5404,6 +5404,8 @@ void BaseGui::hidePanel() {
 	qDebug("BaseGui::hidePanel");
 
 	if (panel->isVisible()) {
+		if (isMaximized()) showNormal();
+
 		// Exit from fullscreen mode 
 		if (pref->fullscreen) { toggleFullscreen(false); update(); }
 
