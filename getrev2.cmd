@@ -19,7 +19,7 @@ echo.
 echo #define SVN_REVISION "%svn_revision%">src\svn_revision.h
 
 :: Get values of USE_SVN_VERSIONS & VERSION
-for /f "tokens=3" %%j in ('type src\version.cpp ^| find /I "USE_SVN_VERSIONS"') do set use_svn_versions=%%j
+for /f "tokens=3" %%j in ('type src\version.cpp ^| find /I "#define USE_SVN_VERSIONS"') do set use_svn_versions=%%j
 for /f "tokens=3" %%k in ('type src\version.cpp ^| find /I "#define VERSION"') do set version_cpp=%%k
 
 :: Remove quotes
