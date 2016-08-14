@@ -357,6 +357,7 @@ void Playlist::createTable() {
 	listView->setContextMenuPolicy( Qt::CustomContextMenu );
 	listView->setShowGrid(false);
 	listView->setSortingEnabled(true);
+	listView->setWordWrap(false);
 #if !USE_ITEM_DELEGATE
 	listView->setAlternatingRowColors(true);
 #endif
