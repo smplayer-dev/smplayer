@@ -393,6 +393,8 @@ void Playlist::createTable() {
 
 	connect(listView, SIGNAL(activated(const QModelIndex &)),
             this, SLOT(itemActivated(const QModelIndex &)) );
+
+	setFilenameColumnVisible(false);
 }
 
 void Playlist::createActions() {
@@ -1935,6 +1937,11 @@ void Playlist::loadSettings() {
 	proxy->setSortCaseSensitivity( (Qt::CaseSensitivity) sort_case_sensivity);
 	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 	filter_edit->setText(filter);
+
+	if (!listView->isColumnHidden(COL_NUM)) showPositionColumnAct->setChecked(true);
+	if (!listView->isColumnHidden(COL_NAME)) showNameColumnAct->setChecked(true);
+	if (!listView->isColumnHidden(COL_TIME)) showDurationColumnAct->setChecked(true);
+	if (!listView->isColumnHidden(COL_FILENAME)) showFilenameColumnAct->setChecked(true);
 }
 
 QString Playlist::lastDir() {
