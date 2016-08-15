@@ -622,7 +622,7 @@ void Playlist::retranslateStrings() {
 
 	showPositionColumnAct->change(tr("Show position column"));
 	showNameColumnAct->change(tr("Show name column"));
-	showDurationColumnAct->change(tr("Show duration column"));
+	showDurationColumnAct->change(tr("Show length column"));
 	showFilenameColumnAct->change(tr("Show filename column"));
 
 	// Edit
