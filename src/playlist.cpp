@@ -244,6 +244,9 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	playlist_path = "";
 	latest_dir = "";
 
+	filter_edit = new MyLineEdit(this);
+	connect(filter_edit, SIGNAL(textChanged(const QString &)), this, SLOT(filterEditChanged(const QString &)));
+
 	createTable();
 	createActions();
 	createToolbar();
@@ -256,6 +259,8 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 #else
 	layout->addWidget(listView);
 	layout->addWidget(toolbar);
+	layout->addWidget(filter_edit);
+	filter_edit->hide();
 #endif
 	setLayout(layout);
 
@@ -460,6 +465,10 @@ void Playlist::createActions() {
 	deleteSelectedFileFromDiskAct = new MyAction(this, "pl_delete_from_disk");
 	connect( deleteSelectedFileFromDiskAct, SIGNAL(triggered()), this, SLOT(deleteSelectedFileFromDisk()));
 
+	showSearchAct = new MyAction(this, "pl_show_search", false);
+	showSearchAct->setCheckable(true);
+	connect(showSearchAct, SIGNAL(toggled(bool)), filter_edit, SLOT(setVisible(bool)));
+
 	showPositionColumnAct = new MyAction(this, "pl_show_position_column");
 	showPositionColumnAct->setCheckable(true);
 	connect(showPositionColumnAct, SIGNAL(toggled(bool)), this, SLOT(setPositionColumnVisible(bool)));
@@ -512,8 +521,6 @@ void Playlist::createToolbar() {
 	remove_button->setMenu( remove_menu );
 	remove_button->setPopupMode(QToolButton::InstantPopup);
 
-	filter_edit = new MyLineEdit(this);
-	connect(filter_edit, SIGNAL(textChanged(const QString &)), this, SLOT(filterEditChanged(const QString &)));
 
 #ifdef PLAYLIST_DOWNLOAD
 	QLabel * loading_label = new QLabel(this);
@@ -547,7 +554,8 @@ void Playlist::createToolbar() {
 	toolbar->addAction(moveUpAct);
 	toolbar->addAction(moveDownAct);
 	toolbar->addSeparator();
-	toolbar->addWidget(filter_edit);
+	toolbar->addAction(showSearchAct);
+	// toolbar->addWidget(filter_edit);
 	#ifdef PLAYLIST_DOWNLOAD
 	loading_label_action = toolbar->addWidget(loading_label);
 	#endif
@@ -609,6 +617,8 @@ void Playlist::retranslateStrings() {
 	removeAllAct->change( tr("Remove &all") );
 
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
+
+	showSearchAct->change(Images::icon("find"), tr("Search"));
 
 	showPositionColumnAct->change(tr("Show position column"));
 	showNameColumnAct->change(tr("Show name column"));
@@ -1831,6 +1841,8 @@ void Playlist::saveSettings() {
 	set->setValue( "filter", filter_edit->text() );
 	set->setValue( "sort_case_sensivity", proxy->sortCaseSensitivity() );
 
+	set->setValue( "show_search", showSearchAct->isChecked() );
+
 	set->endGroup();
 
 	set->beginGroup( "directories");
@@ -1897,6 +1909,8 @@ void Playlist::loadSettings() {
 	int filter_case_sensivity = set->value("filter_case_sensivity", Qt::CaseInsensitive).toInt();
 	QString filter = set->value( "filter").toString();
 	int sort_case_sensivity = set->value("sort_case_sensivity", Qt::CaseInsensitive).toInt();
+
+	showSearchAct->setChecked( set->value( "show_search", false).toBool() );
 
 	set->endGroup();
 
@@ -1966,6 +1980,7 @@ void Playlist::setDurationColumnVisible(bool b) {
 
 void Playlist::setFilenameColumnVisible(bool b) {
 	listView->setColumnHidden(COL_FILENAME, !b);
+
 }
 
 #ifdef PLAYLIST_DOWNLOAD
