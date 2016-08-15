@@ -1833,7 +1833,8 @@ void Playlist::saveSettings() {
 #if !DOCK_PLAYLIST
 	set->setValue( "size", size() );
 #endif
-	set->setValue(QString("header_state/%1").arg(Helper::qtVersion()), listView->horizontalHeader()->saveState());
+
+	set->setValue(QString("header_state/2/%1").arg(Helper::qtVersion()), listView->horizontalHeader()->saveState());
 
 	set->setValue( "sort_column", proxy->sortColumn() );
 	set->setValue( "sort_order", proxy->sortOrder() );
@@ -1902,7 +1903,8 @@ void Playlist::loadSettings() {
 #if !DOCK_PLAYLIST
 	resize( set->value("size", size()).toSize() );
 #endif
-	listView->horizontalHeader()->restoreState(set->value(QString("header_state/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray());
+
+	listView->horizontalHeader()->restoreState(set->value(QString("header_state/2/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray());
 
 	int sort_column = set->value("sort_column", COL_NUM).toInt();
 	int sort_order = set->value("sort_order", Qt::AscendingOrder).toInt();
