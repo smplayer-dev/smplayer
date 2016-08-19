@@ -6815,47 +6815,47 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"/>
+        <translation>Kui see on märgitud, siis multimeediumiklahvid (esitamise, helitugevuse jms klahvid) töötavad ka siis, kui SMPlayer jookseb taustal.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
         <source>Drag function</source>
-        <translation type="unfinished"/>
+        <translation>Lohistamise funktsioon</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"/>
+        <translation>See valik määrab, mida tehakse, kui lohistatakse hiirt vasakut nuppu all hoides.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"/>
+        <translation>põhiakent liigutatakse</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"/>
+        <translation>horisontaalselt lohistades minnakse ajas edasi või tagasi, vertikaalselt lohistades muudetakse helitugevust</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"/>
+        <translation>Ära tee topeltklõpsuga vasakut klõpsu</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="405"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"/>
+        <translation>Kui see on märgitud, siis topeltklõpsu tegemisel ei käivitata vasaku klõpsu funktsioon, vaid ainult topeltklõpsu oma.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="408"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"/>
+        <translation>Selle valiku märkimisel on vasaku klõpsu tegemisel %1-millisekundine viivitus, selleks et teada, kas tegemist oli topeltklõpsuga või mitte.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
         <source>Change function of wheel</source>
-        <translation type="unfinished"/>
+        <translation>Kerimise funktsiooni muutmine</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="435"/>

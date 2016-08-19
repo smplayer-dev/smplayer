@@ -5559,7 +5559,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="998"/>
         <source>Template for screenshots</source>
-        <translation>Шабльон для знятків екрану</translation>
+        <translation>Шаблон для знятків екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
@@ -5634,12 +5634,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="999"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation>Цей параметр визначає шабльон імени для збереження знятків екрану.</translation>
+        <translation>Цей параметр визначає шаблон імени для збереження знятків екрану.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1003"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation>Повний перелік параметрів шабльону зазначено тут:</translation>
+        <translation>Повний перелік параметрів шаблону зазначено тут:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1007"/>
