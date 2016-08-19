@@ -35,7 +35,7 @@ void LineEditWithIcon::setIcon(const QPixmap & pixmap) {
 	QPixmap p = pixmap;
 	//qDebug("height: %d, icon height: %d", height(), p.height());
 	int max_height = 16;
-	if (max_height > height()) max_height = height() - 4;
+	if (max_height > height() && height() >= 8) max_height = height() - 4;
 	if (pixmap.height() > max_height) p = pixmap.scaledToHeight(max_height, Qt::SmoothTransformation);
 	button->setIcon(p);
 	button->setStyleSheet("QToolButton { border: none; padding: 0px; }");
