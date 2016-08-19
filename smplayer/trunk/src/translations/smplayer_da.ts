@@ -4779,7 +4779,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1616"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation>Handlingen kan ikke fortrydes. Er du sikker på at du vil fortsætte?</translation>
+        <translation>Handlingen kan ikke fortrydes. Er du sikker på, at du vil fortsætte?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1634"/>
