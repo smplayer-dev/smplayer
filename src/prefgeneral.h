@@ -25,13 +25,6 @@
 #include "deviceinfo.h"
 #include "preferences.h"
 
-#ifdef Q_OS_WIN
-#define USE_DSOUND_DEVICES 1
-#else
-#define USE_ALSA_DEVICES 1
-#define USE_XV_ADAPTORS 1
-#endif
-
 #ifdef Q_OS_OS2
 #define MPLAYER_KAI_VERSION 30994
 #endif

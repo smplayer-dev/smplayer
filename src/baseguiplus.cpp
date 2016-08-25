@@ -329,6 +329,7 @@ void BaseGuiPlus::retranslateStrings() {
 	sendAudio_menu->menuAction()->setText( tr("Send &audio to") );
 	sendAudio_menu->menuAction()->setIcon(Images::icon("send_audio"));
 
+	#if USE_ALSA_DEVICES
 	audio_devices = DeviceInfo::alsaDevices();
 
 	sendAudioGroup->clear(true);
@@ -336,6 +337,7 @@ void BaseGuiPlus::retranslateStrings() {
 		MyAction * item = new MyActionGroupItem(this, sendAudioGroup, QString("send_audio_%1").arg(n+1).toLatin1().constData(), n);
 		item->change("alsa (" + audio_devices[n].ID().toString() + " - " + audio_devices[n].desc() + ")");
 	}
+	#endif
 
 	sendAudio_menu->clear();
 	sendAudio_menu->addActions(sendAudioGroup->actions());

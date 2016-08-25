@@ -81,6 +81,7 @@ DeviceList DeviceInfo::displayDevices() {
 
 #else
 
+#if USE_ALSA_DEVICES
 DeviceList DeviceInfo::alsaDevices() {
 	qDebug("DeviceInfo::alsaDevices");
 
@@ -126,7 +127,9 @@ DeviceList DeviceInfo::alsaDevices() {
 
 	return l;
 }
+#endif
 
+#ifdef USE_XV_ADAPTORS
 DeviceList DeviceInfo::xvAdaptors() {
 	qDebug("DeviceInfo::xvAdaptors");
 
@@ -170,7 +173,7 @@ DeviceList DeviceInfo::xvAdaptors() {
 
 	return l;
 }
-
+#endif
 #endif
 
 #ifdef CACHE_DEVICE_INFO

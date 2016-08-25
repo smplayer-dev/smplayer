@@ -23,6 +23,13 @@
 #include <QVariant>
 #include <QList>
 
+#ifdef Q_OS_WIN
+#define USE_DSOUND_DEVICES 1
+#else
+#define USE_ALSA_DEVICES 1
+#define USE_XV_ADAPTORS 1
+#endif
+
 #ifndef Q_OS_WIN
 #define CACHE_DEVICE_INFO
 #endif
@@ -58,8 +65,12 @@ public:
 	static DeviceList dsoundDevices();
 	static DeviceList displayDevices();
 #else
+	#if USE_ALSA_DEVICES
 	static DeviceList alsaDevices();
+	#endif
+	#if USE_XV_ADAPTORS
 	static DeviceList xvAdaptors();
+	#endif
 #endif
 
 protected:
