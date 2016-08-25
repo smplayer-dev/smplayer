@@ -998,6 +998,7 @@ void BaseGuiPlus::sendAudioToDevice(int n_device) {
 	if (n_device < audio_devices.count()) {
 		QString audio_device = "alsa:device=hw=" + audio_devices[n_device].ID().toString();
 		qDebug() << "BaseGuiPlus::sendAudioToDevice:" << audio_device;
+		core->changeAO(audio_device);
 	}
 }
 #endif

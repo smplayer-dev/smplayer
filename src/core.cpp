@@ -4110,6 +4110,14 @@ void Core::changeAdapter(int n) {
 }
 #endif
 
+void Core::changeAO(const QString & new_ao) {
+	qDebug() << "Core::changeAO:" << new_ao;
+	if (pref->ao != new_ao) {
+		pref->ao = new_ao;
+		if (proc->isRunning()) restartPlay();
+	}
+}
+
 #if 0
 void Core::changeSize(int n) {
 	if ( /*(n != pref->size_factor) &&*/ (!pref->use_mplayer_window) ) {
