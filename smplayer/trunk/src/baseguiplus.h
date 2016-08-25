@@ -123,6 +123,7 @@ protected slots:
 #endif
 
 #ifdef SEND_AUDIO_OPTION
+	void updateSendAudioMenu();
 	void sendAudioToDevice(int n_device);
 #endif
 
