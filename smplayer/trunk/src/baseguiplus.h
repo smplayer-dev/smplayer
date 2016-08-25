@@ -28,7 +28,7 @@
 #define SCREENS_SUPPORT
 //#define DETACH_VIDEO_OPTION
 
-//#define SEND_AUDIO_OPTION
+#define SEND_AUDIO_OPTION
 
 #ifdef SEND_AUDIO_OPTION
 #include "deviceinfo.h"
