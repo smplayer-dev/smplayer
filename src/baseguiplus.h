@@ -28,6 +28,12 @@
 #define SCREENS_SUPPORT
 //#define DETACH_VIDEO_OPTION
 
+//#define SEND_AUDIO_OPTION
+
+#ifdef SEND_AUDIO_OPTION
+#include "deviceinfo.h"
+#endif
+
 class QMenu;
 class PlaylistDock;
 
@@ -116,6 +122,10 @@ protected slots:
 	void showScreensInfo();
 #endif
 
+#ifdef SEND_AUDIO_OPTION
+	void sendAudioToDevice(int n_device);
+#endif
+
 #ifdef GLOBALSHORTCUTS
 	void updateGlobalShortcuts();
 #endif
@@ -139,6 +149,13 @@ protected:
 
 	InfoWindow * screens_info_window;
 	QLabel * detached_label;
+#endif
+
+#ifdef SEND_AUDIO_OPTION
+	DeviceList audio_devices;
+	QMenu * sendAudio_menu;
+	MyAction * sendAudioAct;
+	MyActionGroup * sendAudioGroup;
 #endif
 
 #ifdef GLOBALSHORTCUTS

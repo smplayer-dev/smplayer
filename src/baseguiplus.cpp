@@ -199,6 +199,14 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	detached_label->hide();
 #endif
 
+#ifdef SEND_AUDIO_OPTION
+	sendAudio_menu = new QMenu(this);
+	sendAudio_menu->menuAction()->setObjectName("send_audio_menu");
+
+	sendAudioGroup = new MyActionGroup(this);
+	connect(sendAudioGroup, SIGNAL(activated(int)), this, SLOT(sendAudioToDevice(int)));
+#endif
+
 #ifdef GLOBALSHORTCUTS
 	global_shortcuts = new GlobalShortcuts(this);
 	global_shortcuts->setEnabled(pref->use_global_shortcuts);
@@ -238,6 +246,10 @@ void BaseGuiPlus::populateMainMenu() {
 	}
 
 	access_menu->insertMenu(tabletModeAct, sendToScreen_menu);
+#endif
+
+#ifdef SEND_AUDIO_OPTION
+	audioMenu->addMenu(sendAudio_menu);
 #endif
 }
 
@@ -311,6 +323,22 @@ void BaseGuiPlus::retranslateStrings() {
 
 	detached_label->setText("<img src=\"" + Images::file("send_to_screen") + "\">" +
 		"<p style=\"color: white;\">" + tr("Video is sent to an external screen") +"</p");
+#endif
+
+#ifdef SEND_AUDIO_OPTION
+	sendAudio_menu->menuAction()->setText( tr("Send &audio to") );
+	sendAudio_menu->menuAction()->setIcon(Images::icon("send_audio"));
+
+	audio_devices = DeviceInfo::alsaDevices();
+
+	sendAudioGroup->clear(true);
+	for (int n = 0; n < audio_devices.count(); n++) {
+		MyAction * item = new MyActionGroupItem(this, sendAudioGroup, QString("send_audio_%1").arg(n+1).toLatin1().constData(), n);
+		item->change("alsa (" + audio_devices[n].ID().toString() + " - " + audio_devices[n].desc() + ")");
+	}
+
+	sendAudio_menu->clear();
+	sendAudio_menu->addActions(sendAudioGroup->actions());
 #endif
 }
 
@@ -959,6 +987,17 @@ void BaseGuiPlus::toggleFullscreen(bool b) {
 	}
 }
 */
+#endif
+
+#ifdef SEND_AUDIO_OPTION
+void BaseGuiPlus::sendAudioToDevice(int n_device) {
+	qDebug() << "BaseGuiPlus::sendAudioToDevice:" << n_device;
+
+	if (n_device < audio_devices.count()) {
+		QString audio_device = "alsa:device=hw=" + audio_devices[n_device].ID().toString();
+		qDebug() << "BaseGuiPlus::sendAudioToDevice:" << audio_device;
+	}
+}
 #endif
 
 #include "moc_baseguiplus.cpp"
