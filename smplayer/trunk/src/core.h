@@ -102,10 +102,10 @@ public slots:
 	void loadAudioFile(const QString & audiofile);
 	void unloadAudioFile();
 
-    void stop(); 
-    void play();
+	void stop();
+	void play();
 	void play_or_pause();
-    void pause_and_frame_step();
+	void pause_and_frame_step();
 	void pause();
 	void frameStep();
 	void frameBackStep();
@@ -319,6 +319,8 @@ public slots:
 #if USE_ADAPTER
 	void changeAdapter(int n);
 #endif
+
+	void changeAO(const QString & new_ao);
 
 	void incZoom();
 	void decZoom();
