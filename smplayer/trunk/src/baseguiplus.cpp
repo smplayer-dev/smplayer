@@ -995,6 +995,10 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	audio_devices = DeviceInfo::alsaDevices();
 	prefix_name = "alsa";
 	#endif
+	#if USE_DSOUND_DEVICES
+	audio_devices = DeviceInfo::dsoundDevices();
+	prefix_name = "dsound";
+	#endif
 
 	for (int n = 0; n < audio_devices.count(); n++) {
 		item = new MyActionGroupItem(this, sendAudioGroup, QString("send_audio_%1").arg(n+1).toLatin1().constData(), n);
@@ -1007,13 +1011,19 @@ void BaseGuiPlus::updateSendAudioMenu() {
 
 void BaseGuiPlus::sendAudioToDevice(int n_device) {
 	qDebug() << "BaseGuiPlus::sendAudioToDevice:" << n_device;
+	
+	QString prefix;
+	#if USE_ALSA_DEVICES
+	prefix = "alsa:device=hw=";
+	#endif
+	#if USE_DSOUND_DEVICES
+	prefix = "dsound:device=";
+	#endif
 
 	if (n_device < audio_devices.count()) {
 		QString audio_device = "";
 		if (n_device > -1) {
-			#if USE_ALSA_DEVICES
-			audio_device = "alsa:device=hw=" + audio_devices[n_device].ID().toString();
-			#endif
+			audio_device = prefix + audio_devices[n_device].ID().toString();
 		}
 		qDebug() << "BaseGuiPlus::sendAudioToDevice:" << audio_device;
 		core->changeAO(audio_device);
