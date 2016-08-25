@@ -308,6 +308,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	if (option_name == "ao") {
 		QString o = value.toString();
 		if (o.startsWith("alsa:device=")) {
+			if (o.endsWith(",")) o.chop(1); // Remove last character
 			QString device = o.mid(12);
 			//qDebug() << "MPVProcess::setOption: alsa device:" << device;
 			device = device.replace("=", ":").replace(".", ",");
