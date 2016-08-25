@@ -238,7 +238,6 @@ void BaseGuiPlus::populateMainMenu() {
 
 #ifdef SCREENS_SUPPORT
 	videoMenu->insertMenu(videosize_menu->menuAction(), sendToScreen_menu);
-	//optionsMenu->addMenu(sendToScreen_menu);
 
 	if (!pref->tablet_mode) {
 		viewMenu->addSeparator();
@@ -249,7 +248,7 @@ void BaseGuiPlus::populateMainMenu() {
 #endif
 
 #ifdef SEND_AUDIO_OPTION
-	audioMenu->addMenu(sendAudio_menu);
+	audioMenu->insertMenu(audiofilter_menu->menuAction(), sendAudio_menu);
 #endif
 }
 
@@ -987,7 +986,7 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	sendAudioGroup->clear(true);
 
 	MyAction * item = new MyActionGroupItem(this, sendAudioGroup, "send_audio_default", -1);
-	item->change(tr("Default audio device"));
+	item->change(tr("&Default audio device"));
 
 	QString prefix_name;
 
