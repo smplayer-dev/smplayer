@@ -4680,7 +4680,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="533"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Buka URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="534"/>
@@ -4760,7 +4760,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="576"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Cari</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="581"/>
@@ -4810,7 +4810,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../playlist.cpp" line="1931"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Format tidak dikenal.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="570"/>
@@ -6996,7 +6996,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"/>
+        <translation>Bahasa sistem</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -7146,7 +7146,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Skala</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7256,12 +7256,12 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>Fakt&amp;r skala:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation>Rasi&amp;o piksel:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
@@ -7706,32 +7706,32 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"/>
+        <translation>Dukungan untuk situs video</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"/>
+        <translation>dukungan untuk situs video dimatikan</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="178"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"/>
+        <translation>hanya dukungan internal untuk YouTube yang akan dipakai</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="181"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"/>
+        <translation>memakai mpv + youtube-dl untuk semua situs</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Playback quality</source>
-        <translation type="unfinished"/>
+        <translation>Kualitas putar</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="192"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"/>
+        <translation>Pilih kualitas yang diutamakan untuk video Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="195"/>
@@ -9695,17 +9695,17 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Waktu kini</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Waktu total</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Waktu tersisa</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -9720,7 +9720,7 @@ Apakah Anda ingin menimpanya?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu akses cepat</translation>
     </message>
 </context>
 <context>
