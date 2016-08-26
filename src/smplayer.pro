@@ -604,6 +604,8 @@ win32 {
 		LIBS += libole32
 	}
 	
+	LIBS += -ldsound -lddraw
+
 	RC_FILE = smplayer.rc
 	DEFINES += NO_DEBUG_ON_CONSOLE
 	#debug {
