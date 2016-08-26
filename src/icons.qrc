@@ -151,6 +151,7 @@
         <file>default-theme/tablet_mode.png</file>
         <file>default-theme/recents.png</file>
         <file>default-theme/send_to_screen.png</file>
+        <file>default-theme/send_audio.png</file>
         <file>default-theme/video_track.png</file>
         <file>default-theme/quick_access_menu.png</file>
         <file>default-theme/buffering.gif</file>
