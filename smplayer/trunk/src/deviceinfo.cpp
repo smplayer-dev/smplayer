@@ -21,8 +21,75 @@
 #include <QProcess>
 #include <QFile>
 #include <QSettings>
+#include <QDebug>
 
 #ifdef Q_OS_WIN
+
+#define USE_DIRECTX
+
+#ifdef USE_DIRECTX
+#define DIRECTSOUND_VERSION 5
+#include <dsound.h>
+#include <ddraw.h>
+
+QStringList dsound_device_list;
+QStringList ddraw_device_list;
+
+BOOL CALLBACK DirectSoundEnum(LPGUID guid, LPCSTR desc, LPCSTR module, LPVOID context)
+{
+	Q_UNUSED(guid);
+	Q_UNUSED(module);
+	Q_UNUSED(context);
+
+	dsound_device_list << QString(desc);
+	return TRUE;
+}
+
+BOOL WINAPI DirectDrawEnum(GUID FAR *lpGUID, LPSTR lpDriverDescription, LPSTR lpDriverName, LPVOID lpContext, HMONITOR hm)
+{
+	Q_UNUSED(lpDriverName);
+	Q_UNUSED(lpContext);
+	Q_UNUSED(hm);
+
+	if (!lpGUID) {
+		ddraw_device_list << "Primary Display Adapter";
+	} else {
+		ddraw_device_list << QString(lpDriverDescription);
+	}
+	return TRUE;
+}
+
+
+DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
+	qDebug("DeviceInfo::retrieveDevices: %d", type);
+
+	DeviceList l;
+
+	dsound_device_list.clear();
+	ddraw_device_list.clear();
+
+	if (type == Sound) {
+		DirectSoundEnumerateA(DirectSoundEnum, NULL);
+		for (int n = 0; n < dsound_device_list.count(); n++) {
+			QString desc = dsound_device_list[n];
+			qDebug() << "DeviceInfo::retrieveDevices: audio:" << n << desc;
+			l.append( DeviceData(n, desc) );
+		}
+	}
+	else
+	if (type == Display) {
+		DirectDrawEnumerateExA(DirectDrawEnum, NULL, DDENUM_ATTACHEDSECONDARYDEVICES);
+		for (int n = 0; n < ddraw_device_list.count(); n++) {
+			QString desc = ddraw_device_list[n];
+			qDebug() << "DeviceInfo::retrieveDevices: display:" << n << desc;
+			l.append( DeviceData(n, desc) );
+		}
+	}
+
+	return l;
+}
+
+#else
 
 DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
 	qDebug("DeviceInfo::retrieveDevices: %d", type);
@@ -70,6 +137,7 @@ DeviceList DeviceInfo::retrieveDevices(DeviceType type) {
 
 	return l;
 }
+#endif
 
 DeviceList DeviceInfo::dsoundDevices() { 
 	return retrieveDevices(Sound);
