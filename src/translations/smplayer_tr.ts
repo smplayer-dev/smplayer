@@ -5534,7 +5534,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="960"/>
         <source>%1 executable</source>
-        <translation type="unfinished"/>
+        <translation>%1 çalıştırılabilir</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="961"/>
