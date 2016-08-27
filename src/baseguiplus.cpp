@@ -989,23 +989,52 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	item->change(tr("&Default audio device"));
 
 	QString prefix_name;
+	QString prefix_device;
 
 	#if USE_ALSA_DEVICES
 	audio_devices = DeviceInfo::alsaDevices();
 	prefix_name = "alsa";
+	prefix_device = "alsa:device=hw=";
 	#endif
 	#if USE_DSOUND_DEVICES
 	audio_devices = DeviceInfo::dsoundDevices();
 	prefix_name = "dsound";
+	prefix_device = "dsound:device=";
 	#endif
 
+/*
 	for (int n = 0; n < audio_devices.count(); n++) {
 		item = new MyActionGroupItem(this, sendAudioGroup, QString("send_audio_%1").arg(n+1).toLatin1().constData(), n);
 		item->change(prefix_name + " (" + audio_devices[n].ID().toString() + " - " + audio_devices[n].desc() + ")");
 	}
+*/
 
 	sendAudio_menu->clear();
-	sendAudio_menu->addActions(sendAudioGroup->actions());
+	//sendAudio_menu->addActions(sendAudioGroup->actions());
+
+	QAction * a = new QAction(sendAudio_menu);
+	a->setText(tr("&Default audio device"));
+	a->setData("");
+	connect(a, SIGNAL(triggered()), this, SLOT(sendAudioClicked()));
+	sendAudio_menu->addAction(a);
+
+	for (int n = 0; n < audio_devices.count(); n++) {
+		QAction * a = new QAction(sendAudio_menu);
+		QString device_id = audio_devices[n].ID().toString();
+		a->setText(prefix_name + " (" + device_id + " - " + audio_devices[n].desc() + ")");
+		a->setData(prefix_device + device_id);
+		connect(a, SIGNAL(triggered()), this, SLOT(sendAudioClicked()));
+		sendAudio_menu->addAction(a);
+	}
+}
+
+void BaseGuiPlus::sendAudioClicked() {
+	QAction * a = qobject_cast<QAction *> (sender());
+	if (a) {
+		QString device = a->data().toString();
+		qDebug() << "BaseGuiPlus::sendAudioClicked: device:" << device;
+		core->changeAO(device);
+	}
 }
 
 void BaseGuiPlus::sendAudioToDevice(int n_device) {
