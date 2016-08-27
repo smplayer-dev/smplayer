@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Vesió de desenvolupament</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -134,7 +134,7 @@
     <message>
         <location filename="../about.cpp" line="114"/>
         <source>Read a translation</source>
-        <translation type="unfinished"></translation>
+        <translation>Llegiu una traducció</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -1100,12 +1100,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1887"/>
         <source>Dec hue</source>
-        <translation>Dec hue</translation>
+        <translation>Dec tonalitat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1888"/>
         <source>Inc hue</source>
-        <translation>Inc hue</translation>
+        <translation>Inc tonalitat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1889"/>
@@ -1692,12 +1692,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1902"/>
         <source>Next aspect ratio</source>
-        <translation type="unfinished"></translation>
+        <translation>Següent relació d&apos;aspecte</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>&amp;Auto zoom</source>
-        <translation type="unfinished"></translation>
+        <translation>Zoom &amp;automàtic</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1741"/>
@@ -1712,12 +1712,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="2040"/>
         <source>&amp;Always</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sempre</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
         <source>&amp;Never</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mai</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2042"/>
@@ -1777,7 +1777,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="4515"/>
         <source>&amp;Jump to:</source>
-        <translation type="unfinished">&amp;Salta a:</translation>
+        <translation>&amp;Salta a:</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4516"/>
@@ -1788,25 +1788,25 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../basegui.cpp" line="4527"/>
         <location filename="../basegui.cpp" line="4531"/>
         <source>SMPlayer - Audio delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Retard de l&apos;àudio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4528"/>
         <location filename="../basegui.cpp" line="4532"/>
         <source>Audio delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Retard de l&apos;àudio (en mil·lisegons):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4543"/>
         <location filename="../basegui.cpp" line="4547"/>
         <source>SMPlayer - Subtitle delay</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer - Retard del subtítol</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4544"/>
         <location filename="../basegui.cpp" line="4548"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation type="unfinished"></translation>
+        <translation>Retard del subtítol (en mil·lisegons):</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2043"/>
@@ -1817,7 +1817,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../basegui.cpp" line="5444"/>
         <location filename="../basegui.cpp" line="5752"/>
         <source>Jump to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Salta a %1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
@@ -1838,12 +1838,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../basegui.cpp" line="2113"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation type="unfinished"></translation>
+        <translation>P&amp;rograma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1952"/>
         <source>&amp;TV</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;TV</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1955"/>
@@ -1966,7 +1966,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"></translation>
+        <translation>Envia l&apos;àudio a</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="337"/>
@@ -2086,7 +2086,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../baseguiplus.cpp" line="989"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dispositiu d&apos;àudio predeterminat</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -2137,7 +2137,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està connectant a %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -2152,7 +2152,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="unfinished"></translation>
+        <translation>Reeixit</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
@@ -2163,7 +2163,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha produït un error en escriure %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
@@ -2191,7 +2191,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="3098"/>
         <source>Hue: %1</source>
-        <translation>Hue: %1</translation>
+        <translation>Tonalitat: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3113"/>
@@ -2217,22 +2217,22 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="3978"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished">Relació d&apos;aspecte: %1</translation>
+        <translation>Relació d&apos;aspecte: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4371"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està actualitzant la memòria cau dels tipus de lletres. Això pot trigar alguns segons...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3309"/>
         <source>Subtitle delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Retard del subtítol: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3327"/>
         <source>Audio delay: %1 ms</source>
-        <translation type="unfinished"></translation>
+        <translation>Retard de l&apos;àudio: %1 ms</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3167"/>
@@ -2252,12 +2252,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="3472"/>
         <source>Subtitles on</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtítols sí</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3474"/>
         <source>Subtitles off</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtítols no</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4026"/>
@@ -2317,7 +2317,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">S&apos;està connectant a %1</translation>
     </message>
 </context>
 <context>
@@ -2355,17 +2355,17 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"></translation>
+        <translation>Inf&amp;ormació del format</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>A:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>A:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
         <source>B:%1</source>
-        <translation type="unfinished"></translation>
+        <translation>B:%1</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="672"/>
@@ -2390,12 +2390,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../defaultgui.cpp" line="692"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita la barra de &amp;control</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="693"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita la m&amp;ini barra de control</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="694"/>
@@ -2406,7 +2406,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../defaultgui.cpp" line="725"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1x%2 %3 fps</translation>
     </message>
 </context>
 <context>
@@ -2494,7 +2494,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../favoriteeditor.cpp" line="350"/>
         <source>Select an icon file</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu un fitxer d&apos;icona</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="352"/>
@@ -2543,7 +2543,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../favorites.cpp" line="374"/>
         <location filename="../favorites.cpp" line="378"/>
         <source>Jump to item</source>
-        <translation type="unfinished"></translation>
+        <translation>Salta a l&apos;element</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="375"/>
@@ -2559,17 +2559,17 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salta...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
         <source>&amp;Next</source>
-        <translation type="unfinished">&amp;Següent</translation>
+        <translation>Següe&amp;nt</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="92"/>
         <source>&amp;Previous</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Anterior</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="93"/>
@@ -2595,7 +2595,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="62"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està connectant a %1</translation>
     </message>
 </context>
 <context>
@@ -2739,17 +2739,17 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">El nom d&apos;amfitrió del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">El port del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Si el servidor intermediari requereix autenticació, aquest estableix el nom d&apos;usuari.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
@@ -2759,7 +2759,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Seleccioneu el tipus de servidor intermediari a utilitzar.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -2804,7 +2804,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="148"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Contra&amp;senya:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="165"/>
@@ -3009,7 +3009,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
         <source>&amp;Options</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opcions</translation>
     </message>
 </context>
 <context>
@@ -3336,7 +3336,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="123"/>
         <source>1.0rc3 or newer</source>
-        <translation type="unfinished"></translation>
+        <translation>1.0rc3 o posterior</translation>
     </message>
 </context>
 <context>
@@ -3357,79 +3357,79 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="24"/>
         <source>Afar</source>
-        <translation type="unfinished"></translation>
+        <translation>Àfar</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="25"/>
         <source>Abkhazian</source>
-        <translation type="unfinished"></translation>
+        <translation>Abkhaz</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="27"/>
         <source>Afrikaans</source>
-        <translation type="unfinished"></translation>
+        <translation>Afrikaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Amharic</source>
-        <translation type="unfinished"></translation>
+        <translation>Amhàric</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
         <location filename="../languages.cpp" line="299"/>
         <source>Arabic</source>
-        <translation type="unfinished"></translation>
+        <translation>Àrab</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Assamese</source>
-        <translation type="unfinished"></translation>
+        <translation>Assamès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="34"/>
         <source>Aymara</source>
-        <translation type="unfinished"></translation>
+        <translation>Aimara</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"></translation>
+        <translation>Àzeri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bashkir</source>
-        <translation type="unfinished"></translation>
+        <translation>Baixkir</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
         <location filename="../languages.cpp" line="325"/>
         <source>Bulgarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Búlgar</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation type="unfinished"></translation>
+        <translation>Bihari</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
         <source>Bislama</source>
-        <translation type="unfinished"></translation>
+        <translation>Bislama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="42"/>
         <source>Bengali</source>
-        <translation type="unfinished"></translation>
+        <translation>Bengalí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="43"/>
         <source>Tibetan</source>
-        <translation type="unfinished"></translation>
+        <translation>Tibetà</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="44"/>
         <source>Breton</source>
-        <translation type="unfinished"></translation>
+        <translation>Bretó</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="46"/>
@@ -3439,228 +3439,228 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="48"/>
         <source>Corsican</source>
-        <translation type="unfinished"></translation>
+        <translation>Cors</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
         <location filename="../languages.cpp" line="326"/>
         <source>Czech</source>
-        <translation type="unfinished"></translation>
+        <translation>Txec</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="53"/>
         <source>Welsh</source>
-        <translation type="unfinished"></translation>
+        <translation>Gal·lès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="54"/>
         <source>Danish</source>
-        <translation type="unfinished"></translation>
+        <translation>Danès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="55"/>
         <location filename="../languages.cpp" line="216"/>
         <source>German</source>
-        <translation type="unfinished"></translation>
+        <translation>Alemany</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="59"/>
         <source>Greek</source>
-        <translation type="unfinished"></translation>
+        <translation>Grec</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="60"/>
         <location filename="../languages.cpp" line="217"/>
         <source>English</source>
-        <translation type="unfinished"></translation>
+        <translation>Anglès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="61"/>
         <source>Esperanto</source>
-        <translation type="unfinished"></translation>
+        <translation>Esperanto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="62"/>
         <location filename="../languages.cpp" line="218"/>
         <source>Spanish</source>
-        <translation type="unfinished"></translation>
+        <translation>Espanyol</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
         <location filename="../languages.cpp" line="327"/>
         <source>Estonian</source>
-        <translation type="unfinished"></translation>
+        <translation>Estonià</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="64"/>
         <source>Basque</source>
-        <translation type="unfinished"></translation>
+        <translation>Basc</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="65"/>
         <source>Persian</source>
-        <translation type="unfinished"></translation>
+        <translation>Persa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="67"/>
         <location filename="../languages.cpp" line="219"/>
         <source>Finnish</source>
-        <translation type="unfinished"></translation>
+        <translation>Finès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
-        <translation type="unfinished"></translation>
+        <translation>Feroès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
         <location filename="../languages.cpp" line="220"/>
         <source>French</source>
-        <translation type="unfinished"></translation>
+        <translation>Francès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="71"/>
         <source>Frisian</source>
-        <translation type="unfinished"></translation>
+        <translation>Frisó</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
-        <translation type="unfinished"></translation>
+        <translation>Irlandès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
         <source>Galician</source>
-        <translation type="unfinished"></translation>
+        <translation>Gallec</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="75"/>
         <source>Guarani</source>
-        <translation type="unfinished"></translation>
+        <translation>Guaraní</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Gujarati</source>
-        <translation type="unfinished"></translation>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Hausa</source>
-        <translation type="unfinished"></translation>
+        <translation>Haussa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
         <source>Hebrew</source>
-        <translation type="unfinished"></translation>
+        <translation>Hebreu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="80"/>
         <source>Hindi</source>
-        <translation type="unfinished"></translation>
+        <translation>Hindi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
         <location filename="../languages.cpp" line="328"/>
         <source>Croatian</source>
-        <translation type="unfinished"></translation>
+        <translation>Croat</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
         <location filename="../languages.cpp" line="329"/>
         <source>Hungarian</source>
-        <translation type="unfinished"></translation>
+        <translation>Hongarès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="85"/>
         <source>Armenian</source>
-        <translation type="unfinished"></translation>
+        <translation>Armeni</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation type="unfinished"></translation>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
         <source>Indonesian</source>
-        <translation type="unfinished"></translation>
+        <translation>Indonesi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation type="unfinished"></translation>
+        <translation>Interlingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Islandès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
         <location filename="../languages.cpp" line="221"/>
         <source>Italian</source>
-        <translation type="unfinished"></translation>
+        <translation>Italià</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"></translation>
+        <translation>Inuktitut</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
         <location filename="../languages.cpp" line="222"/>
         <source>Japanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Japonès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation type="unfinished"></translation>
+        <translation>Javanès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
         <source>Georgian</source>
-        <translation type="unfinished"></translation>
+        <translation>Georgià</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="104"/>
         <source>Kazakh</source>
-        <translation type="unfinished"></translation>
+        <translation>Kazakh</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="105"/>
         <source>Greenlandic</source>
-        <translation type="unfinished"></translation>
+        <translation>Groenlandès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
         <source>Kannada</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanarès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="108"/>
         <source>Korean</source>
-        <translation type="unfinished"></translation>
+        <translation>Coreà</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="110"/>
         <source>Kashmiri</source>
-        <translation type="unfinished"></translation>
+        <translation>Caixmiri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="111"/>
         <source>Kurdish</source>
-        <translation type="unfinished"></translation>
+        <translation>Kurd</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="114"/>
         <source>Kirghiz</source>
-        <translation type="unfinished"></translation>
+        <translation>Kirguís</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="115"/>
         <source>Latin</source>
-        <translation type="unfinished"></translation>
+        <translation>Llatí</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="119"/>
@@ -3990,12 +3990,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="291"/>
         <source>Unicode</source>
-        <translation type="unfinished"></translation>
+        <translation>Unicode</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="292"/>
         <source>UTF-8</source>
-        <translation type="unfinished"></translation>
+        <translation>UTF-8</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="293"/>
@@ -4475,12 +4475,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../logwindow.ui" line="78"/>
         <source>Close</source>
-        <translation type="unfinished">Tanca</translation>
+        <translation>Tanca</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">Tan&amp;ca</translation>
+        <translation>Tan&amp;ca</translation>
     </message>
 </context>
 <context>
@@ -4488,7 +4488,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulari</translation>
     </message>
 </context>
 <context>
@@ -4522,7 +4522,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"></translation>
+        <translation>Edita la barra de &amp;control</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="176"/>
@@ -4535,7 +4535,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="150"/>
         <source>Control bar</source>
-        <translation type="unfinished">Barra de control</translation>
+        <translation>Barra de control</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="151"/>
@@ -4547,14 +4547,14 @@ El voleu sobreescriure?</translation>
         <location filename="../mpcgui/mpcgui.cpp" line="464"/>
         <location filename="../mpcgui/mpcgui.cpp" line="465"/>
         <source>-%1</source>
-        <translation type="unfinished">-%1</translation>
+        <translation>-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="467"/>
         <location filename="../mpcgui/mpcgui.cpp" line="468"/>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
-        <translation type="unfinished">+%1</translation>
+        <translation>+%1</translation>
     </message>
 </context>
 <context>
@@ -4585,17 +4585,17 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
         <source>Play / Pause</source>
-        <translation type="unfinished">Reprodueix / Pausa</translation>
+        <translation>Reprodueix / Pausa</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="188"/>
         <source>Stop</source>
-        <translation type="unfinished">Atura</translation>
+        <translation>Atura</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="189"/>
         <source>Record</source>
-        <translation type="unfinished"></translation>
+        <translation>Enregistra</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
@@ -4697,7 +4697,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="589"/>
         <source>&amp;Open URL</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Obre l&apos;URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="590"/>
@@ -4783,22 +4783,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Show position column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra la columna de la posició</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="624"/>
         <source>Show name column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra la columna del nom</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra la columna de la longitud</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="626"/>
         <source>Show filename column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra la columna del nom de fitxer</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="644"/>
@@ -5067,7 +5067,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="475"/>
         <source>Lo&amp;gs</source>
-        <translation type="unfinished"></translation>
+        <translation>Re&amp;gistres</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="454"/>
@@ -5253,7 +5253,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"></translation>
+        <translation>Filtres d&apos;à&amp;udio:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5443,7 +5443,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispositiu de Blu-ray</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
@@ -5558,7 +5558,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="955"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"></translation>
+        <translation>Motor multimèdia</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="956"/>
@@ -5724,7 +5724,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation>Permet canviar la velocitat de reproducció sense alteració del to.</translation>
+        <translation>Permet canviar la velocitat de reproducció sense alteració de l&apos;altura.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1160"/>
@@ -5784,7 +5784,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"></translation>
+        <translation>F&amp;ormat:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -5989,12 +5989,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="821"/>
         <source>High speed &amp;playback without altering pitch</source>
-        <translation>Alta velocitat de re&amp;producció sense alteració del to</translation>
+        <translation>Alta velocitat de re&amp;producció sense alteració de l&apos;altura</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1151"/>
         <source>High speed playback without altering pitch</source>
-        <translation>Alta velocitat de reproducció sense alteració del to</translation>
+        <translation>Alta velocitat de reproducció sense alteració de l&apos;altura</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="348"/>
@@ -6121,18 +6121,18 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="393"/>
         <location filename="../prefgeneral.cpp" line="419"/>
         <source>fast</source>
-        <translation type="unfinished"></translation>
+        <translation>ràpid</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="387"/>
         <location filename="../prefgeneral.cpp" line="415"/>
         <source>slow</source>
-        <translation type="unfinished"></translation>
+        <translation>lent</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="420"/>
         <source>fast - ATI cards</source>
-        <translation type="unfinished"></translation>
+        <translation>ràpid - targetes d&apos;ATI</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="442"/>
@@ -6374,7 +6374,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="978"/>
         <source>&amp;Factor:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Factor:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1014"/>
@@ -6429,7 +6429,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
-        <translation type="unfinished"></translation>
+        <translation>Configu&amp;ra...</translation>
     </message>
 </context>
 <context>
@@ -6787,12 +6787,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
         <source>Next chapter</source>
-        <translation type="unfinished">Següent capítol</translation>
+        <translation>Següent capítol</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Previous chapter</source>
-        <translation type="unfinished">Capítol anterior</translation>
+        <translation>Anterior capítol</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
@@ -6838,7 +6838,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="163"/>
         <location filename="../prefinput.cpp" line="397"/>
         <source>Move window</source>
-        <translation type="unfinished"></translation>
+        <translation>Mou la finestra</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="165"/>
@@ -7184,12 +7184,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"></translation>
+        <translation>Escala</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
@@ -7329,7 +7329,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
         <source>Skin</source>
-        <translation type="unfinished"></translation>
+        <translation>Tema</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7542,7 +7542,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="847"/>
         <source>Width</source>
-        <translation type="unfinished"></translation>
+        <translation>Amplada</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="848"/>
@@ -7647,7 +7647,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>Agent d&apos;&amp;usuari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7657,7 +7657,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>Compatibilitat per als llocs de &amp;vídeo:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
@@ -7667,47 +7667,47 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Servidor intermediari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished">Habilita el s&amp;ervidor intermediari</translation>
+        <translation>Habilita el s&amp;ervidor intermediari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished">Am&amp;fitrió:</translation>
+        <translation>Am&amp;fitrió:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="169"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished">&amp;Port:</translation>
+        <translation>&amp;Port:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="189"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished">Nom d&apos;&amp;usuari:</translation>
+        <translation>Nom d&apos;&amp;usuari:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"></translation>
+        <translation>Contra&amp;senya:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="219"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished">&amp;Tipus:</translation>
+        <translation>&amp;Tipus:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
-        <translation type="unfinished">HTTP</translation>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished">SOCKS5</translation>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="67"/>
@@ -7722,24 +7722,24 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
         <source>User agent</source>
-        <translation type="unfinished"></translation>
+        <translation>Agent d&apos;usuari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="79"/>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Inhabilitat</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="81"/>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation>Automàtic</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
@@ -7779,12 +7779,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="206"/>
         <source>Proxy</source>
-        <translation type="unfinished">Servidor intermediari</translation>
+        <translation>Servidor intermediari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="208"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilita el servidor intermediari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="209"/>
@@ -7794,37 +7794,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="211"/>
         <source>Host</source>
-        <translation type="unfinished"></translation>
+        <translation>Amfitrió</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="212"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>El nom d&apos;amfitrió del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="214"/>
         <source>Port</source>
-        <translation type="unfinished"></translation>
+        <translation>Port</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="215"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>El port del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="217"/>
         <source>Username</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom d&apos;usuari</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="218"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"></translation>
+        <translation>Si el servidor intermediari requereix autenticació, aquest estableix el nom d&apos;usuari.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="220"/>
         <source>Password</source>
-        <translation type="unfinished"></translation>
+        <translation>Contrasenya</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="221"/>
@@ -7834,12 +7834,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="224"/>
         <source>Type</source>
-        <translation type="unfinished">Tipus</translation>
+        <translation>Tipus</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="225"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccioneu el tipus de servidor intermediari a utilitzar.</translation>
     </message>
 </context>
 <context>
@@ -7909,7 +7909,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomàtic</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8079,13 +8079,13 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Sense</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <location filename="../prefperformance.cpp" line="373"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation>Automàtic</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
@@ -8248,7 +8248,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="34"/>
         <source>Playlist</source>
-        <translation type="unfinished">Llista de reproducció</translation>
+        <translation>Llista de reproducció</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="129"/>
@@ -8263,27 +8263,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Sense</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="47"/>
         <source>Video files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxers de vídeo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="48"/>
         <source>Audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxers d&apos;àudio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="49"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxers de vídeo i àudio</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="50"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxers consecutius</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="135"/>
@@ -8358,7 +8358,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation type="unfinished">Llista de re&amp;producció</translation>
+        <translation>Llista de re&amp;producció</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
@@ -8605,7 +8605,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
         <source>Bold</source>
-        <translation type="unfinished"></translation>
+        <translation>Negreta</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="459"/>
@@ -8615,7 +8615,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
         <source>Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Cursiva</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="462"/>
@@ -8625,7 +8625,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
         <source>Left margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Marge esquerre</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
@@ -8635,7 +8635,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
         <source>Right margin</source>
-        <translation type="unfinished"></translation>
+        <translation>Marge dret</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
@@ -8695,27 +8695,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mida</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
         <source>Bol&amp;d</source>
-        <translation type="unfinished"></translation>
+        <translation>Ne&amp;greta</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="435"/>
         <source>&amp;Italic</source>
-        <translation type="unfinished"></translation>
+        <translation>Curs&amp;iva</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="447"/>
         <source>Colors</source>
-        <translation type="unfinished"></translation>
+        <translation>Colors</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="456"/>
         <source>&amp;Text:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Text:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="482"/>
@@ -8725,7 +8725,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="534"/>
         <source>Margins</source>
-        <translation type="unfinished"></translation>
+        <translation>Marges</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="543"/>
@@ -8740,7 +8740,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="575"/>
         <source>Verti&amp;cal:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verti&amp;cal:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="607"/>
@@ -9639,7 +9639,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished">Auto</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9872,7 +9872,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
@@ -9892,7 +9892,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"></translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
@@ -9910,27 +9910,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Contrast</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Brillantor</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tonalitat</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Saturació</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Gamma</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>

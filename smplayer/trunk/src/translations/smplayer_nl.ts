@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Ontwikkelversie</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -31,12 +31,12 @@
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer is een grafische interface voor %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="169"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik hier om de vertalers van de Transifex-teams te leren kennen:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
@@ -272,7 +272,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sluiten</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -1035,12 +1035,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informatie en eigenschappen...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"></translation>
+        <translation>T&amp;ablet modus</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
@@ -1276,7 +1276,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="2955"/>
         <source>Logs</source>
-        <translation type="unfinished">Logs</translation>
+        <translation>Logboek</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4943"/>
@@ -1296,7 +1296,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="4946"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Gelieve, bezoek %1 om te weten hoe dit probleem opgelost kan worden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4947"/>
@@ -1318,42 +1318,42 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../basegui.cpp" line="5910"/>
         <location filename="../basegui.cpp" line="5962"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 Foutmelding</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5911"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is onverwachts beëindigd.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5936"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het component youtube-dl kon niet gestart worden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5937"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Het installeren van Microsoft Visual C++ 2010 Redistributable Package (x86) kan het probleem mogelijk oplossen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5939"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"></translation>
+        <translation>Klik hier om het te krijgen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5964"/>
         <source>%1 failed to start.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 kon niet gestart worden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5965"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"></translation>
+        <translation>Controleer het %1 pad in voorkeuren.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5967"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 is gecrashed.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6049"/>
@@ -1369,7 +1369,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="6060"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"></translation>
+        <translation>De YouTube-Browser kon niet gestart worden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6061"/>
@@ -1379,27 +1379,27 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="6227"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het systeem is overgeschakeld naar tablet modus. Moet SMPlayer ook overschakelen naar tablet modus?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6229"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"></translation>
+        <translation>Het systeem heeft tablet modus verlaten. Moet SMPlayer tablet modus uitschakelen?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6233"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"></translation>
+        <translation>Onthoud mijn keuze en vraag dit niet meer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4960"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"></translation>
+        <translation>Door wijzigingen op de YouTube pagina kan &apos;%1&apos; video helaas niet worden afgespeeld.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4966"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wilt u de YouTube-code bijwerken? Dit zou het probleem kunnen oplossen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4974"/>
@@ -1409,7 +1409,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="2140"/>
         <source>S&amp;hare SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>D&amp;eel SMPlayer met uw vrienden.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3241"/>
@@ -2076,7 +2076,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../baseguiplus.cpp" line="877"/>
         <source>Primary screen</source>
-        <translation type="unfinished"></translation>
+        <translation>Primaire scherm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="943"/>
@@ -2119,12 +2119,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"></translation>
+        <translation>Tijd</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished">Naam</translation>
+        <translation>Naam</translation>
     </message>
 </context>
 <context>
@@ -2350,7 +2350,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../defaultgui.cpp" line="649"/>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Klaar</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
@@ -2422,7 +2422,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../errordialog.cpp" line="40"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Oops, er is iets mis gegaan.</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
@@ -2713,7 +2713,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Example:</source>
-        <translation type="unfinished">Voorbeeld:</translation>
+        <translation>Voorbeeld:</translation>
     </message>
 </context>
 <context>
@@ -2761,7 +2761,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished">Opties</translation>
+        <translation>Opties</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -3255,7 +3255,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Sluiten</translation>
     </message>
 </context>
 <context>
@@ -3983,7 +3983,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="237"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"></translation>
+        <translation>Arabisch - Syrië</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="291"/>
@@ -4043,7 +4043,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="304"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuid-oost Europees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
@@ -4083,7 +4083,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="313"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished"></translation>
+        <translation>Cyrillisch Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="314"/>
@@ -4462,7 +4462,7 @@ Wilt u het overschrijven?</translation>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
@@ -4473,12 +4473,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../logwindow.ui" line="78"/>
         <source>Close</source>
-        <translation type="unfinished">Sluiten</translation>
+        <translation>Sluiten</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sluiten</translation>
     </message>
 </context>
 <context>
@@ -4486,7 +4486,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"></translation>
+        <translation>Formulier</translation>
     </message>
 </context>
 <context>
@@ -4560,7 +4560,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"></translation>
+        <translation>URL(s) invoeren</translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
@@ -9947,7 +9947,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Sluiten</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>

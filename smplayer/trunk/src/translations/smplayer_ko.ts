@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>개발자 버전</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1966,7 +1966,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"></translation>
+        <translation>오디오 보내기(&amp;A)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="337"/>
@@ -2086,7 +2086,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="989"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"></translation>
+        <translation>기본 오디오 장치(&amp;D)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -4784,22 +4784,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Show position column</source>
-        <translation type="unfinished"></translation>
+        <translation>위치 세로줄 보기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="624"/>
         <source>Show name column</source>
-        <translation type="unfinished"></translation>
+        <translation>이름 세로줄 보기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>길이 세로줄 보기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="626"/>
         <source>Show filename column</source>
-        <translation type="unfinished"></translation>
+        <translation>파일명 세로줄 보기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="644"/>
@@ -9329,12 +9329,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (개정판 %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (개정판 %2)</translation>
     </message>
 </context>
 <context>

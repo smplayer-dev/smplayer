@@ -7754,10 +7754,6 @@ Do you want to overwrite?</source>
         <translation>se desactiva el soporte para webs de vídeo</translation>
     </message>
     <message>
-        <source>enables internal support for YouTube and uses mpv + youtube-dl for the rest of the sites</source>
-        <translation type="obsolete">activa el soporte interno para YouTube y usa mpv + youtube-dl para el resto de webs</translation>
-    </message>
-    <message>
         <location filename="../prefnetwork.cpp" line="178"/>
         <source>only the internal support for YouTube will be used</source>
         <translation>sólo se usa el soporte interno de YouTube</translation>
