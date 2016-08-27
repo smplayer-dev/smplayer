@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Arendusversioon</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>

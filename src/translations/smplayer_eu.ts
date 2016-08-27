@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Garapen bertsioa</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1966,7 +1966,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"></translation>
+        <translation>Bidali a&amp;udioa hona</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="337"/>
@@ -2086,7 +2086,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../baseguiplus.cpp" line="989"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Berezko audio gailua</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -4785,22 +4785,22 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Show position column</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi kokapen zutabea</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="624"/>
         <source>Show name column</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi izen zutabea</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi luzera zutabea</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="626"/>
         <source>Show filename column</source>
-        <translation type="unfinished"></translation>
+        <translation>Erakutsi agirizen zutabea</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="644"/>
@@ -9331,12 +9331,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2 berrikuspena) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (%2 berrikuspena)</translation>
     </message>
 </context>
 <context>
