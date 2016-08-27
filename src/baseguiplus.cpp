@@ -202,9 +202,6 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #ifdef SEND_AUDIO_OPTION
 	sendAudio_menu = new QMenu(this);
 	sendAudio_menu->menuAction()->setObjectName("send_audio_menu");
-
-	sendAudioGroup = new MyActionGroup(this);
-	connect(sendAudioGroup, SIGNAL(activated(int)), this, SLOT(sendAudioToDevice(int)));
 #endif
 
 #ifdef GLOBALSHORTCUTS
@@ -983,11 +980,6 @@ void BaseGuiPlus::toggleFullscreen(bool b) {
 void BaseGuiPlus::updateSendAudioMenu() {
 	qDebug("BaseGuiPlus::updateSendAudioMenu");
 
-	sendAudioGroup->clear(true);
-
-	MyAction * item = new MyActionGroupItem(this, sendAudioGroup, "send_audio_default", -1);
-	item->change(tr("&Default audio device"));
-
 	QString prefix_name;
 	QString prefix_device;
 
@@ -1002,15 +994,7 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	prefix_device = "dsound:device=";
 	#endif
 
-/*
-	for (int n = 0; n < audio_devices.count(); n++) {
-		item = new MyActionGroupItem(this, sendAudioGroup, QString("send_audio_%1").arg(n+1).toLatin1().constData(), n);
-		item->change(prefix_name + " (" + audio_devices[n].ID().toString() + " - " + audio_devices[n].desc() + ")");
-	}
-*/
-
 	sendAudio_menu->clear();
-	//sendAudio_menu->addActions(sendAudioGroup->actions());
 
 	QAction * a = new QAction(sendAudio_menu);
 	a->setText(tr("&Default audio device"));
@@ -1034,27 +1018,6 @@ void BaseGuiPlus::sendAudioClicked() {
 		QString device = a->data().toString();
 		qDebug() << "BaseGuiPlus::sendAudioClicked: device:" << device;
 		core->changeAO(device);
-	}
-}
-
-void BaseGuiPlus::sendAudioToDevice(int n_device) {
-	qDebug() << "BaseGuiPlus::sendAudioToDevice:" << n_device;
-	
-	QString prefix;
-	#if USE_ALSA_DEVICES
-	prefix = "alsa:device=hw=";
-	#endif
-	#if USE_DSOUND_DEVICES
-	prefix = "dsound:device=";
-	#endif
-
-	if (n_device < audio_devices.count()) {
-		QString audio_device = "";
-		if (n_device > -1) {
-			audio_device = prefix + audio_devices[n_device].ID().toString();
-		}
-		qDebug() << "BaseGuiPlus::sendAudioToDevice:" << audio_device;
-		core->changeAO(audio_device);
 	}
 }
 #endif
