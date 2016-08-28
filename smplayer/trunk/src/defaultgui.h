@@ -22,9 +22,9 @@
 #define BUFFERING_ANIMATION
 //#define LANGUAGE_TOOLBAR
 
-#ifdef IDOPT_BUILD
+//#ifdef IDOPT_BUILD
 #define ADD_QUICK_ACCESS
-#endif
+//#endif
 
 #include "guiconfig.h"
 #include "baseguiplus.h"
