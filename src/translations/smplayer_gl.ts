@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -11,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Versión para desenvolvemento</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1966,7 +1964,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar ficheiro &amp;de son a</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="337"/>
@@ -2086,7 +2084,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="989"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"></translation>
+        <translation>Dispositivo predeterminado &amp;de son</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -2887,10 +2885,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2988,7 +2983,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -4785,22 +4780,22 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Show position column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a columna das posicións</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="624"/>
         <source>Show name column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a columna dos nomes</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a columna da lonxitude</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="626"/>
         <source>Show filename column</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar a columna dos nomes dos ficheiros</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="644"/>
@@ -9230,19 +9225,13 @@ Desexas sobrescribilo?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9331,12 +9320,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisión %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisión %2)</translation>
     </message>
 </context>
 <context>
