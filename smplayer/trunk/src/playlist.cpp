@@ -660,6 +660,11 @@ void Playlist::setFilter(const QString & filter) {
 void Playlist::filterEditChanged(const QString & text) {
 	qDebug() << "Playlist::filterEditChanged:" << text;
 	setFilter(text);
+
+	if (text.isEmpty()) {
+		qApp->processEvents();
+		listView->scrollTo(listView->currentIndex(), QAbstractItemView::PositionAtCenter);
+	}
 }
 
 void Playlist::setCurrentItem(int current) {
