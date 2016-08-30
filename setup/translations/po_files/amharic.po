@@ -131,7 +131,7 @@ msgstr ""
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
-msgstr ""
+msgstr "የ MPlayer Codecs በ ማውረድ ላይ..."
 
 # StartBtn
 msgid "Start"
@@ -240,7 +240,7 @@ msgstr ""
 # Section_MPlayerCodecs_Desc
 msgid ""
 "Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr ""
+msgstr "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
 
 # Section_MPlayerCodecs
 msgid "Binary Codecs"
@@ -297,6 +297,9 @@ msgid ""
 "starting setup. This will make it possible to update relevant program files "
 "without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
+"ማሰናጃው ይመራዎታል እንዴት እንደሚገጥሙ $(^NameDA).[:r:][:n:][:r:][:n:] ሌሎች ፕሮግራሞችን ይዝጉ "
+"SMPlayer ከ መገጠሙ በፊት: ይህ ማሻሻያ አግባብ ያለው ፕሮግራም ኮምፒዩተሩ እንደገና ሳይጀምር ማሻሻል ያስችለዋል [:"
+"r:][:n:][:r:][:n:]$_CLICK"
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
@@ -324,6 +327,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"ያልተደገፈ አይነት የ መስሪያ ስርአት [:n:]SMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ "
+"Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.[:n:] በ እርግጥ መግጠሙን መቀጠል "
+"ይፈልጋሉ?"
 
 # OS_Not_Supported
 msgid ""
@@ -356,7 +362,7 @@ msgstr "መግጠሚያው እየሄደ ነው"
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-07-25 01:28+0000\n"
+"PO-Revision-Date: 2016-08-13 17:18+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/rvm/smplayer/language/am/)\n"
 "Language: am\n"
