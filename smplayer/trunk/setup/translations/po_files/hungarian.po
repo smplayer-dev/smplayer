@@ -1,90 +1,90 @@
 # Section_MPlayerCodecs_Desc
 msgid "Binary codecs are not supported in this version."
-msgstr ""
+msgstr "A bináris kodekek nem támogatottak ebben a verzióban."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "SMPlayer beállítások tisztítása..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "fontconfig gyorsítótár tisztítása..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "youtube-dl frissítések keresése..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "A youtube-dl letöltése sikertelen: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "A youtube-dl telepítése nem sikerült. Újra próbálja?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "Az mpv telepítése sikertelen."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Az mpv letöltése sikertelen: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "Az mpv telepítése nem sikerült. Újra próbála?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "mpv letöltés alatt..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "mpv visszaállítása az előző telepítésből..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "mpv biztonsági mentése folyamatban..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
-msgstr ""
+msgstr "SMTube visszaállítása az előző telepítésből..."
 
 # Info_SMTube_Backup
 msgid "Backing up SMTube..."
-msgstr ""
+msgstr "SMTube biztonsági mentése folyamatban..."
 
 # Info_Files_Extract
 msgid "Extracting files..."
-msgstr ""
+msgstr "Fájlok kicsomagolása..."
 
 # Info_RollBack
 msgid "Rolling back changes..."
-msgstr ""
+msgstr "Változtatások visszavonása..."
 
 # Info_Rest_Assoc
 msgid "Restoring file associations..."
-msgstr ""
+msgstr "Fájltársítások visszaállítása..."
 
 # Info_Del_Shortcuts
 msgid "Deleting Shortcuts..."
-msgstr ""
+msgstr "Parancsikonok törlése..."
 
 # Info_Del_Registry
 msgid "Deleting Registry Keys..."
-msgstr ""
+msgstr "Regisztrációs kulcsok törlése..."
 
 # Info_Del_Files
 msgid "Deleting Files..."
-msgstr ""
+msgstr "Fájlök törlése..."
 
 # Info_Codecs_Restore
 msgid "Restoring codecs from previous installation..."
-msgstr ""
+msgstr "Kodekek visszaállítása az előző telepítésből..."
 
 # Info_Codecs_Backup
 msgid "Backing up codecs from previous installation..."
-msgstr ""
+msgstr "Kodekek biztonsági mentése az előző telepítésből..."
 
 # Application_Description
 msgid ""
@@ -92,47 +92,50 @@ msgid ""
 "playing videos, DVDs, VCDs to more advanced features like support for "
 "MPlayer filters, edl lists, and more."
 msgstr ""
-"Az SMPlayer egy komplett felület az MPlayerhez, mindent támogat az alap "
-"funkcióktól kezdve, mint a videók, DVDk, VCDk lejátszása, haladó funkciókig, "
-"mint az MPlayer szűrők, edl listák és még sok más."
+"Az SMPlayer egy átfogó front-end az MPlayerhez, mely rengeteg mindent "
+"tartalmaz az alap funkcióktól kezdve, mint a videók, DVD-k és VCD-k "
+"lejátszása, az olyan fejlett tulajdonságokig, mint támogatás az MPlayer "
+"szűrőkhöz, edl listákhoz és még sok máshoz."
 
 # Uninstaller_64bitOnly
 msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
+msgstr "A telepítés csak 64-bites Windowson távolítható el."
 
 # Uninstaller_InvalidDirectory
 msgid "SMPlayer installation not found."
-msgstr ""
+msgstr "Az SMPlayer telepítés nem található."
 
 # Uninstaller_NotInstalled
 msgid ""
 "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
 "r:][:n:]Continue anyway (not recommended)?"
 msgstr ""
-"Nem úgy néz ki, mint ha az SMPlayer ebbe a könyvtárba lett volna telepítve: "
-"'$INSTDIR'.[:r:][:n:]Mégis folytassam (nem ajánlott)?"
+"Nem úgy tűnik, hogy az SMPlayer telepítve lenne a '$INSTDIR' mappába.[:r:][:"
+"n:]Mégis folytatja? (nem ajánlott)"
 
 # Uninstaller_Aborted
 msgid "Uninstall aborted by user."
-msgstr "Az eltávolítást a felhasználó megszakította."
+msgstr "Az eltávolítást a felhasználó leállította."
 
 # Uninstaller_No_Admin
 msgid ""
 "This installation can only be uninstalled by a user with administrator "
 "privileges."
-msgstr "A program eltávolításához rendszergazda jogosultság szükséges."
+msgstr ""
+"Ez a telepítés csak egy rendszergazdai jogosultságokkal rendelkező "
+"felhasználó által távolítható el."
 
 # Codecs_Inst_Failed
 msgid "Failed to install MPlayer codecs."
-msgstr "Az MPlayer kodekek telepítése nem sikerült."
+msgstr "Nem sikerült feltelepíteni az MPlayer kodekeket."
 
 # Codecs_DL_Failed
 msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "Az MPlayer kodekek letöltése nem sikerült: '$R0'."
+msgstr "Nem sikerült letölteni az MPlayer kodekeket: '$R0'."
 
 # Codecs_DL_Retry
 msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "Az MPlayer kodekek telepítése nem sikerült. Újra próbáljam?"
+msgstr "Nem sikerült telepíteni az MPlayer kodekeket. Újra?"
 
 # Codecs_DL_Msg
 msgid "Downloading MPlayer Codecs..."
@@ -140,69 +143,71 @@ msgstr "MPlayer kodekek letöltése..."
 
 # StartBtn
 msgid "Start"
-msgstr ""
+msgstr "Start"
 
 # Type_Upgrade
 msgid "upgrade"
-msgstr ""
+msgstr "frissítés"
 
 # Type_Downgrade
 msgid "downgrade"
-msgstr ""
+msgstr "visszaminősítés"
 
 # Type_Reinstall
 msgid "reinstall"
-msgstr ""
+msgstr "újratelepítés"
 
 # Remove_Settings_Confirmation
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Biztos benne, hogy visszaállítja az SMPlayer beállításait? Ez a művelet nem "
+"visszafordítható."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
-msgstr ""
+msgstr "SMPlayer konfigurációjának alaphelyzetbe állítása"
 
 # Reinstall_Msg4
 msgid "Change Installation Settings"
-msgstr ""
+msgstr "Telepítési beállítások megváltoztatása"
 
 # Reinstall_Msg3_3
 msgid "Click Uninstall when ready to proceed."
-msgstr ""
+msgstr "A folytatáshoz kattintson az Eltávolításra."
 
 # Reinstall_Msg3_2
 msgid "Click Next when ready to proceed."
-msgstr ""
+msgstr "A folytatáshoz kattintson a Továbbra."
 
 # Reinstall_Msg3_1
 msgid "Click Start when ready to proceed."
-msgstr ""
+msgstr "A folytatáshoz kattintson a Startra."
 
 # Reinstall_Uninstall
 msgid "Uninstall (remove) the existing installation"
-msgstr ""
+msgstr "Távolítsa el (törölje) a meglévő telepítést"
 
 # Reinstall_Overwrite
 msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr ""
+msgstr "Írja felül ($Inst_Type) a megfelelő telepítést"
 
 # Reinstall_Msg2
 msgid "Please select how to proceed:"
-msgstr ""
+msgstr "Válassza ki, hogyan folytatódjon:"
 
 # Reinstall_Msg1
 msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr ""
+msgstr "Már van egy meglévő SMPlayer telepítése a következő mappában:"
 
 # Reinstall_Header_SubText
 msgid "Select Overwrite or Uninstall mode."
-msgstr ""
+msgstr "Válassza ki a felülíró vagy eltávolító módot."
 
 # Reinstall_Header_Text
 msgid "Select Install Type"
-msgstr ""
+msgstr "Válassza ki a telepítés típusát"
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -211,93 +216,98 @@ msgid ""
 "formats.[:n:]Note that they are not necessary to play most common formats "
 "like DVDs, MPEG-1/2/4, etc."
 msgstr ""
-"A bináris kodek csomagok támogatást nyújtanak natívan még nem támogatott "
-"kodekekhez, mint pl. az újabb RealVideo variánsok és sok ritka formátum.[:n:]"
-"Nem szükségesek a legtöbb gyakori formátum lejátszásához, mint a DVD-k, "
+"A bináris kodekcsomagok támogatást nyújtanak az olyan codecekhez, amelyek "
+"még nincsnek natívan implementálva, mint például az újabb RealVideo "
+"változatokhoz és rengeteg ritka formátumhoz.[:n:]Megjegyzendő, hogy ezek nem "
+"szükségesek a leggyakorib formátumok lejátszásához, mint például DVD-k, "
 "MPEG-1/2/4, stb."
 
 # Section_ResetSettings_Desc
 msgid "Deletes SMPlayer preferences leftover from previous installations."
-msgstr ""
+msgstr "Törli az előző telepítésből megmaradt SMPlayer beállításokat."
 
 # Section_Translations_Desc
 msgid "Non-English language files for SMPlayer."
-msgstr ""
+msgstr "Nem-Angol SMPlayer nyelvi fájlok."
 
 # Section_Translations
 msgid "Languages"
-msgstr ""
+msgstr "Nyelvek"
 
 # Section_IconThemes_Desc
 msgid "Additional icon themes for SMPlayer."
-msgstr ""
+msgstr "További ikontémák az SMPlayerhez."
 
 # Section_IconThemes
 msgid "Icon Themes"
-msgstr ""
+msgstr "Ikontémák"
 
 # Section_MEncoder_Desc
 msgid ""
 "A companion program to MPlayer that can be used to encode or transform "
 "supported audio or video streams."
 msgstr ""
+"Az MPlayer segédprogramja, mely audió- és videó sugárzások átkódolására és "
+"átalakítására használható."
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "Az MPlayer && MPlayer2 funkciókban gazdag forkja"
 
 # Section_MPlayerCodecs_Desc
 msgid ""
 "Optional codecs for MPlayer. (Internet Connection required for installation)"
 msgstr ""
+"További kodekek az MPlayer számára. (Internet Kapcsolat kell a "
+"telepítésükhöz)"
 
 # Section_MPlayerCodecs
 msgid "Binary Codecs"
-msgstr ""
+msgstr "Bináris Kodekek"
 
 # Section_MPlayer_Desc
 msgid "MPlayer; required for playback."
-msgstr ""
+msgstr "MPlayer; elengedhetetlen a lejátszáshoz."
 
 # Section_MPlayer
 msgid "MPlayer (required)"
-msgstr ""
+msgstr "MPlayer (nélkülözhetetlen)"
 
 # Section_StartMenu_Desc
 msgid "Create a Start Menu entry for SMPlayer."
-msgstr ""
+msgstr "Start Menü bejegyzés létrehozása az SMPlayer számára."
 
 # Section_StartMenu
 msgid "Start Menu"
-msgstr ""
+msgstr "Start Menü"
 
 # Section_DesktopShortcut_Desc
 msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr ""
+msgstr "Létrehoz egy SMPlayer parancsikont az asztalon."
 
 # Section_DesktopShortcut
 msgid "Desktop"
-msgstr ""
+msgstr "Asztal"
 
 # Section_SMPlayer_Desc
 msgid "SMPlayer, shared libraries, and documentation."
-msgstr ""
+msgstr "SMPlayer, megosztott könyvtárak és dokumentáció."
 
 # Section_SMPlayer
 msgid "SMPlayer (required)"
-msgstr ""
+msgstr "SMPlayer (nélkülözhetetlen)"
 
 # MPlayerMPVGroupTitle
 msgid "Multimedia Engine"
-msgstr ""
+msgstr "Multimédia-motor"
 
 # MPlayerGroupTitle
 msgid "MPlayer Components"
-msgstr ""
+msgstr "MPlayer Összetevők"
 
 # ShortcutGroupTitle
 msgid "Shortcuts"
-msgstr ""
+msgstr "Parancsikonok"
 
 # WelcomePage_Text
 msgid ""
@@ -306,26 +316,36 @@ msgid ""
 "starting setup. This will make it possible to update relevant program files "
 "without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
+"A telepítő végig fogja vezetni az $(^NameDA) telepítési folyamatán.[:r:][:n:]"
+"[:r:][:n:]Javasoljuk, hogy a telepítés megkezdése előtt zárja be az SMPlayer "
+"minden megnyitott példányát. Ez lehetővé teszi az adott program fájlok "
+"frissítését anélkül, hogy a számítógépét újra kellene indítania.[:r:][:n:][:"
+"r:][:n:]$_CLICK"
 
 # WelcomePage_Title
 msgid "$(^NameDA) Setup"
-msgstr ""
+msgstr "$(^NameDA) Setup"
 
 # Existing_64bitInst
 msgid ""
 "An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
 "bit SMPlayer first."
 msgstr ""
+"Egy 64-bites SMPlayer már telepítve van. Előbb el kell távolítania a 64-"
+"bites SMPlayer-t."
 
 # Existing_32bitInst
 msgid ""
 "An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
 "bit SMPlayer first."
 msgstr ""
+"Egy 32-bites SMPlayer már telepítve van. Előbb el kell távolítania a 32-"
+"bites SMPlayer-t."
 
 # Win64_Required
 msgid "A 64-bit Windows operating system is required to install this software."
 msgstr ""
+"A szoftver telepítéséhez 64-bites Windows operációs rendszerre van szükség."
 
 # OS_Not_Supported_VistaRequired
 msgid ""
@@ -333,6 +353,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Nem támogatott operációs rendszer.[:n:]Az SMPlayer ${SMPLAYER_VERSION} "
+"legalább Windows Vistát igényel, így valószínűleg nem fog megfelelően "
+"működni az ön rendszerén.[:n:]Biztosan folytatja a telepítést?"
 
 # OS_Not_Supported
 msgid ""
@@ -340,14 +363,19 @@ msgid ""
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Nem támogatott operációs rendszer.[:n:]Az SMPlayer ${SMPLAYER_VERSION} "
+"legalább Windows XP-t igényel, így valószínűleg nem fog megfelelően működni "
+"az ön rendszerén.[:n:]Biztosan folytatja a telepítést?"
 
 # SMPlayer_Is_Running
 msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
 msgstr ""
+"Az SMPlayer egy példánya már fut. Kérjük, lépjen ki az SMPlayerből és "
+"próbálja újra."
 
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
-msgstr "Rendszergazdaként kell bejelentkeznie a program telepítéséhez."
+msgstr "A program telepítéséhez redszergazdai jogosultságra van szükség."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -357,9 +385,18 @@ msgstr "A telepítő már fut."
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
+# Translators:
+# Levente-Krisztián Büte <chris020891@gmail.com>, 2016
+# Anon, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: SMPlayer\n"
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-08-29 19:23+0000\n"
+"Last-Translator: Levente-Krisztián Büte <chris020891@gmail.com>\n"
+"Language-Team: Hungarian (http://www.transifex.com/rvm/smplayer/language/"
+"hu/)\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"

@@ -4,47 +4,47 @@ msgstr "Binaire codecs worden niet ondersteund in deze versie."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
-msgstr ""
+msgstr "Voorkeuren SMPlayer opschonen..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr ""
+msgstr "Opschonen van de letter-voorkeur cache..."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."
-msgstr ""
+msgstr "Zoeken naar nieuwe youtube-dl versies..."
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "De download van youtube-dl is mislukt: '$R0'."
 
 # YTDL_DL_Retry
 msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
+msgstr "YouTube-DL was niet succesvol geïnstalleerd. Opnieuw proberen?"
 
 # MPV_Inst_Failed
 msgid "Failed to install mpv."
-msgstr ""
+msgstr "De installatie van MPV is mislukt."
 
 # MPV_DL_Failed
 msgid "Failed to download mpv: '$R0'."
-msgstr ""
+msgstr "Het downloaden van MPV is mislukt: '$R0'."
 
 # MPV_DL_Retry
 msgid "mpv was not successfully installed. Retry?"
-msgstr ""
+msgstr "MPV was niet succesvol geïnstalleerd. Opnieuw proberen?"
 
 # MPV_DL_Msg
 msgid "Downloading mpv..."
-msgstr ""
+msgstr "Bezig met het downloaden van MPV..."
 
 # Info_MPV_Restore
 msgid "Restoring mpv from previous installation..."
-msgstr ""
+msgstr "Bezig met het herstellen van MPV uit een vorige installatie..."
 
 # Info_MPV_Backup
 msgid "Backing up mpv..."
-msgstr ""
+msgstr "Bezig met een back-up maken van MPV..."
 
 # Info_SMTube_Restore
 msgid "Restoring SMTube from previous installation..."
@@ -161,6 +161,8 @@ msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be "
 "reversed."
 msgstr ""
+"Weet u zeker dat u uw SMPlayer voorkeuren wilt resetten? Deze keuze kunt u "
+"namelijk niet ongedaan maken."
 
 # Reinstall_Msg5
 msgid "Reset my SMPlayer configuration"
@@ -348,6 +350,9 @@ msgid ""
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
 msgstr ""
+"Niet-ondersteund besturingssysteem.[:n:]SMPlayer ${SMPLAYER_VERSION} vereist "
+"minimaal Windows Vista en zal mogelijk niet juist werken op uw systeem.[:n:]"
+"Weet u zeker dat u de installatie wilt voortzetten?"
 
 # OS_Not_Supported
 msgid ""
@@ -378,14 +383,14 @@ msgstr "Het installatiepakket draait al."
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# dragnadh <dragnadh@gmail.com>, 2015
+# dragnadh <dragnadh@gmail.com>, 2015-2016
 # Heimen Stoffels <vistausss@outlook.com>, 2014
 # Toon van Gerwen <papillon@vgerwen.nl>, 2015
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-02-25 00:24+0000\n"
-"Last-Translator: Ricardo Villalba <rvm@users.sourceforge.net>\n"
+"PO-Revision-Date: 2016-08-27 14:38+0000\n"
+"Last-Translator: dragnadh <dragnadh@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/rvm/smplayer/language/nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
