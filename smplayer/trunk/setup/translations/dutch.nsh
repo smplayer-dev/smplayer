@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "U moet ingelogd zijn als beheerder tijdens
 ${LangFileString} SMPlayer_Is_Running "Een venster van SMPlayer is draaiende. Sluit SMPlayer en probeer het opnieuw."
 
 ${LangFileString} OS_Not_Supported "Niet-ondersteund besturingssysteem.$\nSMPlayer ${SMPLAYER_VERSION} vereist minimaal Windows XP en zal mogelijk niet juist werken op uw systeem.$\nWeet u zeker dat u de installatie wilt voortzetten?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Niet-ondersteund besturingssysteem.$\nSMPlayer ${SMPLAYER_VERSION} vereist minimaal Windows Vista en zal mogelijk niet juist werken op uw systeem.$\nWeet u zeker dat u de installatie wilt voortzetten?"
 ${LangFileString} Win64_Required "Een 64-bits-versie van Windows is benodigd om deze software te installeren."
 ${LangFileString} Existing_32bitInst "Een bestaande 32-bits-installatie van SMPlayer bestaat reeds. U moet deze eerst deïnstalleren."
 ${LangFileString} Existing_64bitInst "Een bestaande 64-bits-installatie van SMPlayer bestaat reeds. U moet deze eerst deïnstalleren."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Klik op Deïnstalleren wanneer u klaar bent 
 ${LangFileString} Reinstall_Msg4 "Installatie-voorkeuren wijzigen"
 ${LangFileString} Reinstall_Msg5 "Standaardwaarden voor mijn SMPlayer-configuratie"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Weet u zeker dat u uw SMPlayer voorkeuren wilt resetten? Deze keuze kunt u namelijk niet ongedaan maken."
 
 ${LangFileString} Type_Reinstall "herinstalleren"
 ${LangFileString} Type_Downgrade "versie verlagen"
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "Veranderingen ongedaan maken..."
 ${LangFileString} Info_Files_Extract "Uitpakken van bestanden..."
 ${LangFileString} Info_SMTube_Backup "Back-up SMTube..."
 ${LangFileString} Info_SMTube_Restore "Herstel SMTube van de oude installatie..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Bezig met een back-up maken van MPV..."
+${LangFileString} Info_MPV_Restore "Bezig met het herstellen van MPV uit een vorige installatie..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Bezig met het downloaden van MPV..."
+${LangFileString} MPV_DL_Retry "MPV was niet succesvol geïnstalleerd. Opnieuw proberen?"
+${LangFileString} MPV_DL_Failed "Het downloaden van MPV is mislukt: '$R0'."
+${LangFileString} MPV_Inst_Failed "De installatie van MPV is mislukt."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "YouTube-DL was niet succesvol geïnstalleerd. Opnieuw proberen?"
+${LangFileString} YTDL_DL_Failed "De download van youtube-dl is mislukt: '$R0'."
+${LangFileString} YTDL_Update_Check "Zoeken naar nieuwe youtube-dl versies..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Opschonen van de letter-voorkeur cache..."
+${LangFileString} Info_Cleaning_SMPlayer "Voorkeuren SMPlayer opschonen..."

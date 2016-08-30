@@ -15,7 +15,7 @@ ${LangFileString} Installer_Is_Running "Installationsprogrammet kører allerede.
 ${LangFileString} Installer_No_Admin "Du skal være logget på som administrator når du installere dette program."
 ${LangFileString} SMPlayer_Is_Running "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
 
-${LangFileString} OS_Not_Supported "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver som minimum Windows XP og vil måske ikke virke korrekt på dit system.$\nEr du sikker på at du vil fortsætte installationen?"
+${LangFileString} OS_Not_Supported "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver som minimum Windows XP og vil måske ikke virke korrekt på dit system.$\nEr du sikker på, at du vil fortsætte installationen?"
 ${LangFileString} OS_Not_Supported_VistaRequired "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver mindst Windows Vista og virker måske ikke korrekt på dit system.$\nVil du virkelig fortsætte installationen?"
 ${LangFileString} Win64_Required "Det kræver et 64-bit Windows-styresystem at installere dette software."
 ${LangFileString} Existing_32bitInst "Der findes allerede en 32-bit installation af SMPlayer. Du skal først afinstallere 32-bit SMPlayer."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Klik på Afinstaller når du er klar til at 
 ${LangFileString} Reinstall_Msg4 "Skift installationsindstillinger"
 ${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
 
-${LangFileString} Remove_Settings_Confirmation "Er du sikker på at du vil nulstille dine SMPlayer indstillinger? Denne handling kan ikke gøres om."
+${LangFileString} Remove_Settings_Confirmation "Er du sikker på, at du vil nulstille dine SMPlayer indstillinger? Denne handling kan ikke gøres om."
 
 ${LangFileString} Type_Reinstall "geninstallér"
 ${LangFileString} Type_Downgrade "nedgrader"

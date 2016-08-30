@@ -51,14 +51,14 @@ ${LangFileString} Installer_No_Admin "እርስዎ ይህን ፕሮግራም ሲ
 ${LangFileString} SMPlayer_Is_Running "የ SMP ማጫወቻ እየሄደ ነው: እባክዎን ከ SMP ማጫወቻ ይውጡ እና እንደገና ይሞክሩ"
 
 ${LangFileString} OS_Not_Supported "ያልተደገፈ አይነት የ መስሪያ ስርአት $\nSMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.$\nበ እርግጥ መግጠሙን መቀጠል ይፈልጋሉ?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "ያልተደገፈ አይነት የ መስሪያ ስርአት $\nSMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.$\n በ እርግጥ መግጠሙን መቀጠል ይፈልጋሉ?"
 ${LangFileString} Win64_Required "የ 64-ቢት መስኮት መስሪያ ስርአት ያስፈልጋል ይህን ፕሮግራም ለ መግጠም"
 ${LangFileString} Existing_32bitInst "ቀደም ያለ የ 32-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 32-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
 ${LangFileString} Existing_64bitInst "ቀደም ያለ የ 64-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 64-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
 
 ; Welcome page
 ${LangFileString} WelcomePage_Title "$(^NameDA) ማሰናጃ"
-${LangFileString} WelcomePage_Text "Setup will guide you through the installation of $(^NameDA).$\r$\n$\r$\nIt is recommended that you close all instances of SMPlayer before starting setup. This will make it possible to update relevant program files without having to reboot your computer.$\r$\n$\r$\n$_CLICK"
+${LangFileString} WelcomePage_Text "ማሰናጃው ይመራዎታል እንዴት እንደሚገጥሙ $(^NameDA).$\r$\n$\r$\n ሌሎች ፕሮግራሞችን ይዝጉ SMPlayer ከ መገጠሙ በፊት: ይህ ማሻሻያ አግባብ ያለው ፕሮግራም ኮምፒዩተሩ እንደገና ሳይጀምር ማሻሻል ያስችለዋል $\r$\n$\r$\n$_CLICK"
 
 ; Components Page
 ${LangFileString} ShortcutGroupTitle "አቋራጮች"
@@ -81,7 +81,7 @@ ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
 !ifdef WIN64
 ${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
 !else
-${LangFileString} Section_MPlayerCodecs_Desc "Optional codecs for MPlayer. (Internet Connection required for installation)"
+${LangFileString} Section_MPlayerCodecs_Desc "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
@@ -121,7 +121,7 @@ ${LangFileString} Type_Upgrade "ማሻሻያ"
 ${LangFileString} StartBtn "ማስጀመሪያ"
 
 ; Codecs Section
-${LangFileString} Codecs_DL_Msg "Downloading MPlayer Codecs..."
+${LangFileString} Codecs_DL_Msg "የ MPlayer Codecs በ ማውረድ ላይ..."
 ${LangFileString} Codecs_DL_Retry "MPlayer codecs were not successfully installed. Retry?"
 ${LangFileString} Codecs_DL_Failed "Failed to download MPlayer codecs: '$R0'."
 ${LangFileString} Codecs_Inst_Failed "Failed to install MPlayer codecs."
