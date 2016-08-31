@@ -2084,7 +2084,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="989"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Standardlydenhed</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -9320,12 +9320,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"/>
+        <translation>%1 (revision %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (revision %2)</translation>
     </message>
 </context>
 <context>
