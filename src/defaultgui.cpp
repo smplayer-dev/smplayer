@@ -51,9 +51,10 @@
 #include <QMenuBar>
 #include <QMovie>
 
-#define TOOLBAR_VERSION 2
-#define CONTROLWIDGET_VERSION 0
-#define FLOATING_CONTROL_VERSION 1
+#define TOOLBAR_VERSION "2"
+#define CONTROLWIDGET_VERSION "1"
+#define CONTROLWIDGETMINI_VERSION "1"
+#define FLOATING_CONTROL_VERSION "1"
 
 using namespace Global;
 
@@ -953,14 +954,11 @@ void DefaultGui::saveConfig() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
-	set->setValue("toolbar1", toolbar1->actionsToStringList() );
-	set->setValue("controlwidget", controlwidget->actionsToStringList() );
-	set->setValue("controlwidget_mini", controlwidget_mini->actionsToStringList() );
+	set->setValue("toolbar1/" TOOLBAR_VERSION, toolbar1->actionsToStringList() );
+	set->setValue("controlwidget/" CONTROLWIDGET_VERSION, controlwidget->actionsToStringList() );
+	set->setValue("controlwidget_mini/" CONTROLWIDGETMINI_VERSION, controlwidget_mini->actionsToStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
-	set->setValue("floating_control", iw->actionsToStringList() );
-	set->setValue("toolbar1_version", TOOLBAR_VERSION);
-	set->setValue("controlwidget_version", CONTROLWIDGET_VERSION);
-	set->setValue("floating_control_version", FLOATING_CONTROL_VERSION);
+	set->setValue("floating_control/" FLOATING_CONTROL_VERSION, iw->actionsToStringList() );
 	set->endGroup();
 
 	set->beginGroup("toolbars_icon_size");
@@ -1014,35 +1012,20 @@ void DefaultGui::loadConfig() {
 
 #if USE_CONFIGURABLE_TOOLBARS
 	set->beginGroup( "actions" );
-	int toolbar_version = set->value("toolbar1_version", 0).toInt();
-	if (toolbar_version >= TOOLBAR_VERSION) {
-		toolbar1->setActionsFromStringList( set->value("toolbar1", toolbar1->defaultActions()).toStringList() );
-	} else {
-		qDebug("DefaultGui::loadConfig: toolbar too old, loading default one");
-		toolbar1->setActionsFromStringList( toolbar1->defaultActions() );
+	toolbar1->setActionsFromStringList( set->value("toolbar1/" TOOLBAR_VERSION, toolbar1->defaultActions()).toStringList() );
+
+	{
+	QStringList l = set->value("controlwidget/" CONTROLWIDGET_VERSION, controlwidget->defaultActions()).toStringList();
+	#ifdef ADD_QUICK_ACCESS
+	if (l.indexOf("quick_access_menu") == -1) l << "quick_access_menu";
+	#endif
+	controlwidget->setActionsFromStringList(l);
 	}
 
-	int controlwidget_version = set->value("controlwidget_version", 0).toInt();
-	if (controlwidget_version >= CONTROLWIDGET_VERSION) {
-		QStringList l = set->value("controlwidget", controlwidget->defaultActions()).toStringList();
-		#ifdef ADD_QUICK_ACCESS
-		if (l.indexOf("quick_access_menu") == -1) l << "quick_access_menu";
-		#endif
-		controlwidget->setActionsFromStringList(l);
-	} else {
-		controlwidget->setActionsFromStringList( controlwidget->defaultActions() );
-	}
+	controlwidget_mini->setActionsFromStringList( set->value("controlwidget_mini/" CONTROLWIDGETMINI_VERSION, controlwidget_mini->defaultActions()).toStringList() );
 
-	controlwidget_mini->setActionsFromStringList( set->value("controlwidget_mini", controlwidget_mini->defaultActions()).toStringList() );
 	EditableToolbar * iw = static_cast<EditableToolbar *>(floating_control->internalWidget());
-
-	int floating_control_version = set->value("floating_control_version", 0).toInt();
-	if (floating_control_version >= FLOATING_CONTROL_VERSION) {
-		iw->setActionsFromStringList( set->value("floating_control", iw->defaultActions()).toStringList() );
-	} else {
-		qDebug("DefaultGui::loadConfig: floating control too old, loading default one");
-		iw->setActionsFromStringList( iw->defaultActions() );
-	}
+	iw->setActionsFromStringList( set->value("floating_control/" FLOATING_CONTROL_VERSION, iw->defaultActions()).toStringList() );
 	set->endGroup();
 
 	set->beginGroup("toolbars_icon_size");
