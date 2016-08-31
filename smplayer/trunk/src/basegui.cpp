@@ -3120,6 +3120,7 @@ void BaseGui::applyNewPreferences() {
 	qDebug("BaseGui::applyNewPreferences");
 
 	bool need_update_language = false;
+	bool need_apply_styles = false;
 
 	PlayerID::Player old_player_type = PlayerID::player(pref->mplayer_bin);
 
@@ -3127,16 +3128,6 @@ void BaseGui::applyNewPreferences() {
 
 	// Setup proxy
 	setupNetworkProxy();
-
-	// Change application font
-	if (!pref->default_font.isEmpty()) {
-		QFont f;
-		f.fromString( pref->default_font );
-		if (QApplication::font() != f) {
-			qDebug("BaseGui::applyNewPreferences: setting new font: %s", pref->default_font.toLatin1().constData());
-			QApplication::setFont(f);
-		}
-	}
 
 	PrefGeneral *_general = pref_dialog->mod_general();
 	if (_general->fileSettingsMethodChanged()) {
@@ -3153,9 +3144,11 @@ void BaseGui::applyNewPreferences() {
 		need_update_language = true;
 		// Stylesheet
 		#if ALLOW_CHANGE_STYLESHEET
-		if (!_interface->guiChanged()) applyStyles();
+		if (!_interface->guiChanged()) need_apply_styles = true;
 		#endif
 	}
+
+	if (_interface->fontChanged()) need_apply_styles = true;
 
 #ifndef MOUSE_GESTURES
 	mplayerwindow->activateMouseDragTracking(pref->drag_function == Preferences::MoveWindow);
@@ -3217,11 +3210,13 @@ void BaseGui::applyNewPreferences() {
 
 #if STYLE_SWITCHING
 	if (_interface->styleChanged()) {
-		applyStyles();
+		need_apply_styles = true;
 	}
 #endif
 
-    // Restart the video if needed
+	if (need_apply_styles) applyStyles();
+
+	// Restart the video if needed
 	if (pref_dialog->requiresRestart())
 		core->restart();
 
@@ -5642,6 +5637,19 @@ void BaseGui::applyStyles() {
 	qDebug("BaseGui::applyStyles");
 
 #if ALLOW_CHANGE_STYLESHEET
+	qApp->setStyleSheet("");
+#endif
+
+	if (!pref->default_font.isEmpty()) {
+		QFont f;
+		f.fromString( pref->default_font );
+		if (QApplication::font() != f) {
+			qDebug() << "BaseGui::applyStyles: setting new font:" << pref->default_font;
+			QApplication::setFont(f);
+		}
+	}
+
+#if ALLOW_CHANGE_STYLESHEET
 	qDebug() << "BaseGui::applyStyles: stylesheet:" << pref->iconset;
 	changeStyleSheet(pref->iconset);
 #endif
@@ -5657,6 +5665,7 @@ void BaseGui::applyStyles() {
 		#endif
 	}
 #endif
+
 }
 
 void BaseGui::setTabletMode(bool b) {

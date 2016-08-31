@@ -438,11 +438,13 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 	}
 #endif
 
+	/*
 	if (!pref->default_font.isEmpty()) {
 		QFont f;
 		f.fromString(pref->default_font);
 		qApp->setFont(f);
 	}
+	*/
 
 	return SMPlayer::NoExit;
 }
