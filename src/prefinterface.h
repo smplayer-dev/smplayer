@@ -36,16 +36,17 @@ public:
 	virtual QString sectionName();
 	virtual QPixmap sectionIcon();
 
-    // Pass data to the dialog
-    void setData(Preferences * pref);
+	// Pass data to the dialog
+	void setData(Preferences * pref);
 
-    // Apply changes
-    void getData(Preferences * pref);
+	// Apply changes
+	void getData(Preferences * pref);
 
 	bool languageChanged() { return language_changed; };
 	bool iconsetChanged() { return iconset_changed; };
 	bool guiChanged() { return gui_changed; }
 	bool styleChanged() { return style_changed; };
+	bool fontChanged(){ return font_changed; };
 	bool recentsChanged() { return recents_changed; };
 	bool urlMaxChanged() { return url_max_changed; };
 
@@ -155,6 +156,7 @@ private:
 	bool iconset_changed;
 	bool gui_changed;
 	bool style_changed;
+	bool font_changed;
 	bool recents_changed;
 	bool url_max_changed;
 
