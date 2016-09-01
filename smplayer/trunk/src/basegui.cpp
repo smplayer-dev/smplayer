@@ -5637,7 +5637,7 @@ void BaseGui::changeStyleSheet(QString style) {
 			.arg(f.pointSize()).arg(f.family());
 		stylesheet = fstyle + stylesheet;
 	}
-	qDebug() << "BaseGui::changeStyleSheet: styleSheet:" << stylesheet;
+	//qDebug() << "BaseGui::changeStyleSheet: styleSheet:" << stylesheet;
 	qApp->setStyleSheet(stylesheet);
 }
 #endif
