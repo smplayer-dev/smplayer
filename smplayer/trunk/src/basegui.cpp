@@ -5628,7 +5628,16 @@ void BaseGui::changeStyleSheet(QString style) {
 		}
 	}
 
-	//qDebug() << "BaseGui::changeStyleSheet: styleSheet:" << stylesheet;
+	// Use the user specified font
+	if (!pref->default_font.isEmpty()) {
+		QFont f;
+		f.fromString( pref->default_font );
+		QString fstyle = QString("QWidget { font: %1 %2 %3pt %4; }")
+			.arg(f.bold() ? "bold" :"").arg(f.italic() ? "italic" : "")
+			.arg(f.pointSize()).arg(f.family());
+		stylesheet = fstyle + stylesheet;
+	}
+	qDebug() << "BaseGui::changeStyleSheet: styleSheet:" << stylesheet;
 	qApp->setStyleSheet(stylesheet);
 }
 #endif
@@ -5636,10 +5645,7 @@ void BaseGui::changeStyleSheet(QString style) {
 void BaseGui::applyStyles() {
 	qDebug("BaseGui::applyStyles");
 
-#if ALLOW_CHANGE_STYLESHEET
-	qApp->setStyleSheet("");
-#endif
-
+#if !ALLOW_CHANGE_STYLESHEET
 	if (!pref->default_font.isEmpty()) {
 		QFont f;
 		f.fromString( pref->default_font );
@@ -5648,6 +5654,7 @@ void BaseGui::applyStyles() {
 			QApplication::setFont(f);
 		}
 	}
+#endif
 
 #if ALLOW_CHANGE_STYLESHEET
 	qDebug() << "BaseGui::applyStyles: stylesheet:" << pref->iconset;
