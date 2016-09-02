@@ -6990,7 +6990,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="58"/>
         <source>Never</source>
-        <translation>Kunagi</translation>
+        <translation>Mitte kunagi</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="63"/>
@@ -7026,7 +7026,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="196"/>
         <source>&amp;Short jump</source>
-        <translation>&amp;Lühike hüppamine</translation>
+        <translation>&amp;Lühike hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
@@ -7036,22 +7036,22 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Medium jump</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Keskmine hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="198"/>
         <source>&amp;Long jump</source>
-        <translation>&amp;Pikk hüppamine</translation>
+        <translation>&amp;Pikk hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="199"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation type="unfinished"/>
+        <translation>Hiire &amp;kerimisel hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="629"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Luba käivitada ainult üks SMPlayeri protsess</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="841"/>
@@ -7081,17 +7081,17 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="41"/>
         <source>Auto&amp;resize:</source>
-        <translation type="unfinished"/>
+        <translation>Automaatne &amp;suuruse muutmine</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Takista akna ekraanilt väljumist</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Aseta aken keskele</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -7101,12 +7101,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rüü:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
         <source>Default font:</source>
-        <translation>Tavafont:</translation>
+        <translation>Vaikefont:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="411"/>
@@ -7361,7 +7361,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="794"/>
         <source>Short jump</source>
-        <translation>Lühike hüppamine</translation>
+        <translation>Lühike hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="795"/>
@@ -7373,7 +7373,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>short jump</source>
-        <translation>lühike hüppamine</translation>
+        <translation>lühike hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -7388,12 +7388,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="802"/>
         <source>Long jump</source>
-        <translation>Pikk hüppamine</translation>
+        <translation>Pikk hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="804"/>
         <source>long jump</source>
-        <translation>pikk hüppamne</translation>
+        <translation>pikk hüpe</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="806"/>
