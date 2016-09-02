@@ -979,35 +979,27 @@ void BaseGuiPlus::toggleFullscreen(bool b) {
 void BaseGuiPlus::updateSendAudioMenu() {
 	qDebug("BaseGuiPlus::updateSendAudioMenu");
 
-	QString prefix_name;
-	QString prefix_device;
-
-	#if USE_ALSA_DEVICES
-	audio_devices = DeviceInfo::alsaDevices();
-	prefix_name = "alsa";
-	prefix_device = "alsa:device=hw=";
-	#endif
-
-	#if USE_PULSEAUDIO_DEVICES
-	prefix_name = "pulse";
-	prefix_device = "pulse::";
-	audio_devices = DeviceInfo::paDevices();
-	#endif
-
-	#if USE_DSOUND_DEVICES
-	audio_devices = DeviceInfo::dsoundDevices();
-	prefix_name = "dsound";
-	prefix_device = "dsound:device=";
-	#endif
-
 	sendAudio_menu->clear();
-
 	QAction * a = new QAction(sendAudio_menu);
 	a->setText(tr("&Default audio device"));
 	a->setData("");
 	connect(a, SIGNAL(triggered()), this, SLOT(sendAudioClicked()));
 	sendAudio_menu->addAction(a);
 
+#if USE_PULSEAUDIO_DEVICES
+	addListToSendAudioMenu( DeviceInfo::paDevices(), "pulse", "pulse::");
+#endif
+
+#if USE_ALSA_DEVICES
+	addListToSendAudioMenu( DeviceInfo::alsaDevices(), "alsa", "alsa:device=hw=");
+#endif
+
+#if USE_DSOUND_DEVICES
+	addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound", "dsound:device=");
+#endif
+}
+
+void BaseGuiPlus::addListToSendAudioMenu(const DeviceList & audio_devices, const QString & prefix_name, const QString & prefix_device) {
 	for (int n = 0; n < audio_devices.count(); n++) {
 		QAction * a = new QAction(sendAudio_menu);
 		QString device_id = audio_devices[n].ID().toString();
