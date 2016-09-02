@@ -988,6 +988,13 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	prefix_name = "alsa";
 	prefix_device = "alsa:device=hw=";
 	#endif
+
+	#if USE_PULSEAUDIO_DEVICES
+	prefix_name = "pulse";
+	prefix_device = "pulse::";
+	audio_devices = DeviceInfo::paDevices();
+	#endif
+
 	#if USE_DSOUND_DEVICES
 	audio_devices = DeviceInfo::dsoundDevices();
 	prefix_name = "dsound";

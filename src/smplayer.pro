@@ -570,6 +570,10 @@ unix {
 	DEFINES += THEMES_PATH=$(THEMES_PATH)
 	DEFINES += SHORTCUTS_PATH=$(SHORTCUTS_PATH)
 	#DEFINES += NO_DEBUG_ON_CONSOLE
+
+	### PulseAudio
+	CONFIG += link_pkgconfig
+	PKGCONFIG += libpulse-mainloop-glib
 }
 
 win32 {
