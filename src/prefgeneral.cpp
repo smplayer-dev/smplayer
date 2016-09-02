@@ -26,7 +26,7 @@
 #include "vdpauproperties.h"
 #include "playerid.h"
 
-#if USE_ALSA_DEVICES || USE_DSOUND_DEVICES
+#if USE_ALSA_DEVICES || USE_PULSEAUDIO_DEVICES || USE_XV_ADAPTORS || USE_DSOUND_DEVICES
 #include "deviceinfo.h"
 #endif
 
@@ -64,6 +64,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 
 #if USE_ALSA_DEVICES
 	alsa_devices = DeviceInfo::alsaDevices();
+#endif
+#if USE_PULSEAUDIO_DEVICES
+	pa_devices = DeviceInfo::paDevices();
 #endif
 #if USE_XV_ADAPTORS
 	xv_adaptors = DeviceInfo::xvAdaptors();
@@ -456,6 +459,14 @@ void PrefGeneral::updateDriverCombos() {
 			for (int n=0; n < alsa_devices.count(); n++) {
 				ao_combo->addItem( "alsa (" + alsa_devices[n].ID().toString() + " - " + alsa_devices[n].desc() + ")", 
                                    "alsa:device=hw=" + alsa_devices[n].ID().toString() );
+			}
+		}
+		#endif
+		#if USE_PULSEAUDIO_DEVICES
+		if ((ao == "pulse") && (!pa_devices.isEmpty())) {
+			for (int n=0; n < pa_devices.count(); n++) {
+				ao_combo->addItem( "pulse (" + pa_devices[n].ID().toString() + " - " + pa_devices[n].desc() + ")", 
+                                   "pulse::" + pa_devices[n].ID().toString() );
 			}
 		}
 		#endif

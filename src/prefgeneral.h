@@ -211,6 +211,9 @@ protected:
 #if USE_ALSA_DEVICES
 	DeviceList alsa_devices;
 #endif
+#if USE_PULSEAUDIO_DEVICES
+	DeviceList pa_devices;
+#endif
 #if USE_XV_ADAPTORS
 	DeviceList xv_adaptors;
 #endif
