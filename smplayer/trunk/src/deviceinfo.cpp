@@ -156,7 +156,6 @@ DeviceList DeviceInfo::displayDevices() {
 #include <pulse/glib-mainloop.h>
 #include <pulse/introspect.h>
 #include <pulse/operation.h>
-#include <unistd.h>
 #include <QApplication>
 
 QMap<int, QString> pulse_device_list;
@@ -203,9 +202,12 @@ DeviceList DeviceInfo::paDevices() {
 		pa_context_set_state_callback(context, context_state_cb, NULL);
 
 		// Wait for a while until the list is complete
-		for (int n = 0; n < 100; n++) {
+		for (int n = 0; n < 1000; n++) {
 			QApplication::processEvents();
-			if (pulse_list_done) break;
+			if (pulse_list_done) {
+				qDebug("DeviceInfo::paDevices: list done (%d)", n);
+				break;
+			}
 		}
 	}
 
