@@ -202,6 +202,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 #ifdef SEND_AUDIO_OPTION
 	sendAudio_menu = new QMenu(this);
 	sendAudio_menu->menuAction()->setObjectName("send_audio_menu");
+	updateSendAudioMenu();
 #endif
 
 #ifdef GLOBALSHORTCUTS
@@ -324,8 +325,6 @@ void BaseGuiPlus::retranslateStrings() {
 #ifdef SEND_AUDIO_OPTION
 	sendAudio_menu->menuAction()->setText( tr("Send &audio to") );
 	sendAudio_menu->menuAction()->setIcon(Images::icon("send_audio"));
-
-	updateSendAudioMenu();
 #endif
 }
 
