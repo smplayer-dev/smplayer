@@ -26,7 +26,8 @@
 #ifdef Q_OS_WIN
 #define USE_DSOUND_DEVICES 1
 #else
-#define USE_ALSA_DEVICES 1
+#define USE_ALSA_DEVICES 0
+#define USE_PULSEAUDIO_DEVICES 1
 #define USE_XV_ADAPTORS 1
 #endif
 
@@ -65,6 +66,9 @@ public:
 	static DeviceList dsoundDevices();
 	static DeviceList displayDevices();
 #else
+	#if USE_PULSEAUDIO_DEVICES
+	static DeviceList paDevices();
+	#endif
 	#if USE_ALSA_DEVICES
 	static DeviceList alsaDevices();
 	#endif
