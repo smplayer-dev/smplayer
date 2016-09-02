@@ -4780,22 +4780,22 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Show position column</source>
-        <translation type="unfinished"/>
+        <translation>Vis placering-kolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="624"/>
         <source>Show name column</source>
-        <translation type="unfinished"/>
+        <translation>Vis navn-kolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>Show length column</source>
-        <translation type="unfinished"/>
+        <translation>Vis længde-kolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="626"/>
         <source>Show filename column</source>
-        <translation type="unfinished"/>
+        <translation>Vis filnavn-kolonne</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="644"/>
