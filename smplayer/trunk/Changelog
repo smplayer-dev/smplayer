@@ -1,3 +1,43 @@
+Version 16.9:
+
+(2016-09-02)
+ * Get the list of the pulseaudio output devices using the
+   pulseaudio library (libpulse-dev is now a build dependency).
+
+(2016-09-01)
+ * Set the default font with the stylesheet.
+
+(2016-08-29)
+ * (Playlist) Scroll to current item after clearing the search field.
+
+(2016-08-28)
+ *  Build the deb package by default with Qt 4 since Qt 5 still
+    has many problems.
+
+(2016-08-26)
+ * Fix alsa:device with mpv.
+ * (Windows) Use the directx libraries to get info about the sound
+   and display devices instead of running dxlist.exe.
+
+(2016-08-25)
+ * Add a submenu in the audio menu to send the audio to a device.
+
+(2016-08-15)
+ * (Playlist) Add actions to hide the columns.
+ * (Playlist) Add a button to show/hide the search field.
+
+(2016-08-14)
+ * Don't disable the screenshot's actions and don't check if the
+   screenshot path is a directory.
+ * (Experimental) Don't use starting_time (affects seeking in ts files).
+ * (Playlist) Disable wordwrap.
+ * If maximized show normal before hiding the panel.
+
+(2016-08-11)
+ * Display 'Development version' in the about dialog when using a
+   development version.
+
+
 Version 16.8:
 
 (2016-07-23)
