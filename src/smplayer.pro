@@ -594,6 +594,8 @@ win32 {
 
 	!contains( DEFINES, PORTABLE_APP ) {
 		DEFINES += USE_ASSOCIATIONS
+	} else {
+		DEFINES -= HDPI_SUPPORT
 	}
 	
 	contains( DEFINES, USE_ASSOCIATIONS ) {
