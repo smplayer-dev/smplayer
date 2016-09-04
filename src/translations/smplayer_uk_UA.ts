@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -815,7 +813,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="4225"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Відомості</translation>
+        <translation>SMPlayer - Відомости</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4226"/>
@@ -2887,11 +2885,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2989,7 +2983,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -4995,7 +4989,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation>Обмеження: дії запускаються тільки при відкритті файла, але не при перезапуску процесу %1 (наприклад, при виборі аудіо чи відео фільтру).</translation>
+        <translation>Обмеження: дії запускаються тільки при відкритті файлу, але не при перезапуску процесу %1 (наприклад, при виборі аудіо чи відео фільтру).</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
@@ -5742,12 +5736,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1050"/>
         <source>Postprocessing quality</source>
-        <translation>Якість післяобробки</translation>
+        <translation>Якість післяопрацювання</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1051"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation>Динамічна зміна рівню післяобробки залежно від вільного процесорного часу. Число, яке Ви вкажете, буде використане як максимальний рівень. Зазвичай можна вказати досить велике значення.</translation>
+        <translation>Динамічна зміна рівню післяопрацювання залежно від вільного процесорного часу. Число, яке Ви вкажете, буде використане як максимальний рівень. Зазвичай можна вказати досить велике значення.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1155"/>
@@ -5832,7 +5826,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Double buffering</source>
-        <translation>Подвійна буферизація</translation>
+        <translation>Подвійне буферування</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -5847,12 +5841,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1076"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Подвійна буферизація виправляє мерехтіння тримаючи два кадри у пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
+        <translation>Подвійне буферування виправляє мерехтіння тримаючи два кадри у пам&apos;яті, і відображає один, декодує інший. Якщо вимкнено, може негативно вплинути на екранну індикацію, але, як правило, припиняє її мерехтіння.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation>Т&amp;ипово увімкнути післяобробку</translation>
+        <translation>Т&amp;ипово увімкнути післяопрацювання</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="931"/>
@@ -5902,7 +5896,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Enable postprocessing by default</source>
-        <translation>Типово увімкнути післяобробку</translation>
+        <translation>Типово увімкнути післяопрацювання</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1164"/>
@@ -5937,7 +5931,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>Післяобробка буде використовуватися для усіх нових файлів.</translation>
+        <translation>Післяопрацювання буде використовуватися для усіх нових файлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1203"/>
@@ -8341,7 +8335,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="160"/>
         <source>Save copy of playlist on exit</source>
-        <translation>Зберігати копію плейлиста перед виходом</translation>
+        <translation>Зберігати копію переліку відтворення перед виходом</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="161"/>
@@ -9231,21 +9225,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

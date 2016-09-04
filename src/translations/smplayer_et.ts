@@ -2398,7 +2398,7 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="694"/>
         <source>Edit &amp;floating control</source>
-        <translation>Kohanda &amp;liigutatavat akent</translation>
+        <translation>Kohanda &amp;ujuvat juhtriba</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
@@ -7116,27 +7116,27 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="499"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ajariba käitumine:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="516"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"/>
+        <translation>Liigu asukohale hiirega liigutamisel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="521"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"/>
+        <translation>Liigu asukohale hiirenupu lahti laskmisel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Stopp-nupu ühekordsel vajutamisel viiakse asukoht algusesse</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>Ujuv juhtriba ilmub täisekraanis hiire liigutamisel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
@@ -7428,12 +7428,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="857"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation>Kui see on märgitud, siis ujuv tööriba kuvatakse hiire liigutamisel ekraani alumisse äärde. Muidu kuvatakse juhtriba hiire liigutamisel sõltumata kursori asukohast.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"/>
+        <translation>Selle valiku korral kuvatakse juhtriba ka kompaktses režiimis.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="864"/>
@@ -7443,7 +7443,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="865"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Hoiatus:&lt;/b&gt; ujub juhtriba ei ole kompaktse režiimi jaoks mõeldud ja ei pruugi õigesti töötada.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -7524,7 +7524,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="841"/>
         <source>Floating control</source>
-        <translation type="unfinished"/>
+        <translation>Ujub juhtriba</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="843"/>
@@ -7534,7 +7534,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="844"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"/>
+        <translation>Selle valiku korral kuvatakse juhtriba animatsiooniga.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="847"/>
@@ -7554,7 +7554,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"/>
+        <translation>See valik määrab, kui kaugel ekraani alumisest servast ujuv juhtriba kuvatakse. See on kasulik televisiooni vaatamisel liighälvituse korral.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
@@ -7564,7 +7564,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="665"/>
         <source>&amp;Floating control</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ujuv juhtriba</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="681"/>
@@ -9466,7 +9466,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Muuda ujuvat juhtriba</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
