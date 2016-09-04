@@ -154,7 +154,41 @@ DeviceList DeviceInfo::displayDevices() {
 #if USE_PULSEAUDIO_DEVICES
 DeviceList DeviceInfo::paDevices() {
 	qDebug("DeviceInfo::paDevices");
-	DeviceList l;
+
+	static DeviceList l;
+	if (!l.isEmpty()) return l;
+
+	QRegExp rx_index("(.*)index: (\\d+)");
+	QRegExp rx_name("(.*)name: (.*)");
+
+	QProcess p;
+	p.setProcessChannelMode( QProcess::MergedChannels );
+	p.setEnvironment( QStringList() << "LC_ALL=C" );
+	p.start("pacmd list-sinks");
+
+	int index = -1;
+	QString name;
+
+	if (p.waitForFinished()) {
+		QByteArray line;
+		while (p.canReadLine()) {
+			line = p.readLine().trimmed();
+			//qDebug() << "DeviceInfo::paDevices:" << line;
+			if (rx_index.indexIn(line) > -1 ) {
+				index = rx_index.cap(2).toInt();
+				qDebug() << "DeviceInfo::paDevices: index:" << index;
+			}
+			if (rx_name.indexIn(line) > -1 ) {
+				name = rx_name.cap(2);
+				qDebug() << "DeviceInfo::paDevices: name:" << name;
+				if (index != -1) {
+					l.append( DeviceData(index, name) );
+					index = -1;
+				}
+			}
+		}
+	}
+
 	return l;
 }
 #endif // USE_PULSEAUDIO_DEVICES
