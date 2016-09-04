@@ -997,7 +997,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"/>
+        <translation>Stereo &amp;3D filter</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
@@ -1017,7 +1017,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1796"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation>Gebruik aange&amp;paste stijl</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1802"/>
@@ -1138,7 +1138,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1906"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Toon afspeeltijd op OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1924"/>
@@ -1219,7 +1219,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="2078"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Primaire spoor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2083"/>
@@ -1234,7 +1234,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="2088"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Kies secundaire ondertiteling-spoor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2094"/>
@@ -1269,7 +1269,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="2150"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu voor snelle toegang </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2955"/>
@@ -1876,7 +1876,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1733"/>
         <source>Fli&amp;p image</source>
-        <translation type="unfinished"/>
+        <translation>Af&amp;beelding  kantelen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1977"/>
@@ -1916,17 +1916,17 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="2091"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gesloten bijschriften</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1944"/>
         <source>&amp;Disc</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Schijf</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1948"/>
         <source>F&amp;avorites</source>
-        <translation type="unfinished"/>
+        <translation>F&amp;avorieten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1841"/>
@@ -1949,22 +1949,22 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../baseguiplus.cpp" line="319"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation>Stuur &amp;video naar scherm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="321"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation>Informatie over verbonden &amp;schermen</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="324"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"/>
+        <translation>Video is naar een extern scherm gestuurd</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"/>
+        <translation>Stuur &amp;audio naar</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="337"/>
@@ -1979,97 +1979,97 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../baseguiplus.cpp" line="782"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Informatie over verbonden schermen</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="785"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation>Verbonden schermen</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="788"/>
         <location filename="../baseguiplus.cpp" line="830"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation>Het aantal schermen: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="793"/>
         <location filename="../baseguiplus.cpp" line="831"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation>Primaire scherm: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="801"/>
         <location filename="../baseguiplus.cpp" line="835"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>Informatie over scherm %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="803"/>
         <location filename="../baseguiplus.cpp" line="837"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Beschikbare geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="805"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Beschikbare grootte: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="806"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Beschikbare virtuele geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="810"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Beschikbare virtuele grootte: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="812"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation>Diepte: %1 bit</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="813"/>
         <location filename="../baseguiplus.cpp" line="839"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="815"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Logische DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="817"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation>Fysieke DPI: %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="818"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation>Fysieke afmetingen: %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="820"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"/>
+        <translation>Vernieuwingsfrequentie: 1% Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="821"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Afmetingen: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="822"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation>Virtuele geometrie: %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="824"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation>Virtuele afmetingen: %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="877"/>
@@ -2079,12 +2079,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../baseguiplus.cpp" line="943"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer externe scherm uitvoer</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="989"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Standaard audioapparaat</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -2102,17 +2102,17 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <translation>Bladwijzer wijzigen</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Nieuwe bladwijzer</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bladwijzer verwijderen</translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
@@ -2135,7 +2135,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation>Verbinden met %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -2161,12 +2161,12 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"/>
+        <translation>Er trad een fout op tijdens het schrijven van %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation type="unfinished"/>
+        <translation>Er trad een fout op tijdens het downloaden van het bestand:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2280,7 +2280,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../core.cpp" line="4347"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"/>
+        <translation>Schermafdruk opgeslagen als %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4382"/>
@@ -2315,7 +2315,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation>Verbinden met %1</translation>
     </message>
 </context>
 <context>
@@ -2353,7 +2353,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../defaultgui.cpp" line="688"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Opmaak info</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
@@ -2373,38 +2373,38 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../defaultgui.cpp" line="686"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video info</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="687"/>
         <source>&amp;Frame counter</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Frameteller</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="691"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Hoofdwerkblad wijzigen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="692"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Controlebalk wijzigen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="693"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"/>
+        <translation>M&amp;ini controlebalk wijzigen </translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="694"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Drijvende controle wijzigen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="725"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"/>
+        <translation>%1x%2 %3 fps</translation>
     </message>
 </context>
 <context>
@@ -2532,7 +2532,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
         <source>New &amp;submenu</source>
-        <translation type="unfinished"/>
+        <translation>Nieuw &amp;submenu</translation>
     </message>
 </context>
 <context>
