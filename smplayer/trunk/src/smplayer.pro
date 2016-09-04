@@ -572,8 +572,8 @@ unix {
 	#DEFINES += NO_DEBUG_ON_CONSOLE
 
 	### PulseAudio
-	CONFIG += link_pkgconfig
-	PKGCONFIG += libpulse-mainloop-glib
+	#CONFIG += link_pkgconfig
+	#PKGCONFIG += libpulse-mainloop-glib
 }
 
 win32 {
