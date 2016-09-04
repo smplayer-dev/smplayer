@@ -22,7 +22,7 @@ BuildRequires:  qt5-qttools-devel
 %endif
 BuildRequires:  desktop-file-utils
 BuildRequires:  gcc-c++
-BuildRequires:  pkgconfig(libpulse) >= 0.9
+#BuildRequires:  pkgconfig(libpulse) >= 0.9
 BuildRequires:  pkgconfig(Qt5Concurrent)
 BuildRequires:  pkgconfig(Qt5Core)
 BuildRequires:  pkgconfig(Qt5DBus)
