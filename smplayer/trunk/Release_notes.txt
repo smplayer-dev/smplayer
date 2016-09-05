@@ -8,6 +8,8 @@ Version 16.9
    is also hidden by default, a new search button shows/hides it.
    This changes are intended to prevent the playlist window to
    be too wide.
+ * Due to bugs and problems with Qt 5, the packages for Ubuntu are
+   now built again with Qt 4 by default.
  * Bug fixes.
 
 
