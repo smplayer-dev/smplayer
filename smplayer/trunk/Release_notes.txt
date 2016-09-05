@@ -1,3 +1,16 @@
+Version 16.9
+
+ * New option to send the audio to the specified audio device.
+   It can be useful to send the audio to a TV via a HDMI cable
+   or wireless headphones via bluetooth.
+ * Some improvements on the playlist. Now it's possible to hide
+   any column (right click to see the options). The search field
+   is also hidden by default, a new search button shows/hides it.
+   This changes are intended to prevent the playlist window to
+   be too wide.
+ * Bug fixes.
+
+
 Version 16.8
 
  * The playlist has been improved. Now it's possible to sort by any
