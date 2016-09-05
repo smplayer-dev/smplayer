@@ -1,7 +1,6 @@
-This document explains how to compile and install smplayer.
+This document explains how to compile and install SMPlayer.
 
-Compiling smplayer should be easy. It only depends on Qt. Since version 0.6.4
-it can only be compiled with Qt 4.3 or greater.
+Compiling SMPlayer should be easy. It only depends on Qt 4.
 
 
 1) How to make a deb package
@@ -14,9 +13,9 @@ it can only be compiled with Qt 4.3 or greater.
 1) How to make a deb package
 ----------------------------
 Be sure you have installed the following packages: libqt4-dev, zlib1g-dev,
-libpulse-dev, fakeroot, build-essential, devscripts, debhelper and g++.
+fakeroot, build-essential, devscripts, debhelper and g++.
 
-sudo apt-get install libqt4-dev zlib1g-dev libpulse-dev fakeroot build-essential devscripts debhelper g++
+sudo apt-get install libqt4-dev zlib1g-dev fakeroot build-essential devscripts debhelper g++
 
 (Packages to compile with Qt5: qtbase5-dev qt5-qmake qt5-default qtscript5-dev
 qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev)
@@ -24,41 +23,16 @@ qttools5-dev-tools qtbase5-private-dev libqt5webkit5-dev)
 Now run ./create_deb.sh
 
 
-2) How to make a rpm package (obsolete)
+2) How to make a rpm package
 ----------------------------
-Run rpmbuild -tb smplayer-0.6.x.tar.bz2
-You'll find the rpm package under /usr/src/packages/RPMS/i586/
-
-Take a look at this document to know how to create a rpm from the SVN sources:
-http://smplayer.berlios.de/forums/viewtopic.php?id=188
+Building a rpm package is not easy. Better get a binary package from
+this repository:
+https://software.opensuse.org/download.html?project=home%3Asmplayerdev&package=smplayer
 
 
-3) Generic compilation (obsolete)
+3) Generic compilation
 ----------------------
-You need at least Qt 4.3 to compile smplayer. It won't work with an older
-version.
-
-Be sure you have installed the Qt 4 development package. Its name maybe
-qt4-devel, libqt4-dev or similar. 
-
-Uncompress the source code, open a console and enter in the 
-smplayer-0.6.x directory.
-
-Type "make". 
-
-If everything is ok now you can install it with "make install".
-That will install smplayer in /usr/local.
-
-If "make" fails, it's probably because the Qt 3 qmake has been used instead of
-the Qt 4 one. It seems that some distros have renamed that tool to qmake-qt4. 
-Others may have installed in another directory.
-Look at the contents of the qt4-devel package (or whatever its name is) and
-find out where it is.
-
-Now type something like this (just examples):
-make QMAKE=qmake-qt4
-or
-make QMAKE=/usr/share/qt4/bin/qmake
+(obsolete)
 
 
 4) Changing installation path
@@ -81,39 +55,6 @@ That would compile smplayer for /usr but in fact it will be installed in
 /tmp/usr/
 
 
-5) How to compile in Windows (obsolete)
+5) How to compile in Windows
 ----------------------------
-First you need to download and install Qt (OpenSource edition) in your
-computer. You can get a package with installer from
-http://trolltech.com/developer/downloads/qt/windows
-
-During the installation it will ask you for a compiler. Simply let the
-Qt installer to download and install MinGW.
-
-Now we're ready to compile smplayer (or any other Qt application).
-Download the sources (either the *.tar.gz or from the svn) and
-uncompress them for example in C:\smplayer.
-
-The next step is to open the Qt console: select the option "Qt 4.3.x
-Command Prompt" that you'll find under the Qt menu.
-
-That'll open a DOS-like window. Type the following commands:
-
-cd c:\smplayer
-compile_windows.bat
-
-Compiling will start. That'll take a few minutes.
-
-After that you'll get the new compiled smplayer.exe under
-c:\smplayer\src\release subdirectory.
-
-You'll see that if you try to open it by double clicking on it, it won't
-work because it can find the Qt dlls. I assume you already have smplayer
-properly installed in some place, just copy the new smplayer.exe to that
-directory, replacing the old one. Now it will work 
-
-You may also need to copy the updated translation files (*.qm) from the
-translations subdirectory.
-
-Note: please see this document to know how to compile with Qxt support:
-http://smplayer.berlios.de/forums/viewtopic.php?pid=1737#p1737
+(obsolete)
