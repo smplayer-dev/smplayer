@@ -1,5 +1,5 @@
 Name:           smplayer
-Version:        16.8.0
+Version:        16.9.0
 %global smplayer_themes_ver 16.8.0
 %global smplayer_skins_ver 15.2.0
 Release:        1%{?dist}
