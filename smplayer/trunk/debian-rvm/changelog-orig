@@ -1,3 +1,19 @@
+smplayer (16.9.0) precise; urgency=low
+
+  * New option to send the audio to the specified audio device.
+    It can be useful to send the audio to a TV via a HDMI cable
+    or wireless headphones via bluetooth.
+  * Some improvements on the playlist. Now it's possible to hide
+    any column (right click to see the options). The search field
+    is also hidden by default, a new search button shows/hides it.
+    This changes are intended to prevent the playlist window to
+    be too wide.
+  * Due to bugs and problems with Qt 5, the packages for Ubuntu are
+    now built again with Qt 4 by default.
+  * Bug fixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 09 Sep 2016 22:33:16 +0200
+
 smplayer (16.8.0) precise; urgency=low
 
   * The playlist has been improved. Now it's possible to sort by any
