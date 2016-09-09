@@ -3485,10 +3485,17 @@ void Core::changeExternalSubFPS(int fps_id) {
 
 // Audio equalizer functions
 void Core::setAudioEqualizer(AudioEqualizerList values, bool restart) {
+	qDebug("Core::setAudioEqualizer");
+
 	if (pref->global_audio_equalizer) {
 		pref->audio_equalizer = values;
 	} else {
 		mset.audio_equalizer = values;
+	}
+
+	if (!pref->use_audio_equalizer) {
+		qDebug("Core::setAudioEqualizer: the audio equalizer is disabled. Ignoring.");
+		return;
 	}
 
 	if (!restart) {
