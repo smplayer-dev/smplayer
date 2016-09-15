@@ -496,12 +496,25 @@ void Playlist::createToolbar() {
 	toolbar2->setSizePolicy( QSizePolicy::Minimum, QSizePolicy::Minimum );
 #endif
 
+/*
 	toolbar->addAction(openAct);
 #ifdef PLAYLIST_DOWNLOAD
 	toolbar->addAction(openUrlAct);
 #endif
 	toolbar->addAction(saveAct);;
 	toolbar->addSeparator();
+*/
+
+	file_menu = new QMenu(this);
+	file_menu->addAction(openAct);
+	file_menu->addAction(saveAct);
+#ifdef PLAYLIST_DOWNLOAD
+	file_menu->addAction(openUrlAct);
+#endif
+
+	file_button = new QToolButton(this);
+	file_button->setMenu(file_menu);
+	file_button->setPopupMode(QToolButton::InstantPopup);
 
 	add_menu = new QMenu( this );
 	add_menu->addAction(addCurrentAct);
@@ -529,6 +542,8 @@ void Playlist::createToolbar() {
 	loading_label->setMovie(animation);
 #endif
 
+	toolbar->addWidget(file_button);
+	toolbar->addSeparator();
 	toolbar->addWidget(add_button);
 	toolbar->addWidget(remove_button);
 
@@ -629,6 +644,8 @@ void Playlist::retranslateStrings() {
 	editAct->change( tr("&Edit") );
 
 	// Tool buttons
+	file_button->setIcon(Images::icon("open")); // FIXME: change icon
+	file_button->setToolTip(tr("Load/Save"));
 	add_button->setIcon( Images::icon("plus") );
 	add_button->setToolTip( tr("Add...") );
 	remove_button->setIcon( Images::icon("minus") );
