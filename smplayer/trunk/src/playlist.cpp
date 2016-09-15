@@ -753,7 +753,7 @@ int Playlist::count() {
 }
 
 bool Playlist::isEmpty() {
-	return (table->rowCount() > 0);
+	return (table->rowCount() == 0);
 }
 
 bool Playlist::existsItem(int row) {
@@ -1713,7 +1713,7 @@ void Playlist::editItem(int row) {
             tr("Type the name that will be displayed in the playlist for this file:"),
             QLineEdit::Normal,
             current_name, &ok );
-    if ( ok && !text.isEmpty() ) {
+	if ( ok && !text.isEmpty() ) {
 		// user entered something and pressed OK
 		i->setName(text);
 
