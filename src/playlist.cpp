@@ -327,12 +327,24 @@ void Playlist::setConfigPath(const QString & config_path) {
 	}
 }
 
+void Playlist::updateWindowTitle() {
+	QString title = playlist_filename;
+	if (modified) title += " (*)";
+
+	setWindowTitle(title);
+}
+
+void Playlist::setPlaylistFilename(const QString & f) {
+	playlist_filename = f;
+	updateWindowTitle();
+}
 
 void Playlist::setModified(bool mod) {
 	qDebug("Playlist::setModified: %d", mod);
 
 	modified = mod;
 	emit modifiedChanged(modified);
+	updateWindowTitle();
 }
 
 void Playlist::createTable() {
@@ -920,6 +932,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		f.close();
 		//list();
 
+		setPlaylistFilename(file);
 		setModified( false );
 
 		startPlay();
@@ -969,6 +982,7 @@ void Playlist::load_pls(QString file) {
 
 	//list();
 
+	setPlaylistFilename(file);
 	setModified( false );
 
 	if (set.status() == QSettings::NoError) startPlay();
@@ -1011,6 +1025,7 @@ void Playlist::loadXSPF(const QString & filename) {
 		}
 
 		//list();
+		setPlaylistFilename(filename);
 		setModified( false );
 		startPlay();
 	}
@@ -1061,6 +1076,7 @@ bool Playlist::save_m3u(QString file) {
 		}
 		f.close();
 
+		setPlaylistFilename(file);
 		setModified( false );
 		return true;
 	} else {
@@ -1111,7 +1127,10 @@ bool Playlist::save_pls(QString file) {
 	set.sync();
 
 	bool ok = (set.status() == QSettings::NoError);
-	if (ok) setModified( false );
+	if (ok) {
+		setPlaylistFilename(file);
+		setModified( false );
+	}
 
 	return ok;
 }
@@ -1175,6 +1194,7 @@ bool Playlist::saveXSPF(const QString & filename) {
 		stream << "\t</trackList>\n";
 		stream << "</playlist>\n";
 
+		setPlaylistFilename(filename);
 		setModified(false);
 		return true;
 	} else {
@@ -1887,6 +1907,7 @@ void Playlist::saveSettings() {
 		}
 		set->endArray();
 		set->setValue( "current_item", findCurrentItem() );
+		set->setValue("filename", playlistFilename());
 		set->setValue( "modified", modified );
 
 		set->endGroup();
@@ -1961,6 +1982,7 @@ void Playlist::loadSettings() {
 		}
 		set->endArray();
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
+		setPlaylistFilename( set->value("filename", "").toString() );
 		setModified( set->value( "modified", false ).toBool() );
 
 		set->endGroup();
