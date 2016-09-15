@@ -206,6 +206,11 @@ protected:
 	int chooseRandomItem();
 	QString lastDir();
 
+	void setPlaylistFilename(const QString &);
+	QString playlistFilename() { return playlist_filename; };
+
+	void updateWindowTitle();
+
 protected slots:
 	void playCurrent();
 	void itemActivated(const QModelIndex & index );
@@ -249,6 +254,7 @@ protected:
 
 protected:
 	QString playlist_path;
+	QString playlist_filename;
 	QString latest_dir;
 
 	QMenu * file_menu;
