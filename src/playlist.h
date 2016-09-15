@@ -251,6 +251,7 @@ protected:
 	QString playlist_path;
 	QString latest_dir;
 
+	QMenu * file_menu;
 	QMenu * add_menu;
 	QMenu * remove_menu;
 	QMenu * popup;
@@ -263,6 +264,8 @@ protected:
 #ifdef PLAYLIST_DOUBLE_TOOLBAR
 	QToolBar * toolbar2;
 #endif
+
+	QToolButton * file_button;
 	QToolButton * add_button;
 	QToolButton * remove_button;
 
