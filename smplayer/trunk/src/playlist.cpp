@@ -1655,6 +1655,8 @@ void Playlist::upItem() {
 		QList<QStandardItem*> cells = table->takeRow(row);
 		table->insertRow(s_prev.row(), cells);
 		listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row()-1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+
+		setModified(true);
 	}
 }
 
@@ -1685,6 +1687,8 @@ void Playlist::downItem() {
 		QList<QStandardItem*> cells = table->takeRow(row);
 		table->insertRow(s_next.row(), cells);
 		listView->selectionModel()->setCurrentIndex(listView->model()->index(index.row()+1, 0), QItemSelectionModel::SelectCurrent | QItemSelectionModel::Rows);
+
+		setModified(true);
 	}
 }
 
