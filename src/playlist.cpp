@@ -328,10 +328,13 @@ void Playlist::setConfigPath(const QString & config_path) {
 }
 
 void Playlist::updateWindowTitle() {
-	QString title = playlist_filename;
-	if (modified) title += " (*)";
-
-	setWindowTitle(title);
+	if (!playlist_filename.isEmpty()) {
+		QString title = playlist_filename;
+		if (modified) title += " (*)";
+		setWindowTitle(title);
+	} else {
+		setWindowTitle(tr("Empty playlist"));
+	}
 }
 
 void Playlist::setPlaylistFilename(const QString & f) {
@@ -670,7 +673,7 @@ void Playlist::retranslateStrings() {
 
 	// Icon
 	setWindowIcon( Images::icon("logo", 64) );
-	setWindowTitle( tr( "SMPlayer - Playlist" ) );
+	//setWindowTitle( tr( "SMPlayer - Playlist" ) );
 }
 
 void Playlist::list() {
@@ -1596,6 +1599,7 @@ void Playlist::removeSelected() {
 
 void Playlist::removeAll() {
 	clear();
+	setPlaylistFilename("");
 }
 
 void Playlist::clearPlayedTag() {
