@@ -148,6 +148,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	playlistdock->setFloating(true); // Floating by default
 
 	connect( playlistdock, SIGNAL(closed()), this, SLOT(playlistClosed()) );
+	connect(playlist, SIGNAL(windowTitleChanged(const QString &)), playlistdock, SLOT(setWindowTitle(const QString &)));
 #if USE_DOCK_TOPLEVEL_EVENT
 	connect( playlistdock, SIGNAL(topLevelChanged(bool)), 
              this, SLOT(dockTopLevelChanged(bool)) );
@@ -306,7 +307,7 @@ void BaseGuiPlus::retranslateStrings() {
 	updateShowAllAct();
 
 #if DOCK_PLAYLIST
-    playlistdock->setWindowTitle( tr("Playlist") );
+	// playlistdock->setWindowTitle( tr("Playlist") );
 #endif
 
 #ifdef DETACH_VIDEO_OPTION

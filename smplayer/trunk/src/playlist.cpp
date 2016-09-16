@@ -328,13 +328,22 @@ void Playlist::setConfigPath(const QString & config_path) {
 }
 
 void Playlist::updateWindowTitle() {
+	QString title;
+
 	if (!playlist_filename.isEmpty()) {
-		QString title = playlist_filename;
+		title = playlist_filename;
 		if (modified) title += " (*)";
-		setWindowTitle(title);
 	} else {
-		setWindowTitle(tr("Empty playlist"));
+		title = tr("Empty playlist");
 	}
+
+	qDebug() << "Playlist::updateWindowTitle:" << title;
+
+#if !DOCK_PLAYLIST
+	setWindowTitle(title);
+#endif
+
+	emit windowTitleChanged(title);
 }
 
 void Playlist::setPlaylistFilename(const QString & f) {
