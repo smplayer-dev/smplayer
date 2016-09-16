@@ -198,6 +198,7 @@ signals:
 	void playlistEnded();
 	void visibilityChanged(bool visible);
 	void modifiedChanged(bool);
+	void windowTitleChanged(const QString & title);
 
 protected:
 	void setCurrentItem(int current);
