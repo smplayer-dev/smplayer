@@ -330,12 +330,9 @@ void Playlist::setConfigPath(const QString & config_path) {
 void Playlist::updateWindowTitle() {
 	QString title;
 
-	if (!playlist_filename.isEmpty()) {
-		title = playlist_filename;
-		if (modified) title += " (*)";
-	} else {
-		title = tr("Empty playlist");
-	}
+	title = playlist_filename;
+	if (title.isEmpty()) title = tr("No name playlist");
+	if (modified) title += " (*)";
 
 	qDebug() << "Playlist::updateWindowTitle:" << title;
 
@@ -1479,7 +1476,10 @@ void Playlist::addFiles() {
                             tr("Multimedia") + e.multimedia().forFilter() + ";;" +
                             tr("All files") +" (*.*)" );
 
-	if (files.count()!=0) addFiles(files);  
+	if (files.count() != 0) {
+		addFiles(files);
+		setModified(true);
+	}
 }
 
 void Playlist::addFiles(QStringList files, AutoGetInfo auto_get_info) {
@@ -1557,6 +1557,7 @@ void Playlist::addUrls() {
 		foreach(QString u, urls) {
 			if (!u.isEmpty()) addItem( u, "", 0 );
 		}
+		setModified(true);
 	}
 }
 
@@ -1598,6 +1599,7 @@ void Playlist::addDirectory(QString dir) {
 			}
 		}
 	}
+	setModified(true);
 }
 
 // Remove selected items
