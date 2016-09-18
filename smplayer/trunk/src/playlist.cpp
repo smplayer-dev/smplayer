@@ -336,10 +336,7 @@ void Playlist::updateWindowTitle() {
 
 	qDebug() << "Playlist::updateWindowTitle:" << title;
 
-#if !DOCK_PLAYLIST
 	setWindowTitle(title);
-#endif
-
 	emit windowTitleChanged(title);
 }
 
