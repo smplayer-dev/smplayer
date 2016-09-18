@@ -439,7 +439,10 @@ void Playlist::createActions() {
 #endif
 
 	saveAct = new MyAction(this, "pl_save", false);
-	connect( saveAct, SIGNAL(triggered()), this, SLOT(save()) );
+	connect( saveAct, SIGNAL(triggered()), this, SLOT(saveCurrentPlaylist()) );
+
+	saveAsAct = new MyAction(this, "pl_save_as", false);
+	connect( saveAsAct, SIGNAL(triggered()), this, SLOT(save()) );
 
 	playAct = new MyAction(this, "pl_play", false);
 	connect( playAct, SIGNAL(triggered()), this, SLOT(playCurrent()) );
@@ -532,6 +535,7 @@ void Playlist::createToolbar() {
 	file_menu = new QMenu(this);
 	file_menu->addAction(openAct);
 	file_menu->addAction(saveAct);
+	file_menu->addAction(saveAsAct);
 #ifdef PLAYLIST_DOWNLOAD
 	file_menu->addAction(openUrlAct);
 #endif
@@ -629,6 +633,7 @@ void Playlist::retranslateStrings() {
 	openUrlAct->setToolTip(tr("Download playlist from URL"));
 #endif
 	saveAct->change( Images::icon("save"), tr("&Save") );
+	saveAsAct->change( Images::icon("save"), tr("Save &as...") );
 
 	playAct->change( tr("&Play") );
 
@@ -1242,12 +1247,23 @@ void Playlist::load() {
 	}
 }
 
-bool Playlist::save() {
-	Extensions e;
-	QString s = MyFileDialog::getSaveFileName(
+bool Playlist::saveCurrentPlaylist() {
+	qDebug("Playlist::saveCurrentPlaylist");
+	return save(playlistFilename());
+}
+
+bool Playlist::save(const QString & filename) {
+	qDebug() << "Playlist::save:" << filename;
+
+	QString s = filename;
+
+	if (s.isEmpty()) {
+		Extensions e;
+		s = MyFileDialog::getSaveFileName(
                     this, tr("Choose a filename"), 
                     lastDir(),
                     tr("Playlists") + e.playlist().forFilter() + ";;" + tr("All files") +" (*)");
+	}
 
 	if (!s.isEmpty()) {
 		// If filename has no extension, add it

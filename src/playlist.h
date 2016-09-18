@@ -140,7 +140,9 @@ public slots:
 
 	bool maybeSave();
 	void load();
-	bool save();
+
+	bool saveCurrentPlaylist();
+	bool save(const QString & filename = QString::null);
 
 #ifdef PLAYLIST_DOWNLOAD
 	void openUrl();
@@ -283,6 +285,7 @@ protected:
 	MyAction * openUrlAct;
 #endif
 	MyAction * saveAct;
+	MyAction * saveAsAct;
 	MyAction * playAct;
 	MyAction * prevAct;
 	MyAction * nextAct;
