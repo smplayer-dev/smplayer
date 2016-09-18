@@ -5220,6 +5220,7 @@ void BaseGui::addToPlaylistCurrentFile() {
 	qDebug("BaseGui::addToPlaylistCurrentFile");
 	if (!core->mdat.filename.isEmpty()) {
 		playlist->addItem(core->mdat.filename, "", 0);
+		playlist->setModified(true);
 		playlist->getMediaInfo(core->mdat);
 	}
 }
