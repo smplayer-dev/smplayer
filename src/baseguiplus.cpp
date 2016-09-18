@@ -136,6 +136,7 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	playlistdock->setObjectName("playlistdock");
 	playlistdock->setFloating(false); // To avoid that the playlist is visible for a moment
 	playlistdock->setWidget(playlist);
+	playlistdock->setWindowTitle(playlist->windowTitle());
 	playlistdock->setAllowedAreas(Qt::TopDockWidgetArea | 
                                   Qt::BottomDockWidgetArea
 #if PLAYLIST_ON_SIDES
