@@ -331,7 +331,7 @@ void Playlist::updateWindowTitle() {
 	QString title;
 
 	title = playlist_filename;
-	if (title.isEmpty()) title = tr("No name playlist");
+	if (title.isEmpty()) title = tr("Untitled playlist");
 	if (modified) title += " (*)";
 
 	qDebug() << "Playlist::updateWindowTitle:" << title;
@@ -1847,6 +1847,7 @@ void Playlist::dropEvent( QDropEvent *e ) {
 		}
 	}
 	addFiles( only_files );
+	setModified(true);
 }
 
 
