@@ -621,9 +621,9 @@ void Playlist::createToolbar() {
 void Playlist::retranslateStrings() {
 	table->setHorizontalHeaderLabels(QStringList() << " " << tr("Name") << tr("Length") << tr("Filename / URL") );
 
-	openAct->change( Images::icon("open"), tr("&Load") );
+	openAct->change( Images::icon("open"), tr("&Load...") );
 #ifdef PLAYLIST_DOWNLOAD
-	openUrlAct->change( Images::icon("url"), tr("&Open URL") );
+	openUrlAct->change( Images::icon("url"), tr("Load playlist from &URL...") );
 	openUrlAct->setToolTip(tr("Download playlist from URL"));
 #endif
 	saveAct->change( Images::icon("save"), tr("&Save") );
