@@ -117,6 +117,8 @@ public slots:
 	void playNext();
 	void playPrev();
 
+	void playNextAuto(); // Called from GUI when a file finished
+
 	void resumePlay();
 
 	void removeSelected();

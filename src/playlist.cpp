@@ -1399,6 +1399,10 @@ void Playlist::playPrev() {
 	}
 }
 
+void Playlist::playNextAuto() {
+	qDebug("Playlist::playNextAuto");
+	if (automatically_play_next) playNext();
+}
 
 void Playlist::resumePlay() {
 	qDebug("Playlist::resumePlay");
