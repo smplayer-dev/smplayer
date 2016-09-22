@@ -98,13 +98,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="play_from_start_check">
-         <property name="text">
-          <string>P&amp;lay files from start</string>
-         </property>
-        </widget>
-       </item>
-       <item>
         <widget class="QCheckBox" name="recursive_check">
          <property name="text">
           <string>Add files in directories &amp;recursively</string>
@@ -126,10 +119,33 @@
         </widget>
        </item>
        <item>
-        <widget class="QCheckBox" name="ignore_errors_check">
-         <property name="text">
-          <string>Play &amp;next file even if the previous file failed</string>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="title">
+          <string>Playback</string>
          </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QCheckBox" name="play_from_start_check">
+            <property name="text">
+             <string>P&amp;lay files from start</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="play_next_automatically_check">
+            <property name="text">
+             <string>Pla&amp;y next file automatically</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QCheckBox" name="ignore_errors_check">
+            <property name="text">
+             <string>Play &amp;next file even if the previous file failed</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
         </widget>
        </item>
        <item>
@@ -155,10 +171,12 @@
   <tabstop>playlist_tab</tabstop>
   <tabstop>auto_add_to_playlist_check</tabstop>
   <tabstop>media_to_add_combo</tabstop>
-  <tabstop>play_from_start_check</tabstop>
   <tabstop>recursive_check</tabstop>
   <tabstop>getinfo_check</tabstop>
   <tabstop>autosave_on_exit_check</tabstop>
+  <tabstop>play_from_start_check</tabstop>
+  <tabstop>play_next_automatically_check</tabstop>
+  <tabstop>ignore_errors_check</tabstop>
  </tabstops>
  <resources/>
  <connections>

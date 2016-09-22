@@ -3109,6 +3109,7 @@ void BaseGui::showPreferencesDialog() {
 	pl->setAutoGetInfo(playlist->autoGetInfo());
 	pl->setSavePlaylistOnExit(playlist->savePlaylistOnExit());
 	pl->setPlayFilesFromStart(playlist->playFilesFromStart());
+	pl->setPlayNextAutomatically(playlist->automaticallyPlayNext());
 	pl->setIgnorePlayerErrors(playlist->ignorePlayerErrors());
 
 	pref_dialog->show();
@@ -3194,6 +3195,7 @@ void BaseGui::applyNewPreferences() {
 	playlist->setAutoGetInfo(pl->autoGetInfo());
 	playlist->setSavePlaylistOnExit(pl->savePlaylistOnExit());
 	playlist->setPlayFilesFromStart(pl->playFilesFromStart());
+	playlist->setAutomaticallyPlayNext(pl->playNextAutomatically());
 	playlist->setIgnorePlayerErrors(pl->ignorePlayerErrors());
 
 #ifdef PLAYLIST_DOWNLOAD
