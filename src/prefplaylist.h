@@ -36,10 +36,10 @@ public:
 	virtual QPixmap sectionIcon();
 
     // Pass data to the dialog
-    void setData(Preferences * pref);
+	void setData(Preferences * pref);
 
     // Apply changes
-    void getData(Preferences * pref);
+	void getData(Preferences * pref);
 
 
 	void setDirectoryRecursion(bool b);
@@ -53,6 +53,9 @@ public:
 
 	void setPlayFilesFromStart(bool b);
 	bool playFilesFromStart();
+
+	void setPlayNextAutomatically(bool b);
+	bool playNextAutomatically();
 
 	void setIgnorePlayerErrors(bool b);
 	bool ignorePlayerErrors();
