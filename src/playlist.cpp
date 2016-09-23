@@ -1401,7 +1401,11 @@ void Playlist::playPrev() {
 
 void Playlist::playNextAuto() {
 	qDebug("Playlist::playNextAuto");
-	if (automatically_play_next) playNext();
+	if (automatically_play_next) {
+		playNext();
+	} else {
+		emit playlistEnded();
+	}
 }
 
 void Playlist::resumePlay() {
