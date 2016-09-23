@@ -176,6 +176,7 @@ public:
 	void setSavePlaylistOnExit(bool b) { save_playlist_in_config = b; };
 	void setPlayFilesFromStart(bool b) { play_files_from_start = b; };
 	void setIgnorePlayerErrors(bool b) { ignore_player_errors = b; };
+	void setStartPlayOnLoad(bool b) { start_play_on_load = b; };
 	void setAutomaticallyPlayNext(bool b) { automatically_play_next = b; };
 
 	bool directoryRecursion() { return recursive_add_directory; };
@@ -183,6 +184,7 @@ public:
 	bool savePlaylistOnExit() { return save_playlist_in_config; };
 	bool playFilesFromStart() { return play_files_from_start; };
 	bool ignorePlayerErrors() { return ignore_player_errors; };
+	bool startPlayOnLoad() { return start_play_on_load; };
 	bool automaticallyPlayNext() { return automatically_play_next; };
 
 #ifdef PLAYLIST_DOWNLOAD
@@ -334,6 +336,7 @@ private:
 	bool play_files_from_start;
 	int row_spacing;
 
+	bool start_play_on_load;
 	bool automatically_play_next;
 	bool ignore_player_errors;
 	bool change_name;
