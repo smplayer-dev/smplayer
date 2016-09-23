@@ -236,6 +236,7 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	, save_playlist_in_config(true)
 	, play_files_from_start(true)
 	, row_spacing(-1) // Default height
+	, start_play_on_load(true)
 	, automatically_play_next(true)
 	, ignore_player_errors(false)
 	, change_name(true)
@@ -946,7 +947,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		setPlaylistFilename(file);
 		setModified( false );
 
-		startPlay();
+		if (start_play_on_load) startPlay();
 	}
 }
 
@@ -996,7 +997,7 @@ void Playlist::load_pls(QString file) {
 	setPlaylistFilename(file);
 	setModified( false );
 
-	if (set.status() == QSettings::NoError) startPlay();
+	if (set.status() == QSettings::NoError && start_play_on_load) startPlay();
 }
 
 void Playlist::loadXSPF(const QString & filename) {
@@ -1038,7 +1039,7 @@ void Playlist::loadXSPF(const QString & filename) {
 		//list();
 		setPlaylistFilename(filename);
 		setModified( false );
-		startPlay();
+		if (start_play_on_load) startPlay();
 	}
 }
 
@@ -1907,6 +1908,7 @@ void Playlist::saveSettings() {
 	set->setValue( "recursive_add_directory", recursive_add_directory );
 	set->setValue( "save_playlist_in_config", save_playlist_in_config );
 	set->setValue( "play_files_from_start", play_files_from_start );
+	set->setValue( "start_play_on_load", start_play_on_load );
 	set->setValue( "automatically_play_next", automatically_play_next );
 	set->setValue( "ignore_player_errors", ignore_player_errors );
 	set->setValue( "change_name", change_name );
@@ -1978,6 +1980,7 @@ void Playlist::loadSettings() {
 	recursive_add_directory = set->value( "recursive_add_directory", recursive_add_directory ).toBool();
 	save_playlist_in_config = set->value( "save_playlist_in_config", save_playlist_in_config ).toBool();
 	play_files_from_start = set->value( "play_files_from_start", play_files_from_start ).toBool();
+	start_play_on_load = set->value( "start_play_on_load", start_play_on_load ).toBool();
 	automatically_play_next = set->value( "automatically_play_next", automatically_play_next ).toBool();
 	ignore_player_errors = set->value( "ignore_player_errors", ignore_player_errors ).toBool();
 	change_name = set->value( "change_name", change_name ).toBool();
