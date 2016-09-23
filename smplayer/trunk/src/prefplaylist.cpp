@@ -115,6 +115,14 @@ bool PrefPlaylist::playFilesFromStart() {
 	return play_from_start_check->isChecked();
 }
 
+void PrefPlaylist::setPlayOnLoad(bool b) {
+	play_on_load_check->setChecked(b);
+}
+
+bool PrefPlaylist::playOnLoad() {
+	return play_on_load_check->isChecked();
+}
+
 void PrefPlaylist::setPlayNextAutomatically(bool b) {
 	play_next_automatically_check->setChecked(b);
 }
