@@ -132,6 +132,13 @@
            </widget>
           </item>
           <item>
+           <widget class="QCheckBox" name="play_on_load_check">
+            <property name="text">
+             <string>S&amp;tart playback after loading a playlist</string>
+            </property>
+           </widget>
+          </item>
+          <item>
            <widget class="QCheckBox" name="play_next_automatically_check">
             <property name="text">
              <string>Pla&amp;y next file automatically</string>
@@ -175,6 +182,7 @@
   <tabstop>getinfo_check</tabstop>
   <tabstop>autosave_on_exit_check</tabstop>
   <tabstop>play_from_start_check</tabstop>
+  <tabstop>play_on_load_check</tabstop>
   <tabstop>play_next_automatically_check</tabstop>
   <tabstop>ignore_errors_check</tabstop>
  </tabstops>

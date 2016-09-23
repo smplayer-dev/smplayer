@@ -54,6 +54,9 @@ public:
 	void setPlayFilesFromStart(bool b);
 	bool playFilesFromStart();
 
+	void setPlayOnLoad(bool b);
+	bool playOnLoad();
+
 	void setPlayNextAutomatically(bool b);
 	bool playNextAutomatically();
 
