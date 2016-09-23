@@ -7176,7 +7176,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation>Aktivér understøttelse af høj DPI skærme</translation>
+        <translation>&amp;Aktivér understøttelse af høj-DPI-skærme</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7191,7 +7191,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation>Ændringer i dette afsnit træder først i kraft når SMPlayer er blevet genstartet.</translation>
+        <translation>Ændringer i dette afsnit træder først i kraft når SMPlayer er blevet genstartet</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>

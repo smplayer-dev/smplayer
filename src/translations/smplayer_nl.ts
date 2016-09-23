@@ -987,7 +987,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"/>
+        <translation>Start/stop het vastleggen van de stream</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
@@ -1891,27 +1891,27 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1703"/>
         <source>Set &amp;A marker</source>
-        <translation type="unfinished"/>
+        <translation>Stel &amp;A markering in</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1704"/>
         <source>Set &amp;B marker</source>
-        <translation type="unfinished"/>
+        <translation>Stel &amp;B markering in</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1705"/>
         <source>&amp;Clear A-B markers</source>
-        <translation type="unfinished"/>
+        <translation>A-B markeringen leegmaken</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1963"/>
         <source>&amp;A-B section</source>
-        <translation type="unfinished"/>
+        <translation>&amp;A-B sectie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1907"/>
         <source>Toggle deinterlacing</source>
-        <translation type="unfinished"/>
+        <translation> Interlace ongedaan maken ingeschakelen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2091"/>
@@ -2300,17 +2300,17 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../core.cpp" line="2696"/>
         <source>&quot;A&quot; marker set to %1</source>
-        <translation type="unfinished"/>
+        <translation>Stel &quot;A&quot; markering in naar %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2718"/>
         <source>&quot;B&quot; marker set to %1</source>
-        <translation type="unfinished"/>
+        <translation>Stel &quot;B&quot; markering in naar %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2738"/>
         <source>A-B markers cleared</source>
-        <translation type="unfinished"/>
+        <translation>A-B markering leeggemaakt</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="594"/>
@@ -2547,7 +2547,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <location filename="../favorites.cpp" line="375"/>
         <location filename="../favorites.cpp" line="379"/>
         <source>Enter the number of the item in the list to jump:</source>
-        <translation type="unfinished"/>
+        <translation>Voer het nummer van het object in de lijst in om ernaar toe te springen:</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="89"/>
@@ -2572,7 +2572,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Huidige media toevoegen</translation>
     </message>
 </context>
 <context>
@@ -2580,7 +2580,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../filechooser.cpp" line="54"/>
         <source>Click to select a file or folder</source>
-        <translation type="unfinished"/>
+        <translation>Klik om een bestand of map te selecteren</translation>
     </message>
 </context>
 <context>
@@ -2593,7 +2593,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="62"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation>Verbinden met %1</translation>
     </message>
 </context>
 <context>
@@ -2650,13 +2650,16 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"/>
+        <translation>U kunt ook extra videofilters meegeven.
+Ze moeten van elkaar gescheiden worden door &quot;,&quot;. Gebruik geen spaties!
+Voorbeeld: schaal=512:-2, weerspiegelen</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"/>
+        <translation>En tot slot audiofilters. Hier gelden dezelfde regel als voor videofilters.
+Voorbeeld: extrastereo,karaoke</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2691,12 +2694,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"/>
+        <translation>O&amp;pties voor %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
         <source>Additional Options for %1</source>
-        <translation type="unfinished"/>
+        <translation>Extra opties voor %1</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
@@ -2769,7 +2772,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OpenSubtitles server:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="83"/>
@@ -2809,7 +2812,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="197"/>
         <source>Misc</source>
-        <translation type="unfinished"/>
+        <translation>Diversen</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
@@ -7636,7 +7639,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Afspeelkwaliteit</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="105"/>
@@ -7646,62 +7649,62 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"/>
+        <translation>&amp;YouTube (en andere websites)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video websites die worden ondersteunt:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"/>
+        <translation>Opties voor YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Proxy</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Proxy inschakelen</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Host:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="169"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Poort:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="189"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gebruikersnaam:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"/>
+        <translation>Wa&amp;chtwoord:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="219"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Type:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
-        <translation type="unfinished"/>
+        <translation>HTTP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"/>
+        <translation>SOCKS5</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="67"/>
@@ -7722,18 +7725,18 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefnetwork.cpp" line="79"/>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>Disabled</source>
-        <translation type="unfinished"/>
+        <translation>Uitgeschakeld</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="81"/>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Automatisch</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>YouTube</source>
-        <translation type="unfinished"/>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
@@ -7758,7 +7761,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Playback quality</source>
-        <translation type="unfinished"/>
+        <translation>Afspeelkwaliteit</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="192"/>
@@ -7788,7 +7791,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="211"/>
         <source>Host</source>
-        <translation type="unfinished"/>
+        <translation>Host</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="212"/>
@@ -7798,7 +7801,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="214"/>
         <source>Port</source>
-        <translation type="unfinished"/>
+        <translation>Poort</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="215"/>
@@ -7903,7 +7906,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;utomatisch</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8099,7 +8102,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>Available options:</source>
-        <translation type="unfinished"/>
+        <translation>Beschikbare opties:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="317"/>
@@ -8262,27 +8265,27 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="47"/>
         <source>Video files</source>
-        <translation type="unfinished"/>
+        <translation>Video bestanden</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="48"/>
         <source>Audio files</source>
-        <translation type="unfinished"/>
+        <translation>Audio bestanden</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="49"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"/>
+        <translation>Video en audio bestanden</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="50"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"/>
+        <translation>Bij elkaar horende bestanden</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="135"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation>Bestanden toevoegen vanuit map</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="136"/>
@@ -8679,7 +8682,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
         <source>Shadow</source>
-        <translation type="unfinished"/>
+        <translation>Schaduw</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
@@ -8689,7 +8692,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Grootte:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
@@ -8857,7 +8860,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"/>
+        <translation>Standaard schaal</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -8877,12 +8880,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Lettertype en kleur</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"/>
+        <translation>Standaard &amp;schaal:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -8922,12 +8925,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"/>
+        <translation>SSA/ASS stijl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
         <source>Shadow color</source>
-        <translation type="unfinished"/>
+        <translation>Schaduw kleur</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="471"/>
@@ -8937,12 +8940,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
         <source>Shadow:</source>
-        <translation type="unfinished"/>
+        <translation>Schaduw:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="762"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Aanpassen...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
@@ -9028,12 +9031,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"/>
+        <translation>Nieuwe &amp;versies</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
         <source>Check for &amp;updates</source>
-        <translation type="unfinished"/>
+        <translation>Zoek naar &amp;nieuwe versies</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="62"/>
@@ -9048,12 +9051,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
         <source>Updates</source>
-        <translation type="unfinished"/>
+        <translation>Nieuwe versies</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="86"/>
         <source>Check for updates</source>
-        <translation type="unfinished"/>
+        <translation>Zoek naar nieuwe versies</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
@@ -9091,12 +9094,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Annuleren</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9222,13 +9225,13 @@ Wilt u het overschrijven?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n seconde</numerusform><numerusform>%n seconden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9312,17 +9315,17 @@ Wilt u het overschrijven?</translation>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"/>
+        <translation>SMPlayer is mijn favoriete media speler voor mijn PC. Probeer het zelf!</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"/>
+        <translation>%1 (herziening %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (herziening %2)</translation>
     </message>
 </context>
 <context>
@@ -9330,22 +9333,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer ondersteunen</translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Herinner me later</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Doneren met PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"/>
+        <translation>U kunt SMPlayer steunen door te doneren of te delen met uw vrienden.</translation>
     </message>
 </context>
 <context>
@@ -9353,27 +9356,27 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation>Doneren met PayPal</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer delen op Facebook</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="115"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer delen op Twitter</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="117"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer ondersteunen</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation>Doneer / Deel SMPlayer met uw vrienden</translation>
     </message>
 </context>
 <context>
@@ -9396,12 +9399,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Sneltoets toevoegen</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"/>
+        <translation>Sneltoets verwijderen</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9419,22 +9422,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"/>
+        <translation>Computer wordt uitgeschakeld</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"/>
+        <translation>Het afspelen is tot een einde gekomen. SMPlayer staat op het punt af te sluiten.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"/>
+        <translation>De computer wordt uitgeschakeld in %1 seconden.</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"/>
+        <translation>Druk &lt;b&gt;Annuleren&lt;/b&gt; om het afsluiten af te breken.</translation>
     </message>
 </context>
 <context>
@@ -9442,32 +9445,32 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>&amp;Toolbars</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Werkbalken</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
         <source>Status&amp;bar</source>
-        <translation type="unfinished"/>
+        <translation>Status&amp;balk</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Hoofdwerkbalk</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Hoofdwerkbalk bewerken</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Drijvende controle bewerken</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video info</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
@@ -9477,17 +9480,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"/>
+        <translation>Aan het afspelen</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
         <source>Pause</source>
-        <translation type="unfinished"/>
+        <translation>Pauzeren</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="422"/>
         <source>Stop</source>
-        <translation type="unfinished"/>
+        <translation>Stop</translation>
     </message>
 </context>
 <context>
@@ -9495,17 +9498,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"/>
+        <translation>Stereo 3D filter</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;3D formaat van de video:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Uitvoer formaat:</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
@@ -9620,12 +9623,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation>Geen</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Automatisch</translation>
     </message>
 </context>
 <context>
@@ -9677,42 +9680,42 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"/>
+        <translation>Werkbalk bewerker</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Beschikbare acties:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Links</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Rechts</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Omlaag</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Omhoog</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Huidige acties:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Pictogramformaat:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
@@ -9732,22 +9735,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
         <source>Display time</source>
-        <translation type="unfinished"/>
+        <translation>Weergave tijd</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>Huidige tijd</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>Totale tijd</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>Resterende tijd</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -9762,7 +9765,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu voor snelle toegang </translation>
     </message>
 </context>
 <context>
@@ -9788,49 +9791,49 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"/>
+        <translation>Het is mislukt om de laatste versie nummer te krijgen</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>New version available</source>
-        <translation type="unfinished"/>
+        <translation>Er is een nieuwe versie beschikbaar</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"/>
+        <translation>Een nieuwe versie van SMPlayer is beschikbaar</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="198"/>
         <location filename="../updatechecker.cpp" line="215"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation>Geïnstalleerde versie: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="199"/>
         <location filename="../updatechecker.cpp" line="216"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"/>
+        <translation>Beschikbare versie: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"/>
+        <translation>Wilt u meer weten over de nieuwe versie?</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="213"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"/>
+        <translation>Zoeken naar nieuwe versies</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"/>
+        <translation>Gefeliciteerd, SMPlayer is up-to-date.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation>Foutmelding</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="222"/>
@@ -9840,7 +9843,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"/>
+        <translation>Foutmelding code: %1</translation>
     </message>
 </context>
 <context>
@@ -9848,7 +9851,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
-        <translation type="unfinished"/>
+        <translation>VDPAU eigenschappen</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
@@ -9858,32 +9861,32 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="unfinished"/>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="unfinished"/>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="unfinished"/>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="unfinished"/>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="unfinished"/>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Uitschakelen softwarematige video-filters</translation>
     </message>
 </context>
 <context>
@@ -9891,52 +9894,52 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"/>
+        <translation>Video-equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Contrast</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Helderheid</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tint</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Verzadiging</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gamma</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"/>
+        <translation>Softwarematige &amp;equalizer</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"/>
+        <translation>Als &amp;standaardwaarden instellen</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Resetten</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Sluiten</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
@@ -9946,7 +9949,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"/>
+        <translation>Stel alle besturingselementen op nul in.</translation>
     </message>
 </context>
 <context>
@@ -10194,7 +10197,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"/>
+        <translation>Aantal &amp;seconden over te slaan aan het begin:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
@@ -10204,7 +10207,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"/>
+        <translation>Vul hier een appraat in dat DVD&apos;s afspeelt, of een map dat een DVD bestand bevat. </translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
