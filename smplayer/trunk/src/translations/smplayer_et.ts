@@ -7141,12 +7141,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation>Näita ainult hiire liigutamisel ekraani &amp;alumisse äärde</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;eg millisekundites, mille järel paneel peidetakse:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
@@ -7156,62 +7156,62 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="892"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Mitu kirjet meelde jätta</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Jäta meelde viimane kaust</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>Suur &amp;pikslitihedus</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayeri kasutajaliides kohandub vastavalt ekraani pikslitihedusele. Siin saab seda välja lülitada või määrata mastaapimistase käsitsi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kõrge pikslitihedusega ekraanide tugi</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Mastaapimistase</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Automaatne</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"/>
+        <translation>Nende muudatuste rakendumiseks tuleb SMPlayer taaskäivitada</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
         <source>TextLabel</source>
-        <translation type="unfinished"/>
+        <translation>TextLabel</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Hüppamine</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="556"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Absoluutne</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="569"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Suhteline</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
@@ -7221,7 +7221,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="739"/>
         <source>Autoresize</source>
-        <translation type="unfinished"/>
+        <translation>Automaatne suuruse muutmine</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
