@@ -27,7 +27,7 @@
        <item>
         <widget class="QCheckBox" name="auto_add_to_playlist_check">
          <property name="text">
-          <string>&amp;Automatically add files to playlist</string>
+          <string>&amp;Add files to the playlist automatically</string>
          </property>
         </widget>
        </item>
@@ -114,7 +114,7 @@
        <item>
         <widget class="QCheckBox" name="autosave_on_exit_check">
          <property name="text">
-          <string>&amp;Save copy of playlist on exit</string>
+          <string>&amp;Save a copy of the playlist on exit</string>
          </property>
         </widget>
        </item>
@@ -148,7 +148,7 @@
           <item>
            <widget class="QCheckBox" name="ignore_errors_check">
             <property name="text">
-             <string>Play &amp;next file even if the previous file failed</string>
+             <string>Ig&amp;nore playback errors</string>
             </property>
            </widget>
           </item>
