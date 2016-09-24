@@ -142,14 +142,14 @@ bool PrefPlaylist::ignorePlayerErrors() {
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
-	setWhatsThis(auto_add_to_playlist_check, tr("Automatically add files to playlist"),
+	setWhatsThis(auto_add_to_playlist_check, tr("Add files to the playlist automatically"),
 		tr("If this option is enabled, every time a file is opened, SMPlayer "
            "will first clear the playlist and then add the file to it. In "
            "case of DVDs, CDs and VCDs, all titles in the disc will be added "
            "to the playlist.") );
 
 	setWhatsThis(media_to_add_combo, tr("Add files from folder"),
-		tr("This option allows to add files automatically to the playlist:") +"<br>"+
+		tr("This option can be used to add files automatically to the playlist:") +"<br>"+
 		tr("<b>None</b>: no files will be added") +"<br>"+
 		tr("<b>Video files</b>: all video files found in the folder will be added") +"<br>"+
 		tr("<b>Audio files</b>: all audio files found in the folder will be added") +"<br>"+
@@ -160,6 +160,12 @@ void PrefPlaylist::createHelp() {
 		tr("If this option is enabled, all files from the playlist will "
            "start to play from the beginning instead of resuming from a "
            "previous playback.") );
+
+	setWhatsThis(play_on_load_check, tr("Start playback after loading a playlist"),
+		tr("Playback will start just after loading a playlist.") );
+
+	setWhatsThis(play_next_automatically_check, tr("Play next file automatically"),
+		tr("When a file reaches the end, the next file will be played automatically.") );
 
 	setWhatsThis(recursive_check, tr("Add files in directories recursively"),
 		tr("Check this option if you want that adding a directory will also "
@@ -173,12 +179,12 @@ void PrefPlaylist::createHelp() {
         "the file is actually played. Beware: this option can be slow, "
         "specially if you add many files."));
 
-	setWhatsThis(autosave_on_exit_check, tr("Save copy of playlist on exit"), 
+	setWhatsThis(autosave_on_exit_check, tr("Save a copy of the playlist on exit"), 
 		tr("If this option is checked, a copy of the playlist will be saved "
-           "in the smplayer configuration when smplayer is closed, and it will "
-           "reloaded automatically when smplayer is run again."));
+           "in the configuration file when SMPlayer is closed, and it will "
+           "reloaded automatically when SMPlayer is run again."));
 
-	setWhatsThis(ignore_errors_check, tr("Play next file even if the previous file failed"),
+	setWhatsThis(ignore_errors_check, tr("Ignore playback errors"),
 		tr("If this option is enabled, the playlist will ignore playback errors from a previous file "
            "and will play the next file in the list.") );
 }
