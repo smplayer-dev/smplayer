@@ -178,6 +178,7 @@ public:
 	void setIgnorePlayerErrors(bool b) { ignore_player_errors = b; };
 	void setStartPlayOnLoad(bool b) { start_play_on_load = b; };
 	void setAutomaticallyPlayNext(bool b) { automatically_play_next = b; };
+	void setAutoSort(bool b);
 
 	bool directoryRecursion() { return recursive_add_directory; };
 	bool autoGetInfo() { return automatically_get_info; };
@@ -186,6 +187,7 @@ public:
 	bool ignorePlayerErrors() { return ignore_player_errors; };
 	bool startPlayOnLoad() { return start_play_on_load; };
 	bool automaticallyPlayNext() { return automatically_play_next; };
+	bool autoSort();
 
 #ifdef PLAYLIST_DOWNLOAD
 	void setMaxItemsUrlHistory(int max_items);
