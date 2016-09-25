@@ -1926,6 +1926,7 @@ void Playlist::saveSettings() {
 	set->setValue( "filter_case_sensivity", proxy->filterCaseSensitivity() );
 	set->setValue( "filter", filter_edit->text() );
 	set->setValue( "sort_case_sensivity", proxy->sortCaseSensitivity() );
+	set->setValue( "auto_sort", autoSort() );
 
 	set->setValue( "show_search", showSearchAct->isChecked() );
 
@@ -1998,6 +1999,7 @@ void Playlist::loadSettings() {
 	int filter_case_sensivity = set->value("filter_case_sensivity", Qt::CaseInsensitive).toInt();
 	QString filter = set->value( "filter").toString();
 	int sort_case_sensivity = set->value("sort_case_sensivity", Qt::CaseInsensitive).toInt();
+	bool auto_sort = set->value("auto_sort", false).toBool();
 
 	showSearchAct->setChecked( set->value( "show_search", false).toBool() );
 
@@ -2044,6 +2046,7 @@ void Playlist::loadSettings() {
 	proxy->setSortCaseSensitivity( (Qt::CaseSensitivity) sort_case_sensivity);
 	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 	filter_edit->setText(filter);
+	setAutoSort(auto_sort);
 
 	if (!listView->isColumnHidden(COL_NUM)) showPositionColumnAct->setChecked(true);
 	if (!listView->isColumnHidden(COL_NAME)) showNameColumnAct->setChecked(true);
@@ -2070,7 +2073,14 @@ void Playlist::setDurationColumnVisible(bool b) {
 
 void Playlist::setFilenameColumnVisible(bool b) {
 	listView->setColumnHidden(COL_FILENAME, !b);
+}
 
+void Playlist::setAutoSort(bool b) {
+	proxy->setDynamicSortFilter(b);
+}
+
+bool Playlist::autoSort() {
+	return proxy->dynamicSortFilter();
 }
 
 #ifdef PLAYLIST_DOWNLOAD
