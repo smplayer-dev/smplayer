@@ -7216,7 +7216,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
         <source>Ins&amp;tances</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Protsessid</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="739"/>
@@ -7226,22 +7226,22 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="740"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"/>
+        <translation>See valik määrab, kas ja kuidas põhiakna suurust automaatselt muudetakse.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="750"/>
         <source>Remember position and size</source>
-        <translation>Mäleta asukohta ja suurust</translation>
+        <translation>Jäta meelde asukoht ja suurus</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation>Kui see vaoik on valitud, siis järgmie kord kui SMPlayer avatakse alustab jätkab samakst kohast.</translation>
+        <translation>Kui see on märgitud, siis SMPlayeri põhiakna asukoht ja suurus jäetakse meelde ja taastatakse järgmisel käivitamisel.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="761"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Vali rakenduse graafiline kasutajaliides.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
@@ -7281,7 +7281,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="227"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"/>
+        <translation>Lihtne</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="236"/>
