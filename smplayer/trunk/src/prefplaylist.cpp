@@ -150,6 +150,21 @@ bool PrefPlaylist::autoSort() {
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
+	setWhatsThis(play_from_start_check, tr("Play files from start"),
+		tr("If this option is enabled, all files from the playlist will "
+           "start to play from the beginning instead of resuming from a "
+           "previous playback.") );
+
+	setWhatsThis(play_on_load_check, tr("Start playback after loading a playlist"),
+		tr("Playback will start just after loading a playlist.") );
+
+	setWhatsThis(play_next_automatically_check, tr("Play next file automatically"),
+		tr("When a file reaches the end, the next file will be played automatically.") );
+
+	setWhatsThis(ignore_errors_check, tr("Ignore playback errors"),
+		tr("If this option is enabled, the playlist will ignore playback errors from a previous file "
+           "and will play the next file in the list.") );
+
 	setWhatsThis(auto_add_to_playlist_check, tr("Add files to the playlist automatically"),
 		tr("If this option is enabled, every time a file is opened, SMPlayer "
            "will first clear the playlist and then add the file to it. In "
@@ -164,16 +179,6 @@ void PrefPlaylist::createHelp() {
 		tr("<b>Video and audio files</b>: all video and audio files found in the folder will be added") +"<br>"+
 		tr("<b>Consecutive files</b>: consecutive files (like video_1.avi, video_2.avi) will be added") );
 
-	setWhatsThis(play_from_start_check, tr("Play files from start"),
-		tr("If this option is enabled, all files from the playlist will "
-           "start to play from the beginning instead of resuming from a "
-           "previous playback.") );
-
-	setWhatsThis(play_on_load_check, tr("Start playback after loading a playlist"),
-		tr("Playback will start just after loading a playlist.") );
-
-	setWhatsThis(play_next_automatically_check, tr("Play next file automatically"),
-		tr("When a file reaches the end, the next file will be played automatically.") );
 
 	setWhatsThis(recursive_check, tr("Add files in directories recursively"),
 		tr("Check this option if you want that adding a directory will also "
@@ -187,14 +192,13 @@ void PrefPlaylist::createHelp() {
         "the file is actually played. Beware: this option can be slow, "
         "specially if you add many files."));
 
+	setWhatsThis(autosort_check, tr("Auto sort"),
+		tr("If this option is enabled the list will be sorted automatically after adding files."));
+
 	setWhatsThis(autosave_on_exit_check, tr("Save a copy of the playlist on exit"), 
 		tr("If this option is checked, a copy of the playlist will be saved "
            "in the configuration file when SMPlayer is closed, and it will "
            "reloaded automatically when SMPlayer is run again."));
-
-	setWhatsThis(ignore_errors_check, tr("Ignore playback errors"),
-		tr("If this option is enabled, the playlist will ignore playback errors from a previous file "
-           "and will play the next file in the list.") );
 }
 
 #include "moc_prefplaylist.cpp"
