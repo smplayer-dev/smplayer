@@ -3368,7 +3368,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="29"/>
         <source>Amharic</source>
-        <translation type="unfinished"/>
+        <translation>Amhaars</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
@@ -3379,22 +3379,22 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="32"/>
         <source>Assamese</source>
-        <translation type="unfinished"/>
+        <translation>Assamees</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="34"/>
         <source>Aymara</source>
-        <translation type="unfinished"/>
+        <translation>Aymara</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="35"/>
         <source>Azerbaijani</source>
-        <translation type="unfinished"/>
+        <translation>Azerbeidzjaanse</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="36"/>
         <source>Bashkir</source>
-        <translation type="unfinished"/>
+        <translation>Bashkir</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
@@ -3405,12 +3405,12 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="39"/>
         <source>Bihari</source>
-        <translation type="unfinished"/>
+        <translation>Bihari</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="40"/>
         <source>Bislama</source>
-        <translation type="unfinished"/>
+        <translation>Bislama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="42"/>
@@ -3506,7 +3506,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="69"/>
         <source>Faroese</source>
-        <translation type="unfinished"/>
+        <translation>Faeröer</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="70"/>
@@ -3532,17 +3532,17 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="75"/>
         <source>Guarani</source>
-        <translation type="unfinished"/>
+        <translation>Guarani</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="76"/>
         <source>Gujarati</source>
-        <translation type="unfinished"/>
+        <translation>Gujarati</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="78"/>
         <source>Hausa</source>
-        <translation type="unfinished"/>
+        <translation>Hausa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="79"/>
@@ -3574,7 +3574,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation type="unfinished"/>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
@@ -3584,12 +3584,12 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation type="unfinished"/>
+        <translation>Interlingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation type="unfinished"/>
+        <translation>IJslands</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
@@ -3600,7 +3600,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="97"/>
         <source>Inuktitut</source>
-        <translation type="unfinished"/>
+        <translation>Inuktitut</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="98"/>
@@ -3611,7 +3611,7 @@ Controleer a.u.b. de toegangsrechten van die map.</translation>
     <message>
         <location filename="../languages.cpp" line="99"/>
         <source>Javanese</source>
-        <translation type="unfinished"/>
+        <translation>Javaans</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="100"/>
@@ -7291,17 +7291,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>Schaal&amp;factor:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation>Pixel rati&amp;o:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="743"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>Voorkom dat het venster buiten het scherm komt</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
@@ -7311,7 +7311,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>Center window</source>
-        <translation type="unfinished"/>
+        <translation>Venster centreren</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
@@ -7438,7 +7438,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="864"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"/>
+        <translation>Deze optie werkt alleen met de basis GUI.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="865"/>
@@ -7458,7 +7458,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="878"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"/>
+        <translation>Max. URLs</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="879"/>
@@ -7468,7 +7468,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"/>
+        <translation>Laatste map onthouden</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="884"/>
@@ -7479,7 +7479,7 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefinterface.ui" line="544"/>
         <location filename="../prefinterface.cpp" line="814"/>
         <source>Seeking method</source>
-        <translation type="unfinished"/>
+        <translation>Zoekmethode</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="815"/>
@@ -7559,7 +7559,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
         <source>Display in compact mode too</source>
-        <translation type="unfinished"/>
+        <translation>In compacte modus ook tonen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="665"/>
@@ -7591,7 +7591,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"/>
+        <translation>In &amp;compacte modus ook tonen</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7644,7 +7644,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"/>
+        <translation>&amp;User agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
@@ -7719,7 +7719,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
         <source>User agent</source>
-        <translation type="unfinished"/>
+        <translation>User agent</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="79"/>
@@ -7741,7 +7741,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"/>
+        <translation>Video websites die worden ondersteunt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
@@ -7781,12 +7781,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="208"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"/>
+        <translation>Proxy inschakelen</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="209"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation>Het gebruik van een proxy in-/uitschakelen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="211"/>
@@ -8237,7 +8237,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.ui" line="559"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"/>
+        <translation>Cache voor &amp;TV:</translation>
     </message>
 </context>
 <context>
@@ -8320,7 +8320,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="143"/>
         <source>Play files from start</source>
-        <translation type="unfinished"/>
+        <translation>Speel bestanden af vanaf het begin</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="144"/>
@@ -8380,7 +8380,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="58"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation>Bestanden toevoegen vanuit &amp;map:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="103"/>
@@ -8445,12 +8445,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"/>
+        <translation>Gebruik de &amp;ASS-bibliotheek</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Windows-letters inschakelen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -8572,7 +8572,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"/>
+        <translation>Gebruik de ASS-bibliotheek</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
@@ -8582,7 +8582,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Windows-letters inschakelen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
@@ -8652,7 +8652,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
         <source>Horizontal alignment</source>
-        <translation type="unfinished"/>
+        <translation>Horizontale opstelling</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
@@ -8662,7 +8662,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
         <source>Vertical alignment</source>
-        <translation type="unfinished"/>
+        <translation>Verticale opstelling</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
@@ -8672,7 +8672,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
         <source>Border style</source>
-        <translation type="unfinished"/>
+        <translation>Randstijl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
@@ -8742,7 +8742,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="607"/>
         <source>Alignment</source>
-        <translation type="unfinished"/>
+        <translation>Opstelling</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="616"/>
@@ -8777,7 +8777,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation>Gebruik aange&amp;paste stijl</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
@@ -8830,7 +8830,7 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"/>
+        <translation>Ondoorzichtige doos</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
@@ -8870,7 +8870,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
         <source>Line spacing</source>
-        <translation type="unfinished"/>
+        <translation>Regelafstand</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="445"/>
@@ -8890,12 +8890,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Regelafstand:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>Freetype support</source>
-        <translation type="unfinished"/>
+        <translation>Freetype ondersteuning</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="237"/>
@@ -8910,7 +8910,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"/>
+        <translation>SSA/ASS stijl aanpassen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
@@ -9475,7 +9475,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Scroll titel</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
