@@ -139,6 +139,14 @@ bool PrefPlaylist::ignorePlayerErrors() {
 	return ignore_errors_check->isChecked();
 }
 
+void PrefPlaylist::setAutoSort(bool b) {
+	autosort_check->setChecked(b);
+}
+
+bool PrefPlaylist::autoSort() {
+	return autosort_check->isChecked();
+}
+
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
