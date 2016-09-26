@@ -63,6 +63,9 @@ public:
 	void setIgnorePlayerErrors(bool b);
 	bool ignorePlayerErrors();
 
+	void setAutoSort(bool b);
+	bool autoSort();
+
 protected:
 	virtual void createHelp();
 
