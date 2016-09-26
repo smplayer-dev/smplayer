@@ -400,7 +400,23 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 }
 
 void MPVProcess::addUserOption(const QString & option) {
-	arg << option;
+	qDebug() << "MPVProcess::addUserOption:" << option;
+
+	// Remove quotes
+	QString s = option;
+	if (s.count("=\"") == 1 && s.endsWith("\"")) {
+		s.replace("=\"", "=");
+		s.chop(1);
+	}
+	else
+	if (s.startsWith("\"") && s.endsWith("\"")) {
+		s.remove(0, 1);
+		s.chop(1);
+	}
+
+	qDebug() << "MPVProcess::addUserOption: s:" << s;
+
+	arg << s;
 	if (option == "-v") {
 		verbose = true;
 	}
