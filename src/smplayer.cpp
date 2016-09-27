@@ -386,7 +386,7 @@ SMPlayer::ExitCode SMPlayer::processArgs(QStringList args) {
 			#if QT_VERSION >= 0x040600
 			QUrl fUrl = QUrl::fromUserInput(argument);
 			if (fUrl.isValid() && fUrl.scheme().toLower() == "file") {
-			    argument = fUrl.toLocalFile();
+				argument = fUrl.toLocalFile();
 			}
 			#endif
 			if (QFile::exists( argument )) {

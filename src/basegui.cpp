@@ -4095,6 +4095,11 @@ void BaseGui::openFiles(QStringList files) {
 void BaseGui::openFavorite(QString file) {
 	qDebug("BaseGui::openFavorite");
 
+	QUrl url(file);
+	if (url.isValid() && url.scheme().toLower() == "file") {
+		file = url.toLocalFile();
+	}
+
 	openFiles(QStringList() << file);
 }
 
