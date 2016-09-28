@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt_BR" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="pt_BR">
 <context>
     <name>About</name>
     <message>
@@ -548,8 +550,8 @@ Deseja substituí-lo?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2019"/>
-        <location filename="../basegui.cpp" line="3516"/>
-        <location filename="../basegui.cpp" line="3530"/>
+        <location filename="../basegui.cpp" line="3518"/>
+        <location filename="../basegui.cpp" line="3532"/>
         <source>&amp;None</source>
         <translation>&amp;Nenhum</translation>
     </message>
@@ -760,43 +762,43 @@ Deseja substituí-lo?</translation>
         <translation>Sobre &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3553"/>
-        <location filename="../basegui.cpp" line="3569"/>
-        <location filename="../basegui.cpp" line="3585"/>
-        <location filename="../basegui.cpp" line="3600"/>
-        <location filename="../basegui.cpp" line="3634"/>
-        <location filename="../basegui.cpp" line="3654"/>
-        <location filename="../basegui.cpp" line="3730"/>
+        <location filename="../basegui.cpp" line="3555"/>
+        <location filename="../basegui.cpp" line="3571"/>
+        <location filename="../basegui.cpp" line="3587"/>
+        <location filename="../basegui.cpp" line="3602"/>
+        <location filename="../basegui.cpp" line="3636"/>
+        <location filename="../basegui.cpp" line="3656"/>
+        <location filename="../basegui.cpp" line="3732"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;vazio&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4171"/>
+        <location filename="../basegui.cpp" line="4178"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4172"/>
-        <location filename="../basegui.cpp" line="4409"/>
+        <location filename="../basegui.cpp" line="4179"/>
+        <location filename="../basegui.cpp" line="4416"/>
         <source>Audio</source>
         <translation>Áudio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4173"/>
+        <location filename="../basegui.cpp" line="4180"/>
         <source>Playlists</source>
         <translation>Listas de reprodução</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4174"/>
-        <location filename="../basegui.cpp" line="4389"/>
-        <location filename="../basegui.cpp" line="4410"/>
+        <location filename="../basegui.cpp" line="4181"/>
+        <location filename="../basegui.cpp" line="4396"/>
+        <location filename="../basegui.cpp" line="4417"/>
         <source>All files</source>
         <translation>Todos os arquivos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4169"/>
-        <location filename="../basegui.cpp" line="4386"/>
-        <location filename="../basegui.cpp" line="4407"/>
+        <location filename="../basegui.cpp" line="4176"/>
+        <location filename="../basegui.cpp" line="4393"/>
+        <location filename="../basegui.cpp" line="4414"/>
         <source>Choose a file</source>
         <translation>Escolha um arquivo</translation>
     </message>
@@ -811,49 +813,49 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Doe / Compartilhe com seus amigos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4225"/>
+        <location filename="../basegui.cpp" line="4232"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Informação</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4226"/>
+        <location filename="../basegui.cpp" line="4233"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>As unidades de CDROM / DVD ainda não foram configuradas.
 A janela de configuração irá agora ser mostrada para que você o possa fazer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4339"/>
+        <location filename="../basegui.cpp" line="4346"/>
         <source>Select the Blu-ray folder</source>
         <translation>Selecione a pasta do Blu-ray</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4352"/>
+        <location filename="../basegui.cpp" line="4359"/>
         <source>Choose a directory</source>
         <translation>Escolha uma pasta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4388"/>
+        <location filename="../basegui.cpp" line="4395"/>
         <source>Subtitles</source>
         <translation>Legendas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5008"/>
+        <location filename="../basegui.cpp" line="5015"/>
         <source>Error detected</source>
         <translation>Erro detectado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5009"/>
+        <location filename="../basegui.cpp" line="5016"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Infelizmente esse vídeo não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5238"/>
+        <location filename="../basegui.cpp" line="5246"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5239"/>
+        <location filename="../basegui.cpp" line="5247"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -1272,135 +1274,135 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Menu de acesso rápido</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2955"/>
+        <location filename="../basegui.cpp" line="2954"/>
         <source>Logs</source>
         <translation>Registos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4943"/>
+        <location filename="../basegui.cpp" line="4950"/>
         <source>Connection failed</source>
         <translation>Falha na conexão</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4944"/>
+        <location filename="../basegui.cpp" line="4951"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>O vídeo requisitado precisa abrir uma conexão HTTPS.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4945"/>
+        <location filename="../basegui.cpp" line="4952"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>Infelizmente, o componente OpenSSL, necessário para a ação, não está disponível em seu sistema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4946"/>
+        <location filename="../basegui.cpp" line="4953"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>Por favor, visite %1 para saber como reparar esse problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4947"/>
+        <location filename="../basegui.cpp" line="4954"/>
         <source>this link</source>
         <translation>esse link</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4957"/>
+        <location filename="../basegui.cpp" line="4964"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>Devido às alterações no Youtube, esse vídeo não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4964"/>
-        <location filename="../basegui.cpp" line="4972"/>
+        <location filename="../basegui.cpp" line="4971"/>
+        <location filename="../basegui.cpp" line="4979"/>
         <source>Problems with Youtube</source>
         <translation>Problemas com o Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5910"/>
-        <location filename="../basegui.cpp" line="5962"/>
+        <location filename="../basegui.cpp" line="5939"/>
+        <location filename="../basegui.cpp" line="5991"/>
         <source>%1 Error</source>
         <translation>Erro em %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5911"/>
+        <location filename="../basegui.cpp" line="5940"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 terminou inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5936"/>
+        <location filename="../basegui.cpp" line="5965"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Falha na execução do youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5937"/>
+        <location filename="../basegui.cpp" line="5966"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>A instalação do Microsoft Visual C++ 2010 Redistributable Package (x86) deve resolver o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5939"/>
+        <location filename="../basegui.cpp" line="5968"/>
         <source>Click here to get it</source>
         <translation>Clique aqui para obtê-lo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5964"/>
+        <location filename="../basegui.cpp" line="5993"/>
         <source>%1 failed to start.</source>
         <translation>Falha ao iniciar %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5965"/>
+        <location filename="../basegui.cpp" line="5994"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Por favor verifique o caminho do %1 nas Preferências.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5967"/>
+        <location filename="../basegui.cpp" line="5996"/>
         <source>%1 has crashed.</source>
         <translation>%1 travou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6049"/>
+        <location filename="../basegui.cpp" line="6078"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>O navegador do Youtube não está instalado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6050"/>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6079"/>
+        <location filename="../basegui.cpp" line="6091"/>
         <source>Visit %1 to get it.</source>
         <translation>VIsite %1 para baixar isso.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6060"/>
+        <location filename="../basegui.cpp" line="6089"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Falha na execução do navegador do YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6090"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Tenha certeza de que foi instalado corretamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6227"/>
+        <location filename="../basegui.cpp" line="6256"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>O sistema mudou para o modo tablet. Deseja que o SMPlayer mude para o modo tablet também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6229"/>
+        <location filename="../basegui.cpp" line="6258"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>O sistema saiu do modo tablet. Deseja que o SMPlayer saia também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6233"/>
+        <location filename="../basegui.cpp" line="6262"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Lembre-se da minha decisão e não pergunte novamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4960"/>
+        <location filename="../basegui.cpp" line="4967"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>Devido às recentes alterações no Youtube, o vídeo %1 não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4966"/>
+        <location filename="../basegui.cpp" line="4973"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Gostaria de atualizar o código do Youtube? Isso pode consertar o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4974"/>
+        <location filename="../basegui.cpp" line="4981"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>Atualize o SMPlayer e tente novamente.</translation>
     </message>
@@ -1410,28 +1412,28 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Compartil&amp;he o SMPlayer com seus amigos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3241"/>
-        <location filename="../basegui.cpp" line="3980"/>
+        <location filename="../basegui.cpp" line="3243"/>
+        <location filename="../basegui.cpp" line="3982"/>
         <source>Information</source>
         <translation>Informação</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3242"/>
+        <location filename="../basegui.cpp" line="3244"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>Você precisa reiniciar o SMPlayer para usar a nova GUI</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3742"/>
+        <location filename="../basegui.cpp" line="3744"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Confirmar exclusão - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3743"/>
+        <location filename="../basegui.cpp" line="3745"/>
         <source>Delete the list of recent files?</source>
         <translation>Excluir a lista de arquivos recentes?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3981"/>
+        <location filename="../basegui.cpp" line="3983"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>Os valores atuais foram armazenados para serem usados como padrão</translation>
     </message>
@@ -1521,7 +1523,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>&amp;Opções da linha de comandos</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4429"/>
+        <location filename="../basegui.cpp" line="4436"/>
         <source>SMPlayer command line options</source>
         <translation>Opções da linha de comandos do SMPlayer</translation>
     </message>
@@ -1536,17 +1538,17 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Repor equalizador vídeo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5010"/>
+        <location filename="../basegui.cpp" line="5017"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>O servidor está &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5912"/>
+        <location filename="../basegui.cpp" line="5941"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5968"/>
+        <location filename="../basegui.cpp" line="5997"/>
         <source>See the log for more info.</source>
         <translation>Veja o registo para mais informações.</translation>
     </message>
@@ -1591,7 +1593,7 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Mostrar menu de contexto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4170"/>
+        <location filename="../basegui.cpp" line="4177"/>
         <source>Multimedia</source>
         <translation>Multimídia</translation>
     </message>
@@ -1668,22 +1670,22 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>&amp;Faixa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4859"/>
+        <location filename="../basegui.cpp" line="4866"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Aviso - Usando MPlayer antiquado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4860"/>
+        <location filename="../basegui.cpp" line="4867"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>A versão MPlayer (%1) instalada no sistema é obsoleta. O SMPlayer não funcionará corretamente: algumas opções não funcionam, legendas podem falhar...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4865"/>
+        <location filename="../basegui.cpp" line="4872"/>
         <source>Please, update your MPlayer.</source>
         <translation>Por favor, atualize o MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4867"/>
+        <location filename="../basegui.cpp" line="4874"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Este aviso não será apresentado novamente)</translation>
     </message>
@@ -1773,36 +1775,36 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Definir a&amp;traso...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4515"/>
+        <location filename="../basegui.cpp" line="4522"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Ir para:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4516"/>
+        <location filename="../basegui.cpp" line="4523"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Procurar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4527"/>
-        <location filename="../basegui.cpp" line="4531"/>
+        <location filename="../basegui.cpp" line="4534"/>
+        <location filename="../basegui.cpp" line="4538"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Atraso de Áudio </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4528"/>
-        <location filename="../basegui.cpp" line="4532"/>
+        <location filename="../basegui.cpp" line="4535"/>
+        <location filename="../basegui.cpp" line="4539"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Atraso de Áudio (em milisegundos):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4543"/>
-        <location filename="../basegui.cpp" line="4547"/>
+        <location filename="../basegui.cpp" line="4550"/>
+        <location filename="../basegui.cpp" line="4554"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Atraso de Legendas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4544"/>
-        <location filename="../basegui.cpp" line="4548"/>
+        <location filename="../basegui.cpp" line="4551"/>
+        <location filename="../basegui.cpp" line="4555"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Atraso de Legendas (em milisegundos):</translation>
     </message>
@@ -1812,8 +1814,8 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Ativar/Desativar fica no topo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5444"/>
-        <location filename="../basegui.cpp" line="5752"/>
+        <location filename="../basegui.cpp" line="5452"/>
+        <location filename="../basegui.cpp" line="5781"/>
         <source>Jump to %1</source>
         <translation>Ir para %1</translation>
     </message>
@@ -1967,122 +1969,122 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Envi&amp;ar áudio para</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="337"/>
+        <location filename="../baseguiplus.cpp" line="335"/>
         <source>&amp;Hide</source>
         <translation>&amp;Ocultar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="339"/>
+        <location filename="../baseguiplus.cpp" line="337"/>
         <source>&amp;Restore</source>
         <translation>&amp;Restaurar</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="782"/>
+        <location filename="../baseguiplus.cpp" line="780"/>
         <source>Information about connected screens</source>
         <translation>Informações sobre telas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="785"/>
+        <location filename="../baseguiplus.cpp" line="783"/>
         <source>Connected screens</source>
         <translation>Telas conectadas</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="788"/>
-        <location filename="../baseguiplus.cpp" line="830"/>
+        <location filename="../baseguiplus.cpp" line="786"/>
+        <location filename="../baseguiplus.cpp" line="828"/>
         <source>Number of screens: %1</source>
         <translation>Número de telas: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="793"/>
-        <location filename="../baseguiplus.cpp" line="831"/>
+        <location filename="../baseguiplus.cpp" line="791"/>
+        <location filename="../baseguiplus.cpp" line="829"/>
         <source>Primary screen: %1</source>
         <translation>Tela primária: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="801"/>
-        <location filename="../baseguiplus.cpp" line="835"/>
+        <location filename="../baseguiplus.cpp" line="799"/>
+        <location filename="../baseguiplus.cpp" line="833"/>
         <source>Information for screen %1</source>
         <translation>Informações sobre a tela %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="803"/>
-        <location filename="../baseguiplus.cpp" line="837"/>
+        <location filename="../baseguiplus.cpp" line="801"/>
+        <location filename="../baseguiplus.cpp" line="835"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
         <translation>Geometria disponível: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="805"/>
+        <location filename="../baseguiplus.cpp" line="803"/>
         <source>Available size: %1 x %2</source>
         <translation>Tamanho disponível: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="806"/>
+        <location filename="../baseguiplus.cpp" line="804"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria virtual disponível: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="810"/>
+        <location filename="../baseguiplus.cpp" line="808"/>
         <source>Available virtual size: %1 x %2</source>
         <translation>Tamanho virtual disponível: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="812"/>
+        <location filename="../baseguiplus.cpp" line="810"/>
         <source>Depth: %1 bits</source>
         <translation>Profundidade: %1 bits</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="813"/>
-        <location filename="../baseguiplus.cpp" line="839"/>
+        <location filename="../baseguiplus.cpp" line="811"/>
+        <location filename="../baseguiplus.cpp" line="837"/>
         <source>Geometry: %1 %2 %3 x %4</source>
         <translation>Geometria: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="815"/>
+        <location filename="../baseguiplus.cpp" line="813"/>
         <source>Logical DPI: %1</source>
         <translation>DPI lógico: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="817"/>
+        <location filename="../baseguiplus.cpp" line="815"/>
         <source>Physical DPI: %1</source>
         <translation>DPI físico: %1</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="818"/>
+        <location filename="../baseguiplus.cpp" line="816"/>
         <source>Physical size: %1 x %2 mm</source>
         <translation>Tamanho físico: %1 x %2 mm</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="820"/>
+        <location filename="../baseguiplus.cpp" line="818"/>
         <source>Refresh rate: %1 Hz</source>
         <translation>Taxa de atualização: %1 Hz</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="821"/>
+        <location filename="../baseguiplus.cpp" line="819"/>
         <source>Size: %1 x %2</source>
         <translation>Tamanho: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="822"/>
+        <location filename="../baseguiplus.cpp" line="820"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
         <translation>Geometria virtual: %1 %2 %3 x %4</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="824"/>
+        <location filename="../baseguiplus.cpp" line="822"/>
         <source>Virtual size: %1 x %2</source>
         <translation>Tamanho virtual: %1 x %2</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="877"/>
+        <location filename="../baseguiplus.cpp" line="875"/>
         <source>Primary screen</source>
         <translation>Tela primária</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="943"/>
+        <location filename="../baseguiplus.cpp" line="941"/>
         <source>SMPlayer external screen output</source>
         <translation>Saída para tela externa do SMPlayer</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="989"/>
+        <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
         <translation>&amp;Dispositivo de áudio padrão</translation>
     </message>
@@ -2092,9 +2094,8 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>&amp;Sair</translation>
     </message>
     <message>
-        <location filename="../baseguiplus.cpp" line="311"/>
         <source>Playlist</source>
-        <translation>Lista de reprodução</translation>
+        <translation type="obsolete">Lista de reprodução</translation>
     </message>
 </context>
 <context>
@@ -2172,68 +2173,68 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3052"/>
+        <location filename="../core.cpp" line="3053"/>
         <source>Brightness: %1</source>
         <translation>Brilho: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3068"/>
+        <location filename="../core.cpp" line="3069"/>
         <source>Contrast: %1</source>
         <translation>Contraste: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3083"/>
+        <location filename="../core.cpp" line="3084"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3098"/>
+        <location filename="../core.cpp" line="3099"/>
         <source>Hue: %1</source>
         <translation>Tonalidade: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3113"/>
+        <location filename="../core.cpp" line="3114"/>
         <source>Saturation: %1</source>
         <translation>Saturação: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3256"/>
+        <location filename="../core.cpp" line="3257"/>
         <source>Volume: %1</source>
         <translation>Volume: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4145"/>
+        <location filename="../core.cpp" line="4153"/>
         <source>Zoom: %1</source>
         <translation>Zoom: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3384"/>
-        <location filename="../core.cpp" line="3395"/>
+        <location filename="../core.cpp" line="3385"/>
+        <location filename="../core.cpp" line="3396"/>
         <source>Font scale: %1</source>
         <translation>Escala de fontes:%1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3978"/>
+        <location filename="../core.cpp" line="3986"/>
         <source>Aspect ratio: %1</source>
         <translation>Tamanho de vídeo : %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4371"/>
+        <location filename="../core.cpp" line="4379"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Actualizando cache de fontes. Pode demorar alguns segundos...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3309"/>
+        <location filename="../core.cpp" line="3310"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Atraso de legendas : %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3327"/>
+        <location filename="../core.cpp" line="3328"/>
         <source>Audio delay: %1 ms</source>
         <translation>Atraso de áudio : %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3167"/>
+        <location filename="../core.cpp" line="3168"/>
         <source>Speed: %1</source>
         <translation>Velocidade: %1</translation>
     </message>
@@ -2248,42 +2249,42 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Não foi possível localizar a URL do vídeo</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3472"/>
+        <location filename="../core.cpp" line="3473"/>
         <source>Subtitles on</source>
         <translation>Ativar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3474"/>
+        <location filename="../core.cpp" line="3475"/>
         <source>Subtitles off</source>
         <translation>Desativar legendas</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4026"/>
+        <location filename="../core.cpp" line="4034"/>
         <source>Mouse wheel seeks now</source>
         <translation>Agora, a procura é com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4029"/>
+        <location filename="../core.cpp" line="4037"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Agora, altera o volume com a roda</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4032"/>
+        <location filename="../core.cpp" line="4040"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Agora, altera o nível de zoom com a roda </translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4035"/>
+        <location filename="../core.cpp" line="4043"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Agora, altera a velocidade com a roda </translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4347"/>
+        <location filename="../core.cpp" line="4355"/>
         <source>Screenshot saved as %1</source>
         <translation>Captura de tela salva como %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4382"/>
+        <location filename="../core.cpp" line="4390"/>
         <source>Starting...</source>
         <translation>Iniciando...</translation>
     </message>
@@ -2298,17 +2299,17 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Não tirou fotografias da tela, pasta não configurada</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2696"/>
+        <location filename="../core.cpp" line="2697"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>Marcador &quot;A&quot; definido para %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2718"/>
+        <location filename="../core.cpp" line="2719"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>Marcador &quot;B&quot; definido para %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2738"/>
+        <location filename="../core.cpp" line="2739"/>
         <source>A-B markers cleared</source>
         <translation>Limpeza de marcadores A-B concluída</translation>
     </message>
@@ -2321,87 +2322,87 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
 <context>
     <name>DefaultGui</name>
     <message>
-        <location filename="../defaultgui.cpp" line="682"/>
+        <location filename="../defaultgui.cpp" line="683"/>
         <source>Audio</source>
         <translation>Áudio</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="683"/>
+        <location filename="../defaultgui.cpp" line="684"/>
         <source>Subtitle</source>
         <translation>Legenda</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="675"/>
+        <location filename="../defaultgui.cpp" line="676"/>
         <source>&amp;Main toolbar</source>
         <translation>Barra &amp;principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="679"/>
+        <location filename="../defaultgui.cpp" line="680"/>
         <source>&amp;Language toolbar</source>
         <translation>Barra de &amp;idioma</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="669"/>
+        <location filename="../defaultgui.cpp" line="670"/>
         <source>&amp;Toolbars</source>
         <translation>&amp;Barra de ferramentas</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="649"/>
+        <location filename="../defaultgui.cpp" line="650"/>
         <source>Ready</source>
         <translation>Pronto</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="688"/>
+        <location filename="../defaultgui.cpp" line="689"/>
         <source>F&amp;ormat info</source>
         <translation>Informações sobre o f&amp;ormato</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="711"/>
+        <location filename="../defaultgui.cpp" line="712"/>
         <source>A:%1</source>
         <translation>A:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="715"/>
+        <location filename="../defaultgui.cpp" line="716"/>
         <source>B:%1</source>
         <translation>B:%1</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="672"/>
+        <location filename="../defaultgui.cpp" line="673"/>
         <source>Status&amp;bar</source>
         <translation>&amp;Barra de estado</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="686"/>
+        <location filename="../defaultgui.cpp" line="687"/>
         <source>&amp;Video info</source>
         <translation>Info de &amp;Vídeo</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="687"/>
+        <location filename="../defaultgui.cpp" line="688"/>
         <source>&amp;Frame counter</source>
         <translation>Contador de &amp;quadros</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="691"/>
+        <location filename="../defaultgui.cpp" line="692"/>
         <source>Edit main &amp;toolbar</source>
         <translation>Editar barra de ferramen&amp;tas principal</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="692"/>
+        <location filename="../defaultgui.cpp" line="693"/>
         <source>Edit &amp;control bar</source>
         <translation>Editar a barra de &amp;controle</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="693"/>
+        <location filename="../defaultgui.cpp" line="694"/>
         <source>Edit m&amp;ini control bar</source>
         <translation>Editar a mi&amp;nibarra de controle</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="694"/>
+        <location filename="../defaultgui.cpp" line="695"/>
         <source>Edit &amp;floating control</source>
         <translation>Editar o controle &amp;flutuante</translation>
     </message>
     <message>
-        <location filename="../defaultgui.cpp" line="725"/>
+        <location filename="../defaultgui.cpp" line="726"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
         <translation>%1x%2 %3 fps</translation>
@@ -2885,7 +2886,10 @@ Exemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n legenda(s) extraída</numerusform><numerusform>%n legenda(s) extraída</numerusform></translation>
+        <translation>
+            <numerusform>%n legenda(s) extraída</numerusform>
+            <numerusform>%n legenda(s) extraída</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2983,7 +2987,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o arquivo transferido
@@ -3372,7 +3376,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Arabic</source>
         <translation>Árabe</translation>
     </message>
@@ -3398,7 +3402,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="325"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Bulgarian</source>
         <translation>Búlgaro</translation>
     </message>
@@ -3439,7 +3443,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Czech</source>
         <translation>Checo</translation>
     </message>
@@ -3483,7 +3487,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Estonian</source>
         <translation>Estónio</translation>
     </message>
@@ -3556,13 +3560,13 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Croatian</source>
         <translation>Croata</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Hungarian</source>
         <translation>Húngaro</translation>
     </message>
@@ -3665,13 +3669,13 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Lithuanian</source>
         <translation>Lituano</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Latvian</source>
         <translation>Letão</translation>
     </message>
@@ -3764,7 +3768,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Polish</source>
         <translation>Polaco</translation>
     </message>
@@ -3787,8 +3791,8 @@ Verifique as permissões de escrita nessa pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="306"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Russian</source>
         <translation>Russo</translation>
     </message>
@@ -3809,7 +3813,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Slovak</source>
         <translation>Eslovaco</translation>
     </message>
@@ -3896,7 +3900,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Turkish</source>
         <translation>Turco</translation>
     </message>
@@ -3922,7 +3926,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Ukrainian</source>
         <translation>Ucraniano</translation>
     </message>
@@ -3969,7 +3973,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Chinese</source>
         <translation>Chinês</translation>
     </message>
@@ -3984,112 +3988,112 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <translation>Árabe - Síria</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="291"/>
+        <location filename="../languages.cpp" line="292"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>Western European Languages</source>
         <translation>Ocidental</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages with Euro</source>
         <translation>Ocidental com euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Slavic/Central European Languages</source>
         <translation>Eslavo/Centro-Europeu</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galego, Maltês, Turco</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Old Baltic charset</source>
         <translation>Báltico antigo</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Cyrillic</source>
         <translation>Cirílico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Modern Greek</source>
         <translation>Grego moderno</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Baltic</source>
         <translation>Báltico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Celtic</source>
         <translation>Céltico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>South-Eastern European</source>
         <translation>Sudeste europeu</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>Hebrew charsets</source>
         <translation>Hebreu</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="307"/>
+        <location filename="../languages.cpp" line="308"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ucraniano, Bielo-Russo</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="309"/>
         <source>Simplified Chinese charset</source>
         <translation>Chinês simplificado</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Traditional Chinese charset</source>
         <translation>Chinês tradicional</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Japanese charsets</source>
         <translation>Japonês</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Korean charset</source>
         <translation>Coreano</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Thai charset</source>
         <translation>Thai</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Cyrillic Windows</source>
         <translation>Windows cirílico</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Slavic/Central European Windows</source>
         <translation>Eslavo/Centro-Europeu Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Arabic Windows</source>
         <translation>Windows Arábico</translation>
     </message>
@@ -4115,7 +4119,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="324"/>
+        <location filename="../languages.cpp" line="325"/>
         <source>Belarusian</source>
         <translation>Bielorusso</translation>
     </message>
@@ -4377,7 +4381,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Slovene</source>
         <translation>Esloveno</translation>
     </message>
@@ -4417,7 +4421,7 @@ Verifique as permissões de escrita nessa pasta.</translation>
         <translation>Walloon</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Modern Greek Windows</source>
         <translation>Grego Moderno, Windows</translation>
     </message>
@@ -4607,268 +4611,290 @@ Deseja substituí-lo?</translation>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="585"/>
+        <location filename="../playlist.cpp" line="623"/>
         <source>Name</source>
         <translation>Nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="585"/>
+        <location filename="../playlist.cpp" line="623"/>
         <source>Length</source>
         <translation>Duração</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="594"/>
+        <location filename="../playlist.cpp" line="633"/>
         <source>&amp;Play</source>
         <translation>&amp;Reproduzir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="629"/>
+        <location filename="../playlist.cpp" line="668"/>
         <source>&amp;Edit</source>
         <translation>&amp;Editar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1170"/>
-        <location filename="../playlist.cpp" line="1196"/>
+        <location filename="../playlist.cpp" line="1224"/>
+        <location filename="../playlist.cpp" line="1260"/>
         <source>Playlists</source>
         <translation>Listas de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1168"/>
+        <location filename="../playlist.cpp" line="1222"/>
         <source>Choose a file</source>
         <translation>Escolha um arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1194"/>
+        <location filename="../playlist.cpp" line="1258"/>
         <source>Choose a filename</source>
         <translation>Escolha um nome de arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1205"/>
+        <location filename="../playlist.cpp" line="1270"/>
         <source>Confirm overwrite?</source>
         <translation>Confirma substituição?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1206"/>
+        <location filename="../playlist.cpp" line="1271"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>O arquivo %1 já existe.
 Deseja substituí-lo?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1170"/>
-        <location filename="../playlist.cpp" line="1196"/>
-        <location filename="../playlist.cpp" line="1410"/>
+        <location filename="../playlist.cpp" line="1224"/>
+        <location filename="../playlist.cpp" line="1260"/>
+        <location filename="../playlist.cpp" line="1483"/>
         <source>All files</source>
         <translation>Todos os arquivos</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1407"/>
+        <location filename="../playlist.cpp" line="335"/>
+        <source>Untitled playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="625"/>
+        <source>&amp;Load...</source>
+        <translation type="unfinished">&amp;Carregar...</translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="627"/>
+        <source>Load playlist from &amp;URL...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="672"/>
+        <source>Load/Save</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="1480"/>
         <source>Select one or more files to open</source>
         <translation>Selecione um ou mais arquivos para abrir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1474"/>
+        <location filename="../playlist.cpp" line="1550"/>
         <source>Choose a directory</source>
         <translation>Escolha uma pasta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1662"/>
+        <location filename="../playlist.cpp" line="1745"/>
         <source>Edit name</source>
         <translation>Editar nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1663"/>
+        <location filename="../playlist.cpp" line="1746"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Escreva o nome que este arquivo terá na lista de reprodução:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="587"/>
         <source>&amp;Load</source>
-        <translation>&amp;Carregar</translation>
+        <translation type="obsolete">&amp;Carregar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="585"/>
+        <location filename="../playlist.cpp" line="623"/>
         <source>Filename / URL</source>
         <translation>Arquivo / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="589"/>
         <source>&amp;Open URL</source>
-        <translation>A&amp;brir URL</translation>
+        <translation type="obsolete">A&amp;brir URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="590"/>
+        <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
         <translation>Baixar a lista de reprodução da URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="592"/>
+        <location filename="../playlist.cpp" line="630"/>
         <source>&amp;Save</source>
         <translation>&amp;Guardar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="596"/>
+        <location filename="../playlist.cpp" line="631"/>
+        <source>Save &amp;as...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../playlist.cpp" line="635"/>
         <source>&amp;Next</source>
         <translation>&amp;Seguinte</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="597"/>
+        <location filename="../playlist.cpp" line="636"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;Anterior</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="603"/>
+        <location filename="../playlist.cpp" line="642"/>
         <source>Move &amp;up</source>
         <translation>Para &amp;cima</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="604"/>
+        <location filename="../playlist.cpp" line="643"/>
         <source>Move &amp;down</source>
         <translation>Para &amp;baixo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="606"/>
+        <location filename="../playlist.cpp" line="645"/>
         <source>&amp;Repeat</source>
         <translation>&amp;Repetir</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="607"/>
+        <location filename="../playlist.cpp" line="646"/>
         <source>S&amp;huffle</source>
         <translation>A&amp;leatório</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="610"/>
+        <location filename="../playlist.cpp" line="649"/>
         <source>Add &amp;current file</source>
         <translation>Adicionar arquivo a&amp;ctual</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="611"/>
+        <location filename="../playlist.cpp" line="650"/>
         <source>Add &amp;file(s)</source>
         <translation>Adicionar &amp;arquivo(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="612"/>
+        <location filename="../playlist.cpp" line="651"/>
         <source>Add &amp;directory</source>
         <translation>Adicionar &amp;pasta</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="613"/>
+        <location filename="../playlist.cpp" line="652"/>
         <source>Add &amp;URL(s)</source>
         <translation>Adicionar &amp;URL(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="616"/>
+        <location filename="../playlist.cpp" line="655"/>
         <source>Remove &amp;selected</source>
         <translation>Remover &amp;seleção</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="617"/>
+        <location filename="../playlist.cpp" line="656"/>
         <source>Remove &amp;all</source>
         <translation>Remover &amp;tudo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="619"/>
+        <location filename="../playlist.cpp" line="658"/>
         <source>&amp;Delete file from disk</source>
         <translation>&amp;Deletar o arquivo no HD</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="621"/>
-        <location filename="../playlist.cpp" line="639"/>
+        <location filename="../playlist.cpp" line="660"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Search</source>
         <translation>Busca</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="623"/>
+        <location filename="../playlist.cpp" line="662"/>
         <source>Show position column</source>
         <translation>Exibir a coluna posição</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="624"/>
+        <location filename="../playlist.cpp" line="663"/>
         <source>Show name column</source>
         <translation>Exibir a coluna nome</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="625"/>
+        <location filename="../playlist.cpp" line="664"/>
         <source>Show length column</source>
         <translation>Exibir a coluna duração</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="626"/>
+        <location filename="../playlist.cpp" line="665"/>
         <source>Show filename column</source>
         <translation>Exibir a coluna nome do arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="644"/>
         <source>SMPlayer - Playlist</source>
-        <translation>SMPlayer - Lista de reprodução</translation>
+        <translation type="obsolete">SMPlayer - Lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1697"/>
+        <location filename="../playlist.cpp" line="1780"/>
         <source>Confirm deletion</source>
         <translation>Confirmar deleção</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1698"/>
+        <location filename="../playlist.cpp" line="1781"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Você está prestes a DELETAR o arquivo &apos;%1&apos; do seu HD.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1699"/>
+        <location filename="../playlist.cpp" line="1782"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Essa ação não pode ser desfeita. Tem certeza que deseja continuar?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1717"/>
+        <location filename="../playlist.cpp" line="1800"/>
         <source>Deletion failed</source>
         <translation>Falha ao deletar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1718"/>
+        <location filename="../playlist.cpp" line="1801"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Não foi possível deletar &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1723"/>
+        <location filename="../playlist.cpp" line="1806"/>
         <source>Error deleting the file</source>
         <translation>Erro ao deletar o arquivo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1724"/>
+        <location filename="../playlist.cpp" line="1807"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Não foi possível deletar o arquivo &apos;%1&apos; do sistema de arquivos.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2042"/>
+        <location filename="../playlist.cpp" line="2160"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Não foi possível carregar essa lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2042"/>
+        <location filename="../playlist.cpp" line="2160"/>
         <source>Unrecognized format.</source>
         <translation>Formato não reconhecido.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="633"/>
+        <location filename="../playlist.cpp" line="674"/>
         <source>Add...</source>
         <translation>Adicionar...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="635"/>
+        <location filename="../playlist.cpp" line="676"/>
         <source>Remove...</source>
         <translation>Remover...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1238"/>
+        <location filename="../playlist.cpp" line="1303"/>
         <source>Playlist modified</source>
         <translation>Lista de reprodução modificada</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1239"/>
+        <location filename="../playlist.cpp" line="1304"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Existem alterações por gravar, deseja guardar a lista de reprodução?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1409"/>
+        <location filename="../playlist.cpp" line="1482"/>
         <source>Multimedia</source>
         <translation>Multimídia</translation>
     </message>
@@ -5486,8 +5512,8 @@ Deseja substituí-lo?</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="130"/>
-        <location filename="../prefgeneral.cpp" line="952"/>
+        <location filename="../prefgeneral.cpp" line="133"/>
+        <location filename="../prefgeneral.cpp" line="963"/>
         <source>General</source>
         <translation>Geral</translation>
     </message>
@@ -5502,244 +5528,244 @@ Deseja substituí-lo?</translation>
         <translation>Definições de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Start videos in fullscreen</source>
         <translation>Iniciar vídeos em modo de tela cheia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1115"/>
+        <location filename="../prefgeneral.cpp" line="1126"/>
         <source>Disable screensaver</source>
         <translation>Desativar proteção de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="152"/>
+        <location filename="../prefgeneral.cpp" line="155"/>
         <source>7 (6.1 Surround)</source>
         <translation>7 (6.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="153"/>
+        <location filename="../prefgeneral.cpp" line="156"/>
         <source>8 (7.1 Surround)</source>
         <translation>8 (7.1 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="179"/>
+        <location filename="../prefgeneral.cpp" line="182"/>
         <source>Select the %1 executable</source>
         <translation>Selecione o executável do %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="181"/>
+        <location filename="../prefgeneral.cpp" line="184"/>
         <source>Executables</source>
         <translation>Executáveis</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="183"/>
+        <location filename="../prefgeneral.cpp" line="186"/>
         <source>All files</source>
         <translation>Todos os arquivos</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="185"/>
+        <location filename="../prefgeneral.cpp" line="188"/>
         <source>Select a directory</source>
         <translation>Selecione um pasta</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="198"/>
+        <location filename="../prefgeneral.cpp" line="201"/>
         <source>%1 &amp;executable:</source>
         <translation>&amp;Executável do %1:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="378"/>
-        <location filename="../prefgeneral.cpp" line="379"/>
+        <location filename="../prefgeneral.cpp" line="381"/>
+        <location filename="../prefgeneral.cpp" line="382"/>
         <source>Default</source>
         <translation>Padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="955"/>
+        <location filename="../prefgeneral.cpp" line="966"/>
         <source>Multimedia engine</source>
         <translation>Motor multimídia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="956"/>
+        <location filename="../prefgeneral.cpp" line="967"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Selecione qual motor multimídia deseja usar, se MPlayer ou mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="957"/>
+        <location filename="../prefgeneral.cpp" line="968"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>A opção &apos;outro&apos; lhe permite selecionar manualmente o caminho do executável.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="960"/>
+        <location filename="../prefgeneral.cpp" line="971"/>
         <source>%1 executable</source>
         <translation>Executável do %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="961"/>
+        <location filename="../prefgeneral.cpp" line="972"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Aqui você deve especificar o executável do %1 que o SMPlayer usará.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="976"/>
+        <location filename="../prefgeneral.cpp" line="987"/>
         <source>Remember settings for streams</source>
         <translation>Lembrar definições para transmissões</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="977"/>
+        <location filename="../prefgeneral.cpp" line="988"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>Ativando essa opção, as configurações para transmissões online também serão guardadas.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="992"/>
+        <location filename="../prefgeneral.cpp" line="1003"/>
         <source>Screenshots folder</source>
         <translation>Pasta para capturas de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="998"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>Template for screenshots</source>
         <translation>Template para capturas de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>Por exemplo: %1 salvará a captura da imagem como &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1001"/>
+        <location filename="../prefgeneral.cpp" line="1012"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 especifica o nome do vídeo sem a extensão, %2 adiciona um número com 4 dígitos iniciando com zeros.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1011"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>Format for screenshots</source>
         <translation>Formato das capturas de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1012"/>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Essa opção lhe permite escolher o tipo de arquivo de imagem usado para salvar as capturas de tela.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1041"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Habilitando essa opção, o computador será desligado assim que o SMPlayer for fechado.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>Video output driver</source>
         <translation>Controlador de saída vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1048"/>
         <source>Select the video output driver.</source>
         <translation>Selecione o driver de vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1124"/>
+        <location filename="../prefgeneral.cpp" line="1135"/>
         <source>Audio output driver</source>
         <translation>Controlador de saída áudio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1136"/>
         <source>Select the audio output driver.</source>
         <translation>Selecione o controlador de saída áudio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="966"/>
+        <location filename="../prefgeneral.cpp" line="977"/>
         <source>Remember settings</source>
         <translation>Lembrar definições</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Preferred audio language</source>
         <translation>Idioma preferido para áudio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1193"/>
+        <location filename="../prefgeneral.cpp" line="1204"/>
         <source>Preferred subtitle language</source>
         <translation>Idioma preferido para legendas </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1064"/>
+        <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Software video equalizer</source>
         <translation>Equalizador de vídeo por software</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="145"/>
+        <location filename="../prefgeneral.cpp" line="148"/>
         <source>Other...</source>
         <translation>Outro...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="999"/>
+        <location filename="../prefgeneral.cpp" line="1010"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Essa opção especifica o modelo de nome usado para salvar as capturas de imagem.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1003"/>
+        <location filename="../prefgeneral.cpp" line="1014"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>Visite esse link para obter uma lista completa dos modelos:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1007"/>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="1018"/>
+        <location filename="../prefgeneral.cpp" line="1025"/>
         <source>This option only works with mpv.</source>
         <translation>Essa opção só funciona com o MPV.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1029"/>
+        <location filename="../prefgeneral.cpp" line="1040"/>
         <source>Shut down computer</source>
         <translation>Desligar o computador</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1065"/>
+        <location filename="../prefgeneral.cpp" line="1076"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Pode marcar esta opção se o equalizador de vídeo não for suportado pela sua placa gráfica ou controlador de vídeo.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; esta opção poder ser incompatível com alguns controladores de saída vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1098"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Se selecionar esta opção, todos os vídeos serão iniciados no modo de tela cheia.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1130"/>
+        <location filename="../prefgeneral.cpp" line="1141"/>
         <source>Global audio equalizer</source>
         <translation>Equalizador de áudio global</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1131"/>
+        <location filename="../prefgeneral.cpp" line="1142"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Se essa opção estiver marcada, todos os arquivos de mídia compartilham os mesmos níveis do equalizador de áudio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1132"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Se não estiver marcada, os níveis do equalizador de áudio são salvos junto com cada arquivo e recarregados quando o arquivo for reproduzido.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1152"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Pede o número de canais de reprodução. O %1 tentará decodificar o áudio no número de canais especificados. Depois, depende do decodificador preencher o requisito. Isto só será importante ao reproduzir vídeos com áudio AC3 (como DVDs). Nestes casos, a liba52 decodificará e corrigirá o áudio no número de canais especificados. &lt;b&gt;Nota&lt;/b&gt;: Esta opção apenas atuará nos codificadores (apenas AC3), filtros (surround) e drivers de saída áudio (OSS, pelo menos).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1152"/>
+        <location filename="../prefgeneral.cpp" line="1163"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Permite alterar a velocidade de reprodução sem alterar a frequência.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1160"/>
+        <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Software volume control</source>
         <translation>Controle de volume por software</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1161"/>
+        <location filename="../prefgeneral.cpp" line="1172"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Selecione esta opção para utilizar o misturador por software, em vez de utilizar o misturador da placa de som.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1050"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>Postprocessing quality</source>
         <translation>Qualidade Pós-processamento</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1062"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Altera dinâmicamente o nível de pós-processamento dependendo do tempo de CPU disponível. O número especificado é o nível máximo a utilizar. Normalmente pode escolher um número elevado.</translation>
     </message>
@@ -5819,12 +5845,12 @@ Deseja substituí-lo?</translation>
         <translation>&amp;AC3/DTS com passagem S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1070"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Direct rendering</source>
         <translation>Processamento direto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1075"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Double buffering</source>
         <translation>Buffer duplo</translation>
     </message>
@@ -5839,7 +5865,7 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Buffer duplo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>O buffer duplo armazena dois quadros na memória e mostra um enquanto decodifica o outro. Se desativado, pode afetar negativamente o OSD.</translation>
     </message>
@@ -5854,27 +5880,27 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Normalização de volume por padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1035"/>
         <source>Close when finished</source>
         <translation>Fechar ao terminar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="1036"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Se selecionar esta opção, a janela principal será automaticamente fechada ao terminar o arquivo/lista de reprodução atual.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="149"/>
+        <location filename="../prefgeneral.cpp" line="152"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="150"/>
+        <location filename="../prefgeneral.cpp" line="153"/>
         <source>4 (4.0 Surround)</source>
         <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="151"/>
+        <location filename="../prefgeneral.cpp" line="154"/>
         <source>6 (5.1 Surround)</source>
         <translation>6 (5.1 Surround)</translation>
     </message>
@@ -5889,67 +5915,67 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Pausar ao minimizar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>Pause when minimized</source>
         <translation>Pausar ao minimizar</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>Enable postprocessing by default</source>
         <translation>Ativar pós-processamento por padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1164"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Max. Amplification</source>
         <translation>Max. Amplificação</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1135"/>
+        <location filename="../prefgeneral.cpp" line="1146"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS com passagem S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1171"/>
+        <location filename="../prefgeneral.cpp" line="1182"/>
         <source>Volume normalization by default</source>
         <translation>Normalização de volume por padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1172"/>
+        <location filename="../prefgeneral.cpp" line="1183"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maximiza o volume  sem distorcer o som.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1151"/>
         <source>Channels by default</source>
         <translation>Canais padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1165"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Define a amplificação máxima em percentagem (padrão: 110). Um valor de 200 lhe permitirá ajustar o volume para um valor que, no máximo, será o dobro do atual. Para valores inferiores a 100, o volume inicial (que é 100%) ficará abaixo do máximo e pode não ser exibido corretamente.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1048"/>
+        <location filename="../prefgeneral.cpp" line="1059"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Pós-processamento será usado por padrão em novos arquivos.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1203"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Audio track</source>
         <translation>Faixas áudio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1204"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Especifica as faixas áudio a serem usadas ao reproduzir novos arquivos. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a opção &lt;i&gt;&quot;Idioma preferencial de áudio&quot;&lt;/i&gt; tem prioridade sobre a primeira.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1209"/>
+        <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Subtitle track</source>
         <translation>Faixa de legendas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1221"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Especifica as faixas de legendas a serem usadas ao reproduzir novos arquivos. Se a faixa não existir, será usada a primeira.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; a opção &lt;i&gt;&quot;Idioma preferencial de legendas&quot;&lt;/i&gt; tem prioridade sobre esta.</translation>
     </message>
@@ -5979,7 +6005,7 @@ Deseja substituí-lo?</translation>
         <translation>Legenda&amp;s:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="188"/>
+        <location filename="../prefgeneral.cpp" line="191"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aqui pode introduzir o idioma preferencial para as transmissões de áudio e de legendas. Quando um arquivo com múltiplas legendas ou áudio for encontrado, o SMPlayer irá tentar usar o seu idioma preferido. Isto apenas funciona com arquivos que ofereçam informação sobre os idiomas ou legendas, como os DVDs ou MKVs.&lt;br&gt;Estes arquivos aceitam expressões regulares. Exemplo: Se inserir &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as faixas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
@@ -5989,7 +6015,7 @@ Deseja substituí-lo?</translation>
         <translation>Re&amp;produzir em alta velocidade sem alterar a densidade</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>High speed playback without altering pitch</source>
         <translation>Reproduzir em alta velocidade sem alterar a densidade</translation>
     </message>
@@ -6014,62 +6040,62 @@ Deseja substituí-lo?</translation>
         <translation>Volume</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>Video</source>
         <translation>Vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1122"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Audio</source>
         <translation>Áudio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1181"/>
+        <location filename="../prefgeneral.cpp" line="1192"/>
         <source>Preferred audio and subtitles</source>
         <translation>Áudio e legendas preferidas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="157"/>
+        <location filename="../prefgeneral.cpp" line="160"/>
         <source>None</source>
         <translation>Nenhum</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="158"/>
+        <location filename="../prefgeneral.cpp" line="161"/>
         <source>Lowpass5</source>
         <translation>Lowpass5</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="159"/>
+        <location filename="../prefgeneral.cpp" line="162"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (normal)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="160"/>
+        <location filename="../prefgeneral.cpp" line="163"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (taxa dupla)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="161"/>
+        <location filename="../prefgeneral.cpp" line="164"/>
         <source>Linear Blend</source>
         <translation>Mistura linear</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="162"/>
+        <location filename="../prefgeneral.cpp" line="165"/>
         <source>Kerndeint</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>Deinterlace by default</source>
         <translation>Desentrelaçar por padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1056"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Selecione o filtro a usar para desentrelaçar novos vídeos.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="971"/>
+        <location filename="../prefgeneral.cpp" line="982"/>
         <source>Remember time position</source>
         <translation>Lembrar posição temporal</translation>
     </message>
@@ -6079,12 +6105,12 @@ Deseja substituí-lo?</translation>
         <translation>Lembrar posição &amp;temporal</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Enable the audio equalizer</source>
         <translation>Ativar equalizador áudio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1128"/>
+        <location filename="../prefgeneral.cpp" line="1139"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Selecione esta opção para usar o equalizador áudio.</translation>
     </message>
@@ -6094,12 +6120,12 @@ Deseja substituí-lo?</translation>
         <translation>Ativar &amp;equalizador áudio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1080"/>
+        <location filename="../prefgeneral.cpp" line="1091"/>
         <source>Draw video using slices</source>
         <translation>Criar vídeo em partes</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Ativar/Desativar criação de vídeo em partes de 16 pixeis. Se desativado, todo o quadro será criada de uma só vez. A velocidade vai depender da placa de vídeo e cache disponível. Afeta apenas os codecs libmpeg2 e libavcodec.</translation>
     </message>
@@ -6114,36 +6140,36 @@ Deseja substituí-lo?</translation>
         <translation>Fe&amp;char ao terminar de reproduzir</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="386"/>
-        <location filename="../prefgeneral.cpp" line="393"/>
-        <location filename="../prefgeneral.cpp" line="419"/>
+        <location filename="../prefgeneral.cpp" line="389"/>
+        <location filename="../prefgeneral.cpp" line="396"/>
+        <location filename="../prefgeneral.cpp" line="422"/>
         <source>fast</source>
         <translation>rápido</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="387"/>
-        <location filename="../prefgeneral.cpp" line="415"/>
+        <location filename="../prefgeneral.cpp" line="390"/>
+        <location filename="../prefgeneral.cpp" line="418"/>
         <source>slow</source>
         <translation>lento</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="420"/>
+        <location filename="../prefgeneral.cpp" line="423"/>
         <source>fast - ATI cards</source>
         <translation>rápido - placas ATI</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="442"/>
-        <location filename="../prefgeneral.cpp" line="471"/>
+        <location filename="../prefgeneral.cpp" line="445"/>
+        <location filename="../prefgeneral.cpp" line="482"/>
         <source>User defined...</source>
         <translation>Definido pelo utilizador...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1071"/>
         <source>Default zoom</source>
         <translation>Zoom por padrão</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1072"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Esta opção define o zoom por padrão para os novos vídeos.</translation>
     </message>
@@ -6153,32 +6179,32 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Zoom por padrão:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="963"/>
+        <location filename="../prefgeneral.cpp" line="974"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Se esta definição estiver errada, o SMPlayer não reproduzirá nada!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="967"/>
+        <location filename="../prefgeneral.cpp" line="978"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Normalmente o SMPlayer irá lembrar-se das definições para cada arquivo que reproduza (faixa áudio, volume, filtros...). Desactive esta opção se não gostar desta funcionalidade.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1020"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Se esta opção estiver ativa, o arquivo será pausado ao esconder a janela principal. Quando restaurar a janela, a reprodução continuará.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1116"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Selecione esta opção para desativar a proteção de tela ao reproduzir.&lt;br&gt;A proteção de tela será reactivada ao terminar a reprodução.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1195"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aqui pode introduzir o idioma preferido para as transmissões áudio. Quando um vídeo com múltiplas transmissões de áudio é encontrado, o SMPlayer irá tentar usar o seu idioma preferido.&lt;br&gt;Isto apenas funciona com arquivos que ofereçam informação acerca do idioma das transmissões áudio, tais como DVDs ou arquivos mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as faixas de áudios que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Aqui pode introduzir o idioma preferido para as legendas. Quando um vídeo com múltiplas legendas é encontrado, o SMPlayer irá tentar usar o seu idioma preferido.&lt;br&gt;Isto apenas funciona com arquivos que ofereçam informação acerca do idioma das legendas, tais como DVDs ou arquivos mkv&lt;br&gt; Este campo aceita expressões regulares. Exemplo: Se escrever &lt;b&gt;es|esp|spa&lt;/b&gt;, selecionará as legendas que coincidam com &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; ou &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
@@ -6189,12 +6215,12 @@ Deseja substituí-lo?</translation>
         <translation>Con&amp;troladores de saída:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1090"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Add black borders on fullscreen</source>
         <translation>Adicionar contornos negros em tela cheia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1102"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Se ativar esta opção, serão adicionados contornos negros às imagens no modo de tela cheia. Isto permite que as legendas sejam apresentadas nessas margens.</translation>
     </message>
@@ -6204,32 +6230,32 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Adicionar contornos negros em tela cheia</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="167"/>
+        <location filename="../prefgeneral.cpp" line="170"/>
         <source>one ini file</source>
         <translation>um arquivo ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="168"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
         <source>multiple ini files</source>
         <translation>múltiplos arquivos ini</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="979"/>
+        <location filename="../prefgeneral.cpp" line="990"/>
         <source>Method to store the file settings</source>
         <translation>Método para gravar as definições do arquivo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="980"/>
+        <location filename="../prefgeneral.cpp" line="991"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Esta opção permite-lhe alterar a maneira como as definições do arquivo devem ser gravadas. Estão disponíveis as seguintes opções:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="982"/>
+        <location filename="../prefgeneral.cpp" line="993"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;um arquivo ini&lt;/b&gt;: as definições para todos os arquivos reproduzidos serão guardados num único arquivo (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="986"/>
+        <location filename="../prefgeneral.cpp" line="997"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>O 2º método será mais rápido se existir informações sobre diversos arquivos.</translation>
     </message>
@@ -6239,32 +6265,32 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Gravar definições em</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="984"/>
+        <location filename="../prefgeneral.cpp" line="995"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;múltiplos arquivos ini&lt;/b&gt;: um arquivo ini para cada arquivo. Estes arquivos serão guardados na pasta %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="972"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Se marcar esta opção, o SMPlayer irá lembrar-se da posição temporal do arquivo na próxima vez que for aberto. Esta opção apenas funciona com arquivos regulares ( não com DVDs, CDs, URLs...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1071"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Se selecionada, ativa o processamento direto (não suportado por todos os codificadores vídeo e áudio)&lt;br&gt;&lt;b&gt;Aviso:&lt;/b&gt; Pode causar corrupção OSD/SUB !</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="988"/>
+        <location filename="../prefgeneral.cpp" line="999"/>
         <source>Enable screenshots</source>
         <translation>Ativar capturas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="989"/>
+        <location filename="../prefgeneral.cpp" line="1000"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Pode utilizar esta opção para ativar ou desativar a possibilidade de capturas.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="993"/>
+        <location filename="../prefgeneral.cpp" line="1004"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Aqui pode especificar uma pasta onde as capturas serão armazenadas. Se a pasta não for válida a função de capturas será desactivada.</translation>
     </message>
@@ -6284,17 +6310,17 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Pasta:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1154"/>
+        <location filename="../prefgeneral.cpp" line="1165"/>
         <source>Global volume</source>
         <translation>Volume global</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1155"/>
+        <location filename="../prefgeneral.cpp" line="1166"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Se selecionar esta opção, será utilizado o mesmo volume em todos os arquivos que reproduzir. Caso contrário, cada arquivo utilizará o seu volume.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1158"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>This option also applies for the mute control.</source>
         <translation>Esta opção também se aplica ao controle silenciar.</translation>
     </message>
@@ -6304,22 +6330,22 @@ Deseja substituí-lo?</translation>
         <translation>Volume glo&amp;bal</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1100"/>
+        <location filename="../prefgeneral.cpp" line="1111"/>
         <source>Switch screensaver off</source>
         <translation>Desligar proteção de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Esta opção desliga a proteção de tela antes de iniciar a reprodução do arquivo e volta a ligá-lo ao acabar. Se ativar esta opção, a proteção não aparecerá, ainda que esteja a reproduzir áudio ou se pausar o arquivo.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1107"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Avoid screensaver</source>
         <translation>Evitar proteção de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1108"/>
+        <location filename="../prefgeneral.cpp" line="1119"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Se selecionar esta opção, o SMPlayer tentará que a proteção de tela não apareça ao reproduzir um vídeo. A proteção poderá aparecer se estiver a reproduzir áudio ou em modo de pausa. Esta opção só funciona se o SMPlayer estiver em primeiro plano.</translation>
     </message>
@@ -6339,22 +6365,22 @@ Deseja substituí-lo?</translation>
         <translation>E&amp;vitar proteção de tela</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1174"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>Audio/video auto synchronization</source>
         <translation>Sincronizaçao automática de áudio/vídeo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1175"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Ajusta gradualmente a sincronização A/V tendo por base o atraso de áudio.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1189"/>
         <source>A-V sync correction</source>
         <translation>Correção de sincronização A-V</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1179"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Sincronização A-V máxima por quadro (em segundos)</translation>
     </message>
@@ -6384,7 +6410,7 @@ Deseja substituí-lo?</translation>
         <translation>Coreção &amp;Máxima:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1058"/>
+        <location filename="../prefgeneral.cpp" line="1069"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Nota:&lt;/b&gt;Esta opção não será utilizada em canais de TV .</translation>
     </message>
@@ -6394,32 +6420,32 @@ Deseja substituí-lo?</translation>
         <translation>Dese&amp;ntrelaçar por padrão (excepto para TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Usa passagem de hardware AC3.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1137"/>
+        <location filename="../prefgeneral.cpp" line="1148"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Nota:&lt;/b&gt;nenhum dos filtros áudio será usado se esta opção estiver ativa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="394"/>
+        <location filename="../prefgeneral.cpp" line="397"/>
         <source>snap mode</source>
         <translation>modo &quot;snap&quot;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="395"/>
+        <location filename="../prefgeneral.cpp" line="398"/>
         <source>slower dive mode</source>
         <translation>modo &quot;slower dive&quot;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="450"/>
+        <location filename="../prefgeneral.cpp" line="453"/>
         <source>uniaud mode</source>
         <translation>modo &quot;uniaud&quot;</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="451"/>
+        <location filename="../prefgeneral.cpp" line="454"/>
         <source>dart mode</source>
         <translation>modo &quot;dart</translation>
     </message>
@@ -6972,7 +6998,7 @@ Deseja substituí-lo?</translation>
     <name>PrefInterface</name>
     <message>
         <location filename="../prefinterface.cpp" line="152"/>
-        <location filename="../prefinterface.cpp" line="737"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Interface</source>
         <translation>Interface</translation>
     </message>
@@ -7009,17 +7035,17 @@ Deseja substituí-lo?</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Recent files</source>
         <translation>Arquivos recentes</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="757"/>
+        <location filename="../prefinterface.cpp" line="761"/>
         <source>Language</source>
         <translation>Idioma</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>Here you can change the language of the application.</source>
         <translation>Aqui pode mudar o idioma da aplicação.</translation>
     </message>
@@ -7219,62 +7245,62 @@ Deseja substituí-lo?</translation>
         <translation>Ins&amp;tâncias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="739"/>
+        <location filename="../prefinterface.cpp" line="743"/>
         <source>Autoresize</source>
         <translation>Redimensionar automaticamente</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="740"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>A janela principal pode ser redimensionada automaticamente. Selecione a opção que preferir.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="750"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>Remember position and size</source>
         <translation>Lembrar posição e tamanho de vídeo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Se selecionar esta opção, a posição e o tamanho da janela principal serão guardados e restaurados quando executar novamente o SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="765"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Selecione a interface gráfica preferida para o aplicativo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>A &lt;b&gt;Interface básica&lt;/b&gt; fornece a interface tradicional, com as barras de ferramentas e de controle.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="768"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>A &lt;b&gt;Interface mini&lt;/b&gt; fornece uma interface mais simples, sem a barra de ferramentas e com uma barra de controle com poucos botões.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>A &lt;b&gt;Interface personalizável&lt;/b&gt; fornece uma interface onde vários temas estão disponíveis.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>A &lt;b&gt;Interface Mpc&lt;/b&gt; se assemelha à interface do Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="871"/>
+        <location filename="../prefinterface.cpp" line="875"/>
         <source>Privacy</source>
         <translation>Privacidade</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="874"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Selecione o número máximo de itens a serem mostrados em&lt;b&gt;Arquivos Recentes&lt;/b&gt;. Se definir 0, o menu não será mostrado.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="777"/>
+        <location filename="../prefinterface.cpp" line="781"/>
         <source>Icon set</source>
         <translation>Conjunto de ícones</translation>
     </message>
@@ -7299,210 +7325,210 @@ Deseja substituí-lo?</translation>
         <translation>Razã&amp;o de pixel:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="747"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Previne a janela de ficar fora da tela</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Se após um auto ajuste do tamanho a janela principal ficar fora da tela, essa opção centralizará a janela como prevenção.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Center window</source>
         <translation>Centralizar janela</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Habilitando essa opção, a janela principal ficará centralizada na área de trabalho.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="778"/>
+        <location filename="../prefinterface.cpp" line="782"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Selecione o conjunto de ícones que prefere para a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="781"/>
+        <location filename="../prefinterface.cpp" line="785"/>
         <source>Skin</source>
         <translation>Tema</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="786"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Selecione o tema de sua preferência para o aplicativo. Somente disponível na Interface personalizável.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="789"/>
         <source>Style</source>
         <translation>Estilo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="790"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Selecione o estilo que prefere para a aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="793"/>
         <source>Default font</source>
         <translation>Fonte por padrão</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="794"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Pode alterar aqui o tipo de fonte da aplicação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="792"/>
+        <location filename="../prefinterface.cpp" line="796"/>
         <source>Seeking</source>
         <translation>Procura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="798"/>
         <source>Short jump</source>
         <translation>Avanço Curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="795"/>
         <location filename="../prefinterface.cpp" line="799"/>
         <location filename="../prefinterface.cpp" line="803"/>
+        <location filename="../prefinterface.cpp" line="807"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Selecione os intervalos de tempo a serem usados quando seleciona a ação %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="800"/>
         <source>short jump</source>
         <translation>avanço curto</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="802"/>
         <source>Medium jump</source>
         <translation>Avanço Médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>medium jump</source>
         <translation>avanço médio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="806"/>
         <source>Long jump</source>
         <translation>Avanço Longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="808"/>
         <source>long jump</source>
         <translation>avanço longo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="810"/>
         <source>Mouse wheel jump</source>
         <translation>Avanço através da roda do mouse</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="807"/>
+        <location filename="../prefinterface.cpp" line="811"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Selecione os intervalos de tempo a serem usados quando move a roda do rato.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="810"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Behaviour of time slider</source>
         <translation>Comportamento do controle de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="811"/>
+        <location filename="../prefinterface.cpp" line="815"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Selecione o que deve acontecer ao arrastar o controlador de tempo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="825"/>
+        <location filename="../prefinterface.cpp" line="829"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Pressionando o botão parar uma vez reinicia a posição de tempo</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="856"/>
+        <location filename="../prefinterface.cpp" line="860"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Mostrar apenas quando mover o mouse para a parte de baixo da tela</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="857"/>
+        <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Selecionando essa opção, o controle flutuante será mostrado apenas quando o mouse for movido para a parte de baixo da tela. Do contrário o controle aparecerá sempre que o mouse se mover, independente de sua posição.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="862"/>
+        <location filename="../prefinterface.cpp" line="866"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Se a opção estiver ativa, o controle flutuante aparecerá em modo compacto.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="864"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Essa opção funciona apenas com a GUI básica.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="865"/>
+        <location filename="../prefinterface.cpp" line="869"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Cuidado:&lt;/b&gt; o controle flutuante foi configurado para o modo compacto e pode não funcionar corretamente.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Time to hide the control</source>
         <translation>Tempo para ocultar o controle</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="869"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Ajuste o tempo (em milissegundos) para ocultar o controle após o mouse se afastar.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="882"/>
         <source>Max. URLs</source>
         <translation>Máx. URLs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="879"/>
+        <location filename="../prefinterface.cpp" line="883"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Selecione o número máximo de itens que o diálogo &lt;Abri-&gt;URL&lt;/b&gt; vai memorizar. Configure para 0 caso não queira nenhuma URL armazenada.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="883"/>
+        <location filename="../prefinterface.cpp" line="887"/>
         <source>Remember last directory</source>
         <translation>Lembrar último diretório</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="884"/>
+        <location filename="../prefinterface.cpp" line="888"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Se essa opção estiver ativada, o SMPlayer vai lembrar a última pasta usada para abrir um arquivo.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="818"/>
         <source>Seeking method</source>
         <translation>Método de procura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="815"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Define o método a utilizar ao procurar com o deslocador. A procura absoluta é mais precisa enquanto que a procura relativa pode funcionar melhor em arquivos com dimensão errada.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="826"/>
+        <location filename="../prefinterface.cpp" line="830"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>Por padrão, quando o botão parar é pressionado, a posição de tempo é lembrada, então se o botão reproduzir for pressionado a mídia vai retornar no mesmo ponto. É necessário pressionar o botão parar duas vezes para reiniciar a posição de tempo, mas se essa opção estiver marcada a posição de tempo vai ser configurada para 0 ao se pressionar o botão parar somente uma vez.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="833"/>
+        <location filename="../prefinterface.cpp" line="837"/>
         <source>Instances</source>
         <translation>Instâncias</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="836"/>
+        <location filename="../prefinterface.cpp" line="840"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Use apenas uma instância do SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="837"/>
+        <location filename="../prefinterface.cpp" line="841"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Selecione esta opção se pretende usar a instância do SMPlayer em execução ao abrir outros arquivos.</translation>
     </message>
@@ -7512,7 +7538,7 @@ Deseja substituí-lo?</translation>
         <translation>Interface mini</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="760"/>
+        <location filename="../prefinterface.cpp" line="764"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -7522,42 +7548,42 @@ Deseja substituí-lo?</translation>
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="841"/>
+        <location filename="../prefinterface.cpp" line="845"/>
         <source>Floating control</source>
         <translation>Controle flutuante</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="843"/>
+        <location filename="../prefinterface.cpp" line="847"/>
         <source>Animated</source>
         <translation>Animação</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="844"/>
+        <location filename="../prefinterface.cpp" line="848"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Se a opção estiver ativa, o controle flutuante aparecerá com uma animação.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="847"/>
+        <location filename="../prefinterface.cpp" line="851"/>
         <source>Width</source>
         <translation>Largura</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="848"/>
+        <location filename="../prefinterface.cpp" line="852"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Especifica a largura do controle ( como percentagem).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="850"/>
+        <location filename="../prefinterface.cpp" line="854"/>
         <source>Margin</source>
         <translation>Margem</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="851"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Esta opção define o número de pixeis entre o controle flutuante e a parte inferior da tela. Útil quando a tela for uma TV, permitindo assim a correta visualização do controle.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="861"/>
+        <location filename="../prefinterface.cpp" line="865"/>
         <source>Display in compact mode too</source>
         <translation>Apresentar também em modo compacto</translation>
     </message>
@@ -7599,12 +7625,12 @@ Deseja substituí-lo?</translation>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>Hide video window when playing audio files</source>
         <translation>Esconder janela de vídeo quando tocando arquivos de áudio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="759"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Se essa opção estiver ativada a janela de vídeo vai ser ocultada quando tocando arquivos de áudio.</translation>
     </message>
@@ -7614,17 +7640,17 @@ Deseja substituí-lo?</translation>
         <translation>Esconder janela do vídeo quando tocando arquivos de áudio</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="820"/>
+        <location filename="../prefinterface.cpp" line="824"/>
         <source>Precise seeking</source>
         <translation>Busca precisa</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="821"/>
+        <location filename="../prefinterface.cpp" line="825"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Se esta opção estiver ativada, buscas serão mais precisas mas elas podem ser um pouco mais lentas. Pode não funcionar com alguns formatos de vídeo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="823"/>
+        <location filename="../prefinterface.cpp" line="827"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Nota: essa opção apenas funciona com o MPlayer2</translation>
     </message>
@@ -8248,12 +8274,11 @@ Deseja substituí-lo?</translation>
         <translation>Lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="129"/>
         <source>Automatically add files to playlist</source>
-        <translation>Adicionar os arquivos à lista de reprodução automaticamente</translation>
+        <translation type="obsolete">Adicionar os arquivos à lista de reprodução automaticamente</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="130"/>
+        <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Se esta opção estiver ativa, de cada vez que abrir um arquivo, o SMPlayer irá limpar a lista de reprodução e só depois o adicionará a esta. No caso de DVDs, CDs e VCDs, os títulos do disco serão adicionados à lista de reprodução.</translation>
     </message>
@@ -8283,72 +8308,133 @@ Deseja substituí-lo?</translation>
         <translation>Arquivos consecutivos</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="135"/>
+        <location filename="../prefplaylist.cpp" line="166"/>
+        <source>Start playback after loading a playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="167"/>
+        <source>Playback will start just after loading a playlist.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="169"/>
+        <source>Play next file automatically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="170"/>
+        <source>When a file reaches the end, the next file will be played automatically.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="172"/>
+        <source>Ignore playback errors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="176"/>
+        <source>Add files to the playlist automatically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="182"/>
         <source>Add files from folder</source>
         <translation>Adicionar arquivos da pasta</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="136"/>
-        <source>This option allows to add files automatically to the playlist:</source>
-        <translation>Essa opção lhe permite adicionar arquivos à lista de reprodução automaticamente:</translation>
+        <location filename="../prefplaylist.cpp" line="203"/>
+        <source>Auto sort</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="137"/>
+        <location filename="../prefplaylist.cpp" line="204"/>
+        <source>If this option is enabled the list will be sorted automatically after adding files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="206"/>
+        <source>Case sensitive search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="207"/>
+        <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="209"/>
+        <source>Save a copy of the playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="210"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>This option allows to add files automatically to the playlist:</source>
+        <translation type="obsolete">Essa opção lhe permite adicionar arquivos à lista de reprodução automaticamente:</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="184"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;Nenhum&lt;/b&gt;: nenhum arquivo será adicionado</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="138"/>
+        <location filename="../prefplaylist.cpp" line="185"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;Arquivos de vídeo&lt;/b&gt;: todos os arquivos de vídeo encontrados na pasta serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="139"/>
+        <location filename="../prefplaylist.cpp" line="186"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Arquivos de áudio&lt;/b&gt;: todos os arquivos de áudio encontrados na pasta serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="140"/>
+        <location filename="../prefplaylist.cpp" line="187"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;Arquivos de vídeo e áudio&lt;/b&gt;: todos os arquivos de vídeo e áudio encontrados na pasta serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="141"/>
+        <location filename="../prefplaylist.cpp" line="188"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;Arquivos consecutivos&lt;/b&gt;: arquivos consecutivos (como vídeo_1.avi, vídeo_2.avi) serão adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="143"/>
+        <location filename="../prefplaylist.cpp" line="161"/>
         <source>Play files from start</source>
         <translation>Reproduzir desde o início</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="144"/>
+        <location filename="../prefplaylist.cpp" line="162"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>Se essa opção estiver ativada, todos os arquivos da lista de reprodução vão ser reproduzidos do início em vez de continuar de uma reprodução anterior.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="153"/>
+        <location filename="../prefplaylist.cpp" line="183"/>
+        <source>This option can be used to add files automatically to the playlist:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="196"/>
         <source>Get info automatically about files added</source>
         <translation>Obter automaticamente as informações dos arquivos adicionados</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="160"/>
         <source>Save copy of playlist on exit</source>
-        <translation>Guardar cópia da lista de reprodução ao sair</translation>
+        <translation type="obsolete">Guardar cópia da lista de reprodução ao sair</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="161"/>
         <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation>Se essa opção estvier marcada, uma cópia da lista de reprodução será salva nas configurações do smplayer quando o smplayer for fechado, e vai recarregar automaticamente quando o smplayer rodar de novo.</translation>
+        <translation type="obsolete">Se essa opção estvier marcada, uma cópia da lista de reprodução será salva nas configurações do smplayer quando o smplayer for fechado, e vai recarregar automaticamente quando o smplayer rodar de novo.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="165"/>
         <source>Play next file even if the previous file failed</source>
-        <translation>Reproduzir o próximo arquivo mesmo que o anterior tenha falhado</translation>
+        <translation type="obsolete">Reproduzir o próximo arquivo mesmo que o anterior tenha falhado</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="166"/>
+        <location filename="../prefplaylist.cpp" line="173"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>Habilitando essa opção, a lista de reprodução irá ignorar erros no arquivo anterior e reproduzirá o próximo arquivo na lista.</translation>
     </message>
@@ -8358,54 +8444,96 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="30"/>
         <source>&amp;Automatically add files to playlist</source>
-        <translation>&amp;Adicionar, automaticamente, os arquivos à lista de reprodução</translation>
+        <translation type="obsolete">&amp;Adicionar, automaticamente, os arquivos à lista de reprodução</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="148"/>
+        <location filename="../prefplaylist.cpp" line="191"/>
         <source>Add files in directories recursively</source>
         <translation>Adicionar recursivamente os arquivos dos pastas </translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="149"/>
+        <location filename="../prefplaylist.cpp" line="192"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>Selecione esta opção se pretende adicionar um pasta e sub pastas. Caso contrário, apenas os arquivos do pasta principal serão adicionados.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="154"/>
+        <location filename="../prefplaylist.cpp" line="197"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>Selecione esta opção para adicionar à lista de reprodução as informações contidas no arquivo. Isto permite-lhe mostrar o título (se existente) e a duração dos arquivos. Caso contrário, esta informação não estará disponível. Atenção: esta ação pode ser demorada, principalmente se adicionar muitos arquivos.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="58"/>
+        <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
         <translation>Adicionar arquivos da &amp;pasta:</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="103"/>
+        <location filename="../prefplaylist.ui" line="36"/>
         <source>P&amp;lay files from start</source>
         <translation>Reproduzir desde o &amp;início</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="110"/>
+        <location filename="../prefplaylist.ui" line="30"/>
+        <source>Playback</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="43"/>
+        <source>S&amp;tart playback after loading a playlist</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="50"/>
+        <source>Pla&amp;y next file automatically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="57"/>
+        <source>Ig&amp;nore playback errors</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="67"/>
+        <source>Adding files</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="73"/>
+        <source>&amp;Add files to the playlist automatically</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
         <translation>Adicionar &amp;recursivamente os arquivos dos pastas </translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="117"/>
+        <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
         <translation>Obter automat&amp;icamente as informações dos arquivos adicionados (lento)</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="124"/>
-        <source>&amp;Save copy of playlist on exit</source>
-        <translation>&amp;Guardar cópia da lista de reprodução ao sair</translation>
+        <location filename="../prefplaylist.ui" line="150"/>
+        <source>A&amp;uto sort</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="131"/>
+        <location filename="../prefplaylist.ui" line="157"/>
+        <source>Cas&amp;e sensitive search</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="164"/>
+        <source>&amp;Save a copy of the playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>&amp;Save copy of playlist on exit</source>
+        <translation type="obsolete">&amp;Guardar cópia da lista de reprodução ao sair</translation>
+    </message>
+    <message>
         <source>Play &amp;next file even if the previous file failed</source>
-        <translation>Reproduzir &amp;o próximo arquivo mesmo que o anterior tenha falhado</translation>
+        <translation type="obsolete">Reproduzir &amp;o próximo arquivo mesmo que o anterior tenha falhado</translation>
     </message>
 </context>
 <context>
@@ -9130,7 +9258,7 @@ Deseja substituí-lo?</translation>
         <translation>a janela principal será fechada ao terminar o arquivo/lista de reprodução.</translation>
     </message>
     <message>
-        <location filename="../smplayer.cpp" line="565"/>
+        <location filename="../smplayer.cpp" line="567"/>
         <source>This is SMPlayer v. %1 running on %2</source>
         <translation>SMPlayer v.%1 executando em %2</translation>
     </message>
@@ -9225,13 +9353,19 @@ Deseja substituí-lo?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n segundo(s)</numerusform><numerusform>%n segundo(s)</numerusform></translation>
+        <translation>
+            <numerusform>%n segundo(s)</numerusform>
+            <numerusform>%n segundo(s)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minuto(s)</numerusform><numerusform>%n minuto(s)</numerusform></translation>
+        <translation>
+            <numerusform>%n minuto(s)</numerusform>
+            <numerusform>%n minuto(s)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
