@@ -180,6 +180,7 @@ public:
 	void setAutomaticallyPlayNext(bool b) { automatically_play_next = b; };
 	void setAutoSort(bool b);
 	void setSortCaseSensitive(bool b);
+	void setFilterCaseSensitive(bool b);
 
 	bool directoryRecursion() { return recursive_add_directory; };
 	bool autoGetInfo() { return automatically_get_info; };
@@ -190,6 +191,7 @@ public:
 	bool automaticallyPlayNext() { return automatically_play_next; };
 	bool autoSort();
 	bool sortCaseSensitive();
+	bool filterCaseSensitive();
 
 #ifdef PLAYLIST_DOWNLOAD
 	void setMaxItemsUrlHistory(int max_items);

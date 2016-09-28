@@ -1923,7 +1923,7 @@ void Playlist::saveSettings() {
 
 	set->setValue( "sort_column", proxy->sortColumn() );
 	set->setValue( "sort_order", proxy->sortOrder() );
-	set->setValue( "filter_case_sensivity", proxy->filterCaseSensitivity() );
+	set->setValue( "filter_case_sensitive", filterCaseSensitive() );
 	set->setValue( "filter", filter_edit->text() );
 	set->setValue( "sort_case_sensitive", sortCaseSensitive() );
 	set->setValue( "auto_sort", autoSort() );
@@ -1966,6 +1966,7 @@ void Playlist::saveSettings() {
 
 	if (set->contains("playlist/change_title")) set->remove("playlist/change_title");
 	if (set->contains("playlist/sort_case_sensivity")) set->remove("playlist/sort_case_sensivity");
+	if (set->contains("playlist/filter_case_sensivity")) set->remove("playlist/filter_case_sensivity");
 }
 
 void Playlist::loadSettings() {
@@ -1997,7 +1998,7 @@ void Playlist::loadSettings() {
 
 	int sort_column = set->value("sort_column", COL_NUM).toInt();
 	int sort_order = set->value("sort_order", Qt::AscendingOrder).toInt();
-	int filter_case_sensivity = set->value("filter_case_sensivity", Qt::CaseInsensitive).toInt();
+	bool filter_case_sensitive = set->value("filter_case_sensitive", false).toBool();
 	QString filter = set->value( "filter").toString();
 	bool sort_case_sensitive = set->value("sort_case_sensitive", false).toBool();
 	bool auto_sort = set->value("auto_sort", false).toBool();
@@ -2043,7 +2044,7 @@ void Playlist::loadSettings() {
 	set->endGroup();
 #endif
 
-	proxy->setFilterCaseSensitivity( (Qt::CaseSensitivity) filter_case_sensivity);
+	setFilterCaseSensitive(filter_case_sensitive);
 	setSortCaseSensitive(sort_case_sensitive);
 	proxy->sort(sort_column, (Qt::SortOrder) sort_order);
 	filter_edit->setText(filter);
@@ -2091,6 +2092,15 @@ void Playlist::setSortCaseSensitive(bool b) {
 
 bool Playlist::sortCaseSensitive() {
 	return (proxy->sortCaseSensitivity() == Qt::CaseSensitive);
+}
+
+void Playlist::setFilterCaseSensitive(bool b) {
+	Qt::CaseSensitivity c = b ? Qt::CaseSensitive : Qt::CaseInsensitive;
+	proxy->setFilterCaseSensitivity(c);
+}
+
+bool Playlist::filterCaseSensitive() {
+	return (proxy->filterCaseSensitivity() == Qt::CaseSensitive);
 }
 
 #ifdef PLAYLIST_DOWNLOAD
