@@ -152,6 +152,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="case_sensitive_search_check">
+         <property name="text">
+          <string>Cas&amp;e sensitive search</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <widget class="QCheckBox" name="autosave_on_exit_check">
          <property name="text">
           <string>&amp;Save a copy of the playlist on exit</string>
@@ -188,8 +195,8 @@
   <tabstop>recursive_check</tabstop>
   <tabstop>getinfo_check</tabstop>
   <tabstop>autosort_check</tabstop>
+  <tabstop>case_sensitive_search_check</tabstop>
   <tabstop>autosave_on_exit_check</tabstop>
-  <tabstop>media_to_add_combo</tabstop>
  </tabstops>
  <resources/>
  <connections>

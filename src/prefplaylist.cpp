@@ -147,6 +147,14 @@ bool PrefPlaylist::autoSort() {
 	return autosort_check->isChecked();
 }
 
+void PrefPlaylist::setFilterCaseSensitive(bool b) {
+	case_sensitive_search_check->setChecked(b);
+}
+
+bool PrefPlaylist::filterCaseSensitive() {
+	return case_sensitive_search_check->isChecked();
+}
+
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
@@ -194,6 +202,9 @@ void PrefPlaylist::createHelp() {
 
 	setWhatsThis(autosort_check, tr("Auto sort"),
 		tr("If this option is enabled the list will be sorted automatically after adding files."));
+
+	setWhatsThis(case_sensitive_search_check, tr("Case sensitive search"),
+		tr("This option specifies whether the search in the playlist is case sensitive or not."));
 
 	setWhatsThis(autosave_on_exit_check, tr("Save a copy of the playlist on exit"), 
 		tr("If this option is checked, a copy of the playlist will be saved "
