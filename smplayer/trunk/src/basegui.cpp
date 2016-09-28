@@ -3113,6 +3113,7 @@ void BaseGui::showPreferencesDialog() {
 	pl->setPlayNextAutomatically(playlist->automaticallyPlayNext());
 	pl->setIgnorePlayerErrors(playlist->ignorePlayerErrors());
 	pl->setAutoSort(playlist->autoSort());
+	pl->setFilterCaseSensitive(playlist->filterCaseSensitive());
 
 	pref_dialog->show();
 }
@@ -3201,6 +3202,7 @@ void BaseGui::applyNewPreferences() {
 	playlist->setAutomaticallyPlayNext(pl->playNextAutomatically());
 	playlist->setIgnorePlayerErrors(pl->ignorePlayerErrors());
 	playlist->setAutoSort(pl->autoSort());
+	playlist->setFilterCaseSensitive(pl->filterCaseSensitive());
 
 #ifdef PLAYLIST_DOWNLOAD
 	playlist->setMaxItemsUrlHistory( pref->history_urls->maxItems() );

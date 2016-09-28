@@ -66,6 +66,9 @@ public:
 	void setAutoSort(bool b);
 	bool autoSort();
 
+	void setFilterCaseSensitive(bool b);
+	bool filterCaseSensitive();
+
 protected:
 	virtual void createHelp();
 
