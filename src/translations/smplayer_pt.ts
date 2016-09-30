@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pt">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pt" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2093,10 +2091,6 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
         <source>&amp;Quit</source>
         <translation>&amp;Sair</translation>
     </message>
-    <message>
-        <source>Playlist</source>
-        <translation type="obsolete">Lista de reprodução</translation>
-    </message>
 </context>
 <context>
     <name>BookmarkDialog</name>
@@ -2886,10 +2880,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n legenda extraída</numerusform>
-            <numerusform>%n legendas extraídas</numerusform>
-        </translation>
+        <translation><numerusform>%n legenda extraída</numerusform><numerusform>%n legendas extraídas</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2987,7 +2978,7 @@ Exemplo: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Não foi possível guardar o ficheiro
@@ -4668,22 +4659,22 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de reprodução sem nome</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished">&amp;Carregar...</translation>
+        <translation>&amp;Carregar...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>Carregar lista de reprodução de um &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Carregar/Guardar</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
@@ -4706,17 +4697,9 @@ Substituir?</translation>
         <translation>Escreva o nome que este ficheiro terá na lista de reprodução:</translation>
     </message>
     <message>
-        <source>&amp;Load</source>
-        <translation type="obsolete">&amp;Carregar</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Filename / URL</source>
         <translation>Nome do ficheiro/URL</translation>
-    </message>
-    <message>
-        <source>&amp;Open URL</source>
-        <translation type="obsolete">Abrir &amp;URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="628"/>
@@ -4731,7 +4714,7 @@ Substituir?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Gu&amp;ardar como...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4823,10 +4806,6 @@ Substituir?</translation>
         <location filename="../playlist.cpp" line="665"/>
         <source>Show filename column</source>
         <translation>Mostrar coluna &apos;Nome de ficheiro&apos;</translation>
-    </message>
-    <message>
-        <source>SMPlayer - Playlist</source>
-        <translation type="obsolete">SMPlayer - Lista de reprodução</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1780"/>
@@ -8274,10 +8253,6 @@ Substituir?</translation>
         <translation>Lista de reprodução</translation>
     </message>
     <message>
-        <source>Automatically add files to playlist</source>
-        <translation type="obsolete">Adicionar ficheiros à lista de reprodução automaticamente</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Se ativar esta opção, sempre que abrir um ficheiro, o SMPlayer apaga a lista de reprodução e só depois o adicionará. No caso de DVD, CD e VCD, os títulos do disco serão adicionados à lista de reprodução.</translation>
@@ -8310,32 +8285,32 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar reprodução ao carregar a lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>A reprodução será iniciada após a lista de reprodução estar carregada.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduzir ficheiro seguinte automaticamente</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao terminar a reprodução de um ficheiro, o seguinte será iniciado automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignorar erros de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Adicionar ficheiros automaticamente à lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8345,36 +8320,32 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Organização automática</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se ativar esta opção, a lista de ficheiros será organizada automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Distinguir maiúsculas/minúsculas</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção especifica que a pesquisa em listas de reprodução diferencia o tipo de caixa.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Ao sair, guardar lista de reprodução automaticamente</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="obsolete">Esta opção permite-lhe adicionar ficheiros à lista de reprodução automaticamente:</translation>
+        <translation>Se ativar esta opção, será guardada uma cópia da lista de reprodução no ficheiro de configuração do SMPlayer, que será recarregada na próxima vez que iniciar o SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8414,24 +8385,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Pode utilizar esta opção para adicionar automaticamente os ficheiros à lista de reprodução:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>Get info automatically about files added</source>
         <translation>Obter automaticamente a informação dos ficheiros</translation>
-    </message>
-    <message>
-        <source>Save copy of playlist on exit</source>
-        <translation type="obsolete">Guardar cópia da lista de reprodução ao sair</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="obsolete">Se ativar esta opção, o SMPlayer guardará uma cópia da lista de reprodução ao fechar. Ao reiniciar o SMPlayer, a lista de reprodução será retomada.</translation>
-    </message>
-    <message>
-        <source>Play next file even if the previous file failed</source>
-        <translation type="obsolete">Reproduzir o próximo ficheiro mesmo se o anterior falhar</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="173"/>
@@ -8442,10 +8401,6 @@ Substituir?</translation>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
         <translation>Lista de re&amp;produção</translation>
-    </message>
-    <message>
-        <source>&amp;Automatically add files to playlist</source>
-        <translation type="obsolete">&amp;Adicionar ficheiros automaticamente  à lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
@@ -8475,32 +8430,32 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar reprodução ao carregar a lis&amp;ta de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproduz&amp;ir ficheiro seguinte automaticamente</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Ig&amp;norar erros de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"></translation>
+        <translation>Adição de ficheiros</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Adicionar ficheiros automaticamente à lista de reprodução</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8515,25 +8470,17 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Organização a&amp;utomática</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Disting&amp;uir maiúsculas/minúsculas</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Save copy of playlist on exit</source>
-        <translation type="obsolete">Guardar cópia da lista de reprodução ao &amp;sair</translation>
-    </message>
-    <message>
-        <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="obsolete">Reproduzir o próximo ficheiro mesmo se o a&amp;nterior falhar</translation>
+        <translation>Ao sair, guardar li&amp;sta de reprodução automaticamente</translation>
     </message>
 </context>
 <context>
@@ -9353,19 +9300,13 @@ Substituir?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>%n segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>

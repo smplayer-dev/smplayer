@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -11,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Razvojna inačica</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -377,7 +375,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="237"/>
         <source>Set all controls to zero.</source>
-        <translation>Postavi sve kontrole na nulu.</translation>
+        <translation>Postavi sve vrijednosti na nulu.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="252"/>
@@ -1966,7 +1964,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"></translation>
+        <translation>Pošalji &amp;zvuk u</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="335"/>
@@ -2086,16 +2084,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zadani zvučni uređaj</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
         <source>&amp;Quit</source>
         <translation>&amp;Isključi</translation>
-    </message>
-    <message>
-        <source>Playlist</source>
-        <translation type="obsolete">Popis izvođenja</translation>
     </message>
 </context>
 <context>
@@ -2389,17 +2383,17 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../defaultgui.cpp" line="693"/>
         <source>Edit &amp;control bar</source>
-        <translation>Uredi &amp;kontrolnu traku</translation>
+        <translation>Uredi &amp;traku upravljanja</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="694"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Uredi m&amp;ini kontrolnu traku</translation>
+        <translation>Uredi m&amp;ini traku upravljanja</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="695"/>
         <source>Edit &amp;floating control</source>
-        <translation>Uredi &amp;lebdeće kontrole</translation>
+        <translation>Uredi traku &amp;lebdećeg upravljanja</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="726"/>
@@ -2886,11 +2880,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2988,7 +2978,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -4528,7 +4518,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../minigui.cpp" line="176"/>
         <source>Edit &amp;floating control</source>
-        <translation>Uredi &amp;lebdeće kontrole</translation>
+        <translation>Uredi &amp;traku lebdećeg upravljanja</translation>
     </message>
 </context>
 <context>
@@ -4669,22 +4659,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished">&amp;Učitaj...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
@@ -4707,17 +4697,9 @@ Do you want to overwrite?</source>
         <translation>Upišite naziv koji će se prikazati u popisu izvođenja za ovu datoteku:</translation>
     </message>
     <message>
-        <source>&amp;Load</source>
-        <translation type="obsolete">&amp;Učitaj titlove</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Filename / URL</source>
         <translation>Naziv datoteke / URL</translation>
-    </message>
-    <message>
-        <source>&amp;Open URL</source>
-        <translation type="obsolete">&amp;Otvori URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="628"/>
@@ -4732,7 +4714,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4808,26 +4790,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="662"/>
         <source>Show position column</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži stupac broja redka </translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="663"/>
         <source>Show name column</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži stupac naziva</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="664"/>
         <source>Show length column</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži stupac trajanja</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="665"/>
         <source>Show filename column</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>SMPlayer - Playlist</source>
-        <translation type="obsolete">SMPlayer - Popis izvođenja</translation>
+        <translation>Prikaži stupac naziva datoteke ili url</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1780"/>
@@ -5753,7 +5731,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1171"/>
         <source>Software volume control</source>
-        <translation>Softverska kontrola glasnoće zvuka</translation>
+        <translation>Softversko upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1172"/>
@@ -5833,7 +5811,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="880"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Koristi s&amp;oftversku kontrolu glasnoće zvuka</translation>
+        <translation>Koristi s&amp;oftversko upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="903"/>
@@ -6323,7 +6301,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1169"/>
         <source>This option also applies for the mute control.</source>
-        <translation>Ova mogućnost isto tako zahvaća kontrolu utišivanja glasnoće zvuka.</translation>
+        <translation>Ova mogućnost isto tako zahvaća upravljanje utišivanja glasnoće zvuka.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="865"/>
@@ -6503,7 +6481,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="150"/>
         <location filename="../prefinput.cpp" line="419"/>
         <source>Volume control</source>
-        <translation>Kontrola glasnoće zvuka</translation>
+        <translation>Upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="151"/>
@@ -6936,7 +6914,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.ui" line="442"/>
         <location filename="../prefinput.cpp" line="157"/>
         <source>&amp;Volume control</source>
-        <translation>&amp;Kontrola glasnoće zvuka</translation>
+        <translation>&amp;Upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="456"/>
@@ -7163,7 +7141,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation>Lebdeće kontrole se pojavljuje u cijelozaslonskom prikazu kada se miš pomakne.</translation>
+        <translation>Traka lebdećeg upravljanja se pojavljuje u cijelozaslonskom prikazu kada se miš pomakne.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
@@ -7173,7 +7151,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation>Vrijem&amp;e sakrivanja kontrola (u millisekundama):</translation>
+        <translation>Vrijem&amp;e sakrivanja trake upravljanja (u millisekundama):</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
@@ -7273,12 +7251,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation>&lt;b&gt;Osnovno GUI sučelje&lt;/b&gt; je tradicionalno GUI sučelje, s alatnom i kontrolnom trakom.</translation>
+        <translation>&lt;b&gt;Osnovno GUI sučelje&lt;/b&gt; je tradicionalno GUI sučelje, s alatnom i trakom upravljanja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation>&lt;b&gt;Mini GUI sučelje&lt;/b&gt; je jednostavnije sučelje, bez alatne i kontrolne trake samo s nekoliko tipki.</translation>
+        <translation>&lt;b&gt;Mini GUI sučelje&lt;/b&gt; je jednostavnije sučelje, bez alatne i trake upravljanja samo s nekoliko tipki.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="776"/>
@@ -7455,12 +7433,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Ako je ova mogućnost odabrana, lebdeće kontrole biti će samo prikazane kada se pokazivačem miša prijeđe dnom zaslona. U suprotnom lebdeće kontrole će se pojaviti kada god se pokazivač miša pomakne, neovisno o pložaju na zaslonu.</translation>
+        <translation>Ako je ova mogućnost odabrana, traka lebdećeg upravljanja biti će samo prikazana kada se pokazivačem miša prijeđe dnom zaslona. U suprotnom traka lebdećeg upravljanja će se pojaviti uvijek kada se pokazivač miša pomakne, neovisno o pložaju na zaslonu.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="866"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation>Ako je ova mogućnost odabrana, lebdeće kontrole će se pojaviti u prikazu jednostavnog prozora.</translation>
+        <translation>Ako je ova mogućnost odabrana, traka lebdećeg upravljanja će se pojaviti u prikazu jednostavnog prozora.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -7470,17 +7448,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="869"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Upozorenje:&lt;/b&gt; lebdeće kontrole nisu dizajnirane za prikaz jednostavnog prozora i možda neće ispravno raditi.</translation>
+        <translation>&lt;b&gt;Upozorenje:&lt;/b&gt; traka lebdećeg upravljanja nije dizajnirana za prikaz jednostavnog prozora i možda neće ispravno raditi.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
         <source>Time to hide the control</source>
-        <translation>Vrijeme sakrivanja kontrola</translation>
+        <translation>Vrijeme sakrivanja trake upravljanja</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="873"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation>Postavite vrijeme sakrivanja kontrola (u milisekundama) nakon što se pokazivač miša udalji od kontrola.</translation>
+        <translation>Postavite vrijeme sakrivanja trake upravljanja (u milisekundama) nakon što se pokazivač miša udalji od trake upravljanja.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="882"/>
@@ -7551,7 +7529,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="845"/>
         <source>Floating control</source>
-        <translation>Lebdeće kontrole</translation>
+        <translation>Lebdeće upravljanje</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="847"/>
@@ -7561,7 +7539,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="848"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation>Ako je ova mogućnost odabrana, lebdeća kontrola će se pojaviti s animacijom.</translation>
+        <translation>Ako je ova mogućnost odabrana, traka lebdećeg upravljanja će se pojaviti s animacijom.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
@@ -7571,7 +7549,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="852"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation>Određuje širinu kontrola (u postotku).</translation>
+        <translation>Određuje širinu trake upravljanja (u postotku).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="854"/>
@@ -7581,7 +7559,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Ova mogućnost postavlja broj piksela koliko će biti lebdeća kontrola udaljena od dna zaslona. Korisno kada je zaslon TV, kada zbog nevidljivih obruba zaslona kontrole nisu vidljive.</translation>
+        <translation>Ova mogućnost postavlja broj piksela koliko će biti lebdeća traka upravljanja udaljena od dna zaslona. Korisno kada je zaslon TV, kada zbog nevidljivih obruba zaslona traka upravljanja nije vidljiva.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="865"/>
@@ -7591,7 +7569,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="665"/>
         <source>&amp;Floating control</source>
-        <translation>&amp;Lebdeće kontrole</translation>
+        <translation>&amp;Lebdeće upravljanje</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="681"/>
@@ -8275,10 +8253,6 @@ Do you want to overwrite?</source>
         <translation>Popis izvođenja</translation>
     </message>
     <message>
-        <source>Automatically add files to playlist</source>
-        <translation type="obsolete">Automatski dodaj datoteke na popis izvođenja</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Ako je ova mogućnost odabrana, svaki puta kada je datoteka otvorena, SMPlayer prvo će očistiti popis izvođenja a zatim dodati datoteku. U slučaju DVD-a, CD-a i VCD-a, svi naslovi na disku biti će dodani na popis izvođenja.</translation>
@@ -8311,32 +8285,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8346,36 +8320,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="obsolete">Ova mogućnost omogućuje automatsko dodavanje datoteka na popis izvođenja:</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8415,24 +8385,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>Get info automatically about files added</source>
         <translation>Dodaj automatski informacije o dodanim datotekama</translation>
-    </message>
-    <message>
-        <source>Save copy of playlist on exit</source>
-        <translation type="obsolete">Spremi kopiju popisa izvođenja na izlazu</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="obsolete">Ako je ova mogućnost odabrana, kopija popisa izvođenja će se spremiti u SMplayer podešavanja kada se SMplayer zatvori i ponovno će se učitati kada se SMplayer ponovno pokrene.</translation>
-    </message>
-    <message>
-        <source>Play next file even if the previous file failed</source>
-        <translation type="obsolete">Reproduciraj sljedeću datoteku ako reprodukcija prijašnje nije uspjela</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="173"/>
@@ -8443,10 +8401,6 @@ Do you want to overwrite?</source>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Popis izvođenja</translation>
-    </message>
-    <message>
-        <source>&amp;Automatically add files to playlist</source>
-        <translation type="obsolete">&amp;Automatski dodaj datoteke na popis izvođenja</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
@@ -8476,32 +8430,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8516,25 +8470,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>&amp;Save copy of playlist on exit</source>
-        <translation type="obsolete">&amp;Spremi kopiju popisa izvođenja na izlazu</translation>
-    </message>
-    <message>
-        <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="obsolete">Reproduciraj &amp;sljedeću datoteku čak iako reprodukcija prve nije uspjla</translation>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
@@ -9354,21 +9300,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9457,12 +9395,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (izdanje %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (izdanje %2)</translation>
     </message>
 </context>
 <context>
@@ -9602,7 +9540,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation>Uredi &amp;lebdeće kontrole</translation>
+        <translation>Uredi &amp;traku lebdećeg upravljanja</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
@@ -10086,7 +10024,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation>Postavi sve kontrole na nulu.</translation>
+        <translation>Postavi sve vrijednosti na nulu.</translation>
     </message>
 </context>
 <context>
