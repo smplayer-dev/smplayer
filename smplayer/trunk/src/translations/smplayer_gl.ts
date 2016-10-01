@@ -8335,7 +8335,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Esta opción indica se as buscas nas listas de reprodución son sensíbeis ás maiúsculas.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
@@ -8345,7 +8345,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Cando se marca esta opción, ao pechar o SMPlayer gardarase unha copia da lista de reprodución no ficheiro de configuración, e esta recargarase de xeito automático cando se volva iniciar o SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8385,7 +8385,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Esta opción permite engadir directamente ficheiros á lista de reprodución:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
