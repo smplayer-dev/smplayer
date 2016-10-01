@@ -95,6 +95,8 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 
 #ifndef ADD_BLACKBORDERS_FS
 	blackborders_on_fs_check->hide();
+#else
+	blackborders_check->hide();
 #endif
 
 #ifdef MPV_SUPPORT
@@ -254,6 +256,8 @@ void PrefGeneral::setData(Preferences * pref) {
 
 #ifdef ADD_BLACKBORDERS_FS
 	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
+#else
+	blackborders_check->setChecked(pref->initial_blackborders);
 #endif
 
 	setAutoq( pref->autoq );
@@ -354,6 +358,8 @@ void PrefGeneral::getData(Preferences * pref) {
 		pref->add_blackborders_on_fullscreen = blackbordersOnFullscreen();
 		if (pref->fullscreen) requires_restart = true;
 	}
+#else
+	pref->initial_blackborders = blackborders_check->isChecked();
 #endif
 
 	TEST_AND_SET(pref->autoq, autoq());
@@ -1081,6 +1087,12 @@ void PrefGeneral::createHelp() {
         tr("Select the deinterlace filter that you want to be used for new "
            "videos opened.") +" "+ 
         tr("<b>Note:</b> This option won't be used for TV channels.") );
+
+#ifndef ADD_BLACKBORDERS_FS
+	setWhatsThis(blackborders_check, tr("Add blackborders for subtitles by default"),
+		tr("If this option is enabled, black borders will be added to the image "
+           "by default on new opened files."));
+#endif
 
 	setWhatsThis(zoom_spin, tr("Default zoom"),
 		tr("This option sets the default zoom which will be used for "
