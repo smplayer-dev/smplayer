@@ -102,7 +102,10 @@ public:
 	bool use_soft_video_eq;
 	bool use_slices;
 	int autoq; 	//!< Postprocessing quality
+
+#ifdef ADD_BLACKBORDERS_FS
 	bool add_blackborders_on_fullscreen;
+#endif
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF

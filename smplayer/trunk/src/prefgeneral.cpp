@@ -93,6 +93,10 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	shutdown_widget->hide();
 #endif
 
+#ifndef ADD_BLACKBORDERS_FS
+	blackborders_on_fs_check->hide();
+#endif
+
 #ifdef MPV_SUPPORT
 	screenshot_format_combo->addItems(QStringList() << "png" << "ppm" << "pgm" << "pgmyuv" << "tga" << "jpg" << "jpeg");
 #else
@@ -247,7 +251,11 @@ void PrefGeneral::setData(Preferences * pref) {
 	setDoubleBuffer( pref->use_double_buffer );
 	setUseSlices( pref->use_slices );
 	setStartInFullscreen( pref->start_in_fullscreen );
+
+#ifdef ADD_BLACKBORDERS_FS
 	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
+#endif
+
 	setAutoq( pref->autoq );
 
 #ifdef Q_OS_WIN
@@ -340,10 +348,14 @@ void PrefGeneral::getData(Preferences * pref) {
 	TEST_AND_SET(pref->use_double_buffer, doubleBuffer());
 	TEST_AND_SET(pref->use_slices, useSlices());
 	pref->start_in_fullscreen = startInFullscreen();
+
+#ifdef ADD_BLACKBORDERS_FS
 	if (pref->add_blackborders_on_fullscreen != blackbordersOnFullscreen()) {
 		pref->add_blackborders_on_fullscreen = blackbordersOnFullscreen();
 		if (pref->fullscreen) requires_restart = true;
 	}
+#endif
+
 	TEST_AND_SET(pref->autoq, autoq());
 
 #ifdef Q_OS_WIN
@@ -873,6 +885,7 @@ bool PrefGeneral::disableScreensaver() {
 }
 #endif
 
+#ifdef ADD_BLACKBORDERS_FS
 void PrefGeneral::setBlackbordersOnFullscreen(bool b) {
 	blackborders_on_fs_check->setChecked(b);
 }
@@ -880,6 +893,7 @@ void PrefGeneral::setBlackbordersOnFullscreen(bool b) {
 bool PrefGeneral::blackbordersOnFullscreen() {
 	return blackborders_on_fs_check->isChecked();
 }
+#endif
 
 void PrefGeneral::setAutoq(int n) {
 	autoq_spin->setValue(n);
@@ -1098,6 +1112,7 @@ void PrefGeneral::createHelp() {
 		tr("If this option is checked, all videos will start to play in "
            "fullscreen mode.") );
 
+#ifdef ADD_BLACKBORDERS_FS
 	setWhatsThis(blackborders_on_fs_check, tr("Add black borders on fullscreen"),
 		tr("If this option is enabled, black borders will be added to the "
            "image in fullscreen mode. This allows subtitles to be displayed "
@@ -1105,6 +1120,7 @@ void PrefGeneral::createHelp() {
  		tr("This option will be ignored if MPlayer uses its own window, as "
            "some video drivers (like gl) are already able to display the "
            "subtitles automatically in the black borders.") */ );
+#endif
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF

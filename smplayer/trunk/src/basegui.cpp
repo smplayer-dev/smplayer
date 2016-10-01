@@ -4662,12 +4662,14 @@ void BaseGui::toggleFullscreen(bool b) {
 
 	updateWidgets();
 
+#ifdef ADD_BLACKBORDERS_FS
 	if ((pref->add_blackborders_on_fullscreen) && 
         (!core->mset.add_letterbox)) 
 	{
 		core->changeLetterboxOnFullscreen(b);
 		/* core->restart(); */
 	}
+#endif
 
 	setFocus(); // Fixes bug #2493415
 }

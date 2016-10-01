@@ -124,7 +124,10 @@ void Preferences::reset() {
 	use_soft_video_eq = false;
 	use_slices = false;
 	autoq = 6;
+
+#ifdef ADD_BLACKBORDERS_FS
 	add_blackborders_on_fullscreen = false;
+#endif
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
@@ -652,7 +655,10 @@ void Preferences::save() {
 	set->setValue("use_soft_video_eq", use_soft_video_eq);
 	set->setValue("use_slices", use_slices );
 	set->setValue("autoq", autoq);
+
+#ifdef ADD_BLACKBORDERS_FS
 	set->setValue("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen);
+#endif
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
@@ -1204,7 +1210,10 @@ void Preferences::load() {
 	use_soft_video_eq = set->value("use_soft_video_eq", use_soft_video_eq).toBool();
 	use_slices = set->value("use_slices", use_slices ).toBool();
 	autoq = set->value("autoq", autoq).toInt();
+
+#ifdef ADD_BLACKBORDERS_FS
 	add_blackborders_on_fullscreen = set->value("add_blackborders_on_fullscreen", add_blackborders_on_fullscreen).toBool();
+#endif
 
 #ifdef Q_OS_WIN
 	#ifdef SCREENSAVER_OFF
