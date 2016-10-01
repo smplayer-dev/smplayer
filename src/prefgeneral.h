@@ -126,8 +126,10 @@ protected:
 	bool disableScreensaver();
 #endif
 
+#ifdef ADD_BLACKBORDERS_FS
 	void setBlackbordersOnFullscreen(bool b);
 	bool blackbordersOnFullscreen();
+#endif
 
 	void setAutoq(int n);
 	int autoq();

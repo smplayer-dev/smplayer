@@ -177,7 +177,9 @@ public slots:
 	void changeDenoise(int);
 	void changeUnsharp(int);
 	void changeLetterbox(bool);
+#ifdef ADD_BLACKBORDERS_FS
 	void changeLetterboxOnFullscreen(bool);
+#endif
 	void changeUpscale(bool);
 	void changeStereo3d(const QString & in, const QString & out);
 

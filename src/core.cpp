@@ -2233,10 +2233,12 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 
+#ifdef ADD_BLACKBORDERS_FS
 	// Letterbox (expand)
 	if ((mset.add_letterbox) || (pref->fullscreen && pref->add_blackborders_on_fullscreen)) {
 		proc->addVF("expand", QString("aspect=%1").arg( DesktopInfo::desktop_aspectRatio(mplayerwindow)));
 	}
+#endif
 
 	// Software equalizer
 	if ( (pref->use_soft_video_eq) ) {
@@ -4055,10 +4057,12 @@ void Core::changeLetterbox(bool b) {
 	}
 }
 
+#ifdef ADD_BLACKBORDERS_FS
 void Core::changeLetterboxOnFullscreen(bool b) {
 	qDebug("Core::changeLetterboxOnFullscreen: %d", b);
 	CHANGE_VF("letterbox", b, DesktopInfo::desktop_aspectRatio(mplayerwindow));
 }
+#endif
 
 void Core::changeOSD(int v) {
 	qDebug("Core::changeOSD: %d", v);
