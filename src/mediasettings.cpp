@@ -89,7 +89,11 @@ void MediaSettings::reset() {
 	//current_deinterlacer = NoDeinterlace;
 	current_deinterlacer = pref->initial_deinterlace;
 
+#ifdef ADD_BLACKBORDERS_FS
 	add_letterbox = false;
+#else
+	add_letterbox = pref->initial_blackborders;
+#endif
 
 #ifdef MPLAYER_SUPPORT
 	karaoke_filter = false;

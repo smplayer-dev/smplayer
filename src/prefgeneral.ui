@@ -511,6 +511,13 @@
         </layout>
        </item>
        <item>
+        <widget class="QCheckBox" name="blackborders_check">
+         <property name="text">
+          <string>Add blac&amp;kborders for subtitles by default</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <layout class="QHBoxLayout">
          <item>
           <widget class="QLabel" name="label_8">
@@ -1338,6 +1345,7 @@ For translators: don't translate this text, it will be replaced with another one
   <tabstop>postprocessing_check</tabstop>
   <tabstop>autoq_spin</tabstop>
   <tabstop>deinterlace_combo</tabstop>
+  <tabstop>blackborders_check</tabstop>
   <tabstop>zoom_spin</tabstop>
   <tabstop>eq2_check</tabstop>
   <tabstop>direct_rendering_check</tabstop>

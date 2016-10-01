@@ -522,6 +522,10 @@ public:
 	//! 100 = 100% at the bottom
 	int initial_sub_pos;
 
+#ifndef ADD_BLACKBORDERS_FS
+	bool initial_blackborders;
+#endif
+
 	bool initial_postprocessing; //!< global postprocessing filter
 	bool initial_volnorm;
 

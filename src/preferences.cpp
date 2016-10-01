@@ -538,6 +538,10 @@ void Preferences::reset() {
 	initial_zoom_factor = 1.0;
 	initial_sub_pos = 100; // 100%
 
+#ifndef ADD_BLACKBORDERS_FS
+	initial_blackborders = false;
+#endif
+
 	initial_postprocessing = false;
 	initial_volnorm = false;
 
@@ -1067,6 +1071,11 @@ void Preferences::save() {
 	set->setValue("initial_sub_pos", initial_sub_pos);
 
 	set->setValue("initial_volnorm", initial_volnorm);
+
+#ifndef ADD_BLACKBORDERS_FS
+	set->setValue("initial_blackborders", initial_blackborders);
+#endif
+
 	set->setValue("initial_postprocessing", initial_postprocessing);
 
 	set->setValue("initial_deinterlace", initial_deinterlace);
@@ -1626,6 +1635,11 @@ void Preferences::load() {
 	initial_sub_pos = set->value("initial_sub_pos", initial_sub_pos).toInt();
 
 	initial_volnorm = set->value("initial_volnorm", initial_volnorm).toBool();
+
+#ifndef ADD_BLACKBORDERS_FS
+	initial_blackborders = set->value("initial_blackborders", initial_blackborders).toBool();
+#endif
+
 	initial_postprocessing = set->value("initial_postprocessing", initial_postprocessing).toBool();
 
 	initial_deinterlace = set->value("initial_deinterlace", initial_deinterlace).toInt();
