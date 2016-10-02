@@ -936,6 +936,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 						filename = playlist_path + "/" + filename;
 					}
 				}
+				name.replace("&#44;", ",");
 				addItem( filename, name, duration );
 				name=""; 
 				duration = 0;
@@ -1067,6 +1068,7 @@ bool Playlist::save_m3u(QString file) {
 			stream.setCodec(QTextCodec::codecForLocale());
 
 		QString filename;
+		QString name;
 
 		stream << "#EXTM3U" << "\n";
 		stream << "# Playlist created by SMPlayer " << Version::printable() << " \n";
@@ -1077,9 +1079,11 @@ bool Playlist::save_m3u(QString file) {
 			#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 			filename = Helper::changeSlashes(filename);
 			#endif
+			name = i->name();
+			name.replace(",", "&#44;");
 			stream << "#EXTINF:";
 			stream << i->duration() << ",";
-			stream << i->name() << "\n";
+			stream << name << "\n";
 			// Try to save the filename as relative instead of absolute
 			if (filename.startsWith( dir_path )) {
 				filename = filename.mid( dir_path.length() );
