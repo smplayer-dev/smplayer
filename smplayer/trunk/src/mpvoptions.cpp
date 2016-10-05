@@ -637,7 +637,15 @@ void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 }
 
 void MPVProcess::showFilenameOnOSD() {
-	writeToStdin("show_text \"${filename}\" 2000 0");
+	QString s = "${filename}\\n\\n"+
+		//tr("Title:") + " ${media-title}\\n" +
+		tr("Resolution:") + " ${=width}x${=height}\\n" +
+		tr("Frames per second:") + " ${fps}\\n" +
+		tr("Video bitrate:") + " ${video-bitrate}\\n" +
+		tr("Audio bitrate:") + " ${audio-bitrate}\\n" +
+		tr("Length:") + " ${duration:${length}}";
+
+	writeToStdin("show_text \"" + s + "\" 5000 0");
 }
 
 void MPVProcess::showTimeOnOSD() {
