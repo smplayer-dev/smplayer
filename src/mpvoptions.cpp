@@ -668,13 +668,17 @@ void MPVProcess::toggleInfoOnOSD() {
 }
 
 void MPVProcess::displayInfoOnOSD() {
-	QString s = "${filename}\\n"
-		"${time-pos} / ${length:0} (${percent-pos}%)\\n\\n" +
-		//tr("Title:") + " ${media-title}\\n" +
-		tr("Resolution:") + " ${=width}x${=height}\\n" +
-		tr("Frames per second:") + " ${fps}\\n" +
-		tr("Video bitrate:") + " ${video-bitrate}\\n" +
-		tr("Audio bitrate:") + " ${audio-bitrate}\\n";
+	QString b1 = "{\\\\b1}";
+	QString b0 = "{\\\\b0}";
+
+	QString s = "${osd-ass-cc/0}{\\\\fs14}"
+		"${filename}\\n"
+		"${time-pos} ${?length:/ ${length} (${percent-pos}%)}\\n\\n" +
+		// b1 + tr("Title:") + b0 + " ${media-title}\\n" +
+		b1 + tr("Resolution:") + b0 +" ${=width}x${=height}\\n" +
+		b1 + tr("Frames per second:") + b0 + " ${fps}\\n" +
+		b1 + tr("Video bitrate:") + b0 + " ${video-bitrate}\\n" +
+		b1 + tr("Audio bitrate:") + b0 + " ${audio-bitrate}\\n";
 
 	showOSDText(s, 2000, 0);
 
