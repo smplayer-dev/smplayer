@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation>Versi pembangunan</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1964,7 +1964,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"/>
+        <translation>Hantar &amp;audio kepada</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="335"/>
@@ -2084,7 +2084,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation>Peranti audio &amp;lalai</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -4659,22 +4659,22 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>Senarai main tidak bertajuk</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Muat...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>Muat senarai main daripada &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Muat/Simpan</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
@@ -4704,7 +4704,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Muat senarai main daripada URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4714,7 +4714,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>Simpan seb&amp;agai...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4790,22 +4790,22 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="662"/>
         <source>Show position column</source>
-        <translation type="unfinished"/>
+        <translation>Tunjuk lajur kedudukan</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="663"/>
         <source>Show name column</source>
-        <translation type="unfinished"/>
+        <translation>Tunjuk lajur nama</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="664"/>
         <source>Show length column</source>
-        <translation type="unfinished"/>
+        <translation>Tunjuk lajur jangka masa</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="665"/>
         <source>Show filename column</source>
-        <translation type="unfinished"/>
+        <translation>Tunjuk lajur nama fail</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1780"/>
@@ -4850,7 +4850,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="2160"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Format tidak dikenali.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="674"/>
@@ -8295,7 +8295,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Main fail berikutnya secara automatik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
@@ -8305,12 +8305,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Abai ralat main balik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Tambah fail ke senarai main secara automatik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8320,7 +8320,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>Auto isih</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
@@ -8330,7 +8330,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Gelintar sensitif kata</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
@@ -8430,7 +8430,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>Main balik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
@@ -8470,7 +8470,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>A&amp;uto isih</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
@@ -9395,12 +9395,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"/>
+        <translation>%1 (revisi %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (revisi %2)</translation>
     </message>
 </context>
 <context>

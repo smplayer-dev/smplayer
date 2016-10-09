@@ -8330,12 +8330,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Forskel på store og små bogstaver</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Denne indstilling angiver hvorvidt søgningen i spillelisten skelner mellem store og små bogstaver.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
@@ -8385,7 +8385,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Denne indstilling kan bruges til automatisk at føje filer til spillelisten:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8475,7 +8475,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Forskel på store og små &amp;bogstaver</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>

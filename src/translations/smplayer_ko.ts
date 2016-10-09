@@ -4659,22 +4659,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>제목 없는 재생목록</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>불러오기(&amp;L)...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>URL에서 재생목록 불러오기(&amp;U)...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>불러오기/저장하기</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
@@ -4714,7 +4714,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>다른 이름으로 저장하기(&amp;A)...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -8286,32 +8286,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>재생목록을 불러온 후 재생을 시작하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation>재생목록을 불러온 후에 재생이 시작될 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>다음 파일 자동으로 재생하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>파일 재생이 끝나면, 다음 파일이 자동으로 재생될 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>재생 오류 무시하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>파일을 재생목록에 자동으로 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8321,32 +8321,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>자동 정렬</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>이 옵션 사용시 파일을 목록에 추가한 후에 목록을 자동으로 정렬할 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>대소문자 구별 검색</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>이 옵션은 재생목록에서 검색할 때 대소문자를 구별할 것인지를 지정합니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>종료시 재생목록의 사본 저장하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>이 옵션을 사용하면 SMPlayer 종료시 재생 목록의 사본을 SMPlayer 설정에 저장하고, SMPlayer 재실행시에 그 목록을 자동으로 다시 불러올 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8386,7 +8386,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>이 옵션은 파일을 재생목록에 자동으로 추가하기 위해 사용할 수 있습니다:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8431,32 +8431,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>재생</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>재생목록을 불러온 후 재생을 시작하기(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>다음 파일 자동으로 재생하기(&amp;Y)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>재생 오류 무시하기(&amp;N)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>파일 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>파일을 재생목록에 자동으로 추가하기(&amp;A)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8471,17 +8471,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>자동 정렬(&amp;U)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>대소문자 구별 검색(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>종료시 재생목록의 사본 저장하기(&amp;S)</translation>
     </message>
 </context>
 <context>

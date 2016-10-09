@@ -4659,22 +4659,22 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>Izenburu gabeko rakur-zerrenda</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>Gertatu&amp;...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>Gertatu irakur-zerrenda URL-tik...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Gertatu/Gorde</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
@@ -4714,7 +4714,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>Gorde &amp;honela...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -8285,32 +8285,32 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Hasi irakurketa irakur-zerrenda bat gertatu ondoren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation>Irakurketa irakur-zerrenda bat gertatu eta berehala hasiko da.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Irakurri hurrengo agiria berezgaitasunez</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Agiri bat amaitutakoan, hurrengo agiria berezgaitasunez irakurriko da.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Ezikusi irakurketa akatsak</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Gehitu agiriak irakur-zerrendara berezgaitasunez</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8320,32 +8320,32 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>Berez antolatu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Aukera hau gaituta badago zerrenda berezgaitasunez antolatuko da agiriak gehitu ondoren.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Larri-xehe bereizketa bilaketa</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Aukera honek irakur-zerrendako bilaketak hizki larri-xeheak bereiziko dituen edo ez adierazten du.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Gorde irakur-zerrendaren kopia bat irtetzerakoan</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Aukera hau hautatua bada, irakur-zerrendaren kopia bat gordeko da itxurapen agirian smplayer isterakoan, eta berezgaitasunez birgertatuko da smplayer berriro abiarazitakoan.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8385,7 +8385,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Aukera hau agiriak irakur-zerrendara berezgaitasunez gehitzeko erabili daiteke:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8430,32 +8430,32 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>Irakurketa</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Hasi irakurketa irakur-zerrenda bat gertatu ondoren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Irakurri hurrengo agiria berezgaitasunez</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Ezikusi irakurketa a&amp;katsak</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>Agiri gehitzea</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gehitu agiriak irakur-zerrendara berezgaitasunez</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8470,17 +8470,17 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>Berez a&amp;ntolatu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Larri-&amp;xehe bereizketa bilaketa</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>G&amp;orde irakur-zerrendaren kopia bat irtetzerakoan</translation>
     </message>
 </context>
 <context>
