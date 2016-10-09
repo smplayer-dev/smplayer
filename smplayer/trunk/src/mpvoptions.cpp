@@ -79,7 +79,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 #ifdef OSD_WITH_TIMER
 	if (!osd_timer) {
 		osd_timer = new QTimer(this);
-		osd_timer->setInterval(1000);
+		osd_timer->setInterval(500);
 		connect(osd_timer, SIGNAL(timeout()), this, SLOT(displayInfoOnOSD()));
 	}
 #endif
