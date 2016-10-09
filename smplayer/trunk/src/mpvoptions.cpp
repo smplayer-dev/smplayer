@@ -75,6 +75,14 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 #ifdef CAPTURE_STREAM
 	capturing = false;
 #endif
+
+#ifdef OSD_WITH_TIMER
+	if (!osd_timer) {
+		osd_timer = new QTimer(this);
+		osd_timer->setInterval(1000);
+		connect(osd_timer, SIGNAL(timeout()), this, SLOT(displayInfoOnOSD()));
+	}
+#endif
 }
 
 void MPVProcess::setFixedOptions() {
@@ -637,20 +645,42 @@ void MPVProcess::showOSDText(const QString & text, int duration, int level) {
 }
 
 void MPVProcess::showFilenameOnOSD() {
-	QString s = "${filename}\\n\\n"+
-		//tr("Title:") + " ${media-title}\\n" +
-		tr("Resolution:") + " ${=width}x${=height}\\n" +
-		tr("Frames per second:") + " ${fps}\\n" +
-		tr("Video bitrate:") + " ${video-bitrate}\\n" +
-		tr("Audio bitrate:") + " ${audio-bitrate}\\n" +
-		tr("Length:") + " ${duration:${length}}";
-
-	writeToStdin("show_text \"" + s + "\" 5000 0");
+#ifdef OSD_WITH_TIMER
+	toggleInfoOnOSD();
+#else
+	showOSDText("${filename}", 2000, 0);
+#endif
 }
 
 void MPVProcess::showTimeOnOSD() {
 	writeToStdin("show_text \"${time-pos} / ${length:0} (${percent-pos}%)\" 2000 0");
 }
+
+#ifdef OSD_WITH_TIMER
+void MPVProcess::toggleInfoOnOSD() {
+	if (!osd_timer->isActive()) {
+		osd_timer->start();
+		displayInfoOnOSD();
+	} else {
+		osd_timer->stop();
+		showOSDText("", 100, 0);
+	}
+}
+
+void MPVProcess::displayInfoOnOSD() {
+	QString s = "${filename}\\n"
+		"${time-pos} / ${length:0} (${percent-pos}%)\\n\\n" +
+		//tr("Title:") + " ${media-title}\\n" +
+		tr("Resolution:") + " ${=width}x${=height}\\n" +
+		tr("Frames per second:") + " ${fps}\\n" +
+		tr("Video bitrate:") + " ${video-bitrate}\\n" +
+		tr("Audio bitrate:") + " ${audio-bitrate}\\n";
+
+	showOSDText(s, 2000, 0);
+
+	if (!isRunning()) osd_timer->stop();
+}
+#endif
 
 void MPVProcess::setContrast(int value) {
 	writeToStdin("set contrast " + QString::number(value));

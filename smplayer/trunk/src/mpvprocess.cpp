@@ -56,6 +56,9 @@ MPVProcess::MPVProcess(QObject * parent)
 #endif
 	, dvd_current_title(-1)
 	, br_current_title(-1)
+#ifdef OSD_WITH_TIMER
+	, osd_timer(0)
+#endif
 {
 	player_id = PlayerID::MPV;
 
