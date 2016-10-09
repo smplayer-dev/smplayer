@@ -23,6 +23,8 @@
 #include "playerprocess.h"
 #include "config.h"
 
+#define OSD_WITH_TIMER
+
 class QStringList;
 
 class MPVProcess : public PlayerProcess
@@ -123,12 +125,20 @@ protected:
 	void addVFIfAvailable(const QString & vf, const QString & value = QString::null);
 	void messageFilterNotSupported(const QString & filter_name);
 
+#ifdef OSD_WITH_TIMER
+	void toggleInfoOnOSD();
+#endif
+
 protected slots:
 	void parseLine(QByteArray ba);
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 	void gotError(QProcess::ProcessError);
 	void requestChapterInfo();
 	void requestBitrateInfo();
+
+#ifdef OSD_WITH_TIMER
+	void displayInfoOnOSD();
+#endif
 
 protected:
 #if NOTIFY_AUDIO_CHANGES
@@ -179,6 +189,10 @@ private:
 
 #ifdef CAPTURE_STREAM
 	bool capturing;
+#endif
+
+#ifdef OSD_WITH_TIMER
+	QTimer * osd_timer;
 #endif
 };
 
