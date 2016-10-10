@@ -673,8 +673,8 @@ void MPVProcess::displayInfoOnOSD() {
 	QString tab = "\\\\h\\\\h\\\\h\\\\h\\\\h";
 	QString nl = "\\n";
 
-	QString s = "${osd-ass-cc/0}{\\\\fs14}"
-		"${filename}" + nl +
+	QString s = "${osd-ass-cc/0}{\\\\fs14}" +
+		b1 + tr("File:") + b0 +" ${filename}" + nl +
 		"${time-pos} ${?length:/ ${length} (${percent-pos}%)}" + nl + nl +
 		//b1 + tr("Title:") + b0 + " ${media-title}" + nl + nl +
 		b1 + tr("Video:") + b0 + " ${video-codec}" + nl +
@@ -693,7 +693,8 @@ void MPVProcess::displayInfoOnOSD() {
 		nl +
 
 		b1 + tr("A-V:") + b0 + " ${avsync}" + nl +
-		b1 + tr("Cache:") + b0 + " ${cache-used}" + nl;
+		b1 + tr("Cache fill:") + b0 + " ${cache:0}%" + nl +
+		b1 + tr("Used cache:") + b0 + " ${cache-used:0}" + nl;
 
 	showOSDText(s, 2000, 0);
 
