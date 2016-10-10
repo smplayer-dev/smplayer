@@ -670,15 +670,30 @@ void MPVProcess::toggleInfoOnOSD() {
 void MPVProcess::displayInfoOnOSD() {
 	QString b1 = "{\\\\b1}";
 	QString b0 = "{\\\\b0}";
+	QString tab = "\\\\h\\\\h\\\\h\\\\h\\\\h";
+	QString nl = "\\n";
 
 	QString s = "${osd-ass-cc/0}{\\\\fs14}"
-		"${filename}\\n"
-		"${time-pos} ${?length:/ ${length} (${percent-pos}%)}\\n\\n" +
-		// b1 + tr("Title:") + b0 + " ${media-title}\\n" +
-		b1 + tr("Resolution:") + b0 +" ${=width}x${=height}\\n" +
-		b1 + tr("Frames per second:") + b0 + " ${fps}\\n" +
-		b1 + tr("Video bitrate:") + b0 + " ${video-bitrate}\\n" +
-		b1 + tr("Audio bitrate:") + b0 + " ${audio-bitrate}\\n";
+		"${filename}" + nl +
+		"${time-pos} ${?length:/ ${length} (${percent-pos}%)}" + nl + nl +
+		//b1 + tr("Title:") + b0 + " ${media-title}" + nl + nl +
+		b1 + tr("Video:") + b0 + " ${video-codec}" + nl +
+		tab + b1 + tr("Resolution:") + b0 +" ${=width}x${=height}" + nl +
+		tab + b1 + tr("Frames per second:") + b0 + " ${fps} " + b1 + tr("Estimated:") + b0 + " ${estimated-vf-fps}" + nl +
+		//tab + b1 + tr("Display FPS:") + b0 + " ${display-fps}" + nl +
+		tab + b1 + tr("Aspect Ratio:") + b0 + " ${video-params/aspect}" + nl +
+		tab + b1 + tr("Bitrate:") + b0 + " ${video-bitrate}" + nl +
+		tab + b1 + tr("Dropped frames:") + b0 + " ${drop-frame-count}" + nl +
+		nl +
+
+		b1 + tr("Audio:") + b0 + " ${audio-codec}" + nl + 
+		tab + b1 + tr("Bitrate:") + b0 + " ${audio-bitrate}" + nl +
+		tab + b1 + tr("Sample Rate:") + b0 + " ${audio-params/samplerate} Hz" + nl +
+		tab + b1 + tr("Channels:") + b0 + " ${audio-params/channel-count}" + nl +
+		nl +
+
+		b1 + tr("A-V:") + b0 + " ${avsync}" + nl +
+		b1 + tr("Cache:") + b0 + " ${cache-used}" + nl;
 
 	showOSDText(s, 2000, 0);
 
