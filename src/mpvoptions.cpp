@@ -653,7 +653,10 @@ void MPVProcess::showFilenameOnOSD() {
 }
 
 void MPVProcess::showTimeOnOSD() {
-	writeToStdin("show_text \"${time-pos} / ${length:0} (${percent-pos}%)\" 2000 0");
+#ifdef OSD_WITH_TIMER
+	osd_timer->stop();
+#endif
+	writeToStdin("show_text \"${time-pos} ${?length:/ ${length} (${percent-pos}%)}\" 2000 0");
 }
 
 #ifdef OSD_WITH_TIMER
