@@ -1859,6 +1859,19 @@ void Playlist::dropEvent( QDropEvent *e ) {
 			only_files.append( files[n] );
 		}
 	}
+
+	if (only_files.count() == 1) {
+		// Check if the file is a playlist
+		QString filename = only_files[0];
+		QFileInfo fi(filename);
+		QString extension = fi.suffix().toLower();
+		if (extension == "m3u8" || extension == "m3u") { load_m3u(filename); return; }
+		else
+		if (extension == "pls") { load_pls(filename); return; }
+		else
+		if (extension == "xspf") { loadXSPF(filename); return; }
+	}
+
 	addFiles( only_files );
 	setModified(true);
 }
