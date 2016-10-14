@@ -2164,14 +2164,17 @@ void Playlist::playlistDownloaded(QByteArray data) {
 
 	if (data.contains("#EXTM3U")) {
 		load_m3u(tfile, M3U8);
+		setPlaylistFilename("");
 	}
 	else
 	if (data.contains("[playlist]")) {
 		load_pls(tfile);
+		setPlaylistFilename("");
 	}
 	else
 	if (data.contains("xspf.org")) {
 		loadXSPF(tfile);
+		setPlaylistFilename("");
 	}
 	else {
 		QMessageBox::warning(this, "SMPlayer", tr("It's not possible to load this playlist") +": "+ tr("Unrecognized format."));
