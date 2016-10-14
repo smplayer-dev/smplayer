@@ -142,7 +142,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Багато людей внесли свій внесок своїми виправленнями.  Перегляньте Changelog для подробиць.</translation>
+        <translation>Багато людей зробили внесок своїми виправленнями.  Перегляньте Changelog для деталей.</translation>
     </message>
 </context>
 <context>
@@ -9638,7 +9638,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation>Анагліф червоний/блакитний кольоровий</translation>
+        <translation>Анагліф червоний/блакитний колір</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
