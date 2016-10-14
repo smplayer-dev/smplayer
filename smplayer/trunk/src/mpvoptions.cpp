@@ -695,7 +695,7 @@ void MPVProcess::displayInfoOnOSD() {
 		tab + b1 + tr("Channels:") + b0 + " ${audio-params/channel-count}" + nl +
 		nl +
 
-		b1 + tr("A-V:") + b0 + " ${avsync}" + nl +
+		b1 + tr("Audio - video synchronization:") + b0 + " ${avsync}" + nl +
 		b1 + tr("Cache fill:") + b0 + " ${cache:0}%" + nl +
 		b1 + tr("Used cache:") + b0 + " ${cache-used:0}" + nl;
 
