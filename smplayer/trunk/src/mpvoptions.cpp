@@ -656,7 +656,7 @@ void MPVProcess::showTimeOnOSD() {
 #ifdef OSD_WITH_TIMER
 	osd_timer->stop();
 #endif
-	writeToStdin("show_text \"${time-pos} ${?length:/ ${length} (${percent-pos}%)}\" 2000 0");
+	writeToStdin("show_text \"${time-pos} ${?duration:/ ${duration} (${percent-pos}%)}\" 2000 0");
 }
 
 #ifdef OSD_WITH_TIMER
@@ -678,7 +678,7 @@ void MPVProcess::displayInfoOnOSD() {
 
 	QString s = "${osd-ass-cc/0}{\\\\fs14}" +
 		b1 + tr("File:") + b0 +" ${filename}" + nl +
-		"${time-pos} ${?length:/ ${length} (${percent-pos}%)}" + nl + nl +
+		"${time-pos} ${?duration:/ ${duration} (${percent-pos}%)}" + nl + nl +
 		//b1 + tr("Title:") + b0 + " ${media-title}" + nl + nl +
 		b1 + tr("Video:") + b0 + " ${video-codec}" + nl +
 		tab + b1 + tr("Resolution:") + b0 +" ${=width}x${=height}" + nl +
@@ -695,7 +695,7 @@ void MPVProcess::displayInfoOnOSD() {
 		tab + b1 + tr("Channels:") + b0 + " ${audio-params/channel-count}" + nl +
 		nl +
 
-		b1 + tr("Audio - video synchronization:") + b0 + " ${avsync}" + nl +
+		b1 + tr("Audio/video synchronization:") + b0 + " ${avsync}" + nl +
 		b1 + tr("Cache fill:") + b0 + " ${cache:0}%" + nl +
 		b1 + tr("Used cache:") + b0 + " ${cache-used:0}" + nl;
 
