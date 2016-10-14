@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="fi">
 <context>
     <name>About</name>
     <message>
@@ -9,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -29,12 +31,12 @@
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="169"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
@@ -54,17 +56,17 @@
     <message>
         <location filename="../about.cpp" line="57"/>
         <source>Using %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="78"/>
         <source>SMPlayer is a graphical interface for %1 and %2.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="91"/>
         <source>Subtitles service powered by %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="194"/>
@@ -79,7 +81,7 @@
     <message>
         <location filename="../about.ui" line="33"/>
         <source>Page</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.ui" line="38"/>
@@ -132,7 +134,7 @@
     <message>
         <location filename="../about.cpp" line="114"/>
         <source>Read a translation</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../about.cpp" line="126"/>
@@ -142,7 +144,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -250,7 +252,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="203"/>
         <source>&amp;Preset</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="204"/>
@@ -270,102 +272,102 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
         <source>Flat</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Classical</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
         <source>Club</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
         <source>Dance</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="216"/>
         <source>Full bass</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="217"/>
         <source>Full bass and treble</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="218"/>
         <source>Full treble</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="219"/>
         <source>Headphones</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="220"/>
         <source>Large hall</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="221"/>
         <source>Live</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="222"/>
         <source>Party</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="223"/>
         <source>Pop</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="224"/>
         <source>Reggae</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="225"/>
         <source>Rock</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="226"/>
         <source>Ska</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="227"/>
         <source>Soft</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="228"/>
         <source>Soft rock</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="229"/>
         <source>Techno</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="230"/>
         <source>Custom</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="235"/>
@@ -391,42 +393,42 @@ Haluatko ylikirjoittaa sen?</translation>
 <context>
     <name>BaseGui</name>
     <message>
-        <location filename="../basegui.cpp" line="1918"/>
+        <location filename="../basegui.cpp" line="1919"/>
         <source>&amp;Open</source>
         <translation>&amp;Avaa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1919"/>
+        <location filename="../basegui.cpp" line="1920"/>
         <source>&amp;Play</source>
         <translation>&amp;Toista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1920"/>
+        <location filename="../basegui.cpp" line="1921"/>
         <source>&amp;Video</source>
         <translation>&amp;Kuva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1921"/>
+        <location filename="../basegui.cpp" line="1922"/>
         <source>&amp;Audio</source>
         <translation>&amp;Ääni</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1922"/>
+        <location filename="../basegui.cpp" line="1923"/>
         <source>&amp;Subtitles</source>
         <translation>&amp;Tekstitys</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1923"/>
+        <location filename="../basegui.cpp" line="1924"/>
         <source>&amp;Browse</source>
         <translation>&amp;Selaa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1925"/>
+        <location filename="../basegui.cpp" line="1926"/>
         <source>Op&amp;tions</source>
         <translation>As&amp;etukset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1926"/>
+        <location filename="../basegui.cpp" line="1927"/>
         <source>&amp;Help</source>
         <translation>&amp;Ohje</translation>
     </message>
@@ -461,12 +463,12 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;URL...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1942"/>
+        <location filename="../basegui.cpp" line="1943"/>
         <source>&amp;Clear</source>
         <translation>&amp;Tyhjennä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1940"/>
+        <location filename="../basegui.cpp" line="1941"/>
         <source>&amp;Recent files</source>
         <translation>&amp;Viimeaikaiset tiedostot</translation>
     </message>
@@ -514,10 +516,10 @@ Haluatko ylikirjoittaa sen?</translation>
         <location filename="../basegui.cpp" line="1806"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Ei käytössä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1960"/>
+        <location filename="../basegui.cpp" line="1961"/>
         <source>Sp&amp;eed</source>
         <translation>No&amp;peus</translation>
     </message>
@@ -537,34 +539,34 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Kompakti tila</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1970"/>
+        <location filename="../basegui.cpp" line="1971"/>
         <source>Si&amp;ze</source>
         <translation>Ko&amp;ko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1980"/>
+        <location filename="../basegui.cpp" line="1981"/>
         <source>&amp;Aspect ratio</source>
         <translation>&amp;Kuvasuhde</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2019"/>
-        <location filename="../basegui.cpp" line="3518"/>
-        <location filename="../basegui.cpp" line="3532"/>
+        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="3521"/>
+        <location filename="../basegui.cpp" line="3535"/>
         <source>&amp;None</source>
         <translation>&amp;Ei mitään</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2020"/>
+        <location filename="../basegui.cpp" line="2021"/>
         <source>&amp;Lowpass5</source>
         <translation>&amp;Alipäästö5</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2023"/>
+        <location filename="../basegui.cpp" line="2024"/>
         <source>Linear &amp;Blend</source>
         <translation>Lineaarinen &amp;sekoitus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1983"/>
+        <location filename="../basegui.cpp" line="1984"/>
         <source>&amp;Deinterlace</source>
         <translation>&amp;Lomituksen poisto</translation>
     </message>
@@ -586,7 +588,7 @@ Haluatko ylikirjoittaa sen?</translation>
     <message>
         <location filename="../basegui.cpp" line="1752"/>
         <source>De&amp;ring</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
@@ -594,7 +596,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>Lisää k&amp;ohinaa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1986"/>
+        <location filename="../basegui.cpp" line="1987"/>
         <source>F&amp;ilters</source>
         <translation>S&amp;uodattimet</translation>
     </message>
@@ -609,7 +611,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Kuvakaappaus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1992"/>
+        <location filename="../basegui.cpp" line="1993"/>
         <source>S&amp;tay on top</source>
         <translation>P&amp;ysy päällimmäisenä</translation>
     </message>
@@ -624,43 +626,43 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Karaoke</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2054"/>
+        <location filename="../basegui.cpp" line="2055"/>
         <source>&amp;Filters</source>
         <translation>&amp;Suodattimet</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2064"/>
-        <location filename="../basegui.cpp" line="2070"/>
+        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2071"/>
         <source>&amp;Stereo</source>
         <translation>&amp;Stereo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2065"/>
+        <location filename="../basegui.cpp" line="2066"/>
         <source>&amp;4.0 Surround</source>
         <translation>&amp;4.0 ympäröidä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2066"/>
+        <location filename="../basegui.cpp" line="2067"/>
         <source>&amp;5.1 Surround</source>
         <translation>&amp;5.1 ympäröidä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2057"/>
+        <location filename="../basegui.cpp" line="2058"/>
         <source>&amp;Channels</source>
         <translation>&amp;Kanavat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2071"/>
+        <location filename="../basegui.cpp" line="2072"/>
         <source>&amp;Left channel</source>
         <translation>&amp;Vasen kanava</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2072"/>
+        <location filename="../basegui.cpp" line="2073"/>
         <source>&amp;Right channel</source>
         <translation>&amp;Oikea kanava</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2060"/>
+        <location filename="../basegui.cpp" line="2061"/>
         <source>&amp;Stereo mode</source>
         <translation>&amp;Stereotila</translation>
     </message>
@@ -690,7 +692,7 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>S&amp;iirtää eteenpäin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2080"/>
+        <location filename="../basegui.cpp" line="2081"/>
         <source>&amp;Select</source>
         <translation>&amp;Valitse</translation>
     </message>
@@ -720,17 +722,17 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Alas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2098"/>
+        <location filename="../basegui.cpp" line="2099"/>
         <source>&amp;Title</source>
         <translation>&amp;Otsikko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2101"/>
+        <location filename="../basegui.cpp" line="2102"/>
         <source>&amp;Chapter</source>
         <translation>&amp;Kappale</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2104"/>
+        <location filename="../basegui.cpp" line="2105"/>
         <source>&amp;Angle</source>
         <translation>&amp;Kuvakulma</translation>
     </message>
@@ -740,12 +742,12 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>&amp;Soittolista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2017"/>
+        <location filename="../basegui.cpp" line="2018"/>
         <source>&amp;Disabled</source>
         <translation>&amp;Ei käytössä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2136"/>
+        <location filename="../basegui.cpp" line="2137"/>
         <source>&amp;OSD</source>
         <translation>&amp;Kuvaruutunäyttö</translation>
     </message>
@@ -760,100 +762,100 @@ Haluatko ylikirjoittaa sen?</translation>
         <translation>Tietoa &amp;SMPlayerstä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3555"/>
-        <location filename="../basegui.cpp" line="3571"/>
-        <location filename="../basegui.cpp" line="3587"/>
-        <location filename="../basegui.cpp" line="3602"/>
-        <location filename="../basegui.cpp" line="3636"/>
-        <location filename="../basegui.cpp" line="3656"/>
-        <location filename="../basegui.cpp" line="3732"/>
+        <location filename="../basegui.cpp" line="3558"/>
+        <location filename="../basegui.cpp" line="3574"/>
+        <location filename="../basegui.cpp" line="3590"/>
+        <location filename="../basegui.cpp" line="3605"/>
+        <location filename="../basegui.cpp" line="3639"/>
+        <location filename="../basegui.cpp" line="3659"/>
+        <location filename="../basegui.cpp" line="3735"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;tyhjä&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4178"/>
+        <location filename="../basegui.cpp" line="4181"/>
         <source>Video</source>
         <translation>Kuva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4179"/>
-        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4182"/>
+        <location filename="../basegui.cpp" line="4419"/>
         <source>Audio</source>
         <translation>Ääni</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4180"/>
+        <location filename="../basegui.cpp" line="4183"/>
         <source>Playlists</source>
         <translation>Soittolistat</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4181"/>
-        <location filename="../basegui.cpp" line="4396"/>
-        <location filename="../basegui.cpp" line="4417"/>
+        <location filename="../basegui.cpp" line="4184"/>
+        <location filename="../basegui.cpp" line="4399"/>
+        <location filename="../basegui.cpp" line="4420"/>
         <source>All files</source>
         <translation>Kaikki tiedostot</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4176"/>
-        <location filename="../basegui.cpp" line="4393"/>
-        <location filename="../basegui.cpp" line="4414"/>
+        <location filename="../basegui.cpp" line="4179"/>
+        <location filename="../basegui.cpp" line="4396"/>
+        <location filename="../basegui.cpp" line="4417"/>
         <source>Choose a file</source>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1825"/>
         <source>&amp;YouTube%1 browser</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4232"/>
+        <location filename="../basegui.cpp" line="4235"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - Tietoa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4233"/>
+        <location filename="../basegui.cpp" line="4236"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>CDROM / DVD asemia ei ole vielä asetettu.
 Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4346"/>
+        <location filename="../basegui.cpp" line="4349"/>
         <source>Select the Blu-ray folder</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4359"/>
+        <location filename="../basegui.cpp" line="4362"/>
         <source>Choose a directory</source>
         <translation>Valitse kansio</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4395"/>
+        <location filename="../basegui.cpp" line="4398"/>
         <source>Subtitles</source>
         <translation>Tekstitykset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5015"/>
+        <location filename="../basegui.cpp" line="5020"/>
         <source>Error detected</source>
         <translation>Virhe havaittu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5016"/>
+        <location filename="../basegui.cpp" line="5021"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>Valitettavasti tätä videota ei voi toistaa.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5246"/>
+        <location filename="../basegui.cpp" line="5251"/>
         <source>Pause</source>
         <translation>Tauko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5247"/>
+        <location filename="../basegui.cpp" line="5252"/>
         <source>Stop</source>
         <translation>Pysäytä</translation>
     </message>
@@ -930,32 +932,32 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1830"/>
-        <location filename="../basegui.cpp" line="2158"/>
+        <location filename="../basegui.cpp" line="2159"/>
         <source>%1 log</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
-        <location filename="../basegui.cpp" line="2161"/>
+        <location filename="../basegui.cpp" line="2162"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1844"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2174"/>
         <location filename="../basegui.cpp" line="2175"/>
         <location filename="../basegui.cpp" line="2176"/>
+        <location filename="../basegui.cpp" line="2177"/>
         <source>-%1</source>
         <translation>-%1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2178"/>
         <location filename="../basegui.cpp" line="2179"/>
         <location filename="../basegui.cpp" line="2180"/>
+        <location filename="../basegui.cpp" line="2181"/>
         <source>+%1</source>
         <translation>+%1</translation>
     </message>
@@ -967,62 +969,62 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1660"/>
         <source>&amp;Blu-ray from drive</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1661"/>
         <source>Blu-&amp;ray from folder...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1693"/>
         <source>Fra&amp;me back step</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1712"/>
         <source>&amp;Half speed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1728"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Stereo &amp;3D filter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1753"/>
         <source>Debanding (&amp;gradfun)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1793"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1796"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1802"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1812"/>
@@ -1033,32 +1035,32 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../basegui.cpp" line="1822"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1835"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1838"/>
         <source>First Steps &amp;Guide</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Open configuration folder</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <source>Size &amp;+</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1863"/>
         <source>Size &amp;-</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1877"/>
@@ -1136,304 +1138,309 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Edellinen kappale</translation>
     </message>
     <message>
+        <location filename="../basegui.cpp" line="1905"/>
+        <source>Show &amp;info on OSD</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../basegui.cpp" line="1906"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1924"/>
+        <location filename="../basegui.cpp" line="1925"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2000"/>
+        <location filename="../basegui.cpp" line="2001"/>
         <source>De&amp;noise</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2003"/>
+        <location filename="../basegui.cpp" line="2004"/>
         <source>Blur/S&amp;harp</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2026"/>
-        <source>&amp;Off</source>
-        <comment>denoise menu</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2027"/>
-        <source>&amp;Normal</source>
+        <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Ei käytössä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2028"/>
-        <source>&amp;Soft</source>
+        <source>&amp;Normal</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2030"/>
-        <source>&amp;None</source>
-        <comment>unsharp menu</comment>
-        <translation type="unfinished"/>
+        <location filename="../basegui.cpp" line="2029"/>
+        <source>&amp;Soft</source>
+        <comment>denoise menu</comment>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
-        <source>&amp;Blur</source>
+        <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Ei mitään</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2032"/>
+        <source>&amp;Blur</source>
+        <comment>unsharp menu</comment>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2033"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2052"/>
+        <location filename="../basegui.cpp" line="2053"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2067"/>
-        <source>&amp;6.1 Surround</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2068"/>
-        <source>&amp;7.1 Surround</source>
-        <translation type="unfinished"/>
+        <source>&amp;6.1 Surround</source>
+        <translation type="unfinished">&amp;5.1 ympäröidä {6.1 ?}</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2073"/>
-        <source>&amp;Mono</source>
-        <translation type="unfinished"/>
+        <location filename="../basegui.cpp" line="2069"/>
+        <source>&amp;7.1 Surround</source>
+        <translation type="unfinished">&amp;5.1 ympäröidä {7.1 ?}</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2074"/>
+        <source>&amp;Mono</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2075"/>
         <source>Re&amp;verse</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2078"/>
+        <location filename="../basegui.cpp" line="2079"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2083"/>
+        <location filename="../basegui.cpp" line="2084"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2086"/>
+        <location filename="../basegui.cpp" line="2087"/>
         <source>Secondary trac&amp;k</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2088"/>
+        <location filename="../basegui.cpp" line="2089"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2094"/>
+        <location filename="../basegui.cpp" line="2095"/>
         <source>F&amp;rames per second</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2108"/>
+        <location filename="../basegui.cpp" line="2109"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="2118"/>
-        <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2119"/>
-        <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <source>&amp;Add new bookmark</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2120"/>
-        <source>Previous bookmark</source>
-        <translation type="unfinished"/>
+        <source>&amp;Edit bookmarks</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2121"/>
+        <source>Previous bookmark</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="2122"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2150"/>
+        <location filename="../basegui.cpp" line="2151"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2954"/>
+        <location filename="../basegui.cpp" line="2957"/>
         <source>Logs</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4950"/>
+        <location filename="../basegui.cpp" line="4955"/>
         <source>Connection failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4951"/>
+        <location filename="../basegui.cpp" line="4956"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4952"/>
+        <location filename="../basegui.cpp" line="4957"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4953"/>
+        <location filename="../basegui.cpp" line="4958"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4954"/>
+        <location filename="../basegui.cpp" line="4959"/>
         <source>this link</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4964"/>
+        <location filename="../basegui.cpp" line="4969"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4971"/>
-        <location filename="../basegui.cpp" line="4979"/>
+        <location filename="../basegui.cpp" line="4976"/>
+        <location filename="../basegui.cpp" line="4984"/>
         <source>Problems with Youtube</source>
         <translation>Ongelmia Youtuben kanssa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5939"/>
-        <location filename="../basegui.cpp" line="5991"/>
-        <source>%1 Error</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5940"/>
-        <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5965"/>
-        <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5966"/>
-        <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5968"/>
-        <source>Click here to get it</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5993"/>
-        <source>%1 failed to start.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../basegui.cpp" line="5994"/>
-        <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
+        <location filename="../basegui.cpp" line="5944"/>
         <location filename="../basegui.cpp" line="5996"/>
+        <source>%1 Error</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5945"/>
+        <source>%1 has finished unexpectedly.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5970"/>
+        <source>The component youtube-dl failed to run.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5971"/>
+        <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5973"/>
+        <source>Click here to get it</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5998"/>
+        <source>%1 failed to start.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="5999"/>
+        <source>Please check the %1 path in preferences.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../basegui.cpp" line="6001"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6078"/>
+        <location filename="../basegui.cpp" line="6083"/>
         <source>The YouTube Browser is not installed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6079"/>
-        <location filename="../basegui.cpp" line="6091"/>
+        <location filename="../basegui.cpp" line="6084"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>Visit %1 to get it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>The YouTube Browser failed to run.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6095"/>
         <source>Be sure it&apos;s installed correctly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6256"/>
+        <location filename="../basegui.cpp" line="6261"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6258"/>
+        <location filename="../basegui.cpp" line="6263"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6262"/>
+        <location filename="../basegui.cpp" line="6267"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4967"/>
+        <location filename="../basegui.cpp" line="4972"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4973"/>
+        <location filename="../basegui.cpp" line="4978"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>Haluatko päivittää Youtube-koodin? Se saattaa korjata ongelman.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4981"/>
+        <location filename="../basegui.cpp" line="4986"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>SMPlayerin päivittämisen saattaa korjata ongelman.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2140"/>
+        <location filename="../basegui.cpp" line="2141"/>
         <source>S&amp;hare SMPlayer with your friends</source>
         <translation>Jaa SMPlayer yst&amp;ävillesi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3243"/>
-        <location filename="../basegui.cpp" line="3982"/>
+        <location filename="../basegui.cpp" line="3246"/>
+        <location filename="../basegui.cpp" line="3985"/>
         <source>Information</source>
         <translation>Tiedot</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3244"/>
+        <location filename="../basegui.cpp" line="3247"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3744"/>
+        <location filename="../basegui.cpp" line="3747"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>Vahvista poisto - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3745"/>
+        <location filename="../basegui.cpp" line="3748"/>
         <source>Delete the list of recent files?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3983"/>
+        <location filename="../basegui.cpp" line="3986"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Nykyiset arvot on tallennettu oletusarvoiksi.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
@@ -1451,17 +1458,17 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>&amp;Lataa ulkopuolinen tiedosto...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2024"/>
+        <location filename="../basegui.cpp" line="2025"/>
         <source>&amp;Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2021"/>
+        <location filename="../basegui.cpp" line="2022"/>
         <source>&amp;Yadif (normal)</source>
         <translation>&amp;Yadif (normaali)</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2022"/>
+        <location filename="../basegui.cpp" line="2023"/>
         <source>Y&amp;adif (double framerate)</source>
         <translation>Y&amp;adif (kaksinkertainen kehysnopeus)</translation>
     </message>
@@ -1521,7 +1528,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>&amp;Komentoriviasetukset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4436"/>
+        <location filename="../basegui.cpp" line="4439"/>
         <source>SMPlayer command line options</source>
         <translation>SMPlayerin komentoriviasetukset</translation>
     </message>
@@ -1536,47 +1543,47 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Nollaa kuvakorjain</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5017"/>
+        <location filename="../basegui.cpp" line="5022"/>
         <source>The server returned &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5941"/>
+        <location filename="../basegui.cpp" line="5946"/>
         <source>Exit code: %1</source>
         <translation>Poistumiskoodi: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5997"/>
+        <location filename="../basegui.cpp" line="6002"/>
         <source>See the log for more info.</source>
         <translation>Katso lokista lisätietoja.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1989"/>
+        <location filename="../basegui.cpp" line="1990"/>
         <source>&amp;Rotate</source>
         <translation>&amp;Kierrä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2034"/>
+        <location filename="../basegui.cpp" line="2035"/>
         <source>&amp;Off</source>
         <translation>&amp;Ei käytössä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2035"/>
+        <location filename="../basegui.cpp" line="2036"/>
         <source>&amp;Rotate by 90 degrees clockwise and flip</source>
         <translation>&amp;Kierrä 90 astetta myötäpäivään ja käännä</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2036"/>
+        <location filename="../basegui.cpp" line="2037"/>
         <source>Rotate by 90 degrees &amp;clockwise</source>
         <translation>Kierrä 90 astetta &amp;myötäpäivään</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2037"/>
+        <location filename="../basegui.cpp" line="2038"/>
         <source>Rotate by 90 degrees counterclock&amp;wise</source>
         <translation>Kierrä 90 astetta &amp;vastapäivään</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2038"/>
+        <location filename="../basegui.cpp" line="2039"/>
         <source>Rotate by 90 degrees counterclockwise and &amp;flip</source>
         <translation>Kierrä 90 astetta vastapäivään ja &amp;käännä</translation>
     </message>
@@ -1591,7 +1598,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Näytä kontekstivalikko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4177"/>
+        <location filename="../basegui.cpp" line="4180"/>
         <source>Multimedia</source>
         <translation>Multimedia</translation>
     </message>
@@ -1611,7 +1618,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Lähetä &amp;tekstityksiä osoitteeseen opensubtitles.org...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2006"/>
+        <location filename="../basegui.cpp" line="2007"/>
         <source>&amp;Auto</source>
         <translation>&amp;Automaattinen</translation>
     </message>
@@ -1636,12 +1643,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>N&amp;opeus +1%</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1996"/>
+        <location filename="../basegui.cpp" line="1997"/>
         <source>Scree&amp;n</source>
         <translation>&amp;Kuva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2046"/>
+        <location filename="../basegui.cpp" line="2047"/>
         <source>&amp;Default</source>
         <translation>&amp;Oletus</translation>
     </message>
@@ -1656,34 +1663,34 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Seuraava video</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1967"/>
+        <location filename="../basegui.cpp" line="1968"/>
         <source>&amp;Track</source>
         <comment>video</comment>
         <translation>&amp;Videokappale</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2050"/>
+        <location filename="../basegui.cpp" line="2051"/>
         <source>&amp;Track</source>
         <comment>audio</comment>
         <translation>&amp;Äänikappale</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4866"/>
+        <location filename="../basegui.cpp" line="4871"/>
         <source>Warning - Using old MPlayer</source>
         <translation>Varoitus - käytössä vanhentunut version MPlayerista</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4867"/>
+        <location filename="../basegui.cpp" line="4872"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>Käyttämäsi MPlayerin versio (%1) on vanhentunut. SMPlayer ei toimi kunnolla sen kanssa: jotkut asetukset eivät toimi, tekstityksen valinta ei välttämättä toimi...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4872"/>
+        <location filename="../basegui.cpp" line="4877"/>
         <source>Please, update your MPlayer.</source>
         <translation>Päivitä MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4874"/>
+        <location filename="../basegui.cpp" line="4879"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(Tätä varoitusta ei näytetä enää)</translation>
     </message>
@@ -1708,57 +1715,57 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Tarkenna &amp;2.35:1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2040"/>
+        <location filename="../basegui.cpp" line="2041"/>
         <source>&amp;Always</source>
         <translation>&amp;Aina</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2041"/>
+        <location filename="../basegui.cpp" line="2042"/>
         <source>&amp;Never</source>
         <translation>&amp;Ei koskaan</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2042"/>
+        <location filename="../basegui.cpp" line="2043"/>
         <source>While &amp;playing</source>
         <translation>Soitetta&amp;essa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2129"/>
+        <location filename="../basegui.cpp" line="2130"/>
         <source>DVD &amp;menu</source>
         <translation>DVD &amp;valikko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2131"/>
+        <location filename="../basegui.cpp" line="2132"/>
         <source>DVD &amp;previous menu</source>
         <translation>&amp;Edellinen DVD valikko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2125"/>
+        <location filename="../basegui.cpp" line="2126"/>
         <source>DVD menu, move up</source>
         <translation>DVD valikko, siirry ylös</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2126"/>
+        <location filename="../basegui.cpp" line="2127"/>
         <source>DVD menu, move down</source>
         <translation>DVD valikko, siirry alas</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2127"/>
+        <location filename="../basegui.cpp" line="2128"/>
         <source>DVD menu, move left</source>
         <translation>DVD valikko, siirry vasemmalle</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2128"/>
+        <location filename="../basegui.cpp" line="2129"/>
         <source>DVD menu, move right</source>
         <translation>DVD valikko, siirry oikealle</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2130"/>
+        <location filename="../basegui.cpp" line="2131"/>
         <source>DVD menu, select option</source>
         <translation>DVD valikko, valitse valinta</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2132"/>
+        <location filename="../basegui.cpp" line="2133"/>
         <source>DVD menu, mouse click</source>
         <translation>DVD valikko, hiiren napsautus</translation>
     </message>
@@ -1773,47 +1780,47 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Ase&amp;ta viive...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4522"/>
+        <location filename="../basegui.cpp" line="4525"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;Hyppää kohtaan:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4523"/>
+        <location filename="../basegui.cpp" line="4526"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - Haku</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4534"/>
-        <location filename="../basegui.cpp" line="4538"/>
+        <location filename="../basegui.cpp" line="4537"/>
+        <location filename="../basegui.cpp" line="4541"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - Äänen viive</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4535"/>
-        <location filename="../basegui.cpp" line="4539"/>
+        <location filename="../basegui.cpp" line="4538"/>
+        <location filename="../basegui.cpp" line="4542"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>Äänen viive (millisekuneissa):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4550"/>
-        <location filename="../basegui.cpp" line="4554"/>
+        <location filename="../basegui.cpp" line="4553"/>
+        <location filename="../basegui.cpp" line="4557"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - Tekstityksen viive</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4551"/>
-        <location filename="../basegui.cpp" line="4555"/>
+        <location filename="../basegui.cpp" line="4554"/>
+        <location filename="../basegui.cpp" line="4558"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>Tekstityksen viive (millisekunneissa):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2043"/>
+        <location filename="../basegui.cpp" line="2044"/>
         <source>Toggle stay on top</source>
         <translation>Kytke päällimmäisenä pysyminen</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5452"/>
-        <location filename="../basegui.cpp" line="5781"/>
+        <location filename="../basegui.cpp" line="5457"/>
+        <location filename="../basegui.cpp" line="5786"/>
         <source>Jump to %1</source>
         <translation>Hyppää kohtaan %1</translation>
     </message>
@@ -1833,38 +1840,38 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Seuraava rullan toiminto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2113"/>
+        <location filename="../basegui.cpp" line="2114"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
         <translation>O&amp;hjelma</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1952"/>
+        <location filename="../basegui.cpp" line="1953"/>
         <source>&amp;TV</source>
         <translation>&amp;TV</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1955"/>
+        <location filename="../basegui.cpp" line="1956"/>
         <source>Radi&amp;o</source>
         <translation>Radi&amp;o</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1911"/>
+        <location filename="../basegui.cpp" line="1912"/>
         <source>Subtitles onl&amp;y</source>
         <translation>&amp;Vain tekstitykset</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1912"/>
+        <location filename="../basegui.cpp" line="1913"/>
         <source>Volume + &amp;Seek</source>
         <translation>Äänenvoimakkuus + &amp;Etsi</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1913"/>
+        <location filename="../basegui.cpp" line="1914"/>
         <source>Volume + Seek + &amp;Timer</source>
         <translation>Äänenvoimakkuus + Etsi + &amp;Ajastus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1914"/>
+        <location filename="../basegui.cpp" line="1915"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
         <translation>Äänenvoimakkuus + Etsi + Ajastus + &amp;Kokonaisaika</translation>
     </message>
@@ -1879,14 +1886,13 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>&amp;Käännä kuva</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1977"/>
+        <location filename="../basegui.cpp" line="1978"/>
         <source>Zoo&amp;m</source>
         <translation>Zoo&amp;maa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1905"/>
         <source>Show filename on OSD</source>
-        <translation>Näytä tiedostonimi kuvaruutunäytössä</translation>
+        <translation type="obsolete">Näytä tiedostonimi kuvaruutunäytössä</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1703"/>
@@ -1904,27 +1910,27 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>&amp;Tyhjennä A-B merkit</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1963"/>
+        <location filename="../basegui.cpp" line="1964"/>
         <source>&amp;A-B section</source>
         <translation>&amp;A-B osa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1907"/>
+        <location filename="../basegui.cpp" line="1908"/>
         <source>Toggle deinterlacing</source>
         <translation>Kytke lomituksen poisto</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="2091"/>
+        <location filename="../basegui.cpp" line="2092"/>
         <source>&amp;Closed captions</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1944"/>
+        <location filename="../basegui.cpp" line="1945"/>
         <source>&amp;Disc</source>
         <translation>&amp;Levy</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="1948"/>
+        <location filename="../basegui.cpp" line="1949"/>
         <source>F&amp;avorites</source>
         <translation>&amp;Suosikit</translation>
     </message>
@@ -1949,22 +1955,22 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="319"/>
         <source>Send &amp;video to screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="321"/>
         <source>Information about connected &amp;screens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="324"/>
         <source>Video is sent to an external screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="335"/>
@@ -1979,112 +1985,112 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="780"/>
         <source>Information about connected screens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="783"/>
         <source>Connected screens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="786"/>
         <location filename="../baseguiplus.cpp" line="828"/>
         <source>Number of screens: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="791"/>
         <location filename="../baseguiplus.cpp" line="829"/>
         <source>Primary screen: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="799"/>
         <location filename="../baseguiplus.cpp" line="833"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="801"/>
         <location filename="../baseguiplus.cpp" line="835"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="803"/>
         <source>Available size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="804"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="808"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="810"/>
         <source>Depth: %1 bits</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="811"/>
         <location filename="../baseguiplus.cpp" line="837"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="813"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="815"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="816"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="818"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="819"/>
         <source>Size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="820"/>
         <source>Virtual geometry: %1 %2 %3 x %4</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="822"/>
         <source>Virtual size: %1 x %2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="875"/>
         <source>Primary screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="941"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -2097,27 +2103,27 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../bookmarkdialog.ui" line="14"/>
         <source>Edit bookmarks</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="38"/>
         <source>&amp;New bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.ui" line="45"/>
         <source>&amp;Delete bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../bookmarkdialog.cpp" line="76"/>
         <source>Name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Nimi</translation>
     </message>
 </context>
 <context>
@@ -2130,7 +2136,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -2145,7 +2151,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="128"/>
         <source>Success</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
@@ -2156,7 +2162,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="133"/>
         <source>An error happened writing %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
@@ -2167,120 +2173,120 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3053"/>
+        <location filename="../core.cpp" line="3058"/>
         <source>Brightness: %1</source>
         <translation>Kirkkaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3069"/>
+        <location filename="../core.cpp" line="3074"/>
         <source>Contrast: %1</source>
         <translation>Kontrasti: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3084"/>
+        <location filename="../core.cpp" line="3089"/>
         <source>Gamma: %1</source>
         <translation>Gamma: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3099"/>
+        <location filename="../core.cpp" line="3104"/>
         <source>Hue: %1</source>
         <translation>Värisävy: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3114"/>
+        <location filename="../core.cpp" line="3119"/>
         <source>Saturation: %1</source>
         <translation>Kyllästys: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3257"/>
+        <location filename="../core.cpp" line="3262"/>
         <source>Volume: %1</source>
         <translation>Äänen voimakkuus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4153"/>
+        <location filename="../core.cpp" line="4160"/>
         <source>Zoom: %1</source>
         <translation>Zoomaus: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3385"/>
-        <location filename="../core.cpp" line="3396"/>
+        <location filename="../core.cpp" line="3390"/>
+        <location filename="../core.cpp" line="3401"/>
         <source>Font scale: %1</source>
         <translation>Fontin koko: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3986"/>
+        <location filename="../core.cpp" line="3991"/>
         <source>Aspect ratio: %1</source>
         <translation>Kuvasuhde: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4379"/>
+        <location filename="../core.cpp" line="4386"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Päivitetään kirjasin välimuistia. Se saattaa kestää hieman...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3310"/>
+        <location filename="../core.cpp" line="3315"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Tekstityksen viive: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3328"/>
+        <location filename="../core.cpp" line="3333"/>
         <source>Audio delay: %1 ms</source>
         <translation>Äänen viive: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3168"/>
+        <location filename="../core.cpp" line="3173"/>
         <source>Speed: %1</source>
         <translation>Nopeus: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="598"/>
         <source>Unable to retrieve the Youtube page</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core.cpp" line="602"/>
         <source>Unable to locate the URL of the video</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3473"/>
+        <location filename="../core.cpp" line="3478"/>
         <source>Subtitles on</source>
         <translation>Tekstitys päälle</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3475"/>
+        <location filename="../core.cpp" line="3480"/>
         <source>Subtitles off</source>
         <translation>Tekstitys pois</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4034"/>
+        <location filename="../core.cpp" line="4039"/>
         <source>Mouse wheel seeks now</source>
         <translation>Hiiren rulla etsii</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4037"/>
+        <location filename="../core.cpp" line="4042"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Hiiren rulla vaihtaa äänen voimakkuutta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4040"/>
+        <location filename="../core.cpp" line="4045"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Hiiren rulla vaihtaa zoomauksen tasoa</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4043"/>
+        <location filename="../core.cpp" line="4048"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Hiiren rulla vaihtaa nopeutta</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4355"/>
+        <location filename="../core.cpp" line="4362"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4390"/>
+        <location filename="../core.cpp" line="4397"/>
         <source>Starting...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1409"/>
@@ -2293,24 +2299,24 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <translation>Ruutukaappausta EI otettu, kansiota ei ole määritelty</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2697"/>
+        <location filename="../core.cpp" line="2702"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; merkki asetettu %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2719"/>
+        <location filename="../core.cpp" line="2724"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; merkki asetettu %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2739"/>
+        <location filename="../core.cpp" line="2744"/>
         <source>A-B markers cleared</source>
         <translation>A-B merkit tyhjennetty</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2343,12 +2349,12 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="650"/>
         <source>Ready</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="689"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="712"/>
@@ -2378,28 +2384,28 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="692"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="693"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="694"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="695"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="726"/>
         <source>%1x%2 %3 fps</source>
         <comment>width + height + fps</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2415,7 +2421,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../errordialog.cpp" line="40"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
@@ -2522,7 +2528,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../favoriteeditor.ui" line="51"/>
         <source>&amp;New item</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="85"/>
@@ -2552,7 +2558,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../favorites.cpp" line="90"/>
         <source>&amp;Jump...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="91"/>
@@ -2567,7 +2573,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2588,7 +2594,7 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="62"/>
         <source>Connecting to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2645,13 +2651,13 @@ Asetus-ikkuna näytetäään, jotta voit tehdä sen.</translation>
         <source>You can also pass additional video filters.
 Separate them with &quot;,&quot;. Do not use spaces!
 Example: scale=512:-2,mirror</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="384"/>
         <source>And finally audio filters. Same rule as for video filters.
 Example: extrastereo,karaoke</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="287"/>
@@ -2686,27 +2692,27 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="97"/>
         <source>O&amp;ptions for %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="98"/>
         <source>Additional Options for %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="99"/>
         <source>Here you can pass extra options to %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Example:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Esimerkki:</translation>
     </message>
 </context>
 <context>
@@ -2714,12 +2720,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="28"/>
         <source>HTTP</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="29"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
@@ -2754,7 +2760,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
         <source>Options</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Asetukset</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="20"/>
@@ -2764,7 +2770,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="83"/>
@@ -2804,17 +2810,17 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="197"/>
         <source>Misc</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
         <source>Number of &amp;retries:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -2852,7 +2858,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
         <source>Portuguese - Brasil</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
@@ -2867,7 +2873,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="364"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
@@ -2877,12 +2883,15 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n tekstitys purettu</numerusform><numerusform>%n tekstitystä purettu</numerusform></translation>
+        <translation>
+            <numerusform>%n tekstitys purettu</numerusform>
+            <numerusform>%n tekstitystä purettu</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
         <source>Error fixing the subtitle lines</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2975,7 +2984,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Ladattua tiedostoa ei voitu tallentaa
@@ -3005,12 +3014,12 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3033,7 +3042,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../infofile.cpp" line="86"/>
         <source>URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="88"/>
@@ -3183,36 +3192,36 @@ Tarkista kansion oikeudet.</translation>
         <location filename="../infofile.cpp" line="178"/>
         <location filename="../infofile.cpp" line="180"/>
         <source>undefined</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="223"/>
         <source>Track %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="226"/>
         <location filename="../infofile.cpp" line="234"/>
         <source>Language: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="227"/>
         <location filename="../infofile.cpp" line="235"/>
         <source>Name: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="228"/>
         <location filename="../infofile.cpp" line="236"/>
         <source>ID: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="230"/>
         <location filename="../infofile.cpp" line="238"/>
         <source>Type: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="164"/>
@@ -3245,7 +3254,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3253,17 +3262,17 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="14"/>
         <source>Add new bookmark</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -3281,7 +3290,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3736,7 +3745,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="141"/>
         <source>Norwegian Nynorsk</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="142"/>
@@ -3973,7 +3982,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="237"/>
         <source>Arabic - Syria</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="292"/>
@@ -4033,7 +4042,7 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
@@ -4129,12 +4138,12 @@ Tarkista kansion oikeudet.</translation>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
@@ -4371,7 +4380,7 @@ Tarkista kansion oikeudet.</translation>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="336"/>
         <source>Slovene</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
@@ -4452,23 +4461,23 @@ Haluatko kirjoittaa sen päälle?</translation>
         <location filename="../logwindow.ui" line="58"/>
         <location filename="../logwindow.ui" line="61"/>
         <source>Save</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="68"/>
         <location filename="../logwindow.ui" line="71"/>
         <source>Copy to clipboard</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="78"/>
         <source>Close</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Sulje</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4476,7 +4485,7 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
         <source>Form</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4484,12 +4493,12 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
         <source>Repeat playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4497,7 +4506,7 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4510,12 +4519,12 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="176"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4528,21 +4537,21 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="151"/>
         <source>Seek bar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="463"/>
         <location filename="../mpcgui/mpcgui.cpp" line="464"/>
         <location filename="../mpcgui/mpcgui.cpp" line="465"/>
         <source>-%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">-%1</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="467"/>
         <location filename="../mpcgui/mpcgui.cpp" line="468"/>
         <location filename="../mpcgui/mpcgui.cpp" line="469"/>
         <source>+%1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">+%1</translation>
     </message>
 </context>
 <context>
@@ -4550,12 +4559,12 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="13"/>
         <source>Enter URL(s)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4563,12 +4572,12 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="185"/>
         <source>Rewind</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="186"/>
         <source>Forward</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="187"/>
@@ -4588,12 +4597,12 @@ Haluatko kirjoittaa sen päälle?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Next file in playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Previous file in playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -4619,89 +4628,89 @@ Haluatko kirjoittaa sen päälle?</translation>
         <translation>&amp;Muokkaa</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1224"/>
-        <location filename="../playlist.cpp" line="1260"/>
+        <location filename="../playlist.cpp" line="1228"/>
+        <location filename="../playlist.cpp" line="1264"/>
         <source>Playlists</source>
         <translation>Soittolistat</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1222"/>
+        <location filename="../playlist.cpp" line="1226"/>
         <source>Choose a file</source>
         <translation>Valitse tiedosto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1258"/>
+        <location filename="../playlist.cpp" line="1262"/>
         <source>Choose a filename</source>
         <translation>Valitse tiedostonimi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1270"/>
+        <location filename="../playlist.cpp" line="1274"/>
         <source>Confirm overwrite?</source>
         <translation>Vahvista päällekirjoitus?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1271"/>
+        <location filename="../playlist.cpp" line="1275"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Tiedosto %1 on jo olemassa.
 Haluatko päällekirjoittaa?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1224"/>
-        <location filename="../playlist.cpp" line="1260"/>
-        <location filename="../playlist.cpp" line="1483"/>
+        <location filename="../playlist.cpp" line="1228"/>
+        <location filename="../playlist.cpp" line="1264"/>
+        <location filename="../playlist.cpp" line="1487"/>
         <source>All files</source>
         <translation>Kaikki tiedostot</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Lataa...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1480"/>
+        <location filename="../playlist.cpp" line="1484"/>
         <source>Select one or more files to open</source>
         <translation>Valitse yksi tai useampi tiedosto avattavaksi</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1550"/>
+        <location filename="../playlist.cpp" line="1554"/>
         <source>Choose a directory</source>
         <translation>Valitse hakemisto</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1745"/>
+        <location filename="../playlist.cpp" line="1749"/>
         <source>Edit name</source>
         <translation>Muokkaa nimeä</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1746"/>
+        <location filename="../playlist.cpp" line="1750"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Kirjoita nimi, joka näytetään soittolistassa tälle tiedostolle:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4711,7 +4720,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4761,7 +4770,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../playlist.cpp" line="652"/>
         <source>Add &amp;URL(s)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="655"/>
@@ -4776,78 +4785,78 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../playlist.cpp" line="658"/>
         <source>&amp;Delete file from disk</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="660"/>
         <location filename="../playlist.cpp" line="680"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="662"/>
         <source>Show position column</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="663"/>
         <source>Show name column</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="664"/>
         <source>Show length column</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="665"/>
         <source>Show filename column</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1780"/>
+        <location filename="../playlist.cpp" line="1784"/>
         <source>Confirm deletion</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1781"/>
+        <location filename="../playlist.cpp" line="1785"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1782"/>
+        <location filename="../playlist.cpp" line="1786"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1800"/>
+        <location filename="../playlist.cpp" line="1804"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1801"/>
+        <location filename="../playlist.cpp" line="1805"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1806"/>
+        <location filename="../playlist.cpp" line="1810"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1807"/>
+        <location filename="../playlist.cpp" line="1811"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2160"/>
+        <location filename="../playlist.cpp" line="2180"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2160"/>
+        <location filename="../playlist.cpp" line="2180"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="674"/>
@@ -4860,19 +4869,19 @@ Haluatko päällekirjoittaa?</translation>
         <translation>Poista...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
+        <location filename="../playlist.cpp" line="1307"/>
         <source>Playlist modified</source>
         <translation>Soittolistaa muutettu</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1304"/>
+        <location filename="../playlist.cpp" line="1308"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Muutoksia ei ole tallennettu, haluatko tallentaa soittolistan?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1482"/>
+        <location filename="../playlist.cpp" line="1486"/>
         <source>Multimedia</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Multimedia</translation>
     </message>
 </context>
 <context>
@@ -4886,7 +4895,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="92"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Automaattinen</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="24"/>
@@ -4921,12 +4930,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
         <source>Use the la&amp;vf demuxer by default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -4976,22 +4985,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
         <source>Limitation: the actions are run only when a file is opened and not when the %1 process is restarted (e.g. you select an audio or video filter).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="500"/>
@@ -5086,32 +5095,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
         <source>Log %1 output</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="580"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="585"/>
         <source>Autosave %1 log filename</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="586"/>
         <source>Enter here the path and filename that will be used to save the %1 log.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="592"/>
@@ -5126,82 +5135,82 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="94"/>
         <source>&amp;Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="95"/>
         <source>&amp;Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
         <source>A&amp;utosave %1 log to file</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
         <source>Run %1 in its own window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass short filenames (8+3) to %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Report %1 crashes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
         <source>Pass the %1 option to MPlayer (security risk)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="482"/>
@@ -5216,28 +5225,28 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
         <source>Options for %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="510"/>
         <source>Here you can type options for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="514"/>
         <source>Here you can add video filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="515"/>
         <location filename="../prefadvanced.cpp" line="519"/>
         <source>Write them separated by commas. Don&apos;t use spaces!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="518"/>
         <source>Here you can add audio filters for %1.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="549"/>
@@ -5252,7 +5261,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5300,17 +5309,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="494"/>
         <source>Show tag info in window title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="198"/>
         <source>Show tag in&amp;fo in window title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -5353,12 +5362,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefassociations.cpp" line="242"/>
         <source>Note:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="243"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5432,7 +5441,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefdrives.ui" line="274"/>
         <source>Select your &amp;Blu-ray device:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
@@ -5442,12 +5451,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
         <source>Blu-ray device</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="240"/>
         <source>Choose your Blu-ray device. It will be used to play Blu-ray discs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="227"/>
@@ -5457,7 +5466,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5488,8 +5497,8 @@ Haluatko päällekirjoittaa?</translation>
 <context>
     <name>PrefGeneral</name>
     <message>
-        <location filename="../prefgeneral.cpp" line="133"/>
-        <location filename="../prefgeneral.cpp" line="963"/>
+        <location filename="../prefgeneral.cpp" line="139"/>
+        <location filename="../prefgeneral.cpp" line="983"/>
         <source>General</source>
         <translation>Yleinen</translation>
     </message>
@@ -5504,249 +5513,259 @@ Haluatko päällekirjoittaa?</translation>
         <translation>Median asetukset</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1097"/>
+        <location filename="../prefgeneral.cpp" line="1123"/>
         <source>Start videos in fullscreen</source>
         <translation>Aloita videot kokoruudussa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1126"/>
+        <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Disable screensaver</source>
         <translation>Poista näytönsäästäjä</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="155"/>
+        <location filename="../prefgeneral.cpp" line="161"/>
         <source>7 (6.1 Surround)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="156"/>
+        <location filename="../prefgeneral.cpp" line="162"/>
         <source>8 (7.1 Surround)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="182"/>
+        <location filename="../prefgeneral.cpp" line="188"/>
         <source>Select the %1 executable</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="184"/>
+        <location filename="../prefgeneral.cpp" line="190"/>
         <source>Executables</source>
         <translation>Suoritettavat tiedostot</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="186"/>
+        <location filename="../prefgeneral.cpp" line="192"/>
         <source>All files</source>
         <translation>Kaikki tiedostot</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="188"/>
+        <location filename="../prefgeneral.cpp" line="194"/>
         <source>Select a directory</source>
         <translation>Valitse hakemisto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="201"/>
+        <location filename="../prefgeneral.cpp" line="207"/>
         <source>%1 &amp;executable:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="381"/>
-        <location filename="../prefgeneral.cpp" line="382"/>
+        <location filename="../prefgeneral.cpp" line="399"/>
+        <location filename="../prefgeneral.cpp" line="400"/>
         <source>Default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Oletus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="966"/>
+        <location filename="../prefgeneral.cpp" line="986"/>
         <source>Multimedia engine</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="967"/>
-        <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="968"/>
-        <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="971"/>
-        <source>%1 executable</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="972"/>
-        <source>Here you must specify the %1 executable that SMPlayer will use.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="987"/>
-        <source>Remember settings for streams</source>
-        <translation type="unfinished"/>
+        <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="988"/>
-        <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"/>
+        <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1003"/>
+        <location filename="../prefgeneral.cpp" line="991"/>
+        <source>%1 executable</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="992"/>
+        <source>Here you must specify the %1 executable that SMPlayer will use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1007"/>
+        <source>Remember settings for streams</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1008"/>
+        <source>When this option is enabled the settings for online streams will be remembered as well.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>Screenshots folder</source>
         <translation>Ruutukaappausten kansio</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1009"/>
+        <location filename="../prefgeneral.cpp" line="1029"/>
         <source>Template for screenshots</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1011"/>
+        <location filename="../prefgeneral.cpp" line="1031"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1012"/>
+        <location filename="../prefgeneral.cpp" line="1032"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1022"/>
+        <location filename="../prefgeneral.cpp" line="1042"/>
         <source>Format for screenshots</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1023"/>
+        <location filename="../prefgeneral.cpp" line="1043"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1041"/>
+        <location filename="../prefgeneral.cpp" line="1061"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1067"/>
         <source>Video output driver</source>
         <translation>Kuvan ulostulon ajuri</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1048"/>
+        <location filename="../prefgeneral.cpp" line="1068"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1135"/>
+        <location filename="../prefgeneral.cpp" line="1092"/>
+        <source>Add blackborders for subtitles by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1093"/>
+        <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1163"/>
         <source>Audio output driver</source>
         <translation>Äänen ulostulon ajuri</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1136"/>
+        <location filename="../prefgeneral.cpp" line="1164"/>
         <source>Select the audio output driver.</source>
         <translation>Valitse äänen ulostulon ajuri.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="977"/>
+        <location filename="../prefgeneral.cpp" line="997"/>
         <source>Remember settings</source>
         <translation>Muista asetukset</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1194"/>
+        <location filename="../prefgeneral.cpp" line="1222"/>
         <source>Preferred audio language</source>
         <translation>Haluttu äänen kieli</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1204"/>
+        <location filename="../prefgeneral.cpp" line="1232"/>
         <source>Preferred subtitle language</source>
         <translation>Haluttu tekstityksen kieli</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1075"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Software video equalizer</source>
         <translation>Ohjelmallinen kuvan taajuuskorjain</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="148"/>
+        <location filename="../prefgeneral.cpp" line="154"/>
         <source>Other...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1010"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>This option specifies the filename template used to save screenshots.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>For a full list of the template specifiers visit this link:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1018"/>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>Shut down computer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1076"/>
+        <location filename="../prefgeneral.cpp" line="1102"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Voit valita tämän asetuksen mikäli kuvan taajuuskorjain ei ole tuettu näytönohjaimessa tai valitulla kuvan ulostulon ajurilla.&lt;br&gt;&lt;b&gt;Huomautus:&lt;/b&gt; tämä asetus voi olla epäyhteensopiva joidenkin kuvan ulostulon ajureilla.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1098"/>
+        <location filename="../prefgeneral.cpp" line="1124"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Jos tämä asetus on valittuna, kaikki videot alkavat toistumaan kokoruututilassa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Global audio equalizer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1142"/>
+        <location filename="../prefgeneral.cpp" line="1170"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1143"/>
-        <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1152"/>
-        <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
-        <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1171"/>
+        <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1180"/>
+        <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1191"/>
+        <source>Allows to change the playback speed without altering pitch.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.cpp" line="1199"/>
         <source>Software volume control</source>
         <translation>Ohjelmallinen äänen voimakkuuden säätö</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1172"/>
+        <location filename="../prefgeneral.cpp" line="1200"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Valitse tämä asetus käyttääksesi ohjelmallista miksaajaa äänikortin miksaajan käyttämisen sijasta.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1061"/>
+        <location filename="../prefgeneral.cpp" line="1081"/>
         <source>Postprocessing quality</source>
         <translation>Jälkikäsittelyn laatu</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Dynaaminen jälkikäsittelyn tason vaihto riippien käytettävissä olevasta suoritinajasta. Numero jonka määrität on suurin käytetty taso. Yleensä voit jotakin suurta numeroa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1155"/>
+        <location filename="../prefgeneral.ui" line="1162"/>
         <source>&amp;Audio:</source>
         <translation>&amp;Ääni:</translation>
     </message>
@@ -5756,7 +5775,7 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Muista asetukset kaikilla tiedostoilla (ääni, kappale, tekstitys...)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1174"/>
+        <location filename="../prefgeneral.ui" line="1181"/>
         <source>Su&amp;btitles:</source>
         <translation>Te&amp;kstitys:</translation>
     </message>
@@ -5768,80 +5787,85 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>Temp&amp;late:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>S&amp;hut down computer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="613"/>
+        <location filename="../prefgeneral.ui" line="516"/>
+        <source>Add blac&amp;kborders for subtitles by default</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefgeneral.ui" line="620"/>
         <source>Start videos in &amp;fullscreen</source>
         <translation>Aloita videot k&amp;okoruututilassa</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="627"/>
+        <location filename="../prefgeneral.ui" line="634"/>
         <source>Disable &amp;screensaver</source>
         <translation>Poista &amp;näytönsäästäjä</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="761"/>
+        <location filename="../prefgeneral.ui" line="768"/>
         <source>Global audio e&amp;qualizer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="880"/>
+        <location filename="../prefgeneral.ui" line="887"/>
         <source>Use s&amp;oftware volume control</source>
         <translation>Käytä &amp;ohjelmallista äänensäätöä</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="903"/>
+        <location filename="../prefgeneral.ui" line="910"/>
         <source>Ma&amp;x. Amplification:</source>
         <translation>Mak&amp;simi vahvistus:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="770"/>
+        <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
         <translation>&amp;AC3/DTS kulku S/PDIF:n läpi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1081"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Direct rendering</source>
         <translation>Suora renderöinti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1086"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Double buffering</source>
         <translation>Kaksoinpuskurointi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="579"/>
+        <location filename="../prefgeneral.ui" line="586"/>
         <source>D&amp;irect rendering</source>
         <translation>Suo&amp;ra renderöinti</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="586"/>
+        <location filename="../prefgeneral.ui" line="593"/>
         <source>Dou&amp;ble buffering</source>
         <translation>Kaks&amp;oispuskurointi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1087"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Kaksoispuskurointi korjaa välkynnän varastoimalla kaksi kuvakehystä muistiin, ja näyttämällä yhtä samalla kun purkaa toista. Jos poiskytkettynä, se voi vaikuttaa kuvaruutunäyttöön nagatiivisesti, mutta usein poistaa kuaruutunäytön välkkymisen.</translation>
     </message>
@@ -5851,37 +5875,37 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Kytke jälkikäsittely oletukseksi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="931"/>
+        <location filename="../prefgeneral.ui" line="938"/>
         <source>Volume &amp;normalization by default</source>
         <translation>Äänen &amp;normalisointi oletuksena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1035"/>
+        <location filename="../prefgeneral.cpp" line="1055"/>
         <source>Close when finished</source>
         <translation>Sulje kun valmistunut</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1056"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Jos tämä asetus on valittuna, pääikkuna sulkeutuu automaattisesti kun nykyinen tiedosto/soittolista päättyy.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="152"/>
+        <location filename="../prefgeneral.cpp" line="158"/>
         <source>2 (Stereo)</source>
         <translation>2 (Stereo)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="153"/>
+        <location filename="../prefgeneral.cpp" line="159"/>
         <source>4 (4.0 Surround)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="154"/>
+        <location filename="../prefgeneral.cpp" line="160"/>
         <source>6 (5.1 Surround)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="785"/>
+        <location filename="../prefgeneral.ui" line="792"/>
         <source>C&amp;hannels by default:</source>
         <translation>Ol&amp;etuskanavat:</translation>
     </message>
@@ -5891,107 +5915,107 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Tauko kun minimoituna</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1050"/>
         <source>Pause when minimized</source>
         <translation>Tauko kun minimoituna</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1058"/>
+        <location filename="../prefgeneral.cpp" line="1078"/>
         <source>Enable postprocessing by default</source>
         <translation>Mahdollista jälkikäsittely oletuksena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1175"/>
+        <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Max. Amplification</source>
         <translation>Maksimi vahvistus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1146"/>
+        <location filename="../prefgeneral.cpp" line="1174"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS kulku S/PDIF:n läpi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1182"/>
+        <location filename="../prefgeneral.cpp" line="1210"/>
         <source>Volume normalization by default</source>
         <translation>Äänen normalisointi oletuksena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1211"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Maksimoi äänenvoimakkuuden vääristämättä ääntä.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1151"/>
+        <location filename="../prefgeneral.cpp" line="1179"/>
         <source>Channels by default</source>
         <translation>Oletuskanavat</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1176"/>
+        <location filename="../prefgeneral.cpp" line="1204"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Asettaa suurimman vahvistustason prosentteina (oletus: 110). Arvo 200 mahdollistaa äänen säädön tuplaamalla nykyisen tason korkeimmaksi. 100 tai pienempien arvojen kanssa alkuperäinen äänitaso (joka on 100 %) on maksimin yläpuolella, jota esim. kuvaruutunäyttö ei voi näyttää oikein.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1079"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Jälkikäsittelyä käytetään oletuksena uusille avatuille tiedostoille.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1214"/>
+        <location filename="../prefgeneral.cpp" line="1242"/>
         <source>Audio track</source>
         <translation>Ääniraita</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1215"/>
+        <location filename="../prefgeneral.cpp" line="1243"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Määrittelee ääniraidan oletuksen jota käytetään uusia tiedostoja toistettaessa. Jos haluttua raitaa ei ole olemassa, ensimmäistä käytetään.&lt;br&gt;&lt;b&gt;Huomautus:&lt;/b&gt;&lt;i&gt;&quot;haluttu äänen kieli&quot;&lt;/i&gt; sillä on etusija tämän asetuksen yläpuolella.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1220"/>
+        <location filename="../prefgeneral.cpp" line="1248"/>
         <source>Subtitle track</source>
         <translation>Tekstitysraita</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1221"/>
+        <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Määrittelee oletuksenä käytettävän tekstitysraidan jota käytetään toistettaessa uusia tiedostoja. Jos määriteltyä raitaa ei ole olemassa, silloin käytetään ensimmäistä.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt;&lt;i&gt;&quot;haluttu tekstityksen kieli&quot;&lt;/i&gt; sillä on etusija tämän asetuksen yläpuolella.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1283"/>
+        <location filename="../prefgeneral.ui" line="1290"/>
         <source>Or choose a track number:</source>
         <translation>Tai valitse raidan numero:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1224"/>
+        <location filename="../prefgeneral.ui" line="1231"/>
         <source>Audi&amp;o:</source>
         <translation>&amp;Ääni:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1190"/>
+        <location filename="../prefgeneral.ui" line="1197"/>
         <source>Preferred language:</source>
         <translation>Haluttu kieli:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1082"/>
+        <location filename="../prefgeneral.ui" line="1089"/>
         <source>Preferre&amp;d audio and subtitles</source>
         <translation>Halut&amp;ut ääni ja tekstitys</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1237"/>
+        <location filename="../prefgeneral.ui" line="1244"/>
         <source>&amp;Subtitle:</source>
         <translation>&amp;Tekstitys:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="191"/>
+        <location filename="../prefgeneral.cpp" line="197"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Tähän voit kirjoittaa haluamasi kielen äänen ja teksitysvirroille. Kun media, jossa on useita ääni- tai tekstitysvirtoja löytyy, SMPlayer yrittää käyttää asettamaasi kieltä. Tämä toimii vain medioiden kanssa jotka tarjoavat tietoa sen ääni- ja tekstitysvirroista, kuten DVD tai mkv tiedostot.&lt;br&gt;Nämä kentät hyväksyvät tavallisia määritelmiä. Esimerkki: &lt;b&gt;es|esp|spa&lt;/b&gt; valitsee raidan jos se täsmää &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; tai &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="821"/>
+        <location filename="../prefgeneral.ui" line="828"/>
         <source>High speed &amp;playback without altering pitch</source>
         <translation>Korkea nopeus &amp;toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1162"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>High speed playback without altering pitch</source>
         <translation>Korkea nopeus toisto ilman muuttuvaa äänenkorkeutta</translation>
     </message>
@@ -6001,77 +6025,77 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Kuva</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="572"/>
+        <location filename="../prefgeneral.ui" line="579"/>
         <source>Use s&amp;oftware video equalizer</source>
         <translation>Käytä &amp;ohjelmallista kuvan taajuuskorjainta</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="671"/>
+        <location filename="../prefgeneral.ui" line="678"/>
         <source>A&amp;udio</source>
         <translation>&amp;Ääni</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="856"/>
+        <location filename="../prefgeneral.ui" line="863"/>
         <source>Volume</source>
         <translation>Äänenvoimakkuus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1045"/>
+        <location filename="../prefgeneral.cpp" line="1065"/>
         <source>Video</source>
         <translation>Kuva</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1133"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Audio</source>
         <translation>Ääni</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1192"/>
+        <location filename="../prefgeneral.cpp" line="1220"/>
         <source>Preferred audio and subtitles</source>
         <translation>Haluttu ääni ja tekstitys</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="160"/>
+        <location filename="../prefgeneral.cpp" line="166"/>
         <source>None</source>
         <translation>Ei mitään</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="161"/>
+        <location filename="../prefgeneral.cpp" line="167"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="162"/>
+        <location filename="../prefgeneral.cpp" line="168"/>
         <source>Yadif (normal)</source>
         <translation>Yadif (normaali)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="163"/>
+        <location filename="../prefgeneral.cpp" line="169"/>
         <source>Yadif (double framerate)</source>
         <translation>Yadif (kaksikertainen kuvanopeus)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="164"/>
+        <location filename="../prefgeneral.cpp" line="170"/>
         <source>Linear Blend</source>
         <translation>Lineaarinen sekoitus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="165"/>
+        <location filename="../prefgeneral.cpp" line="171"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1066"/>
+        <location filename="../prefgeneral.cpp" line="1086"/>
         <source>Deinterlace by default</source>
         <translation>Lomituksen poisto oletuksena</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Valitse lomituksen poistosuodatin jota haluat käyttää uusia videoita avatessa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="982"/>
+        <location filename="../prefgeneral.cpp" line="1002"/>
         <source>Remember time position</source>
         <translation>Muista aikakohta</translation>
     </message>
@@ -6081,32 +6105,32 @@ Haluatko päällekirjoittaa?</translation>
         <translation>Muista &amp;aikakohta</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1138"/>
+        <location filename="../prefgeneral.cpp" line="1166"/>
         <source>Enable the audio equalizer</source>
         <translation>Kytke äänen taajuuskorjain</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1139"/>
+        <location filename="../prefgeneral.cpp" line="1167"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Valitse tämä asetus jos haluat käyttää äänen taajuuskorjainta.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="738"/>
+        <location filename="../prefgeneral.ui" line="745"/>
         <source>&amp;Enable the audio equalizer</source>
         <translation>K&amp;ytke äänen taajuuskorjain</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1091"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Draw video using slices</source>
         <translation>Piirrä kuva käyttämällä viipaleita</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1092"/>
+        <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Kytke päälle/pois piirtämällä kuva 16-pikseliä korkeaksi viipaleiksi/raidoiksi. Jos pois päältä, koko kehys piirretään yhdellä ajolla. Voi olla nopeampi tai hitaampi riippuen näytönohjaimesta ja käytettävissä olevasta välimuistista. Sillä on vaikutus vain  libmpeg2 ja libavcodec kodekkeihin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="593"/>
+        <location filename="../prefgeneral.ui" line="600"/>
         <source>Dra&amp;w video using slices</source>
         <translation>Pii&amp;rrä kuva käyttämällä viipaleita</translation>
     </message>
@@ -6116,122 +6140,122 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Sulje kun toisto on valmis</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="389"/>
-        <location filename="../prefgeneral.cpp" line="396"/>
-        <location filename="../prefgeneral.cpp" line="422"/>
+        <location filename="../prefgeneral.cpp" line="407"/>
+        <location filename="../prefgeneral.cpp" line="414"/>
+        <location filename="../prefgeneral.cpp" line="440"/>
         <source>fast</source>
         <translation>nopea</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="390"/>
-        <location filename="../prefgeneral.cpp" line="418"/>
+        <location filename="../prefgeneral.cpp" line="408"/>
+        <location filename="../prefgeneral.cpp" line="436"/>
         <source>slow</source>
         <translation>hidas</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="423"/>
+        <location filename="../prefgeneral.cpp" line="441"/>
         <source>fast - ATI cards</source>
         <translation>nopea - ATI:n kortit</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="445"/>
-        <location filename="../prefgeneral.cpp" line="482"/>
+        <location filename="../prefgeneral.cpp" line="463"/>
+        <location filename="../prefgeneral.cpp" line="500"/>
         <source>User defined...</source>
         <translation>Käyttäjän määrittelemä...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1071"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Default zoom</source>
         <translation>Oletus zoomaus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1072"/>
+        <location filename="../prefgeneral.cpp" line="1098"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Tämä asetus määrittää oletus zoomauksen, jota käytetään uusissa videoissa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="518"/>
+        <location filename="../prefgeneral.ui" line="525"/>
         <source>Default &amp;zoom:</source>
         <translation>Oletus &amp;zoomaus:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="974"/>
+        <location filename="../prefgeneral.cpp" line="994"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Jos tämä asetus on väärin, SMPlayer ei voi toistaa mitään!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="978"/>
+        <location filename="../prefgeneral.cpp" line="998"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>Tavallisesti SMPlayer muistaa asetukset jokaiselle tiedostolle mitä on toistettu (valitty ääniraita, äänenvoimakkuus, suodattimet...). Kytke tämä asetus pois päältä ellet pidä tästä toiminnosta.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1031"/>
+        <location filename="../prefgeneral.cpp" line="1051"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Jos tämä asetus on valittuna, tiedosto menee taukotilaan kun pääikkuna on piilotettu. Kun ikkuna on palautettu, toisto jatkuu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1127"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Valitse tämä asetus kytkeäksesi näytönsäästäjän pois päältä toiston ajaksi. &lt;br&gt;Näytönsäästäjä on taas toiminnassa toiston jälkeen.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1195"/>
+        <location filename="../prefgeneral.cpp" line="1223"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Tähän oit kirjoittaa haluamasi kielet äänivirroille. Kun löytyy media jossa on useita ääniraitoja, SMPlayer yrittää käyttää määrittelemääsi kieltä. &lt;br&gt;Tämä toimii vain medioiden kanssa jotka tarjoavat tietoa niiden kielistä äänivirroista, kuten DVDt tai mkv tiedostot.&lt;br&gt;Tämä kenttä hyväksyy tavallisia lausekkeita. Esimerkki: &lt;b&gt;es|esp|spa&lt;/b&gt; valitsee ääniraidan jos se löytyy halutuista kielistä &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; tai &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1205"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Tähän oit kirjoittaa haluamasi kielet tekstitysvirroille. Kun löytyy media jossa on useita tekstitysvirtoja, SMPlayer yrittää käyttää määrittelemääsi kieltä. &lt;br&gt;Tämä toimii vain medioiden kanssa jotka tarjoavat tietoa niiden kielistä tekstitysvirroista, kuten DVDt tai mkv tiedostot.&lt;br&gt;Tämä kenttä hyväksyy tavallisia lausekkeita. Esimerkki: &lt;b&gt;es|esp|spa&lt;/b&gt; valitsee tekstityksen jos se löytyy halutuista kielistä &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; tai &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
-        <location filename="../prefgeneral.ui" line="679"/>
+        <location filename="../prefgeneral.ui" line="686"/>
         <source>Ou&amp;tput driver:</source>
         <translation>&amp;Ulostulo ajuri:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1101"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Add black borders on fullscreen</source>
         <translation>Lisää mustat reunukset kokoruututilaan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1102"/>
+        <location filename="../prefgeneral.cpp" line="1129"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Jos tämä asetus on valittuna, mustat reunukset lisätään kuvaan kokoruututilassa. Tämä mahdollistaa tekstityksen näyttämisen mustalla reunalla.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="620"/>
+        <location filename="../prefgeneral.ui" line="627"/>
         <source>&amp;Add black borders on fullscreen</source>
         <translation>&amp;Lisää mustat reunukset kokoruututilaan</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="170"/>
+        <location filename="../prefgeneral.cpp" line="176"/>
         <source>one ini file</source>
         <translation>yksi asetustiedosto</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="171"/>
+        <location filename="../prefgeneral.cpp" line="177"/>
         <source>multiple ini files</source>
         <translation>monia asetustiedostoja</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="990"/>
+        <location filename="../prefgeneral.cpp" line="1010"/>
         <source>Method to store the file settings</source>
         <translation>Menetelmä säilyttää tiedoston asetukset</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="991"/>
+        <location filename="../prefgeneral.cpp" line="1011"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Tämä asetus mahdollistaa tiedoston asetusten säilyttämisen. Seuraavat asetukset on käytettävissä:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="993"/>
+        <location filename="../prefgeneral.cpp" line="1013"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;yksi asetustiedosto&lt;/b&gt;: kaikkien toistettujen tiedostojen asetukset tallennetaan yhteen asetustiedostoon (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="997"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Jälkimmäinen tapa voi olla nopeampi jos on paljon tiedostoja.</translation>
     </message>
@@ -6241,32 +6265,32 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Tallenna asetukset</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="995"/>
+        <location filename="../prefgeneral.cpp" line="1015"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;useita asetustiedostoja&lt;/b&gt;: yksilöllistä asetustiedostoa käytetään toistettaessa jokaista tiedostoa. Nämä asetustiedostot tallennetaan kansioon %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="983"/>
+        <location filename="../prefgeneral.cpp" line="1003"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Jos valitset tämän asetuksen, SMPlayer muistaa viimeisen kohdan tiedostosta kun avaat sen uudestaan. Tämä asetus toimii vain tavallisilla tiedostoilla (ei DVD, CD, URL...). </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1108"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Jos valittuna, kääntää päälle suoran renderöinnin (ei ole tuettuna kaikilla kodekeilla ja kovan ulostuloilla)&lt;br&gt;&lt;b&gt;Varoitus:&lt;/b&gt; Voi aiheuttaa kuvaruutunäytön/tekstitysen häiriöitä!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="999"/>
+        <location filename="../prefgeneral.cpp" line="1019"/>
         <source>Enable screenshots</source>
         <translation>Mahdollista ruutukaapaukset</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="1020"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Käytä tätä asetusta sallimaan tai estämään mahdollisuus ottaa ruutukaappauksia.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1024"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Tässä voit määritellä kansion, minne SMPlayerissä otetut ruutukaappaukset tallennetaan. Jos kansio ei ole kelpaava, ruutukaappaustoiminto on pois päältä.</translation>
     </message>
@@ -6286,107 +6310,107 @@ Haluatko päällekirjoittaa?</translation>
         <translation>&amp;Kansi&amp;o:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1165"/>
+        <location filename="../prefgeneral.cpp" line="1193"/>
         <source>Global volume</source>
         <translation>Globaalinen äänenvoimakkuus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1166"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Jos tämä asetus on valittuna, samaa äänenvoimakkuutta käytetään kaikissa toistettavissa tiedostoissa. Jos asetusta ei ole valittuna, jokainen tiedosto käyttää sen omaa voimakkuutta.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1169"/>
+        <location filename="../prefgeneral.cpp" line="1197"/>
         <source>This option also applies for the mute control.</source>
         <translation>Tämä asetus pätee äänettymyyskontolliin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="865"/>
+        <location filename="../prefgeneral.ui" line="872"/>
         <source>Glo&amp;bal volume</source>
         <translation>Glo&amp;baali äänenvoimakkuus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1111"/>
+        <location filename="../prefgeneral.cpp" line="1139"/>
         <source>Switch screensaver off</source>
         <translation>Kytke näytönsäästäjä pois</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1112"/>
+        <location filename="../prefgeneral.cpp" line="1140"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Tämä asetus kytkee näytönsäästäjän pois ennen kuin tiedoston toisto alkaa ja palauttaa näytönsäästäjän toimintaan kun toisto päättyy. Jos tämä asetus on päällä, näytönsäästäjä ei mene päälle myöskään äänitiedostoa toistettaessa tai kun tiedosto on taukotilassa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1146"/>
         <source>Avoid screensaver</source>
         <translation>Vältä näytönsäästäjää</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1119"/>
+        <location filename="../prefgeneral.cpp" line="1147"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Jos tämä asetus on valittuna, SMPlayer yrittää estää näytönsäästäjää toimimasta kun toistetaan videotiedostoa. Näytönsäästäjän on sallittu toimia jos toistetaan äänitiedostoa tai ollaan taukotilassa. Tämä asetus toimii vain jos SMPlayer ikkuna on aktiivisena.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="634"/>
+        <location filename="../prefgeneral.ui" line="641"/>
         <source>Screensaver</source>
         <translation>Näytönsäästäjä</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="640"/>
+        <location filename="../prefgeneral.ui" line="647"/>
         <source>Swit&amp;ch screensaver off</source>
         <translation>Kytk&amp;e näytönsäästäjä pois</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="647"/>
+        <location filename="../prefgeneral.ui" line="654"/>
         <source>Avoid &amp;screensaver</source>
         <translation>Vältä näyt&amp;önsäästäjää</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1185"/>
+        <location filename="../prefgeneral.cpp" line="1213"/>
         <source>Audio/video auto synchronization</source>
         <translation>Äänen/kuvan automaattinen senkronosointi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Säätää asteittain A/V synkkausta perustuen äänen viiveen mittauksiin.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1189"/>
+        <location filename="../prefgeneral.cpp" line="1217"/>
         <source>A-V sync correction</source>
         <translation>A-V synkkauksen korjaus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1190"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Suurin A-V synkkauksen korjaus kehystä kohden (sekunteina)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="941"/>
+        <location filename="../prefgeneral.ui" line="948"/>
         <source>Synchronization</source>
         <translation>Synkronointi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="952"/>
+        <location filename="../prefgeneral.ui" line="959"/>
         <source>Audio/video auto &amp;synchronization</source>
         <translation>Äänen/kuvan automaattinen s&amp;ynkronointi</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="978"/>
+        <location filename="../prefgeneral.ui" line="985"/>
         <source>&amp;Factor:</source>
         <translation>K&amp;erroin:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1014"/>
+        <location filename="../prefgeneral.ui" line="1021"/>
         <source>A-V sync &amp;correction</source>
         <translation>A-V synkkauksen k&amp;orjaus</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.ui" line="1037"/>
+        <location filename="../prefgeneral.ui" line="1044"/>
         <source>&amp;Max. correction:</source>
         <translation>&amp;Suurin korjaus:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1069"/>
+        <location filename="../prefgeneral.cpp" line="1089"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Huomautus:&lt;/b&gt; Tämä asetus ei ole käytettävissä TV-kanaville.</translation>
     </message>
@@ -6396,34 +6420,34 @@ Haluatko päällekirjoittaa?</translation>
         <translation>Lomi&amp;tuksen poisto oletuksena (poislukien TV):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1147"/>
+        <location filename="../prefgeneral.cpp" line="1175"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Käyttää laitteistotason AC3 läpikäsittelyä.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1148"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Huomautus:&lt;/b&gt; yhtäkään äänisuodatinta ei käytetä kun tämä asetus on päällä.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="397"/>
+        <location filename="../prefgeneral.cpp" line="415"/>
         <source>snap mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="398"/>
+        <location filename="../prefgeneral.cpp" line="416"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="453"/>
+        <location filename="../prefgeneral.cpp" line="471"/>
         <source>uniaud mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="454"/>
+        <location filename="../prefgeneral.cpp" line="472"/>
         <source>dart mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -6446,7 +6470,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6461,12 +6485,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
@@ -6786,12 +6810,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
         <source>Next chapter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Seuraava kappale</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="87"/>
         <source>Previous chapter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Edellinen kappale</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="93"/>
@@ -6837,58 +6861,58 @@ Haluatko päällekirjoittaa?</translation>
         <location filename="../prefinput.cpp" line="163"/>
         <location filename="../prefinput.cpp" line="397"/>
         <source>Move window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
         <source>Drag function</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="405"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="408"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
@@ -7033,7 +7057,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -7088,12 +7112,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -7103,7 +7127,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
@@ -7133,32 +7157,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
         <source>URLs</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="892"/>
         <source>&amp;Max. items</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
@@ -7168,32 +7192,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7208,12 +7232,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.ui" line="556"/>
         <source>&amp;Absolute seeking</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="569"/>
         <source>&amp;Relative seeking</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
@@ -7243,27 +7267,27 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="776"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="875"/>
@@ -7283,42 +7307,42 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="227"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="236"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
         <source>Center window</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="752"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7328,12 +7352,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
         <source>Skin</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="786"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7420,52 +7444,52 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="860"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="866"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="869"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
         <source>Time to hide the control</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="873"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="882"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="887"/>
@@ -7475,23 +7499,23 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="888"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
         <location filename="../prefinterface.cpp" line="818"/>
         <source>Seeking method</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="819"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="830"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="837"/>
@@ -7511,7 +7535,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="230"/>
         <source>Mini GUI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="764"/>
@@ -7583,7 +7607,7 @@ Haluatko päällekirjoittaa?</translation>
         <location filename="../prefinterface.ui" line="749"/>
         <location filename="../prefinterface.ui" line="1025"/>
         <source>0</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="723"/>
@@ -7598,7 +7622,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
@@ -7608,7 +7632,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
@@ -7618,22 +7642,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="825"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -7641,204 +7665,204 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>&amp;Proxy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>&amp;Enable proxy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Käytä välityspalvelinta</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="156"/>
         <source>&amp;Host:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Isäntä:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="169"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Portti:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="189"/>
         <source>&amp;Username:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Käyttäjätunnus:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="202"/>
         <source>Pa&amp;ssword:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Salasana:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="219"/>
         <source>&amp;Type:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Tyyppi:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="33"/>
         <source>HTTP</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="34"/>
         <source>SOCKS5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="67"/>
         <source>Network</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Verkko</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
         <source>User agent</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="79"/>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>Disabled</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="81"/>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Automaattinen</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
         <source>YouTube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="171"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="173"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="178"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="181"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="191"/>
         <source>Playback quality</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="192"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="195"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="206"/>
         <source>Proxy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Välityspalvelin</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="208"/>
         <source>Enable proxy</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="209"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Käytä/älä käytä välityspalvelinta.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="211"/>
         <source>Host</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="212"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Välityspalvelimen isäntänimi.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="214"/>
         <source>Port</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="215"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Välityspalvelimen portti.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="217"/>
         <source>Username</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="218"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Jos välityspalvelin vaatii tunnistautumisen, tämä asettaa käyttäjänimen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="220"/>
         <source>Password</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="221"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Välityspalvelimen salasana. &lt;b&gt;Varoitus:&lt;/b&gt; salasana tallennetaan normaalina tekstinä asetustiedostoon.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="224"/>
         <source>Type</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Tyyppi</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="225"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Valitse käytettävän välityspalvelimen tyyppi.</translation>
     </message>
 </context>
 <context>
@@ -7898,17 +7922,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8078,68 +8102,68 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Ei mitään</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
         <location filename="../prefperformance.cpp" line="373"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Automaattinen</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
         <source>Available options:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="317"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="320"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="321"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="322"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="325"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
         <source>This option only works with mpv.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="341"/>
@@ -8164,12 +8188,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="350"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="371"/>
@@ -8179,7 +8203,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -8257,117 +8281,117 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Ei mitään</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="47"/>
         <source>Video files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="48"/>
         <source>Audio files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="49"/>
         <source>Video and audio files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="50"/>
         <source>Consecutive files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
         <source>Add files from folder</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="185"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="186"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="187"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="188"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="161"/>
@@ -8377,22 +8401,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="162"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="173"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8402,82 +8426,82 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="192"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8517,12 +8541,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -8644,27 +8668,27 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -8759,7 +8783,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -8844,12 +8868,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
@@ -8907,12 +8931,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -9040,7 +9064,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
@@ -9060,7 +9084,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -9118,7 +9142,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -9133,7 +9157,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9143,17 +9167,17 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9166,12 +9190,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9220,7 +9244,7 @@ Haluatko päällekirjoittaa?</translation>
         <location filename="../clhelp.cpp" line="99"/>
         <location filename="../clhelp.cpp" line="187"/>
         <source>media</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
@@ -9297,13 +9321,19 @@ Haluatko päällekirjoittaa?</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9316,19 +9346,19 @@ Haluatko päällekirjoittaa?</translation>
         <translation>määrittelee hakemiston minne smplayer tallenta asetustiedostonsa (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="178"/>
+        <location filename="../mediasettings.cpp" line="182"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
         <translation>kuvasuhde pois päältä</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="189"/>
+        <location filename="../mediasettings.cpp" line="193"/>
         <source>auto</source>
         <comment>aspect_ratio</comment>
         <translation>kuvasuhde automaattinen</translation>
     </message>
     <message>
-        <location filename="../mediasettings.cpp" line="190"/>
+        <location filename="../mediasettings.cpp" line="194"/>
         <source>unknown</source>
         <comment>aspect_ratio</comment>
         <translation>kuvasuhde tuntematon</translation>
@@ -9351,22 +9381,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../clhelp.cpp" line="125"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
@@ -9381,23 +9411,23 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9405,22 +9435,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../sharedialog.ui" line="14"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.ui" line="89"/>
         <source>&amp;Remind me later</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
         <source>You can support SMPlayer by sending a donation or sharing it with your friends.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9428,27 +9458,27 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
         <source>Share SMPlayer in Facebook</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="115"/>
         <source>Share SMPlayer in Twitter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="117"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9471,12 +9501,12 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
         <source>Add shortcut</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="284"/>
         <source>Remove shortcut</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
@@ -9494,22 +9524,22 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../shutdowndialog.ui" line="14"/>
         <source>Shutting down computer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9527,32 +9557,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="401"/>
         <source>&amp;Main toolbar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Päätyökalupalkki</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Edit main &amp;toolbar</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Kuvan tiedot</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9570,137 +9600,137 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../stereo3ddialog.ui" line="14"/>
         <source>Stereo 3D filter</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="20"/>
         <source>&amp;3D format of the video:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.ui" line="33"/>
         <source>&amp;Output format:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
         <source>Anaglyph red/cyan half colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="43"/>
         <source>Anaglyph red/cyan color</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
         <source>Anaglyph green/magenta gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="47"/>
         <source>Anaglyph green/magenta half colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
         <source>Anaglyph yellow/blue gray</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="51"/>
         <source>Anaglyph yellow/blue half colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="52"/>
         <source>Anaglyph yellow/blue colored</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
         <source>None</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Ei mitään</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="61"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Automaattinen</translation>
     </message>
 </context>
 <context>
@@ -9752,57 +9782,57 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
         <source>&amp;Left</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="67"/>
         <source>&amp;Right</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="77"/>
         <source>&amp;Down</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Alas</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="87"/>
         <source>&amp;Up</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Ylös</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
         <source>&amp;Icon size:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="163"/>
         <source>Add &amp;separator</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="255"/>
         <source>Time slider</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="257"/>
         <source>Volume slider</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
@@ -9812,32 +9842,32 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
         <source>3 in 1 rewind</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="269"/>
         <source>3 in 1 forward</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9863,59 +9893,59 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../updatechecker.cpp" line="161"/>
         <source>Failed to get the latest version number</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="196"/>
         <source>New version available</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="197"/>
         <source>A new version of SMPlayer is available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="198"/>
         <location filename="../updatechecker.cpp" line="215"/>
         <source>Installed version: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Asennettu versio: %1</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="199"/>
         <location filename="../updatechecker.cpp" line="216"/>
         <source>Available version: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="200"/>
         <source>Would you like to know more about this new version?</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="213"/>
         <source>Checking for updates</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>
         <source>Error</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Virhe</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="222"/>
         <source>An error happened while trying to retrieve information about the latest version available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="223"/>
         <source>Error code: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9928,7 +9958,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>
@@ -9958,7 +9988,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9966,62 +9996,62 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="14"/>
         <source>Video Equalizer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="22"/>
         <source>&amp;Contrast</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="76"/>
         <source>&amp;Brightness</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="130"/>
         <source>&amp;Hue</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="184"/>
         <source>&amp;Saturation</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="238"/>
         <source>&amp;Gamma</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="309"/>
         <source>Software &amp;equalizer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="316"/>
         <source>Set as &amp;default values</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Käytä nykyisiä arvoja uusien videoiden oletusarvoina.</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="103"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Aseta kaikki säädöt nollille.</translation>
     </message>
 </context>
 <context>
@@ -10039,7 +10069,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="145"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="148"/>
@@ -10155,7 +10185,7 @@ Haluatko päällekirjoittaa?</translation>
         <location filename="../videopreview/videopreview.cpp" line="421"/>
         <location filename="../videopreview/videopreview.cpp" line="422"/>
         <source>%1 kbps</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">%1 kbps</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="423"/>
@@ -10188,7 +10218,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
@@ -10269,7 +10299,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>
         <source>&amp;Seconds to skip at the beginning:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="250"/>
@@ -10307,7 +10337,7 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>
         <source>Video equalizer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
