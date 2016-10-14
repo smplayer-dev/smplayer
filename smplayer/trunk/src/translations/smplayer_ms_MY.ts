@@ -4845,7 +4845,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="2160"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Adalah mustahil dapat memuatkan senarai main ini</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2160"/>
@@ -8285,12 +8285,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Mula main balik selepas memuatkan senarai main</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation>Main balik akan bermula selepas memuatkan senarai main.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
@@ -8300,7 +8300,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Ketika fail sampai ke penghujungnya, fail berikutnya akan dimainkan secara automatik.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
@@ -8325,7 +8325,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Jika pilihan ini dibenarkan, senarai akan diisih secara automatik selepas menambah fail.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
@@ -8335,17 +8335,17 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Pilih ini menyatakan sama ada gelintar dalam senarai main bersifat sensitif kata atau sebaliknya.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Simpan satu salinan senarai main bila keluar</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Jika pilihan ini ditanda, satu salinan senarai main akan disimpan dalam fail konfigurasi bila SMPlayer ditutup, dan ia akan dimuat semula secara automatik bila SMPlayer dijalankan sekali lagi.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8385,7 +8385,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Pilihan ini boleh digunakan untuk menambah fail secara automatik ke dalam senarai main:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8435,27 +8435,27 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Mula main balik selepas memuatkan senarai main</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Mai&amp;n fail berikutnya secara automatik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Aba&amp;i ralat main balik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>Menambah fail</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Tambah fail ke dalam senarai main secara automatik</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8475,12 +8475,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Gelintar sensitif &amp;kata</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Simpan satu salinan senarai main bila keluar</translation>
     </message>
 </context>
 <context>

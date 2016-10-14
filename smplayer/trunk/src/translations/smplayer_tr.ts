@@ -1289,7 +1289,7 @@ Tamama bastığınızda ayarları yapabileceğiniz ekran açılacak.</translatio
     <message>
         <location filename="../basegui.cpp" line="4952"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation>Ne yazık ki openssl bileşeni gerekli bunun için sisteminizde mevcut değil.</translation>
+        <translation>Bunun için openssl bileşeni gerekli, ne yazık ki sisteminizde mevcut değil.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4953"/>
@@ -4664,7 +4664,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Yükle...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
@@ -4674,7 +4674,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Yükle/Kaydet</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1480"/>
@@ -4704,7 +4704,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>URL&apos;den çalma listesi indir</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4790,22 +4790,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="662"/>
         <source>Show position column</source>
-        <translation type="unfinished"/>
+        <translation>Sütun konumunu göster</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="663"/>
         <source>Show name column</source>
-        <translation type="unfinished"/>
+        <translation>Sütun adını göster</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="664"/>
         <source>Show length column</source>
-        <translation type="unfinished"/>
+        <translation>Sütun uzunluğunu göster</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="665"/>
         <source>Show filename column</source>
-        <translation type="unfinished"/>
+        <translation>Sütun dosya adını göster</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1780"/>
@@ -7901,7 +7901,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"/>
+        <translation>Kod çözme</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
@@ -8097,7 +8097,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"/>
+        <translation>Donanımsal kod çözme</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
@@ -8295,7 +8295,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Sonraki dosyayı otomatik olarak oynat</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
@@ -8320,7 +8320,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>Otomatik sıralama</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
@@ -8430,7 +8430,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>Oynatma</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
@@ -8450,7 +8450,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>Dosyalar ekleniyor</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
@@ -9628,7 +9628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
         <source>Anaglyph red/cyan gray</source>
-        <translation type="unfinished"/>
+        <translation>Renk karışımı kırmızı/mavi gri</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="42"/>
@@ -9688,12 +9688,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
         <source>Mono output (left eye only)</source>
-        <translation type="unfinished"/>
+        <translation>Tek çıkış (sadece sol göz)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="58"/>
         <source>Mono output (right eye only)</source>
-        <translation type="unfinished"/>
+        <translation>Tek çıkış (sadece sağ göz)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="60"/>
