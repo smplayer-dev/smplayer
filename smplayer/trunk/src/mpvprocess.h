@@ -149,6 +149,29 @@ protected:
 #endif
 
 private:
+	#if 0
+	// For some reason lupdate doesn't get the translations from mpvoptions.cpp
+	void translations() {
+		QString s = tr("the '%1' filter is not supported by mpv");
+		s = tr("File:");
+		s = tr("Video:");
+		s = tr("Resolution:");
+		s = tr("Frames per second:");
+		s = tr("Estimated:");
+		s = tr("Aspect Ratio:");
+		s = tr("Bitrate:");
+		s = tr("Dropped frames:");
+		s = tr("Audio:");
+		s = tr("Bitrate:");
+		s = tr("Sample Rate:");
+		s = tr("Channels:");
+		s = tr("Audio/video synchronization:");
+		s = tr("Cache fill:");
+		s = tr("Used cache:");
+	}
+	#endif
+
+private:
 	bool notified_mplayer_is_running;
 	bool notified_pause;
 	bool received_end_of_file;
