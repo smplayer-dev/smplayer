@@ -4488,6 +4488,85 @@ Do you want to overwrite?</source>
     </message>
 </context>
 <context>
+    <name>MPVProcess</name>
+    <message>
+        <location filename="../mpvprocess.h" line="154"/>
+        <source>the &apos;%1&apos; filter is not supported by mpv</source>
+        <translation>el filtro &apos;%1&apos; no es soportado por mpv</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="155"/>
+        <source>File:</source>
+        <translation>Fichero:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="156"/>
+        <source>Video:</source>
+        <translation>Vídeo:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="157"/>
+        <source>Resolution:</source>
+        <translation>Resolución:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="158"/>
+        <source>Frames per second:</source>
+        <translation>Fotogramas por segundo:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="159"/>
+        <source>Estimated:</source>
+        <translation>Estimado:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="160"/>
+        <source>Aspect Ratio:</source>
+        <translation>Relación de aspecto:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="161"/>
+        <location filename="../mpvprocess.h" line="164"/>
+        <source>Bitrate:</source>
+        <translation>Tasa de bits:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="162"/>
+        <source>Dropped frames:</source>
+        <translation>Fotogramas perdidos:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="163"/>
+        <source>Audio:</source>
+        <translation>Audio:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="165"/>
+        <source>Sample Rate:</source>
+        <translation>Frecuencia de muestreo:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="166"/>
+        <source>Channels:</source>
+        <translation>Canales:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="167"/>
+        <source>Audio/video synchronization:</source>
+        <translation>Sincronización audio/vídeo:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="168"/>
+        <source>Cache fill:</source>
+        <translation>Llenado de caché:</translation>
+    </message>
+    <message>
+        <location filename="../mpvprocess.h" line="169"/>
+        <source>Used cache:</source>
+        <translation>Caché en uso:</translation>
+    </message>
+</context>
+<context>
     <name>MediaBarPanel</name>
     <message>
         <location filename="../skingui/mediabarpanel.ui" line="16"/>
