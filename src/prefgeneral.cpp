@@ -1089,7 +1089,7 @@ void PrefGeneral::createHelp() {
         tr("<b>Note:</b> This option won't be used for TV channels.") );
 
 #ifndef ADD_BLACKBORDERS_FS
-	setWhatsThis(blackborders_check, tr("Add blackborders for subtitles by default"),
+	setWhatsThis(blackborders_check, tr("Add black borders for subtitles by default"),
 		tr("If this option is enabled, black borders will be added to the image "
            "by default on new opened files."));
 #endif

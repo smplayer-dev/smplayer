@@ -513,7 +513,7 @@
        <item>
         <widget class="QCheckBox" name="blackborders_check">
          <property name="text">
-          <string>Add blac&amp;kborders for subtitles by default</string>
+          <string>Add blac&amp;k borders for subtitles by default</string>
          </property>
         </widget>
        </item>
