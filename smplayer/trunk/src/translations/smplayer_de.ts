@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1140,7 +1138,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Info auf der Bildschirmanzeige anzeigen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1343,7 +1341,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="5973"/>
         <source>Click here to get it</source>
-        <translation>Klicken Sie hier, um es zu erhalten</translation>
+        <translation>Hier klicken, um es zu erhalten</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5998"/>
@@ -1890,10 +1888,6 @@ Das könnte das Problem beheben.</translation>
         <location filename="../basegui.cpp" line="1978"/>
         <source>Zoo&amp;m</source>
         <translation>&amp;Vergrößerung</translation>
-    </message>
-    <message>
-        <source>Show filename on OSD</source>
-        <translation type="obsolete">Dateinamen auf der Bildschirmanzeige anzeigen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1703"/>
@@ -2887,10 +2881,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -2988,7 +2979,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -4489,78 +4480,78 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../mpvprocess.h" line="154"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"></translation>
+        <translation>der Filter &apos;%1&apos; wird von mpv nicht unterstützt</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>File:</source>
-        <translation type="unfinished"></translation>
+        <translation>Datei:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>Video:</source>
-        <translation type="unfinished"></translation>
+        <translation>Video:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Resolution:</source>
-        <translation type="unfinished"></translation>
+        <translation>Auflösung:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bilder pro Sekunde:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Estimated:</source>
-        <translation type="unfinished"></translation>
+        <translation>Geschätzt:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Seitenverhältnis:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitrate:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Verworfene Bilder:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Audio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Abtastrate:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Channels:</source>
-        <translation type="unfinished"></translation>
+        <translation>Kanäle:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"></translation>
+        <translation>Audio/Video-Synchronisation:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"></translation>
+        <translation>Zwischenspeicherbelegung:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Used cache:</source>
-        <translation type="unfinished"></translation>
+        <translation>Belegter Zwischenspeicher:</translation>
     </message>
 </context>
 <context>
@@ -4576,12 +4567,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation>Zufällig in Abspielliste</translation>
+        <translation>Zufällig in Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
         <source>Repeat playlist</source>
-        <translation>Abspielliste wiederholen</translation>
+        <translation>Wiedergabeliste wiederholen</translation>
     </message>
 </context>
 <context>
@@ -4680,12 +4671,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Next file in playlist</source>
-        <translation>Nächste Datei in Abspielliste</translation>
+        <translation>Nächste Datei in Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Previous file in playlist</source>
-        <translation>Vorherige Datei in Abspielliste</translation>
+        <translation>Vorherige Datei in Wiedergabeliste</translation>
     </message>
 </context>
 <context>
@@ -4714,7 +4705,7 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../playlist.cpp" line="1228"/>
         <location filename="../playlist.cpp" line="1264"/>
         <source>Playlists</source>
-        <translation>Abspiellisten</translation>
+        <translation>Wiedergabelisten</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1226"/>
@@ -4748,22 +4739,22 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Unbenannte Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished">&amp;Laden …</translation>
+        <translation>&amp;Laden ...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabeliste von &amp;URL laden ...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Laden/Speichern</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1484"/>
@@ -4783,17 +4774,17 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="1750"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Geben Sie den Namen für die Datei ein, der in der Abspielliste angezeigt werden soll:</translation>
+        <translation>Geben Sie den Namen für die Datei ein, der in der Wiedergabeliste angezeigt werden soll:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Filename / URL</source>
-        <translation>Dateiname / URL</translation>
+        <translation>Dateiname / Adresse</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation>Wiedergabeliste von URL herunterladen</translation>
+        <translation>Wiedergabeliste von Adresse herunterladen</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4803,7 +4794,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Speichern &amp;als ...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4954,12 +4945,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="1307"/>
         <source>Playlist modified</source>
-        <translation>Abspielliste geändert</translation>
+        <translation>Wiedergabeliste geändert</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1308"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Es sind noch ungespeicherte Änderungen vorhanden. Möchten Sie die Abspielliste speichern?</translation>
+        <translation>Es sind noch ungespeicherte Änderungen vorhanden. Möchten Sie die Wiedergabeliste speichern?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1486"/>
@@ -5729,12 +5720,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Add blackborders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwarze Rahmen für Untertitel standardmäßig hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, werden für neue geöffnete Dateien dem Bild standardmäßig schwarze Rahmen hinzugefügt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -5895,7 +5886,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;kborders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Schwar&amp;ze Rahmen für Untertitel standardmäßig hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
@@ -5970,7 +5961,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Wenn diese Option aktiviert ist, wird das Hauptfenster automatisch geschlossen, wenn die aktuelle Datei/Abspielliste vollständig abgespielt worden ist.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird das Hauptfenster automatisch geschlossen, wenn die aktuelle Datei/Wiedergabeliste vollständig abgespielt worden ist.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="158"/>
@@ -6732,7 +6723,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Playlist</source>
-        <translation>Abspielliste</translation>
+        <translation>Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -8355,12 +8346,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="34"/>
         <source>Playlist</source>
-        <translation>Abspielliste</translation>
+        <translation>Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Wenn diese Option aktiviert ist, wird SMPlayer, jedes Mal wenn eine Datei geöffnet wird, die Abspielliste leeren und dann erst die Datei hinzufügen. Bei DVDs, CDs und VCDs werden alle Dateien der Disc zur Abspielliste hinzugefügt.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird SMPlayer, jedes Mal wenn eine Datei geöffnet wird, die Wiedergabeliste leeren und dann erst die Datei hinzufügen. Bei DVDs, CDs und VCDs werden alle Dateien der Disc zur Wiedergabeliste hinzugefügt.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
@@ -8390,32 +8381,32 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe nach dem Laden einer Wiedergabeliste automatisch starten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe wird nach dem Laden einer Wiedergabeliste automatisch starten.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächste Datei automatisch wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn eine Datei das Ende erreicht, wird die nächste Datei automatisch abgespielt.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabefehler ignorieren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien automatisch zur Wiedergabeliste hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8425,32 +8416,32 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Automatisch sortieren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird die Liste nach dem Hinzufügen von Dateien automatisch sortiert.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Groß-/Kleinschreibung bei Suche beachten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option gibt an, ob bei der Suche in der Wiedergabeliste zwischen Groß-/Kleinschreibung unterschieden wird.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopie der Wiedergabeliste beim Beenden speichern</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn diese Option aktiviert ist, wird eine Kopie der Wiedergabeliste in der Konfigurationsdatei gespeichert, wenn SMPlayer geschlossen wird, und sie wird automatisch neu geladen, wenn SMPlayer erneut ausgeführt wird.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8485,12 +8476,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="162"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>Wenn diese Option ausgewählt ist, wird die Abspielliste von Beginn an abgespielt statt von der letzten Abspielposition.</translation>
+        <translation>Wenn diese Option ausgewählt ist, wird die Wiedergabeliste von Beginn an abgespielt statt von der letzten Abspielposition.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Diese Option ermöglicht es, Dateien automatisch zur Wiedergabeliste hinzuzufügen:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8500,12 +8491,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="173"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>Wenn diese Option aktiviert ist, wird die Abspielliste entstandene Wiedergabefehler einer vorherigen Datei vernachlässigen und die nächste Datei in der Liste abspielen.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird die Wiedergabeliste entstandene Wiedergabefehler einer vorherigen Datei vernachlässigen und die nächste Datei in der Liste abspielen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Abspielliste</translation>
+        <translation>&amp;Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
@@ -8520,7 +8511,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Aktivieren Sie diese Option, um Informationen über die zur Abspielliste hinzugefügten Dateien zu erhalten. Dies ermöglicht die Anzeige des Titelnames (falls verfügbar) und der Länge der Dateien. Wenn diese Option deaktiviert ist, werden diese Informationen erst zur Verfügung stehen, wenn die Datei tatsächlich abgespielt wird. Achtung: Diese Option kann langsam sein, besonders, wenn Sie viele Dateien hinzufügen.</translation>
+        <translation>Aktivieren Sie diese Option, um Informationen über die zur Wiedergabeliste hinzugefügten Dateien zu erhalten. Dies ermöglicht die Anzeige des Titelnames (falls verfügbar) und der Länge der Dateien. Wenn diese Option deaktiviert ist, werden diese Informationen erst zur Verfügung stehen, wenn die Datei tatsächlich abgespielt wird. Achtung: Diese Option kann langsam sein, besonders, wenn Sie viele Dateien hinzufügen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -8535,32 +8526,32 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabe nach dem Laden einer Wiedergabeliste automatisch s&amp;tarten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Nächste Datei automatisch &amp;wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Wiedergabefehler ig&amp;norieren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien werden hinzugefügt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateien &amp;automatisch zur Wiedergabeliste hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8575,17 +8566,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;utomatisch sortieren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Groß-/Kl&amp;einschreibung bei Suche beachten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Kopie der Wiedergabeliste beim Beenden &amp;speichern</translation>
     </message>
 </context>
 <context>
@@ -9307,7 +9298,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>Das Hauptfenster wird geschlossen, wenn das Abspielen der Datei/Abspielliste abgeschlossen ist.</translation>
+        <translation>Das Hauptfenster wird geschlossen, wenn das Abspielen der Datei/Wiedergabeliste abgeschlossen ist.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="567"/>
@@ -9333,12 +9324,12 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>Falls ein weiterer Prozess läuft, werden die Medien die Abspielliste dieses Prozesses hinzugefügt. Läuft kein weiterer Prozess, wird die Option ingnoriert und die Dateien werden mit einem neuen Prozess geöffnet.</translation>
+        <translation>Falls ein weiterer Prozess läuft, werden die Medien die Wiedergabeliste dieses Prozesses hinzugefügt. Läuft kein weiterer Prozess, wird die Option ingnoriert und die Dateien werden mit einem neuen Prozess geöffnet.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>Das Hauptfenster wird nicht geschlossen, wenn die Datei/Abspielliste beendet ist.</translation>
+        <translation>Das Hauptfenster wird nicht geschlossen, wenn die Datei/Wiedergabeliste beendet ist.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
@@ -9405,19 +9396,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -10411,7 +10396,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation>Abspielliste</translation>
+        <translation>Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
