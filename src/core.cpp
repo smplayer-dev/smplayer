@@ -4244,6 +4244,13 @@ void Core::decZoom() {
 }
 
 void Core::showFilenameOnOSD() {
+#ifdef MPV_SUPPORT
+	if (proc->isMPV()) proc->setOSDMediaInfo(pref->mpv_osd_media_info);
+#endif
+#ifdef MPLAYER_SUPPORT
+	if (proc->isMPlayer()) proc->setOSDMediaInfo(pref->mplayer_osd_media_info);
+#endif
+
 	proc->showFilenameOnOSD();
 }
 

@@ -344,6 +344,13 @@ public:
 	bool use_mpris2;
 #endif
 
+#ifdef MPV_SUPPORT
+	QString mpv_osd_media_info;
+#endif
+#ifdef MPLAYER_SUPPORT
+	QString mplayer_osd_media_info;
+#endif
+
 
 	/* *********
 	   GUI stuff

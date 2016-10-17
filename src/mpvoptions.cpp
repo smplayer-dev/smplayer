@@ -699,6 +699,8 @@ void MPVProcess::displayInfoOnOSD() {
 		b1 + tr("Cache fill:") + b0 + " ${cache:0}%" + nl +
 		b1 + tr("Used cache:") + b0 + " ${cache-used:0}" + nl;
 
+	if (!osd_media_info.isEmpty()) s = osd_media_info;
+
 	showOSDText(s, 2000, 0);
 
 	if (!isRunning()) osd_timer->stop();
