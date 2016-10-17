@@ -9008,7 +9008,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation>Lorsque cette option est activée, l&apos;encodage des sous-titres sera détecté automatiquement pour la langue donnée. Si l’auto-détection échoue, l&apos;encodage par défaut sera utilisé. Cette option nécessite que MPlayer soit compilé avec le support ENCA.</translation>
+        <translation>Lorsque cette option est activée, l&apos;encodage des sous-titres sera détecté automatiquement pour la langue donnée. Si l’auto-détection échoue, l&apos;encodage par défaut sera utilisé. Cette option nécessite que %1 soit compilé avec le support ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>

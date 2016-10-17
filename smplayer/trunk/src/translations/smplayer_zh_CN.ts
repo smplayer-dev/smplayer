@@ -9004,12 +9004,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation>开启此选项时，将尝试自动检测指定语言的字幕编码。如果自动检测失败，它将退回到默认的编码。此选项需要在编译时启用了 ENCA 功能的 1%。</translation>
+        <translation>开启此选项时，将尝试自动检测指定语言的字幕编码。如果自动检测失败，它将退回到默认的编码。此选项需要在编译时启用了 ENCA 功能的 %1。</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation>通常不应禁用该选项。除非您的 1% 在编译时未启用 FreeType 功能。&lt;b&gt;禁用该选项可能导致字幕无法工作!&lt;/b&gt;</translation>
+        <translation>通常不应禁用该选项。除非您的 %1 在编译时未启用 FreeType 功能。&lt;b&gt;禁用该选项可能导致字幕无法工作!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
