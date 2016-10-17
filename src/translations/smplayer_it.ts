@@ -3198,7 +3198,7 @@ Controllarne i relativi permessi.</translation>
         <location filename="../infofile.cpp" line="226"/>
         <location filename="../infofile.cpp" line="234"/>
         <source>Language: %1</source>
-        <translation>Lingua: &amp;1</translation>
+        <translation>Lingua: %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="227"/>
@@ -5234,7 +5234,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
-        <translation>Qui puoi cambiare opizioni e filtri a 1%.</translation>
+        <translation>Qui puoi cambiare opizioni e filtri a %1.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="102"/>
@@ -5609,7 +5609,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
         <source>Select the %1 executable</source>
-        <translation>Seleziona l&apos;eseguibile 1%</translation>
+        <translation>Seleziona l&apos;eseguibile %1</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="190"/>
