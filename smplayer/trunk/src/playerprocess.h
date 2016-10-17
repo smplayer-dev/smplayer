@@ -128,6 +128,9 @@ public:
 
 	void setPausingPrefix(const QString & prefix) { pausing_prefix = prefix; };
 
+	void setOSDMediaInfo(const QString & s) { osd_media_info = s; };
+	QString OSDMediaInfo() { return osd_media_info; };
+
 #ifdef CAPTURE_STREAM
 	virtual void setCaptureDirectory(const QString & dir);
 #endif
@@ -205,6 +208,8 @@ protected:
 #endif
 
 	PlayerID::Player player_id;
+
+	QString osd_media_info;
 };
 
 #endif

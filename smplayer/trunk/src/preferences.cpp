@@ -363,6 +363,13 @@ void Preferences::reset() {
 	use_mpris2 = true;
 #endif
 
+#ifdef MPV_SUPPORT
+	mpv_osd_media_info = "";
+#endif
+#ifdef MPLAYER_SUPPORT
+	mplayer_osd_media_info = "";
+#endif
+
 
     /* *********
        GUI stuff
@@ -888,6 +895,13 @@ void Preferences::save() {
 
 #ifdef MPRIS2
 	set->setValue("use_mpris2", use_mpris2);
+#endif
+
+#ifdef MPV_SUPPORT
+	set->setValue("mpv_osd_media_info", mpv_osd_media_info);
+#endif
+#ifdef MPLAYER_SUPPORT
+	set->setValue("mplayer_osd_media_info", mplayer_osd_media_info);
 #endif
 
 	set->endGroup(); // advanced
@@ -1452,6 +1466,13 @@ void Preferences::load() {
 
 #ifdef MPRIS2
 	use_mpris2 = set->value("use_mpris2", use_mpris2).toBool();
+#endif
+
+#ifdef MPV_SUPPORT
+	mpv_osd_media_info = set->value("mpv_osd_media_info", mpv_osd_media_info).toString();
+#endif
+#ifdef MPLAYER_SUPPORT
+	mplayer_osd_media_info = set->value("mplayer_osd_media_info", mplayer_osd_media_info).toString();
 #endif
 
 	set->endGroup(); // advanced
