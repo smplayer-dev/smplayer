@@ -33,15 +33,18 @@ class QColor;
 class ColorUtils {
 
 public:
-
-	//! Returns a string suitable to be used for -ass-color
+	static QString colorToRGB(unsigned int color);
 	static QString colorToRRGGBBAA(unsigned int color);
 	static QString colorToRRGGBB(unsigned int color);
-
-	//! Returns a string suitable to be used for -colorkey
-	static QString colorToRGB(unsigned int color);
-
 	static QString colorToAABBGGRR(unsigned int color);
+
+	static QString colorToRGB(QColor c);
+	static QString colorToRRGGBBAA(QColor c);
+	static QString colorToRRGGBB(QColor c);
+	static QString colorToAABBGGRR(QColor c);
+	static QString colorToAARRGGBB(QColor c);
+
+	static QColor AARRGGBBToColor(const QString & s);
 
 #ifdef CHANGE_WIDGET_COLOR
 	//! Changes the foreground color of the specified widget
