@@ -20,6 +20,7 @@
 #define ASSSTYLES_H
 
 #include <QString>
+#include <QColor>
 
 class QSettings;
 
@@ -34,9 +35,9 @@ public:
 
 	QString fontname;
 	int fontsize;
-	unsigned int primarycolor;
-	unsigned int backcolor;
-	unsigned int outlinecolor;
+	QColor primarycolor;
+	QColor backcolor;
+	QColor outlinecolor;
 	bool bold;
 	bool italic;
 	int halignment;

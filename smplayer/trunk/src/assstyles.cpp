@@ -25,9 +25,9 @@
 AssStyles::AssStyles() {
 	fontname = "Arial";
 	fontsize = 20;
-	primarycolor = 0xFFFFFF;
-	backcolor = 0;
-	outlinecolor = 0;
+	primarycolor = QColor("#FFFFFF");
+	backcolor = QColor("#000000");
+	outlinecolor = QColor("#000000");
 	bold = false;
 	italic = false;
 	halignment = HCenter;
@@ -45,9 +45,9 @@ void AssStyles::save(QSettings * set) {
 
 	set->setValue("styles/fontname", fontname);
 	set->setValue("styles/fontsize", fontsize);
-	set->setValue("styles/primarycolor", primarycolor);
-	set->setValue("styles/backcolor", backcolor);
-	set->setValue("styles/outlinecolor", outlinecolor);
+	set->setValue("styles/primarycolor/argb", ColorUtils::colorToAARRGGBB(primarycolor));
+	set->setValue("styles/backcolor/argb", ColorUtils::colorToAARRGGBB(backcolor));
+	set->setValue("styles/outlinecolor/argb", ColorUtils::colorToAARRGGBB(outlinecolor));
 	set->setValue("styles/bold", bold);
 	set->setValue("styles/italic", italic);
 	set->setValue("styles/halignment", halignment);
@@ -65,9 +65,11 @@ void AssStyles::load(QSettings * set) {
 
 	fontname = set->value("styles/fontname", fontname).toString();
 	fontsize = set->value("styles/fontsize", fontsize).toInt();
-	primarycolor = set->value("styles/primarycolor", primarycolor).toInt();
-	backcolor = set->value("styles/backcolor", backcolor).toInt();
-	outlinecolor = set->value("styles/outlinecolor", outlinecolor).toInt();
+
+	primarycolor = ColorUtils::AARRGGBBToColor(set->value("styles/primarycolor/argb", primarycolor).toString());
+	backcolor = ColorUtils::AARRGGBBToColor(set->value("styles/backcolor/argb", backcolor).toString());
+	outlinecolor = ColorUtils::AARRGGBBToColor(set->value("styles/outlinecolor/argb", outlinecolor).toString());
+
 	bold = set->value("styles/bold", bold).toBool();
 	italic = set->value("styles/italic", italic).toBool();
 	halignment = set->value("styles/halignment", halignment).toInt();
