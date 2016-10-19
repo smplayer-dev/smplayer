@@ -18,37 +18,69 @@
 
 #include "colorutils.h"
 #include <QWidget>
+#include <QDebug>
+
+QString ColorUtils::colorToRGB(unsigned int color) {
+	QColor c;
+	c.setRgb(color);
+	return colorToRGB(c);
+}
 
 QString ColorUtils::colorToRRGGBBAA(unsigned int color) {
 	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("%02x%02x%02x00", c.red(), c.green(), c.blue() );
+	c.setRgb(color);
+	return colorToRRGGBBAA(c);
 }
 
 QString ColorUtils::colorToRRGGBB(unsigned int color) {
 	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue() );
-}
-
-QString ColorUtils::colorToRGB(unsigned int color) {
-	QColor c;
-	c.setRgb( color );
-
-	QString s;
-	return s.sprintf("0x%02x%02x%02x", c.blue(), c.green(), c.red() );
+	c.setRgb(color);
+	return colorToRRGGBB(c);
 }
 
 QString ColorUtils::colorToAABBGGRR(unsigned int color) {
 	QColor c;
-	c.setRgb( color );
+	c.setRgb(color);
+	return colorToAABBGGRR(c);
+}
 
+QString ColorUtils::colorToRGB(QColor c) {
 	QString s;
-	return s.sprintf("00%02x%02x%02x", c.blue(), c.green(), c.red() );
+	return s.sprintf("0x%02x%02x%02x", c.blue(), c.green(), c.red() );
+}
+
+QString ColorUtils::colorToRRGGBBAA(QColor c) {
+	QString s;
+	return s.sprintf("%02x%02x%02x%02x", c.red(), c.green(), c.blue(), c.alpha());
+}
+
+QString ColorUtils::colorToRRGGBB(QColor c) {
+	QString s;
+	return s.sprintf("%02x%02x%02x", c.red(), c.green(), c.blue());
+}
+
+QString ColorUtils::colorToAABBGGRR(QColor c) {
+	QString s;
+	return s.sprintf("%02x%02x%02x%02x", c.alpha(), c.blue(), c.green(), c.red() );
+}
+
+QString ColorUtils::colorToAARRGGBB(QColor c) {
+	QString s;
+	return s.sprintf("%02x%02x%02x%02x", c.alpha(), c.red(), c.green(), c.blue());
+}
+
+QColor ColorUtils::AARRGGBBToColor(const QString & s) {
+	QRegExp rx("([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})");
+	if (rx.indexIn(s) > -1 && rx.captureCount() == 4) {
+		qDebug() << "ColorUtils::AARRGGBBToColor:" << rx.cap(1) << rx.cap(2) << rx.cap(3) << rx.cap(4);
+		uint alpha = rx.cap(1).toUInt(0, 16);
+		uint red = rx.cap(2).toUInt(0, 16);
+		uint green = rx.cap(3).toUInt(0, 16);
+		uint blue = rx.cap(4).toUInt(0, 16);
+		QColor c(red, green, blue, alpha);
+		return c;
+	}
+	return QColor();
 }
 
 #ifdef CHANGE_WIDGET_COLOR
