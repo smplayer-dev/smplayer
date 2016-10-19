@@ -1138,7 +1138,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Pokaż &amp;info w menu ekranowym</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -4479,78 +4479,78 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"/>
+        <translation>filtr &quot;%1&quot; nie jest obsługiwany przez mpv</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Plik:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Wideo:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Rozdzielczość:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Klatki na sekundę:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>Szacowane:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Współczynnik proporcji:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Prędkość transmisji:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Pominięte klatki:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Dźwięk:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Częstotliwość próbkowania:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Kanały:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Synchronizacja audio/wideo:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Wypełnienie buforu:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation type="unfinished"/>
+        <translation>Użyty bufor:</translation>
     </message>
 </context>
 <context>
@@ -4738,22 +4738,22 @@ Czy chcesz go zastąpić?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>Nienazwana lista odtwarzania</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>Wczytaj... (&amp;L)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>Załaduj playlistę z adresu &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Ładuj/Zapisz</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1484"/>
@@ -4794,7 +4794,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>Zapisz j&amp;ako...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -5720,7 +5720,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Jeśli ta opcja jest aktywna, domyślnie do zdjęć w otwartych plikach zostaną dodane czarne paski.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -5781,7 +5781,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj czarne ramki do napisów domyślnie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
@@ -6096,7 +6096,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj czarne ram&amp;ki do napisów domyślnie</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -8380,32 +8380,32 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Rozpocznij odtwarzanie po załadowaniu listy odtwarzania</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation>Odtwarzanie rozpocznie się bezpośrednio po załadowaniu listy odtwarzania.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Odtwarzaj następny plik automatycznie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Kiedy plik zakończy się, następny zostanie odtworzony automatycznie.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Ignoruj błędy podczas odtwarzania</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Dodaj pliki do listy odtwarzania automatycznie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8415,32 +8415,32 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>Sortuj automatycznie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Jeśli ta opcje jest zaznaczona, lista zostanie przesortowana automatycznie po dodaniu plików.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Rozróżniaj wielkość znaków przy wyszukiwaniu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Ta opcja określa czy szukanie w liście odtwarzania wyróżnia wielkość znaków czy nie.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Zapisz kopię listy odtwarzania przy wyjściu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Gdy ta opcja jest zaznaczona, lista odtwarzania jest zapisywana przed zamknięciem SMPlayer i ładowana ponownie przy następnym uruchomieniu.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8480,7 +8480,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Ta opcja służy do automatycznego dodawania plików do listy odtwarzania:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8525,32 +8525,32 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>Odtwarzanie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Rozpocznij od&amp;twarzanie po załadowaniu listy odtwarzania</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Odtwarzaj następn&amp;y plik automatycznie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Ig&amp;noruj błędy odtwarzania</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>Dodawanie plików</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Dod&amp;aj pliki do listy odtwarzania automatycznie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8565,17 +8565,17 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>Sort&amp;uj automatycznie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Rozróżniaj wielkość znaków przy wy&amp;szukiwaniu</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Zapi&amp;sz przy wyjściu kopię listy odtwarzania</translation>
     </message>
 </context>
 <context>
