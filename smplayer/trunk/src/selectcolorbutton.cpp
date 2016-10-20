@@ -19,8 +19,12 @@
 #include "selectcolorbutton.h"
 #include "colorutils.h"
 #include <QColorDialog>
-#include <QApplication>
+#include <QEvent>
 #include <QStyle>
+/*
+#include <QApplication>
+#include <QDebug>
+*/
 
 SelectColorButton::SelectColorButton( QWidget * parent ) 
 	: QPushButton(parent)
@@ -36,8 +40,10 @@ SelectColorButton::~SelectColorButton() {
 void SelectColorButton::setColor(QColor c) {
 	_color = c;
 
+	/*
 	QString current_style = qApp->style()->objectName();
-	qDebug("SelectColorButton::setColor: current style name: %s", current_style.toUtf8().constData());
+	qDebug() << "SelectColorButton::setColor: current style name:" << current_style;
+	*/
 
 	ignore_change_event = true;
 
@@ -46,26 +52,27 @@ void SelectColorButton::setColor(QColor c) {
                 "border-width: 2px; border-radius: 5px; "
                 "border-color: grey; padding: 3px; min-width: 4ex; min-height: 1.2ex; } "
                 "QPushButton:pressed { border-style: inset; }"
-                ).arg(ColorUtils::colorToRRGGBB(_color.rgb())) );
+                ).arg(ColorUtils::colorToRRGGBB(_color)) );
 
 	ignore_change_event = false;
 }
 
 void SelectColorButton::selectColor() {
+	int alpha = _color.alpha();
+
 	QColor c = QColorDialog::getColor( _color, 0 );
 	if (c.isValid()) {
-		setColor( c );
+		c.setAlpha(alpha);
+		setColor(c);
 	}
 }
 
 void SelectColorButton::changeEvent(QEvent *e) {
-
 	QPushButton::changeEvent(e);
-	
+
 	if ((e->type() == QEvent::StyleChange) && (!ignore_change_event)) {
 		setColor( color() );
 	}
-
 }
 
 #include "moc_selectcolorbutton.cpp"

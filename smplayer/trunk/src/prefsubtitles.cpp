@@ -181,9 +181,9 @@ void PrefSubtitles::getData(Preferences * pref) {
 	// Save ass styles
 	TEST_AND_SET(pref->ass_styles.fontname, style_font_combo->currentText());
 	TEST_AND_SET(pref->ass_styles.fontsize, style_size_spin->value());
-	TEST_AND_SET(pref->ass_styles.primarycolor, style_text_color_button->color().rgb());
-	TEST_AND_SET(pref->ass_styles.outlinecolor, style_border_color_button->color().rgb());
-	TEST_AND_SET(pref->ass_styles.backcolor, style_shadow_color_button->color().rgb());
+	TEST_AND_SET(pref->ass_styles.primarycolor, style_text_color_button->color());
+	TEST_AND_SET(pref->ass_styles.outlinecolor, style_border_color_button->color());
+	TEST_AND_SET(pref->ass_styles.backcolor, style_shadow_color_button->color());
 	TEST_AND_SET(pref->ass_styles.bold, style_bold_check->isChecked());
 	TEST_AND_SET(pref->ass_styles.italic, style_italic_check->isChecked());
 	TEST_AND_SET(pref->ass_styles.halignment, style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt());
@@ -311,9 +311,9 @@ void PrefSubtitles::on_ass_customize_button_clicked() {
 	AssStyles ass_styles;
 	ass_styles.fontname = style_font_combo->currentText();
 	ass_styles.fontsize = style_size_spin->value();
-	ass_styles.primarycolor = style_text_color_button->color().rgb();
-	ass_styles.outlinecolor = style_border_color_button->color().rgb();
-	ass_styles.backcolor = style_shadow_color_button->color().rgb();
+	ass_styles.primarycolor = style_text_color_button->color();
+	ass_styles.outlinecolor = style_border_color_button->color();
+	ass_styles.backcolor = style_shadow_color_button->color();
 	ass_styles.bold = style_bold_check->isChecked();
 	ass_styles.italic = style_italic_check->isChecked();
 	ass_styles.halignment = style_alignment_combo->itemData(style_alignment_combo->currentIndex()).toInt();
