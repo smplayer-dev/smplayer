@@ -66,9 +66,9 @@ void AssStyles::load(QSettings * set) {
 	fontname = set->value("styles/fontname", fontname).toString();
 	fontsize = set->value("styles/fontsize", fontsize).toInt();
 
-	primarycolor = ColorUtils::AARRGGBBToColor(set->value("styles/primarycolor/argb", primarycolor).toString());
-	backcolor = ColorUtils::AARRGGBBToColor(set->value("styles/backcolor/argb", backcolor).toString());
-	outlinecolor = ColorUtils::AARRGGBBToColor(set->value("styles/outlinecolor/argb", outlinecolor).toString());
+	primarycolor = ColorUtils::AARRGGBBToColor(set->value("styles/primarycolor/argb", "#FFFFFFFF").toString());
+	backcolor = ColorUtils::AARRGGBBToColor(set->value("styles/backcolor/argb", "#FF000000").toString());
+	outlinecolor = ColorUtils::AARRGGBBToColor(set->value("styles/outlinecolor/argb", "#FF000000").toString());
 
 	bold = set->value("styles/bold", bold).toBool();
 	italic = set->value("styles/italic", italic).toBool();
