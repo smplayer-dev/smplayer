@@ -1002,14 +1002,14 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString font = styles.fontname;
 	//arg << "--sub-text-font=" + font.replace(" ", "");
 	arg << "--sub-text-font=" + font;
-	arg << "--sub-text-color=#" + ColorUtils::colorToRRGGBB(styles.primarycolor);
+	arg << "--sub-text-color=#" + ColorUtils::colorToAARRGGBB(styles.primarycolor);
 
 	if (styles.borderstyle == AssStyles::Outline) {
-		arg << "--sub-text-shadow-color=#" + ColorUtils::colorToRRGGBB(styles.backcolor);
+		arg << "--sub-text-shadow-color=#" + ColorUtils::colorToAARRGGBB(styles.backcolor);
 	} else {
-		arg << "--sub-text-back-color=#" + ColorUtils::colorToRRGGBB(styles.outlinecolor);
+		arg << "--sub-text-back-color=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
 	}
-	arg << "--sub-text-border-color=#" + ColorUtils::colorToRRGGBB(styles.outlinecolor);
+	arg << "--sub-text-border-color=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
 
 	arg << "--sub-text-border-size=" + QString::number(styles.outline * 2.5);
 	arg << "--sub-text-shadow-offset=" + QString::number(styles.shadow * 2.5);
