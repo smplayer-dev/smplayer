@@ -61,7 +61,7 @@ QString ColorUtils::colorToRRGGBB(QColor c) {
 
 QString ColorUtils::colorToAABBGGRR(QColor c) {
 	QString s;
-	return s.sprintf("%02x%02x%02x%02x", c.alpha(), c.blue(), c.green(), c.red() );
+	return s.sprintf("%02x%02x%02x%02x", 255 - c.alpha(), c.blue(), c.green(), c.red() );
 }
 
 QString ColorUtils::colorToAARRGGBB(QColor c) {
