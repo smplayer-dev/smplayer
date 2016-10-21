@@ -7830,7 +7830,7 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefnetwork.cpp" line="81"/>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>Auto</source>
-        <translation type="unfinished"/>
+        <translation>Automaatne</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="169"/>
@@ -7955,12 +7955,12 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefperformance.ui" line="33"/>
         <location filename="../prefperformance.cpp" line="295"/>
         <source>Priority</source>
-        <translation type="unfinished"/>
+        <translation>Prioriteet</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation type="unfinished"/>
+        <translation>Määra MPlayeri protsessi prioriteet.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="77"/>
@@ -7995,12 +7995,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"/>
+        <translation>Dekodeerimine</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Riistvaraline dekodeerimine</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
@@ -8020,12 +8020,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation type="unfinished"/>
+        <translation>Aeglase meediumi puhul võib vahemälu kasutamine jõudlust parandada</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
         <source>Allow frame drop</source>
-        <translation type="unfinished"/>
+        <translation>Luba kaadreid vahele jätta</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
@@ -8035,27 +8035,27 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Allow hard frame drop</source>
-        <translation type="unfinished"/>
+        <translation>Luba palju kaadreid vahele jätta</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="305"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation type="unfinished"/>
+        <translation>Lubab kaadreid vahele jätta selliselt, et dekodeerimine võib tõrkuda. Pilt võib saada moonutatud!</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
         <source>Priorit&amp;y:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Prioriteet</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="131"/>
         <source>&amp;Allow frame drop</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Luba kaadreid vahele jätta</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="138"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation type="unfinished"/>
+        <translation>L&amp;uba palju kaadreid vahele jätta (pilt võib saada moonutatud)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="290"/>
@@ -8100,7 +8100,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="376"/>
         <source>Cache for files</source>
-        <translation>vahemälu failide jaoks</translation>
+        <translation>Vahemälu failide jaoks</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="377"/>
@@ -8110,7 +8110,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="380"/>
         <source>Cache for streams</source>
-        <translation>Vahemälu striimide jaoks</translation>
+        <translation>Vahemälu voogude jaoks</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="381"/>
@@ -8120,7 +8120,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="384"/>
         <source>Cache for DVDs</source>
-        <translation>Vahemälu DVD´de jaoks</translation>
+        <translation>Vahemälu DVD-de jaoks</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
@@ -8135,7 +8135,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="448"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>Vahemälu &amp;DVD´de jaoks:</translation>
+        <translation>Vahemälu &amp;DVD-de jaoks:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>
@@ -8145,7 +8145,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Vahemälu &amp;striimide jaoks:</translation>
+        <translation>Vahemälu &amp;voogude jaoks:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="89"/>
@@ -8186,17 +8186,17 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation>Määra programmi %1 prioriteet vastavalt WIndowsis eelmääratud tasemetele.&lt;br&gt;&lt;b&gt;Hoiatus:&lt;/b&gt; reaalajaline prioriteet võib süsteemi lukustada.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"/>
+        <translation>Riistvaraline dekodeerimine</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation>Määrab riistvaralise dekodeerimise liidese. Kui riistvaralist dekodeerimist ei toetata, siis kasutatakse tarkvaralist dekodeerimist.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -8206,12 +8206,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="317"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"/>
+        <translation>Välja lülitatud: kasutatakse ainult tarkvaralist dekodeerimist.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"/>
+        <translation>Automaatne: üritatakse valida automaatselt esimene riistvaraliseks dekodeerimiseks sobiv meetod.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="320"/>
@@ -8281,7 +8281,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
         <source>Cache for audio CDs</source>
-        <translation>Vahemälu audio CD´de jaoks</translation>
+        <translation>Vahemälu heli-CD-de jaoks</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="390"/>
@@ -8291,12 +8291,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Vahemälu &amp;audio CD´de jaoks:</translation>
+        <translation>Vahemälu &amp;heli-CD-de jaoks:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="393"/>
         <source>Cache for VCDs</source>
-        <translation>Vahemälu VCD´de jaoks</translation>
+        <translation>Vahemälu VCD-de jaoks</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="394"/>
@@ -8306,22 +8306,22 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation>Vahemälu &amp;VCD´de jaoks:</translation>
+        <translation>Vahemälu &amp;VCD-de jaoks:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="308"/>
         <source>Threads for decoding</source>
-        <translation>Dekodeerimise lõimed</translation>
+        <translation>Dekodeerimise lõimi</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"/>
+        <translation>Määrab dekodeerimiseks kasutatavate lõimede arvu. See on ainult MPEG-1/2 ja H.264 jaoks.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Dekodeerimise lõimi (ainult MPEG-1/2 ja H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
@@ -8336,7 +8336,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="559"/>
         <source>Cache for &amp;TV:</source>
-        <translation type="unfinished"/>
+        <translation>Vahemälu &amp;TV jaoks:</translation>
     </message>
 </context>
 <context>
@@ -8594,7 +8594,7 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefsubtitles.ui" line="39"/>
         <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Autoload</source>
-        <translation type="unfinished"/>
+        <translation>Automaatne laadimine</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="72"/>
@@ -8641,7 +8641,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation>V&amp;ali esimene saadalolev subiiter</translation>
+        <translation>V&amp;ali esimene saadalolev subtiiter</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -8691,7 +8691,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"/>
+        <translation>Vali subtiitrite automaatse laadimise viis.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="389"/>
