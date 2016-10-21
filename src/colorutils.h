@@ -33,10 +33,12 @@ class QColor;
 class ColorUtils {
 
 public:
+#if 0
 	static QString colorToRGB(unsigned int color);
 	static QString colorToRRGGBBAA(unsigned int color);
 	static QString colorToRRGGBB(unsigned int color);
 	static QString colorToAABBGGRR(unsigned int color);
+#endif
 
 	static QString colorToRGB(QColor c);
 	static QString colorToRRGGBBAA(QColor c);

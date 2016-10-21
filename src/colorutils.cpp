@@ -20,6 +20,7 @@
 #include <QWidget>
 #include <QDebug>
 
+#if 0
 QString ColorUtils::colorToRGB(unsigned int color) {
 	QColor c;
 	c.setRgb(color);
@@ -43,6 +44,7 @@ QString ColorUtils::colorToAABBGGRR(unsigned int color) {
 	c.setRgb(color);
 	return colorToAABBGGRR(c);
 }
+#endif
 
 QString ColorUtils::colorToRGB(QColor c) {
 	QString s;
