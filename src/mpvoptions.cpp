@@ -999,20 +999,41 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 }
 
 void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
+	QString sub_font = "--sub-text-font";
+	if (isOptionAvailable("--sub-font")) sub_font = "--sub-font";
+
+	QString sub_color = "--sub-text-color";
+	if (isOptionAvailable("--sub-color")) sub_color = "--sub-color";
+
+	QString sub_shadow_color = "--sub-text-shadow-color";
+	if (isOptionAvailable("--sub-shadow-color")) sub_shadow_color = "--sub-shadow-color";
+
+	QString sub_back_color = "--sub-text-back-color";
+	if (isOptionAvailable("--sub-back-color")) sub_back_color = "--sub-back-color";
+
+	QString sub_border_color = "--sub-text-border-color";
+	if (isOptionAvailable("--sub-border-color")) sub_border_color = "--sub-border-color";
+
+	QString sub_border_size = "--sub-text-border-size";
+	if (isOptionAvailable("--sub-border-size")) sub_border_size = "--sub-border-size";
+
+	QString sub_shadow_offset = "--sub-text-shadow-offset";
+	if (isOptionAvailable("--sub-shadow-offset")) sub_shadow_offset = "--sub-shadow-offset";
+
 	QString font = styles.fontname;
 	//arg << "--sub-text-font=" + font.replace(" ", "");
-	arg << "--sub-text-font=" + font;
-	arg << "--sub-text-color=#" + ColorUtils::colorToAARRGGBB(styles.primarycolor);
+	arg << sub_font + "=" + font;
+	arg << sub_color + "=#" + ColorUtils::colorToAARRGGBB(styles.primarycolor);
 
 	if (styles.borderstyle == AssStyles::Outline) {
-		arg << "--sub-text-shadow-color=#" + ColorUtils::colorToAARRGGBB(styles.backcolor);
+		arg << sub_shadow_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backcolor);
 	} else {
-		arg << "--sub-text-back-color=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
+		arg << sub_back_color + "=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
 	}
-	arg << "--sub-text-border-color=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
+	arg << sub_border_color + "=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
 
-	arg << "--sub-text-border-size=" + QString::number(styles.outline * 2.5);
-	arg << "--sub-text-shadow-offset=" + QString::number(styles.shadow * 2.5);
+	arg << sub_border_size + "=" + QString::number(styles.outline * 2.5);
+	arg << sub_shadow_offset + "=" + QString::number(styles.shadow * 2.5);
 
 	if (isOptionAvailable("--sub-text-font-size")) {
 		arg << "--sub-text-font-size=" + QString::number(styles.fontsize * 2.5);
