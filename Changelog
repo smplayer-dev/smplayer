@@ -1,3 +1,45 @@
+Version 16.x:
+
+(2016-10-20)
+ * Pass the alpha component of the subtitles' colors to mpv.
+
+(2016-10-11)
+ * New option 'Show info on OSD' in View -> OSD (key shortcut Shift + I).
+   It displays info about the current media (resolution, bitrate...) on the
+   OSD.
+ * (Playlist) If a playlist file is dropped to the playlist window, load it.
+
+(2016-10-01)
+ * Remove the option to add black borders on fullscreen.
+ * New option 'Add black borders for subtitles by default' in
+   Preferences -> General.
+
+(2016-09-29)
+ * Add option 'Case sensitive search' in Preferences -> Playlist.
+
+(2016-09-26)
+ * Add the option 'Auto sort' in Preferences -> Playlist.
+ * Fix when the additional options for mpv contain quotes.
+
+(2016-09-23)
+ * Add the option 'Start playback after loading a playlist' in
+   Preferences -> Playlist.
+
+(2016-09-22)
+ * Add an option in Preferences -> Interface to play the next file
+   automatically or not.
+
+(2016-09-18)
+ * (Playlist) Add a 'save as' button.
+
+(2016-09-16)
+ * Store the playlist filename and display "*" in the title when the
+   playlist is modified and not saved.
+
+(2016-09-15)
+ * (Playlist) Add a popup menu with the load/save options.
+
+
 Version 16.9:
 
 (2016-09-02)
