@@ -97,7 +97,11 @@ void MPVProcess::setFixedOptions() {
 
 void MPVProcess::disableInput() {
 	arg << "--no-input-default-bindings";
-	arg << "--input-x11-keyboard=no";
+	if (isOptionAvailable("--input-vo-keyboard")) {
+		arg << "--input-vo-keyboard=no";
+	} else {
+		arg << "--input-x11-keyboard=no";
+	}
 	arg << "--no-input-cursor";
 	arg << "--cursor-autohide=no";
 }
