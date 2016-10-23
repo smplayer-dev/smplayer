@@ -691,7 +691,7 @@ void MPVProcess::displayInfoOnOSD() {
 		//b1 + tr("Title:") + b0 + " ${media-title}" + nl + nl +
 		b1 + tr("Video:") + b0 + " ${video-codec}" + nl +
 		tab + b1 + tr("Resolution:") + b0 +" ${=width}x${=height}" + nl +
-		tab + b1 + tr("Frames per second:") + b0 + " ${fps} " + b1 + tr("Estimated:") + b0 + " ${estimated-vf-fps}" + nl +
+		tab + b1 + tr("Frames per second:") + b0 + " ${container-fps:${fps}} " + b1 + tr("Estimated:") + b0 + " ${estimated-vf-fps}" + nl +
 		//tab + b1 + tr("Display FPS:") + b0 + " ${display-fps}" + nl +
 		tab + b1 + tr("Aspect Ratio:") + b0 + " ${video-params/aspect}" + nl +
 		tab + b1 + tr("Bitrate:") + b0 + " ${video-bitrate}" + nl +
