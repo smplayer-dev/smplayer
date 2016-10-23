@@ -244,6 +244,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << "--sub-scale=" + value.toString();
 	}
 	else
+	if (option_name == "ass-line-spacing") {
+		QString line_spacing = "--ass-line-spacing";
+		if (isOptionAvailable("--sub-ass-line-spacing")) line_spacing = "--sub-ass-line-spacing";
+		arg << line_spacing + "=" + value.toString();
+	}
+	else
 	if (option_name == "stop-xscreensaver") {
 		bool stop_ss = value.toBool();
 		if (stop_ss) arg << "--stop-screensaver"; else arg << "--no-stop-screensaver";
@@ -384,7 +390,6 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	    option_name == "aid" || option_name == "vid" ||
 	    option_name == "volume" ||
 	    option_name == "ass-styles" || option_name == "ass-force-style" ||
-	    option_name == "ass-line-spacing" ||
 	    option_name == "embeddedfonts" ||
 	    option_name == "osd-scale" ||
 	    option_name == "speed" ||
