@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation>Vesió de desenvolupament</translation>
+        <translation>Versió de desenvolupament</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1387,7 +1387,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="6263"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation>El sistema ha sortir del mode de tauleta. SMPlayer també ha d&apos;apagar el mode de tauleta?</translation>
+        <translation>El sistema ha sortit del mode de tauleta. SMPlayer també ha d&apos;apagar el mode de tauleta?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6267"/>
@@ -2606,12 +2606,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../filepropertiesdialog.ui" line="54"/>
         <source>&amp;Demuxer</source>
-        <translation>&amp;Demultiplexor</translation>
+        <translation>&amp;Desmultiplexor</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="66"/>
         <source>&amp;Select the demuxer that will be used for this file:</source>
-        <translation>&amp;Seleccioneu el demultiplexor que s&apos;utilitzarà per a aquest fitxer:</translation>
+        <translation>&amp;Seleccioneu el desmultiplexor que s&apos;utilitzarà per a aquest fitxer:</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.ui" line="106"/>
@@ -2817,7 +2817,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
         <source>Number of &amp;retries:</source>
-        <translation>Nomb&amp;re d&apos;intents: %1</translation>
+        <translation>Nomb&amp;re d&apos;intents:</translation>
     </message>
 </context>
 <context>
@@ -3044,7 +3044,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="89"/>
         <source>Demuxer</source>
-        <translation>Demultiplexor</translation>
+        <translation>Desmultiplexor</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="94"/>
@@ -3577,7 +3577,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation>Interlingue</translation>
+        <translation>Interlingua</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
@@ -4723,7 +4723,8 @@ El voleu sobreescriure?</translation>
         <location filename="../playlist.cpp" line="1275"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
-        <translation>El fitxer %1 ja existeix.El voleu sobreescriure?</translation>
+        <translation>El fitxer %1 ja existeix.
+El voleu sobreescriure?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1228"/>
@@ -4985,7 +4986,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Si s&apos;activa aquesta opció pot ser que es redueixi el flickering, però també pot causar una visualització incorrecta del vídeo.</translation>
+        <translation>Si s&apos;activa aquesta opció, pot ser que es redueixi el flickering, però també pot causar una visualització incorrecta del vídeo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5932,7 +5933,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1113"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation>Doblar la memòria intermèdia arregla el fliker en desar dos fotogrames en memòria, i mostrar-ne un mentre se&apos;n descodifica un altre. Si es desactiva pot afectar OSD negativament, però habitualment elimina el flickering de OSD.</translation>
+        <translation>Doblar la memòria intermèdia arregla el fliker en desar dos fotogrames en memòria, i mostrar-ne un mentre se&apos;n descodifica un altre. Si es desactiva, pot afectar negativament l&apos;OSD, però habitualment elimina el flickering de l&apos;OSD.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
@@ -6042,7 +6043,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1249"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Especifica la pista predeterminada del subtítol que s&apos;utilitzarà quan es reprodueixin fitxers nous. Si la pista no existeix s&apos;utilitzarà la primera.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; l&apos;&lt;i&gt;idioma preferit del subtítol&lt;/i&gt; té preferència sobre aquesta opció.</translation>
+        <translation>Especifica la pista predeterminada del subtítol que s&apos;utilitzarà quan es reprodueixin fitxers nous. Si la pista no existeix, s&apos;utilitzarà la primera.&lt;br&gt;&lt;b&gt;Nota:&lt;/b&gt; l&apos;&lt;i&gt;idioma preferit del subtítol&lt;/i&gt; té preferència sobre aquesta opció.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1290"/>
@@ -6477,7 +6478,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="1044"/>
         <source>&amp;Max. correction:</source>
-        <translation>Correcció màx.;</translation>
+        <translation>Correcció &amp;màx.:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1089"/>
@@ -6599,7 +6600,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="153"/>
         <source>&amp;Left click</source>
-        <translation>&amp;Clic esquerra</translation>
+        <translation>&amp;Clic esquerre</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="176"/>
@@ -6624,12 +6625,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="377"/>
         <source>Left click</source>
-        <translation>Clic esquerra</translation>
+        <translation>Clic esquerre</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="378"/>
         <source>Select the action for left click on the mouse.</source>
-        <translation>Seleccioneu l&apos;acció quan feu clic esquerra amb el ratolí.</translation>
+        <translation>Seleccioneu l&apos;acció quan feu clic esquerre amb el ratolí.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="380"/>
@@ -6689,7 +6690,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="83"/>
         <source>Frame counter</source>
-        <translation>Contador de fotogrames</translation>
+        <translation>Comptador de fotogrames</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="80"/>
@@ -7464,7 +7465,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinterface.cpp" line="803"/>
         <location filename="../prefinterface.cpp" line="807"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation>Seleccioneu el temps que a s&apos;ha d&apos;anar cap endavant o enrere quan seleccioneu l&apos;acció %1.</translation>
+        <translation>Seleccioneu el temps que s&apos;ha d&apos;anar cap endavant o enrere quan seleccioneu l&apos;acció %1.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
@@ -7499,7 +7500,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="811"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation>Seleccioneu el temps que a s&apos;ha d&apos;anar cap endavant o enrere quan moveu la roda del ratolí.</translation>
+        <translation>Seleccioneu el temps que s&apos;ha d&apos;anar cap endavant o enrere quan moveu la roda del ratolí.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="814"/>
@@ -8112,7 +8113,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="381"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Aquesta opció especifica quanta memòria de cau (en KBytes) s&apos;usarà quan es precarregui una URL.</translation>
+        <translation>Aquesta opció especifica quanta memòria (en KBytes) s&apos;usarà quan es precarregui un URL.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="384"/>
@@ -8693,7 +8694,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="389"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>Si hi ha un o més pistes de subtítols disponibles, una d&apos;elles se seleccionarà automàticament, normalment la primera, tot i que si una d&apos;elles coincideix amb la preferida de l&apos;usuari se seleccionarà aquesta última.</translation>
+        <translation>Si hi ha un o més pistes de subtítols disponibles, una d&apos;elles se seleccionarà automàticament, normalment la primera, tot i que si una d&apos;elles coincideix amb la preferida de l&apos;usuari, se seleccionarà aquesta última.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="395"/>
@@ -8858,7 +8859,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
         <source>Si&amp;ze:</source>
-        <translation>&amp;Mida</translation>
+        <translation>&amp;Mida:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="428"/>
@@ -9344,7 +9345,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation>obre la interfície gràfica mínima enlloc de la per defecte.</translation>
+        <translation>obre la interfície gràfica mínima en lloc de la predeterminada.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
@@ -10282,7 +10283,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation>Generador d&apos;imatges en minuatura</translation>
+        <translation>Generador d&apos;imatges en miniatura</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
