@@ -29,7 +29,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"INFO_VIDEO_WIDTH=${=width}\nINFO_VIDEO_HEIGHT=${=height}\n"
 			"INFO_VIDEO_ASPECT=${=video-aspect}\n"
 //			"INFO_VIDEO_DSIZE=${=dwidth}x${=dheight}\n"
-			"INFO_VIDEO_FPS=${=fps}\n"
+			"INFO_VIDEO_FPS=${=container-fps:${=fps}}\n"
 //			"INFO_VIDEO_BITRATE=${=video-bitrate}\n"
 			"INFO_VIDEO_FORMAT=${=video-format}\n"
 			"INFO_VIDEO_CODEC=${=video-codec}\n"
@@ -46,7 +46,7 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 //			"INFO_LENGTH=${=length}\n"
 			"INFO_LENGTH=${=duration:${=length}}\n"
 
-			"INFO_DEMUXER=${=demuxer}\n"
+			"INFO_DEMUXER=${=current-demuxer:${=demuxer}}\n"
 			"INFO_SEEKABLE=${=seekable}\n"
 			"INFO_TITLES=${=disc-titles}\n"
 			"INFO_CHAPTERS=${=chapters}\n"
