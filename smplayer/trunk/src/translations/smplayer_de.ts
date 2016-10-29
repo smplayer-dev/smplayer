@@ -4480,7 +4480,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation>der Filter &apos;%1&apos; wird von mpv nicht unterstützt</translation>
+        <translation>der Filter »%1« wird von mpv nicht unterstützt</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
@@ -4744,12 +4744,12 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation>&amp;Laden ...</translation>
+        <translation>&amp;Laden …</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>Wiedergabeliste von &amp;URL laden ...</translation>
+        <translation>Wiedergabeliste von &amp;Adresse laden …</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
@@ -4794,7 +4794,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation>Speichern &amp;als ...</translation>
+        <translation>Speichern &amp;als …</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
