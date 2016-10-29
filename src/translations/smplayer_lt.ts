@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation>Kūrimo versija</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1964,7 +1964,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"/>
+        <translation>Siųsti g&amp;arsą į</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="335"/>
@@ -2079,7 +2079,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="941"/>
         <source>SMPlayer external screen output</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer išorinio ekrano išvestis</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
@@ -2348,7 +2348,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="689"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>F&amp;ormato informacija</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="712"/>
@@ -4483,22 +4483,22 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Failas:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Video:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Raiška:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Kadrų per sekundę:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
@@ -4508,7 +4508,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Kraštinių santykis:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
@@ -4524,7 +4524,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Audio:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
@@ -4534,12 +4534,12 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Kanalai:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Audio/video sinchronizavimas:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>

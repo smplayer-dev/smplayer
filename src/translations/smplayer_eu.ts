@@ -1138,7 +1138,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation>Erakutsi &amp;Argibideak IGE-an</translation>
+        <translation>Erakutsi &amp;argibideak IGE-an</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -4479,78 +4479,78 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"/>
+        <translation>&apos;%1&apos; iragazki ez dago mpv-k sostengatua</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Agiria:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Bideoa:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Bereizmena:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Frame segunduko:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>Ustezkoa:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Ikuspegi Maila:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Bitneurria:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Jauzitako frameak:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Audioa:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Laginketa Neurria:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Bideak:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Audio/bideo aldiberetzea:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Katxe betetzea:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation type="unfinished"/>
+        <translation>Erabilitako katxea:</translation>
     </message>
 </context>
 <context>
@@ -5780,7 +5780,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Gehitu hertz beltzak azpidatzientzat berez</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
@@ -6095,7 +6095,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Gehitu h&amp;ertz beltzak azpidatzientzat berez</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
