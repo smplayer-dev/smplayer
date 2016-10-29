@@ -1937,6 +1937,8 @@ void Playlist::saveSettings() {
 #endif
 
 	set->setValue(QString("header_state/2/%1").arg(Helper::qtVersion()), listView->horizontalHeader()->saveState());
+	set->setValue("sort_indicator_section", listView->horizontalHeader()->sortIndicatorSection());
+	set->setValue("sort_indicator_order", listView->horizontalHeader()->sortIndicatorOrder());
 
 	set->setValue( "sort_column", proxy->sortColumn() );
 	set->setValue( "sort_order", proxy->sortOrder() );
@@ -2011,7 +2013,9 @@ void Playlist::loadSettings() {
 	resize( set->value("size", size()).toSize() );
 #endif
 
-	listView->horizontalHeader()->restoreState(set->value(QString("header_state/2/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray());
+	QByteArray header_state = set->value(QString("header_state/2/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray();
+	int sort_indicator_order = set->value("sort_indicator_order", Qt::AscendingOrder).toInt();
+	int sort_indicator_section = set->value("sort_indicator_section", 0).toInt();
 
 	int sort_column = set->value("sort_column", COL_NUM).toInt();
 	int sort_order = set->value("sort_order", Qt::AscendingOrder).toInt();
@@ -2031,6 +2035,9 @@ void Playlist::loadSettings() {
 	}
 	set->endGroup();
 
+	listView->horizontalHeader()->restoreState(header_state);
+	listView->horizontalHeader()->setSortIndicator(sort_indicator_section, (Qt::SortOrder) sort_indicator_order);
+	
 	if (save_playlist_in_config) {
 		//Load latest list
 		set->beginGroup("playlist_contents");
