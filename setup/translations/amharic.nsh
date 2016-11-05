@@ -122,15 +122,15 @@ ${LangFileString} StartBtn "ማስጀመሪያ"
 
 ; Codecs Section
 ${LangFileString} Codecs_DL_Msg "የ MPlayer Codecs በ ማውረድ ላይ..."
-${LangFileString} Codecs_DL_Retry "MPlayer codecs were not successfully installed. Retry?"
-${LangFileString} Codecs_DL_Failed "Failed to download MPlayer codecs: '$R0'."
-${LangFileString} Codecs_Inst_Failed "Failed to install MPlayer codecs."
+${LangFileString} Codecs_DL_Retry "የ MPlayer codecs ተሳክቶ አልተገጠመም: እንደገና ለ መግጠም ልሞክር?"
+${LangFileString} Codecs_DL_Failed "ማውረድ አልተቻለም የ MPlayer codecs: '$R0'."
+${LangFileString} Codecs_Inst_Failed "የ MPlayer codecs. መግጠም አልተቻለም"
 
 ; Uninstaller
 ${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
 ${LangFileString} Uninstaller_Aborted "ማጥፋቱ በ ተጠቃሚ ተቋርጧል"
 ${LangFileString} Uninstaller_NotInstalled "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
-${LangFileString} Uninstaller_InvalidDirectory "SMPlayer installation not found."
+${LangFileString} Uninstaller_InvalidDirectory "የ SMPlayer መግጠሚያ አልተገኘም"
 ${LangFileString} Uninstaller_64bitOnly "This installation can only be uninstalled on 64-bit Windows."
 
 ; Vista & Later Default Programs Registration
@@ -142,7 +142,7 @@ ${LangFileString} Info_Codecs_Restore "Restoring codecs from previous installati
 ${LangFileString} Info_Del_Files "ፋይሎች በማጥፋት ላይ..."
 ${LangFileString} Info_Del_Registry "Deleting Registry Keys..."
 ${LangFileString} Info_Del_Shortcuts "አቋራጮች በማጥፋት ላይ..."
-${LangFileString} Info_Rest_Assoc "Restoring file associations..."
+${LangFileString} Info_Rest_Assoc "እንደ ነበር በ መመለስ ላይ የሚዛመዱ ፋይሎችን..."
 ${LangFileString} Info_RollBack "Rolling back changes..."
 ${LangFileString} Info_Files_Extract "ፋይሎች በ ማራገፍ ላይ..."
 ${LangFileString} Info_SMTube_Backup "Backing up SMTube..."
@@ -151,7 +151,7 @@ ${LangFileString} Info_MPV_Backup "ተተኪ በማሰናዳት ላይ የ mpv..
 ${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "በማውረድ ላይ mpv..."
+${LangFileString} MPV_DL_Msg "በ ማውረድ ላይ mpv..."
 ${LangFileString} MPV_DL_Retry "mpv ተሳክቶ አልተገጠመም: እንደገና ልሞክር?"
 ${LangFileString} MPV_DL_Failed "ማውረድ አልተቻለም: '$R0'."
 ${LangFileString} MPV_Inst_Failed "መግጠም አልተቻለም mpv."
