@@ -1138,7 +1138,7 @@ Het configuratievenster zal nu worden weergegeven, zodat u dit nu kunt doen.</tr
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Toon &amp;info van OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -4479,78 +4479,78 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"/>
+        <translation>De &apos;%1&apos; filter wordt niet ondersteund door mpv</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Bestand:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Video:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Resolutie:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Beelden per seconde:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>Geschatte:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Aspect Ratio:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Bit snelheid:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Achterwegen gelaten beelden:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Audio:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Voorbeeld snelheid:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Kanalen:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Audio/video synchronisatie:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Cache gevuld:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation type="unfinished"/>
+        <translation>Gebruikte cache:</translation>
     </message>
 </context>
 <context>
@@ -4637,7 +4637,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation type="unfinished"/>
+        <translation>Voer de URL(s) in die aan de afspeellijst moet worden toegevoegd. Eén per lijn.</translation>
     </message>
 </context>
 <context>
@@ -4738,22 +4738,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>Afspeellijst zonder titel</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Laden...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>Afspeellijst van &amp;URL laden...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Laden/Opslaan</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1484"/>
@@ -4783,7 +4783,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Download afspeellijst van URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4793,7 +4793,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>Opslaan &amp;als...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4904,7 +4904,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../playlist.cpp" line="1804"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"/>
+        <translation>Het verwijderen is mislukt</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1805"/>

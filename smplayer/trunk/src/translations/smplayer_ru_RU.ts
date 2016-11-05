@@ -1138,7 +1138,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Отображать &amp;информацию на OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -4479,78 +4479,78 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"/>
+        <translation>Фильтр &apos;%1&apos; не поддерживается mpv</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Файл:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Видео:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Разрешение:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Кадров в секунду:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>Примерно:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Соотношение сторон:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Битрейт:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Пропущено кадров:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Звук:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Частота дискретизации:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Каналы:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Синхронизация звука/видео:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Заполнение кэша:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation type="unfinished"/>
+        <translation>Использованный кэш:</translation>
     </message>
 </context>
 <context>
@@ -4738,22 +4738,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>Безымянный список</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Загрузить...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>Загрузить список из &amp;сети Интернет...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Загрузить/Сохранить</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1484"/>
@@ -4783,7 +4783,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation>Загрузить плейлист из сети Интернет</translation>
+        <translation>Загрузить список из сети Интернет</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4793,7 +4793,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>Сохранить &amp;как...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
@@ -4924,7 +4924,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="2180"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation>Невозможно загрузить этот плейлист</translation>
+        <translation>Невозможно загрузить этот список</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2180"/>
@@ -4944,7 +4944,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1307"/>
         <source>Playlist modified</source>
-        <translation>Список воспроизведения изменен</translation>
+        <translation>Список воспроизведения изменён</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1308"/>
@@ -5068,7 +5068,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Данный параметр может быть необходим для воспроизведения плейлистов (m3u, pls и др). Однако это представляет определённую угрозу, ввиду того, что MPlayer практически беззащитен при чтении и использовании различных плейлистов из интернета.</translation>
+        <translation>Данный параметр может быть необходим для воспроизведения списков (m3u, pls и др). Однако это представляет определённую угрозу, ввиду того, что MPlayer практически беззащитен при чтении и использовании различных списков из интернета.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
@@ -5719,7 +5719,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Если эта опция включена, то по умолчанию к изображению будут добавлены чёрные полосы в новые открытые файлы.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -5780,7 +5780,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Добавить чёрные полосы для субтитров по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
@@ -6095,7 +6095,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Добавить &amp;чёрные полосы для субтитров по умолчанию</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -8349,7 +8349,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Если эта опция отмечена, каждый раз при открытии файла, SMPlayer будет первым делом очищать список и затем добавлять файл в него. Касательно DVD, CD и VCD, все заголовки на диске будут добавлены в плейлист.</translation>
+        <translation>Если эта опция отмечена, каждый раз при открытии файла, SMPlayer будет первым делом очищать список и затем добавлять файл в него. Касательно DVD, CD и VCD, все заголовки на диске будут добавлены в список.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
@@ -8379,32 +8379,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Начинать воспроизведение после загрузки списка</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation>Воспроизведение начнётся только после загрузки списка.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Воспроизводить следующий файл автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Когда файл достигнет конца, следующий файл будет проигран автоматически.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Игнорировать ошибки воспроизведения</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Добавить файлы в список автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8414,32 +8414,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>Автосортировка</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Если эта опция включена, список будет отсортирован автоматически после добавления файлов.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Поиск с учётом регистра</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Этот параметр определяет является ли поиск в списке воспроизведения чувствительным к регистру или нет.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Сохранять копию списка воспроизведения при выходе</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Если эта опция отмечена, в файле конфигурации SMPlayer при закрытии будет сохранена копия списка воспроизведения, которая будет автоматически загружена при следующем запуске SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8479,7 +8479,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Данная опция может быть использована для добавления файлов в список воспроизведения автоматически:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8524,32 +8524,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>Воспроизведение</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Начинать воспроизведение после загрузки списка</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Воспрои&amp;зводить следующий файл автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>И&amp;гнорировать ошибки воспроизведения</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>Добавление файлов</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Добавить файлы в список автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8564,17 +8564,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>Авто&amp;сортировка</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Поиск с у&amp;чётом регистра</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Со&amp;хранять копию списка воспроизведения при выходе</translation>
     </message>
 </context>
 <context>
@@ -9478,7 +9478,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
+        <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный список в формате m3u или pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>

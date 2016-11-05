@@ -4793,7 +4793,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="631"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Farklı kaydet...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="635"/>
