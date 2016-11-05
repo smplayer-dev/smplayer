@@ -39,7 +39,7 @@
     <message>
         <location filename="../about.cpp" line="165"/>
         <source>Many people contributed with translations.</source>
-        <translation>Muitas pessoas contribuiram com traduções.</translation>
+        <translation>Muitas pessoas contribuíram com traduções.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="166"/>
@@ -142,7 +142,7 @@
     <message>
         <location filename="../about.cpp" line="127"/>
         <source>Many other people contributed with patches. See the Changelog for details.</source>
-        <translation>Muitas outras pessoas contribuiram com patches. Veja a Changelog para detalhes.</translation>
+        <translation>Muitas outras pessoas contribuíram com patches. Veja a Changelog para detalhes.</translation>
     </message>
 </context>
 <context>
