@@ -1,4 +1,4 @@
-Version 16.x:
+Version 16.11:
 
 (2016-10-20)
  * Pass the alpha component of the subtitles' colors to mpv.
