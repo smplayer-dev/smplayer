@@ -1,3 +1,15 @@
+smplayer (16.11.0) precise; urgency=low
+
+  * More options in Preferences -> Playlist to better control the
+    behaviour of the playlist. Changing some of the options makes
+    easier to use the playlist for bookmarks.
+ *  New option 'Show info on OSD' in View -> OSD (shortcut Shift + I).
+    It displays info about the current media (resolution, bitrate...) on the
+    OSD.
+ *  Bug fixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sat, 05 Nov 2016 23:56:20 +0100
+
 smplayer (16.9.0) precise; urgency=low
 
   * New option to send the audio to the specified audio device.
