@@ -980,7 +980,7 @@ Function Backup_SMTube
   QtVerMismatch:
     DetailPrint $(SMTube_Incompatible_Msg1)
     DetailPrint $(SMTube_Incompatible_Msg2)
-    Sleep 5000
+    Sleep 10000
   NoBackup:
     StrCpy $Restore_SMTube 0
 
