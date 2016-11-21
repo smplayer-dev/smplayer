@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation>نسخة التطوير</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -4482,27 +4482,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>ملف:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>فيديو</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>دقة:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>الاطار لكل ثانية:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>المتوقع:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
@@ -4523,22 +4523,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>صوت:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>مثال للنسبة:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>القنوات:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>مزامنة الصوت/الفيديو :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
@@ -4736,7 +4736,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>القوائم الغير معنونة</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
@@ -4751,7 +4751,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>تحميل/حفظ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1484"/>
@@ -4781,7 +4781,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>تحميل قائمة تشغيل من رابط </translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -8387,22 +8387,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>تشغيل الملف التالي تلقائيا</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>عندما يتم الوصول الى نهاية الملف , سيتم تشغيل الملف التالي تلقائياً</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>تجاهل اخطاء التشغيل</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>اضف الملف الى قائمة التشغيل تلقائيا</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8412,7 +8412,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>ترتيب تلقائي</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
@@ -8422,7 +8422,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>بحث متحسس لحالة الاحرف</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
@@ -8522,7 +8522,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>تشغيل</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>

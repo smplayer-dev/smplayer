@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation>开发版</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1138,7 +1138,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>在 OSD 中显示信息(&amp;i)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1964,7 +1964,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"/>
+        <translation>将音频发送到(&amp;a)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="335"/>
@@ -2084,7 +2084,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation>默认音频设备(&amp;D)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>

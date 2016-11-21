@@ -4749,7 +4749,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>Wiedergabeliste von &amp;Adresse laden …</translation>
+        <translation>&amp;Wiedergabeliste von Adresse laden …</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
@@ -5174,7 +5174,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Wenn diese Option aktiviert ist, wird SMPlayer die Ausgabe von %1 speichern (Zu findern unter &lt;b&gt;Optionen -&gt; Protokolle einsehen -&gt; %1&lt;/b&gt;). In Problemfällen können diese Protokolle wichtige Informationen enthalten, deshalb wird empfohlen, diese Option aktiviert zu lassen.</translation>
+        <translation>Wenn diese Option aktiviert ist, wird SMPlayer die Ausgabe von %1 speichern (Zu findern unter &lt;b&gt;Optionen → Protokolle einsehen → %1&lt;/b&gt;). In Problemfällen können diese Protokolle wichtige Informationen enthalten, deshalb wird empfohlen, diese Option aktiviert zu lassen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
@@ -5199,7 +5199,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="592"/>
         <source>This option allows to filter the SMPlayer messages that will be stored in the log. Here you can write any regular expression.&lt;br&gt;For instance: &lt;i&gt;^Core::.*&lt;/i&gt; will display only the lines starting with &lt;i&gt;Core::&lt;/i&gt;</source>
-        <translation>Diese Option ermöglicht das Filtern von SMPlayer-Nachrichten, die im Protokoll gespeichert werden sollen. Hier kann man ein regelulärer Ausdruck eingegeben werden.&lt;br&gt;Zum Beispiel: &lt;i&gt;^Core::.*&lt;/i&gt; zeigt nur Zeilen an, die mit &lt;i&gt;Core::&lt;/i&gt; beginnen.</translation>
+        <translation>Diese Option ermöglicht das Filtern von SMPlayer-Nachrichten, die im Protokoll gespeichert werden sollen. Hier können reguläre Ausdrücke eingegeben werden.&lt;br&gt;Zum Beispiel: &lt;i&gt;^Core::.*&lt;/i&gt; zeigt nur Zeilen an, die mit &lt;i&gt;Core::&lt;/i&gt; beginnen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="472"/>
@@ -5353,7 +5353,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Falls bei Dateien kein Index gefunden werden kann, baut dies den Index wieder auf, so dass das Spulen ermöglicht wird. Dies ist hilfreich für fehlerhafte/unvollständigeHerunterladene oder schlecht erstellte Dateien. Diese Option funktioniert nur, wenn das zugrunde liegende Medium Unterstüztung für das Spulen besitzt (also nicht mit stdin, pipe, usw.).&lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; Das Erstellen des Index kann einige Zeit dauern.</translation>
+        <translation>Falls bei Dateien kein Index gefunden werden kann, baut das den Index wieder auf, so dass das Spulen ermöglicht wird. Das ist hilfreich für fehlerhaft/unvollständig heruntergeladene oder schlecht erstellte Dateien. Diese Option funktioniert nur, wenn das zugrunde liegende Medium Unterstützung für das Spulen besitzt (z.B. nicht mit stdin, pipe usw.).&lt;br&gt;&lt;b&gt;Hinweis:&lt;/b&gt; das Erstellen des Index kann einige Zeit dauern.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
@@ -6096,7 +6096,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation>Schwar&amp;ze Rahmen für Untertitel standardmäßig hinzufügen</translation>
+        <translation>Sch&amp;warze Rahmen für Untertitel standardmäßig hinzufügen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6286,7 +6286,7 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../prefgeneral.ui" line="356"/>
         <location filename="../prefgeneral.ui" line="686"/>
         <source>Ou&amp;tput driver:</source>
-        <translation>A&amp;usgabetreiber:</translation>
+        <translation>&amp;Ausgabetreiber:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
@@ -6951,7 +6951,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation>Wenn diese Option aktiviert ist, funktionieren die Multimediatasten (Wiedergabe, Stopp, Lautstärke +/-, Stumm, usw.) auch, wenn SMPlayer im Hintergrund ausgeführt wird.</translation>
+        <translation>Wenn diese Option aktiviert ist, funktionieren die Multimediatasten (Wiedergabe, Stopp, Lautstärke +/-, Stumm usw.) auch, wenn der SMPlayer im Hintergrund ausgeführt wird.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
@@ -8177,7 +8177,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>–</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
@@ -8356,7 +8356,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>–</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="47"/>
@@ -8496,7 +8496,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Wiedergabeliste</translation>
+        <translation>Wiedergabeliste</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
@@ -8531,17 +8531,17 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>Wiedergabe nach dem Laden einer Wiedergabeliste automatisch s&amp;tarten</translation>
+        <translation>Wie&amp;dergabe nach dem Laden einer Wiedergabeliste automatisch starten</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation>Nächste Datei automatisch &amp;wiedergeben</translation>
+        <translation>&amp;Nächste Datei automatisch wiedergeben</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation>Wiedergabefehler ig&amp;norieren</translation>
+        <translation>Wiedergabefehler &amp;vernachlässigen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8748,7 +8748,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation>Diese Option aktiviert die ASS-Bibliothek, welche es erlaubt, das Untertitel in verschiedenen Farben, Schriften, usw. angezeigt werden.</translation>
+        <translation>Diese Option aktiviert die ASS-Bibliothek, welche es erlaubt, das Untertitel in verschiedenen Farben, Schriften usw. angezeigt werden.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>

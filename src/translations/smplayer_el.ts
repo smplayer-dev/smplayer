@@ -819,8 +819,8 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4236"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
-        <translation>Οι CDROM / DVD οδηγοί δεν έχουν καθοριστεί ακόμη.
-Ο διάλογος καθορισμού θα εμφανιστεί, ώστε να προχωρήσετε.</translation>
+        <translation>Οι οδηγοί CDROM / DVD δεν έχουν οριστεί ακόμη.
+Ο διάλογος ορισμού θα εμφανιστεί για να συνεχίσετε.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4349"/>
@@ -2125,7 +2125,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="37"/>
         <source>Downloading...</source>
-        <translation>Τηλεφόρτωση...</translation>
+        <translation>Μεταφόρτωση...</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
@@ -2161,7 +2161,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="138"/>
         <source>An error happened while downloading the file:&lt;br&gt;%1</source>
-        <translation>Συνέβη σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
+        <translation>Προέκυψε σφάλμα κατά την λήψη του αρχείου:&lt;br&gt;%1</translation>
     </message>
 </context>
 <context>
@@ -2255,27 +2255,27 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4039"/>
         <source>Mouse wheel seeks now</source>
-        <translation>Ο τροχός του ποντικιού τώρα αναζητά</translation>
+        <translation>Ο τροχός του ποντικιού τώρα θα αναζητά</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4042"/>
         <source>Mouse wheel changes volume now</source>
-        <translation>Ο τροχός του ποντικιού τώρα αλλάζει την ένταση</translation>
+        <translation>Ο τροχός του ποντικιού τώρα θα αλλάζει την ένταση</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4045"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation>Ο τροχός του ποντικιού τώρα αλλάζει εστίαση</translation>
+        <translation>Ο τροχός του ποντικιού τώρα θα αλλάζει την εστίαση</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4048"/>
         <source>Mouse wheel changes speed now</source>
-        <translation>Ο τροχός του ποντικιού τώρα αλλάζει ταχύτητα</translation>
+        <translation>Ο τροχός του ποντικιού τώρα θα αλλάζει την ταχύτητα</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4362"/>
         <source>Screenshot saved as %1</source>
-        <translation>Το στιγμιότυπο αποθηκεύτηκες ως %1</translation>
+        <translation>Το στιγμιότυπο αποθηκεύτηκε ως %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4397"/>
@@ -2885,7 +2885,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
         <source>Error fixing the subtitle lines</source>
-        <translation>Σφάλμα κατά της διόρθωσης των γραμμών υποτίτλων</translation>
+        <translation>Σφάλμα της διόρθωσης των γραμμών υποτίτλων</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="136"/>
@@ -2916,7 +2916,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="378"/>
         <source>Downloading...</source>
-        <translation>Γίνετε λήψη...</translation>
+        <translation>Λήψη...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="386"/>
@@ -4001,7 +4001,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Γλώσσες σλαβικές/κεντρικής Ευρώπης</translation>
+        <translation>Γλώσσες/Σλαβικές Κεντρικής Ευρώπης</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
@@ -4011,7 +4011,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="298"/>
         <source>Old Baltic charset</source>
-        <translation>Σύνολο χαρακτήρων παλιών Βαλτικών</translation>
+        <translation>Χαρακτήρες παλιών Βαλτικών</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="299"/>
@@ -4041,7 +4041,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="306"/>
         <source>Hebrew charsets</source>
-        <translation>Εβραϊκό σύνολο χαρακτήρων </translation>
+        <translation>Χαρακτήρες Εβραϊκών </translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="308"/>
@@ -4051,27 +4051,27 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="309"/>
         <source>Simplified Chinese charset</source>
-        <translation>Σύνολο χαρακτήρων απλοποιημένα κινέζικων</translation>
+        <translation>Χαρακτήρες απλοποιημένων κινέζικων </translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="310"/>
         <source>Traditional Chinese charset</source>
-        <translation>Σύνολο χαρακτήρων παραδοσιακών κινέζικων</translation>
+        <translation>Χαρακτήρες παραδοσιακών κινέζικων </translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="311"/>
         <source>Japanese charsets</source>
-        <translation>Ιαπωνικό σύνολο χαρακτήρων</translation>
+        <translation>Χαρακτήρες Ιαπωνικών</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="312"/>
         <source>Korean charset</source>
-        <translation>Κορεάτικο σύνολο χαρακτήρων</translation>
+        <translation>Χαρακτήρες Κορεατικών</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="313"/>
         <source>Thai charset</source>
-        <translation>Ταϊλανδικό σύνολο χαρακτήρων</translation>
+        <translation>Χαρακτήρες Ταϊλανδέζικων</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="314"/>
@@ -4479,78 +4479,78 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"/>
+        <translation>το &apos;%1&apos; φίλτρο δεν υποστηρίζεται από το mpv</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Αρχείο</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Βίντεο</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Ανάλυση</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Καρέ το δευτερόλεπτο</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>αναμενόμενo</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Αναλογίες</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Ρυθμός bit</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Διακεκομμένα καρέ</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Ήχος</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Ρυθμός δειγματοληψίας</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Κανάλια</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Συγχρονισμός Ήχου/Εικόνας</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Πλήρωση προσωρινής μνήμης</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation type="unfinished"/>
+        <translation>Χρησιμοποιημένη προσωρινή μνήμη</translation>
     </message>
 </context>
 <context>
@@ -5598,12 +5598,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="161"/>
         <source>7 (6.1 Surround)</source>
-        <translation>7 (6.1 Περιβάλλων)</translation>
+        <translation>7 (6.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="162"/>
         <source>8 (7.1 Surround)</source>
-        <translation>8 (7.1 Περιβάλλων)</translation>
+        <translation>8 (7.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="188"/>
@@ -5719,7 +5719,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Η ενεργοποίηση αυτής της επιλογής, θα προσθέτει από προεπιλογή, μαύρες λωρίδες στην εικόνα για τα νέα αρχεία που θα ανοίγουν.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -5780,7 +5780,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Προσθήκη μαύρων λωρίδων για τους υπότιτλους από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
@@ -5965,12 +5965,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="159"/>
         <source>4 (4.0 Surround)</source>
-        <translation>4 (4.0 Περιβάλλων)</translation>
+        <translation>4 (4.0 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="160"/>
         <source>6 (5.1 Surround)</source>
-        <translation>6 (5.1 Περιβάλλων)</translation>
+        <translation>6 (5.1 Surround)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="792"/>
@@ -5995,7 +5995,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1203"/>
         <source>Max. Amplification</source>
-        <translation>Μέγιστη ενίσχυση</translation>
+        <translation>Μέγιστη Ενίσχυση</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1174"/>
@@ -6005,12 +6005,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1210"/>
         <source>Volume normalization by default</source>
-        <translation>Κανονικοποίηση έντασης από προεπιλογή</translation>
+        <translation>Ομαλοποίηση έντασης από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1211"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation>Μεγιστοποίηση έντασης χωρίς στρέβλωση του ήχου.</translation>
+        <translation>Μεγιστοποίηση έντασης χωρίς παραμόρφωση του ήχου.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1179"/>
@@ -6095,7 +6095,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Προσθήκη μ&amp;αύρων λωρίδων για τους υπότιτλους από προεπιλογή</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6150,7 +6150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="170"/>
         <source>Linear Blend</source>
-        <translation>Γραμμική ανάμειξη</translation>
+        <translation>Γραμμική Ανάμειξη</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="171"/>
@@ -6165,7 +6165,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1087"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
-        <translation>Επιλέξτε το φίλτρο αποδιαπλοκής που θέλετε να χρησιμοποιηθεί για τα νέα ανοιγμένα βίντεο.</translation>
+        <translation>Επιλέξτε το φίλτρο απόπλεξης που θέλετε να χρησιμοποιηθεί για τα νέα ανοιγμένα βίντεο.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1002"/>
@@ -6195,17 +6195,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Draw video using slices</source>
-        <translation>Απόδοση βίντεο χρησιμοποιώντας τμήματα</translation>
+        <translation>Σύσταση βίντεο με χρήση τμημάτων</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Ενεργοποίηση/απενεργοποίηση απόδοσης βίντεο από κομμάτια/ζώνες ύψους 16 pixel. Ανάλογα με την κάρτα γραφικών και τη διαθέσιμη ενδιάμεση μνήμη μπορεί να είναι γρηγορότερο η αργότερο. Έχει επίδραση μόνο με τους κωδικοποιητές libmpeg2 και libavcodec.</translation>
+        <translation>Ενεργοποίηση/απενεργοποίηση σύστασης βίντεο από κομμάτια/ζώνες ύψους 16 pixel. Ανάλογα με την κάρτα γραφικών και τη διαθέσιμη ενδιάμεση μνήμη μπορεί να είναι γρηγορότερο η αργότερο. Έχει επίδραση μόνο με τους κωδικοποιητές libmpeg2 και libavcodec.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>Από&amp;δοση βίντεο χρησιμοποιώντας τμήματα</translation>
+        <translation>Σύσ&amp;ταση βίντεο με χρήση τμημάτων</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="276"/>
@@ -9064,12 +9064,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>Freetype support</source>
-        <translation>FreeType υποστήριξη</translation>
+        <translation>Υποστήριξη Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="237"/>
         <source>Freet&amp;ype support</source>
-        <translation>Free&amp;Type υποστήριξη</translation>
+        <translation>Υπο&amp;στήριξη Freetype</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
