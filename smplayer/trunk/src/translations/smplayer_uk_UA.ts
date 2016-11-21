@@ -737,7 +737,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Грайлист</translation>
+        <translation>&amp;Перелік відтворення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2018"/>
@@ -784,7 +784,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="4183"/>
         <source>Playlists</source>
-        <translation>Грайлисти</translation>
+        <translation>Переліки відтворення</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4184"/>
@@ -1598,7 +1598,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4180"/>
         <source>Multimedia</source>
-        <translation>Мультимедія</translation>
+        <translation>Мультимедіа</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1759"/>
@@ -2567,7 +2567,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favorites.cpp" line="93"/>
         <source>&amp;Add current media</source>
-        <translation>&amp;Додати поточне медія</translation>
+        <translation>&amp;Додати поточне медіа</translation>
     </message>
 </context>
 <context>
@@ -3991,17 +3991,17 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="294"/>
         <source>Western European Languages</source>
-        <translation>Східня Европа</translation>
+        <translation>Західноєвропейські мови</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages with Euro</source>
-        <translation>Східня Европа з Евро</translation>
+        <translation>Західна Європа з Євро</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>Slavic/Central European Languages</source>
-        <translation>Кирилиця/Центральна Европа</translation>
+        <translation>Кирилиця/Центральна Європа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
@@ -4036,7 +4036,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>South-Eastern European</source>
-        <translation>Південно-Східня Европа</translation>
+        <translation>Південно-Східна Європа</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
@@ -4081,7 +4081,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="315"/>
         <source>Slavic/Central European Windows</source>
-        <translation>Кирилиця/Центральна Европа Windows</translation>
+        <translation>Кирилиця/Центральна Європа Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="316"/>
@@ -4579,7 +4579,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Медіяпанель</translation>
+        <translation>Медіапанель</translation>
     </message>
 </context>
 <context>
@@ -4704,7 +4704,7 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="1228"/>
         <location filename="../playlist.cpp" line="1264"/>
         <source>Playlists</source>
-        <translation>Грайлист</translation>
+        <translation>Перелік відтворення</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1226"/>
@@ -4738,7 +4738,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation>Грайлист без назви</translation>
+        <translation>Перелік відтворення без назви</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
@@ -4944,17 +4944,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1307"/>
         <source>Playlist modified</source>
-        <translation>Грайлист змінено</translation>
+        <translation>Перелік відтворення змінено</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1308"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Зміни у грайлисті не збережені! Ви бажаєте зберегти?</translation>
+        <translation>Зміни в переліку відтворення не збережені! Ви бажаєте зберегти?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1486"/>
         <source>Multimedia</source>
-        <translation>Мультимедія</translation>
+        <translation>Мультимедіа</translation>
     </message>
 </context>
 <context>
@@ -5068,7 +5068,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Даний параметр може бути потрібний для відтворення грайлистів (m3u, pls та ін). Однак, це може бути небезпечним, бо MPlayer практично беззахистний коли читає та використовує різні грайлисти з тенет.</translation>
+        <translation>Даний параметр може бути потрібний для відтворення переліків відтворення (m3u, pls та ін). Однак, це може бути небезпечним, бо MPlayer практично беззахистний коли читає та використовує різні переліки відтворення з тенет.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
@@ -5253,7 +5253,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation>Якщо увімкнено, вікно %1 не буде вбудоване в головне вікно SMPlayer, а буде використовуватись своє власне вікно. Зверніть увагу, що події набірниці та миші будуть передані безпосередньо %1, що означає, що призначені гарячі клявіші та події миші можуть не працювати коректно, якщо вікно %1 знаходиться в фокусі.</translation>
+        <translation>Якщо увімкнено, вікно %1 не буде вбудоване в головне вікно SMPlayer, а буде використовуватись своє власне вікно. Зверніть увагу, що події клавіатури та миші будуть передані безпосередньо %1, що означає, що призначені гарячі клавіші та події миші можуть не працювати коректно, якщо вікно %1 знаходиться в фокусі.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5293,7 +5293,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="483"/>
         <source>Here you can specify a list of &lt;i&gt;actions&lt;/i&gt; which will be run every time a file is opened. You&apos;ll find all available actions in the key shortcut editor in the &lt;b&gt;Keyboard and mouse&lt;/b&gt; section. The actions must be separated by spaces. Checkable actions can be followed by &lt;i&gt;true&lt;/i&gt; or &lt;i&gt;false&lt;/i&gt; to enable or disable the action.</source>
-        <translation>Тут ви можете визначити перелік &lt;i&gt;дій&lt;/i&gt;, які будуть виконані щораз як буде відкритий файл. Ви знайдете усі наявні дії в редакторі комбінацій клявіш у розділі &lt;b&gt;Набірниця та миша&lt;/b&gt;. Дії мають бути розділені пробілами. За вибірковими діями можуть слідувати &lt;i&gt;true&lt;/i&gt; або &lt;i&gt;false&lt;/i&gt;, щоб увімкнути або вимкнути дію.</translation>
+        <translation>Тут ви можете визначити перелік &lt;i&gt;дій&lt;/i&gt;, які будуть виконані щораз як буде відкритий файл. Ви знайдете усі наявні дії в редакторі комбінацій клавіш у розділі &lt;b&gt;Клавіатура та миша&lt;/b&gt;. Дії мають бути розділені пробілами. За вибірковими діями можуть слідувати &lt;i&gt;true&lt;/i&gt; або &lt;i&gt;false&lt;/i&gt;, щоб увімкнути або вимкнути дію.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="98"/>
@@ -5352,7 +5352,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи гортання. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює лише якщо в даному медія підтримується переміщення (тобто не stdin, pipe та ін.).&lt;br&gt; &lt;b&gt;Нотатка:&lt;/b&gt; створення індексу займає деякий час.</translation>
+        <translation>Відновлювати індекс файлів якщо не знайдено, дозволяючи гортання. Корисно при неповно/помилково завантажених чи створених з помилками файлах. Ця опція працює лише якщо в даному медіа підтримується переміщення (тобто не stdin, pipe та ін.).&lt;br&gt; &lt;b&gt;Нотатка:&lt;/b&gt; створення індексу займає деякий час.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
@@ -5450,7 +5450,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Файли медія, які опрацьовуються SMPlayer:</translation>
+        <translation>Файли медіа, які опрацьовуються SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -5465,7 +5465,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation>Відзначте розширення файлів медія, які ви бажаєте опрацьовувати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медія, асоціяція файлів буде відновлена.</translation>
+        <translation>Відзначте розширення файлів медіа, які ви бажаєте опрацьовувати SMPlayer. При застосуванні відзначені файли будуть асоційовані з SMPlayer. Якщо Ви знімете позначку типів медіа, асоціація файлів буде відновлена.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -5583,7 +5583,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="76"/>
         <source>Media settings</source>
-        <translation>Налаштування медія</translation>
+        <translation>Налаштування медіа</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1123"/>
@@ -5749,7 +5749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Software video equalizer</source>
-        <translation>Проґрамний відеоеквалайзер</translation>
+        <translation>Програмний відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="154"/>
@@ -5800,7 +5800,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1170"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
-        <translation>Якщо ця опція активована, усі медія-файли будуть використовувати аудіоеквалайзер.</translation>
+        <translation>Якщо ця опція активована, усі медіа-файли будуть використовувати аудіоеквалайзер.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1171"/>
@@ -6533,7 +6533,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="42"/>
         <source>Keyboard and mouse</source>
-        <translation>Набірниця та миша</translation>
+        <translation>Клавіатура та миша</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="24"/>
@@ -6569,7 +6569,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="149"/>
         <location filename="../prefinput.cpp" line="416"/>
         <source>Media seeking</source>
-        <translation>Переміщення по медія</translation>
+        <translation>Переміщення по медіа</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
@@ -6722,7 +6722,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Playlist</source>
-        <translation>Грайлист</translation>
+        <translation>Перелік відтворення</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -6996,7 +6996,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.ui" line="435"/>
         <location filename="../prefinput.cpp" line="155"/>
         <source>Media &amp;seeking</source>
-        <translation>&amp;Здійснення переходу по медія</translation>
+        <translation>&amp;Здійснення переходу по медіа</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
@@ -7064,7 +7064,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="389"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation>Переміщувати коліщам миші в &amp;зворотньому напрямку</translation>
+        <translation>Переміщувати колесом миші в &amp;зворотньому напрямку</translation>
     </message>
 </context>
 <context>
@@ -7588,7 +7588,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="830"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation>Типово при натисканні кнопки зупинки часова позиція медіяфайлу запам’ятовується, тому при натисканні кнопки відтворення, медіяфайл продовжить відтворюватися з того ж місця. Ви повинні натиснути кнопку стоп вдруге для скидання позиції, але ця опція, будучи встановленою, встановить часову позицію в 0 навіть при одинарному натисканні кнопки зупинки.</translation>
+        <translation>Типово при натисканні кнопки зупинки часова позиція медіафайлу запам’ятовується, тому при натисканні кнопки відтворення, медіафайл продовжить відтворюватися з того ж місця. Ви повинні натиснути кнопку стоп вдруге для скидання позиції, але ця опція, будучи встановленою, встановить часову позицію в 0 навіть при одинарному натисканні кнопки зупинки.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="837"/>
@@ -8344,12 +8344,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="34"/>
         <source>Playlist</source>
-        <translation>Грайлист</translation>
+        <translation>Перелік відтворення</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Якщо опція увімкнена, кожного разу коли відкривається файл, SMPlayer спочатку очистить грайлист, а потім додасть файл до нього. У випадку DVD, CD та VCD усі доріжки диску будуть додані до переліку.</translation>
+        <translation>Якщо опція увімкнена, кожного разу коли відкривається файл, SMPlayer спочатку очистить перелік відтворення, а потім додасть файл до нього. У випадку DVD, CD та VCD усі доріжки диску будуть додані до переліку.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
@@ -8379,12 +8379,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation>Почніть відтворення після завантаження грайлиста</translation>
+        <translation>Почніть відтворення після завантаження списку відтворення</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation>Відтворення почнеться тільки після завантаження грайлиста.</translation>
+        <translation>Відтворення почнеться тільки після завантаження списку відтворення.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
@@ -8429,17 +8429,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation>Цей параметр визначає пошук у грайлисті, чутливим до регістру чи ні.</translation>
+        <translation>Цей параметр визначає пошук у списку відтворення, чутливим до регістру чи ні.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation>Збережіть копію грайлиста перед виходом</translation>
+        <translation>Збережіть копію списку відтворення перед виходом</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation>Якщо ця опція включена, копію грайлиста буде збережено в файлі конфігурації, коли SMPlayer закривається, і він буде автоматично перезавантажуватися, коли SMPlayer запускається знову.</translation>
+        <translation>Якщо ця опція включена, копію списку відтворення буде збережено в файлі конфігурації, коли SMPlayer закривається, і він буде автоматично перезавантажуватися, коли SMPlayer запускається знову.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8479,7 +8479,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation>Ця опція може бути використана для додавання файлів автоматично у грайлист</translation>
+        <translation>Ця опція може бути використана для додавання файлів автоматично до списку відтворення:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8489,12 +8489,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="173"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation>При вмиканні цієї опції перелік відтворення буде нехтувати помилки відтворення попереднього файлу й буде грати наступний файл у переліку.</translation>
+        <translation>При вмиканні цієї опції список відтворення буде ігнорувати помилки відтворення попереднього файлу й буде грати наступний файл у переліку.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Грайлист</translation>
+        <translation>&amp;Перелік відтворення</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
@@ -8529,7 +8529,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>П&amp;очніть відтворення після завантаження грайлиста</translation>
+        <translation>П&amp;очніть відтворення після завантаження списку відтворення</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
@@ -8549,7 +8549,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation>&amp;Додати файли до грайлиста автоматично</translation>
+        <translation>&amp;Додати файли до списку відтворення автоматично</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -9322,7 +9322,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>якщо вже працює інший процес, медія будуть додані до переліку відтворення. Якщо не буде ніякого іншого процесу, ця опція нехтується та файли відкриються в новому примірнику.</translation>
+        <translation>якщо вже працює інший процес, медіа будуть додані до переліку відтворення. Якщо не буде ніякого іншого процесу, ця опція ігнорується та файли відкриються в новому примірнику.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
@@ -9484,7 +9484,7 @@ Do you want to overwrite?</source>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation>SMPlayer — мій улюблений медіяпрогравач для ПК. Оцініть!</translation>
+        <translation>SMPlayer — мій улюблений медіапрогравач для ПК. Оцініть!</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="44"/>
@@ -10394,7 +10394,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation>Грайлист</translation>
+        <translation>Перелік відтворення</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
