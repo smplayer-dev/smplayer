@@ -545,7 +545,7 @@ void Preferences::reset() {
 	initial_zoom_factor = 1.0;
 	initial_sub_pos = 100; // 100%
 
-#ifndef ADD_BLACKBORDERS_FS
+#ifdef INITIAL_BLACKBORDERS
 	initial_blackborders = false;
 #endif
 
@@ -1086,7 +1086,7 @@ void Preferences::save() {
 
 	set->setValue("initial_volnorm", initial_volnorm);
 
-#ifndef ADD_BLACKBORDERS_FS
+#ifdef INITIAL_BLACKBORDERS
 	set->setValue("initial_blackborders", initial_blackborders);
 #endif
 
@@ -1657,7 +1657,7 @@ void Preferences::load() {
 
 	initial_volnorm = set->value("initial_volnorm", initial_volnorm).toBool();
 
-#ifndef ADD_BLACKBORDERS_FS
+#ifdef INITIAL_BLACKBORDERS
 	initial_blackborders = set->value("initial_blackborders", initial_blackborders).toBool();
 #endif
 

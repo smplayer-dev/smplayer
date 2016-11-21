@@ -95,7 +95,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 
 #ifndef ADD_BLACKBORDERS_FS
 	blackborders_on_fs_check->hide();
-#else
+#endif
+
+#ifndef INITIAL_BLACKBORDERS
 	blackborders_check->hide();
 #endif
 
@@ -256,7 +258,9 @@ void PrefGeneral::setData(Preferences * pref) {
 
 #ifdef ADD_BLACKBORDERS_FS
 	setBlackbordersOnFullscreen( pref->add_blackborders_on_fullscreen );
-#else
+#endif
+
+#ifdef INITIAL_BLACKBORDERS
 	blackborders_check->setChecked(pref->initial_blackborders);
 #endif
 
@@ -358,7 +362,9 @@ void PrefGeneral::getData(Preferences * pref) {
 		pref->add_blackborders_on_fullscreen = blackbordersOnFullscreen();
 		if (pref->fullscreen) requires_restart = true;
 	}
-#else
+#endif
+
+#ifdef INITIAL_BLACKBORDERS
 	pref->initial_blackborders = blackborders_check->isChecked();
 #endif
 
@@ -1088,7 +1094,7 @@ void PrefGeneral::createHelp() {
            "videos opened.") +" "+ 
         tr("<b>Note:</b> This option won't be used for TV channels.") );
 
-#ifndef ADD_BLACKBORDERS_FS
+#ifdef INITIAL_BLACKBORDERS
 	setWhatsThis(blackborders_check, tr("Add black borders for subtitles by default"),
 		tr("If this option is enabled, black borders will be added to the image "
            "by default on new opened files."));
