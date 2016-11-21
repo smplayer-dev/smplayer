@@ -529,7 +529,7 @@ public:
 	//! 100 = 100% at the bottom
 	int initial_sub_pos;
 
-#ifndef ADD_BLACKBORDERS_FS
+#ifdef INITIAL_BLACKBORDERS
 	bool initial_blackborders;
 #endif
 
