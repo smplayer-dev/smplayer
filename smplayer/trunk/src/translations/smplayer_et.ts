@@ -2482,7 +2482,7 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="119"/>
         <source>You can edit, delete, sort or add new items. Double click on a cell to edit its contents.</source>
-        <translation>Lemmikuid saab lisada, kustutada, muuta ja sorteerida. Elemendi muutmiseks vajutage sellel.</translation>
+        <translation>Üksusi saab lisada, muuta, kustutada ja sorteerida. Üksuse muutmiseks vajutage sellel.</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="350"/>
@@ -7290,7 +7290,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation>Nende muudatuste rakendumiseks tuleb SMPlayer taaskäivitada</translation>
+        <translation>Nende muudatuste rakendamiseks tuleb SMPlayer taaskäivitada</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7390,7 +7390,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>Mastaapimistase</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
@@ -7420,7 +7420,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation>Vali ikoonikogu, mida rakendus kasutab.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
@@ -7467,7 +7467,7 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefinterface.cpp" line="803"/>
         <location filename="../prefinterface.cpp" line="807"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"/>
+        <translation>Vali ajavahemik, mille võrra edasi või tagasi minna, kui tehakse tegevus &quot;%1&quot;.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
@@ -7502,7 +7502,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="811"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"/>
+        <translation>Vali ajavahemik, mille võrra hiirega kerimisel edasi või tagasi minna.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="814"/>
@@ -7567,12 +7567,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="887"/>
         <source>Remember last directory</source>
-        <translation type="unfinished"/>
+        <translation>Jäta meelde viimane kaust</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="888"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"/>
+        <translation>Kui see valik on märgitud, siis hoiab SMPlayer meeles viimase kausta, millest fail avati.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
@@ -7668,7 +7668,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefinterface.ui" line="681"/>
         <source>&amp;Animated</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Animeeritud</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="690"/>
@@ -8060,7 +8060,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kiire heliradade vahetamine</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="318"/>
@@ -8070,7 +8070,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="355"/>
         <source>Fast audio track switching</source>
-        <translation type="unfinished"/>
+        <translation>Kiire heliradade vahetamine</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="366"/>
@@ -8484,7 +8484,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"/>
+        <translation>Laadi lisatud failide info automaatselt</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="173"/>
@@ -9640,7 +9640,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
         <source>&amp;Video info</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Video info</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
@@ -10347,7 +10347,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"/>
+        <translation>Tavaliselt on esimesed kaadrid tühjad, seega tasub mõni sekund video algusest vahele jätta. Selle valikuga määratakse, mitu sekundit jäetakse vahele.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>

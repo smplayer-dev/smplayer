@@ -403,7 +403,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1921"/>
         <source>&amp;Video</source>
-        <translation>&amp;Видео</translation>
+        <translation>В&amp;идео</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1922"/>
@@ -443,7 +443,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Список...</translation>
+        <translation>&amp;Плейлист...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1657"/>
@@ -737,7 +737,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1821"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Список</translation>
+        <translation>&amp;Плейлист</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2018"/>
@@ -784,7 +784,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="4183"/>
         <source>Playlists</source>
-        <translation>Список</translation>
+        <translation>Плейлисты</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4184"/>
@@ -1148,7 +1148,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1925"/>
         <source>Vie&amp;w</source>
-        <translation>О&amp;бзор</translation>
+        <translation>Ви&amp;д</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2001"/>
@@ -4566,12 +4566,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="244"/>
         <source>Shuffle playlist</source>
-        <translation>Перемешать список</translation>
+        <translation>Перемешать плейлист</translation>
     </message>
     <message>
         <location filename="../skingui/mediapanel.cpp" line="245"/>
         <source>Repeat playlist</source>
-        <translation>Повторять список</translation>
+        <translation>Повторять плейлист</translation>
     </message>
 </context>
 <context>
@@ -4637,7 +4637,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../multilineinputdialog.ui" line="19"/>
         <source>Enter the URL(s) to be added to the playlist. One per line.</source>
-        <translation>Введите ссылку(и) для добавления в список воспроизведения. По одной в строку.</translation>
+        <translation>Введите ссылку(и) для добавления в плейлист. По одной в строку.</translation>
     </message>
 </context>
 <context>
@@ -4670,12 +4670,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="190"/>
         <source>Next file in playlist</source>
-        <translation>Следующий файл списка</translation>
+        <translation>Следующий файл плейлиста</translation>
     </message>
     <message>
         <location filename="../skingui/playcontrol.cpp" line="191"/>
         <source>Previous file in playlist</source>
-        <translation>Предыдущий файл списка</translation>
+        <translation>Предыдущий файл плейлиста</translation>
     </message>
 </context>
 <context>
@@ -4704,7 +4704,7 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="1228"/>
         <location filename="../playlist.cpp" line="1264"/>
         <source>Playlists</source>
-        <translation>Списки</translation>
+        <translation>Плейлисты</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1226"/>
@@ -4738,7 +4738,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation>Безымянный список</translation>
+        <translation>Безымянный плейлист</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
@@ -4748,7 +4748,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>Загрузить список из &amp;сети Интернет...</translation>
+        <translation>Загрузить плейлист по &amp;Ссылке...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
@@ -4773,7 +4773,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1750"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
-        <translation>Введите имя, которое будет отображаться для этого файла в списке:</translation>
+        <translation>Введите имя, которое будет отображаться для этого файла в плейлисте:</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="623"/>
@@ -4783,7 +4783,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation>Загрузить список из сети Интернет</translation>
+        <translation>Загрузить плейлист по Ссылке</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4924,7 +4924,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="2180"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation>Невозможно загрузить этот список</translation>
+        <translation>Невозможно загрузить этот плейлист</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2180"/>
@@ -4944,12 +4944,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1307"/>
         <source>Playlist modified</source>
-        <translation>Список воспроизведения изменён</translation>
+        <translation>Плейлист изменён</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1308"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Есть несохранённые изменения, желаете сохранить список воспроизведения?</translation>
+        <translation>Есть несохранённые изменения, желаете сохранить плейлист?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1486"/>
@@ -5068,7 +5068,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
         <source>This option may be needed to play playlist files (m3u, pls...). However it can involve a security risk when playing internet sources because the way MPlayer parses and uses playlist files is not safe against maliciously constructed files.</source>
-        <translation>Данный параметр может быть необходим для воспроизведения списков (m3u, pls и др). Однако это представляет определённую угрозу, ввиду того, что MPlayer практически беззащитен при чтении и использовании различных списков из интернета.</translation>
+        <translation>Данный параметр может быть необходим для воспроизведения плейлистов (m3u, pls и др). Однако это представляет определённую угрозу, ввиду того, что MPlayer практически беззащитен при чтении и использовании различных плейлистов из интернета.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="490"/>
@@ -5163,7 +5163,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Если эта опция отмечена, SMPlayer сохранит отладочные сообщения в выводе SMPlayer (их можно увидеть в &lt;b&gt;Настройка -&gt; Смотреть отчёты -&gt; SMPlayer&lt;/b&gt;). Эта информация может быть полезна разработчикам, если вы нашли баг.</translation>
+        <translation>Если эта опция отмечена, SMPlayer сохранит отладочные сообщения в выводе SMPlayer (их можно увидеть в &lt;b&gt;Настройки -&gt; Смотреть отчёты -&gt; SMPlayer&lt;/b&gt;). Эта информация может быть полезна разработчикам, если вы нашли баг.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
@@ -5173,7 +5173,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Если выбрано, SMPlayer будет сохранять сообщения %1 (их можно просмотреть в &lt;b&gt;Инструменты -&gt; Смотреть отчёты -&gt; %1&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
+        <translation>Если выбрано, SMPlayer будет сохранять сообщения %1 (их можно просмотреть в &lt;b&gt;Настройки -&gt; Смотреть отчёты -&gt; %1&lt;/b&gt;). Отчёты могут содержать важную информацию о возникших проблемах, поэтому рекомендуется включить эту опцию.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
@@ -5955,7 +5955,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1056"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Если выбрано, то главное окно будет автоматически закрыто по окончании воспроизведения файла или списка.</translation>
+        <translation>Если выбрано, то главное окно будет автоматически закрыто по окончании воспроизведения файла или плейлиста.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="158"/>
@@ -6722,7 +6722,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="79"/>
         <source>Playlist</source>
-        <translation>Список</translation>
+        <translation>Плейлист</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
@@ -8344,12 +8344,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="34"/>
         <source>Playlist</source>
-        <translation>Список</translation>
+        <translation>Плейлист</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="177"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation>Если эта опция отмечена, каждый раз при открытии файла, SMPlayer будет первым делом очищать список и затем добавлять файл в него. Касательно DVD, CD и VCD, все заголовки на диске будут добавлены в список.</translation>
+        <translation>Если эта опция отмечена, каждый раз при открытии файла, SMPlayer будет первым делом очищать плейлист и затем добавлять файл в него. Касательно DVD, CD и VCD, все заголовки на диске будут добавлены в плейлист.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="46"/>
@@ -8379,12 +8379,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation>Начинать воспроизведение после загрузки списка</translation>
+        <translation>Начинать воспроизведение после загрузки плейлиста</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation>Воспроизведение начнётся только после загрузки списка.</translation>
+        <translation>Воспроизведение начнётся только после загрузки плейлиста.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
@@ -8404,7 +8404,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation>Добавить файлы в список автоматически</translation>
+        <translation>Добавить файлы в плейлист автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8429,17 +8429,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation>Этот параметр определяет является ли поиск в списке воспроизведения чувствительным к регистру или нет.</translation>
+        <translation>Этот параметр определяет является ли поиск в плейлисте чувствительным к регистру или нет.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation>Сохранять копию списка воспроизведения при выходе</translation>
+        <translation>Сохранять копию плейлиста при выходе</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation>Если эта опция отмечена, в файле конфигурации SMPlayer при закрытии будет сохранена копия списка воспроизведения, которая будет автоматически загружена при следующем запуске SMPlayer.</translation>
+        <translation>Если эта опция отмечена, в файле конфигурации SMPlayer при закрытии будет сохранена копия плейлиста, которая будет автоматически загружена при следующем запуске SMPlayer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8474,12 +8474,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="162"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation>Если эта опция отмечена, все файлы в списке будут начинаться с начала, вместо продолжения предыдущего воспроизведения.</translation>
+        <translation>Если эта опция отмечена, все файлы в плейлисте будут начинаться с начала, вместо продолжения предыдущего воспроизведения.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation>Данная опция может быть использована для добавления файлов в список воспроизведения автоматически:</translation>
+        <translation>Данная опция может быть использована для добавления файлов в плейлист автоматически:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8494,7 +8494,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
-        <translation>&amp;Список воспроизведения</translation>
+        <translation>&amp;Плейлист</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
@@ -8509,7 +8509,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation>Выберите эту опцию, чтобы извлечь из добавляемых в список файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
+        <translation>Выберите эту опцию, чтобы извлечь из добавляемых в плейлист файлов некоторую информацию. Это позволяет отображать имя (если доступно) и информацию о файлах. Иначе эта информация не будет доступна, пока файл не начнёт воспроизводиться. Будьте осторожны: эта опция может замедлить работу, особенно при большом количестве добавляемых файлов.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -8529,7 +8529,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>&amp;Начинать воспроизведение после загрузки списка</translation>
+        <translation>&amp;Начинать воспроизведение после загрузки плейлиста</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
@@ -8549,7 +8549,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation>&amp;Добавить файлы в список автоматически</translation>
+        <translation>&amp;Добавить файлы в плейлист автоматически</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8574,7 +8574,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation>Со&amp;хранять копию списка воспроизведения при выходе</translation>
+        <translation>Со&amp;хранять копию плейлиста при выходе</translation>
     </message>
 </context>
 <context>
@@ -9296,7 +9296,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>главное окно закроется по окончании файла/списка.</translation>
+        <translation>главное окно закроется по окончании файла/плейлиста.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="567"/>
@@ -9322,12 +9322,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation>Если уже запущен экземпляр программы ,то файлы мультимедиа будут добавлены в существующий список. Если же нет – опция будет проигнорирована и файлы будут открыты в новом экземпляре.</translation>
+        <translation>Если уже запущен экземпляр программы, то файлы мультимедиа будут добавлены в существующий плейлист. Если же нет – опция будет проигнорирована и файлы будут открыты в новом экземпляре.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation>главное окно не закроется по окончании файла/списка.</translation>
+        <translation>главное окно не закроется по окончании файла/плейлиста.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
@@ -9478,7 +9478,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный список в формате m3u или pls.</translation>
+        <translation>&apos;элемент&apos; – любой тип файла, который может открыть SMPlayer. Это может быть файл, DVD (напр. dvd://1), интернет-поток (напр. mms://....) или локальный плейлист в формате m3u или pls.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -10394,7 +10394,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="132"/>
         <source>Playlist</source>
-        <translation>Список</translation>
+        <translation>Плейлист</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
