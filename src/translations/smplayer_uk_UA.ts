@@ -4748,7 +4748,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation>Завантажити перелік з &amp;URL</translation>
+        <translation>Завантажити перелік з &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>

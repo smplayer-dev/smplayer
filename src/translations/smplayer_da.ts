@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation>Development version</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -34,7 +34,7 @@
     <message>
         <location filename="../about.cpp" line="169"/>
         <source>Click here to know the translators from the transifex teams</source>
-        <translation>Klik her for at se oversætterne fra Transifex teams</translation>
+        <translation>Klik her for at se oversætterne fra Transifex-teams</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="165"/>
@@ -840,7 +840,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="5020"/>
         <source>Error detected</source>
-        <translation>Fejl registeret</translation>
+        <translation>Fejl registreret</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5021"/>
@@ -2215,7 +2215,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../core.cpp" line="4386"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>Opdaterer skrifttype-cache. Dette kan tage nogle sekunder...</translation>
+        <translation>Opdaterer skrifttype-mellemlager. Dette kan tage nogle sekunder...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3315"/>
@@ -2388,12 +2388,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="694"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Redigér m&amp;inikontrolpanel</translation>
+        <translation>Rediger m&amp;inikontrolpanel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="695"/>
         <source>Edit &amp;floating control</source>
-        <translation>Redigér &amp;flydende panel</translation>
+        <translation>Rediger &amp;flydende panel</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="726"/>
@@ -2547,7 +2547,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation>&amp;Redigér...</translation>
+        <translation>&amp;Rediger...</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
@@ -3013,7 +3013,7 @@ Tjek rettighederne for den mappe.</translation>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation>Opret en font-cache...</translation>
+        <translation>Opret et skrifttype-mellemlager...</translation>
     </message>
 </context>
 <context>
@@ -4530,7 +4530,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Samplinghastighed:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
@@ -4545,12 +4545,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Udfyldning af mellemlager:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation>Brugt cache:</translation>
+        <translation>Brugt mellemlager:</translation>
     </message>
 </context>
 <context>
@@ -4592,12 +4592,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
-        <translation>Redigér &amp;kommandopanel</translation>
+        <translation>Rediger &amp;kommandopanel</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="176"/>
         <source>Edit &amp;floating control</source>
-        <translation>Redigér &amp;flydende kontrol</translation>
+        <translation>Rediger &amp;flydende kontrol</translation>
     </message>
 </context>
 <context>
@@ -4698,7 +4698,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="668"/>
         <source>&amp;Edit</source>
-        <translation>&amp;Redigér</translation>
+        <translation>&amp;Rediger</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1228"/>
@@ -4768,7 +4768,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1749"/>
         <source>Edit name</source>
-        <translation>Redigér navn</translation>
+        <translation>Rediger navn</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1750"/>
@@ -4949,7 +4949,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1308"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
-        <translation>Der er ikke-gemte ændringer, vil du gemme spillelisten?</translation>
+        <translation>Der er ugemte ændringer, vil du gemme spillelisten?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1486"/>
@@ -5088,7 +5088,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="509"/>
         <source>Options</source>
-        <translation>Indstillinger2</translation>
+        <translation>Indstillinger</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="513"/>
@@ -5544,7 +5544,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
         <source>&lt;b&gt;Note 1&lt;/b&gt;: cache will be disabled, this can affect performance.</source>
-        <translation>&lt;b&gt;Bemærkning 1&lt;/b&gt;: cache vil være deaktiveret. Dette kan påvirke ydelsen.</translation>
+        <translation>&lt;b&gt;Bemærkning 1&lt;/b&gt;: mellemlager vil være deaktiveret. Dette kan påvirke ydelsen.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
@@ -5564,7 +5564,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefdrives.ui" line="119"/>
         <source>&amp;Scan for CD/DVD drives</source>
-        <translation>&amp;Scan for CD-/DVD-drev</translation>
+        <translation>&amp;Skan for CD-/DVD-drev</translation>
     </message>
 </context>
 <context>
@@ -5649,7 +5649,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="988"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation>Indstillingen &quot;Anden&quot; giver dig mulighed for, manualt, at vælge stien til programfilen.</translation>
+        <translation>Indstillingen &quot;Anden&quot; giver dig mulighed for, manuelt, at vælge stien til programfilen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="991"/>
@@ -5719,7 +5719,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Hvis denne indstilling er slået til, tilføjes sorte kanter til billedet som standard på nyligt åbnede filer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1163"/>
@@ -5780,7 +5780,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1092"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Tilføj sorte kanter til undertekster som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1102"/>
@@ -6025,7 +6025,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1079"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation>Efterbehandling vil blive brugt som standard ved nyåbnede filer.</translation>
+        <translation>Efterbehandling vil blive brugt som standard på nyligt åbnede filer.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1242"/>
@@ -6095,7 +6095,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Tilføj sorte &amp;kanter til undertekster som standard</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6195,17 +6195,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>Draw video using slices</source>
-        <translation>Tegn video i stykker</translation>
+        <translation>Tegn video i dele</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1118"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation>Aktivér/deaktivér tegning af video i stykker/bånd á en højde på 16 pixels. Hvis deaktiveret tegnes hele billedet i én kørsel. Måske hurtigere eller langsommere afhængigt af grafikkort og tilgængelig cache. Det har kun virkning med libmpeg2 og libavcodec-codecs.</translation>
+        <translation>Aktivér/deaktivér tegning af video i dele/bånd á en højde på 16 pixels. Hvis deaktiveret tegnes hele billedet i én kørsel. Måske hurtigere eller langsommere afhængigt af grafikkort og tilgængelig mellemlager. Det har kun virkning med libmpeg2 og libavcodec-codecs.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
         <source>Dra&amp;w video using slices</source>
-        <translation>&amp;Tegn video i stykker</translation>
+        <translation>&amp;Tegn video i dele</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="276"/>
@@ -6264,7 +6264,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1051"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation>Hvis denne indstilling er slået til, vil filen blive pauset når hovedvinduet skjules. Når vinduet genskabes vil afspilning blive genoptaget.</translation>
+        <translation>Hvis denne indstilling er slået til, vil filen blive sat på pause når hovedvinduet skjules. Når vinduet genskabes vil afspilning blive genoptaget.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
@@ -6279,7 +6279,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1233"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du angive dit foretrukne sprog til undertekststrømme. Når et medie med flere undertekststrømme findes, vil SMPlayer prøve at bruge dit foretrukne sprog.&lt;br&gt;Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststreams, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Dette felt accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Her kan du angive dit foretrukne sprog til undertekststrømme. Når et medie med flere undertekststrømme findes, vil SMPlayer prøve at bruge dit foretrukne sprog.&lt;br&gt;Dette vil kun virke med medier som tilbyder information om sproget på lyd- og undertekststrømme, såsom DVD&apos;er eller mkv-filer.&lt;br&gt;Dette felt accepterer regulære udtryk. Eksempel: &lt;b&gt;es|esp|spa&lt;/b&gt; vil vælge sporet hvis det matcher &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; eller &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6410,7 +6410,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1140"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation>Denne indstilling slår pauseskærmen fra lige før afspilning af en fil påbegyndes og slår den til igen når afspilning er færdig. Hvis denne indstilling er slået til, vil pauseskærmen ikke fremkomme selv hvis der afspilles lydfiler eller når filen er pauset.</translation>
+        <translation>Denne indstilling slår pauseskærmen fra lige før afspilning af en fil påbegyndes og slår den til igen når afspilning er færdig. Hvis denne indstilling er slået til, vil pauseskærmen ikke fremkomme selv hvis der afspilles lydfiler eller når filen er sat på pause.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1146"/>
@@ -6510,17 +6510,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="416"/>
         <source>slower dive mode</source>
-        <translation>langsommere dive mode</translation>
+        <translation>langsommere dyk-tilstand</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="471"/>
         <source>uniaud mode</source>
-        <translation>uniaud mode</translation>
+        <translation>uniaud-tilstand</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="472"/>
         <source>dart mode</source>
-        <translation>dart tilstand</translation>
+        <translation>dart-tilstand</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -8020,7 +8020,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation>Anvendelse af cache kan forbedre ydelsen ved langsomme medier</translation>
+        <translation>Anvendelse af mellemlager kan forbedre ydelsen ved langsomme medier</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
@@ -8100,52 +8100,52 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="376"/>
         <source>Cache for files</source>
-        <translation>Cache til filer</translation>
+        <translation>Mellemlager til filer</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="377"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges til at præ-cache en fil.</translation>
+        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges til at præ-mellemlagring af en fil.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="380"/>
         <source>Cache for streams</source>
-        <translation>Cache til strømme</translation>
+        <translation>Mellemlager til strømme</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="381"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges til præ-cache af en URL.</translation>
+        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges til præ-mellemlagring af en URL.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="384"/>
         <source>Cache for DVDs</source>
-        <translation>Cache til DVD&apos;er</translation>
+        <translation>Mellemlager til DVD&apos;er</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges ved præ-caching af en dvd.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; søgning vil måske ikke virke korrekt (inklusiv skift af kapitel) ved brug af en cache til DVD&apos;er.</translation>
+        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges ved præ-mellemlagring af en dvd.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; søgning vil måske ikke virke korrekt (inklusiv skift af kapitel) ved brug af et mellemlager til DVD&apos;er.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
         <source>&amp;Cache</source>
-        <translation>&amp;Cache</translation>
+        <translation>&amp;Mellemlager</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="448"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation>Cache til &amp;DVD&apos;er:</translation>
+        <translation>Mellemlager til &amp;DVD&apos;er:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>
         <source>Cache for &amp;local files:</source>
-        <translation>Cache til &amp;lokale filer:</translation>
+        <translation>Mellemlager til &amp;lokale filer:</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="411"/>
         <source>Cache for &amp;streams:</source>
-        <translation>Cache til &amp;strømme:</translation>
+        <translation>Mellemlager til &amp;strømme:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="89"/>
@@ -8271,42 +8271,42 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="371"/>
         <source>Cache</source>
-        <translation>Cache</translation>
+        <translation>Mellemlager</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation>Typisk aktiverer denne indstilling cachen, når det er nødvendigt.</translation>
+        <translation>Typisk aktiverer denne indstilling mellemlageret, når det er nødvendigt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
         <source>Cache for audio CDs</source>
-        <translation>Cache til lyd-CD&apos;er</translation>
+        <translation>Mellemlager til lyd-CD&apos;er</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="390"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges til at præ-cache en lyd-CD.</translation>
+        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges til at præ-mellemlagring af en lyd-CD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Cache til &amp;lyd-CD&apos;er:</translation>
+        <translation>Mellemlager til &amp;lyd-CD&apos;er:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="393"/>
         <source>Cache for VCDs</source>
-        <translation>Cache til VCD&apos;er</translation>
+        <translation>Mellemlager til VCD&apos;er</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="394"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges ved præ-cache af en VCD.</translation>
+        <translation>Denne indstilling angiver hvor meget hukommelse (i KBytes) der skal bruges ved præ-mellemlagring af en VCD.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation>Cache til &amp;VCD&apos;er:</translation>
+        <translation>Mellemlager til &amp;VCD&apos;er:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="308"/>
@@ -8336,7 +8336,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="559"/>
         <source>Cache for &amp;TV:</source>
-        <translation>Cache til &amp;TV:</translation>
+        <translation>Mellemlager til &amp;TV:</translation>
     </message>
 </context>
 <context>
@@ -8394,7 +8394,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Når slutningen af en fil er nået, afspilles den næste fil automatisk.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
@@ -8419,7 +8419,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Hvis denne indstilling er slået til, sorteres listen automatisk efter tilføjelse af filer.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
@@ -8439,7 +8439,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Hvis indstillingen er slået til, gemmes en kopi af spillelisten i konfigurationsfilen når SMPlayer lukkes, og den genindlæses automatisk når SMPlayer køres igen.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8721,7 +8721,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="109"/>
         <source>Encoding</source>
-        <translation>Encoding</translation>
+        <translation>Tegnsæt</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
@@ -8756,7 +8756,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation>Hvis denne indstilling er slået til, vil Windows system skrifttyper være tilgængelige til undertekster. Der bliver oprettet en skrifttype-cache, hvilket kan tage noget tid.</translation>
+        <translation>Hvis denne indstilling er slået til, vil Windows system skrifttyper være tilgængelige til undertekster. Der bliver oprettet en skrifttype-mellemlager, hvilket kan tage noget tid.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
@@ -9034,7 +9034,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Denne indstilling angiver standard skrifttype skalering til SSA-/ASS-undertekster som vil blive brugt til nyåbnede filer.</translation>
+        <translation>Denne indstilling angiver standard skrifttype skalering til SSA-/ASS-undertekster som vil blive brugt til nyligt åbnede filer.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
@@ -9172,7 +9172,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation>Scan ~/.mplayer/channels.conf igen ved opstart</translation>
+        <translation>Skan ~/.mplayer/channels.conf igen ved opstart</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
@@ -9553,7 +9553,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../shortcutgetter.cpp" line="267"/>
         <source>Modify shortcut</source>
-        <translation>Redigér genvej</translation>
+        <translation>Rediger genvej</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="310"/>
@@ -9629,12 +9629,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>&amp;Redigér hovedværktøjslinje</translation>
+        <translation>&amp;Rediger hovedværktøjslinje</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation>&amp;Redigér flydende kontroller</translation>
+        <translation>&amp;Rediger flydende kontroller</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
@@ -9899,7 +9899,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="257"/>
         <source>Volume slider</source>
-        <translation>Lydstykeskyder</translation>
+        <translation>Lydstyrkeskyder</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="259"/>
