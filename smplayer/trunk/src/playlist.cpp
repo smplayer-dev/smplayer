@@ -223,6 +223,13 @@ QList<QStandardItem *> PLItem::items() {
 	return l;
 }
 
+void PLItem::setExtraParams(const QStringList & pars) {
+	setData(pars, Role_Params);
+}
+
+QStringList PLItem::extraParams() {
+	return data(Role_Params).toStringList();
+}
 
 /* ----------------------------------------------------------- */
 
@@ -801,7 +808,7 @@ void Playlist::changeItem(int row, const QString & filename, const QString name,
 }
 */
 
-void Playlist::addItem(QString filename, QString name, double duration) {
+void Playlist::addItem(QString filename, QString name, double duration, QStringList params) {
 	//qDebug() << "Playlist::addItem:" << filename;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -821,6 +828,7 @@ void Playlist::addItem(QString filename, QString name, double duration) {
 		}
 
 	PLItem * i = new PLItem(filename, name, duration);
+	i->setExtraParams(params);
 	i->setPosition(count()+1);
 	table->appendRow(i->items());
 
@@ -890,6 +898,7 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 		QString filename="";
 		QString name="";
 		double duration=0;
+		QStringList extra_params;
 
 		QTextStream stream( &f );
 
@@ -923,6 +932,12 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 				if (fields.count() >= 2) name = fields[1];
 			}
 			else
+			if (line.startsWith("#EXTVLCOPT:")) {
+				QString par = line.mid(11);
+				qDebug() << "Playlist::load_m3u: EXTVLCOPT:" << par;
+				extra_params << par;
+			}
+			else
 			if (line.startsWith("#")) {
 				// Comment
 				// Ignore
@@ -938,9 +953,11 @@ void Playlist::load_m3u(QString file, M3UFormat format) {
 					}
 				}
 				name.replace("&#44;", ",");
-				addItem( filename, name, duration );
+				//qDebug() << "Playlist::load_m3u: extra_params:" << extra_params;
+				addItem( filename, name, duration, extra_params );
 				name=""; 
 				duration = 0;
+				extra_params.clear();
 			}
 		}
 		f.close();
@@ -1085,6 +1102,13 @@ bool Playlist::save_m3u(QString file) {
 			stream << "#EXTINF:";
 			stream << i->duration() << ",";
 			stream << name << "\n";
+
+			// Save extra params
+			QStringList params = i->extraParams();
+			foreach(QString par, params) {
+				stream << "#EXTVLCOPT:" << par << "\n";
+			}
+
 			// Try to save the filename as relative instead of absolute
 			if (filename.startsWith( dir_path )) {
 				filename = filename.mid( dir_path.length() );
@@ -1966,6 +1990,7 @@ void Playlist::saveSettings() {
 			set->setValue( QString("item_%1_filename").arg(n), i->filename() );
 			set->setValue( QString("item_%1_duration").arg(n), i->duration() );
 			set->setValue( QString("item_%1_name").arg(n), i->name() );
+			set->setValue( QString("item_%1_params").arg(n), i->extraParams() );
 		}
 		set->endArray();
 		set->setValue( "current_item", findCurrentItem() );
@@ -2044,7 +2069,8 @@ void Playlist::loadSettings() {
 			filename = set->value( QString("item_%1_filename").arg(n), "" ).toString();
 			duration = set->value( QString("item_%1_duration").arg(n), -1 ).toDouble();
 			name = set->value( QString("item_%1_name").arg(n), "" ).toString();
-			addItem( filename, name, duration );
+			QStringList params = set->value( QString("item_%1_params").arg(n), QStringList()).toStringList();
+			addItem( filename, name, duration, params );
 		}
 		set->endArray();
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
