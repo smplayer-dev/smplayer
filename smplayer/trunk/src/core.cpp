@@ -2462,17 +2462,19 @@ void Core::startMplayer( QString file, double seek ) {
 	// Process extra params
 	qDebug() << "Core::startMplayer: extra_params:" << mdat.extra_params;
 	foreach(QString par, mdat.extra_params) {
-		QRegExp rx_ref("^http-referrer=(.*)");
-		QRegExp rx_agent("^http-user-agent=(.*)");
+		QRegExp rx_ref("^http-referrer=(.*)", Qt::CaseInsensitive);
+		QRegExp rx_agent("^http-user-agent=(.*)", Qt::CaseInsensitive);
 
 		if (rx_ref.indexIn(par) > -1) {
 			QString referrer = rx_ref.cap(1);
 			qDebug() << "Core::startMplayer: referrer:" << referrer;
+			proc->setOption("referrer", referrer);
 		}
 		else
 		if (rx_agent.indexIn(par) > -1) {
 			QString user_agent = rx_agent.cap(1);
 			qDebug() << "Core::startMplayer: user_agent:" << user_agent;
+			proc->setOption("user-agent", user_agent);
 		}
 	}
 
