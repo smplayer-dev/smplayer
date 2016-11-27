@@ -923,8 +923,8 @@ void Core::openTV(QString channel_id) {
 }
 #endif
 
-void Core::openStream(QString name) {
-	qDebug("Core::openStream: '%s'", name.toUtf8().data());
+void Core::openStream(QString name, QStringList params) {
+	qDebug() << "Core::openStream:" << name << "params:" << params;
 
 #ifdef YOUTUBE_SUPPORT
 	if (PREF_YT_ENABLED) {
@@ -957,6 +957,7 @@ void Core::openStream(QString name) {
 	mdat.reset();
 	mdat.filename = name;
 	mdat.type = TYPE_STREAM;
+	mdat.extra_params = params;
 
 	mset.reset();
 
@@ -2455,6 +2456,23 @@ void Core::startMplayer( QString file, double seek ) {
 		qDebug("Core::startMplayer: edl file: '%s'", edl_f.toUtf8().data());
 		if (!edl_f.isEmpty()) {
 			proc->setOption("edl", edl_f);
+		}
+	}
+
+	// Process extra params
+	qDebug() << "Core::startMplayer: extra_params:" << mdat.extra_params;
+	foreach(QString par, mdat.extra_params) {
+		QRegExp rx_ref("^http-referrer=(.*)");
+		QRegExp rx_agent("^http-user-agent=(.*)");
+
+		if (rx_ref.indexIn(par) > -1) {
+			QString referrer = rx_ref.cap(1);
+			qDebug() << "Core::startMplayer: referrer:" << referrer;
+		}
+		else
+		if (rx_agent.indexIn(par) > -1) {
+			QString user_agent = rx_agent.cap(1);
+			qDebug() << "Core::startMplayer: user_agent:" << user_agent;
 		}
 	}
 

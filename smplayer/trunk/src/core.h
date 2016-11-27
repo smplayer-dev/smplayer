@@ -72,7 +72,7 @@ public slots:
 	//! Generic open, with autodetection of type
 	void open(QString file, int seek=-1); 
 	void openFile(QString filename, int seek=-1);
-	void openStream(QString name);
+	void openStream(QString name, QStringList params = QStringList());
 	/*
 	void openDVD( bool from_folder, QString directory = "");
 	void openDVD(); // Plays title 1
