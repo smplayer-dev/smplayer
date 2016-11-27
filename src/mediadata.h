@@ -56,6 +56,8 @@ public:
 	QString filename;
 	double duration;
 
+	QStringList extra_params; // For streams
+
 	//Resolution of the video
 	int video_width;
 	int video_height;

@@ -1380,13 +1380,21 @@ void Playlist::playItem( int n ) {
 		return;
 	}
 
-	QString filename = itemFromProxy(n)->filename();
+	PLItem * i = itemFromProxy(n);
+	QString filename = i->filename();
+	QStringList params = i->extraParams();
+
 	if (!filename.isEmpty()) {
 		setCurrentItem(n);
-		if (play_files_from_start) {
-			emit requestToPlayFile(filename, 0);
+
+		if (!params.isEmpty()) {
+			emit requestToPlayStream(filename, params);
 		} else {
-			emit requestToPlayFile(filename);
+			if (play_files_from_start) {
+				emit requestToPlayFile(filename, 0);
+			} else {
+				emit requestToPlayFile(filename);
+			}
 		}
 	}
 }

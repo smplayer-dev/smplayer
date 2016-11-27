@@ -2438,6 +2438,9 @@ void BaseGui::createPlaylist() {
 	connect(playlist, SIGNAL(requestToPlayFile(const QString &, int)),
             core, SLOT(open(const QString &, int)));
 
+	connect(playlist, SIGNAL(requestToPlayStream(const QString &, QStringList)),
+            core, SLOT(openStream(const QString &, QStringList)));
+
 	connect(playlist, SIGNAL(requestToAddCurrentFile()), this, SLOT(addToPlaylistCurrentFile()));
 
 	connect( core, SIGNAL(mediaFinished()), playlist, SLOT(playNextAuto()), Qt::QueuedConnection );

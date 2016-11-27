@@ -208,6 +208,8 @@ public:
 
 signals:
 	void requestToPlayFile(const QString & filename, int seek = -1);
+	void requestToPlayStream(const QString & filename, QStringList params = QStringList());
+
 	void requestToAddCurrentFile();
 	void playlistEnded();
 	void visibilityChanged(bool visible);

@@ -34,11 +34,13 @@ void MediaData::reset() {
 	type = TYPE_UNKNOWN;
 	duration=0;
 
+	extra_params.clear();
+
 	novideo = false;
 
 	video_width=0;
-    video_height=0;
-    video_aspect= (double) 4/3;
+	video_height=0;
+	video_aspect= (double) 4/3;
 
 #if PROGRAM_SWITCH
 	programs.clear();
