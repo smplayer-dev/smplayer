@@ -44,6 +44,7 @@
 #include <QApplication>
 #include <QMimeData>
 #include <QDomDocument>
+#include <QDesktopServices>
 #include <QDebug>
 
 #if QT_VERSION >= 0x050000
@@ -498,6 +499,9 @@ void Playlist::createActions() {
 	copyURLAct = new MyAction(this, "pl_copy_url");
 	connect( copyURLAct, SIGNAL(triggered()), this, SLOT(copyURL()));
 
+	openFolderAct = new MyAction(this, "pl_open_folder");
+	connect( openFolderAct, SIGNAL(triggered()), this, SLOT(openFolder()));
+
 	showSearchAct = new MyAction(this, "pl_show_search", false);
 	showSearchAct->setCheckable(true);
 	connect(showSearchAct, SIGNAL(toggled(bool)), filter_edit, SLOT(setVisible(bool)));
@@ -621,6 +625,7 @@ void Playlist::createToolbar() {
 	popup->addAction(editAct);
 	popup->addAction(deleteSelectedFileFromDiskAct);
 	popup->addAction(copyURLAct);
+	popup->addAction(openFolderAct);
 	popup->addSeparator();
 	popup->addAction(showPositionColumnAct);
 	popup->addAction(showNameColumnAct);
@@ -670,6 +675,7 @@ void Playlist::retranslateStrings() {
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
 
 	copyURLAct->change( tr("&Copy file path/URL to clipboard") );
+	openFolderAct->change( tr("&Open source folder") );
 
 	showSearchAct->change(Images::icon("find"), tr("Search"));
 
@@ -1873,6 +1879,29 @@ void Playlist::copyURL() {
 	}
 
 	if (!text.isEmpty()) QApplication::clipboard()->setText(text);
+}
+
+void Playlist::openFolder() {
+	qDebug("Playlist::openFolder");
+
+	QModelIndex index = listView->currentIndex();
+	if (!index.isValid()) return;
+	QModelIndex s_index = proxy->mapToSource(index);
+	int current = s_index.row();
+	QString filename = itemData(current)->filename();
+
+	qDebug() << "Playlist::openFolder: filename:" << filename;
+
+	QFileInfo fi(filename);
+	if (fi.exists()) {
+		QString src_folder = fi.absolutePath();
+		QDesktopServices::openUrl(QUrl::fromLocalFile(src_folder));
+	} else {
+		// Stream
+		QUrl url(filename);
+		/* TO DO: do something better */
+		QDesktopServices::openUrl(url);
+	}
 }
 
 // Drag&drop
