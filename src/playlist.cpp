@@ -495,6 +495,9 @@ void Playlist::createActions() {
 	deleteSelectedFileFromDiskAct = new MyAction(this, "pl_delete_from_disk");
 	connect( deleteSelectedFileFromDiskAct, SIGNAL(triggered()), this, SLOT(deleteSelectedFileFromDisk()));
 
+	copyURLAct = new MyAction(this, "pl_copy_url");
+	connect( copyURLAct, SIGNAL(triggered()), this, SLOT(copyURL()));
+
 	showSearchAct = new MyAction(this, "pl_show_search", false);
 	showSearchAct->setCheckable(true);
 	connect(showSearchAct, SIGNAL(toggled(bool)), filter_edit, SLOT(setVisible(bool)));
@@ -617,6 +620,7 @@ void Playlist::createToolbar() {
 	popup->addAction(removeSelectedAct);
 	popup->addAction(editAct);
 	popup->addAction(deleteSelectedFileFromDiskAct);
+	popup->addAction(copyURLAct);
 	popup->addSeparator();
 	popup->addAction(showPositionColumnAct);
 	popup->addAction(showNameColumnAct);
@@ -664,6 +668,8 @@ void Playlist::retranslateStrings() {
 	removeAllAct->change( tr("Remove &all") );
 
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
+
+	copyURLAct->change( tr("&Copy file path/URL to clipboard") );
 
 	showSearchAct->change(Images::icon("find"), tr("Search"));
 
@@ -1843,6 +1849,30 @@ void Playlist::deleteSelectedFileFromDisk() {
 		QMessageBox::information(this, tr("Error deleting the file"),
 			tr("It's not possible to delete '%1' from the filesystem.").arg(filename));
 	}
+}
+
+void Playlist::copyURL() {
+	qDebug("Playlist::copyURL");
+
+	QModelIndexList indexes = listView->selectionModel()->selectedRows();
+	int count = indexes.count();
+
+	QString text;
+
+	for (int n = 0; n < count; n++) {
+		QModelIndex s_index = proxy->mapToSource(indexes.at(n));
+		int current = s_index.row();
+		text += itemData(current)->filename();
+		if (n < count-1) {
+			#ifdef Q_OS_WIN
+			text += "\r\n";
+			#else
+			text += "\n";
+			#endif
+		}
+	}
+
+	if (!text.isEmpty()) QApplication::clipboard()->setText(text);
 }
 
 // Drag&drop

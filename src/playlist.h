@@ -237,6 +237,8 @@ protected slots:
 	void editCurrentItem();
 	void editItem(int row);
 
+	void copyURL();
+
 	void saveSettings();
 	void loadSettings();
 
@@ -320,6 +322,8 @@ protected:
 	MyAction * removeAllAct;
 
 	MyAction * deleteSelectedFileFromDiskAct;
+
+	MyAction * copyURLAct;
 
 	MyAction * showPositionColumnAct;
 	MyAction * showNameColumnAct;
