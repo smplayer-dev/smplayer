@@ -57,7 +57,7 @@ ${LangFileString} Section_IconThemes "アイコン テーマ"
 ${LangFileString} Section_IconThemes_Desc "SMPlayer の追加アイコン テーマです。"
 
 ${LangFileString} Section_Translations "言語"
-${LangFileString} Section_Translations_Desc "SMPlayer の英語以外のの言語ファイルです。"
+${LangFileString} Section_Translations_Desc "SMPlayer の英語以外の言語ファイルです。"
 
 ${LangFileString} Section_ResetSettings_Desc "前のインストールから残っている SMPlayer の環境設定を削除します。"
 
