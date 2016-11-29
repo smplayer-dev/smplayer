@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-10-31 16:34+0000\n"
+"PO-Revision-Date: 2016-11-09 15:55+0000\n"
 "Last-Translator: samson <sambelet@yahoo.com>\n"
 "Language-Team: Amharic (http://www.transifex.com/rvm/smplayer/language/am/)\n"
 "MIME-Version: 1.0\n"
@@ -129,7 +129,7 @@ msgstr "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔ�
 
 # Section_MPV_Desc
 msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr ""
+msgstr "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
 
 # Section_MEncoder_Desc
 msgid ""
@@ -348,7 +348,7 @@ msgstr ""
 
 # YTDL_DL_Failed
 msgid "Failed to download youtube-dl: '$R0'."
-msgstr ""
+msgstr "ማውረድ አልተቻለም ከ youtube-dl: '$R0'."
 
 # YTDL_Update_Check
 msgid "Checking for youtube-dl updates..."

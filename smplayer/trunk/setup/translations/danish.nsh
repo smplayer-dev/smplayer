@@ -51,7 +51,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Yderligere codecs til MPlayer. (kr
 
 ${LangFileString} Section_MPV_Desc "En funktionsrig fork af MPlayer og MPlayer2"
 
-${LangFileString} Section_MEncoder_Desc "Et medfølgende program til MPlayer der kan bruges til at indkode eller transformere understøttede lyd- og videostrømme."
+${LangFileString} Section_MEncoder_Desc "Et medfølgende program til MPlayer der kan bruges til at kode eller transformere understøttede lyd- og videostrømme."
 
 ${LangFileString} Section_IconThemes "Ikon-temaer"
 ${LangFileString} Section_IconThemes_Desc "Yderligere ikon-temaer til SMPlayer."
@@ -80,7 +80,7 @@ ${LangFileString} Reinstall_Msg5 "Nulstil mine SMPlayer indstillinger"
 ${LangFileString} Remove_Settings_Confirmation "Er du sikker på, at du vil nulstille dine SMPlayer indstillinger? Denne handling kan ikke gøres om."
 
 ${LangFileString} Type_Reinstall "geninstallér"
-${LangFileString} Type_Downgrade "nedgrader"
+${LangFileString} Type_Downgrade "nedgradér"
 ${LangFileString} Type_Upgrade "opgrader"
 
 ${LangFileString} StartBtn "Start"
@@ -105,7 +105,7 @@ ${LangFileString} Application_Description "SMPlayer er en komplet front-end til 
 ${LangFileString} Info_Codecs_Backup "Foretager backup af codecs fra tidligere installation..."
 ${LangFileString} Info_Codecs_Restore "Gendanner codecs fra tidligere installation..."
 ${LangFileString} Info_Del_Files "Sletter filer..."
-${LangFileString} Info_Del_Registry "Sletter registreringsdatabasenøgler..."
+${LangFileString} Info_Del_Registry "Sletter nøgler i registreringsdatabase..."
 ${LangFileString} Info_Del_Shortcuts "Sletter genveje..."
 ${LangFileString} Info_Rest_Assoc "Gendanner filtilknytninger..."
 ${LangFileString} Info_RollBack "Gendanner ændringer..."
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Rydder op i fontconfig-cache..."
+${LangFileString} Info_Cleaning_Fontconfig "Rydder op i skrifttypekonfigurations-mellemlager..."
 ${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer indstillinger..."

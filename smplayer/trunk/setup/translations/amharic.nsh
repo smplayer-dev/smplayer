@@ -84,7 +84,7 @@ ${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in
 ${LangFileString} Section_MPlayerCodecs_Desc "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
 !endif
 
-${LangFileString} Section_MPV_Desc "A feature-rich fork of MPlayer && MPlayer2"
+${LangFileString} Section_MPV_Desc "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
 
 ${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
 
@@ -158,7 +158,7 @@ ${LangFileString} MPV_Inst_Failed "መግጠም አልተቻለም mpv."
 
 ; YouTube-DL
 ${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
+${LangFileString} YTDL_DL_Failed "ማውረድ አልተቻለም ከ youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
