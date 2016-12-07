@@ -502,6 +502,9 @@ void Playlist::createActions() {
 	openFolderAct = new MyAction(this, "pl_open_folder");
 	connect( openFolderAct, SIGNAL(triggered()), this, SLOT(openFolder()));
 
+	openURLInWebAct = new MyAction(this, "pl_open_folder");
+	connect( openURLInWebAct, SIGNAL(triggered()), this, SLOT(openURLInWeb()));
+
 	showSearchAct = new MyAction(this, "pl_show_search", false);
 	showSearchAct->setCheckable(true);
 	connect(showSearchAct, SIGNAL(toggled(bool)), filter_edit, SLOT(setVisible(bool)));
@@ -626,6 +629,7 @@ void Playlist::createToolbar() {
 	popup->addAction(deleteSelectedFileFromDiskAct);
 	popup->addAction(copyURLAct);
 	popup->addAction(openFolderAct);
+	popup->addAction(openURLInWebAct);
 	popup->addSeparator();
 	popup->addAction(showPositionColumnAct);
 	popup->addAction(showNameColumnAct);
@@ -676,6 +680,7 @@ void Playlist::retranslateStrings() {
 
 	copyURLAct->change( tr("&Copy file path to clipboard") );
 	openFolderAct->change( tr("&Open source folder") );
+	openURLInWebAct->change( tr("Open stream in web browser") );
 
 	showSearchAct->change(Images::icon("find"), tr("Search"));
 
@@ -1377,6 +1382,7 @@ void Playlist::showPopup(const QPoint & pos) {
 		deleteSelectedFileFromDiskAct->setEnabled(false);
 		copyURLAct->setEnabled(false);
 		openFolderAct->setEnabled(false);
+		openURLInWebAct->setEnabled(false);
 	} else {
 		playAct->setEnabled(true);
 		removeSelectedAct->setEnabled(true);
@@ -1384,6 +1390,7 @@ void Playlist::showPopup(const QPoint & pos) {
 		deleteSelectedFileFromDiskAct->setEnabled(true);
 		copyURLAct->setEnabled(true);
 		openFolderAct->setEnabled(true);
+		openURLInWebAct->setEnabled(true);
 
 		QModelIndex s_index = proxy->mapToSource(index);
 		int current = s_index.row();
@@ -1393,6 +1400,7 @@ void Playlist::showPopup(const QPoint & pos) {
 
 		if (fi.exists()) {
 			copyURLAct->setText( tr("&Copy file path to clipboard") );
+			openURLInWebAct->setEnabled(false);
 		} else {
 			copyURLAct->setText( tr("&Copy URL to clipboard") );
 			openFolderAct->setEnabled(false);
@@ -1927,17 +1935,28 @@ void Playlist::openFolder() {
 	if (fi.exists()) {
 		QString src_folder = fi.absolutePath();
 		QDesktopServices::openUrl(QUrl::fromLocalFile(src_folder));
-	} else {
-		// Stream
-		QUrl url(filename);
-		/* TO DO: do something better */
-		//QDesktopServices::openUrl(url);
-		/*
-		QDesktopServices::openUrl("https://chromecast.link#title=" + i->name() + 
-			",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
-			",content=" + filename);
-		*/
 	}
+}
+
+void Playlist::openURLInWeb() {
+	qDebug("Playlist::openURLInWeb");
+
+	QModelIndex index = listView->currentIndex();
+	if (!index.isValid()) return;
+	QModelIndex s_index = proxy->mapToSource(index);
+	int current = s_index.row();
+	PLItem * i = itemData(current);
+	QString filename = i->filename();
+
+	QUrl url(filename);
+
+	/* TO DO: do something better */
+	QDesktopServices::openUrl(url);
+	/*
+	QDesktopServices::openUrl("https://chromecast.link#title=" + i->name() + 
+		",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
+		",content=" + filename);
+	*/
 }
 
 // Drag&drop

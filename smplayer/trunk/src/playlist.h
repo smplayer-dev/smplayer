@@ -239,6 +239,7 @@ protected slots:
 
 	void copyURL();
 	void openFolder();
+	void openURLInWeb();
 
 	void saveSettings();
 	void loadSettings();
@@ -326,6 +327,7 @@ protected:
 
 	MyAction * copyURLAct;
 	MyAction * openFolderAct;
+	MyAction * openURLInWebAct;
 
 	MyAction * showPositionColumnAct;
 	MyAction * showNameColumnAct;
