@@ -674,7 +674,7 @@ void Playlist::retranslateStrings() {
 
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
 
-	copyURLAct->change( tr("&Copy file path/URL to clipboard") );
+	copyURLAct->change( tr("&Copy file path to clipboard") );
 	openFolderAct->change( tr("&Open source folder") );
 
 	showSearchAct->change(Images::icon("find"), tr("Search"));
@@ -1369,6 +1369,36 @@ void Playlist::itemActivated(const QModelIndex & index ) {
 void Playlist::showPopup(const QPoint & pos) {
 	qDebug("Playlist::showPopup: x: %d y: %d", pos.x(), pos.y() );
 
+	QModelIndex index = listView->currentIndex();
+	if (!index.isValid()) {
+		playAct->setEnabled(false);
+		removeSelectedAct->setEnabled(false);
+		editAct->setEnabled(false);
+		deleteSelectedFileFromDiskAct->setEnabled(false);
+		copyURLAct->setEnabled(false);
+		openFolderAct->setEnabled(false);
+	} else {
+		playAct->setEnabled(true);
+		removeSelectedAct->setEnabled(true);
+		editAct->setEnabled(true);
+		deleteSelectedFileFromDiskAct->setEnabled(true);
+		copyURLAct->setEnabled(true);
+		openFolderAct->setEnabled(true);
+
+		QModelIndex s_index = proxy->mapToSource(index);
+		int current = s_index.row();
+		PLItem * i = itemData(current);
+		QString filename = i->filename();
+		QFileInfo fi(filename);
+
+		if (fi.exists()) {
+			copyURLAct->setText( tr("&Copy file path to clipboard") );
+		} else {
+			copyURLAct->setText( tr("&Copy URL to clipboard") );
+			openFolderAct->setEnabled(false);
+		}
+	}
+
 	if (!popup->isVisible()) {
 		popup->move( listView->viewport()->mapToGlobal(pos) );
 		popup->show();
@@ -1902,9 +1932,11 @@ void Playlist::openFolder() {
 		QUrl url(filename);
 		/* TO DO: do something better */
 		//QDesktopServices::openUrl(url);
+		/*
 		QDesktopServices::openUrl("https://chromecast.link#title=" + i->name() + 
 			",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
 			",content=" + filename);
+		*/
 	}
 }
 
