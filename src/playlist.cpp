@@ -1888,7 +1888,8 @@ void Playlist::openFolder() {
 	if (!index.isValid()) return;
 	QModelIndex s_index = proxy->mapToSource(index);
 	int current = s_index.row();
-	QString filename = itemData(current)->filename();
+	PLItem * i = itemData(current);
+	QString filename = i->filename();
 
 	qDebug() << "Playlist::openFolder: filename:" << filename;
 
@@ -1900,7 +1901,10 @@ void Playlist::openFolder() {
 		// Stream
 		QUrl url(filename);
 		/* TO DO: do something better */
-		QDesktopServices::openUrl(url);
+		//QDesktopServices::openUrl(url);
+		QDesktopServices::openUrl("https://chromecast.link#title=" + i->name() + 
+			",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
+			",content=" + filename);
 	}
 }
 
