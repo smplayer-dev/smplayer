@@ -99,6 +99,7 @@ public:
 
 	QString stream_title;
 	QString stream_url;
+	QString stream_path; // From mpv
 
 
 	// Other data not really useful for us,

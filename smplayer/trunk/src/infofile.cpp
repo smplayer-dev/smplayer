@@ -84,6 +84,11 @@ QString InfoFile::getInfo(MediaData md) {
 	} else {
 		QString url = md.filename;
 		s += addItem( tr("URL"), url );
+		/*
+		if (!md.stream_path.isEmpty() && md.stream_path != url) {
+			s += addItem( tr("Video URL"), md.stream_path );
+		}
+		*/
 	}
 	s += addItem( tr("Length"), Helper::formatTime((int)md.duration) );
 	s += addItem( tr("Demuxer"), md.demuxer );

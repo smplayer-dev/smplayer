@@ -71,6 +71,7 @@ void MediaData::reset() {
 
 	stream_title = "";
 	stream_url = "";
+	stream_path = "";
 
 	// Other data
 	demuxer="";
