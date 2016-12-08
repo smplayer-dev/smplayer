@@ -60,7 +60,8 @@ void MPVProcess::setMedia(const QString & media, bool is_playlist) {
 			"METADATA_TRACK=${metadata/by-key/track:}\n"
 			"METADATA_COPYRIGHT=${metadata/by-key/copyright:}\n"
 
-			"INFO_MEDIA_TITLE=${=media-title:}\n";
+			"INFO_MEDIA_TITLE=${=media-title:}\n"
+			"INFO_STREAM_PATH=${stream-path}\n";
 
 #ifdef CUSTOM_STATUS
 	arg << "--term-status-msg=STATUS: ${=time-pos} / ${=duration:${=length:0}} P: ${=pause} B: ${=paused-for-cache} I: ${=core-idle}";
