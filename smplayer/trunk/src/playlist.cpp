@@ -232,6 +232,14 @@ QStringList PLItem::extraParams() {
 	return data(Role_Params).toStringList();
 }
 
+void PLItem::setVideoURL(const QString & url) {
+	setData(url, Role_Video_URL);
+}
+
+QString PLItem::videoURL() {
+	return data(Role_Video_URL).toString();
+}
+
 /* ----------------------------------------------------------- */
 
 
@@ -825,7 +833,7 @@ void Playlist::changeItem(int row, const QString & filename, const QString name,
 }
 */
 
-void Playlist::addItem(QString filename, QString name, double duration, QStringList params) {
+void Playlist::addItem(QString filename, QString name, double duration, QStringList params, QString video_url) {
 	//qDebug() << "Playlist::addItem:" << filename;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
@@ -846,6 +854,7 @@ void Playlist::addItem(QString filename, QString name, double duration, QStringL
 
 	PLItem * i = new PLItem(filename, name, duration);
 	i->setExtraParams(params);
+	i->setVideoURL(video_url);
 	i->setPosition(count()+1);
 	table->appendRow(i->items());
 
@@ -1512,6 +1521,7 @@ void Playlist::getMediaInfo(const MediaData & mdat) {
 	QString filename = mdat.filename;
 	double duration = mdat.duration;
 	QString artist = mdat.clip_artist;
+	QString video_url = mdat.stream_path;
 
 	#if defined(Q_OS_WIN) || defined(Q_OS_OS2)
 	filename = Helper::changeSlashes(filename);
@@ -1551,6 +1561,7 @@ void Playlist::getMediaInfo(const MediaData & mdat) {
 			if (i->duration() == 1) {
 				i->setDuration(duration);
 			}
+			i->setVideoURL(video_url);
 		}
 	}
 }
@@ -1947,8 +1958,10 @@ void Playlist::openURLInWeb() {
 	int current = s_index.row();
 	PLItem * i = itemData(current);
 	QString filename = i->filename();
+	QString video_url = i->videoURL();
 
 	QUrl url(filename);
+	if (!video_url.isEmpty()) url = QUrl(video_url);
 
 	/* TO DO: do something better */
 	QDesktopServices::openUrl(url);
@@ -2113,6 +2126,7 @@ void Playlist::saveSettings() {
 			set->setValue( QString("item_%1_duration").arg(n), i->duration() );
 			set->setValue( QString("item_%1_name").arg(n), i->name() );
 			set->setValue( QString("item_%1_params").arg(n), i->extraParams() );
+			set->setValue( QString("item_%1_video_url").arg(n), i->videoURL() );
 		}
 		set->endArray();
 		set->setValue( "current_item", findCurrentItem() );
@@ -2192,7 +2206,8 @@ void Playlist::loadSettings() {
 			duration = set->value( QString("item_%1_duration").arg(n), -1 ).toDouble();
 			name = set->value( QString("item_%1_name").arg(n), "" ).toString();
 			QStringList params = set->value( QString("item_%1_params").arg(n), QStringList()).toStringList();
-			addItem( filename, name, duration, params );
+			QString video_url = set->value( QString("item_%1_video_url").arg(n), "").toString();
+			addItem( filename, name, duration, params, video_url );
 		}
 		set->endArray();
 		setCurrentItem( set->value( "current_item", -1 ).toInt() );
