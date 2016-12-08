@@ -32,7 +32,8 @@
 
 class PLItem : public QStandardItem {
 public:
-	 enum PLItem_Roles { Role_Played = Qt::UserRole + 2, Role_Current = Qt::UserRole + 3, Role_Params = Qt::UserRole + 4 };
+	 enum PLItem_Roles { Role_Played = Qt::UserRole + 2, Role_Current = Qt::UserRole + 3, Role_Params = Qt::UserRole + 4,
+                         Role_Video_URL = Qt::UserRole + 5  };
 
 	PLItem();
 	PLItem(const QString filename, const QString name, double duration);
@@ -42,6 +43,7 @@ public:
 	void setName(const QString name);
 	void setDuration(double duration);
 	void setExtraParams(const QStringList & pars);
+	void setVideoURL(const QString & url);
 	void setPlayed(bool played);
 	void setPosition(int position);
 	void setCurrent(bool b);
@@ -50,6 +52,7 @@ public:
 	QString name();
 	double duration();
 	QStringList extraParams();
+	QString videoURL();
 	bool played();
 	int position();
 	bool isCurrent();
@@ -108,7 +111,7 @@ public:
 	*/
 
 public slots:
-	void addItem(QString filename, QString name, double duration, QStringList params = QStringList());
+	void addItem(QString filename, QString name, double duration, QStringList params = QStringList(), QString video_url = QString::null);
 
 	// Start playing, from item 0 if shuffle is off, or from
 	// a random item otherwise
