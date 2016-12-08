@@ -722,6 +722,10 @@ void MPVProcess::parseLine(QByteArray ba) {
 				}
 			}
 			else
+			if (tag == "INFO_STREAM_PATH") {
+				md.stream_path = value;
+			}
+			else
 			if (tag == "MPV_VERSION") {
 				mpv_version = value;
 				//qDebug("MPVProcess::parseLine: mpv version: %s", mpv_version.toUtf8().constData());
