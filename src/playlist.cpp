@@ -1960,15 +1960,15 @@ void Playlist::openURLInWeb() {
 	QString filename = i->filename();
 	QString video_url = i->videoURL();
 
-	QUrl url(filename);
-	if (!video_url.isEmpty()) url = QUrl(video_url);
+	QString url = filename;
+	if (!video_url.isEmpty()) url = video_url;
 
 	/* TO DO: do something better */
-	QDesktopServices::openUrl(url);
+	QDesktopServices::openUrl(QUrl(url));
 	/*
 	QDesktopServices::openUrl("https://chromecast.link#title=" + i->name() + 
 		",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
-		",content=" + filename);
+		",content=" + url.replace(",", "%2C"));
 	*/
 }
 
