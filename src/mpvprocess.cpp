@@ -723,7 +723,12 @@ void MPVProcess::parseLine(QByteArray ba) {
 			}
 			else
 			if (tag == "INFO_STREAM_PATH") {
-				md.stream_path = value;
+				QRegExp rx("edl://%\\d+%(.*)");
+				if (rx.indexIn(line) > -1) {
+					md.stream_path = rx.cap(1);
+				} else {
+					md.stream_path = value;
+				}
 			}
 			else
 			if (tag == "MPV_VERSION") {
