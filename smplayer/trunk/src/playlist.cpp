@@ -1970,6 +1970,11 @@ void Playlist::openURLInWeb() {
 		",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
 		",content=" + url.replace(",", "%2C"));
 	*/
+	/*
+	QDesktopServices::openUrl(".../?title=" + i->name() +
+		"&poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
+		"&url=" + url);
+	*/
 }
 
 // Drag&drop
