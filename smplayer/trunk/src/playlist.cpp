@@ -1972,8 +1972,8 @@ void Playlist::openURLInWeb() {
 	*/
 	/*
 	QDesktopServices::openUrl(".../?title=" + i->name() +
-		"&poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
-		"&url=" + url);
+		"&poster=" + QByteArray("http://smplayer.sourceforge.net/press/smplayer_icon256.png").toBase64() +
+		"&url=" + url.toLatin1().toBase64());
 	*/
 }
 
