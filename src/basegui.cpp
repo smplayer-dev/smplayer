@@ -260,7 +260,6 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	QTimer::singleShot(2000, this, SLOT(checkIfUpgraded()));
 #endif
 
-//#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
 #ifdef DONATE_REMINDER
 	QTimer::singleShot(1000, this, SLOT(checkReminder()));
 #endif
@@ -2325,9 +2324,9 @@ void BaseGui::createMplayerWindow() {
 #ifdef SHARE_WIDGET
 	sharewidget = new ShareWidget(Global::settings, mplayerwindow);
 	mplayerwindow->setCornerWidget(sharewidget);
-	#ifdef SHARE_ACTIONS
+	//#ifdef SHARE_ACTIONS
 	connect(sharewidget, SIGNAL(supportClicked()), this, SLOT(helpDonate()));
-	#endif
+	//#endif
 #endif
 
 	QVBoxLayout * layout = new QVBoxLayout;
@@ -4494,8 +4493,8 @@ void BaseGui::showHelpDonateDialog(bool * accepted) {
 	d.setIconPixmap(Images::icon("donate"));
 	d.setWindowTitle(tr("Help SMPlayer"));
 
-	QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);//->setDefault(true);
-	d.addButton(tr("No"), QMessageBox::NoRole);//->setDefault(false);
+	QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);
+	d.addButton(tr("No"), QMessageBox::NoRole);
 	d.setDefaultButton(ok_button);
 
 	d.setText("<h1>" + tr("SMPlayer needs you") + "</h1><p>" +
@@ -4959,7 +4958,7 @@ void BaseGui::checkReminder() {
 	if ((count != 25) && (count != 45)) return;
 #endif
 
-#ifdef SHARE_WIDGET
+#ifdef SHARE_ACTIONS
 	ShareDialog d(this);
 	//d.showRemindCheck(false);
 	d.exec();
