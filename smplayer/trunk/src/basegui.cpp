@@ -260,7 +260,8 @@ BaseGui::BaseGui( QWidget* parent, Qt::WindowFlags flags )
 	QTimer::singleShot(2000, this, SLOT(checkIfUpgraded()));
 #endif
 
-#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
+//#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
+#ifdef DONATE_REMINDER
 	QTimer::singleShot(1000, this, SLOT(checkReminder()));
 #endif
 
@@ -4483,6 +4484,11 @@ void BaseGui::helpDonate() {
 #else
 void BaseGui::helpDonate() {
 	qDebug("BaseGui::helpDonate");
+	showHelpDonateDialog();
+}
+
+void BaseGui::showHelpDonateDialog(bool * accepted) {
+	bool result = false;
 
 	QMessageBox d(this);
 	d.setIconPixmap(Images::icon("donate"));
@@ -4501,7 +4507,9 @@ void BaseGui::helpDonate() {
 	d.exec();
 	if (d.clickedButton() == ok_button) {
 		QDesktopServices::openUrl(QUrl(URL_DONATE));
+		result = true;
 	}
+	if (accepted != 0) *accepted = result;
 }
 #endif
 
@@ -4929,7 +4937,7 @@ void BaseGui::checkIfUpgraded() {
 }
 #endif
 
-#if defined(SHARE_ACTIONS) && !defined(SHARE_WIDGET)
+#ifdef DONATE_REMINDER
 void BaseGui::checkReminder() {
 	qDebug("BaseGui::checkReminder");
 
@@ -4951,6 +4959,7 @@ void BaseGui::checkReminder() {
 	if ((count != 25) && (count != 45)) return;
 #endif
 
+#ifdef SHARE_WIDGET
 	ShareDialog d(this);
 	//d.showRemindCheck(false);
 	d.exec();
@@ -4962,6 +4971,12 @@ void BaseGui::checkReminder() {
 		set->setValue("dont_show_anymore", true);
 		set->endGroup();
 	}
+#else
+	action = 0;
+	bool accepted;
+	showHelpDonateDialog(&accepted);
+	if (accepted) action = 1;
+#endif
 
 	if (action > 0) {
 		set->beginGroup("reminder");
