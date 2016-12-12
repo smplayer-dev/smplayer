@@ -48,8 +48,8 @@ DEFINES += MPLAYER2_SUPPORT
 # AT RISK THE CONTINUATION OF THIS PROJECT
 # Please don't.
 
-DEFINES += SHARE_ACTIONS
-DEFINES += SHARE_WIDGET
+#DEFINES += SHARE_ACTIONS
+#DEFINES += SHARE_WIDGET
 
 # If Qt >= 5.4
 greaterThan(QT_MAJOR_VERSION, 4):greaterThan(QT_MINOR_VERSION, 3) {
@@ -513,14 +513,14 @@ contains( DEFINES, VIDEOPREVIEW ) {
 }
 
 
-!contains(DEFINES, SHARE_ACTIONS) | !contains(DEFINES, SHARE_WIDGET) {
-	message("Note to distro maintainers:")
-	message("By disabling SHARE_ACTIONS or SHARE_WIDGET")
-	message("you're preventing SMPlayer to receive donations and thus")
-	message("SERIOUSLY HURTING THE DEVELOPMENT AND PUTTING")
-	message("AT RISK THE CONTINUATION OF THIS PROJECT")
-	message("Please don't.")
-}
+#!contains(DEFINES, SHARE_ACTIONS) | !contains(DEFINES, SHARE_WIDGET) {
+#	message("Note to distro maintainers:")
+#	message("By disabling SHARE_ACTIONS or SHARE_WIDGET")
+#	message("you're preventing SMPlayer to receive donations and thus")
+#	message("SERIOUSLY HURTING THE DEVELOPMENT AND PUTTING")
+#	message("AT RISK THE CONTINUATION OF THIS PROJECT")
+#	message("Please don't.")
+#}
 
 contains( DEFINES, SHARE_ACTIONS ) {
 	HEADERS += sharedialog.h
