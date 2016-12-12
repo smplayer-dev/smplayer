@@ -125,9 +125,7 @@ public slots:
 	virtual void helpFAQ();
 	virtual void helpCLOptions();
 	virtual void helpCheckUpdates();
-#ifdef SHARE_ACTIONS
 	virtual void helpDonate();
-#endif
 	virtual void helpShowConfig();
 	virtual void helpAbout();
 
@@ -569,9 +567,7 @@ protected:
 	MyAction * updateYTAct;
 #endif
 	MyAction * showConfigAct;
-#ifdef SHARE_ACTIONS
 	MyAction * donateAct;
-#endif
 	MyAction * aboutThisAct;
 
 #ifdef SHARE_MENU

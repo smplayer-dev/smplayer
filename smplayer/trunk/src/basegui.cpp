@@ -906,11 +906,9 @@ void BaseGui::createActions() {
 	connect( showConfigAct, SIGNAL(triggered()),
              this, SLOT(helpShowConfig()) );
 
-#ifdef SHARE_ACTIONS
 	donateAct = new MyAction( this, "donate" );
 	connect( donateAct, SIGNAL(triggered()),
              this, SLOT(helpDonate()) );
-#endif
 
 	aboutThisAct = new MyAction( this, "about_smplayer" );
 	connect( aboutThisAct, SIGNAL(triggered()),
@@ -1847,6 +1845,8 @@ void BaseGui::retranslateStrings() {
 	showConfigAct->change( Images::icon("show_config"), tr("&Open configuration folder") );
 #ifdef SHARE_ACTIONS
 	donateAct->change( Images::icon("donate"), tr("&Donate / Share with your friends") );
+#else
+	donateAct->change( Images::icon("donate"), tr("&Donate") );
 #endif
 	aboutThisAct->change( Images::icon("logo"), tr("About &SMPlayer") );
 
@@ -2993,10 +2993,8 @@ void BaseGui::populateMainMenu() {
 		helpMenu->addAction(showConfigAct);
 		helpMenu->addSeparator();
 	}
-	#ifdef SHARE_ACTIONS
 	helpMenu->addAction(donateAct);
 	helpMenu->addSeparator();
-	#endif
 	helpMenu->addAction(aboutThisAct);
 
 	// Access menu
@@ -4480,6 +4478,29 @@ void BaseGui::helpDonate() {
 		set->setValue("action", action);
 		set->endGroup();
 		#endif
+	}
+}
+#else
+void BaseGui::helpDonate() {
+	qDebug("BaseGui::helpDonate");
+
+	QMessageBox d(this);
+	d.setIconPixmap(Images::icon("donate"));
+	d.setWindowTitle(tr("Help SMPlayer"));
+
+	QPushButton * ok_button = d.addButton(tr("Donate"), QMessageBox::YesRole);//->setDefault(true);
+	d.addButton(tr("No"), QMessageBox::NoRole);//->setDefault(false);
+	d.setDefaultButton(ok_button);
+
+	d.setText("<h1>" + tr("SMPlayer needs you") + "</h1><p>" +
+		tr("SMPlayer is free software. However the development requires a lot of time and a lot of work.") + "<p>" +
+		tr("In order to keep developing SMPlayer with new features we need your help.") + "<p>" +
+		tr("Please consider to contribute to the SMPlayer project by sending a donation.") + " " +
+		tr("Even the smallest amount will help a lot.")
+	);
+	d.exec();
+	if (d.clickedButton() == ok_button) {
+		QDesktopServices::openUrl(QUrl(URL_DONATE));
 	}
 }
 #endif
