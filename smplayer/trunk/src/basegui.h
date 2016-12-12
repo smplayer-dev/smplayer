@@ -73,12 +73,14 @@ class UpdateChecker;
 class ShareWidget;
 #endif
 
+#ifndef SHARE_WIDGET
 #define DONATE_REMINDER
+#endif
 
 class BaseGui : public QMainWindow
 {
-    Q_OBJECT
-    
+	Q_OBJECT
+
 public:
 	BaseGui( QWidget* parent = 0, Qt::WindowFlags flags = 0 );
 	~BaseGui();
@@ -128,7 +130,7 @@ public slots:
 	virtual void helpCLOptions();
 	virtual void helpCheckUpdates();
 	virtual void helpDonate();
-#ifndef SHARE_WIDGET
+#ifndef SHARE_ACTIONS
 	void showHelpDonateDialog(bool * accepted = 0);
 #endif
 	virtual void helpShowConfig();
