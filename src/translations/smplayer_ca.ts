@@ -265,7 +265,7 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
         <source>&amp;Set as default values</source>
-        <translation type="unfinished"/>
+        <translation>E&amp;stableix com a valors per defecte</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
@@ -370,12 +370,12 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="235"/>
         <source>Use the current values as default values for new videos.</source>
-        <translation type="unfinished"/>
+        <translation>Usa els valors actuals pels vídeos nous.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="237"/>
         <source>Set all controls to zero.</source>
-        <translation type="unfinished"/>
+        <translation>Estableix tots els controls a zero.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="252"/>
@@ -845,7 +845,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="5021"/>
         <source>Unfortunately this video can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation>Desafortunadament no es pot reproduir aquest vídeo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5251"/>
@@ -992,7 +992,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation type="unfinished"/>
+        <translation>Generador d&apos;imatges en miniatura</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
@@ -1138,12 +1138,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Mostra la informació a l&apos;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
         <source>Show playback time on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Mostra el temps de reproducció a l&apos;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1925"/>
@@ -1164,7 +1164,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../basegui.cpp" line="2027"/>
         <source>&amp;Off</source>
         <comment>denoise menu</comment>
-        <translation type="unfinished"/>
+        <translation>&amp;Inactiu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2028"/>
@@ -1182,7 +1182,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../basegui.cpp" line="2031"/>
         <source>&amp;None</source>
         <comment>unsharp menu</comment>
-        <translation type="unfinished"/>
+        <translation>Se&amp;nse</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2032"/>
@@ -1264,12 +1264,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="2121"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Marcador previ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2122"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"/>
+        <translation>Marcador següent</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2151"/>
@@ -1284,17 +1284,17 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="4955"/>
         <source>Connection failed</source>
-        <translation type="unfinished"/>
+        <translation>La connexió ha fallat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4956"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation type="unfinished"/>
+        <translation>El vídeo que heu sol·licitat requereix que s&apos;obri una connexió HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4957"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation type="unfinished"/>
+        <translation>Desafortunadament, el component OpenSSL, que es requereix per això, no està disponible al sistema.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4958"/>
@@ -1309,13 +1309,13 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="4969"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation>Desafortunadament, a causa de canvis a YouTube, no es pot reproduir aquest vídeo.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4976"/>
         <location filename="../basegui.cpp" line="4984"/>
         <source>Problems with Youtube</source>
-        <translation type="unfinished"/>
+        <translation>Problemes amb YouTube</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5944"/>
@@ -1326,7 +1326,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="5945"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"/>
+        <translation>%1 ha acabat inesperadament.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5970"/>
@@ -1351,12 +1351,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="5999"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation type="unfinished"/>
+        <translation>Si us plau, comproveu el camí de %1 a preferències.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6001"/>
         <source>%1 has crashed.</source>
-        <translation type="unfinished"/>
+        <translation>%1 ha fallat.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6083"/>
@@ -1397,7 +1397,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="4972"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation type="unfinished"/>
+        <translation>Desafortunadament, a causa de canvis a YouTube, no es pot reproduir el vídeo &apos;%1&apos;.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4978"/>

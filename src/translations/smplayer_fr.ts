@@ -9,7 +9,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"/>
+        <translation>Version de développement</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -1138,7 +1138,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Afficher les &amp;informations dans l&apos;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1274,7 +1274,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="2151"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu d&apos;accès rapide</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2957"/>
@@ -1331,17 +1331,17 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="5970"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"/>
+        <translation>Le composant youtube-dl n&apos;a pas pu démarrer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5971"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>Installer le package redistribuable Microsoft Visual C++ 2010 (x86) pourrait corriger le problème.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5973"/>
         <source>Click here to get it</source>
-        <translation type="unfinished"/>
+        <translation>Cliquer ici pour l&apos;obtenir</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5998"/>
@@ -2003,7 +2003,7 @@ Information concernant les écrans connectés</translation>
         <location filename="../baseguiplus.cpp" line="799"/>
         <location filename="../baseguiplus.cpp" line="833"/>
         <source>Information for screen %1</source>
-        <translation type="unfinished"/>
+        <translation>Informations pour l&apos;écran %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="801"/>
@@ -2085,7 +2085,7 @@ Information concernant les écrans connectés</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation>Périphérique audio par &amp;défaut</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -2349,7 +2349,7 @@ Information concernant les écrans connectés</translation>
     <message>
         <location filename="../defaultgui.cpp" line="689"/>
         <source>F&amp;ormat info</source>
-        <translation type="unfinished"/>
+        <translation>Info f&amp;ormat</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="712"/>
@@ -4480,78 +4480,78 @@ Voulez-vous le remplacer ?</translation>
     <message>
         <location filename="../mpvprocess.h" line="155"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"/>
+        <translation>le filtre &quot;%1&quot; n&apos;est pas pris en charge par mpv</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Fichier :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Vidéo :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Résolution :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Images par seconde :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>Estimation :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>Aspect ratio :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"/>
+        <translation>Débit binaire :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"/>
+        <translation>Images non lues :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Audio :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"/>
+        <translation>Fréquence d&apos;échantillonnage :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Canaux :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"/>
+        <translation>Synchronisation audio/vidéo :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"/>
+        <translation>Remplissage du cache :</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Used cache:</source>
-        <translation type="unfinished"/>
+        <translation>Cache utilisé :</translation>
     </message>
 </context>
 <context>
@@ -4739,22 +4739,22 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlist.cpp" line="335"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"/>
+        <translation>Liste de lecture sans titre</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="625"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Charger...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="627"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"/>
+        <translation>Charger une liste de lecture à partir d&apos;une &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Load/Save</source>
-        <translation type="unfinished"/>
+        <translation>Charger/Sauvegarder</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1484"/>
@@ -4779,12 +4779,12 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlist.cpp" line="623"/>
         <source>Filename / URL</source>
-        <translation type="unfinished"/>
+        <translation>Nom de fichier / URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="628"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>Télécharger une liste de lecture à partir d&apos;une URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="630"/>
@@ -4865,7 +4865,7 @@ Voulez vous l&apos;écraser?</translation>
         <location filename="../playlist.cpp" line="660"/>
         <location filename="../playlist.cpp" line="680"/>
         <source>Search</source>
-        <translation type="unfinished"/>
+        <translation>Rechercher</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="662"/>
@@ -4925,12 +4925,12 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlist.cpp" line="2180"/>
         <source>It&apos;s not possible to load this playlist</source>
-        <translation type="unfinished"/>
+        <translation>Impossible de charger cette liste de lecture</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="2180"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Format non reconnu.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="674"/>
@@ -5666,7 +5666,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1007"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>Se rappeler de la configuration pour les flux</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1008"/>
@@ -7817,7 +7817,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="175"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>essaiera d&apos;utiliser mpv + youtube-dl uniquement pour les sites qui en ont besoin</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="194"/>
@@ -8383,32 +8383,32 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="166"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation>Commencer à lire après le chargement d&apos;une liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="167"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation>La lecture commencera juste après le chargement d&apos;une liste.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Lire le fichier suivant automatiquement</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Lorsque la fin d&apos;un fichier est atteinte, le fichier suivant est lu automatiquement.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Ignorer les erreurs de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Ajouter automatiquement les fichiers à la liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="182"/>
@@ -8418,32 +8418,32 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="203"/>
         <source>Auto sort</source>
-        <translation type="unfinished"/>
+        <translation>Tri automatique</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="204"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Si cette option est activée, la liste sera triée automatiquement après l&apos;ajout de fichiers.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Recherche sensible à la casse</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Cette option indique si la recherche dans la liste de lecture est sensible ou non à la casse.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="209"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>Sauvegarder la liste de lecture en quittant</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
+        <translation>Si cette option est activée, la liste de lecture sera sauvegardée dans la configuration en quittant SMPlayer, elle sera restaurée automatiquement quand SMPlayer sera exécuté à nouveau.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
@@ -8483,7 +8483,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Cette option peut-être utilisée afin d&apos;ajouter des fichiers automatiquement à la liste de lecture :</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8528,7 +8528,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation>Lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
@@ -8543,17 +8543,17 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Ig&amp;norer les erreurs de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>Ajout de fichiers</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ajouter automatiquement les fichiers à la liste de lecture</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8568,17 +8568,17 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>Tri a&amp;utomatique</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Recherche sensible à la cass&amp;e</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Sauvegarder la liste de lecture en quittant</translation>
     </message>
 </context>
 <context>
@@ -9938,7 +9938,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>Menu d&apos;accès rapide</translation>
     </message>
 </context>
 <context>
@@ -10001,7 +10001,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
         <source>Congratulations, SMPlayer is up to date.</source>
-        <translation>Félicitatio, SMPlayer est à jour.</translation>
+        <translation>Félicitations, SMPlayer est à jour.</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="221"/>
