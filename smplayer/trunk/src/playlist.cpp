@@ -1966,13 +1966,8 @@ void Playlist::openURLInWeb() {
 	/* TO DO: do something better */
 	QDesktopServices::openUrl(QUrl(url));
 	/*
-	QDesktopServices::openUrl("https://chromecast.link#title=" + i->name() + 
-		",poster=http://smplayer.sourceforge.net/press/smplayer_icon256.png" +
-		",content=" + url.replace(",", "%2C"));
-	*/
-	/*
 	QDesktopServices::openUrl(QUrl(".../?title=" + i->name().toUtf8().toBase64() +
-		"&url=" + url.toLatin1().toBase64()));
+		"&url=" + url.toUtf8().toBase64()));
 	*/
 }
 
