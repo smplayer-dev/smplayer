@@ -115,7 +115,7 @@ bool MPVProcess::start() {
 }
 
 #ifdef CUSTOM_STATUS
-static QRegExp rx_mpv_av("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no)");
+static QRegExp rx_mpv_av("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
 #else
 static QRegExp rx_mpv_av("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
 #endif
@@ -165,7 +165,7 @@ static QRegExp rx_mpv_stream_title("icy-title: (.*)");
 static QRegExp rx_mpv_debug("^(INFO|METADATA)_.*=\\$.*");
 
 void MPVProcess::parseLine(QByteArray ba) {
-	//qDebug("MPVProcess::parseLine: '%s'", ba.data() );
+	//qDebug() << "MPVProcess::parseLine:" << ba;
 
 	if (ba.isEmpty()) return;
 
@@ -203,6 +203,8 @@ void MPVProcess::parseLine(QByteArray ba) {
 		bool paused = (rx_mpv_av.cap(3) == "yes");
 		bool buffering = (rx_mpv_av.cap(4) == "yes");
 		bool idle = (rx_mpv_av.cap(5) == "yes");
+		int video_bitrate = rx_mpv_av.cap(6).toInt();
+		int audio_bitrate = rx_mpv_av.cap(7).toInt();
 
 		if (length != md.duration) {
 			md.duration = length;
@@ -239,6 +241,15 @@ void MPVProcess::parseLine(QByteArray ba) {
 			return;
 		}
 		notified_pause = false;
+
+		if (video_bitrate != md.video_bitrate) {
+			md.video_bitrate = video_bitrate;
+			emit receivedVideoBitrate(video_bitrate);
+		}
+		if (audio_bitrate != md.audio_bitrate) {
+			md.audio_bitrate = audio_bitrate;
+			emit receivedAudioBitrate(audio_bitrate);
+		}
 
 		#else
 
@@ -361,7 +372,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 			notified_mplayer_is_running = true;
 
 			// Wait some secs to ask for bitrate
+			/*
 			QTimer::singleShot(12000, this, SLOT(requestBitrateInfo()));
+			*/
 		}
 
 		emit receivedCurrentSec( sec );
@@ -757,10 +770,12 @@ void MPVProcess::requestChapterInfo() {
 	writeToStdin("print_text \"INFO_CHAPTERS=${=chapters}\"");
 }
 
+/*
 void MPVProcess::requestBitrateInfo() {
 	writeToStdin("print_text INFO_VIDEO_BITRATE=${=video-bitrate}");
 	writeToStdin("print_text INFO_AUDIO_BITRATE=${=audio-bitrate}");
 }
+*/
 
 #if NOTIFY_AUDIO_CHANGES
 void MPVProcess::updateAudioTrack(int ID, const QString & name, const QString & lang) {

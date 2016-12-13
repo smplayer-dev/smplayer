@@ -134,7 +134,7 @@ protected slots:
 	void processFinished(int exitCode, QProcess::ExitStatus exitStatus);
 	void gotError(QProcess::ProcessError);
 	void requestChapterInfo();
-	void requestBitrateInfo();
+	/* void requestBitrateInfo(); */
 
 #ifdef OSD_WITH_TIMER
 	void displayInfoOnOSD();
