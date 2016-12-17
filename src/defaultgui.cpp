@@ -758,6 +758,9 @@ void DefaultGui::updateWidgets() {
 
 	BaseGuiPlus::updateWidgets();
 
+	viewFrameCounterAct->setEnabled((PlayerID::player(pref->mplayer_bin) == PlayerID::MPLAYER));
+	viewBitrateInfoAct->setEnabled((PlayerID::player(pref->mplayer_bin) == PlayerID::MPV));
+
 	panel->setFocus();
 }
 
