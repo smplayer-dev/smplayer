@@ -61,7 +61,7 @@ QString Helper::dvdForPref(const QString & dvd_id, int title) {
 
 QString Helper::formatTime(int secs) {
 	bool negative = (secs < 0);
-	secs = abs(secs);
+	secs = qAbs(secs);
 
 	int t = secs;
 	int hours = (int) t / 3600;
@@ -73,6 +73,22 @@ QString Helper::formatTime(int secs) {
 	//qDebug() << "Helper::formatTime:" << hours << ":" << minutes << ":" << seconds;
 
 	return QString("%1%2:%3:%4").arg(negative ? "-" : "").arg(hours, 2, 10, QChar('0')).arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0'));
+}
+
+QString Helper::formatTime2(double secs) {
+	bool negative = (secs < 0);
+	secs = qAbs(secs);
+
+	double t = secs;
+	int hours = (int) t / 3600;
+	t -= hours*3600;
+	int minutes = (int) t / 60;
+	t -= minutes*60;
+	int seconds = t;
+	t -= seconds;
+	int cents = t*100;
+
+	return QString("%1%2:%3:%4.%5").arg(negative ? "-" : "").arg(hours, 2, 10, QChar('0')).arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0')).arg(cents, 2, 10, QChar('0'));
 }
 
 QString Helper::timeForJumps(int secs) {
