@@ -513,15 +513,6 @@ contains( DEFINES, VIDEOPREVIEW ) {
 }
 
 
-#!contains(DEFINES, SHARE_ACTIONS) | !contains(DEFINES, SHARE_WIDGET) {
-#	message("Note to distro maintainers:")
-#	message("By disabling SHARE_ACTIONS or SHARE_WIDGET")
-#	message("you're preventing SMPlayer to receive donations and thus")
-#	message("SERIOUSLY HURTING THE DEVELOPMENT AND PUTTING")
-#	message("AT RISK THE CONTINUATION OF THIS PROJECT")
-#	message("Please don't.")
-#}
-
 contains( DEFINES, SHARE_ACTIONS ) {
 	HEADERS += sharedialog.h
 	SOURCES += sharedialog.cpp
