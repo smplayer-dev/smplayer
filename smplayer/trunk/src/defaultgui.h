@@ -94,6 +94,7 @@ protected slots:
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
+	virtual void displayBitrateInfo(int vbitrate, int abitrate);
 	void checkCompactMode();
 #ifdef ADD_QUICK_ACCESS
 	void adaptForTabletMode();
@@ -117,6 +118,7 @@ protected:
 	QLabel * ab_section_display;
 	QLabel * video_info_display;
 	QLabel * format_info_display;
+	QLabel * bitrate_info_display;
 #ifdef BUFFERING_ANIMATION
 	StateWidget * state_widget;
 #endif
@@ -149,6 +151,7 @@ protected:
 	MyAction * viewFrameCounterAct;
 	MyAction * viewVideoInfoAct;
 	MyAction * viewFormatInfoAct;
+	MyAction * viewBitrateInfoAct;
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;

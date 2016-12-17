@@ -498,6 +498,7 @@ signals:
 	void newDuration(double); // Duration has changed
 	void showFrame(int frame);
 	void ABMarkersChanged(int secs_a, int secs_b);
+	void bitrateChanged(int vbitrate, int abitrate);
 	void needResize(int w, int h);
 	void noVideo();
 	void volumeChanged(int);

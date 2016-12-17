@@ -69,6 +69,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
              this, SLOT(displayABSection(int,int)) );
 	connect( this, SIGNAL(videoInfoChanged(int,int,double)),
              this, SLOT(displayVideoInfo(int,int,double)) );
+	connect( core, SIGNAL(bitrateChanged(int,int)), this, SLOT(displayBitrateInfo(int,int)) );
 
 	createActions();
 	createMainToolBars();
@@ -187,6 +188,11 @@ void DefaultGui::createActions() {
 	connect( viewFormatInfoAct, SIGNAL(toggled(bool)),
              format_info_display, SLOT(setVisible(bool)) );
 
+	viewBitrateInfoAct = new MyAction( this, "toggle_bitrate_info" );
+	viewBitrateInfoAct->setCheckable( true );
+	connect( viewBitrateInfoAct, SIGNAL(toggled(bool)),
+             bitrate_info_display, SLOT(setVisible(bool)) );
+
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act = new MyAction( this, "edit_main_toolbar" );
 	editControl1Act = new MyAction( this, "edit_control1" );
@@ -242,6 +248,7 @@ void DefaultGui::createMenus() {
 	statusbar_menu = new QMenu(this);
 	statusbar_menu->addAction(viewVideoInfoAct);
 	statusbar_menu->addAction(viewFormatInfoAct);
+	statusbar_menu->addAction(viewBitrateInfoAct);
 	statusbar_menu->addAction(viewFrameCounterAct);
 
 	populateMainMenu();
@@ -621,6 +628,11 @@ void DefaultGui::createStatusBar() {
 	format_info_display->setAlignment(Qt::AlignRight);
 	format_info_display->setFrameShape(QFrame::NoFrame);
 
+	bitrate_info_display = new QLabel( statusBar() );
+	bitrate_info_display->setObjectName("bitrate_info_display");
+	bitrate_info_display->setAlignment(Qt::AlignRight);
+	bitrate_info_display->setFrameShape(QFrame::NoFrame);
+
 #ifdef BUFFERING_ANIMATION
 	state_widget = new StateWidget(statusBar());
 	connect(core, SIGNAL(stateChanged(Core::State)), state_widget, SLOT(watchState(Core::State)));
@@ -643,9 +655,10 @@ void DefaultGui::createStatusBar() {
 	*/
 	statusBar()->setSizeGripEnabled(false);
 
-	statusBar()->addPermanentWidget( video_info_display );
 	statusBar()->addPermanentWidget( format_info_display );
+	statusBar()->addPermanentWidget( bitrate_info_display );
 	statusBar()->addPermanentWidget( ab_section_display );
+	statusBar()->addPermanentWidget( video_info_display );
 
 	statusBar()->showMessage( tr("Ready") );
 	statusBar()->addPermanentWidget( frame_display, 0 );
@@ -659,6 +672,7 @@ void DefaultGui::createStatusBar() {
 	ab_section_display->show();
 	video_info_display->hide();
 	format_info_display->hide();
+	bitrate_info_display->hide();
 }
 
 void DefaultGui::retranslateStrings() {
@@ -687,6 +701,7 @@ void DefaultGui::retranslateStrings() {
 	viewVideoInfoAct->change(Images::icon("view_video_info"), tr("&Video info") );
 	viewFrameCounterAct->change( Images::icon("frame_counter"), tr("&Frame counter") );
 	viewFormatInfoAct->change( Images::icon("view_format_info"), tr("F&ormat info") );
+	viewBitrateInfoAct->change( Images::icon("view_bitrate_info"), tr("&Bitrate info") );
 
 #if USE_CONFIGURABLE_TOOLBARS
 	editToolbar1Act->change( tr("Edit main &toolbar") );
@@ -732,6 +747,10 @@ void DefaultGui::displayVideoInfo(int width, int height, double fps) {
 	if (!format.isEmpty() && !core->mdat.audio_format.isEmpty()) format += " / ";
 	format += core->mdat.audio_format;
 	format_info_display->setText(format.toUpper());
+}
+
+void DefaultGui::displayBitrateInfo(int vbitrate, int abitrate) {
+	bitrate_info_display->setText(tr("V: %1 kbps A: %2 kbps").arg(vbitrate/1000).arg(abitrate/1000));
 }
 
 void DefaultGui::updateWidgets() {
@@ -935,6 +954,7 @@ void DefaultGui::saveConfig() {
 	set->setValue("video_info", viewVideoInfoAct->isChecked());
 	set->setValue("frame_counter", viewFrameCounterAct->isChecked());
 	set->setValue("format_info", viewFormatInfoAct->isChecked());
+	set->setValue("bitrate_info", viewBitrateInfoAct->isChecked());
 
 	set->setValue("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible);
 	set->setValue("compact_toolbar1_was_visible", compact_toolbar1_was_visible);
@@ -982,6 +1002,7 @@ void DefaultGui::loadConfig() {
 	viewVideoInfoAct->setChecked(set->value("video_info", false).toBool());
 	viewFrameCounterAct->setChecked(set->value("frame_counter", false).toBool());
 	viewFormatInfoAct->setChecked(set->value("format_info", false).toBool());
+	viewBitrateInfoAct->setChecked(set->value("bitrate_info", false).toBool());
 
 	fullscreen_toolbar1_was_visible = set->value("fullscreen_toolbar1_was_visible", fullscreen_toolbar1_was_visible).toBool();
 	compact_toolbar1_was_visible = set->value("compact_toolbar1_was_visible", compact_toolbar1_was_visible).toBool();
