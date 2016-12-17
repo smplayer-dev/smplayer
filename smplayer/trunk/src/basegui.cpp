@@ -5318,6 +5318,7 @@ void BaseGui::gotCurrentTime(double sec) {
 
 	static int last_second = 0;
 
+#if 1
 	if (floor(sec)==last_second) return; // Update only once per second
 	last_second = (int) floor(sec);
 
@@ -5325,6 +5326,9 @@ void BaseGui::gotCurrentTime(double sec) {
                            Helper::formatTime( (int) core->mdat.duration );
 
 	//qDebug( " duration: %f, current_sec: %f", core->mdat.duration, core->mset.current_sec);
+#else
+	QString time =  Helper::formatTime2(sec) + " / " + Helper::formatTime( (int) core->mdat.duration );
+#endif
 
 	emit timeChanged(sec);
 	emit timeChanged(time);
