@@ -3653,11 +3653,13 @@ void Core::gotStartingTime(double time) {
 void Core::gotVideoBitrate(int b) {
 	qDebug("Core::gotVideoBitrate: %d", b);
 	mdat.video_bitrate = b;
+	emit bitrateChanged(mdat.video_bitrate, mdat.audio_bitrate);
 }
 
 void Core::gotAudioBitrate(int b) {
 	qDebug("Core::gotAudioBitrate: %d", b);
 	mdat.audio_bitrate = b;
+	emit bitrateChanged(mdat.video_bitrate, mdat.audio_bitrate);
 }
 
 void Core::changePause() {
