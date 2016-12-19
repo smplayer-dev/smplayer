@@ -86,9 +86,11 @@ QString Helper::formatTime2(double secs) {
 	t -= minutes*60;
 	int seconds = t;
 	t -= seconds;
-	int cents = t*100;
+	int milliseconds = t*1000;
 
-	return QString("%1%2:%3:%4.%5").arg(negative ? "-" : "").arg(hours, 2, 10, QChar('0')).arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0')).arg(cents, 2, 10, QChar('0'));
+	//qDebug() << "Helper::formatTime: secs:" << secs << "="  << hours << ":" << minutes << ":" << seconds << "." << milliseconds;
+
+	return QString("%1%2:%3:%4.%5").arg(negative ? "-" : "").arg(hours, 2, 10, QChar('0')).arg(minutes, 2, 10, QChar('0')).arg(seconds, 2, 10, QChar('0')).arg(milliseconds, 3, 10, QChar('0'));
 }
 
 QString Helper::timeForJumps(int secs) {
