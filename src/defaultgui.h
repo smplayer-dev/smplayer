@@ -101,6 +101,7 @@ protected slots:
 #endif
 
 	// Reimplemented:
+	virtual void gotCurrentTime(double);
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
@@ -162,8 +163,6 @@ protected:
 
 	QMenu * toolbar_menu;
 	QMenu * statusbar_menu;
-
-	int last_second;
 
 	bool fullscreen_toolbar1_was_visible;
 	bool compact_toolbar1_was_visible;

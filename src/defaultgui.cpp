@@ -50,6 +50,7 @@
 #include <QToolButton>
 #include <QMenuBar>
 #include <QMovie>
+#include <QtCore/qmath.h>
 
 #define TOOLBAR_VERSION "2"
 #define CONTROLWIDGET_VERSION "1"
@@ -199,6 +200,26 @@ void DefaultGui::createActions() {
 	editControl2Act = new MyAction( this, "edit_control2" );
 	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 #endif
+}
+
+void DefaultGui::gotCurrentTime(double sec) {
+	//qDebug() << "DefaultGui::gotCurrentTime:" << sec;
+
+	static int last_second = 0;
+	QString time;
+
+	if (0) {
+		time = Helper::formatTime2(sec) + " / " + Helper::formatTime( (int) core->mdat.duration );
+	} else {
+		if (qFloor(sec) == last_second) return; // Update only once per second
+		last_second = qFloor(sec);
+
+		time = Helper::formatTime( (int) sec ) + " / " +
+                       Helper::formatTime( (int) core->mdat.duration );
+	}
+
+	emit timeChanged(sec);
+	emit timeChanged(time);
 }
 
 #if AUTODISABLE_ACTIONS

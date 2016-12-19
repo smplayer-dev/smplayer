@@ -41,7 +41,7 @@
 #include <QMimeData>
 #include <QDesktopWidget>
 
-#include <cmath>
+#include <QtCore/qmath.h>
 
 #include "mplayerwindow.h"
 #include "desktopinfo.h"
@@ -5314,21 +5314,15 @@ void BaseGui::displayMessage(QString message) {
 }
 
 void BaseGui::gotCurrentTime(double sec) {
-	//qDebug( "DefaultGui::displayTime: %f", sec);
+	//qDebug() << "BaseGui::gotCurrentTime:" << sec;
 
 	static int last_second = 0;
 
-#if 1
-	if (floor(sec)==last_second) return; // Update only once per second
-	last_second = (int) floor(sec);
+	if (qFloor(sec) == last_second) return; // Update only once per second
+	last_second = qFloor(sec);
 
 	QString time = Helper::formatTime( (int) sec ) + " / " +
                            Helper::formatTime( (int) core->mdat.duration );
-
-	//qDebug( " duration: %f, current_sec: %f", core->mdat.duration, core->mset.current_sec);
-#else
-	QString time =  Helper::formatTime2(sec) + " / " + Helper::formatTime( (int) core->mdat.duration );
-#endif
 
 	emit timeChanged(sec);
 	emit timeChanged(time);
