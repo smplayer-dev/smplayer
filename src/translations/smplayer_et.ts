@@ -9546,7 +9546,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation>Jaga SMPlayerit oma sõpradega või anneta</translation>
     </message>
 </context>
 <context>
