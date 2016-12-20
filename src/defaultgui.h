@@ -91,6 +91,7 @@ protected:
 
 protected slots:
 	virtual void updateWidgets();
+	virtual void displayTime(double sec);
 	virtual void displayFrame(int frame);
 	virtual void displayABSection(int secs_a, int secs_b);
 	virtual void displayVideoInfo(int width, int height, double fps);
@@ -101,7 +102,6 @@ protected slots:
 #endif
 
 	// Reimplemented:
-	virtual void gotCurrentTime(double);
 #if AUTODISABLE_ACTIONS
 	virtual void enableActionsOnPlaying();
 	virtual void disableActionsOnStop();
