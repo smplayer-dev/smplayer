@@ -64,6 +64,7 @@ DefaultGui::DefaultGui( QWidget * parent, Qt::WindowFlags flags )
 {
 	createStatusBar();
 
+	connect( core, SIGNAL(showTime(double)), this, SLOT(displayTime(double)));
 	connect( this, SIGNAL(frameChanged(int)),
              this, SLOT(displayFrame(int)) );
 	connect( this, SIGNAL(ABMarkersChanged(int,int)),
@@ -200,26 +201,6 @@ void DefaultGui::createActions() {
 	editControl2Act = new MyAction( this, "edit_control2" );
 	editFloatingControlAct = new MyAction( this, "edit_floating_control" );
 #endif
-}
-
-void DefaultGui::gotCurrentTime(double sec) {
-	//qDebug() << "DefaultGui::gotCurrentTime:" << sec;
-
-	static int last_second = 0;
-	QString time;
-
-	if (0) {
-		time = Helper::formatTime2(sec) + " / " + Helper::formatTime( (int) core->mdat.duration );
-	} else {
-		if (qFloor(sec) == last_second) return; // Update only once per second
-		last_second = qFloor(sec);
-
-		time = Helper::formatTime( (int) sec ) + " / " +
-                       Helper::formatTime( (int) core->mdat.duration );
-	}
-
-	emit timeChanged(sec);
-	emit timeChanged(time);
 }
 
 #if AUTODISABLE_ACTIONS
@@ -623,7 +604,7 @@ void DefaultGui::createStatusBar() {
 	time_display->setFrameShape(QFrame::NoFrame);
 	time_display->setText(" 88:88:88 / 88:88:88 ");
 	time_display->setMinimumSize(time_display->sizeHint());
-	connect(this, SIGNAL(timeChanged(QString)), time_display, SLOT(setText(QString)));
+	//connect(this, SIGNAL(timeChanged(QString)), time_display, SLOT(setText(QString)));
 
 	frame_display = new QLabel( statusBar() );
 	frame_display->setObjectName("frame_display");
@@ -736,6 +717,22 @@ void DefaultGui::retranslateStrings() {
 #endif
 }
 
+
+void DefaultGui::displayTime(double sec) {
+	//qDebug() << "DefaultGui::displayTime:" << sec;
+
+	static int last_second = 0;
+	QString time;
+
+	if (0) {
+		time = Helper::formatTime2(sec) + " / " + Helper::formatTime( (int) core->mdat.duration );
+	} else {
+		if (qFloor(sec) == last_second) return; // Update only once per second
+		last_second = qFloor(sec);
+		time = Helper::formatTime( (int) sec ) + " / " + Helper::formatTime( (int) core->mdat.duration );
+	}
+	time_display->setText(time);
+}
 
 void DefaultGui::displayFrame(int frame) {
 	if (frame_display->isVisible()) {
