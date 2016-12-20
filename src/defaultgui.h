@@ -153,6 +153,7 @@ protected:
 	MyAction * viewVideoInfoAct;
 	MyAction * viewFormatInfoAct;
 	MyAction * viewBitrateInfoAct;
+	MyAction * useMillisecondsAct;
 
 #if USE_CONFIGURABLE_TOOLBARS
 	MyAction * editToolbar1Act;
