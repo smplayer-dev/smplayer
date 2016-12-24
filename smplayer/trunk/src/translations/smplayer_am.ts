@@ -8538,12 +8538,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"/>
+        <translation>ፋይሎች በ መጨመር ላይ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>ራሱ በራሱ ፋይሎች &amp;መጨመሪያ </translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8558,7 +8558,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"/>
+        <translation>በ&amp;ራሱ መለያ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
@@ -8568,7 +8568,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation>የ ማጫወቻ ዝርዝር &amp;ማስቀመጫ እና መውጫ</translation>
     </message>
 </context>
 <context>
@@ -8588,12 +8588,12 @@ Do you want to overwrite?</source>
         <location filename="../prefsubtitles.ui" line="39"/>
         <location filename="../prefsubtitles.cpp" line="385"/>
         <source>Autoload</source>
-        <translation type="unfinished"/>
+        <translation>በራሱ መጫኛ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="72"/>
         <source>Same name as movie</source>
-        <translation type="unfinished"/>
+        <translation>ተመሳሳይ ስም እንደ ሙቪ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
@@ -8603,7 +8603,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subs in directory</source>
-        <translation type="unfinished"/>
+        <translation>ሁሉም ንዑስ በ ዳይሬክቶሪ ውስጥ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
@@ -8613,7 +8613,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>የ &amp;መስኮት ፊደሎች ማስቻያ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -8635,7 +8635,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
         <source>S&amp;elect first available subtitle</source>
-        <translation type="unfinished"/>
+        <translation>ይ&amp;ምረጡ ዝግጁ የ መጀመሪያውን ንዑስ አርእስት</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -8685,7 +8685,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
         <source>Select the subtitle autoload method.</source>
-        <translation type="unfinished"/>
+        <translation>ይምረጡ የ ንዑስ አርእስት በራሱ መጫኛ ዘዴ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="389"/>
@@ -8705,7 +8705,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"/>
+        <translation>የ ንዑስ አርእስት ቋንቋዎች</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
@@ -8725,7 +8725,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="494"/>
         <source>Outline</source>
-        <translation type="unfinished"/>
+        <translation>ረቂቅ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="453"/>
@@ -8745,7 +8745,9 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>
+
+</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
@@ -8920,7 +8922,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="653"/>
         <source>Border st&amp;yle:</source>
-        <translation type="unfinished"/>
+        <translation>የ ድንበር ዘዴ&amp;ዎች:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="679"/>
@@ -9043,17 +9045,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
         <source>&amp;Font and colors</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ፊደል እና ቀለሞች</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"/>
+        <translation>ነባ&amp;ር መመጠኛ:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
         <source>&amp;Line spacing:</source>
-        <translation type="unfinished"/>
+        <translation>የ &amp;መስመር ክፍተት:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
@@ -9362,12 +9364,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="95"/>
         <source>action_name</source>
-        <translation type="unfinished"/>
+        <translation>የ ተግባር_ስም</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="96"/>
         <source>action_list</source>
-        <translation type="unfinished"/>
+        <translation>የ ተግባር_ዝርዝር</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="121"/>
@@ -9377,7 +9379,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="97"/>
         <source>subtitle_file</source>
-        <translation type="unfinished"/>
+        <translation>የ ንዑስ አርእስት_ፋይል</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="166"/>
@@ -9388,13 +9390,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="83"/>
         <location filename="../helper.cpp" line="89"/>
         <source>%n second(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>ፍግድ </numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="86"/>
         <location filename="../helper.cpp" line="88"/>
         <source>%n minute(s)</source>
-        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="90"/>
@@ -9410,7 +9412,7 @@ Do you want to overwrite?</source>
         <location filename="../mediasettings.cpp" line="182"/>
         <source>disabled</source>
         <comment>aspect_ratio</comment>
-        <translation type="unfinished"/>
+        <translation>ተሰናክሏል</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="193"/>
@@ -9483,12 +9485,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"/>
+        <translation>%1 (ግምገማ %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"/>
+        <translation>%1 (ግምገማ %2)</translation>
     </message>
 </context>
 <context>
@@ -9628,7 +9630,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
         <source>Edit &amp;floating control</source>
-        <translation type="unfinished"/>
+        <translation>ማረሚያ &amp;ተንሳፋፊ መቆጣጠሪያ</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="411"/>
@@ -9638,12 +9640,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/skingui.cpp" line="412"/>
         <source>&amp;Scroll title</source>
-        <translation type="unfinished"/>
+        <translation>&amp;መሸብለያ አርእስት</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"/>
+        <translation>በ መጫወት ላይ</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9822,7 +9824,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../tvlist.cpp" line="112"/>
         <source>Channel editor</source>
-        <translation type="unfinished"/>
+        <translation>ጣቢያ ማረሚያ</translation>
     </message>
     <message>
         <location filename="../tvlist.cpp" line="113"/>
@@ -9843,12 +9845,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation type="unfinished"/>
+        <translation>እቃ መደርደሪያ ማረሚያ</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ዝግጁ ተግባሮች:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
@@ -9873,7 +9875,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation type="unfinished"/>
+        <translation>የ አሁኑ ተግባሮች:</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
@@ -9903,17 +9905,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"/>
+        <translation>የ አሁኑ ሰአት</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"/>
+        <translation>ጠቅላላ ሰአት</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"/>
+        <translation>የ ቀረው ሰአት</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -9928,7 +9930,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"/>
+        <translation>በ ፍጥነት ዝርዝር ጋር መድረሻ</translation>
     </message>
 </context>
 <context>
@@ -10190,7 +10192,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="430"/>
         <source>Resolution: %1x%2</source>
-        <translation type="unfinished"/>
+        <translation>ሪዞሊሽን: %1x%2</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="434"/>
@@ -10205,12 +10207,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="436"/>
         <source>Aspect ratio: %1</source>
-        <translation type="unfinished"/>
+        <translation>ማነፃፀሪያ መጠን: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="367"/>
         <source>The file %1 can&apos;t be loaded</source>
-        <translation type="unfinished"/>
+        <translation>ፋይሉን %1 መጫን አልተቻለም</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="471"/>
@@ -10266,7 +10268,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="441"/>
         <source>Audio rate: %1</source>
-        <translation type="unfinished"/>
+        <translation>የ ድምፅ መጠን: %1</translation>
     </message>
 </context>
 <context>

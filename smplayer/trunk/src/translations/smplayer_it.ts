@@ -4485,22 +4485,22 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>File:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Video:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Risoluzione:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Fotogrammi per secondo:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
@@ -4526,7 +4526,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Audio:</source>
-        <translation type="unfinished"/>
+        <translation>Audio:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="166"/>
@@ -4536,7 +4536,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Channels:</source>
-        <translation type="unfinished"/>
+        <translation>Canali:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
@@ -7281,7 +7281,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation type="unfinished"/>
+        <translation>Scala</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -7391,7 +7391,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation>Fatt&amp;ore di scala:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
