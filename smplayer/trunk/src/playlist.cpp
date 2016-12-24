@@ -61,6 +61,7 @@
 #include "version.h"
 #include "extensions.h"
 #include "guiconfig.h"
+#include "links.h"
 
 #ifdef PLAYLIST_DOWNLOAD
 #include "inputurl.h"
@@ -688,7 +689,8 @@ void Playlist::retranslateStrings() {
 
 	copyURLAct->change( tr("&Copy file path to clipboard") );
 	openFolderAct->change( tr("&Open source folder") );
-	openURLInWebAct->change( tr("Open stream in web browser") );
+	//openURLInWebAct->change( tr("Open stream in web browser") );
+	openURLInWebAct->change( tr("Play stream in chromec&ast") );
 
 	showSearchAct->change(Images::icon("find"), tr("Search"));
 
@@ -1964,11 +1966,11 @@ void Playlist::openURLInWeb() {
 	if (!video_url.isEmpty()) url = video_url;
 
 	/* TO DO: do something better */
-	QDesktopServices::openUrl(QUrl(url));
-	/*
-	QDesktopServices::openUrl(QUrl(".../?title=" + i->name().toUtf8().toBase64() +
+	//QDesktopServices::openUrl(QUrl(url));
+
+	QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + i->name().toUtf8().toBase64() +
 		"&url=" + url.toUtf8().toBase64()));
-	*/
+
 }
 
 // Drag&drop
