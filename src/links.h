@@ -28,6 +28,7 @@
 #define URL_THANK_YOU URL_HOMEPAGE"/thank-you.php"
 #define URL_OPENSSL_INFO URL_HOMEPAGE"/openssl.php"
 #define URL_DONATE URL_HOMEPAGE"/donate.php"
+#define URL_CHROMECAST "http://chromecast.smplayer.info"
 #define URL_YT_CODE "http://updates.smplayer.info/yt.js"
 #define URL_VERSION_INFO "http://updates.smplayer.info/version_info.ini"
 
