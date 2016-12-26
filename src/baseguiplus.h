@@ -128,6 +128,10 @@ protected slots:
 	void sendAudioClicked();
 #endif
 
+#ifdef CHROMECAST_SUPPORT
+	void playOnChromecast();
+#endif
+
 #ifdef GLOBALSHORTCUTS
 	void updateGlobalShortcuts();
 #endif
@@ -139,6 +143,10 @@ protected:
 	MyAction * quitAct;
 	MyAction * showTrayAct;
 	MyAction * showAllAct;
+
+#ifdef CHROMECAST_SUPPORT
+	MyAction * playOnChromecastAct;
+#endif
 
 #ifdef DETACH_VIDEO_OPTION
 	MyAction * detachVideoAct;
