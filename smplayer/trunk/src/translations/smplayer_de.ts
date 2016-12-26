@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="de">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="de" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1055,7 +1053,7 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1291,42 +1289,42 @@ Das kann im folgenden Konfigurationsdialog erledigt werden.</translation>
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">SMPlayer unterstützen</translation>
+        <translation>SMPlayer unterstützen</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Spenden</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished">Nein</translation>
+        <translation>Nein</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer braucht Sie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ist freie Software. Doch die Entwicklung erfordert viel Zeit und viel Arbeit.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4502"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Um SMPlayer mit neuen Funktionen weiterentwickeln zu können, benötigen wir Ihre Hilfe.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4503"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitte überdenken Sie die Unterstützung des SMPlayer-Projekts durch eine Spende.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4504"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selbst der kleinste Betrag hilft viel.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4993"/>
@@ -1773,7 +1771,7 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../basegui.cpp" line="2043"/>
         <source>While &amp;playing</source>
-        <translation>&amp;Während des Abspielens</translation>
+        <translation>&amp;Während der Wiedergabe</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2130"/>
@@ -2426,12 +2424,12 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Bitrateninformationen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktuelle Zeit mit Millisekunden &amp;anzeigen</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2462,7 +2460,7 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>V: %1 Kbit/s A: %2 Kbit/s</translation>
     </message>
 </context>
 <context>
@@ -2943,10 +2941,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-            <numerusform>%n Untertitel extrahiert</numerusform>
-        </translation>
+        <translation><numerusform>%n Untertitel extrahiert</numerusform><numerusform>%n Untertitel extrahiert</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3044,7 +3039,7 @@ Beispiel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Es ist nicht möglich, die heruntergeladene Datei 
@@ -4930,17 +4925,17 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../playlist.cpp" line="690"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Dateipfad in die Zwischenablage &amp;kopieren</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="691"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Quellordner &amp;öffnen</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="693"/>
         <source>Play stream in chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Datenstrom in Chromec&amp;ast wiedergeben</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="695"/>
@@ -4971,7 +4966,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="1416"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>URL in die Zwischenablage &amp;kopieren</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1880"/>
@@ -6965,7 +6960,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefinput.cpp" line="76"/>
         <source>On top while playing</source>
-        <translation>Während des Abspielens im Vordergrund</translation>
+        <translation>Während der Wiedergabe im Vordergrund</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="86"/>
@@ -7788,7 +7783,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>Hide video window when playing audio files</source>
-        <translation>Filmfenster beim Abspielen von Tondateien verstecken</translation>
+        <translation>Filmfenster bei der Wiedergabe von Tondateien verstecken</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -7798,7 +7793,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation>&amp;Filmfenster beim Abspielen von Tondateien verstecken</translation>
+        <translation>&amp;Filmfenster bei der Wiedergabe von Tondateien verstecken</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
@@ -9384,7 +9379,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation>Das Hauptfenster wird geschlossen, wenn das Abspielen der Datei/Wiedergabeliste abgeschlossen ist.</translation>
+        <translation>Das Hauptfenster wird geschlossen, wenn die Wiedergabe der Datei/Wiedergabeliste abgeschlossen ist.</translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="567"/>
@@ -9482,19 +9477,13 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n Sekunde</numerusform>
-            <numerusform>%n Sekunden</numerusform>
-        </translation>
+        <translation><numerusform>%n Sekunde</numerusform><numerusform>%n Sekunden</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n Minute</numerusform>
-            <numerusform>%n Minuten</numerusform>
-        </translation>
+        <translation><numerusform>%n Minute</numerusform><numerusform>%n Minuten</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
