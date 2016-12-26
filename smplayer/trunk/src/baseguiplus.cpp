@@ -169,6 +169,11 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect(detachVideoAct, SIGNAL(toggled(bool)), this, SLOT(detachVideo(bool)));
 #endif
 
+#ifdef CHROMECAST_SUPPORT
+	playOnChromecastAct = new MyAction(this, "play_on_chromecast");
+	connect(playOnChromecastAct, SIGNAL(triggered()), this, SLOT(playOnChromecast()));
+#endif
+
 #ifdef SCREENS_SUPPORT
 	sendToScreen_menu = new QMenu(this);
 	sendToScreen_menu->menuAction()->setObjectName("send_to_screen_menu");
@@ -250,6 +255,11 @@ void BaseGuiPlus::populateMainMenu() {
 #ifdef SEND_AUDIO_OPTION
 	audioMenu->insertMenu(audiofilter_menu->menuAction(), sendAudio_menu);
 #endif
+
+#ifdef CHROMECAST_SUPPORT
+	playMenu->addSeparator();
+	playMenu->addAction(playOnChromecastAct);
+#endif
 }
 
 bool BaseGuiPlus::startHidden() {
@@ -313,6 +323,10 @@ void BaseGuiPlus::retranslateStrings() {
 
 #ifdef DETACH_VIDEO_OPTION
 	detachVideoAct->change("Detach video");
+#endif
+
+#ifdef CHROMECAST_SUPPORT
+	playOnChromecastAct->change(Images::icon("chromcast"), tr("Play on Chromecast"));
 #endif
 
 #ifdef SCREENS_SUPPORT
@@ -1019,6 +1033,18 @@ void BaseGuiPlus::sendAudioClicked() {
 		qDebug() << "BaseGuiPlus::sendAudioClicked: device:" << device;
 		core->changeAO(device);
 	}
+}
+#endif
+
+#ifdef CHROMECAST_SUPPORT
+void BaseGuiPlus::playOnChromecast() {
+	qDebug("BaseGuiPlus::playOnChromecast");
+
+	qDebug() << "BaseGuiPlus::playOnChromecast: type:" << core->mdat.type;
+	qDebug() << "BaseGuiPlus::playOnChromecast: filename:" << core->mdat.filename;
+	qDebug() << "BaseGuiPlus::playOnChromecast: stream_url:" << core->mdat.stream_url;
+	qDebug() << "BaseGuiPlus::playOnChromecast: stream_title:" << core->mdat.stream_title;
+	qDebug() << "BaseGuiPlus::playOnChromecast: stream_path:" << core->mdat.stream_path;
 }
 #endif
 
