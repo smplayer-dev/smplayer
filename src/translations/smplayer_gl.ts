@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="gl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="gl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1055,7 +1053,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Doar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1291,42 +1289,42 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Apoia a SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Doar</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished">Non</translation>
+        <translation>Non</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer precísate</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer é software libre. Con todo o desenvolvemento require unha chea de tempo e traballo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4502"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Para poder manter o desenvolvemento do SMPlayer con novas funcionalidades precisamos da súa axuda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4503"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Considere apoiar o proxecto SMPlayer enviando unha doazón.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4504"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Incluso a cantidade máis pequena axudaranos moito.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4993"/>
@@ -2425,12 +2423,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>Información da taxa de &amp;bits</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mostrar o tempo actual con milisegundos</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2461,7 +2459,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -2942,10 +2940,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform>
-            <numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform>
-        </translation>
+        <translation><numerusform>Extraeuse %n ficheiro de subtítulos.</numerusform><numerusform>Extraéronse %n ficheiros de subtítulos.</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3043,7 +3038,7 @@ Por exemplo: extraestereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non foi posible gardar o ficheiro descargado
@@ -4929,17 +4924,17 @@ Desexas sobrescribilo?</translation>
         <location filename="../playlist.cpp" line="690"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copiar ao portarretallos a ruta do ficheiro</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="691"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abrir o cartafol orixe</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="693"/>
         <source>Play stream in chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproducir o fluxo no chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="695"/>
@@ -4970,7 +4965,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../playlist.cpp" line="1416"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copiar a URL ao portarretallos</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1880"/>
@@ -9480,19 +9475,13 @@ Desexas sobrescribilo?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>1 segundo</numerusform>
-            <numerusform>%n segundos</numerusform>
-        </translation>
+        <translation><numerusform>1 segundo</numerusform><numerusform>%n segundos</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>1 minuto</numerusform>
-            <numerusform>%n minutos</numerusform>
-        </translation>
+        <translation><numerusform>1 minuto</numerusform><numerusform>%n minutos</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
