@@ -61,7 +61,10 @@
 #include "version.h"
 #include "extensions.h"
 #include "guiconfig.h"
-#include "links.h"
+
+#ifdef CHROMECAST_SUPPORT
+#include "chromecast.h"
+#endif
 
 #ifdef PLAYLIST_DOWNLOAD
 #include "inputurl.h"
@@ -689,8 +692,12 @@ void Playlist::retranslateStrings() {
 
 	copyURLAct->change( tr("&Copy file path to clipboard") );
 	openFolderAct->change( tr("&Open source folder") );
-	//openURLInWebAct->change( tr("Open stream in web browser") );
+
+#ifdef CHROMECAST_SUPPORT
 	openURLInWebAct->change( tr("Play stream in chromec&ast") );
+#else
+	openURLInWebAct->change( tr("Open stream in &a web browser") );
+#endif
 
 	showSearchAct->change(Images::icon("find"), tr("Search"));
 
@@ -1965,12 +1972,11 @@ void Playlist::openURLInWeb() {
 	QString url = filename;
 	if (!video_url.isEmpty()) url = video_url;
 
-	/* TO DO: do something better */
-	//QDesktopServices::openUrl(QUrl(url));
-
-	QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + i->name().toUtf8().toBase64() +
-		"&url=" + url.toUtf8().toBase64()));
-
+#ifdef CHROMECAST_SUPPORT
+	Chromecast::instance()->openStream(url, i->name());
+#else
+	QDesktopServices::openUrl(QUrl(url));
+#endif
 }
 
 // Drag&drop

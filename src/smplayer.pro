@@ -553,6 +553,11 @@ contains( DEFINES, HDPI_SUPPORT ) {
 	SOURCES += hdpisupport.cpp
 }
 
+contains( DEFINES, CHROMECAST_SUPPORT ) {
+	HEADERS += chromecast.h
+	SOURCES += chromecast.cpp
+}
+
 unix {
 	UI_DIR = .ui
 	MOC_DIR = .moc
