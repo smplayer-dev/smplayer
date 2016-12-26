@@ -63,6 +63,10 @@
 #include "prefinput.h"
 #endif
 
+#ifdef CHROMECAST_SUPPORT
+#include "chromecast.h"
+#endif
+
 using namespace Global;
 
 BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
@@ -1045,6 +1049,12 @@ void BaseGuiPlus::playOnChromecast() {
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_url:" << core->mdat.stream_url;
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_title:" << core->mdat.stream_title;
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_path:" << core->mdat.stream_path;
+
+	if (core->mdat.type == TYPE_STREAM) {
+		QString url = core->mdat.filename;
+		if (!core->mdat.stream_path.isEmpty()) url = core->mdat.stream_path;
+		Chromecast::instance()->openStream(url, core->mdat.stream_title);
+	}
 }
 #endif
 

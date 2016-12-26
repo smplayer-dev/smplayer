@@ -694,7 +694,7 @@ void Playlist::retranslateStrings() {
 	openFolderAct->change( tr("&Open source folder") );
 
 #ifdef CHROMECAST_SUPPORT
-	openURLInWebAct->change( tr("Play stream in chromec&ast") );
+	openURLInWebAct->change( tr("Play stream on chromec&ast") );
 #else
 	openURLInWebAct->change( tr("Open stream in &a web browser") );
 #endif
