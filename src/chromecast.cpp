@@ -20,6 +20,8 @@
 #include "links.h"
 #include <QUrl>
 #include <QDesktopServices>
+#include <QNetworkInterface>
+#include <QDebug>
 
 Chromecast * Chromecast::instance_obj = 0;
 
@@ -39,4 +41,14 @@ Chromecast::~Chromecast() {
 void Chromecast::openStream(const QString & url, const QString & title) {
 	QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
 		"&url=" + url.toUtf8().toBase64()));
+}
+
+void Chromecast::openLocal(const QString & file, const QString & title) {
+	qDebug() << "Chromecast::openLocal:" << file;
+
+	foreach(const QHostAddress &address, QNetworkInterface::allAddresses()) {
+		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress(QHostAddress::LocalHost)) {
+			qDebug() << "Chromecast::openLocal: address:" << address.toString();
+		}
+	}
 }

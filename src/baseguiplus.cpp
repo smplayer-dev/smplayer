@@ -1055,6 +1055,10 @@ void BaseGuiPlus::playOnChromecast() {
 		if (!core->mdat.stream_path.isEmpty()) url = core->mdat.stream_path;
 		Chromecast::instance()->openStream(url, core->mdat.stream_title);
 	}
+	else
+	if (core->mdat.type == TYPE_FILE) {
+		Chromecast::instance()->openLocal(core->mdat.filename, core->mdat.stream_title);
+	}
 }
 #endif
 
