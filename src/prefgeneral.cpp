@@ -481,16 +481,18 @@ void PrefGeneral::updateDriverCombos() {
 		#if USE_ALSA_DEVICES
 		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
 			for (int n=0; n < alsa_devices.count(); n++) {
-				ao_combo->addItem( "alsa (" + alsa_devices[n].ID().toString() + " - " + alsa_devices[n].desc() + ")", 
-                                   "alsa:device=hw=" + alsa_devices[n].ID().toString() );
+				QString id = alsa_devices[n].ID().toString();
+				QString name = alsa_devices[n].desc();
+				ao_combo->addItem( "alsa (" + id + " - " + name + ")", "alsa:" + id + ":" + name );
 			}
 		}
 		#endif
 		#if USE_PULSEAUDIO_DEVICES
 		if ((ao == "pulse") && (!pa_devices.isEmpty())) {
 			for (int n=0; n < pa_devices.count(); n++) {
-				ao_combo->addItem( "pulse (" + pa_devices[n].ID().toString() + " - " + pa_devices[n].desc() + ")", 
-                                   "pulse::" + pa_devices[n].ID().toString() );
+				QString id = pa_devices[n].ID().toString();
+				QString name = pa_devices[n].desc();
+				ao_combo->addItem( "pulse (" + id + " - " + name + ")", "pulse:" + id + ":" + name );
 			}
 		}
 		#endif

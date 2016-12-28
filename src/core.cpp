@@ -1726,7 +1726,7 @@ void Core::startMplayer( QString file, double seek ) {
 
 	if (!pref->ao.isEmpty()) {
 		QString ao = pref->ao;
-		if (!ao.endsWith(",")) ao += ",";
+		//if (!ao.endsWith(",")) ao += ",";
 		proc->setOption("ao", ao);
 	}
 

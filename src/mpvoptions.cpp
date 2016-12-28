@@ -325,15 +325,30 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "ao") {
-		QString o = value.toString();
-		if (o.startsWith("alsa:device=")) {
-			if (o.endsWith(",")) o.chop(1); // Remove last character
-			QString device = o.mid(12);
-			//qDebug() << "MPVProcess::setOption: alsa device:" << device;
-			device = device.replace("=", ":").replace(".", ",");
-			o = "alsa:device=[" + device + "]";
+		QString ao = value.toString();
+
+		QStringList l;
+		if (ao.contains(":")) l = PlayerProcess::extractDevice(ao);
+		if (l.count() > 0) ao = l[0];
+
+		if (isOptionAvailable("--audio-device")) {
+			if (l.count() == 3) {
+				if (l[0] == "pulse") {
+					arg << "--audio-device=pulse/" + l[2];
+				}
+			}
+		} else {
+			if (l.count() > 1) {
+				if (l[0] == "alsa") {
+					ao = "alsa:device=[hw:" + l[1] + "]";
+				}
+				else
+				if (l[0] == "pulse") {
+					ao = "pulse::" + l[1];
+				}
+			}
 		}
-		arg << "--ao=" + o;
+		arg << "--ao=" + ao + ",";
 	}
 	else
 	if (option_name == "vc") {

@@ -182,6 +182,7 @@ DeviceList DeviceInfo::paDevices() {
 			}
 			if (rx_name.indexIn(line) > -1 ) {
 				name = rx_name.cap(2);
+				if (name.startsWith('<') && name.endsWith('>')) { name = name.mid(1); name.chop(1); }
 				qDebug() << "DeviceInfo::paDevices: name:" << name;
 				if (index != -1) {
 					l.append( DeviceData(index, name) );

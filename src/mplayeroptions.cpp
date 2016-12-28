@@ -63,6 +63,24 @@ void MplayerProcess::enableScreenshots(const QString & dir, const QString & /* t
 }
 
 void MplayerProcess::setOption(const QString & option_name, const QVariant & value) {
+	if (option_name == "ao") {
+		QString ao = value.toString();
+		if (ao.contains(":")) {
+			QStringList l = PlayerProcess::extractDevice(ao);
+			qDebug() << "MplayerProcess::setOption: ao:" << l;
+			if (l.count() > 1) {
+				if (l[0] == "alsa") {
+					ao = "alsa:device=hw=" + l[1];
+				}
+				else
+				if (l[0] == "pulse") {
+					ao = "pulse::" + l[1];
+				}
+			}
+		}
+		arg << "-ao" << ao + ",";
+	}
+	else
 	if (option_name == "cache") {
 		int cache = value.toInt();
 		if (cache > 31) {
