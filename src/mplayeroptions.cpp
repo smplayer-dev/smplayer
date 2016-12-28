@@ -69,6 +69,7 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 			QStringList l = PlayerProcess::extractDevice(ao);
 			qDebug() << "MplayerProcess::setOption: ao:" << l;
 			if (l.count() > 1) {
+				#ifndef Q_OS_WIN
 				if (l[0] == "alsa") {
 					ao = "alsa:device=hw=" + l[1];
 				}
@@ -76,10 +77,11 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 				if (l[0] == "pulse") {
 					ao = "pulse::" + l[1];
 				}
-				else
+				#else
 				if (l[0] == "dsound") {
 					ao = "dsound:device=" + l[1];
 				}
+				#endif
 			}
 		}
 		arg << "-ao" << ao + ",";
