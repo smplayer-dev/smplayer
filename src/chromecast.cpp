@@ -19,6 +19,7 @@
 #include "chromecast.h"
 #include "links.h"
 #include <QUrl>
+#include <QFileInfo>
 #include <QDesktopServices>
 #include <QNetworkInterface>
 #include <QDebug>
@@ -45,6 +46,13 @@ void Chromecast::openStream(const QString & url, const QString & title) {
 
 void Chromecast::openLocal(const QString & file, const QString & title) {
 	qDebug() << "Chromecast::openLocal:" << file;
+
+	QFileInfo fi(file);
+	QString dir = fi.absolutePath();
+	QString filename = fi.fileName();
+
+	qDebug() << "Chromecast::openLocal: dir:" << dir;
+	qDebug() << "Chromecast::openLocal: filename:" << filename;
 
 	foreach(const QHostAddress &address, QNetworkInterface::allAddresses()) {
 		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress(QHostAddress::LocalHost)) {
