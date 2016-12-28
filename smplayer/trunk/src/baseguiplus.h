@@ -124,7 +124,7 @@ protected slots:
 
 #ifdef SEND_AUDIO_OPTION
 	void updateSendAudioMenu();
-	void addListToSendAudioMenu(const DeviceList & audio_devices, const QString & prefix_name, const QString & prefix_device);
+	void addListToSendAudioMenu(const DeviceList & audio_devices, const QString & device_name);
 	void sendAudioClicked();
 #endif
 

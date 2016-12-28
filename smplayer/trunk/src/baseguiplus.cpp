@@ -1007,24 +1007,25 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	sendAudio_menu->addAction(a);
 
 #if USE_PULSEAUDIO_DEVICES
-	addListToSendAudioMenu( DeviceInfo::paDevices(), "pulse", "pulse::");
+	addListToSendAudioMenu( DeviceInfo::paDevices(), "pulse");
 #endif
 
 #if USE_ALSA_DEVICES
-	addListToSendAudioMenu( DeviceInfo::alsaDevices(), "alsa", "alsa:device=hw=");
+	addListToSendAudioMenu( DeviceInfo::alsaDevices(), "alsa");
 #endif
 
 #if USE_DSOUND_DEVICES
-	addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound", "dsound:device=");
+	addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound");
 #endif
 }
 
-void BaseGuiPlus::addListToSendAudioMenu(const DeviceList & audio_devices, const QString & prefix_name, const QString & prefix_device) {
+void BaseGuiPlus::addListToSendAudioMenu(const DeviceList & audio_devices, const QString & device_name) {
 	for (int n = 0; n < audio_devices.count(); n++) {
 		QAction * a = new QAction(sendAudio_menu);
 		QString device_id = audio_devices[n].ID().toString();
-		a->setText(prefix_name + " (" + device_id + " - " + audio_devices[n].desc() + ")");
-		a->setData(prefix_device + device_id);
+		QString device_desc = audio_devices[n].desc();
+		a->setText(device_name + " (" + device_id + " - " + device_desc + ")");
+		a->setData(device_name + ":" + device_id + ":" + device_desc);
 		connect(a, SIGNAL(triggered()), this, SLOT(sendAudioClicked()));
 		sendAudio_menu->addAction(a);
 	}
