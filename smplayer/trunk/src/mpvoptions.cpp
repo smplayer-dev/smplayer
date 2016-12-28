@@ -336,6 +336,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 				if (l[0] == "pulse") {
 					arg << "--audio-device=pulse/" + l[2];
 				}
+				else
+				if (l[0] == "dsound") {
+					arg << "--audio-device=dsound/" + l[1];
+				}
 			}
 		} else {
 			if (l.count() > 1) {

@@ -76,6 +76,10 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 				if (l[0] == "pulse") {
 					ao = "pulse::" + l[1];
 				}
+				else
+				if (l[0] == "dsound") {
+					ao = "dsound:device=" + l[1];
+				}
 			}
 		}
 		arg << "-ao" << ao + ",";

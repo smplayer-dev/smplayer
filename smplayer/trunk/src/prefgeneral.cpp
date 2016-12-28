@@ -499,8 +499,9 @@ void PrefGeneral::updateDriverCombos() {
 		#if USE_DSOUND_DEVICES
 		if ((ao == "dsound") && (!dsound_devices.isEmpty())) {
 			for (int n=0; n < dsound_devices.count(); n++) {
-				ao_combo->addItem( "dsound (" + dsound_devices[n].ID().toString() + " - " + dsound_devices[n].desc() + ")", 
-                                   "dsound:device=" + dsound_devices[n].ID().toString() );
+				QString id = dsound_devices[n].ID().toString();
+				QString name = dsound_devices[n].desc();
+				ao_combo->addItem( "dsound (" + id + " - " + name + ")", "dsound:" + id + ":" + name );
 			}
 		}
 		#endif
