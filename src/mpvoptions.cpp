@@ -324,6 +324,22 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		if (b) arg << "--" + option_name; else arg << "--no-" + option_name;
 	}
 	else
+	if (option_name == "vo") {
+		QString vo = value.toString();
+		if (vo.endsWith(",")) vo.chop(1);
+		#ifndef Q_OS_WIN
+		if (isOptionAvailable("--xv-adaptor")) {
+			QRegExp rx("xv:adaptor=(\\d+)");
+			if (rx.indexIn(vo) > -1) {
+				QString adaptor = rx.cap(1);
+				vo = "xv";
+				arg << "--xv-adaptor=" + adaptor;
+			}
+		}
+		#endif
+		arg << "--vo=" + vo + ",";
+	}
+	else
 	if (option_name == "ao") {
 		QString ao = value.toString();
 
@@ -406,7 +422,6 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "wid" ||
-	    option_name == "vo" ||
 	    option_name == "aid" || option_name == "vid" ||
 	    option_name == "volume" ||
 	    option_name == "ass-styles" || option_name == "ass-force-style" ||
