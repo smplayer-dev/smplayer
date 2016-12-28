@@ -349,15 +349,18 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 
 		if (isOptionAvailable("--audio-device")) {
 			if (l.count() == 3) {
+				#ifndef Q_OS_WIN
 				if (l[0] == "pulse") {
 					arg << "--audio-device=pulse/" + l[2];
 				}
-				else
+				#else
 				if (l[0] == "dsound") {
 					arg << "--audio-device=dsound/" + l[1];
 				}
+				#endif
 			}
 		} else {
+			#ifndef Q_OS_WIN
 			if (l.count() > 1) {
 				if (l[0] == "alsa") {
 					ao = "alsa:device=[hw:" + l[1] + "]";
@@ -367,6 +370,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 					ao = "pulse::" + l[1];
 				}
 			}
+			#endif
 		}
 		arg << "--ao=" + ao + ",";
 	}
