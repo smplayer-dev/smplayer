@@ -4483,7 +4483,18 @@ void BaseGui::helpDonate() {
 #else
 void BaseGui::helpDonate() {
 	qDebug("BaseGui::helpDonate");
-	showHelpDonateDialog();
+
+	int action = 0;
+	bool accepted;
+	showHelpDonateDialog(&accepted);
+	if (accepted) action = 1;
+
+	if (action > 0) {
+		QSettings * set = Global::settings;
+		set->beginGroup("reminder");
+		set->setValue("action", action);
+		set->endGroup();
+	}
 }
 
 void BaseGui::showHelpDonateDialog(bool * accepted) {
