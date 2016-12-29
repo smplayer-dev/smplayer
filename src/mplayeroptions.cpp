@@ -17,6 +17,7 @@
 */
 
 #include "subtracks.h"
+#include "deviceinfo.h"
 #include <QDir>
 #include <QDebug>
 
@@ -66,7 +67,7 @@ void MplayerProcess::setOption(const QString & option_name, const QVariant & val
 	if (option_name == "ao") {
 		QString ao = value.toString();
 		if (ao.contains(":")) {
-			QStringList l = PlayerProcess::extractDevice(ao);
+			QStringList l = DeviceInfo::extractDevice(ao);
 			qDebug() << "MplayerProcess::setOption: ao:" << l;
 			if (l.count() > 1) {
 				#ifndef Q_OS_WIN

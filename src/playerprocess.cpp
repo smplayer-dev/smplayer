@@ -97,8 +97,4 @@ void PlayerProcess::setCaptureDirectory(const QString & dir) {
 }
 #endif
 
-QStringList PlayerProcess::extractDevice(const QString & s) {
-	return s.split(':');
-}
-
 #include "moc_playerprocess.cpp"

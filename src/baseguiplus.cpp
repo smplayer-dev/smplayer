@@ -1017,15 +1017,20 @@ void BaseGuiPlus::updateSendAudioMenu() {
 #if USE_DSOUND_DEVICES
 	addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound");
 #endif
+
+#if USE_MPV_ALSA_DEVICES
+	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
+		DeviceInfo::setMpvBin(pref->mplayer_bin);
+		addListToSendAudioMenu( DeviceInfo::mpvAudioDevices("alsa"), "alsa");
+	}
+#endif
 }
 
 void BaseGuiPlus::addListToSendAudioMenu(const DeviceList & audio_devices, const QString & device_name) {
 	for (int n = 0; n < audio_devices.count(); n++) {
 		QAction * a = new QAction(sendAudio_menu);
-		QString device_id = audio_devices[n].ID().toString();
-		QString device_desc = audio_devices[n].desc();
-		a->setText(device_name + " (" + device_id + " - " + device_desc + ")");
-		a->setData(device_name + ":" + device_id + ":" + device_desc);
+		a->setText( DeviceInfo::printableName(device_name, audio_devices[n]) );
+		a->setData( DeviceInfo::internalName(device_name, audio_devices[n]) );
 		connect(a, SIGNAL(triggered()), this, SLOT(sendAudioClicked()));
 		sendAudio_menu->addAction(a);
 	}
