@@ -1021,7 +1021,7 @@ void BaseGuiPlus::updateSendAudioMenu() {
 #if USE_MPV_ALSA_DEVICES
 	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
 		DeviceInfo::setMpvBin(pref->mplayer_bin);
-		addListToSendAudioMenu( DeviceInfo::mpvAudioDevices("alsa"), "alsa");
+		addListToSendAudioMenu( DeviceInfo::mpvAlsaDevices(), "alsa");
 	}
 #endif
 }
