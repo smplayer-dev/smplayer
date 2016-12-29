@@ -5725,12 +5725,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="993"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
-        <translation type="unfinished"/>
+        <translation>Selecteer welk multimedia programma u wilt gebruiken; MPlayer of mpv.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="994"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"/>
+        <translation>Met de optie &apos;anderen&apos; kunt u het pad van het uitvoerbare bestand handmatig selecteren.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="997"/>
@@ -5861,7 +5861,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1098"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Zwarte randen standaard aan de ondertiteling toevoegen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1108"/>
@@ -5946,7 +5946,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"/>
+        <translation>Inste&amp;llingen onthouden voor streams</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -6176,7 +6176,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"/>
+        <translation>Zwart&amp;e randen standaard aan de ondertiteling toevoegen</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -7021,7 +7021,7 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"/>
+        <translation>Zoeken en volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
@@ -8470,7 +8470,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="169"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"/>
+        <translation>Volgend bestand automatisch afspelen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="170"/>
@@ -8480,7 +8480,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation>Afspeel fouten negeren</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
@@ -8505,7 +8505,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation>Hoofdlettergevoelig zoeken</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="207"/>
@@ -8580,7 +8580,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="191"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"/>
+        <translation>Voeg bestanden recursief toe aan directories</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="192"/>
@@ -8630,12 +8630,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Voeg bestanden automatisch toe aan de afspeellijst</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"/>
+        <translation>Voeg bestanden &amp;recursief toe aan directories</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
@@ -9534,17 +9534,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"/>
+        <translation>Stelt de blijf de bovenste optie in naar altijd.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"/>
+        <translation>Stelt de blijf de bovenste optie in naar nooit.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"/>
+        <translation>Stelt de media titel voor de eerste video in.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>

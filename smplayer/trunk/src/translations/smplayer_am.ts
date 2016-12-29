@@ -576,7 +576,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Autodetect phase</source>
-        <translation type="unfinished"/>
+        <translation>&amp;በራሱ ፈልጎ ማግኛ ዘዴ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -1053,7 +1053,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ይለግሱ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1294,22 +1294,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>ይለግሱ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation>አይ</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer እርስዎን ይፈልጋል</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer ነፃ ሶፍትዌር ነው: ነገር ግን ማበልጸጉ ብዙ ስራ እና ጊዜ ይወስዳል</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4502"/>
@@ -1324,7 +1324,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4504"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"/>
+        <translation>በጣም ትንሹ እንኳን ብዙ ይረዳል</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4993"/>
@@ -1376,7 +1376,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6006"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation type="unfinished"/>
+        <translation>የ youtube-dl አካል ማስኬድ አልተቻለም</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6007"/>
@@ -1447,12 +1447,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5016"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>እርስዎ የ Youtube code ማሻሻል ይፈልጋሉ? ይህ ችግሩን ይጠግናል</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5024"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
-        <translation type="unfinished"/>
+        <translation>ምናልባት SMPlayer ማሻሻል ችግሩን ይፈታዋል</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2141"/>
@@ -2305,22 +2305,22 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4066"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"/>
+        <translation>የ አይጥ ቁልፍ አሁን መጠን ይቀይራል</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4069"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"/>
+        <translation>የ አይጥ ቁልፍ የ ማሳያ መጠን ይቀይራል</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4072"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"/>
+        <translation>የ አይጥ ቁልፍ አሁን ፍጥነት ይቀይራል</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4393"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"/>
+        <translation>የ መመልከቻ ፎቶ ተቀምጧል እንደ %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4428"/>
@@ -2459,7 +2459,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"/>
+        <translation>V: %1 ኪቢበሰ A: %2 ኪቢበሰ</translation>
     </message>
 </context>
 <context>
@@ -2761,7 +2761,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
-        <translation type="unfinished"/>
+        <translation>ይጻፉ በ ኮማ ለያይተው</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2784,12 +2784,12 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation>ማስቻያ/ማሰናከያ ወኪል መጠቀሚያ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation>የ ጋባዥ ስም ለ ወኪል</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
@@ -2809,7 +2809,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"/>
+        <translation>ይምረጡ የሚጠቀሙትን የ ወኪል አይነት</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -2869,7 +2869,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="203"/>
         <source>A&amp;ppend language code to the subtitle filename</source>
-        <translation type="unfinished"/>
+        <translation>መ&amp;ጨመሪያ የ ቋንቋ ኮድ ለ ንዑስ አርእስት ኮድ</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="45"/>
@@ -3207,7 +3207,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="139"/>
         <source>Initial Audio Stream</source>
-        <translation type="unfinished"/>
+        <translation>ድምፅ ማስተላለፊያ መጀመሪያ</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="142"/>
@@ -3285,12 +3285,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="117"/>
         <source>Stream title</source>
-        <translation type="unfinished"/>
+        <translation>የ ማስተላለፊያ አርእስት</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="118"/>
         <source>Stream URL</source>
-        <translation type="unfinished"/>
+        <translation>የ ማስተላለፊያ URL</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="81"/>
@@ -3339,7 +3339,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputdvddirectory.ui" line="36"/>
         <source>You can play a DVD from your hard disc. Just select the folder which contains the VIDEO_TS and AUDIO_TS directories.</source>
-        <translation type="unfinished"/>
+        <translation>እርስዎ ማጫወት ይችላሉ ዲቪዲ ከ እርስዎ ሀርድ ዲስክ ውስጥ: ፎልደር ይምረጡ የያዘውን ቪዲዮ_TS እና ድምፅ_TS ዳይሬክቶሪ.</translation>
     </message>
     <message>
         <location filename="../inputdvddirectory.ui" line="69"/>
@@ -3362,12 +3362,12 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputmplayerversion.ui" line="58"/>
         <source>Version reported by MPlayer:</source>
-        <translation type="unfinished"/>
+        <translation>Version reported by MPlayer:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="102"/>
         <source>Please, &amp;select the correct version:</source>
-        <translation type="unfinished"/>
+        <translation>እባክዎን, &amp;ይምረጡ ትክክለኛውን እትም:</translation>
     </message>
     <message>
         <location filename="../inputmplayerversion.ui" line="113"/>
@@ -3390,7 +3390,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../inputurl.ui" line="13"/>
         <source>SMPlayer - Enter URL</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer - ያስገቡ URL</translation>
     </message>
     <message>
         <location filename="../inputurl.ui" line="64"/>
@@ -4046,27 +4046,27 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="294"/>
         <source>Western European Languages</source>
-        <translation type="unfinished"/>
+        <translation>Western European Languages</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished"/>
+        <translation>Western European Languages with Euro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished"/>
+        <translation>Slavic/Central European Languages</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished"/>
+        <translation>Esperanto, Galician, Maltese, Turkish</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="298"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished"/>
+        <translation>Old Baltic charset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="299"/>
@@ -4091,52 +4091,52 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>South-Eastern European</source>
-        <translation type="unfinished"/>
+        <translation>South-Eastern European</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
         <source>Hebrew charsets</source>
-        <translation type="unfinished"/>
+        <translation>Hebrew charsets</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="308"/>
         <source>Ukrainian, Belarusian</source>
-        <translation type="unfinished"/>
+        <translation>Ukrainian, Belarusian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="309"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished"/>
+        <translation>Simplified Chinese charset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="310"/>
         <source>Traditional Chinese charset</source>
-        <translation type="unfinished"/>
+        <translation>Traditional Chinese charset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="311"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished"/>
+        <translation>Japanese charsets</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="312"/>
         <source>Korean charset</source>
-        <translation type="unfinished"/>
+        <translation>Korean charset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="313"/>
         <source>Thai charset</source>
-        <translation type="unfinished"/>
+        <translation>Thai charset</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="314"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished"/>
+        <translation>Cyrillic Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="315"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished"/>
+        <translation>Slavic/Central European Windows</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="316"/>
@@ -4156,315 +4156,315 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="30"/>
         <source>Aragonese</source>
-        <translation type="unfinished"/>
+        <translation>Aragonese</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="33"/>
         <source>Avaric</source>
-        <translation type="unfinished"/>
+        <translation>Avaric</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
         <location filename="../languages.cpp" line="325"/>
         <source>Belarusian</source>
-        <translation type="unfinished"/>
+        <translation>Belarusian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="41"/>
         <source>Bambara</source>
-        <translation type="unfinished"/>
+        <translation>Bambara</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="45"/>
         <source>Bosnian</source>
-        <translation type="unfinished"/>
+        <translation>Bosnian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="47"/>
         <source>Chechen</source>
-        <translation type="unfinished"/>
+        <translation>Chechen</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="49"/>
         <source>Cree</source>
-        <translation type="unfinished"/>
+        <translation>Cree</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="51"/>
         <source>Church</source>
-        <translation type="unfinished"/>
+        <translation>Church</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="52"/>
         <source>Chuvash</source>
-        <translation type="unfinished"/>
+        <translation>Chuvash</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="56"/>
         <source>Divehi</source>
-        <translation type="unfinished"/>
+        <translation>Divehi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="57"/>
         <source>Dzongkha</source>
-        <translation type="unfinished"/>
+        <translation>Dzongkha</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="58"/>
         <source>Ewe</source>
-        <translation type="unfinished"/>
+        <translation>Ewe</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="66"/>
         <source>Fulah</source>
-        <translation type="unfinished"/>
+        <translation>Fulah</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="68"/>
         <source>Fijian</source>
-        <translation type="unfinished"/>
+        <translation>Fijian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="73"/>
         <source>Gaelic</source>
-        <translation type="unfinished"/>
+        <translation>Gaelic</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="77"/>
         <source>Manx</source>
-        <translation type="unfinished"/>
+        <translation>Manx</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="81"/>
         <source>Hiri</source>
-        <translation type="unfinished"/>
+        <translation>Hiri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="83"/>
         <source>Haitian</source>
-        <translation type="unfinished"/>
+        <translation>Haitian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="86"/>
         <source>Herero</source>
-        <translation type="unfinished"/>
+        <translation>Herero</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="87"/>
         <source>Chamorro</source>
-        <translation type="unfinished"/>
+        <translation>Chamorro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="91"/>
         <source>Igbo</source>
-        <translation type="unfinished"/>
+        <translation>Igbo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="92"/>
         <source>Sichuan</source>
-        <translation type="unfinished"/>
+        <translation>Sichuan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="93"/>
         <source>Inupiaq</source>
-        <translation type="unfinished"/>
+        <translation>Inupiaq</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="94"/>
         <source>Ido</source>
-        <translation type="unfinished"/>
+        <translation>Ido</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="101"/>
         <source>Kongo</source>
-        <translation type="unfinished"/>
+        <translation>Kongo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="102"/>
         <source>Kikuyu</source>
-        <translation type="unfinished"/>
+        <translation>Kikuyu</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="103"/>
         <source>Kuanyama</source>
-        <translation type="unfinished"/>
+        <translation>Kuanyama</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="106"/>
         <source>Khmer</source>
-        <translation type="unfinished"/>
+        <translation>Khmer</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="109"/>
         <source>Kanuri</source>
-        <translation type="unfinished"/>
+        <translation>Kanuri</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="112"/>
         <source>Komi</source>
-        <translation type="unfinished"/>
+        <translation>Komi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="113"/>
         <source>Cornish</source>
-        <translation type="unfinished"/>
+        <translation>Cornish</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="116"/>
         <source>Luxembourgish</source>
-        <translation type="unfinished"/>
+        <translation>Luxembourgish</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="117"/>
         <source>Ganda</source>
-        <translation type="unfinished"/>
+        <translation>Ganda</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="118"/>
         <source>Limburgan</source>
-        <translation type="unfinished"/>
+        <translation>Limburgan</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="120"/>
         <source>Lao</source>
-        <translation type="unfinished"/>
+        <translation>Lao</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="122"/>
         <source>Luba-Katanga</source>
-        <translation type="unfinished"/>
+        <translation>Luba-Katanga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="125"/>
         <source>Marshallese</source>
-        <translation type="unfinished"/>
+        <translation>Marshallese</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="136"/>
         <source>Bokmål</source>
-        <translation type="unfinished"/>
+        <translation>Bokmål</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="137"/>
         <location filename="../languages.cpp" line="143"/>
         <source>Ndebele</source>
-        <translation type="unfinished"/>
+        <translation>Ndebele</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="139"/>
         <source>Ndonga</source>
-        <translation type="unfinished"/>
+        <translation>Ndonga</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="144"/>
         <source>Navajo</source>
-        <translation type="unfinished"/>
+        <translation>Navajo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="145"/>
         <source>Chichewa</source>
-        <translation type="unfinished"/>
+        <translation>Chichewa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="147"/>
         <source>Ojibwa</source>
-        <translation type="unfinished"/>
+        <translation>Ojibwa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="148"/>
         <source>Oromo</source>
-        <translation type="unfinished"/>
+        <translation>Oromo</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="150"/>
         <source>Ossetian</source>
-        <translation type="unfinished"/>
+        <translation>Ossetian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="151"/>
         <source>Panjabi</source>
-        <translation type="unfinished"/>
+        <translation>Panjabi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="152"/>
         <source>Pali</source>
-        <translation type="unfinished"/>
+        <translation>Pali</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="154"/>
         <source>Pushto</source>
-        <translation type="unfinished"/>
+        <translation>Pushto</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="157"/>
         <source>Romansh</source>
-        <translation type="unfinished"/>
+        <translation>Romansh</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="158"/>
         <source>Rundi</source>
-        <translation type="unfinished"/>
+        <translation>Rundi</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="163"/>
         <source>Sardinian</source>
-        <translation type="unfinished"/>
+        <translation>Sardinian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="165"/>
         <source>Sami</source>
-        <translation type="unfinished"/>
+        <translation>Sami</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="166"/>
         <source>Sango</source>
-        <translation type="unfinished"/>
+        <translation>Sango</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="167"/>
         <source>Sinhala</source>
-        <translation type="unfinished"/>
+        <translation>Sinhala</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
         <location filename="../languages.cpp" line="336"/>
         <source>Slovene</source>
-        <translation type="unfinished"/>
+        <translation>Slovene</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="175"/>
         <source>Swati</source>
-        <translation type="unfinished"/>
+        <translation>Swati</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="176"/>
         <source>Sotho</source>
-        <translation type="unfinished"/>
+        <translation>Sotho</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="187"/>
         <source>Tswana</source>
-        <translation type="unfinished"/>
+        <translation>Tswana</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="193"/>
         <source>Tahitian</source>
-        <translation type="unfinished"/>
+        <translation>Tahitian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="198"/>
         <source>Venda</source>
-        <translation type="unfinished"/>
+        <translation>Venda</translation>
     </message>
     <message utf8="true">
         <location filename="../languages.cpp" line="200"/>
         <source>Volapük</source>
-        <translation type="unfinished"/>
+        <translation>Volapük</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="201"/>
         <source>Walloon</source>
-        <translation type="unfinished"/>
+        <translation>Walloon</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="317"/>
@@ -4558,12 +4558,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
         <source>Estimated:</source>
-        <translation type="unfinished"/>
+        <translation>የ ተገመተው:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"/>
+        <translation>ማነፃፀሪያ መጠን:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
@@ -4837,7 +4837,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="658"/>
         <source>Download playlist from URL</source>
-        <translation type="unfinished"/>
+        <translation>የ ማጫወቻ ዝርዝር ከ URL ማውረጃ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="660"/>
@@ -4918,12 +4918,12 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="690"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>&amp;ካፒ ማድረጊያ የ ፋይል መንገድ ወደ ቁራጭ ሰሌዳ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="691"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"/>
+        <translation>&amp;መክፈቻ የ ምንጭ ፎልደር </translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="693"/>
@@ -4939,17 +4939,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="697"/>
         <source>Show position column</source>
-        <translation type="unfinished"/>
+        <translation>የ አምድ ቦታ ማሳያ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="698"/>
         <source>Show name column</source>
-        <translation type="unfinished"/>
+        <translation>የ አምድ ስም ማሳያ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="699"/>
         <source>Show length column</source>
-        <translation type="unfinished"/>
+        <translation>የ አምድ እርዝመት ማሳያ</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="700"/>
