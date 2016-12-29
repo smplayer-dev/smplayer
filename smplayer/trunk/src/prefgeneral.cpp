@@ -66,7 +66,7 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 	alsa_devices = DeviceInfo::alsaDevices();
 #endif
 #if USE_MPV_ALSA_DEVICES
-	mpv_alsa_devices = DeviceInfo::mpvAudioDevices("alsa");
+	mpv_alsa_devices = DeviceInfo::mpvAlsaDevices();
 #endif
 #if USE_PULSEAUDIO_DEVICES
 	pa_devices = DeviceInfo::paDevices();

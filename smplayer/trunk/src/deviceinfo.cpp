@@ -199,6 +199,15 @@ DeviceList DeviceInfo::paDevices() {
 #if MPV_AUDIO_DEVICES
 QString DeviceInfo::mpv_bin;
 
+#if USE_MPV_ALSA_DEVICES
+DeviceList DeviceInfo::mpvAlsaDevices() {
+	static DeviceList l;
+	if (!l.isEmpty()) return l;
+	l = mpvAudioDevices("alsa");
+	return l;
+}
+#endif
+
 DeviceList DeviceInfo::mpvAudioDevices(const QString & filter) {
 	DeviceList l;
 	if (!mpv_bin.isEmpty()) l = mpvAudioDevices(mpv_bin, filter);
