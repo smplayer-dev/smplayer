@@ -19,6 +19,7 @@
 #include <QDir>
 #include <QDebug>
 #include "inforeader.h"
+#include "deviceinfo.h"
 
 void MPVProcess::addArgument(const QString & /*a*/) {
 }
@@ -344,7 +345,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		QString ao = value.toString();
 
 		QStringList l;
-		if (ao.contains(":")) l = PlayerProcess::extractDevice(ao);
+		if (ao.contains(":")) l = DeviceInfo::extractDevice(ao);
 		if (l.count() > 0) ao = l[0];
 
 		if (isOptionAvailable("--audio-device")) {
@@ -353,6 +354,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 				if (l[0] == "pulse") {
 					arg << "--audio-device=pulse/" + l[2];
 				}
+				#if USE_MPV_ALSA_DEVICES
+				else
+				if (l[0] == "alsa") {
+					arg << "--audio-device=alsa/" + l[2];
+				}
+				#endif
 				#else
 				if (l[0] == "dsound") {
 					arg << "--audio-device=dsound/" + l[1];

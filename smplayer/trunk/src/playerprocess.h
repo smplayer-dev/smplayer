@@ -137,7 +137,6 @@ public:
 
 	static PlayerProcess * createPlayerProcess(const QString & player_bin, QObject * parent = 0);
 
-	static QStringList extractDevice(const QString & s);
 
 // Signals
 signals:

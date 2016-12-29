@@ -65,6 +65,9 @@ PrefGeneral::PrefGeneral(QWidget * parent, Qt::WindowFlags f)
 #if USE_ALSA_DEVICES
 	alsa_devices = DeviceInfo::alsaDevices();
 #endif
+#if USE_MPV_ALSA_DEVICES
+	mpv_alsa_devices = DeviceInfo::mpvAudioDevices("alsa");
+#endif
 #if USE_PULSEAUDIO_DEVICES
 	pa_devices = DeviceInfo::paDevices();
 #endif
@@ -472,27 +475,32 @@ void PrefGeneral::updateDriverCombos() {
 	for ( int n = 0; n < ao_list.count(); n++) {
 		ao = ao_list[n].name();
 		ao_combo->addItem( ao, ao );
+		/*
 		#ifdef Q_OS_OS2
 		if ( ao == "kai") {
 			ao_combo->addItem( "kai (" + tr("uniaud mode") + ")", "kai:uniaud" );
 			ao_combo->addItem( "kai (" + tr("dart mode") + ")", "kai:dart" );
 		}
 		#endif
+		*/
 		#if USE_ALSA_DEVICES
 		if ((ao == "alsa") && (!alsa_devices.isEmpty())) {
 			for (int n=0; n < alsa_devices.count(); n++) {
-				QString id = alsa_devices[n].ID().toString();
-				QString name = alsa_devices[n].desc();
-				ao_combo->addItem( "alsa (" + id + " - " + name + ")", "alsa:" + id + ":" + name );
+				ao_combo->addItem( DeviceInfo::printableName("alsa", alsa_devices[n]), DeviceInfo::internalName("alsa", alsa_devices[n]) );
+			}
+		}
+		#endif
+		#if USE_MPV_ALSA_DEVICES
+		if ((ao == "alsa") && (!mpv_alsa_devices.isEmpty())) {
+			for (int n=0; n < mpv_alsa_devices.count(); n++) {
+				ao_combo->addItem( DeviceInfo::printableName("alsa", mpv_alsa_devices[n]), DeviceInfo::internalName("alsa", mpv_alsa_devices[n]) );
 			}
 		}
 		#endif
 		#if USE_PULSEAUDIO_DEVICES
 		if ((ao == "pulse") && (!pa_devices.isEmpty())) {
 			for (int n=0; n < pa_devices.count(); n++) {
-				QString id = pa_devices[n].ID().toString();
-				QString name = pa_devices[n].desc();
-				ao_combo->addItem( "pulse (" + id + " - " + name + ")", "pulse:" + id + ":" + name );
+				ao_combo->addItem( DeviceInfo::printableName("pulse", pa_devices[n]), DeviceInfo::internalName("pulse", pa_devices[n]) );
 			}
 		}
 		#endif
