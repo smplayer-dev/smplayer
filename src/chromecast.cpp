@@ -64,4 +64,13 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 		}
 	}
 	qDebug() << "Chromecast::openLocal: chosen address:" << local_address;
+
+	if (!local_address.isEmpty()) {
+		QString url = local_address + ":8000/" + filename;
+		qDebug() << "Chromecast::openLocal: url:" << url;
+		/*
+		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
+			"&url=" + url.toUtf8().toBase64()));
+		*/
+	}
 }
