@@ -229,6 +229,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 BaseGuiPlus::~BaseGuiPlus() {
 	saveConfig();
 	tray->hide();
+
+#ifdef CHROMECAST_SUPPORT
+	Chromecast::deleteInstance();
+#endif
 }
 
 void BaseGuiPlus::populateMainMenu() {
