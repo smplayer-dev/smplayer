@@ -25,6 +25,7 @@
 
 #ifdef Q_OS_WIN
 #define USE_DSOUND_DEVICES 1
+#define USE_MPV_WASAPI_DEVICES 1
 #else
 #define USE_ALSA_DEVICES 0
 #define USE_MPV_ALSA_DEVICES 0
@@ -32,7 +33,7 @@
 #define USE_XV_ADAPTORS 1
 #endif
 
-#if defined(USE_MPV_ALSA_DEVICES)
+#if defined(USE_MPV_ALSA_DEVICES) || defined(USE_MPV_WASAPI_DEVICES)
 #define MPV_AUDIO_DEVICES 1
 #endif
 
@@ -87,6 +88,10 @@ public:
 
 	#if USE_MPV_ALSA_DEVICES
 	static DeviceList mpvAlsaDevices();
+	#endif
+	
+	#if USE_MPV_WASAPI_DEVICES
+	static DeviceList mpvWasapiDevices();
 	#endif
 
 	static DeviceList mpvAudioDevices(const QString & mpv_bin, const QString & filter);

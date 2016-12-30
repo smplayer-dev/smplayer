@@ -364,6 +364,10 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 				if (l[0] == "dsound") {
 					arg << "--audio-device=dsound/" + l[1];
 				}
+				else
+				if (l[0] == "wasapi") {
+					arg << "--audio-device=wasapi/" + l[1];
+				}
 				#endif
 			}
 		} else {

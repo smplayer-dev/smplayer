@@ -196,60 +196,6 @@ DeviceList DeviceInfo::paDevices() {
 }
 #endif // USE_PULSEAUDIO_DEVICES
 
-#if MPV_AUDIO_DEVICES
-QString DeviceInfo::mpv_bin;
-
-#if USE_MPV_ALSA_DEVICES
-DeviceList DeviceInfo::mpvAlsaDevices() {
-	static DeviceList l;
-	if (!l.isEmpty()) return l;
-	l = mpvAudioDevices("alsa");
-	return l;
-}
-#endif
-
-DeviceList DeviceInfo::mpvAudioDevices(const QString & filter) {
-	DeviceList l;
-	if (!mpv_bin.isEmpty()) l = mpvAudioDevices(mpv_bin, filter);
-	return l;
-}
-
-DeviceList DeviceInfo::mpvAudioDevices(const QString & mpv_bin, const QString & filter) {
-	qDebug("DeviceInfo::mpvAudioDevices");
-
-	DeviceList l;
-
-	QRegExp rx("'" + filter + "\\/(.*)'\\s+\\((.*)\\)");
-
-	QProcess p;
-	p.setProcessChannelMode( QProcess::MergedChannels );
-
-	p.start(mpv_bin, QStringList() << "--audio-device=help");
-
-	QString device;
-	QString name;
-	//int index = 0;
-
-	if (p.waitForFinished()) {
-		QString line;
-		while (p.canReadLine()) {
-			line = QString::fromUtf8(p.readLine().trimmed());
-			qDebug() << "DeviceInfo::mpvAudioDevices:" << line;
-
-			if (rx.indexIn(line) > -1 ) {
-				device = rx.cap(1);
-				name = rx.cap(2);
-				qDebug() << "DeviceInfo::mpvAudioDevices: device:" << device << "name:" << name;
-				l.append( DeviceData(device, name) );
-				//index++;
-			}
-		}
-	}
-
-	return l;
-}
-#endif
-
 #if USE_ALSA_DEVICES
 DeviceList DeviceInfo::alsaDevices() {
 	qDebug("DeviceInfo::alsaDevices");
@@ -343,6 +289,69 @@ DeviceList DeviceInfo::xvAdaptors() {
 	return l;
 }
 #endif
+#endif
+
+#if MPV_AUDIO_DEVICES
+QString DeviceInfo::mpv_bin;
+
+#if USE_MPV_ALSA_DEVICES
+DeviceList DeviceInfo::mpvAlsaDevices() {
+	static DeviceList l;
+	if (!l.isEmpty()) return l;
+	l = mpvAudioDevices("alsa");
+	return l;
+}
+#endif
+
+#if USE_MPV_WASAPI_DEVICES
+DeviceList DeviceInfo::mpvWasapiDevices() {
+	static DeviceList l;
+	if (!l.isEmpty()) return l;
+	l = mpvAudioDevices("wasapi");
+	return l;
+}
+#endif
+	
+DeviceList DeviceInfo::mpvAudioDevices(const QString & filter) {
+	DeviceList l;
+	if (!mpv_bin.isEmpty()) l = mpvAudioDevices(mpv_bin, filter);
+	return l;
+}
+
+DeviceList DeviceInfo::mpvAudioDevices(const QString & mpv_bin, const QString & filter) {
+	qDebug("DeviceInfo::mpvAudioDevices");
+
+	DeviceList l;
+
+	QRegExp rx("'" + filter + "\\/(.*)'\\s+\\((.*)\\)");
+
+	QProcess p;
+	p.setProcessChannelMode( QProcess::MergedChannels );
+
+	p.start(mpv_bin, QStringList() << "--audio-device=help");
+
+	QString device;
+	QString name;
+	//int index = 0;
+
+	if (p.waitForFinished()) {
+		QString line;
+		while (p.canReadLine()) {
+			line = QString::fromUtf8(p.readLine().trimmed());
+			qDebug() << "DeviceInfo::mpvAudioDevices:" << line;
+
+			if (rx.indexIn(line) > -1 ) {
+				device = rx.cap(1);
+				name = rx.cap(2);
+				qDebug() << "DeviceInfo::mpvAudioDevices: device:" << device << "name:" << name;
+				l.append( DeviceData(device, name) );
+				//index++;
+			}
+		}
+	}
+
+	return l;
+}
 #endif
 
 #ifdef CACHE_DEVICE_INFO
