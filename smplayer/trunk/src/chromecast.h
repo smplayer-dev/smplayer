@@ -39,15 +39,20 @@ public:
 	static QStringList localAddresses();
 	static QString defaultLocalAddress();
 
-	void startServer(const QString & doc_root);
-	void stopServer();
+	void setServerPort(int port) { server_port = port; };
+	int serverPort() { return server_port; };
 
 protected:
-	QProcess * server_process;
+	void startServer(const QString & doc_root);
+	void stopServer();
 
 protected slots:
 	void readProcessOutput();
 	void processFinished(int exit_code, QProcess::ExitStatus exit_status);
+
+protected:
+	QProcess * server_process;
+	int server_port;
 
 private:
 	static Chromecast * instance_obj;

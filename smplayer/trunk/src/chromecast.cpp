@@ -44,6 +44,7 @@ void Chromecast::deleteInstance() {
 Chromecast::Chromecast(QObject * parent)
 	: QObject(parent)
 	, server_process(0)
+	, server_port(8010)
 {
 }
 
@@ -75,13 +76,11 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 		// Run web server
 		startServer(dir);
 
-
-		QString url = local_address + ":8000/" + filename;
+		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + filename;
 		qDebug() << "Chromecast::openLocal: url:" << url;
-		/*
+
 		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
 			"&url=" + url.toUtf8().toBase64()));
-		*/
 	}
 }
 
@@ -119,6 +118,8 @@ void Chromecast::startServer(const QString & doc_root) {
 #ifdef Q_OS_LINUX
 	qDebug("Chromecast::startServer");
 
+	static QString last_doc_root;
+
 	if (server_process == 0) {
 		server_process = new QProcess(this);
 		server_process->setProcessChannelMode( QProcess::MergedChannels );
@@ -126,17 +127,21 @@ void Chromecast::startServer(const QString & doc_root) {
 		connect(server_process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int, QProcess::ExitStatus)));
 	}
 
-	if (server_process->state() != QProcess::NotRunning) {
-		//stopServer();
+	if (server_process->state() == QProcess::Running && last_doc_root == doc_root) {
+		return;
+	} else {
+		stopServer();
 	}
 
 	QString prog;
 	QStringList args;
 
 	prog = "webfsd";
-	args << "-F" << "-d" << "-4" << "-p" << "8010" << "-r" << doc_root;
+	args << "-F" << "-d" << "-4" << "-p" << QString::number(server_port) << "-r" << doc_root;
 
 	server_process->start(prog, args);
+
+	last_doc_root = doc_root;
 #endif
 }
 
