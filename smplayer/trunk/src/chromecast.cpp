@@ -33,7 +33,7 @@ Chromecast * Chromecast::instance() {
 	return instance_obj;
 }
 
-Chromecast::Chromecast() {
+Chromecast::Chromecast(QObject * parent) : QObject(parent) {
 }
 
 Chromecast::~Chromecast() {
@@ -54,16 +54,7 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 	qDebug() << "Chromecast::openLocal: dir:" << dir;
 	qDebug() << "Chromecast::openLocal: filename:" << filename;
 
-	QString local_address;
-	foreach(const QHostAddress &address, QNetworkInterface::allAddresses()) {
-		if (address.protocol() == QAbstractSocket::IPv4Protocol) {
-			QString s_address = address.toString();
-			qDebug() << "Chromecast::openLocal: address:" << s_address;
-			if (address != QHostAddress(QHostAddress::LocalHost) && s_address.startsWith("192.") && !s_address.endsWith(".1")) {
-				if (local_address.isEmpty()) local_address = s_address;
-			}
-		}
-	}
+	QString local_address = defaultLocalAddress();
 	qDebug() << "Chromecast::openLocal: chosen address:" << local_address;
 
 	if (!local_address.isEmpty()) {
@@ -75,3 +66,35 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 		*/
 	}
 }
+
+QStringList Chromecast::localAddresses() {
+	QStringList l;
+
+	foreach(const QHostAddress &address, QNetworkInterface::allAddresses()) {
+		if (address.protocol() == QAbstractSocket::IPv4Protocol && address != QHostAddress(QHostAddress::LocalHost)) {
+			l << address.toString();
+		}
+	}
+
+	return l;
+}
+
+QString Chromecast::defaultLocalAddress() {
+	QString local_address;
+
+	QStringList addresses = localAddresses();
+	qDebug() << "Chromecast::defaultLocalAddress: all IPv4 addresses:" << addresses;
+
+	foreach(QString address, addresses) {
+		//qDebug() << "Chromecast::defaultLocalAddress: address:" << address;
+		if (address.startsWith("192.") && !address.endsWith(".1")) {
+			local_address = address;
+			break;
+		}
+	}
+
+	if (local_address.isEmpty() && !addresses.isEmpty()) local_address = addresses[0];
+	return local_address;
+}
+
+#include "moc_chromecast.cpp"

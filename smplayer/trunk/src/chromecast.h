@@ -20,17 +20,23 @@
 #define CHROMECAST_H
 
 #include <QString>
+#include <QStringList>
 
-class Chromecast {
+class Chromecast : public QObject {
+	Q_OBJECT
 
 public:
-	Chromecast();
+	Chromecast(QObject * parent = 0);
 	~Chromecast();
 
 	void openStream(const QString & url, const QString & title);
 	void openLocal(const QString & file, const QString & title);
 
 	static Chromecast * instance();
+
+
+	static QStringList localAddresses();
+	static QString defaultLocalAddress();
 
 private:
 	static Chromecast * instance_obj;
