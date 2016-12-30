@@ -228,7 +228,7 @@ DeviceList DeviceInfo::mpvAudioDevices(const QString & mpv_bin, const QString & 
 
 	QString device;
 	QString name;
-	int index = 0;
+	//int index = 0;
 
 	if (p.waitForFinished()) {
 		QString line;
@@ -240,8 +240,8 @@ DeviceList DeviceInfo::mpvAudioDevices(const QString & mpv_bin, const QString & 
 				device = rx.cap(1);
 				name = rx.cap(2);
 				qDebug() << "DeviceInfo::mpvAudioDevices: device:" << device << "name:" << name;
-				l.append( DeviceData(index, device) );
-				index++;
+				l.append( DeviceData(device, name) );
+				//index++;
 			}
 		}
 	}
@@ -382,7 +382,8 @@ QString DeviceInfo::internalName(const QString & driver_name, const DeviceData &
 }
 
 QString DeviceInfo::printableName(const QString & driver_name, const QString & id, const QString & desc) {
-	return driver_name +" (" + id + " - " + desc + ")";
+	Q_UNUSED(id);
+	return driver_name +" (" + /* id + " - " + */ desc + ")";
 }
 
 QString DeviceInfo::internalName(const QString & driver_name, const QString & id, const QString & desc) {

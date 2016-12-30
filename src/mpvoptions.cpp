@@ -357,7 +357,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 				#if USE_MPV_ALSA_DEVICES
 				else
 				if (l[0] == "alsa") {
-					arg << "--audio-device=alsa/" + l[2];
+					arg << "--audio-device=alsa/" + l[1];
 				}
 				#endif
 				#else
