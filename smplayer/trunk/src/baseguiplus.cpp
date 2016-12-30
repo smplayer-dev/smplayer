@@ -1018,10 +1018,17 @@ void BaseGuiPlus::updateSendAudioMenu() {
 	addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound");
 #endif
 
-#if USE_MPV_ALSA_DEVICES
+#if MPV_AUDIO_DEVICES
 	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
 		DeviceInfo::setMpvBin(pref->mplayer_bin);
+		
+		#if USE_MPV_ALSA_DEVICES
 		addListToSendAudioMenu( DeviceInfo::mpvAlsaDevices(), "alsa");
+		#endif
+		
+		#if USE_MPV_WASAPI_DEVICES	
+		addListToSendAudioMenu( DeviceInfo::mpvWasapiDevices(), "wasapi");
+		#endif
 	}
 #endif
 }
