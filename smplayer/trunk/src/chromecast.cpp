@@ -57,9 +57,10 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 	QString local_address;
 	foreach(const QHostAddress &address, QNetworkInterface::allAddresses()) {
 		if (address.protocol() == QAbstractSocket::IPv4Protocol) {
-			qDebug() << "Chromecast::openLocal: address:" << address.toString();
-			if (address != QHostAddress(QHostAddress::LocalHost) && !address.toString().endsWith(".1")) {
-				if (local_address.isEmpty()) local_address = address.toString();
+			QString s_address = address.toString();
+			qDebug() << "Chromecast::openLocal: address:" << s_address;
+			if (address != QHostAddress(QHostAddress::LocalHost) && s_address.startsWith("192.") && !s_address.endsWith(".1")) {
+				if (local_address.isEmpty()) local_address = s_address;
 			}
 		}
 	}
