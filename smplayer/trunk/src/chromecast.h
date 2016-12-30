@@ -21,6 +21,7 @@
 
 #include <QString>
 #include <QStringList>
+#include <QProcess>
 
 class Chromecast : public QObject {
 	Q_OBJECT
@@ -33,10 +34,20 @@ public:
 	void openLocal(const QString & file, const QString & title);
 
 	static Chromecast * instance();
-
+	static void deleteInstance();
 
 	static QStringList localAddresses();
 	static QString defaultLocalAddress();
+
+	void startServer(const QString & doc_root);
+	void stopServer();
+
+protected:
+	QProcess * server_process;
+
+protected slots:
+	void readProcessOutput();
+	void processFinished(int exit_code, QProcess::ExitStatus exit_status);
 
 private:
 	static Chromecast * instance_obj;

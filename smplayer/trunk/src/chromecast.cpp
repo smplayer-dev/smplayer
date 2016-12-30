@@ -22,6 +22,7 @@
 #include <QFileInfo>
 #include <QDesktopServices>
 #include <QNetworkInterface>
+#include <QProcess>
 #include <QDebug>
 
 Chromecast * Chromecast::instance_obj = 0;
@@ -33,10 +34,23 @@ Chromecast * Chromecast::instance() {
 	return instance_obj;
 }
 
-Chromecast::Chromecast(QObject * parent) : QObject(parent) {
+void Chromecast::deleteInstance() {
+	if (instance_obj) {
+		delete instance_obj;
+	}
+}
+
+
+Chromecast::Chromecast(QObject * parent)
+	: QObject(parent)
+	, server_process(0)
+{
 }
 
 Chromecast::~Chromecast() {
+	if (server_process) {
+		stopServer();
+	}
 }
 
 void Chromecast::openStream(const QString & url, const QString & title) {
@@ -58,6 +72,10 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 	qDebug() << "Chromecast::openLocal: chosen address:" << local_address;
 
 	if (!local_address.isEmpty()) {
+		// Run web server
+		startServer(dir);
+
+
 		QString url = local_address + ":8000/" + filename;
 		qDebug() << "Chromecast::openLocal: url:" << url;
 		/*
@@ -95,6 +113,56 @@ QString Chromecast::defaultLocalAddress() {
 
 	if (local_address.isEmpty() && !addresses.isEmpty()) local_address = addresses[0];
 	return local_address;
+}
+
+void Chromecast::startServer(const QString & doc_root) {
+#ifdef Q_OS_LINUX
+	qDebug("Chromecast::startServer");
+
+	if (server_process == 0) {
+		server_process = new QProcess(this);
+		server_process->setProcessChannelMode( QProcess::MergedChannels );
+		connect(server_process, SIGNAL(readyReadStandardOutput()), this, SLOT(readProcessOutput()));
+		connect(server_process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int, QProcess::ExitStatus)));
+	}
+
+	if (server_process->state() != QProcess::NotRunning) {
+		//stopServer();
+	}
+
+	QString prog;
+	QStringList args;
+
+	prog = "webfsd";
+	args << "-F" << "-d" << "-4" << "-p" << "8010" << "-r" << doc_root;
+
+	server_process->start(prog, args);
+#endif
+}
+
+
+void Chromecast::stopServer() {
+	qDebug("Chromecast::stopServer");
+
+	if (server_process) {
+		server_process->terminate();
+		if (!server_process->waitForFinished(5000)) {
+			server_process->kill();
+		}
+	}
+}
+
+// Slots
+void Chromecast::readProcessOutput() {
+	QByteArray line;
+	while (server_process->canReadLine()) {
+		line = server_process->readLine().trimmed();
+		qDebug() << "Chromecast::readProcessOutput: line:" << line;
+	}
+}
+
+void Chromecast::processFinished(int exit_code, QProcess::ExitStatus exit_status) {
+	qDebug() << "Chromecast::processFinished: exit_code:" << exit_code << "exit_status:" << exit_status;
 }
 
 #include "moc_chromecast.cpp"
