@@ -1053,7 +1053,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Faire un don</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1289,42 +1289,42 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Soutenir SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Faire un don</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation>Non</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer a besoin de vous</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer est un logiciel gratuit. Cependant sont développement demande beaucoup de temps et de travail.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4502"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"/>
+        <translation>Afin que nous puissions continuer à développer de nouvelles fonctionnalités pour SMPlayer, nous avons besoin de votre aide.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4503"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"/>
+        <translation>Pensez à soutenir le projet SMPlayer en envoyant un don.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4504"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"/>
+        <translation>Même une petite somme aidera beaucoup.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4993"/>
@@ -2424,12 +2424,12 @@ Information concernant les écrans connectés</translation>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"/>
+        <translation>Info &amp;débit binaire</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Afficher le temps actuel en millisecondes</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2460,7 +2460,7 @@ Information concernant les écrans connectés</translation>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"/>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -4925,17 +4925,17 @@ Voulez vous l&apos;écraser?</translation>
         <location filename="../playlist.cpp" line="690"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copier le chemin de fichier dans le presse papier</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="691"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Ouvrir le répertoire de la source</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="693"/>
         <source>Play stream in chromec&amp;ast</source>
-        <translation type="unfinished"/>
+        <translation>Jouer le flux dans chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="695"/>
@@ -4966,7 +4966,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../playlist.cpp" line="1416"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Copier l&apos;URL dans le presse papier</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1880"/>
@@ -5090,7 +5090,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="213"/>
         <source>Color&amp;key:</source>
-        <translation type="unfinished"/>
+        <translation>Couleur &amp;clé :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="311"/>
@@ -7350,17 +7350,17 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"/>
+        <translation>Haute &amp;résolution</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer peut adapter la taille de l&apos;interface pour les écrans à haute résolution. Ici, vous pouvez désactiver cette fonction ou modifier le facteur d&apos;échelle.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Activer le support des écrans à haute résolution</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -9597,7 +9597,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation>Donner avec PayPal</translation>
+        <translation>Faire un don avec PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
@@ -9610,7 +9610,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Donate with PayPal</source>
-        <translation>Donner avec PayPal</translation>
+        <translation>Faire un don avec PayPal</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
