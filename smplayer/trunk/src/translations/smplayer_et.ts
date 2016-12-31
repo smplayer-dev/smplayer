@@ -1053,7 +1053,7 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Anneta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1289,22 +1289,22 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Toeta SMPlayerit</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Anneta</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation>Ei</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer vajab sind</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
@@ -9244,7 +9244,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"/>
+        <translation>Ülerealaotuse eemaldamine vaikimisi TV puhul</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
@@ -9264,7 +9264,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"/>
+        <translation>Ü&amp;lerealaotuse eemaldamine vaikimisi TV puhul</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
@@ -9282,7 +9282,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefupdates.ui" line="24"/>
         <source>U&amp;pdates</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Uuendused</translation>
     </message>
     <message>
         <location filename="../prefupdates.ui" line="30"/>
@@ -9317,12 +9317,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
         <source>Check interval</source>
-        <translation type="unfinished"/>
+        <translation>Kontrollimise ajavahemik</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"/>
+        <translation>Sisesta ajavahemik päevades, mille järel uuendusi kontrollitakse.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
@@ -9345,7 +9345,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Olgu</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
@@ -10185,7 +10185,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="323"/>
         <source>&amp;Reset</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Lähtesta</translation>
     </message>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
