@@ -26,7 +26,7 @@
 #include <QDir>
 #include <QDebug>
 
-//#define SERVE_FILE_DIR_ONLY
+#define SERVE_FILE_DIR_ONLY
 
 Chromecast * Chromecast::instance_obj = 0;
 
