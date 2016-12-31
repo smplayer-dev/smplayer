@@ -23,7 +23,10 @@
 #include <QDesktopServices>
 #include <QNetworkInterface>
 #include <QProcess>
+#include <QDir>
 #include <QDebug>
+
+//#define SERVE_FILE_DIR_ONLY
 
 Chromecast * Chromecast::instance_obj = 0;
 
@@ -74,9 +77,15 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 
 	if (!local_address.isEmpty()) {
 		// Run web server
-		startServer(dir);
 
+		#ifdef SERVE_FILE_DIR_ONLY
+		startServer(dir);
 		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + filename;
+		#else
+		startServer(QDir::rootPath());
+		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + fi.absoluteFilePath();
+		#endif
+
 		qDebug() << "Chromecast::openLocal: url:" << url;
 
 		#if 1
