@@ -126,6 +126,7 @@ void Chromecast::startServer(const QString & doc_root) {
 		server_process->setProcessChannelMode( QProcess::MergedChannels );
 		connect(server_process, SIGNAL(readyReadStandardOutput()), this, SLOT(readProcessOutput()));
 		connect(server_process, SIGNAL(finished(int, QProcess::ExitStatus)), this, SLOT(processFinished(int, QProcess::ExitStatus)));
+		connect(server_process, SIGNAL(error(QProcess::ProcessError)), this, SLOT(processError(QProcess::ProcessError)));
 	}
 
 	if (server_process->state() == QProcess::Running) {
@@ -181,6 +182,10 @@ void Chromecast::readProcessOutput() {
 
 void Chromecast::processFinished(int exit_code, QProcess::ExitStatus exit_status) {
 	qDebug() << "Chromecast::processFinished: exit_code:" << exit_code << "exit_status:" << exit_status;
+}
+
+void Chromecast::processError(QProcess::ProcessError error) {
+	qDebug() << "Chromecast::processError:" << error;
 }
 
 #include "moc_chromecast.cpp"
