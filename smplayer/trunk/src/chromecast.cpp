@@ -117,7 +117,6 @@ QString Chromecast::defaultLocalAddress() {
 }
 
 void Chromecast::startServer(const QString & doc_root) {
-#ifdef Q_OS_LINUX
 	qDebug("Chromecast::startServer");
 
 	static QString last_doc_root;
@@ -140,11 +139,11 @@ void Chromecast::startServer(const QString & doc_root) {
 	QString prog;
 	QStringList args;
 
-#if 1
+#ifndef Q_OS_WIN
 	prog = "webfsd";
 	args << "-F" << "-d" << "-4" << "-p" << QString::number(server_port) << "-r" << doc_root;
 #else
-	prog = "simple_web_server";
+	prog = "simple_web_server.exe";
 	args << "-p" << QString::number(server_port) << "-r" << doc_root;
 #endif
 
@@ -156,7 +155,6 @@ void Chromecast::startServer(const QString & doc_root) {
 	server_process->start(prog, args);
 
 	last_doc_root = doc_root;
-#endif
 }
 
 
@@ -167,6 +165,7 @@ void Chromecast::stopServer() {
 		server_process->terminate();
 		if (!server_process->waitForFinished(5000)) {
 			server_process->kill();
+			server_process->waitForFinished();
 		}
 	}
 }
