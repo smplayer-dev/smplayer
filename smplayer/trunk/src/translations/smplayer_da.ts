@@ -1053,7 +1053,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Donér</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1289,42 +1289,42 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Støt SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Donér</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation>Nej</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer har brug for dig</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer er fri software. Udviklingen kræver dog en masse tid og en masse arbejde.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4502"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"/>
+        <translation>Vi har brug for din hjælp til fortsat at udvikle SMPlayer med nye faciliteter. </translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4503"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"/>
+        <translation>Overvej venligst at støtte SMPlayer-projektet ved at sende en donation.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4504"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"/>
+        <translation>Selv det mindre beløb vil hjælpe meget.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4993"/>
@@ -2423,12 +2423,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Bithastighedinfo</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Vis den nuværende tid med millisekunder</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2459,7 +2459,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"/>
+        <translation>V: %1 kbps L: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -4924,17 +4924,17 @@ Vil du overskrive den?</translation>
         <location filename="../playlist.cpp" line="690"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kopiér filsti til udklipsholder</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="691"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Åbn kildemappe</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="693"/>
         <source>Play stream in chromec&amp;ast</source>
-        <translation type="unfinished"/>
+        <translation>Afspil strøm i &amp;chromecast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="695"/>
@@ -4965,7 +4965,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../playlist.cpp" line="1416"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Kopiér URL til udklipsholder</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1880"/>
