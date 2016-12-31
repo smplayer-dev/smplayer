@@ -49,6 +49,7 @@ protected:
 protected slots:
 	void readProcessOutput();
 	void processFinished(int exit_code, QProcess::ExitStatus exit_status);
+	void processError(QProcess::ProcessError error);
 
 protected:
 	QProcess * server_process;
