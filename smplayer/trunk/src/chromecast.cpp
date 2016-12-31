@@ -82,8 +82,13 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 		startServer(dir);
 		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + filename;
 		#else
-		startServer(QDir::rootPath());
-		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + fi.absoluteFilePath();
+		QString root = QDir::rootPath();
+		startServer(root);
+		QString abs_filename = fi.absoluteFilePath();
+		if (abs_filename.startsWith(root)) {
+			abs_filename = abs_filename.mid(root.length());
+		}
+		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + abs_filename;
 		#endif
 
 		qDebug() << "Chromecast::openLocal: url:" << url;
