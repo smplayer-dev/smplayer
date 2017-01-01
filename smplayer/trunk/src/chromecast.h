@@ -41,11 +41,15 @@ public:
 	static QStringList localAddresses();
 	static QString findLocalAddress();
 
+	// Server settings
 	void setServerPort(int port) { server_port = port; };
 	int serverPort() { return server_port; };
 
 	void setLocalAddress(const QString & address) { local_address = address; };
 	QString localAddress() { return local_address; };
+
+	void setDirectoryListing(bool enabled) { directory_listing = enabled; };
+	bool directoryListing() { return directory_listing; };
 
 	void setSettings(QSettings * set) { settings = set; loadSettings(); };
 
@@ -67,6 +71,7 @@ protected:
 
 	int server_port;
 	QString local_address;
+	bool directory_listing;
 
 private:
 	static Chromecast * instance_obj;
