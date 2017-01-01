@@ -50,6 +50,7 @@ Chromecast::Chromecast(QObject * parent)
 	, server_process(0)
 	, settings(0)
 	, server_port(8010)
+	, directory_listing(true)
 {
 }
 
@@ -161,9 +162,11 @@ void Chromecast::startServer(const QString & doc_root) {
 #ifndef Q_OS_WIN
 	prog = "webfsd";
 	args << "-F" << "-d" << "-4" << "-p" << QString::number(server_port) << "-r" << doc_root;
+	if (!directoryListing()) args << "-j";
 #else
 	prog = "simple_web_server.exe";
 	args << "-p" << QString::number(server_port) << "-r" << doc_root;
+	if (!directoryListing()) args << "-j";
 #endif
 
 	{
@@ -213,6 +216,7 @@ void Chromecast::loadSettings() {
 		settings->beginGroup("chromecast/server");
 		setServerPort(settings->value("port", serverPort()).toInt());
 		setLocalAddress(settings->value("local_address", localAddress()).toString());
+		setDirectoryListing(settings->value("directory_listing", directoryListing()).toBool());
 		settings->endGroup();
 	}
 }
@@ -224,6 +228,7 @@ void Chromecast::saveSettings() {
 		settings->beginGroup("chromecast/server");
 		settings->setValue("port", serverPort());
 		settings->setValue("local_address", localAddress());
+		settings->setValue("directory_listing", directoryListing());
 		settings->endGroup();
 	}
 }
