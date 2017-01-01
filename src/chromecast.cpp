@@ -75,7 +75,8 @@ void Chromecast::openLocal(const QString & file, const QString & title) {
 	qDebug() << "Chromecast::openLocal: dir:" << dir;
 	qDebug() << "Chromecast::openLocal: filename:" << filename;
 
-	QString local_address = defaultLocalAddress();
+	QString local_address = localAddress();
+	if (local_address.isEmpty()) local_address = findLocalAddress();
 	qDebug() << "Chromecast::openLocal: chosen address:" << local_address;
 
 	if (!local_address.isEmpty()) {
@@ -115,7 +116,7 @@ QStringList Chromecast::localAddresses() {
 	return l;
 }
 
-QString Chromecast::defaultLocalAddress() {
+QString Chromecast::findLocalAddress() {
 	QString local_address;
 
 	QStringList addresses = localAddresses();
@@ -211,6 +212,7 @@ void Chromecast::loadSettings() {
 	if (settings) {
 		settings->beginGroup("chromecast/server");
 		setServerPort(settings->value("port", serverPort()).toInt());
+		setLocalAddress(settings->value("local_address", localAddress()).toString());
 		settings->endGroup();
 	}
 }
@@ -221,6 +223,7 @@ void Chromecast::saveSettings() {
 	if (settings) {
 		settings->beginGroup("chromecast/server");
 		settings->setValue("port", serverPort());
+		settings->setValue("local_address", localAddress());
 		settings->endGroup();
 	}
 }
