@@ -39,10 +39,13 @@ public:
 	static void deleteInstance();
 
 	static QStringList localAddresses();
-	static QString defaultLocalAddress();
+	static QString findLocalAddress();
 
 	void setServerPort(int port) { server_port = port; };
 	int serverPort() { return server_port; };
+
+	void setLocalAddress(const QString & address) { local_address = address; };
+	QString localAddress() { return local_address; };
 
 	void setSettings(QSettings * set) { settings = set; loadSettings(); };
 
@@ -61,7 +64,9 @@ protected slots:
 protected:
 	QProcess * server_process;
 	QSettings * settings;
+
 	int server_port;
+	QString local_address;
 
 private:
 	static Chromecast * instance_obj;
