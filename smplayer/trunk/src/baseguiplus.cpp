@@ -1067,14 +1067,15 @@ void BaseGuiPlus::playOnChromecast() {
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_title:" << core->mdat.stream_title;
 	qDebug() << "BaseGuiPlus::playOnChromecast: stream_path:" << core->mdat.stream_path;
 
+	QString title = core->mdat.displayName(true);
 	if (core->mdat.type == TYPE_STREAM) {
 		QString url = core->mdat.filename;
 		if (!core->mdat.stream_path.isEmpty()) url = core->mdat.stream_path;
-		Chromecast::instance()->openStream(url, core->mdat.stream_title);
+		Chromecast::instance()->openStream(url, title);
 	}
 	else
 	if (core->mdat.type == TYPE_FILE) {
-		Chromecast::instance()->openLocal(core->mdat.filename, core->mdat.stream_title);
+		Chromecast::instance()->openLocal(core->mdat.filename, title);
 	}
 }
 #endif
