@@ -23,6 +23,8 @@
 #include <QStringList>
 #include <QProcess>
 
+class QSettings;
+
 class Chromecast : public QObject {
 	Q_OBJECT
 
@@ -42,9 +44,14 @@ public:
 	void setServerPort(int port) { server_port = port; };
 	int serverPort() { return server_port; };
 
+	void setSettings(QSettings * set) { settings = set; loadSettings(); };
+
 protected:
 	void startServer(const QString & doc_root);
 	void stopServer();
+
+	void loadSettings();
+	void saveSettings();
 
 protected slots:
 	void readProcessOutput();
@@ -53,6 +60,7 @@ protected slots:
 
 protected:
 	QProcess * server_process;
+	QSettings * settings;
 	int server_port;
 
 private:
@@ -60,4 +68,3 @@ private:
 };
 
 #endif
-
