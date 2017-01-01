@@ -24,6 +24,7 @@
 #include <QNetworkInterface>
 #include <QProcess>
 #include <QDir>
+#include <QSettings>
 #include <QDebug>
 
 #define SERVE_FILE_DIR_ONLY
@@ -47,6 +48,7 @@ void Chromecast::deleteInstance() {
 Chromecast::Chromecast(QObject * parent)
 	: QObject(parent)
 	, server_process(0)
+	, settings(0)
 	, server_port(8010)
 {
 }
@@ -55,6 +57,7 @@ Chromecast::~Chromecast() {
 	if (server_process) {
 		stopServer();
 	}
+	saveSettings();
 }
 
 void Chromecast::openStream(const QString & url, const QString & title) {
@@ -200,6 +203,26 @@ void Chromecast::processFinished(int exit_code, QProcess::ExitStatus exit_status
 
 void Chromecast::processError(QProcess::ProcessError error) {
 	qDebug() << "Chromecast::processError:" << error;
+}
+
+void Chromecast::loadSettings() {
+	qDebug("Chromecast::loadSettings");
+
+	if (settings) {
+		settings->beginGroup("chromecast/server");
+		setServerPort(settings->value("port", serverPort()).toInt());
+		settings->endGroup();
+	}
+}
+
+void Chromecast::saveSettings() {
+	qDebug("Chromecast::saveSettings");
+
+	if (settings) {
+		settings->beginGroup("chromecast/server");
+		settings->setValue("port", serverPort());
+		settings->endGroup();
+	}
 }
 
 #include "moc_chromecast.cpp"

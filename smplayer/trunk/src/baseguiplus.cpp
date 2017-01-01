@@ -222,6 +222,10 @@ BaseGuiPlus::BaseGuiPlus( QWidget * parent, Qt::WindowFlags flags)
 	connect(this, SIGNAL(preferencesChanged()), this, SLOT(updateGlobalShortcuts()));
 #endif
 
+#ifdef CHROMECAST_SUPPORT
+	Chromecast::instance()->setSettings(settings);
+#endif
+
 	retranslateStrings();
 	loadConfig();
 }
@@ -1025,12 +1029,12 @@ void BaseGuiPlus::updateSendAudioMenu() {
 #if MPV_AUDIO_DEVICES
 	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPV) {
 		DeviceInfo::setMpvBin(pref->mplayer_bin);
-		
+
 		#if USE_MPV_ALSA_DEVICES
 		addListToSendAudioMenu( DeviceInfo::mpvAlsaDevices(), "alsa");
 		#endif
-		
-		#if USE_MPV_WASAPI_DEVICES	
+
+		#if USE_MPV_WASAPI_DEVICES
 		addListToSendAudioMenu( DeviceInfo::mpvWasapiDevices(), "wasapi");
 		#endif
 	}
