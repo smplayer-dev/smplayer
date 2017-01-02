@@ -505,8 +505,10 @@ void Playlist::createActions() {
 	editAct = new MyAction(this, "pl_edit", false);
 	connect( editAct, SIGNAL(triggered()), this, SLOT(editCurrentItem()) );
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
 	deleteSelectedFileFromDiskAct = new MyAction(this, "pl_delete_from_disk");
 	connect( deleteSelectedFileFromDiskAct, SIGNAL(triggered()), this, SLOT(deleteSelectedFileFromDisk()));
+#endif
 
 	copyURLAct = new MyAction(this, "pl_copy_url");
 	connect( copyURLAct, SIGNAL(triggered()), this, SLOT(copyURL()));
@@ -638,7 +640,9 @@ void Playlist::createToolbar() {
 	popup->addAction(playAct);
 	popup->addAction(removeSelectedAct);
 	popup->addAction(editAct);
+#ifdef PLAYLIST_DELETE_FROM_DISK
 	popup->addAction(deleteSelectedFileFromDiskAct);
+#endif
 	popup->addAction(copyURLAct);
 	popup->addAction(openFolderAct);
 	popup->addAction(openURLInWebAct);
@@ -688,7 +692,9 @@ void Playlist::retranslateStrings() {
 	removeSelectedAct->change( tr("Remove &selected") );
 	removeAllAct->change( tr("Remove &all") );
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
+#endif
 
 	copyURLAct->change( tr("&Copy file path to clipboard") );
 	openFolderAct->change( tr("&Open source folder") );
@@ -1397,7 +1403,9 @@ void Playlist::showPopup(const QPoint & pos) {
 		playAct->setEnabled(false);
 		removeSelectedAct->setEnabled(false);
 		editAct->setEnabled(false);
+		#ifdef PLAYLIST_DELETE_FROM_DISK
 		deleteSelectedFileFromDiskAct->setEnabled(false);
+		#endif
 		copyURLAct->setEnabled(false);
 		openFolderAct->setEnabled(false);
 		openURLInWebAct->setEnabled(false);
@@ -1405,7 +1413,9 @@ void Playlist::showPopup(const QPoint & pos) {
 		playAct->setEnabled(true);
 		removeSelectedAct->setEnabled(true);
 		editAct->setEnabled(true);
+		#ifdef PLAYLIST_DELETE_FROM_DISK
 		deleteSelectedFileFromDiskAct->setEnabled(true);
+		#endif
 		copyURLAct->setEnabled(true);
 		openFolderAct->setEnabled(true);
 		openURLInWebAct->setEnabled(true);
@@ -1864,6 +1874,7 @@ void Playlist::editItem(int row) {
 	}
 }
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
 void Playlist::deleteSelectedFileFromDisk() {
 	qDebug("Playlist::deleteSelectedFileFromDisk");
 
@@ -1914,6 +1925,7 @@ void Playlist::deleteSelectedFileFromDisk() {
 			tr("It's not possible to delete '%1' from the filesystem.").arg(filename));
 	}
 }
+#endif
 
 void Playlist::copyURL() {
 	qDebug("Playlist::copyURL");
