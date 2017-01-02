@@ -29,6 +29,7 @@
 
 #define PLAYLIST_DOWNLOAD
 //#define PLAYLIST_DOUBLE_TOOLBAR
+//#define PLAYLIST_DELETE_FROM_DISK
 
 class PLItem : public QStandardItem {
 public:
@@ -143,7 +144,9 @@ public slots:
 	// Adds a directory, maybe with recursion (depends on user config)
 	void addDirectory(QString dir);
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
 	void deleteSelectedFileFromDisk();
+#endif
 
 	bool maybeSave();
 	void load();
@@ -326,7 +329,9 @@ protected:
 	MyAction * removeSelectedAct;
 	MyAction * removeAllAct;
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
 	MyAction * deleteSelectedFileFromDiskAct;
+#endif
 
 	MyAction * copyURLAct;
 	MyAction * openFolderAct;
