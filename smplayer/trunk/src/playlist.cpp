@@ -516,8 +516,13 @@ void Playlist::createActions() {
 	openFolderAct = new MyAction(this, "pl_open_folder");
 	connect( openFolderAct, SIGNAL(triggered()), this, SLOT(openFolder()));
 
-	openURLInWebAct = new MyAction(this, "pl_open_folder");
+#ifdef CHROMECAST_SUPPORT
+	playOnChromecastAct = new MyAction(this, "pl_chromecast");
+	connect( playOnChromecastAct, SIGNAL(triggered()), this, SLOT(playOnChromecast()));
+#else
+	openURLInWebAct = new MyAction(this, "pl_url_in_web");
 	connect( openURLInWebAct, SIGNAL(triggered()), this, SLOT(openURLInWeb()));
+#endif
 
 	showSearchAct = new MyAction(this, "pl_show_search", false);
 	showSearchAct->setCheckable(true);
@@ -645,7 +650,11 @@ void Playlist::createToolbar() {
 #endif
 	popup->addAction(copyURLAct);
 	popup->addAction(openFolderAct);
+#ifdef CHROMECAST_SUPPORT
+	popup->addAction(playOnChromecastAct);
+#else
 	popup->addAction(openURLInWebAct);
+#endif
 	popup->addSeparator();
 	popup->addAction(showPositionColumnAct);
 	popup->addAction(showNameColumnAct);
@@ -700,7 +709,7 @@ void Playlist::retranslateStrings() {
 	openFolderAct->change( tr("&Open source folder") );
 
 #ifdef CHROMECAST_SUPPORT
-	openURLInWebAct->change( tr("Play stream on Chromec&ast") );
+	playOnChromecastAct->change( tr("Play Chromec&ast") );
 #else
 	openURLInWebAct->change( tr("Open stream in &a web browser") );
 #endif
@@ -1408,7 +1417,11 @@ void Playlist::showPopup(const QPoint & pos) {
 		#endif
 		copyURLAct->setEnabled(false);
 		openFolderAct->setEnabled(false);
+		#ifdef CHROMECAST_SUPPORT
+		playOnChromecastAct->setEnabled(false);
+		#else
 		openURLInWebAct->setEnabled(false);
+		#endif
 	} else {
 		playAct->setEnabled(true);
 		removeSelectedAct->setEnabled(true);
@@ -1418,7 +1431,11 @@ void Playlist::showPopup(const QPoint & pos) {
 		#endif
 		copyURLAct->setEnabled(true);
 		openFolderAct->setEnabled(true);
+		#ifdef CHROMECAST_SUPPORT
+		playOnChromecastAct->setEnabled(true);
+		#else
 		openURLInWebAct->setEnabled(true);
+		#endif
 
 		QModelIndex s_index = proxy->mapToSource(index);
 		int current = s_index.row();
@@ -1428,7 +1445,9 @@ void Playlist::showPopup(const QPoint & pos) {
 
 		if (fi.exists()) {
 			copyURLAct->setText( tr("&Copy file path to clipboard") );
+			#ifndef CHROMECAST_SUPPORT
 			openURLInWebAct->setEnabled(false);
+			#endif
 		} else {
 			copyURLAct->setText( tr("&Copy URL to clipboard") );
 			openFolderAct->setEnabled(false);
@@ -1970,6 +1989,28 @@ void Playlist::openFolder() {
 	}
 }
 
+#ifdef CHROMECAST_SUPPORT
+void Playlist::playOnChromecast() {
+	qDebug("Playlist::playOnChromecast");
+
+	QModelIndex index = listView->currentIndex();
+	if (!index.isValid()) return;
+	QModelIndex s_index = proxy->mapToSource(index);
+	int current = s_index.row();
+	PLItem * i = itemData(current);
+	QString filename = i->filename();
+	QString video_url = i->videoURL();
+
+	QString url = filename;
+	if (!video_url.isEmpty()) url = video_url;
+
+	if (QFile::exists(filename)) {
+		Chromecast::instance()->openLocal(url, i->name());
+	} else {
+		Chromecast::instance()->openStream(url, i->name());
+	}
+}
+#else
 void Playlist::openURLInWeb() {
 	qDebug("Playlist::openURLInWeb");
 
@@ -1984,12 +2025,9 @@ void Playlist::openURLInWeb() {
 	QString url = filename;
 	if (!video_url.isEmpty()) url = video_url;
 
-#ifdef CHROMECAST_SUPPORT
-	Chromecast::instance()->openStream(url, i->name());
-#else
 	QDesktopServices::openUrl(QUrl(url));
-#endif
 }
+#endif
 
 // Drag&drop
 void Playlist::dragEnterEvent( QDragEnterEvent *e ) {
