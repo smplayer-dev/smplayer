@@ -41,6 +41,7 @@ Chromecast * Chromecast::instance() {
 void Chromecast::deleteInstance() {
 	if (instance_obj) {
 		delete instance_obj;
+		instance_obj = 0;
 	}
 }
 
