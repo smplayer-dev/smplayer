@@ -348,7 +348,7 @@ void BaseGuiPlus::retranslateStrings() {
 #endif
 
 #ifdef CHROMECAST_SUPPORT
-	playOnChromecastAct->change(Images::icon("chromcast"), tr("Play on Chromecast"));
+	playOnChromecastAct->change(Images::icon("chromecast"), tr("Play on Chromecast"));
 #endif
 
 #ifdef SCREENS_SUPPORT

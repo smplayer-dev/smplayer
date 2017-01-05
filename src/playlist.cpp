@@ -709,7 +709,7 @@ void Playlist::retranslateStrings() {
 	openFolderAct->change( tr("&Open source folder") );
 
 #ifdef CHROMECAST_SUPPORT
-	playOnChromecastAct->change( tr("Play Chromec&ast") );
+	playOnChromecastAct->change( Images::icon("chromecast"), tr("Play on Chromec&ast") );
 #else
 	openURLInWebAct->change( tr("Open stream in &a web browser") );
 #endif
