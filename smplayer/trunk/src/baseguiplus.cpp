@@ -291,6 +291,16 @@ void BaseGuiPlus::closeEvent( QCloseEvent * e ) {
 	closeWindow();
 }
 
+void BaseGuiPlus::updateWidgets() {
+	qDebug("BaseGuiPlus::updateWidgets");
+
+	BaseGui::updateWidgets();
+
+#ifdef CHROMECAST_SUPPORT
+	playOnChromecastAct->setEnabled(!core->mdat.filename.isEmpty());
+#endif
+}
+
 void BaseGuiPlus::closeWindow() {
 	qDebug("BaseGuiPlus::closeWindow");
 
@@ -512,7 +522,7 @@ void BaseGuiPlus::resizeWindow(int w, int h) {
 }
 
 void BaseGuiPlus::updateMediaInfo() {
-    qDebug("BaseGuiPlus::updateMediaInfo");
+	qDebug("BaseGuiPlus::updateMediaInfo");
 	BaseGui::updateMediaInfo();
 
 	tray->setToolTip( windowTitle() );

@@ -88,6 +88,7 @@ protected:
 
 protected slots:
 	// Reimplemented methods
+	virtual void updateWidgets();
 	virtual void closeWindow();
 	virtual void setWindowCaption(const QString & title);
 	virtual void resizeWindow(int w, int h);
