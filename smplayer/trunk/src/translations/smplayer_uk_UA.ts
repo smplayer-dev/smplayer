@@ -886,12 +886,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1735"/>
         <source>Zoom &amp;-</source>
-        <translation>Мірило &amp;-</translation>
+        <translation>Масштаб &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1736"/>
         <source>Zoom &amp;+</source>
-        <translation>Мірило &amp;+</translation>
+        <translation>Масштаб &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1737"/>
@@ -1053,17 +1053,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Пожертвувати</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
         <source>Size &amp;+</source>
-        <translation>Мірило &amp;+</translation>
+        <translation>Масштаб &amp;+</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1863"/>
         <source>Size &amp;-</source>
-        <translation>Мірило &amp;-</translation>
+        <translation>Масштаб &amp;-</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1877"/>
@@ -1289,42 +1289,42 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Підтримати SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Пожертвувати</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation>Ні</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>Ви потрібні SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer є вільним програмним забезпеченням. Однак розробка потребує багато часу та праці.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4502"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"/>
+        <translation>Щоб продовжувати розвиток SMPlayer з новими функціями, нам потрібна ваша допомога.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4503"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"/>
+        <translation>Будь ласка, розгляньте можливість підтримки проекту SMPlayer через відправлення пожертвування.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4504"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"/>
+        <translation>Навіть найменший вклад дуже допоможе.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4993"/>
@@ -1427,12 +1427,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6297"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
-        <translation>Система перемкнута на пляншетовий режим. Чи повинен SMPlayer також змінити режим на пляншетовий?</translation>
+        <translation>Система перейшла у режим планшета. Чи повинен SMPlayer також змінити режим на планшетний?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6299"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
-        <translation>Система вийшла із пляншетового режиму. Чи повинен SMPlayer також вимкнути пляншетовий режим?</translation>
+        <translation>Система вийшла з режиму планшета. Чи повинен SMPlayer також вимкнути планшетний режим?</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6303"/>
@@ -1745,17 +1745,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1738"/>
         <source>&amp;Auto zoom</source>
-        <translation>&amp;Автоматичне мірило</translation>
+        <translation>&amp;Автоматичний масштаб</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1739"/>
         <source>Zoom for &amp;16:9</source>
-        <translation>Мірило для &amp;16:9</translation>
+        <translation>Масштаб для &amp;16:9</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1740"/>
         <source>Zoom for &amp;2.35:1</source>
-        <translation>Мірило для &amp;2.35:1</translation>
+        <translation>Масштаб для &amp;2.35:1</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2041"/>
@@ -1931,7 +1931,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
         <source>Zoo&amp;m</source>
-        <translation>&amp;Мірило</translation>
+        <translation>&amp;Масштаб</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1701"/>
@@ -2244,13 +2244,13 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4184"/>
         <source>Zoom: %1</source>
-        <translation>Мірило: %1</translation>
+        <translation>Масштаб: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3410"/>
         <location filename="../core.cpp" line="3421"/>
         <source>Font scale: %1</source>
-        <translation>Мірило шрифта: %1</translation>
+        <translation>Масштаб шрифта: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4015"/>
@@ -2310,7 +2310,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="4069"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation>Тепер колесо миші змінює мірило</translation>
+        <translation>Тепер колесо миші змінює масштаб</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4072"/>
@@ -2423,12 +2423,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"/>
+        <translation>Інформація про &amp;бітрейт</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"/>
+        <translation>Показати поточний час з мілісекундами</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2459,7 +2459,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"/>
+        <translation>В: %1 кбіт/с А: %2 кбіт/с</translation>
     </message>
 </context>
 <context>
@@ -2524,7 +2524,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../favoriteeditor.cpp" line="97"/>
         <source>Media</source>
-        <translation>Медія</translation>
+        <translation>Медіа</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.cpp" line="116"/>
@@ -4924,7 +4924,7 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="690"/>
         <location filename="../playlist.cpp" line="1413"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Копіювати шлях до файлу в буфер обміну.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="691"/>
@@ -6156,7 +6156,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="199"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медія з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медія, які надають відомости про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медіа, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6320,17 +6320,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1103"/>
         <source>Default zoom</source>
-        <translation>Типове мірило</translation>
+        <translation>Типовий масштаб</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1104"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
-        <translation>Ця опція встановлює типове мірило, яке буде застосовуватися для нових відеофайлів.</translation>
+        <translation>Ця опція встановлює типовий масштаб, який буде застосовуватись для нових відеофайлів.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="525"/>
         <source>Default &amp;zoom:</source>
-        <translation>Типове &amp;мірило:</translation>
+        <translation>Типовий &amp;масштаб:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1000"/>
@@ -6619,7 +6619,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="24"/>
         <source>&amp;Keyboard</source>
-        <translation>&amp;Набірниця</translation>
+        <translation>&amp;Клавіатура</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="85"/>
@@ -6662,7 +6662,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.cpp" line="151"/>
         <location filename="../prefinput.cpp" line="422"/>
         <source>Zoom video</source>
-        <translation>Мірило відео</translation>
+        <translation>Масштаб відео</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
@@ -6778,7 +6778,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="80"/>
         <source>Reset zoom</source>
-        <translation>Скинути мірило</translation>
+        <translation>Скинути масштаб</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="81"/>
@@ -6829,7 +6829,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="356"/>
         <source>Keyboard</source>
-        <translation>Набірниця</translation>
+        <translation>Клавіатура</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="375"/>
@@ -7083,7 +7083,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinput.ui" line="449"/>
         <location filename="../prefinput.cpp" line="156"/>
         <source>&amp;Zoom video</source>
-        <translation>Зміна &amp;мірила зображення</translation>
+        <translation>Зміна &amp;масштабу зображення</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="442"/>
@@ -7115,7 +7115,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="423"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation>Виберіть, щоб увімкнути зміну мірила як одне з призначень.</translation>
+        <translation>Виберіть, щоб увімкнути зміну масштабу як одну з призначень.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="426"/>
@@ -7361,7 +7361,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
         <source>Scale</source>
-        <translation>Мірило</translation>
+        <translation>Масштаб</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
@@ -9110,12 +9110,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation>Типове мірило</translation>
+        <translation>Типовий масштаб</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation>Ця опція визначає типове мірило шрифту для субтитрів SSA/ASS, що буде застосований для нових відкритий файлів.</translation>
+        <translation>Ця опція визначає типовий масштаб шрифту для субтитрів SSA/ASS, що буде застосований для нових відкритий файлів.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
@@ -9135,7 +9135,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation>Типове &amp;мірило:</translation>
+        <translation>Типовий &amp;масштаб:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
