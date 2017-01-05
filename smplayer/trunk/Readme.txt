@@ -74,7 +74,7 @@
 
      * ricebowl-0.2.0
         url: http://www.deviantart.com/deviation/22605468/
-        license: LGPL 
+        license: LGPL
 
      * rulesPlayer
        url: http://www.dsource.org/projects/rulesplayer
@@ -97,6 +97,9 @@
 
      * http://www.pd4pic.com/anaglyph-3d-cellophane-glasses-3dimensional-movie.html
        license: Public Domain CC0
+
+     * https://commons.wikimedia.org/wiki/File:Chromecast_cast_button_icon.svg
+       license: Creative Commons Attribution 3.0 Unported
 
      * The animations src/default-theme/buffering.gif and src/default-theme/pl_loading.gif
        were created at http://www.ajaxload.info/

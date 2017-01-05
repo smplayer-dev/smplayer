@@ -154,6 +154,7 @@
         <file>default-theme/send_audio.png</file>
         <file>default-theme/video_track.png</file>
         <file>default-theme/quick_access_menu.png</file>
+        <file>default-theme/chromecast.png</file>
         <file>default-theme/buffering.gif</file>
         <file>default-theme/pl_loading.gif</file>
         <file>default-theme/style.qss</file>
