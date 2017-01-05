@@ -245,7 +245,12 @@ protected slots:
 
 	void copyURL();
 	void openFolder();
+
+#ifdef CHROMECAST_SUPPORT
+	void playOnChromecast();
+#else
 	void openURLInWeb();
+#endif
 
 	void saveSettings();
 	void loadSettings();
@@ -335,7 +340,12 @@ protected:
 
 	MyAction * copyURLAct;
 	MyAction * openFolderAct;
+
+#ifdef CHROMECAST_SUPPORT
+	MyAction * playOnChromecastAct;
+#else
 	MyAction * openURLInWebAct;
+#endif
 
 	MyAction * showPositionColumnAct;
 	MyAction * showNameColumnAct;
