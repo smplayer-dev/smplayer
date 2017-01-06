@@ -1053,7 +1053,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Doner</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1143,7 +1143,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"/>
+        <translation>Vis &amp;info på OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1289,22 +1289,22 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="4494"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Støtt SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4496"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Doner</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4497"/>
         <source>No</source>
-        <translation type="unfinished"/>
+        <translation>Nei</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4500"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer treng deg</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4501"/>
@@ -1437,7 +1437,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="6303"/>
         <source>Remember my decision and don&apos;t ask again</source>
-        <translation type="unfinished"/>
+        <translation>Hugs avgjersla mi og ikkje spør meir</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5010"/>
@@ -2009,7 +2009,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="328"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"/>
+        <translation>Send &amp;lyd til</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="335"/>
@@ -2129,7 +2129,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="986"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"/>
+        <translation>&amp;STandard lydeining</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="305"/>
@@ -4541,22 +4541,22 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>File:</source>
-        <translation type="unfinished"/>
+        <translation>Fil:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
         <source>Video:</source>
-        <translation type="unfinished"/>
+        <translation>Video:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="158"/>
         <source>Resolution:</source>
-        <translation type="unfinished"/>
+        <translation>Oppløysing</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="159"/>
         <source>Frames per second:</source>
-        <translation type="unfinished"/>
+        <translation>Rammer per sekund:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="160"/>
