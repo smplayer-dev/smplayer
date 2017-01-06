@@ -25,6 +25,10 @@
 #include "retrieveyoutubeurl.h"
 #endif
 
+#ifdef CHROMECAST_SUPPORT
+#include "chromecast.h"
+#endif
+
 PrefNetwork::PrefNetwork(QWidget * parent, Qt::WindowFlags f)
 	: PrefWidget(parent, f )
 {
@@ -105,6 +109,15 @@ void PrefNetwork::setData(Preferences * pref) {
 	setYTQuality( pref->yt_quality );
 	yt_user_agent_edit->setText( pref->yt_user_agent );
 #endif
+
+#ifdef CHROMECAST_SUPPORT
+	Chromecast * cc = Chromecast::instance();
+	QString local_ip = cc->localAddress();
+	//if (local_ip.isEmpty()) local_ip = cc->findLocalAddress();
+	local_ip_edit->setText(local_ip);
+	port_spin->setValue(cc->serverPort());
+	directory_listing_check->setChecked(cc->directoryListing());
+#endif
 }
 
 void PrefNetwork::getData(Preferences * pref) {
@@ -122,6 +135,13 @@ void PrefNetwork::getData(Preferences * pref) {
 #ifdef YOUTUBE_SUPPORT
 	pref->yt_quality = YTQuality();
 	pref->yt_user_agent = yt_user_agent_edit->text();
+#endif
+
+#ifdef CHROMECAST_SUPPORT
+	Chromecast * cc = Chromecast::instance();
+	cc->setLocalAddress(local_ip_edit->text());
+	cc->setServerPort(port_spin->value());
+	cc->setDirectoryListing(directory_listing_check->isChecked());
 #endif
 }
 
