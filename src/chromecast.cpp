@@ -52,6 +52,7 @@ Chromecast::Chromecast(QObject * parent)
 	, settings(0)
 	, server_port(8010)
 	, directory_listing(true)
+	, server_needs_restart(false)
 {
 }
 
@@ -150,7 +151,7 @@ void Chromecast::startServer(const QString & doc_root) {
 	}
 
 	if (server_process->state() == QProcess::Running) {
-		if (last_doc_root == doc_root) {
+		if (!server_needs_restart && last_doc_root == doc_root) {
 			return;
 		} else {
 			stopServer();
@@ -178,6 +179,7 @@ void Chromecast::startServer(const QString & doc_root) {
 	server_process->start(prog, args);
 
 	last_doc_root = doc_root;
+	server_needs_restart = false;
 }
 
 

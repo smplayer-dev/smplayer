@@ -42,13 +42,22 @@ public:
 	static QString findLocalAddress();
 
 	// Server settings
-	void setServerPort(int port) { server_port = port; };
+	void setServerPort(int port) {
+		if (port != server_port) server_needs_restart = true;
+		server_port = port;
+	}
 	int serverPort() { return server_port; };
 
-	void setLocalAddress(const QString & address) { local_address = address; };
+	void setLocalAddress(const QString & address) {
+		if (address != local_address) server_needs_restart = true;
+		local_address = address;
+	};
 	QString localAddress() { return local_address; };
 
-	void setDirectoryListing(bool enabled) { directory_listing = enabled; };
+	void setDirectoryListing(bool enabled) {
+		if (enabled != directory_listing) server_needs_restart = true;
+		directory_listing = enabled;
+	};
 	bool directoryListing() { return directory_listing; };
 
 	void setSettings(QSettings * set) { settings = set; loadSettings(); };
@@ -72,6 +81,8 @@ protected:
 	int server_port;
 	QString local_address;
 	bool directory_listing;
+
+	bool server_needs_restart;
 
 private:
 	static Chromecast * instance_obj;
