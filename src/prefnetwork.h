@@ -56,6 +56,11 @@ protected:
 	void setStreamingType(int);
 	int streamingType();
 
+#ifdef CHROMECAST_SUPPORT
+	void setLocalIP(const QString & ip, const QStringList & values);
+	QString localIP();
+#endif
+
 protected slots:
 	void streaming_type_combo_changed(int);
 
