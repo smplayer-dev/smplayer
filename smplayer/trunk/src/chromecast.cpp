@@ -27,6 +27,17 @@
 #include <QSettings>
 #include <QDebug>
 
+//#define CHROMECAST_USE_SERVER_WEBFSD
+//#define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
+
+#if !defined(CHROMECAST_USE_SERVER_WEBFSD) && !defined(CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER)
+  #ifdef Q_OS_WIN
+  #define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
+  #else
+  #define CHROMECAST_USE_SERVER_WEBFSD
+  #endif
+#endif
+
 #define SERVE_FILE_DIR_ONLY
 
 Chromecast * Chromecast::instance_obj = 0;
@@ -161,14 +172,19 @@ void Chromecast::startServer(const QString & doc_root) {
 	QString prog;
 	QStringList args;
 
-#ifndef Q_OS_WIN
+#if defined(CHROMECAST_USE_SERVER_WEBFSD)
 	prog = "webfsd";
 	args << "-F" << "-d" << "-4" << "-p" << QString::number(server_port) << "-r" << doc_root;
 	if (!directoryListing()) args << "-j";
-#else
-	prog = "simple_web_server.exe";
+#elif defined(CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER)
+	prog = "simple_web_server";
+	#ifdef Q_OS_WIN
+	prog += ".exe";
+	#endif
 	args << "-p" << QString::number(server_port) << "-r" << doc_root;
 	if (!directoryListing()) args << "-j";
+#else
+	#error "No server defined"
 #endif
 
 	{
