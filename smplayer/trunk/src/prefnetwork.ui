@@ -169,9 +169,6 @@
             </property>
            </widget>
           </item>
-          <item row="2" column="1">
-           <widget class="QLineEdit" name="local_ip_edit"/>
-          </item>
           <item row="4" column="0" colspan="3">
            <widget class="QCheckBox" name="directory_listing_check">
             <property name="text">
@@ -185,7 +182,7 @@
              <string>Local &amp;IP:</string>
             </property>
             <property name="buddy">
-             <cstring>local_ip_edit</cstring>
+             <cstring>local_ip_combo</cstring>
             </property>
            </widget>
           </item>
@@ -239,6 +236,13 @@
            <widget class="Line" name="line">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QComboBox" name="local_ip_combo">
+            <property name="editable">
+             <bool>true</bool>
             </property>
            </widget>
           </item>
@@ -394,7 +398,7 @@
   <tabstop>streaming_type_combo</tabstop>
   <tabstop>yt_quality_combo</tabstop>
   <tabstop>yt_user_agent_edit</tabstop>
-  <tabstop>local_ip_edit</tabstop>
+  <tabstop>local_ip_combo</tabstop>
   <tabstop>port_spin</tabstop>
   <tabstop>directory_listing_check</tabstop>
   <tabstop>use_proxy_check</tabstop>

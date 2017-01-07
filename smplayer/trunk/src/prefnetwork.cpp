@@ -112,9 +112,7 @@ void PrefNetwork::setData(Preferences * pref) {
 
 #ifdef CHROMECAST_SUPPORT
 	Chromecast * cc = Chromecast::instance();
-	QString local_ip = cc->localAddress();
-	//if (local_ip.isEmpty()) local_ip = cc->findLocalAddress();
-	local_ip_edit->setText(local_ip);
+	setLocalIP(cc->localAddress(), cc->localAddresses());
 	port_spin->setValue(cc->serverPort());
 	directory_listing_check->setChecked(cc->directoryListing());
 #endif
@@ -139,7 +137,7 @@ void PrefNetwork::getData(Preferences * pref) {
 
 #ifdef CHROMECAST_SUPPORT
 	Chromecast * cc = Chromecast::instance();
-	cc->setLocalAddress(local_ip_edit->text());
+	cc->setLocalAddress(localIP());
 	cc->setServerPort(port_spin->value());
 	cc->setDirectoryListing(directory_listing_check->isChecked());
 #endif
@@ -182,6 +180,33 @@ void PrefNetwork::streaming_type_combo_changed(int i) {
 	//qDebug() << "PrefNetwork::streaming_type_combo_changed:" << i;
 	youtube_box->setEnabled(i == Preferences::StreamingYT || i == Preferences::StreamingAuto);
 }
+
+#ifdef CHROMECAST_SUPPORT
+void PrefNetwork::setLocalIP(const QString & ip, const QStringList & values) {
+	local_ip_combo->clear();
+	local_ip_combo->addItem(tr("Auto"));
+	local_ip_combo->addItems(values);
+
+	if (ip.isEmpty()) {
+		local_ip_combo->setCurrentIndex(0);
+	} else {
+		int pos = local_ip_combo->findText(ip);
+		if (pos > -1) {
+			local_ip_combo->setCurrentIndex(pos);
+		} else {
+			local_ip_combo->setEditText(ip);
+		}
+	}
+}
+
+QString PrefNetwork::localIP() {
+	if (local_ip_combo->currentIndex() == 0) {
+		return "";
+	} else {
+		return local_ip_combo->currentText();
+	}
+}
+#endif
 
 void PrefNetwork::createHelp() {
 	clearHelp();
