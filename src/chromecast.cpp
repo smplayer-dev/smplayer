@@ -185,11 +185,16 @@ void Chromecast::stopServer() {
 	qDebug("Chromecast::stopServer");
 
 	if (server_process) {
+		#ifdef Q_OS_WIN
+		server_process->kill();
+		server_process->waitForFinished();
+		#else
 		server_process->terminate();
 		if (!server_process->waitForFinished(5000)) {
 			server_process->kill();
 			server_process->waitForFinished();
 		}
+		#endif
 	}
 }
 
