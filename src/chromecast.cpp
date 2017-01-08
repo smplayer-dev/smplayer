@@ -173,7 +173,7 @@ void Chromecast::startServer(QString doc_root) {
 	QString prog;
 	QStringList args;
 
-#ifdef Q_OS_WIN
+#if defined(Q_OS_WIN) && defined(SERVE_FILE_DIR_ONLY)
 	doc_root = Helper::shortPathName(doc_root);
 #endif
 
