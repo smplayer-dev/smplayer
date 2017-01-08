@@ -63,7 +63,7 @@ public:
 	void setSettings(QSettings * set) { settings = set; loadSettings(); };
 
 protected:
-	void startServer(const QString & doc_root);
+	void startServer(QString doc_root);
 	void stopServer();
 
 	void loadSettings();
