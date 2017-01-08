@@ -1,7 +1,8 @@
 Name:           smplayer
-Version:        16.11.0
+Version:        16.11.0.8339
 %global smplayer_themes_ver 16.8.0
 %global smplayer_skins_ver 15.2.0
+%global webfs_ver 1.21
 Release:        1%{?dist}
 Summary:        A great media player
 
@@ -11,6 +12,7 @@ URL:            http://smplayer.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
 Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
 Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
+Source5:        https://www.kraxel.org/releases/webfs/webfs-%{webfs_ver}.tar.gz
 
 %if 0%{?suse_version}
 BuildRequires:  hicolor-icon-theme
@@ -48,7 +50,7 @@ played file, so when you play it later it will be resumed at the same point
 and with the same settings.
 
 %prep
-%setup -a3 -a4 -qn %{name}-%{version}
+%setup -a3 -a4 -a5 -qn %{name}-%{version}
 
 # correction for wrong-file-end-of-line-encoding
 %{__sed} -i 's/\r//' *.txt
@@ -79,6 +81,10 @@ pushd smplayer-skins-%{smplayer_skins_ver}
 make
 popd
 
+pushd webfs-%{webfs_ver}
+make
+popd
+
 %install
 make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ DOC_PATH=%{_docdir}/%{name}/ install
 
@@ -88,6 +94,10 @@ popd
 
 pushd smplayer-skins-%{smplayer_skins_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
+popd
+
+pushd webfs-%{webfs_ver}
+cp webfsd %{buildroot}/usr/bin/webfsd
 popd
 
 %post
@@ -114,6 +124,7 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/smplayer/
 %{_mandir}/man1/smplayer.1.gz
 %{_docdir}/%{name}/
+%{_bindir}/webfsd
 
 %changelog
 * Thu Feb 25 2016 Ricardo Villalba <rvm@users.sourceforge.net> - 16.1.0
