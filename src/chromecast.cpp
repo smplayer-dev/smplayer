@@ -26,6 +26,7 @@
 #include <QDir>
 #include <QSettings>
 #include <QDebug>
+#include "helper.h"
 
 //#define CHROMECAST_USE_SERVER_WEBFSD
 //#define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
@@ -148,7 +149,7 @@ QString Chromecast::findLocalAddress() {
 	return local_address;
 }
 
-void Chromecast::startServer(const QString & doc_root) {
+void Chromecast::startServer(QString doc_root) {
 	qDebug("Chromecast::startServer");
 
 	static QString last_doc_root;
@@ -171,6 +172,10 @@ void Chromecast::startServer(const QString & doc_root) {
 
 	QString prog;
 	QStringList args;
+
+#ifdef Q_OS_WIN
+	doc_root = Helper::shortPathName(doc_root);
+#endif
 
 #if defined(CHROMECAST_USE_SERVER_WEBFSD)
 	prog = "webfsd";
