@@ -35,18 +35,19 @@ void PlaylistDock::closeEvent( QCloseEvent * e ) {
 	e->accept();
 }
 
+/*
 #if QT_VERSION < 0x040300
-void PlaylistDock::showEvent( QShowEvent * /* event */ ) {
+void PlaylistDock::showEvent( QShowEvent * event ) {
 	qDebug("PlaylistDock::showEvent");
 	emit visibilityChanged(true);
 }
 
-void PlaylistDock::hideEvent( QHideEvent * /* event */ ) {
+void PlaylistDock::hideEvent( QHideEvent * event ) {
 	qDebug("PlaylistDock::hideEvent");
 	emit visibilityChanged(false);
 }
 #endif
-
+*/
 
 #include "moc_playlistdock.cpp"
 
