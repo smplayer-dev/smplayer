@@ -19,6 +19,7 @@
 #ifndef PLAYLIST_DOCK_H
 #define PLAYLIST_DOCK_H
 
+#include <QtGlobal>
 #include <QDockWidget>
 #include "guiconfig.h"
 
@@ -32,16 +33,20 @@ public:
 
 signals:
 	void closed();
+/*
 #if QT_VERSION < 0x040300
 	void visibilityChanged(bool visible);
 #endif
+*/
 
 protected:
 	virtual void closeEvent( QCloseEvent * e );
+/*
 #if QT_VERSION < 0x040300
 	virtual void showEvent ( QShowEvent * event );
 	virtual void hideEvent ( QHideEvent * event );
 #endif
+*/
 };
 
 #endif
