@@ -719,6 +719,7 @@ ${MementoSectionDone}
   Delete "$INSTDIR\smplayer.exe"
   Delete "$INSTDIR\smtube.exe"
   Delete "$INSTDIR\dxlist.exe"
+  Delete "$INSTDIR\simple_web_server.exe"
   Delete "$INSTDIR\icudt*.dll"
   Delete "$INSTDIR\icuin*.dll"
   Delete "$INSTDIR\icuuc*.dll"
