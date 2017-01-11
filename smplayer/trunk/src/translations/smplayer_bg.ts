@@ -4952,10 +4952,6 @@ Do you want to overwrite?</source>
         <translation>&amp;Отвори папката-източник</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Възпроизвеждай &amp;поток в chromecast</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6611,14 +6607,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>по-бавен режим на потапяне</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">унизвук режим</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">стрелкови режим</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

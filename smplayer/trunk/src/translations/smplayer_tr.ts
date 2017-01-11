@@ -6608,14 +6608,6 @@ Do you want to overwrite?</source>
         <translation>yavaş dalış modu</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud mode</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart modu</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>Yapılandır...</translation>

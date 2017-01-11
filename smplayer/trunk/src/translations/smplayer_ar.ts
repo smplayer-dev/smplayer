@@ -1055,7 +1055,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;تبرع</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1145,7 +1145,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>أظهر ال&amp;معلومات في لوحة الأدوات على الشاشة</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1291,7 +1291,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4505"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>إدعم SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4507"/>
@@ -2016,7 +2016,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="364"/>
         <source>Send &amp;audio to</source>
-        <translation type="unfinished"></translation>
+        <translation>إر&amp;سال الصوت الى</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="371"/>
@@ -2136,7 +2136,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="1022"/>
         <source>&amp;Default audio device</source>
-        <translation type="unfinished"></translation>
+        <translation>جهاز الصوت الإ&amp;فتراضي</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="337"/>
@@ -2430,12 +2430,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>معلومات معدل ال&amp;بت</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;ظهار الوقت الحالي بالملي ثانية</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -4815,12 +4815,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="671"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished">&amp;حمّل...</translation>
+        <translation>&amp;حمّل...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="673"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>حمّل قائمة تشغيل من &amp;رابط...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="712"/>
@@ -4875,7 +4875,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="677"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation>احفظ بإ&amp;سم...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="681"/>
@@ -4946,12 +4946,12 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="708"/>
         <location filename="../playlist.cpp" line="1447"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;نسخ مسار الملف الى الحافظة</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;فتح مجلد المصدر</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -4982,7 +4982,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1452"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>ان&amp;سخ الرابط إلى الحافظة</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1917"/>
@@ -6193,7 +6193,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>اضف حدوداً سودا&amp;ء للترجمات مبدئيا</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6609,14 +6609,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>وضع الإنغماس البطيء</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">وضع uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">وضع dart</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -8657,17 +8649,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;بدء التشغيل بعد تحميل قائمة التشغيل</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغي&amp;ل الملف التالي تلقائيا</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;همال أخطاء التشغيل</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8677,7 +8669,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>إ&amp;ضافة الملفات الى قائمة التشغيل تلقائيا</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8692,17 +8684,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="150"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>ت&amp;رتيب تلقائي</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="157"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>بحث ح&amp;ساس لحالة الأحرف</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>حف&amp;ظ نسخة من قائمة التشغيل عند الخروج</translation>
     </message>
 </context>
 <context>

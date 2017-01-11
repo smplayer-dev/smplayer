@@ -6605,14 +6605,6 @@ Do you want to overwrite?</source>
         <translation>slower dive mode</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud mode</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart mode</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>&amp;กำหนดค่า...</translation>

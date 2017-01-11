@@ -162,7 +162,7 @@
     <message>
         <location filename="../actionseditor.cpp" line="219"/>
         <source>Shortcut</source>
-        <translation>Сполучення клявіш</translation>
+        <translation>Комбінація клавіш</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="221"/>
@@ -178,7 +178,7 @@
         <location filename="../actionseditor.cpp" line="463"/>
         <location filename="../actionseditor.cpp" line="513"/>
         <source>Key files</source>
-        <translation>Файли клявіш</translation>
+        <translation>Файли клавіш</translation>
     </message>
     <message>
         <location filename="../actionseditor.cpp" line="461"/>
@@ -221,7 +221,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../actionseditor.cpp" line="228"/>
         <source>&amp;Change shortcut...</source>
-        <translation>&amp;Змінити сполучення клявіш...</translation>
+        <translation>&amp;Змінити комбінацію клавіш...</translation>
     </message>
 </context>
 <context>
@@ -282,12 +282,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="213"/>
         <source>Classical</source>
-        <translation>Клясична</translation>
+        <translation>Класична</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="214"/>
         <source>Club</source>
-        <translation>Клюбна</translation>
+        <translation>Клубна</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="215"/>
@@ -377,7 +377,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="237"/>
         <source>Set all controls to zero.</source>
-        <translation>Скинути усе на нуль.</translation>
+        <translation>Скинути все на нуль.</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="252"/>
@@ -531,7 +531,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1720"/>
         <source>&amp;Fullscreen</source>
-        <translation>Н&amp;а увесь екран</translation>
+        <translation>Н&amp;а весь екран</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1721"/>
@@ -573,12 +573,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1747"/>
         <source>&amp;Postprocessing</source>
-        <translation>&amp;Післяопрацювання</translation>
+        <translation>&amp;Постобробка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1748"/>
         <source>&amp;Autodetect phase</source>
-        <translation>&amp;Самовизначення фази</translation>
+        <translation>&amp;Автовизначення фази</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1749"/>
@@ -608,7 +608,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1723"/>
         <source>&amp;Screenshot</source>
-        <translation>Зняток екран&amp;у</translation>
+        <translation>Знімок екран&amp;у</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1993"/>
@@ -793,7 +793,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="4400"/>
         <location filename="../basegui.cpp" line="4421"/>
         <source>All files</source>
-        <translation>Усі файли</translation>
+        <translation>Всі файли</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4180"/>
@@ -815,14 +815,14 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="4236"/>
         <source>SMPlayer - Information</source>
-        <translation>SMPlayer - Відомости</translation>
+        <translation>SMPlayer - Відомості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4237"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>Пристрої CD/DVD ще не налаштовані.
-Ви зможете зробити це у діялозі налаштувань цих пристроїв.</translation>
+Ви зможете зробити це у діалозі налаштувань цих пристроїв.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4350"/>
@@ -964,7 +964,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1876"/>
         <source>Dec volume (2)</source>
-        <translation>Зменшення гучности (2)</translation>
+        <translation>Зменшення гучності (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1658"/>
@@ -1040,7 +1040,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
         <source>T&amp;ablet mode</source>
-        <translation>П&amp;ляншетовий режим</translation>
+        <translation>Режим п&amp;ланшета</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1836"/>
@@ -1070,7 +1070,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1877"/>
         <source>Inc volume (2)</source>
-        <translation>Збільшення гучности (2)</translation>
+        <translation>Збільшення гучності (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -1095,12 +1095,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1885"/>
         <source>Dec brightness</source>
-        <translation>Зменшення яскравости</translation>
+        <translation>Зменшення яскравості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Inc brightness</source>
-        <translation>Збільшення яскравости</translation>
+        <translation>Збільшення яскравості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1887"/>
@@ -1115,7 +1115,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1889"/>
         <source>Dec saturation</source>
-        <translation>Зменшення насичености</translation>
+        <translation>Зменшення насиченості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
@@ -1183,7 +1183,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="2029"/>
         <source>&amp;Soft</source>
         <comment>denoise menu</comment>
-        <translation>&amp;Проґрамне</translation>
+        <translation>&amp;Програмне</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2031"/>
@@ -1336,12 +1336,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5005"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
-        <translation>Запрошене Вами відео потребує відкриття з&apos;єднання HTTPS.</translation>
+        <translation>Запрошене вами відео потребує відкриття з&apos;єднання HTTPS.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5006"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
-        <translation>Нажаль, необхідна для цього компонента OpenSSL недоступна на Вашій системі.</translation>
+        <translation>На жаль, необхідний для цього компонент OpenSSL недоступний на вашій системі.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5007"/>
@@ -1356,7 +1356,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5018"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
-        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, це відео неможливо відтворити.</translation>
+        <translation>На жаль, у зв&apos;язку зі змінами на Youtube, це відео неможливо відтворити.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5025"/>
@@ -1378,7 +1378,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="6017"/>
         <source>The component youtube-dl failed to run.</source>
-        <translation>Не вдалося запустити компоненту youtube-dl.</translation>
+        <translation>Не вдалося запустити компонент youtube-dl.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6018"/>
@@ -1444,7 +1444,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="5021"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
-        <translation>На жаль, у зв&apos;язку зі змінами на Ютюбі, &apos;%1&apos; відео не може бути відтворене.</translation>
+        <translation>На жаль, у зв&apos;язку зі змінами на Youtube, &apos;%1&apos; відео не може бути відтворене.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5027"/>
@@ -1465,7 +1465,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="3247"/>
         <location filename="../basegui.cpp" line="3986"/>
         <source>Information</source>
-        <translation>Відомости</translation>
+        <translation>Відомості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="3248"/>
@@ -1490,7 +1490,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1890"/>
         <source>Inc saturation</source>
-        <translation>Збільшення насичености</translation>
+        <translation>Збільшення насиченості</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
@@ -1530,12 +1530,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1774"/>
         <source>Volume &amp;normalization</source>
-        <translation>Нормалізація &amp;гучности</translation>
+        <translation>Нормалізація &amp;гучності</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1654"/>
         <source>&amp;Audio CD</source>
-        <translation>&amp;Звуковий КД</translation>
+        <translation>&amp;Звуковий CD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1898"/>
@@ -1560,7 +1560,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1754"/>
         <source>Soft&amp;ware scaling</source>
-        <translation>Пр&amp;оґрамне масштабування</translation>
+        <translation>Пр&amp;ограмне масштабування</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1837"/>
@@ -1727,12 +1727,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4914"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
-        <translation>Збірка MPlayer (%1), що встановлена у Вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
+        <translation>Збірка MPlayer (%1), що встановлена у вашій системі, застаріла. SMPlayer не може вірно працювати з нею: деякі опції не будуть працювати, вибір субтитрів може бути невдалим...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4919"/>
         <source>Please, update your MPlayer.</source>
-        <translation>Будь ласка, оновіть Ваш MPlayer.</translation>
+        <translation>Будь ласка, оновіть ваш MPlayer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4921"/>
@@ -1872,7 +1872,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1724"/>
         <source>Start/stop takin&amp;g screenshots</source>
-        <translation>Розпочати/зупинити робити &amp;знятки екрану</translation>
+        <translation>Розпочати/зупинити робити &amp;знімки екрану</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1797"/>
@@ -1888,7 +1888,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="2114"/>
         <source>P&amp;rogram</source>
         <comment>program</comment>
-        <translation>&amp;Проґрама</translation>
+        <translation>&amp;Програма</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1953"/>
@@ -2337,12 +2337,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../core.cpp" line="1410"/>
         <source>Screenshot NOT taken, folder not configured</source>
-        <translation>Зняток екрану не був зроблений, оскільки тека не налаштована</translation>
+        <translation>Знімок екрану не був зроблений, оскільки тека не налаштована</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1423"/>
         <source>Screenshots NOT taken, folder not configured</source>
-        <translation>Знятки екрану не були зроблені, оскільки тека не налаштована</translation>
+        <translation>Знімки екрану не були зроблені, оскільки тека не налаштована</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="2722"/>
@@ -2922,7 +2922,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="251"/>
         <source>Portuguese - Brasil</source>
-        <translation>Портуґальська (Бразилія)</translation>
+        <translation>Португальська (Бразилія)</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="266"/>
@@ -3079,7 +3079,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="27"/>
         <source>SMPlayer is initializing</source>
-        <translation>Ініціялізація SMPlayer</translation>
+        <translation>Ініціалізація SMPlayer</translation>
     </message>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
@@ -3169,7 +3169,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infofile.cpp" line="116"/>
         <source>Software</source>
-        <translation>Проґрамне забезпечення</translation>
+        <translation>Програмне забезпечення</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="121"/>
@@ -3588,7 +3588,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="72"/>
         <source>Irish</source>
-        <translation>Ірляндська</translation>
+        <translation>Ірландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="74"/>
@@ -3655,7 +3655,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="95"/>
         <source>Icelandic</source>
-        <translation>Ісляндська</translation>
+        <translation>Ісландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="96"/>
@@ -3692,7 +3692,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="105"/>
         <source>Greenlandic</source>
-        <translation>Ґренляндська</translation>
+        <translation>Ґренландська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="107"/>
@@ -3838,7 +3838,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="155"/>
         <location filename="../languages.cpp" line="225"/>
         <source>Portuguese</source>
-        <translation>Портуґальська</translation>
+        <translation>Португальська</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="156"/>
@@ -4586,7 +4586,7 @@ Do you want to overwrite?</source>
         <location filename="../mpvprocess.h" line="162"/>
         <location filename="../mpvprocess.h" line="165"/>
         <source>Bitrate:</source>
-        <translation>Швидкість потоку:</translation>
+        <translation>Бітрейт:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
@@ -5080,7 +5080,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="613"/>
         <source>This option is mainly intended for debugging the application.</source>
-        <translation>Ці опції, головним чином, потрібні щоб зневадити проґраму.</translation>
+        <translation>Ці опції, головним чином, потрібні щоб зневадити програму.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
@@ -5150,7 +5150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
         <source>Select the aspect ratio of your monitor.</source>
-        <translation>Виберіть формат  зображення Вашого монітора.</translation>
+        <translation>Виберіть формат  зображення вашого монітора.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
@@ -5280,7 +5280,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="580"/>
         <source>If this option is checked, the %1 log will be saved to the specified file every time a new file starts to play. It&apos;s intended for external applications, so they can get info about the file you&apos;re playing.</source>
-        <translation>Якщо увімкнено, звіт %1 буде збережено в спеціяльний файл щораз, коли почнеться відтворення нового файлу. Це може бути необхідним для зовнішніх додатків, які отримують інформацію про файл, що відтворюється.</translation>
+        <translation>Якщо увімкнено, звіт %1 буде збережено в спеціальний файл кожного разу, коли почнеться відтворення нового файлу. Це може бути необхідним для зовнішніх додатків, які отримують інформацію про файл, що відтворюється.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="585"/>
@@ -5502,7 +5502,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="205"/>
         <source>Not all files could be associated. Please check your security permissions and retry.</source>
-        <translation>Неможливо асоціювати жоден файл. Перевірте Ваші права доступу та спробуйте знову.</translation>
+        <translation>Неможливо асоціювати жоден файл. Перевірте ваші права доступу та спробуйте знову.</translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="215"/>
@@ -5537,7 +5537,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="243"/>
         <source>Restoration doesn&apos;t work on Windows Vista.</source>
-        <translation>Відновлення асоціяцій не працює у Windows Vista.</translation>
+        <translation>Відновлення асоціацій не працює у Windows Vista.</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="26"/>
@@ -5646,7 +5646,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="232"/>
         <source>&lt;b&gt;Note 2&lt;/b&gt;: you may want to assign the action &quot;activate option in DVD menus&quot; to one of the mouse buttons.</source>
-        <translation>&lt;b&gt;Нотатка 2&lt;/b&gt;: можливо ви бажаєте призначити дію &quot;увімкнути опцію в меню DVD&quot; одній з клявіш миші.</translation>
+        <translation>&lt;b&gt;Нотатка 2&lt;/b&gt;: можливо ви бажаєте призначити дію &quot;увімкнути опцію в меню DVD&quot; одній з клавіш миші.</translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="234"/>
@@ -5771,7 +5771,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Screenshots folder</source>
-        <translation>Тека знятків екрану</translation>
+        <translation>Тека знімків екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1044"/>
@@ -5781,7 +5781,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1046"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
-        <translation>Як приклад %1 зберегти зняток як &apos;moviename_0001.png&apos;.</translation>
+        <translation>Як приклад %1 зберегти скріншот як &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
@@ -5882,7 +5882,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
-        <translation>Ви можете спробувати ці опції, якщо відеоеквалайзер не підтримується Вашою відеокарткою чи вибраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення відео.</translation>
+        <translation>Ви можете спробувати ці опції, якщо відеоеквалайзер не підтримується вашою відеокарткою чи вибраним драйвером виведення відео.&lt;br&gt;&lt;b&gt;Нотатка:&lt;/b&gt; ці опції можуть бути несумісними з деякими драйверами виведення відео.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1139"/>
@@ -5917,12 +5917,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Software volume control</source>
-        <translation>Проґрамне керування гучности</translation>
+        <translation>Програмне керування гучности</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation>Перевірте ці опції для використання проґрамного мікшера замість апаратного мікшера звукової картки.</translation>
+        <translation>Перевірте ці опції для використання програмного мікшера замість апаратного мікшера звукової картки.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1096"/>
@@ -5997,7 +5997,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="887"/>
         <source>Use s&amp;oftware volume control</source>
-        <translation>Використовувати проґрамне &amp;керування гучности</translation>
+        <translation>Використовувати програмне &amp;керування гучности</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="910"/>
@@ -6052,7 +6052,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation>Ця опція активує автоматичний вихід з проґрами по закінченню відтворення файлу чи переліку.</translation>
+        <translation>Ця опція активує автоматичний вихід з програми по закінченню відтворення файлу чи переліку.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="163"/>
@@ -6172,7 +6172,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати Вашу бажану мову. Це працює лише з медіа, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
+        <translation>Тут Ви можете вказати бажану мову звуку та субтитрів. Коли буде знайдено медіа з багатодоріжковими звуком чи субтитрами, SMPlayer спробує використовувати вашу бажану мову. Це працює лише з медіа, які надають відомості про мову звуку та субтитрів, такі як DVD чи файли mkv. &lt;br&gt;Це поле сприймає регулярні вирази. Наприклад: &lt;b&gt;es|esp|spa&lt;/b&gt; вибере доріжку, якщо це відповідно &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6197,7 +6197,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Використовувати проґ&amp;рамний відеоеквалайзер</translation>
+        <translation>Використовувати прог&amp;рамний відеоеквалайзер</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="678"/>
@@ -6452,12 +6452,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Enable screenshots</source>
-        <translation>Увімкнути знятки екрану</translation>
+        <translation>Увімкнути знімки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1035"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation>Ви можете використати цю опцію, щоб увімкнути чи вимкнути можливість робити знятки екрану.</translation>
+        <translation>Ви можете використати цю опцію, щоб увімкнути чи вимкнути можливість робити знімки екрану.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
@@ -6467,12 +6467,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
         <source>Screenshots</source>
-        <translation>Знятки екрану</translation>
+        <translation>Знімки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="181"/>
         <source>&amp;Enable screenshots</source>
-        <translation>Уві&amp;мкнути знятки екрану</translation>
+        <translation>Уві&amp;мкнути знімки екрану</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="193"/>
@@ -6602,20 +6602,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="424"/>
         <source>snap mode</source>
-        <translation>режим знятків</translation>
+        <translation>режим знімків</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>режим повільних стрибків</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">режим uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">режим ривків</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -6687,7 +6679,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="60"/>
         <source>Here you can change any key shortcut. To do it double click or press enter over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
-        <translation>Тут Ви можете змінити будь-яке сполучення клявіш. Двічі клацніть або натисніть ENTER на чарунку сполучення. Додатково Ви можете зберегти перелік сполучень для розповсюдження іншим або завантаження на іншому комп&apos;ютері.</translation>
+        <translation>Тут Ви можете змінити будь-яку комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації. Додатково Ви можете зберегти список комбінацій для розповсюдження іншим або завантаження на іншому комп&apos;ютері.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="171"/>
@@ -6712,12 +6704,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="358"/>
         <source>Shortcut editor</source>
-        <translation>Редактор гарячих клявіш</translation>
+        <translation>Редактор гарячих клавіш</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="359"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Тут Ви можете змінити будь-яке доступне сполучення клявіш. Двічі клацніть або натисніть ENTER на чарунку сполучення, чи натисніть кнопку &lt;b&gt;Змінити сполучення клявіш&lt;/b&gt; для уведення в діялозі &lt;i&gt;Змінити сполучення&lt;/i&gt;. Є два способи змінити сполучення: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібне сполучення клявіш (на жаль, не працює для усіх клявіш), або просто написати повну назву клявіш.</translation>
+        <translation>Тут Ви можете змінити будь-яку доступну комбінацію клавіш. Двічі клацніть або натисніть ENTER на чарунку комбінації, чи натисніть кнопку &lt;b&gt;Змінити комбінацію клавіш&lt;/b&gt; для введення в діалозі &lt;i&gt;Змінити комбінацію&lt;/i&gt;. Є два способи змінити комбінацію: або натиснути кнопку &lt;b&gt;Захоплення&lt;/b&gt; і просто натиснути потрібну комбінацію клавіш (на жаль, не працює для всіх клавіш), або просто написати повну назву клавіш.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="377"/>
@@ -6777,7 +6769,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="73"/>
         <source>Screenshot</source>
-        <translation>Зняток екрану</translation>
+        <translation>Знімок екрану</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="77"/>
@@ -7215,7 +7207,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>Here you can change the language of the application.</source>
-        <translation>Тут Ви можете змінити мову проґрами.</translation>
+        <translation>Тут Ви можете змінити мову програми.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="196"/>
@@ -7420,7 +7412,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation>Головне вікно може змінювати розмір автоматично. Виберіть бажаний варіянт.</translation>
+        <translation>Головне вікно може змінювати розмір автоматично. Виберіть бажаний варіант.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
@@ -7515,7 +7507,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation>Виберіть бажані піктограми для проґрами.</translation>
+        <translation>Виберіть бажані піктограми для програми.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
@@ -7525,7 +7517,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="786"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation>Виберіть шкурку для проґрами. Лише для GUI з підтримкою шкурок.</translation>
+        <translation>Виберіть шкурку для програми. Лише для GUI з підтримкою шкурок.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7535,7 +7527,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="790"/>
         <source>Select the style you prefer for the application.</source>
-        <translation>Виберіть бажаний стиль для проґрами.</translation>
+        <translation>Виберіть бажаний стиль для програми.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="793"/>
@@ -7545,7 +7537,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="794"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation>Тут Ви можете змінити шрифт проґрами.</translation>
+        <translation>Тут Ви можете змінити шрифт програми.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
@@ -7657,7 +7649,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation>Вкажіть максимальну кількість адрес, яку буде пам&apos;ятати діялоґ &lt;b&gt;Відкрити URL-адресу&lt;/b&gt;. Або вкажіть 0 щоб не зберігалось.</translation>
+        <translation>Вкажіть максимальну кількість адрес, яку буде пам&apos;ятати діалог &lt;b&gt;Відкрити URL-адресу&lt;/b&gt;. Або вкажіть 0 щоб не зберігалось жодної.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="887"/>
@@ -8323,7 +8315,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation>Активує інтерфейс апаратного декодування. Якщо апаратне декодування неможливе, то буде використовуватися проґрамне декодування.</translation>
+        <translation>Активує інтерфейс апаратного декодування. Якщо апаратне декодування неможливе, то буде використовуватися програмне декодування.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -8333,7 +8325,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="317"/>
         <source>None: only software decoding will be used.</source>
-        <translation>Відсутнє: буде використовуватися лише проґрамне декодування.</translation>
+        <translation>Відсутнє: буде використовуватись тільки програмне декодування.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
@@ -8526,7 +8518,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="172"/>
         <source>Ignore playback errors</source>
-        <translation>Нехтувати помилки відтворення</translation>
+        <translation>Ігнорувати помилки відтворення</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
@@ -8666,7 +8658,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation>Не&amp;хтувати помилки відтворення</translation>
+        <translation>Іг&amp;норувати помилки відтворення</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8778,7 +8770,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="210"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation>Вк&amp;лючати субтитри до знятків екрану</translation>
+        <translation>Вк&amp;лючати субтитри до знімків екрану</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
@@ -8793,7 +8785,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="410"/>
         <source>Include subtitles on screenshots</source>
-        <translation>Включати субтитри до знятків екрану</translation>
+        <translation>Включати субтитри до знімків екрану</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="464"/>
@@ -9201,7 +9193,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation>Якщо ця опція увімкнена, субтитри буде показано у знятках екрану. &lt;b&gt;Нотатка:&lt;/b&gt; іноді це може створити незручности.</translation>
+        <translation>Якщо ця опція увімкнена, субтитри буде показано у знімках екрану. &lt;b&gt;Примітка:&lt;/b&gt; іноді це може створити незручності.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
@@ -9433,7 +9425,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>спробувати з&apos;єднатися з віддаленою проґрамою та передати їй вказану дію. Наприклад: -send-action pause. Інша частина опцій (чи іншого) буде знухтувана і проґрама закриється. Буде повернено 0 при вдалому виконанні чи -1 при помилці.</translation>
+        <translation>спробувати з&apos;єднатися з віддаленою програмою та передати їй вказану дію. Наприклад: -send-action pause. Інша частина опцій (чи іншого) буде знухтувана і програма закриється. Буде повернено 0 при вдалому виконанні чи -1 при помилці.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
@@ -9479,7 +9471,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation>Відновити старі асоціяції та почистити реєстр.</translation>
+        <translation>Відновити старі асоціації та почистити реєстр.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="104"/>
@@ -9698,7 +9690,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Press the key combination you want to assign</source>
-        <translation>Натисніть сполучення клявіш, яке Ви бажаєте задати</translation>
+        <translation>Натисніть комбінацію клавіш, яку ви бажаєте задати</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
@@ -9718,7 +9710,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="313"/>
         <source>Capture keystrokes</source>
-        <translation>Сполучення клявіш захоплення</translation>
+        <translation>Комбінація клавіш захоплення</translation>
     </message>
 </context>
 <context>
@@ -10190,7 +10182,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
-        <translation>&amp;Вимкнути проґрамні відеофільтри</translation>
+        <translation>&amp;Вимкнути програмні відеофільтри</translation>
     </message>
 </context>
 <context>
@@ -10511,7 +10503,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation>Уведіть пристрій DVD або теку з образом DVD.</translation>
+        <translation>Введіть пристрій DVD або теку з образом DVD.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
@@ -10534,7 +10526,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="133"/>
         <source>Fullscreen on/off</source>
-        <translation>На увесь екран увімк/вимк</translation>
+        <translation>На весь екран увімк/вимк</translation>
     </message>
     <message>
         <location filename="../skingui/volumecontrolpanel.cpp" line="134"/>

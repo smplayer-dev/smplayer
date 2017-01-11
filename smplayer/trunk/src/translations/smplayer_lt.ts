@@ -6609,14 +6609,6 @@ Norite perrašyti?</translation>
         <translation>lėtesnis režimas</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">„uniaud“ režimas</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">„dart“ režimas</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>&amp;Konfigūruoti...</translation>

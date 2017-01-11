@@ -6608,14 +6608,6 @@ Do you want to overwrite?</source>
         <translation>спорији dive начин</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud начин</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart начин</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>Поде&amp;си...</translation>

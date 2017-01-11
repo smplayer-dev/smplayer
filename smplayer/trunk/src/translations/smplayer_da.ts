@@ -4952,10 +4952,6 @@ Vil du overskrive den?</translation>
         <translation>&amp;Åbn kildemappe</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Afspil strøm i &amp;chromecast</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6611,14 +6607,6 @@ Vil du overskrive den?</translation>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>langsommere dyk-tilstand</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud-tilstand</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart-tilstand</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

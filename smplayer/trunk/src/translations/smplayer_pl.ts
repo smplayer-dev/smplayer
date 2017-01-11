@@ -1055,7 +1055,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dotacja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1291,42 +1291,42 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="4505"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Wesprzyj SMPlayer</translation>
+        <translation>Wesprzyj SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4507"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Dotacja</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4508"/>
         <source>No</source>
-        <translation type="unfinished">Nie</translation>
+        <translation>Nie</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4511"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer cię potrzebuje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4512"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer jest wolnym oprogramowaniem. Jednakże rozwój wymaga dużo czasu i dużo pracy.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4513"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aby opracować nowe funkcje SMPlayera, potrzebujemy twojej pomocy.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4514"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Proszę weź pod uwagę wsparcie projektu SMPlayera dokonując dotacji.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4515"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Nawet najmniejsza kwota bardzo pomoże.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5004"/>
@@ -2430,12 +2430,12 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informacja transmisji</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pokaż aktualny czas w milisekundach</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2466,7 +2466,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>W: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -4946,12 +4946,12 @@ na liście odtwarzania:</translation>
         <location filename="../playlist.cpp" line="708"/>
         <location filename="../playlist.cpp" line="1447"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;kopiuj ścieżkę pliku do schowka</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otwórz folder źródłowy</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -4982,7 +4982,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../playlist.cpp" line="1452"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;kopiuj adres URL do schowka</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1917"/>
@@ -6609,14 +6609,6 @@ na liście odtwarzania:</translation>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>tryb - slower dive</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">tryb - uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">tryb - dart</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

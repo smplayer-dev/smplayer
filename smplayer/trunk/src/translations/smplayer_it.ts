@@ -6610,14 +6610,6 @@ Vuoi sovrascriverlo?</translation>
         <translation>modalità slower dive</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">modalità uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">modalità dart</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>Configu&amp;ra...</translation>

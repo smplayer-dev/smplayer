@@ -4952,10 +4952,6 @@ Gainidaztea nahi duzu?</translation>
         <translation>Ireki iturburu &amp;agiritegia</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Irakurri jarioa chromec&amp;ast-en</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6611,14 +6607,6 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>murgiltze astiroago modua</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud modua</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">gezi modua</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

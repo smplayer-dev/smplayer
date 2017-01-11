@@ -4952,10 +4952,6 @@ Wilt u het overschrijven?</translation>
         <translation>&amp;Open bron map</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Speel stream af in chromec&amp;ast</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6611,14 +6607,6 @@ Wilt u het overschrijven?</translation>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud modus</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart modus</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

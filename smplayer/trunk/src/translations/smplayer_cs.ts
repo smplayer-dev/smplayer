@@ -1996,7 +1996,7 @@ Bude zobrazeno konfigurační okno.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Přehrát v &amp;Chromecastu</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -4824,12 +4824,12 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Přehrát v Chromec&amp;astu</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Otevřít proud v &amp;internetovém prohlížeči</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
@@ -4951,10 +4951,6 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Otevřít složku zdroje</translation>
-    </message>
-    <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Přehrát proud v chromec&amp;astu</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -6615,14 +6611,6 @@ Opravdu jej chcete přepsat?</translation>
         <translation>slower dive mód</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud mód</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart mód</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>Nasta&amp;vit...</translation>
@@ -7864,32 +7852,32 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Internetový server</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Změny v této části budou aplikovány při příštím restartu internetového serveru</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Výpis adresáře</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Místní &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kvůli propojení tohoto počítače s Chromecastem, SMPlayer poběží jako malý webový server. Zde je nastavení.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>

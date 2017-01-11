@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Utviklarversjon</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -994,7 +994,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>Miniatyrb&amp;iletegenerator …</translation>
+        <translation>Miniatyrb&amp;ildegenerator…</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
@@ -1024,7 +1024,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../basegui.cpp" line="1800"/>
         <source>Find subtitles at &amp;OpenSubtitles.org...</source>
-        <translation>Finn undertekstarpå  &amp;OpenSubtitles.org …</translation>
+        <translation>Finn undertekstar på  &amp;OpenSubtitles.org …</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1810"/>
@@ -1991,7 +1991,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="338"/>
         <source>S&amp;how icon in system tray</source>
-        <translation>S&amp;yn ikon i systemtrauet</translation>
+        <translation>V&amp;is ikon i systemkorga</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
@@ -2390,7 +2390,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="690"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Verktyliner</translation>
+        <translation>&amp;Verktøylinjer</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="669"/>
@@ -2400,7 +2400,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="709"/>
         <source>F&amp;ormat info</source>
-        <translation>F&amp;ormat-info</translation>
+        <translation>F&amp;ormatinfo</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="750"/>
@@ -2425,7 +2425,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="708"/>
         <source>&amp;Frame counter</source>
-        <translation>&amp;Bileteteljar</translation>
+        <translation>&amp;Ruteteljar</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
@@ -2440,17 +2440,17 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Rediger hovud&amp;verktylina</translation>
+        <translation>Rediger hovud&amp;verktøylinja</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="715"/>
         <source>Edit &amp;control bar</source>
-        <translation>Rediger &amp;kontrollina</translation>
+        <translation>Rediger &amp;kontrollinja</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="716"/>
         <source>Edit m&amp;ini control bar</source>
-        <translation>Rediger m&amp;ini-kontrollina</translation>
+        <translation>Rediger m&amp;ini-kontrollinja</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="717"/>
@@ -2536,7 +2536,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../favoriteeditor.cpp" line="116"/>
         <source>Favorite editor</source>
-        <translation>Favoritt-redigerar</translation>
+        <translation>Favorittredigerar</translation>
     </message>
     <message>
         <location filename="../favoriteeditor.ui" line="34"/>
@@ -2614,7 +2614,7 @@ Ein vegvisar vil hjelpa deg med dette no.</translation>
     <message>
         <location filename="../favorites.cpp" line="89"/>
         <source>&amp;Edit...</source>
-        <translation>&amp;Rediger …</translation>
+        <translation>&amp;Rediger…</translation>
     </message>
     <message>
         <location filename="../favorites.cpp" line="90"/>
@@ -4659,7 +4659,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../minigui.cpp" line="175"/>
         <source>Edit &amp;control bar</source>
-        <translation>Rediger &amp;kontrolline</translation>
+        <translation>Rediger &amp;kontrollinje</translation>
     </message>
     <message>
         <location filename="../minigui.cpp" line="176"/>
@@ -4810,12 +4810,12 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="671"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished">&amp;Last …</translation>
+        <translation>&amp;Last...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="673"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>Last speleliste frå &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="712"/>
@@ -4830,7 +4830,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="729"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Last/Lagra</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1616"/>
@@ -4870,7 +4870,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="677"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation>Lagra &amp;som...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="681"/>
@@ -4941,12 +4941,12 @@ Vil du skriva over?</translation>
         <location filename="../playlist.cpp" line="708"/>
         <location filename="../playlist.cpp" line="1447"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopier filsti til utklippstavle</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Opna kjeldemappe</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -5066,7 +5066,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="24"/>
         <source>&amp;Advanced</source>
-        <translation>&amp;Advansert</translation>
+        <translation>&amp;Avansert</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
@@ -7132,7 +7132,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinput.ui" line="413"/>
         <source>M&amp;ouse wheel functions</source>
-        <translation>M&amp;usehjul-funksjonar</translation>
+        <translation>M&amp;usehjulfunksjonar</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="425"/>
@@ -7233,7 +7233,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="199"/>
         <source>Mouse &amp;wheel jump</source>
-        <translation>Mus &amp;hjul-hopp</translation>
+        <translation>Muse&amp;hjul-hopp</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="629"/>
@@ -7358,12 +7358,12 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer kan skalera grensesnittet i høgdefinisjons DPI-skjermar. Her kan du slå av denne funksjonen eller endra skaleringsfaktoren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Slå på støtte for høgdefinisjons DPI-skjermar</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7378,7 +7378,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Endringar i denne seksjonen krev at du startar SMPlayer på nytt for at dei skal tre i kraft</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7388,7 +7388,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Seeking</source>
-        <translation>&amp;Søkjer</translation>
+        <translation>&amp;Søk</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="556"/>
@@ -7543,7 +7543,7 @@ SMPlayer vil freista å nytta eins val automatisk når media med slike alternati
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>Seeking</source>
-        <translation>Søkjer</translation>
+        <translation>Søk</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -9210,7 +9210,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation>Tøm redigeringslina for å slå av tilpassa stil.</translation>
+        <translation>Tøm redigeringslinja for å slå av tilpassa stil.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
@@ -9741,7 +9741,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="395"/>
         <source>&amp;Toolbars</source>
-        <translation>&amp;Verktyliner</translation>
+        <translation>&amp;Verktøylinjer</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="398"/>
@@ -9756,7 +9756,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="405"/>
         <source>Edit main &amp;toolbar</source>
-        <translation>Rediger hovud&amp;verktylina</translation>
+        <translation>Rediger hovud&amp;verktøylinja</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="407"/>
@@ -9976,7 +9976,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../toolbareditor.ui" line="14"/>
         <source>Toolbar Editor</source>
-        <translation>Verktyline-redigerar</translation>
+        <translation>Verktøylinje-redigerar</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
@@ -10263,7 +10263,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="145"/>
         <source>Thumbnail Generator</source>
-        <translation>Miniatyrbilete-generator</translation>
+        <translation>Miniatyrbilde-generator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="148"/>
@@ -10273,7 +10273,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="234"/>
         <source>Creating thumbnails...</source>
-        <translation>Lagar miniatyrbilete …</translation>
+        <translation>Lagar miniatyrbilde…</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="429"/>
@@ -10308,7 +10308,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="191"/>
         <source>The following error has occurred while creating the thumbnails:</source>
-        <translation>Følgjande feil oppstod under oppretting av miniatyrbilete:</translation>
+        <translation>Følgjande feil oppstod under oppretting av miniatyrbilde:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="217"/>
@@ -10488,7 +10488,7 @@ Advarsel: passordet blir lagra ukryptert i konfigurasjon fila.</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
         <source>Add playing &amp;time to thumbnails</source>
-        <translation>Legg til spele&amp;tid til miniatyrbilete</translation>
+        <translation>Legg til spele&amp;tid til miniatyrbilde</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="166"/>

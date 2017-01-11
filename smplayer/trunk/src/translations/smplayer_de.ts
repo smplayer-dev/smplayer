@@ -4953,10 +4953,6 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Quellordner &amp;öffnen</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Datenstrom in Chromec&amp;ast wiedergeben</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6612,14 +6608,6 @@ Möchten Sie sie überschreiben?</translation>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>langsamerer Tauchmodus (dive mode)</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">Universal Audio Modus (uniaud)</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">Dart Modus</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
