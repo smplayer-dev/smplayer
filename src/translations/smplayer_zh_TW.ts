@@ -4951,10 +4951,6 @@ Do you want to overwrite?</source>
         <translation>開啟來源資料夾(&amp;O)</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">在 chromecast 中播放串流</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6616,14 +6612,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>慢速沉潛模式</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">單一聽眾模式</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">飛鏢模式</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

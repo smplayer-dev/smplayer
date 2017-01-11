@@ -6609,14 +6609,6 @@ Valóban felül akarja írni?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud mód</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart mód</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>&amp;Beállítás...</translation>

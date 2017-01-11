@@ -4952,10 +4952,6 @@ Substituir?</translation>
         <translation>Abrir pasta de destin&amp;o</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Reproduzir emissão no chromec&amp;ast</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="717"/>
         <location filename="../playlist.cpp" line="737"/>
         <source>Search</source>
@@ -6611,14 +6607,6 @@ Substituir?</translation>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>modo &quot;slower dive&quot;</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">modo &quot;uniaud&quot;</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">modo &quot;dart&quot;</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>

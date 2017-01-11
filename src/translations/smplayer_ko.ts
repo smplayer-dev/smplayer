@@ -6609,14 +6609,6 @@ Do you want to overwrite?</source>
         <translation>slower dive 모드</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud 모드</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart 모드</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>설정하기...</translation>

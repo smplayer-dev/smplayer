@@ -6608,14 +6608,6 @@ Do you want to overwrite?</source>
         <translation>较慢的 DIVE 模式</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">UniAud 模式</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">DART 模式</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>配置(&amp;R)...</translation>

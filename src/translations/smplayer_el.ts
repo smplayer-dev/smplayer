@@ -6609,14 +6609,6 @@ Do you want to overwrite?</source>
         <translation>λειτουργία slower dive</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">λειτουργία uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">λειτουργία dart</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>&amp;Ρύθμιση...</translation>

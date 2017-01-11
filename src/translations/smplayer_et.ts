@@ -6609,14 +6609,6 @@ Kas kirjutada see üle?</translation>
         <translation>slower dive režiim</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud-režiim</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart-režiim</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>&amp;Seadista...</translation>
@@ -8872,7 +8864,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Kasuta teeki ASS, mis lubab näidata eri värvide ja fontidega subtiitreid.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8882,7 +8874,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle valikuga lubatakse Windowsi süsteemifontide kasutamine subtiitrites. Fontide vahemälu loomine võib võtta aega.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
@@ -9077,7 +9069,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"></translation>
+        <translation>Kujundus, mida kasutada subtiitrite puhul, mis ise kujundust ei määra (srt, sub jne).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9130,12 +9122,12 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle valikuga proovitakse automaatselt tuvastada, kas subtiitrid kasutavad määratud keele kodeeringut. Kui tuvastamine ebaõnnestub, kasutatakse vaikimisi kodeeringut. See valik nõuab, et programmil %1 oleks ENCA tugi.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Seda valikut ei tohiks välja lülitada välja arvatud juhul, kui %1 on kompileeritud ilma Freetype&apos;i toeta. &lt;b&gt;Valiku välja lülitamine võib tähendada, et subtiitrid ei tööta!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -9150,7 +9142,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>See valik ei muuda praeguse video subtiitrite suurust. Selleks tuleb kasutada valikuid  &lt;i&gt;Suurus +&lt;/&gt; ja &lt;i&gt;Suurus -&lt;/&gt; subtiitrite menüüs.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
@@ -9160,7 +9152,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>See valik määrab esimest korda avatud failide SSA/ASS-subtiitrite puhul vaikimisi kasutatava fontide suuruse.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
@@ -9231,7 +9223,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="471"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seda värvi kasutatakse subtiitrite varjuna.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
@@ -9246,7 +9238,7 @@ Kas kirjutada see üle?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selle valikuga määratakse ülalolevad valikud ka ASS-i subtriitritele.</translation>
     </message>
 </context>
 <context>

@@ -1996,7 +1996,7 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproducir no &amp;chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -4823,12 +4823,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Reproducir no chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Abrir o fluxo nun n&amp;avegador web</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
@@ -4950,10 +4950,6 @@ Desexas sobrescribilo?</translation>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;Abrir o cartafol orixe</translation>
-    </message>
-    <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Reproducir o fluxo no chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -6613,14 +6609,6 @@ Desexas sobrescribilo?</translation>
         <translation>Modo de inmersión lenta </translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">modo uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">Modo de dardo</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>C&amp;onfigurar...</translation>
@@ -7861,32 +7849,32 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Servidor web</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Os cambios nesta sección aplicaranse a próxima vez que se reinicie o servidor web</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de &amp;cartafoles</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;IP local:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Para enviar multimedias locais do computador ao Chromecast, SMPlayer executará un pequeno servidor web. Pode configuralo aquí ou nos axustes.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>

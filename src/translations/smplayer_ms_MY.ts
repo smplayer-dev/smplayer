@@ -6608,14 +6608,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>mod junam lebih perlahan</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">mod uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">mod dart</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>Konfigu&amp;r...</translation>

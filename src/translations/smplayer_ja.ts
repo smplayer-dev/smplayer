@@ -1996,7 +1996,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast で再生(&amp;C)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -4822,12 +4822,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast で再生(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Web ブラウザーでストリームを開く(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
@@ -4949,10 +4949,6 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
         <translation>ソース フォルダーを開く(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Chromecast でストリームを再生(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -6612,14 +6608,6 @@ Do you want to overwrite?</source>
         <translation>高速ダイブ モード</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud モード</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart モード</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>構成(&amp;R)...</translation>
@@ -7860,32 +7848,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Web サーバー</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>このセクションでの変更は次回 Web サーバーが再起動された時に適用されます。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>ディレクトリの一覧(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>ローカル IP(&amp;I):</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>このコンピューターから Chromecast へローカル メディアをサーブするため、SMPlayer は小さな Web サーバーを実行します。ここではその設定を調整できます。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>

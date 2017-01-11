@@ -6609,14 +6609,6 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>mode dive lambat</translation>
     </message>
     <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">mode uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">mode dart</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.ui" line="385"/>
         <source>Configu&amp;re...</source>
         <translation>Konfigu&amp;rasi...</translation>

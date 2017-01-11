@@ -1055,7 +1055,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Doniraj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1291,42 +1291,42 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="4505"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Podržite SMPlayer</translation>
+        <translation>Podržite SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4507"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Doniraj</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4508"/>
         <source>No</source>
-        <translation type="unfinished">Ne</translation>
+        <translation>Nemoj donirati</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4511"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer vas treba</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4512"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer je besplatan softver. Ipak njegov razvoj zahtijeva puno uloženog vremena i rada.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4513"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Kako bi nastavili razvoj novih značajki SMPlayera potrebna nam je vaša pomoć.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4514"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Razmotrite podršku SMPlayer projekta slanjem donacije.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4515"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Čak i najmanji iznos će nam puno pomoći.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5004"/>
@@ -2430,12 +2430,12 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Informacije brzine prijenosa</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Prikaži trenutno vrijeme s milisekundama</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2466,7 +2466,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>Video: %1 kbps Zvuk: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -4945,12 +4945,12 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="708"/>
         <location filename="../playlist.cpp" line="1447"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopiraj putanju datoteke u međuspremnik</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="709"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Otvori sadržajnu mapu</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
@@ -4981,7 +4981,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1452"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopiraj URL u međuspremnik</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1917"/>
@@ -6608,14 +6608,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>sporiji dive način</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">uniaud način</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">dart način</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
