@@ -134,4 +134,4 @@ ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of
 
 ; Post install
 ${LangFileString} Info_Cleaning_Fontconfig "Rydder op i skrifttypekonfigurations-mellemlager..."
-${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer indstillinger..."
+${LangFileString} Info_Cleaning_SMPlayer "Rydder op i SMPlayer's indstillinger..."
