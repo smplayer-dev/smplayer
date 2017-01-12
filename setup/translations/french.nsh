@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Vous devez être connecté comme administr
 ${LangFileString} SMPlayer_Is_Running "Une instance de SMPlayer est en cours d'exécution.  Veuillez quitter SMPlayer puis réessayer l'installation."
 
 ${LangFileString} OS_Not_Supported "Système d'exploitation non supporté.$\nSMPlayer ${SMPLAYER_VERSION} requiert au minimum Windows XP et pourrait ne pas fonctionner correctement sur votre système.$\nSouhaitez-vous vraiment continuer l'installation ?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Système d'exploitation non supporté.$\nSMPlayer ${SMPLAYER_VERSION} nécessite au moins Windows Vista et pourrait ne pas fontionner correctement sur votre système.$\nSouhaitez-vous vraiment continuer l'installation ?"
 ${LangFileString} Win64_Required "Ce programme nécessite une version 64bits de Windows pour pouvoir être installé."
 ${LangFileString} Existing_32bitInst "Une installation de SMPlayer 32 bits existe.  Vous devez désinstaller SMPlayer 32 bits d'abord."
 ${LangFileString} Existing_64bitInst "Une installation de SMPlayer 64 bits existe.  Vous devez désinstaller SMPlayer 64 bits d'abord."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Cliquez sur « Désinstaller » une fois pr�
 ${LangFileString} Reinstall_Msg4 "Changer les paramètres d'installation."
 ${LangFileString} Reinstall_Msg5 "Réinitialiser ma configuration de SMPlayer"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Êtes-vous certain de vouloir réinitialiser les paramètres de SMPlayer ? Cette action n'est pas réversible."
 
 ${LangFileString} Type_Reinstall "Réinstaller la même version."
 ${LangFileString} Type_Downgrade "Installer une version plus ancienne."
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "Défait les changements..."
 ${LangFileString} Info_Files_Extract "Extrait les fichiers..."
 ${LangFileString} Info_SMTube_Backup "Sauvegarde de SMTube…"
 ${LangFileString} Info_SMTube_Restore "Restauration de SMTube depuis une précédente installation…"
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Sauvegarde de mpv…"
+${LangFileString} Info_MPV_Restore "Restauration de mpv depuis une précédente installation…"
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Téléchargement de mpv…"
+${LangFileString} MPV_DL_Retry "L’installation de mpv a échoué. Réessayer ?"
+${LangFileString} MPV_DL_Failed "Échec lors du téléchargement de mpv : '$R0'."
+${LangFileString} MPV_Inst_Failed "Erreur lors de l’installation de mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "youtube-dl n’a pas été installé correctement. Réessayer ?"
+${LangFileString} YTDL_DL_Failed "Échec lors du téléchargement de youtube-dl : '$R0'."
+${LangFileString} YTDL_Update_Check "Vérification des mises à jour de youtube-dl..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Nettoyage du cache fontconfig..."
+${LangFileString} Info_Cleaning_SMPlayer "Nettoyage des paramètres de SMPlayer..."

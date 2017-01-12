@@ -1,161 +1,203 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
-# samson <sambelet@yahoo.com>, 2015-2016
-msgid ""
-msgstr ""
-"Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: samson <sambelet@yahoo.com>\n"
-"Language-Team: Amharic (http://www.transifex.com/rvm/smplayer/language/am/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Language: am\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-# Installer_Is_Running
-msgid "The installer is already running."
-msgstr "መግጠሚያው እየሄደ ነው"
-
-# Installer_No_Admin
-msgid ""
-"You must be logged in as an administrator when installing this program."
-msgstr "እርስዎ ይህን ፕሮግራም ሲገጥሙ እንደ አስተዳዳሪ መግባት አለብዎት "
-
-# SMPlayer_Is_Running
-msgid ""
-"An instance of SMPlayer is running. Please exit SMPlayer and try again."
-msgstr "የ SMP ማጫወቻ እየሄደ ነው: እባክዎን ከ SMP ማጫወቻ ይውጡ እና እንደገና ይሞክሩ"
-
-# OS_Not_Supported
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows XP and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr "ያልተደገፈ አይነት የ መስሪያ ስርአት [:n:]SMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.[:n:]በ እርግጥ መግጠሙን መቀጠል ይፈልጋሉ?"
-
-# OS_Not_Supported_VistaRequired
-msgid ""
-"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
-"least Windows Vista and may not work correctly on your system.[:n:]Do you "
-"really want to continue with the installation?"
-msgstr "ያልተደገፈ አይነት የ መስሪያ ስርአት [:n:]SMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.[:n:] በ እርግጥ መግጠሙን መቀጠል ይፈልጋሉ?"
-
-# Win64_Required
-msgid ""
-"A 64-bit Windows operating system is required to install this software."
-msgstr "የ 64-ቢት መስኮት መስሪያ ስርአት ያስፈልጋል ይህን ፕሮግራም ለ መግጠም"
-
-# Existing_32bitInst
-msgid ""
-"An existing 32-bit installation of SMPlayer exists. You must uninstall "
-"32-bit SMPlayer first."
-msgstr "ቀደም ያለ የ 32-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 32-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
-
-# Existing_64bitInst
-msgid ""
-"An existing 64-bit installation of SMPlayer exists. You must uninstall "
-"64-bit SMPlayer first."
-msgstr "ቀደም ያለ የ 64-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 64-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
-
-# WelcomePage_Title
-msgid "$(^NameDA) Setup"
-msgstr "$(^NameDA) ማሰናጃ"
-
-# WelcomePage_Text
-msgid ""
-"Setup will guide you through the installation of "
-"$(^NameDA).[:r:][:n:][:r:][:n:]It is recommended that you close all "
-"instances of SMPlayer before starting setup. This will make it possible to "
-"update relevant program files without having to reboot your "
-"computer.[:r:][:n:][:r:][:n:]$_CLICK"
-msgstr "ማሰናጃው ይመራዎታል እንዴት እንደሚገጥሙ $(^NameDA).[:r:][:n:][:r:][:n:] ሌሎች ፕሮግራሞችን ይዝጉ SMPlayer ከ መገጠሙ በፊት: ይህ ማሻሻያ አግባብ ያለው ፕሮግራም ኮምፒዩተሩ እንደገና ሳይጀምር ማሻሻል ያስችለዋል [:r:][:n:][:r:][:n:]$_CLICK"
-
-# ShortcutGroupTitle
-msgid "Shortcuts"
-msgstr "አቋራጮች"
-
-# MPlayerGroupTitle
-msgid "MPlayer Components"
-msgstr "የ SMP ማጫወቻ አካላቶች"
-
-# MPlayerMPVGroupTitle
-msgid "Multimedia Engine"
-msgstr "በርካታ መገናኛ ሞተር"
-
-# Section_SMPlayer
-msgid "SMPlayer (required)"
-msgstr "SMP ማጫወቻ (ያስፈልጋል)"
-
-# Section_SMPlayer_Desc
-msgid "SMPlayer, shared libraries, and documentation."
-msgstr "የ SMP ማጫወቻ የሚካፈላቸው መጻህፍት ቤት"
-
-# Section_DesktopShortcut
-msgid "Desktop"
-msgstr "ደስክቶፕ"
-
-# Section_DesktopShortcut_Desc
-msgid "Creates a shortcut to SMPlayer on the desktop."
-msgstr "በ ዴስክቶፕ ላይ አቋራጭ መፍጠሪያ ለ SMP ማጫወቻ"
-
-# Section_StartMenu
-msgid "Start Menu"
-msgstr "ዝርዝር ማስጀመሪያ"
-
-# Section_StartMenu_Desc
-msgid "Create a Start Menu entry for SMPlayer."
-msgstr "ለ SMPlayer የ ማስጀመሪያ ዝርዝር ማስገቢያ መፍጠሪያ"
-
-# Section_MPlayer
-msgid "MPlayer (required)"
-msgstr "SMP ማጫወቻ (ያስፈልጋል)"
-
-# Section_MPlayer_Desc
-msgid "MPlayer; required for playback."
-msgstr "SMP ማጫወቻ; ያስፈልጋል በ ድጋሚ ለማጫወት"
-
-# Section_MPlayerCodecs
-msgid "Binary Codecs"
-msgstr "Binary Codecs"
-
 # Section_MPlayerCodecs_Desc
-msgid ""
-"Optional codecs for MPlayer. (Internet Connection required for installation)"
-msgstr "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
-
-# Section_MPV_Desc
-msgid "A feature-rich fork of MPlayer && MPlayer2"
-msgstr "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
-
-# Section_MEncoder_Desc
-msgid ""
-"A companion program to MPlayer that can be used to encode or transform "
-"supported audio or video streams."
+msgid "Binary codecs are not supported in this version."
 msgstr ""
 
-# Section_IconThemes
-msgid "Icon Themes"
-msgstr "የ ምልክት ገጽታዎች"
+# Info_Cleaning_SMPlayer
+msgid "Cleaning SMPlayer settings..."
+msgstr "በማጽዳት ላይ የ SMPlayer ማሰናጃ"
 
-# Section_IconThemes_Desc
-msgid "Additional icon themes for SMPlayer."
-msgstr "ለ SMP ማጫወቻ ተጨማሪ ገጽታዎች"
-
-# Section_Translations
-msgid "Languages"
-msgstr "ቋንቋ"
-
-# Section_Translations_Desc
-msgid "Non-English language files for SMPlayer."
-msgstr "እንግሊዝኛ-ላልሆኑ ቋንቋዎች ፋይሎች ለ SMP ማጫወቻ"
-
-# Section_ResetSettings_Desc
-msgid "Deletes SMPlayer preferences leftover from previous installations."
+# Info_Cleaning_Fontconfig
+msgid "Cleaning fontconfig cache..."
 msgstr ""
+
+# YTDL_Update_Check
+msgid "Checking for youtube-dl updates..."
+msgstr "የ ዩቲዩብ-dl ማሻሻያ በ መመርመር ላይ..."
+
+# YTDL_DL_Failed
+msgid "Failed to download youtube-dl: '$R0'."
+msgstr "ማውረድ አልተቻለም ከ youtube-dl: '$R0'."
+
+# YTDL_DL_Retry
+msgid "youtube-dl was not successfully installed. Retry?"
+msgstr ""
+
+# MPV_Inst_Failed
+msgid "Failed to install mpv."
+msgstr "መግጠም አልተቻለም mpv."
+
+# MPV_DL_Failed
+msgid "Failed to download mpv: '$R0'."
+msgstr "ማውረድ አልተቻለም: '$R0'."
+
+# MPV_DL_Retry
+msgid "mpv was not successfully installed. Retry?"
+msgstr "mpv ተሳክቶ አልተገጠመም: እንደገና ልሞክር?"
+
+# MPV_DL_Msg
+msgid "Downloading mpv..."
+msgstr "በ ማውረድ ላይ mpv..."
+
+# Info_MPV_Restore
+msgid "Restoring mpv from previous installation..."
+msgstr "በ ቅድሚያ የ ተገጠመውን mpv ተተኪ እንደ ነበር መመለሻ"
+
+# Info_MPV_Backup
+msgid "Backing up mpv..."
+msgstr "ተተኪ በማሰናዳት ላይ የ mpv..."
+
+# Info_SMTube_Restore
+msgid "Restoring SMTube from previous installation..."
+msgstr "በ ቅድሚያ የ ተገጠመውን SMTube ተተኪ እንደ ነበር መመለሻ"
+
+# Info_SMTube_Backup
+msgid "Backing up SMTube..."
+msgstr "ለ SMTube ተተኪ መፍጠሪያ..."
+
+# Info_Files_Extract
+msgid "Extracting files..."
+msgstr "ፋይሎች በ ማራገፍ ላይ..."
+
+# Info_RollBack
+msgid "Rolling back changes..."
+msgstr "ለውጦችን እንደ ነበር መመለሻ..."
+
+# Info_Rest_Assoc
+msgid "Restoring file associations..."
+msgstr "እንደ ነበር በ መመለስ ላይ የሚዛመዱ ፋይሎችን..."
+
+# Info_Del_Shortcuts
+msgid "Deleting Shortcuts..."
+msgstr "አቋራጮች በማጥፋት ላይ..."
+
+# Info_Del_Registry
+msgid "Deleting Registry Keys..."
+msgstr "Registry Keys በማጥፋት ላይ..."
+
+# Info_Del_Files
+msgid "Deleting Files..."
+msgstr "ፋይሎች በማጥፋት ላይ..."
+
+# Info_Codecs_Restore
+msgid "Restoring codecs from previous installation..."
+msgstr "በ ቅድሚያ የ ተገጠመውን codecs ተተኪ እንደ ነበር መመለሻ"
+
+# Info_Codecs_Backup
+msgid "Backing up codecs from previous installation..."
+msgstr "በ ቅድሚያ የ ተገጠመውን codecs ተተኪ በ መፍጠር ላይ"
+
+# Application_Description
+msgid ""
+"SMPlayer is a complete front-end for MPlayer, from basic features like "
+"playing videos, DVDs, VCDs to more advanced features like support for "
+"MPlayer filters, edl lists, and more."
+msgstr ""
+
+# Uninstaller_64bitOnly
+msgid "This installation can only be uninstalled on 64-bit Windows."
+msgstr "ይህን መግጠሚያ ማስወገድ የሚቻለው በ 64-ቢት መስኮቶች ውስጥ ብቻ ነው"
+
+# Uninstaller_InvalidDirectory
+msgid "SMPlayer installation not found."
+msgstr "የ SMPlayer መግጠሚያ አልተገኘም"
+
+# Uninstaller_NotInstalled
+msgid ""
+"It does not appear that SMPlayer is installed in the directory '$INSTDIR'.[:"
+"r:][:n:]Continue anyway (not recommended)?"
+msgstr ""
+
+# Uninstaller_Aborted
+msgid "Uninstall aborted by user."
+msgstr "ማጥፋቱ በ ተጠቃሚ ተቋርጧል"
+
+# Uninstaller_No_Admin
+msgid ""
+"This installation can only be uninstalled by a user with administrator "
+"privileges."
+msgstr ""
+
+# Codecs_Inst_Failed
+msgid "Failed to install MPlayer codecs."
+msgstr "የ MPlayer codecs. መግጠም አልተቻለም"
+
+# Codecs_DL_Failed
+msgid "Failed to download MPlayer codecs: '$R0'."
+msgstr "ማውረድ አልተቻለም የ MPlayer codecs: '$R0'."
+
+# Codecs_DL_Retry
+msgid "MPlayer codecs were not successfully installed. Retry?"
+msgstr "የ MPlayer codecs ተሳክቶ አልተገጠመም: እንደገና ለ መግጠም ልሞክር?"
+
+# Codecs_DL_Msg
+msgid "Downloading MPlayer Codecs..."
+msgstr "የ MPlayer Codecs በ ማውረድ ላይ..."
+
+# StartBtn
+msgid "Start"
+msgstr "ማስጀመሪያ"
+
+# Type_Upgrade
+msgid "upgrade"
+msgstr "ማሻሻያ"
+
+# Type_Downgrade
+msgid "downgrade"
+msgstr "ዝቅ ማድረጊያ"
+
+# Type_Reinstall
+msgid "reinstall"
+msgstr "እንደገና መግጠሚያ"
+
+# Remove_Settings_Confirmation
+msgid ""
+"Are you sure you want to reset your SMPlayer settings? This action cannot be "
+"reversed."
+msgstr ""
+
+# Reinstall_Msg5
+msgid "Reset my SMPlayer configuration"
+msgstr "እንደ ነበር መመለሻ የ እኔን SMPlayer ማዋቀሪያ"
+
+# Reinstall_Msg4
+msgid "Change Installation Settings"
+msgstr "የ መግጠሚያ ማሰናጃ መቀየሪያ"
+
+# Reinstall_Msg3_3
+msgid "Click Uninstall when ready to proceed."
+msgstr "ይጫኑ ማጥፊያውን ለ መቀጠል ዝግጁ ሲሆኑ "
+
+# Reinstall_Msg3_2
+msgid "Click Next when ready to proceed."
+msgstr "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ "
+
+# Reinstall_Msg3_1
+msgid "Click Start when ready to proceed."
+msgstr "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ "
+
+# Reinstall_Uninstall
+msgid "Uninstall (remove) the existing installation"
+msgstr "ማጥፊያ (ማስወገጃ) የ ነበረውን መግጠሚያ"
+
+# Reinstall_Overwrite
+msgid "Overwrite ($Inst_Type) the existing installation"
+msgstr " በላዩ ላይ ደርቦ መጻፊያ ($Inst_Type) በ ነበረው መግጠሚያ ላይ"
+
+# Reinstall_Msg2
+msgid "Please select how to proceed:"
+msgstr "እባክዎን እንዴት መቀጠል እንደሚፈልጉ ይምረጡ"
+
+# Reinstall_Msg1
+msgid "You have an existing installation of SMPlayer in the following folder:"
+msgstr "እርስዎ በቅድሚያ የተገጠመ የ SMPlayer በሚቀጥለው ፎልደር ውስጥ አለዎት"
+
+# Reinstall_Header_SubText
+msgid "Select Overwrite or Uninstall mode."
+msgstr "ይምረጡ በላዩ ላይ ደርቦ መጻፊያ ወይንም ማጥፊያ ዘዴ"
+
+# Reinstall_Header_Text
+msgid "Select Install Type"
+msgstr "የ መግጠሚያ አይነት ይምረጡ"
 
 # MPlayer_Codec_Msg
 msgid ""
@@ -165,203 +207,166 @@ msgid ""
 "like DVDs, MPEG-1/2/4, etc."
 msgstr ""
 
-# Reinstall_Header_Text
-msgid "Select Install Type"
-msgstr "የ መግጠሚያ አይነት ይምረጡ"
+# Section_ResetSettings_Desc
+msgid "Deletes SMPlayer preferences leftover from previous installations."
+msgstr "የ SMP ማጫወቻ ምርጫዎች ካለፈው መግጠሚያ የ ተረፉትን ማጥፊያ"
 
-# Reinstall_Header_SubText
-msgid "Select Overwrite or Uninstall mode."
-msgstr "ይምረጡ በላዩ ላይ ደርቦ መጻፊያ ወይንም ማጥፊያ ዘዴ"
+# Section_Translations_Desc
+msgid "Non-English language files for SMPlayer."
+msgstr "እንግሊዝኛ-ላልሆኑ ቋንቋዎች ፋይሎች ለ SMP ማጫወቻ"
 
-# Reinstall_Msg1
-msgid "You have an existing installation of SMPlayer in the following folder:"
-msgstr ""
+# Section_Translations
+msgid "Languages"
+msgstr "ቋንቋ"
 
-# Reinstall_Msg2
-msgid "Please select how to proceed:"
-msgstr "እባክዎን እንዴት መቀጠል እንደሚፈልጉ ይምረጡ"
+# Section_IconThemes_Desc
+msgid "Additional icon themes for SMPlayer."
+msgstr "ለ SMP ማጫወቻ ተጨማሪ ገጽታዎች"
 
-# Reinstall_Overwrite
-msgid "Overwrite ($Inst_Type) the existing installation"
-msgstr " በላዩ ላይ ደርቦ መጻፊያ ($Inst_Type) በ ነበረው መግጠሚያ ላይ"
+# Section_IconThemes
+msgid "Icon Themes"
+msgstr "የ ምልክት ገጽታዎች"
 
-# Reinstall_Uninstall
-msgid "Uninstall (remove) the existing installation"
-msgstr "ማጥፊያ (ማስወገጃ) የ ነበረውን መግጠሚያ"
-
-# Reinstall_Msg3_1
-msgid "Click Start when ready to proceed."
-msgstr "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ "
-
-# Reinstall_Msg3_2
-msgid "Click Next when ready to proceed."
-msgstr "ይጫኑ ማስጀመሪያውን ለ መቀጠል ዝግጁ ሲሆኑ "
-
-# Reinstall_Msg3_3
-msgid "Click Uninstall when ready to proceed."
-msgstr "ይጫኑ ማጥፊያውን ለ መቀጠል ዝግጁ ሲሆኑ "
-
-# Reinstall_Msg4
-msgid "Change Installation Settings"
-msgstr "የ መግጠሚያ ማሰናጃ መቀየሪያ"
-
-# Reinstall_Msg5
-msgid "Reset my SMPlayer configuration"
-msgstr "እንደ ነበር መመለሻ የ እኔን SMPlayer ማዋቀሪያ"
-
-# Remove_Settings_Confirmation
+# Section_MEncoder_Desc
 msgid ""
-"Are you sure you want to reset your SMPlayer settings? This action cannot be"
-" reversed."
+"A companion program to MPlayer that can be used to encode or transform "
+"supported audio or video streams."
 msgstr ""
 
-# Type_Reinstall
-msgid "reinstall"
-msgstr "እንደገና መግጠሚያ"
-
-# Type_Downgrade
-msgid "downgrade"
-msgstr "ዝቅ ማድረጊያ"
-
-# Type_Upgrade
-msgid "upgrade"
-msgstr "ማሻሻያ"
-
-# StartBtn
-msgid "Start"
-msgstr "ማስጀመሪያ"
-
-# Codecs_DL_Msg
-msgid "Downloading MPlayer Codecs..."
-msgstr "የ MPlayer Codecs በ ማውረድ ላይ..."
-
-# Codecs_DL_Retry
-msgid "MPlayer codecs were not successfully installed. Retry?"
-msgstr "የ MPlayer codecs ተሳክቶ አልተገጠመም: እንደገና ለ መግጠም ልሞክር?"
-
-# Codecs_DL_Failed
-msgid "Failed to download MPlayer codecs: '$R0'."
-msgstr "ማውረድ አልተቻለም የ MPlayer codecs: '$R0'."
-
-# Codecs_Inst_Failed
-msgid "Failed to install MPlayer codecs."
-msgstr "የ MPlayer codecs. መግጠም አልተቻለም"
-
-# Uninstaller_No_Admin
-msgid ""
-"This installation can only be uninstalled by a user with administrator "
-"privileges."
-msgstr ""
-
-# Uninstaller_Aborted
-msgid "Uninstall aborted by user."
-msgstr "ማጥፋቱ በ ተጠቃሚ ተቋርጧል"
-
-# Uninstaller_NotInstalled
-msgid ""
-"It does not appear that SMPlayer is installed in the directory "
-"'$INSTDIR'.[:r:][:n:]Continue anyway (not recommended)?"
-msgstr ""
-
-# Uninstaller_InvalidDirectory
-msgid "SMPlayer installation not found."
-msgstr "የ SMPlayer መግጠሚያ አልተገኘም"
-
-# Uninstaller_64bitOnly
-msgid "This installation can only be uninstalled on 64-bit Windows."
-msgstr ""
-
-# Application_Description
-msgid ""
-"SMPlayer is a complete front-end for MPlayer, from basic features like "
-"playing videos, DVDs, VCDs to more advanced features like support for "
-"MPlayer filters, edl lists, and more."
-msgstr ""
-
-# Info_Codecs_Backup
-msgid "Backing up codecs from previous installation..."
-msgstr ""
-
-# Info_Codecs_Restore
-msgid "Restoring codecs from previous installation..."
-msgstr ""
-
-# Info_Del_Files
-msgid "Deleting Files..."
-msgstr "ፋይሎች በማጥፋት ላይ..."
-
-# Info_Del_Registry
-msgid "Deleting Registry Keys..."
-msgstr ""
-
-# Info_Del_Shortcuts
-msgid "Deleting Shortcuts..."
-msgstr "አቋራጮች በማጥፋት ላይ..."
-
-# Info_Rest_Assoc
-msgid "Restoring file associations..."
-msgstr "እንደ ነበር በ መመለስ ላይ የሚዛመዱ ፋይሎችን..."
-
-# Info_RollBack
-msgid "Rolling back changes..."
-msgstr ""
-
-# Info_Files_Extract
-msgid "Extracting files..."
-msgstr "ፋይሎች በ ማራገፍ ላይ..."
-
-# Info_SMTube_Backup
-msgid "Backing up SMTube..."
-msgstr ""
-
-# Info_SMTube_Restore
-msgid "Restoring SMTube from previous installation..."
-msgstr ""
-
-# Info_MPV_Backup
-msgid "Backing up mpv..."
-msgstr "ተተኪ በማሰናዳት ላይ የ mpv..."
-
-# Info_MPV_Restore
-msgid "Restoring mpv from previous installation..."
-msgstr ""
-
-# MPV_DL_Msg
-msgid "Downloading mpv..."
-msgstr "በ ማውረድ ላይ mpv..."
-
-# MPV_DL_Retry
-msgid "mpv was not successfully installed. Retry?"
-msgstr "mpv ተሳክቶ አልተገጠመም: እንደገና ልሞክር?"
-
-# MPV_DL_Failed
-msgid "Failed to download mpv: '$R0'."
-msgstr "ማውረድ አልተቻለም: '$R0'."
-
-# MPV_Inst_Failed
-msgid "Failed to install mpv."
-msgstr "መግጠም አልተቻለም mpv."
-
-# YTDL_DL_Retry
-msgid "youtube-dl was not successfully installed. Retry?"
-msgstr ""
-
-# YTDL_DL_Failed
-msgid "Failed to download youtube-dl: '$R0'."
-msgstr "ማውረድ አልተቻለም ከ youtube-dl: '$R0'."
-
-# YTDL_Update_Check
-msgid "Checking for youtube-dl updates..."
-msgstr ""
-
-# Info_Cleaning_Fontconfig
-msgid "Cleaning fontconfig cache..."
-msgstr ""
-
-# Info_Cleaning_SMPlayer
-msgid "Cleaning SMPlayer settings..."
-msgstr "በማጽዳት ላይ የ SMPlayer ማሰናጃ"
+# Section_MPV_Desc
+msgid "A feature-rich fork of MPlayer && MPlayer2"
+msgstr "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
 
 # Section_MPlayerCodecs_Desc
-msgid "Binary codecs are not supported in this version."
+msgid ""
+"Optional codecs for MPlayer. (Internet Connection required for installation)"
+msgstr "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
+
+# Section_MPlayerCodecs
+msgid "Binary Codecs"
+msgstr "Binary Codecs"
+
+# Section_MPlayer_Desc
+msgid "MPlayer; required for playback."
+msgstr "SMP ማጫወቻ; ያስፈልጋል በ ድጋሚ ለማጫወት"
+
+# Section_MPlayer
+msgid "MPlayer (required)"
+msgstr "SMP ማጫወቻ (ያስፈልጋል)"
+
+# Section_StartMenu_Desc
+msgid "Create a Start Menu entry for SMPlayer."
+msgstr "ለ SMPlayer የ ማስጀመሪያ ዝርዝር ማስገቢያ መፍጠሪያ"
+
+# Section_StartMenu
+msgid "Start Menu"
+msgstr "ዝርዝር ማስጀመሪያ"
+
+# Section_DesktopShortcut_Desc
+msgid "Creates a shortcut to SMPlayer on the desktop."
+msgstr "በ ዴስክቶፕ ላይ አቋራጭ መፍጠሪያ ለ SMP ማጫወቻ"
+
+# Section_DesktopShortcut
+msgid "Desktop"
+msgstr "ደስክቶፕ"
+
+# Section_SMPlayer_Desc
+msgid "SMPlayer, shared libraries, and documentation."
+msgstr "የ SMP ማጫወቻ የሚካፈላቸው መጻህፍት ቤት"
+
+# Section_SMPlayer
+msgid "SMPlayer (required)"
+msgstr "SMP ማጫወቻ (ያስፈልጋል)"
+
+# MPlayerMPVGroupTitle
+msgid "Multimedia Engine"
+msgstr "በርካታ መገናኛ ሞተር"
+
+# MPlayerGroupTitle
+msgid "MPlayer Components"
+msgstr "የ SMP ማጫወቻ አካላቶች"
+
+# ShortcutGroupTitle
+msgid "Shortcuts"
+msgstr "አቋራጮች"
+
+# WelcomePage_Text
+msgid ""
+"Setup will guide you through the installation of $(^NameDA).[:r:][:n:][:r:][:"
+"n:]It is recommended that you close all instances of SMPlayer before "
+"starting setup. This will make it possible to update relevant program files "
+"without having to reboot your computer.[:r:][:n:][:r:][:n:]$_CLICK"
 msgstr ""
+"ማሰናጃው ይመራዎታል እንዴት እንደሚገጥሙ $(^NameDA).[:r:][:n:][:r:][:n:] ሌሎች ፕሮግራሞችን ይዝጉ "
+"SMPlayer ከ መገጠሙ በፊት: ይህ ማሻሻያ አግባብ ያለው ፕሮግራም ኮምፒዩተሩ እንደገና ሳይጀምር ማሻሻል ያስችለዋል [:"
+"r:][:n:][:r:][:n:]$_CLICK"
+
+# WelcomePage_Title
+msgid "$(^NameDA) Setup"
+msgstr "$(^NameDA) ማሰናጃ"
+
+# Existing_64bitInst
+msgid ""
+"An existing 64-bit installation of SMPlayer exists. You must uninstall 64-"
+"bit SMPlayer first."
+msgstr "ቀደም ያለ የ 64-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 64-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
+
+# Existing_32bitInst
+msgid ""
+"An existing 32-bit installation of SMPlayer exists. You must uninstall 32-"
+"bit SMPlayer first."
+msgstr "ቀደም ያለ የ 32-ቢት የ SMP ማጫወቻ ነበር: መጀመሪያ የ 32-ቢት የ SMP ማጫወቻ ማጥፋት አለብዎት"
+
+# Win64_Required
+msgid "A 64-bit Windows operating system is required to install this software."
+msgstr "የ 64-ቢት መስኮት መስሪያ ስርአት ያስፈልጋል ይህን ፕሮግራም ለ መግጠም"
+
+# OS_Not_Supported_VistaRequired
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows Vista and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"ያልተደገፈ አይነት የ መስሪያ ስርአት [:n:]SMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ "
+"Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.[:n:] በ እርግጥ መግጠሙን መቀጠል "
+"ይፈልጋሉ?"
+
+# OS_Not_Supported
+msgid ""
+"Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
+"least Windows XP and may not work correctly on your system.[:n:]Do you "
+"really want to continue with the installation?"
+msgstr ""
+"ያልተደገፈ አይነት የ መስሪያ ስርአት [:n:]SMPlayer ${SMPLAYER_VERSION} ያስፈልጋል ቢያንስ "
+"Windows XP እና በ እርስዎ መስሪያ ስርአት ላይ በትክክል ላይሰራ ይችላል.[:n:]በ እርግጥ መግጠሙን መቀጠል "
+"ይፈልጋሉ?"
+
+# SMPlayer_Is_Running
+msgid "An instance of SMPlayer is running. Please exit SMPlayer and try again."
+msgstr "የ SMP ማጫወቻ እየሄደ ነው: እባክዎን ከ SMP ማጫወቻ ይውጡ እና እንደገና ይሞክሩ"
+
+# Installer_No_Admin
+msgid "You must be logged in as an administrator when installing this program."
+msgstr "እርስዎ ይህን ፕሮግራም ሲገጥሙ እንደ አስተዳዳሪ መግባት አለብዎት "
+
+# Installer_Is_Running
+msgid "The installer is already running."
+msgstr "መግጠሚያው እየሄደ ነው"
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# samson <sambelet@yahoo.com>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: smplayer\n"
+"PO-Revision-Date: 2016-12-20 18:37+0000\n"
+"Last-Translator: samson <sambelet@yahoo.com>\n"
+"Language-Team: Amharic (http://www.transifex.com/rvm/smplayer/language/am/)\n"
+"Language: am\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
