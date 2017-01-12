@@ -1,3 +1,34 @@
+Version 17.1:
+
+(2017-01-05)
+ * (Playlist) Add an option in context menu to open the current item on chromecast.
+
+(2016-12-30)
+ * (mpv) Add support for the wasapi devices.
+
+(2016-12-26)
+ * Add the option "Play on Chromecast" in the Play menu.
+
+(2016-12-20)
+ * Add an option to display the current time with milliseconds in the status bar.
+
+(2016-12-17)
+ * Add an option to display the bitrate info in the status bar.
+
+(2016-11-30)
+ * (Playlist) Add option to open the source folder of the video in the context menu.
+
+(2016-11-29)
+ * (Playlist) Add a "copy URL to clipboard" option in the context menu.
+
+(2016-11-28)
+ * Parse the option #EXTVLCOPT:http-referrer and #EXTVLCOPT:http-user-agent from m3u
+   playlists. This may allow you to play playlists intended for VLC.
+
+(2016-11-21)
+ * The option to add black borders in fullscreen is back.
+
+
 Version 16.11:
 
 (2016-10-20)
