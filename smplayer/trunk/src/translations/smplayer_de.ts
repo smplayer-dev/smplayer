@@ -1995,7 +1995,7 @@ Das könnte das Problem beheben.</translation>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>Im &amp;Chromecast wiedergeben</translation>
+        <translation>In &amp;Chromecast wiedergeben</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -4819,7 +4819,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation>Im Chromec&amp;ast wiedergeben</translation>
+        <translation>In Chromec&amp;ast wiedergeben</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
