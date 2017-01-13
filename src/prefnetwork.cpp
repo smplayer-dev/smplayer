@@ -248,6 +248,23 @@ void PrefNetwork::createHelp() {
 	*/
 #endif
 
+#ifdef CHROMECAST_SUPPORT
+	addSectionTitle(tr("Chromecast"));
+
+	setWhatsThis(local_ip_combo, tr("Local IP"),
+		tr("The local IP address of this computer. It will be passed to Chromecast "
+            "so that it can access the files from this computer.") );
+
+	setWhatsThis(port_spin, tr("Port"),
+		tr("The port that the web server will use.") );
+
+	setWhatsThis(directory_listing_check, tr("Directory listing"),
+		tr("When the web server is running, any device in your network can access the "
+           "files from this computer. If this option is on, any device can get a listing "
+           "of the files in this computer. "
+           "If this option is off, the list won't be available.") );
+#endif
+
 	addSectionTitle(tr("Proxy"));
 
 	setWhatsThis(use_proxy_check, tr("Enable proxy"),
