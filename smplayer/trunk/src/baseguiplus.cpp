@@ -1033,7 +1033,9 @@ void BaseGuiPlus::updateSendAudioMenu() {
 #endif
 
 #if USE_DSOUND_DEVICES
-	addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound");
+	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPLAYER) {
+		addListToSendAudioMenu( DeviceInfo::dsoundDevices(), "dsound");
+	}
 #endif
 
 #if MPV_AUDIO_DEVICES
