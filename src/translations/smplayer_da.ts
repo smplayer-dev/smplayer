@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="da" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="da">
 <context>
     <name>About</name>
     <message>
@@ -2945,7 +2947,10 @@ Eksempel: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n undertekst udpakket</numerusform><numerusform>%n undertekster udpakket</numerusform></translation>
+        <translation>
+            <numerusform>%n undertekst udpakket</numerusform>
+            <numerusform>%n undertekster udpakket</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3043,7 +3048,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Det var ikke muligt at gemme den downloadede
@@ -7986,67 +7991,98 @@ Vil du overskrive den?</translation>
         <translation>Angiv den user agent som SMPlayer vil brug ved forbindelse til YouTube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="251"/>
+        <location filename="../prefnetwork.cpp" line="252"/>
+        <source>Chromecast</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="254"/>
+        <source>Local IP</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="255"/>
+        <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="259"/>
+        <source>The port that the web server will use.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="261"/>
+        <source>Directory listing</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="262"/>
+        <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="268"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="253"/>
+        <location filename="../prefnetwork.cpp" line="270"/>
         <source>Enable proxy</source>
         <translation>Aktivér proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="254"/>
+        <location filename="../prefnetwork.cpp" line="271"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Aktivér/deaktivér brug af proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="256"/>
+        <location filename="../prefnetwork.cpp" line="273"/>
         <source>Host</source>
         <translation>Vært</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="257"/>
+        <location filename="../prefnetwork.cpp" line="274"/>
         <source>The host name of the proxy.</source>
         <translation>Værtsnavnet på proxyen.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="259"/>
+        <location filename="../prefnetwork.cpp" line="258"/>
+        <location filename="../prefnetwork.cpp" line="276"/>
         <source>Port</source>
         <translation>Port</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="260"/>
+        <location filename="../prefnetwork.cpp" line="277"/>
         <source>The port of the proxy.</source>
         <translation>Proxyens port.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="262"/>
+        <location filename="../prefnetwork.cpp" line="279"/>
         <source>Username</source>
         <translation>Brugernavn</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="263"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Hvis proxyen kræver loginoplysninger, sætte dette brugernavnet.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="265"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>Password</source>
         <translation>Adgangskode</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="266"/>
+        <location filename="../prefnetwork.cpp" line="283"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>Adgangskoden til proxyen. &lt;b&gt;Advarsel:&lt;/b&gt; adgangskoden gemmes som almindelig tekst i opsætningsfilen.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="269"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="287"/>
         <source>Select the proxy type to be used.</source>
         <translation>Vælg den type proxy der skal bruges.</translation>
     </message>
@@ -9507,13 +9543,19 @@ Vil du overskrive den?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n sekund</numerusform><numerusform>%n sekunder</numerusform></translation>
+        <translation>
+            <numerusform>%n sekund</numerusform>
+            <numerusform>%n sekunder</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n minut</numerusform><numerusform>%n minutter</numerusform></translation>
+        <translation>
+            <numerusform>%n minut</numerusform>
+            <numerusform>%n minutter</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
