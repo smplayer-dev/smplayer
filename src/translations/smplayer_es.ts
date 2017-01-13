@@ -8031,67 +8031,98 @@ Do you want to overwrite?</source>
         <translation>Especifica el user agent que SMPlayer usará cuando se conecte a YouTube.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="251"/>
+        <location filename="../prefnetwork.cpp" line="252"/>
+        <source>Chromecast</source>
+        <translation>Chromecast</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="254"/>
+        <source>Local IP</source>
+        <translation>IP local</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="255"/>
+        <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
+        <translation>La dirección IP local de este ordenador. Se le pasará a Chromecast para que pueda acceder a los archivos de este ordenador.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="259"/>
+        <source>The port that the web server will use.</source>
+        <translation>El puerto que usará el servidor web.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="261"/>
+        <source>Directory listing</source>
+        <translation>Listado de directorios</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="262"/>
+        <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
+        <translation type="unfinished">Cuando el servidor web está en funcionamiento, cualquier dispositivo conectado a la misma red puede acceder a los archivos de este ordenador. Si se activa esta opción es posible ver la lista de archivos desde cualquier dispositivo. Si se desactiva el listado no estará disponible.</translation>
+    </message>
+    <message>
+        <location filename="../prefnetwork.cpp" line="268"/>
         <source>Proxy</source>
         <translation>Proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="253"/>
+        <location filename="../prefnetwork.cpp" line="270"/>
         <source>Enable proxy</source>
         <translation>Activar proxy</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="254"/>
+        <location filename="../prefnetwork.cpp" line="271"/>
         <source>Enable/disable the use of the proxy.</source>
         <translation>Activa o desactiva el proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="256"/>
+        <location filename="../prefnetwork.cpp" line="273"/>
         <source>Host</source>
         <translation>Host</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="257"/>
+        <location filename="../prefnetwork.cpp" line="274"/>
         <source>The host name of the proxy.</source>
         <translation>El nombre del host del proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="259"/>
+        <location filename="../prefnetwork.cpp" line="258"/>
+        <location filename="../prefnetwork.cpp" line="276"/>
         <source>Port</source>
         <translation>Puerto</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="260"/>
+        <location filename="../prefnetwork.cpp" line="277"/>
         <source>The port of the proxy.</source>
         <translation>El puerto del proxy.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="262"/>
+        <location filename="../prefnetwork.cpp" line="279"/>
         <source>Username</source>
         <translation>Nombre de usuario</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="263"/>
+        <location filename="../prefnetwork.cpp" line="280"/>
         <source>If the proxy requires authentication, this sets the username.</source>
         <translation>Si el proxy necesita autentificación, aquí se puede introducir el nombre de usuario.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="265"/>
+        <location filename="../prefnetwork.cpp" line="282"/>
         <source>Password</source>
         <translation>Contraseña</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="266"/>
+        <location filename="../prefnetwork.cpp" line="283"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
         <translation>La contraseña para el proxy. &lt;b&gt;Advertencia:&lt;/b&gt; la contraseña se guardará como texto plano en el fichero de configuración.</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="269"/>
+        <location filename="../prefnetwork.cpp" line="286"/>
         <source>Type</source>
         <translation>Tipo</translation>
     </message>
     <message>
-        <location filename="../prefnetwork.cpp" line="270"/>
+        <location filename="../prefnetwork.cpp" line="287"/>
         <source>Select the proxy type to be used.</source>
         <translation>Selecciona el tipo de proxy que se usará.</translation>
     </message>
