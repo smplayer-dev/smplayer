@@ -7997,32 +7997,32 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Adresse IP locale</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;adresse IP locale de cet ordinateur. Elle sera transmise à Chromecast afin que ce dernier puisse accéder aux fichiers de cet ordinateur.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Le port que le serveur web va utiliser.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Contenu du répertoire</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quand le serveur web est lancé, tous les appareils de votre réseau pourront accéder aux fichiers de cet ordinateur. Si cette option est activée, tout appareil pourra obtenir la liste des fichiers de cet ordinateur. Si cette option est désactivé, la liste ne sera pas disponible.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>

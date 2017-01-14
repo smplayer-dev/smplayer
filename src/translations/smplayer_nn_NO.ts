@@ -4805,7 +4805,7 @@ Vil du skriva over?</translation>
     <message>
         <location filename="../playlist.cpp" line="355"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Namnlaus speleliste</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="671"/>

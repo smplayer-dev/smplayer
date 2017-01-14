@@ -7993,32 +7993,32 @@ Substituir?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>IP local</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>O endereço IP do computador. Este IP será transmitido ao Chromecast para que este possa aceder aos ficheiros locais.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>A porta que o servidor web irá utilizar.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Listagem de diretório</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se o servidor web estiver em execução, qualquer dispositivo na sua rede poderá aceder aos ficheiros locais. Se ativar esta opção, os dispositivos conseguirão obter a lista de ficheiros do computador. Se desativar a opção, a lista não estará disponível.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
