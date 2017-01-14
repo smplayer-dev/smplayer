@@ -698,15 +698,15 @@ void Playlist::retranslateStrings() {
 	addUrlsAct->change( tr("Add &URL(s)") );
 
 	// Remove actions
-	removeSelectedAct->change( tr("Remove &selected") );
+	removeSelectedAct->change( Images::icon("delete"), tr("Remove &selected") );
 	removeAllAct->change( tr("Remove &all") );
 
 #ifdef PLAYLIST_DELETE_FROM_DISK
 	deleteSelectedFileFromDiskAct->change( tr("&Delete file from disk") );
 #endif
 
-	copyURLAct->change( tr("&Copy file path to clipboard") );
-	openFolderAct->change( tr("&Open source folder") );
+	copyURLAct->change( Images::icon("copy"), tr("&Copy file path to clipboard") );
+	openFolderAct->change( Images::icon("openfolder"), tr("&Open source folder") );
 
 #ifdef CHROMECAST_SUPPORT
 	playOnChromecastAct->change( Images::icon("chromecast"), tr("Play on Chromec&ast") );
