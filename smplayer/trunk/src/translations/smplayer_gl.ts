@@ -7993,32 +7993,32 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>IP local</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enderezo IP local deste computador. Pasaráselle ao Chromecast para que poida acceder aos ficheiros deste dispositivo.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Porto que usará o servidor web.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista de cartafoles</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cando o servidor web está en execución, calquera dispositivo na súa rede pode acceder aos ficheiros deste computador. Se esta opción está activada, calquera dispositivo pode obter unha lista dos ficheiros deste aparato. Se está desactivada non será posíbel o acceso.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>

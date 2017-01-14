@@ -1996,7 +1996,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>在 Chromecast 上播放(&amp;C)</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -4822,12 +4822,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>在 Chromecast 上播放(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>在網頁瀏覽器中開啟串流(&amp;A)</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
@@ -7854,32 +7854,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecasr(&amp;H)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>網路伺服器</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>在此節中的變更將會在網路伺服器下次重新啟動時套用</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>列出目錄(&amp;D)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>本機 IP：(&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>為了將這臺電腦上的本機媒體提供給 Chromecast，SMPlayer 將會執行一份迷你的網頁伺服器。您可以在這裡調整一些設定。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7998,32 +7998,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>本機 IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>這臺電腦的本機 IP 位置。它將會被傳遞給 Chromecast，這樣它就可以存取這臺電腦上的檔案。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>網頁伺服器將會使用的埠。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>列出目錄</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>當網頁伺服器正在執行時，任何在您網路中的裝置都可以存取這臺電腦中的檔案。若此選項被開啟，任何裝置都可以取得這臺電腦上的檔案清單。若此選項是關閉的，將不會提供清單。</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>

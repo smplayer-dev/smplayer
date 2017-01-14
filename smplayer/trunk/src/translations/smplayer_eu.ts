@@ -1996,7 +1996,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurri Chromec&amp;ast-en</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -4823,12 +4823,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Irakurri Chro&amp;mecast-en</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="714"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Ireki jarioa &amp;web nabigatzaile batean</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="729"/>
@@ -7849,32 +7849,32 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Web Zerbitzaria</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Atal honetako aldaketak web zerbitzaria berrabiarazten den hurrengoan ezarriko dira</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Zuzenbide zerrenda</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tokiko &amp;IP-a:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Tokiko multimediak ordenagailu honetatik Chromecast-era zerbitzatzeko, SMPlayer-ek web zerbitzari txiki bat ekingo du. Hemen ezarpenetako batzuk zehaztu ditzakezu.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7993,32 +7993,32 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Tokiko IP-a</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ordenagailu honen tokiko IP helbidea. Chromecast-era helaraziko da horrela honek sarbidea izango du ordenagailu honetako agirietara.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Web zerbitzariak erabiliko duen ataka.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuzenbide zerrenda</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Web zerbitzaria ekinean dagoenean, zure sareko edozein gailuk izango du sarbidea ordenagailu honetako agirietara. Aukera hau gaituta badago, edozein gailuk lortu dezake ordenagailu honetako agirien zerrenda. Aukera hau ezgaituta badago, zerrenda ez da eskuragarria egongo.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>

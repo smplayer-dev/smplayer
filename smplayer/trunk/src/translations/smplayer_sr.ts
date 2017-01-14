@@ -11,7 +11,7 @@
     <message>
         <location filename="../about.cpp" line="62"/>
         <source>Development version</source>
-        <translation type="unfinished"></translation>
+        <translation>Развојна верзија</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="69"/>
@@ -31,7 +31,7 @@
     <message>
         <location filename="../about.cpp" line="82"/>
         <source>SMPlayer is a graphical interface for %1.</source>
-        <translation type="unfinished"></translation>
+        <translation>СМПлејер је графичко сучеље за %1.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="169"/>
@@ -272,7 +272,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="207"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Затвори</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="212"/>
@@ -935,18 +935,18 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="1828"/>
         <location filename="../basegui.cpp" line="2159"/>
         <source>%1 log</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 дневник</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1831"/>
         <location filename="../basegui.cpp" line="2162"/>
         <source>SMPlayer log</source>
-        <translation type="unfinished"></translation>
+        <translation>Дневник СМПлејера</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1842"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"></translation>
+        <translation>Ажурирај &amp;Јутјуб код</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2175"/>
@@ -990,7 +990,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1726"/>
         <source>Start/stop capturing stream</source>
-        <translation type="unfinished"></translation>
+        <translation>Покрени/заустави снима&amp;ње тока</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
@@ -1010,12 +1010,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1791"/>
         <source>Seek to next subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Следећи титл</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>Seek to previous subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>Претходни титл</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
@@ -1036,12 +1036,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1820"/>
         <source>&amp;Information and properties...</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Информације и својства...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1833"/>
         <source>T&amp;ablet mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Режим за &amp;таблет</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1836"/>
@@ -1056,7 +1056,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Донирајте</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1146,7 +1146,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Прикажи &amp;инфо на ОСД</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1156,7 +1156,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1925"/>
         <source>Vie&amp;w</source>
-        <translation type="unfinished"></translation>
+        <translation>Пр&amp;еглед</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2001"/>
@@ -1207,7 +1207,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2053"/>
         <source>Select audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Избор звучне стазе</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2068"/>
@@ -1232,12 +1232,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2079"/>
         <source>Prim&amp;ary track</source>
-        <translation type="unfinished"></translation>
+        <translation>Прим&amp;арна стаза</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2084"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Избор стазе титла</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2087"/>
@@ -1247,7 +1247,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2089"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"></translation>
+        <translation>Избор стазе другог титла</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
@@ -1257,77 +1257,77 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="2109"/>
         <source>&amp;Bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>О&amp;бележивачи</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2119"/>
         <source>&amp;Add new bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Дод&amp;ај нови обележивач</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2120"/>
         <source>&amp;Edit bookmarks</source>
-        <translation type="unfinished"></translation>
+        <translation>Ур&amp;еди обележиваче</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2121"/>
         <source>Previous bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Претходни обележивач</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2122"/>
         <source>Next bookmark</source>
-        <translation type="unfinished"></translation>
+        <translation>Следећи обележивач</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2151"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation>Мени брзог приступа</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2960"/>
         <source>Logs</source>
-        <translation type="unfinished">Записи</translation>
+        <translation>Дневници</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4505"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Подржите СМПлејер</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4507"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Донирајте</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4508"/>
         <source>No</source>
-        <translation type="unfinished">Не</translation>
+        <translation>Не</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4511"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>Потребни сте СМПлејеру</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4512"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>СМПлејер је слободан софтвер. Међутим, развој тражи доста времена и доста рада.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4513"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Да бисмо наставили са развојем СМПлејера потребна нам је ваша помоћ.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4514"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Размислите о томе да донацијом подржите СМПлејер.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4515"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Чак и мали износи могу много да помогну.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5004"/>
@@ -1369,12 +1369,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <location filename="../basegui.cpp" line="5991"/>
         <location filename="../basegui.cpp" line="6043"/>
         <source>%1 Error</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 грешка</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5992"/>
         <source>%1 has finished unexpectedly.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 се неочекивано затворио.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6017"/>
@@ -3317,7 +3317,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../infowindow.ui" line="36"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Затвори</translation>
     </message>
 </context>
 <context>
@@ -4540,7 +4540,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../logwindow.ui" line="81"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Затвори</translation>
     </message>
 </context>
 <context>
@@ -10092,7 +10092,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Мени брзог приступа</translation>
     </message>
 </context>
 <context>
@@ -10266,7 +10266,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">&amp;Затвори</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>

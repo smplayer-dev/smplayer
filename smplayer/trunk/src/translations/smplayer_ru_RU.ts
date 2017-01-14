@@ -7994,32 +7994,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальный IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальный IP-адрес этого компьютера. Он будет передан Chromecast, чтобы он мог получить доступ к файлам с этого компьютера.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation> Порт, который веб-сервер будет использовать.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Перечень каталогов</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Когда веб-сервер работает, то любое устройство в сети может получить доступ к файлам с этого компьютера. Если эта опция включена, то любое устройство может получить список файлов в этом компьютере. Если эта опция выключена, то список не будет доступен.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
