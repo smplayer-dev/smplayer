@@ -1,3 +1,16 @@
+Version 17.1
+
+ * Experimental support to play videos on Chromecast.
+ * Support for some of the #EXTVLCOPT options in m3u/m3u8 playlists.
+   This may help to play online streams from playlists intended for VLC.
+ * New options in the context menu of the playlist: "copy URL to clipboard",
+   "open source folder" and "play on Chromecast".
+ * Option to display bitrate information in the status bar.
+ * Possibility to display the playback time with milliseconds in the status bar.
+ * The option to add black borders on fullscreen is back
+   (preferences -> general -> video).
+
+
 Version 16.11
 
  * More options in Preferences -> Playlist to better control the
