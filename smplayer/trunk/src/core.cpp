@@ -4608,6 +4608,8 @@ void Core::initAudioTrack(const Tracks & audios) {
 		// Select initial track
 		qDebug("Core::initAudioTrack: selecting initial track");
 
+		bool change_audio = (mdat.type != TYPE_STREAM); // Don't change audio with streams unless strictly necessary
+
 		int audio = mdat.audios.itemAt(0).ID(); // First one
 		if (mdat.audios.existsItemAt(pref->initial_audio_track-1)) {
 			audio = mdat.audios.itemAt(pref->initial_audio_track-1).ID();
@@ -4616,10 +4618,13 @@ void Core::initAudioTrack(const Tracks & audios) {
 		// Check if one of the audio tracks is the user preferred.
 		if (!pref->audio_lang.isEmpty()) {
 			int res = mdat.audios.findLang( pref->audio_lang );
-			if (res != -1) audio = res;
+			if (res != -1) {
+				audio = res;
+				change_audio = true;
+			}
 		}
 
-		changeAudio( audio );
+		if (change_audio) changeAudio( audio );
 	} else {
 		// Try to restore previous audio track
 		qDebug("Core::initAudioTrack: restoring audio");
