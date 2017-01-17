@@ -67,6 +67,7 @@ echo.
 mkdir %OUTPUT_DIR%
 copy "%SMPLAYER_DIR%\src\%QT_BUILD_DIR%\smplayer.exe" "%OUTPUT_DIR%"
 copy "%SMPLAYER_DIR%\dxlist\release\dxlist.exe" "%OUTPUT_DIR%"
+copy "%SMPLAYER_DIR%\webserver\simple_web_server.exe" "%OUTPUT_DIR%"
 copy "%SMPLAYER_DIR%\zlib\zlib1.dll" "%OUTPUT_DIR%"
 copy "%SMPLAYER_DIR%\*.txt" "%OUTPUT_DIR%"
 REM copy "%SMPLAYER_DIR%\setup\sample.avi" "%OUTPUT_DIR%"
