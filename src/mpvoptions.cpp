@@ -109,10 +109,18 @@ void MPVProcess::disableInput() {
 }
 
 bool MPVProcess::isOptionAvailable(const QString & option) {
-	InfoReader * ir = InfoReader::obj(executable());
-	ir->getInfo();
-	//qDebug() << "MPVProcess::isOptionAvailable: option_list:" << ir->optionList();
-	return ir->optionList().contains(option);
+	static QStringList option_list;
+	static QString mpv_bin;
+
+	if (option_list.isEmpty() || mpv_bin != executable()) {
+		InfoReader * ir = InfoReader::obj(executable());
+		ir->getInfo();
+		option_list = ir->optionList();
+		mpv_bin = executable();
+		//qDebug() << "MPVProcess::isOptionAvailable: option_list:" << option_list;
+	}
+
+	return option_list.contains(option);
 }
 
 void MPVProcess::addVFIfAvailable(const QString & vf, const QString & value) {
