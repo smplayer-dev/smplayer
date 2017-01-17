@@ -207,6 +207,14 @@ if errorlevel 1 echo Dxlist failed to compile.
 
 :skip_dxlist
 
+cd ..\webserver
+if [%build_pe%]==[yes] ( goto skip_webserver )
+mingw32-make
+
+if errorlevel 1 echo Webserver failed to compile.
+
+:skip_webserver
+
 cd ..\zlib
 mingw32-make -fwin32\makefile.gcc
 
