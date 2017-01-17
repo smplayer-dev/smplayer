@@ -260,6 +260,12 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 		arg << line_spacing + "=" + value.toString();
 	}
 	else
+	if (option_name == "ass-force-style") {
+		QString ass_force_style = "--ass-force-style";
+		if (isOptionAvailable("--sub-ass-force-style")) ass_force_style = "--sub-ass-force-style";
+		arg << ass_force_style + "=" + value.toString();
+	}
+	else
 	if (option_name == "stop-xscreensaver") {
 		bool stop_ss = value.toBool();
 		if (stop_ss) arg << "--stop-screensaver"; else arg << "--no-stop-screensaver";
@@ -447,7 +453,7 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	if (option_name == "wid" ||
 	    option_name == "aid" || option_name == "vid" ||
 	    option_name == "volume" ||
-	    option_name == "ass-styles" || option_name == "ass-force-style" ||
+	    option_name == "ass-styles" ||
 	    option_name == "embeddedfonts" ||
 	    option_name == "osd-scale" ||
 	    option_name == "speed" ||
