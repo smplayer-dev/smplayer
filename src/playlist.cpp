@@ -319,7 +319,7 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	connect(downloader, SIGNAL(errorOcurred(int, QString)), this, SLOT(errorOcurred(int, QString)));
 
 	history_urls = new URLHistory;
-	history_urls->addUrl("http://smplayer.info/onlinetv.php");
+	history_urls->addUrl("http://smplayer.info/sample.m3u8");
 #endif
 }
 
