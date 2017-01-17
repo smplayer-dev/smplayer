@@ -4171,7 +4171,7 @@ void BaseGui::openURL(QString url) {
 
 
 void BaseGui::openFile() {
-	qDebug("BaseGui::fileOpen");
+	qDebug("BaseGui::openFile");
 
 	exitFullscreenIfNeeded();
 
@@ -4190,10 +4190,18 @@ void BaseGui::openFile() {
 }
 
 void BaseGui::openFile(QString file) {
-	qDebug("BaseGui::openFile: '%s'", file.toUtf8().data());
+	qDebug() << "BaseGui::openFile:" << file;
 
    if ( !file.isEmpty() ) {
 
+		#ifdef Q_OS_WIN
+		// Check for Windows shortcuts
+		QFileInfo fi(file);
+		if (fi.isSymLink()) {
+			file = fi.symLinkTarget();
+		}
+		#endif
+	
 		//playlist->clear();
 		//playlistdock->hide();
 
