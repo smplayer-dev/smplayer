@@ -746,7 +746,9 @@ void MPVProcess::parseLine(QByteArray ba) {
 			else
 			if (tag == "MPV_VERSION") {
 				mpv_version = value;
-				//qDebug("MPVProcess::parseLine: mpv version: %s", mpv_version.toUtf8().constData());
+				if (mpv_version.startsWith("mpv ")) mpv_version = mpv_version.mid(4);
+				qDebug() << "MPVProcess::parseLine: mpv version:" << mpv_version;
+				MplayerVersion::mplayerVersion("mpv " + mpv_version + " (C)");
 			}
 #if NOTIFY_VIDEO_CHANGES || NOTIFY_AUDIO_CHANGES || NOTIFY_SUB_CHANGES
 			else
