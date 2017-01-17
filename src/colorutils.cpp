@@ -74,7 +74,7 @@ QString ColorUtils::colorToAARRGGBB(QColor c) {
 QColor ColorUtils::AARRGGBBToColor(const QString & s) {
 	QRegExp rx("([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})([0-9a-fA-F]{2})");
 	if (rx.indexIn(s) > -1 && rx.captureCount() == 4) {
-		qDebug() << "ColorUtils::AARRGGBBToColor:" << rx.cap(1) << rx.cap(2) << rx.cap(3) << rx.cap(4);
+		//qDebug() << "ColorUtils::AARRGGBBToColor:" << rx.cap(1) << rx.cap(2) << rx.cap(3) << rx.cap(4);
 		uint alpha = rx.cap(1).toUInt(0, 16);
 		uint red = rx.cap(2).toUInt(0, 16);
 		uint green = rx.cap(3).toUInt(0, 16);
