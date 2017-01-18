@@ -231,6 +231,9 @@ void Chromecast::processFinished(int exit_code, QProcess::ExitStatus exit_status
 
 void Chromecast::processError(QProcess::ProcessError error) {
 	qDebug() << "Chromecast::processError:" << error;
+	if (error == QProcess::FailedToStart) {
+		qDebug("Chromecast::processError: process failed to start");
+	}
 }
 
 void Chromecast::loadSettings() {
