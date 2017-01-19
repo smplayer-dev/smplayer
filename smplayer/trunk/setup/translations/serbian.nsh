@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Морате бити пријављени
 ${LangFileString} SMPlayer_Is_Running "СМПлејер је већ покренут. Затворите СМПлејер и покушајте поново."
 
 ${LangFileString} OS_Not_Supported "Неподржан оперативни систем.$\nСМПлејер ${SMPLAYER_VERSION} захтева најмање Windows XP и можда неће радити на вашем систему.$\nДа ли стварно желите да наставите инсталацију?"
-${LangFileString} OS_Not_Supported_VistaRequired "Unsupported operating system.$\nSMPlayer ${SMPLAYER_VERSION} requires at least Windows Vista and may not work correctly on your system.$\nDo you really want to continue with the installation?"
+${LangFileString} OS_Not_Supported_VistaRequired "Неподржан оперативни систем.$\nСМПлејер ${SMPLAYER_VERSION} захтева најмање Windows Vista и можда неће радити на вашем систему.$\nДа ли стварно желите да наставите инсталацију?"
 ${LangFileString} Win64_Required "64-битни Windows оперативни систем је потребан за инсталацију овог програма."
 ${LangFileString} Existing_32bitInst "Тренутно је инсталирана 32-битна верзија СМПлејера. Морате прво деинсталирати 32-битни СМПлејер."
 ${LangFileString} Existing_64bitInst "Тренутно је инсталирана 64-битна верзија СМПлејера. Морате прво деинсталирати 64-битни СМПлејер."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Кликните Деинсталирај к
 ${LangFileString} Reinstall_Msg4 "Промени инсталациона подешавања"
 ${LangFileString} Reinstall_Msg5 "Врати СМПлејер на почетна подешавања"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "Заиста желите да ресетујете поставке СМПлејера? Ова радња се не може опозвати."
 
 ${LangFileString} Type_Reinstall "реинсталирај"
 ${LangFileString} Type_Downgrade "врати на старију верзију"
@@ -112,19 +112,19 @@ ${LangFileString} Info_RollBack "Враћање промена..."
 ${LangFileString} Info_Files_Extract "Распакивање фајлова..."
 ${LangFileString} Info_SMTube_Backup "Прављење резервних копија SMTube..."
 ${LangFileString} Info_SMTube_Restore "Враћање SMTube од претходне инсталације..."
-${LangFileString} Info_MPV_Backup "Backing up mpv..."
-${LangFileString} Info_MPV_Restore "Restoring mpv from previous installation..."
+${LangFileString} Info_MPV_Backup "Правим резерву за MPV..."
+${LangFileString} Info_MPV_Restore "Враћам MPV од претходне инсталације..."
 
 ; MPV
-${LangFileString} MPV_DL_Msg "Downloading mpv..."
-${LangFileString} MPV_DL_Retry "mpv was not successfully installed. Retry?"
-${LangFileString} MPV_DL_Failed "Failed to download mpv: '$R0'."
-${LangFileString} MPV_Inst_Failed "Failed to install mpv."
+${LangFileString} MPV_DL_Msg "Преузимам MPV..."
+${LangFileString} MPV_DL_Retry "MPV није успешно инсталиран. Покушати поново?"
+${LangFileString} MPV_DL_Failed "Неуспешно преузимање MPV: '$R0'."
+${LangFileString} MPV_Inst_Failed "Неуспела инсталација MPV."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
-${LangFileString} YTDL_DL_Failed "Failed to download youtube-dl: '$R0'."
-${LangFileString} YTDL_Update_Check "Checking for youtube-dl updates..."
+${LangFileString} YTDL_DL_Retry "YouTube-DL није успешно инсталиран. Покушати поново?"
+${LangFileString} YTDL_DL_Failed "Неуспешно преузимање Youtube-DL: '$R0'."
+${LangFileString} YTDL_Update_Check "Проверавам ажурирања за YouTube-DL..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
 ${LangFileString} YTDL_Error_Msg2 "Visual C++ 2010 Runtime (x86) is required for youtube-dl."
 
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
-${LangFileString} Info_Cleaning_SMPlayer "Cleaning SMPlayer settings..."
+${LangFileString} Info_Cleaning_Fontconfig "Чистим кеш за фонтове..."
+${LangFileString} Info_Cleaning_SMPlayer "Чистим поставке СМПлејера..."

@@ -12,7 +12,7 @@
 
 ; Startup
 ${LangFileString} Installer_Is_Running "Installationsprogrammet kører allerede."
-${LangFileString} Installer_No_Admin "Du skal være logget på som administrator når du installere dette program."
+${LangFileString} Installer_No_Admin "Du skal være logget ind som administrator når dette program installeres."
 ${LangFileString} SMPlayer_Is_Running "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
 
 ${LangFileString} OS_Not_Supported "Styresystemet er ikke understøttet.$\nSMPlayer ${SMPLAYER_VERSION} kræver som minimum Windows XP og vil måske ikke virke korrekt på dit system.$\nEr du sikker på, at du vil fortsætte installationen?"
