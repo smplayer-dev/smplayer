@@ -1,6 +1,22 @@
 ;Installer script for win32/win64 SMPlayer
 ;Written by redxii (redxii@users.sourceforge.net)
-;Tested/Developed with Unicode NSIS 2.46.5/3.0rc1
+;Tested/Developed with Unicode NSIS 2.46.5/3.01
+
+; See http://nsis.sourceforge.net/Check_if_a_file_exists_at_compile_time for documentation
+!macro !defineifexist _VAR_NAME _FILE_NAME
+  !tempfile _TEMPFILE
+  !ifdef NSIS_WIN32_MAKENSIS
+    ; Windows - cmd.exe
+    !system 'if exist "${_FILE_NAME}" echo !define ${_VAR_NAME} > "${_TEMPFILE}"'
+  !else
+    ; Posix - sh
+    !system 'if [ -e "${_FILE_NAME}" ]; then echo "!define ${_VAR_NAME}" > "${_TEMPFILE}"; fi'
+  !endif
+  !include '${_TEMPFILE}'
+  !delfile '${_TEMPFILE}'
+  !undef _TEMPFILE
+!macroend
+!define !defineifexist "!insertmacro !defineifexist"
 
 !ifndef VER_MAJOR | VER_MINOR | VER_BUILD
   !error "Version information not defined (or incomplete). You must define: VER_MAJOR, VER_MINOR, VER_BUILD."
@@ -51,12 +67,19 @@
   !define SMPLAYER_UNINST_EXE "uninst.exe"
   !define SMPLAYER_UNINST_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall\SMPlayer"
 
+  !define STATUS_DLL_NOT_FOUND "-1073741515"
+
+  ${!defineifexist} COMPILED_WITH_QT4 ${SMPLAYER_BUILD_DIR}\QtCore4.dll
+
   ; Not the same as Qt, check file properties of the webkit dll if unsure
 !ifndef QT_WEBKIT_VERSION
-  !define QT_WEBKIT_VERSION "5.6.1.0"
+  !ifdef COMPILED_WITH_QT4
+    ; Qt Webkit version in 4.8.7
+    !define QT_WEBKIT_VERSION "4.9.4.0"
+  !else
+    !define QT_WEBKIT_VERSION "5.6.1.0"
+  !endif
 !endif
-
-  !define STATUS_DLL_NOT_FOUND "-1073741515"
 
 ;--------------------------------
 ;General
@@ -65,9 +88,17 @@
   Name "SMPlayer ${SMPLAYER_VERSION}"
   BrandingText "SMPlayer for Windows v${SMPLAYER_VERSION}"
 !ifdef WIN64
-  OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
+  !ifdef COMPILED_WITH_QT4
+    OutFile "output\smplayer-${SMPLAYER_VERSION}-x64-Qt4.exe"
+  !else
+    OutFile "output\smplayer-${SMPLAYER_VERSION}-x64.exe"
+  !endif
 !else
-  OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
+  !ifdef COMPILED_WITH_QT4
+    OutFile "output\smplayer-${SMPLAYER_VERSION}-win32-Qt4.exe"
+  !else
+    OutFile "output\smplayer-${SMPLAYER_VERSION}-win32.exe"
+  !endif
 !endif
 
   ;Version tab properties
@@ -374,8 +405,10 @@ Section $(Section_SMPlayer) SecSMPlayer
   ; File /r "${SMPLAYER_BUILD_DIR}\open-fonts\*.*"
 
   ;Qt platforms (Qt 5+)
+!ifndef COMPILED_WITH_QT4
   SetOutPath "$INSTDIR\platforms"
   File /nonfatal /r "${SMPLAYER_BUILD_DIR}\platforms\*.*"
+!endif
 
   ;SMPlayer key shortcuts
   SetOutPath "$INSTDIR\shortcuts"
@@ -500,6 +533,9 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\smtube.exe" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\docs\smtube\*" "$INSTDIR\docs\smtube"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\translations\*" "$INSTDIR\translations"
+!ifdef COMPILED_WITH_QT4
+    CopyFiles /SILENT "$PLUGINSDIR\smtubebak\QtWebKit4.dll" "$INSTDIR"
+!else
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icuin*.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icuuc*.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\icudt*.dll" "$INSTDIR"
@@ -515,6 +551,7 @@ Section -RestorePrograms
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5OpenGL.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5PrintSupport.dll" "$INSTDIR"
     CopyFiles /SILENT "$PLUGINSDIR\smtubebak\Qt5MultimediaWidgets.dll" "$INSTDIR"
+!endif
   ${EndIf}
 
 !ifndef WIN64
@@ -548,9 +585,17 @@ Section -Post
 
   ;Registry Uninstall information
 !ifdef WIN64
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name) (x64)"
+  !ifdef COMPILED_WITH_QT4
+    WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name) (x64) (Qt4)"
+  !else
+    WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name) (x64)"
+  !endif
 !else
-  WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name)"
+  !ifdef COMPILED_WITH_QT4
+    WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name) (Qt4)"
+  !else
+    WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayName" "$(^Name)"
+  !endif
 !endif
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayIcon" "$INSTDIR\smplayer.exe"
   WriteRegStr HKLM "${SMPLAYER_UNINST_KEY}" "DisplayVersion" "${SMPLAYER_VERSION}"
@@ -961,6 +1006,9 @@ Function Backup_SMTube
     CopyFiles /SILENT "$SMPlayer_Path\smtube.exe" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\docs\smtube\*" "$PLUGINSDIR\smtubebak\docs\smtube"
     CopyFiles /SILENT "$SMPlayer_Path\translations\smtube*.qm" "$PLUGINSDIR\smtubebak\translations"
+!ifdef COMPILED_WITH_QT4
+    CopyFiles /SILENT "$SMPlayer_Path\QtWebKit4.dll" "$PLUGINSDIR\smtubebak"
+!else
     CopyFiles /SILENT "$SMPlayer_Path\icuin*.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\icuuc*.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\icudt*.dll" "$PLUGINSDIR\smtubebak"
@@ -976,12 +1024,13 @@ Function Backup_SMTube
     CopyFiles /SILENT "$SMPlayer_Path\Qt5OpenGL.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\Qt5PrintSupport.dll" "$PLUGINSDIR\smtubebak"
     CopyFiles /SILENT "$SMPlayer_Path\Qt5MultimediaWidgets.dll" "$PLUGINSDIR\smtubebak"
+!endif
     StrCpy $Restore_SMTube 1
     Return
   QtVerMismatch:
     DetailPrint $(SMTube_Incompatible_Msg1)
-    DetailPrint $(SMTube_Incompatible_Msg2)
-    Sleep 10000
+    ;DetailPrint $(SMTube_Incompatible_Msg2)
+    Sleep 20000
   NoBackup:
     StrCpy $Restore_SMTube 0
 
@@ -1145,7 +1194,11 @@ Function RetrieveQtVersions
 
   ; Get version of Qt5Core.dll from the build sources (smplayer-build/smplayer-build64)
   ClearErrors
+!ifdef COMPILED_WITH_QT4
+  GetDLLVersionLocal ${SMPLAYER_BUILD_DIR}\QtCore4.dll $R0 $R1
+!else
   GetDLLVersionLocal ${SMPLAYER_BUILD_DIR}\Qt5Core.dll $R0 $R1
+!endif
   IntOp $R2 $R0 / 0x00010000
   IntOp $R3 $R0 & 0x0000FFFF
   IntOp $R4 $R1 / 0x00010000
