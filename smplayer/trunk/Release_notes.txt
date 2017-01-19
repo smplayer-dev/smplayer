@@ -9,6 +9,8 @@ Version 17.1
  * Possibility to display the playback time with milliseconds in the status bar.
  * The option to add black borders on fullscreen is back
    (preferences -> general -> video).
+ * The option to delete files from the disk in the playlist's context menu
+   has been removed.
 
 
 Version 16.11

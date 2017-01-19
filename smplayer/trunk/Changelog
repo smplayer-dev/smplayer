@@ -3,6 +3,9 @@ Version 17.1:
 (2017-01-05)
  * (Playlist) Add an option in context menu to open the current item on chromecast.
 
+(2017-01-02)
+ * Remove the option to delete files from the playlist.
+
 (2016-12-30)
  * (mpv) Add support for the wasapi devices.
 
