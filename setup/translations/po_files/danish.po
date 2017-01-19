@@ -369,7 +369,7 @@ msgstr "SMPlayer kører allerede. Luk venligst SMPlayer og prøv igen."
 # Installer_No_Admin
 msgid "You must be logged in as an administrator when installing this program."
 msgstr ""
-"Du skal være logget på som administrator når du installere dette program."
+"Du skal være logget ind som administrator når dette program installeres."
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -381,11 +381,11 @@ msgstr "Installationsprogrammet kører allerede."
 #
 # Translators:
 # Michael Larsen <m_e_larsen@hotmail.com>, 2015
-# scootergrisen, 2015-2016
+# scootergrisen, 2015-2017
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-30 23:46+0000\n"
+"PO-Revision-Date: 2017-01-14 15:18+0000\n"
 "Last-Translator: scootergrisen\n"
 "Language-Team: Danish (http://www.transifex.com/rvm/smplayer/language/da/)\n"
 "Language: da\n"
