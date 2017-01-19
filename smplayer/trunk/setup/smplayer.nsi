@@ -818,6 +818,10 @@ FunctionEnd
 
 Function .onInit
 
+!ifdef COMPILED_WITH_QT4
+  MessageBox MB_OK|MB_ICONEXCLAMATION "This build is provided for legacy CPUs (those without SSE2 or later instruction set support). Please do not use if you do not know what you are doing."
+!endif
+
 !ifdef WIN64
   ${Unless} ${AtLeastWinVista}
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported_VistaRequired) /SD IDNO IDYES installonoldwindows
