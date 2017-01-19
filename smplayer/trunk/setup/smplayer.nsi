@@ -469,7 +469,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
   File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mpv\mpv64.exe"
   File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mpv\mpv64.com"
 !else
-  File /r /x mpv64.exe /x mpv64.com "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  File /r /x mpv64.exe /x mpv64.com /x d3dcompiler_43.dll "${SMPLAYER_BUILD_DIR}\mpv\*.*"
 !endif
 
   IfFileExists "$PLUGINSDIR\youtube-dl.exe" 0 YTDL
