@@ -1,3 +1,19 @@
+smplayer (17.1.0) precise; urgency=medium
+
+  * Experimental support to play videos on Chromecast.
+  * Support for some of the #EXTVLCOPT options in m3u/m3u8 playlists.
+    This may help to play online streams from playlists intended for VLC.
+  * New options in the context menu of the playlist: "copy URL to clipboard",
+    "open source folder" and "play on Chromecast".
+  * Option to display bitrate information in the status bar.
+  * Possibility to display the playback time with milliseconds in the status bar.
+  * The option to add black borders on fullscreen is back
+    (preferences -> general -> video).
+  * The option to delete files from the disk in the playlist's context menu
+    has been removed.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Fri, 20 Jan 2017 10:37:39 +0100
+
 smplayer (16.11.0) precise; urgency=low
 
   * More options in Preferences -> Playlist to better control the
