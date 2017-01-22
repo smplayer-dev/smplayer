@@ -322,7 +322,7 @@
   !insertmacro LANGFILE_INCLUDE "translations\japanese.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\korean.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\malay.nsh"
-  !insertmacro LANGFILE_INCLUDE "translations\norwegian_nynorsk.nsh"
+  !insertmacro LANGFILE_INCLUDE "translations\norwegian_nn.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\polish.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\portuguese.nsh"
   !insertmacro LANGFILE_INCLUDE "translations\portuguesebrazil.nsh"
