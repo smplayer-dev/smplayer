@@ -263,6 +263,7 @@ QMap<QString,QString> Languages::translations() {
 	m["lt"] = QString::fromUtf8("Lietuvių"); //tr("Lithuanian");
 	m["mk"] = QString::fromUtf8("Mакедонски"); //tr("Macedonian");
 	m["ms_MY"] = "Melayu"; //tr("Malay");
+	m["nb_NO"] = QString::fromUtf8("Norwegian Bokmål");
 	m["nl"] = "Nederlands"; //tr("Dutch");
 	m["nn_NO"] = "Norwegian Nynorsk"; //tr("Norwegian Nynorsk");
 	m["pl"] = "Polski"; //tr("Polish");
