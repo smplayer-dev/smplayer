@@ -5,9 +5,9 @@
 ;
 
 !if ! ${NSIS_PACKEDVERSION} > 0x2999999
-!insertmacro LANGFILE "Norwegian" "Norwegian"
+!insertmacro LANGFILE "NorwegianNynorsk" "Norwegian nynorsk"
 !else
-!insertmacro LANGFILE "Norwegian" = "Norsk" =
+!insertmacro LANGFILE "NorwegianNynorsk" "Norwegian (Nynorsk)" "Norsk (nynorsk)" =
 !endif
 
 ; Startup
