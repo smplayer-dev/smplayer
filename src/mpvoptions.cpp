@@ -504,6 +504,13 @@ void MPVProcess::addUserOption(const QString & option) {
 	}
 }
 
+void MPVProcess::setSubEncoding(const QString & codepage, const QString & enca_lang) {
+	Q_UNUSED(enca_lang)
+	if (!codepage.isEmpty()) {
+		arg << "--sub-codepage=" + codepage;
+	}
+}
+
 void MPVProcess::addVF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 
