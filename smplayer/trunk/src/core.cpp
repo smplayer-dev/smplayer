@@ -1883,23 +1883,7 @@ void Core::startMplayer( QString file, double seek ) {
 	}
 
 	// Subtitle encoding
-	{
-		QString encoding;
-		if ( (pref->use_enca) && (!pref->enca_lang.isEmpty()) ) {
-			encoding = "enca:"+ pref->enca_lang;
-			if (!pref->subcp.isEmpty()) {
-				encoding += ":"+ pref->subcp;
-			}
-		}
-		else
-		if (!pref->subcp.isEmpty()) {
-			encoding = pref->subcp;
-		}
-
-		if (!encoding.isEmpty()) {
-			proc->setOption("subcp", encoding);
-		}
-	}
+	proc->setSubEncoding(pref->subcp, pref->use_enca ? pref->enca_lang : "");
 
 	if (mset.closed_caption_channel > 0) {
 		proc->setOption("subcc", QString::number(mset.closed_caption_channel));

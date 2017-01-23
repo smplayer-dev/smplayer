@@ -168,6 +168,24 @@ void MplayerProcess::addUserOption(const QString & option) {
 	arg << option;
 }
 
+void MplayerProcess::setSubEncoding(const QString & codepage, const QString & enca_lang) {
+	QString encoding;
+	if (!enca_lang.isEmpty()) {
+		encoding = "enca:"+ enca_lang;
+		if (!codepage.isEmpty()) {
+			encoding += ":"+ codepage;
+		}
+	}
+	else
+	if (!codepage.isEmpty()) {
+		encoding = codepage;
+	}
+
+	if (!encoding.isEmpty()) {
+		arg << "-subcp" << encoding;
+	}
+}
+
 void MplayerProcess::addVF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 

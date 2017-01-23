@@ -54,6 +54,7 @@ public:
 	virtual void addAF(const QString & filter_name, const QVariant & value = QVariant()) = 0;
 	virtual void addStereo3DFilter(const QString & in, const QString & out) = 0;
 	virtual void setSubStyles(const AssStyles & styles, const QString & assStylesFile = QString::null) = 0;
+	virtual void setSubEncoding(const QString & codepage, const QString & enca_lang) = 0;
 
 	// Slave commands
 	virtual void quit() = 0;
