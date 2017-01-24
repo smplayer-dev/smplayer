@@ -3119,6 +3119,10 @@ void BaseGui::showPreferencesDialog() {
 	pl->setAutoSort(playlist->autoSort());
 	pl->setFilterCaseSensitive(playlist->filterCaseSensitive());
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	pl->allowDeleteFromDisk(playlist->isDeleteFromDiskAllowed());
+#endif
+
 	pref_dialog->show();
 }
 
@@ -3207,6 +3211,10 @@ void BaseGui::applyNewPreferences() {
 	playlist->setIgnorePlayerErrors(pl->ignorePlayerErrors());
 	playlist->setAutoSort(pl->autoSort());
 	playlist->setFilterCaseSensitive(pl->filterCaseSensitive());
+
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	playlist->allowDeleteFromDisk(pl->isDeleteFromDiskAllowed());
+#endif
 
 #ifdef PLAYLIST_DOWNLOAD
 	playlist->setMaxItemsUrlHistory( pref->history_urls->maxItems() );

@@ -25,6 +25,10 @@ PrefPlaylist::PrefPlaylist(QWidget * parent, Qt::WindowFlags f)
 {
 	setupUi(this);
 	retranslateStrings();
+
+#ifndef PLAYLIST_DELETE_FROM_DISK
+	allow_delete_files_check->hide();
+#endif
 }
 
 PrefPlaylist::~PrefPlaylist() {
@@ -155,6 +159,16 @@ bool PrefPlaylist::filterCaseSensitive() {
 	return case_sensitive_search_check->isChecked();
 }
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
+void PrefPlaylist::allowDeleteFromDisk(bool b) {
+	allow_delete_files_check->setChecked(b);
+}
+
+bool PrefPlaylist::isDeleteFromDiskAllowed() {
+	return allow_delete_files_check->isChecked();
+}
+#endif
+
 void PrefPlaylist::createHelp() {
 	clearHelp();
 
@@ -210,6 +224,12 @@ void PrefPlaylist::createHelp() {
 		tr("If this option is checked, a copy of the playlist will be saved "
            "in the configuration file when SMPlayer is closed, and it will "
            "reloaded automatically when SMPlayer is run again."));
+
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	setWhatsThis(allow_delete_files_check, tr("Enable the option to delete files from disk"),
+		tr("This option allows you to enable the option to delete files from disk in the playlist's "
+           "context menu. To prevent accidental deletions this option is disabled by default."));
+#endif
 }
 
 #include "moc_prefplaylist.cpp"

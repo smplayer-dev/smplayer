@@ -166,6 +166,13 @@
         </widget>
        </item>
        <item>
+        <widget class="QCheckBox" name="allow_delete_files_check">
+         <property name="text">
+          <string>Enable the option to delete files from &amp;disk</string>
+         </property>
+        </widget>
+       </item>
+       <item>
         <spacer>
          <property name="orientation">
           <enum>Qt::Vertical</enum>
