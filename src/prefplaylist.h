@@ -21,6 +21,7 @@
 
 #include "ui_prefplaylist.h"
 #include "prefwidget.h"
+#include "playlist.h"
 
 class Preferences;
 
@@ -68,6 +69,11 @@ public:
 
 	void setFilterCaseSensitive(bool b);
 	bool filterCaseSensitive();
+
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	void allowDeleteFromDisk(bool b);
+	bool isDeleteFromDiskAllowed();
+#endif
 
 protected:
 	virtual void createHelp();
