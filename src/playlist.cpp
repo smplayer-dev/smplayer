@@ -1454,6 +1454,9 @@ void Playlist::showPopup(const QPoint & pos) {
 		} else {
 			copyURLAct->setText( tr("&Copy URL to clipboard") );
 			openFolderAct->setEnabled(false);
+			#ifdef PLAYLIST_DELETE_FROM_DISK
+			deleteSelectedFileFromDiskAct->setEnabled(false);
+			#endif
 		}
 	}
 
