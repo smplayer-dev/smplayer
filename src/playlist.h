@@ -29,7 +29,7 @@
 
 #define PLAYLIST_DOWNLOAD
 //#define PLAYLIST_DOUBLE_TOOLBAR
-//#define PLAYLIST_DELETE_FROM_DISK
+#define PLAYLIST_DELETE_FROM_DISK
 
 class PLItem : public QStandardItem {
 public:
@@ -206,6 +206,11 @@ public:
 	int maxItemsUrlHistory();
 #endif
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	void allowDeleteFromDisk(bool enabled) { allow_delete_from_disk = enabled; };
+	bool isDeleteFromDiskAllowed() { return allow_delete_from_disk; };
+#endif
+
 /*
 public:
 	MyAction * playPrevAct() { return prevAct; };
@@ -377,6 +382,10 @@ private:
 	bool ignore_player_errors;
 	bool change_name;
 	bool save_dirs;
+
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	bool allow_delete_from_disk;
+#endif
 };
 
 #endif

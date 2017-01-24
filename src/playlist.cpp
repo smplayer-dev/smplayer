@@ -261,6 +261,9 @@ Playlist::Playlist(QWidget * parent, Qt::WindowFlags f)
 	, ignore_player_errors(false)
 	, change_name(true)
 	, save_dirs(true)
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	, allow_delete_from_disk(false)
+#endif
 {
 	playlist_path = "";
 	latest_dir = "";
@@ -1427,7 +1430,7 @@ void Playlist::showPopup(const QPoint & pos) {
 		removeSelectedAct->setEnabled(true);
 		editAct->setEnabled(true);
 		#ifdef PLAYLIST_DELETE_FROM_DISK
-		deleteSelectedFileFromDiskAct->setEnabled(true);
+		deleteSelectedFileFromDiskAct->setEnabled(allow_delete_from_disk);
 		#endif
 		copyURLAct->setEnabled(true);
 		openFolderAct->setEnabled(true);
@@ -1897,6 +1900,8 @@ void Playlist::editItem(int row) {
 void Playlist::deleteSelectedFileFromDisk() {
 	qDebug("Playlist::deleteSelectedFileFromDisk");
 
+	if (!allow_delete_from_disk) return;
+
 	QModelIndex index = listView->currentIndex();
 	if (!index.isValid()) return;
 
@@ -2153,6 +2158,10 @@ void Playlist::saveSettings() {
 	set->setValue( "size", size() );
 #endif
 
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	set->setValue("allow_delete_from_disk", allow_delete_from_disk);
+#endif
+
 	set->setValue(QString("header_state/2/%1").arg(Helper::qtVersion()), listView->horizontalHeader()->saveState());
 
 	set->setValue( "sort_column", proxy->sortColumn() );
@@ -2228,6 +2237,10 @@ void Playlist::loadSettings() {
 
 #if !DOCK_PLAYLIST
 	resize( set->value("size", size()).toSize() );
+#endif
+
+#ifdef PLAYLIST_DELETE_FROM_DISK
+	allow_delete_from_disk = set->value("allow_delete_from_disk", allow_delete_from_disk).toBool();
 #endif
 
 	listView->horizontalHeader()->restoreState(set->value(QString("header_state/2/%1").arg(Helper::qtVersion()), QByteArray()).toByteArray());
