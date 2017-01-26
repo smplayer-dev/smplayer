@@ -97,9 +97,18 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 	// Find subtitle file
 	QString sub_filename;
 	if (!subtitle.isEmpty()) {
+		// Check if subtitle is in the video directory
 		if (QFile::exists(dir +"/" + subtitle)) {
 			sub_filename = subtitle;
 			qDebug() << "Chromecast::openLocal: sub_filename:" << sub_filename;
+		} else {
+			// Check if it's an absolute path
+			if (QFile::exists(subtitle)) {
+				QFileInfo sub_fi(subtitle);
+				if (QFile::exists(dir +"/"+ sub_fi.fileName())) {
+					sub_filename = sub_fi.fileName();
+				}
+			}
 		}
 	}
 
