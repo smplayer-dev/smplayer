@@ -33,7 +33,7 @@ public:
 	~Chromecast();
 
 	void openStream(const QString & url, const QString & title);
-	void openLocal(const QString & file, const QString & title);
+	void openLocal(const QString & file, const QString & title, const QString & subtitle = QString::null);
 
 	static Chromecast * instance();
 	static void deleteInstance();
