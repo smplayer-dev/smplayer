@@ -117,6 +117,7 @@ int main(int argc, char *argv[]) {
 	mg_set_protocol_http_websocket(nc);
 	server_opts.document_root = doc_root;
 	server_opts.enable_directory_listing = listing;
+	server_opts.extra_headers = "Access-Control-Allow-Origin: *";
 
 	while (exit_flag == 0) {
 		mg_mgr_poll(&mgr, 1000);
