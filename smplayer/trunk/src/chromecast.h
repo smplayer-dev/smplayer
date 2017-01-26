@@ -23,6 +23,8 @@
 #include <QStringList>
 #include <QProcess>
 
+#define SERVE_FILE_DIR_ONLY
+
 class QSettings;
 
 class Chromecast : public QObject {
@@ -68,6 +70,10 @@ protected:
 
 	void loadSettings();
 	void saveSettings();
+
+#ifndef SERVE_FILE_DIR_ONLY
+	QString filepathWithoutRoot(const QString & filepath);
+#endif
 
 protected slots:
 	void readProcessOutput();

@@ -39,8 +39,6 @@
   #endif
 #endif
 
-#define SERVE_FILE_DIR_ONLY
-
 Chromecast * Chromecast::instance_obj = 0;
 
 Chromecast * Chromecast::instance() {
@@ -95,6 +93,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 	qDebug() << "Chromecast::openLocal: chosen address:" << local_address;
 
 	// Find subtitle file
+#ifdef SERVE_FILE_DIR_ONLY
 	QString sub_filename;
 	if (!subtitle.isEmpty()) {
 		// Check if subtitle is in the video directory
@@ -110,7 +109,21 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 				}
 			}
 		}
+		qDebug() << "Chromecast::openLocal: sub_filename:" << sub_filename;
 	}
+#else
+	QString sub_filepath;
+	if (!subtitle.isEmpty()) {
+		if (QFile::exists(subtitle)) {
+			sub_filepath = subtitle;
+		} else {
+			if (QFile::exists(dir +"/" + subtitle)) {
+				sub_filepath = dir +"/" + subtitle;
+			}
+		}
+		qDebug() << "Chromecast::openLocal: sub_filepath:" << sub_filepath;
+	}
+#endif
 
 	if (!local_address.isEmpty()) {
 		// Run web server
@@ -125,14 +138,18 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		#else
 		QString root = QDir::rootPath();
 		startServer(root);
-		QString abs_filename = fi.absoluteFilePath();
-		if (abs_filename.startsWith(root)) {
-			abs_filename = abs_filename.mid(root.length());
-		}
+
+		QString abs_filename = filepathWithoutRoot(file);
+		qDebug() << "Chromecast::openLocal: abs_filename:" << abs_filename;
 		QString url = "http://" + local_address + ":" + QString::number(server_port) + "/" + abs_filename;
+
+		QString abs_sub_filename = filepathWithoutRoot(sub_filepath);
+		qDebug() << "Chromecast::openLocal: abs_sub_filename:" << abs_sub_filename;
+		QString sub_url = "http://" + local_address + ":" + QString::number(server_port) + "/" + abs_sub_filename;
 		#endif
 
 		qDebug() << "Chromecast::openLocal: url:" << url;
+		qDebug() << "Chromecast::openLocal: sub_url:" << sub_url;
 
 		#if 1
 		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
@@ -140,6 +157,18 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 		#endif
 	}
 }
+
+#ifndef SERVE_FILE_DIR_ONLY
+QString Chromecast::filepathWithoutRoot(const QString & filepath) {
+	QString root = QDir::rootPath();
+	QFileInfo fi(filepath);
+	QString abs_filename = fi.absoluteFilePath();
+	if (abs_filename.startsWith(root)) {
+		abs_filename = abs_filename.mid(root.length());
+	}
+	return abs_filename;
+}
+#endif
 
 QStringList Chromecast::localAddresses() {
 	QStringList l;
