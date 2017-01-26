@@ -1091,7 +1091,13 @@ void BaseGuiPlus::playOnChromecast() {
 	}
 	else
 	if (core->mdat.type == TYPE_FILE) {
-		Chromecast::instance()->openLocal(core->mdat.filename, title);
+		QString subtitle;
+		if (MediaSettings::SubNone != core->mset.current_sub_id && MediaSettings::NoneSelected != core->mset.current_sub_id) {
+			SubData sub = core->mdat.subs.itemAt(core->mset.current_sub_id);
+			qDebug() << "BaseGuiPlus::playOnChromecast: current sub name:" << sub.name() << "filename:" << sub.filename();
+			if (!sub.filename().isEmpty()) subtitle = sub.filename(); else subtitle = sub.name();
+		}
+		Chromecast::instance()->openLocal(core->mdat.filename, title, subtitle);
 	}
 }
 #endif
