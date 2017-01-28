@@ -1199,7 +1199,7 @@ Konfigurasjonsveiviseren vil vises nå, sånn at du kan gjøre det.</translation
         <location filename="../basegui.cpp" line="2033"/>
         <source>&amp;Sharpen</source>
         <comment>unsharp menu</comment>
-        <translation>&amp;Skarpere</translation>
+        <translation>Gjør &amp;skarpere</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2053"/>
@@ -2465,7 +2465,7 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation>V: %1 Kb/s, L: %2 Kb/s</translation>
+        <translation>Video: %1 Kb/s, Lyd: %2 Kb/s</translation>
     </message>
 </context>
 <context>
