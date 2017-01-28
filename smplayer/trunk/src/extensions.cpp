@@ -68,7 +68,7 @@ Extensions::Extensions()
 	_audio << "mp3" << "ogg" << "oga" << "wav" << "wma" <<  "aac" << "ac3" << "dts" << "ra" << "ape" << "flac" << "thd" << "mka" << "m4a";
 
 	_subtitles << "srt" << "sub" << "ssa" << "ass" << "idx" << "txt" << "smi"
-               << "rt" << "utf" << "aqt";
+               << "rt" << "utf" << "aqt" << "vtt";
 
 	_playlist << "m3u" << "m3u8" << "pls" << "xspf";
 
