@@ -7863,7 +7863,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation>&amp;Contenu du répertoire :</translation>
+        <translation>&amp;Listage de répertoire</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
@@ -8012,7 +8012,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation>Contenu du répertoire</translation>
+        <translation>Listage de répertoire</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
