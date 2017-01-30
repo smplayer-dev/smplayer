@@ -550,8 +550,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2020"/>
-        <location filename="../basegui.cpp" line="3522"/>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3530"/>
+        <location filename="../basegui.cpp" line="3544"/>
         <source>&amp;None</source>
         <translation>&amp;بدون</translation>
     </message>
@@ -762,43 +762,43 @@ Do you want to overwrite?</source>
         <translation>نب&amp;ذة عن SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3559"/>
-        <location filename="../basegui.cpp" line="3575"/>
-        <location filename="../basegui.cpp" line="3591"/>
-        <location filename="../basegui.cpp" line="3606"/>
-        <location filename="../basegui.cpp" line="3640"/>
-        <location filename="../basegui.cpp" line="3660"/>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3567"/>
+        <location filename="../basegui.cpp" line="3583"/>
+        <location filename="../basegui.cpp" line="3599"/>
+        <location filename="../basegui.cpp" line="3614"/>
+        <location filename="../basegui.cpp" line="3648"/>
+        <location filename="../basegui.cpp" line="3668"/>
+        <location filename="../basegui.cpp" line="3744"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;فارغ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4182"/>
+        <location filename="../basegui.cpp" line="4190"/>
         <source>Video</source>
         <translation>مقاطع فيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4183"/>
-        <location filename="../basegui.cpp" line="4420"/>
+        <location filename="../basegui.cpp" line="4191"/>
+        <location filename="../basegui.cpp" line="4436"/>
         <source>Audio</source>
         <translation>مقاطع صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4184"/>
+        <location filename="../basegui.cpp" line="4192"/>
         <source>Playlists</source>
         <translation>قوائم تشغيل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4185"/>
-        <location filename="../basegui.cpp" line="4400"/>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4437"/>
         <source>All files</source>
         <translation>كل الملفات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4180"/>
-        <location filename="../basegui.cpp" line="4397"/>
-        <location filename="../basegui.cpp" line="4418"/>
+        <location filename="../basegui.cpp" line="4188"/>
+        <location filename="../basegui.cpp" line="4413"/>
+        <location filename="../basegui.cpp" line="4434"/>
         <source>Choose a file</source>
         <translation>اختر ملفاً</translation>
     </message>
@@ -813,49 +813,49 @@ Do you want to overwrite?</source>
         <translation>تبرّع / &amp;شارك مع أصدقائك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4236"/>
+        <location filename="../basegui.cpp" line="4252"/>
         <source>SMPlayer - Information</source>
         <translation>معلومات عن SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4237"/>
+        <location filename="../basegui.cpp" line="4253"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>لم تُضبط سواقة أقراص CDROM أو DVD بعدُ.
 سيظهر الآن حوار الضبط، فتستطيع القيام بالأمر.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4366"/>
         <source>Select the Blu-ray folder</source>
         <translation>إختر مجلد بلو-راي</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4363"/>
+        <location filename="../basegui.cpp" line="4379"/>
         <source>Choose a directory</source>
         <translation>اختر مجلداً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4399"/>
+        <location filename="../basegui.cpp" line="4415"/>
         <source>Subtitles</source>
         <translation>الترجمات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5069"/>
+        <location filename="../basegui.cpp" line="5085"/>
         <source>Error detected</source>
         <translation>اكتُشِف خطأ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5070"/>
+        <location filename="../basegui.cpp" line="5086"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>نأسف إذ لا يمكن تشغيل مقطع الفيديو هذا.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5300"/>
+        <location filename="../basegui.cpp" line="5316"/>
         <source>Pause</source>
         <translation>ألبث</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5301"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>Stop</source>
         <translation>أوقف</translation>
     </message>
@@ -1289,170 +1289,170 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>السجلات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4505"/>
+        <location filename="../basegui.cpp" line="4521"/>
         <source>Support SMPlayer</source>
         <translation>إدعم SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
         <translation>تبرّع</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4524"/>
         <source>No</source>
         <translation>لا</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4511"/>
+        <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
         <translation>المشغّل SMPlayer يحتاج إليك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4512"/>
+        <location filename="../basegui.cpp" line="4528"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>المشغّل SMPlayer برنامج مجاني، لكن التطوير يحتاج الكثير من الوقت و الكثير من العمل.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4513"/>
+        <location filename="../basegui.cpp" line="4529"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>من أجل الاستمرار في تطوير SMPlayer و بميزات جديدة فاننا نحتاج الى مساعدتك.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4514"/>
+        <location filename="../basegui.cpp" line="4530"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>الرجاء أن تضع في إعتبارك دعم مشروع المشغّل SMPlayer بإرسال تبرّع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4515"/>
+        <location filename="../basegui.cpp" line="4531"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>حتى أقل المبالغ ستساعد كثيرا.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5004"/>
+        <location filename="../basegui.cpp" line="5020"/>
         <source>Connection failed</source>
         <translation>فشل الإتصال</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5005"/>
+        <location filename="../basegui.cpp" line="5021"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>الفيديو الذي طلبته يحتاج الى اتصال HTTPS آمن.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5006"/>
+        <location filename="../basegui.cpp" line="5022"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>للأسف فإن OpenSSL، و هو مكون ضروري له، لا يتوفر في النظام الخاص بك.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5007"/>
+        <location filename="../basegui.cpp" line="5023"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>لطفاً زُر %1 لمعرفة كيفية إصلاح هذه المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5008"/>
+        <location filename="../basegui.cpp" line="5024"/>
         <source>this link</source>
         <translation>هذا الرابط</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5018"/>
+        <location filename="../basegui.cpp" line="5034"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>نأسف إذا لا يمكن تشغيل مقطع الفيديو هذا بسبب التغييرات الطارئة على صفحة YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5025"/>
-        <location filename="../basegui.cpp" line="5033"/>
+        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5049"/>
         <source>Problems with Youtube</source>
         <translation>مشكلات في YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5991"/>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6007"/>
+        <location filename="../basegui.cpp" line="6059"/>
         <source>%1 Error</source>
         <translation>خطأ %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5992"/>
+        <location filename="../basegui.cpp" line="6008"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 إنتهى على نحو غير متوقع.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6017"/>
+        <location filename="../basegui.cpp" line="6033"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>فشل المكوّن youtube-dl في الاشتغال.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6018"/>
+        <location filename="../basegui.cpp" line="6034"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>تثبيت الحزمة التوزيعية لفيجوال سي بلس بلس 2010 من مايكروسوفت (اصدار x86) Microsoft Visual C++ 2010 Redistributable Package  قد يحل المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6020"/>
+        <location filename="../basegui.cpp" line="6036"/>
         <source>Click here to get it</source>
         <translation>انقر هنا للحصول عليها</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6045"/>
+        <location filename="../basegui.cpp" line="6061"/>
         <source>%1 failed to start.</source>
         <translation>%1 عجز أن يبدأ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6046"/>
+        <location filename="../basegui.cpp" line="6062"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>رجاء تحقق من مسار %1 في التفضيلات.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6048"/>
+        <location filename="../basegui.cpp" line="6064"/>
         <source>%1 has crashed.</source>
         <translation>%1 إنهار.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6130"/>
+        <location filename="../basegui.cpp" line="6146"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>مستعرض يوتيوب YouTube Browser غير مثبَّت.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6131"/>
-        <location filename="../basegui.cpp" line="6143"/>
+        <location filename="../basegui.cpp" line="6147"/>
+        <location filename="../basegui.cpp" line="6159"/>
         <source>Visit %1 to get it.</source>
         <translation>زُر %1 للحصول عليه.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6141"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>فشل متصفح اليوتيوب أن يشتغل.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6142"/>
+        <location filename="../basegui.cpp" line="6158"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>تأكد من كونه مثبَّتاً بصورة صحيحة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6308"/>
+        <location filename="../basegui.cpp" line="6324"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>بُدّل النظام الى النمط اللوحي. أيتوجب على SMPlayer أن يغير الى النمط اللوحي كذلك؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6310"/>
+        <location filename="../basegui.cpp" line="6326"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>خرج النظام من النمط اللوحي. أيتوجب على SMPlayer أن يُطفئ النمط اللوحي كذلك؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6314"/>
+        <location filename="../basegui.cpp" line="6330"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>تذكّر قراري و لا تسأل ثانيةً</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5021"/>
+        <location filename="../basegui.cpp" line="5037"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>نأسف إذا لا يمكن تشغيل مقطع الفيديو &quot;%1&quot; بسبب التغييرات الطارئة على صفحة YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5027"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>أتريد تحديث النص البرمجي لـYouTube؟ لعل هذا يحلّ المشكلة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5035"/>
+        <location filename="../basegui.cpp" line="5051"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>قد يحل المشكلة تحديث SMPlayer.</translation>
     </message>
@@ -1462,28 +1462,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;شارك SMPlayer مع أصدقائك</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3247"/>
-        <location filename="../basegui.cpp" line="3986"/>
+        <location filename="../basegui.cpp" line="3255"/>
+        <location filename="../basegui.cpp" line="3994"/>
         <source>Information</source>
         <translation>معلومات</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3248"/>
+        <location filename="../basegui.cpp" line="3256"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>عليك إعادة تشغيل SMPlayer لاستخدام الواجهة الرسومية الجديدة.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3748"/>
+        <location filename="../basegui.cpp" line="3756"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>أكِّد الحذف - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3749"/>
+        <location filename="../basegui.cpp" line="3757"/>
         <source>Delete the list of recent files?</source>
         <translation>أأحذف لائحة الملفات الأخيرة؟</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3987"/>
+        <location filename="../basegui.cpp" line="3995"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>حُفظَت القيم الحالية لتستخدم قيماً مبدئية.</translation>
     </message>
@@ -1573,7 +1573,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;خيارات سطر الأوامر</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4440"/>
+        <location filename="../basegui.cpp" line="4456"/>
         <source>SMPlayer command line options</source>
         <translation>خيارات سطر الأوامر لـSMPlayer</translation>
     </message>
@@ -1588,17 +1588,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>صفّر مساوي الفيديو</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5071"/>
+        <location filename="../basegui.cpp" line="5087"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>أعاد الخادوم &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5993"/>
+        <location filename="../basegui.cpp" line="6009"/>
         <source>Exit code: %1</source>
         <translation>رمز الخروج: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6049"/>
+        <location filename="../basegui.cpp" line="6065"/>
         <source>See the log for more info.</source>
         <translation>انظر السجل لمعلومات أكثر.</translation>
     </message>
@@ -1643,7 +1643,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>أظهر قائمة السياق</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4181"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>Multimedia</source>
         <translation>الوسائط المتعددة</translation>
     </message>
@@ -1720,22 +1720,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>مسار ال&amp;صوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4913"/>
+        <location filename="../basegui.cpp" line="4929"/>
         <source>Warning - Using old MPlayer</source>
         <translation>تحذير - استخدام MPlayer قديم</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4914"/>
+        <location filename="../basegui.cpp" line="4930"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>إصدار MPlayer المثبت على نظامك (%1) قديم. لا يعمل SMPlayer به كما ينبغي: قد لا يعمل اختيار الترجمات وبعض الخيارات الأخرى... </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4919"/>
+        <location filename="../basegui.cpp" line="4935"/>
         <source>Please, update your MPlayer.</source>
         <translation>رجاء حدّث MPlayer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4921"/>
+        <location filename="../basegui.cpp" line="4937"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(لن يُعرض هذا التحذير ثانيةً)</translation>
     </message>
@@ -1825,36 +1825,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>عيّن التأخي&amp;ر...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4567"/>
+        <location filename="../basegui.cpp" line="4583"/>
         <source>&amp;Jump to:</source>
         <translation>ا&amp;قفز إلى:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4568"/>
+        <location filename="../basegui.cpp" line="4584"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer -تنقّل</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4579"/>
-        <location filename="../basegui.cpp" line="4583"/>
+        <location filename="../basegui.cpp" line="4595"/>
+        <location filename="../basegui.cpp" line="4599"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - تأخير الصوت</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4580"/>
-        <location filename="../basegui.cpp" line="4584"/>
+        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4600"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>تأخير الصوت (بالميلي ثانية):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4595"/>
-        <location filename="../basegui.cpp" line="4599"/>
+        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4615"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - تأخير الترجمة</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
-        <location filename="../basegui.cpp" line="4600"/>
+        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4616"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>تأخير الترجمة (بالميلي ثانية):</translation>
     </message>
@@ -1864,8 +1864,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>بدّل وضع البقاء في قمة النوافذ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5504"/>
-        <location filename="../basegui.cpp" line="5833"/>
+        <location filename="../basegui.cpp" line="5520"/>
+        <location filename="../basegui.cpp" line="5849"/>
         <source>Jump to %1</source>
         <translation>اقفز إلى %1</translation>
     </message>
@@ -2219,68 +2219,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3078"/>
+        <location filename="../core.cpp" line="3062"/>
         <source>Brightness: %1</source>
         <translation>السطوع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3094"/>
+        <location filename="../core.cpp" line="3078"/>
         <source>Contrast: %1</source>
         <translation>التباين: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3109"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Gamma: %1</source>
         <translation>غاما: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3124"/>
+        <location filename="../core.cpp" line="3108"/>
         <source>Hue: %1</source>
         <translation>التدرج: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
+        <location filename="../core.cpp" line="3123"/>
         <source>Saturation: %1</source>
         <translation>التشبع: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3282"/>
+        <location filename="../core.cpp" line="3266"/>
         <source>Volume: %1</source>
         <translation>حجم الصوت: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4184"/>
+        <location filename="../core.cpp" line="4168"/>
         <source>Zoom: %1</source>
         <translation>التقريب: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
-        <location filename="../core.cpp" line="3421"/>
+        <location filename="../core.cpp" line="3394"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Font scale: %1</source>
         <translation>تحجيم الخطّ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4015"/>
+        <location filename="../core.cpp" line="3999"/>
         <source>Aspect ratio: %1</source>
         <translation>نسبة الأبعاد: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4417"/>
+        <location filename="../core.cpp" line="4401"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>يُحدِّث الذاكرة الخبيئة للخطوط. قد يستغرق هذا بعض الثواني...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3335"/>
+        <location filename="../core.cpp" line="3319"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>تأخير الترجمة: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3353"/>
+        <location filename="../core.cpp" line="3337"/>
         <source>Audio delay: %1 ms</source>
         <translation>تأخير الصوت: %1 ميللي ثانية</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3193"/>
+        <location filename="../core.cpp" line="3177"/>
         <source>Speed: %1</source>
         <translation>السرعة: %1</translation>
     </message>
@@ -2295,42 +2295,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>غير قادر على تحديد موقع رابط الفيديو</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3498"/>
+        <location filename="../core.cpp" line="3482"/>
         <source>Subtitles on</source>
         <translation>أُظهرت الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3500"/>
+        <location filename="../core.cpp" line="3484"/>
         <source>Subtitles off</source>
         <translation>أُخفيتِ الترجمة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4063"/>
+        <location filename="../core.cpp" line="4047"/>
         <source>Mouse wheel seeks now</source>
         <translation>تحريك عجلة الفأرة الآن يتنقّل في المقطع</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4066"/>
+        <location filename="../core.cpp" line="4050"/>
         <source>Mouse wheel changes volume now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر حجم الصوت</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4069"/>
+        <location filename="../core.cpp" line="4053"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>تحريك عجلة الفأرة  الآن يغيّر درجة التقريب</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4072"/>
+        <location filename="../core.cpp" line="4056"/>
         <source>Mouse wheel changes speed now</source>
         <translation>تحريك عجلة الفأرة الآن يغيّر السرعة</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4393"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Screenshot saved as %1</source>
         <translation>حُفظت اللقطة بالإسم %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4428"/>
+        <location filename="../core.cpp" line="4412"/>
         <source>Starting...</source>
         <translation>البدأ...</translation>
     </message>
@@ -2345,17 +2345,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>لم تُلتقط الصور، لم تعيّن مجلداً</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2722"/>
+        <location filename="../core.cpp" line="2706"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;أ&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2744"/>
+        <location filename="../core.cpp" line="2728"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>عُيّنت الإشارة &quot;ب&quot; عند %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2764"/>
+        <location filename="../core.cpp" line="2748"/>
         <source>A-B markers cleared</source>
         <translation>مُسحت الإشارتان &quot;أ&quot; و&quot;ب&quot;</translation>
     </message>
@@ -3440,7 +3440,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Arabic</source>
         <translation>العربية</translation>
     </message>
@@ -3466,7 +3466,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Bulgarian</source>
         <translation>البلغارية</translation>
     </message>
@@ -3507,7 +3507,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Czech</source>
         <translation>التشيكية</translation>
     </message>
@@ -3551,7 +3551,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Estonian</source>
         <translation>الإستونية</translation>
     </message>
@@ -3624,13 +3624,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Croatian</source>
         <translation>الكرواتية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Hungarian</source>
         <translation>الهنغارية</translation>
     </message>
@@ -3733,13 +3733,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Lithuanian</source>
         <translation>اللثوانية</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Latvian</source>
         <translation>الاتيفية</translation>
     </message>
@@ -3832,7 +3832,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Polish</source>
         <translation>البولندية</translation>
     </message>
@@ -3855,8 +3855,8 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="307"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Russian</source>
         <translation>الروسية</translation>
     </message>
@@ -3877,7 +3877,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Slovak</source>
         <translation>السلوفاكية</translation>
     </message>
@@ -3964,7 +3964,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Turkish</source>
         <translation>التركية</translation>
     </message>
@@ -3990,7 +3990,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Ukrainian</source>
         <translation>الأوكرانية</translation>
     </message>
@@ -4037,7 +4037,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="338"/>
+        <location filename="../languages.cpp" line="339"/>
         <source>Chinese</source>
         <translation>الصينية</translation>
     </message>
@@ -4052,112 +4052,112 @@ Please check the permissions of that folder.</source>
         <translation>العربية - سوريا</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Unicode</source>
         <translation>موحّدة الترميز - يونيكود</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>UTF-8</source>
         <translation>موحّدة الترميز- 8 UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages</source>
         <translation>لغات أوروبا الغربية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages with Euro</source>
         <translation>لغات أوروبا الغربية التي تعتمد اليورو</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Slavic/Central European Languages</source>
         <translation>اللغات السلافية/لغات وسط أوروبا</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>الإسبرانتو والجاليكية والمالطية والتركية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Old Baltic charset</source>
         <translation>طقم المحارف البلطيقية القديمة</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Cyrillic</source>
         <translation>السيريلية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Modern Greek</source>
         <translation>اليونانية الحديثة</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Baltic</source>
         <translation>البلطيقية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Celtic</source>
         <translation>السلتية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>South-Eastern European</source>
         <translation>أوروبا الجنوبية-الشرقية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Hebrew charsets</source>
         <translation>طقم المحارف العبرية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="309"/>
         <source>Ukrainian, Belarusian</source>
         <translation>الأوكرانية والبلاروسية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Simplified Chinese charset</source>
         <translation>طقم محارف الصينية المبسطة</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Traditional Chinese charset</source>
         <translation>طقم محارف الصينية التقليدية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Japanese charsets</source>
         <translation>طقم المحارف اليابانية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Korean charset</source>
         <translation>طقم المحارف الكورية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Thai charset</source>
         <translation>طقم المحارف التايلندية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Cyrillic Windows</source>
         <translation>ويندوز Windows سريلي</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Slavic/Central European Windows</source>
         <translation>ويندوز Windows السلافية/لغات وسط أوروبا</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Arabic Windows</source>
         <translation>ويندوز Windows العربي</translation>
     </message>
@@ -4183,7 +4183,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="325"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Belarusian</source>
         <translation>البلاروسية</translation>
     </message>
@@ -4445,7 +4445,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Slovene</source>
         <translation>سلوفينية</translation>
     </message>
@@ -4485,7 +4485,7 @@ Please check the permissions of that folder.</source>
         <translation>الوالونية</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="317"/>
+        <location filename="../languages.cpp" line="318"/>
         <source>Modern Greek Windows</source>
         <translation>ويندوز Windows اليوناني الحديث</translation>
     </message>
@@ -4549,78 +4549,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="155"/>
+        <location filename="../mpvprocess.h" line="156"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>عامل التصفية &apos;%1&apos; لا يدعمه mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="156"/>
+        <location filename="../mpvprocess.h" line="157"/>
         <source>File:</source>
         <translation>ملف:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="157"/>
+        <location filename="../mpvprocess.h" line="158"/>
         <source>Video:</source>
         <translation>فيديو</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="158"/>
+        <location filename="../mpvprocess.h" line="159"/>
         <source>Resolution:</source>
         <translation>دقة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="159"/>
+        <location filename="../mpvprocess.h" line="160"/>
         <source>Frames per second:</source>
         <translation>الاطار لكل ثانية:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="160"/>
+        <location filename="../mpvprocess.h" line="161"/>
         <source>Estimated:</source>
         <translation>المتوقع:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="161"/>
+        <location filename="../mpvprocess.h" line="162"/>
         <source>Aspect Ratio:</source>
         <translation>نسبة الأبعاد</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="162"/>
-        <location filename="../mpvprocess.h" line="165"/>
+        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="166"/>
         <source>Bitrate:</source>
         <translation>معدل البتات</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="164"/>
         <source>Dropped frames:</source>
         <translation>الإطارات المستبعَدة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="164"/>
+        <location filename="../mpvprocess.h" line="165"/>
         <source>Audio:</source>
         <translation>صوت:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="166"/>
+        <location filename="../mpvprocess.h" line="167"/>
         <source>Sample Rate:</source>
         <translation>معدل العيّنة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="167"/>
+        <location filename="../mpvprocess.h" line="168"/>
         <source>Channels:</source>
         <translation>القنوات:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="168"/>
+        <location filename="../mpvprocess.h" line="169"/>
         <source>Audio/video synchronization:</source>
         <translation>مزامنة الصوت/الفيديو :</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="169"/>
+        <location filename="../mpvprocess.h" line="170"/>
         <source>Cache fill:</source>
         <translation>امتلاء الذاكرة الخبيئة:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="170"/>
+        <location filename="../mpvprocess.h" line="171"/>
         <source>Used cache:</source>
         <translation>الذاكرة الخبيئة المستخدمة:</translation>
     </message>
@@ -4753,304 +4753,304 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Name</source>
         <translation>الاسم</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Length</source>
         <translation>الطول</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="679"/>
+        <location filename="../playlist.cpp" line="682"/>
         <source>&amp;Play</source>
         <translation>ش&amp;غّل</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="728"/>
         <source>&amp;Edit</source>
         <translation>&amp;عدّل</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
-        <location filename="../playlist.cpp" line="1339"/>
+        <location filename="../playlist.cpp" line="1306"/>
+        <location filename="../playlist.cpp" line="1342"/>
         <source>Playlists</source>
         <translation>قوائم التشغيل</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1301"/>
+        <location filename="../playlist.cpp" line="1304"/>
         <source>Choose a file</source>
         <translation>اختر ملفاً</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1337"/>
+        <location filename="../playlist.cpp" line="1340"/>
         <source>Choose a filename</source>
         <translation>اختر اسماً للملف</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1349"/>
+        <location filename="../playlist.cpp" line="1352"/>
         <source>Confirm overwrite?</source>
         <translation>أتؤكد الكتابة عليه؟</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1350"/>
+        <location filename="../playlist.cpp" line="1353"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>الملف %1 مُوجَد من قبل.
 أتريد الكتابة عليه؟</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
-        <location filename="../playlist.cpp" line="1339"/>
-        <location filename="../playlist.cpp" line="1619"/>
+        <location filename="../playlist.cpp" line="1306"/>
+        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1625"/>
         <source>All files</source>
         <translation>كل الملفات</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="355"/>
+        <location filename="../playlist.cpp" line="358"/>
         <source>Untitled playlist</source>
         <translation>قائمة غير معنونة</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="674"/>
         <source>&amp;Load...</source>
         <translation>&amp;حمّل...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="673"/>
+        <location filename="../playlist.cpp" line="676"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>حمّل قائمة تشغيل من &amp;رابط...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="714"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="729"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Load/Save</source>
         <translation>تحميل/حفظ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1616"/>
+        <location filename="../playlist.cpp" line="1622"/>
         <source>Select one or more files to open</source>
         <translation>اختر ملفاً واحداً أو أكثر ليُفتح</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1686"/>
+        <location filename="../playlist.cpp" line="1692"/>
         <source>Choose a directory</source>
         <translation>اختر مجلداً</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1881"/>
+        <location filename="../playlist.cpp" line="1887"/>
         <source>Edit name</source>
         <translation>عدّل الاسم</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1882"/>
+        <location filename="../playlist.cpp" line="1888"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>اكتب الاسم الذي تريد أن يظهر هذا الملف به في قائمة التشغيل:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Filename / URL</source>
         <translation>اسم الملف / رابط</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="674"/>
+        <location filename="../playlist.cpp" line="677"/>
         <source>Download playlist from URL</source>
         <translation>تحميل قائمة تشغيل من رابط </translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="676"/>
+        <location filename="../playlist.cpp" line="679"/>
         <source>&amp;Save</source>
         <translation>احف&amp;ظ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="677"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Save &amp;as...</source>
         <translation>احفظ بإ&amp;سم...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="681"/>
+        <location filename="../playlist.cpp" line="684"/>
         <source>&amp;Next</source>
         <translation>ال&amp;تالي</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Pre&amp;vious</source>
         <translation>ال&amp;سابق</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="691"/>
         <source>Move &amp;up</source>
         <translation>حرّك لأ&amp;على</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="692"/>
         <source>Move &amp;down</source>
         <translation>حرّك لأ&amp;سفل</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="691"/>
+        <location filename="../playlist.cpp" line="694"/>
         <source>&amp;Repeat</source>
         <translation>&amp;كرّر</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="692"/>
+        <location filename="../playlist.cpp" line="695"/>
         <source>S&amp;huffle</source>
         <translation>ا&amp;خلط</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="695"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Add &amp;current file</source>
         <translation>أضف الملف ال&amp;حالي</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="696"/>
+        <location filename="../playlist.cpp" line="699"/>
         <source>Add &amp;file(s)</source>
         <translation>أضف مل&amp;فات</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="697"/>
+        <location filename="../playlist.cpp" line="700"/>
         <source>Add &amp;directory</source>
         <translation>أضف مج&amp;لداً</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="698"/>
+        <location filename="../playlist.cpp" line="701"/>
         <source>Add &amp;URL(s)</source>
         <translation>أضف ر(و)اب&amp;طاً</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="701"/>
+        <location filename="../playlist.cpp" line="704"/>
         <source>Remove &amp;selected</source>
         <translation>أزل الم&amp;ختارة</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="702"/>
+        <location filename="../playlist.cpp" line="705"/>
         <source>Remove &amp;all</source>
         <translation>أزل ال&amp;كل</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="708"/>
         <source>&amp;Delete file from disk</source>
         <translation>ح&amp;ذف الملف من القرص</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
-        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="711"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;نسخ مسار الملف الى الحافظة</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="712"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;فتح مجلد المصدر</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Search</source>
         <translation>بحث</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="719"/>
+        <location filename="../playlist.cpp" line="722"/>
         <source>Show position column</source>
         <translation>أظهر عمود الموضع</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>Show name column</source>
         <translation>أظهر عمود الإسم</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="721"/>
+        <location filename="../playlist.cpp" line="724"/>
         <source>Show length column</source>
         <translation>أظهر عمود الطول</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>Show filename column</source>
         <translation>أظهر عمود إسم الملف</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1452"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>ان&amp;سخ الرابط إلى الحافظة</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1917"/>
+        <location filename="../playlist.cpp" line="1925"/>
         <source>Confirm deletion</source>
         <translation>أكّد الحذف</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1918"/>
+        <location filename="../playlist.cpp" line="1926"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>أنت على وشك أن تحذف الملف &apos;%1&apos; من القرص.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1919"/>
+        <location filename="../playlist.cpp" line="1927"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>لا يمكن التراجع عن هذا الإجراء. أأنت متأكد أنك تريد المتابعة؟</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1937"/>
+        <location filename="../playlist.cpp" line="1945"/>
         <source>Deletion failed</source>
         <translation>فشل الحذف</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1938"/>
+        <location filename="../playlist.cpp" line="1946"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>لم يمكن حذف &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1943"/>
+        <location filename="../playlist.cpp" line="1951"/>
         <source>Error deleting the file</source>
         <translation>خطأ عند حذف الملف</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1952"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>ليس ممكناً حذف الملف &apos;%1&apos; من نظام الملفات.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2401"/>
+        <location filename="../playlist.cpp" line="2417"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>من غير الممكن تحميل قائمة التشغيل هذه</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2401"/>
+        <location filename="../playlist.cpp" line="2417"/>
         <source>Unrecognized format.</source>
         <translation>صيغة غير مصنفة.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>Add...</source>
         <translation>أضِف...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Remove...</source>
         <translation>أزِل...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1382"/>
+        <location filename="../playlist.cpp" line="1385"/>
         <source>Playlist modified</source>
         <translation>عُدلت القائمة</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1383"/>
+        <location filename="../playlist.cpp" line="1386"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>لم تُحفظ التغييرات على قائمة التشغيل، أتريد حفظها؟</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1618"/>
+        <location filename="../playlist.cpp" line="1624"/>
         <source>Multimedia</source>
         <translation>مقاطع وسائط</translation>
     </message>
@@ -8493,152 +8493,167 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefPlaylist</name>
     <message>
-        <location filename="../prefplaylist.cpp" line="34"/>
+        <location filename="../prefplaylist.cpp" line="38"/>
         <source>Playlist</source>
         <translation>قائمة التشغيل</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="177"/>
+        <location filename="../prefplaylist.cpp" line="191"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>إذا مُكّن هذا الخيار، سيمسح SMPlayer قائمة التشغيل كل مرة يفتح فيها ملف جديد، ثم يضيف هذا الملف إليها. في حالة أقراص DVD وCD وVCD، ستضاف كل العناوين في القرص إلى قائمة التشغيل.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="46"/>
+        <location filename="../prefplaylist.cpp" line="50"/>
         <source>None</source>
         <translation>لا شيء</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="47"/>
+        <location filename="../prefplaylist.cpp" line="51"/>
         <source>Video files</source>
         <translation>ملفات فيديو</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="48"/>
+        <location filename="../prefplaylist.cpp" line="52"/>
         <source>Audio files</source>
         <translation>ملفات صوت</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="49"/>
+        <location filename="../prefplaylist.cpp" line="53"/>
         <source>Video and audio files</source>
         <translation>ملفات فيديو و صوت</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="50"/>
+        <location filename="../prefplaylist.cpp" line="54"/>
         <source>Consecutive files</source>
         <translation>ملفات متوالية</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="166"/>
+        <location filename="../prefplaylist.cpp" line="180"/>
         <source>Start playback after loading a playlist</source>
         <translation>ابدأ التشغيل بعد تحميل قائمة التشغيل</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="167"/>
+        <location filename="../prefplaylist.cpp" line="181"/>
         <source>Playback will start just after loading a playlist.</source>
         <translation>سيبدأ التشغيل مباشرة بعد تحميل قائمة تشغيل.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="169"/>
+        <location filename="../prefplaylist.cpp" line="183"/>
         <source>Play next file automatically</source>
         <translation>تشغيل الملف التالي تلقائيا</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="170"/>
+        <location filename="../prefplaylist.cpp" line="184"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
         <translation>عندما يصل المف الى نهايته، سيتم تشغيل الملف التالي تلقائياً</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="172"/>
+        <location filename="../prefplaylist.cpp" line="186"/>
         <source>Ignore playback errors</source>
         <translation>تجاهل اخطاء التشغيل</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="176"/>
+        <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
         <translation>اضف الملفات الى قائمة التشغيل تلقائيا</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="182"/>
+        <location filename="../prefplaylist.cpp" line="196"/>
         <source>Add files from folder</source>
         <translation>أضف ملفات من مجلد</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="203"/>
+        <location filename="../prefplaylist.cpp" line="217"/>
+        <source>Misc</source>
+        <translation type="unfinished">متنوعة</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
         <translation>ترتيب تلقائي</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="204"/>
+        <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
         <translation>إذا مُكِّن هذا الخيار، فستُرتَّب قائمة التشغيل تلقائيا بعد إضافة ملفات.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="206"/>
+        <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
         <translation>بحث متحسس لحالة الاحرف</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="207"/>
+        <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
         <translation>هذا الخيار يحدد فيما لو أن البحث في قائمة التشغيل حساس لحالة الأحرف أو لا.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="209"/>
+        <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
         <translation>احفظ نسخة من قائمة التشغيل عند الخروج</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="210"/>
+        <location filename="../prefplaylist.cpp" line="226"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
         <translation>إذا مُكّن هذا الخيار، ستُحفظ نسخة من قائمة التشغيل في ملف الضبط عند إغلاق SMPlayer، ثم يعاد تحميلها تلقائياً عند تشغيله ثانيةً.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="184"/>
+        <location filename="../prefplaylist.cpp" line="231"/>
+        <source>Enable the option to delete files from disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="232"/>
+        <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="198"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;لا شيء&lt;/b&gt;: لن تُضاف أية ملفات</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="185"/>
+        <location filename="../prefplaylist.cpp" line="199"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;ملفات فيديو&lt;/b&gt;: ستُضاف كل ملفات الفيديو الموجودة في المجلد</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="186"/>
+        <location filename="../prefplaylist.cpp" line="200"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;ملفات صوت&lt;/b&gt;: ستُضاف كل ملفات الصوت الموجودة في المجلد</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="187"/>
+        <location filename="../prefplaylist.cpp" line="201"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;ملفات فيديو و صوت&lt;/b&gt;: ستُضاف كل ملفات الفيديو و الصوت الموجودة في المجلد</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="188"/>
+        <location filename="../prefplaylist.cpp" line="202"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;ملفات متوالية&lt;/b&gt;: الملفات المتوالية (مثل video_1.avi ، video_2.avi) ستُضاف</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="161"/>
+        <location filename="../prefplaylist.cpp" line="175"/>
         <source>Play files from start</source>
         <translation>شغل الملفات من أولها</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="162"/>
+        <location filename="../prefplaylist.cpp" line="176"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>إذا مُكّن هذا الخيار، سيبدأ تشغيل كل الملفات في قائمة التشغيل من بدايتها بدلاً من متابعة تشغيلها من الموضع الذي أوقفت عنده في المرة السابقة.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="183"/>
+        <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
         <translation>يمكن استخدام هذا الخيار لإضافة الملفات تلقائيا الى قائمة التشغيل:</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="196"/>
+        <location filename="../prefplaylist.cpp" line="210"/>
         <source>Get info automatically about files added</source>
         <translation>اجلب معلومات تلقائياً عن الملفات المضافة</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="173"/>
+        <location filename="../prefplaylist.cpp" line="187"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>اذا مُكّن هذا الخيار فستُهمِل قائمة التشغيل الأخطاء في التشغيل من الملف السابق و ستشغل الملف التالي في القائمة.</translation>
     </message>
@@ -8648,17 +8663,17 @@ Do you want to overwrite?</source>
         <translation>&amp;قائمة التشغيل</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="191"/>
+        <location filename="../prefplaylist.cpp" line="205"/>
         <source>Add files in directories recursively</source>
         <translation>أضف الملفات في المجلدات الفرعية</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="192"/>
+        <location filename="../prefplaylist.cpp" line="206"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>مَكّن هذا الخيار إن أردت إضافة الملفات في المجلدات الفرعية -مهما بلغ عمقها- عند إضافة مجلد. إن لم تفعّله فسُتضاف الملفات في المجلد الذي اخترته فقط.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="197"/>
+        <location filename="../prefplaylist.cpp" line="211"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>مكّن هذا الخيار لجلب معلومات عن الملفات المضافة إلى القائمة. يسمح هذا بعرض اسم العنوان (إن توفّر) ومدة الملفات. إن لم تفعّله فلن تتوفر تلك المعلومات عن الملف إلا بعد بدء تشغيله. قد يكون هذا الخيار بطيء التنفيذ، خصوصاً إذا أضفت ملفات كثيرة.</translation>
     </message>
@@ -8713,19 +8728,29 @@ Do you want to overwrite?</source>
         <translation>اجلب &amp;معلومات الملفات المضافة تلقائياً (بطيء التنفيذ)</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="150"/>
+        <location filename="../prefplaylist.ui" line="164"/>
+        <source>&amp;Misc</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="170"/>
         <source>A&amp;uto sort</source>
         <translation>ت&amp;رتيب تلقائي</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="157"/>
+        <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
         <translation>بحث ح&amp;ساس لحالة الأحرف</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="164"/>
+        <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
         <translation>حف&amp;ظ نسخة من قائمة التشغيل عند الخروج</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="191"/>
+        <source>Enable the option to delete files from &amp;disk</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

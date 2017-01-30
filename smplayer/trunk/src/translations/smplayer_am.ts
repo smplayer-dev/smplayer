@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="am">
 <context>
     <name>About</name>
     <message>
@@ -548,8 +550,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2020"/>
-        <location filename="../basegui.cpp" line="3522"/>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3530"/>
+        <location filename="../basegui.cpp" line="3544"/>
         <source>&amp;None</source>
         <translation>&amp;ምንም</translation>
     </message>
@@ -760,43 +762,43 @@ Do you want to overwrite?</source>
         <translation>ስለ SMP ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3559"/>
-        <location filename="../basegui.cpp" line="3575"/>
-        <location filename="../basegui.cpp" line="3591"/>
-        <location filename="../basegui.cpp" line="3606"/>
-        <location filename="../basegui.cpp" line="3640"/>
-        <location filename="../basegui.cpp" line="3660"/>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3567"/>
+        <location filename="../basegui.cpp" line="3583"/>
+        <location filename="../basegui.cpp" line="3599"/>
+        <location filename="../basegui.cpp" line="3614"/>
+        <location filename="../basegui.cpp" line="3648"/>
+        <location filename="../basegui.cpp" line="3668"/>
+        <location filename="../basegui.cpp" line="3744"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ባዶ&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4182"/>
+        <location filename="../basegui.cpp" line="4190"/>
         <source>Video</source>
         <translation>ቪዲዮ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4183"/>
-        <location filename="../basegui.cpp" line="4420"/>
+        <location filename="../basegui.cpp" line="4191"/>
+        <location filename="../basegui.cpp" line="4436"/>
         <source>Audio</source>
         <translation>ድምፅ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4184"/>
+        <location filename="../basegui.cpp" line="4192"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4185"/>
-        <location filename="../basegui.cpp" line="4400"/>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4437"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4180"/>
-        <location filename="../basegui.cpp" line="4397"/>
-        <location filename="../basegui.cpp" line="4418"/>
+        <location filename="../basegui.cpp" line="4188"/>
+        <location filename="../basegui.cpp" line="4413"/>
+        <location filename="../basegui.cpp" line="4434"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
@@ -811,49 +813,49 @@ Do you want to overwrite?</source>
         <translation>&amp;ይለግሱ / ከ ጓደኞቾ ጋር ይጋሩ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4236"/>
+        <location filename="../basegui.cpp" line="4252"/>
         <source>SMPlayer - Information</source>
         <translation>የ SMP መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4237"/>
+        <location filename="../basegui.cpp" line="4253"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ ሲዲ ራም / ዲቪዲ አካል ገና አልተዋቀረም
 የ ማዋቀሪያው ንግግር ይታያል እና ከዛ ያሰናዱት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4366"/>
         <source>Select the Blu-ray folder</source>
         <translation>የ ብሉ-ሬይ ፎልደር ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4363"/>
+        <location filename="../basegui.cpp" line="4379"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4399"/>
+        <location filename="../basegui.cpp" line="4415"/>
         <source>Subtitles</source>
         <translation>ንዑስ አርእስት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5069"/>
+        <location filename="../basegui.cpp" line="5085"/>
         <source>Error detected</source>
         <translation>ስህተት ተግኝቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5070"/>
+        <location filename="../basegui.cpp" line="5086"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>ይህን ቪዲዮ ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5300"/>
+        <location filename="../basegui.cpp" line="5316"/>
         <source>Pause</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5301"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>Stop</source>
         <translation>ማስቆሚያ</translation>
     </message>
@@ -1287,170 +1289,170 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መግቢያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4505"/>
+        <location filename="../basegui.cpp" line="4521"/>
         <source>Support SMPlayer</source>
         <translation>ይደግፉ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
         <translation>ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4524"/>
         <source>No</source>
         <translation>አይ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4511"/>
+        <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
         <translation>SMPlayer እርስዎን ይፈልጋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4512"/>
+        <location filename="../basegui.cpp" line="4528"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation>SMPlayer ነፃ ሶፍትዌር ነው: ነገር ግን ማበልጸጉ ብዙ ስራ እና ጊዜ ይወስዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4513"/>
+        <location filename="../basegui.cpp" line="4529"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation>የ SMPlayer ለማበልጸግ በ አዲስ ገጽታ እኛ የ እርስዎን እርዳታ እንፈልጋለን</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4514"/>
+        <location filename="../basegui.cpp" line="4530"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation>እባክዎን ለ SMPlayer እቅድ የሚችሉትን ይለግሱ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4515"/>
+        <location filename="../basegui.cpp" line="4531"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation>በጣም ትንሹ እንኳን ብዙ ይረዳል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5004"/>
+        <location filename="../basegui.cpp" line="5020"/>
         <source>Connection failed</source>
         <translation>ግንኙነቱ ወድቋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5005"/>
+        <location filename="../basegui.cpp" line="5021"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation>እርስዎ የ ፈለጉት ቪዲዮ የ HTTPS ግንኙነት ማስጀመር ይፈልጋል.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5006"/>
+        <location filename="../basegui.cpp" line="5022"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation>ይህ የ OpenSSL አካላት ያስፈልጋል በ እርስዎ ስርአት ውስጥ አልተገኘም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5007"/>
+        <location filename="../basegui.cpp" line="5023"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation>እባክዎን ይጎብኙ %1 ችግሮችን እንዴት አድርገው እንደሚጠግኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5008"/>
+        <location filename="../basegui.cpp" line="5024"/>
         <source>this link</source>
         <translation>ይህ አገናኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5018"/>
+        <location filename="../basegui.cpp" line="5034"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>ይህን የ ዩቲዩብ ቪዲዮ ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5025"/>
-        <location filename="../basegui.cpp" line="5033"/>
+        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5049"/>
         <source>Problems with Youtube</source>
         <translation>ዩቲዩብ ችግር ገጥሞታል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5991"/>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6007"/>
+        <location filename="../basegui.cpp" line="6059"/>
         <source>%1 Error</source>
         <translation>%1 ስህተት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5992"/>
+        <location filename="../basegui.cpp" line="6008"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ጨርሷል በ ድንገት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6017"/>
+        <location filename="../basegui.cpp" line="6033"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>የ youtube-dl አካል ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6018"/>
+        <location filename="../basegui.cpp" line="6034"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>መግጠም የ Microsoft Visual C++ 2010 ስርጭት ጥቅል (x86) ችግሩን ያስወግደዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6020"/>
+        <location filename="../basegui.cpp" line="6036"/>
         <source>Click here to get it</source>
         <translation>ለማግኘት እዚህ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6045"/>
+        <location filename="../basegui.cpp" line="6061"/>
         <source>%1 failed to start.</source>
         <translation>%1 ማስጀመር አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6046"/>
+        <location filename="../basegui.cpp" line="6062"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>እባክዎን ይመርምሩ %1 መንገዱን ከ ምርጫዎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6048"/>
+        <location filename="../basegui.cpp" line="6064"/>
         <source>%1 has crashed.</source>
         <translation>%1 ተጋጭቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6130"/>
+        <location filename="../basegui.cpp" line="6146"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>የ ዩቲዩብ መቃኛ አልተገጠመም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6131"/>
-        <location filename="../basegui.cpp" line="6143"/>
+        <location filename="../basegui.cpp" line="6147"/>
+        <location filename="../basegui.cpp" line="6159"/>
         <source>Visit %1 to get it.</source>
         <translation>ይጎብኙ %1 ለማግኘት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6141"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>የ ዩቲዩብ መቃኛ ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6142"/>
+        <location filename="../basegui.cpp" line="6158"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>በ ትክክል መገጠሙን እርግጠኛ ይሁኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6308"/>
+        <location filename="../basegui.cpp" line="6324"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>ስርአቱ ወደ ታብሌት ዘዴ ተቀይሯል: SMPlayer ወደ ታብሌት ዘዴ ይቀየር?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6310"/>
+        <location filename="../basegui.cpp" line="6326"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>ስርአቱ ከ ታብሌት ዘዴ ወጥቷል: SMPlayer ከ ታብሌት ዘዴ ውስጥ ይውጣ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6314"/>
+        <location filename="../basegui.cpp" line="6330"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>የ እኔን ውሳኔ አስታውስ እና እንደገና አትጠይቀኝ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5021"/>
+        <location filename="../basegui.cpp" line="5037"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>ይህን የ ዩቲዩብ ቪዲዮ ማጫወት አልተቻለም: የ ቪዲዮ &apos;%1&apos; ማጫወት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5027"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>እርስዎ የ Youtube code ማሻሻል ይፈልጋሉ? ይህ ችግሩን ይጠግናል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5035"/>
+        <location filename="../basegui.cpp" line="5051"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>ምናልባት SMPlayer ማሻሻል ችግሩን ይፈታዋል</translation>
     </message>
@@ -1460,28 +1462,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ SMPlayer ከ ጓደኞቹ ጋር ይ&amp;ካፈሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3247"/>
-        <location filename="../basegui.cpp" line="3986"/>
+        <location filename="../basegui.cpp" line="3255"/>
+        <location filename="../basegui.cpp" line="3994"/>
         <source>Information</source>
         <translation>መረጃ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3248"/>
+        <location filename="../basegui.cpp" line="3256"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>እርስዎ የ SMPlayer እንደገና ማስነሳት አለብዎት አዲሱን GUI. ለ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3748"/>
+        <location filename="../basegui.cpp" line="3756"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>የ SMP ማጫወቻ - ማጥፊያ ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3749"/>
+        <location filename="../basegui.cpp" line="3757"/>
         <source>Delete the list of recent files?</source>
         <translation>የ ቅርብ ጊዜ ፋይሎች ዝርዝር ላጥፋ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3987"/>
+        <location filename="../basegui.cpp" line="3995"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>የ አሁኑን ዋጋዎች እንደ ነባር ዋጋዎች ተቀምጠዋል</translation>
     </message>
@@ -1571,7 +1573,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ &amp;ትእዛዝ መስመር ምርጫ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4440"/>
+        <location filename="../basegui.cpp" line="4456"/>
         <source>SMPlayer command line options</source>
         <translation>የ SMP ማጫወቻ ትእዛዝ መስመር ምርጫ</translation>
     </message>
@@ -1586,17 +1588,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ ቪዲዮ እኩል ማድረጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5071"/>
+        <location filename="../basegui.cpp" line="5087"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>ሰርቨሩ መልሷል &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5993"/>
+        <location filename="../basegui.cpp" line="6009"/>
         <source>Exit code: %1</source>
         <translation>መውጫ ከ code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6049"/>
+        <location filename="../basegui.cpp" line="6065"/>
         <source>See the log for more info.</source>
         <translation>ለ በለጠ መረጃ መግቢያውን ይመልከቱ</translation>
     </message>
@@ -1641,7 +1643,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>የ አገባብ ዝርዝር ማሳያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4181"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
@@ -1718,22 +1720,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>&amp;ተረኛ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4913"/>
+        <location filename="../basegui.cpp" line="4929"/>
         <source>Warning - Using old MPlayer</source>
         <translation>ማስጠንቀቂያ - አሮጌ SMP ማጫወቻ ስለ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4914"/>
+        <location filename="../basegui.cpp" line="4930"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>ይህ እትም የ MPlayer (%1) የ ተገጠመው በ እርስዎ ስርአት ውስጥ ጊዜው ያለፈበት ነው: የ SMPlayer በ ትክክል ላይሰራ ይችላል: እንዳንድ ምርጫዎች ላይሰሩ ይችላሉ: ንዑስ አርእስት ምርጫ ላይሰራ ይችላል...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4919"/>
+        <location filename="../basegui.cpp" line="4935"/>
         <source>Please, update your MPlayer.</source>
         <translation>እባክዎን የ SMP ማጫወቻ ያሻሽሉ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4921"/>
+        <location filename="../basegui.cpp" line="4937"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(ይህ ማስጠንቀቂያ ሁለተኛ አይታይም)</translation>
     </message>
@@ -1823,36 +1825,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ማሰና&amp;ጃ ማዘግያ...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4567"/>
+        <location filename="../basegui.cpp" line="4583"/>
         <source>&amp;Jump to:</source>
         <translation>መዝለያ ወደ:</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4568"/>
+        <location filename="../basegui.cpp" line="4584"/>
         <source>SMPlayer - Seek</source>
         <translation>SMP ማጫወቻ - መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4579"/>
-        <location filename="../basegui.cpp" line="4583"/>
+        <location filename="../basegui.cpp" line="4595"/>
+        <location filename="../basegui.cpp" line="4599"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMP ማጫወቻ - ድምፅ ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4580"/>
-        <location filename="../basegui.cpp" line="4584"/>
+        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4600"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>ድምፅ ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4595"/>
-        <location filename="../basegui.cpp" line="4599"/>
+        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4615"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMP ማጫወቻ - ንዑስ አርእስት ማዘግያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
-        <location filename="../basegui.cpp" line="4600"/>
+        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4616"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>ንዑስ አርእስት ማዘግያ (በ ሚሊ ሰከንዶች):</translation>
     </message>
@@ -1862,8 +1864,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መቀያየሪያ ከ ላይ ማድረጊያ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5504"/>
-        <location filename="../basegui.cpp" line="5833"/>
+        <location filename="../basegui.cpp" line="5520"/>
+        <location filename="../basegui.cpp" line="5849"/>
         <source>Jump to %1</source>
         <translation>መዝለያ ወደ %1</translation>
     </message>
@@ -2089,17 +2091,17 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="849"/>
         <source>Logical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="851"/>
         <source>Physical DPI: %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="852"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="854"/>
@@ -2217,68 +2219,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3078"/>
+        <location filename="../core.cpp" line="3062"/>
         <source>Brightness: %1</source>
         <translation>ብርሁነት: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3094"/>
+        <location filename="../core.cpp" line="3078"/>
         <source>Contrast: %1</source>
         <translation>ማነፃፀሪያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3109"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Gamma: %1</source>
         <translation>ጋማ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3124"/>
+        <location filename="../core.cpp" line="3108"/>
         <source>Hue: %1</source>
         <translation>Hue: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
+        <location filename="../core.cpp" line="3123"/>
         <source>Saturation: %1</source>
         <translation>Saturation: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3282"/>
+        <location filename="../core.cpp" line="3266"/>
         <source>Volume: %1</source>
         <translation>መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4184"/>
+        <location filename="../core.cpp" line="4168"/>
         <source>Zoom: %1</source>
         <translation>ማሳያ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
-        <location filename="../core.cpp" line="3421"/>
+        <location filename="../core.cpp" line="3394"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Font scale: %1</source>
         <translation>የ ፊደል መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4015"/>
+        <location filename="../core.cpp" line="3999"/>
         <source>Aspect ratio: %1</source>
         <translation>የ መጠን አንጻር: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4417"/>
+        <location filename="../core.cpp" line="4401"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>የ ፊደል ማጠራቀሚያ በ ማሻሻል ላይ: ይህ ትንሽ ጊዜ ይወስዳል...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3335"/>
+        <location filename="../core.cpp" line="3319"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>ንዑስ አርእስት ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3353"/>
+        <location filename="../core.cpp" line="3337"/>
         <source>Audio delay: %1 ms</source>
         <translation>ድምፅ ማዘግያ %1 ሚሰ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3193"/>
+        <location filename="../core.cpp" line="3177"/>
         <source>Speed: %1</source>
         <translation>ፍጥነት: %1</translation>
     </message>
@@ -2293,42 +2295,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ለዚህ ቪዲዮ URL ማግኘት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3498"/>
+        <location filename="../core.cpp" line="3482"/>
         <source>Subtitles on</source>
         <translation>ንዑስ አርእስት በርቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3500"/>
+        <location filename="../core.cpp" line="3484"/>
         <source>Subtitles off</source>
         <translation>ንዑስ አርእስት ጠፍቷል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4063"/>
+        <location filename="../core.cpp" line="4047"/>
         <source>Mouse wheel seeks now</source>
         <translation>በ አይጥ ቁልፍ አሁን መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4066"/>
+        <location filename="../core.cpp" line="4050"/>
         <source>Mouse wheel changes volume now</source>
         <translation>የ አይጥ ቁልፍ አሁን መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4069"/>
+        <location filename="../core.cpp" line="4053"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>የ አይጥ ቁልፍ የ ማሳያ መጠን ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4072"/>
+        <location filename="../core.cpp" line="4056"/>
         <source>Mouse wheel changes speed now</source>
         <translation>የ አይጥ ቁልፍ አሁን ፍጥነት ይቀይራል</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4393"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Screenshot saved as %1</source>
         <translation>የ መመልከቻ ፎቶ ተቀምጧል እንደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4428"/>
+        <location filename="../core.cpp" line="4412"/>
         <source>Starting...</source>
         <translation>በ ማስጀመር ላይ...</translation>
     </message>
@@ -2343,17 +2345,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>መመልከቻው ፎቶ አልተነሳም: ፎልደሩ አልተሰናዳም</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2722"/>
+        <location filename="../core.cpp" line="2706"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2744"/>
+        <location filename="../core.cpp" line="2728"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; ምልክት ማሰናጃ ወደ %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2764"/>
+        <location filename="../core.cpp" line="2748"/>
         <source>A-B markers cleared</source>
         <translation>A-B ምልክት ጸድቷል</translation>
     </message>
@@ -2802,7 +2804,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="33"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
@@ -2945,7 +2947,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
+        <translation>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3043,7 +3048,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -3431,7 +3436,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Arabic</source>
         <translation>Arabic</translation>
     </message>
@@ -3457,7 +3462,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Bulgarian</source>
         <translation>Bulgarian</translation>
     </message>
@@ -3498,7 +3503,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Czech</source>
         <translation>Czech</translation>
     </message>
@@ -3542,7 +3547,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Estonian</source>
         <translation>Estonian</translation>
     </message>
@@ -3615,13 +3620,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Croatian</source>
         <translation>Croatian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Hungarian</source>
         <translation>Hungarian</translation>
     </message>
@@ -3724,13 +3729,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Lithuanian</source>
         <translation>Lithuanian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Latvian</source>
         <translation>Latvian</translation>
     </message>
@@ -3823,7 +3828,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Polish</source>
         <translation>Polish</translation>
     </message>
@@ -3846,8 +3851,8 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="307"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Russian</source>
         <translation>Russian</translation>
     </message>
@@ -3868,7 +3873,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Slovak</source>
         <translation>Slovak</translation>
     </message>
@@ -3955,7 +3960,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Turkish</source>
         <translation>Turkish</translation>
     </message>
@@ -3981,7 +3986,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Ukrainian</source>
         <translation>Ukrainian</translation>
     </message>
@@ -4028,7 +4033,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="338"/>
+        <location filename="../languages.cpp" line="339"/>
         <source>Chinese</source>
         <translation>Chinese</translation>
     </message>
@@ -4043,112 +4048,112 @@ Please check the permissions of that folder.</source>
         <translation>Arabic - Syria</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages</source>
         <translation>Western European Languages</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages with Euro</source>
         <translation>Western European Languages with Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slavic/Central European Languages</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galician, Maltese, Turkish</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Old Baltic charset</source>
         <translation>Old Baltic charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Cyrillic</source>
         <translation>Cyrillic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Modern Greek</source>
         <translation>Modern Greek</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Baltic</source>
         <translation>Baltic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Celtic</source>
         <translation>Celtic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>South-Eastern European</source>
         <translation>South-Eastern European</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Hebrew charsets</source>
         <translation>Hebrew charsets</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="309"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukrainian, Belarusian</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Simplified Chinese charset</source>
         <translation>Simplified Chinese charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Traditional Chinese charset</source>
         <translation>Traditional Chinese charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Japanese charsets</source>
         <translation>Japanese charsets</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Korean charset</source>
         <translation>Korean charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Thai charset</source>
         <translation>Thai charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Cyrillic Windows</source>
         <translation>Cyrillic Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slavic/Central European Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Arabic Windows</source>
         <translation>Arabic Windows</translation>
     </message>
@@ -4174,7 +4179,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="325"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Belarusian</source>
         <translation>Belarusian</translation>
     </message>
@@ -4436,7 +4441,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Slovene</source>
         <translation>Slovene</translation>
     </message>
@@ -4476,7 +4481,7 @@ Please check the permissions of that folder.</source>
         <translation>Walloon</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="317"/>
+        <location filename="../languages.cpp" line="318"/>
         <source>Modern Greek Windows</source>
         <translation>Modern Greek Windows</translation>
     </message>
@@ -4541,78 +4546,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="155"/>
+        <location filename="../mpvprocess.h" line="156"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation>ይህ &apos;%1&apos; ማጣሪያ የ ተደገፈ አይደለም በ mpv</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="156"/>
+        <location filename="../mpvprocess.h" line="157"/>
         <source>File:</source>
         <translation>ፋይል:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="157"/>
+        <location filename="../mpvprocess.h" line="158"/>
         <source>Video:</source>
         <translation>ቪዲዮ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="158"/>
+        <location filename="../mpvprocess.h" line="159"/>
         <source>Resolution:</source>
         <translation>ሪዞሊሽን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="159"/>
+        <location filename="../mpvprocess.h" line="160"/>
         <source>Frames per second:</source>
         <translation>ክፈፎች በ ሰከንድ</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="160"/>
+        <location filename="../mpvprocess.h" line="161"/>
         <source>Estimated:</source>
         <translation>የ ተገመተው:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="161"/>
+        <location filename="../mpvprocess.h" line="162"/>
         <source>Aspect Ratio:</source>
         <translation>ማነፃፀሪያ መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="162"/>
-        <location filename="../mpvprocess.h" line="165"/>
+        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="166"/>
         <source>Bitrate:</source>
         <translation>Bitrate:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="164"/>
         <source>Dropped frames:</source>
         <translation>የ ተጣሉ ክፈፎች:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="164"/>
+        <location filename="../mpvprocess.h" line="165"/>
         <source>Audio:</source>
         <translation>ድምፅ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="166"/>
+        <location filename="../mpvprocess.h" line="167"/>
         <source>Sample Rate:</source>
         <translation>ናሙና መጠን:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="167"/>
+        <location filename="../mpvprocess.h" line="168"/>
         <source>Channels:</source>
         <translation>ጣቢያዎች:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="168"/>
+        <location filename="../mpvprocess.h" line="169"/>
         <source>Audio/video synchronization:</source>
         <translation>ድምፅ/ቪዲዮ ማስማሚያ</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="169"/>
+        <location filename="../mpvprocess.h" line="170"/>
         <source>Cache fill:</source>
         <translation>ማጠራቀሚያ መሙያ:</translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="170"/>
+        <location filename="../mpvprocess.h" line="171"/>
         <source>Used cache:</source>
         <translation>የ ተጠቀሙት ማጠራቀሚያ:</translation>
     </message>
@@ -4745,304 +4750,304 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Name</source>
         <translation>ስም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Length</source>
         <translation>እርዝመት</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="679"/>
+        <location filename="../playlist.cpp" line="682"/>
         <source>&amp;Play</source>
         <translation>&amp;ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="728"/>
         <source>&amp;Edit</source>
         <translation>&amp;ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
-        <location filename="../playlist.cpp" line="1339"/>
+        <location filename="../playlist.cpp" line="1306"/>
+        <location filename="../playlist.cpp" line="1342"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1301"/>
+        <location filename="../playlist.cpp" line="1304"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1337"/>
+        <location filename="../playlist.cpp" line="1340"/>
         <source>Choose a filename</source>
         <translation>የ ፋይል ስም ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1349"/>
+        <location filename="../playlist.cpp" line="1352"/>
         <source>Confirm overwrite?</source>
         <translation>በላዩ ላይ ደርቦ መጻፉን ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1350"/>
+        <location filename="../playlist.cpp" line="1353"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ፋይሉ %1 ቀደም ብሎ ነበር
 በ ላዩ ላይ ደርበው መጻፍ ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
-        <location filename="../playlist.cpp" line="1339"/>
-        <location filename="../playlist.cpp" line="1619"/>
+        <location filename="../playlist.cpp" line="1306"/>
+        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1625"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="355"/>
+        <location filename="../playlist.cpp" line="358"/>
         <source>Untitled playlist</source>
         <translation>ያልተሰየመ የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="674"/>
         <source>&amp;Load...</source>
         <translation>&amp;መጫኛ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="673"/>
+        <location filename="../playlist.cpp" line="676"/>
         <source>Load playlist from &amp;URL...</source>
         <translation>መጫኛ የ ማጫወቻ ዝርዝር ከ URL...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
         <translation>ማጫወቻ በ Chromec&amp;ast</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="714"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
         <translation>መክፈቻ በ &amp;ዌብ ማጠራቀሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="729"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Load/Save</source>
         <translation>መጫኛ/ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1616"/>
+        <location filename="../playlist.cpp" line="1622"/>
         <source>Select one or more files to open</source>
         <translation>ለ መክፈት አንድ ወይንም ከዚያ በላይ ፋይሎች ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1686"/>
+        <location filename="../playlist.cpp" line="1692"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1881"/>
+        <location filename="../playlist.cpp" line="1887"/>
         <source>Edit name</source>
         <translation>ስም ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1882"/>
+        <location filename="../playlist.cpp" line="1888"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>ለዚህ ፋይል የሚታየውን ስም ይጻፉ በ ማጫወቻ ዝርዝር ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Filename / URL</source>
         <translation>የ ፋይል ስም / URL</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="674"/>
+        <location filename="../playlist.cpp" line="677"/>
         <source>Download playlist from URL</source>
         <translation>የ ማጫወቻ ዝርዝር ከ URL ማውረጃ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="676"/>
+        <location filename="../playlist.cpp" line="679"/>
         <source>&amp;Save</source>
         <translation>&amp;ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="677"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Save &amp;as...</source>
         <translation>ማስቀመጫ &amp;እንደ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="681"/>
+        <location filename="../playlist.cpp" line="684"/>
         <source>&amp;Next</source>
         <translation>&amp;ይቀጥሉ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Pre&amp;vious</source>
         <translation>ያለ&amp;ፈው</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="691"/>
         <source>Move &amp;up</source>
         <translation>ወደ &amp;ላይ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="692"/>
         <source>Move &amp;down</source>
         <translation>ወደ &amp;ታች ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="691"/>
+        <location filename="../playlist.cpp" line="694"/>
         <source>&amp;Repeat</source>
         <translation>&amp;መድገሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="692"/>
+        <location filename="../playlist.cpp" line="695"/>
         <source>S&amp;huffle</source>
         <translation>መ&amp;በወዣ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="695"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Add &amp;current file</source>
         <translation>የ &amp;አሁኑን ፋይል መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="696"/>
+        <location filename="../playlist.cpp" line="699"/>
         <source>Add &amp;file(s)</source>
         <translation>&amp;ፋይል(ሎች) መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="697"/>
+        <location filename="../playlist.cpp" line="700"/>
         <source>Add &amp;directory</source>
         <translation>&amp;ዳይሬክቶሪ መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="698"/>
+        <location filename="../playlist.cpp" line="701"/>
         <source>Add &amp;URL(s)</source>
         <translation>&amp;URL(s) መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="701"/>
+        <location filename="../playlist.cpp" line="704"/>
         <source>Remove &amp;selected</source>
         <translation>የተመረጠውን &amp;ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="702"/>
+        <location filename="../playlist.cpp" line="705"/>
         <source>Remove &amp;all</source>
         <translation>&amp;ሁሉንም ማስወገጃ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="708"/>
         <source>&amp;Delete file from disk</source>
         <translation>ከ ዲስክ ላይ ፋይሎች &amp;ማጥፊያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
-        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="711"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;ካፒ ማድረጊያ የ ፋይል መንገድ ወደ ቁራጭ ሰሌዳ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="712"/>
         <source>&amp;Open source folder</source>
         <translation>&amp;መክፈቻ የ ምንጭ ፎልደር </translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Search</source>
         <translation>መፌለጊያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="719"/>
+        <location filename="../playlist.cpp" line="722"/>
         <source>Show position column</source>
         <translation>የ አምድ ቦታ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>Show name column</source>
         <translation>የ አምድ ስም ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="721"/>
+        <location filename="../playlist.cpp" line="724"/>
         <source>Show length column</source>
         <translation>የ አምድ እርዝመት ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>Show filename column</source>
         <translation>የ ፋይል ስም አምድ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1452"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;ኮፒ ያድርጉ URL ወደ ቁራጭ ሰሌዳ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1917"/>
+        <location filename="../playlist.cpp" line="1925"/>
         <source>Confirm deletion</source>
         <translation>ማጥፋቱን ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1918"/>
+        <location filename="../playlist.cpp" line="1926"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>እርስዎ አሁን ፋይል ሊያጠፉ ነው &apos;%1&apos; ከ እርስዎ አካል ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1919"/>
+        <location filename="../playlist.cpp" line="1927"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>ይህን ተግባር መተው አይቻልም: እርስዎ በ እርግጥ መቀጠል ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1937"/>
+        <location filename="../playlist.cpp" line="1945"/>
         <source>Deletion failed</source>
         <translation>ማጥፋት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1938"/>
+        <location filename="../playlist.cpp" line="1946"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>ማጥፋት አልተቻለም &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1943"/>
+        <location filename="../playlist.cpp" line="1951"/>
         <source>Error deleting the file</source>
         <translation>ስህተት ፋይሉን በማጥፋት ላይ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1952"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>ይህን ማጥፋት አይቻልም &apos;%1&apos; ከ ፋይል ስርአት ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2401"/>
+        <location filename="../playlist.cpp" line="2417"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>ይህን ማጫወቻ ዝርዝር መጫን አይቻልም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2401"/>
+        <location filename="../playlist.cpp" line="2417"/>
         <source>Unrecognized format.</source>
         <translation>የማይታወቅ አቀራረብ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>Add...</source>
         <translation>መጨመሪያ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Remove...</source>
         <translation>ማስወግገጃ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1382"/>
+        <location filename="../playlist.cpp" line="1385"/>
         <source>Playlist modified</source>
         <translation>የ ማጫወቻ ዝርዝር ማሻሻያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1383"/>
+        <location filename="../playlist.cpp" line="1386"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>ያልተቀመጠ ለውጥ አለ: እርስዎ ማስቀመጥ ይፈልጋሉ የ ማጫወቻ ዝርዝሩን?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1618"/>
+        <location filename="../playlist.cpp" line="1624"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
@@ -5088,7 +5093,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
@@ -5138,7 +5143,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="451"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
@@ -5343,7 +5348,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5373,7 +5378,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="482"/>
@@ -5442,7 +5447,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
@@ -5477,7 +5482,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="198"/>
@@ -5555,7 +5560,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefassociations.cpp" line="239"/>
         <source>Check the media file extensions you would like SMPlayer to handle. When you click Apply, the checked files will be associated with SMPlayer. If you uncheck a media type, the file association will be restored.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefassociations.cpp" line="235"/>
@@ -5609,7 +5614,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.ui" line="33"/>
         <source>SMPlayer does not choose any CDROM or DVD devices by default. So before you can actually play a CD or DVD you have to select the devices you want to use (they can be the same).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="239"/>
@@ -5629,7 +5634,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefdrives.cpp" line="228"/>
         <source>If this option is checked, SMPlayer will play DVDs using dvdnav. Requires a version of MPlayer with dvdnav support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefdrives.cpp" line="231"/>
@@ -5779,7 +5784,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
@@ -5900,12 +5905,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1195"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Allows to change the playback speed without altering pitch.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1214"/>
@@ -5915,17 +5920,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Postprocessing quality</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1162"/>
@@ -6000,7 +6005,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="777"/>
         <source>&amp;AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1122"/>
@@ -6025,17 +6030,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="428"/>
         <source>&amp;Enable postprocessing by default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>Volume &amp;normalization by default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1070"/>
@@ -6045,7 +6050,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1071"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="163"/>
@@ -6080,7 +6085,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1093"/>
         <source>Enable postprocessing by default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1218"/>
@@ -6090,17 +6095,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1189"/>
         <source>AC3/DTS pass-through S/PDIF</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1225"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1226"/>
         <source>Maximizes the volume without distorting the sound.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1194"/>
@@ -6110,12 +6115,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1219"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1094"/>
         <source>Postprocessing will be used by default on new opened files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1257"/>
@@ -6125,7 +6130,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
@@ -6135,7 +6140,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1290"/>
@@ -6165,7 +6170,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6290,7 +6295,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="600"/>
@@ -6354,22 +6359,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1066"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1170"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1248"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6385,7 +6390,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1144"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="627"/>
@@ -6410,17 +6415,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1026"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1028"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1032"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="128"/>
@@ -6430,17 +6435,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1030"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1018"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1123"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1034"/>
@@ -6480,7 +6485,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1212"/>
@@ -6500,7 +6505,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1161"/>
@@ -6510,7 +6515,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1162"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="641"/>
@@ -6535,7 +6540,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1229"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1232"/>
@@ -6585,12 +6590,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Uses hardware AC3 passthrough.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="424"/>
@@ -6600,7 +6605,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -6623,7 +6628,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6643,13 +6648,13 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="382"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
         <location filename="../prefinput.cpp" line="416"/>
         <source>Media seeking</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
@@ -6702,7 +6707,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="359"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="377"/>
@@ -7030,7 +7035,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
@@ -7040,7 +7045,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
@@ -7050,7 +7055,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
@@ -7060,12 +7065,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.cpp" line="405"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="408"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
@@ -7129,7 +7134,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinput.ui" line="425"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
@@ -7184,7 +7189,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="823"/>
         <source>Privac&amp;y</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
@@ -7230,7 +7235,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="629"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="841"/>
@@ -7265,7 +7270,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7275,7 +7280,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
@@ -7295,37 +7300,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="499"/>
         <source>&amp;Behaviour of time slider:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="516"/>
         <source>Seek to position while dragging</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="521"/>
         <source>Seek to position when released</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
@@ -7340,7 +7345,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
@@ -7350,12 +7355,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7370,7 +7375,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7405,7 +7410,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="744"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="754"/>
@@ -7415,32 +7420,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="755"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="765"/>
         <source>Select the graphic interface you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="768"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="776"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="772"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="875"/>
@@ -7450,7 +7455,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="878"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="781"/>
@@ -7460,17 +7465,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="227"/>
         <source>Basic GUI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="236"/>
         <source>Skinnable GUI</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="249"/>
         <source>Scale fact&amp;or:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
@@ -7480,12 +7485,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
         <source>Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
@@ -7495,12 +7500,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="752"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
         <source>Select the icon set you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="785"/>
@@ -7510,7 +7515,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="786"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7520,7 +7525,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="790"/>
         <source>Select the style you prefer for the application.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="793"/>
@@ -7530,7 +7535,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="794"/>
         <source>You can change here the application&apos;s font.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
@@ -7547,7 +7552,7 @@ Do you want to overwrite?</source>
         <location filename="../prefinterface.cpp" line="803"/>
         <location filename="../prefinterface.cpp" line="807"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="800"/>
@@ -7582,47 +7587,47 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="811"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="814"/>
         <source>Behaviour of time slider</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="815"/>
         <source>Select what to do when dragging the time slider.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="829"/>
         <source>Pressing the stop button once resets the time position</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="860"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="866"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
         <source>This option only works with the basic GUI.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="869"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
@@ -7632,7 +7637,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="873"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="882"/>
@@ -7642,7 +7647,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="887"/>
@@ -7652,7 +7657,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="888"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
@@ -7663,12 +7668,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="819"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="830"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="837"/>
@@ -7678,12 +7683,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="841"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="230"/>
@@ -7713,7 +7718,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="848"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
@@ -7723,7 +7728,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="852"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="854"/>
@@ -7733,7 +7738,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="865"/>
@@ -7780,17 +7785,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
@@ -7800,12 +7805,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="825"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
@@ -7828,47 +7833,47 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7889,7 +7894,7 @@ Do you want to overwrite?</source>
         <location filename="../prefnetwork.ui" line="205"/>
         <location filename="../prefnetwork.ui" line="301"/>
         <source>&amp;Port:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;Port:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="321"/>
@@ -7924,7 +7929,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="220"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="239"/>
@@ -7947,72 +7952,72 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="214"/>
         <source>YouTube</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="216"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="218"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="223"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="226"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="236"/>
         <source>Playback quality</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="237"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="240"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8027,7 +8032,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="271"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">ማስቻያ/ማሰናከያ ወኪል መጠቀሚያ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="273"/>
@@ -8037,18 +8042,18 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="274"/>
         <source>The host name of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">የ ጋባዥ ስም ለ ወኪል</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="258"/>
         <location filename="../prefnetwork.cpp" line="276"/>
         <source>Port</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="277"/>
         <source>The port of the proxy.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="279"/>
@@ -8058,7 +8063,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="280"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">ወኪሉ ማረጋገጫ የሚፈልግ ከሆነ: ይህ የ ተጠቃሚ ስም ማሰናጃ ነው</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="282"/>
@@ -8068,7 +8073,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="283"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">የ መግቢያ ቃል ለ ወኪል &lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; የ መግቢያ ቃል ይቀመጣል እንደ መደበኛ ጽሁፍ በ ማሰናጃ ፋይል ውስጥ ይቀመጣል: </translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
@@ -8078,7 +8083,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="287"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">ይምረጡ የሚጠቀሙትን የ ወኪል አይነት</translation>
     </message>
 </context>
 <context>
@@ -8103,12 +8108,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="45"/>
         <source>Select the priority for the MPlayer process.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="77"/>
         <source>realtime</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="82"/>
@@ -8118,7 +8123,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="87"/>
         <source>abovenormal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="92"/>
@@ -8128,22 +8133,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="97"/>
         <source>belownormal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="102"/>
         <source>idle</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="145"/>
         <source>Decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="199"/>
         <source>Hardware &amp;decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
@@ -8163,27 +8168,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="345"/>
         <source>Setting a cache may improve performance on slow media</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="301"/>
         <source>Allow frame drop</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="302"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="304"/>
         <source>Allow hard frame drop</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="305"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="63"/>
@@ -8193,22 +8198,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="131"/>
         <source>&amp;Allow frame drop</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="138"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="290"/>
         <source>&amp;Fast audio track switching</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="355"/>
@@ -8223,7 +8228,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="367"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
@@ -8238,37 +8243,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="356"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="376"/>
         <source>Cache for files</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="377"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="380"/>
         <source>Cache for streams</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="381"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="384"/>
         <source>Cache for DVDs</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -8278,7 +8283,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="448"/>
         <source>Cache for &amp;DVDs:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="374"/>
@@ -8313,7 +8318,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="334"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="33"/>
@@ -8329,17 +8334,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
         <source>Hardware decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -8349,32 +8354,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="317"/>
         <source>None: only software decoding will be used.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="320"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="321"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="322"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="325"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="329"/>
@@ -8394,22 +8399,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="343"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="345"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="350"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="371"/>
@@ -8419,7 +8424,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -8429,7 +8434,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="390"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
@@ -8444,37 +8449,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.cpp" line="394"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="522"/>
         <source>Cache for &amp;VCDs:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="308"/>
         <source>Threads for decoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="309"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
         <source>Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="272"/>
         <source>&amp;Use CoreAVC if no other codec specified</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="559"/>
@@ -8485,154 +8490,169 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefPlaylist</name>
     <message>
-        <location filename="../prefplaylist.cpp" line="34"/>
+        <location filename="../prefplaylist.cpp" line="38"/>
         <source>Playlist</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="177"/>
+        <location filename="../prefplaylist.cpp" line="191"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="46"/>
+        <location filename="../prefplaylist.cpp" line="50"/>
         <source>None</source>
         <translation>ምንም</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="47"/>
+        <location filename="../prefplaylist.cpp" line="51"/>
         <source>Video files</source>
         <translation>የ ቪዲዮ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="48"/>
+        <location filename="../prefplaylist.cpp" line="52"/>
         <source>Audio files</source>
         <translation>የ ድምፅ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="49"/>
+        <location filename="../prefplaylist.cpp" line="53"/>
         <source>Video and audio files</source>
         <translation>የ ቪዲዮ እና የ ድምፅ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="50"/>
+        <location filename="../prefplaylist.cpp" line="54"/>
         <source>Consecutive files</source>
         <translation>ተከታታይ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="166"/>
+        <location filename="../prefplaylist.cpp" line="180"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="167"/>
+        <location filename="../prefplaylist.cpp" line="181"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="169"/>
+        <location filename="../prefplaylist.cpp" line="183"/>
         <source>Play next file automatically</source>
         <translation>የሚቀጥለውን ፋይል ራሱ በራሱ ማጫወቻ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="170"/>
+        <location filename="../prefplaylist.cpp" line="184"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="172"/>
+        <location filename="../prefplaylist.cpp" line="186"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="176"/>
+        <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="182"/>
+        <location filename="../prefplaylist.cpp" line="196"/>
         <source>Add files from folder</source>
         <translation>ከ ፎልደር ውስጥ ፋይሎች መጨመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="203"/>
+        <location filename="../prefplaylist.cpp" line="217"/>
+        <source>Misc</source>
+        <translation type="unfinished">የተለያዩ</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
         <translation>በራሱ መለያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="204"/>
+        <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="206"/>
+        <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="207"/>
+        <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="209"/>
+        <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="226"/>
+        <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="231"/>
+        <source>Enable the option to delete files from disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="232"/>
+        <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="198"/>
+        <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="199"/>
+        <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="200"/>
+        <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="201"/>
+        <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="202"/>
+        <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="175"/>
+        <source>Play files from start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="176"/>
+        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="197"/>
+        <source>This option can be used to add files automatically to the playlist:</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
-        <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="184"/>
-        <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="185"/>
-        <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="186"/>
-        <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
+        <source>Get info automatically about files added</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="187"/>
-        <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="188"/>
-        <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="161"/>
-        <source>Play files from start</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="162"/>
-        <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="183"/>
-        <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="196"/>
-        <source>Get info automatically about files added</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="../prefplaylist.cpp" line="173"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8640,49 +8660,49 @@ Do you want to overwrite?</source>
         <translation>የ &amp;ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="191"/>
+        <location filename="../prefplaylist.cpp" line="205"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="192"/>
+        <location filename="../prefplaylist.cpp" line="206"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="197"/>
+        <location filename="../prefplaylist.cpp" line="211"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
         <source>P&amp;lay files from start</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8697,27 +8717,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="150"/>
+        <location filename="../prefplaylist.ui" line="164"/>
+        <source>&amp;Misc</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="170"/>
         <source>A&amp;uto sort</source>
         <translation>በ&amp;ራሱ መለያ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="157"/>
+        <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="164"/>
+        <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
         <translation>የ ማጫወቻ ዝርዝር &amp;ማስቀመጫ እና መውጫ</translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="191"/>
+        <source>Enable the option to delete files from &amp;disk</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -8747,7 +8777,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subs containing movie name</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
@@ -8757,7 +8787,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
@@ -8779,7 +8809,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
@@ -8789,27 +8819,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
         <source>&amp;Default subtitle encoding:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="210"/>
         <source>&amp;Include subtitles on screenshots</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
         <source>Default subtitle encoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="410"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="464"/>
@@ -8819,7 +8849,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="465"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="467"/>
@@ -8829,7 +8859,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="468"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
@@ -8839,17 +8869,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="389"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="395"/>
         <source>Select the encoding which will be used for subtitle files by default.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
@@ -8859,17 +8889,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
         <source>Select the language for which you want the encoding to be guessed automatically.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="109"/>
         <source>Encoding</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="172"/>
         <source>Try to a&amp;utodetect for this language:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="494"/>
@@ -8879,17 +8909,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="453"/>
         <source>Select the font for the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
         <source>Use the ASS library</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8901,17 +8931,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
@@ -8921,7 +8951,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="459"/>
         <source>If checked, the text will be displayed in &lt;b&gt;bold&lt;/b&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="461"/>
@@ -8931,7 +8961,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="462"/>
         <source>If checked, the text will be displayed in &lt;i&gt;italic&lt;/i&gt;.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="473"/>
@@ -8941,7 +8971,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
@@ -8951,7 +8981,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
@@ -8961,7 +8991,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
@@ -8971,7 +9001,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
@@ -8981,7 +9011,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="487"/>
         <source>Specifies the vertical alignment. Possible values: bottom, middle and top.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="490"/>
@@ -8991,7 +9021,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="491"/>
         <source>Specifies the border style. Possible values: outline and opaque box.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="498"/>
@@ -9001,7 +9031,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="502"/>
         <source>Apply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="386"/>
@@ -9076,7 +9106,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="679"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="699"/>
@@ -9086,7 +9116,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="739"/>
         <source>A&amp;pply style to ASS files too</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
@@ -9096,7 +9126,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9138,58 +9168,58 @@ Do you want to overwrite?</source>
         <location filename="../prefsubtitles.cpp" line="120"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished">ረቂቅ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="121"/>
         <source>Opaque box</source>
         <comment>border style</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
         <source>Line spacing</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="445"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
@@ -9209,37 +9239,37 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>Freetype support</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="237"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
         <source>Customize SSA/ASS style</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
         <source>SSA/ASS style</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="470"/>
@@ -9249,7 +9279,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="471"/>
         <source>This color will be used for the shadow of the subtitles.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="508"/>
@@ -9259,12 +9289,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="762"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
         <source>If this option is checked, the style defined above will be applied to ass subtitles too.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9282,42 +9312,42 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">&amp;አነስተኛ ማለፊያ5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Yadif (መደበኛ)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Yadif (ድርብ የ ክፈፍ መጠን)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">ቀጥተኛ ማዋሀጃ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
         <source>Deinterlace by default for TV</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
         <source>Rescan ~/.mplayer/channels.conf on startup</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="32"/>
@@ -9327,17 +9357,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.ui" line="55"/>
         <source>Dei&amp;nterlace by default for TV:</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
         <source>&amp;Check for new channels on startup</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9360,7 +9390,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.ui" line="104"/>
         <source>&amp;Open an informative page after an upgrade</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="46"/>
@@ -9375,7 +9405,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9385,17 +9415,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefupdates.cpp" line="91"/>
         <source>You can enter here the interval (in days) for the update checks.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="95"/>
         <source>Open an informative page after an upgrade</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="96"/>
         <source>If this option is enabled, an informative page about SMPlayer will be opened after an upgrade.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9441,7 +9471,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="148"/>
         <source>the main window will be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../smplayer.cpp" line="567"/>
@@ -9451,12 +9481,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
         <source>action_list is a list of actions separated by spaces. The actions will be executed just after loading the file (if any) in the same order you entered. For checkable actions you can pass true or false as parameter. Example: -actions &quot;fullscreen compact true&quot;. Quotes are necessary in case you pass more than one action.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="99"/>
@@ -9467,22 +9497,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="181"/>
         <source>if there&apos;s another instance running, the media will be added to that instance&apos;s playlist. If there&apos;s no other instance, this option will be ignored and the files will be opened in a new instance.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="151"/>
         <source>the main window won&apos;t be closed when the file/playlist finishes.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="157"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
@@ -9492,12 +9522,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="115"/>
         <source>opens the mini gui instead of the default one.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="112"/>
         <source>Restores the old associations and cleans up the registry.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="104"/>
@@ -9533,19 +9563,25 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="166"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -9555,7 +9591,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="182"/>
@@ -9593,43 +9629,43 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="125"/>
         <source>opens the gui with support for skins.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="160"/>
         <source>sets the stay on top option to always.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="163"/>
         <source>sets the stay on top option to never.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="175"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
         <source>SMPlayer is my favorite media player for my PC. Check it out!</source>
         <comment>This text is to be published on twitter and the translation should not be more than 99 characters long</comment>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../version.cpp" line="44"/>
@@ -9657,7 +9693,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished">በ PayPal ይለግሱ</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
@@ -9690,7 +9726,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9708,7 +9744,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Press the key combination you want to assign</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
@@ -9723,12 +9759,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
         <source>Capture</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="313"/>
         <source>Capture keystrokes</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9741,17 +9777,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shutdowndialog.cpp" line="41"/>
         <source>Playback has finished. SMPlayer is about to exit.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -9847,22 +9883,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
@@ -9882,7 +9918,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="44"/>
         <source>Anaglyph red/cyan color optimized with the least-squares projection of Dubois</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="46"/>
@@ -9917,12 +9953,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="54"/>
         <source>Interleaved rows (left eye has top row, right eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="55"/>
         <source>Interleaved rows (right eye has top row, left eye starts on next row)</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="57"/>
@@ -10476,22 +10512,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
         <source>If you check this option, the playing time will be displayed at the bottom of each thumbnail.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="48"/>
         <source>If the aspect ratio of the video is wrong, you can specify a different one here.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="49"/>
         <source>Usually the first frames are black, so it&apos;s a good idea to skip some seconds at the beginning of the video. This option allows to specify how many seconds will be skipped.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
@@ -10501,7 +10537,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
         <source>Some frames will be extracted from the video in order to create the preview. Here you can choose the image format for the extracted frames. PNG may give better quality.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="114"/>
@@ -10521,7 +10557,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
@@ -10531,7 +10567,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="291"/>
         <source>Remember folder used to &amp;save the preview</source>
-        <translation type="unfinished"/>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
