@@ -7770,12 +7770,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Display in &amp;compact mode too</source>
-        <translation type="unfinished"/>
+        <translation>በ አነስተኛ ዘዴ ውስጥ ማሳያ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
         <source>Mpc GUI</source>
-        <translation type="unfinished"/>
+        <translation>Mpc GUI</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
@@ -7795,7 +7795,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
         <source>Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation>በ ትክክል መፈለጊያ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="825"/>
@@ -7810,7 +7810,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
         <source>&amp;Precise seeking</source>
-        <translation type="unfinished"/>
+        <translation>በ &amp;ትክክል መፈለጊያ</translation>
     </message>
 </context>
 <context>
@@ -7818,12 +7818,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="75"/>
         <source>Playback &amp;quality</source>
-        <translation type="unfinished"/>
+        <translation>በ ድጋሚ ማጫወቻ &amp;ጥራት</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="105"/>
         <source>&amp;User agent</source>
-        <translation type="unfinished"/>
+        <translation>የ &amp;ተጠቃሚ ወኪል</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
