@@ -21,16 +21,22 @@ DEFS=DATA_PATH=\\\"$(DATA_PATH)\\\" \
      DOC_PATH=\\\"$(DOC_PATH)\\\" THEMES_PATH=\\\"$(THEMES_PATH)\\\" \
      SHORTCUTS_PATH=\\\"$(SHORTCUTS_PATH)\\\"
 
+all: src/smplayer webserver/simple_web_server
+
 src/smplayer:
 	./get_svn_revision.sh
 	+cd src && $(QMAKE) $(QMAKE_OPTS) && $(DEFS) make
 	cd src && $(LRELEASE) smplayer.pro
 
+webserver/simple_web_server:
+	cd webserver && make
+
 clean:
 	if [ -f src/Makefile ]; then cd src && make distclean; fi
 	-rm src/translations/smplayer_*.qm
+	-rm webserver/simple_web_server
 
-install: src/smplayer
+install: all
 	-install -d $(DESTDIR)$(PREFIX)/bin/
 	install -m 755 src/smplayer $(DESTDIR)$(PREFIX)/bin/
 	-install -d $(DESTDIR)$(DATA_PATH)
@@ -39,6 +45,8 @@ install: src/smplayer
 	install -m 644 src/translations/*.qm $(DESTDIR)$(TRANSLATION_PATH)
 	-install -d $(DESTDIR)$(DOC_PATH)
 	install -m 644 Changelog *.txt $(DESTDIR)$(DOC_PATH)
+
+	install -m 755 webserver/simple_web_server $(DESTDIR)$(PREFIX)/bin/
 
 	-install -d $(DESTDIR)$(DOC_PATH)
 	tar -C docs/ --exclude=.svn -c -f - . | tar -C $(DESTDIR)$(DOC_PATH) -x -f -
