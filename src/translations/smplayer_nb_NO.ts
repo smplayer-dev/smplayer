@@ -747,7 +747,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../basegui.cpp" line="2137"/>
         <source>&amp;OSD</source>
-        <translation>&amp;OSD</translation>
+        <translation>&amp;OSD (Videooverlegg)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1821"/>

@@ -1698,7 +1698,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1732"/>
         <source>Mirr&amp;or image</source>
-        <translation>イメージを水平に反転(&amp;O)</translation>
+        <translation>イメージを左右反転(&amp;O)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1893"/>
@@ -1926,7 +1926,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1731"/>
         <source>Fli&amp;p image</source>
-        <translation>イメージを垂直に反転(&amp;P)</translation>
+        <translation>イメージを上下反転(&amp;P)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1978"/>
