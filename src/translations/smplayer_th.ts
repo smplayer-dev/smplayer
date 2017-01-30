@@ -550,8 +550,8 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2020"/>
-        <location filename="../basegui.cpp" line="3522"/>
-        <location filename="../basegui.cpp" line="3536"/>
+        <location filename="../basegui.cpp" line="3530"/>
+        <location filename="../basegui.cpp" line="3544"/>
         <source>&amp;None</source>
         <translation>ไ&amp;ม่มี</translation>
     </message>
@@ -762,43 +762,43 @@ Do you want to overwrite?</source>
         <translation>เกี่ยวกับ &amp;SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3559"/>
-        <location filename="../basegui.cpp" line="3575"/>
-        <location filename="../basegui.cpp" line="3591"/>
-        <location filename="../basegui.cpp" line="3606"/>
-        <location filename="../basegui.cpp" line="3640"/>
-        <location filename="../basegui.cpp" line="3660"/>
-        <location filename="../basegui.cpp" line="3736"/>
+        <location filename="../basegui.cpp" line="3567"/>
+        <location filename="../basegui.cpp" line="3583"/>
+        <location filename="../basegui.cpp" line="3599"/>
+        <location filename="../basegui.cpp" line="3614"/>
+        <location filename="../basegui.cpp" line="3648"/>
+        <location filename="../basegui.cpp" line="3668"/>
+        <location filename="../basegui.cpp" line="3744"/>
         <source>&lt;empty&gt;</source>
         <translation>&lt;ว่าง&gt;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4182"/>
+        <location filename="../basegui.cpp" line="4190"/>
         <source>Video</source>
         <translation>วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4183"/>
-        <location filename="../basegui.cpp" line="4420"/>
+        <location filename="../basegui.cpp" line="4191"/>
+        <location filename="../basegui.cpp" line="4436"/>
         <source>Audio</source>
         <translation>เสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4184"/>
+        <location filename="../basegui.cpp" line="4192"/>
         <source>Playlists</source>
         <translation>บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4185"/>
-        <location filename="../basegui.cpp" line="4400"/>
-        <location filename="../basegui.cpp" line="4421"/>
+        <location filename="../basegui.cpp" line="4193"/>
+        <location filename="../basegui.cpp" line="4416"/>
+        <location filename="../basegui.cpp" line="4437"/>
         <source>All files</source>
         <translation>ไฟล์ทั้งหมด</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4180"/>
-        <location filename="../basegui.cpp" line="4397"/>
-        <location filename="../basegui.cpp" line="4418"/>
+        <location filename="../basegui.cpp" line="4188"/>
+        <location filename="../basegui.cpp" line="4413"/>
+        <location filename="../basegui.cpp" line="4434"/>
         <source>Choose a file</source>
         <translation>เลือกหนึ่งไฟล์</translation>
     </message>
@@ -813,49 +813,49 @@ Do you want to overwrite?</source>
         <translation>&amp;บริจาค / แบ่งปันกับเพื่อนๆ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4236"/>
+        <location filename="../basegui.cpp" line="4252"/>
         <source>SMPlayer - Information</source>
         <translation>SMPlayer - ข้อมูล</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4237"/>
+        <location filename="../basegui.cpp" line="4253"/>
         <source>The CDROM / DVD drives are not configured yet.
 The configuration dialog will be shown now, so you can do it.</source>
         <translation>ไดรฟ์ CDROM / DVD ยังไม่ได้รับการกำหนดค่า
 กล่องการกำหนดค่าจะแสดงเดี๋ยวนี้ เพื่อคุณสามารถจัดการมันได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4350"/>
+        <location filename="../basegui.cpp" line="4366"/>
         <source>Select the Blu-ray folder</source>
         <translation>เลือกโฟลเดอร์บลูเรย์</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4363"/>
+        <location filename="../basegui.cpp" line="4379"/>
         <source>Choose a directory</source>
         <translation>เลือกเส้นทาง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4399"/>
+        <location filename="../basegui.cpp" line="4415"/>
         <source>Subtitles</source>
         <translation>ศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5069"/>
+        <location filename="../basegui.cpp" line="5085"/>
         <source>Error detected</source>
         <translation>การตรวจหาล้มเหลว</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5070"/>
+        <location filename="../basegui.cpp" line="5086"/>
         <source>Unfortunately this video can&apos;t be played.</source>
         <translation>โชคไม่ดีเลย วิดีโอนี้ไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5300"/>
+        <location filename="../basegui.cpp" line="5316"/>
         <source>Pause</source>
         <translation>พัก</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5301"/>
+        <location filename="../basegui.cpp" line="5317"/>
         <source>Stop</source>
         <translation>หยุด</translation>
     </message>
@@ -1289,170 +1289,170 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation type="unfinished">แบบจดกิจกรรม</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4505"/>
+        <location filename="../basegui.cpp" line="4521"/>
         <source>Support SMPlayer</source>
         <translation type="unfinished">สนับสนุน SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4507"/>
+        <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4508"/>
+        <location filename="../basegui.cpp" line="4524"/>
         <source>No</source>
         <translation type="unfinished">ไม่ใช่</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4511"/>
+        <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4512"/>
+        <location filename="../basegui.cpp" line="4528"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4513"/>
+        <location filename="../basegui.cpp" line="4529"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4514"/>
+        <location filename="../basegui.cpp" line="4530"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4515"/>
+        <location filename="../basegui.cpp" line="4531"/>
         <source>Even the smallest amount will help a lot.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5004"/>
+        <location filename="../basegui.cpp" line="5020"/>
         <source>Connection failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5005"/>
+        <location filename="../basegui.cpp" line="5021"/>
         <source>The video you requested needs to open a HTTPS connection.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5006"/>
+        <location filename="../basegui.cpp" line="5022"/>
         <source>Unfortunately the OpenSSL component, required for it, is not available in your system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5007"/>
+        <location filename="../basegui.cpp" line="5023"/>
         <source>Please, visit %1 to know how to fix this problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5008"/>
+        <location filename="../basegui.cpp" line="5024"/>
         <source>this link</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5018"/>
+        <location filename="../basegui.cpp" line="5034"/>
         <source>Unfortunately due to changes in the Youtube page, this video can&apos;t be played.</source>
         <translation>โชคไม่ดีเลย เนื่องจากการเปลี่ยนแปลงในหน้า Youtube  วิดีโอนี้จึงไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5025"/>
-        <location filename="../basegui.cpp" line="5033"/>
+        <location filename="../basegui.cpp" line="5041"/>
+        <location filename="../basegui.cpp" line="5049"/>
         <source>Problems with Youtube</source>
         <translation>มีปัญหากับ Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5991"/>
-        <location filename="../basegui.cpp" line="6043"/>
+        <location filename="../basegui.cpp" line="6007"/>
+        <location filename="../basegui.cpp" line="6059"/>
         <source>%1 Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5992"/>
+        <location filename="../basegui.cpp" line="6008"/>
         <source>%1 has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6017"/>
+        <location filename="../basegui.cpp" line="6033"/>
         <source>The component youtube-dl failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6018"/>
+        <location filename="../basegui.cpp" line="6034"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6020"/>
+        <location filename="../basegui.cpp" line="6036"/>
         <source>Click here to get it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6045"/>
+        <location filename="../basegui.cpp" line="6061"/>
         <source>%1 failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6046"/>
+        <location filename="../basegui.cpp" line="6062"/>
         <source>Please check the %1 path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6048"/>
+        <location filename="../basegui.cpp" line="6064"/>
         <source>%1 has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6130"/>
+        <location filename="../basegui.cpp" line="6146"/>
         <source>The YouTube Browser is not installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6131"/>
-        <location filename="../basegui.cpp" line="6143"/>
+        <location filename="../basegui.cpp" line="6147"/>
+        <location filename="../basegui.cpp" line="6159"/>
         <source>Visit %1 to get it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6141"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>The YouTube Browser failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6142"/>
+        <location filename="../basegui.cpp" line="6158"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6308"/>
+        <location filename="../basegui.cpp" line="6324"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6310"/>
+        <location filename="../basegui.cpp" line="6326"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6314"/>
+        <location filename="../basegui.cpp" line="6330"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5021"/>
+        <location filename="../basegui.cpp" line="5037"/>
         <source>Unfortunately due to changes in the Youtube page, the video &apos;%1&apos; can&apos;t be played.</source>
         <translation>โชคไม่ดีเลย เนื่องจากการเปลี่ยนแปลงในหน้า Youtube วิดีโอ &apos;%1&apos; ไม่สามารถเล่นได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5027"/>
+        <location filename="../basegui.cpp" line="5043"/>
         <source>Do you want to update the Youtube code? This may fix the problem.</source>
         <translation>คุณต้องการอัพเดต Youtube code หรือไม่? สิ่งนี้อาจแก้ปัญหาได้</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5035"/>
+        <location filename="../basegui.cpp" line="5051"/>
         <source>Maybe updating SMPlayer could fix the problem.</source>
         <translation>บางทีการอัพเดต SMPlayer สามารถแก้ปัญหาได้</translation>
     </message>
@@ -1462,28 +1462,28 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>แบ่ง&amp;ปัน SMPlayer กับเพื่อนๆ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3247"/>
-        <location filename="../basegui.cpp" line="3986"/>
+        <location filename="../basegui.cpp" line="3255"/>
+        <location filename="../basegui.cpp" line="3994"/>
         <source>Information</source>
         <translation>ข้อมูล</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3248"/>
+        <location filename="../basegui.cpp" line="3256"/>
         <source>You need to restart SMPlayer to use the new GUI.</source>
         <translation>คุณต้องเริ่ม SMPlayer ใหม่ เพื่อใช้รูปแบบอันใหม่.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3748"/>
+        <location filename="../basegui.cpp" line="3756"/>
         <source>Confirm deletion - SMPlayer</source>
         <translation>ยืนยันการลบ - SMPlayer</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3749"/>
+        <location filename="../basegui.cpp" line="3757"/>
         <source>Delete the list of recent files?</source>
         <translation>ลบรายชื่อไฟล์เมื่อเร็วๆ นี้หรือไม่?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="3987"/>
+        <location filename="../basegui.cpp" line="3995"/>
         <source>The current values have been stored to be used as default.</source>
         <translation>ค่าปัจจุบันได้ถูกจัดเก็บ เพื่อใช้เป็นค่าตั้งต้น</translation>
     </message>
@@ -1573,7 +1573,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ตัวเลือก &amp;Command line </translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4440"/>
+        <location filename="../basegui.cpp" line="4456"/>
         <source>SMPlayer command line options</source>
         <translation>ตัวเลือก SMPlayer command line </translation>
     </message>
@@ -1588,17 +1588,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>คืนค่า อิควอไลเซอร์ของวิดีโอ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5071"/>
+        <location filename="../basegui.cpp" line="5087"/>
         <source>The server returned &apos;%1&apos;</source>
         <translation>เซิร์ฟเวอร์ได้คืนกลับ &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5993"/>
+        <location filename="../basegui.cpp" line="6009"/>
         <source>Exit code: %1</source>
         <translation>Exit code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6049"/>
+        <location filename="../basegui.cpp" line="6065"/>
         <source>See the log for more info.</source>
         <translation>ดูแบบจดกิจกรรมสำหรับข้อมูลเพิ่มเติม</translation>
     </message>
@@ -1643,7 +1643,7 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>แสดงเมนูบริบท</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4181"/>
+        <location filename="../basegui.cpp" line="4189"/>
         <source>Multimedia</source>
         <translation>มัลติมีเดีย</translation>
     </message>
@@ -1720,22 +1720,22 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>แ&amp;ทร็ค</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4913"/>
+        <location filename="../basegui.cpp" line="4929"/>
         <source>Warning - Using old MPlayer</source>
         <translation>คำเตือน - กำลังใช้ MPlayer รุ่นเก่า</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4914"/>
+        <location filename="../basegui.cpp" line="4930"/>
         <source>The version of MPlayer (%1) installed on your system is obsolete. SMPlayer can&apos;t work well with it: some options won&apos;t work, subtitle selection may fail...</source>
         <translation>รุ่นของ MPlayer (%1) ที่ได้ติดตั้งบนระบบของคุณนั้นล้าสมัย  SMPlayer ไม่สามารถทำงานกับมันได้ดีพอ: บางตัวเลือกอาจใช้ไม่ได้, การเลือกศัพท์บรรยายอาจล้มเหลว...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4919"/>
+        <location filename="../basegui.cpp" line="4935"/>
         <source>Please, update your MPlayer.</source>
         <translation>โปรดอัพเดต MPlayer ของคุณ.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4921"/>
+        <location filename="../basegui.cpp" line="4937"/>
         <source>(This warning won&apos;t be displayed anymore)</source>
         <translation>(คำเตือนนี้จะไม่แสดงอีก)</translation>
     </message>
@@ -1825,36 +1825,36 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ตั้งการห&amp;น่วง...</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4567"/>
+        <location filename="../basegui.cpp" line="4583"/>
         <source>&amp;Jump to:</source>
         <translation>&amp;ก้าวไปสู่ :</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4568"/>
+        <location filename="../basegui.cpp" line="4584"/>
         <source>SMPlayer - Seek</source>
         <translation>SMPlayer - ตัวหา</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4579"/>
-        <location filename="../basegui.cpp" line="4583"/>
+        <location filename="../basegui.cpp" line="4595"/>
+        <location filename="../basegui.cpp" line="4599"/>
         <source>SMPlayer - Audio delay</source>
         <translation>SMPlayer - การหน่วงเสียง</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4580"/>
-        <location filename="../basegui.cpp" line="4584"/>
+        <location filename="../basegui.cpp" line="4596"/>
+        <location filename="../basegui.cpp" line="4600"/>
         <source>Audio delay (in milliseconds):</source>
         <translation>เสียงหน่วง (มิลลิวินาที):</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4595"/>
-        <location filename="../basegui.cpp" line="4599"/>
+        <location filename="../basegui.cpp" line="4611"/>
+        <location filename="../basegui.cpp" line="4615"/>
         <source>SMPlayer - Subtitle delay</source>
         <translation>SMPlayer - การหน่วงศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="4596"/>
-        <location filename="../basegui.cpp" line="4600"/>
+        <location filename="../basegui.cpp" line="4612"/>
+        <location filename="../basegui.cpp" line="4616"/>
         <source>Subtitle delay (in milliseconds):</source>
         <translation>ศัพท์บรรยายหน่วง (มิลลิวินาที):</translation>
     </message>
@@ -1864,8 +1864,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>สลับการอยู่บน</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5504"/>
-        <location filename="../basegui.cpp" line="5833"/>
+        <location filename="../basegui.cpp" line="5520"/>
+        <location filename="../basegui.cpp" line="5849"/>
         <source>Jump to %1</source>
         <translation>ก้าวไปสู่ %1</translation>
     </message>
@@ -2219,68 +2219,68 @@ The configuration dialog will be shown now, so you can do it.</source>
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3078"/>
+        <location filename="../core.cpp" line="3062"/>
         <source>Brightness: %1</source>
         <translation>ความสว่าง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3094"/>
+        <location filename="../core.cpp" line="3078"/>
         <source>Contrast: %1</source>
         <translation>ความตัดกัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3109"/>
+        <location filename="../core.cpp" line="3093"/>
         <source>Gamma: %1</source>
         <translation>แกมมา: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3124"/>
+        <location filename="../core.cpp" line="3108"/>
         <source>Hue: %1</source>
         <translation>สีสัน: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3139"/>
+        <location filename="../core.cpp" line="3123"/>
         <source>Saturation: %1</source>
         <translation>ความอิ่มตัว: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3282"/>
+        <location filename="../core.cpp" line="3266"/>
         <source>Volume: %1</source>
         <translation>ความดัง: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4184"/>
+        <location filename="../core.cpp" line="4168"/>
         <source>Zoom: %1</source>
         <translation>ขยาย: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3410"/>
-        <location filename="../core.cpp" line="3421"/>
+        <location filename="../core.cpp" line="3394"/>
+        <location filename="../core.cpp" line="3405"/>
         <source>Font scale: %1</source>
         <translation>มาตราอักษร: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4015"/>
+        <location filename="../core.cpp" line="3999"/>
         <source>Aspect ratio: %1</source>
         <translation>อัตราส่วนภาพ: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4417"/>
+        <location filename="../core.cpp" line="4401"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>กำลังอัพเดตแคชอักษร ซึ่งอาจใช้เวลาสักครู่...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3335"/>
+        <location filename="../core.cpp" line="3319"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>หน่วงศัพท์บรรยาย: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3353"/>
+        <location filename="../core.cpp" line="3337"/>
         <source>Audio delay: %1 ms</source>
         <translation>หน่วงเสียง: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3193"/>
+        <location filename="../core.cpp" line="3177"/>
         <source>Speed: %1</source>
         <translation>ความเร็ว: %1</translation>
     </message>
@@ -2295,42 +2295,42 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ไม่สามารถหาที่ตั้ง URL ของวิดีโอได้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3498"/>
+        <location filename="../core.cpp" line="3482"/>
         <source>Subtitles on</source>
         <translation>เปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3500"/>
+        <location filename="../core.cpp" line="3484"/>
         <source>Subtitles off</source>
         <translation>ปิดศัพท์บรรยาย</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4063"/>
+        <location filename="../core.cpp" line="4047"/>
         <source>Mouse wheel seeks now</source>
         <translation>หมุนเมาส์เลื่อนหาตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4066"/>
+        <location filename="../core.cpp" line="4050"/>
         <source>Mouse wheel changes volume now</source>
         <translation>หมุนเมาส์เปลี่ยนความดังตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4069"/>
+        <location filename="../core.cpp" line="4053"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>หมุนเมาส์เปลี่ยนระดับขยายตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4072"/>
+        <location filename="../core.cpp" line="4056"/>
         <source>Mouse wheel changes speed now</source>
         <translation>หมุนเมาส์เปลี่ยนความเร็วตอนนี้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4393"/>
+        <location filename="../core.cpp" line="4377"/>
         <source>Screenshot saved as %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4428"/>
+        <location filename="../core.cpp" line="4412"/>
         <source>Starting...</source>
         <translation type="unfinished"></translation>
     </message>
@@ -2345,17 +2345,17 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ภาพหน้าจอไม่ถูกจับ เพราะโฟลเดอร์ยังไม่ถูกกำหนดไว้</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2722"/>
+        <location filename="../core.cpp" line="2706"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>จุด &quot;A&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2744"/>
+        <location filename="../core.cpp" line="2728"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>จุด &quot;B&quot; ตั้งเป็น %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2764"/>
+        <location filename="../core.cpp" line="2748"/>
         <source>A-B markers cleared</source>
         <translation>ช่วง A-B ถูกล้างแล้ว</translation>
     </message>
@@ -3433,7 +3433,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="31"/>
-        <location filename="../languages.cpp" line="300"/>
+        <location filename="../languages.cpp" line="301"/>
         <source>Arabic</source>
         <translation>Arabic</translation>
     </message>
@@ -3459,7 +3459,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="38"/>
-        <location filename="../languages.cpp" line="326"/>
+        <location filename="../languages.cpp" line="327"/>
         <source>Bulgarian</source>
         <translation>Bulgarian</translation>
     </message>
@@ -3500,7 +3500,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="50"/>
-        <location filename="../languages.cpp" line="327"/>
+        <location filename="../languages.cpp" line="328"/>
         <source>Czech</source>
         <translation>Czech</translation>
     </message>
@@ -3544,7 +3544,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="63"/>
-        <location filename="../languages.cpp" line="328"/>
+        <location filename="../languages.cpp" line="329"/>
         <source>Estonian</source>
         <translation>Estonian</translation>
     </message>
@@ -3617,13 +3617,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="82"/>
-        <location filename="../languages.cpp" line="329"/>
+        <location filename="../languages.cpp" line="330"/>
         <source>Croatian</source>
         <translation>Croatian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="84"/>
-        <location filename="../languages.cpp" line="330"/>
+        <location filename="../languages.cpp" line="331"/>
         <source>Hungarian</source>
         <translation>Hungarian</translation>
     </message>
@@ -3726,13 +3726,13 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="121"/>
-        <location filename="../languages.cpp" line="331"/>
+        <location filename="../languages.cpp" line="332"/>
         <source>Lithuanian</source>
         <translation>Lithuanian</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="123"/>
-        <location filename="../languages.cpp" line="332"/>
+        <location filename="../languages.cpp" line="333"/>
         <source>Latvian</source>
         <translation>Latvian</translation>
     </message>
@@ -3825,7 +3825,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="153"/>
-        <location filename="../languages.cpp" line="333"/>
+        <location filename="../languages.cpp" line="334"/>
         <source>Polish</source>
         <translation>Polish</translation>
     </message>
@@ -3848,8 +3848,8 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="160"/>
         <location filename="../languages.cpp" line="226"/>
-        <location filename="../languages.cpp" line="307"/>
-        <location filename="../languages.cpp" line="334"/>
+        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="335"/>
         <source>Russian</source>
         <translation>Russian</translation>
     </message>
@@ -3870,7 +3870,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="168"/>
-        <location filename="../languages.cpp" line="335"/>
+        <location filename="../languages.cpp" line="336"/>
         <source>Slovak</source>
         <translation>Slovak</translation>
     </message>
@@ -3957,7 +3957,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="189"/>
-        <location filename="../languages.cpp" line="302"/>
+        <location filename="../languages.cpp" line="303"/>
         <source>Turkish</source>
         <translation>Turkish</translation>
     </message>
@@ -3983,7 +3983,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="195"/>
-        <location filename="../languages.cpp" line="337"/>
+        <location filename="../languages.cpp" line="338"/>
         <source>Ukrainian</source>
         <translation>Ukrainian</translation>
     </message>
@@ -4030,7 +4030,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="207"/>
         <location filename="../languages.cpp" line="228"/>
-        <location filename="../languages.cpp" line="338"/>
+        <location filename="../languages.cpp" line="339"/>
         <source>Chinese</source>
         <translation>Chinese</translation>
     </message>
@@ -4045,112 +4045,112 @@ Please check the permissions of that folder.</source>
         <translation>Arabic - Syria</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="292"/>
+        <location filename="../languages.cpp" line="293"/>
         <source>Unicode</source>
         <translation>Unicode</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="293"/>
+        <location filename="../languages.cpp" line="294"/>
         <source>UTF-8</source>
         <translation>UTF-8</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="294"/>
+        <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages</source>
         <translation>Western European Languages</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="295"/>
+        <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages with Euro</source>
         <translation>Western European Languages with Euro</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="296"/>
+        <location filename="../languages.cpp" line="297"/>
         <source>Slavic/Central European Languages</source>
         <translation>Slavic/Central European Languages</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="297"/>
+        <location filename="../languages.cpp" line="298"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
         <translation>Esperanto, Galician, Maltese, Turkish</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="298"/>
+        <location filename="../languages.cpp" line="299"/>
         <source>Old Baltic charset</source>
         <translation>Old Baltic charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="299"/>
+        <location filename="../languages.cpp" line="300"/>
         <source>Cyrillic</source>
         <translation>Cyrillic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="301"/>
+        <location filename="../languages.cpp" line="302"/>
         <source>Modern Greek</source>
         <translation>Modern Greek</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="303"/>
+        <location filename="../languages.cpp" line="304"/>
         <source>Baltic</source>
         <translation>Baltic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="304"/>
+        <location filename="../languages.cpp" line="305"/>
         <source>Celtic</source>
         <translation>Celtic</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="305"/>
+        <location filename="../languages.cpp" line="306"/>
         <source>South-Eastern European</source>
         <translation>South-Eastern European</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="306"/>
+        <location filename="../languages.cpp" line="307"/>
         <source>Hebrew charsets</source>
         <translation>Hebrew charsets</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="308"/>
+        <location filename="../languages.cpp" line="309"/>
         <source>Ukrainian, Belarusian</source>
         <translation>Ukrainian, Belarusian</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="309"/>
+        <location filename="../languages.cpp" line="310"/>
         <source>Simplified Chinese charset</source>
         <translation>Simplified Chinese charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="310"/>
+        <location filename="../languages.cpp" line="311"/>
         <source>Traditional Chinese charset</source>
         <translation>Traditional Chinese charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="311"/>
+        <location filename="../languages.cpp" line="312"/>
         <source>Japanese charsets</source>
         <translation>Japanese charsets</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="312"/>
+        <location filename="../languages.cpp" line="313"/>
         <source>Korean charset</source>
         <translation>Korean charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="313"/>
+        <location filename="../languages.cpp" line="314"/>
         <source>Thai charset</source>
         <translation>Thai charset</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="314"/>
+        <location filename="../languages.cpp" line="315"/>
         <source>Cyrillic Windows</source>
         <translation>Cyrillic Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="315"/>
+        <location filename="../languages.cpp" line="316"/>
         <source>Slavic/Central European Windows</source>
         <translation>Slavic/Central European Windows</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="316"/>
+        <location filename="../languages.cpp" line="317"/>
         <source>Arabic Windows</source>
         <translation>Arabic Windows</translation>
     </message>
@@ -4176,7 +4176,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="37"/>
-        <location filename="../languages.cpp" line="325"/>
+        <location filename="../languages.cpp" line="326"/>
         <source>Belarusian</source>
         <translation>Belarusian</translation>
     </message>
@@ -4438,7 +4438,7 @@ Please check the permissions of that folder.</source>
     </message>
     <message>
         <location filename="../languages.cpp" line="169"/>
-        <location filename="../languages.cpp" line="336"/>
+        <location filename="../languages.cpp" line="337"/>
         <source>Slovene</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4478,7 +4478,7 @@ Please check the permissions of that folder.</source>
         <translation>Walloon</translation>
     </message>
     <message>
-        <location filename="../languages.cpp" line="317"/>
+        <location filename="../languages.cpp" line="318"/>
         <source>Modern Greek Windows</source>
         <translation>Modern Greek Windows</translation>
     </message>
@@ -4543,78 +4543,78 @@ Do you want to overwrite?</source>
 <context>
     <name>MPVProcess</name>
     <message>
-        <location filename="../mpvprocess.h" line="155"/>
+        <location filename="../mpvprocess.h" line="156"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="156"/>
+        <location filename="../mpvprocess.h" line="157"/>
         <source>File:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="157"/>
+        <location filename="../mpvprocess.h" line="158"/>
         <source>Video:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="158"/>
+        <location filename="../mpvprocess.h" line="159"/>
         <source>Resolution:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="159"/>
+        <location filename="../mpvprocess.h" line="160"/>
         <source>Frames per second:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="160"/>
+        <location filename="../mpvprocess.h" line="161"/>
         <source>Estimated:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="161"/>
+        <location filename="../mpvprocess.h" line="162"/>
         <source>Aspect Ratio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="162"/>
-        <location filename="../mpvprocess.h" line="165"/>
+        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="166"/>
         <source>Bitrate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="163"/>
+        <location filename="../mpvprocess.h" line="164"/>
         <source>Dropped frames:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="164"/>
+        <location filename="../mpvprocess.h" line="165"/>
         <source>Audio:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="166"/>
+        <location filename="../mpvprocess.h" line="167"/>
         <source>Sample Rate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="167"/>
+        <location filename="../mpvprocess.h" line="168"/>
         <source>Channels:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="168"/>
+        <location filename="../mpvprocess.h" line="169"/>
         <source>Audio/video synchronization:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="169"/>
+        <location filename="../mpvprocess.h" line="170"/>
         <source>Cache fill:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mpvprocess.h" line="170"/>
+        <location filename="../mpvprocess.h" line="171"/>
         <source>Used cache:</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4747,304 +4747,304 @@ Do you want to overwrite?</source>
 <context>
     <name>Playlist</name>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Name</source>
         <translation>ชื่อ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Length</source>
         <translation>ความยาว</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="679"/>
+        <location filename="../playlist.cpp" line="682"/>
         <source>&amp;Play</source>
         <translation>เ&amp;ล่น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="725"/>
+        <location filename="../playlist.cpp" line="728"/>
         <source>&amp;Edit</source>
         <translation>แ&amp;ก้ไข</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
-        <location filename="../playlist.cpp" line="1339"/>
+        <location filename="../playlist.cpp" line="1306"/>
+        <location filename="../playlist.cpp" line="1342"/>
         <source>Playlists</source>
         <translation>บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1301"/>
+        <location filename="../playlist.cpp" line="1304"/>
         <source>Choose a file</source>
         <translation>เลือกหนึ่งไฟล์่</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1337"/>
+        <location filename="../playlist.cpp" line="1340"/>
         <source>Choose a filename</source>
         <translation>เลือกชื่อไฟล์</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1349"/>
+        <location filename="../playlist.cpp" line="1352"/>
         <source>Confirm overwrite?</source>
         <translation>ยืนยันให้เขียนทับหรือไม่?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1350"/>
+        <location filename="../playlist.cpp" line="1353"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ไฟล์ %1 มีอยู่แล้ว
 คุณต้องการเขียนทับ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1303"/>
-        <location filename="../playlist.cpp" line="1339"/>
-        <location filename="../playlist.cpp" line="1619"/>
+        <location filename="../playlist.cpp" line="1306"/>
+        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1625"/>
         <source>All files</source>
         <translation>ไฟล์ทั้งหมด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="355"/>
+        <location filename="../playlist.cpp" line="358"/>
         <source>Untitled playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="671"/>
+        <location filename="../playlist.cpp" line="674"/>
         <source>&amp;Load...</source>
         <translation type="unfinished">โ&amp;หลด...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="673"/>
+        <location filename="../playlist.cpp" line="676"/>
         <source>Load playlist from &amp;URL...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="712"/>
+        <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="714"/>
+        <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="729"/>
+        <location filename="../playlist.cpp" line="732"/>
         <source>Load/Save</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1616"/>
+        <location filename="../playlist.cpp" line="1622"/>
         <source>Select one or more files to open</source>
         <translation>เลือกหนึ่งไฟล์หรือมากกว่าเพื่อเปิด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1686"/>
+        <location filename="../playlist.cpp" line="1692"/>
         <source>Choose a directory</source>
         <translation>เลือกเส้นทาง</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1881"/>
+        <location filename="../playlist.cpp" line="1887"/>
         <source>Edit name</source>
         <translation>แก้ไขชื่อ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1882"/>
+        <location filename="../playlist.cpp" line="1888"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>พิมพ์ชื่อที่จะให้แสดงในบัญชีการเล่นสำหรับไฟล์นี้:</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="669"/>
+        <location filename="../playlist.cpp" line="672"/>
         <source>Filename / URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="674"/>
+        <location filename="../playlist.cpp" line="677"/>
         <source>Download playlist from URL</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="676"/>
+        <location filename="../playlist.cpp" line="679"/>
         <source>&amp;Save</source>
         <translation>&amp;บันทึก</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="677"/>
+        <location filename="../playlist.cpp" line="680"/>
         <source>Save &amp;as...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="681"/>
+        <location filename="../playlist.cpp" line="684"/>
         <source>&amp;Next</source>
         <translation>&amp;ถัดไป</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="682"/>
+        <location filename="../playlist.cpp" line="685"/>
         <source>Pre&amp;vious</source>
         <translation>&amp;ก่อนหน้า</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="688"/>
+        <location filename="../playlist.cpp" line="691"/>
         <source>Move &amp;up</source>
         <translation>เลื่อน&amp;ขึ้น</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="689"/>
+        <location filename="../playlist.cpp" line="692"/>
         <source>Move &amp;down</source>
         <translation>เลื่อน&amp;ลง</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="691"/>
+        <location filename="../playlist.cpp" line="694"/>
         <source>&amp;Repeat</source>
         <translation>&amp;เล่นซ้ำ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="692"/>
+        <location filename="../playlist.cpp" line="695"/>
         <source>S&amp;huffle</source>
         <translation>เล่น&amp;สุ่ม</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="695"/>
+        <location filename="../playlist.cpp" line="698"/>
         <source>Add &amp;current file</source>
         <translation>เ&amp;พิ่มไฟล์ปัจจุบัน</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="696"/>
+        <location filename="../playlist.cpp" line="699"/>
         <source>Add &amp;file(s)</source>
         <translation>เพิ่มไ&amp;ฟล์</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="697"/>
+        <location filename="../playlist.cpp" line="700"/>
         <source>Add &amp;directory</source>
         <translation>เพิ่มเ&amp;ส้นทาง</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="698"/>
+        <location filename="../playlist.cpp" line="701"/>
         <source>Add &amp;URL(s)</source>
         <translation>เพิ่ม &amp;URL(s)</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="701"/>
+        <location filename="../playlist.cpp" line="704"/>
         <source>Remove &amp;selected</source>
         <translation>&amp;ถอนสิ่งที่เลือก</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="702"/>
+        <location filename="../playlist.cpp" line="705"/>
         <source>Remove &amp;all</source>
         <translation>ถอนทั้งห&amp;มด</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="705"/>
+        <location filename="../playlist.cpp" line="708"/>
         <source>&amp;Delete file from disk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="708"/>
-        <location filename="../playlist.cpp" line="1447"/>
+        <location filename="../playlist.cpp" line="711"/>
+        <location filename="../playlist.cpp" line="1450"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="709"/>
+        <location filename="../playlist.cpp" line="712"/>
         <source>&amp;Open source folder</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="717"/>
-        <location filename="../playlist.cpp" line="737"/>
+        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="740"/>
         <source>Search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="719"/>
+        <location filename="../playlist.cpp" line="722"/>
         <source>Show position column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="720"/>
+        <location filename="../playlist.cpp" line="723"/>
         <source>Show name column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="721"/>
+        <location filename="../playlist.cpp" line="724"/>
         <source>Show length column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="722"/>
+        <location filename="../playlist.cpp" line="725"/>
         <source>Show filename column</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1452"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1917"/>
+        <location filename="../playlist.cpp" line="1925"/>
         <source>Confirm deletion</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1918"/>
+        <location filename="../playlist.cpp" line="1926"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1919"/>
+        <location filename="../playlist.cpp" line="1927"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1937"/>
+        <location filename="../playlist.cpp" line="1945"/>
         <source>Deletion failed</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1938"/>
+        <location filename="../playlist.cpp" line="1946"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1943"/>
+        <location filename="../playlist.cpp" line="1951"/>
         <source>Error deleting the file</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1944"/>
+        <location filename="../playlist.cpp" line="1952"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2401"/>
+        <location filename="../playlist.cpp" line="2417"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2401"/>
+        <location filename="../playlist.cpp" line="2417"/>
         <source>Unrecognized format.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="731"/>
+        <location filename="../playlist.cpp" line="734"/>
         <source>Add...</source>
         <translation>เพิ่ม...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="733"/>
+        <location filename="../playlist.cpp" line="736"/>
         <source>Remove...</source>
         <translation>ถอนออก...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1382"/>
+        <location filename="../playlist.cpp" line="1385"/>
         <source>Playlist modified</source>
         <translation>บัญชีการเล่นได้ถูกปรับเปลี่ยน</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1383"/>
+        <location filename="../playlist.cpp" line="1386"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>มีการเปลี่ยนแปลงที่ยังไม่ได้บันทึก คุณต้องการบันทึกบัญชีการเล่น?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1618"/>
+        <location filename="../playlist.cpp" line="1624"/>
         <source>Multimedia</source>
         <translation>มัลติมีเดีย</translation>
     </message>
@@ -8487,152 +8487,167 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefPlaylist</name>
     <message>
-        <location filename="../prefplaylist.cpp" line="34"/>
+        <location filename="../prefplaylist.cpp" line="38"/>
         <source>Playlist</source>
         <translation>บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="177"/>
+        <location filename="../prefplaylist.cpp" line="191"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>ถ้าใช้ตัวเลือกนี้ ทุกครั้งที่เปิดไฟล์ SMPlayer จะล้างบัญชีการเล่นก่อนแล้วจึงเพิ่มไฟล์เข้าไป ในกรณี DVD CD VCD ทุกหัวเรื่องในดิสก์จะถูกเพิ่มเข้าบัญชีการเล่น.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="46"/>
+        <location filename="../prefplaylist.cpp" line="50"/>
         <source>None</source>
         <translation>ไม่มี</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="47"/>
+        <location filename="../prefplaylist.cpp" line="51"/>
         <source>Video files</source>
         <translation>ไฟล์วิดีโอ</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="48"/>
+        <location filename="../prefplaylist.cpp" line="52"/>
         <source>Audio files</source>
         <translation>ไฟล์เสียง</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="49"/>
+        <location filename="../prefplaylist.cpp" line="53"/>
         <source>Video and audio files</source>
         <translation>ไฟล์วิดีโอและเสียง</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="50"/>
+        <location filename="../prefplaylist.cpp" line="54"/>
         <source>Consecutive files</source>
         <translation>ไฟล์ที่ต่อเนื่องกัน</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="166"/>
+        <location filename="../prefplaylist.cpp" line="180"/>
         <source>Start playback after loading a playlist</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="167"/>
+        <location filename="../prefplaylist.cpp" line="181"/>
         <source>Playback will start just after loading a playlist.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="169"/>
+        <location filename="../prefplaylist.cpp" line="183"/>
         <source>Play next file automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="170"/>
+        <location filename="../prefplaylist.cpp" line="184"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="172"/>
+        <location filename="../prefplaylist.cpp" line="186"/>
         <source>Ignore playback errors</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="176"/>
+        <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="182"/>
+        <location filename="../prefplaylist.cpp" line="196"/>
         <source>Add files from folder</source>
         <translation>เพิ่มไฟล์จากโฟลเดอร์</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="203"/>
+        <location filename="../prefplaylist.cpp" line="217"/>
+        <source>Misc</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="204"/>
+        <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="206"/>
+        <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="207"/>
+        <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="209"/>
+        <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="210"/>
+        <location filename="../prefplaylist.cpp" line="226"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="184"/>
+        <location filename="../prefplaylist.cpp" line="231"/>
+        <source>Enable the option to delete files from disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="232"/>
+        <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.cpp" line="198"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;ไม่มี&lt;/b&gt;: จะไม่มีไฟล์ถูกเพิ่ม</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="185"/>
+        <location filename="../prefplaylist.cpp" line="199"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
         <translation>&lt;b&gt;ไฟล์วิดีโอ&lt;/b&gt;: ทุกไฟล์วิดีโอที่พบในโฟลเดอร์จะถูกเพิ่ม</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="186"/>
+        <location filename="../prefplaylist.cpp" line="200"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
         <translation>&lt;b&gt;ไฟล์เสียง&lt;/b&gt;: ทุกไฟล์เสียงที่พบในโฟลเดอร์จะถูกเพิ่ม</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="187"/>
+        <location filename="../prefplaylist.cpp" line="201"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
         <translation>&lt;b&gt;ไฟล์วิดีโอและเสียง&lt;/b&gt;: ทุกไฟล์วิดีโอและเสียงที่พบในโฟลเดอร์จะถูกเพิ่ม</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="188"/>
+        <location filename="../prefplaylist.cpp" line="202"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
         <translation>&lt;b&gt;ไฟล์ที่ต่อเนื่องกัน&lt;/b&gt;: ไฟล์ที่ต่อเนื่องกัน (เช่น video_1.avi, video_2.avi) จะถูกเพิ่ม</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="161"/>
+        <location filename="../prefplaylist.cpp" line="175"/>
         <source>Play files from start</source>
         <translation>เล่นไฟล์ตั้งแต่เริ่มต้น</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="162"/>
+        <location filename="../prefplaylist.cpp" line="176"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
         <translation>ถ้าใช้งานตัวเลือกนี้ ไฟล์ทั้งหมดจากบัญชีการเล่นจะเริ่มเล่นจากจุดเริ่มต้นแทนที่จะเล่นต่อจากจุดเดิมของการเล่นครั้งก่อน</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="183"/>
+        <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="196"/>
+        <location filename="../prefplaylist.cpp" line="210"/>
         <source>Get info automatically about files added</source>
         <translation>รับข้อมูลอัตโนมัติเกี่ยวกับไฟล์ที่เพิ่ม</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="173"/>
+        <location filename="../prefplaylist.cpp" line="187"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation type="unfinished"></translation>
     </message>
@@ -8642,17 +8657,17 @@ Do you want to overwrite?</source>
         <translation>&amp;บัญชีการเล่น</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="191"/>
+        <location filename="../prefplaylist.cpp" line="205"/>
         <source>Add files in directories recursively</source>
         <translation>เพิ่มไฟล์ในเส้นทางโดยเกี่ยวเนื่องกันไป</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="192"/>
+        <location filename="../prefplaylist.cpp" line="206"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
         <translation>เลือกสิ่งนี้ หากคุณต้องการให้การเพิ่มเส้นทาง ทำการเพิ่มไฟล์ในเส้นทางย่อยๆ ต่อเนื่องกันไปด้วย มิฉะนั้นจะเพิ่มเฉพาะไฟล์ในเส้นทางที่เลือก.</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.cpp" line="197"/>
+        <location filename="../prefplaylist.cpp" line="211"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
         <translation>เลือกสิ่งนี้ เพื่อสอบถามบางข้อมูลของไฟล์ที่ถูกเพิ่ม ซึ่งอนุญาตให้แสดงชื่อเรียก (ถ้ามี) และความยาวไฟล์ มิฉะนั้นข้อมูลเหล่านี้จะไม่มีจนกว่าไฟล์จะถูกเล่นอย่างแท้จริง ระวัง: ตัวเลือกนี้อาจทำให้ช้าได้ โดยเฉพาะอย่างยิ่งหากเพิ่มหลายๆ ไฟล์.</translation>
     </message>
@@ -8707,18 +8722,28 @@ Do you want to overwrite?</source>
         <translation>&amp;รับข้อมูลเกี่ยวกับไฟล์ที่เพิ่มโดยอัตโนมัติ (ช้า)</translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="150"/>
+        <location filename="../prefplaylist.ui" line="164"/>
+        <source>&amp;Misc</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="170"/>
         <source>A&amp;uto sort</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="157"/>
+        <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefplaylist.ui" line="164"/>
+        <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefplaylist.ui" line="191"/>
+        <source>Enable the option to delete files from &amp;disk</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
