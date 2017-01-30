@@ -2,7 +2,7 @@ Name:           smplayer
 Version:        17.1.0
 %global smplayer_themes_ver 16.8.0
 %global smplayer_skins_ver 15.2.0
-%global webfs_ver 1.21
+#%global webfs_ver 1.21
 Release:        1%{?dist}
 Summary:        A great media player
 
@@ -12,7 +12,7 @@ URL:            http://smplayer.sourceforge.net/
 Source0:        http://downloads.sourceforge.net/smplayer/smplayer-%{version}.tar.bz2
 Source3:        http://downloads.sourceforge.net/smplayer/smplayer-themes-%{smplayer_themes_ver}.tar.bz2
 Source4:        http://downloads.sourceforge.net/smplayer/smplayer-skins-%{smplayer_skins_ver}.tar.bz2
-Source5:        https://www.kraxel.org/releases/webfs/webfs-%{webfs_ver}.tar.gz
+#Source5:        https://www.kraxel.org/releases/webfs/webfs-%{webfs_ver}.tar.gz
 
 %if 0%{?suse_version}
 BuildRequires:  hicolor-icon-theme
@@ -81,9 +81,9 @@ pushd smplayer-skins-%{smplayer_skins_ver}
 make
 popd
 
-pushd webfs-%{webfs_ver}
-make
-popd
+#pushd webfs-%{webfs_ver}
+#make
+#popd
 
 %install
 make PREFIX=%{_prefix} DESTDIR=%{buildroot}/ DOC_PATH=%{_docdir}/%{name}/ install
@@ -96,9 +96,9 @@ pushd smplayer-skins-%{smplayer_skins_ver}
 make install PREFIX=%{_prefix} DESTDIR=%{buildroot}
 popd
 
-pushd webfs-%{webfs_ver}
-cp webfsd %{buildroot}/usr/bin/webfsd
-popd
+#pushd webfs-%{webfs_ver}
+#cp webfsd %{buildroot}/usr/bin/webfsd
+#popd
 
 %post
 touch --no-create %{_datadir}/icons/hicolor
@@ -124,7 +124,8 @@ update-desktop-database &> /dev/null || :
 %{_datadir}/smplayer/
 %{_mandir}/man1/smplayer.1.gz
 %{_docdir}/%{name}/
-%{_bindir}/webfsd
+#%{_bindir}/webfsd
+%{_bindir}/simple_web_server
 
 %changelog
 * Thu Feb 25 2016 Ricardo Villalba <rvm@users.sourceforge.net> - 16.1.0
