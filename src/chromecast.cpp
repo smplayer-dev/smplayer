@@ -32,11 +32,7 @@
 //#define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
 
 #if !defined(CHROMECAST_USE_SERVER_WEBFSD) && !defined(CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER)
-  #ifdef Q_OS_WIN
   #define CHROMECAST_USE_SERVER_SIMPLE_WEB_SERVER
-  #else
-  #define CHROMECAST_USE_SERVER_WEBFSD
-  #endif
 #endif
 
 Chromecast * Chromecast::instance_obj = 0;
