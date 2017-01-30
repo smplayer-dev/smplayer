@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>389</width>
-    <height>444</height>
+    <height>467</height>
    </rect>
   </property>
   <layout class="QVBoxLayout">
@@ -145,6 +145,26 @@
         </widget>
        </item>
        <item>
+        <spacer>
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="misc_tab">
+      <attribute name="title">
+       <string>&amp;Misc</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
         <widget class="QCheckBox" name="autosort_check">
          <property name="text">
           <string>A&amp;uto sort</string>
@@ -173,14 +193,14 @@
         </widget>
        </item>
        <item>
-        <spacer>
+        <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
          </property>
          <property name="sizeHint" stdset="0">
           <size>
            <width>20</width>
-           <height>40</height>
+           <height>301</height>
           </size>
          </property>
         </spacer>
@@ -204,6 +224,7 @@
   <tabstop>autosort_check</tabstop>
   <tabstop>case_sensitive_search_check</tabstop>
   <tabstop>autosave_on_exit_check</tabstop>
+  <tabstop>allow_delete_files_check</tabstop>
  </tabstops>
  <resources/>
  <connections>

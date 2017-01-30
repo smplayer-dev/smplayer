@@ -214,6 +214,8 @@ void PrefPlaylist::createHelp() {
         "the file is actually played. Beware: this option can be slow, "
         "specially if you add many files."));
 
+	addSectionTitle(tr("Misc"));
+
 	setWhatsThis(autosort_check, tr("Auto sort"),
 		tr("If this option is enabled the list will be sorted automatically after adding files."));
 
