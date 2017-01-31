@@ -1,3 +1,23 @@
+Version 17.2:
+
+(2017-01-31)
+ * Fix youtube.
+
+(2017-01-30)
+ * Use 'simple_web_server' on Linux as well instead of webfs.
+ * Move some of the options in Preferences -> Playlist to the 'Misc' tab.
+
+(2017-01-28)
+ * Add vtt to the list of extensions for subtitles.
+
+(2017-01-24)
+ * Add the option 'Enable the option to delete files from disk' in
+   Preferences -> Playlist.
+
+(2017-01-22)
+ * Add translation for Norwegian Bokmål.
+
+
 Version 17.1:
 
 (2017-01-05)
