@@ -8563,7 +8563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">기타</translation>
+        <translation>기타</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8598,12 +8598,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크에서 파일 삭제하기 옵션 활성화하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>이것은 재생목록의 우클릭 메뉴에 디스크에서 파일을 삭제하는 옵션을 활성화해 주는 옵션입니다. 실수로 파일을 삭제하지 않도록 이 옵션은 기본적으로 비활성화되어 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8728,7 +8728,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>기타(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8748,7 +8748,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>디스크에서 파일 삭제하기 옵션 활성화하기(&amp;D)</translation>
     </message>
 </context>
 <context>

@@ -1936,10 +1936,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <translation>&amp;Zoom</translation>
     </message>
     <message>
-        <source>Show filename on OSD</source>
-        <translation type="obsolete">Mostrar nombre de fichero en OSD</translation>
-    </message>
-    <message>
         <location filename="../basegui.cpp" line="1701"/>
         <source>Set &amp;A marker</source>
         <translation>Establecer marcador &amp;A</translation>
@@ -2146,10 +2142,6 @@ Se mostrará a continuación el diálogo de configuración.</translation>
         <location filename="../baseguiplus.cpp" line="337"/>
         <source>&amp;Quit</source>
         <translation>&amp;Salir</translation>
-    </message>
-    <message>
-        <source>Playlist</source>
-        <translation type="obsolete">Lista de reproducción</translation>
     </message>
 </context>
 <context>
@@ -4844,11 +4836,6 @@ Do you want to overwrite?</source>
         <translation>Cargar/Grabar</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1455"/>
-        <source>&amp;Copy URL to clipboard</source>
-        <translation>&amp;Copiar la URL al portapapeles</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="1622"/>
         <source>Select one or more files to open</source>
         <translation>Selecciona uno o más ficheros</translation>
@@ -4869,17 +4856,9 @@ Do you want to overwrite?</source>
         <translation>Teclea el nombre que se mostrará en la lista para este fichero:</translation>
     </message>
     <message>
-        <source>&amp;Load</source>
-        <translation type="obsolete">&amp;Cargar</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="672"/>
         <source>Filename / URL</source>
         <translation>Fichero / URL</translation>
-    </message>
-    <message>
-        <source>&amp;Open URL</source>
-        <translation type="obsolete">Abrir &amp;URL</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="677"/>
@@ -4973,10 +4952,6 @@ Do you want to overwrite?</source>
         <translation>Abri&amp;r la carpeta del vídeo</translation>
     </message>
     <message>
-        <source>Play stream in chromec&amp;ast</source>
-        <translation type="obsolete">Reproducir stream en chromec&amp;ast</translation>
-    </message>
-    <message>
         <location filename="../playlist.cpp" line="720"/>
         <location filename="../playlist.cpp" line="740"/>
         <source>Search</source>
@@ -5003,8 +4978,9 @@ Do you want to overwrite?</source>
         <translation>Mostrar columna con el nombre de fichero</translation>
     </message>
     <message>
-        <source>SMPlayer - Playlist</source>
-        <translation type="obsolete">SMPlayer - Lista de reproducción</translation>
+        <location filename="../playlist.cpp" line="1455"/>
+        <source>&amp;Copy URL to clipboard</source>
+        <translation>&amp;Copiar la URL al portapapeles</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1925"/>
@@ -5837,10 +5813,6 @@ Do you want to overwrite?</source>
         <translation>Selecciona el driver de vídeo.</translation>
     </message>
     <message>
-        <source>Add blackborders for subtitles by default</source>
-        <translation type="obsolete">Añadir bordes negros para los subtítulos por defecto</translation>
-    </message>
-    <message>
         <location filename="../prefgeneral.cpp" line="1108"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Si se activa esta opción se añadirán bordes negros a la imagen en los nuevos vídeos que se abran.</translation>
@@ -6005,10 +5977,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.ui" line="308"/>
         <source>S&amp;hut down computer</source>
         <translation>Apagar el &amp;ordenador</translation>
-    </message>
-    <message>
-        <source>Add blac&amp;kborders for subtitles by default</source>
-        <translation type="obsolete">A&amp;ñadir bordes negros para los subtítulos por defecto</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="620"/>
@@ -6639,14 +6607,6 @@ Do you want to overwrite?</source>
         <location filename="../prefgeneral.cpp" line="425"/>
         <source>slower dive mode</source>
         <translation>modo slower dive</translation>
-    </message>
-    <message>
-        <source>uniaud mode</source>
-        <translation type="obsolete">modo uniaud</translation>
-    </message>
-    <message>
-        <source>dart mode</source>
-        <translation type="obsolete">modo dart</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="385"/>
@@ -8536,10 +8496,6 @@ Do you want to overwrite?</source>
         <translation>Lista de reproducción</translation>
     </message>
     <message>
-        <source>Automatically add files to playlist</source>
-        <translation type="obsolete">Añadir automáticamente ficheros a la lista de reproducción</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="191"/>
         <source>If this option is enabled, every time a file is opened, SMPlayer will first clear the playlist and then add the file to it. In case of DVDs, CDs and VCDs, all titles in the disc will be added to the playlist.</source>
         <translation>Si esta opción está activada, cada vez que se abra un fichero, SMPlayer borrará la lista de reproducción y añadirá el fichero a la lista. En caso de DVDs, CDs y VCDs, se añadirán todos los títulos del disco.</translation>
@@ -8650,10 +8606,6 @@ Do you want to overwrite?</source>
         <translation>Esta opción permite activar la opción del menú contextual de la lista de reproducción para borrar ficheros del disco. Para evitar borrados accidentales esta opción está desactivada por defecto.</translation>
     </message>
     <message>
-        <source>This option allows to add files automatically to the playlist:</source>
-        <translation type="obsolete">Esta opción permite añadir ficheros automáticamente a la lista de reproducción:</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="198"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
         <translation>&lt;b&gt;Ninguno:&lt;/b&gt;: no se añadirá ningún fichero</translation>
@@ -8699,18 +8651,6 @@ Do you want to overwrite?</source>
         <translation>Obtener información automáticamente sobre los ficheros añadidos</translation>
     </message>
     <message>
-        <source>Save copy of playlist on exit</source>
-        <translation type="obsolete">Guardar copia de la lista de reproducción al salir</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a copy of the playlist will be saved in the smplayer configuration when smplayer is closed, and it will reloaded automatically when smplayer is run again.</source>
-        <translation type="obsolete">Si se marca esta opción, se guardará una copia de la lista de reproducción en la configuración cuando se cierre el smplayer, y se recargará cuando se vuelva a ejecutar.</translation>
-    </message>
-    <message>
-        <source>Play next file even if the previous file failed</source>
-        <translation type="obsolete">Reproducir el siguiente fichero aunque el anterior hubiera fallado</translation>
-    </message>
-    <message>
         <location filename="../prefplaylist.cpp" line="187"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
         <translation>Si se activa esta opción la lista de reproducción ignorará los errores de reproducción del fichero anterior y continuará con el siguiente fichero de la lista.</translation>
@@ -8719,10 +8659,6 @@ Do you want to overwrite?</source>
         <location filename="../prefplaylist.ui" line="24"/>
         <source>&amp;Playlist</source>
         <translation>&amp;Lista de reproducción</translation>
-    </message>
-    <message>
-        <source>&amp;Automatically add files to playlist</source>
-        <translation type="obsolete">&amp;Añadir automáticamente ficheros a la lista de reproducción</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="205"/>
@@ -8813,14 +8749,6 @@ Do you want to overwrite?</source>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
         <translation>Activar la opción que permite borrar ficheros del &amp;disco</translation>
-    </message>
-    <message>
-        <source>&amp;Save copy of playlist on exit</source>
-        <translation type="obsolete">&amp;Guardar copia de la lista de reproducción al salir</translation>
-    </message>
-    <message>
-        <source>Play &amp;next file even if the previous file failed</source>
-        <translation type="obsolete">Reproducir el siguiente fichero au&amp;nque el anterior hubiera fallado</translation>
     </message>
 </context>
 <context>

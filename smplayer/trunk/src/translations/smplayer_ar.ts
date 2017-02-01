@@ -1996,7 +1996,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغيل في &amp;كروم كاست</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -2949,7 +2949,7 @@ Example: extrastereo,karaoke</source>
         <source>%n subtitle(s) extracted</source>
         <translation>
             <numerusform>لم تُستخرَج أية ترجمة</numerusform>
-            <numerusform>استُخرجت ترجمة وحيدة</numerusform>
+            <numerusform>استُخرجت ترجمة واحدة</numerusform>
             <numerusform>استُخرجت ترجمتان</numerusform>
             <numerusform>استُخرجت %n ترجمات</numerusform>
             <numerusform>استُخرجت %n ترجمةً</numerusform>
@@ -4825,12 +4825,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>تشغيل في &amp;كروم كاست</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>افتح الدف&amp;ق في متصفح انترنت</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="732"/>
@@ -7851,32 +7851,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;كروم كاست</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>خادوم وب</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>ستُطبّق التغييرات في هذا القسم في المرة القادمة التي يُعاد فيها تشغيل خادوم الوب</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>لائحة الم&amp;جلدات</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>آ&amp;ي بي محلي</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>من أجل ايصال وسائط محلية من هذا الحاسوب اى كروم كاست، سيشغّل SMPlayer خادوم وب مصغرا. يمكنك تضبيط بعض الإعدادات هنا.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7995,32 +7995,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>كروم كاست</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>آي بي محلي</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>عنوان الآي بي المحلي لهذا الحاسوب. سيُمرَّر الى كروم كاست ليتمكن من الدخول الى ملفات من هذا الحاسوب.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>المنفذ الضي سيستخدمه خادوم الوب.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>لائحة المجلدات</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>عندما يكون خادوم الوي مشتغلا، فيمكن لأي جهاز في الشبكة الوصول الى ملفات من هذا الحاسوب. اذا كان هذا الخيار ممكّنا فيمكن لأي جهاز الحصول على لائحة بالملفات في هذا الحاسوي. اذا كان هذا الخيار معطلا فلن تكون اللائحة متوفرة.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8565,7 +8565,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">متنوعة</translation>
+        <translation>متنوعة</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8600,12 +8600,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن هذا الخيار لحذف ملفات من القرص</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>يسمح لك هذا الخيار بتمكن خيار حذف ملفات من القرص في قائمة سياق قائمة التشغيل. هذا الخيار معطّل مبدئيا لتجنب الحذف غير المقصود.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8730,7 +8730,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>م&amp;تنوعة</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8750,7 +8750,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>مكّن هذا الخيار لحذف ملفات من القر&amp;ص</translation>
     </message>
 </context>
 <context>

@@ -8010,7 +8010,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Der Port, den der Webserver verwendet.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
@@ -8565,7 +8565,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Sonstiges</translation>
+        <translation>Sonstiges</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8600,7 +8600,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren Sie die Option, um Dateien von der Festplatte zu löschen</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
@@ -8730,7 +8730,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Sonstiges</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8750,7 +8750,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktivieren Sie die Option, um Dateien von der &amp;Festplatte zu löschen</translation>
     </message>
 </context>
 <context>

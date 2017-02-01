@@ -8563,7 +8563,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Outras</translation>
+        <translation>Outras</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8598,12 +8598,12 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar opção para apagar ficheiros do disco</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta opção permite-lhe apagar ficheiros do disco através do menu de contexto em listas de reprodução. para impedir eliminações acidentais, esta definição está inativa.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8728,7 +8728,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Outras</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8748,7 +8748,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Ativar opção para apagar ficheiros do disco</translation>
     </message>
 </context>
 <context>
