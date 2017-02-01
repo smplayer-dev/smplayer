@@ -1009,12 +1009,12 @@ Konfigurasjonsveiviseren vil vises nå, sånn at du kan gjøre det.</translation
     <message>
         <location filename="../basegui.cpp" line="1791"/>
         <source>Seek to next subtitle</source>
-        <translation>Finn frem til neste undertekst</translation>
+        <translation>Spol frem til neste undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1792"/>
         <source>Seek to previous subtitle</source>
-        <translation>Finn frem til forrige undertekst</translation>
+        <translation>Spol frem til forrige undertekst</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1794"/>
@@ -1833,7 +1833,7 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
     <message>
         <location filename="../basegui.cpp" line="4584"/>
         <source>SMPlayer - Seek</source>
-        <translation>SMPlayer - Søk etter</translation>
+        <translation>SMPlayer - Spoling</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4595"/>
@@ -1909,17 +1909,17 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
     <message>
         <location filename="../basegui.cpp" line="1913"/>
         <source>Volume + &amp;Seek</source>
-        <translation>Volum + &amp;Søk</translation>
+        <translation>Volum + &amp;Spoling</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1914"/>
         <source>Volume + Seek + &amp;Timer</source>
-        <translation>Volum + Søk + &amp;Tidsmåler</translation>
+        <translation>Volum + Spoling + &amp;Tidsmåler</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1915"/>
         <source>Volume + Seek + Timer + T&amp;otal time</source>
-        <translation>Volum + Søk + Tidsmåler + T&amp;otal varighet</translation>
+        <translation>Volum + Spoling + Tidsmåler + T&amp;otal varighet</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1591"/>
@@ -2308,7 +2308,7 @@ SMPlayer fungerer ikke bra med den: noen innstillinger kan ikke brukes, undertek
     <message>
         <location filename="../core.cpp" line="4047"/>
         <source>Mouse wheel seeks now</source>
-        <translation>Musehjulet søker nå</translation>
+        <translation>Musehjulet spoler nå</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4050"/>
@@ -4650,7 +4650,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../skingui/mediapanel.ui" line="13"/>
         <source>MediaPanel</source>
-        <translation>Mediapanel</translation>
+        <translation>Mediepanel</translation>
     </message>
 </context>
 <context>
@@ -4681,7 +4681,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="151"/>
         <source>Seek bar</source>
-        <translation>Søkelinje</translation>
+        <translation>Spoleelinje</translation>
     </message>
     <message>
         <location filename="../mpcgui/mpcgui.cpp" line="463"/>
@@ -5449,7 +5449,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="455"/>
         <source>Rebuilds index of files if no index was found, allowing seeking. Useful with broken/incomplete downloads, or badly created files. This option only works if the underlying media supports seeking (i.e. not with stdin, pipe, etc).&lt;br&gt; &lt;b&gt;Note:&lt;/b&gt; the creation of the index may take some time.</source>
-        <translation>Gjenoppbygger filindekser dersom ingen indekser ble funnet, noe som tillater søking. Nyttig for ødelagte eller ufullførte nedlastinger, eller dårlig skapte filer. Denne innstillingen fungerer bare hvis det underliggende mediet støtter søking (altså ikke med stdin, pipe, osv.)&lt;br&gt; &lt;b&gt;Bemerk&lt;/b&gt; at opprettingen av indeksen kan ta litt tid.</translation>
+        <translation>Gjenoppbygger filindekser dersom ingen indekser ble funnet, noe som tillater hopping. Nyttig for ødelagte eller ufullførte nedlastinger, eller dårlig skapte filer. Denne innstillingen fungerer bare hvis det underliggende mediet støtter søking (altså ikke med stdin, pipe, osv.)&lt;br&gt; &lt;b&gt;Bemerk&lt;/b&gt; at opprettingen av indeksen kan ta litt tid.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="128"/>
@@ -5547,7 +5547,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefassociations.ui" line="38"/>
         <source>Media files handled by SMPlayer:</source>
-        <translation>Mediafiler som håndteres av SMPlayer:</translation>
+        <translation>Mediefiler som håndteres av SMPlayer:</translation>
     </message>
     <message>
         <location filename="../prefassociations.ui" line="91"/>
@@ -6172,7 +6172,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for lyd og undertekster. Når et media med flere lydspor eller undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation>Her kan du skrive inn ditt foretrukne språk for lyd og undertekster. Når et medie med flere lydspor eller undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6371,12 +6371,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for lyden. Når et media med flere lydspor blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation>Her kan du skrive inn ditt foretrukne språk for lyden. Når et medie med flere lydspor blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1248"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for undertekstene. Når et media med flere undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation>Her kan du skrive inn ditt foretrukne språk for undertekstene. Når et medie med flere undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -6656,7 +6656,7 @@ Vil du overskrive den?</translation>
         <location filename="../prefinput.cpp" line="149"/>
         <location filename="../prefinput.cpp" line="416"/>
         <source>Media seeking</source>
-        <translation>Mediaoppsøker</translation>
+        <translation>Spoling frem/tilbake</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="150"/>
@@ -7027,7 +7027,7 @@ Vil du overskrive den?</translation>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation>Søking og volum</translation>
+        <translation>Spoling og volum</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
@@ -7083,7 +7083,7 @@ Vil du overskrive den?</translation>
         <location filename="../prefinput.ui" line="435"/>
         <location filename="../prefinput.cpp" line="155"/>
         <source>Media &amp;seeking</source>
-        <translation>Media&amp;oppsøker</translation>
+        <translation>&amp;Spoling frem/tilbake</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
@@ -7111,7 +7111,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation>Velg dette for å aktivere søking som én funksjon.</translation>
+        <translation>Velg dette for å aktivere spoling som én funksjon.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="420"/>
@@ -7141,17 +7141,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation>Baklengs musehjulsøk</translation>
+        <translation>Baklengs musehjulsspoling</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="412"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation>Velg dette for å aktivere søke i motsatt retning.</translation>
+        <translation>Velg dette for å spole i motsatt retning.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="389"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation>B&amp;aklengs musehjulsøk</translation>
+        <translation>B&amp;aklengs musehjulsspoling</translation>
     </message>
 </context>
 <context>
@@ -7307,12 +7307,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="516"/>
         <source>Seek to position while dragging</source>
-        <translation>Søk frem til posisjon når du drar den</translation>
+        <translation>Spol frem til en posisjon når du drar musen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="521"/>
         <source>Seek to position when released</source>
-        <translation>Søk frem til posisjon når den blir sluppet</translation>
+        <translation>Spol frem til en posisjon når musen blir sluppet</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
@@ -7387,17 +7387,17 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="434"/>
         <source>&amp;Seeking</source>
-        <translation>&amp;Søking</translation>
+        <translation>&amp;Spoling</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="556"/>
         <source>&amp;Absolute seeking</source>
-        <translation>&amp;Absolutt søking</translation>
+        <translation>&amp;Absolutt spoling</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="569"/>
         <source>&amp;Relative seeking</source>
-        <translation>&amp;Relativ søking</translation>
+        <translation>&amp;Relativ spoling</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="614"/>
@@ -7542,7 +7542,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="796"/>
         <source>Seeking</source>
-        <translation>Søking</translation>
+        <translation>Spoling</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="798"/>
@@ -7665,12 +7665,12 @@ Vil du overskrive den?</translation>
         <location filename="../prefinterface.ui" line="544"/>
         <location filename="../prefinterface.cpp" line="818"/>
         <source>Seeking method</source>
-        <translation>Søkemetode</translation>
+        <translation>Spolemetode</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="819"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation>Velger metoden som skal brukes ved søking med glideren. Absolutt søking kan være bittelitt mer nøyaktig, mens relativ søking kan fungere bedre med filer som har feil tidslengde.</translation>
+        <translation>Velger metoden som skal brukes ved søking med glideren. Absolutt spoling kan være bittelitt mer nøyaktig, mens relativ søking kan fungere bedre med filer som har feil tidslengde.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="830"/>
@@ -7802,12 +7802,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
         <source>Precise seeking</source>
-        <translation>Nøyaktig søking</translation>
+        <translation>Nøyaktig spoling</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="825"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation>Hvis denne innstillingen er valgt, er søkene mer nøyaktige, men de være litt tregere. Det kan kanskje ikke virke med noen videoformater.</translation>
+        <translation>Hvis denne innstillingen er valgt, vil spolehoppene være mer nøyaktige, men de kan være litt tregere. Det kan kanskje ikke virke med noen videoformater.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
@@ -7817,7 +7817,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
         <source>&amp;Precise seeking</source>
-        <translation>&amp;Nøyaktig søking</translation>
+        <translation>&amp;Nøyaktig spoling</translation>
     </message>
 </context>
 <context>
@@ -8215,7 +8215,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="318"/>
         <source>Fast &amp;seek to chapters in dvds</source>
-        <translation>Hurtig&amp;søk frem til kapitler i DVDer</translation>
+        <translation>Hurtig&amp;spol frem til kapitler i DVDer</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="355"/>
@@ -8225,12 +8225,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="366"/>
         <source>Fast seek to chapters in dvds</source>
-        <translation>Hurtigsøk frem til kapitler i DVDer</translation>
+        <translation>Hurtigspol frem til kapitler i DVDer</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="367"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
-        <translation>Hvis dette er valgt, vil den prøve med den raskeste metoden å søke etter kapitler med, men det kan kanskje ikke fungere med noen disker.</translation>
+        <translation>Hvis dette er valgt, vil den prøve med den raskeste metoden å spole etter kapitler med, men det kan kanskje ikke fungere med noen disker.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="333"/>
@@ -8275,7 +8275,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="385"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
-        <translation>Denne innstillingen bestemmer hvor mye minne (i kiloBytes) som skal brukes ved før-mellomlagring av en DVD.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Søking kan kanskje ikke fungere riktig (inkludert under kapittelbytte) når du bruker et mellomlager for DVDer.</translation>
+        <translation>Denne innstillingen bestemmer hvor mye minne (i kiloBytes) som skal brukes ved før-mellomlagring av en DVD.&lt;br&gt;&lt;b&gt;Advarsel:&lt;/b&gt; Spoling kan kanskje ikke fungere riktig (inkludert under kapittelbytte) når du bruker et mellomlager for DVDer.</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="339"/>
@@ -8564,7 +8564,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Annet</translation>
+        <translation>Diverse</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8579,7 +8579,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
-        <translation>Søk med forskjell på stor/små bokstav</translation>
+        <translation>Søk med forskjell på stor/liten bokstav</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
@@ -8599,12 +8599,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiver muligheten til å slette filer fra harddisken</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Denne innstillingen gjør at du aktivere muligheten til å slette filer fra disken i en spillelistes nedfallsmeny. For å hindre at ting blir slettet ved et uhell, er denne innstillingen deaktivert som standard.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8729,7 +8729,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Diverse</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8739,7 +8739,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation>Sø&amp;k med forskjell på stor/små bokstav</translation>
+        <translation>Sø&amp;k med forskjell på stor/liten bokstav</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
@@ -8749,7 +8749,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Aktiver muligheten til å slette filer fra &amp;harddisken</translation>
     </message>
 </context>
 <context>

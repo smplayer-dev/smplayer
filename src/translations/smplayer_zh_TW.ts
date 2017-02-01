@@ -8568,7 +8568,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">雜項</translation>
+        <translation>雜項</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8603,12 +8603,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用從硬碟中刪除檔案的選項</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>此選項讓您可以在播放清單的右鍵選單中啟用從硬碟中刪除檔案的選項。為避免意外的刪除，此選項預設是停用的。</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8733,7 +8733,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>雜項(&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8753,7 +8753,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>啟用從硬碟中刪除檔案的選項(&amp;D)</translation>
     </message>
 </context>
 <context>

@@ -8563,7 +8563,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Misc</translation>
+        <translation>Miscelânea</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8598,12 +8598,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar a opção de deletar arquivos do HD</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Isso ativa a opção de deletar arquivos do HD através do menu de contexto da lista de reprodução. Essa opção vem desabilitada para prevenir exclusões acidentais.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8728,7 +8728,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Miscelânea</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8748,7 +8748,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar a opção de &amp;deletar arquivos do HD</translation>
     </message>
 </context>
 <context>

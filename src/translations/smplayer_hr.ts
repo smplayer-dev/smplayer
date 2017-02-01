@@ -8564,7 +8564,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Ostalo</translation>
+        <translation>Ostalo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8599,12 +8599,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogući mogućnost brisanja datoteka s diska</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ova mogućnost vam omogućuje brisanje datoteka s diska iz izbornika popisa izvođenja. Kako bi spriječili slučajno brisanje ova mogućnost je onemogućena  po zadanome.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8729,7 +8729,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ostalo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8749,7 +8749,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Omogući mogućnost brisanja datoteka s &amp;diska</translation>
     </message>
 </context>
 <context>

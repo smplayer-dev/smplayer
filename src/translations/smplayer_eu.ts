@@ -8563,7 +8563,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Askotarikoa</translation>
+        <translation>Askotarikoa</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8598,12 +8598,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu agiriak diskatik ezabatzeko aukera</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera honek irakur-zerrendako hitzinguru menuaren bidez agiriak diskatik ezabatzeko aukera ematen dizu. Nahigabeko ezabatzeak saihesteko aukera hau ezgaituta dago berez.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8728,7 +8728,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;skotarikoa</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8748,7 +8748,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Gaitu agiriak &amp;diskatik ezabatzeko aukera</translation>
     </message>
 </context>
 <context>

@@ -5093,7 +5093,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;መመልከቻ ማነፃፀሪያ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
@@ -5143,7 +5143,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="451"/>
         <source>Monitor aspect</source>
-        <translation type="unfinished"></translation>
+        <translation>መመልከቻ ማነፃፀሪያ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
@@ -5348,7 +5348,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="522"/>
         <source>If you check this option, the %1 video window won&apos;t be embedded in SMPlayer&apos;s main window but instead it will use its own window. Note that mouse and keyboard events will be handled directly by %1, that means key shortcuts and mouse clicks probably won&apos;t work as expected when the %1 window has the focus.</source>
-        <translation type="unfinished"></translation>
+        <translation>እዚህ ምርጫ ላይ ምልክት ካደረጉ የ %1 ቪዲዮ መስኮት አይጣበቅም በ  SMPlayer&apos;s ዋና መስኮት ላይ ነገር ግን የ ራሱን መስኮት ይጠቀማል: ማስታወሻ: የ አይጥ መጠቆሚያ እና የ ፊደል ገበታ ሁኔታዎች የሚያዙት በ  %1, ይህ ማለት አቋራጭ ቁልፎች እና በ አይጥ ሲጫኑ በ ትክክል ላይሰሩ ይችላሉ: ይህ  %1 መስኮት ትኩረት ሲኖረው:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5378,7 +5378,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="473"/>
         <source>Switches %1 to an experimental mode where timestamps for video frames are calculated differently and video filters which add new frames or modify timestamps of existing ones are supported. The more accurate timestamps can be visible for example when playing subtitles timed to scene changes with the SSA/ASS library enabled. Without correct pts the subtitle timing will typically be off by some frames. This option does not work correctly with some demuxers and codecs.</source>
-        <translation type="unfinished"></translation>
+        <translation>መቀየሪያ %1 ወደ መሞከሪያ ዘዴ የ ሰአት ማህተም ለ ቪዲዮ ክፈፎች የሚሰሉበት እና ቪዲዮ ማጣሪያ የሚጨመርበት ወደ አዲስ ክፈፎች ወይንም የ ሰአት ማህተም የሚሻሻልበት: ለ ነበረው እና ለሚደገፈው: ተጨማሪ የ ሰአት ማህተም ይታያል ለምሳሌ: እርስዎ ንዑስ አርእስት በሚያጫውቱ ጊዜ: ጊዜ የ ተሰጠውን በሚያዩ ጊዜ: በ SSA/ASS መጽሀፍት ቤት አስችለው: ያለ ትክክለኛ ነጥብ የ ንዑስ አርእስት ጊዜ ከ መስመር ውጪ ይሆናል: በ አንዳንድ ክፈፎች ውስጥ: ይህ ምርጫ በ ትክክል አይሰራም በ አንዳንድ demuxers and codecs. ውስጥ</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="482"/>
@@ -5482,7 +5482,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="495"/>
         <source>If this option is enabled, information from tags will be shown in window title. Otherwise only the filename will be shown.</source>
-        <translation type="unfinished"></translation>
+        <translation>በዚህ ምርጫ ላይ ምልክት ከ ተደረገ መረጃ ከ tags መስኮት አርእስት ላይ ይታያል: ያለ በለዚያ የ ፋይል ስም ብቻ ይታያል</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="198"/>
@@ -5784,7 +5784,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 ለ ቪዲዮ የ ፋይል ስም መወሰኛ ያለ ተጨማሪ: %2 ይጨምራል የ 4 አሀዝ ቁጥር በ ዜሮ የ ተከበበ</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
@@ -6040,7 +6040,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="938"/>
         <source>Volume &amp;normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>መጠን &amp;መደበኛ በ ነባር</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1070"/>
@@ -6100,7 +6100,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.cpp" line="1225"/>
         <source>Volume normalization by default</source>
-        <translation type="unfinished"></translation>
+        <translation>መጠን መደበኛ በ ነባር</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1226"/>
@@ -7280,7 +7280,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
         <source>R&amp;emember position and size</source>
-        <translation type="unfinished"></translation>
+        <translation>ቦታ እና መጠን ያ&amp;ስታውሳል</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
@@ -7345,7 +7345,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="931"/>
         <source>&amp;Remember last directory</source>
-        <translation type="unfinished"></translation>
+        <translation>የ መጨረሻውን ዳይሬክቶሪ &amp;ያስታውሳል</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
@@ -7627,7 +7627,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="869"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; ተንሳፋፊ መቆጣጠሪያ አልተፈጠረም ለ አነስተኛ ዘዴ እና በ ትክክል ላይሰራ ይችላል</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
@@ -7637,7 +7637,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="873"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"></translation>
+        <translation>ጊዜ ማሰናጃ (በ ሚሊ ሰከንዶች) መቆጣጠሪያውን ለ መደበቅ የ አይጥ መጠቆሚያ ከ መቆጣጠሪያው ላይ ከሄደ በኋላ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="882"/>
@@ -7647,7 +7647,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይምረጡ ከፍተኛ ቁጥር እቃዎች ለ &lt;b&gt;መክፈቻ-&gt;URL&lt;/b&gt; ንግግር ያስታውሳል: ወደ 0 ያሰናዱ እርስዎ ካልፈለጉ ማንኛውንም URL እንዲቀመጥ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="887"/>
@@ -7657,7 +7657,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="888"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህ ምርጫ ከ ተመረጠ: SMPlayer ያስታውሳል የ መጨረሻ ፎልደር እርስዎ የ ተጠቀሙትን ፋይል ለ መክፈት</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
@@ -7683,12 +7683,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="840"/>
         <source>Use only one running instance of SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>አንድ ብቻ የሚሄድ ሁኔታ ይጠቀሙ ለ SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="841"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህን ምርጫ ይምረጡ: እርስዎ ከ ፈለጉ መጠቀም ሁሉንም የሚሄዱ ሁኔታዎች በ SMPlayer ሌሎች ፋይሎች በሚከፈቱ ጊዜ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="230"/>
@@ -7718,7 +7718,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="848"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህ ምርጫ ከ ተመረጠ: የሚቀጥለው መቆጣጠሪያ ይታያል በ እንቅስቃሴ ውስጥ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="851"/>
@@ -7728,7 +7728,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="852"/>
         <source>Specifies the width of the control (as a percentage).</source>
-        <translation type="unfinished"></translation>
+        <translation>የ መቆጣጠሪያ ስፋት መወሰኛ (እንደ ፐርሰንት).</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="854"/>
@@ -7785,7 +7785,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ቪዲዮ መስኮት መደበቂያ የ ድምፅ ፋይሎች በሚጫወት ጊዜ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
@@ -7795,7 +7795,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ቪዲዮ መስኮት &amp;መደበቂያ የ ድምፅ ፋይሎች በሚጫወት ጊዜ</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
@@ -7810,7 +7810,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
         <source>Note: this option only works with MPlayer2</source>
-        <translation type="unfinished"></translation>
+        <translation>ምርጫው የሚሰራው ለ MPlayer2. ብቻ ነው</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="592"/>
@@ -7833,17 +7833,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ዩቲዩብ  (እና ሌሎች ድህረ ገጾች)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>ድጋፍ ለ &amp;ቪዲዮ ድህረ ገጾች:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>ምርጫ ለ ዩቲዩብ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
@@ -7853,7 +7853,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ዌብ ሰርቨር</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
@@ -7952,7 +7952,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="214"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>ዩቲዩብ</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="216"/>
@@ -8527,12 +8527,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="180"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ማጫወቻ ዝርዝር ጭኖ ከ ጨረሰ በኋላ መልሶ ማጫወቻ ማስጀመሪያ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="181"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ማጫወቻ ዝርዝር ጭኖ ከ ጨረሰ በኋላ መልሶ ማጫወቻ ይጀምራል</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
@@ -8547,12 +8547,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="186"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>የ መልሶ ማጫወቻ ስህተቶችን መተው</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>ራሱ በራሱ ፋይሎች ወደ ማጫወቻ ዝርዝር መጨመሪያ </translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8562,7 +8562,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">የተለያዩ</translation>
+        <translation>የተለያዩ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8607,32 +8607,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ምንም&lt;/b&gt;: ምንም ፋይል አልተጨመረም</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="199"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;የ ቪዲዮ ፋይሎች&lt;/b&gt;: ሁሉም የ ቪዲዮ ፋይሎች በ ፎልደር ውስጥ የ ተገኙ ይጨመራሉ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;የ ድምፅ ፋይሎች&lt;/b&gt;: ሁሉም የ ድምፅ ፋይሎች በ ፎልደር ውስጥ የ ተገኙ ይጨመራሉ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="201"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;የ ቪዲዮ እና የ ድምፅ ፋይሎች&lt;/b&gt;: ሁሉም የ ቪዲዮ እና የ ድምፅ ፋይሎች በ ፎልደር ውስጥ የ ተገኙ ይጨመራሉ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="202"/>
         <source>&lt;b&gt;Consecutive files&lt;/b&gt;: consecutive files (like video_1.avi, video_2.avi) will be added</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;b&gt;ተከታታይ ፋይሎች&lt;/b&gt;: ተከታታይ ፋይሎች (እንደ ቪዲዮ_1.avi, ቪዲዮ_2.avi) ይጨመራል</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="175"/>
         <source>Play files from start</source>
-        <translation type="unfinished"></translation>
+        <translation>ፋይሎች ከ መጀመሪያው ጀምሮ ማጫወቻ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
@@ -8647,7 +8647,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"></translation>
+        <translation>ስለ ተጫኑት ፋይሎች ራሱ በራሱ መረጃ ፈልጎ ማግኛ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="187"/>
@@ -8662,7 +8662,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="205"/>
         <source>Add files in directories recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>ፋይሎች በ ተከታታይ ወደ ዳይሬክቶሪ ውስጥ መጨመሪያ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
@@ -8677,7 +8677,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
         <source>Add files from &amp;folder:</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ ፎልደር ውስጥ ፋይሎች መጨመሪያ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
@@ -8687,22 +8687,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>በ ድጋሚ ማጫወቻ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ማጫወቻ ዝርዝር ጭኖ ከ ጨረሰ በኋላ መልሶ ማጫወቻ ማ&amp;ስጀመሪያ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>የሚቀጥለውን ፋይል ራሱ በራሱ ማጫወ&amp;ቻ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>የ መልሶ ማጫወቻ ስህተቶችን መተ&amp;ው</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8717,7 +8717,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation type="unfinished"></translation>
+        <translation>ፋይሎች በ &amp;ተከታታይ ወደ ዳይሬክቶሪ ውስጥ መጨመሪያ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
@@ -8727,7 +8727,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;የተለያዩ</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8747,7 +8747,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ ዲስክ ላይ ፋይሎች &amp;ማጥፊያ ማስቻያ</translation>
     </message>
 </context>
 <context>
@@ -8777,7 +8777,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subs containing movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>ሁሉም ንዑሶች የ ሙቪ ስም የያዙ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
@@ -8809,7 +8809,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="51"/>
         <source>Au&amp;toload subtitles files (*.srt, *.sub...):</source>
-        <translation type="unfinished"></translation>
+        <translation>በራሱ&amp;መጫኛ የ ንዑስ አርእስቶች ፋይሎች (*.srt, *.sub...):</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="64"/>
@@ -8829,7 +8829,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="388"/>
         <source>Select first available subtitle</source>
-        <translation type="unfinished"></translation>
+        <translation>ይምረጡ ዝግጁ የ መጀመሪያውን ንዑስ አርእስት</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="394"/>
@@ -8839,7 +8839,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="410"/>
         <source>Include subtitles on screenshots</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ንዑስ አርእስቶች ያካትታል በ መመልከቻ ፎቶ ማንሻ ላይ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="464"/>
@@ -8849,7 +8849,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="465"/>
         <source>Select the color for the text of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይምረጡ ቀለም ለ ንዑስ አርእስቶች ጽሁፍ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="467"/>
@@ -8859,7 +8859,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="468"/>
         <source>Select the color for the border of the subtitles.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይምረጡ ቀለም ለ ንዑስ አርእስቶች ድንበር</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="386"/>
@@ -8879,7 +8879,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="398"/>
         <source>Try to autodetect for this language</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህን ቋንቋ በራሱ ፈልጎ ማግኛ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
@@ -8941,7 +8941,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>The size in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>መጠኑ በ ፒክስል</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
@@ -8971,7 +8971,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ግራ መስመር በ ፒክስል መወሰኛ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
@@ -8981,7 +8981,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ቀኝ መስመር በ ፒክስል መወሰኛ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
@@ -8991,7 +8991,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ቁመት መስመር በ ፒክስል መወሰኛ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
@@ -9001,7 +9001,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="483"/>
         <source>Specifies the horizontal alignment. Possible values are left, centered and right.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ አግድም ማሰለፊያ መወሰኛ: የ ሚቻሉት ዋጋዎች በ ግራ: መሀከል: እና በ ቀኝ ነው</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="486"/>
@@ -9106,7 +9106,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="679"/>
         <source>&amp;Outline:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;ረቂቅ:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="699"/>
@@ -9168,7 +9168,7 @@ Do you want to overwrite?</source>
         <location filename="../prefsubtitles.cpp" line="120"/>
         <source>Outline</source>
         <comment>border style</comment>
-        <translation type="unfinished">ረቂቅ</translation>
+        <translation>ረቂቅ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="121"/>
@@ -9204,7 +9204,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"></translation>
+        <translation>ነባር መመጠኛ:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
@@ -9214,7 +9214,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
         <source>Line spacing</source>
-        <translation type="unfinished"></translation>
+        <translation>የ መስመር ክፍተት:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="445"/>
@@ -9239,12 +9239,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="418"/>
         <source>Freetype support</source>
-        <translation type="unfinished"></translation>
+        <translation>ነፃ አይነት የ ተደገፈ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="237"/>
         <source>Freet&amp;ype support</source>
-        <translation type="unfinished"></translation>
+        <translation>ነፃ አ&amp;ይነት የ ተደገፈ</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
@@ -9259,7 +9259,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"></translation>
+        <translation>እዚህ እርስዎ ማስተካከያ ማስገባት ይችላሉ SSA/ASS style.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
@@ -9289,7 +9289,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="762"/>
         <source>Custo&amp;mize...</source>
-        <translation type="unfinished"></translation>
+        <translation>ማስተ&amp;ካከያ...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="503"/>
@@ -9312,27 +9312,27 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preftv.cpp" line="54"/>
         <source>Lowpass5</source>
-        <translation type="unfinished">&amp;አነስተኛ ማለፊያ5</translation>
+        <translation>አነስተኛ ማለፊያ5</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="55"/>
         <source>Yadif (normal)</source>
-        <translation type="unfinished">Yadif (መደበኛ)</translation>
+        <translation>Yadif (መደበኛ)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="56"/>
         <source>Yadif (double framerate)</source>
-        <translation type="unfinished">Yadif (ድርብ የ ክፈፍ መጠን)</translation>
+        <translation>Yadif (ድርብ የ ክፈፍ መጠን)</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="57"/>
         <source>Linear Blend</source>
-        <translation type="unfinished">ቀጥተኛ ማዋሀጃ</translation>
+        <translation>ቀጥተኛ ማዋሀጃ</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="58"/>
         <source>Kerndeint</source>
-        <translation type="unfinished">Kerndeint</translation>
+        <translation>Kerndeint</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="105"/>
@@ -9507,12 +9507,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="154"/>
         <source>the video will be played in fullscreen mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>ሁሉም ቪዲዮዎች በ ሙሉ ዘዴ ውስጥ ይጫወታሉ</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="157"/>
         <source>the video will be played in window mode.</source>
-        <translation type="unfinished"></translation>
+        <translation>ቪዲዮዎች በ መስኮት ዘዴ ውስጥ ይጫወታል</translation>
     </message>
     <message>
         <location filename="../winfileassoc.cpp" line="254"/>
@@ -9563,7 +9563,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../clhelp.cpp" line="166"/>
         <source>specifies the subtitle file to be loaded for the first video.</source>
-        <translation type="unfinished"></translation>
+        <translation>ለ መጀመሪያው ቪዲዮ የሚጫነውን የ ንዑስ አርእስት ፋይል መወሰኛ</translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="101"/>
@@ -9693,7 +9693,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation type="unfinished">በ PayPal ይለግሱ</translation>
+        <translation>በ PayPal ይለግሱ</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
@@ -9726,7 +9726,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation type="unfinished"></translation>
+        <translation>ይለግሱ / SMPlayer ከ ጓደኞቾ ጋር ይጋሩ</translation>
     </message>
 </context>
 <context>
@@ -9744,7 +9744,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="294"/>
         <source>Press the key combination you want to assign</source>
-        <translation type="unfinished"></translation>
+        <translation>እርስዎ መመደብ የሚፈልጉትን የ ቁልፍ ጥምረጥ ይጫኑ</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="280"/>
@@ -9759,7 +9759,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shortcutgetter.cpp" line="312"/>
         <source>Capture</source>
-        <translation type="unfinished"></translation>
+        <translation>መያዣ</translation>
     </message>
     <message>
         <location filename="../shortcutgetter.cpp" line="313"/>
@@ -9782,12 +9782,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>The computer will shut down in %1 seconds.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህ ኮምፒዩተር ይጠፋል በ %1 ሰከንዶች ውስጥ</translation>
     </message>
     <message>
         <location filename="../shutdowndialog.cpp" line="42"/>
         <source>Press &lt;b&gt;Cancel&lt;/b&gt; to abort shutdown.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይጫኑ &lt;b&gt;መሰረዣ&lt;/b&gt; ማጥፋቱን ለ መተው</translation>
     </message>
 </context>
 <context>
@@ -9883,22 +9883,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>
         <source>Above-below (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ ላይ-ከ ታች በኩል (በ ግራ አይን: በ ቀኝ አይን ከ ታች በኩል)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="32"/>
         <source>Above-below (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ ላይ-ከ ታች በኩል (በ ቀኝ አይን: በ ግራ አይን: ከ ታች በኩል)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="33"/>
         <source>Above-below with half height resolution (left eye above, right eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ ላይ-ከ ታች በ ግማሽ ዐርዝመት ሪዝፕሊሽን (በ ግራ አይን ከ ላይ: በ ቀኝ አይን ከ ታች በኩል)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="34"/>
         <source>Above-below with half height resolution (right eye above, left eye below)</source>
-        <translation type="unfinished"></translation>
+        <translation>ከ ላይ-ከ ታች በ ግማሽ ዐርዝመት ሪዝፕሊሽን (በ ቀኝ አይን ከ ላይ: በ ግራ አይን ከ ታች በኩል)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="41"/>
@@ -10512,7 +10512,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="46"/>
         <source>This option specifies the number of rows of the table.</source>
-        <translation type="unfinished"></translation>
+        <translation>ይህ ምርጫ በ ሰንጠረዥ ውስጥ ምን ያህል ረድፍ እንደሚኖር ይወስናል</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="47"/>
@@ -10557,7 +10557,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="44"/>
         <source>Enter here the DVD device or a folder with a DVD image.</source>
-        <translation type="unfinished"></translation>
+        <translation>የ ዲቪዲ አካል ወይንም ዲቪዲ የያዘውን ፎልደር እዚህ ይስገቡ:</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="39"/>
