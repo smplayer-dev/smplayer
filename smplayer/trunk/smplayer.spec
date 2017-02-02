@@ -50,7 +50,8 @@ played file, so when you play it later it will be resumed at the same point
 and with the same settings.
 
 %prep
-%setup -a3 -a4 -a5 -qn %{name}-%{version}
+#%setup -a3 -a4 -a5 -qn %{name}-%{version}
+%setup -a3 -a4 -qn %{name}-%{version}
 
 # correction for wrong-file-end-of-line-encoding
 %{__sed} -i 's/\r//' *.txt
