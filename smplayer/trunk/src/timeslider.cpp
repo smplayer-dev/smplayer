@@ -162,9 +162,9 @@ void TimeSlider::wheelEvent(QWheelEvent * e) {
 bool TimeSlider::event(QEvent *event) {
 	if (event->type() == QEvent::ToolTip) {
 		QHelpEvent * help_event = static_cast<QHelpEvent *>(event);
-		//qDebug() << "TimeSlider::event: total_time:" << total_time << "x:" << help_event->x();
-		int pos_in_slider = help_event->x() * maximum() / width();
-		int time = pos_in_slider * total_time / maximum();
+		//qDebug() << "TimeSlider::event: x:" << help_event->x() << "maximum:" << maximum() << "width:" << width() << "total_time:" << total_time;
+		qreal perc = help_event->x() * 100 / width();
+		qreal time = perc * total_time / 100;
 		//qDebug() << "TimeSlider::event: time:" << time;
 		if (time >= 0 && time <= total_time) {
 			QToolTip::showText(help_event->globalPos(), Helper::formatTime(time), this);
