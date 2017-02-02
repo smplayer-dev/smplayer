@@ -3,7 +3,7 @@ smplayer (17.2.0) precise; urgency=low
   * Fix for YouTube.
   * The option to delete files from the disk in the playlist is back but
     it's disabled by default (you can enable it in Preferences -> Playlist
-    -> Misc.
+    -> Misc).
   * On Linux SMPlayer now uses a different web server (included in the
     package) to serve files for Chromecast. If you installed the package
     webfs you can uninstall it now since SMPlayer won't use it anymore.
