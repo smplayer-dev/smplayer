@@ -437,7 +437,7 @@ contains( DEFINES, YOUTUBE_SUPPORT ) {
 
 	contains( DEFINES, YT_USE_SCRIPT ) {
 		DEFINES += YT_USE_SIG
-		DEFINES += YT_USE_YTSIG
+		#DEFINES += YT_USE_YTSIG
 		QT += script
 	}
 
