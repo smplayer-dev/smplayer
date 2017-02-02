@@ -149,7 +149,7 @@ void Chromecast::openLocal(const QString & file, const QString & title, const QS
 
 		#if 1
 		QDesktopServices::openUrl(QUrl(URL_CHROMECAST "/?title=" + title.toUtf8().toBase64() +
-			"&url=" + url.toUtf8().toBase64() + "&subtitles=" + sub_url.toUtf8().toBase64()));
+			"&url=" + url.toUtf8().toBase64() /* + "&subtitles=" + sub_url.toUtf8().toBase64() */));
 		#endif
 	}
 }
