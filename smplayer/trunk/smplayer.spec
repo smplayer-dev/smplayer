@@ -1,5 +1,5 @@
 Name:           smplayer
-Version:        17.1.0
+Version:        17.2.0
 %global smplayer_themes_ver 16.8.0
 %global smplayer_skins_ver 15.2.0
 #%global webfs_ver 1.21
