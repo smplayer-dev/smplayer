@@ -1079,6 +1079,12 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 	writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(filter));
 }
 
+#define SUBOPTION(name, alternative1, alternative2) \
+	QString name; \
+	if (isOptionAvailable(alternative1)) name = alternative1; \
+	else \
+	if (isOptionAvailable(alternative2)) name = alternative2;
+
 void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString sub_font = "--sub-text-font";
 	if (isOptionAvailable("--sub-font")) sub_font = "--sub-font";
@@ -1101,10 +1107,9 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString sub_shadow_offset = "--sub-text-shadow-offset";
 	if (isOptionAvailable("--sub-shadow-offset")) sub_shadow_offset = "--sub-shadow-offset";
 	
-	QString sub_font_size;
-	if (isOptionAvailable("--sub-text-font-size")) sub_font_size = "--sub-text-font-size";
-	else
-	if (isOptionAvailable("--sub-font-size")) sub_font_size = "--sub-font-size";
+	SUBOPTION(sub_font_size, "--sub-font-size", "--sub-text-font-size");
+	SUBOPTION(sub_bold, "--sub-bold", "--sub-text-bold");
+	SUBOPTION(sub_italic, "--sub-italic", "--sub-text-italic");
 
 	QString font = styles.fontname;
 	//arg << "--sub-text-font=" + font.replace(" ", "");
@@ -1125,12 +1130,12 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 		arg << sub_font_size + "=" + QString::number(styles.fontsize * 2.5);
 	}
 
-	if (isOptionAvailable("--sub-text-bold")) {
-		arg << QString("--sub-text-bold=%1").arg(styles.bold ? "yes" : "no");
+	if (!sub_bold.isEmpty()) {
+		arg << QString("%1=%2").arg(sub_bold).arg(styles.bold ? "yes" : "no");
 	}
 
-	if (isOptionAvailable("--sub-text-italic")) {
-		arg << QString("--sub-text-italic=%1").arg(styles.italic ? "yes" : "no");
+	if (!sub_italic.isEmpty()) {
+		arg << QString("%1=%2").arg(sub_italic).arg(styles.italic ? "yes" : "no");
 	}
 
 	QString halign;
