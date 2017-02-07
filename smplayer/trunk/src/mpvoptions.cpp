@@ -1110,6 +1110,8 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	SUBOPTION(sub_font_size, "--sub-font-size", "--sub-text-font-size");
 	SUBOPTION(sub_bold, "--sub-bold", "--sub-text-bold");
 	SUBOPTION(sub_italic, "--sub-italic", "--sub-text-italic");
+	SUBOPTION(sub_align_x, "--sub-align-x", "--sub-text-align-x");
+	SUBOPTION(sub_align_y, "--sub-align-y", "--sub-text-align-y");
 
 	QString font = styles.fontname;
 	//arg << "--sub-text-font=" + font.replace(" ", "");
@@ -1150,11 +1152,12 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 		case AssStyles::Top: valign = "top"; break;
 	}
 
-	if (!halign.isEmpty() || !valign.isEmpty()) {
-		if (isOptionAvailable("--sub-text-align-x")) {
-			if (!halign.isEmpty()) arg << "--sub-text-align-x=" + halign;
-			if (!valign.isEmpty()) arg << "--sub-text-align-y=" + valign;
-		}
+	if (!sub_align_x.isEmpty() && !halign.isEmpty()) {
+		arg << sub_align_x + "=" + halign;
+	}
+	
+	if (!sub_align_y.isEmpty() && !valign.isEmpty()) {
+		arg << sub_align_y + "=" + valign;
 	}
 }
 
