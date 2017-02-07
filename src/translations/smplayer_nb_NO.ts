@@ -2936,7 +2936,7 @@ Eksempler: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="364"/>
         <source>Login to opensubtitles.org has failed</source>
-        <translation>Pålogging på opensubtitles.org mislyktes</translation>
+        <translation>Pålogging til opensubtitles.org mislyktes</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="368"/>
@@ -4510,12 +4510,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../logwindow.cpp" line="134"/>
         <source>The log couldn&apos;t be saved</source>
-        <translation>Loggen kunne ikke lagres</translation>
+        <translation>Loggboken kunne ikke lagres</translation>
     </message>
     <message>
         <location filename="../logwindow.cpp" line="108"/>
         <source>Logs</source>
-        <translation>Logger</translation>
+        <translation>Loggbøker</translation>
     </message>
     <message>
         <location filename="../logwindow.ui" line="58"/>
@@ -5085,7 +5085,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
-        <translation>Filter for SMPlayer-logger</translation>
+        <translation>Filter for SMPlayer-loggføringer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
@@ -5120,12 +5120,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="552"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>Logg for &amp;SMPlayer-utdata</translation>
+        <translation>Loggfør &amp;SMPlayer-utdata</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="623"/>
         <source>&amp;Filter for SMPlayer logs:</source>
-        <translation>&amp;Filter for SMPlayer-logger:</translation>
+        <translation>&amp;Filter for SMPlayer-loggføringer:</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="236"/>
@@ -5135,7 +5135,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="557"/>
         <source>Logs</source>
-        <translation>Logger</translation>
+        <translation>Loggbøker</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="451"/>
@@ -5310,7 +5310,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation>R&amp;apporter %1 krasjer</translation>
+        <translation>R&amp;apporter %1-krasjer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
@@ -5320,7 +5320,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
-        <translation>Loggfør %1 &amp;utdataer</translation>
+        <translation>Loggfør %1-&amp;utdataer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5360,7 +5360,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Report %1 crashes</source>
-        <translation>Rapporter %1 krasjer</translation>
+        <translation>Rapporter %1-krasjer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
@@ -6167,7 +6167,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="202"/>
         <source>Here you can type your preferred language for the audio and subtitle streams. When a media with multiple audio or subtitle streams is found, SMPlayer will try to use your preferred language. This only will work with media that offer info about the language of audio and subtitle streams, like DVDs or mkv files.&lt;br&gt;These fields accept regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for lyd og undertekster. Når et medie med flere lydspor eller undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation>Her kan du skrive inn ditt foretrukne språk for lyd og undertekster. Når et medie med flere lydspor eller undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="828"/>
@@ -6366,12 +6366,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for lyden. Når et medie med flere lydspor blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation>Her kan du skrive inn ditt foretrukne språk for lyden. Når et medie med flere lydspor blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1248"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
-        <translation>Her kan du skrive inn ditt foretrukne språk for undertekstene. Når et medie med flere undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttryll. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
+        <translation>Her kan du skrive inn ditt foretrukne språk for undertekstene. Når et medie med flere undertekster blir funnet, vil SMPlayer forsøke å bruke ditt foretrukne språk.&lt;br&gt;Dette vil bare fungere med medier som viser informasjon om undertekstenes språk, som DVDer eller MKV-filer.&lt;br&gt;Denne boksen aksepterer ordinære uttrykk. For eksempel: &lt;b&gt;no|nor|nb&lt;/b&gt; vil velge underteksten hvis den samstemmer med &lt;i&gt;no&lt;/i&gt;, &lt;i&gt;nor&lt;/i&gt; eller &lt;i&gt;nb&lt;/i&gt;.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="356"/>
@@ -8200,7 +8200,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="138"/>
         <source>Allow &amp;hard frame drop (can lead to image distortion)</source>
-        <translation>Tillatt &amp;hardt bildedropp (kan føre til bildeforstyrrelser)</translation>
+        <translation>Tillat &amp;hardt bildedropp (Kan føre til bildeforstyrrelser)</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="290"/>
@@ -8466,7 +8466,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefperformance.ui" line="159"/>
         <source>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</source>
-        <translation>&amp;Tråder for dekoding (Kun til MPEG-1/2 og H.264):</translation>
+        <translation>&amp;Tråder til dekoding (Kun for MPEG-1/2 og H.264):</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="349"/>
