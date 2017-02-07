@@ -1583,7 +1583,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1899"/>
         <source>Reset video equalizer</source>
-        <translation>Réinitialiser l&apos;équaliseur vidéo</translation>
+        <translation>Réinitialiser l&apos;égaliseur vidéo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5087"/>
@@ -1653,7 +1653,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1900"/>
         <source>Reset audio equalizer</source>
-        <translation>Réinitialiser l&apos;équaliseur vidéo</translation>
+        <translation>Réinitialiser l&apos;égaliseur vidéo</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1801"/>
@@ -1854,7 +1854,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
         <location filename="../basegui.cpp" line="4612"/>
         <location filename="../basegui.cpp" line="4616"/>
         <source>Subtitle delay (in milliseconds):</source>
-        <translation>Délai sous-titre (en miliseconde) :</translation>
+        <translation>Délai sous-titres (en miliseconde) :</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2044"/>
@@ -1875,7 +1875,7 @@ La boîte de dialogue de configuration va s&apos;afficher pour que vous le fassi
     <message>
         <location filename="../basegui.cpp" line="1797"/>
         <source>Subtitle &amp;visibility</source>
-        <translation>&amp;Visibilité sous-titre</translation>
+        <translation>&amp;Visibilité sous-titres</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1903"/>
@@ -5090,7 +5090,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="48"/>
         <source>&amp;Monitor aspect:</source>
-        <translation>Ratio d&apos;aspect du &amp;moniteur :</translation>
+        <translation>For&amp;mat de l&apos;écran :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="112"/>
@@ -5140,7 +5140,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="451"/>
         <source>Monitor aspect</source>
-        <translation>Ratio d&apos;aspect du moniteur</translation>
+        <translation>Format de l&apos;écran</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="452"/>
@@ -6195,7 +6195,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
         <source>Use s&amp;oftware video equalizer</source>
-        <translation>Utiliser l&apos;équaliseur l&amp;ogiciel vidéo</translation>
+        <translation>Utiliser l&apos;égaliseur l&amp;ogiciel vidéo</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="678"/>
@@ -6275,7 +6275,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Enable the audio equalizer</source>
-        <translation>Activer l&apos;équaliseur audio</translation>
+        <translation>Activer l&apos;égaliseur audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1182"/>
@@ -6285,7 +6285,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="745"/>
         <source>&amp;Enable the audio equalizer</source>
-        <translation>Activ&amp;er l&apos;équaliseur audio</translation>
+        <translation>Activ&amp;er l&apos;égaliseur audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1132"/>
@@ -6943,12 +6943,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinput.cpp" line="88"/>
         <source>Show video equalizer</source>
-        <translation>Montrer l&apos;équaliseur vidéo</translation>
+        <translation>Montrer l&apos;égaliseur vidéo</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="89"/>
         <source>Show audio equalizer</source>
-        <translation>Montrer l&apos;équaliseur audio</translation>
+        <translation>Montrer l&apos;égaliseur audio</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="74"/>
@@ -7235,7 +7235,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.ui" line="629"/>
         <source>&amp;Use only one running instance of SMPlayer</source>
-        <translation>&amp;Utiliser qu&apos;une seule instance de SMPlayer</translation>
+        <translation>N&apos;&amp;utiliser qu&apos;une seule instance de SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="841"/>
@@ -7612,7 +7612,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation>Si cette option est activé, le contrôle flotant sera uniquement affiché lorsque la souris bougera en bas de l&apos;écran. Autrement le contrôle apparaîtra dès que le curseur sera déplacé, quelque soit sa position.</translation>
+        <translation>Si cette option est activée, le contrôle flottant sera uniquement affiché lorsque la souris est deplacée vers le bas de l&apos;écran. Autrement le contrôle apparaîtra dès que le curseur est déplacé, quelque soit sa position.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="866"/>
@@ -7987,7 +7987,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="240"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation>Définir l&apos;agent utilisateur que SMPlayer devra utiliser quand il se connecte à Youtube</translation>
+        <translation>Définir l&apos;agent utilisateur que SMPlayer devra utiliser quand il se connecte à Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
@@ -8424,7 +8424,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation>Habituellement, cette option activé le cache quand c&apos;est nécessaire?</translation>
+        <translation>Normalement, cette option activera le cache quand c&apos;est nécessaire.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -8502,7 +8502,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="50"/>
         <source>None</source>
-        <translation>Aucune</translation>
+        <translation>Aucun</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="51"/>
@@ -8607,22 +8607,22 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
         <source>&lt;b&gt;None&lt;/b&gt;: no files will be added</source>
-        <translation>&lt;b&gt;Aucun&lt;/b&gt;  aucun fichiers ne seront ajoutés</translation>
+        <translation>&lt;b&gt;Aucun&lt;/b&gt; : aucun fichier ne sera ajouté</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="199"/>
         <source>&lt;b&gt;Video files&lt;/b&gt;: all video files found in the folder will be added</source>
-        <translation>&lt;b&gt;Fichieers vidéos&lt;/b&gt; : tous les fichiers trouvés dans le répertoire seront ajoutés</translation>
+        <translation>&lt;b&gt;Fichiers vidéo&lt;/b&gt; : tous les fichiers vidéo trouvés dans le répertoire seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="200"/>
         <source>&lt;b&gt;Audio files&lt;/b&gt;: all audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Fichiers audios&lt;/b&gt; : tous les fichiers trouvés dans le répertoire seront ajoutés</translation>
+        <translation>&lt;b&gt;Fichiers audio&lt;/b&gt; : tous les fichiers audio trouvés dans le répertoire seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="201"/>
         <source>&lt;b&gt;Video and audio files&lt;/b&gt;: all video and audio files found in the folder will be added</source>
-        <translation>&lt;b&gt;Fichiers audios et vidéos&lt;/b&gt; : tous les fichiers trouvés dans le répertoire seront ajoutés</translation>
+        <translation>&lt;b&gt;Fichiers audio et vidéo&lt;/b&gt; : tous les fichiers audio et vidéo trouvés dans le répertoire seront ajoutés</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="202"/>
@@ -8869,7 +8869,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="389"/>
         <source>If there are one or more subtitle tracks available, one of them will be automatically selected, usually the first one, although if one of them matches the user&apos;s preferred language that one will be used instead.</source>
-        <translation>S&apos;il y a un ou plusieurs sous-titres disponible, l&apos;un d&apos;eux sera automatiquement sélectionné, généralement le premier sauf si l&apos;un d&apos;eux correspond au langage préférencié de l&apos;utilsateur.</translation>
+        <translation>S&apos;il y a une ou plusieurs pistes de sous-titres disponibles, l&apos;une d&apos;elles sera automatiquement sélectionnée, généralement la première; cependant, si l&apos;une d&apos;elles correspond à la langue préférenciée de l&apos;utilisateur, celle-ci sera alors utilisée.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="395"/>
@@ -9360,7 +9360,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../preftv.cpp" line="110"/>
         <source>If this option is enabled, SMPlayer will look for new TV and radio channels on ~/.mplayer/channels.conf.ter or ~/.mplayer/channels.conf.</source>
-        <translation>Si cette option est activé, SMPlayer va rechercher des nouvelles chaînes TV et radio dans ~/.mplayer/channels ou ~/.mplayer/channels.conf.</translation>
+        <translation>Si cette option est activée, SMPlayer va rechercher des nouvelles chaînes TV et radio dans ~/.mplayer/channels ou ~/.mplayer/channels.conf.</translation>
     </message>
     <message>
         <location filename="../preftv.ui" line="90"/>
@@ -9403,7 +9403,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefupdates.cpp" line="87"/>
         <source>If this option is enabled, SMPlayer will check for updates and display a notification if a new version is available.</source>
-        <translation>Si cette option est activée, SMPlayer vérifiera les mises à jour et affichera une notification lorsqu&apos;une nouvelle version est disponible</translation>
+        <translation>Si cette option est activée, SMPlayer vérifiera les mises à jour et affichera une notification lorsqu&apos;une nouvelle version est disponible.</translation>
     </message>
     <message>
         <location filename="../prefupdates.cpp" line="90"/>
@@ -9983,7 +9983,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="19"/>
         <source>This archive contains more than one subtitle file. Please choose the ones you want to extract.</source>
-        <translation>Cette archive contient plus d&apos;un fichier sous-titre. Veuillez sélectionner celui que vous désirez extraire.</translation>
+        <translation>Cette archive contient plus d&apos;un fichier de sous-titres. Veuillez sélectionner celui que vous désirez extraire.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/subchooserdialog.ui" line="68"/>
@@ -10165,7 +10165,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../updatechecker.cpp" line="213"/>
         <source>Checking for updates</source>
-        <translation>Vérifier pour des mises à jour</translation>
+        <translation>Vérification des mises à jour</translation>
     </message>
     <message>
         <location filename="../updatechecker.cpp" line="214"/>
