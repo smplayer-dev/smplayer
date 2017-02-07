@@ -1086,11 +1086,8 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 	if (isOptionAvailable(alternative2)) name = alternative2;
 
 void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
-	QString sub_font = "--sub-text-font";
-	if (isOptionAvailable("--sub-font")) sub_font = "--sub-font";
-
-	QString sub_color = "--sub-text-color";
-	if (isOptionAvailable("--sub-color")) sub_color = "--sub-color";
+	SUBOPTION(sub_font, "--sub-font", "--sub-text-font");
+	SUBOPTION(sub_color, "--sub-color", "--sub-text-color");
 
 	QString sub_shadow_color = "--sub-text-shadow-color";
 	if (isOptionAvailable("--sub-shadow-color")) sub_shadow_color = "--sub-shadow-color";
@@ -1098,35 +1095,43 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	QString sub_back_color = "--sub-text-back-color";
 	if (isOptionAvailable("--sub-back-color")) sub_back_color = "--sub-back-color";
 
-	QString sub_border_color = "--sub-text-border-color";
-	if (isOptionAvailable("--sub-border-color")) sub_border_color = "--sub-border-color";
+	SUBOPTION(sub_border_color, "--sub-border-color", "--sub-text-border-color");
+	SUBOPTION(sub_border_size, "--sub-border-size", "--sub-text-border-size");
+	SUBOPTION(sub_shadow_offset, "--sub-shadow-offset", "--sub-text-shadow-offset");
 
-	QString sub_border_size = "--sub-text-border-size";
-	if (isOptionAvailable("--sub-border-size")) sub_border_size = "--sub-border-size";
-
-	QString sub_shadow_offset = "--sub-text-shadow-offset";
-	if (isOptionAvailable("--sub-shadow-offset")) sub_shadow_offset = "--sub-shadow-offset";
-	
 	SUBOPTION(sub_font_size, "--sub-font-size", "--sub-text-font-size");
 	SUBOPTION(sub_bold, "--sub-bold", "--sub-text-bold");
 	SUBOPTION(sub_italic, "--sub-italic", "--sub-text-italic");
 	SUBOPTION(sub_align_x, "--sub-align-x", "--sub-text-align-x");
 	SUBOPTION(sub_align_y, "--sub-align-y", "--sub-text-align-y");
 
-	QString font = styles.fontname;
-	//arg << "--sub-text-font=" + font.replace(" ", "");
-	arg << sub_font + "=" + font;
-	arg << sub_color + "=#" + ColorUtils::colorToAARRGGBB(styles.primarycolor);
+	if (!sub_font.isEmpty()) {
+		QString font = styles.fontname;
+		//arg << "--sub-text-font=" + font.replace(" ", "");
+		arg << sub_font + "=" + font;
+	}
+
+	if (!sub_color.isEmpty()) {
+		arg << sub_color + "=#" + ColorUtils::colorToAARRGGBB(styles.primarycolor);
+	}
 
 	if (styles.borderstyle == AssStyles::Outline) {
 		arg << sub_shadow_color + "=#" + ColorUtils::colorToAARRGGBB(styles.backcolor);
 	} else {
 		arg << sub_back_color + "=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
 	}
-	arg << sub_border_color + "=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
 
-	arg << sub_border_size + "=" + QString::number(styles.outline * 2.5);
-	arg << sub_shadow_offset + "=" + QString::number(styles.shadow * 2.5);
+	if (!sub_border_color.isEmpty()) {
+		arg << sub_border_color + "=#" + ColorUtils::colorToAARRGGBB(styles.outlinecolor);
+	}
+
+	if (!sub_border_size.isEmpty()) {
+		arg << sub_border_size + "=" + QString::number(styles.outline * 2.5);
+	}
+
+	if (!sub_shadow_offset.isEmpty()) {
+		arg << sub_shadow_offset + "=" + QString::number(styles.shadow * 2.5);
+	}
 
 	if (!sub_font_size.isEmpty()) {
 		arg << sub_font_size + "=" + QString::number(styles.fontsize * 2.5);
