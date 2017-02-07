@@ -1100,6 +1100,11 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 
 	QString sub_shadow_offset = "--sub-text-shadow-offset";
 	if (isOptionAvailable("--sub-shadow-offset")) sub_shadow_offset = "--sub-shadow-offset";
+	
+	QString sub_font_size;
+	if (isOptionAvailable("--sub-text-font-size")) sub_font_size = "--sub-text-font-size";
+	else
+	if (isOptionAvailable("--sub-font-size")) sub_font_size = "--sub-font-size";
 
 	QString font = styles.fontname;
 	//arg << "--sub-text-font=" + font.replace(" ", "");
@@ -1116,8 +1121,8 @@ void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	arg << sub_border_size + "=" + QString::number(styles.outline * 2.5);
 	arg << sub_shadow_offset + "=" + QString::number(styles.shadow * 2.5);
 
-	if (isOptionAvailable("--sub-text-font-size")) {
-		arg << "--sub-text-font-size=" + QString::number(styles.fontsize * 2.5);
+	if (!sub_font_size.isEmpty()) {
+		arg << sub_font_size + "=" + QString::number(styles.fontsize * 2.5);
 	}
 
 	if (isOptionAvailable("--sub-text-bold")) {
