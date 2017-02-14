@@ -6014,7 +6014,7 @@ void BaseGui::showExitCodeFromMplayer(int exit_code) {
 		QString ytdl_bin = QFileInfo(pref->mplayer_bin).absolutePath() +"/youtube-dl.exe";
 		qDebug() << "BaseGui::showExitCodeFromMplayer: youtube-dl path:" << ytdl_bin;
 		
-		#if 0
+		#if 1
 		// Newer versions of mpv display this message
 		if (mplayer_log.contains("youtube-dl failed")) {
 			int code = QProcess::execute(ytdl_bin, QStringList() << "--version");
