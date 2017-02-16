@@ -5081,9 +5081,8 @@ Do you want to overwrite?</source>
         <translation>此选项主要用于调试应用程序。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>勾选此选项可减少闪烁，但也可能会造成视频无法正确显示。</translation>
+        <translation type="obsolete">勾选此选项可减少闪烁，但也可能会造成视频无法正确显示。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5339,6 +5338,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>将 %1 选项传送给 MPlayer (安全风险)(&amp;s)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

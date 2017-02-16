@@ -5433,9 +5433,8 @@ Exemplu: resample=44100:0:0,volnorm</translation>
         <translation>Această opțiune se adresează în principal depanării aplicației.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Selectarea acestei opțiuni va reduce tremurul imaginii, dar, totodată poate produce afișarea incorectă a fișierului video.</translation>
+        <translation type="obsolete">Selectarea acestei opțiuni va reduce tremurul imaginii, dar, totodată poate produce afișarea incorectă a fișierului video.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5795,6 +5794,11 @@ Exemplu: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
         <source>Here you can pass options and filters to %1.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

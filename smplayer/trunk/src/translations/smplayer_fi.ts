@@ -5079,9 +5079,8 @@ Haluatko päällekirjoittaa?</translation>
         <translation>Tämä asetus on tarkoitettu pääasiassa vain ohjelman virheiden etsimiseen ja poistamiseen.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Valitsemalla tämän asetuksen se saattaa vähentää vilkkumista, mutta saattaa myös aiheuttaa kuvan näkymisen väärin.</translation>
+        <translation type="obsolete">Valitsemalla tämän asetuksen se saattaa vähentää vilkkumista, mutta saattaa myös aiheuttaa kuvan näkymisen väärin.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5336,6 +5335,11 @@ Haluatko päällekirjoittaa?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

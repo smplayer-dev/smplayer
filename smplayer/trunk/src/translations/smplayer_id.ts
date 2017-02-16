@@ -5082,9 +5082,8 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Opsi ini secara utama dimaksudkan untuk pengawakutuan aplikasi.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Memeriksa opsi ini mungkin dapat menurunkan efek kerlip, namun itu juga memungkinkan pembuatan video yang tidak akan ditampilkan dengan tepat.</translation>
+        <translation type="obsolete">Memeriksa opsi ini mungkin dapat menurunkan efek kerlip, namun itu juga memungkinkan pembuatan video yang tidak akan ditampilkan dengan tepat.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5340,6 +5339,11 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>&amp;Lalui opsi %1 untuk MPlayer (resiko keamanan)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

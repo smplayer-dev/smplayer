@@ -5083,9 +5083,8 @@ Do you want to overwrite?</source>
         <translation>Ova mogućnost namijenjena je otklanjanju grešaka aplikacije.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Označavanje ove mogućnosti može smanjiti tepterenje slike, ali isto tako može prozročiti neispravan prikaz slike.</translation>
+        <translation type="obsolete">Označavanje ove mogućnosti može smanjiti tepterenje slike, ali isto tako može prozročiti neispravan prikaz slike.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5341,6 +5340,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>Pr&amp;opusti %1 mogućnost na MPlayer (sigurnosni rizik)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

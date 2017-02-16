@@ -5077,9 +5077,8 @@ Do you want to overwrite?</source>
         <translation>Lựa chọn này chủ yếu để debug ứng dụng.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Đánh dấu lựa chọn này để giảm nhấp nháy, nhưng nó cũng có thể làm cho video không hiển thị đúng.</translation>
+        <translation type="obsolete">Đánh dấu lựa chọn này để giảm nhấp nháy, nhưng nó cũng có thể làm cho video không hiển thị đúng.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5334,6 +5333,11 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
