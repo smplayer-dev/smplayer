@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="it">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="it" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1056,7 +1054,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Dona</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1146,7 +1144,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="1905"/>
         <source>Show &amp;info on OSD</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostra &amp;info nell&apos;OSD</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1906"/>
@@ -1292,42 +1290,42 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../basegui.cpp" line="4521"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"></translation>
+        <translation>Supporta SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Dona</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4524"/>
         <source>No</source>
-        <translation type="unfinished">No</translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer ha bisogno di te</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4528"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer è software libero. Tuttavia lo sviluppo richiede molto tempo e tanto denaro.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4529"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Per poter continuare a sviluppare SMPlayer con nuove caratteristiche abbiamo bisogno del tuo aiuto.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4530"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Prendi in considerazione di supportare il progetto SMPlayer inviando una donazione.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4531"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Anche la somma più piccola aiuterà molto.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5020"/>
@@ -1997,7 +1995,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduci su &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -2431,12 +2429,12 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>Info &amp;Bitrate</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Mostra tempo corrente con millisecondi</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2467,7 +2465,7 @@ Si aprirà ora il dialogo di configurazione, in modo che tu possa farlo.
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -2948,10 +2946,7 @@ Esempio: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>estratti %n sottotitoli</numerusform>
-            <numerusform>estratto %n sottotitolo</numerusform>
-        </translation>
+        <translation><numerusform>estratti %n sottotitoli</numerusform><numerusform>estratto %n sottotitolo</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3049,7 +3044,7 @@ Esempio: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Non è stato possibile salvare il file scaricato
@@ -4550,7 +4545,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="156"/>
         <source>the &apos;%1&apos; filter is not supported by mpv</source>
-        <translation type="unfinished"></translation>
+        <translation>il filtro &apos;%1&apos; non è supportato da mpv</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="157"/>
@@ -4575,23 +4570,23 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="161"/>
         <source>Estimated:</source>
-        <translation type="unfinished"></translation>
+        <translation>Stimato:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="162"/>
         <source>Aspect Ratio:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapporto d&apos;aspetto:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="163"/>
         <location filename="../mpvprocess.h" line="166"/>
         <source>Bitrate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Bitrate:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="164"/>
         <source>Dropped frames:</source>
-        <translation type="unfinished"></translation>
+        <translation>Fotogrammi saltati:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="165"/>
@@ -4601,7 +4596,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="167"/>
         <source>Sample Rate:</source>
-        <translation type="unfinished"></translation>
+        <translation>Velocità di campionamento:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="168"/>
@@ -4611,17 +4606,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../mpvprocess.h" line="169"/>
         <source>Audio/video synchronization:</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronizzazione audio/video:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="170"/>
         <source>Cache fill:</source>
-        <translation type="unfinished"></translation>
+        <translation>Riempimento cache:</translation>
     </message>
     <message>
         <location filename="../mpvprocess.h" line="171"/>
         <source>Used cache:</source>
-        <translation type="unfinished"></translation>
+        <translation>Cache usata:</translation>
     </message>
 </context>
 <context>
@@ -4809,32 +4804,32 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="358"/>
         <source>Untitled playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista di riproduzione senza nome</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="674"/>
         <source>&amp;Load...</source>
-        <translation type="unfinished">&amp;Apri...</translation>
+        <translation>&amp;Carica...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="676"/>
         <source>Load playlist from &amp;URL...</source>
-        <translation type="unfinished"></translation>
+        <translation>Carica lista di riproduzione da &amp;URL...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduci su Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri flusso in un &amp;browser web</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="732"/>
         <source>Load/Save</source>
-        <translation type="unfinished"></translation>
+        <translation>Carica/Salva</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1622"/>
@@ -4874,7 +4869,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="680"/>
         <source>Save &amp;as...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&amp;alva come...</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="684"/>
@@ -4945,12 +4940,12 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../playlist.cpp" line="711"/>
         <location filename="../playlist.cpp" line="1450"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copia percorso file negli appunti</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri cartella s&amp;orgente</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="720"/>
@@ -4981,7 +4976,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Copia URL negli appunti</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1925"/>
@@ -5746,7 +5741,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1003"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;opzione &apos;altro&apos; permette di selezionare manualmente il percorso dell&apos;eseguibile.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1006"/>
@@ -5761,12 +5756,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1022"/>
         <source>Remember settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricorda impostazioni per i flussi</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1023"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando questa opzione è attiva anche le impostazioni per i flussi online saranno ricordate.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1038"/>
@@ -5811,12 +5806,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Select the video output driver.</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleziona il driver video di uscita.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1108"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata, verranno aggiunti automaticamente bordi neri all&apos;immagine nei file aperti.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1178"/>
@@ -5851,7 +5846,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="159"/>
         <source>Other...</source>
-        <translation type="unfinished"></translation>
+        <translation>Altro...</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1045"/>
@@ -5877,7 +5872,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Add black borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi automaticamente bordi neri per i sottotitoli</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1117"/>
@@ -5907,7 +5902,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1195"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Richiede il numero di canali di riproduzione. %1 chiede al decoder di decodificare l&apos;audio in altrettanti canali a quanto indicato. Poi sta al decoder di soddisfare la richiesta. Normalmente questo è importante durante la riproduzione di video con audio AC3 (come DVD). In quel caso liba52 effettua di regola la decodifica e riduce il numero di canali audio al numero di canali richiesto. &lt;b&gt;Nota&lt;/b&gt;: Questa opzione è soddisfatta dai codec (solo AC3), filtri (surround) e driver audio di uscita (almeno OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1206"/>
@@ -5957,12 +5952,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation type="unfinished"></translation>
+        <translation>Motore multim&amp;ediale:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation type="unfinished"></translation>
+        <translation>Ri&amp;corda impostazioni per i flussi</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
@@ -6192,7 +6187,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="516"/>
         <source>Add blac&amp;k borders for subtitles by default</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiunta bor&amp;di neri per i sottotitoli predefinita</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="579"/>
@@ -6630,7 +6625,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Usa i tasti multimediali come scorciatoie globali</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -6645,7 +6640,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Dra&amp;g function:</source>
-        <translation type="unfinished"></translation>
+        <translation>Funzione &amp;trascinamento:</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
@@ -7021,43 +7016,43 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../prefinput.cpp" line="163"/>
         <location filename="../prefinput.cpp" line="397"/>
         <source>Move window</source>
-        <translation type="unfinished"></translation>
+        <translation>Sposta finestra</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="165"/>
         <location filename="../prefinput.cpp" line="399"/>
         <source>Seek and volume</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricerca e volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="370"/>
         <source>Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"></translation>
+        <translation>Usa i tasti multimediali come scorciatoie globali</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata i tasti multimediali (Riproduci, Ferma Volume+/-, Muto, ecc.) funzionano anche quando SMPlayer è in esecuzione in sottofondo.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
         <source>Drag function</source>
-        <translation type="unfinished"></translation>
+        <translation>Funzione trascinamento</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione controlla cosa fare quando il mouse viene mosso tenendo premuto il pulsante sinistro.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
         <source>the main window is moved</source>
-        <translation type="unfinished"></translation>
+        <translation>la finestra principale viene spostata</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"></translation>
+        <translation>un movimento orizzontale cambia la posizione temporale mentre un movimento verticale cambia il volume</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
@@ -7217,7 +7212,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="167"/>
         <source>System language</source>
-        <translation type="unfinished"></translation>
+        <translation>Lingua di sistema</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="197"/>
@@ -7352,17 +7347,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.ui" line="952"/>
         <source>High &amp;DPI</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;DPI elevato</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer può scalare l&apos;interfaccia in schermi a DPI elevato. Qui puoi disabilitare questa caratteristica o cambiare il fattore di scala.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
         <source>&amp;Enable support for high DPI screens</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Abilita il supporto per schermi a DPI elevato</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="978"/>
@@ -7372,12 +7367,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.ui" line="984"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="1040"/>
         <source>Changes in this section requires to restart SMPlayer in order to take effect</source>
-        <translation type="unfinished"></translation>
+        <translation>Le modifiche in questa sezione richiedono il riavvio di SMPlayer per essere attuate</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="622"/>
@@ -7482,7 +7477,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="252"/>
         <source>Pixel rati&amp;o:</source>
-        <translation type="unfinished"></translation>
+        <translation>Rapp&amp;orto d&apos;aspetto pixel:</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="747"/>
@@ -7675,7 +7670,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="830"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Di regola quando viene premuto il pulsante stop la posizione temporale viene ricordata cosicché se premi il pulsante play il media riprenderà dallo stesso punto. Devi premere il pulsante stop due volte per azzerare la posizione temporale, ma se questa opzione ha la spunta la posizione temporale verrà impostata a 0 con un sola pressione del tasto stop.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="837"/>
@@ -7835,47 +7830,47 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="24"/>
         <source>&amp;YouTube (and other sites)</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;YouTube (e altri siti)</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation type="unfinished"></translation>
+        <translation>Supporto perr siti &amp;video:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
         <source>Options for YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>Opzioni per YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Server web</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Le modifiche in questa sezione verranno attuate al riavvio del browser web</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Lista &amp;cartelle</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;IP locale:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Al fine di inviare media locali da questo computer a Chromecast, SMPlayer userà un piccolo server web. Qui puoi modificare alcune delle impostazioni.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7931,7 +7926,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="220"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"></translation>
+        <translation>cercherà di usare mpv + youtube-dl solo per i siti che lo richiedono</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="239"/>
@@ -7942,84 +7937,84 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../prefnetwork.cpp" line="83"/>
         <location filename="../prefnetwork.cpp" line="218"/>
         <source>Disabled</source>
-        <translation type="unfinished"></translation>
+        <translation>Disabilitato</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="85"/>
         <location filename="../prefnetwork.cpp" line="187"/>
         <location filename="../prefnetwork.cpp" line="220"/>
         <source>Auto</source>
-        <translation type="unfinished">Automatico</translation>
+        <translation>Auto</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="214"/>
         <source>YouTube</source>
-        <translation type="unfinished"></translation>
+        <translation>YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="216"/>
         <source>Support for video sites</source>
-        <translation type="unfinished"></translation>
+        <translation>Supporto per siti video</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="218"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"></translation>
+        <translation>il supporto per i siti video è disattivato</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="223"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"></translation>
+        <translation>verrà usato solo il supporto interno per YouTube</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="226"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"></translation>
+        <translation>usa mpv + youtube-dl per tutti i siti</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="236"/>
         <source>Playback quality</source>
-        <translation type="unfinished"></translation>
+        <translation>Qualità riproduzione</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="237"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"></translation>
+        <translation>Scegli la qualità preferita per i video di Youtube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="240"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"></translation>
+        <translation>Imposta lo user agent che SMPlayer userà nel collegarsi a YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>IP locale</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>L&apos;indirizzo IP locale di questo computer. Verrà passato a Chromecast cosicché possa accedere ai file su questo computer.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>La porta che il server web userà.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Elenco cartelle</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando il server web è in esecuzione, qualunque dispositivo nella tua rete può accedere ai file di questo computer. Se questa opzione è abilitata, qualunque dispositivo può ottenere una lista dei file su questo computer. Se questa opzione non è abilitata, la lista non sarà disponibile.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8155,7 +8150,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;uto</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8336,7 +8331,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Imposta priorità processo per %1 secondo le priorità predefinite disponibili su Windows. &lt;br&gt;&lt;b&gt;Attenzione:&lt;/b&gt;. L&apos;uso di priorità tempo reale può causare blocchi del sistema.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -8416,7 +8411,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
         <source>Requires a %1 build with CoreAVC support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Richiede una build di %1 con supporto CoreAVC.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="371"/>
@@ -8426,7 +8421,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="374"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente questa opzione abiliterà la cache solo quando necessario.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="389"/>
@@ -8529,32 +8524,32 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="180"/>
         <source>Start playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>Avvia riproduzione quando si carica una lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="181"/>
         <source>Playback will start just after loading a playlist.</source>
-        <translation type="unfinished"></translation>
+        <translation>La riproduzione comincerà subito dopo aver caricato una lista di riproduzione.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="183"/>
         <source>Play next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduci automaticamente il file successivo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando un file arriva alla fine, quello successivo verrà riprodotto automaticamente.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="186"/>
         <source>Ignore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Ignora errori riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiungi automaticamente i file alla lista di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8564,47 +8559,47 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Varie</translation>
+        <translation>Varie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
         <source>Auto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Riordina automaticamente</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione è abilitata la lista verrà riordinata automaticamente dopo l&apos;aggiunta di nuovi file.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="222"/>
         <source>Case sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricerca con distinzione maiuscole/minuscole</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione specifica se la ricerca nella lista di riproduzione distingue o meno maiuscole e minuscole.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="225"/>
         <source>Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>Salva una copia della lista di riproduzione all&apos;uscita</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se questa opzione ha la spunta, una copia della lista di riproduzione verrà salvata nella configurazione all&apos;uscita da SMPlayer, e verrà ricaricata automaticamente quando SMPlayer verrà nuovamente lanciato.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita l&apos;opzione per cancellare file dal disco</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione permette di abilitare l&apos;opzione di cancellare file dal disco nel menu contestuale della scaletta. Per prevenire cancellazioni accidentali questa opzione di regola è disabilitata.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8644,7 +8639,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"></translation>
+        <translation>Questa opzione può essere usata per aggiungere automaticamente file alla scaletta:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
@@ -8689,32 +8684,32 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
         <source>Playback</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation type="unfinished"></translation>
+        <translation>A&amp;vvia riproduzione dopo aver caricato una scaletta</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>Ri&amp;produci automaticamente file successivo</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation type="unfinished"></translation>
+        <translation>Ig&amp;nora errori di riproduzione</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
         <source>Adding files</source>
-        <translation type="unfinished"></translation>
+        <translation>Aggiunta file</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Aggiungi automaticamente file alla scaletta</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
@@ -8729,27 +8724,27 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Varie</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
         <source>A&amp;uto sort</source>
-        <translation type="unfinished"></translation>
+        <translation>Riordina a&amp;utomaticamente</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation type="unfinished"></translation>
+        <translation>Ric&amp;erca con distinzione maiuscole/minuscole</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Salva una copia della scaletta all&apos;uscita</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Abilita l&apos;opzione per cancellare file dal &amp;disco</translation>
     </message>
 </context>
 <context>
@@ -9179,12 +9174,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quando questa opzione è attiva, si cercherà di rilevare automaticamente la codifica dei sottototitoli per la lingua in questione. Verrà usata la codifica di base se l&apos;autorilevamento non riesce. Questa opzione necessita di %1 con supporto ENCA.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Normalmente non dovresti disabilitare questa opzione. Fallo solo se il tuo %1 è compilato senza supporto freenode. &lt;b&gt;Disabilitare questa opzione potrebbe far sì che i sottotitoli non funzionino affatto!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
@@ -9438,12 +9433,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../preferencesdialog.cpp" line="176"/>
         <source>&amp;OK</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;OK</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="177"/>
         <source>&amp;Cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Annulla</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
@@ -9569,19 +9564,13 @@ Vuoi sovrascriverlo?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n secondo</numerusform>
-            <numerusform>%n secondi</numerusform>
-        </translation>
+        <translation><numerusform>%n secondo</numerusform><numerusform>%n secondi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuto</numerusform>
-            <numerusform>%n minuti</numerusform>
-        </translation>
+        <translation><numerusform>%n minuto</numerusform><numerusform>%n minuti</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -9670,12 +9659,12 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../version.cpp" line="44"/>
         <source>%1 (revision %2) %3</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revisione %2) %3</translation>
     </message>
     <message>
         <location filename="../version.cpp" line="46"/>
         <source>%1 (revision %2)</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 (revision %2)</translation>
     </message>
 </context>
 <context>
@@ -9830,7 +9819,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../skingui/skingui.cpp" line="420"/>
         <source>Playing</source>
-        <translation type="unfinished"></translation>
+        <translation>Riproduzione in corso</translation>
     </message>
     <message>
         <location filename="../skingui/skingui.cpp" line="421"/>
@@ -9933,7 +9922,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="48"/>
         <source>Anaglyph green/magenta colored</source>
-        <translation type="unfinished"></translation>
+        <translation>Anaglifo verde/magenta colorato</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="50"/>
@@ -10090,17 +10079,17 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="261"/>
         <source>Current time</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo corrente</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="263"/>
         <source>Total time</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo totale</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="265"/>
         <source>Remaining time</source>
-        <translation type="unfinished"></translation>
+        <translation>Tempo rimanente</translation>
     </message>
     <message>
         <location filename="../toolbareditor.cpp" line="267"/>
@@ -10115,7 +10104,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../toolbareditor.cpp" line="271"/>
         <source>Quick access menu</source>
-        <translation type="unfinished">Menu accesso rapido</translation>
+        <translation>Menu accesso rapido</translation>
     </message>
 </context>
 <context>
@@ -10289,7 +10278,7 @@ Vuoi sovrascriverlo?</translation>
     <message>
         <location filename="../videoequalizer.ui" line="330"/>
         <source>&amp;Close</source>
-        <translation type="unfinished">&amp;Chiudi</translation>
+        <translation>&amp;Chiudi</translation>
     </message>
     <message>
         <location filename="../videoequalizer.cpp" line="101"/>

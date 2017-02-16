@@ -5938,7 +5938,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="82"/>
         <source>&amp;Remember settings for all files (audio track, subtitles...)</source>
-        <translation>&amp;Se rappeler de la configuration de chaque fichier (piste audio, sous-titres, ...)</translation>
+        <translation>&amp;Se rappeler de la configuration de chaque fichier (piste audio, sous-titres...)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1181"/>

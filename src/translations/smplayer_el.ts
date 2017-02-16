@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1055,7 +1053,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Δωρεά</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1291,42 +1289,42 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../basegui.cpp" line="4521"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished">Υποστηρίξτε το SMPlayer</translation>
+        <translation>Υποστηρίξτε το SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Δωρεά</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4524"/>
         <source>No</source>
-        <translation type="unfinished">Όχι</translation>
+        <translation>Όχι</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"></translation>
+        <translation>Το SMPlayer σας χρειάζεται</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4528"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>Το SMPlayer είναι ελεύθερο λογισμικό. Ωστόσο η δημιουργία του απαιτεί πολύ χρόνο και δουλειά.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4529"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Για να διατηρηθεί η ανάπτυξη του SMPlayer με νέα χαρακτηριστικά, χρειαζόμαστε την βοήθειά σας.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4530"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Παρακαλώ υποστηρίξτε το έργο του SMPlayer κάνοντας μια δωρεά.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4531"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ακόμα και τα χαμηλά ποσά βοηθούν πολύ.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5020"/>
@@ -1996,7 +1994,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτέλεση στο &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -2430,12 +2428,12 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Πληροφορίες ρυθμού bit</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Εμφάνιση του τρέχοντος χρόνου σε χιλιοστά του δευτερολέπτου</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2466,7 +2464,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"></translation>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -2947,10 +2945,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform>
-            <numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform>
-        </translation>
+        <translation><numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform><numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3048,7 +3043,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Δεν ήταν δυνατό να αποθηκευτεί το ληφθέν
@@ -4823,12 +4818,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Εκτέλεση στο Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοιγμα της ροής στον &amp;φυλλομετρητή</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="732"/>
@@ -4944,12 +4939,12 @@ Do you want to overwrite?</source>
         <location filename="../playlist.cpp" line="711"/>
         <location filename="../playlist.cpp" line="1450"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Α&amp;ντιγραφή της διαδρομής του αρχείου στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>Άνοι&amp;γμα του φακέλου πηγής</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="720"/>
@@ -4980,7 +4975,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Αντιγραφή του URL στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1925"/>
@@ -7849,32 +7844,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Εξυπηρετητής Ιστού</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Οι αλλαγές σε αυτήν την ενότητα θα εφαρμοστούν κατά την επόμενη επανεκκίνηση του εξυπηρετητή ιστού</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Ευρετήριο καταλόγου</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοπική &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Για την εξυπηρέτηση των τοπικών πολυμέσων από αυτόν τον υπολογιστή στο Chromecast, το SMPlayer θα εκτελέσει έναν ελαφρύ εξυπηρετητή ιστού. Εδώ μπορείτε να προσαρμόσετε μερικές ρυθμίσεις.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7993,32 +7988,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Τοπική IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η τοπική διεύθυνση IP του υπολογιστή. Θα ρυθμιστεί στον Chromecast ούτως ώστε να μπορεί να προσπελάσει τα αρχεία του υπολογιστή.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η θύρα χρήσης του εξυπηρετητή ιστού.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Ευρετήριο καταλόγου</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Όταν ο εξυπηρετητής ιστού εκτελείται, οποιαδήποτε συσκευή βρίσκεται στο δίκτυό σας θα έχει πρόσβαση στα αρχεία του υπολογιστή. Αν αυτή η επιλογή είναι ενεργοποιημένη, οποιαδήποτε συσκευή θα μπορεί να λάβει ένα ευρετήριο των αρχείων του υπολογιστή. Αν η επιλογή είναι απενεργοποιημένη, το ευρετήριο δεν θα είναι διαθέσιμο.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8563,7 +8558,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Διάφορα</translation>
+        <translation>Διάφορα</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8598,12 +8593,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποιήστε αυτή την δυνατότητα για να διαγράψετε αρχεία από τον δίσκο</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Η επιλογή αυτή ενεργοποιεί την δυνατότητα διαγραφής από τον δίσκο  των αρχείων που περιέχονται στον κατάλογο με τις λίστες αναπαραγωγής. Για αποφυγή της κατά λάθους διαγραφής, η δυνατότητα αυτή είναι απενεργοποιημένη από προεπιλογή.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8728,7 +8723,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Διάφορα</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8748,7 +8743,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Ενεργοποίηση της επιλογής διαγραφής αρχείων από τον &amp;δίσκο</translation>
     </message>
 </context>
 <context>
@@ -9568,19 +9563,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n δευτερόλεπτο(α)</numerusform>
-            <numerusform>%n δευτερόλεπτο(α)</numerusform>
-        </translation>
+        <translation><numerusform>%n δευτερόλεπτο(α)</numerusform><numerusform>%n δευτερόλεπτο(α)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n λεπτό(ά)</numerusform>
-            <numerusform>%n λεπτό(ά)</numerusform>
-        </translation>
+        <translation><numerusform>%n λεπτό(ά)</numerusform><numerusform>%n λεπτό(ά)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

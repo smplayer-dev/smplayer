@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="uk">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="uk" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1996,7 +1994,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Відтворити на &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -2947,11 +2945,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n субтитр витягнутий</numerusform>
-            <numerusform>%n субтитра витягнуті</numerusform>
-            <numerusform>%n субтитрів витягнуто</numerusform>
-        </translation>
+        <translation><numerusform>%n субтитр витягнутий</numerusform><numerusform>%n субтитра витягнуті</numerusform><numerusform>%n субтитрів витягнуто</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3049,7 +3043,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Неможливо зберегти завантажений
@@ -4824,12 +4818,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Відтворити на Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Відкрити потік у &amp;веб-браузері</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="732"/>
@@ -4950,7 +4944,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="712"/>
         <source>&amp;Open source folder</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Відкрити теку джерела</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="720"/>
@@ -4981,7 +4975,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy URL to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Копіювати URL до буферу обміну</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1925"/>
@@ -7850,32 +7844,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="137"/>
         <source>C&amp;hromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>C&amp;hromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="143"/>
         <source>Web Server</source>
-        <translation type="unfinished"></translation>
+        <translation>Веб Сервер</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Зміни в цьому розділі будуть задіяні в наступний раз при перезавантаженні веб-сервера</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Перелік тек</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальна &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Для обслуговування локального медіа з цього комп&apos;ютера на Chromecast, SMPlayer запустить крихітний веб-сервер. Ви можете вказати тут деякі налаштування.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7994,32 +7988,32 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальна IP</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Локальна IP-адреса цього комп&apos;ютера. Її буде передано Chromecast, щоб він міг отримати доступ до файлів з цього комп&apos;ютера.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Пор для використання веб-сервером.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Список каталогів</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Коли веб-сервер працює, то будь-який пристрій в мережі може отримати доступ до файлів з цього комп&apos;ютера. Якщо ця опція ввімкнена, то будь-який пристрій може отримати перелік файлів на цьому комп&apos;ютері. Якщо ця опція вимкнена, то перелік не буде доступний.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8564,7 +8558,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Інше</translation>
+        <translation>Інше</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8599,12 +8593,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути можливість видаляти файли з диска</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ця опція дозволяє ввімкнути можливість видаляти файли з диску в контекстному меню переліку відтворення. Для запобігання випадкового видалення ця опція вимкнена за замовчанням.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8729,7 +8723,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Інше</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8749,7 +8743,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Увімкнути можливість видаляти файли з &amp;диска</translation>
     </message>
 </context>
 <context>
@@ -9569,21 +9563,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n секунда</numerusform>
-            <numerusform>%n секунди</numerusform>
-            <numerusform>%n секунд</numerusform>
-        </translation>
+        <translation><numerusform>%n секунда</numerusform><numerusform>%n секунди</numerusform><numerusform>%n секунд</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n хвилина</numerusform>
-            <numerusform>%n хвилини</numerusform>
-            <numerusform>%n хвилин</numerusform>
-        </translation>
+        <translation><numerusform>%n хвилина</numerusform><numerusform>%n хвилини</numerusform><numerusform>%n хвилин</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
