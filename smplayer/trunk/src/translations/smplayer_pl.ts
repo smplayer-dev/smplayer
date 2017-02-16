@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="pl">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="pl" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1306,7 +1304,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
-        <translation>SMPlayer cię potrzebuje</translation>
+        <translation>SMPlayer Cię potrzebuje</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4528"/>
@@ -1996,7 +1994,7 @@ Zobaczysz teraz okno konfiguracji i możesz dokonać tych ustawień.</translatio
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation>Odtwórz w &amp;Chromecascie</translation>
+        <translation>Odtwórz poprzez &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -2947,11 +2945,7 @@ Przykład: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>Rozpakowano %n napis</numerusform>
-            <numerusform>Rozpakowano %n napisy</numerusform>
-            <numerusform>Rozpakowano %n napisów</numerusform>
-        </translation>
+        <translation><numerusform>Rozpakowano %n napis</numerusform><numerusform>Rozpakowano %n napisy</numerusform><numerusform>Rozpakowano %n napisów</numerusform><numerusform>Rozpakowano %n napisów</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3049,7 +3043,7 @@ Przykład: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nie można było zapisać pobranego
@@ -8565,7 +8559,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished">Różne</translation>
+        <translation>Różne</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>
@@ -8600,12 +8594,12 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz tę opcję, aby móc usuwać pliki z dysku</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta opcja pozwala włączyć opcję umożliwiającą usuwanie plików z dysku poprzez menu kontekstowe listy odtwarzania. Aby uniknąć przypadkowego usunięcia opcja ta jest domyślnie wyłączona.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8730,7 +8724,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>Różne (&amp;M)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8750,7 +8744,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Włącz tę opcję, aby móc usuwać pliki z &amp;dysku</translation>
     </message>
 </context>
 <context>
@@ -9570,21 +9564,13 @@ na liście odtwarzania:</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekund</numerusform>
-            <numerusform>%n sekund(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekund</numerusform><numerusform>%n sekund(y)</numerusform><numerusform>%n sekund(y)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-            <numerusform>%n minut(y)</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform><numerusform>%n minut(y)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

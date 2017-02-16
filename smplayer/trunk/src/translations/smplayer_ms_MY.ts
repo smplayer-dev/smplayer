@@ -2464,7 +2464,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../defaultgui.cpp" line="776"/>
         <source>V: %1 kbps A: %2 kbps</source>
-        <translation type="unfinished"/>
+        <translation>V: %1 kbps A: %2 kbps</translation>
     </message>
 </context>
 <context>
@@ -7993,7 +7993,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
         <source>Local IP</source>
-        <translation type="unfinished"/>
+        <translation>IP Setempat</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
@@ -8008,7 +8008,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
         <source>Directory listing</source>
-        <translation type="unfinished"/>
+        <translation>Penyenaraian direktori</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
@@ -8558,7 +8558,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="217"/>
         <source>Misc</source>
-        <translation type="unfinished"/>
+        <translation>Pelbagai</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="219"/>

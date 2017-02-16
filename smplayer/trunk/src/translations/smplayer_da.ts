@@ -1396,7 +1396,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="6062"/>
         <source>Please check the %1 path in preferences.</source>
-        <translation>Tjek venligst stien %1 i indstillinger.</translation>
+        <translation>Tjek venligst stien %1 i præferencer.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="6064"/>
@@ -2180,7 +2180,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="58"/>
         <source>Connecting to %1</source>
-        <translation>Forbinder til %1</translation>
+        <translation>Opretter forbindelse til %1</translation>
     </message>
     <message>
         <location filename="../youtube/codedownloader.cpp" line="126"/>
@@ -2360,7 +2360,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../core.cpp" line="594"/>
         <source>Connecting to %1</source>
-        <translation>Forbinder til %1</translation>
+        <translation>Opretter forbindelse til %1</translation>
     </message>
 </context>
 <context>
@@ -2653,7 +2653,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../findsubtitles/filedownloader/filedownloader.cpp" line="62"/>
         <source>Connecting to %1</source>
-        <translation>Forbinder til %1</translation>
+        <translation>Opretter forbindelse til %1</translation>
     </message>
 </context>
 <context>
@@ -2769,7 +2769,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
         <source>Write them separated by spaces.</source>
-        <translation>Skriv dem, adskilt med mellemrum.</translation>
+        <translation>Skriv dem, adskilt af mellemrum.</translation>
     </message>
     <message>
         <location filename="../filepropertiesdialog.cpp" line="100"/>
@@ -2976,7 +2976,7 @@ Eksempel: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="360"/>
         <source>Connecting to %1...</source>
-        <translation>Forbinder til %1...</translation>
+        <translation>Opretter forbindelse til %1...</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="378"/>
@@ -6156,7 +6156,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1089"/>
         <source>Preferre&amp;d audio and subtitles</source>
-        <translation>For&amp;etrukken lyd og undertekster</translation>
+        <translation>For&amp;etrukket lyd og undertekster</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1244"/>
@@ -6808,7 +6808,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinput.cpp" line="84"/>
         <source>Preferences</source>
-        <translation>Indstillinger</translation>
+        <translation>Præferencer</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="148"/>
@@ -7326,7 +7326,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation>Tid (i millisekunder) som knappern&amp;e skal skjules:</translation>
+        <translation>Tid (i millisekunder) før knappern&amp;e skjules:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
@@ -9452,7 +9452,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../preferencesdialog.ui" line="13"/>
         <source>SMPlayer - Preferences</source>
-        <translation>SMPlayer - Indstillinger</translation>
+        <translation>SMPlayer - Præferencer</translation>
     </message>
 </context>
 <context>
@@ -9475,7 +9475,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../clhelp.cpp" line="133"/>
         <source>tries to make a connection to another running instance and send to it the specified action. Example: -send-action pause The rest of options (if any) will be ignored and the application will exit. It will return 0 on success or -1 on failure.</source>
-        <translation>prøver at oprette forbindelse til en anden kørende instans og sende den angivne handling til den. Eksempel: -send-action-pause . Resten af indstillingerne (om nogen) vil blive ignoreret og programmet vil afslutte. Det vil returnere 0 ved succes og -1 ved fejl.</translation>
+        <translation>prøver at oprette en forbindelse til en anden kørende instans og sende den angivne handling til den. Eksempel: -send-action-pause . Resten af indstillingerne (om nogen) vil blive ignoreret og programmet vil afslutte. Det vil returnere 0 ved succes og -1 ved fejl.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="140"/>
