@@ -463,9 +463,9 @@ void PrefAdvanced::createHelp() {
 
 #if REPAINT_BACKGROUND_OPTION
 	setWhatsThis(repaint_video_background_check,
-        tr("Repaint the background of the video window"),
-		tr("Checking this option may reduce flickering, but it also might "
-           "produce that the video won't be displayed properly.") );
+		tr("Repaint the background of the video window"),
+		tr("Unchecking this option may reduce flickering, but it can also produce "
+           "strange artifacts under certain circumstances.") );
 #endif
 
 
