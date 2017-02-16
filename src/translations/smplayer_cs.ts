@@ -5083,9 +5083,8 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Tato možnost je určena pro ladění aplikace.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Zaškrtnutím této volby můžete zmenšit blikání, ale také se výstupní video nemusí zobrazovat správně.</translation>
+        <translation type="obsolete">Zaškrtnutím této volby můžete zmenšit blikání, ale také se výstupní video nemusí zobrazovat správně.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5341,6 +5340,11 @@ Opravdu jej chcete přepsat?</translation>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>Pře&amp;dat možnost %1 MPlayeru (bezpečnostní riziko)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

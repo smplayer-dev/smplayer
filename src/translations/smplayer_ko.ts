@@ -5081,9 +5081,8 @@ Do you want to overwrite?</source>
         <translation>이 옵션은 주로 프로그램을 디버깅하기 위한 것입니다.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>이 옵션을 선택하면 깜빡임을 감소할 수 있지만, 동영상이 제대로 출력되지 않을 수 있습니다.</translation>
+        <translation type="obsolete">이 옵션을 선택하면 깜빡임을 감소할 수 있지만, 동영상이 제대로 출력되지 않을 수 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5339,6 +5338,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>%1 옵션을 MPlayer에 전달하기 (보안 위험 요소)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

@@ -5082,9 +5082,8 @@ Do you want to overwrite?</source>
         <translation>Тази опция е планирана за отстраняване на грешки в програмата.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Ако отметнете тази опция, може да намалите треперенето, но може видеото да не се показва правилно.</translation>
+        <translation type="obsolete">Ако отметнете тази опция, може да намалите треперенето, но може видеото да не се показва правилно.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5340,6 +5339,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>Пред&amp;аване на опцията %1 към MPlayer (рисковано за сигурността)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

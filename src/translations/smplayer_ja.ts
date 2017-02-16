@@ -5081,9 +5081,8 @@ Do you want to overwrite?</source>
         <translation>このオプションは主にアプリケーションのデバッグが対象です。</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>このオプションのチェックはちらつきを減少させる可能性がありますが、ビデオが適切に表示されなくなることを生む可能性もあります。</translation>
+        <translation type="obsolete">このオプションのチェックはちらつきを減少させる可能性がありますが、ビデオが適切に表示されなくなることを生む可能性もあります。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5339,6 +5338,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>MPlayer へ %1 オプションを渡す (セキュリティ リスクあり)(&amp;S)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

@@ -5082,9 +5082,8 @@ Norite perrašyti?</translation>
         <translation>Ši nuostata iš esmės reikalinga programos derinimui.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Ši nuostata gali sumažinti vaizdo mirgėjimą, bet tuo pačiu galimas nekorektiškas vaizdo rodymas.</translation>
+        <translation type="obsolete">Ši nuostata gali sumažinti vaizdo mirgėjimą, bet tuo pačiu galimas nekorektiškas vaizdo rodymas.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5340,6 +5339,11 @@ Norite perrašyti?</translation>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>Pe&amp;rduoti %1 parinktį į MPlayer (saugumo rizika)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

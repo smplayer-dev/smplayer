@@ -5348,9 +5348,8 @@ Príklad: resample=44100:0:0,volnorm</translation>
         <translation>Táto možnosť je používaná pre odhaľovanie chýb v aplikácií.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Zaškrtnutím tejto možnosti môžete znížiť blikanie obrazu, ale môže to spôsobiť, že video nebude zobrazené správne.</translation>
+        <translation type="obsolete">Zaškrtnutím tejto možnosti môžete znížiť blikanie obrazu, ale môže to spôsobiť, že video nebude zobrazené správne.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5669,6 +5668,11 @@ Príklad: resample=44100:0:0,volnorm</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

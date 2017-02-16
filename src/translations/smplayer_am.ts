@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="am">
 <context>
     <name>About</name>
     <message>
@@ -2945,7 +2947,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
+        <translation>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3043,7 +3048,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -5076,9 +5081,8 @@ Do you want to overwrite?</source>
         <translation>ይህ ምርጫ የ ተሰናዳው በ ተለይ የ መተግበሪያ ችግሮችን ፈልጎ ግሮቹን ለ መፍታት ነው</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>በዚህ ምርጫ ላይ ምልክት ማድረግ ብልጭ ድርግም የሚለውን ይቀንሰዋል: ነገር ግን ቪዲዮው በ ትክክል ላይታይ ይችላል</translation>
+        <translation type="obsolete">በዚህ ምርጫ ላይ ምልክት ማድረግ ብልጭ ድርግም የሚለውን ይቀንሰዋል: ነገር ግን ቪዲዮው በ ትክክል ላይታይ ይችላል</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5334,6 +5338,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>ማለ&amp;ፊያ ለ %1 ምርጫ ለ MPlayer (ለ ደህንነት አስተማማኝ አይደለም)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -9564,13 +9573,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>

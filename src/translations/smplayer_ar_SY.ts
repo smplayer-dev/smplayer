@@ -5368,9 +5368,8 @@ Example: resample=44100:0:0,volnorm</source>
         <translation type="unfinished">هذا الخيارمهم بشكل رئيسي لتنقيح التطبيق.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="unfinished">تأشير هذا الأعداد ربما يسبب وميضا , و ربما يقوم بأنتاج فيديو لا يظهر أيضا ً</translation>
+        <translation type="obsolete">تأشير هذا الأعداد ربما يسبب وميضا , و ربما يقوم بأنتاج فيديو لا يظهر أيضا ً</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5701,6 +5700,11 @@ Example: resample=44100:0:0,volnorm</source>
     <message>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

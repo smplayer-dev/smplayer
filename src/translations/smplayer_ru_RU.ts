@@ -5083,9 +5083,8 @@ Do you want to overwrite?</source>
         <translation>Эти настройки в основном необходимы для отладки приложения.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="467"/>
         <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation>Использование этого параметра может убрать мерцание изображения, однако при этом возможно неверное отображение видео.</translation>
+        <translation type="obsolete">Использование этого параметра может убрать мерцание изображения, однако при этом возможно неверное отображение видео.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -5341,6 +5340,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="104"/>
         <source>Pa&amp;ss the %1 option to MPlayer (security risk)</source>
         <translation>&amp;Отправлять параметр %1 в MPlayer (небезопасно)</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="467"/>
+        <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
