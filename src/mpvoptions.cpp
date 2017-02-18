@@ -1079,11 +1079,20 @@ void MPVProcess::changeStereo3DFilter(bool enable, const QString & in, const QSt
 	writeToStdin(QString("vf %1 \"%2\"").arg(enable ? "add" : "del").arg(filter));
 }
 
+#if 0
+
+#define SUBOPTION(name, alternative1, alternative2) \
+	QString name = alternative2;
+
+#else
+
 #define SUBOPTION(name, alternative1, alternative2) \
 	QString name; \
 	if (isOptionAvailable(alternative1)) name = alternative1; \
 	else \
 	if (isOptionAvailable(alternative2)) name = alternative2;
+
+#endif
 
 void MPVProcess::setSubStyles(const AssStyles & styles, const QString &) {
 	SUBOPTION(sub_font, "--sub-font", "--sub-text-font");
