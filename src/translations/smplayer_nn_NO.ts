@@ -5079,10 +5079,6 @@ Vil du skriva over?</translation>
         <translation>Dette valet er hovudsakleg meint for feilsøking av programmet.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Om du kryssar av for dette valet kan det redusera flimring, men det kan òg gjera at videoen ikkje vert vist rett.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter for SMPlayer-loggar</translation>

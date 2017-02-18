@@ -5081,10 +5081,6 @@ Do you want to overwrite?</source>
         <translation>이 옵션은 주로 프로그램을 디버깅하기 위한 것입니다.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">이 옵션을 선택하면 깜빡임을 감소할 수 있지만, 동영상이 제대로 출력되지 않을 수 있습니다.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer 로그 필터</translation>
@@ -5342,7 +5338,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션의 체크를 해제하면 깜박임이 감소할 수 있으나 특정한 환경하에서는 화면에 이상한 결함이 생길 수도 있습니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

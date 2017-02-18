@@ -5081,10 +5081,6 @@ Do you want to overwrite?</source>
         <translation>Bu seçenek esas olarak hata ayıklama amaçlıdır.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Bu seçeneği işaretlemek görüntüdeki titremeyi azaltabilir, fakat videonun bozuk görüntülenmesine de yol açabilir.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer kayıtları için süzgeç</translation>

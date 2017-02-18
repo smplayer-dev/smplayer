@@ -5082,10 +5082,6 @@ Substituir?</translation>
         <translation>Esta opção serve para depurar a aplicação.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Se ativar esta opção pode reduzir a cintilação, mas pode também fazer com que o vídeo não seja exibido corretamente.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtro para registos do SMPlayer</translation>

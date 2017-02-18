@@ -5078,10 +5078,6 @@ Do you want to overwrite?</source>
         <translation>אפשרות זו נועדה בעיקר לצורך debugging עבור היישום.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">סימון אפשרות זו עשוי להפחית הבלחה, אך זה גם עשוי להניב מצב דברים בו וידאו לא יוצג כהוגן.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>מסנן עבור יומני SMPlayer</translation>

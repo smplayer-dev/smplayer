@@ -5081,10 +5081,6 @@ Anda hendak tulis-ganti?</translation>
         <translation>Pilihan ini bertujuan untuk menyahpijat aplikasi.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Menanda pilihan ini akan mengurangkan kerlipan, tetapi ia juga menyebabkan video tidak dapat dipaparkan dengan baik.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Penapis untuk log SMPlayer</translation>

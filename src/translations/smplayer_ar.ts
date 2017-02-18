@@ -5084,10 +5084,6 @@ Do you want to overwrite?</source>
         <translation>هذا الخيار مُعَدّ أساساً لتنقيح التطبيق.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">ربما يُنقص تمكين هذا الخيار الومض، ولكنه قد يتسبب في أن لا يُعرض الفيديو كما ينبغي.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>مُرشِّح لسجلات SMPlayer</translation>

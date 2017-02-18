@@ -5078,10 +5078,6 @@ Do you want to overwrite?</source>
         <translation>ตัวเลือกนี้มีวัตถุประสงค์เพื่อแก้ไขบักของโปรแกรมเป็นหลัก.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">การเลือกสิ่งนี้ อาจช่วยลดการกระพริบ แต่อาจทำให้วิดีโอแสดงผลได้ไม่เหมาะสม.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>ตัวกรองสำหรับการจดกิจกรรม SMPlayer</translation>

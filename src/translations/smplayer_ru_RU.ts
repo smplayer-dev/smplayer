@@ -5083,10 +5083,6 @@ Do you want to overwrite?</source>
         <translation>Эти настройки в основном необходимы для отладки приложения.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Использование этого параметра может убрать мерцание изображения, однако при этом возможно неверное отображение видео.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Фильтр для отчётов SMPlayer</translation>
@@ -5344,7 +5340,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Не выбор этого параметра может уменьшить мерцание, но это также может привести к странным артефактам при определённых обстоятельствах.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

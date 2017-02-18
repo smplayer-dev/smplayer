@@ -5083,10 +5083,6 @@ Möchten Sie sie überschreiben?</translation>
         <translation>Diese Option ist hauptsächlich zur Fehlerbeseitigung der Anwendung gedacht.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Das Aktivieren dieser Option könnte Flackern/Flimmern in Videos verringern, aber möglicherweise auch dazu führen, dass die Videos nicht mehr ordentlich dargestellt werden.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter für SMPlayer-Protokolle</translation>
@@ -5344,7 +5340,7 @@ Möchten Sie sie überschreiben?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Das Deaktivieren dieser Option könnte Flackern/Flimmern in Videos verringern, aber es kann unter Umständen auch seltsame Artefakte erzeugen.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -8024,7 +8020,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wenn der Webserver ausgeführt wird, kann jedes Gerät in Ihrem Netzwerk auf die Dateien von diesem Computer zugreifen. Wenn diese Option aktiviert ist, kann jedes Gerät eine Liste der Dateien auf diesem Computer erhalten. Wenn diese Option deaktiviert ist, ist die Liste nicht verfügbar.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8609,7 +8605,7 @@ Wählen Sie 0, wird das Menü überhaupt nicht angezeigt.</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mit dieser Option können Sie das Löschen von Dateien vom Datenträger im Kontextmenü der Wiedergabeliste aktivieren. Um versehentliches Löschen zu verhindern, ist diese Option standardmäßig deaktiviert.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>

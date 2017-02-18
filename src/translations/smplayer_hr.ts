@@ -5083,10 +5083,6 @@ Do you want to overwrite?</source>
         <translation>Ova mogućnost namijenjena je otklanjanju grešaka aplikacije.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Označavanje ove mogućnosti može smanjiti tepterenje slike, ali isto tako može prozročiti neispravan prikaz slike.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter za SMPlayer zapise</translation>

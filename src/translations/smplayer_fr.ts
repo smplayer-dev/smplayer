@@ -5083,10 +5083,6 @@ Voulez vous l&apos;écraser?</translation>
         <translation>Cette option est principalement utile pour le débuggage.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Activer cette option peut réduire le scintillement, mais cela peut aussi  empêcher la vidéo de s&apos;afficher correctement.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtres pour les logs de SMPlayer</translation>
@@ -5344,7 +5340,7 @@ Voulez vous l&apos;écraser?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Désactiver cette option peut réduire le scintillement, mais peut aussi créer des artefacts dans certains cas.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

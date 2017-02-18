@@ -5082,10 +5082,6 @@ Vil du overskrive den?</translation>
         <translation>Denne indstilling er primært tiltænkt til fejlsøgning af programmet.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Markering af denne indstilling kan reducere flimmer, men det kan også gøre at videoen ikke vises korrekt.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter til SMPlayers logge</translation>

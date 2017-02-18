@@ -5083,10 +5083,6 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Tato možnost je určena pro ladění aplikace.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Zaškrtnutím této volby můžete zmenšit blikání, ale také se výstupní video nemusí zobrazovat správně.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtr pro logy SMPlayeru</translation>
@@ -5344,7 +5340,7 @@ Opravdu jej chcete přepsat?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deaktivací této volby se může snížit četnost problikávání, ale také to může za určitých okolností zobrazovat podivné artefakty .</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

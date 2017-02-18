@@ -5084,10 +5084,6 @@ na liście odtwarzania:</translation>
         <translation>Ta opcja jest przeznaczona głównie do debugowania programu.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Zaznaczenie tej opcji może zredukować migotanie, ale jednocześnie może spowodować, że obraz wideo nie będzie poprawnie wyświetlany.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filtr dzienników SMPlayera</translation>
@@ -5345,7 +5341,7 @@ na liście odtwarzania:</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Odznaczenie tej opcji może zredukować migotanie, ale może także powodować dziwne artefakty w szczególnych wypadkach.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

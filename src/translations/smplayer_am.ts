@@ -5081,10 +5081,6 @@ Do you want to overwrite?</source>
         <translation>ይህ ምርጫ የ ተሰናዳው በ ተለይ የ መተግበሪያ ችግሮችን ፈልጎ ግሮቹን ለ መፍታት ነው</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">በዚህ ምርጫ ላይ ምልክት ማድረግ ብልጭ ድርግም የሚለውን ይቀንሰዋል: ነገር ግን ቪዲዮው በ ትክክል ላይታይ ይችላል</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>ማጣሪያ ለ SMPlayer መግቢያ</translation>
