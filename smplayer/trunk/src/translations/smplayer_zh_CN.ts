@@ -5081,10 +5081,6 @@ Do you want to overwrite?</source>
         <translation>此选项主要用于调试应用程序。</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">勾选此选项可减少闪烁，但也可能会造成视频无法正确显示。</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer 日志筛选器</translation>

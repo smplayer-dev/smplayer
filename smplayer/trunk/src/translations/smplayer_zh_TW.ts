@@ -5081,10 +5081,6 @@ Do you want to overwrite?</source>
         <translation>這個選項主要用於此應用程式的除錯。</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">選擇這個選項可以減少閃爍。但也可能造成視訊不能正常顯示。</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer 日誌過濾器</translation>
@@ -5342,7 +5338,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>取消勾選此選項可能會減少閃爍，但也可能造成視訊不能正常顯示。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>

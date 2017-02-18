@@ -5082,10 +5082,6 @@ Do you want to overwrite?</source>
         <translation>Η επιλογή αυτή προορίζεται κυρίως για την αποσφαλμάτωση της εφαρμογής.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Επιλέγοντας αυτήν την επιλογή μπορεί να μειωθεί το τρεμόπαιγμα, αλλά πιθανόν το βίντεο να μην εμφανίζεται σωστά.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Φίλτρο για καταγραφές SMPlayer</translation>

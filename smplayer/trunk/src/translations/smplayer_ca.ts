@@ -2312,27 +2312,27 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="4050"/>
         <source>Mouse wheel changes volume now</source>
-        <translation type="unfinished"></translation>
+        <translation>La roda del ratolí ara canvia el volum</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4053"/>
         <source>Mouse wheel changes zoom level now</source>
-        <translation type="unfinished"></translation>
+        <translation>La roda del ratolí ara canvia el nivell de zoom</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4056"/>
         <source>Mouse wheel changes speed now</source>
-        <translation type="unfinished"></translation>
+        <translation>La roda del ratolí ara canvia la velocitat</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4377"/>
         <source>Screenshot saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;ha desat la captura de pantalla com a %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="4412"/>
         <source>Starting...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està iniciant...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="1410"/>
@@ -2482,7 +2482,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../errordialog.cpp" line="40"/>
         <source>Oops, something went wrong</source>
-        <translation type="unfinished"></translation>
+        <translation>Ostres, alguna cosa ha anat malament</translation>
     </message>
     <message>
         <location filename="../errordialog.cpp" line="67"/>
@@ -2794,7 +2794,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="31"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilita o inhabilita l&apos;ús del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="32"/>
@@ -2809,7 +2809,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="34"/>
         <source>If the proxy requires authentication, this sets the username.</source>
-        <translation type="unfinished">Si el servidor intermediari requereix autenticació, aquest estableix el nom d&apos;usuari.</translation>
+        <translation>Si el servidor intermediari requereix autenticació, aixó estableix el nom d&apos;usuari.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="36"/>
@@ -2819,7 +2819,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.cpp" line="38"/>
         <source>Select the proxy type to be used.</source>
-        <translation type="unfinished">Seleccioneu el tipus de servidor intermediari a utilitzar.</translation>
+        <translation>Selecciona el tipus de servidor intermediari a utilitzar.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="14"/>
@@ -2834,7 +2834,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="28"/>
         <source>&amp;OpenSubtitles server:</source>
-        <translation type="unfinished"></translation>
+        <translation>Servidor d&apos;&amp;OpenSubtitles:</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitlesconfigdialog.ui" line="83"/>
@@ -3002,7 +3002,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="440"/>
         <source>Failed to parse the received data.</source>
-        <translation type="unfinished"></translation>
+        <translation>No s&apos;han pogut analitzar les dades rebudes.</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="13"/>
@@ -3028,7 +3028,7 @@ Exemple: extrastereo,karaoke</translation>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="535"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="682"/>
         <source>Subtitle saved as %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Subtítols desats com a %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="719"/>
@@ -3038,7 +3038,7 @@ Exemple: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="720"/>
         <source>The file %1 already exits, overwrite?</source>
-        <translation type="unfinished"></translation>
+        <translation>El fitxer %1 ja existeix, voleu sobreescriure&apos;l?</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="530"/>
@@ -3064,7 +3064,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="615"/>
         <source>Temporary file %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Fitxer temporal %1</translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.ui" line="116"/>
@@ -3082,7 +3082,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation type="unfinished"></translation>
+        <translation>S&apos;està creat la memòria cau dels tipus de lletres...</translation>
     </message>
 </context>
 <context>
@@ -4999,7 +4999,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../playlist.cpp" line="1945"/>
         <source>Deletion failed</source>
-        <translation type="unfinished"></translation>
+        <translation>Ha fallat la supressió</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1946"/>
@@ -5009,7 +5009,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../playlist.cpp" line="1951"/>
         <source>Error deleting the file</source>
-        <translation type="unfinished"></translation>
+        <translation>Error en suprimir el fitxer</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="1952"/>
@@ -5079,10 +5079,6 @@ El voleu sobreescriure?</translation>
         <location filename="../prefadvanced.ui" line="613"/>
         <source>This option is mainly intended for debugging the application.</source>
         <translation>Aquesta opció serveix bàsicament per depurar l&apos;aplicació.</translation>
-    </message>
-    <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Si es marca aquesta opció, pot ser que es redueixi el flickering, però també pot causar una visualització incorrecta del vídeo.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="591"/>
@@ -8036,7 +8032,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="271"/>
         <source>Enable/disable the use of the proxy.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Habilita o inhabilita l&apos;ús del servidor intermediari.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="273"/>

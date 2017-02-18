@@ -5082,10 +5082,6 @@ Gainidaztea nahi duzu?</translation>
         <translation>Aukera hau aplikazio garbiketarako jarria izan da nagusiki.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Aukera hau hautatuz dirdira gutxitu dezakezu, baina bideoa behar bezala ez ikustea eragin dezake.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>SMPlayer oharren iragazkia</translation>

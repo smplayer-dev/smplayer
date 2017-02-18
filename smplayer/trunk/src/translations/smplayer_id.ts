@@ -5082,10 +5082,6 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Opsi ini secara utama dimaksudkan untuk pengawakutuan aplikasi.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Memeriksa opsi ini mungkin dapat menurunkan efek kerlip, namun itu juga memungkinkan pembuatan video yang tidak akan ditampilkan dengan tepat.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Filter untuk catatan SMPlayer</translation>

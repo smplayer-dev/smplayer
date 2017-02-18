@@ -5081,10 +5081,6 @@ Do you want to overwrite?</source>
         <translation>Ова опција служи са дебаговање апликације.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Штиклирањем ове опције може да се редукује треперење, али такође може да се деси да се видео не прикаже ваљано.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Филтер за СМПлејер записе</translation>

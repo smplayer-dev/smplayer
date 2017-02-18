@@ -5079,10 +5079,6 @@ Haluatko päällekirjoittaa?</translation>
         <translation>Tämä asetus on tarkoitettu pääasiassa vain ohjelman virheiden etsimiseen ja poistamiseen.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Valitsemalla tämän asetuksen se saattaa vähentää vilkkumista, mutta saattaa myös aiheuttaa kuvan näkymisen väärin.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Suodata SMPlayerin lokit</translation>

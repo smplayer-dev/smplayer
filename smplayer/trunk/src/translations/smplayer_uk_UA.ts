@@ -5083,10 +5083,6 @@ Do you want to overwrite?</source>
         <translation>Ці опції, головним чином, потрібні щоб зневадити програму.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Ця опція може зменшити мерехтіння, але може призвести до того, що зображення не буде показане як слід.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Фільтр для журналів SMPlayer</translation>

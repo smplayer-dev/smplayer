@@ -5082,10 +5082,6 @@ Do you want to overwrite?</source>
         <translation>Тази опция е планирана за отстраняване на грешки в програмата.</translation>
     </message>
     <message>
-        <source>Checking this option may reduce flickering, but it also might produce that the video won&apos;t be displayed properly.</source>
-        <translation type="obsolete">Ако отметнете тази опция, може да намалите треперенето, но може видеото да не се показва правилно.</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="591"/>
         <source>Filter for SMPlayer logs</source>
         <translation>Филтриране на SMPlayer отчети</translation>
