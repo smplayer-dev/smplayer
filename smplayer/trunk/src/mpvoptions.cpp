@@ -767,7 +767,7 @@ void MPVProcess::displayInfoOnOSD() {
 		//tab + b1 + tr("Display FPS:") + b0 + " ${display-fps}" + nl +
 		tab + b1 + tr("Aspect Ratio:") + b0 + " ${video-params/aspect}" + nl +
 		tab + b1 + tr("Bitrate:") + b0 + " ${video-bitrate}" + nl +
-		tab + b1 + tr("Dropped frames:") + b0 + " ${drop-frame-count}" + nl +
+		tab + b1 + tr("Dropped frames:") + b0 + " ${decoder-frame-drop-count:${drop-frame-count}}" + nl +
 		nl +
 
 		b1 + tr("Audio:") + b0 + " ${audio-codec}" + nl + 
