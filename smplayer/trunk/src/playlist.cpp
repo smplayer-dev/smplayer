@@ -1044,6 +1044,11 @@ void Playlist::load_pls(QString file) {
 
 		int num_items = set.value("NumberOfEntries", 0).toInt();
 
+		#if QT_VERSION >= 0x050000
+		// It seems Qt 5 is case sensitive
+		if (num_items == 0) num_items = set.value("numberofentries", 0).toInt();
+		#endif
+
 		for (int n=0; n < num_items; n++) {
 			filename = set.value("File"+QString::number(n+1), "").toString();
 			name = set.value("Title"+QString::number(n+1), "").toString();
