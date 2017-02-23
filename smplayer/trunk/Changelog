@@ -1,3 +1,17 @@
+Version 17.3:
+
+(2017-02-20)
+ * (Playlist) Try to use numberofentries if NumberOfEntries returns 0 when
+   loading pls files.
+
+(2017-02-14)
+ * (Windows) Try to run youtube-dl when mpv fails to use it to check if
+   the Microsoft Visual C++ 2010 Redistributable is needed.
+
+(2017-02-07)
+ * Fix some of the subtitles' options when using mpv.
+
+
 Version 17.2:
 
 (2017-01-31)
