@@ -821,7 +821,9 @@ FunctionEnd
 Function .onInit
 
 !ifdef COMPILED_WITH_QT4
-  MessageBox MB_OK|MB_ICONEXCLAMATION "This build is provided for legacy CPUs (those without SSE2 or later instruction set support). Please do not use if you do not know what you are doing."
+  MessageBox MB_YESNO|MB_ICONEXCLAMATION "This build is compiled with Qt4 and is provided for compatibility with legacy CPUs (those without SSE2 or later instruction set support). If you do not meet these requirements, it is recommended to use the normal Qt5 releases.$\r$\n$\r$\nProceed with the installation?" /SD IDYES IDYES installoldcpu
+    Abort
+  installoldcpu:
 !endif
 
 !ifdef WIN64
