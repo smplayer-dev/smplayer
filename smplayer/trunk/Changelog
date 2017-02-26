@@ -1,5 +1,8 @@
 Version 17.3:
 
+(2017-02-26)
+ * (mpv) Add more options for hardware decoding.
+
 (2017-02-20)
  * (Playlist) Try to use numberofentries if NumberOfEntries returns 0 when
    loading pls files.
