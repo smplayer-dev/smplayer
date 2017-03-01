@@ -32,8 +32,8 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 
 	hwdec_combo->addItem(tr("None"), "no");
 	hwdec_combo->addItem(tr("Auto"), "auto");
-	#ifdef Q_OS_LINUX
 	hwdec_combo->addItem("auto-copy", "auto-copy");
+	#ifdef Q_OS_LINUX
 	hwdec_combo->addItem("vdpau", "vdpau");
 	hwdec_combo->addItem("vdpau-copy", "vdpau-copy");
 	hwdec_combo->addItem("vaapi", "vaapi");
@@ -45,8 +45,11 @@ PrefPerformance::PrefPerformance(QWidget * parent, Qt::WindowFlags f)
 	#ifdef Q_OS_WIN
 	hwdec_combo->addItem("dxva2", "dxva2");
 	hwdec_combo->addItem("dxva2-copy", "dxva2-copy");
-	hwdec_combo->addItem("d3d11va (Windows 8+)", "d3d11va");
-	hwdec_combo->addItem("d3d11va-copy (Windows 8+)", "d3d11va-copy");
+	if (QSysInfo::WindowsVersion >= QSysInfo::WV_WINDOWS8) {
+		// Windows 8+
+		hwdec_combo->addItem("d3d11va", "d3d11va");
+		hwdec_combo->addItem("d3d11va-copy", "d3d11va-copy");
+	}
 	#endif
 	hwdec_combo->addItem("cuda", "cuda");
 	hwdec_combo->addItem("cuda-copy", "cuda-copy");
