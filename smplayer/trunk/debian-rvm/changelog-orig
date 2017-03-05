@@ -1,3 +1,10 @@
+smplayer (17.3.0) precise; urgency=low
+
+  * Add experimental support for subtitles for Chromecast.
+  * Bug fixes.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 05 Mar 2017 23:04:42 +0100
+
 smplayer (17.2.0) precise; urgency=low
 
   * Fix for YouTube.
