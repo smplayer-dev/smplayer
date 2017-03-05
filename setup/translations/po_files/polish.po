@@ -4,19 +4,19 @@
 # 
 # Translators:
 # M T <michtrz@gmail.com>, 2014,2016
-# Piotr Strębski <strebski@o2.pl>, 2015
+# Piotr Strębski <strebski@o2.pl>, 2015,2017
 # filux <smartadminpl@gmail.com>, 2014
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: M T <michtrz@gmail.com>\n"
+"PO-Revision-Date: 2017-02-10 08:40+0000\n"
+"Last-Translator: Piotr Strębski <strebski@o2.pl>\n"
 "Language-Team: Polish (http://www.transifex.com/rvm/smplayer/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pl\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>=14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 
 # Installer_Is_Running
 msgid "The installer is already running."
@@ -44,7 +44,7 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows Vista and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "Nieobsługiwany system operacyjny.[:n:]SMPlayer ${SMPLAYER_VERSION} wymaga co najmniej Windows Vista i może nie działać poprawnie na twoim systemie.[:n:]Czy naprawdę chcesz kontynuować instalację?"
+msgstr "Nieobsługiwany system operacyjny.[:n:]SMPlayer ${SMPLAYER_VERSION} wymaga co najmniej Windows Vista i może nie działać poprawnie na Twoim systemie.[:n:]Czy naprawdę chcesz kontynuować instalację?"
 
 # Win64_Required
 msgid ""
@@ -215,7 +215,7 @@ msgstr "Zresetuj moją konfigurację SMPlayera"
 msgid ""
 "Are you sure you want to reset your SMPlayer settings? This action cannot be"
 " reversed."
-msgstr "Czy na pewno chcesz zresetować ustawienia SMPlayera? Ta czynność nie może zostać odwrócona."
+msgstr "Czy na pewno chcesz zresetować ustawienia SMPlayera? Tej czynności nie może odwrócić."
 
 # Type_Reinstall
 msgid "reinstall"
@@ -358,7 +358,7 @@ msgstr "Sprawdzanie aktualizacji youtube-dl..."
 
 # Info_Cleaning_Fontconfig
 msgid "Cleaning fontconfig cache..."
-msgstr "Czyszczenie pamięci podręcznej czcionki..."
+msgstr "Czyszczenie pamięci podręcznej czcionek..."
 
 # Info_Cleaning_SMPlayer
 msgid "Cleaning SMPlayer settings..."
