@@ -16,7 +16,7 @@ ${LangFileString} Installer_No_Admin "Do instalacji tego programu wymagane są u
 ${LangFileString} SMPlayer_Is_Running "Instancja SMPlayera jest już uruchomiona. Proszę zamknij SMPlayera i spróbuj ponownie."
 
 ${LangFileString} OS_Not_Supported "Nieobsługiwany system operacyjny.$\nSMPlayer ${SMPLAYER_VERSION} wymaga co najmniej Windows XP i może nie działać poprawnie na twoim systemie.$\nCzy naprawdę chcesz kontynuować instalację?"
-${LangFileString} OS_Not_Supported_VistaRequired "Nieobsługiwany system operacyjny.$\nSMPlayer ${SMPLAYER_VERSION} wymaga co najmniej Windows Vista i może nie działać poprawnie na twoim systemie.$\nCzy naprawdę chcesz kontynuować instalację?"
+${LangFileString} OS_Not_Supported_VistaRequired "Nieobsługiwany system operacyjny.$\nSMPlayer ${SMPLAYER_VERSION} wymaga co najmniej Windows Vista i może nie działać poprawnie na Twoim systemie.$\nCzy naprawdę chcesz kontynuować instalację?"
 ${LangFileString} Win64_Required "Do zainstalowania tego programu wymagany jest system operacyjny Windows w wersji 64-bitowej."
 ${LangFileString} Existing_32bitInst "W systemie jest już zainstalowany SMPlayer w wersji 32-bitowej. Aby kontynuować należy najpierw odinstalować 32-bitową wersję SMPlayera."
 ${LangFileString} Existing_64bitInst "W systemie jest już zainstalowany SMPlayer w wersji 64-bitowej. Aby kontynuować należy najpierw odinstalować 64-bitową wersję SMPlayera."
@@ -77,7 +77,7 @@ ${LangFileString} Reinstall_Msg3_3 "Kliknij Odinstaluj, gdy będziesz gotów."
 ${LangFileString} Reinstall_Msg4 "Zmiana Ustawień Instalacji"
 ${LangFileString} Reinstall_Msg5 "Zresetuj moją konfigurację SMPlayera"
 
-${LangFileString} Remove_Settings_Confirmation "Czy na pewno chcesz zresetować ustawienia SMPlayera? Ta czynność nie może zostać odwrócona."
+${LangFileString} Remove_Settings_Confirmation "Czy na pewno chcesz zresetować ustawienia SMPlayera? Tej czynności nie może odwrócić."
 
 ${LangFileString} Type_Reinstall "zainstaluj ponownie"
 ${LangFileString} Type_Downgrade "aktualizuj do starszej wersji"
@@ -133,5 +133,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Czyszczenie pamięci podręcznej czcionki..."
+${LangFileString} Info_Cleaning_Fontconfig "Czyszczenie pamięci podręcznej czcionek..."
 ${LangFileString} Info_Cleaning_SMPlayer "Czyszczenie ustawień SMPlayera..."

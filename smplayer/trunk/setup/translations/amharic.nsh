@@ -79,14 +79,14 @@ ${LangFileString} Section_MPlayer_Desc "SMP ማጫወቻ; ያስፈልጋል በ
 
 ${LangFileString} Section_MPlayerCodecs "Binary Codecs"
 !ifdef WIN64
-${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs are not supported in this version."
+${LangFileString} Section_MPlayerCodecs_Desc "Binary codecs በዚህ እትም ውስጥ አልተደገፈም"
 !else
 ${LangFileString} Section_MPlayerCodecs_Desc "በ ምርጫ codecs ለ MPlayer. (ለ መግጠም የ ኢንተርኔት ግንኙነት ያስፈልጋል)"
 !endif
 
 ${LangFileString} Section_MPV_Desc "በርካታ ገጽታ ያለው የ MPlayer && MPlayer2"
 
-${LangFileString} Section_MEncoder_Desc "A companion program to MPlayer that can be used to encode or transform supported audio or video streams."
+${LangFileString} Section_MEncoder_Desc "አጋር ፕሮግራም ለ MPlayer መጠቀም ይችላሉ ለ encode ወይንም መቀየር የ ተደገፉ ድምፅ ወይንም ቪዲዮዎች ለማስተላለፍ"
 
 ${LangFileString} Section_IconThemes "የ ምልክት ገጽታዎች"
 ${LangFileString} Section_IconThemes_Desc "ለ SMP ማጫወቻ ተጨማሪ ገጽታዎች"
@@ -112,7 +112,7 @@ ${LangFileString} Reinstall_Msg3_3 "ይጫኑ ማጥፊያውን ለ መቀጠ�
 ${LangFileString} Reinstall_Msg4 "የ መግጠሚያ ማሰናጃ መቀየሪያ"
 ${LangFileString} Reinstall_Msg5 "እንደ ነበር መመለሻ የ እኔን SMPlayer ማዋቀሪያ"
 
-${LangFileString} Remove_Settings_Confirmation "Are you sure you want to reset your SMPlayer settings? This action cannot be reversed."
+${LangFileString} Remove_Settings_Confirmation "በ እርግጥ እንደ ነበር መመለስ ይፈልጋሉ የ እርስዎን SMPlayer ማሰናጃ? ይህን ተግባር መተው አይቻልም"
 
 ${LangFileString} Type_Reinstall "እንደገና መግጠሚያ"
 ${LangFileString} Type_Downgrade "ዝቅ ማድረጊያ"
@@ -127,14 +127,14 @@ ${LangFileString} Codecs_DL_Failed "ማውረድ አልተቻለም የ MPlayer 
 ${LangFileString} Codecs_Inst_Failed "የ MPlayer codecs. መግጠም አልተቻለም"
 
 ; Uninstaller
-${LangFileString} Uninstaller_No_Admin "This installation can only be uninstalled by a user with administrator privileges."
+${LangFileString} Uninstaller_No_Admin "ይህን መግጠሚያ ማስወገድ የሚቻለው የ አስተዳዳሪ ቅድሚያ ያለው ተጠቃሚ ብቻ ነው"
 ${LangFileString} Uninstaller_Aborted "ማጥፋቱ በ ተጠቃሚ ተቋርጧል"
-${LangFileString} Uninstaller_NotInstalled "It does not appear that SMPlayer is installed in the directory '$INSTDIR'.$\r$\nContinue anyway (not recommended)?"
+${LangFileString} Uninstaller_NotInstalled "አይታይም የ SMPlayer መግጠሚያ በ ዳይሬክቶሪ ውስጥ '$INSTDIR'.$\r$\n ልቀጥል ለማንኛውም (ይህን አንመክርም)?"
 ${LangFileString} Uninstaller_InvalidDirectory "የ SMPlayer መግጠሚያ አልተገኘም"
 ${LangFileString} Uninstaller_64bitOnly "ይህን መግጠሚያ ማስወገድ የሚቻለው በ 64-ቢት መስኮቶች ውስጥ ብቻ ነው"
 
 ; Vista & Later Default Programs Registration
-${LangFileString} Application_Description "SMPlayer is a complete front-end for MPlayer, from basic features like playing videos, DVDs, VCDs to more advanced features like support for MPlayer filters, edl lists, and more."
+${LangFileString} Application_Description "SMPlayer ሙሉ ማጫወቻ ነው ለ MPlayer, ከ መደበኛ ገጽታዎች እንደ ቪዲዮ: ዲቪዲ: ቪሲዲ: በ በርካታ ገጽታዎች እንደ የ MPlayer ማጣሪያ ዝርዝር: እና ሌሎችም"
 
 ; Misc
 ${LangFileString} Info_Codecs_Backup "በ ቅድሚያ የ ተገጠመውን codecs ተተኪ በ መፍጠር ላይ"
@@ -157,7 +157,7 @@ ${LangFileString} MPV_DL_Failed "ማውረድ አልተቻለም: '$R0'."
 ${LangFileString} MPV_Inst_Failed "መግጠም አልተቻለም mpv."
 
 ; YouTube-DL
-${LangFileString} YTDL_DL_Retry "youtube-dl was not successfully installed. Retry?"
+${LangFileString} YTDL_DL_Retry "youtube-dl ተሳክቶ አልተገጠመም: እንደገና ልሞክር?"
 ${LangFileString} YTDL_DL_Failed "ማውረድ አልተቻለም ከ youtube-dl: '$R0'."
 ${LangFileString} YTDL_Update_Check "የ ዩቲዩብ-dl ማሻሻያ በ መመርመር ላይ..."
 ${LangFileString} YTDL_Error_Msg1 "Warning: youtube-dl exited abnormally with exit code: $YTDL_Exit_code"
@@ -168,5 +168,5 @@ ${LangFileString} SMTube_Incompatible_Msg1 "The current SMTube installation is i
 ${LangFileString} SMTube_Incompatible_Msg2 "Please upgrade to a newer version of SMTube."
 
 ; Post install
-${LangFileString} Info_Cleaning_Fontconfig "Cleaning fontconfig cache..."
+${LangFileString} Info_Cleaning_Fontconfig "የ ፊደል ማሰናጃን በ ማጽዳት ላይ..."
 ${LangFileString} Info_Cleaning_SMPlayer "በማጽዳት ላይ የ SMPlayer ማሰናጃ"
