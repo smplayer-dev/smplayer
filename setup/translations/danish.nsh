@@ -59,7 +59,7 @@ ${LangFileString} Section_IconThemes_Desc "Yderligere ikon-temaer til SMPlayer."
 ${LangFileString} Section_Translations "Sprog"
 ${LangFileString} Section_Translations_Desc "Ikke-engelske sprogfiler til SMPlayer."
 
-${LangFileString} Section_ResetSettings_Desc "Sletter SMPlayer indstillinger fra tidligere installationer."
+${LangFileString} Section_ResetSettings_Desc "Sletter SMPlayer-præferencer fra tidligere installationer."
 
 ${LangFileString} MPlayer_Codec_Msg "De binære-codec pakker tilføjer understøttelse af codecs som endnu ikke er implementeret fra starten, såsom nyere RealVideo-varianter og mange ualmindelige formater.$\nBemærk at de ikke kræves for at kunne afspiller de mest almindelige formater såsom DVD'er, MPEG-1/2/4, osv."
 
@@ -81,7 +81,7 @@ ${LangFileString} Remove_Settings_Confirmation "Er du sikker på, at du vil nuls
 
 ${LangFileString} Type_Reinstall "geninstallér"
 ${LangFileString} Type_Downgrade "nedgradér"
-${LangFileString} Type_Upgrade "opgrader"
+${LangFileString} Type_Upgrade "opgradér"
 
 ${LangFileString} StartBtn "Start"
 
