@@ -56,7 +56,7 @@ QString Images::resourceFilename() {
 void Images::setTheme(const QString & name) {
 	current_theme = name;
 
-	is_internal = (QFile::exists(":/" + current_theme));
+	is_internal = (QFile::exists(":/" + current_theme + "/style.qss"));
 	if (is_internal) {
 		qDebug() << "Images::setTheme:" << current_theme << "is an internal theme";
 		setThemesPath("");
