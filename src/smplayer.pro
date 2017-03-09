@@ -7,7 +7,7 @@ CONFIG += release
 
 QT += network xml
 
-RESOURCES = icons.qrc
+RESOURCES = icons.qrc H2O.qrc
 
 #DEFINES += EXPERIMENTAL
 DEFINES += SINGLE_INSTANCE
