@@ -34,6 +34,8 @@ using namespace Global;
 QString Images::current_theme;
 QString Images::themes_path;
 
+bool Images::is_internal = false;
+
 #ifdef USE_RESOURCES
 QString Images::last_resource_loaded;
 bool Images::has_rcc = false;
@@ -53,6 +55,16 @@ QString Images::resourceFilename() {
 
 void Images::setTheme(const QString & name) {
 	current_theme = name;
+
+	is_internal = (QFile::exists(":/" + current_theme));
+	if (is_internal) {
+		qDebug() << "Images::setTheme:" << current_theme << "is an internal theme";
+		setThemesPath("");
+		#ifdef USE_RESOURCES
+		has_rcc = false;
+		#endif
+		return;
+	}
 
 #ifdef SMCODE
 	QString dir = Paths::configPath() + "/themes/" + name;
@@ -98,13 +110,17 @@ QString Images::file(const QString & name) {
 	QString icon_name;
 	if (!current_theme.isEmpty()) {
 	#ifdef USE_RESOURCES
-		if (has_rcc) {
+		if (has_rcc || is_internal) {
 			icon_name = ":/" + current_theme + "/"+ name;
 		} else {
 			icon_name = themes_path +"/"+ current_theme + "/"+ name;
 		}
 	#else
-		icon_name = themes_path +"/"+ current_theme + "/"+ name;
+		if (is_internal) {
+			icon_name = ":/" + current_theme + "/"+ name;
+		} else {
+			icon_name = themes_path +"/"+ current_theme + "/"+ name;
+		}
 	#endif
 	}
 

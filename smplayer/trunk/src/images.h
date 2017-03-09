@@ -44,6 +44,8 @@ public:
 	static QString themesDirectory();
 #endif
 
+	static bool is_internal;
+
 #ifdef USE_RESOURCES
 	static bool has_rcc;
 #endif
