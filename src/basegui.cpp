@@ -5686,6 +5686,13 @@ void BaseGui::changeStyleSheet(QString style) {
 
 		// Check style.qss
 		if (!QFile::exists(qss_file)) {
+			QString ifile = ":/" + pref->iconset + "/style.qss";
+			if (QFile::exists(ifile)) {
+				qss_file = ifile;
+			}
+		}
+
+		if (!QFile::exists(qss_file)) {
 			qss_file = Paths::configPath() + "/themes/" + pref->iconset + "/style.qss";
 			if (!QFile::exists(qss_file)) {
 				qss_file = Paths::themesPath() +"/"+ pref->iconset + "/style.qss";
