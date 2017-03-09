@@ -1,0 +1,225 @@
+/* Make the menus scrollable */
+
+QMenu {
+	menu-scrollable: 1;
+}
+
+/* Icon size for the main toolbar */
+/*
+#toolbar1 {
+	qproperty-iconSize: 32px;
+}
+*/
+
+/* Icon size for the QListWidget in the preferences dialog */
+
+QAbstractItemView#sections {
+	qproperty-iconSize: 22px;
+}
+
+PreferencesDialog {
+	qproperty-iconMode: false;
+}
+
+
+/* Change colors in the control bars */
+
+EditableToolbar {
+	border: none;
+
+	/* Gray */
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #cedce7, stop: 1 #596a72);
+}
+
+EditableToolbar::separator {
+	width: 0px;
+}
+
+AutohideWidget {
+	border: 0px;
+}
+
+AutohideWidget > QToolBar {
+	border: 1px solid black;
+}
+
+EditableToolbar > QToolButton {
+	border: 1px solid transparent;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+
+	color: black;
+	min-height: 24px;
+}
+
+
+EditableToolbar > QToolButton:hover {
+	border: 1px solid gray;
+	background: lightblue;
+	border-radius: 4px;
+}
+
+EditableToolbar > QToolButton:pressed {
+	border: 1px solid gray;
+	background: aliceblue;
+}
+
+EditableToolbar > QToolButton:checked {
+	border: 1px solid gray;
+	background: aliceblue;
+	border-radius: 4px;
+}
+
+EditableToolbar > QToolButton:disabled {
+	color: gray;
+}
+
+EditableToolbar > QToolButton[popupMode="1"] {
+	padding-right: 20px;
+}
+
+EditableToolbar > QToolButton[popupMode="2"] {
+	padding-right: 10px;
+}
+
+EditableToolbar > QToolButton::menu-button {
+	border: 0px solid gray;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+	width: 16px;
+	margin-right: 3px;
+}
+
+EditableToolbar > QToolButton::menu-arrow {
+	image: url(arrow-down.png);
+}
+
+EditableToolbar > QToolButton::menu-arrow:open {
+	top: 1px; left: 1px;
+}
+
+
+/* Change the color the menu bar */
+
+QMenuBar {
+	color: #000000;
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f3f3f3, stop: 0.05 #e6e5e5, stop: 0.3 #e2e2e2, stop: 0.95 #d3d3d4, stop: 1 #808080);
+	border-style: none;
+}
+
+QMenuBar::item {
+	background: transparent;
+}
+
+QMenuBar::item:selected {
+	background: #a8a8a8;
+}
+
+QMenuBar::item:pressed {
+	background: #888888;
+}
+
+
+/* Status bar */
+QStatusBar,
+QStatusBar QLabel {
+	padding-left: 2px;
+	padding-right: 2px;
+	font: italic bold 16px;
+	background: black;
+	color: white;
+}
+
+QStatusBar::item {
+	border: none;
+}
+
+
+/* Time labels in control bars */
+#time_label {
+	/* color: white; */
+	color: black;
+	border: 0px solid transparent;
+	font: italic bold 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+
+/* Seek and volume slider in tool bars */
+
+QToolBar > QSlider {
+	/* border: 1px solid black; */
+	min-height: 24px;
+}
+
+/* Horizontal */
+QToolBar > QSlider::groove:horizontal {
+	border: 1px solid #637EB8;
+	background: white;
+	height: 12px;
+	border-radius: 3px;
+}
+
+QToolBar > QSlider::sub-page:horizontal {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ABC7EC, stop: 1 #154A98);
+	border: 1px solid #777;
+	height: 10px;
+	border-radius: 4px;
+}
+
+QToolBar > QSlider::add-page:horizontal {
+	background: #fff;
+	border: 1px solid #154A98;
+	height: 10px;
+	border-radius: 4px;
+}
+
+QToolBar > QSlider::handle:horizontal{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff, stop:1 #ABC7EC);
+	border: 1px solid #777;
+	width: 5px;
+	margin-top: -4px;
+	margin-bottom: -4px;
+	border-radius: 2px;
+}
+
+/* Vertical */
+QToolBar > QSlider::groove:vertical{
+	border: 1px solid #637EB8;
+	background: white;
+	width: 7px;
+	border-radius: 3px;
+}
+
+QToolBar > QSlider::add-page:vertical {
+	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #ABC7EC, stop: 1 #154A98);
+	border: 1px solid #154A98;
+	width: 10px;
+	border-radius: 4px;
+}
+
+QToolBar > QSlider::sub-page:vertical {
+	background: #fff;
+	border: 1px solid #777;
+	width: 7px;
+	border-radius: 4px;
+}
+
+QToolBar > QSlider::handle:vertical{
+	background: qlineargradient(x1:0, y1:0, x2:1, y2:1, stop:0 #fff, stop:1 #ABC7EC);
+	border: 1px solid #777;
+	height: 5px;
+	margin-left: -4px;
+	margin-right: -4px;
+	border-radius: 2px;
+}
+
+/* Horizontal and vertical */
+QToolBar > QSlider::handle:horizontal:hover,
+QToolBar > QSlider::handle:vertical:hover {
+	border: 1px solid #154A98;
+	border-radius: 3px;
+}

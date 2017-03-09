@@ -1,0 +1,39 @@
+QWidget {
+	font-size: 13pt;
+}
+
+.QPushButton {
+	border: 0px;
+	background-color: white;
+	margin: 2px;
+	padding: 10px;
+}
+
+QGroupBox {
+	border: 0px;
+	padding-top: 18px;
+	padding-bottom: 2px;
+	color: darkblue;
+	font: bold;
+	margin: 2px;
+}
+
+EditableToolbar > QToolButton:hover {
+	border: 1px solid transparent;
+	background: transparent;
+	border-radius: 0px;
+}
+
+/*
+#toolbar1 {
+	qproperty-iconSize: 40px;
+}
+*/
+
+QAbstractItemView#sections {
+	qproperty-iconSize: 48px;
+}
+
+PreferencesDialog {
+	qproperty-iconMode: true;
+}
