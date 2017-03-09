@@ -58,6 +58,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 
 	// Icon set combo
 	iconset_combo->addItem( "Default" );
+	iconset_combo->addItem( "H2O" );
 
 #ifdef SKINS
 	n_skins = 0;
@@ -448,7 +449,7 @@ QString PrefInterface::iconSet() {
 	}
 	else
 #endif
-	if (iconset_combo->currentIndex()==0) 
+	if (iconset_combo->currentIndex()==0)
 		return "";
 	else
 		return iconset_combo->currentText();
