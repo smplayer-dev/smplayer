@@ -5650,10 +5650,10 @@ QString BaseGui::loadQss(QString filename) {
 	file.open(QFile::ReadOnly);
 	QString stylesheet = QLatin1String(file.readAll());
 
+	QString path;
 #ifdef USE_RESOURCES
 	Images::setTheme(pref->iconset);
-	QString path;
-	if (Images::has_rcc) {
+	if (Images::has_rcc || Images::is_internal) {
 		path = ":/" + pref->iconset;
 	} else {
 		QDir current = QDir::current();
@@ -5661,9 +5661,13 @@ QString BaseGui::loadQss(QString filename) {
 		path = current.relativeFilePath(td);
 	}
 #else
-	QDir current = QDir::current();
-	QString td = Images::themesDirectory();
-	QString path = current.relativeFilePath(td);
+	if (Images::is_internal) {
+		path = ":/" + pref->iconset;
+	} else {
+		QDir current = QDir::current();
+		QString td = Images::themesDirectory();
+		path = current.relativeFilePath(td);
+	}
 #endif
 	stylesheet.replace(QRegExp("url\\s*\\(\\s*([^\\);]+)\\s*\\)", Qt::CaseSensitive, QRegExp::RegExp2),
 						QString("url(%1\\1)").arg(path + "/"));
