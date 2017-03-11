@@ -500,11 +500,11 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
                 "ID_LENGTH=${=duration:${=length}}\n"
                 "ID_VIDEO_WIDTH=${=width}\n"
                 "ID_VIDEO_HEIGHT=${=height}\n"
-                "ID_VIDEO_FPS=${=fps}\n"
+                "ID_VIDEO_FPS=${=container-fps:${=fps}}\n"
                 "ID_VIDEO_ASPECT=${=video-aspect}\n"
                 "ID_VIDEO_BITRATE=${=video-bitrate}\n"
                 "ID_AUDIO_BITRATE=${=audio-bitrate}\n"
-                "ID_AUDIO_RATE=${=audio-samplerate}\n"
+                "ID_AUDIO_RATE=${audio-params/samplerate:${=audio-samplerate}}\n"
                 "ID_VIDEO_FORMAT=${=video-format}";
 
 		args << "--vo=null" << "-ao=null" << "--frames=1" << "--no-quiet" << "--no-cache" << "--no-config";
