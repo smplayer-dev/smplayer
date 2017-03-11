@@ -38,6 +38,7 @@
 #include <QPixmapCache>
 #include <QImageWriter>
 #include <QImageReader>
+#include <QDebug>
 
 #include <cmath>
 
@@ -284,8 +285,14 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 			args << "--video-aspect=" + QString::number(aspect_ratio);
 		}
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
+		#if 0
 		QString format = (prop.extract_format == PNG) ? "png:png-compression=0" : "jpg";
 		args << QString("--vo=image=format=%1:outdir=\"%2\"").arg(format).arg(full_output_dir);
+		#else
+		QString format = (prop.extract_format == PNG) ? "png" : "jpg";
+		args << QString("--vo=image --vo-image-format=%1 --vo-image-outdir=\"%2\"").arg(format).arg(full_output_dir);
+		if (prop.extract_format == PNG) args << "--vo-image-png-compression=0";
+		#endif
 
 		/*
 		#ifdef Q_OS_WIN
@@ -335,9 +342,8 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 
 	args << prop.input_video;
 
-	QString command = mplayer_bin + " ";
-	for (int n = 0; n < args.count(); n++) command = command + args[n] + " ";
-	qDebug("VideoPreview::runMplayer: command: %s", command.toUtf8().constData());
+	QString command = mplayer_bin + " " + args.join(" ");
+	qDebug() << "VideoPreview::runMplayer: command:" << command;
 
 	QProcess p;
 	#ifndef VP_USE_PNG_OUTDIR
@@ -446,6 +452,8 @@ void VideoPreview::displayVideoInfo(const VideoInfo & i) {
 }
 
 void VideoPreview::cleanDir(QString directory) {
+	//return;
+
 	QStringList filter;
 	if (prop.extract_format == PNG) {
 		filter.append("*.png");
@@ -489,7 +497,7 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 		#ifdef MPV_SUPPORT
 		// MPV
 		args << "--term-playing-msg="
-                "ID_LENGTH=${=length}\n"
+                "ID_LENGTH=${=duration:${=length}}\n"
                 "ID_VIDEO_WIDTH=${=width}\n"
                 "ID_VIDEO_HEIGHT=${=height}\n"
                 "ID_VIDEO_FPS=${=fps}\n"
@@ -517,6 +525,9 @@ VideoInfo VideoPreview::getInfo(const QString & mplayer_path, const QString & fi
 		args << filename;
 		#endif // MPLAYER_SUPPORT
 	}
+
+	QString command = mplayer_path + " " + args.join(" ").replace("\n", "\\n");//.replace("$", "\\$");
+	qDebug() << "VideoPreview::getInfo: command:" << command;
 
 	p.start(mplayer_path, args);
 
