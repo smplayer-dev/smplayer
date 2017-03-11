@@ -290,7 +290,8 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 		args << QString("--vo=image=format=%1:outdir=\"%2\"").arg(format).arg(full_output_dir);
 		#else
 		QString format = (prop.extract_format == PNG) ? "png" : "jpg";
-		args << QString("--vo=image --vo-image-format=%1 --vo-image-outdir=\"%2\"").arg(format).arg(full_output_dir);
+		args << "--vo-image-format=" + format << "--vo-image-outdir=" + full_output_dir;
+		args << "--vo=image";
 		if (prop.extract_format == PNG) args << "--vo-image-png-compression=0";
 		#endif
 
@@ -350,11 +351,18 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	p.setWorkingDirectory(full_output_dir);
 	#endif
 	p.start(mplayer_bin, args);
+
+	if (!p.waitForStarted()) {
+		qDebug("VideoPreview::runMplayer: error: the process didn't start");
+	}
+
 	if (!p.waitForFinished()) {
 		qDebug("VideoPreview::runMplayer: error running process");
 		error_message = tr("The mplayer process didn't run");
 		return false;
 	}
+
+	//qDebug() << "VideoPreview::runMplayer: process output:" << p.readAll();
 
 	return true;
 }
