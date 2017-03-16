@@ -57,8 +57,8 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 #endif
 
 	// Icon set combo
-	iconset_combo->addItem( "Default" );
-	iconset_combo->addItem( "H2O" );
+	iconset_combo->addItem( "Default", "" );
+	iconset_combo->addItem( "H2O", "H2O" );
 
 #ifdef SKINS
 	n_skins = 0;
@@ -79,7 +79,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		}
 		else
 		#endif
-		iconset_combo->addItem( iconsets[n] );
+		iconset_combo->addItem( iconsets[n], iconsets[n] );
 	}
 	// Global
 	icon_dir = Paths::themesPath();
@@ -97,7 +97,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		else
 		#endif
 		if (iconset_combo->findText( iconsets[n] ) == -1) {
-			iconset_combo->addItem( iconsets[n] );
+			iconset_combo->addItem( iconsets[n], iconsets[n] );
 		}
 	}
 	#ifdef SKINS
@@ -216,7 +216,10 @@ void PrefInterface::retranslateStrings() {
 	language_combo->setCurrentIndex( language_item );
 
 	// Iconset combo
-	iconset_combo->setItemText( 0, tr("Default") );
+	{
+		int pos = iconset_combo->findData("");
+		if (pos != -1) iconset_combo->setItemText(pos, tr("Default"));
+	}
 
 #if STYLE_SWITCHING
 	style_combo->setItemText( 0, tr("Default") );
@@ -417,19 +420,10 @@ QString PrefInterface::language() {
 }
 
 void PrefInterface::setIconSet(QString set) {
-	/*
-	if (set.isEmpty())
-		iconset_combo->setCurrentIndex(0);
-	else
-		iconset_combo->setCurrentText(set);
-	*/
 	iconset_combo->setCurrentIndex(0);
-	for (int n=0; n < iconset_combo->count(); n++) {
-		if (iconset_combo->itemText(n) == set) {
-			iconset_combo->setCurrentIndex(n);
-			break;
-		}
-	}
+	int pos = iconset_combo->findData(set);
+	if (pos != -1) iconset_combo->setCurrentIndex(pos);
+
 #ifdef SKINS
 	skin_combo->setCurrentIndex(0);
 	for (int n=0; n < skin_combo->count(); n++) {
@@ -449,10 +443,7 @@ QString PrefInterface::iconSet() {
 	}
 	else
 #endif
-	if (iconset_combo->currentIndex()==0)
-		return "";
-	else
-		return iconset_combo->currentText();
+	return iconset_combo->itemData(iconset_combo->currentIndex()).toString();
 }
 
 void PrefInterface::setResizeMethod(int v) {
