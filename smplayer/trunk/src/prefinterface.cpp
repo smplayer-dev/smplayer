@@ -74,7 +74,7 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		bool is_skin = QFile::exists(css_file);
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
 		if (is_skin) {
-			skin_combo->addItem( iconsets[n] );
+			skin_combo->addItem( iconsets[n], iconsets[n] );
 			n_skins++;
 		}
 		else
@@ -90,20 +90,20 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 		QString css_file = Paths::themesPath() + "/" + iconsets[n] + "/main.css";
 		bool is_skin = QFile::exists(css_file);
 		//qDebug("***** %s %d", css_file.toUtf8().constData(), is_skin);
-		if ((is_skin) && (skin_combo->findText( iconsets[n] ) == -1)) {
-			skin_combo->addItem( iconsets[n] );
+		if ((is_skin) && (skin_combo->findData( iconsets[n] ) == -1)) {
+			skin_combo->addItem( iconsets[n], iconsets[n] );
 			n_skins++;
 		}
 		else
 		#endif
-		if (iconset_combo->findText( iconsets[n] ) == -1) {
+		if (iconset_combo->findData( iconsets[n] ) == -1) {
 			iconset_combo->addItem( iconsets[n], iconsets[n] );
 		}
 	}
 	#ifdef SKINS
 	if (skin_combo->itemText(0) == "Black") {
 		skin_combo->removeItem(0);
-		skin_combo->addItem("Black");
+		skin_combo->addItem("Black", "Black");
 	}
 	#endif
 
@@ -426,12 +426,8 @@ void PrefInterface::setIconSet(QString set) {
 
 #ifdef SKINS
 	skin_combo->setCurrentIndex(0);
-	for (int n=0; n < skin_combo->count(); n++) {
-		if (skin_combo->itemText(n) == set) {
-			skin_combo->setCurrentIndex(n);
-			break;
-		}
-	}
+	pos = skin_combo->findData(set);
+	if (pos != -1) skin_combo->setCurrentIndex(pos);
 #endif
 }
 
@@ -439,7 +435,7 @@ QString PrefInterface::iconSet() {
 #ifdef SKINS
 	QString GUI = gui_combo->itemData(gui_combo->currentIndex()).toString();
 	if (GUI == "SkinGUI") {
-		return skin_combo->currentText();
+		return skin_combo->itemData(skin_combo->currentIndex()).toString();
 	}
 	else
 #endif
