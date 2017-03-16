@@ -52,13 +52,13 @@ PrefInterface::PrefInterface(QWidget * parent, Qt::WindowFlags f)
 	style_label->hide();
 	style_combo->hide();
 #else
-	style_combo->addItem( "<default>" );
+	style_combo->addItem( "Default" );
 	style_combo->addItems( QStyleFactory::keys() );
 #endif
 
 	// Icon set combo
-	iconset_combo->addItem( "Default", "" );
 	iconset_combo->addItem( "H2O", "H2O" );
+	iconset_combo->addItem( "Default", "" );
 
 #ifdef SKINS
 	n_skins = 0;
@@ -218,6 +218,8 @@ void PrefInterface::retranslateStrings() {
 	// Iconset combo
 	{
 		int pos = iconset_combo->findData("");
+		if (pos != -1) iconset_combo->setItemText(pos, tr("Classic"));
+		pos = iconset_combo->findData("H2O");
 		if (pos != -1) iconset_combo->setItemText(pos, tr("Default"));
 	}
 
