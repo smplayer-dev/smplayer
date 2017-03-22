@@ -5790,12 +5790,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>Deze optie maakt het mogelijk om het type afbeeldingsbestand te kiezen dat gebruikt wordt voor het opslaan van afbeeldingen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1076"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
-        <translation type="unfinished"/>
+        <translation>Indien deze optie is ingeschakeld, wordt de computer uitgeschakeld nadat SMPlayer is afgesloten.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1082"/>
@@ -5896,7 +5896,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1186"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
-        <translation type="unfinished"/>
+        <translation>Als het niet is aangevinkt, worden audio-equalizer waarden met elk bestand tegelijk opgeslagen en opnieuw geladen wanneer het bestand later weer wordt afgespeeld.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1195"/>
@@ -6451,7 +6451,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1035"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
-        <translation type="unfinished"/>
+        <translation>U kunt met deze optie de mogelijkheid om screenshots te nemen uitschakelen of inschakelen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
@@ -6576,7 +6576,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1104"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Opmerking:&lt;/b&gt; deze optie zal niet worden gebruikt voor tv-zenders.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="481"/>
@@ -6591,7 +6591,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1191"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
-        <translation type="unfinished"/>
+        <translation>&lt;b&gt;Opmerking:&lt;/b&gt; wanneer deze optie is ingeschakeld kunnen er geen audio filters worden gebruikt.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="424"/>
@@ -6624,7 +6624,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.ui" line="85"/>
         <source>&amp;Use the multimedia keys as global shortcuts</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Gebruik de multimedia toetsen als globale sneltoetsen</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="93"/>
@@ -7135,12 +7135,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation type="unfinished"/>
+        <translation>Muiswiel tegenovergesteld zoeken</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="412"/>
         <source>Check it to seek in the opposite direction.</source>
-        <translation type="unfinished"/>
+        <translation>Aanvinken om te zoeken in de tegengestelde richting.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="389"/>
@@ -7496,7 +7496,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="752"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
-        <translation type="unfinished"/>
+        <translation>Wanneer deze optie is ingeschakeld, zal het hoofdvenster worden gecentreerd op het bureaublad.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="782"/>
@@ -7603,7 +7603,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="860"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation>Alleen tonen bij het verplaatsen van de muis naar de onderkant van het scherm</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>

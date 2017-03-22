@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ko">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ko" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -2947,9 +2945,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n 자막을 추출했습니다</numerusform>
-        </translation>
+        <translation><numerusform>%n 자막을 추출했습니다</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3047,7 +3043,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>다운로드한 파일을 폴더에 저장할 수 없습니다.
@@ -5955,22 +5951,22 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>멀티미디어 엔진(&amp;E):</translation>
+        <translation>멀티미디어 엔진:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
         <source>Re&amp;member settings for streams</source>
-        <translation>스트림 설정 기억하기(&amp;M)</translation>
+        <translation>스트림 설정 기억하기</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="220"/>
         <source>Temp&amp;late:</source>
-        <translation>템플릿(&amp;L):</translation>
+        <translation>템플릿:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation>형식(&amp;F):</translation>
+        <translation>형식:</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -6271,7 +6267,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefgeneral.ui" line="116"/>
         <source>Remember &amp;time position</source>
-        <translation>시간 위치 기억하기</translation>
+        <translation>시간 위치 기억하기(&amp;T)</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1181"/>
@@ -7276,7 +7272,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
         <source>Center &amp;window</source>
-        <translation>창을 가운데로 놓기(&amp;W)</translation>
+        <translation>창을 가운데로 놓기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="141"/>
@@ -7326,7 +7322,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation>마우스를 화면 하단으로 이동할 때만 나타납니다</translation>
+        <translation>마우스를 화면 하단으로 이동할 때만 나타내기</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
@@ -7776,7 +7772,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.ui" line="765"/>
         <source>Display in &amp;compact mode too</source>
-        <translation>간편 모드에서도 보여줍니다</translation>
+        <translation>간편 모드에서도 보여주기</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7839,7 +7835,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation>비디오 사이트 지원(&amp;V):</translation>
+        <translation>비디오 사이트 지원:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
@@ -7864,12 +7860,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation>폴더 목록 출력(&amp;D)</translation>
+        <translation>폴더 목록 출력하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation>로컬 &amp;IP:</translation>
+        <translation>로컬 IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
@@ -7884,33 +7880,33 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="275"/>
         <source>&amp;Enable proxy</source>
-        <translation>프록시 사용하기(&amp;E)</translation>
+        <translation>프록시 사용하기</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="288"/>
         <source>&amp;Host:</source>
-        <translation>호스트(&amp;H):</translation>
+        <translation>호스트:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="205"/>
         <location filename="../prefnetwork.ui" line="301"/>
         <source>&amp;Port:</source>
-        <translation>포트(&amp;P):</translation>
+        <translation>포트:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="321"/>
         <source>&amp;Username:</source>
-        <translation>사용자명(&amp;U):</translation>
+        <translation>사용자명:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="334"/>
         <source>Pa&amp;ssword:</source>
-        <translation>비밀번호(&amp;S):</translation>
+        <translation>비밀번호:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="351"/>
         <source>&amp;Type:</source>
-        <translation>형식(&amp;T):</translation>
+        <translation>형식:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="37"/>
@@ -8154,7 +8150,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefperformance.ui" line="355"/>
         <source>A&amp;uto</source>
-        <translation>자동(&amp;U)</translation>
+        <translation>자동</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="391"/>
@@ -8683,7 +8679,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="36"/>
         <source>P&amp;lay files from start</source>
-        <translation>처음부터 파일 재생하기</translation>
+        <translation>처음부터 파일 재생하기(&amp;L)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="30"/>
@@ -8693,17 +8689,17 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="43"/>
         <source>S&amp;tart playback after loading a playlist</source>
-        <translation>재생목록을 불러온 후 재생을 시작하기(&amp;T)</translation>
+        <translation>재생목록을 불러온 후 재생을 시작하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="50"/>
         <source>Pla&amp;y next file automatically</source>
-        <translation>다음 파일 자동으로 재생하기(&amp;Y)</translation>
+        <translation>다음 파일 자동으로 재생하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="57"/>
         <source>Ig&amp;nore playback errors</source>
-        <translation>재생 오류 무시하기(&amp;N)</translation>
+        <translation>재생 오류 무시하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="67"/>
@@ -8713,42 +8709,42 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefplaylist.ui" line="73"/>
         <source>&amp;Add files to the playlist automatically</source>
-        <translation>파일을 재생목록에 자동으로 추가하기(&amp;A)</translation>
+        <translation>파일을 재생목록에 자동으로 추가하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="133"/>
         <source>Add files in directories &amp;recursively</source>
-        <translation>하위 폴더의 파일 추가하기</translation>
+        <translation>하위 폴더의 파일 추가하기(&amp;R)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation>추가한 파일의 정보를 자동으로 가져오기 (느림)</translation>
+        <translation>추가한 파일의 정보를 자동으로 가져오기 (느림) (&amp;I)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation>기타(&amp;M)</translation>
+        <translation>기타</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
         <source>A&amp;uto sort</source>
-        <translation>자동 정렬(&amp;U)</translation>
+        <translation>자동으로 정렬하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="177"/>
         <source>Cas&amp;e sensitive search</source>
-        <translation>대소문자 구별 검색(&amp;E)</translation>
+        <translation>대소문자를 구별하여 검색하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="184"/>
         <source>&amp;Save a copy of the playlist on exit</source>
-        <translation>종료시 재생목록의 사본 저장하기(&amp;S)</translation>
+        <translation>종료시 재생목록의 사본 저장하기</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation>디스크에서 파일 삭제하기 옵션 활성화하기(&amp;D)</translation>
+        <translation>디스크에서 파일 삭제하기 옵션 활성화하기</translation>
     </message>
 </context>
 <context>
@@ -9120,7 +9116,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="788"/>
         <source>Use custo&amp;m style</source>
-        <translation>사용자 스타일 사용하기(&amp;M)</translation>
+        <translation>사용자 스타일 사용하기</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
@@ -9447,7 +9443,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../preferencesdialog.cpp" line="178"/>
         <source>Apply</source>
-        <translation>적용</translation>
+        <translation>적용(&amp;A)</translation>
     </message>
     <message>
         <location filename="../preferencesdialog.cpp" line="179"/>
@@ -9568,17 +9564,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n 초</numerusform>
-        </translation>
+        <translation><numerusform>%n 초</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n 분</numerusform>
-        </translation>
+        <translation><numerusform>%n 분</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
