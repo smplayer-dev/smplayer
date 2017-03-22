@@ -385,7 +385,7 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../audioequalizer.cpp" line="253"/>
         <source>The current values have been stored to be used as default.</source>
-        <translation type="unfinished"/>
+        <translation>Els valors actuals han estat desats per ser utilitzats com als predeterminats.</translation>
     </message>
 </context>
 <context>
@@ -398,7 +398,7 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../basegui.cpp" line="1920"/>
         <source>&amp;Play</source>
-        <translation>&amp;Reprodueix</translation>
+        <translation>Re&amp;produeix</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1921"/>
@@ -418,7 +418,7 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../basegui.cpp" line="1924"/>
         <source>&amp;Browse</source>
-        <translation>&amp;Navega</translation>
+        <translation>Na&amp;vega</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1926"/>
@@ -443,7 +443,7 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../basegui.cpp" line="1652"/>
         <source>&amp;Playlist...</source>
-        <translation>&amp;Llista de reproducció...</translation>
+        <translation>Llista de re&amp;producció...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1655"/>
@@ -808,7 +808,7 @@ Voleu sobreescriure&apos;l?</translation>
     <message>
         <location filename="../basegui.cpp" line="1847"/>
         <source>&amp;Donate / Share with your friends</source>
-        <translation>&amp;Donatiu / compatiu amb els vostres amics</translation>
+        <translation>Feu un &amp;donatiu / compatiu amb els vostres amics</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4252"/>
@@ -962,7 +962,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1876"/>
         <source>Dec volume (2)</source>
-        <translation>Dec volum (2)</translation>
+        <translation>Dec. el volum (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1658"/>
@@ -1053,7 +1053,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"/>
+        <translation>Fer un &amp;donatiu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1068,7 +1068,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1877"/>
         <source>Inc volume (2)</source>
-        <translation>Inc volum (2)</translation>
+        <translation>Inc. el volum (2)</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1880"/>
@@ -1083,42 +1083,42 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1883"/>
         <source>Dec contrast</source>
-        <translation>Dec contrast</translation>
+        <translation>Dec. el contrast</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1884"/>
         <source>Inc contrast</source>
-        <translation>Inc contrast</translation>
+        <translation>Inc. el contrast</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1885"/>
         <source>Dec brightness</source>
-        <translation>Dec brillantor</translation>
+        <translation>Dec. la brillantor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
         <source>Inc brightness</source>
-        <translation>Inc brillantor</translation>
+        <translation>Inc. la brillantor</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1887"/>
         <source>Dec hue</source>
-        <translation>Dec tonalitat</translation>
+        <translation>Dec. la tonalitat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1888"/>
         <source>Inc hue</source>
-        <translation>Inc tonalitat</translation>
+        <translation>Inc. la tonalitat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1889"/>
         <source>Dec saturation</source>
-        <translation>Dec saturació</translation>
+        <translation>Dec. la saturació</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1891"/>
         <source>Dec gamma</source>
-        <translation>Dec gamma</translation>
+        <translation>Dec. la gamma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1894"/>
@@ -1204,7 +1204,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="2053"/>
         <source>Select audio track</source>
-        <translation type="unfinished"/>
+        <translation>Selecciona la pista d&apos;àudio</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2068"/>
@@ -1234,7 +1234,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="2084"/>
         <source>Select subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Selecciona la pista dels subtítols</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2087"/>
@@ -1244,7 +1244,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="2089"/>
         <source>Select secondary subtitle track</source>
-        <translation type="unfinished"/>
+        <translation>Selecciona la pista secundària dels subtítols</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2095"/>
@@ -1269,7 +1269,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="2121"/>
         <source>Previous bookmark</source>
-        <translation>Marcador previ</translation>
+        <translation>Marcador anterior</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2122"/>
@@ -1289,12 +1289,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="4521"/>
         <source>Support SMPlayer</source>
-        <translation type="unfinished"/>
+        <translation>Doneu suport a SMPlayer</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
-        <translation type="unfinished"/>
+        <translation>Fer un donatiu</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4524"/>
@@ -1304,7 +1304,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="4527"/>
         <source>SMPlayer needs you</source>
-        <translation type="unfinished"/>
+        <translation>SMPlayer us necessita</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4528"/>
@@ -1488,12 +1488,12 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1890"/>
         <source>Inc saturation</source>
-        <translation>Inc saturació</translation>
+        <translation>Inc. la saturació</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1892"/>
         <source>Inc gamma</source>
-        <translation>Inc gamma</translation>
+        <translation>Inc. la gamma</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1766"/>
@@ -1558,7 +1558,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1754"/>
         <source>Soft&amp;ware scaling</source>
-        <translation>&amp;Escalat per programari</translation>
+        <translation>Canvi d&apos;&amp;escala per programari</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1837"/>
@@ -1658,7 +1658,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1801"/>
         <source>Upload su&amp;btitles to OpenSubtitles.org...</source>
-        <translation>Puja els subtítols a &amp;OpenSubtitles.org...</translation>
+        <translation>Puja els su&amp;btítols a OpenSubtitles.org...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2007"/>
@@ -1683,7 +1683,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1717"/>
         <source>S&amp;peed +1%</source>
-        <translation type="unfinished"/>
+        <translation>+1% de &amp;velocitat</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1997"/>
@@ -1698,7 +1698,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../basegui.cpp" line="1732"/>
         <source>Mirr&amp;or image</source>
-        <translation type="unfinished"/>
+        <translation>Re&amp;flecteix la imatge</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1893"/>
@@ -2255,7 +2255,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
         <location filename="../core.cpp" line="3394"/>
         <location filename="../core.cpp" line="3405"/>
         <source>Font scale: %1</source>
-        <translation>Mida de lletra: %1</translation>
+        <translation>Escala de la lletra: %1</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3999"/>
@@ -2265,7 +2265,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../core.cpp" line="4401"/>
         <source>Updating the font cache. This may take some seconds...</source>
-        <translation>S&apos;està actualitzant la memòria cau dels tipus de lletres. Això pot trigar alguns segons...</translation>
+        <translation>S&apos;està actualitzant la memòria cau de les lletres. Això pot trigar alguns segons...</translation>
     </message>
     <message>
         <location filename="../core.cpp" line="3319"/>
@@ -2433,7 +2433,7 @@ Ara se us apareixerà el diàleg de configuració, perquè pugueu fer-ho.</trans
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"/>
+        <translation>Mo&amp;stra l&apos;instant actual amb mil·lisegons</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -3076,7 +3076,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../fontcache.cpp" line="28"/>
         <source>Creating a font cache...</source>
-        <translation>S&apos;està creat la memòria cau dels tipus de lletres...</translation>
+        <translation>S&apos;està creat la memòria cau de les lletres...</translation>
     </message>
 </context>
 <context>
@@ -4029,7 +4029,7 @@ Please check the permissions of that folder.</source>
         <location filename="../languages.cpp" line="228"/>
         <location filename="../languages.cpp" line="339"/>
         <source>Chinese</source>
-        <translation type="unfinished"/>
+        <translation>Xinès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="208"/>
@@ -4054,47 +4054,47 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="295"/>
         <source>Western European Languages</source>
-        <translation type="unfinished"/>
+        <translation>Llengües de l&apos;oest d&apos;Europa</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="296"/>
         <source>Western European Languages with Euro</source>
-        <translation type="unfinished"/>
+        <translation>Llengües de l&apos;oest d&apos;Europa amb l&apos;Euro</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="297"/>
         <source>Slavic/Central European Languages</source>
-        <translation type="unfinished"/>
+        <translation>Llengües eslaves/de l&apos;Europa central</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="298"/>
         <source>Esperanto, Galician, Maltese, Turkish</source>
-        <translation type="unfinished"/>
+        <translation>Esperanto, Gallec, Maltès, Turc</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="299"/>
         <source>Old Baltic charset</source>
-        <translation type="unfinished"/>
+        <translation>Codi de caràcters de l&apos;antic Bàltic</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="300"/>
         <source>Cyrillic</source>
-        <translation type="unfinished"/>
+        <translation>Ciril·lic</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="302"/>
         <source>Modern Greek</source>
-        <translation type="unfinished"/>
+        <translation>Grec modern</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="304"/>
         <source>Baltic</source>
-        <translation type="unfinished"/>
+        <translation>Bàltic</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="305"/>
         <source>Celtic</source>
-        <translation type="unfinished"/>
+        <translation>Celta</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="306"/>
@@ -4114,7 +4114,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="310"/>
         <source>Simplified Chinese charset</source>
-        <translation type="unfinished"/>
+        <translation>Codi de caràcters de xinès simplificat</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="311"/>
@@ -4124,32 +4124,32 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="312"/>
         <source>Japanese charsets</source>
-        <translation type="unfinished"/>
+        <translation>Codi de caràcters japonès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="313"/>
         <source>Korean charset</source>
-        <translation type="unfinished"/>
+        <translation>Codi de caràcters coreà</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="314"/>
         <source>Thai charset</source>
-        <translation type="unfinished"/>
+        <translation>Codi de caràcters tailandès</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="315"/>
         <source>Cyrillic Windows</source>
-        <translation type="unfinished"/>
+        <translation>Finestres ciríl·liques</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="316"/>
         <source>Slavic/Central European Windows</source>
-        <translation type="unfinished"/>
+        <translation>Finestres eslaves/de l&apos;Europa Central</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="317"/>
         <source>Arabic Windows</source>
-        <translation type="unfinished"/>
+        <translation>Finestres aràbigues</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="26"/>
@@ -5018,7 +5018,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../playlist.cpp" line="2417"/>
         <source>Unrecognized format.</source>
-        <translation type="unfinished"/>
+        <translation>Format no reconegut.</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="734"/>
@@ -5067,7 +5067,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="560"/>
         <source>Log SMPlayer output</source>
-        <translation>Sortida del registre de SMPlayer</translation>
+        <translation>Registra la sortida de SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="613"/>
@@ -5112,7 +5112,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.ui" line="552"/>
         <source>Log &amp;SMPlayer output</source>
-        <translation>&amp;Sortida del registre de SMPlayer</translation>
+        <translation>Registra la &amp;sortida de SMPlayer</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="623"/>
@@ -5142,12 +5142,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="461"/>
         <source>Use the lavf demuxer by default</source>
-        <translation type="unfinished"/>
+        <translation>Utilitza el desmultiplexor lavf per defecte</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="462"/>
         <source>If this option is checked, the lavf demuxer will be used for all formats.</source>
-        <translation type="unfinished"/>
+        <translation>Si marqueu aquesta opció, s&apos;utilitzarà el desmultiplexor lavf per a tots els formats.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="537"/>
@@ -5202,7 +5202,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="552"/>
         <source>Use IPv4 on network connections. Falls back on IPv6 automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Utilitza IPv4 en les connexions de xarxa. Torna automàticament sobre l&apos;IPv6.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="554"/>
@@ -5212,7 +5212,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="555"/>
         <source>Use IPv6 on network connections. Falls back on IPv4 automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Utilitza IPv6 en les connexions de xarxa. Torna automàticament sobre l&apos;IPv4.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="432"/>
@@ -5262,7 +5262,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
         <source>Autosave %1 log</source>
-        <translation type="unfinished"/>
+        <translation>Desa automàticament el registre %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="580"/>
@@ -6701,7 +6701,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinput.cpp" line="359"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
-        <translation>Aquesta taula us permetrà canviar les tecles de drecera de la majoria d&apos;accions disponibles. Feu doble clic o premeu enter en un element, o premeu el botó &lt;b&gt;Canvia drecera&lt;/b&gt; per entrar en el diàleg &lt;i&gt;Modifica drecera&lt;/i&gt;. Hi ha dues maneres de canviar una drecera: si el botó &lt;b&gt;Captura&lt;/b&gt; està activat, llavors només heu de prémer la nova tecla o combinació de tecles que voleu assignar per l&apos;acció (desafortunadament, això no funciona per totes les tecles). Si el botó &lt;b&gt;Captura&lt;/b&gt; està desactivat, llavors podeu introduir el nom sencer de la tecla.</translation>
+        <translation>Aquesta taula us permetrà canviar les tecles de drecera de la majoria d&apos;accions disponibles. Feu doble clic o premeu enter en un element, o premeu el botó &lt;b&gt;Canvia la drecera&lt;/b&gt; per entrar en el diàleg &lt;i&gt;Modifica la drecera&lt;/i&gt;. Hi ha dues maneres de canviar una drecera: si el botó &lt;b&gt;Captura&lt;/b&gt; està activat, llavors només heu de prémer la nova tecla o combinació de tecles que voleu assignar per l&apos;acció (desafortunadament, això no funciona per totes les tecles). Si el botó &lt;b&gt;Captura&lt;/b&gt; està desactivat, llavors podeu introduir el nom sencer de la tecla.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="377"/>
@@ -7284,7 +7284,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
         <source>Default font:</source>
-        <translation>Lletra per defecte:</translation>
+        <translation>Lletra predeterminada:</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="411"/>
@@ -7349,7 +7349,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.ui" line="958"/>
         <source>SMPlayer can scale the interface in high DPI screens. Here you can disable this feature or change the scale factor.</source>
-        <translation>SMPlayer pot escalar la interfície en pantalles amb PPP elevat. Aquí podeu inhabilitar aquesta funció o canviar el factor d&apos;escala.</translation>
+        <translation>SMPlayer pot canvia d&apos;escala la interfície en pantalles amb PPP elevat. Aquí podeu inhabilitar aquesta funció o canviar el factor d&apos;escala.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="968"/>
@@ -7524,7 +7524,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="793"/>
         <source>Default font</source>
-        <translation>Lletra per defecte</translation>
+        <translation>Lletra predeterminada</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="794"/>
@@ -7636,7 +7636,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="882"/>
         <source>Max. URLs</source>
-        <translation type="unfinished"/>
+        <translation>Nombre màx. d&apos;adreces URL</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
@@ -7727,7 +7727,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="854"/>
         <source>Margin</source>
-        <translation type="unfinished"/>
+        <translation>Marge</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
@@ -8338,7 +8338,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation>Estableix l&apos;API de descodificació de vídeo per maquinari. Si no és possible la descodificació de maquinari, s&apos;utilitza en el seu lloc la descodificació per programari.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -8433,7 +8433,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefperformance.ui" line="485"/>
         <source>Cache for &amp;audio CDs:</source>
-        <translation>Memòri&amp;a de cau per als CD d&apos;àudio:</translation>
+        <translation>Memòri&amp;a cau per als CD d&apos;àudio:</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="393"/>
@@ -8786,7 +8786,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="244"/>
         <source>Enable &amp;Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Habilita les lletres de &amp;Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="368"/>
@@ -8878,7 +8878,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
-        <translation type="unfinished"/>
+        <translation>Idioma dels subtítols</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
@@ -8903,7 +8903,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="453"/>
         <source>Select the font for the subtitles.</source>
-        <translation>Selecciona el tipus de lletra per als subtítols.</translation>
+        <translation>Selecciona la lletra per als subtítols.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="414"/>
@@ -8913,22 +8913,22 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"/>
+        <translation>Aquesta opció habilita la biblioteca ASS, que permet mostrar els subtítols amb diversos colors, lletres...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
         <source>Enable Windows fonts</source>
-        <translation type="unfinished"/>
+        <translation>Habilita les lletres de Windows</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"/>
+        <translation>Si s&apos;habilita aquesta opció, les lletres del sistema de Windows estaran disponibles per als subtítols. Hi ha un inconvenient: s&apos;ha de crear una memòria cau de lletres i pot trigar algun temps.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"/>
+        <translation>Si no marqueu aquesta opció, només es poden utilitzar unes poques lletres incloses amb SMPlayer, però això és més ràpid.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -9196,12 +9196,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
         <source>Default scale</source>
-        <translation type="unfinished"/>
+        <translation>Escala predeterminada</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"/>
+        <translation>Aquesta opció especifica l&apos;escala predeterminada de la lletra per als subtítols SSA/ASS que s&apos;utilitzarà per als fitxers oberts nous.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
@@ -9216,12 +9216,12 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
         <source>&amp;Font and colors</source>
-        <translation>&amp;Tipus de lletra i colors</translation>
+        <translation>&amp;Lletra i colors</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="298"/>
         <source>Defa&amp;ult scale:</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Escala predeterminada:</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="337"/>
@@ -9577,7 +9577,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../clhelp.cpp" line="129"/>
         <source>specifies the directory where smplayer will store its configuration files (smplayer.ini, smplayer_files.ini...)</source>
-        <translation type="unfinished"/>
+        <translation>especifica el directori on smplayer emmagatzemarà els seus fitxers de configuració (smplayer.ini, smplayer_files.ini...)</translation>
     </message>
     <message>
         <location filename="../mediasettings.cpp" line="182"/>
@@ -9630,17 +9630,17 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../clhelp.cpp" line="169"/>
         <source>sets the media title for the first video.</source>
-        <translation type="unfinished"/>
+        <translation>estableix el títol del mitjà per al primer vídeo.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="172"/>
         <source>specifies the coordinates where the main window will be displayed.</source>
-        <translation type="unfinished"/>
+        <translation>especifica les coordenades on es mostrarà la finestra principal.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="175"/>
         <source>specifies the size of the main window.</source>
-        <translation type="unfinished"/>
+        <translation>especifica la mida de la finestra principal.</translation>
     </message>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
@@ -9679,7 +9679,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../sharedialog.cpp" line="33"/>
         <source>Donate with PayPal</source>
-        <translation>Donatiu amb PayPal</translation>
+        <translation>Fer un donatiu amb PayPal</translation>
     </message>
     <message>
         <location filename="../sharedialog.cpp" line="47"/>
@@ -9692,7 +9692,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../sharewidget.cpp" line="113"/>
         <source>Donate with PayPal</source>
-        <translation>Donatiu amb PayPal</translation>
+        <translation>Fer un donatiu amb PayPal</translation>
     </message>
     <message>
         <location filename="../sharewidget.cpp" line="114"/>
@@ -9712,7 +9712,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../sharewidget.cpp" line="118"/>
         <source>Donate / Share SMPlayer with your friends</source>
-        <translation>Donatiu / compatiu SMPlayer amb els vostres amics</translation>
+        <translation>Feu un donatiu / compatiu SMPlayer amb els vostres amics</translation>
     </message>
 </context>
 <context>
@@ -10192,7 +10192,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
-        <translation type="unfinished"/>
+        <translation>Selecciona els còdecs vdpau a utilitzar. No tots ells poden funcionar.</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="29"/>

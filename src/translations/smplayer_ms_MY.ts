@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="ms_MY">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="ms_MY" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1311,22 +1309,22 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../basegui.cpp" line="4528"/>
         <source>SMPlayer is free software. However the development requires a lot of time and a lot of work.</source>
-        <translation type="unfinished"></translation>
+        <translation>SMPlayer merupakan perisian bebas dan juga percuma. Walaubagaimanapun pembangunannya memerlukan banyak masa dan juga kerja.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4529"/>
         <source>In order to keep developing SMPlayer with new features we need your help.</source>
-        <translation type="unfinished"></translation>
+        <translation>Untuk memastikan SMPlayer terus menerus dibangunkan dengan fitur-fitur baharu, kami memerlukan bantuan anda.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4530"/>
         <source>Please consider to support the SMPlayer project by sending a donation.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mohon bantu projek SMPlayer ini dengan memberi derma.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4531"/>
         <source>Even the smallest amount will help a lot.</source>
-        <translation type="unfinished"></translation>
+        <translation>Walaupun sejumlah wang yang kecil ia sedikit sebanyak dapat membantu kami.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5020"/>
@@ -1996,7 +1994,7 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../baseguiplus.cpp" line="351"/>
         <source>Play on &amp;Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Mainkan di &amp;Chromecast</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="355"/>
@@ -2430,12 +2428,12 @@ Dialog konfigurasi akan dipaparkan sekarang, jadi anda boleh membuatnya.</transl
     <message>
         <location filename="../defaultgui.cpp" line="710"/>
         <source>&amp;Bitrate info</source>
-        <translation type="unfinished"></translation>
+        <translation>Maklumat kadar &amp;bit</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Tunjuk waktu semasa dengan milisaat</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -2947,9 +2945,7 @@ Contoh: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n sarikata diekstrak</numerusform>
-        </translation>
+        <translation><numerusform>%n sarikata diekstrak</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3047,7 +3043,7 @@ Contoh: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Adalah mustahil dapat menyimpan fail
@@ -4822,12 +4818,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../playlist.cpp" line="715"/>
         <source>Play on Chromec&amp;ast</source>
-        <translation type="unfinished"></translation>
+        <translation>Main di Chromec&amp;ast</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="717"/>
         <source>Open stream in &amp;a web browser</source>
-        <translation type="unfinished"></translation>
+        <translation>Buka strim di d&amp;alam pelayar sesawang</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="732"/>
@@ -4943,7 +4939,7 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../playlist.cpp" line="711"/>
         <location filename="../playlist.cpp" line="1450"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Sa&amp;lin laluan fail ke dalam papan keratan</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="712"/>
@@ -5338,7 +5334,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation>Menyahtanda pilihan ini akan mengurangkan kerlipan, tetapi ia juga menyebabkan beberapa perkara pelik berlaku.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -7858,22 +7854,22 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"></translation>
+        <translation>Perubahan pada seksyen ini akan dilaksanakan bila pelayan sesawang dimulakan semula dilain masa</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
         <source>&amp;Directory listing</source>
-        <translation type="unfinished"></translation>
+        <translation>Penyenaraian &amp;direktori</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;IP setempat:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Untuk menyediakan media setempat dari komputer ini ke Chromecast, SMPlayer akan menjalankan sebuah pelayan sesawang kecil. Anda boleh laras beberapa tetapan di sini.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7992,7 +7988,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
         <source>Chromecast</source>
-        <translation type="unfinished"></translation>
+        <translation>Chromecast</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="254"/>
@@ -8002,12 +7998,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Alamat IP setempat bagi komputer ini. Ia akan dilepasi ke Chromecast supaya ia boleh mencapai fail daripada komputer ini.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
         <source>The port that the web server will use.</source>
-        <translation type="unfinished"></translation>
+        <translation>Port yang akan digunakan oleh pelayan sesawang.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="261"/>
@@ -8017,7 +8013,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Bila pelayan sesawang berjalan, mana-mana peranti dalam rangkaian anda boleh mencapai fail daripada komputer ini. Jika pilihan ini dihidupkan, mana-mana peranti boleh dapat senarai fail yang ada di dalam komputer ini. Jika pilihan ini dimatikan, senarai tersebut tidak akan tersedia.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8597,12 +8593,12 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Benarkan pilihan untuk memadam fail dari cakera</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Pilihan ini membolehkan anda benarkan pilihan memadam fail dari cakera dalam menu konteks senarai main. Untuk menghindari pemadaman secara tidak sengaja, maka pilihan ini dilumpuhkan secara lalai.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8727,7 +8723,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
         <source>&amp;Misc</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Pelbagai</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="170"/>
@@ -8747,7 +8743,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="191"/>
         <source>Enable the option to delete files from &amp;disk</source>
-        <translation type="unfinished"></translation>
+        <translation>Benarkan pilihan untuk memadam fail dari &amp;cakera</translation>
     </message>
 </context>
 <context>
@@ -9567,17 +9563,13 @@ Anda hendak tulis-ganti?</translation>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n saat</numerusform>
-        </translation>
+        <translation><numerusform>%n saat</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minit</numerusform>
-        </translation>
+        <translation><numerusform>%n minit</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
