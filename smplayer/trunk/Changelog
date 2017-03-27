@@ -1,3 +1,13 @@
+Version 17.4:
+
+(2017-03-16)
+ * The H2O icon theme is now included in the smplayer binary and is the default
+   theme. The old theme is still available with the name "classic".
+
+(2017-03-11)
+ * The thumbnail generator works now with recent versions of mpv.
+
+
 Version 17.3:
 
 (2017-02-26)
