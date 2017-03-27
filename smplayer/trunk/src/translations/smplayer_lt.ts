@@ -1365,79 +1365,79 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Problemos su Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6007"/>
-        <location filename="../basegui.cpp" line="6059"/>
+        <location filename="../basegui.cpp" line="6018"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>%1 Error</source>
         <translation>%1 klaida</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6008"/>
+        <location filename="../basegui.cpp" line="6019"/>
         <source>%1 has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6033"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>The component youtube-dl failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6034"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) įdiegimas gali išspręsti problemą.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6047"/>
         <source>Click here to get it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6072"/>
         <source>%1 failed to start.</source>
         <translation>Nepavyko paleisti %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Patikrinkite nuostatose %1 kelią.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6075"/>
         <source>%1 has crashed.</source>
         <translation>%1 užstrigo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6146"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube naršyklė neįdiegta.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6147"/>
-        <location filename="../basegui.cpp" line="6159"/>
+        <location filename="../basegui.cpp" line="6158"/>
+        <location filename="../basegui.cpp" line="6170"/>
         <source>Visit %1 to get it.</source>
         <translation>Aplankykite %1 ir įdiekite.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6157"/>
+        <location filename="../basegui.cpp" line="6168"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Nepavyko paleisti YouTube naršyklės.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6158"/>
+        <location filename="../basegui.cpp" line="6169"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Įsitikinkite, kad ji yra teisingai įdiegta.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6324"/>
+        <location filename="../basegui.cpp" line="6335"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Sistema persijungė į planšetės režimą. Ar SMPlayer turėtų irgi persijungti į planšetės režimą?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6326"/>
+        <location filename="../basegui.cpp" line="6337"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Sistema išėjo iš planšetės režimo. Ar SMPlayer turėtų irgi išeiti iš planšetės režimo?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6330"/>
+        <location filename="../basegui.cpp" line="6341"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Prisiminti mano sprendimą ir daugiau nebeklausti</translation>
     </message>
@@ -1593,12 +1593,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Serveris atsakė „%1“</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6009"/>
+        <location filename="../basegui.cpp" line="6020"/>
         <source>Exit code: %1</source>
         <translation>Klaidos kodas: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6065"/>
+        <location filename="../basegui.cpp" line="6076"/>
         <source>See the log for more info.</source>
         <translation>Daugiau informacijos žurnale.</translation>
     </message>
@@ -1865,7 +1865,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     </message>
     <message>
         <location filename="../basegui.cpp" line="5520"/>
-        <location filename="../basegui.cpp" line="5849"/>
+        <location filename="../basegui.cpp" line="5860"/>
         <source>Jump to %1</source>
         <translation>Peršokti į %1</translation>
     </message>
@@ -4771,37 +4771,37 @@ Norite perrašyti?</translation>
         <translation>R&amp;edaguoti</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1306"/>
-        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1347"/>
         <source>Playlists</source>
         <translation>Grojaraščiai</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1304"/>
+        <location filename="../playlist.cpp" line="1309"/>
         <source>Choose a file</source>
         <translation>Pasirinkite failą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1340"/>
+        <location filename="../playlist.cpp" line="1345"/>
         <source>Choose a filename</source>
         <translation>Pasirinkite failo vardą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1352"/>
+        <location filename="../playlist.cpp" line="1357"/>
         <source>Confirm overwrite?</source>
         <translation>Tikrai perrašyti?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1353"/>
+        <location filename="../playlist.cpp" line="1358"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Failas %1 jau yra.
 Norite perrašyti?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1306"/>
-        <location filename="../playlist.cpp" line="1342"/>
-        <location filename="../playlist.cpp" line="1625"/>
+        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1347"/>
+        <location filename="../playlist.cpp" line="1630"/>
         <source>All files</source>
         <translation>Visi failai</translation>
     </message>
@@ -4836,22 +4836,22 @@ Norite perrašyti?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1622"/>
+        <location filename="../playlist.cpp" line="1627"/>
         <source>Select one or more files to open</source>
         <translation>Pasirinkite vieną ar kelis failus atvėrimui</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1692"/>
+        <location filename="../playlist.cpp" line="1697"/>
         <source>Choose a directory</source>
         <translation>Pasirinkti katalogą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1887"/>
+        <location filename="../playlist.cpp" line="1892"/>
         <source>Edit name</source>
         <translation>Redaguoti pavadinimą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1888"/>
+        <location filename="../playlist.cpp" line="1893"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Įrašykite pavadinimą, kuris bus rodomas grojaraštyje šiam failui:</translation>
     </message>
@@ -4942,7 +4942,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="711"/>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation type="unfinished"></translation>
     </message>
@@ -4978,52 +4978,52 @@ Norite perrašyti?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1455"/>
+        <location filename="../playlist.cpp" line="1460"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Kopijuoti URL į iškarpinę</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1925"/>
+        <location filename="../playlist.cpp" line="1930"/>
         <source>Confirm deletion</source>
         <translation>Patvirtinkite šalinimą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1926"/>
+        <location filename="../playlist.cpp" line="1931"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Jūs ruošiatės iš savo disko PAŠALINTI failą &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1927"/>
+        <location filename="../playlist.cpp" line="1932"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Šis veiksmas negali būti atšauktas. Ar tikrai norite tęsti?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1950"/>
         <source>Deletion failed</source>
         <translation>Ištrynimas nepavyko</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1951"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Nepavyko ištrinti &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1951"/>
+        <location filename="../playlist.cpp" line="1956"/>
         <source>Error deleting the file</source>
         <translation>Klaida, ištrinant failą</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1952"/>
+        <location filename="../playlist.cpp" line="1957"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Nepavyko iš failų sistemos ištrinti &quot;%1&quot;.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2417"/>
+        <location filename="../playlist.cpp" line="2422"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Neįmanoma įkelti šio grojaraščio</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2417"/>
+        <location filename="../playlist.cpp" line="2422"/>
         <source>Unrecognized format.</source>
         <translation>Neatpažintas formatas.</translation>
     </message>
@@ -5038,17 +5038,17 @@ Norite perrašyti?</translation>
         <translation>Pašalinti...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1385"/>
+        <location filename="../playlist.cpp" line="1390"/>
         <source>Playlist modified</source>
         <translation>Grojaraštis pakeistas</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1386"/>
+        <location filename="../playlist.cpp" line="1391"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Yra neišsaugotų pakeitimų, išsaugoti grojaraštį?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1624"/>
+        <location filename="../playlist.cpp" line="1629"/>
         <source>Multimedia</source>
         <translation>Daugialypė terpė</translation>
     </message>
@@ -7156,14 +7156,14 @@ Norite perrašyti?</translation>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="152"/>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="153"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Interface</source>
         <translation>Naudotojo sąsaja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="218"/>
-        <location filename="../prefinterface.cpp" line="221"/>
+        <location filename="../prefinterface.cpp" line="223"/>
+        <location filename="../prefinterface.cpp" line="227"/>
         <source>Default</source>
         <translation>Numatyta</translation>
     </message>
@@ -7194,42 +7194,42 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Recent files</source>
         <translation>Paskutiniai failai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Language</source>
         <translation>Kalba</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Here you can change the language of the application.</source>
         <translation>Čia galite pakeisti programos kalbą.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="196"/>
+        <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Short jump</source>
         <translation>Trumpa&amp;s šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="167"/>
+        <location filename="../prefinterface.cpp" line="168"/>
         <source>System language</source>
         <translation>Sistemos kalba</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="197"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>&amp;Medium jump</source>
         <translation>&amp;Vidutinis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="199"/>
         <source>&amp;Long jump</source>
         <translation>&amp;Didelis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
+        <location filename="../prefinterface.cpp" line="200"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Pelės &amp;ratuko šuolis</translation>
     </message>
@@ -7404,300 +7404,305 @@ Norite perrašyti?</translation>
         <translation>E&amp;gzemplioriai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Autoresize</source>
         <translation>Automatiškai keisti dydį</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Pagrindinio lango dydis gali būti pakeistas automatiškai. Išrinkite mėgstamą parinktį.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Remember position and size</source>
         <translation>Prisiminti poziciją ir dydį</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Jei pažymėta, pagrindinio lango pozicija ir dydis bus išsaugoti ir atkurti kitą kartą paleidus SMPlayer.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Pasirinkite pageidaujamą programos grafinį stilių.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>&lt;b&gt;Paprasta sąsaja&lt;/b&gt; suteikia tradicinę sąsają, su įrankine ir valdymo juosta.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>&lt;b&gt;Mini sąsaja&lt;/b&gt; suteikia paprastesnę sąsają, be įrankinės ir su valdymo juosta kurioje yra keli mygtukai.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="776"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>&lt;b&gt;Sąsaja su temos galimybe&lt;/b&gt; suteikia sąsają su keliomis temomis.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>&lt;b&gt;Mpc sąsaja&lt;/b&gt; atrodo taip pat kaip Media Player Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="875"/>
+        <location filename="../prefinterface.cpp" line="865"/>
         <source>Privacy</source>
         <translation>Privatumas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Parinkite maksimalų elementų, kurie bus rodomi &lt;b&gt;Atverti-&gt;Paskutiniai failai&lt;/b&gt; submeniu, skaičių. Jei nustatytas 0, šis meniu  iš viso nebus rodomas.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="781"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>Icon set</source>
         <translation>Piktogramų rinkinys</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="227"/>
+        <location filename="../prefinterface.cpp" line="221"/>
+        <source>Classic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="233"/>
         <source>Basic GUI</source>
         <translation>Paprastas GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="236"/>
+        <location filename="../prefinterface.cpp" line="242"/>
         <source>Skinnable GUI</source>
         <translation>GUI su išvaizdos keitimu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="249"/>
+        <location filename="../prefinterface.cpp" line="255"/>
         <source>Scale fact&amp;or:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="252"/>
+        <location filename="../prefinterface.cpp" line="258"/>
         <source>Pixel rati&amp;o:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Neleisti langui išeiti už ekrano ribų</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Center window</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Pasirinkite norimą piktogramų rinkinį programai.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="775"/>
         <source>Skin</source>
         <translation>Išvaizda</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Pasirinkite pageidaujamą programos išvaizdą. Prieinama tik GUI su išvaizdos keitimo galimybe.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="779"/>
         <source>Style</source>
         <translation>Stilius</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Pasirinkite programos stilių.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="783"/>
         <source>Default font</source>
         <translation>Numatytasis šriftas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Čia galima pakeisti programos šriftą.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="786"/>
         <source>Seeking</source>
         <translation>Prasukama</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Short jump</source>
         <translation>Trumpas šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="799"/>
-        <location filename="../prefinterface.cpp" line="803"/>
-        <location filename="../prefinterface.cpp" line="807"/>
+        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Pasirinkite prasukimo ar atsukimo laiką, kai vykdomas %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="790"/>
         <source>short jump</source>
         <translation>trumpas šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="792"/>
         <source>Medium jump</source>
         <translation>Vidutinis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="794"/>
         <source>medium jump</source>
         <translation>vidutinis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="796"/>
         <source>Long jump</source>
         <translation>Didelis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="808"/>
+        <location filename="../prefinterface.cpp" line="798"/>
         <source>long jump</source>
         <translation>didelis šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="810"/>
+        <location filename="../prefinterface.cpp" line="800"/>
         <source>Mouse wheel jump</source>
         <translation>Pelės ratuko šuolis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="811"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Pasirinkite prasukimo ar atsukimo laiką, kai sukamas pelės ratukas.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>Behaviour of time slider</source>
         <translation>Laiko slankiklio veiksena</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="815"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Pasirinkite veiksmą kai tempiamas laiko slankiklis.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="829"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Kartą paspaudus sustabdymo mygutką bus atstatyta laiko pozicija</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="860"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Rodyti tik nustūmus pelės žymeklį ekrano apačion</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="861"/>
+        <location filename="../prefinterface.cpp" line="851"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Jei pažymėta, plaukiojantis valdymo skydelis bus rodomas tik nustūmus pelės žymeklį žemyn. Kitu atveju bus rodoma pajudinus pelę, nepaisant jos vietos.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="866"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Jei pažymėta, valdymo panelė atsiras ir kompaktiškame režime.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="858"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Ši parinktis veikia tik pagrindiniame GUI režime.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="869"/>
+        <location filename="../prefinterface.cpp" line="859"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Įspėjimas:&lt;/b&gt; valdymo skydelis nebuvo kurtas veikti kompaktiškame režime, jis gali veikti netinkamai. </translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="872"/>
+        <location filename="../prefinterface.cpp" line="862"/>
         <source>Time to hide the control</source>
         <translation>Valdymo slėpimo laikas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Nustato laiką (milisekundėmis) po kurio bus paslėptas valdymas, pelei palikus valdymo sritį.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="882"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Max. URLs</source>
         <translation>Daugiausia URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="883"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Pasirinkite kiek daugiausiai bus rodoma &lt;b&gt;Atverti-&gt;URL&lt;/b&gt; sąraše bus rodoma elementų. Pasirinkite 0 jei nenorite jog išvis URL būtų saugomi.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="887"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Remember last directory</source>
         <translation>Prisiminti paskutinį aplanką</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="888"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Jei ši parinktis pažymėta, SMPlayer prisimins paskutinį atvertą aplanką.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="818"/>
+        <location filename="../prefinterface.cpp" line="808"/>
         <source>Seeking method</source>
         <translation>Prasukimo metodas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="819"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Nustato slinkimo juostos prasukimo metodą. Absoliutus prasukimas yra tikslesnis, o santykinis prasukimas veikia geriau su klaidingo ilgio failais.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="830"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="837"/>
+        <location filename="../prefinterface.cpp" line="827"/>
         <source>Instances</source>
         <translation>Egzemplioriai</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="840"/>
+        <location filename="../prefinterface.cpp" line="830"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Naudoti tik vieną SMPlayer kopiją</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="841"/>
+        <location filename="../prefinterface.cpp" line="831"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Pažymėkite, jei naujų failų atvėrimui norite naudoti jau veikiančią SMPlayer kopiją.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="230"/>
+        <location filename="../prefinterface.cpp" line="236"/>
         <source>Mini GUI</source>
         <translation>Mini aplinka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>GUI</source>
         <translation>Grafinė vartotojo sąsaja</translation>
     </message>
@@ -7707,42 +7712,42 @@ Norite perrašyti?</translation>
         <translation>&amp;Aplinka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="845"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Floating control</source>
         <translation>Plaukiojanti valdymo panelė</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="847"/>
+        <location filename="../prefinterface.cpp" line="837"/>
         <source>Animated</source>
         <translation>Animuoti</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="848"/>
+        <location filename="../prefinterface.cpp" line="838"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Jei pažymėta, valdymo panelė atsiras su animacija.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="851"/>
+        <location filename="../prefinterface.cpp" line="841"/>
         <source>Width</source>
         <translation>Plotis</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="852"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Nustato valdymo panelės plotį (procentais).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="854"/>
+        <location filename="../prefinterface.cpp" line="844"/>
         <source>Margin</source>
         <translation>Paraštė</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="855"/>
+        <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Ši parinktis nustato pikselių, per kiek plaukiojanti valdymo panelė bus nutolusi nuo ekrano apačios, skaičių. Reikalinga, kai ekranas yra televizorius ir vaizdas padidintas, dėl ko valdymo panelė bus nematoma.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="865"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Display in compact mode too</source>
         <translation>Vaizduoti ir kompaktiniame režime</translation>
     </message>
@@ -7779,17 +7784,17 @@ Norite perrašyti?</translation>
         <translation>Vaizduoti ir &amp;kompaktiniame režime</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="233"/>
+        <location filename="../prefinterface.cpp" line="239"/>
         <source>Mpc GUI</source>
         <translation>Mpc naudotojo sąsaja</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>Hide video window when playing audio files</source>
         <translation>Grojant audio failus, slėpti video langą</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Jei ši pasirinktis įjungta, atkuriant audio failus video langas bus slepiamas.</translation>
     </message>
@@ -7799,17 +7804,17 @@ Norite perrašyti?</translation>
         <translation>&amp;Grojant audio failus, slėpti video langą</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="824"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Precise seeking</source>
         <translation>Tikslus prasukimas</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="825"/>
+        <location filename="../prefinterface.cpp" line="815"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Jei ši pasirinktis įgalinta, prasukimai yra tikslesni, bet gali būti lėtesni. Su kai kuriais video formatais gali neveikti.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="827"/>
+        <location filename="../prefinterface.cpp" line="817"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Pastaba: ši parinktis veikia tik su MPlayer2</translation>
     </message>
@@ -8090,8 +8095,8 @@ Norite perrašyti?</translation>
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="85"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>Performance</source>
         <translation>Greitaveika</translation>
     </message>
@@ -8102,7 +8107,7 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>Priority</source>
         <translation>Prioritetas</translation>
     </message>
@@ -8172,22 +8177,22 @@ Norite perrašyti?</translation>
         <translation>Talpyklos nustatymas gali pagerinti arba pabloginti greitaveiką</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Allow frame drop</source>
         <translation>Leisti praleisti kadrus</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="313"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Praleisti kai kuriuos kadrus audio/video sinchronizacijai lėtose sistemose.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="304"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Allow hard frame drop</source>
         <translation>Leisti kietą kadrų praleidimą</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Kietesnis kadrų praleidimas (plėšytas atkūrimas) sukelia vaizdo iškraipymus!</translation>
     </message>
@@ -8217,22 +8222,22 @@ Norite perrašyti?</translation>
         <translation>Greita DVD &amp;skyrių paieška</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="355"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>Fast audio track switching</source>
         <translation>Greitas audio takelių perjungimas</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Greita DVD skyrių paieška</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="378"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Jei pažymėta, bus pabandytas spartesnis skyrių paieškos metodas, bet gali neveikti kai kuriuose diskuose.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Skip loop filter</source>
         <translation>Praleisti kilpinį filtrą</translation>
     </message>
@@ -8242,37 +8247,37 @@ Norite perrašyti?</translation>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="367"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Galimos reikšmės:&lt;br&gt; &lt;b&gt;Taip&lt;/b&gt;: Bus naudojamas greičiausias audio takelių perjungimo metodas (gali neveikti su kai kuriais formatais).&lt;br&gt; &lt;b&gt;Ne&lt;/b&gt;: Pakeitus audio takelį, MPlayer procesas bus perleistas.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: Priklausomai nuo MPlayer versijos, SMPlayer pats nuspręs ką daryti.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="376"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Cache for files</source>
         <translation>Failų podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam failų talpinimui.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="380"/>
+        <location filename="../prefperformance.cpp" line="391"/>
         <source>Cache for streams</source>
         <translation>Srautų talpykla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="381"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam URL talpinimui.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Cache for DVDs</source>
         <translation>Laikina DVD talpykla</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="396"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam DVD talpinimui. &lt;br&gt;&lt;b&gt;Dėmesio:&lt;/b&gt; Naudojant išankstinį DVD talpinimą, prasukimas gali blogai veikti (įskaitant ir skyrių perjungimą).</translation>
     </message>
@@ -8297,17 +8302,17 @@ Norite perrašyti?</translation>
         <translation>&amp;Srautų podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
+        <location filename="../prefperformance.cpp" line="100"/>
         <source>Enabled</source>
         <translation>Įjungta</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="90"/>
+        <location filename="../prefperformance.cpp" line="101"/>
         <source>Skip (always)</source>
         <translation>Praleisti (visada)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="91"/>
+        <location filename="../prefperformance.cpp" line="102"/>
         <source>Skip only on HD videos</source>
         <translation>Praleisti tik HD video</translation>
     </message>
@@ -8317,7 +8322,7 @@ Norite perrašyti?</translation>
         <translation>Kilpinis &amp;filtras</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Ši parinktis įgalina praleisti kilpinį filtrą (deblokingą) dekoduojant H.264. Kadangi filtruotą kadrą numatoma naudoti kaip priklausomų kadrų dekodavimo nuorodą, tai, pavyzdžiui MPEG-2, video kokybė bus prastesnė, negu deblokingas nebūtų iš viso vykdomas. Bet aukštos kokybės HDTV tai duoda ryškų darbingumo padidėjimą be įžvelgiamo kokybės suprastėjimo.</translation>
     </message>
@@ -8328,112 +8333,112 @@ Norite perrašyti?</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="373"/>
+        <location filename="../prefperformance.cpp" line="384"/>
         <source>Auto</source>
         <translation type="unfinished">Auto</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Hardware decoding</source>
         <translation>Aparatinės įrangos dekodavimas</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Nustato aparatinės įrangos video dekodavimo API. Jei aparatinės įrangos dekodavimas nėra įmanomas, vietoj jo, bus naudojamas programinės įrangos dekodavimas.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>Available options:</source>
         <translation>Prieinamos parinktys:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="317"/>
+        <location filename="../prefperformance.cpp" line="328"/>
         <source>None: only software decoding will be used.</source>
         <translation>Pastaba: bus naudojamas tik programinės įrangos dekodavimas.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="332"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="322"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>This option only works with mpv.</source>
         <translation>Ši parinktis veikia tik su mpv.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="352"/>
         <source>Possible values:</source>
         <translation>Galimos reikšmės:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="342"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Įjungtas&lt;/b&gt;: kilpinis filtras nepraleidžiamas</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="343"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Praleisti (visada)&lt;/b&gt;: kilpinis filtras nenaudojamas nepriklausomai nuo video raiškos</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="356"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Praleisti tik HD video&lt;/b&gt;: kilpinis filtras bus praleistas tik  %1 aukščio ar geresniam video.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="350"/>
+        <location filename="../prefperformance.cpp" line="361"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="371"/>
+        <location filename="../prefperformance.cpp" line="382"/>
         <source>Cache</source>
         <translation>Laikina atmintinė</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="374"/>
+        <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation>Dažniausiai, ši parinktis įjungs podėlį, tuomet kai tai bus būtina.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="389"/>
+        <location filename="../prefperformance.cpp" line="400"/>
         <source>Cache for audio CDs</source>
         <translation>Audio CD podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="390"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam audio CD talpinimui.</translation>
     </message>
@@ -8443,12 +8448,12 @@ Norite perrašyti?</translation>
         <translation>&amp;Audio CD podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="393"/>
+        <location filename="../prefperformance.cpp" line="404"/>
         <source>Cache for VCDs</source>
         <translation>VCD podėlis</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="394"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Ši nuostata apibrėžia kiek atminties (kilobaitais) bus naudojama išankstiniam VCD talpinimui.</translation>
     </message>
@@ -8458,12 +8463,12 @@ Norite perrašyti?</translation>
         <translation>&amp;VCD podėlis:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Threads for decoding</source>
         <translation>Srautai dekodavimui</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Nustato srautų dekodavimui skaičių (tik MPEG-1/2 ir H.264)</translation>
     </message>
@@ -8473,7 +8478,7 @@ Norite perrašyti?</translation>
         <translation>Srau&amp;tai dekodavimui (tik MPEG-1/2 ir H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="360"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Jei nenurodytas joks kitas kodekas, naudoti &lt;i&gt;CoreAVC&lt;/i&gt;</translation>
     </message>
@@ -10306,153 +10311,153 @@ Norite perrašyti?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="445"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
         <source>Video preview</source>
         <translation>Video peržiūra</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="146"/>
+        <location filename="../videopreview/videopreview.cpp" line="147"/>
         <source>Cancel</source>
         <translation>Atsisakyti</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="145"/>
+        <location filename="../videopreview/videopreview.cpp" line="146"/>
         <source>Thumbnail Generator</source>
         <translation>Miniatiūrų generatorius</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="148"/>
+        <location filename="../videopreview/videopreview.cpp" line="149"/>
         <source>Generated by SMPlayer</source>
         <translation>Sukurta SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="234"/>
+        <location filename="../videopreview/videopreview.cpp" line="235"/>
         <source>Creating thumbnails...</source>
         <translation>Kuriamos miniatiūros...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="443"/>
         <source>Size: %1 MB</source>
         <translation>Dydis: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="431"/>
+        <location filename="../videopreview/videopreview.cpp" line="445"/>
         <source>Length: %1</source>
         <translation>Trukmė: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="601"/>
+        <location filename="../videopreview/videopreview.cpp" line="620"/>
         <source>Save file</source>
         <translation>Išsaugoti failą</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="614"/>
+        <location filename="../videopreview/videopreview.cpp" line="633"/>
         <source>Error saving file</source>
         <translation>Failo išsaugojimo klaida</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="615"/>
+        <location filename="../videopreview/videopreview.cpp" line="634"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Failas negali būti išsaugotas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="190"/>
+        <location filename="../videopreview/videopreview.cpp" line="191"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="192"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Kuriant miniatiūras įvyko ši klaida:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="218"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Laikino katalogo (%1) nepavyko sukurti</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="349"/>
+        <location filename="../videopreview/videopreview.cpp" line="361"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Mplayer procesas nevyksta</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="430"/>
+        <location filename="../videopreview/videopreview.cpp" line="444"/>
         <source>Resolution: %1x%2</source>
         <translation>Rezoliucija: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="434"/>
+        <location filename="../videopreview/videopreview.cpp" line="448"/>
         <source>Video format: %1</source>
         <translation>Video formatas: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="435"/>
+        <location filename="../videopreview/videopreview.cpp" line="449"/>
         <source>Frames per second: %1</source>
         <translation>Kadrų per sekundę: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="436"/>
+        <location filename="../videopreview/videopreview.cpp" line="450"/>
         <source>Aspect ratio: %1</source>
         <translation>Kraštinių santykis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="367"/>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Failas %1 negali būti įkeltas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="471"/>
+        <location filename="../videopreview/videopreview.cpp" line="487"/>
         <source>No filename</source>
         <translation>Nėra failo vardo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="559"/>
+        <location filename="../videopreview/videopreview.cpp" line="578"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Mplayer procesas nebuvo paleistas bandant gauti informaciją apie video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The length of the video is 0</source>
         <translation>Video dydis lygus 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="253"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Failo %1 nėra</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="621"/>
         <source>Images</source>
         <translation>Paveiksėliai</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="432"/>
         <source>No info</source>
         <translation>Nėra informacijos</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="421"/>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="435"/>
+        <location filename="../videopreview/videopreview.cpp" line="436"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="437"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="439"/>
+        <location filename="../videopreview/videopreview.cpp" line="453"/>
         <source>Video bitrate: %1</source>
         <translation>Video bitų dažnis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="440"/>
+        <location filename="../videopreview/videopreview.cpp" line="454"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio bitų dažnis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="441"/>
+        <location filename="../videopreview/videopreview.cpp" line="455"/>
         <source>Audio rate: %1</source>
         <translation>Audio dažnis: %1</translation>
     </message>

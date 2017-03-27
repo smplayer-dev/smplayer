@@ -1365,79 +1365,79 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Problémy s Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6007"/>
-        <location filename="../basegui.cpp" line="6059"/>
+        <location filename="../basegui.cpp" line="6018"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>%1 Error</source>
         <translation>%1 Chyba</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6008"/>
+        <location filename="../basegui.cpp" line="6019"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 skončil chybou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6033"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Komponentu youtube-dl se nepodařilo spustit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6034"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Problém by mohla vyřešit instalace Microsoft Visual C++ 2010 Redistributable Package (x86).</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6047"/>
         <source>Click here to get it</source>
         <translation>Pro získání klikněte zde</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6072"/>
         <source>%1 failed to start.</source>
         <translation>%1 se nepodařilo spustit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Zkontrolujte prosím %1 cestu v předvolbách.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6075"/>
         <source>%1 has crashed.</source>
         <translation>%1 havaroval.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6146"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Prohlížeč YouTube není nainstalován.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6147"/>
-        <location filename="../basegui.cpp" line="6159"/>
+        <location filename="../basegui.cpp" line="6158"/>
+        <location filename="../basegui.cpp" line="6170"/>
         <source>Visit %1 to get it.</source>
         <translation>Pro získání navštivte %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6157"/>
+        <location filename="../basegui.cpp" line="6168"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Prohlížeč YouTube se nepodařilo spustit.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6158"/>
+        <location filename="../basegui.cpp" line="6169"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Ujistěte se, že je nainstalován správně.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6324"/>
+        <location filename="../basegui.cpp" line="6335"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Tento systém byl přepnut do režimu tabletu. Měl by se SMPlayer také přeměnit do režimu tabletu?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6326"/>
+        <location filename="../basegui.cpp" line="6337"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Systém už není v režimu tabletu. Měl by MPlayer také vypnout režim tabletu?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6330"/>
+        <location filename="../basegui.cpp" line="6341"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Zapamatujte si mé rozhodnutí a neptejte se znovu</translation>
     </message>
@@ -1593,12 +1593,12 @@ Bude zobrazeno konfigurační okno.</translation>
         <translation>Server vrátil &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6009"/>
+        <location filename="../basegui.cpp" line="6020"/>
         <source>Exit code: %1</source>
         <translation>Návratová hodnota: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6065"/>
+        <location filename="../basegui.cpp" line="6076"/>
         <source>See the log for more info.</source>
         <translation>Více informací je v logu.</translation>
     </message>
@@ -1865,7 +1865,7 @@ Bude zobrazeno konfigurační okno.</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5520"/>
-        <location filename="../basegui.cpp" line="5849"/>
+        <location filename="../basegui.cpp" line="5860"/>
         <source>Jump to %1</source>
         <translation>Jdi na %1</translation>
     </message>
@@ -4772,37 +4772,37 @@ Chcete jej opravdu přepsat?</translation>
         <translation>&amp;Upravit</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1306"/>
-        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1347"/>
         <source>Playlists</source>
         <translation>Playlisty</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1304"/>
+        <location filename="../playlist.cpp" line="1309"/>
         <source>Choose a file</source>
         <translation>Otevřít soubor</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1340"/>
+        <location filename="../playlist.cpp" line="1345"/>
         <source>Choose a filename</source>
         <translation>Uložit jako</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1352"/>
+        <location filename="../playlist.cpp" line="1357"/>
         <source>Confirm overwrite?</source>
         <translation>Opravdu přepsat?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1353"/>
+        <location filename="../playlist.cpp" line="1358"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>Soubor %1 již existuje.
 Opravdu jej chcete přepsat?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1306"/>
-        <location filename="../playlist.cpp" line="1342"/>
-        <location filename="../playlist.cpp" line="1625"/>
+        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1347"/>
+        <location filename="../playlist.cpp" line="1630"/>
         <source>All files</source>
         <translation>Všechny soubory</translation>
     </message>
@@ -4837,22 +4837,22 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Načíst/Uložit</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1622"/>
+        <location filename="../playlist.cpp" line="1627"/>
         <source>Select one or more files to open</source>
         <translation>Výberte soubory k načtení</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1692"/>
+        <location filename="../playlist.cpp" line="1697"/>
         <source>Choose a directory</source>
         <translation>Přidat adresář</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1887"/>
+        <location filename="../playlist.cpp" line="1892"/>
         <source>Edit name</source>
         <translation>Změnit název</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1888"/>
+        <location filename="../playlist.cpp" line="1893"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>Zadejte název, pod kterým bude soubor zobrazován v playlistu:</translation>
     </message>
@@ -4943,7 +4943,7 @@ Opravdu jej chcete přepsat?</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="711"/>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;Kopírovat cestu k souboru do schránky</translation>
     </message>
@@ -4979,52 +4979,52 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Zobrazit sloupec název souboru</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1455"/>
+        <location filename="../playlist.cpp" line="1460"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;Zkopírovat URL do schránky</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1925"/>
+        <location filename="../playlist.cpp" line="1930"/>
         <source>Confirm deletion</source>
         <translation>Potvrdit vymazání</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1926"/>
+        <location filename="../playlist.cpp" line="1931"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>Tímto VYMAŽETE soubor &apos;%1&apos; z vašeho disku.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1927"/>
+        <location filename="../playlist.cpp" line="1932"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>Tuto akci nelze vrátit zpět. Opravdu ji chcete provést?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1950"/>
         <source>Deletion failed</source>
         <translation>Vymazání selhalo</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1951"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>Nebylo možné vymazat &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1951"/>
+        <location filename="../playlist.cpp" line="1956"/>
         <source>Error deleting the file</source>
         <translation>Chyba při mazání souboru</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1952"/>
+        <location filename="../playlist.cpp" line="1957"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>Není možné vymazat &apos;%1&apos; ze souborového systému.</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2417"/>
+        <location filename="../playlist.cpp" line="2422"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>Tento seznam skladeb není možné načíst</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2417"/>
+        <location filename="../playlist.cpp" line="2422"/>
         <source>Unrecognized format.</source>
         <translation>Nerozpoznaný formát.</translation>
     </message>
@@ -5039,17 +5039,17 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Odebrat...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1385"/>
+        <location filename="../playlist.cpp" line="1390"/>
         <source>Playlist modified</source>
         <translation>Playlist změněn</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1386"/>
+        <location filename="../playlist.cpp" line="1391"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>Byly provedeny změny, chcete je uložit do playlistu?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1624"/>
+        <location filename="../playlist.cpp" line="1629"/>
         <source>Multimedia</source>
         <translation>Multimédia</translation>
     </message>
@@ -7158,14 +7158,14 @@ Opravdu jej chcete přepsat?</translation>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="152"/>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="153"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Interface</source>
         <translation>Rozhraní</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="218"/>
-        <location filename="../prefinterface.cpp" line="221"/>
+        <location filename="../prefinterface.cpp" line="223"/>
+        <location filename="../prefinterface.cpp" line="227"/>
         <source>Default</source>
         <translation>Výchozí</translation>
     </message>
@@ -7196,42 +7196,42 @@ Opravdu jej chcete přepsat?</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Recent files</source>
         <translation>Nedávné soubory</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Language</source>
         <translation>Jazyk</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Here you can change the language of the application.</source>
         <translation>Zde můžete změnit jazyk aplikace.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="196"/>
+        <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Short jump</source>
         <translation>&amp;Krátký skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="167"/>
+        <location filename="../prefinterface.cpp" line="168"/>
         <source>System language</source>
         <translation>Systémový jazyk</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="197"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>&amp;Medium jump</source>
         <translation>Stř&amp;ední skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="199"/>
         <source>&amp;Long jump</source>
         <translation>D&amp;louhý skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
+        <location filename="../prefinterface.cpp" line="200"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>Skok &amp;kolečka myši</translation>
     </message>
@@ -7406,301 +7406,306 @@ Opravdu jej chcete přepsat?</translation>
         <translation>Ins&amp;tance</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Autoresize</source>
         <translation>Automatická změna velikosti</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>Hlavní okno se může samo roztahovat. Vyberte nastavení, které preferujete.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Remember position and size</source>
         <translation>Zapamatovat si pozici a velikost</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>Zaškrtnete-li tuto možnost, pozice a velikost hlavního okna se uloží a aplikuje při příštím spuštění SMPlayeru.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>Vyberte vzhled aplikace, který vám vyhovuje.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>&lt;b&gt;Základní GUI&lt;/b&gt; zobrazuje tradiční vzhled s lištou nástrojů a ovládacím panelem.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>&lt;b&gt;Mini GUI&lt;/b&gt; nabízí mnohem jednodušší vzhled, bez panelu nástrojů. Ovládací lišta má méně tlačítek.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="776"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>&lt;b&gt;Skinovatelné GUI&lt;/b&gt; poskytuje rozhraní, kde je k dispozici několik skinů.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>&lt;b&gt;Mpc GUI&lt;/b&gt; vypadá jako rozhraní v Media Playeru Classic.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="875"/>
+        <location filename="../prefinterface.cpp" line="865"/>
         <source>Privacy</source>
         <translation>Soukromí</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>Vyberte maximální počet položek, které se zobrazí v nabídce &lt;b&gt;Otevřít -&gt; Nedávné soubory&lt;/b&gt;. Nastavíte-li hodnotu na 0, nabídka se nezobrazí.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="781"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>Icon set</source>
         <translation>Sada ikon</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="227"/>
+        <location filename="../prefinterface.cpp" line="221"/>
+        <source>Classic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="233"/>
         <source>Basic GUI</source>
         <translation>Základní GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="236"/>
+        <location filename="../prefinterface.cpp" line="242"/>
         <source>Skinnable GUI</source>
         <translation>Pozměnitelný vzhled GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="249"/>
+        <location filename="../prefinterface.cpp" line="255"/>
         <source>Scale fact&amp;or:</source>
         <translation>Měřítko:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="252"/>
+        <location filename="../prefinterface.cpp" line="258"/>
         <source>Pixel rati&amp;o:</source>
         <translation>Pomě&amp;r pixelů:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Prevent window to get outside of screen</source>
         <translation>Zabrání oknu dostat se ven z obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>Jestliže se po automatické změně velikosti hlavní okno dostane ven z obrazovky tato volba ho vycentruje, aby se tomu zabránilo.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Center window</source>
         <translation>Umístit okno na střed</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>Je-li tato možnost zaškrtnuta, hlavní okno bude umístěno do středu plochy</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>Vyberte sadu ikon, které preferujete.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="775"/>
         <source>Skin</source>
         <translation>Vzhled</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>Vyberte vzhled aplikace, který vám vyhovuje.  Je to možné pouze se Pozměnitelným vzhledem GUI.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="779"/>
         <source>Style</source>
         <translation>Styl</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Select the style you prefer for the application.</source>
         <translation>Vyberte styl, který preferujete.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="783"/>
         <source>Default font</source>
         <translation>Výchozí font</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>Zde můžete změnit font aplikace.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="786"/>
         <source>Seeking</source>
         <translation>Seekování</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Short jump</source>
         <translation>Krátký skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="799"/>
-        <location filename="../prefinterface.cpp" line="803"/>
-        <location filename="../prefinterface.cpp" line="807"/>
+        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>Vyberte velikost skoku dopředu nebo dozadu, vyberete-li akci %1.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="790"/>
         <source>short jump</source>
         <translation>krátký skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="792"/>
         <source>Medium jump</source>
         <translation>Střední skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="794"/>
         <source>medium jump</source>
         <translation>střední skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="796"/>
         <source>Long jump</source>
         <translation>Dlouhý skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="808"/>
+        <location filename="../prefinterface.cpp" line="798"/>
         <source>long jump</source>
         <translation>dlouhý skok</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="810"/>
+        <location filename="../prefinterface.cpp" line="800"/>
         <source>Mouse wheel jump</source>
         <translation>Skok kolečka myši</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="811"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>Vyberte velikost skoku dopředu nebo dozadu, vyberete-li akci pro kolečko myši.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>Behaviour of time slider</source>
         <translation>Chování posuvníku</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="815"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>Zvolte chování při použití posuvníku.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="829"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>Stisknutí tlačítka stop vrátí pozici času na počátek</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="860"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>Zobrazit pouze při pohybu myší ke spodní části obrazovky</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="861"/>
+        <location filename="../prefinterface.cpp" line="851"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>Pokud je tato možnost zaškrtnuta, plovoucí ovládání bude zobrazeno, když se myší pohne ke spodní části obrazovky. 
 Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu na její postavení.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="866"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>Pokud je tato možnost povolena, plovoucí ovládání se objeví i v kompaktním zobrazení.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="858"/>
         <source>This option only works with the basic GUI.</source>
         <translation>Tato možnost funguje pouze se základním rozhraním GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="869"/>
+        <location filename="../prefinterface.cpp" line="859"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;Varování:&lt;/b&gt; plovoucí ovládání nebylo vytvořeno pro kompaktní zobrazení a možná nebude fungovat správně.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="872"/>
+        <location filename="../prefinterface.cpp" line="862"/>
         <source>Time to hide the control</source>
         <translation>Čas ke skrytí ovládání</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>Nastaví čas (v milisekundách) skrytí ovládání poté, co myš ovládání opustí.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="882"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Max. URLs</source>
         <translation>Max. adres URL</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="883"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>Vyberte maximální počet položek, které si bude pamatovat dialové okno &lt;b&gt;Otevřít-&gt;URL&lt;/b&gt;. Pokud nechcete uložit žádnou adresu URL, nastavte 0.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="887"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Remember last directory</source>
         <translation>Pamatovat si poslední zvolený adresář</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="888"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>Pokud je tato volba aktivní, bude si SMPlayer pamatovat poslední složku, z které jste otevřeli soubor.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="818"/>
+        <location filename="../prefinterface.cpp" line="808"/>
         <source>Seeking method</source>
         <translation>Metoda seekování</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="819"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>Nastaví metodu, která se použije při seekování pomocí posuvníku. Absolutní metoda může být přesnější, relativní metoda funguje lépe pro soubory s chybnou délkou videa.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="830"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>Pokud je stisknuto tlačítko Stop, tak si SMPlayer ve výchozím nastavení pamatuje časovou pozici. Pokud tedy stisknete tlačítko Přehrát, soubory se začnou přehrávat z místa, kde jste minule skončili. Pro vynulování pozice 0 je potřeba  stisknout tlačítko Stop dvakrát.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="837"/>
+        <location filename="../prefinterface.cpp" line="827"/>
         <source>Instances</source>
         <translation>Instance</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="840"/>
+        <location filename="../prefinterface.cpp" line="830"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>Používat pouze jednu běžící instanci SMPlayeru</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="841"/>
+        <location filename="../prefinterface.cpp" line="831"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>Zaškrtněte tuto možnost, chcete-li použít již běžící instanci SMPlayeru pro otevření dalšího souboru.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="230"/>
+        <location filename="../prefinterface.cpp" line="236"/>
         <source>Mini GUI</source>
         <translation>Mini GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -7710,42 +7715,42 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="845"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Floating control</source>
         <translation>Plovoucí ovládání</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="847"/>
+        <location filename="../prefinterface.cpp" line="837"/>
         <source>Animated</source>
         <translation>Animovat</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="848"/>
+        <location filename="../prefinterface.cpp" line="838"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>Je-li tato možnost povolena, plovoucí ovládání se vysune s animací.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="851"/>
+        <location filename="../prefinterface.cpp" line="841"/>
         <source>Width</source>
         <translation>Šířka</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="852"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>Určuje šířku ovládacího prvku (v procentech).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="854"/>
+        <location filename="../prefinterface.cpp" line="844"/>
         <source>Margin</source>
         <translation>Odstup</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="855"/>
+        <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>Toto nastavení určuje počet pixelů mezi plovoucím ovládáním a spodním okrajem obrazovky. Vhodné, pokud se jedná o TV obrazovku, jelikož overscan může ořezat ovládací prvky.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="865"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Display in compact mode too</source>
         <translation>Zobrazit i v kompaktním módu</translation>
     </message>
@@ -7782,17 +7787,17 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Zobrazit také v &amp;kompaktním módu</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="233"/>
+        <location filename="../prefinterface.cpp" line="239"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>Hide video window when playing audio files</source>
         <translation>Skrýt okno videa při přehrávání zvukových souborů</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>Je-li tato možnost zaškrtnuta, okno vide nebude při přehrávání zvukových souborů vidět.</translation>
     </message>
@@ -7802,17 +7807,17 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;Skrýt okna videa při přehrávání zvukových souborů</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="824"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Precise seeking</source>
         <translation>Přesné seekování</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="825"/>
+        <location filename="../prefinterface.cpp" line="815"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>Je-li tato možnost zaškrtnuta, seekování bude přesnější, ale může být pomalejší. Pro některé formáty nemusí fungovat.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="827"/>
+        <location filename="../prefinterface.cpp" line="817"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>Poznámka: tato možnost funguje pouze pro MPlayer2</translation>
     </message>
@@ -8093,8 +8098,8 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="85"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>Performance</source>
         <translation>Výkon</translation>
     </message>
@@ -8105,7 +8110,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>Priority</source>
         <translation>Priorita</translation>
     </message>
@@ -8175,22 +8180,22 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Nastavením vyrovnávací paměti lze zvýšit výkon přehrávání z pomalých médií</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Allow frame drop</source>
         <translation>Povolit vypuštění snímku</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="313"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>Přeskočí zobrazování některých snímků potřebných pro A/V synchronizaci na pomalých systémech.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="304"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Allow hard frame drop</source>
         <translation>Povolit tvrdé vypuštění snímku</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>Intenzivnější vypouštění snímků (přeruší dekódování). Způsobuje zkreslení obrazu!</translation>
     </message>
@@ -8220,22 +8225,22 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Rychlé &amp;přepínání kapitol na DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="355"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>Fast audio track switching</source>
         <translation>Rychlé přepínání audio stop</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>Rychlé přeskakování kapitol u DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="378"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>Je-li zaškrtnuto, použije se nejrychlejší metoda přepínání kapitol, ale nemusí správně fungovat pro všechny disky.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Skip loop filter</source>
         <translation>Přeskočit filtr smyček</translation>
     </message>
@@ -8245,37 +8250,37 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="367"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>Možné hodnoty:&lt;br&gt; &lt;b&gt;Ano&lt;/b&gt;: použije nejrychlejší metodu přepínání zvukových stop (nemusí fungovat se všemi formáty).&lt;br&gt; &lt;b&gt;Ne&lt;/b&gt;: MPlayer se restartuje při každé změně zvukové stopy.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer určí metodu podle verze MPlayeru.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="376"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Cache for files</source>
         <translation>Cache pro soubory</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení souborů.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="380"/>
+        <location filename="../prefperformance.cpp" line="391"/>
         <source>Cache for streams</source>
         <translation>Cache pro streamy</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="381"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Cache for DVDs</source>
         <translation>Cache pro DVD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="396"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení DVD.&lt;br&gt; &lt;b&gt;Varování:&lt;/b&gt; Posouvání (včetně přepínání kapitol) nemusí fungovat správně.</translation>
     </message>
@@ -8300,17 +8305,17 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Cache pro &amp;streamy:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
+        <location filename="../prefperformance.cpp" line="100"/>
         <source>Enabled</source>
         <translation>Povolen</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="90"/>
+        <location filename="../prefperformance.cpp" line="101"/>
         <source>Skip (always)</source>
         <translation>Přeskočit (vždy)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="91"/>
+        <location filename="../prefperformance.cpp" line="102"/>
         <source>Skip only on HD videos</source>
         <translation>Přeskočit u HD videí</translation>
     </message>
@@ -8320,7 +8325,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>&amp;Filtr smyček</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>Toto nastavení umožňuje přeskočit filtr smyčky (loop filter, deblocking) při přehrávání H.264. Jelikož filtrované snímky se používají jako reference pro další závislé snímky, má tato možnost vyšší doapd na kvalitu než např. u MPEG-2. Ale dosáhne se tak mnohem vyšší propustnosti HDTV videa za poměrně malého snížení kvality.</translation>
     </message>
@@ -8331,112 +8336,112 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="373"/>
+        <location filename="../prefperformance.cpp" line="384"/>
         <source>Auto</source>
         <translation>Auto</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>Nastavit prioritu procesu pro %1 v souladu s předdefinovanými prioritami dostupnými pod Windows &lt;br&gt;&lt;b&gt;. Upozornění: &lt;/b&gt; Při použití priority v reálném čase může zamrznout systém.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Hardware decoding</source>
         <translation>Hardwarové dekódování</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>Nastavuje API hardwarového dekódování obrazu. Pokud není hardwarové dekódování možné, bude použito softwarové. </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>Available options:</source>
         <translation>Dostupné možnosti:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="317"/>
+        <location filename="../prefperformance.cpp" line="328"/>
         <source>None: only software decoding will be used.</source>
         <translation>Žádné: použito bude jen softwarové dekódování.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>Auto: Pokusí se automaticky zapnout hardwarové dekódování jako první dostupná možnost. </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: pro vdpau a opengl obrazové výstupy.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="332"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: pro opengl a vaapi obrazové výstupy. Platí pouze pro grafické karty Intel.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="322"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>vaapi-copy: zkopíruje video zpět do systémové RAM. Pouze pro grafické karty Intel.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>dxva2-copy: zkopíruje video zpět do systémové RAM. Experimentální.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>This option only works with mpv.</source>
         <translation>Tato volba pracuje pouze s mpv.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="352"/>
         <source>Possible values:</source>
         <translation>Možné hodnoty:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="342"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;Povolen&lt;/b&gt;: filtr smyčky se nebude přeskakovat</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="343"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;Přeskočit (vždy)&lt;/b&gt;: filtr smyčky se přeskočí při jakémkoli rozlišení videa</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="356"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;Přeskočit u HD videí&lt;/b&gt;: filtr smyčky se přeskočí pouze u videí, jejichž výška přesáhne %1.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="350"/>
+        <location filename="../prefperformance.cpp" line="361"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>Použije proprietární kodek CoreAVC, není-li zvolen jiný kodek a je zapnutý jiný video výstup než VDPAU. </translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>Vyžaduje %1 podporu CoreAVC.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="371"/>
+        <location filename="../prefperformance.cpp" line="382"/>
         <source>Cache</source>
         <translation>Cache</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="374"/>
+        <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation>Tato volba obvykle povolí cache, když je to nutné.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="389"/>
+        <location filename="../prefperformance.cpp" line="400"/>
         <source>Cache for audio CDs</source>
         <translation>Cache pro audio CD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="390"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení audio CD.</translation>
     </message>
@@ -8446,12 +8451,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Cache pro &amp;audio CD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="393"/>
+        <location filename="../prefperformance.cpp" line="404"/>
         <source>Cache for VCDs</source>
         <translation>Cache pro VCD</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="394"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>Určuje, kolik paměti (v kB) se použije pro dopředné čtení VCD.</translation>
     </message>
@@ -8461,12 +8466,12 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Cache pro &amp;VCD:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Threads for decoding</source>
         <translation>Počet vláken pro dekódování</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>Nastavte počet vláken pro dekódování. Pouze pro MPEG-1/2 a H.264</translation>
     </message>
@@ -8476,7 +8481,7 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
         <translation>Počet v&amp;láken pro dekódování (pouze MPEG-1/2 a H.264):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="360"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Použít CoreAVC, není-li zvolen jiný kodek</translation>
     </message>
@@ -10309,153 +10314,153 @@ Jinak se ovládání objeví vždy při jakémkoliv pohnutí myší, bez ohledu 
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="445"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
         <source>Video preview</source>
         <translation>Náhled na video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="146"/>
+        <location filename="../videopreview/videopreview.cpp" line="147"/>
         <source>Cancel</source>
         <translation>Storno</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="145"/>
+        <location filename="../videopreview/videopreview.cpp" line="146"/>
         <source>Thumbnail Generator</source>
         <translation>Generátor náhledů</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="148"/>
+        <location filename="../videopreview/videopreview.cpp" line="149"/>
         <source>Generated by SMPlayer</source>
         <translation>Vytvořeno SMPlayerem</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="234"/>
+        <location filename="../videopreview/videopreview.cpp" line="235"/>
         <source>Creating thumbnails...</source>
         <translation>Vytvářím miniatury...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="443"/>
         <source>Size: %1 MB</source>
         <translation>Velikost: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="431"/>
+        <location filename="../videopreview/videopreview.cpp" line="445"/>
         <source>Length: %1</source>
         <translation>Délka: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="601"/>
+        <location filename="../videopreview/videopreview.cpp" line="620"/>
         <source>Save file</source>
         <translation>Uložit do souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="614"/>
+        <location filename="../videopreview/videopreview.cpp" line="633"/>
         <source>Error saving file</source>
         <translation>Chyba při ukládání souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="615"/>
+        <location filename="../videopreview/videopreview.cpp" line="634"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Tento soubor nemůže být uložen</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="190"/>
+        <location filename="../videopreview/videopreview.cpp" line="191"/>
         <source>Error</source>
         <translation>Chyba</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="192"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Při vytváření miniatur došlo k následující chybě:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="218"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Nelze vytvořit dočasný adresář (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="349"/>
+        <location filename="../videopreview/videopreview.cpp" line="361"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Nešlo spustit MPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="430"/>
+        <location filename="../videopreview/videopreview.cpp" line="444"/>
         <source>Resolution: %1x%2</source>
         <translation>Rozlišení: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="434"/>
+        <location filename="../videopreview/videopreview.cpp" line="448"/>
         <source>Video format: %1</source>
         <translation>Formát videa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="435"/>
+        <location filename="../videopreview/videopreview.cpp" line="449"/>
         <source>Frames per second: %1</source>
         <translation>Snímků za sekundu: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="436"/>
+        <location filename="../videopreview/videopreview.cpp" line="450"/>
         <source>Aspect ratio: %1</source>
         <translation>Poměr stran: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="367"/>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Nelze načíst soubor %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="471"/>
+        <location filename="../videopreview/videopreview.cpp" line="487"/>
         <source>No filename</source>
         <translation>Nezadáno jméno souboru</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="559"/>
+        <location filename="../videopreview/videopreview.cpp" line="578"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Nešlo spustit MPlayer pro získání informací o videu</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The length of the video is 0</source>
         <translation>Video nulové délky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="253"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Soubor %1 neexistuje</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="621"/>
         <source>Images</source>
         <translation>Obrázky</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="432"/>
         <source>No info</source>
         <translation>Bez informací</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="421"/>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="435"/>
+        <location filename="../videopreview/videopreview.cpp" line="436"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="437"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="439"/>
+        <location filename="../videopreview/videopreview.cpp" line="453"/>
         <source>Video bitrate: %1</source>
         <translation>Rychlost videa: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="440"/>
+        <location filename="../videopreview/videopreview.cpp" line="454"/>
         <source>Audio bitrate: %1</source>
         <translation>Rychlost audia: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="441"/>
+        <location filename="../videopreview/videopreview.cpp" line="455"/>
         <source>Audio rate: %1</source>
         <translation>Vzorkování zvuku: %1</translation>
     </message>

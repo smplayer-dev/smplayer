@@ -1,4 +1,6 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.0" language="am">
 <context>
     <name>About</name>
     <message>
@@ -1363,79 +1365,79 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ዩቲዩብ ችግር ገጥሞታል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6007"/>
-        <location filename="../basegui.cpp" line="6059"/>
+        <location filename="../basegui.cpp" line="6018"/>
+        <location filename="../basegui.cpp" line="6070"/>
         <source>%1 Error</source>
         <translation>%1 ስህተት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6008"/>
+        <location filename="../basegui.cpp" line="6019"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 ጨርሷል በ ድንገት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6033"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>የ youtube-dl አካል ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6034"/>
+        <location filename="../basegui.cpp" line="6045"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>መግጠም የ Microsoft Visual C++ 2010 ስርጭት ጥቅል (x86) ችግሩን ያስወግደዋል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6047"/>
         <source>Click here to get it</source>
         <translation>ለማግኘት እዚህ ይጫኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6072"/>
         <source>%1 failed to start.</source>
         <translation>%1 ማስጀመር አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6073"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>እባክዎን ይመርምሩ %1 መንገዱን ከ ምርጫዎች ውስጥ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6075"/>
         <source>%1 has crashed.</source>
         <translation>%1 ተጋጭቷል</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6146"/>
+        <location filename="../basegui.cpp" line="6157"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>የ ዩቲዩብ መቃኛ አልተገጠመም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6147"/>
-        <location filename="../basegui.cpp" line="6159"/>
+        <location filename="../basegui.cpp" line="6158"/>
+        <location filename="../basegui.cpp" line="6170"/>
         <source>Visit %1 to get it.</source>
         <translation>ይጎብኙ %1 ለማግኘት</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6157"/>
+        <location filename="../basegui.cpp" line="6168"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>የ ዩቲዩብ መቃኛ ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6158"/>
+        <location filename="../basegui.cpp" line="6169"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>በ ትክክል መገጠሙን እርግጠኛ ይሁኑ</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6324"/>
+        <location filename="../basegui.cpp" line="6335"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>ስርአቱ ወደ ታብሌት ዘዴ ተቀይሯል: SMPlayer ወደ ታብሌት ዘዴ ይቀየር?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6326"/>
+        <location filename="../basegui.cpp" line="6337"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>ስርአቱ ከ ታብሌት ዘዴ ወጥቷል: SMPlayer ከ ታብሌት ዘዴ ውስጥ ይውጣ?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6330"/>
+        <location filename="../basegui.cpp" line="6341"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>የ እኔን ውሳኔ አስታውስ እና እንደገና አትጠይቀኝ</translation>
     </message>
@@ -1591,12 +1593,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>ሰርቨሩ መልሷል &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6009"/>
+        <location filename="../basegui.cpp" line="6020"/>
         <source>Exit code: %1</source>
         <translation>መውጫ ከ code: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6065"/>
+        <location filename="../basegui.cpp" line="6076"/>
         <source>See the log for more info.</source>
         <translation>ለ በለጠ መረጃ መግቢያውን ይመልከቱ</translation>
     </message>
@@ -1863,7 +1865,7 @@ The configuration dialog will be shown now, so you can do it.</source>
     </message>
     <message>
         <location filename="../basegui.cpp" line="5520"/>
-        <location filename="../basegui.cpp" line="5849"/>
+        <location filename="../basegui.cpp" line="5860"/>
         <source>Jump to %1</source>
         <translation>መዝለያ ወደ %1</translation>
     </message>
@@ -2945,7 +2947,10 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform><numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform></translation>
+        <translation>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+            <numerusform>%n ንዑስ አርእስት(ቶች) ተራግፈዋል</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3043,7 +3048,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn't possible to save the downloaded
+        <source>It wasn&apos;t possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>ማስቀመጥ አልተቻለም የ ወረደውን ፋይል በ ፎልደር ውስጥ%1
@@ -4765,37 +4770,37 @@ Do you want to overwrite?</source>
         <translation>&amp;ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1306"/>
-        <location filename="../playlist.cpp" line="1342"/>
+        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1347"/>
         <source>Playlists</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1304"/>
+        <location filename="../playlist.cpp" line="1309"/>
         <source>Choose a file</source>
         <translation>ፋይል ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1340"/>
+        <location filename="../playlist.cpp" line="1345"/>
         <source>Choose a filename</source>
         <translation>የ ፋይል ስም ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1352"/>
+        <location filename="../playlist.cpp" line="1357"/>
         <source>Confirm overwrite?</source>
         <translation>በላዩ ላይ ደርቦ መጻፉን ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1353"/>
+        <location filename="../playlist.cpp" line="1358"/>
         <source>The file %1 already exists.
 Do you want to overwrite?</source>
         <translation>ፋይሉ %1 ቀደም ብሎ ነበር
 በ ላዩ ላይ ደርበው መጻፍ ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1306"/>
-        <location filename="../playlist.cpp" line="1342"/>
-        <location filename="../playlist.cpp" line="1625"/>
+        <location filename="../playlist.cpp" line="1311"/>
+        <location filename="../playlist.cpp" line="1347"/>
+        <location filename="../playlist.cpp" line="1630"/>
         <source>All files</source>
         <translation>ሁሉንም ፋይሎች</translation>
     </message>
@@ -4830,22 +4835,22 @@ Do you want to overwrite?</source>
         <translation>መጫኛ/ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1622"/>
+        <location filename="../playlist.cpp" line="1627"/>
         <source>Select one or more files to open</source>
         <translation>ለ መክፈት አንድ ወይንም ከዚያ በላይ ፋይሎች ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1692"/>
+        <location filename="../playlist.cpp" line="1697"/>
         <source>Choose a directory</source>
         <translation>ዳይሬክቶሪ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1887"/>
+        <location filename="../playlist.cpp" line="1892"/>
         <source>Edit name</source>
         <translation>ስም ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1888"/>
+        <location filename="../playlist.cpp" line="1893"/>
         <source>Type the name that will be displayed in the playlist for this file:</source>
         <translation>ለዚህ ፋይል የሚታየውን ስም ይጻፉ በ ማጫወቻ ዝርዝር ውስጥ</translation>
     </message>
@@ -4936,7 +4941,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../playlist.cpp" line="711"/>
-        <location filename="../playlist.cpp" line="1450"/>
+        <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy file path to clipboard</source>
         <translation>&amp;ካፒ ማድረጊያ የ ፋይል መንገድ ወደ ቁራጭ ሰሌዳ</translation>
     </message>
@@ -4972,52 +4977,52 @@ Do you want to overwrite?</source>
         <translation>የ ፋይል ስም አምድ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1455"/>
+        <location filename="../playlist.cpp" line="1460"/>
         <source>&amp;Copy URL to clipboard</source>
         <translation>&amp;ኮፒ ያድርጉ URL ወደ ቁራጭ ሰሌዳ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1925"/>
+        <location filename="../playlist.cpp" line="1930"/>
         <source>Confirm deletion</source>
         <translation>ማጥፋቱን ያረጋግጡ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1926"/>
+        <location filename="../playlist.cpp" line="1931"/>
         <source>You&apos;re about to DELETE the file &apos;%1&apos; from your drive.</source>
         <translation>እርስዎ አሁን ፋይል ሊያጠፉ ነው &apos;%1&apos; ከ እርስዎ አካል ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1927"/>
+        <location filename="../playlist.cpp" line="1932"/>
         <source>This action cannot be undone. Are you sure you want to proceed?</source>
         <translation>ይህን ተግባር መተው አይቻልም: እርስዎ በ እርግጥ መቀጠል ይፈልጋሉ?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1945"/>
+        <location filename="../playlist.cpp" line="1950"/>
         <source>Deletion failed</source>
         <translation>ማጥፋት አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1946"/>
+        <location filename="../playlist.cpp" line="1951"/>
         <source>It wasn&apos;t possible to delete &apos;%1&apos;</source>
         <translation>ማጥፋት አልተቻለም &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1951"/>
+        <location filename="../playlist.cpp" line="1956"/>
         <source>Error deleting the file</source>
         <translation>ስህተት ፋይሉን በማጥፋት ላይ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1952"/>
+        <location filename="../playlist.cpp" line="1957"/>
         <source>It&apos;s not possible to delete &apos;%1&apos; from the filesystem.</source>
         <translation>ይህን ማጥፋት አይቻልም &apos;%1&apos; ከ ፋይል ስርአት ውስጥ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2417"/>
+        <location filename="../playlist.cpp" line="2422"/>
         <source>It&apos;s not possible to load this playlist</source>
         <translation>ይህን ማጫወቻ ዝርዝር መጫን አይቻልም</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="2417"/>
+        <location filename="../playlist.cpp" line="2422"/>
         <source>Unrecognized format.</source>
         <translation>የማይታወቅ አቀራረብ</translation>
     </message>
@@ -5032,17 +5037,17 @@ Do you want to overwrite?</source>
         <translation>ማስወግገጃ...</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1385"/>
+        <location filename="../playlist.cpp" line="1390"/>
         <source>Playlist modified</source>
         <translation>የ ማጫወቻ ዝርዝር ማሻሻያ</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1386"/>
+        <location filename="../playlist.cpp" line="1391"/>
         <source>There are unsaved changes, do you want to save the playlist?</source>
         <translation>ያልተቀመጠ ለውጥ አለ: እርስዎ ማስቀመጥ ይፈልጋሉ የ ማጫወቻ ዝርዝሩን?</translation>
     </message>
     <message>
-        <location filename="../playlist.cpp" line="1624"/>
+        <location filename="../playlist.cpp" line="1629"/>
         <source>Multimedia</source>
         <translation>በርካታ መገናኛ</translation>
     </message>
@@ -7150,14 +7155,14 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefInterface</name>
     <message>
-        <location filename="../prefinterface.cpp" line="152"/>
-        <location filename="../prefinterface.cpp" line="741"/>
+        <location filename="../prefinterface.cpp" line="153"/>
+        <location filename="../prefinterface.cpp" line="731"/>
         <source>Interface</source>
         <translation>ገጽታ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="218"/>
-        <location filename="../prefinterface.cpp" line="221"/>
+        <location filename="../prefinterface.cpp" line="223"/>
+        <location filename="../prefinterface.cpp" line="227"/>
         <source>Default</source>
         <translation>ነባር</translation>
     </message>
@@ -7188,42 +7193,42 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="829"/>
-        <location filename="../prefinterface.cpp" line="877"/>
+        <location filename="../prefinterface.cpp" line="867"/>
         <source>Recent files</source>
         <translation>የ ቅርብ ጊዜ ፋይሎች</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="761"/>
+        <location filename="../prefinterface.cpp" line="751"/>
         <source>Language</source>
         <translation>ቋንቋ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="762"/>
+        <location filename="../prefinterface.cpp" line="752"/>
         <source>Here you can change the language of the application.</source>
         <translation>እርስዎ እዚህ ቋንቋ መቀየር ይችላሉ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="196"/>
+        <location filename="../prefinterface.cpp" line="197"/>
         <source>&amp;Short jump</source>
         <translation>በ &amp;አጭር መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="167"/>
+        <location filename="../prefinterface.cpp" line="168"/>
         <source>System language</source>
         <translation>የ ስርአት ቋንቋ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="197"/>
+        <location filename="../prefinterface.cpp" line="198"/>
         <source>&amp;Medium jump</source>
         <translation>በ &amp;መካከለኛ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="198"/>
+        <location filename="../prefinterface.cpp" line="199"/>
         <source>&amp;Long jump</source>
         <translation>በ &amp;ረጅም መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="199"/>
+        <location filename="../prefinterface.cpp" line="200"/>
         <source>Mouse &amp;wheel jump</source>
         <translation>በ አይጥ &amp;ጎማ መዝለያ</translation>
     </message>
@@ -7398,300 +7403,305 @@ Do you want to overwrite?</source>
         <translation>ሁኔ&amp;ታዎች</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="743"/>
+        <location filename="../prefinterface.cpp" line="733"/>
         <source>Autoresize</source>
         <translation>በራሱ እንደገና መመጠኛ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="744"/>
+        <location filename="../prefinterface.cpp" line="734"/>
         <source>The main window can be resized automatically. Select the option you prefer.</source>
         <translation>ዋናው መስኮት ራሱ በራሱ እንደገና ይመጠናል: እርስዎ የሚፈልጉትን ምርጫ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="754"/>
+        <location filename="../prefinterface.cpp" line="744"/>
         <source>Remember position and size</source>
         <translation>ቦታ እና መጠን ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="755"/>
+        <location filename="../prefinterface.cpp" line="745"/>
         <source>If you check this option, the position and size of the main window will be saved and restored when you run SMPlayer again.</source>
         <translation>እርስዎ ይህን ምርጫ ከ መረጡ: ቦታ እና መጠን የ ዋናው መስኮት ይቀመጣል: እና እንደ ነበር ይመለሳል እርስዎ SMPlayer እንደገና ሲያስኬዱ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="765"/>
+        <location filename="../prefinterface.cpp" line="755"/>
         <source>Select the graphic interface you prefer for the application.</source>
         <translation>ለ መተግበሪያው እርስዎ የሚፈልጉትን ገጽታ ይምረጡ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="766"/>
+        <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
         <translation>የ &lt;b&gt;መሰረታዊ GUI&lt;/b&gt; የሚያቀርበው የ ተለመደ ገጽታ ነው: ከ እቃ መደርደሪያ እና መቆጣጠሪያ መደርደሪያ ጋር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="768"/>
+        <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
         <translation>የ &lt;b&gt;አነስተኛ GUI&lt;/b&gt; የሚያቀርበው ቀላል ገጽታ ነው: ያለ እቃ መደርደሪያ እና መቆጣጠሪያ ከ ጥቂት ቁልፎች ጋር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="776"/>
+        <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
         <translation>የ &lt;b&gt;መልክ መቀየሪያ GUI&lt;/b&gt; የሚያቀርበው ዝግጁ የሆኑ የ መልክ መቀየሪያዎች ነው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="772"/>
+        <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
         <translation>የ &lt;b&gt;Mpc GUI&lt;/b&gt; ዘመናዊ የ መገናኛ ማጫወቻ ይመስላል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="875"/>
+        <location filename="../prefinterface.cpp" line="865"/>
         <source>Privacy</source>
         <translation> የ ግላዊነት መመሪያ </translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="878"/>
+        <location filename="../prefinterface.cpp" line="868"/>
         <source>Select the maximum number of items that will be shown in the &lt;b&gt;Open-&gt;Recent files&lt;/b&gt; submenu. If you set it to 0 that menu won&apos;t be shown at all.</source>
         <translation>ከፍተኛውን ቁጥር ይምረጡ ለ እቃው የሚታየውን በ &lt;b&gt;መክፈቻ-&gt;የ ቅርብ ጊዜ ፋይሎች&lt;/b&gt; ንዑስ ዝርዝር: እርስዎ ካሰናዱ ወደ 0 ይህ ዝርዝር በፍጹም አይታይም</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="781"/>
+        <location filename="../prefinterface.cpp" line="771"/>
         <source>Icon set</source>
         <translation>ምልክት ማሰናጃ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="227"/>
+        <location filename="../prefinterface.cpp" line="221"/>
+        <source>Classic</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinterface.cpp" line="233"/>
         <source>Basic GUI</source>
         <translation>መሰረታዊ GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="236"/>
+        <location filename="../prefinterface.cpp" line="242"/>
         <source>Skinnable GUI</source>
         <translation>የ GUI መልክ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="249"/>
+        <location filename="../prefinterface.cpp" line="255"/>
         <source>Scale fact&amp;or:</source>
         <translation>ጉዳ&amp;ይ መመጠኛ:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="252"/>
+        <location filename="../prefinterface.cpp" line="258"/>
         <source>Pixel rati&amp;o:</source>
         <translation>የ ፒክስል መጠ&amp;ን:</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="747"/>
+        <location filename="../prefinterface.cpp" line="737"/>
         <source>Prevent window to get outside of screen</source>
         <translation>መስኮቱ ከ መመልከቻው ውጪ እንዳይሆን መከልከያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="748"/>
+        <location filename="../prefinterface.cpp" line="738"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
         <translation>ከ በራሱ ሜምጠኛ በኋላ ዋናው መስኮት ወደ ውጪ ሊሆን ይችላል በ መመልከቻው ውስጥ: ይህ ምርጫመስኮቱን መሀከል እንዲሆን ያደርገዋል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="751"/>
+        <location filename="../prefinterface.cpp" line="741"/>
         <source>Center window</source>
         <translation>መሀከል መስኮት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="752"/>
+        <location filename="../prefinterface.cpp" line="742"/>
         <source>When this option is enabled, the main window will be centered on the desktop.</source>
         <translation>ይህን ምርጫ ካስቻሉ: ዋናው መስኮት መሀከል ላይ ይሆናል በ ዴስክቶፕ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="782"/>
+        <location filename="../prefinterface.cpp" line="772"/>
         <source>Select the icon set you prefer for the application.</source>
         <translation>እርስዎ የሚፈልጉትን ምልክት ይምረጡ ለ መተግበሪያው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="785"/>
+        <location filename="../prefinterface.cpp" line="775"/>
         <source>Skin</source>
         <translation>ቆዳ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="786"/>
+        <location filename="../prefinterface.cpp" line="776"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
         <translation>እርስዎ የሚፈልጉትን መልክ ይምረጡ ለ መተግበሪያው: ዝግጁ የሆነውን ለሚቀየረው መልክ GUI.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="779"/>
         <source>Style</source>
         <translation>ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="790"/>
+        <location filename="../prefinterface.cpp" line="780"/>
         <source>Select the style you prefer for the application.</source>
         <translation>እርስዎ የሚፈልጉትን ዘዴ ይምረጡ ለ መተግበሪያው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="783"/>
         <source>Default font</source>
         <translation>ነባር ፊደል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="794"/>
+        <location filename="../prefinterface.cpp" line="784"/>
         <source>You can change here the application&apos;s font.</source>
         <translation>እርስዎ እዚህ ቋንቋ መቀየር ይችላሉ የ መተግባሪያውን ፊደል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="796"/>
+        <location filename="../prefinterface.cpp" line="786"/>
         <source>Seeking</source>
         <translation>በ መፈለግ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="798"/>
+        <location filename="../prefinterface.cpp" line="788"/>
         <source>Short jump</source>
         <translation>በ አጭር መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="799"/>
-        <location filename="../prefinterface.cpp" line="803"/>
-        <location filename="../prefinterface.cpp" line="807"/>
+        <location filename="../prefinterface.cpp" line="789"/>
+        <location filename="../prefinterface.cpp" line="793"/>
+        <location filename="../prefinterface.cpp" line="797"/>
         <source>Select the time that should be go forward or backward when you choose the %1 action.</source>
         <translation>ይምረጡ ሰአት እርስዎ መሄድ የሚፈልጉበትን ወደ ፊት ወይንም ወደ ኋላ እርስዎ በሚመርጡ ጊዜ የ %1 ተግባር ይፈጸማል.</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="800"/>
+        <location filename="../prefinterface.cpp" line="790"/>
         <source>short jump</source>
         <translation>በ አጭር መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="802"/>
+        <location filename="../prefinterface.cpp" line="792"/>
         <source>Medium jump</source>
         <translation>በ መካከለኛ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="804"/>
+        <location filename="../prefinterface.cpp" line="794"/>
         <source>medium jump</source>
         <translation>በ መካከለኛ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="806"/>
+        <location filename="../prefinterface.cpp" line="796"/>
         <source>Long jump</source>
         <translation>በ ረጅም መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="808"/>
+        <location filename="../prefinterface.cpp" line="798"/>
         <source>long jump</source>
         <translation>በ ረጅም መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="810"/>
+        <location filename="../prefinterface.cpp" line="800"/>
         <source>Mouse wheel jump</source>
         <translation>በ አይጥ ጎማ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="811"/>
+        <location filename="../prefinterface.cpp" line="801"/>
         <source>Select the time that should be go forward or backward when you move the mouse wheel.</source>
         <translation>ይምረጡ ሰአት እርስዎ መሄድ የሚፈልጉበትን ወደ ፊት ወይንም ወደ ኋላ እርስዎ የ አይጥ ቁልፍ በሚያንቀሳቅሱ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="814"/>
+        <location filename="../prefinterface.cpp" line="804"/>
         <source>Behaviour of time slider</source>
         <translation>የ ሰአት ተንሸራታች ባህሪ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="815"/>
+        <location filename="../prefinterface.cpp" line="805"/>
         <source>Select what to do when dragging the time slider.</source>
         <translation>ይምረጡ የ ሰአት ተንሸራታች በሚጎተት ጊዜ ምን እንደሚሆን</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="829"/>
+        <location filename="../prefinterface.cpp" line="819"/>
         <source>Pressing the stop button once resets the time position</source>
         <translation>የ ማስቆሚያ ቁልፍ መጫ&amp;ን አንድ ጊዜ የ ጊዜ ቦታን እንደ ነበር ይመልሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="860"/>
+        <location filename="../prefinterface.cpp" line="850"/>
         <source>Show only when moving the mouse to the bottom of the screen</source>
         <translation>የ አይጥ መጠቆሚያውን በ መመልከቻው በ ታች ሲንቀሳቀስ ብቻ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="861"/>
+        <location filename="../prefinterface.cpp" line="851"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
         <translation>ይህ ምርጫ ምልክት ከ ተደረገበት: የ ተንሳፋፊ መቆጣጠሪያ የሚታየው የ አይጥ ቁልፍ ሲንቀሳቀስ ብቻ ነው በ መመልከቻው በ ታች በኩል: ያለ በለዚያ መቆጣጠሪያው ይታያል የ አይጥ ቁልፍ በሚንቀሳቀስ ጊዜ: በማንኛውም ቦታ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="866"/>
+        <location filename="../prefinterface.cpp" line="856"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: የሚቀጥለው መቆጣጠሪያ ይታያል በ አነስተኛ ዘዴ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="868"/>
+        <location filename="../prefinterface.cpp" line="858"/>
         <source>This option only works with the basic GUI.</source>
         <translation>ምርጫው የሚሰራው ለ መሰረታዊ GUI ነው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="869"/>
+        <location filename="../prefinterface.cpp" line="859"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
         <translation>&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; ተንሳፋፊ መቆጣጠሪያ አልተፈጠረም ለ አነስተኛ ዘዴ እና በ ትክክል ላይሰራ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="872"/>
+        <location filename="../prefinterface.cpp" line="862"/>
         <source>Time to hide the control</source>
         <translation>መቆጣጠሪያው የሚደበቅበት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="873"/>
+        <location filename="../prefinterface.cpp" line="863"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
         <translation>ጊዜ ማሰናጃ (በ ሚሊ ሰከንዶች) መቆጣጠሪያውን ለ መደበቅ የ አይጥ መጠቆሚያ ከ መቆጣጠሪያው ላይ ከሄደ በኋላ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="882"/>
+        <location filename="../prefinterface.cpp" line="872"/>
         <source>Max. URLs</source>
         <translation>ከፍተኛው URLs</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="883"/>
+        <location filename="../prefinterface.cpp" line="873"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
         <translation>ይምረጡ ከፍተኛ ቁጥር እቃዎች ለ &lt;b&gt;መክፈቻ-&gt;URL&lt;/b&gt; ንግግር ያስታውሳል: ወደ 0 ያሰናዱ እርስዎ ካልፈለጉ ማንኛውንም URL እንዲቀመጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="887"/>
+        <location filename="../prefinterface.cpp" line="877"/>
         <source>Remember last directory</source>
         <translation>የ መጨረሻውን ዳይሬክቶሪ ያስታውሳል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="888"/>
+        <location filename="../prefinterface.cpp" line="878"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: SMPlayer ያስታውሳል የ መጨረሻ ፎልደር እርስዎ የ ተጠቀሙትን ፋይል ለ መክፈት</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
-        <location filename="../prefinterface.cpp" line="818"/>
+        <location filename="../prefinterface.cpp" line="808"/>
         <source>Seeking method</source>
         <translation>ዘዴ በ መፈለግ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="819"/>
+        <location filename="../prefinterface.cpp" line="809"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
         <translation>የሚጠቀሙበትን ዘዴ ማሰናጃ በ ተንሸራታች በሚፈልጉ ጊዜ: ፍጹም መፈለጊያ በጣም ትክክለኛ ነው: አንፃራዊ መፈለጊያ መፈለጊያ ግን የተሻለ ይሰራል የ ተሳሳተ የ ፋይል እርዝመት ላላቸው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="830"/>
+        <location filename="../prefinterface.cpp" line="820"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
         <translation>በ ነባር የ ማስቆሚያ ቁልፍ ሲጫኑ የ ሰአት ቦታን ያስታውሳል: ስለዚህ እርስዎ ማጫወቻ ቁልፍን ሲጫኑ ከ ነበረበት ቦታ ጀምሮ ይጫወታል: እርስዎ ሁለት ጊዜ መጫን አለብዎት ማስቆሚያውን ሰአቱን እንደገና ለማስጀመር: ነገር ግን እዚህ ምርጫ ላይ ምልክት ከ ተደረገ የ ሰአት ቦታ ይሰናዳል ወደ 0 አንድ ጊዜ የማስቆሚያ ቁልፍ ሲጫኑ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="837"/>
+        <location filename="../prefinterface.cpp" line="827"/>
         <source>Instances</source>
         <translation>ሁኔታው</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="840"/>
+        <location filename="../prefinterface.cpp" line="830"/>
         <source>Use only one running instance of SMPlayer</source>
         <translation>አንድ ብቻ የሚሄድ ሁኔታ ይጠቀሙ ለ SMPlayer</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="841"/>
+        <location filename="../prefinterface.cpp" line="831"/>
         <source>Check this option if you want to use an already running instance of SMPlayer when opening other files.</source>
         <translation>ይህን ምርጫ ይምረጡ: እርስዎ ከ ፈለጉ መጠቀም ሁሉንም የሚሄዱ ሁኔታዎች በ SMPlayer ሌሎች ፋይሎች በሚከፈቱ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="230"/>
+        <location filename="../prefinterface.cpp" line="236"/>
         <source>Mini GUI</source>
         <translation>አነስተኛ GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="764"/>
+        <location filename="../prefinterface.cpp" line="754"/>
         <source>GUI</source>
         <translation>GUI</translation>
     </message>
@@ -7701,42 +7711,42 @@ Do you want to overwrite?</source>
         <translation>&amp;GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="845"/>
+        <location filename="../prefinterface.cpp" line="835"/>
         <source>Floating control</source>
         <translation>ተንሳፋፊ መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="847"/>
+        <location filename="../prefinterface.cpp" line="837"/>
         <source>Animated</source>
         <translation>እንቅስቃሴ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="848"/>
+        <location filename="../prefinterface.cpp" line="838"/>
         <source>If this option is enabled, the floating control will appear with an animation.</source>
         <translation>ይህ ምርጫ ከ ተመረጠ: የሚቀጥለው መቆጣጠሪያ ይታያል በ እንቅስቃሴ ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="851"/>
+        <location filename="../prefinterface.cpp" line="841"/>
         <source>Width</source>
         <translation>ስፋት</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="852"/>
+        <location filename="../prefinterface.cpp" line="842"/>
         <source>Specifies the width of the control (as a percentage).</source>
         <translation>የ መቆጣጠሪያ ስፋት መወሰኛ (እንደ ፐርሰንት).</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="854"/>
+        <location filename="../prefinterface.cpp" line="844"/>
         <source>Margin</source>
         <translation>መስመር</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="855"/>
+        <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
         <translation>ይህ ምርጫ የሚያሰናዳው የ ተንሳፋፊ መቆጣጠሪያ ፒክስል ቁጥር ከ መመልከቻው በ ታች በኩል በምን ያህል እንደሚሆን ነው:  ጠቃሚነቱ ለ ቲቪ መመልከቻ ነው: በሚያስስ ጊዜ መቆጣጠሪያው እንዲታይ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="865"/>
+        <location filename="../prefinterface.cpp" line="855"/>
         <source>Display in compact mode too</source>
         <translation>በ አነስተኛ ዘዴ ውስጥ ማሳያ</translation>
     </message>
@@ -7773,17 +7783,17 @@ Do you want to overwrite?</source>
         <translation>በ አነስተኛ ዘዴ ውስጥ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="233"/>
+        <location filename="../prefinterface.cpp" line="239"/>
         <source>Mpc GUI</source>
         <translation>Mpc GUI</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="758"/>
+        <location filename="../prefinterface.cpp" line="748"/>
         <source>Hide video window when playing audio files</source>
         <translation>የ ቪዲዮ መስኮት መደበቂያ የ ድምፅ ፋይሎች በሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="759"/>
+        <location filename="../prefinterface.cpp" line="749"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
         <translation>ይህን ምርጫ ካስቻሉ የ ቪዲዮ መስኮት ይደበቃል የ ድምፅ ፋይል በሚጫወት ጊዜ</translation>
     </message>
@@ -7793,17 +7803,17 @@ Do you want to overwrite?</source>
         <translation>የ ቪዲዮ መስኮት &amp;መደበቂያ የ ድምፅ ፋይሎች በሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="824"/>
+        <location filename="../prefinterface.cpp" line="814"/>
         <source>Precise seeking</source>
         <translation>በ ትክክል መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="825"/>
+        <location filename="../prefinterface.cpp" line="815"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
         <translation>ይህን ምርጫ ካስቻሉ: መፈለጊያ በጣም ትክክል ይሆናል ነገር ግን ትንሽ ዝግተኛ ይሆናል: ከ አንዳንድ የ ቪዲዮ አቀራረቦች ጋር ላይሰራ ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefinterface.cpp" line="827"/>
+        <location filename="../prefinterface.cpp" line="817"/>
         <source>Note: this option only works with MPlayer2</source>
         <translation>ምርጫው የሚሰራው ለ MPlayer2. ብቻ ነው</translation>
     </message>
@@ -8084,8 +8094,8 @@ Do you want to overwrite?</source>
 <context>
     <name>PrefPerformance</name>
     <message>
-        <location filename="../prefperformance.cpp" line="74"/>
-        <location filename="../prefperformance.cpp" line="291"/>
+        <location filename="../prefperformance.cpp" line="85"/>
+        <location filename="../prefperformance.cpp" line="302"/>
         <source>Performance</source>
         <translation>አፈጻጸም</translation>
     </message>
@@ -8096,7 +8106,7 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefperformance.ui" line="33"/>
-        <location filename="../prefperformance.cpp" line="295"/>
+        <location filename="../prefperformance.cpp" line="306"/>
         <source>Priority</source>
         <translation>ቅድሚያ</translation>
     </message>
@@ -8166,22 +8176,22 @@ Do you want to overwrite?</source>
         <translation>በ ዝግተኛ መገናኛዎች ውስጥ ማጠራቀሚያውን ማሰናዳት አፈጻጸሙን ያሻሽለዋል</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="301"/>
+        <location filename="../prefperformance.cpp" line="312"/>
         <source>Allow frame drop</source>
         <translation>ክፈፍ መጣያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="302"/>
+        <location filename="../prefperformance.cpp" line="313"/>
         <source>Skip displaying some frames to maintain A/V sync on slow systems.</source>
         <translation>አንዳንድ ክፈፎችን ለ መጠገን የሚታየውን የ A/V ማስማሚያ በ ዝግተኛ ስርአቶች ላይ መዝለያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="304"/>
+        <location filename="../prefperformance.cpp" line="315"/>
         <source>Allow hard frame drop</source>
         <translation>ጠንካራ ክፈፍ መጣያ ማስቻያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="305"/>
+        <location filename="../prefperformance.cpp" line="316"/>
         <source>More intense frame dropping (breaks decoding). Leads to image distortion!</source>
         <translation>ተጨማሪ ክፈፍ መጣል (decoding ይሰብራል) እና የ ምስል መጣመም ያስከትላል</translation>
     </message>
@@ -8211,22 +8221,22 @@ Do you want to overwrite?</source>
         <translation>በፍጥነት በ ዲቪዲ ውስጥ ምእራፍ &amp;መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="355"/>
+        <location filename="../prefperformance.cpp" line="366"/>
         <source>Fast audio track switching</source>
         <translation>በፍጥነት የ ድምፅ ተረኛ መቀየሪያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="366"/>
+        <location filename="../prefperformance.cpp" line="377"/>
         <source>Fast seek to chapters in dvds</source>
         <translation>በፍጥነት በ ዲቪዲ ውስጥ ምእራፍ መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="367"/>
+        <location filename="../prefperformance.cpp" line="378"/>
         <source>If checked, it will try the fastest method to seek to chapters but it might not work with some discs.</source>
         <translation>ምልክት ከ ተደረገበት: ምእራፎችን በፍጥነት ለማግኘት ይሞክራል ነገር ግን በ አንዳንድ ዲስኮች በ ትክክል ላይሰሩ ይችላሉ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="333"/>
+        <location filename="../prefperformance.cpp" line="344"/>
         <source>Skip loop filter</source>
         <translation>የ ዙር ማጣሪያ መዝለያ</translation>
     </message>
@@ -8236,37 +8246,37 @@ Do you want to overwrite?</source>
         <translation>H.264</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="356"/>
+        <location filename="../prefperformance.cpp" line="367"/>
         <source>Possible values:&lt;br&gt; &lt;b&gt;Yes&lt;/b&gt;: it will try the fastest method to switch the audio track (it might not work with some formats).&lt;br&gt; &lt;b&gt;No&lt;/b&gt;: the MPlayer process will be restarted whenever you change the audio track.&lt;br&gt; &lt;b&gt;Auto&lt;/b&gt;: SMPlayer will decide what to do according to the MPlayer version.</source>
         <translation>የሚቻሉ ዋጋዎች:&lt;br&gt; &lt;b&gt;አዎ&lt;/b&gt;:ፈጣኑን ዘዴ ይሞክራል ለ መቀየር የ ድምፅ ተረኛ (ለ አንዳንድ አቀራረቦች ላይሰራ ይችላል).&lt;br&gt; &lt;b&gt;አይ&lt;/b&gt;: የ MPlayer ሂደት እንደገና ይጀምራል እርስዎ የ ድምፅ ተረኛ ሲቀይሩ &lt;br&gt; &lt;b&gt;በራሱ&lt;/b&gt;: SMPlayer ራሱ ይወስናል እንደ የ  MPlayer እትም አይነት</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="376"/>
+        <location filename="../prefperformance.cpp" line="387"/>
         <source>Cache for files</source>
         <translation>የ ፋይሎች ማጠራቀሚያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="377"/>
+        <location filename="../prefperformance.cpp" line="388"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a file.</source>
         <translation>ይህ ምርጫ የሚወስነው ምን ያህል ማስታወሻ እንደሚጠቀም ነው (በ ኪባይት) ፋይል በሚያወርድ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="380"/>
+        <location filename="../prefperformance.cpp" line="391"/>
         <source>Cache for streams</source>
         <translation>የ ማስተላለፊያ ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="381"/>
+        <location filename="../prefperformance.cpp" line="392"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a URL.</source>
         <translation>ይህ ምርጫ የሚወስነው ምን ያህል ማስታወሻ (በ ኪባይት) እንደሚጠቀም ነው ዳታ በሚያወርድ ጊዜ ከ URL.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="384"/>
+        <location filename="../prefperformance.cpp" line="395"/>
         <source>Cache for DVDs</source>
         <translation>የ ዲቪዲ ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="385"/>
+        <location filename="../prefperformance.cpp" line="396"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a DVD.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Seeking might not work properly (including chapter switching) when using a cache for DVDs.</source>
         <translation>ይህ ምርጫ የሚወስነው ምን ያህል ማስታወሻ (በ ኪባይት) እንደሚጠቀም ነው ዳታ በሚያወርድ ጊዜ ለ ዲቪዲ &lt;br&gt;&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; መፈለግ በ ትክክል ላይሰራ ይችላል:  (ምእራፍ መቀየሪያ) በሚጠቀሙ ጊዜ የ ዲቪዲ ማጠራቀሚያ</translation>
     </message>
@@ -8291,17 +8301,17 @@ Do you want to overwrite?</source>
         <translation>የ &amp;ማስተላለፊያ ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="89"/>
+        <location filename="../prefperformance.cpp" line="100"/>
         <source>Enabled</source>
         <translation>ተችሏል</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="90"/>
+        <location filename="../prefperformance.cpp" line="101"/>
         <source>Skip (always)</source>
         <translation>መዝለያ (ሁል ጊዜ)</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="91"/>
+        <location filename="../prefperformance.cpp" line="102"/>
         <source>Skip only on HD videos</source>
         <translation>የ HD ቪዲዮዎች ብቻ መዝለያ</translation>
     </message>
@@ -8311,7 +8321,7 @@ Do you want to overwrite?</source>
         <translation>የ ዙር &amp;ማጣሪያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="334"/>
+        <location filename="../prefperformance.cpp" line="345"/>
         <source>This option allows to skips the loop filter (AKA deblocking) during H.264 decoding. Since the filtered frame is supposed to be used as reference for decoding dependent frames this has a worse effect on quality than not doing deblocking on e.g. MPEG-2 video. But at least for high bitrate HDTV this provides a big speedup with no visible quality loss.</source>
         <translation>ይህ ምርጫ የሚያስችለው የ ዙር ማጣሪያ መዝለል ነው (deblocking የሚባለውን) በ H.264 decoding. ጊዜ: የ ማጣሪያ ክፈፍ መጠቀም ስላለበት እንደ ማመሳከሪያ ለ decoding ጥገኛ ለሆኑ ክፈፎች ይህ መጥፎ ተፅእኖ አለው በ ጥራት ላይ ከ deblocking ይልቅ በ ለምሳሌ: MPEG-2 ቪዲቶ: ነገር ግን ቢያንስ ከፍተኛ bitrate HDTV አለው አለዚህ በጣም ፈጣን ነው: ምንም የ ቪዲዮ ጥራት ሳይጎድል</translation>
     </message>
@@ -8322,112 +8332,112 @@ Do you want to overwrite?</source>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="34"/>
-        <location filename="../prefperformance.cpp" line="373"/>
+        <location filename="../prefperformance.cpp" line="384"/>
         <source>Auto</source>
         <translation>በራሱ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="296"/>
+        <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
         <translation>ቅድሚያ ማሰናጃ ለ ሂደቶች ለ %1 በ ቅድሚያ ለ ተገለጸው ቅድሚያ ዝግጁ ለ ሆነው በ መስኮት ውስጥ: &lt;br&gt;&lt;b&gt;ማስጠንቀቂያ:&lt;/b&gt; በ ቀጥታ የሚተላለፍ ቅድሚያን መጠቀም ስርአቱን ሊያደነዝዘው ይችላል</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="312"/>
+        <location filename="../prefperformance.cpp" line="323"/>
         <source>Hardware decoding</source>
         <translation>ጠንካራ አካል decoding</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="313"/>
+        <location filename="../prefperformance.cpp" line="324"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
         <translation>የ ጠንካራ አካል ቪዲዮ decoding API.ማሰናጃ: የ ጠንካራ አካል decoding የማይቻል ከሆነ የ ሶፍትዌር decoding በምትኩ ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="315"/>
+        <location filename="../prefperformance.cpp" line="326"/>
         <source>Available options:</source>
         <translation>ዝግጁ ምርጫዎች:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="317"/>
+        <location filename="../prefperformance.cpp" line="328"/>
         <source>None: only software decoding will be used.</source>
         <translation>ምንም: የ ሶፍትዌር decoding ብቻ ይጠቀማል</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="318"/>
+        <location filename="../prefperformance.cpp" line="329"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
         <translation>በራሱ: ራሱ በራሱ ለ ማስቻል ይሞክራል የ ጠንካራ አክል decoding ዝግጁ የሆነውን የ መጀመሪያውን በ መጠቀም</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="320"/>
+        <location filename="../prefperformance.cpp" line="331"/>
         <source>vdpau: for the vdpau and opengl video outputs.</source>
         <translation>vdpau: for the vdpau and opengl video outputs.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="321"/>
+        <location filename="../prefperformance.cpp" line="332"/>
         <source>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</source>
         <translation>vaapi: for the opengl and vaapi video outputs. For Intel GPUs only.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="322"/>
+        <location filename="../prefperformance.cpp" line="333"/>
         <source>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</source>
         <translation>vaapi-copy: it copies video back into system RAM. For Intel GPUs only.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="325"/>
+        <location filename="../prefperformance.cpp" line="336"/>
         <source>dxva2-copy: it copies video back to system RAM. Experimental.</source>
         <translation>dxva2-copy: iመልሶ ቪዲዮ ኮፒ ያደርጋል ወደ RAM. ለሙከራ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="329"/>
+        <location filename="../prefperformance.cpp" line="340"/>
         <source>This option only works with mpv.</source>
         <translation>ምርጫው የሚሰራው ለ mpv. ብቻ ነው</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="341"/>
+        <location filename="../prefperformance.cpp" line="352"/>
         <source>Possible values:</source>
         <translation>የሚቻሉ ዋጋዎች:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="342"/>
+        <location filename="../prefperformance.cpp" line="353"/>
         <source>&lt;b&gt;Enabled&lt;/b&gt;: the loop filter is not skipped</source>
         <translation>&lt;b&gt;ያስቻሉት&lt;/b&gt;: የ ዙር ማጣሪያ መዝለል አልቻለም</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="343"/>
+        <location filename="../prefperformance.cpp" line="354"/>
         <source>&lt;b&gt;Skip (always)&lt;/b&gt;: the loop filter is skipped no matter the resolution of the video</source>
         <translation>&lt;b&gt;መዝለያ (always)&lt;/b&gt;: የ ዙር ማጣሪያ መዝለያ ምንም ቢሆን  የ ቪዲዮው ሪዞሊሽን</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="345"/>
+        <location filename="../prefperformance.cpp" line="356"/>
         <source>&lt;b&gt;Skip only on HD videos&lt;/b&gt;: the loop filter will be skipped only on videos which height is %1 or greater.</source>
         <translation>&lt;b&gt;መዝለያ የ HD ቪዲዮ ብቻ&lt;/b&gt;: የ ዙር ማጣሪያ ይዘለላል በ ቪዲዮ ላይ ብቻ እርዝመቱ %1 ወይንም የሚበልጥ ከሆነ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="350"/>
+        <location filename="../prefperformance.cpp" line="361"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
         <translation>ለ መጠቀም ይሞክሩ ምንም-ነፃ ያልሆነ CoreAVC codec ሌላ ምንም codec ካልተገለጸ እና የ non-VDPAU ቪዲዮ ውጤት ከ ተመረጠ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="352"/>
+        <location filename="../prefperformance.cpp" line="363"/>
         <source>Requires a %1 build with CoreAVC support.</source>
         <translation>ይፈልጋል %1 የ ተገነባ በ CoreAVC ድጋፍ.</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="371"/>
+        <location filename="../prefperformance.cpp" line="382"/>
         <source>Cache</source>
         <translation>ማጠራቀሚያ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="374"/>
+        <location filename="../prefperformance.cpp" line="385"/>
         <source>Usually this option will enable the cache when it&apos;s necessary.</source>
         <translation>ብዙ ጊዜ ይህ ምርጫ የሚያስችለው ማጠራቀም ነው በሚያስፈልግ ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="389"/>
+        <location filename="../prefperformance.cpp" line="400"/>
         <source>Cache for audio CDs</source>
         <translation>ለ ድምፅ ሲዲ ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="390"/>
+        <location filename="../prefperformance.cpp" line="401"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching an audio CD.</source>
         <translation>ይህ ምርጫ የሚወስነው ምን ያህል ማስታወሻ እንደሚጠቀሙ ነው (በ ኪባይት) የ ድምፅ ሲዲ በሚያወርዱ ጊዜ</translation>
     </message>
@@ -8437,12 +8447,12 @@ Do you want to overwrite?</source>
         <translation>ለ ድምፅ ሲዲ ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="393"/>
+        <location filename="../prefperformance.cpp" line="404"/>
         <source>Cache for VCDs</source>
         <translation>ለ VCDs ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="394"/>
+        <location filename="../prefperformance.cpp" line="405"/>
         <source>This option specifies how much memory (in kBytes) to use when precaching a VCD.</source>
         <translation>ይህ ምርጫ የሚወስነው ምን ያህል ማስታወሻ እንደሚጠቀሙ ነው (በ ኪባይት) የ VCD በሚያወርዱ ጊዜ</translation>
     </message>
@@ -8452,12 +8462,12 @@ Do you want to overwrite?</source>
         <translation>ለ &amp;VCDs ማጠራቀሚያ:</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="308"/>
+        <location filename="../prefperformance.cpp" line="319"/>
         <source>Threads for decoding</source>
         <translation>Threads for decoding</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="309"/>
+        <location filename="../prefperformance.cpp" line="320"/>
         <source>Sets the number of threads to use for decoding. Only for MPEG-1/2 and H.264</source>
         <translation>ለ decoding የሚጠቀሙትን ቁጥር ማሰናጃ: ይህ ብቻ ነው ለ MPEG-1/2 እና H.264</translation>
     </message>
@@ -8467,7 +8477,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Threads for decoding (MPEG-1/2 and H.264 only):</translation>
     </message>
     <message>
-        <location filename="../prefperformance.cpp" line="349"/>
+        <location filename="../prefperformance.cpp" line="360"/>
         <source>Use CoreAVC if no other codec specified</source>
         <translation>Use CoreAVC if no other codec specified</translation>
     </message>
@@ -9564,13 +9574,19 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation><numerusform>%n ሰከንድ(ዶች)</numerusform><numerusform>%n ሰከንድ(ዶች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+            <numerusform>%n ሰከንድ(ዶች)</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation><numerusform>%n ደቂቃ(ዎች)</numerusform><numerusform>%n ደቂቃ(ዎች)</numerusform></translation>
+        <translation>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+            <numerusform>%n ደቂቃ(ዎች)</numerusform>
+        </translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10294,153 +10310,153 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="445"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
         <source>Video preview</source>
         <translation>የ ቪዲዮ ቅድመ እይታ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="146"/>
+        <location filename="../videopreview/videopreview.cpp" line="147"/>
         <source>Cancel</source>
         <translation>መሰረዣ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="145"/>
+        <location filename="../videopreview/videopreview.cpp" line="146"/>
         <source>Thumbnail Generator</source>
         <translation>በ አውራ ጥፍር ልክ አመንጪ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="148"/>
+        <location filename="../videopreview/videopreview.cpp" line="149"/>
         <source>Generated by SMPlayer</source>
         <translation>በ SMPlayer የመነጨ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="234"/>
+        <location filename="../videopreview/videopreview.cpp" line="235"/>
         <source>Creating thumbnails...</source>
         <translation>በ አውራ ጥፍር ልክ በ መፍጠር ላይ...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="429"/>
+        <location filename="../videopreview/videopreview.cpp" line="443"/>
         <source>Size: %1 MB</source>
         <translation>መጠን: %1 ሜባ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="431"/>
+        <location filename="../videopreview/videopreview.cpp" line="445"/>
         <source>Length: %1</source>
         <translation>እርዝመት: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="601"/>
+        <location filename="../videopreview/videopreview.cpp" line="620"/>
         <source>Save file</source>
         <translation>ፋይል ማስቀመጫ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="614"/>
+        <location filename="../videopreview/videopreview.cpp" line="633"/>
         <source>Error saving file</source>
         <translation>ፋይሎች በ ማስቀመት ላይ ስህተት ተፈጥሯል</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="615"/>
+        <location filename="../videopreview/videopreview.cpp" line="634"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>ፋይሉን ማስቀመጥ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="190"/>
+        <location filename="../videopreview/videopreview.cpp" line="191"/>
         <source>Error</source>
         <translation>ስህተት</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="192"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>የሚቀጥለው ስህተት ተፈጥሯል በ መፍጠር ላይ እንዳለ በ አውራ ጥፍር ልክ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="217"/>
+        <location filename="../videopreview/videopreview.cpp" line="218"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>ጊዚያዊ ዳይሬክቶሪ( %1) መፍጠር አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="349"/>
+        <location filename="../videopreview/videopreview.cpp" line="361"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>የ mplayer ሂደት ማስኬድ አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="430"/>
+        <location filename="../videopreview/videopreview.cpp" line="444"/>
         <source>Resolution: %1x%2</source>
         <translation>ሪዞሊሽን: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="434"/>
+        <location filename="../videopreview/videopreview.cpp" line="448"/>
         <source>Video format: %1</source>
         <translation>የ ቪዲዮ አቀራረብ: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="435"/>
+        <location filename="../videopreview/videopreview.cpp" line="449"/>
         <source>Frames per second: %1</source>
         <translation>ክፈፎች በ ሰከንድ: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="436"/>
+        <location filename="../videopreview/videopreview.cpp" line="450"/>
         <source>Aspect ratio: %1</source>
         <translation>ማነፃፀሪያ መጠን: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="367"/>
+        <location filename="../videopreview/videopreview.cpp" line="381"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>ፋይሉን %1 መጫን አልተቻለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="471"/>
+        <location filename="../videopreview/videopreview.cpp" line="487"/>
         <source>No filename</source>
         <translation>የ ፋይል ስም የለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="559"/>
+        <location filename="../videopreview/videopreview.cpp" line="578"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>የ mplayer ሂደት ማስጀመር አልተቻለም አልተቻለም: ስለ ቪዲዮው መረጃ ለማግኘት በ መሞከር ላይ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="208"/>
+        <location filename="../videopreview/videopreview.cpp" line="209"/>
         <source>The length of the video is 0</source>
         <translation>የ ቪዲዮው እርዝመት 0 ነው</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="252"/>
+        <location filename="../videopreview/videopreview.cpp" line="253"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>ፋይሉ %1 አልነበረም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="602"/>
+        <location filename="../videopreview/videopreview.cpp" line="621"/>
         <source>Images</source>
         <translation>ምስሎች</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="418"/>
+        <location filename="../videopreview/videopreview.cpp" line="432"/>
         <source>No info</source>
         <translation>መረጃ የለም</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="421"/>
-        <location filename="../videopreview/videopreview.cpp" line="422"/>
+        <location filename="../videopreview/videopreview.cpp" line="435"/>
+        <location filename="../videopreview/videopreview.cpp" line="436"/>
         <source>%1 kbps</source>
         <translation>%1 ኪቢሰ</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="423"/>
+        <location filename="../videopreview/videopreview.cpp" line="437"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="439"/>
+        <location filename="../videopreview/videopreview.cpp" line="453"/>
         <source>Video bitrate: %1</source>
         <translation>የ ቪዲዮ bitrate: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="440"/>
+        <location filename="../videopreview/videopreview.cpp" line="454"/>
         <source>Audio bitrate: %1</source>
         <translation>የ ድምፅ bitrate: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="441"/>
+        <location filename="../videopreview/videopreview.cpp" line="455"/>
         <source>Audio rate: %1</source>
         <translation>የ ድምፅ መጠን: %1</translation>
     </message>
