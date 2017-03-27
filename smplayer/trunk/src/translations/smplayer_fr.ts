@@ -44,7 +44,7 @@
     <message>
         <location filename="../about.cpp" line="166"/>
         <source>You can also help to translate SMPlayer into your own language.</source>
-        <translation>Vous pouvez aussi aider à traduire SMPlayer dans votre propre langage.</translation>
+        <translation>Vous pouvez aussi aider à traduire SMPlayer dans votre propre langue.</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="167"/>
@@ -2041,13 +2041,13 @@ Information concernant les écrans connectés</translation>
         <location filename="../baseguiplus.cpp" line="822"/>
         <location filename="../baseguiplus.cpp" line="864"/>
         <source>Number of screens: %1</source>
-        <translation>Nombre d&apos;écrans: %1</translation>
+        <translation>Nombre d&apos;écrans : %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="827"/>
         <location filename="../baseguiplus.cpp" line="865"/>
         <source>Primary screen: %1</source>
-        <translation>Ecran principal: %1</translation>
+        <translation>Écran principal : %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="835"/>
@@ -2059,58 +2059,58 @@ Information concernant les écrans connectés</translation>
         <location filename="../baseguiplus.cpp" line="837"/>
         <location filename="../baseguiplus.cpp" line="871"/>
         <source>Available geometry: %1 %2 %3 x %4</source>
-        <translation>Géométrie disponible: %1 %2 %3 x %4</translation>
+        <translation>Géométrie disponible : %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="839"/>
         <source>Available size: %1 x %2</source>
-        <translation>Taille disponible: %1 x %2</translation>
+        <translation>Taille disponible : %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="840"/>
         <source>Available virtual geometry: %1 %2 %3 x %4</source>
-        <translation>Géométrie virtuelle disponible: %1 %2 %3 x %4</translation>
+        <translation>Géométrie virtuelle disponible : %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="844"/>
         <source>Available virtual size: %1 x %2</source>
-        <translation>Taille virtuelle disponible: %1 x %2</translation>
+        <translation>Taille virtuelle disponible : %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="846"/>
         <source>Depth: %1 bits</source>
-        <translation>Profondeur: %1 bits</translation>
+        <translation>Profondeur : %1 bits</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="847"/>
         <location filename="../baseguiplus.cpp" line="873"/>
         <source>Geometry: %1 %2 %3 x %4</source>
-        <translation>Géométrie: %1 %2 %3 x %4</translation>
+        <translation>Géométrie : %1 %2 %3 x %4</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="849"/>
         <source>Logical DPI: %1</source>
-        <translation>PPP Logique: %1</translation>
+        <translation>PPP Logique : %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="851"/>
         <source>Physical DPI: %1</source>
-        <translation>PPP Physique: %1</translation>
+        <translation>PPP Physique : %1</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="852"/>
         <source>Physical size: %1 x %2 mm</source>
-        <translation>Taille physique: %1 x %2 mm</translation>
+        <translation>Taille physique : %1 x %2 mm</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="854"/>
         <source>Refresh rate: %1 Hz</source>
-        <translation>Taux de rafraichissement: %1 Hz</translation>
+        <translation>Taux de rafraîchissement : %1 Hz</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="855"/>
         <source>Size: %1 x %2</source>
-        <translation>Taille: %1 x %2</translation>
+        <translation>Taille : %1 x %2</translation>
     </message>
     <message>
         <location filename="../baseguiplus.cpp" line="856"/>
@@ -3263,25 +3263,25 @@ Veuillez vérifier les droits sur ce dossier.</translation>
         <location filename="../infofile.cpp" line="231"/>
         <location filename="../infofile.cpp" line="239"/>
         <source>Language: %1</source>
-        <translation>Langage: %1</translation>
+        <translation>Langue : %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="232"/>
         <location filename="../infofile.cpp" line="240"/>
         <source>Name: %1</source>
-        <translation>Nom: %1</translation>
+        <translation>Nom : %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="233"/>
         <location filename="../infofile.cpp" line="241"/>
         <source>ID: %1</source>
-        <translation>ID: %1</translation>
+        <translation>ID : %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="235"/>
         <location filename="../infofile.cpp" line="243"/>
         <source>Type: %1</source>
-        <translation>Type: %1</translation>
+        <translation>Type : %1</translation>
     </message>
     <message>
         <location filename="../infofile.cpp" line="169"/>
@@ -3327,12 +3327,12 @@ Veuillez vérifier les droits sur ce dossier.</translation>
     <message>
         <location filename="../inputbookmark.ui" line="22"/>
         <source>&amp;Time:</source>
-        <translation>&amp;Temps:</translation>
+        <translation>&amp;Temps :</translation>
     </message>
     <message>
         <location filename="../inputbookmark.ui" line="48"/>
         <source>&amp;Name (optional):</source>
-        <translation>&amp;Nom (optionnel):</translation>
+        <translation>&amp;Nom (optionnel) :</translation>
     </message>
 </context>
 <context>
@@ -5427,7 +5427,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefadvanced.ui" line="363"/>
         <source>A&amp;udio filters:</source>
-        <translation>Filtres &amp;audio:</translation>
+        <translation>Filtres &amp;audio :</translation>
     </message>
     <message>
         <location filename="../prefadvanced.ui" line="426"/>
@@ -5832,12 +5832,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1237"/>
         <source>Preferred audio language</source>
-        <translation>Langage préféré pour l&apos;audio</translation>
+        <translation>Langue préférée pour l&apos;audio</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Preferred subtitle language</source>
-        <translation>Langage préféré pour le sous-titrage</translation>
+        <translation>Langue préférée pour le sous-titrage</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1116"/>
@@ -5953,7 +5953,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="35"/>
         <source>Multimedia &amp;engine:</source>
-        <translation>M&amp;oteur multimédia:</translation>
+        <translation>M&amp;oteur multimédia :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="163"/>
@@ -5968,7 +5968,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="240"/>
         <source>F&amp;ormat:</source>
-        <translation>Format:</translation>
+        <translation>Format :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="308"/>
@@ -6113,7 +6113,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1219"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
-        <translation>Règle le niveau d&apos;amplification maximum en pourcentage (défault : 110). La valeur de 200 vous autorisera d&apos;augmenter le volume au double du niveau actuel. Avec des valeurs comme 100, le volume initial (qui est de 100%) sera au dessus du maximum, que par exemple le OSE ne peut pas afficher correctement.</translation>
+        <translation>Règle le niveau d&apos;amplification maximum en pourcentage (défaut : 110). La valeur de 200 vous autorisera d&apos;augmenter le volume au double du niveau actuel. Avec des valeurs comme 100, le volume initial (qui est de 100%) sera au dessus du maximum, que par exemple le OSE ne peut pas afficher correctement.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1094"/>
@@ -6128,8 +6128,8 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Specifie la piste audio par défaut qui sera utilisée quand les nouveaux fichiers seront joués. Si la piste n&apos;existe pas, le premier sera joué.
-&lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; le &lt;i&gt;langage audio préféré&lt;/li&gt; est prioritaire à cette option.</translation>
+        <translation>Spécifie la piste audio par défaut qui sera utilisée quand les nouveaux fichiers seront joués. Si la piste n&apos;existe pas, le premier sera joué.
+&lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; la &lt;i&gt;langue audio préférée&lt;/li&gt; est prioritaire à cette option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1263"/>
@@ -6139,8 +6139,8 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1264"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
-        <translation>Specifie la piste de sous-titrage par défaut qui sera utilisée quand les nouveaux fichiers seront joués. Si la piste n&apos;existe pas, le premier sera joué.
-&lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; le &lt;i&gt;langage audio préféré&lt;/li&gt; est prioritaire à cette option.</translation>
+        <translation>Spécifie la piste de sous-titrage par défaut qui sera utilisée quand les nouveaux fichiers seront joués. Si la piste n&apos;existe pas, le premier sera joué.
+&lt;br&gt;&lt;b&gt;Note : &lt;/b&gt; la &lt;i&gt;langue audio préférée&lt;/li&gt; est prioritaire à cette option.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="1290"/>
@@ -6575,12 +6575,12 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefgeneral.ui" line="1044"/>
         <source>&amp;Max. correction:</source>
-        <translation>Correction &amp;max.:</translation>
+        <translation>Correction &amp;max. :</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1104"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
-        <translation>&lt;b&gt;Note&lt;/b&gt; : Cette option ne sera pas utilisée pour les chaînes de télévision.</translation>
+        <translation>&lt;b&gt;Note :&lt;/b&gt; Cette option ne sera pas utilisée pour les chaînes de télévision.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="481"/>
@@ -6643,7 +6643,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinput.ui" line="340"/>
         <source>Dra&amp;g function:</source>
-        <translation>Fonction &amp;glisser:</translation>
+        <translation>Fonction &amp;glisser :</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="382"/>
@@ -7285,7 +7285,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.ui" line="290"/>
         <source>S&amp;kin:</source>
-        <translation>T&amp;hème:</translation>
+        <translation>T&amp;hème :</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="397"/>
@@ -7627,7 +7627,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.cpp" line="869"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation>&lt;b&gt;Attention&lt;/b&gt; le contrôle flottant n&apos;a pas été conçu pour fonctionner en mode compact, il pourrait ne pas fonctionner correctement.</translation>
+        <translation>&lt;b&gt;Attention :&lt;/b&gt; le contrôle flottant n&apos;a pas été conçu pour fonctionner en mode compact, il pourrait ne pas fonctionner correctement.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="872"/>
@@ -7838,7 +7838,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation>Support pour sites &amp;vidéo:</translation>
+        <translation>Support pour sites &amp;vidéo :</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
@@ -8334,7 +8334,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefperformance.cpp" line="296"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation>Définir la priorité du processus de %1 suivant les priorités prédéfinies disponibles sous Windows.&lt;br&gt;&lt;b&gt;Avertissement:&lt;/b&gt; L&apos;utilisation de la priorité en temps réel peut figer le système.</translation>
+        <translation>Définir la priorité du processus de %1 suivant les priorités prédéfinies disponibles sous Windows.&lt;br&gt;&lt;b&gt;Avertissement :&lt;/b&gt; L&apos;utilisation de la priorité en temps réel peut figer le système.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="312"/>
@@ -8884,7 +8884,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="405"/>
         <source>Subtitle language</source>
-        <translation>Langage des sous-titres</translation>
+        <translation>Langue des sous-titres</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="406"/>
@@ -10027,7 +10027,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../toolbareditor.ui" line="22"/>
         <source>&amp;Available actions:</source>
-        <translation>&amp;Actions disponibles:</translation>
+        <translation>&amp;Actions disponibles :</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="57"/>
@@ -10052,7 +10052,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../toolbareditor.ui" line="113"/>
         <source>Curre&amp;nt actions:</source>
-        <translation>Actio&amp;ns actuelles:</translation>
+        <translation>Actio&amp;ns actuelles :</translation>
     </message>
     <message>
         <location filename="../toolbareditor.ui" line="130"/>
@@ -10379,7 +10379,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="435"/>
         <source>Frames per second: %1</source>
-        <translation>Images par secondes: %1</translation>
+        <translation>Images par secondes : %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="436"/>

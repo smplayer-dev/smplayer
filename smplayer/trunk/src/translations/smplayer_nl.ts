@@ -5780,7 +5780,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1047"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
-        <translation type="unfinished"/>
+        <translation>%1 specificeert de bestandsnaam van de video zonder de extensie, %2 voegt 4 cijfers toe die opgevuld worden met nullen.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1057"/>
@@ -6456,7 +6456,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
-        <translation type="unfinished"/>
+        <translation>Hier kunt u een map opgeven waarin de schermafbeeldingen die door SMPlayer zijn gemaakt kunnen worden opgeslagen. Als het een niet geldige map betreft zal de schermafbeeldingsfunctie worden uitgeschakeld.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="175"/>
@@ -6481,7 +6481,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, wordt hetzelfde volume worden voor alle bestanden die je afspeelt. Als deze optie niet is ingeschakeld gebruikt elk geselecteerd bestand zijn eigen volume.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1212"/>
@@ -6501,7 +6501,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
-        <translation type="unfinished"/>
+        <translation>Deze optie schakelt de screensaver uit vlak voordat u een bestand afspeelt en schakelt het hierna weer in als het afspelen is voltooid. Als deze optie is ingeschakeld, zal de screensaver niet weergegeven worden, zelfs niet als het afspelen van audio-bestanden is voltooid of wanneer de bestanden worden onderbroken.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1161"/>
@@ -6511,7 +6511,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1162"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, zal SMPlayer proberen geen screensaver te tonen wanneer u een videobestand afspeelt. De screensaver zal wel getoond worden wanneer u een audiobestand afspeelt of wanneer het bestand zich in de pauze stand bevindt. Deze optie werkt alleen als het venster van SMPlayer op de voorgrond is.</translation>
     </message>
     <message>
         <location filename="../prefgeneral.ui" line="641"/>
@@ -6644,7 +6644,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.ui" line="382"/>
         <source>Don&apos;t &amp;trigger the left click action with a double click</source>
-        <translation type="unfinished"/>
+        <translation>Geen linkermuisknop functie &amp;activeren met een dubbelklik</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="149"/>
@@ -7031,7 +7031,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.cpp" line="371"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
-        <translation type="unfinished"/>
+        <translation>Wanneer deze optie is ingeschakeld zullen de multimediatoetsen (Afspelen, Stoppen, Volume +/-, Dempen, enz.) werkn zelfs wanneer SMPlayer op de achtergrond wordt uitgevoerd.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="395"/>
@@ -7041,7 +7041,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.cpp" line="396"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
-        <translation type="unfinished"/>
+        <translation>Deze optie bepaalt wat er gebeurt wanneer de muis wordt verplaatst terwijl u de linkerknop ingedrukt houdt.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="397"/>
@@ -7051,7 +7051,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.cpp" line="400"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
-        <translation type="unfinished"/>
+        <translation>een horizontale beweging verandert de tijdspositie terwijl een verticale beweging het volume verandert</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="404"/>
@@ -7061,12 +7061,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.cpp" line="405"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld wordt wanneer u dubbelklikt op het videogebied alleen de dubbelklik functie geactiveerd. De actie van de linker muisknop zal niet worden geactiveerd.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="408"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
-        <translation type="unfinished"/>
+        <translation>Door het inschakelen van deze optie wordt de linker muisknop vertraagd met %1 milliseconden, zo kunt u te weten komen of er een dubbele klik is of niet.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="91"/>
@@ -7105,22 +7105,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.cpp" line="417"/>
         <source>Check it to enable seeking as one function.</source>
-        <translation type="unfinished"/>
+        <translation>Aanvinken om zoeken als één functie in te schakelen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="420"/>
         <source>Check it to enable changing volume as one function.</source>
-        <translation type="unfinished"/>
+        <translation>Aanvinken om het veranderen van het volume als één functie in te schakelen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="423"/>
         <source>Check it to enable zooming as one function.</source>
-        <translation type="unfinished"/>
+        <translation>Aanvinken om inzoomen als één functie in te schakelen.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="426"/>
         <source>Check it to enable changing speed as one function.</source>
-        <translation type="unfinished"/>
+        <translation>Aanvinken om het veranderen van de snelheid als één functie in te schakelen.</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="413"/>
@@ -7130,12 +7130,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.ui" line="425"/>
         <source>Select the actions that should be cycled through when using the &quot;Change function of wheel&quot; option.</source>
-        <translation type="unfinished"/>
+        <translation>Selecteer de acties waar doorheen gelopen moeten worden wanneer gebruik wordt gemaakt van de &quot;Verander de functie van het muiswiel&quot; optie.</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="411"/>
         <source>Reverse mouse wheel seeking</source>
-        <translation>Muiswiel tegenovergesteld zoeken</translation>
+        <translation>Met tegenovergesteld muiswiel zoeken</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="412"/>
@@ -7145,7 +7145,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinput.ui" line="389"/>
         <source>R&amp;everse wheel media seeking</source>
-        <translation type="unfinished"/>
+        <translation>Met t&amp;egenovergesteld muiswiel zoeken</translation>
     </message>
 </context>
 <context>
@@ -7266,7 +7266,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.ui" line="112"/>
         <source>&amp;Prevent window to get outside of screen</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Voorkom dat het venster buiten het scherm komt</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="134"/>
@@ -7311,22 +7311,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.ui" line="606"/>
         <source>Pressi&amp;ng the stop button once resets the time position</source>
-        <translation type="unfinished"/>
+        <translation>Als u op de stop-knop &amp;drukt dan wordt de tijdspositie teruggezet</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="671"/>
         <source>The floating control appears in fullscreen mode when the mouse is moved.</source>
-        <translation type="unfinished"/>
+        <translation>De drijvende controle verschijnt in het volledige scherm wanneer de muis wordt verplaatst.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="758"/>
         <source>Show only when moving the mouse to the &amp;bottom of the screen</source>
-        <translation type="unfinished"/>
+        <translation>Alleen tonen bij het verplaatsen van de muis naar de &amp;onderkant van het scherm</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="774"/>
         <source>Tim&amp;e (in milliseconds) to hide the control:</source>
-        <translation type="unfinished"/>
+        <translation>Tij&amp;d (in milliseconden) om de controle te verbergen</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="880"/>
@@ -7486,7 +7486,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="748"/>
         <source>If after an autoresize the main window gets outside of the screen this option will center the window to prevent it.</source>
-        <translation type="unfinished"/>
+        <translation>Indien het hoofdvenster, na een automatische wijziging, zich buiten het scherm bevindt zal deze optie dit voorkomen door het venster te  centreren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="751"/>
@@ -7511,7 +7511,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="786"/>
         <source>Select the skin you prefer for the application. Only available with the skinnable GUI.</source>
-        <translation type="unfinished"/>
+        <translation>Kies de weergave die u voor de toepassing wilt gebruiken. Alleen beschikbaar voor gebruikersinterfaces waarvan de weergave verandert kan worden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="789"/>
@@ -7608,12 +7608,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="861"/>
         <source>If this option is checked, the floating control will only be displayed when the mouse is moved to the bottom of the screen. Otherwise the control will appear whenever the mouse is moved, no matter its position.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, wordt de drijvende controle alleen weergegeven wanneer de muis wordt verplaatst naar de onderkant van het scherm. Anders zal de controle weergegeven worden wanneer de muis wordt verplaatst, ongeacht zijn positie.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="866"/>
         <source>If this option is enabled, the floating control will appear in compact mode too.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, zal de drijvende controle in compacte modus verschijnen.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="868"/>
@@ -7633,7 +7633,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="873"/>
         <source>Sets the time (in milliseconds) to hide the control after the mouse went away from the control.</source>
-        <translation type="unfinished"/>
+        <translation>Stelt de tijd in (in milliseconden) waarna de controle verborgen wordt nadat de muis zich niet meer bevindt op de controle.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="882"/>
@@ -7643,7 +7643,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="883"/>
         <source>Select the maximum number of items that the &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialog will remember. Set it to 0 if you don&apos;t want any URL to be stored.</source>
-        <translation type="unfinished"/>
+        <translation>Selecteer het maximum aantal items die de &lt;b&gt;Open-&gt;URL&lt;/b&gt; dialoogvenster zal herinneren. Zet het op 0 als u niet wilt dat een URL opgeslagen wordt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="887"/>
@@ -7653,7 +7653,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="888"/>
         <source>If this option is checked, SMPlayer will remember the last folder you use to open a file.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, zal SMPlayer de laatste map die u heeft gebruikt om een bestand te openen herinneren.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="544"/>
@@ -7781,17 +7781,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>Hide video window when playing audio files</source>
-        <translation type="unfinished"/>
+        <translation>Videovenster verbergen tijdens het afspelen van audio-bestanden</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="759"/>
         <source>If this option is enabled the video window will be hidden when playing audio files.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld zal het videovenster worden verborgen tijdens het afspelen van audio-bestanden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.ui" line="148"/>
         <source>&amp;Hide video window when playing audio files</source>
-        <translation type="unfinished"/>
+        <translation>&amp;Videovenster verbergen tijdens het afspelen van audio-bestanden</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="824"/>
@@ -7801,7 +7801,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="825"/>
         <source>If this option is enabled, seeks are more accurate but they can be a little bit slower. May not work with some video formats.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, zal zoeken nauwkeuriger zijn, maar wel een beetje langzamer. Met een aantal videoformaten zal deze optie niet werken.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
@@ -7854,7 +7854,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="155"/>
         <source>Changes in this section will be applied the next time the web server is restarted</source>
-        <translation type="unfinished"/>
+        <translation>Wijzigingen in deze sectie zullen worden toegepast de volgende keer dat de server opnieuw wordt opgestart</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="175"/>
@@ -7869,7 +7869,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
         <source>In order to serve local media from this computer to Chromecast, SMPlayer will run a tiny web server. You can adjust here some of the settings.</source>
-        <translation type="unfinished"/>
+        <translation>Om lokale media vanaf deze computer naar Chromecast te sturen, zal SMPlayer een kleine webserver te draaien. U kunt hier een aantal instellingen daarvoor aanpassen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="269"/>
@@ -7925,7 +7925,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="220"/>
         <source>it will try to use mpv + youtube-dl only for the sites that require it</source>
-        <translation type="unfinished"/>
+        <translation>het zal proberen mpv + youtube-dl alleen te gebruiken voor de sites die het nodig hebben</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="239"/>
@@ -7958,17 +7958,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="218"/>
         <source>support for video sites is turned off</source>
-        <translation type="unfinished"/>
+        <translation>ondersteuning voor video-sites is uitgeschakeld</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="223"/>
         <source>only the internal support for YouTube will be used</source>
-        <translation type="unfinished"/>
+        <translation>alleen de interne ondersteuning voor YouTube zal worden gebruikt</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="226"/>
         <source>uses mpv + youtube-dl for all sites</source>
-        <translation type="unfinished"/>
+        <translation>gebruikt mpv + youtube-dl voor alle sites</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="236"/>
@@ -7978,12 +7978,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="237"/>
         <source>Select the preferred quality for YouTube videos.</source>
-        <translation type="unfinished"/>
+        <translation>Selecteer de gewenste kwaliteit voor YouTube-video&apos;s.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="240"/>
         <source>Set the user agent that SMPlayer will use when connecting to YouTube.</source>
-        <translation type="unfinished"/>
+        <translation>Stel de gebruikersagent in die SMPlayer zal gebruiken voor zijn verbinding met YouTube.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="252"/>
@@ -7998,7 +7998,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="255"/>
         <source>The local IP address of this computer. It will be passed to Chromecast so that it can access the files from this computer.</source>
-        <translation type="unfinished"/>
+        <translation>De lokale IP-adres van deze computer. Het zal worden doorgegeven aan Chromecast, zodat het toegang kan krijgen tot de bestanden van deze computer.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="259"/>
@@ -8340,7 +8340,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="313"/>
         <source>Sets the hardware video decoding API. If hardware decoding is not possible, software decoding will be used instead.</source>
-        <translation type="unfinished"/>
+        <translation>Stelt de hardware video decodering API in. Als hardware decoding niet mogelijk is, zal software decodering in plaats daarvan worden gebruikt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="315"/>
@@ -8355,7 +8355,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="318"/>
         <source>Auto: it tries to automatically enable hardware decoding using the first available method.</source>
-        <translation type="unfinished"/>
+        <translation>Auto: het probeert om hardware decoding automatisch in te schakelen met behulp van de eerste beschikbare methode.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="320"/>
@@ -8405,7 +8405,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="350"/>
         <source>Try to use the non-free CoreAVC codec when no other codec is specified and a non-VDPAU video output is selected.</source>
-        <translation type="unfinished"/>
+        <translation>Probeer de niet-vrije CoreAVC codec te gebruiken als er geen andere codec is gespecificeerd en er een niet-VDPAU video-uitgang is geselecteerd.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="352"/>
@@ -8538,7 +8538,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="184"/>
         <source>When a file reaches the end, the next file will be played automatically.</source>
-        <translation type="unfinished"/>
+        <translation>Wanneer een bestand het einde heeft bereikt, wordt het volgende bestand automatisch afgespeeld.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="186"/>
@@ -8548,7 +8548,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="190"/>
         <source>Add files to the playlist automatically</source>
-        <translation type="unfinished"/>
+        <translation>Voeg bestanden automatisch toe aan de afspeellijst</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="196"/>
@@ -8568,7 +8568,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="220"/>
         <source>If this option is enabled the list will be sorted automatically after adding files.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld wordt de lijst automatisch gesorteerd na het toevoegen van de bestanden.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="222"/>
@@ -8578,7 +8578,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="223"/>
         <source>This option specifies whether the search in the playlist is case sensitive or not.</source>
-        <translation type="unfinished"/>
+        <translation>Deze optie geeft aan of het zoeken in de afspeellijst hoofdlettergevoelig is of niet.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="225"/>
@@ -8593,7 +8593,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
         <source>Enable the option to delete files from disk</source>
-        <translation type="unfinished"/>
+        <translation>Schakel de optie in om bestanden te verwijderen van de schijf</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
@@ -8638,17 +8638,17 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
         <source>This option can be used to add files automatically to the playlist:</source>
-        <translation type="unfinished"/>
+        <translation>Deze optie kan worden gebruikt om bestanden automatisch toe te voegen aan de afspeellijst:</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="210"/>
         <source>Get info automatically about files added</source>
-        <translation type="unfinished"/>
+        <translation>Krijg automatisch informatie over de toegevoegde bestanden</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="187"/>
         <source>If this option is enabled, the playlist will ignore playback errors from a previous file and will play the next file in the list.</source>
-        <translation type="unfinished"/>
+        <translation>Als deze optie is ingeschakeld, zal de afspeellijst afspeelfouten van een vorige bestand negeren en het volgende bestand afspelen in de lijst.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="24"/>
@@ -8718,7 +8718,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.ui" line="140"/>
         <source>Get &amp;info automatically about files added (slow)</source>
-        <translation type="unfinished"/>
+        <translation>Krijg automatisch &amp;informatie over de toegevoegde bestanden (langzaam)</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="164"/>
@@ -9120,7 +9120,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="449"/>
         <source>The following options allows you to define the style to be used for non-styled subtitles (srt, sub...).</source>
-        <translation type="unfinished"/>
+        <translation>Met de volgende opties kunt u bepalen welke stijl wordt gebruikt voor niet-gestileerde ondertitelingen (srt, sub, ...).</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="106"/>
@@ -9253,12 +9253,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="333"/>
         <source>Here you can enter your customized SSA/ASS style.</source>
-        <translation type="unfinished"/>
+        <translation>Hier kunt u uw aangepaste SSA/ASS stijl invoeren.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="334"/>
         <source>Clear the edit line to disable the customized style.</source>
-        <translation type="unfinished"/>
+        <translation>De bewerkte lijn opruimen om de aangepaste stijl uit te schakelen.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="448"/>
