@@ -3632,7 +3632,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="88"/>
         <source>Interlingua</source>
-        <translation>Interlingua</translation>
+        <translation>Interlingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="89"/>
@@ -3642,7 +3642,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="90"/>
         <source>Interlingue</source>
-        <translation>Interlingua</translation>
+        <translation>Interlingue</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="95"/>
@@ -4079,7 +4079,7 @@ Please check the permissions of that folder.</source>
     <message>
         <location filename="../languages.cpp" line="300"/>
         <source>Cyrillic</source>
-        <translation>Ciril·lic</translation>
+        <translation>Ciríl·lic</translation>
     </message>
     <message>
         <location filename="../languages.cpp" line="302"/>
@@ -4963,7 +4963,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../playlist.cpp" line="724"/>
         <source>Show length column</source>
-        <translation>Mostra la columna de la longitud</translation>
+        <translation>Mostra la columna de la duració</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="725"/>
@@ -10323,7 +10323,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="431"/>
         <source>Length: %1</source>
-        <translation type="unfinished"/>
+        <translation>Duració: %1</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="601"/>
@@ -10398,7 +10398,7 @@ El voleu sobreescriure?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="208"/>
         <source>The length of the video is 0</source>
-        <translation type="unfinished"/>
+        <translation>La duració del vídeo és 0</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="252"/>

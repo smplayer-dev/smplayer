@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="el">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="el" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -21,7 +19,7 @@
     <message>
         <location filename="../about.cpp" line="70"/>
         <source>Official website:</source>
-        <translation>Επίσημος ιστοχώρος:</translation>
+        <translation>Επίσημη ιστοσελίδα:</translation>
     </message>
     <message>
         <location filename="../about.cpp" line="71"/>
@@ -262,7 +260,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../audioequalizer.cpp" line="205"/>
         <source>&amp;Reset</source>
-        <translation>Ε&amp;παναφορά</translation>
+        <translation>&amp;Επαναφορά</translation>
     </message>
     <message>
         <location filename="../audioequalizer.cpp" line="206"/>
@@ -395,7 +393,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../basegui.cpp" line="1919"/>
         <source>&amp;Open</source>
-        <translation>Άν&amp;οιγμα</translation>
+        <translation>&amp;Άνοιγμα</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1920"/>
@@ -516,7 +514,7 @@ Do you want to overwrite?</source>
         <location filename="../basegui.cpp" line="1804"/>
         <source>&amp;Off</source>
         <comment>closed captions menu</comment>
-        <translation>Απε&amp;νεργοποίηση</translation>
+        <translation>&amp;Απενεργοποίηση</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1961"/>
@@ -2947,10 +2945,7 @@ Example: extrastereo,karaoke</source>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform>
-            <numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform>
-        </translation>
+        <translation><numerusform>%n υπότιτλος αποσυμπιέστηκε</numerusform><numerusform>%n υπότιτλοι αποσυμπιέστηκαν</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3048,7 +3043,7 @@ Example: extrastereo,karaoke</source>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Δεν ήταν δυνατό να αποθηκευτεί το ληφθέν
@@ -5339,7 +5334,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -9568,19 +9563,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n δευτερόλεπτο(α)</numerusform>
-            <numerusform>%n δευτερόλεπτο(α)</numerusform>
-        </translation>
+        <translation><numerusform>%n δευτερόλεπτο(α)</numerusform><numerusform>%n δευτερόλεπτο(α)</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n λεπτό(ά)</numerusform>
-            <numerusform>%n λεπτό(ά)</numerusform>
-        </translation>
+        <translation><numerusform>%n λεπτό(ά)</numerusform><numerusform>%n λεπτό(ά)</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
