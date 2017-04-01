@@ -15,7 +15,7 @@ ${LangFileString} Installer_Is_Running "Pemasang sudah berjalan."
 ${LangFileString} Installer_No_Admin "Anda mesti mendaftar masuk sebagai pentadbir bila memasang program ini."
 ${LangFileString} SMPlayer_Is_Running "Satu kejadian SMPlayer sedang berjalan. Sila keluar SMPlayer dan cuba lagi."
 
-${LangFileString} OS_Not_Supported "Sistem pengoperasian tidak disokong.$\nSMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan baik pada sistem anda.$\nAnda pasti mahu teruskan pemasangan?"
+${LangFileString} OS_Not_Supported "Kesian , Sistem pengoperasian tidak disokong.$\nSMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan baik pada sistem anda.$\nAnda pasti mahu teruskan pemasangan?"
 ${LangFileString} OS_Not_Supported_VistaRequired "Sistem pengoperasian tidak disokong.$\nSMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows Vista dan tidak dapat berfungsi dengan baik pada sistem anda.$\nAnda pasti mahu teruskan pemasangan?"
 ${LangFileString} Win64_Required "Sistem pengoperasian Windows 64-bit diperlukan untuk memasang perisian ini."
 ${LangFileString} Existing_32bitInst "Pemasangan 32-bit SMPlayer sudah wujud. Anda mesti nyahpasang SMPlayer 32-bit dahulu."
