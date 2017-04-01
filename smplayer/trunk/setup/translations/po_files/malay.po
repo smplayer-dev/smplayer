@@ -4,11 +4,12 @@
 # 
 # Translators:
 # abuyop <abuyop@gmail.com>, 2014-2016
+# Muhd. Syah <wanmuhammadsyahmiz@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: smplayer\n"
-"PO-Revision-Date: 2016-11-09 15:55+0000\n"
-"Last-Translator: abuyop <abuyop@gmail.com>\n"
+"PO-Revision-Date: 2017-04-01 04:52+0000\n"
+"Last-Translator: Muhd. Syah <wanmuhammadsyahmiz@gmail.com>\n"
 "Language-Team: Malay (Malaysia) (http://www.transifex.com/rvm/smplayer/language/ms_MY/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +36,7 @@ msgid ""
 "Unsupported operating system.[:n:]SMPlayer ${SMPLAYER_VERSION} requires at "
 "least Windows XP and may not work correctly on your system.[:n:]Do you "
 "really want to continue with the installation?"
-msgstr "Sistem pengoperasian tidak disokong.[:n:]SMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan baik pada sistem anda.[:n:]Anda pasti mahu teruskan pemasangan?"
+msgstr "Kesian , Sistem pengoperasian tidak disokong.[:n:]SMPlayer ${SMPLAYER_VERSION} memerlukan sekurang-kurangnya Windows XP dan tidak dapat berfungsi dengan baik pada sistem anda.[:n:]Anda pasti mahu teruskan pemasangan?"
 
 # OS_Not_Supported_VistaRequired
 msgid ""
