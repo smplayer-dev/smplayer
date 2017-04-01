@@ -7470,7 +7470,7 @@ Envoyer l&apos;option de %1 dans MPlayer (risque de sécurité)</translation>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Classique</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>

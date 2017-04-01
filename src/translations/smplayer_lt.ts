@@ -945,7 +945,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1842"/>
         <source>Update the &amp;YouTube code</source>
-        <translation type="unfinished"></translation>
+        <translation>Atnaujinti &amp;YouTube kodą</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2175"/>
@@ -1055,7 +1055,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="1849"/>
         <source>&amp;Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Paaukoti</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1862"/>
@@ -1206,7 +1206,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="2053"/>
         <source>Select audio track</source>
-        <translation type="unfinished"></translation>
+        <translation>Pasirinkti garso takelį</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="2068"/>
@@ -1296,7 +1296,7 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
     <message>
         <location filename="../basegui.cpp" line="4523"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Paaukoti</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="4524"/>
@@ -4944,7 +4944,7 @@ Norite perrašyti?</translation>
         <location filename="../playlist.cpp" line="711"/>
         <location filename="../playlist.cpp" line="1455"/>
         <source>&amp;Copy file path to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Kopijuoti failo kelią į iškarpinę</translation>
     </message>
     <message>
         <location filename="../playlist.cpp" line="712"/>
@@ -7874,7 +7874,7 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefnetwork.ui" line="182"/>
         <source>Local &amp;IP:</source>
-        <translation type="unfinished"></translation>
+        <translation>Vietinis &amp;IP:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="228"/>
