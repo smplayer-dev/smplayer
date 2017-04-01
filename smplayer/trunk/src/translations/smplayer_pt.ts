@@ -2435,7 +2435,7 @@ A janela de configuração irá agora ser mostrada para que o possa fazer.</tran
     <message>
         <location filename="../defaultgui.cpp" line="711"/>
         <source>&amp;Show the current time with milliseconds</source>
-        <translation>Mo&amp;strar o tempo atual com milissegundos</translation>
+        <translation>Mo&amp;strar tempo atual com milissegundos</translation>
     </message>
     <message>
         <location filename="../defaultgui.cpp" line="714"/>
@@ -5339,7 +5339,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="467"/>
         <source>Unchecking this option may reduce flickering, but it can also produce strange artifacts under certain circumstances.</source>
-        <translation>‎Desmarcar esta opção poderá reduzir a ‎‎cintilação‎‎ mas também pode produzir artefactos estranhos sob determinadas circunstâncias.‎</translation>
+        <translation>‎Se desmarcar esta opção, poderá reduzir a ‎‎cintilação‎‎ mas também poderá gerar artefactos estranhos em determinadas circunstâncias.‎</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="521"/>
@@ -7466,7 +7466,7 @@ Substituir?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Clássica</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>

@@ -7466,7 +7466,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>클래식</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>

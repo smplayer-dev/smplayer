@@ -7465,7 +7465,7 @@ Anda hendak tulis-ganti?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Klasik</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
