@@ -1,3 +1,10 @@
+smplayer (17.4.0) precise; urgency=low
+
+  * The thumbnail generator has been fixed.
+  * The H2O theme is now included in the binary.
+
+ -- Ricardo Villalba <rvm@users.sourceforge.net>  Sun, 02 Apr 2017 23:10:49 +0200
+
 smplayer (17.3.0) precise; urgency=low
 
   * Add experimental support for subtitles for Chromecast.
