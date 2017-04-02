@@ -5906,7 +5906,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefgeneral.cpp" line="1195"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
-        <translation type="unfinished"></translation>
+        <translation>Verzoekt het aantal afspeelkanalen. %1 verzoekt de decoder om de audio te decoderen in het aantal kanalen dat is gespecificeerd. Hierna is het aan de decoder om aan de eis te voldoen. Dit is meestal alleen van belang bij het afspelen van video&apos;s met AC3 audio (zoals dvd&apos;s). In dat geval zal liba52 standaard verantwoordelijk zijn voor het decoderen en correct mixen van de audio in het aantal verzochte kanalen. &lt;b&gt;Opmerking&lt;/b&gt;: Deze optie is vereerd met codecs (Alleen AC3), filters (surround) en audio-uitgang stuurprogramma&apos;s (minstens OSS).</translation>
     </message>
     <message>
         <location filename="../prefgeneral.cpp" line="1206"/>
@@ -7431,22 +7431,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="756"/>
         <source>The &lt;b&gt;Basic GUI&lt;/b&gt; provides the traditional interface, with the toolbar and control bar.</source>
-        <translation type="unfinished"></translation>
+        <translation>De &lt;b&gt;Basis GUI&lt;/b&gt; biedt de traditionele interface, met de werkbalk en controle bar.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="758"/>
         <source>The &lt;b&gt;Mini GUI&lt;/b&gt; provides a more simple interface, without toolbar and a control bar with few buttons.</source>
-        <translation type="unfinished"></translation>
+        <translation>De &lt;b&gt;Mini GUI&lt;/b&gt; zorgt voor een meer eenvoudige interface, zonder toolbar en een controle-bar die maar een paar knoppen heeft.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="766"/>
         <source>The &lt;b&gt;Skinnable GUI&lt;/b&gt; provides an interface where several skins are available.</source>
-        <translation type="unfinished"></translation>
+        <translation>De &lt;b&gt;Schaalbare GUI&lt;/b&gt; biedt een interface waar verschillende weergaves (skins) geselecteerd kunnen worden.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="762"/>
         <source>The &lt;b&gt;Mpc GUI&lt;/b&gt; looks like the interface in Media Player Classic.</source>
-        <translation type="unfinished"></translation>
+        <translation>De &lt;b&gt;Mpc GUI&lt;/b&gt; ziet er ongeveer hetzelfde uit als de interface in Media Player Classic.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="865"/>
@@ -7466,7 +7466,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="221"/>
         <source>Classic</source>
-        <translation type="unfinished"></translation>
+        <translation>Klassiek</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="233"/>
@@ -7633,7 +7633,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="859"/>
         <source>&lt;b&gt;Warning:&lt;/b&gt; the floating control has not been designed for compact mode and it might not work properly.</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;B&gt;Waarschuwing:&lt;/b&gt; de drijvende controle is niet ontworpen voor compacte modus en daarom is het mogelijk dat het niet goed werkt.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="862"/>
@@ -7674,12 +7674,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="809"/>
         <source>Sets the method to be used when seeking with the slider. Absolute seeking may be a little bit more accurate, while relative seeking may work better with files with a wrong length.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stelt de methode in die moet worden gebruikt bij het zoeken via de schuif. Onbeperkt zoeken kan iets meer accuraat zijn, terwijl relatief zoeken beter kan werken met bestanden die een verkeerde lengte hebben.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="820"/>
         <source>By default when the stop button is pressed the time position is remembered so if you press play button the media will resume at the same point. You need to press the stop button twice to reset the time position, but if this option is checked the time position will be set to 0 with only one press of the stop button.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wanneer de stopknop is ingedrukt wordt standaard de tijdspositie onthouden, dus als u op de knop afspelen druk zal de media hervat worden op hetzelfde punt. U moet twee keer op de stop-knop drukken om de tijdspositie opnieuw in te stellen. Daarentegen als deze optie is ingeschakeld wordt de tijdspositie op 0 gezet met slechts één druk op de stopknop.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="827"/>
@@ -7744,7 +7744,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie stelt het aantal pixels tussen de drijvende besturing en de bodem van het scherm in (dus de afstand tussen de drijvende controle en de bodem van het scherm). Dit is nuttig wanneer het scherm een televisie betreft, omdat de overscan ertoe kan leiden dat de controle niet meer zichtbaar is.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
@@ -8023,7 +8023,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="262"/>
         <source>When the web server is running, any device in your network can access the files from this computer. If this option is on, any device can get a listing of the files in this computer. If this option is off, the list won&apos;t be available.</source>
-        <translation type="unfinished"></translation>
+        <translation>Wanneer de webserver wordt uitgevoerd en draait, kan elk apparaat in uw netwerk toegang krijgen tot de bestanden van deze computer. Als deze optie is ingeschakeld, kan elk apparaat een overzicht krijgen van de bestanden die op deze computer staan. Als deze optie is uitgeschakeld, wordt de lijst niet beschikbaar.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="268"/>
@@ -8079,7 +8079,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefnetwork.cpp" line="283"/>
         <source>The password for the proxy. &lt;b&gt;Warning:&lt;/b&gt; the password will be saved as plain text in the configuration file.</source>
-        <translation type="unfinished">Het wachtwoord voor de proxy. &lt;b&gt;Waarschuwing:&lt;/b&gt; het wachtwoord wordt als gewone tekst in het configuratiebestand opgeslagen.</translation>
+        <translation>Het wachtwoord voor de proxy. &lt;b&gt;Waarschuwing:&lt;/b&gt; het wachtwoord wordt als gewone tekst in het configuratiebestand opgeslagen.</translation>
     </message>
     <message>
         <location filename="../prefnetwork.cpp" line="286"/>
@@ -8340,7 +8340,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefperformance.cpp" line="307"/>
         <source>Set process priority for %1 according to the predefined priorities available under Windows.&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; Using realtime priority can cause system lockup.</source>
-        <translation type="unfinished"></translation>
+        <translation>Stelt proces prioriteit in voor %1 volgens de vooraf gedefinieerde prioriteiten die beschikbaar zijn onder Windows. &lt;br&gt;&lt;b&gt;Waarschuwing:&lt;/b&gt; het gebruiken van realtime prioriteit kan ertoe leiden dat het systeem vastloopt.</translation>
     </message>
     <message>
         <location filename="../prefperformance.cpp" line="323"/>
@@ -8598,7 +8598,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="226"/>
         <source>If this option is checked, a copy of the playlist will be saved in the configuration file when SMPlayer is closed, and it will reloaded automatically when SMPlayer is run again.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is ingeschakeld, wordt een kopie van de afspeellijst opgeslagen in het configuratiebestand nadat SMPlayer is afgesloten, deze opgeslagen afspeellijst zal automatisch geladen worden wanneer SMPlayer opnieuw wordt uitgevoerd.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="231"/>
@@ -8608,7 +8608,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="232"/>
         <source>This option allows you to enable the option to delete files from disk in the playlist&apos;s context menu. To prevent accidental deletions this option is disabled by default.</source>
-        <translation type="unfinished"></translation>
+        <translation>Met deze optie kunt u de optie inschakelen om bestanden van de schijf te verwijderen via het contextmenu van de afspeellijst. Om accidentele verwijderingen te voorkomen is deze optie standaard uitgeschakeld.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="198"/>
@@ -8643,7 +8643,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="176"/>
         <source>If this option is enabled, all files from the playlist will start to play from the beginning instead of resuming from a previous playback.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is ingeschakeld, worden alle bestanden uit de afspeellijst  vanaf het begin afgespeeld, en niet hervat vanaf het punt waar het tijdens vorige afspeelmomenten was gebleven.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="197"/>
@@ -8673,12 +8673,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefplaylist.cpp" line="206"/>
         <source>Check this option if you want that adding a directory will also add the files in subdirectories recursively. Otherwise only the files in the selected directory will be added.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vink deze optie aan als u wilt dat wanneer er een map wordt toegevoegd ook de bestanden in de submappen ervan toegevoegd worden. Anders worden alleen de bestanden in de geselecteerde map toegevoegd.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.cpp" line="211"/>
         <source>Check this option to inquire the files to be added to the playlist for some info. That allows to show the title name (if available) and length of the files. Otherwise this info won&apos;t be available until the file is actually played. Beware: this option can be slow, specially if you add many files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Vink deze optie aan als u meer informatie wilt hebben van de bestanden in de afspeellijst. U kunt hierdoor de titel, naam (indien beschikbaar) en de lengte van de bestanden zien. Anders zal deze informatie niet beschikbaar zijn totdat het bestand effectief wordt afgespeeld. Pas op: deze optie kan traag werken, vooral als u veel bestanden toevoegt.</translation>
     </message>
     <message>
         <location filename="../prefplaylist.ui" line="101"/>
@@ -8925,7 +8925,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="415"/>
         <source>This option enables the ASS library, which allows to display subtitles with multiple colors, fonts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie schakelt de ASS bibliotheek in, dit maakt het mogelijk om ondertitelingen met meerdere kleuren en lettertypen weer te geven ...</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="425"/>
@@ -8935,12 +8935,12 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="426"/>
         <source>If this option is enabled the Windows system fonts will be available for subtitles. There&apos;s an inconvenience: a font cache have to be created which can take some time.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is ingeschakeld zullen de lettertypes van het Windows-systeem beschikbaar zijn voor ondertiteling. Er is echter wel één ongemak: een lettertype cache moeten worden gecreëerd en dit kan enige tijd duren.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="429"/>
         <source>If this option is not checked then only a few fonts bundled with SMPlayer can be used, but this is faster.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie niet is ingeschakeld, dan kunnen slechts een paar lettertypes met SMPlayer worden gebruikt, dit zijn lettertypes die gebundeld zijn met SMPlayer. Door alleen gebruik te maken van deze lettertypes is SMPlayer sneller.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
@@ -9183,27 +9183,27 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="399"/>
         <source>When this option is on, the encoding of the subtitles will be tried to be autodetected for the given language. It will fall back to the default encoding if the autodetection fails. This option requires a %1 with ENCA support.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie aan staat zal geprobeerd worden de codering voor ondertitels automatisch te detecteren voor de gegeven taal. Indien het detecteren niet lukt zal terugvallen worden op de standaard codering. Deze optie vereist %1 voor ENCA ondersteuning.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="419"/>
         <source>You should normally not disable this option. Do it only if your %1 is compiled without freetype support. &lt;b&gt;Disabling this option could make subtitles not to work at all!&lt;/b&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>U moet normaal gesproken deze optie niet uitschakelen. Doe het alleen als uw %1 is gecompileerd zonder freetype ondersteuning. &lt;b&gt;Het uitschakelen van deze optie kan ervoor zorgen dat de ondertiteling niet meer werkt!&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als de randstijl is ingesteld op &lt;i&gt;uitlijning&lt;/i&gt;, dan bepaalt deze optie de breedte van de uitlijning rond de tekst in pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als de randstijl is ingesteld op &lt;i&gt;uitlijning&lt;/i&gt;, dan bepaalt deze optie de diepte van de slagschaduw achter de tekst in pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
         <source>This option does NOT change the size of the subtitles in the current video. To do so, use the options &lt;i&gt;Size+&lt;/i&gt; and &lt;i&gt;Size-&lt;/i&gt; in the subtitles menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie verandert niet de grootte van de ondertiteling in de huidige video. Om dit te doen, moet u gebruik maken van de opties  &lt;i&gt;Grootte+&lt;/i&gt; en &lt;i&gt;Grootte-&lt;/i&gt; in het ondertitelingsmenu.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="439"/>
@@ -9213,7 +9213,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="440"/>
         <source>This option specifies the default font scale for SSA/ASS subtitles which will be used for new opened files.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deze optie bepaalt de standaard lettertype schaal voor SSA/ASS ondertiteling die zal worden gebruikt voor bestanden die nieuw zijn geopend.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="444"/>
@@ -9223,7 +9223,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="445"/>
         <source>This specifies the spacing that will be used to separate multiple lines. It can have negative values.</source>
-        <translation type="unfinished"></translation>
+        <translation>Dit specificeert de afstand die wordt gebruikt om meerdere lijnen te scheiden. Het kan negatieve waarden hebben.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="271"/>
@@ -9253,7 +9253,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="411"/>
         <source>If this option is checked, the subtitles will appear in the screenshots. &lt;b&gt;Note:&lt;/b&gt; it may cause some troubles sometimes.</source>
-        <translation type="unfinished"></translation>
+        <translation>Als deze optie is ingeschakeld, wordt de ondertiteling weergegeven in de schermafbeeldingen. &lt;b&gt;Opmerking:&lt;/b&gt; dit kan soms wat problemen veroorzaken.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="332"/>
@@ -9346,7 +9346,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../preftv.cpp" line="106"/>
         <source>Select the deinterlace filter that you want to be used for TV channels.</source>
-        <translation type="unfinished"></translation>
+        <translation>Selecteer de deinterlacefilter die u wilt gebruiken voor tv-kanalen.</translation>
     </message>
     <message>
         <location filename="../preftv.cpp" line="109"/>
@@ -9663,7 +9663,7 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../clhelp.cpp" line="187"/>
         <source>&apos;media&apos; is any kind of file that SMPlayer can open. It can be a local file, a DVD (e.g. dvd://1), an Internet stream (e.g. mms://....) or a local playlist in format m3u or pls.</source>
-        <translation type="unfinished"></translation>
+        <translation>&apos;Media&apos; is elk soort bestand dat SMPlayer kan openen. Het kan een lokaal bestand zijn , een DVD (bv. dvd://1), een internet-stream (bijvoorbeeld mms://....) of een lokale afspeellijst in een m3u of pls formaat.</translation>
     </message>
     <message>
         <location filename="../sharedata.cpp" line="40"/>
@@ -9867,22 +9867,22 @@ Wilt u het overschrijven?</translation>
     <message>
         <location filename="../stereo3ddialog.cpp" line="26"/>
         <source>Side by side parallel (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Evenwijdig naast elkaar  (linkeroog links, rechteroog rechts)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="27"/>
         <source>Side by side crosseye (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Loensend naast elkaar (rechteroog links, linkeroog rechts)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="28"/>
         <source>Side by side with half width resolution (left eye left, right eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Naast elkaar met halve breedte resolutie (linkeroog links, rechteroog rechts)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="29"/>
         <source>Side by side with half width resolution (right eye left, left eye right)</source>
-        <translation type="unfinished"></translation>
+        <translation>Naast elkaar met halve breedte resolutie (rechteroog links, linkeroog rechts)</translation>
     </message>
     <message>
         <location filename="../stereo3ddialog.cpp" line="31"/>

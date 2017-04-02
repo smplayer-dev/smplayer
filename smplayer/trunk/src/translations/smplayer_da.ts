@@ -994,7 +994,7 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
     <message>
         <location filename="../basegui.cpp" line="1729"/>
         <source>Thumb&amp;nail Generator...</source>
-        <translation>&amp;Miniature-generator...</translation>
+        <translation>&amp;Miniaturegenerator...</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1733"/>
@@ -10321,7 +10321,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="146"/>
         <source>Thumbnail Generator</source>
-        <translation>Miniature-generator</translation>
+        <translation>Miniaturegenerator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreview.cpp" line="149"/>
@@ -10470,7 +10470,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="14"/>
         <source>Thumbnail Generator</source>
-        <translation>Miniature-generator</translation>
+        <translation>Miniaturegenerator</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.ui" line="22"/>
