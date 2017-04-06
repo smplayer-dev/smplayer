@@ -352,6 +352,13 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 			}
 		}
 		#endif
+
+		// Remove options (used by mplayer)
+		int pos = vo.indexOf(":");
+		if (pos > -1) vo = vo.left(pos);
+
+		if (vo == "gl") vo = "opengl";
+
 		arg << "--vo=" + vo + ",";
 	}
 	else
@@ -397,6 +404,11 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 			}
 			#endif
 		}
+
+		// Remove options (used by mplayer)
+		int pos = ao.indexOf(":");
+		if (pos > -1) ao = ao.left(pos);
+
 		arg << "--ao=" + ao + ",";
 	}
 	else
