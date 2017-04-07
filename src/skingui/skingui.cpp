@@ -580,7 +580,7 @@ void SkinGui::loadConfig() {
 		QPoint p = set->value("pos", pos()).toPoint();
 		QSize s = set->value("size", size()).toSize();
 
-		if ( (s.height() < 200) && (!pref->use_mplayer_window) ) {
+		if ( (s.height() < 70) && (!pref->use_mplayer_window) ) {
 			s = pref->default_size;
 		}
 
