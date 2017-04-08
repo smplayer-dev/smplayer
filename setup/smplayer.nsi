@@ -824,14 +824,14 @@ Function .onInit
   MessageBox MB_YESNO|MB_ICONEXCLAMATION "This build is compiled with Qt4 and is provided for compatibility with legacy CPUs (those without SSE2 or later instruction set support). If you do not meet these requirements, it is recommended to use the normal Qt5 releases.$\r$\n$\r$\nProceed with the installation?" /SD IDYES IDYES installoldcpu
     Abort
   installoldcpu:
-!else
+!endif
+
   ${Unless} ${AtLeastWinVista}
   ${AndUnless} ${AtLeastServicePack} 2
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported_VistaRequired) /SD IDNO IDYES installonoldwindows
     Abort
   installonoldwindows:
   ${EndIf}
-!endif
 
 !ifdef WIN64
   ${IfNot} ${RunningX64}
