@@ -467,7 +467,7 @@ SectionGroup $(MPlayerMPVGroupTitle)
 
   SetOutPath "$INSTDIR\mpv"
 !ifdef WIN64
-  File /r /x mpv.exe /x mpv.com /x mpv64.exe /x mpv64.com /x fonts /x mpv "${SMPLAYER_BUILD_DIR}\mpv\*.*"
+  File /r /x mpv.exe /x mpv.com /x mpv64.exe /x mpv64.com "${SMPLAYER_BUILD_DIR}\mpv\*.*"
   File /oname=mpv.exe "${SMPLAYER_BUILD_DIR}\mpv\mpv64.exe"
   File /oname=mpv.com "${SMPLAYER_BUILD_DIR}\mpv\mpv64.com"
 !else
@@ -826,13 +826,9 @@ Function .onInit
   installoldcpu:
 !endif
 
-!ifdef WIN64
   ${Unless} ${AtLeastWinVista}
+  ${AndUnless} ${AtLeastServicePack} 2
     MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported_VistaRequired) /SD IDNO IDYES installonoldwindows
-!else
-  ${Unless} ${AtLeastWinXP}
-    MessageBox MB_YESNO|MB_ICONSTOP $(OS_Not_Supported) /SD IDNO IDYES installonoldwindows
-!endif
     Abort
   installonoldwindows:
   ${EndIf}
