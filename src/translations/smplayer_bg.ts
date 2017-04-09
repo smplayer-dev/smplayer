@@ -7839,7 +7839,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefnetwork.ui" line="32"/>
         <source>Support for &amp;video sites:</source>
-        <translation>Поддръжка за &amp;видео сатове:</translation>
+        <translation>Поддръжка за &amp;видео сайтове:</translation>
     </message>
     <message>
         <location filename="../prefnetwork.ui" line="67"/>
