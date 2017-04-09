@@ -588,6 +588,7 @@ protected:
 	// OSD
 	MyAction * incOSDScaleAct;
 	MyAction * decOSDScaleAct;
+	MyAction * OSDFractionsAct;
 
 	// Playlist
 	MyAction * playPrevAct;

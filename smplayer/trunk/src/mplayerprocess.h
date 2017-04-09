@@ -113,6 +113,7 @@ public:
 	void toggleDeinterlace();
 	void askForLength();
 	void setOSDScale(double value);
+	void setOSDFractions(bool) {};
 	void setChannelsFile(const QString &) {};
 
 	void enableScreenshots(const QString & dir, const QString & templ = QString::null, const QString & format = QString::null);

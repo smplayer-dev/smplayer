@@ -940,6 +940,9 @@ void BaseGui::createActions() {
 	decOSDScaleAct = new MyAction(Qt::SHIFT | Qt::Key_Y, this, "dec_osd_scale");
 	connect(decOSDScaleAct, SIGNAL(triggered()), core, SLOT(decOSDScale()));
 
+	OSDFractionsAct = new MyAction(this, "osd_fractions");
+	OSDFractionsAct->setCheckable(true);
+	connect(OSDFractionsAct, SIGNAL(toggled(bool)), core, SLOT(setOSDFractions(bool)));
 
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
@@ -1862,6 +1865,8 @@ void BaseGui::retranslateStrings() {
 	incOSDScaleAct->change(tr("Size &+"));
 	decOSDScaleAct->change(tr("Size &-"));
 
+	OSDFractionsAct->change(tr("Show times with &milliseconds"));
+
 	// Playlist
 	playNextAct->change( tr("&Next") );
 	playPrevAct->change( tr("Pre&vious") );
@@ -2707,6 +2712,8 @@ void BaseGui::createMenus() {
 	osd_menu->addSeparator();
 	osd_menu->addAction(decOSDScaleAct);
 	osd_menu->addAction(incOSDScaleAct);
+	osd_menu->addSeparator();
+	osd_menu->addAction(OSDFractionsAct);
 
 
 	// Share submenu
@@ -3813,6 +3820,8 @@ void BaseGui::updateWidgets() {
 
 	// OSD
 	osdGroup->setChecked( pref->osd );
+
+	OSDFractionsAct->setChecked(pref->osd_fractions);
 
 	// Titles
 	titleGroup->setChecked( core->mset.current_title_id );

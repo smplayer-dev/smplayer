@@ -161,6 +161,7 @@ public:
 	double osd_scale; // mpv
 	double subfont_osd_scale; // mplayer
 	int osd_delay; //<! Delay in ms to show the OSD.
+	bool osd_fractions; //<! Show OSD times with milliseconds.
 
 	QString file_settings_method; //!< Method to be used for saving file settings
 
