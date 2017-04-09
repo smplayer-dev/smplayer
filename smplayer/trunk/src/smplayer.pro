@@ -42,13 +42,7 @@ DEFINES += MPLAYER_SUPPORT
 # (requires MPLAYER_SUPPORT)
 DEFINES += MPLAYER2_SUPPORT
 
-# Note to distro maintainers:
-# By disabling SHARE_ACTIONS or SHARE_WIDGET
-# you're preventing SMPlayer to receive donations and thus
-# SERIOUSLY HURTING THE DEVELOPMENT AND PUTTING
-# AT RISK THE CONTINUATION OF THIS PROJECT
-# Please don't.
-
+# OBSOLETE:
 #DEFINES += SHARE_ACTIONS
 #DEFINES += SHARE_WIDGET
 
