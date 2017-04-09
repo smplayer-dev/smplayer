@@ -5249,7 +5249,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="561"/>
         <source>If this option is checked, SMPlayer will store the debugging messages that SMPlayer outputs (you can see the log in &lt;b&gt;Options -&gt; View logs -&gt; SMPlayer&lt;/b&gt;). This information can be very useful for the developer in case you find a bug.</source>
-        <translation>Hvis indstillingen er slået til, gemmer SMPlayer fejlsøgningsmeddelelser fra SMPlayer (du kan se loggen i &lt;b&gt;Valgmuligheder -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
+        <translation>Hvis indstillingen er slået til, gemmer SMPlayer fejlsøgningsmeddelelser fra SMPlayer (du kan se loggen i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; SMPlayer&lt;/b&gt;). Denne information kan være meget nyttig for udvikleren i tilfælde af at du finder en programfejl.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="573"/>
@@ -5259,7 +5259,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="574"/>
         <source>If checked, SMPlayer will store the output of %1 (you can see it in &lt;b&gt;Options -&gt; View logs -&gt; %1&lt;/b&gt;). In case of problems this log can contain important information, so it&apos;s recommended to keep this option checked.</source>
-        <translation>Hvis indstillingen er slået til, gemmer SMPlayer outputtet af %1 (Du kan se det i &lt;b&gt;Valgmuligheder -&gt; Vis logge -&gt; %1&lt;/b&gt;). Hvis der er problemer kan denne log indeholde vigtige oplysninger, så det anbefales at indstillingen er slået til.</translation>
+        <translation>Hvis indstillingen er slået til, gemmer SMPlayer outputtet af %1 (Du kan se det i &lt;b&gt;Indstillinger -&gt; Vis logge -&gt; %1&lt;/b&gt;). Hvis der er problemer kan denne log indeholde vigtige oplysninger, så det anbefales at indstillingen er slået til.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="579"/>
