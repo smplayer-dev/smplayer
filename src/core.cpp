@@ -1289,6 +1289,7 @@ void Core::finishRestart() {
 
 void Core::initializeOSD() {
 	changeOSD(pref->osd);
+	setOSDFractions(pref->osd_fractions);
 }
 
 void Core::stop()
@@ -3461,6 +3462,12 @@ void Core::decOSDScale() {
 	} else {
 		changeOSDScale(pref->osd_scale - 0.20);
 	}
+}
+
+void Core::setOSDFractions(bool active) {
+	qDebug("Core::setOSDFractions: %d", active);
+	pref->osd_fractions = active;
+	proc->setOSDFractions(active);
 }
 
 void Core::incSubStep() {

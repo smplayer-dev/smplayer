@@ -254,6 +254,8 @@ public slots:
 	void incOSDScale();
 	void decOSDScale();
 
+	void setOSDFractions(bool active);
+
 	//! Select next line in subtitle file
 	void incSubStep();
 	//! Select previous line in subtitle file

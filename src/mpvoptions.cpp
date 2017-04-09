@@ -991,6 +991,10 @@ void MPVProcess::setOSDScale(double value) {
 	writeToStdin("set osd-scale " + QString::number(value));
 }
 
+void MPVProcess::setOSDFractions(bool active) {
+	writeToStdin(QString("no-osd set osd-fractions %1").arg(active ? "yes" : "no"));
+}
+
 void MPVProcess::changeVF(const QString & filter, bool enable, const QVariant & option) {
 	qDebug() << "MPVProcess::changeVF:" << filter << enable;
 
