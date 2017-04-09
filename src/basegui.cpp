@@ -3977,6 +3977,7 @@ void BaseGui::updateWidgets() {
 	if (PlayerID::player(pref->mplayer_bin) == PlayerID::MPLAYER) {
 		secondary_subtitles_track_menu->setEnabled(false);
 		frameBackStepAct->setEnabled(false);
+		OSDFractionsAct->setEnabled(false);
 	} else {
 		karaokeAct->setEnabled(false);
 	}
