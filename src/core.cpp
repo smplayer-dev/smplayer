@@ -1289,7 +1289,9 @@ void Core::finishRestart() {
 
 void Core::initializeOSD() {
 	changeOSD(pref->osd);
+#ifdef MPV_SUPPORT
 	setOSDFractions(pref->osd_fractions);
+#endif
 }
 
 void Core::stop()
@@ -3464,11 +3466,13 @@ void Core::decOSDScale() {
 	}
 }
 
+#ifdef MPV_SUPPORT
 void Core::setOSDFractions(bool active) {
 	qDebug("Core::setOSDFractions: %d", active);
 	pref->osd_fractions = active;
 	proc->setOSDFractions(active);
 }
+#endif
 
 void Core::incSubStep() {
 	qDebug("Core::incSubStep");

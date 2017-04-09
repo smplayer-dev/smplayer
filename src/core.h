@@ -254,7 +254,9 @@ public slots:
 	void incOSDScale();
 	void decOSDScale();
 
+#ifdef MPV_SUPPORT
 	void setOSDFractions(bool active);
+#endif
 
 	//! Select next line in subtitle file
 	void incSubStep();

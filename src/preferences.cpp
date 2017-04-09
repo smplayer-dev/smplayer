@@ -179,7 +179,9 @@ void Preferences::reset() {
 	osd_scale = 1;
 	subfont_osd_scale = 3;
 	osd_delay = 2200;
+#ifdef MPV_SUPPORT
 	osd_fractions = false;
+#endif
 
 	file_settings_method = "hash"; // Possible values: normal & hash
 
@@ -718,7 +720,9 @@ void Preferences::save() {
 	set->setValue("osd_scale", osd_scale);
 	set->setValue("subfont_osd_scale", subfont_osd_scale);
 	set->setValue("osd_delay", osd_delay);
+#ifdef MPV_SUPPORT
 	set->setValue("osd_fractions", osd_fractions);
+#endif
 
 	set->setValue("file_settings_method", file_settings_method);
 
@@ -1286,7 +1290,9 @@ void Preferences::load() {
 	osd_scale = set->value("osd_scale", osd_scale).toDouble();
 	subfont_osd_scale = set->value("subfont_osd_scale", subfont_osd_scale).toDouble();
 	osd_delay = set->value("osd_delay", osd_delay).toInt();
+#ifdef MPV_SUPPORT
 	osd_fractions = set->value("osd_fractions", osd_fractions).toBool();
+#endif
 
 	file_settings_method = set->value("file_settings_method", file_settings_method).toString();
 

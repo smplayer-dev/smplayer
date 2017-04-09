@@ -588,7 +588,9 @@ protected:
 	// OSD
 	MyAction * incOSDScaleAct;
 	MyAction * decOSDScaleAct;
+#ifdef MPV_SUPPORT
 	MyAction * OSDFractionsAct;
+#endif
 
 	// Playlist
 	MyAction * playPrevAct;
