@@ -940,9 +940,11 @@ void BaseGui::createActions() {
 	decOSDScaleAct = new MyAction(Qt::SHIFT | Qt::Key_Y, this, "dec_osd_scale");
 	connect(decOSDScaleAct, SIGNAL(triggered()), core, SLOT(decOSDScale()));
 
+#ifdef MPV_SUPPORT
 	OSDFractionsAct = new MyAction(this, "osd_fractions");
 	OSDFractionsAct->setCheckable(true);
 	connect(OSDFractionsAct, SIGNAL(toggled(bool)), core, SLOT(setOSDFractions(bool)));
+#endif
 
 	// Playlist
 	playNextAct = new MyAction(Qt::Key_Greater, this, "play_next");
@@ -1865,7 +1867,9 @@ void BaseGui::retranslateStrings() {
 	incOSDScaleAct->change(tr("Size &+"));
 	decOSDScaleAct->change(tr("Size &-"));
 
+#ifdef MPV_SUPPORT
 	OSDFractionsAct->change(tr("Show times with &milliseconds"));
+#endif
 
 	// Playlist
 	playNextAct->change( tr("&Next") );
@@ -2712,9 +2716,10 @@ void BaseGui::createMenus() {
 	osd_menu->addSeparator();
 	osd_menu->addAction(decOSDScaleAct);
 	osd_menu->addAction(incOSDScaleAct);
+#ifdef MPV_SUPPORT
 	osd_menu->addSeparator();
 	osd_menu->addAction(OSDFractionsAct);
-
+#endif
 
 	// Share submenu
 	#ifdef SHARE_MENU
@@ -3821,7 +3826,9 @@ void BaseGui::updateWidgets() {
 	// OSD
 	osdGroup->setChecked( pref->osd );
 
+#ifdef MPV_SUPPORT
 	OSDFractionsAct->setChecked(pref->osd_fractions);
+#endif
 
 	// Titles
 	titleGroup->setChecked( core->mset.current_title_id );
