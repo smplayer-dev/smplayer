@@ -72,6 +72,8 @@ MPVProcess::MPVProcess(QObject * parent)
              this, SLOT(gotError(QProcess::ProcessError)) );
 
 	/* int svn = MplayerVersion::mplayerVersion("mpv unknown version (C)"); */
+
+	initializeRX();
 }
 
 MPVProcess::~MPVProcess() {
@@ -114,6 +116,14 @@ bool MPVProcess::start() {
 	return waitForStarted();
 }
 
+void MPVProcess::initializeRX() {
+	rx_mpv_videocodec.setPattern("^INFO_VIDEO_CODEC=(.*)\\s");
+	rx_mpv_videocodec.setMinimal(true);
+
+	rx_mpv_audiocodec.setPattern("^INFO_AUDIO_CODEC=(.*)\\s");
+	rx_mpv_audiocodec.setMinimal(true);
+}
+
 #ifdef CUSTOM_STATUS
 static QRegExp rx_mpv_av("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
 #else
@@ -145,9 +155,6 @@ static QRegExp rx_mpv_trackinfo("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(
 #if 0
 static QRegExp rx_mpv_videoinfo("^\\[vd\\] VIDEO: .* (\\d+)x(\\d+) .* ([0-9.]+) fps"); // [vd] VIDEO:  624x352  25.000 fps  1018.5 kbps (127.3 kB/s)
 #endif
-
-static QRegExp rx_mpv_videocodec("^INFO_VIDEO_CODEC=(.*) \\[(.*)\\]");
-static QRegExp rx_mpv_audiocodec("^INFO_AUDIO_CODEC=(.*) \\[(.*)\\]");
 
 static QRegExp rx_mpv_forbidden("HTTP error 403 Forbidden");
 
@@ -592,13 +599,13 @@ void MPVProcess::parseLine(QByteArray ba) {
 		else
 
 		if (rx_mpv_videocodec.indexIn(line) > -1) {
-			md.video_codec = rx_mpv_videocodec.cap(2);
-			qDebug("MPVProcess::parseLine: md.video_codec '%s'", md.video_codec.toUtf8().constData());
+			md.video_codec = rx_mpv_videocodec.cap(1);
+			qDebug() << "MPVProcess::parseLine: md.video_codec:" << md.video_codec;
 		}
 		else
 		if (rx_mpv_audiocodec.indexIn(line) > -1) {
-			md.audio_codec = rx_mpv_audiocodec.cap(2);
-			qDebug("MPVProcess::parseLine: md.audio_codec '%s'", md.audio_codec.toUtf8().constData());
+			md.audio_codec = rx_mpv_audiocodec.cap(1);
+			qDebug() << "MPVProcess::parseLine: md.audio_codec:" << md.audio_codec;
 		}
 		else
 
