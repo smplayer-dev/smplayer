@@ -222,35 +222,35 @@ private:
 #endif
 
 	// Regular expressions
-	QRegExp rx_mpv_av;
-	QRegExp rx_mpv_dsize;
-	QRegExp rx_mpv_vo;
-	QRegExp rx_mpv_ao;
-	QRegExp rx_mpv_paused;
-	QRegExp rx_mpv_endoffile;
+	QRegExp rx_av;
+	QRegExp rx_dsize;
+	QRegExp rx_vo;
+	QRegExp rx_ao;
+	QRegExp rx_paused;
+	QRegExp rx_endoffile;
 
-	QRegExp rx_mpv_audio;
-	QRegExp rx_mpv_subs;
+	QRegExp rx_audio;
+	QRegExp rx_subs;
 
-	QRegExp rx_mpv_videocodec;
-	QRegExp rx_mpv_audiocodec;
+	QRegExp rx_videocodec;
+	QRegExp rx_audiocodec;
 
 #if !NOTIFY_VIDEO_CHANGES
-	QRegExp rx_mpv_video;
+	QRegExp rx_video;
 #endif
 
-	QRegExp rx_mpv_chaptername;
-	QRegExp rx_mpv_trackinfo;
-	QRegExp rx_mpv_forbidden;
+	QRegExp rx_chaptername;
+	QRegExp rx_trackinfo;
+	QRegExp rx_forbidden;
 
 #if DVDNAV_SUPPORT
-	QRegExp rx_mpv_switch_title;
+	QRegExp rx_switch_title;
 #endif
 
-	QRegExp rx_mpv_playing;
-	QRegExp rx_mpv_generic;
-	QRegExp rx_mpv_stream_title;
-	QRegExp rx_mpv_debug;
+	QRegExp rx_playing;
+	QRegExp rx_generic;
+	QRegExp rx_stream_title;
+	QRegExp rx_debug;
 
 	void initializeRX();
 };
