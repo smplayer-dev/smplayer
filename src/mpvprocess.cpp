@@ -117,59 +117,50 @@ bool MPVProcess::start() {
 }
 
 void MPVProcess::initializeRX() {
+#ifdef CUSTOM_STATUS
+	rx_mpv_av.setPattern("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
+#else
+	rx_mpv_av.setPattern("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
+#endif
+
+	rx_mpv_dsize.setPattern("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
+	rx_mpv_vo.setPattern("^VO: \\[(.*)\\]");
+	rx_mpv_ao.setPattern("^AO: \\[(.*)\\]");
+	rx_mpv_paused.setPattern("^\\(Paused\\)");
+	rx_mpv_endoffile.setPattern("^Exiting... \\(End of file\\)");
+
+	rx_mpv_audio.setPattern("^.* Audio\\s+--aid=(\\d+)( --alang=([a-zA-Z-]+)|)([ \\(\\)\\*]+)('(.*)'|)");
+	rx_mpv_subs.setPattern("^.* Subs\\s+--sid=(\\d+)( --slang=([a-zA-Z-]+)|)([ \\(\\)\\*]+)('(.*)'|)");
+
 	rx_mpv_videocodec.setPattern("^INFO_VIDEO_CODEC=(.*)\\s");
 	rx_mpv_videocodec.setMinimal(true);
 
 	rx_mpv_audiocodec.setPattern("^INFO_AUDIO_CODEC=(.*)\\s");
 	rx_mpv_audiocodec.setMinimal(true);
-}
 
-#ifdef CUSTOM_STATUS
-static QRegExp rx_mpv_av("^STATUS: ([0-9\\.-]+) / ([0-9\\.-]+) P: (yes|no) B: (yes|no) I: (yes|no) VB: ([0-9\\.-]+) AB: ([0-9\\.-]+)");
-#else
-static QRegExp rx_mpv_av("^(\\((.*)\\) |)(AV|V|A): ([0-9]+):([0-9]+):([0-9]+) / ([0-9]+):([0-9]+):([0-9]+)"); //AV: 00:02:15 / 00:09:56
-#endif
-
-static QRegExp rx_mpv_dsize("^INFO_VIDEO_DSIZE=(\\d+)x(\\d+)");
-static QRegExp rx_mpv_vo("^VO: \\[(.*)\\]");
-static QRegExp rx_mpv_ao("^AO: \\[(.*)\\]");
-static QRegExp rx_mpv_paused("^\\(Paused\\)");
-static QRegExp rx_mpv_endoffile("^Exiting... \\(End of file\\)");
-
-//static QRegExp rx_mpv_audio("^\\[stream\\] Audio .* --aid=(\\d+)( --alang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
-static QRegExp rx_mpv_audio("^.* Audio\\s+--aid=(\\d+)( --alang=([a-zA-Z-]+)|)([ \\(\\)\\*]+)('(.*)'|)");
-//static QRegExp rx_mpv_subs("^\\[stream\\] Subs .* --sid=(\\d+)( --slang=([a-z]+)|)([ \\(\\)\\*]+)('(.*)'|)");
-static QRegExp rx_mpv_subs("^.* Subs\\s+--sid=(\\d+)( --slang=([a-zA-Z-]+)|)([ \\(\\)\\*]+)('(.*)'|)");
 #if !NOTIFY_VIDEO_CHANGES
-//static QRegExp rx_mpv_video("^\\[stream\\] Video .* --vid=(\\d+)([ \\(\\)\\*]+)('(.*)'|)");
-static QRegExp rx_mpv_video("^.* Video\\s+--vid=(\\d+)([ \\(\\)\\*]+)('(.*)'|)");
+	rx_mpv_video.setPattern("^.* Video\\s+--vid=(\\d+)([ \\(\\)\\*]+)('(.*)'|)");
 #endif
 
-#if 0
-static QRegExp rx_mpv_subs2("^Sub:( >|) \\((\\d+)\\) '(.*)'");
-#endif
+	rx_mpv_chaptername.setPattern("^INFO_CHAPTER_(\\d+)_NAME=(.*)");
+	rx_mpv_trackinfo.setPattern("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
 
-static QRegExp rx_mpv_chaptername("^INFO_CHAPTER_(\\d+)_NAME=(.*)");
-static QRegExp rx_mpv_trackinfo("^INFO_TRACK_(\\d+): (audio|video|sub) (\\d+) '(.*)' '(.*)' (yes|no)");
-
-#if 0
-static QRegExp rx_mpv_videoinfo("^\\[vd\\] VIDEO: .* (\\d+)x(\\d+) .* ([0-9.]+) fps"); // [vd] VIDEO:  624x352  25.000 fps  1018.5 kbps (127.3 kB/s)
-#endif
-
-static QRegExp rx_mpv_forbidden("HTTP error 403 Forbidden");
+	rx_mpv_forbidden.setPattern("HTTP error 403 Forbidden");
 
 #if DVDNAV_SUPPORT
-static QRegExp rx_mpv_switch_title("^\\[dvdnav\\] DVDNAV, switched to title: (\\d+)");
+	rx_mpv_switch_title.setPattern("^\\[dvdnav\\] DVDNAV, switched to title: (\\d+)");
 #endif
 
-static QRegExp rx_mpv_playing("^Playing:.*|^\\[ytdl_hook\\].*");
+	rx_mpv_playing.setPattern("^Playing:.*|^\\[ytdl_hook\\].*");
+	rx_mpv_generic.setPattern("^([A-Z_]+)=(.*)");
+	rx_mpv_stream_title.setPattern("icy-title: (.*)");
+	rx_mpv_debug.setPattern("^(INFO|METADATA)_.*=\\$.*");
 
-//static QRegExp rx_mpv_generic("^(.*)=(.*)");
-static QRegExp rx_mpv_generic("^([A-Z_]+)=(.*)");
-
-static QRegExp rx_mpv_stream_title("icy-title: (.*)");
-
-static QRegExp rx_mpv_debug("^(INFO|METADATA)_.*=\\$.*");
+	#if 0
+	static QRegExp rx_mpv_subs2("^Sub:( >|) \\((\\d+)\\) '(.*)'");
+	static QRegExp rx_mpv_videoinfo("^\\[vd\\] VIDEO: .* (\\d+)x(\\d+) .* ([0-9.]+) fps"); // [vd] VIDEO:  624x352  25.000 fps  1018.5 kbps (127.3 kB/s)
+	#endif
+}
 
 void MPVProcess::parseLine(QByteArray ba) {
 	//qDebug() << "MPVProcess::parseLine:" << ba;
