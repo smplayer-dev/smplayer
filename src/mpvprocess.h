@@ -20,6 +20,7 @@
 #define MPVPROCESS_H
 
 #include <QString>
+#include <QRegExp>
 #include "playerprocess.h"
 #include "config.h"
 
@@ -219,6 +220,12 @@ private:
 #ifdef OSD_WITH_TIMER
 	QTimer * osd_timer;
 #endif
+
+	// Regular expressions
+	QRegExp rx_mpv_videocodec;
+	QRegExp rx_mpv_audiocodec;
+
+	void initializeRX();
 };
 
 #endif
