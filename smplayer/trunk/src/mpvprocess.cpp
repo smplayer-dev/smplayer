@@ -335,7 +335,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 #endif
 
 		if (!notified_mplayer_is_running) {
-			qDebug("MPVProcess::parseLine: starting sec: %f", sec);
+			qDebug() << "MPVProcess::parseLine: starting sec:" << sec;
 
 			if (md.video_width == 0 || md.video_height == 0) {
 				md.novideo = true;
@@ -381,7 +381,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 		emit lineAvailable(line);
 
 		// Parse other things
-		qDebug("MPVProcess::parseLine: '%s'", line.toUtf8().data() );
+		qDebug() << "MPVProcess::parseLine:" << line;
 
 		// End of file
 		if (rx_endoffile.indexIn(line) > -1)  {
@@ -429,7 +429,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			int ID = rx_audio.cap(1).toInt();
 			QString lang = rx_audio.cap(3);
 			QString title = rx_audio.cap(6);
-			qDebug("MPVProcess::parseLine: audio id: %d, lang: '%s', name: '%s'", ID, lang.toUtf8().constData(), title.toUtf8().constData());
+			qDebug() << "MPVProcess::parseLine: audio id:" << ID << "lang:" << lang << "name:" << title;
 
 			#if NOTIFY_AUDIO_CHANGES
 			updateAudioTrack(ID, title, lang);
@@ -445,7 +445,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 
 		if (rx_stream_title.indexIn(line) > -1) {
 			QString s = rx_stream_title.cap(1);
-			qDebug("MPVProcess::parseLine: stream_title: '%s'", s.toUtf8().data());
+			qDebug() << "MPVProcess::parseLine: stream_title:" << s;
 			md.stream_title = s;
 			emit receivedStreamTitle(s);
 		}
@@ -456,7 +456,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			int ID = rx_subs.cap(1).toInt();
 			QString lang = rx_subs.cap(3);
 			QString title = rx_subs.cap(6);
-			qDebug("MPVProcess::parseLine: sub id: %d, lang: '%s', name: '%s'", ID, lang.toUtf8().constData(), title.toUtf8().constData());
+			qDebug() << "MPVProcess::parseLine: sub id:" << ID << "lang:" << lang << "name:" << title;
 
 			#if NOTIFY_SUB_CHANGES
 			updateSubtitleTrack(ID, title, lang);
@@ -517,7 +517,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			#else
 			md.chapters.addName(ID, title);
 			#endif
-			qDebug("MPVProcess::parseLine: chapter id: %d title: %s", ID, title.toUtf8().constData());
+			qDebug() << "MPVProcess::parseLine: chapter id:" << ID << "title:" << title;
 			//md.chapters.list();
 		}
 		else
@@ -530,8 +530,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			QString name = rx_trackinfo.cap(5);
 			QString lang = rx_trackinfo.cap(4);
 			QString selected = rx_trackinfo.cap(6);
-			qDebug("MPVProcess::parseLine: ID: %d type: %s name: %s lang: %s selected: %s", ID, type.toUtf8().constData(), 
-				name.toUtf8().constData(), lang.toUtf8().constData(), selected.toUtf8().constData());
+			qDebug() << "MPVProcess::parseLine: ID:" << ID << "type:" << type << "name:" << name << "lang:" << lang << "selected:" << selected;
 			/*
 			if (lang == "(unavailable)") lang = "";
 			if (name == "(unavailable)") name = "";
@@ -628,7 +627,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 					// I hope width & height are already set.
 					md.video_aspect = (double) md.video_width / md.video_height;
 				}
-				qDebug("MPVProcess::parseLine: md.video_aspect set to %f", md.video_aspect);
+				qDebug() << "MPVProcess::parseLine: md.video_aspect set to" << md.video_aspect;
 			}
 			if (tag == "INFO_VIDEO_BITRATE") {
 				int bitrate = value.toInt();
@@ -637,7 +636,7 @@ void MPVProcess::parseLine(QByteArray ba) {
 			else
 			if (tag == "INFO_LENGTH") {
 				md.duration = value.toDouble();
-				qDebug("MPVProcess::parseLine: md.duration set to %f", md.duration);
+				qDebug() << "MPVProcess::parseLine: md.duration set to" << md.duration;
 			}
 			else
 			if (tag == "INFO_DEMUXER") {
