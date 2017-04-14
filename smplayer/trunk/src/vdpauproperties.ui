@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>394</width>
-    <height>261</height>
+    <height>273</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -27,42 +27,42 @@
    <item>
     <widget class="QCheckBox" name="ffh264vdpau_check">
      <property name="text">
-      <string>ffh&amp;264vdpau</string>
+      <string notr="true">ffh&amp;264vdpau</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="ffmpeg12vdpau_check">
      <property name="text">
-      <string>ff&amp;mpeg12vdpau</string>
+      <string notr="true">ff&amp;mpeg12vdpau</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="ffwmv3vdpau_check">
      <property name="text">
-      <string>ff&amp;wmv3vdpau</string>
+      <string notr="true">ff&amp;wmv3vdpau</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="ffvc1vdpau_check">
      <property name="text">
-      <string>ff&amp;vc1vdpau</string>
+      <string notr="true">ff&amp;vc1vdpau</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="ffodivxvdpau_check">
      <property name="text">
-      <string>ffodiv&amp;xvdpau</string>
+      <string notr="true">ffodiv&amp;xvdpau</string>
      </property>
     </widget>
    </item>
    <item>
     <widget class="QCheckBox" name="ffhevcvdpau_check">
      <property name="text">
-      <string>ff&amp;hevcvdpau</string>
+      <string notr="true">ff&amp;hevcvdpau</string>
      </property>
     </widget>
    </item>
