@@ -80,8 +80,10 @@ void Preferences::reset() {
 #endif
 
 #if defined(Q_OS_WIN) || defined(Q_OS_OS2)
-	//mplayer_bin= "mplayer/mplayer.exe";
 	mplayer_bin= "mpv/mpv.exe";
+	if (QSysInfo::WindowsVersion < QSysInfo::WV_VISTA) {
+		mplayer_bin= "mplayer/mplayer.exe";
+	}
 #else
 	//mplayer_bin = "mplayer";
 	mplayer_bin = "mpv";
