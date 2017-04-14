@@ -49,6 +49,10 @@ void VDPAUProperties::setffodivxvdpau(bool b) {
 	ffodivxvdpau_check->setChecked(b);
 }
 
+void VDPAUProperties::setffhevcvdpau(bool b) {
+	ffhevcvdpau_check->setChecked(b);
+}
+
 void VDPAUProperties::setDisableFilters(bool b) {
 	disable_filters_check->setChecked(b);
 }
@@ -71,6 +75,10 @@ bool VDPAUProperties::ffvc1vdpau() {
 
 bool VDPAUProperties::ffodivxvdpau() {
 	return ffodivxvdpau_check->isChecked();
+}
+
+bool VDPAUProperties::ffhevcvdpau() {
+	return ffhevcvdpau_check->isChecked();
 }
 
 bool VDPAUProperties::disableFilters() {

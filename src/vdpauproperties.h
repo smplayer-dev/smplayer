@@ -36,6 +36,7 @@ public:
 	void setffwmv3vdpau(bool b);
 	void setffvc1vdpau(bool b);
 	void setffodivxvdpau(bool b);
+	void setffhevcvdpau(bool b);
 
 	void setDisableFilters(bool b);
 
@@ -44,6 +45,7 @@ public:
 	bool ffwmv3vdpau();
 	bool ffvc1vdpau();
 	bool ffodivxvdpau();
+	bool ffhevcvdpau();
 
 	bool disableFilters();
 

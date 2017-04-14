@@ -1650,6 +1650,7 @@ void Core::startMplayer( QString file, double seek ) {
 			if (pref->vdpau.ffwmv3vdpau) c += "ffwmv3vdpau,";
 			if (pref->vdpau.ffvc1vdpau) c += "ffvc1vdpau,";
 			if (pref->vdpau.ffodivxvdpau) c += "ffodivxvdpau,";
+			if (pref->vdpau.ffhevcvdpau) c += "ffhevcvdpau,";
 			if (!c.isEmpty()) {
 				proc->setOption("vc", c);
 			}
