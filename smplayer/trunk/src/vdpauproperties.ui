@@ -1,7 +1,8 @@
-<ui version="4.0" >
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
  <class>VDPAUProperties</class>
- <widget class="QDialog" name="VDPAUProperties" >
-  <property name="geometry" >
+ <widget class="QDialog" name="VDPAUProperties">
+  <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
@@ -9,76 +10,83 @@
     <height>261</height>
    </rect>
   </property>
-  <property name="windowTitle" >
+  <property name="windowTitle">
    <string>VDPAU Properties</string>
   </property>
-  <layout class="QVBoxLayout" >
+  <layout class="QVBoxLayout">
    <item>
-    <widget class="QLabel" name="label" >
-     <property name="text" >
+    <widget class="QLabel" name="label">
+     <property name="text">
       <string>Select the vdpau codecs to use. Not all of them may work.</string>
      </property>
-     <property name="wordWrap" >
+     <property name="wordWrap">
       <bool>true</bool>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="ffh264vdpau_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="ffh264vdpau_check">
+     <property name="text">
       <string>ffh&amp;264vdpau</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="ffmpeg12vdpau_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="ffmpeg12vdpau_check">
+     <property name="text">
       <string>ff&amp;mpeg12vdpau</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="ffwmv3vdpau_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="ffwmv3vdpau_check">
+     <property name="text">
       <string>ff&amp;wmv3vdpau</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="ffvc1vdpau_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="ffvc1vdpau_check">
+     <property name="text">
       <string>ff&amp;vc1vdpau</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="ffodivxvdpau_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="ffodivxvdpau_check">
+     <property name="text">
       <string>ffodiv&amp;xvdpau</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="Line" name="line" >
-     <property name="orientation" >
+    <widget class="QCheckBox" name="ffhevcvdpau_check">
+     <property name="text">
+      <string>ff&amp;hevcvdpau</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="Line" name="line">
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QCheckBox" name="disable_filters_check" >
-     <property name="text" >
+    <widget class="QCheckBox" name="disable_filters_check">
+     <property name="text">
       <string>&amp;Disable software video filters</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QDialogButtonBox" name="buttonBox" >
-     <property name="orientation" >
+    <widget class="QDialogButtonBox" name="buttonBox">
+     <property name="orientation">
       <enum>Qt::Horizontal</enum>
      </property>
-     <property name="standardButtons" >
-      <set>QDialogButtonBox::Cancel|QDialogButtonBox::NoButton|QDialogButtonBox::Ok</set>
+     <property name="standardButtons">
+      <set>QDialogButtonBox::Cancel|QDialogButtonBox::Ok</set>
      </property>
     </widget>
    </item>
@@ -92,11 +100,11 @@
    <receiver>VDPAUProperties</receiver>
    <slot>accept()</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>248</x>
      <y>254</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>157</x>
      <y>274</y>
     </hint>
@@ -108,11 +116,11 @@
    <receiver>VDPAUProperties</receiver>
    <slot>reject()</slot>
    <hints>
-    <hint type="sourcelabel" >
+    <hint type="sourcelabel">
      <x>316</x>
      <y>260</y>
     </hint>
-    <hint type="destinationlabel" >
+    <hint type="destinationlabel">
      <x>286</x>
      <y>274</y>
     </hint>

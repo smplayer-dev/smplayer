@@ -148,6 +148,7 @@ void Preferences::reset() {
 	vdpau.ffwmv3vdpau = true;
 	vdpau.ffvc1vdpau = true;
 	vdpau.ffodivxvdpau = false;
+	vdpau.ffhevcvdpau = false;
 	vdpau.disable_video_filters = true;
 #endif
 
@@ -693,6 +694,7 @@ void Preferences::save() {
 	set->setValue("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau);
 	set->setValue("vdpau_ffvc1vdpau", vdpau.ffvc1vdpau);
 	set->setValue("vdpau_ffodivxvdpau", vdpau.ffodivxvdpau);
+	set->setValue("vdpau_ffhevcvdpau", vdpau.ffhevcvdpau);
 	set->setValue("vdpau_disable_video_filters", vdpau.disable_video_filters);
 #endif
 
@@ -1263,6 +1265,7 @@ void Preferences::load() {
 	vdpau.ffwmv3vdpau = set->value("vdpau_ffwmv3vdpau", vdpau.ffwmv3vdpau).toBool();
 	vdpau.ffvc1vdpau = set->value("vdpau_ffvc1vdpau", vdpau.ffvc1vdpau).toBool();
 	vdpau.ffodivxvdpau = set->value("vdpau_ffodivxvdpau", vdpau.ffodivxvdpau).toBool();
+	vdpau.ffhevcvdpau = set->value("vdpau_ffhevcvdpau", vdpau.ffhevcvdpau).toBool();
 	vdpau.disable_video_filters = set->value("vdpau_disable_video_filters", vdpau.disable_video_filters).toBool();
 #endif
 

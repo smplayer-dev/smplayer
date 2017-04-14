@@ -125,6 +125,7 @@ public:
 		bool ffwmv3vdpau;
 		bool ffvc1vdpau;
 		bool ffodivxvdpau;
+		bool ffhevcvdpau;
 		bool disable_video_filters;
 	} vdpau;
 #endif

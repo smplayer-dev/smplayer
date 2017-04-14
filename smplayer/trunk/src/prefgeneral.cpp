@@ -977,6 +977,7 @@ void PrefGeneral::on_vdpau_button_clicked() {
 	d.setffwmv3vdpau(vdpau.ffwmv3vdpau);
 	d.setffvc1vdpau(vdpau.ffvc1vdpau);
 	d.setffodivxvdpau(vdpau.ffodivxvdpau);
+	d.setffhevcvdpau(vdpau.ffhevcvdpau);
 
 	d.setDisableFilters(vdpau.disable_video_filters);
 
@@ -986,6 +987,7 @@ void PrefGeneral::on_vdpau_button_clicked() {
 		vdpau.ffwmv3vdpau = d.ffwmv3vdpau();
 		vdpau.ffvc1vdpau = d.ffvc1vdpau();
 		vdpau.ffodivxvdpau = d.ffodivxvdpau();
+		vdpau.ffhevcvdpau = d.ffhevcvdpau();
 
 		vdpau.disable_video_filters = d.disableFilters();
 	}
