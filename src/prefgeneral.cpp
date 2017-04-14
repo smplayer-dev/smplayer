@@ -954,7 +954,7 @@ void PrefGeneral::vo_combo_changed(int idx) {
 	vo_user_defined_edit->setFocus();
 
 #ifndef Q_OS_WIN
-	bool vdpau_button_visible = (vo_combo->itemData(idx).toString() == "vdpau");
+	bool vdpau_button_visible = (vo_combo->itemData(idx).toString() == "vdpau" && mplayerPath().contains("mplayer"));
 	vdpau_button->setVisible(vdpau_button_visible);
 #endif
 }
