@@ -161,6 +161,8 @@
 
   Var YTDL_Exit_Code
 
+  Var MMEngineFlags
+
 ;--------------------------------
 ;Interface Settings
 
@@ -1046,6 +1048,13 @@ Function LoadPreviousSettings
   !insertmacro MUI_STARTMENU_GETFOLDER "SMP_SMenu" $SMPlayer_StartMenuFolder
 
   ${MementoSectionRestore}
+
+  ${If} ${AtMostWinXP}
+    IntOp $MMEngineFlags ${SF_SELECTED} | ${SF_RO}
+    !insertmacro UnSelectSection ${SecMPV}
+    SectionSetFlags ${SecMPlayer} $MMEngineFlags
+    SectionSetFlags ${SecMPV} ${SF_RO}
+  ${EndIf}
 
 FunctionEnd
 
