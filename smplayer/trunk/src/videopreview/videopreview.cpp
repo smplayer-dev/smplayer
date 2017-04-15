@@ -42,6 +42,10 @@
 
 #include <cmath>
 
+#ifndef NO_SMPLAYER_SUPPORT
+#include "inforeader.h"
+#endif
+
 #define RENAME_PICTURES 0
 
 #define N_OUTPUT_FRAMES 1
@@ -277,6 +281,15 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
 		#ifdef MPV_SUPPORT
+		bool use_new_options = false;
+		#ifndef NO_SMPLAYER_SUPPORT
+		{
+		InfoReader * ir = InfoReader::obj(mplayer_bin);
+		ir->getInfo();
+		use_new_options = ir->optionList().contains("--vo-image-format");
+		}
+		#endif
+
 		// MPV
 		args << "--no-config" << "--no-audio" << "--no-cache";
 		args << "--frames=" + QString::number(N_OUTPUT_FRAMES);
@@ -285,15 +298,15 @@ bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 			args << "--video-aspect=" + QString::number(aspect_ratio);
 		}
 		if (!prop.dvd_device.isEmpty()) args << "--dvd-device=" + prop.dvd_device;
-		#if 0
-		QString format = (prop.extract_format == PNG) ? "png:png-compression=0" : "jpg";
-		args << QString("--vo=image=format=%1:outdir=\"%2\"").arg(format).arg(full_output_dir);
-		#else
-		QString format = (prop.extract_format == PNG) ? "png" : "jpg";
-		args << "--vo-image-format=" + format << "--vo-image-outdir=" + full_output_dir;
-		args << "--vo=image";
-		if (prop.extract_format == PNG) args << "--vo-image-png-compression=0";
-		#endif
+		if (!use_new_options) {
+			QString format = (prop.extract_format == PNG) ? "png:png-compression=0" : "jpg";
+			args << QString("--vo=image=format=%1:outdir=\"%2\"").arg(format).arg(full_output_dir);
+		} else {
+			QString format = (prop.extract_format == PNG) ? "png" : "jpg";
+			args << "--vo-image-format=" + format << "--vo-image-outdir=" + full_output_dir;
+			args << "--vo=image";
+			if (prop.extract_format == PNG) args << "--vo-image-png-compression=0";
+		}
 
 		/*
 		#ifdef Q_OS_WIN
