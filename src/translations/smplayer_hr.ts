@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE TS>
-<TS version="2.0" language="hr">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="hr" version="2.0">
 <context>
     <name>About</name>
     <message>
@@ -1070,7 +1068,7 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
     <message>
         <location filename="../basegui.cpp" line="1871"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>Prikaži trenutno vrijeme s &amp;milisekundama</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -2224,68 +2222,68 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
 <context>
     <name>Core</name>
     <message>
-        <location filename="../core.cpp" line="3066"/>
+        <location filename="../core.cpp" line="3065"/>
         <source>Brightness: %1</source>
         <translation>Svjetlina: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3082"/>
+        <location filename="../core.cpp" line="3081"/>
         <source>Contrast: %1</source>
         <translation>Kontrast: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3097"/>
+        <location filename="../core.cpp" line="3096"/>
         <source>Gamma: %1</source>
         <translation>Gama: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3112"/>
+        <location filename="../core.cpp" line="3111"/>
         <source>Hue: %1</source>
         <translation>Ton boje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3127"/>
+        <location filename="../core.cpp" line="3126"/>
         <source>Saturation: %1</source>
         <translation>Zasićenje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3270"/>
+        <location filename="../core.cpp" line="3269"/>
         <source>Volume: %1</source>
         <translation>Glasnoća zvuka: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4180"/>
+        <location filename="../core.cpp" line="4179"/>
         <source>Zoom: %1</source>
         <translation>Zumiranje: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3398"/>
-        <location filename="../core.cpp" line="3409"/>
+        <location filename="../core.cpp" line="3397"/>
+        <location filename="../core.cpp" line="3408"/>
         <source>Font scale: %1</source>
         <translation>Promjena veličine slova: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4011"/>
+        <location filename="../core.cpp" line="4010"/>
         <source>Aspect ratio: %1</source>
         <translation>Omjer slike: %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4413"/>
+        <location filename="../core.cpp" line="4412"/>
         <source>Updating the font cache. This may take some seconds...</source>
         <translation>Nadopuna priručne memorije slova. Ovo može potrajati nekoliko sekundi...</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3323"/>
+        <location filename="../core.cpp" line="3322"/>
         <source>Subtitle delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje podnasalova: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3341"/>
+        <location filename="../core.cpp" line="3340"/>
         <source>Audio delay: %1 ms</source>
         <translation>Kašnjenje/Prednačenje zvuka: %1 ms</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3181"/>
+        <location filename="../core.cpp" line="3180"/>
         <source>Speed: %1</source>
         <translation>Brzina: %1</translation>
     </message>
@@ -2300,42 +2298,42 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Nemoguće pronalažanje URL video snimke</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3494"/>
+        <location filename="../core.cpp" line="3493"/>
         <source>Subtitles on</source>
         <translation>Podnaslovi uključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="3496"/>
+        <location filename="../core.cpp" line="3495"/>
         <source>Subtitles off</source>
         <translation>Podnaslovi isključeni</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4059"/>
+        <location filename="../core.cpp" line="4058"/>
         <source>Mouse wheel seeks now</source>
         <translation>Kotačić miša trenutno pretražuje</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4062"/>
+        <location filename="../core.cpp" line="4061"/>
         <source>Mouse wheel changes volume now</source>
         <translation>Kotačić miša trenutno mijenja glasnoću zvuka</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4065"/>
+        <location filename="../core.cpp" line="4064"/>
         <source>Mouse wheel changes zoom level now</source>
         <translation>Kotačić miša trenutno mijenja razinu zumiranja</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4068"/>
+        <location filename="../core.cpp" line="4067"/>
         <source>Mouse wheel changes speed now</source>
         <translation>Kotačić miša trenutno mijenja brzinu</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4389"/>
+        <location filename="../core.cpp" line="4388"/>
         <source>Screenshot saved as %1</source>
         <translation>Snimka zaslona spremljena kao %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="4424"/>
+        <location filename="../core.cpp" line="4423"/>
         <source>Starting...</source>
         <translation>Pokretanje...</translation>
     </message>
@@ -2350,17 +2348,17 @@ Dijalog podešavanja sada će biti prikazan, tako da ih možete postaviti.</tran
         <translation>Snimke zaslona NISU snimljene, mapa nije podešena</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2710"/>
+        <location filename="../core.cpp" line="2709"/>
         <source>&quot;A&quot; marker set to %1</source>
         <translation>&quot;A&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2732"/>
+        <location filename="../core.cpp" line="2731"/>
         <source>&quot;B&quot; marker set to %1</source>
         <translation>&quot;B&quot; oznaka je postavljena na %1</translation>
     </message>
     <message>
-        <location filename="../core.cpp" line="2752"/>
+        <location filename="../core.cpp" line="2751"/>
         <source>A-B markers cleared</source>
         <translation>A-B odabir uklonjen</translation>
     </message>
@@ -2952,11 +2950,7 @@ Npr: extrastereo,karaoke</translation>
     <message numerus="yes">
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="705"/>
         <source>%n subtitle(s) extracted</source>
-        <translation>
-            <numerusform>%n podnaslov raspakiran</numerusform>
-            <numerusform>%n podnaslova raspakirana</numerusform>
-            <numerusform>%n podnaslova raspakirano</numerusform>
-        </translation>
+        <translation><numerusform>%n podnaslov raspakiran</numerusform><numerusform>%n podnaslova raspakirana</numerusform><numerusform>%n podnaslova raspakirano</numerusform></translation>
     </message>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="765"/>
@@ -3054,7 +3048,7 @@ Npr: extrastereo,karaoke</translation>
     <message>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="531"/>
         <location filename="../findsubtitles/findsubtitleswindow.cpp" line="638"/>
-        <source>It wasn&apos;t possible to save the downloaded
+        <source>It wasn't possible to save the downloaded
 file in folder %1
 Please check the permissions of that folder.</source>
         <translation>Nemoguće je spremanje preuzete
@@ -5673,7 +5667,7 @@ Do you want to overwrite?</source>
     <name>PrefGeneral</name>
     <message>
         <location filename="../prefgeneral.cpp" line="144"/>
-        <location filename="../prefgeneral.cpp" line="1000"/>
+        <location filename="../prefgeneral.cpp" line="998"/>
         <source>General</source>
         <translation>Općenito</translation>
     </message>
@@ -5688,12 +5682,12 @@ Do you want to overwrite?</source>
         <translation>Postavke medija</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1140"/>
+        <location filename="../prefgeneral.cpp" line="1138"/>
         <source>Start videos in fullscreen</source>
         <translation>Pokreni reprodukciju video zapisa u cijelozaslonskom prikazu</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1171"/>
+        <location filename="../prefgeneral.cpp" line="1169"/>
         <source>Disable screensaver</source>
         <translation>Onemogući čuvara zaslona</translation>
     </message>
@@ -5739,117 +5733,117 @@ Do you want to overwrite?</source>
         <translation>Zadano</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1003"/>
+        <location filename="../prefgeneral.cpp" line="1001"/>
         <source>Multimedia engine</source>
         <translation>Multimedijski pogon</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1004"/>
+        <location filename="../prefgeneral.cpp" line="1002"/>
         <source>Select which multimedia engine you want to use, either MPlayer or mpv.</source>
         <translation>Odaberite koji multimedijski pogon želite koristiti, MPlayer ili mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1005"/>
+        <location filename="../prefgeneral.cpp" line="1003"/>
         <source>The option &apos;other&apos; allows you to manually select the path of the executable.</source>
         <translation>Mogućnost &apos;Ostali...&apos; omogućuje vam ručni odabir putanje izvršne datoteke.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1008"/>
+        <location filename="../prefgeneral.cpp" line="1006"/>
         <source>%1 executable</source>
         <translation>%1 izvršna datoteka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1009"/>
+        <location filename="../prefgeneral.cpp" line="1007"/>
         <source>Here you must specify the %1 executable that SMPlayer will use.</source>
         <translation>Ovdje morate odrediti %1 izvršnu datoteku koju će SMPlayer koristiti.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1024"/>
+        <location filename="../prefgeneral.cpp" line="1022"/>
         <source>Remember settings for streams</source>
         <translation>Zapamti postavke za streamove</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1025"/>
+        <location filename="../prefgeneral.cpp" line="1023"/>
         <source>When this option is enabled the settings for online streams will be remembered as well.</source>
         <translation>Kada je ova mogućnost odabrana, postavke za mrežne streamove će biti zapamćena.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1040"/>
+        <location filename="../prefgeneral.cpp" line="1038"/>
         <source>Screenshots folder</source>
         <translation>Mapa snimaka zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1046"/>
+        <location filename="../prefgeneral.cpp" line="1044"/>
         <source>Template for screenshots</source>
         <translation>Predložak snimki zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1048"/>
+        <location filename="../prefgeneral.cpp" line="1046"/>
         <source>For example %1 would save the screenshot as &apos;moviename_0001.png&apos;.</source>
         <translation>Npr. %1 će spremiti snimku zaslona kao &apos;moviename_0001.png&apos;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1049"/>
+        <location filename="../prefgeneral.cpp" line="1047"/>
         <source>%1 specifies the filename of the video without the extension, %2 adds a 4 digit number padded with zeros.</source>
         <translation>%1 određuje naziv datoteke video snimke bez dodatka vrste datoteke, %2 dodaje 4 znamenkasti broj sadržan nulama.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1059"/>
+        <location filename="../prefgeneral.cpp" line="1057"/>
         <source>Format for screenshots</source>
         <translation>Format snimke zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1060"/>
+        <location filename="../prefgeneral.cpp" line="1058"/>
         <source>This option allows to choose the image file type used for saving screenshots.</source>
         <translation>Ova mogućnost omogućuje odabir vrste datoteke slike koji se koristi pri spremanju snimaka zaslona.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1078"/>
+        <location filename="../prefgeneral.cpp" line="1076"/>
         <source>If this option is enabled, the computer will shut down just after SMPlayer is closed.</source>
         <translation>Ako je ova mogućnost omogućena, računalo će se isključiti nakon što se SMPlayer zatvori.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1084"/>
+        <location filename="../prefgeneral.cpp" line="1082"/>
         <source>Video output driver</source>
         <translation>Upravljački program video izlaza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1085"/>
+        <location filename="../prefgeneral.cpp" line="1083"/>
         <source>Select the video output driver.</source>
         <translation>Odaberi upravljački program video izlaza.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1110"/>
+        <location filename="../prefgeneral.cpp" line="1108"/>
         <source>If this option is enabled, black borders will be added to the image by default on new opened files.</source>
         <translation>Ako je ova mogućnost omogućena, crni rubovi će se dodati po zadanome na sliku novo otvorenih datoteka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1180"/>
+        <location filename="../prefgeneral.cpp" line="1178"/>
         <source>Audio output driver</source>
         <translation>Upravljački program zvučnog izlaza</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1181"/>
+        <location filename="../prefgeneral.cpp" line="1179"/>
         <source>Select the audio output driver.</source>
         <translation>Odaberi upravljački program zvučnog izlaza.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1014"/>
+        <location filename="../prefgeneral.cpp" line="1012"/>
         <source>Remember settings</source>
         <translation>Zapamti postavke</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1239"/>
+        <location filename="../prefgeneral.cpp" line="1237"/>
         <source>Preferred audio language</source>
         <translation>Željeni jezik zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1249"/>
+        <location filename="../prefgeneral.cpp" line="1247"/>
         <source>Preferred subtitle language</source>
         <translation>Željeni jezik podnaslova</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1118"/>
+        <location filename="../prefgeneral.cpp" line="1116"/>
         <source>Software video equalizer</source>
         <translation>Softverski ekvalizator slike</translation>
     </message>
@@ -5859,83 +5853,83 @@ Do you want to overwrite?</source>
         <translation>Ostali...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1047"/>
+        <location filename="../prefgeneral.cpp" line="1045"/>
         <source>This option specifies the filename template used to save screenshots.</source>
         <translation>Ova mogućnost određuje predložak naziva datoteke koji se koristi pri spremanju snimaka zaslona.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1051"/>
+        <location filename="../prefgeneral.cpp" line="1049"/>
         <source>For a full list of the template specifiers visit this link:</source>
         <translation>Za cjelokupni popis simbola predložaka posjetite poveznicu:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1055"/>
-        <location filename="../prefgeneral.cpp" line="1062"/>
+        <location filename="../prefgeneral.cpp" line="1053"/>
+        <location filename="../prefgeneral.cpp" line="1060"/>
         <source>This option only works with mpv.</source>
         <translation>Ova mogućnost radi samo s mpv.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1077"/>
+        <location filename="../prefgeneral.cpp" line="1075"/>
         <source>Shut down computer</source>
         <translation>Isključi računalo</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1109"/>
+        <location filename="../prefgeneral.cpp" line="1107"/>
         <source>Add black borders for subtitles by default</source>
         <translation>Dodaj zadano crne rubove za podnaslove</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1119"/>
+        <location filename="../prefgeneral.cpp" line="1117"/>
         <source>You can check this option if video equalizer is not supported by your graphic card or the selected video output driver.&lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; this option can be incompatible with some video output drivers.</source>
         <translation>Možete odabrati ovu mogućnost ako ekvalizator slike ne podržava vaša grafička kartica ili odabrani upravljački program video izlaza&lt;br&gt;&lt;b&gt;Napomena:&lt;/b&gt; ova mogućnost može biti nekompatibilna s nekim upravljačkim programima video izlaza.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1141"/>
+        <location filename="../prefgeneral.cpp" line="1139"/>
         <source>If this option is checked, all videos will start to play in fullscreen mode.</source>
         <translation>Ako je ova mogućnost odabrana, svi video zapisi će započeti reprodukciju u cijelozaslonskom prikazu.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1186"/>
+        <location filename="../prefgeneral.cpp" line="1184"/>
         <source>Global audio equalizer</source>
         <translation>Globalni zvučni ekvalizator</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1187"/>
+        <location filename="../prefgeneral.cpp" line="1185"/>
         <source>If this option is checked, all media files share the audio equalizer.</source>
         <translation>Ako je ova mogućnost odabrana, sve medijske datoteke koriste zvučni ekvalizator.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1188"/>
+        <location filename="../prefgeneral.cpp" line="1186"/>
         <source>If it&apos;s not checked, the audio equalizer values are saved along each file and loaded back when the file is played later.</source>
         <translation>Ako ova mogućnost nije odabrana, vrijednosti zvučnog ekvalizatora su spremljene za svaku datoteku posebno i učitava se ponovno kada se datoteka opet reproducira. </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1197"/>
+        <location filename="../prefgeneral.cpp" line="1195"/>
         <source>Requests the number of playback channels. %1 asks the decoder to decode the audio into as many channels as specified. Then it is up to the decoder to fulfill the requirement. This is usually only important when playing videos with AC3 audio (like DVDs). In that case liba52 does the decoding by default and correctly downmixes the audio into the requested number of channels. &lt;b&gt;Note&lt;/b&gt;: This option is honored by codecs (AC3 only), filters (surround) and audio output drivers (OSS at least).</source>
         <translation>Zahtijeva broj kanala reprodukcije. %1 pita dekôder da dekôdira zvuk u onoliko kanala koliko ih je postavljeno. Tada je do dekôdera da ispuni postavljeno. Ovo je obično važno kada se reproduciraju video zapisi s AC3 zvučnim zapisom (poput DVD-a). U tom slučaju liba52 dekôdira i ispravno obrađuje zvučni zapis u željeni broj kanala. &lt;b&gt;Napomena&lt;/b&gt;: Ova mogućnost je podržana kôdekima (AC3 samo), filtrima (surround) i izlaznog zvučnog upravljačkog programa (barem OSS-a).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1208"/>
+        <location filename="../prefgeneral.cpp" line="1206"/>
         <source>Allows to change the playback speed without altering pitch.</source>
         <translation>Dopušta promjenu brzine reprodukcije bez promjene visine zvuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1216"/>
+        <location filename="../prefgeneral.cpp" line="1214"/>
         <source>Software volume control</source>
         <translation>Softversko upravljanje glasnoćom zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1217"/>
+        <location filename="../prefgeneral.cpp" line="1215"/>
         <source>Check this option to use the software mixer, instead of using the sound card mixer.</source>
         <translation>Odaberite ovu mogućnost da bi koristili softverski mikser, umjesto korištenja miksera zvučne kartice.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1098"/>
+        <location filename="../prefgeneral.cpp" line="1096"/>
         <source>Postprocessing quality</source>
         <translation>Kvaliteta dodatne obrade</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1099"/>
+        <location filename="../prefgeneral.cpp" line="1097"/>
         <source>Dynamically changes the level of postprocessing depending on the available spare CPU time. The number you specify will be the maximum level used. Usually you can use some big number.</source>
         <translation>Dinamički mijenja razinu dodatne obrade ovisno o raspoloživom slobodnom vremenu CPU-a.Broj koji odredite biti će maksimalna korištena razina. Obično možete koristiti neki veliki broj.</translation>
     </message>
@@ -6015,12 +6009,12 @@ Do you want to overwrite?</source>
         <translation>&amp;AC3/DTS se reproducira kroz S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1124"/>
+        <location filename="../prefgeneral.cpp" line="1122"/>
         <source>Direct rendering</source>
         <translation>Izravno prikazivanje</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1129"/>
+        <location filename="../prefgeneral.cpp" line="1127"/>
         <source>Double buffering</source>
         <translation>Dvostruka međupohrana</translation>
     </message>
@@ -6035,7 +6029,7 @@ Do you want to overwrite?</source>
         <translation>Dvo&amp;struka međupohrana</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1130"/>
+        <location filename="../prefgeneral.cpp" line="1128"/>
         <source>Double buffering fixes flicker by storing two frames in memory, and displaying one while decoding another. If disabled it can affect OSD negatively, but often removes OSD flickering.</source>
         <translation>Dvostruka međupohrana ispravlja treperenje spremanjem dvije sličice u memoriju i prikazivanjem jedne prilikom dekôdiranja druge. Ako je onemogućeno to može negativno utjecati na OSD, ali često uklanja OSD treperenje.</translation>
     </message>
@@ -6050,12 +6044,12 @@ Do you want to overwrite?</source>
         <translation>Normalizacija &amp;glasnoće zvuka zadana</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1072"/>
+        <location filename="../prefgeneral.cpp" line="1070"/>
         <source>Close when finished</source>
         <translation>Zatvori kada je završeno</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1073"/>
+        <location filename="../prefgeneral.cpp" line="1071"/>
         <source>If this option is checked, the main window will be automatically closed when the current file/playlist finishes.</source>
         <translation>Ako je ova mogućnost odabrana, glavni prozor će se automatski zatvoriti kada reprodukcija trenutne datoteke/popisa izvođenja završi.</translation>
     </message>
@@ -6085,67 +6079,67 @@ Do you want to overwrite?</source>
         <translation>&amp;Pauziraj kada je prozor smanjen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1067"/>
+        <location filename="../prefgeneral.cpp" line="1065"/>
         <source>Pause when minimized</source>
         <translation>Pauziraj kada je prozor smanjen</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1095"/>
+        <location filename="../prefgeneral.cpp" line="1093"/>
         <source>Enable postprocessing by default</source>
         <translation>Omogući dodatnu obradu zadanom</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1220"/>
+        <location filename="../prefgeneral.cpp" line="1218"/>
         <source>Max. Amplification</source>
         <translation>Maks. pojačanje</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1191"/>
+        <location filename="../prefgeneral.cpp" line="1189"/>
         <source>AC3/DTS pass-through S/PDIF</source>
         <translation>AC3/DTS se reproducira kroz S/PDIF</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1227"/>
+        <location filename="../prefgeneral.cpp" line="1225"/>
         <source>Volume normalization by default</source>
         <translation>Normalizacija glasnoće zvuka zadana</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1228"/>
+        <location filename="../prefgeneral.cpp" line="1226"/>
         <source>Maximizes the volume without distorting the sound.</source>
         <translation>Pojačaj glasnoću zvuka bez izobličenja zvuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1196"/>
+        <location filename="../prefgeneral.cpp" line="1194"/>
         <source>Channels by default</source>
         <translation>Zadani kanali</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1221"/>
+        <location filename="../prefgeneral.cpp" line="1219"/>
         <source>Sets the maximum amplification level in percent (default: 110). A value of 200 will allow you to adjust the volume up to a maximum of double the current level. With values below 100 the initial volume (which is 100%) will be above the maximum, which e.g. the OSD cannot display correctly.</source>
         <translation>Postavite maks. razinu pojačanja u postocima (zadano: 110). Vrijednost od 200 dopustit će vam da prilagodite glasnoću zvuka maksimalno do dvostrukog od trenutne razine. S vrijednostima ispod 100 početna glasnoća zvuka (koja je 100%) biti će iznad maksimuma, koji npr. OSD ne može prikazati ispravno.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1096"/>
+        <location filename="../prefgeneral.cpp" line="1094"/>
         <source>Postprocessing will be used by default on new opened files.</source>
         <translation>Dodatna obrada će se koristiti zadano na novo otvorenim zapisima.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1259"/>
+        <location filename="../prefgeneral.cpp" line="1257"/>
         <source>Audio track</source>
         <translation>Zvučni zapis</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1260"/>
+        <location filename="../prefgeneral.cpp" line="1258"/>
         <source>Specifies the default audio track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred audio language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Odredite zadani zvučni zapis koji će se koristiti prilikom reprodukcije novih datoteka. Ako zapis ne postoji, prvi po redu će se koristiti. &lt;br&gt;&lt;b&gt;Napomena:&lt;/b&gt; &lt;i&gt;&quot;željeni jezik zvučnog zapisa&quot;&lt;/i&gt; ima prednost nad ovom mogućnosti.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1265"/>
+        <location filename="../prefgeneral.cpp" line="1263"/>
         <source>Subtitle track</source>
         <translation>Zapis podnaslova</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1266"/>
+        <location filename="../prefgeneral.cpp" line="1264"/>
         <source>Specifies the default subtitle track which will be used when playing new files. If the track doesn&apos;t exist, the first one will be used. &lt;br&gt;&lt;b&gt;Note:&lt;/b&gt; the &lt;i&gt;&quot;preferred subtitle language&quot;&lt;/i&gt; has preference over this option.</source>
         <translation>Odredite zadani zapis podnaslova koji će se koristiti prilikom reprodukcije novih datoteka. Ako zapis ne postoji, prvi po redu će se koristiti. &lt;br&gt;&lt;b&gt;Napomena:&lt;/b&gt; &lt;i&gt;&quot;željeni jezik zapisa podnaslova&quot;&lt;/i&gt; ima prednost nad ovom mogućnosti.</translation>
     </message>
@@ -6185,7 +6179,7 @@ Do you want to overwrite?</source>
         <translation>Visoka brzina &amp;reprodukcije bez promjene visine zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1207"/>
+        <location filename="../prefgeneral.cpp" line="1205"/>
         <source>High speed playback without altering pitch</source>
         <translation>Visoka brzina reprodukcije bez promjene visine zvuka</translation>
     </message>
@@ -6215,17 +6209,17 @@ Do you want to overwrite?</source>
         <translation>Glasnoća zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1082"/>
+        <location filename="../prefgeneral.cpp" line="1080"/>
         <source>Video</source>
         <translation>Slika</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1178"/>
+        <location filename="../prefgeneral.cpp" line="1176"/>
         <source>Audio</source>
         <translation>Zvuk</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1237"/>
+        <location filename="../prefgeneral.cpp" line="1235"/>
         <source>Preferred audio and subtitles</source>
         <translation>Željeni zvučni zapisi i podnaslovi</translation>
     </message>
@@ -6260,17 +6254,17 @@ Do you want to overwrite?</source>
         <translation>Kerndeint</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1103"/>
+        <location filename="../prefgeneral.cpp" line="1101"/>
         <source>Deinterlace by default</source>
         <translation>Zadano raspletanje </translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1104"/>
+        <location filename="../prefgeneral.cpp" line="1102"/>
         <source>Select the deinterlace filter that you want to be used for new videos opened.</source>
         <translation>Odaberi filter raspletanja koji želite koristiti pri pokretanju novog video zapisa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1019"/>
+        <location filename="../prefgeneral.cpp" line="1017"/>
         <source>Remember time position</source>
         <translation>Zapamti položaj vremena reprodukcije</translation>
     </message>
@@ -6280,12 +6274,12 @@ Do you want to overwrite?</source>
         <translation>Zapamti &amp;položaj vremena reprodukcije</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1183"/>
+        <location filename="../prefgeneral.cpp" line="1181"/>
         <source>Enable the audio equalizer</source>
         <translation>Omogući zvučni ekvalizator</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1184"/>
+        <location filename="../prefgeneral.cpp" line="1182"/>
         <source>Check this option if you want to use the audio equalizer.</source>
         <translation>Odaberite ovu mogućnost ako želite koristiti zvučni ekvalizator.</translation>
     </message>
@@ -6295,12 +6289,12 @@ Do you want to overwrite?</source>
         <translation>&amp;Omogući zvučni ekvalizator</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1134"/>
+        <location filename="../prefgeneral.cpp" line="1132"/>
         <source>Draw video using slices</source>
         <translation>Iscrtaj sliku pomoću isječka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1135"/>
+        <location filename="../prefgeneral.cpp" line="1133"/>
         <source>Enable/disable drawing video by 16-pixel height slices/bands. If disabled, the whole frame is drawn in a single run. May be faster or slower, depending on video card and available cache. It has effect only with libmpeg2 and libavcodec codecs.</source>
         <translation>Omogući/Onemogući iscrtavanje slike sa 16-piksela visokim isječcima/trakama. Ako je onemogućeno, cijela sličica je iscrtana u jednom pokretu. Može biti brže ili sporije, ovisno o video kartici i dostupnoj predmemoriji. Ima učinak samo sa libmpeg2 i libavcodec kôdekima.</translation>
     </message>
@@ -6339,12 +6333,12 @@ Do you want to overwrite?</source>
         <translation>Definirao korisnik...</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1114"/>
+        <location filename="../prefgeneral.cpp" line="1112"/>
         <source>Default zoom</source>
         <translation>Zadano zumiranje</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1115"/>
+        <location filename="../prefgeneral.cpp" line="1113"/>
         <source>This option sets the default zoom which will be used for new videos.</source>
         <translation>Ova mogućnost postavlja zadano zumiranje koje će se koristiti za nove video zapise.</translation>
     </message>
@@ -6354,32 +6348,32 @@ Do you want to overwrite?</source>
         <translation>Zadano &amp;zumiranje:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1011"/>
+        <location filename="../prefgeneral.cpp" line="1009"/>
         <source>If this setting is wrong, SMPlayer won&apos;t be able to play anything!</source>
         <translation>Ako je ovo podešeno pogrešno, SMPlayer neće moći ništa reproducirati!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1015"/>
+        <location filename="../prefgeneral.cpp" line="1013"/>
         <source>Usually SMPlayer will remember the settings for each file you play (audio track selected, volume, filters...). Disable this option if you don&apos;t like this feature.</source>
         <translation>SMPlayer će zapamtiti postavke za svaku datoteku koja se reproducira (odabrani zvučni zapisi, glasnoća zvuka, filtri...). Isključite ovu mogućnost ako vam takva značajka nije potrebna.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1068"/>
+        <location filename="../prefgeneral.cpp" line="1066"/>
         <source>If this option is enabled, the file will be paused when the main window is hidden. When the window is restored, playback will be resumed.</source>
         <translation>Ako je ova mogućnost odabrana, reprodukcija će biti pauzirana kada je glavni prozor sakriven. Kada se prozor otkrije, reprodukcija će se nastaviti.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1172"/>
+        <location filename="../prefgeneral.cpp" line="1170"/>
         <source>Check this option to disable the screensaver while playing.&lt;br&gt;The screensaver will enabled again when play finishes.</source>
         <translation>Odaberite ovu mogućnost za onemogućavanje čuvara zaslona tijekom reprodukcije.&lt;br&gt;Čuvar zaslona će se ponovno omogućiti kada reprodukcija završi.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1240"/>
+        <location filename="../prefgeneral.cpp" line="1238"/>
         <source>Here you can type your preferred language for the audio streams. When a media with multiple audio streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the audio streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the audio track if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Ovdje možete upisati željeni jezik zvučnih zapisa. Kada je medij sa višestrukim zvučnim zapisom pronađen, SMPlayer će probati koristiti vaš željeni jezik.&lt;br&gt;Ovo će jedino raditi sa medijima koji pružaju informacije o jeziku zvučnog zapisa, poput DVD-a ili mkv datoteka.&lt;br&gt;Ova polja primaju osnovne izraze. Npr.: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati zvučni zapis ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1250"/>
+        <location filename="../prefgeneral.cpp" line="1248"/>
         <source>Here you can type your preferred language for the subtitle stream. When a media with multiple subtitle streams is found, SMPlayer will try to use your preferred language.&lt;br&gt;This only will work with media that offer info about the language of the subtitle streams, like DVDs or mkv files.&lt;br&gt;This field accepts regular expressions. Example: &lt;b&gt;es|esp|spa&lt;/b&gt; will select the subtitle stream if it matches with &lt;i&gt;es&lt;/i&gt;, &lt;i&gt;esp&lt;/i&gt; or &lt;i&gt;spa&lt;/i&gt;.</source>
         <translation>Ovdje možete upisati željeni jezik podnaslova. Kada je medij sa višestrukim podnaslovima pronađen, SMPlayer će probati koristiti vaš željeni jezik.&lt;br&gt;Ovo će jedino raditi sa medijima koji pružaju informacije o jeziku podnaslova, poput DVD-a ili mkv datoteka.&lt;br&gt;Ova polja primaju osnovne izraze. Npr.: &lt;b&gt;hr|hrv|cro&lt;/b&gt; će odabrati podnaslov ako se podudara sa &lt;i&gt;hr&lt;/i&gt;, &lt;i&gt;hrv&lt;/i&gt; ili &lt;i&gt;cro&lt;/i&gt;.</translation>
     </message>
@@ -6390,12 +6384,12 @@ Do you want to overwrite?</source>
         <translation>Iz&amp;lazni upravljački program:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1145"/>
+        <location filename="../prefgeneral.cpp" line="1143"/>
         <source>Add black borders on fullscreen</source>
         <translation>Dodaj crne obrube u cijelozaslonskom prikazu</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1146"/>
+        <location filename="../prefgeneral.cpp" line="1144"/>
         <source>If this option is enabled, black borders will be added to the image in fullscreen mode. This allows subtitles to be displayed on the black borders.</source>
         <translation>Ako je ova mogućnost odabrana, crni obrubi biti će dodani prikazanoj slici u cjelozaslonskom prikazu. To omogućuje prikaz podnaslova na crnom obrubu.</translation>
     </message>
@@ -6415,22 +6409,22 @@ Do you want to overwrite?</source>
         <translation>višestruke ini datoteke</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1027"/>
+        <location filename="../prefgeneral.cpp" line="1025"/>
         <source>Method to store the file settings</source>
         <translation>Način spremanja datoteke postavki</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1028"/>
+        <location filename="../prefgeneral.cpp" line="1026"/>
         <source>This option allows to change the way the file settings would be stored. The following options are available:</source>
         <translation>Ova mogućnost dopušta vam izmjenu načina spremanja datoteka postavki. Sljedeće mogućnosti su dostupne:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1030"/>
+        <location filename="../prefgeneral.cpp" line="1028"/>
         <source>&lt;b&gt;one ini file&lt;/b&gt;: the settings for all played files will be saved in a single ini file (%1)</source>
         <translation>&lt;b&gt;jednu ini datoteku&lt;/b&gt;: postavke za sve reproducirane datoteke biti će spremljene u jednu ini datoteku (%1)</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1034"/>
+        <location filename="../prefgeneral.cpp" line="1032"/>
         <source>The latter method could be faster if there is info for a lot of files.</source>
         <translation>Potonja metoda može biti brža ako postoje informacije za puno datoteka.</translation>
     </message>
@@ -6440,32 +6434,32 @@ Do you want to overwrite?</source>
         <translation>&amp;Spremi postavke u</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1032"/>
+        <location filename="../prefgeneral.cpp" line="1030"/>
         <source>&lt;b&gt;multiple ini files&lt;/b&gt;: one ini file will be used for each played file. Those ini files will be saved in the folder %1</source>
         <translation>&lt;b&gt;višestruke ini datoteke&lt;/b&gt;: jedna ini datoteka će se koristiti za svaku reproduciranu datoteku. Te ini datoteke će se spremati u mapu %1</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1020"/>
+        <location filename="../prefgeneral.cpp" line="1018"/>
         <source>If you check this option, SMPlayer will remember the last position of the file when you open it again. This option works only with regular files (not with DVDs, CDs, URLs...).</source>
         <translation>Ako odaberete ovu mogućnost, SMPlayer će zapamtiti zadnji položaj reproducirane datoteke kada je ponovno otvorite. Ova mogućnost radi samo sa normalnim datotekama (ne radi sa DVD-ovima, CD-ima, URL-ovima...).</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1125"/>
+        <location filename="../prefgeneral.cpp" line="1123"/>
         <source>If checked, turns on direct rendering (not supported by all codecs and video outputs)&lt;br&gt;&lt;b&gt;Warning:&lt;/b&gt; May cause OSD/SUB corruption!</source>
         <translation>Ako je odabrano, uključuje izravan prikaz (nije podržano za sve kôdeke i video izlaze)&lt;br&gt;&lt;b&gt;Upozorenje:&lt;/b&gt; Može uzrokovati OSD/SUB greške!</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1036"/>
+        <location filename="../prefgeneral.cpp" line="1034"/>
         <source>Enable screenshots</source>
         <translation>Omogući snimke zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1037"/>
+        <location filename="../prefgeneral.cpp" line="1035"/>
         <source>You can use this option to enable or disable the possibility to take screenshots.</source>
         <translation>Možete koristiti ovu mogućnost za uključivanje/isključivanje mogućnosti uzimanja snimka zaslona.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1041"/>
+        <location filename="../prefgeneral.cpp" line="1039"/>
         <source>Here you can specify a folder where the screenshots taken by SMPlayer will be stored. If the folder is not valid the screenshot feature will be disabled.</source>
         <translation>Ovdje možete odrediti mapu gdje će se snimke zaslona snimljene SMPlayerom spremiti. Ako mapa nije valjana snimanje zaslona biti će onemogućeno.</translation>
     </message>
@@ -6485,17 +6479,17 @@ Do you want to overwrite?</source>
         <translation>&amp;Mapa:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1210"/>
+        <location filename="../prefgeneral.cpp" line="1208"/>
         <source>Global volume</source>
         <translation>Globalna glasnoća zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1211"/>
+        <location filename="../prefgeneral.cpp" line="1209"/>
         <source>If this option is checked, the same volume will be used for all files you play. If the option is not checked each file uses its own volume.</source>
         <translation>Ako je ova mogućnost odabrana, glasnoća zvuka je ista za sve datoteke koje se reproduciraju. Ako ova mogućnost nije odabrana svaka datoteka će koristiti svoju glasnoću zvuka.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1214"/>
+        <location filename="../prefgeneral.cpp" line="1212"/>
         <source>This option also applies for the mute control.</source>
         <translation>Ova mogućnost isto tako zahvaća upravljanje utišivanja glasnoće zvuka.</translation>
     </message>
@@ -6505,22 +6499,22 @@ Do you want to overwrite?</source>
         <translation>Glo&amp;balna glasnoća zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1156"/>
+        <location filename="../prefgeneral.cpp" line="1154"/>
         <source>Switch screensaver off</source>
         <translation>Isključi čuvara zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1157"/>
+        <location filename="../prefgeneral.cpp" line="1155"/>
         <source>This option switches the screensaver off just before starting to play a file and switches it on when playback finishes. If this option is enabled, the screensaver won&apos;t appear even if playing audio files or when a file is paused.</source>
         <translation>Ova mogućnost isključuje čuvara zaslona malo prije početka reprodukcije datoteke i uključuje ga kada je reprodukcija završena. Ako je ova mogućnost odabrana, čuvar zaslona neće se pojaviti i pri reprodukciji zvučnog zaspisa ili pauze.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1163"/>
+        <location filename="../prefgeneral.cpp" line="1161"/>
         <source>Avoid screensaver</source>
         <translation>Izbjegavaj čuvara zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1164"/>
+        <location filename="../prefgeneral.cpp" line="1162"/>
         <source>When this option is checked, SMPlayer will try to prevent the screensaver to be shown when playing a video file. The screensaver will be allowed to be shown if playing an audio file or in pause mode. This option only works if the SMPlayer window is in the foreground.</source>
         <translation>Kada je ova mogućnost odabrana, SMplayer će pokušati onemogućiti čuvara zaslona dok se reproducira video datoteka ali ne i dok se reproducira glazbena datoteka ili dok je pauzirana. Ova mogućnost radi samo ako SMPlayer prozor nije u pozadini.</translation>
     </message>
@@ -6540,22 +6534,22 @@ Do you want to overwrite?</source>
         <translation>Izbjegavaj &amp;čuvara zaslona</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1230"/>
+        <location filename="../prefgeneral.cpp" line="1228"/>
         <source>Audio/video auto synchronization</source>
         <translation>Automatsko usklađivanje Slike/Zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1231"/>
+        <location filename="../prefgeneral.cpp" line="1229"/>
         <source>Gradually adjusts the A/V sync based on audio delay measurements.</source>
         <translation>Postupno podešava usklađivanje Slike/Zvuka temeljeno na mjerenju kašnjenja/prednačenja zvučnog zapisa.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1234"/>
+        <location filename="../prefgeneral.cpp" line="1232"/>
         <source>A-V sync correction</source>
         <translation>Ispravak usklađivanja Slike/Zvuka</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1235"/>
+        <location filename="../prefgeneral.cpp" line="1233"/>
         <source>Maximum A-V sync correction per frame (in seconds)</source>
         <translation>Maksimalno usklađivanje ispravka Slike/Zvuka po sličicama (u sekundi)</translation>
     </message>
@@ -6585,7 +6579,7 @@ Do you want to overwrite?</source>
         <translation>&amp;Maks. ispravljanje:</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1106"/>
+        <location filename="../prefgeneral.cpp" line="1104"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; This option won&apos;t be used for TV channels.</source>
         <translation>&lt;b&gt;Napomena:&lt;/b&gt; Ova mogućnost se neće koristiti za TV programe.</translation>
     </message>
@@ -6595,12 +6589,12 @@ Do you want to overwrite?</source>
         <translation>Zadano ras&amp;pletanje (osim TV-a):</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1192"/>
+        <location filename="../prefgeneral.cpp" line="1190"/>
         <source>Uses hardware AC3 passthrough.</source>
         <translation>Koristi hardversku AC3 reprodukciju.</translation>
     </message>
     <message>
-        <location filename="../prefgeneral.cpp" line="1193"/>
+        <location filename="../prefgeneral.cpp" line="1191"/>
         <source>&lt;b&gt;Note:&lt;/b&gt; none of the audio filters will be used when this option is enabled.</source>
         <translation>&lt;b&gt;Napomena:&lt;/b&gt; neće se koristiti nijedan zvučni filter ako je ova mogućnost odabrana.</translation>
     </message>
@@ -9579,21 +9573,13 @@ Do you want to overwrite?</source>
         <location filename="../helper.cpp" line="101"/>
         <location filename="../helper.cpp" line="107"/>
         <source>%n second(s)</source>
-        <translation>
-            <numerusform>%n sekunda</numerusform>
-            <numerusform>%n sekunde</numerusform>
-            <numerusform>%n sekundi</numerusform>
-        </translation>
+        <translation><numerusform>%n sekunda</numerusform><numerusform>%n sekunde</numerusform><numerusform>%n sekundi</numerusform></translation>
     </message>
     <message numerus="yes">
         <location filename="../helper.cpp" line="104"/>
         <location filename="../helper.cpp" line="106"/>
         <source>%n minute(s)</source>
-        <translation>
-            <numerusform>%n minuta</numerusform>
-            <numerusform>%n minute</numerusform>
-            <numerusform>%n minuta</numerusform>
-        </translation>
+        <translation><numerusform>%n minuta</numerusform><numerusform>%n minute</numerusform><numerusform>%n minuta</numerusform></translation>
     </message>
     <message>
         <location filename="../helper.cpp" line="108"/>
@@ -10211,37 +10197,42 @@ Do you want to overwrite?</source>
 <context>
     <name>VDPAUProperties</name>
     <message>
-        <location filename="../vdpauproperties.ui" line="14"/>
+        <location filename="../vdpauproperties.ui" line="13"/>
         <source>VDPAU Properties</source>
         <translation>VDPAU svojstva</translation>
     </message>
     <message>
-        <location filename="../vdpauproperties.ui" line="20"/>
+        <location filename="../vdpauproperties.ui" line="19"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>Odaberite vdpau kôdeke za korištenje. Možda neće svi od njih raditi.</translation>
     </message>
     <message>
+        <location filename="../vdpauproperties.ui" line="29"/>
         <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
+        <translation>ffh&amp;264vdpau</translation>
     </message>
     <message>
+        <location filename="../vdpauproperties.ui" line="36"/>
         <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
+        <translation>ff&amp;mpeg12vdpau</translation>
     </message>
     <message>
+        <location filename="../vdpauproperties.ui" line="43"/>
         <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
+        <translation>ff&amp;wmv3vdpau</translation>
     </message>
     <message>
+        <location filename="../vdpauproperties.ui" line="50"/>
         <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
+        <translation>ff&amp;vc1vdpau</translation>
     </message>
     <message>
+        <location filename="../vdpauproperties.ui" line="57"/>
         <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
+        <translation>ffodiv&amp;xvdpau</translation>
     </message>
     <message>
-        <location filename="../vdpauproperties.ui" line="79"/>
+        <location filename="../vdpauproperties.ui" line="71"/>
         <source>&amp;Disable software video filters</source>
         <translation>&amp;Onemogući softverske video filtre</translation>
     </message>
