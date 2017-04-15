@@ -185,9 +185,11 @@ void MPVProcess::setOption(const QString & option_name, const QVariant & value) 
 	}
 	else
 	if (option_name == "loop") {
+		QString loop = "--loop";
+		if (isOptionAvailable("--loop-file")) loop = "--loop-file";
 		QString o = value.toString();
 		if (o == "0") o = "inf";
-		arg << "--loop=" + o;
+		arg << loop + "=" + o;
 	}
 	else
 	if (option_name == "ass") {
@@ -904,7 +906,7 @@ void MPVProcess::setLoop(int v) {
 		case 0: o = "inf"; break;
 		default: o = QString::number(v);
 	}
-	writeToStdin(QString("set loop %1").arg(o));
+	writeToStdin(QString("set loop-file %1").arg(o));
 }
 
 void MPVProcess::setAMarker(int sec) {
