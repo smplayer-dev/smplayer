@@ -276,18 +276,29 @@ bool VideoPreview::extractImages() {
 	return true;
 }
 
+#if defined(Q_OS_LINUX) && !defined(NO_SMPLAYER_SUPPORT)
+bool VideoPreview::isOptionAvailableinMPV(const QString & option) {
+	static QStringList option_list;
+	static QString executable;
+
+	if (option_list.isEmpty() || executable != mplayer_bin) {
+		InfoReader * ir = InfoReader::obj(mplayer_bin);
+		ir->getInfo();
+		option_list = ir->optionList();
+		executable = mplayer_bin;
+	}
+	return option_list.contains(option);
+}
+#endif
+
 bool VideoPreview::runPlayer(int seek, double aspect_ratio) {
 	QStringList args;
 
 	if (PlayerID::player(mplayer_bin) == PlayerID::MPV) {
 		#ifdef MPV_SUPPORT
-		bool use_new_options = false;
-		#ifndef NO_SMPLAYER_SUPPORT
-		{
-		InfoReader * ir = InfoReader::obj(mplayer_bin);
-		ir->getInfo();
-		use_new_options = ir->optionList().contains("--vo-image-format");
-		}
+		bool use_new_options = true;
+		#if defined(Q_OS_LINUX) && !defined(NO_SMPLAYER_SUPPORT)
+		if (!isOptionAvailableinMPV("--vo-image-format")) use_new_options = false;
 		#endif
 
 		// MPV
