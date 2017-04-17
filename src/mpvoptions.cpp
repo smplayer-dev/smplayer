@@ -628,9 +628,12 @@ void MPVProcess::addAF(const QString & filter_name, const QVariant & value) {
 	QString option = value.toString();
 
 	if (filter_name == "volnorm") {
+		/*
 		QString s = "drc";
 		if (!option.isEmpty()) s += "=" + option;
 		arg << "--af-add=" + s;
+		*/
+		arg << "--af-add=lavfi=[acompressor]";
 	}
 	else
 	if (filter_name == "channels") {
@@ -878,7 +881,9 @@ void MPVProcess::enableExtrastereo(bool b) {
 }
 
 void MPVProcess::enableVolnorm(bool b, const QString & option) {
-	if (b) writeToStdin("af add drc=" + option); else writeToStdin("af del drc=" + option);
+	//if (b) writeToStdin("af add drc=" + option); else writeToStdin("af del drc=" + option);
+	Q_UNUSED(option);
+	if (b) writeToStdin("af add lavfi=[acompressor]"); else writeToStdin("af del lavfi=[acompressor]");
 }
 
 void MPVProcess::setAudioEqualizer(const QString & values) {
