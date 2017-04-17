@@ -126,6 +126,10 @@ protected:
 	void saveSettings();
 	void loadSettings();
 
+#if defined(Q_OS_LINUX) && !defined(NO_SMPLAYER_SUPPORT)
+	bool isOptionAvailableinMPV(const QString & option);
+#endif
+
 	QList <QLabel *> label_list;
 
 	QGridLayout * grid_layout;
