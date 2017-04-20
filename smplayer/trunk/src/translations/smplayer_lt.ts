@@ -5312,9 +5312,8 @@ Norite perrašyti?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation>Pran&amp;ešti apie %1 strigtis</translation>
+        <translation type="obsolete">Pran&amp;ešti apie %1 strigtis</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
@@ -5324,6 +5323,11 @@ Norite perrašyti?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="96"/>
+        <source>Notify %1 crash&amp;es</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5357,6 +5361,16 @@ Norite perrašyti?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../prefadvanced.cpp" line="530"/>
+        <source>Notify %1 crashes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="531"/>
+        <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation type="unfinished"></translation>
@@ -5367,14 +5381,8 @@ Norite perrašyti?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
         <source>Report %1 crashes</source>
-        <translation>Pranešti apie %1 strigtis</translation>
-    </message>
-    <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation type="obsolete">Pranešti apie %1 strigtis</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8786,14 +8794,12 @@ Norite perrašyti?</translation>
         <translation>Vardas kaip ir filmo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subs containing movie name</source>
-        <translation>Visi subtitrai turi filmo vardą</translation>
+        <translation type="obsolete">Visi subtitrai turi filmo vardą</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subs in directory</source>
-        <translation>Visi subtitrai kataloge</translation>
+        <translation type="obsolete">Visi subtitrai kataloge</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
@@ -8826,6 +8832,16 @@ Norite perrašyti?</translation>
         <location filename="../prefsubtitles.ui" line="64"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>Pažymėti pirmą &amp;esamą subtitrą</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="77"/>
+        <source>All subtitles containing the movie name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="82"/>
+        <source>All subtitles in the directory</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10311,153 +10327,153 @@ Norite perrašyti?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>Video preview</source>
         <translation>Video peržiūra</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="147"/>
+        <location filename="../videopreview/videopreview.cpp" line="151"/>
         <source>Cancel</source>
         <translation>Atsisakyti</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="146"/>
+        <location filename="../videopreview/videopreview.cpp" line="150"/>
         <source>Thumbnail Generator</source>
         <translation>Miniatiūrų generatorius</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="149"/>
+        <location filename="../videopreview/videopreview.cpp" line="153"/>
         <source>Generated by SMPlayer</source>
         <translation>Sukurta SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="235"/>
+        <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>Creating thumbnails...</source>
         <translation>Kuriamos miniatiūros...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="443"/>
+        <location filename="../videopreview/videopreview.cpp" line="467"/>
         <source>Size: %1 MB</source>
         <translation>Dydis: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="445"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Length: %1</source>
         <translation>Trukmė: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="620"/>
+        <location filename="../videopreview/videopreview.cpp" line="644"/>
         <source>Save file</source>
         <translation>Išsaugoti failą</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="633"/>
+        <location filename="../videopreview/videopreview.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Failo išsaugojimo klaida</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="634"/>
+        <location filename="../videopreview/videopreview.cpp" line="658"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>Failas negali būti išsaugotas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="195"/>
         <source>Error</source>
         <translation>Klaida</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="192"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Kuriant miniatiūras įvyko ši klaida:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="218"/>
+        <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>Laikino katalogo (%1) nepavyko sukurti</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="361"/>
+        <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Mplayer procesas nevyksta</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="444"/>
+        <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
         <translation>Rezoliucija: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="448"/>
+        <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
         <translation>Video formatas: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="449"/>
+        <location filename="../videopreview/videopreview.cpp" line="473"/>
         <source>Frames per second: %1</source>
         <translation>Kadrų per sekundę: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="450"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Aspect ratio: %1</source>
         <translation>Kraštinių santykis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <location filename="../videopreview/videopreview.cpp" line="405"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>Failas %1 negali būti įkeltas</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>No filename</source>
         <translation>Nėra failo vardo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="578"/>
+        <location filename="../videopreview/videopreview.cpp" line="602"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Mplayer procesas nebuvo paleistas bandant gauti informaciją apie video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="209"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>The length of the video is 0</source>
         <translation>Video dydis lygus 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="253"/>
+        <location filename="../videopreview/videopreview.cpp" line="257"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>Failo %1 nėra</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="621"/>
+        <location filename="../videopreview/videopreview.cpp" line="645"/>
         <source>Images</source>
         <translation>Paveiksėliai</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="432"/>
+        <location filename="../videopreview/videopreview.cpp" line="456"/>
         <source>No info</source>
         <translation>Nėra informacijos</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="435"/>
-        <location filename="../videopreview/videopreview.cpp" line="436"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="460"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="437"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="453"/>
+        <location filename="../videopreview/videopreview.cpp" line="477"/>
         <source>Video bitrate: %1</source>
         <translation>Video bitų dažnis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="454"/>
+        <location filename="../videopreview/videopreview.cpp" line="478"/>
         <source>Audio bitrate: %1</source>
         <translation>Audio bitų dažnis: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="455"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Audio rate: %1</source>
         <translation>Audio dažnis: %1</translation>
     </message>

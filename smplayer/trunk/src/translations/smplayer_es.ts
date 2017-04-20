@@ -5316,9 +5316,8 @@ Do you want to overwrite?</source>
         <translation>&amp;Pasar nombres cortos (8+3) a %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation>&amp;Informar de fallos del %1</translation>
+        <translation type="obsolete">&amp;Informar de fallos del %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
@@ -5329,6 +5328,11 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
         <translation>Guardar los text&amp;os de la salida del %1</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="96"/>
+        <source>Notify %1 crash&amp;es</source>
+        <translation>&amp;Informar de fallos del %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5361,6 +5365,16 @@ Do you want to overwrite?</source>
         <translation>Si marcas esta opción, la ventana de vídeo del %1 no será empotrada en la ventana principal de SMPlayer, sino que usará la suya propia. Ten en cuenta que en este caso los eventos del ratón y teclado serán procesados directamente por %1, lo que significa que los atajos de teclado y clicks del ratón probablemente no funcionarán del modo esperado cuando la ventana de %1 esté en primer plano.</translation>
     </message>
     <message>
+        <location filename="../prefadvanced.cpp" line="530"/>
+        <source>Notify %1 crashes</source>
+        <translation>Informar de fallos del %1</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="531"/>
+        <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
+        <translation>Si se activa esta opción, se mostrará una ventana para informar de los fallos del %1. De lo contrario estos fallos se ignorarán.</translation>
+    </message>
+    <message>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation>Pasar nombres cortos (8+3) a %1</translation>
@@ -5371,14 +5385,12 @@ Do you want to overwrite?</source>
         <translation>Si se activa esta opción SMPlayer pasará a %1 la versión corta de los nombres.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
         <source>Report %1 crashes</source>
-        <translation>Informar de fallos del %1</translation>
+        <translation type="obsolete">Informar de fallos del %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Si se activa esta opción, se mostrará una ventana para informar de los fallos del %1. De lo contrario estos fallos se ignorarán.</translation>
+        <translation type="obsolete">Si se activa esta opción, se mostrará una ventana para informar de los fallos del %1. De lo contrario estos fallos se ignorarán.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8790,14 +8802,12 @@ Do you want to overwrite?</source>
         <translation>De igual nombre que el vídeo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subs containing movie name</source>
-        <translation>Todos los que contengan el nombre del vídeo</translation>
+        <translation type="obsolete">Todos los que contengan el nombre del vídeo</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subs in directory</source>
-        <translation>Todos los subtítulos del directorio</translation>
+        <translation type="obsolete">Todos los subtítulos del directorio</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
@@ -8830,6 +8840,16 @@ Do you want to overwrite?</source>
         <location filename="../prefsubtitles.ui" line="64"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>S&amp;eleccionar el primer subtítulo disponible</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="77"/>
+        <source>All subtitles containing the movie name</source>
+        <translation>Todos los que contengan el nombre del vídeo</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="82"/>
+        <source>All subtitles in the directory</source>
+        <translation>Todos los subtítulos del directorio</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10313,153 +10333,153 @@ Do you want to overwrite?</source>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>Video preview</source>
         <translation>Vista previa del vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="147"/>
+        <location filename="../videopreview/videopreview.cpp" line="151"/>
         <source>Cancel</source>
         <translation>Cancelar</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="146"/>
+        <location filename="../videopreview/videopreview.cpp" line="150"/>
         <source>Thumbnail Generator</source>
         <translation>Creador de imágenes en miniatura</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="149"/>
+        <location filename="../videopreview/videopreview.cpp" line="153"/>
         <source>Generated by SMPlayer</source>
         <translation>Generado por SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="235"/>
+        <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>Creating thumbnails...</source>
         <translation>Creando miniaturas...</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="443"/>
+        <location filename="../videopreview/videopreview.cpp" line="467"/>
         <source>Size: %1 MB</source>
         <translation>Tamaño: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="445"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Length: %1</source>
         <translation>Duración: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="620"/>
+        <location filename="../videopreview/videopreview.cpp" line="644"/>
         <source>Save file</source>
         <translation>Guardar fichero</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="633"/>
+        <location filename="../videopreview/videopreview.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Error al grabar el fichero</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="634"/>
+        <location filename="../videopreview/videopreview.cpp" line="658"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>El fichero no se ha podido grabar</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="195"/>
         <source>Error</source>
         <translation>Error</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="192"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Se ha producido el siguiente error mientras se creaban las miniaturas:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="218"/>
+        <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>No se ha podido crear el directorio temporal (%1)</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="361"/>
+        <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>El proceso del mplayer no se ejecutó</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="444"/>
+        <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolución: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="448"/>
+        <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
         <translation>Formato de vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="449"/>
+        <location filename="../videopreview/videopreview.cpp" line="473"/>
         <source>Frames per second: %1</source>
         <translation>Imágenes por segundo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="450"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Aspect ratio: %1</source>
         <translation>Relación de aspecto: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <location filename="../videopreview/videopreview.cpp" line="405"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>No se ha podido cargar el fichero %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>No filename</source>
         <translation>No hay fichero</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="578"/>
+        <location filename="../videopreview/videopreview.cpp" line="602"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>El proceso del mplayer no se ejecutó al intentar obtener información sobre el vídeo</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="209"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>The length of the video is 0</source>
         <translation>La duración del vídeo es 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="253"/>
+        <location filename="../videopreview/videopreview.cpp" line="257"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>El fichero %1 no existe</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="621"/>
+        <location filename="../videopreview/videopreview.cpp" line="645"/>
         <source>Images</source>
         <translation>Imágenes</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="432"/>
+        <location filename="../videopreview/videopreview.cpp" line="456"/>
         <source>No info</source>
         <translation>Sin información</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="435"/>
-        <location filename="../videopreview/videopreview.cpp" line="436"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="460"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="437"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="453"/>
+        <location filename="../videopreview/videopreview.cpp" line="477"/>
         <source>Video bitrate: %1</source>
         <translation>Tasa de bits del vídeo: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="454"/>
+        <location filename="../videopreview/videopreview.cpp" line="478"/>
         <source>Audio bitrate: %1</source>
         <translation>Tasa de audio: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="455"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Audio rate: %1</source>
         <translation>Tasa de audio: %1</translation>
     </message>

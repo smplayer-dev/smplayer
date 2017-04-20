@@ -5312,9 +5312,8 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>&amp;Lewati nama-file pendek (8+3) ke %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="96"/>
         <source>R&amp;eport %1 crashes</source>
-        <translation>L&amp;aporkan kemacetan %1</translation>
+        <translation type="obsolete">L&amp;aporkan kemacetan %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="511"/>
@@ -5325,6 +5324,11 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../prefadvanced.cpp" line="101"/>
         <source>Log %1 &amp;output</source>
         <translation>Log &amp;keluaran %1</translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="96"/>
+        <source>Notify %1 crash&amp;es</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5357,6 +5361,16 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>JIka Anda mencentang opsi ini, jendela video %1 tidak akan tertanam pada jendela utama SMPlayer namun menggunakan jendela tersendiri. Catat bahwa mouse dan keyboard akan secara langsung dikendalikan oleh %1, yang artinya tombol pintasan dan klik mouse mungkin saja tidak akan bekerja seperti ketika jendela %1 telah fokus.</translation>
     </message>
     <message>
+        <location filename="../prefadvanced.cpp" line="530"/>
+        <source>Notify %1 crashes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefadvanced.cpp" line="531"/>
+        <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <location filename="../prefadvanced.cpp" line="544"/>
         <source>Pass short filenames (8+3) to %1</source>
         <translation>&amp;Lewati nama-file pendek (8+3) untuk %1</translation>
@@ -5367,14 +5381,12 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Jika opsi ini dicentang, SMPlayer akan melewati ke %1 versi pendek dari nama-file.</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="530"/>
         <source>Report %1 crashes</source>
-        <translation>Laporkan kemacetan %1</translation>
+        <translation type="obsolete">Laporkan kemacetan %1</translation>
     </message>
     <message>
-        <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation>Jika opsi ini dicentang, jendela akan muncul untuk menginformasikan tentang kemacetan %1. Jika tidak kegagalan akan diam-diam diabaikan.</translation>
+        <translation type="obsolete">Jika opsi ini dicentang, jendela akan muncul untuk menginformasikan tentang kemacetan %1. Jika tidak kegagalan akan diam-diam diabaikan.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8786,14 +8798,12 @@ Apakah Anda ingin menimpanya?</translation>
         <translation>Nama yang sama dengan film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subs containing movie name</source>
-        <translation>Semua sub-sub yang mengandung nama film</translation>
+        <translation type="obsolete">Semua sub-sub yang mengandung nama film</translation>
     </message>
     <message>
-        <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subs in directory</source>
-        <translation>Semua sub-sub pada direktori</translation>
+        <translation type="obsolete">Semua sub-sub pada direktori</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>
@@ -8826,6 +8836,16 @@ Apakah Anda ingin menimpanya?</translation>
         <location filename="../prefsubtitles.ui" line="64"/>
         <source>S&amp;elect first available subtitle</source>
         <translation>Pilih subtitle p&amp;ertama yang tersedia</translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="77"/>
+        <source>All subtitles containing the movie name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefsubtitles.ui" line="82"/>
+        <source>All subtitles in the directory</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10307,153 +10327,153 @@ Apakah Anda ingin menimpanya?</translation>
 <context>
     <name>VideoPreview</name>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="483"/>
         <source>Video preview</source>
         <translation>Pratinjau video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="147"/>
+        <location filename="../videopreview/videopreview.cpp" line="151"/>
         <source>Cancel</source>
         <translation>Batal</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="146"/>
+        <location filename="../videopreview/videopreview.cpp" line="150"/>
         <source>Thumbnail Generator</source>
         <translation>Pembuat Gambar Mini</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="149"/>
+        <location filename="../videopreview/videopreview.cpp" line="153"/>
         <source>Generated by SMPlayer</source>
         <translation>Dihasilkan oleh SMPlayer</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="235"/>
+        <location filename="../videopreview/videopreview.cpp" line="239"/>
         <source>Creating thumbnails...</source>
         <translation>Membuat thumbnail..</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="443"/>
+        <location filename="../videopreview/videopreview.cpp" line="467"/>
         <source>Size: %1 MB</source>
         <translation>Ukuran: %1 MB</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="445"/>
+        <location filename="../videopreview/videopreview.cpp" line="469"/>
         <source>Length: %1</source>
         <translation>Panjang: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="620"/>
+        <location filename="../videopreview/videopreview.cpp" line="644"/>
         <source>Save file</source>
         <translation>Simpan file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="633"/>
+        <location filename="../videopreview/videopreview.cpp" line="657"/>
         <source>Error saving file</source>
         <translation>Galat menyimpan file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="634"/>
+        <location filename="../videopreview/videopreview.cpp" line="658"/>
         <source>The file couldn&apos;t be saved</source>
         <translation>File tidak dapat disimpan</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="191"/>
+        <location filename="../videopreview/videopreview.cpp" line="195"/>
         <source>Error</source>
         <translation>Galat</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="192"/>
+        <location filename="../videopreview/videopreview.cpp" line="196"/>
         <source>The following error has occurred while creating the thumbnails:</source>
         <translation>Galat berikut terjadi ketika membuat thumbnail:</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="218"/>
+        <location filename="../videopreview/videopreview.cpp" line="222"/>
         <source>The temporary directory (%1) can&apos;t be created</source>
         <translation>DIrektori sementara (%1) tidak bisa dibuat</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="361"/>
+        <location filename="../videopreview/videopreview.cpp" line="385"/>
         <source>The mplayer process didn&apos;t run</source>
         <translation>Proses mplayer tidak bisa berjalan</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="444"/>
+        <location filename="../videopreview/videopreview.cpp" line="468"/>
         <source>Resolution: %1x%2</source>
         <translation>Resolusi: %1x%2</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="448"/>
+        <location filename="../videopreview/videopreview.cpp" line="472"/>
         <source>Video format: %1</source>
         <translation>Format video: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="449"/>
+        <location filename="../videopreview/videopreview.cpp" line="473"/>
         <source>Frames per second: %1</source>
         <translation>Frame per detik: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="450"/>
+        <location filename="../videopreview/videopreview.cpp" line="474"/>
         <source>Aspect ratio: %1</source>
         <translation>Aspek rasio: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="381"/>
+        <location filename="../videopreview/videopreview.cpp" line="405"/>
         <source>The file %1 can&apos;t be loaded</source>
         <translation>File %1 tidak dapat dimuat</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="487"/>
+        <location filename="../videopreview/videopreview.cpp" line="511"/>
         <source>No filename</source>
         <translation>Tidak ada nama file</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="578"/>
+        <location filename="../videopreview/videopreview.cpp" line="602"/>
         <source>The mplayer process didn&apos;t start while trying to get info about the video</source>
         <translation>Proses mplayer tidak bisa dimulai ketika mencoba untuk mendapatkan informasi tentang video</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="209"/>
+        <location filename="../videopreview/videopreview.cpp" line="213"/>
         <source>The length of the video is 0</source>
         <translation>Panjang dari video adalah 0</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="253"/>
+        <location filename="../videopreview/videopreview.cpp" line="257"/>
         <source>The file %1 doesn&apos;t exist</source>
         <translation>File %1 tidak ada</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="621"/>
+        <location filename="../videopreview/videopreview.cpp" line="645"/>
         <source>Images</source>
         <translation>Citra</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="432"/>
+        <location filename="../videopreview/videopreview.cpp" line="456"/>
         <source>No info</source>
         <translation>Tidak ada info</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="435"/>
-        <location filename="../videopreview/videopreview.cpp" line="436"/>
+        <location filename="../videopreview/videopreview.cpp" line="459"/>
+        <location filename="../videopreview/videopreview.cpp" line="460"/>
         <source>%1 kbps</source>
         <translation>%1 kbps</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="437"/>
+        <location filename="../videopreview/videopreview.cpp" line="461"/>
         <source>%1 Hz</source>
         <translation>%1 Hz</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="453"/>
+        <location filename="../videopreview/videopreview.cpp" line="477"/>
         <source>Video bitrate: %1</source>
         <translation>Bitrate video: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="454"/>
+        <location filename="../videopreview/videopreview.cpp" line="478"/>
         <source>Audio bitrate: %1</source>
         <translation>Bitrate audio: %1</translation>
     </message>
     <message>
-        <location filename="../videopreview/videopreview.cpp" line="455"/>
+        <location filename="../videopreview/videopreview.cpp" line="479"/>
         <source>Audio rate: %1</source>
         <translation>Audio rate: %1</translation>
     </message>
