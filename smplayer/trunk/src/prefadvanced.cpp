@@ -93,7 +93,7 @@ void PrefAdvanced::retranslateStrings() {
 
 	mplayer_use_window_check->setText( tr("&Run %1 in its own window").arg(PLAYER_NAME) );
 	shortnames_check->setText( tr("&Pass short filenames (8+3) to %1").arg(PLAYER_NAME) );
-	mplayer_crashes_check->setText( tr("R&eport %1 crashes").arg(PLAYER_NAME) );
+	mplayer_crashes_check->setText( tr("Notify %1 crash&es").arg(PLAYER_NAME) );
 	advanced_tab->setTabText(1, PLAYER_NAME);
 	player_group->setTitle(tr("Options for %1").arg(PLAYER_NAME));
 	options_info_label->setText( tr("Here you can pass options and filters to %1.").arg(PLAYER_NAME) );
@@ -527,8 +527,8 @@ void PrefAdvanced::createHelp() {
            "focus.").arg(PLAYER_NAME) );
 
 	setWhatsThis(mplayer_crashes_check,
-		tr("Report %1 crashes").arg(PLAYER_NAME),
-		tr("If this option is checked, a window will appear to inform "
+		tr("Notify %1 crashes").arg(PLAYER_NAME),
+		tr("If this option is checked, a popup window will be displayed to inform "
            "about %1 crashes. Otherwise those failures will be "
            "silently ignored.").arg(PLAYER_NAME) );
 

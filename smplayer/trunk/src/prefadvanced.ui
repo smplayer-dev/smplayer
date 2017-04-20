@@ -388,7 +388,7 @@
        <item>
         <widget class="QCheckBox" name="mplayer_crashes_check">
          <property name="text">
-          <string notr="true">R&amp;eport PLAYER crashes</string>
+          <string notr="true">Notify PLAYER crash&amp;es</string>
          </property>
         </widget>
        </item>
