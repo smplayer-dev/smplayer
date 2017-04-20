@@ -69,8 +69,8 @@ protected:
 	void setCustomizedAssStyle(QString style) { forced_ass_style = style; };
 	QString customizedAssStyle() { return forced_ass_style; };
 
-	void setFontFuzziness(int n);
-	int fontFuzziness();
+	void setSubFuzziness(int n);
+	int subFuzziness();
 
 	void setSubtitlesOnScreenshots(bool b);
 	bool subtitlesOnScreenshots();

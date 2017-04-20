@@ -67,11 +67,11 @@ QPixmap PrefSubtitles::sectionIcon() {
 
 
 void PrefSubtitles::retranslateStrings() {
-	int font_autoload_item = font_autoload_combo->currentIndex();
+	int sub_autoload_item = sub_autoload_combo->currentIndex();
 
 	retranslateUi(this);
 
-	font_autoload_combo->setCurrentIndex(font_autoload_item);
+	sub_autoload_combo->setCurrentIndex(sub_autoload_item);
 
 	// Encodings combo
 	//int font_encoding_item = font_encoding_combo->currentIndex();
@@ -127,7 +127,7 @@ void PrefSubtitles::retranslateStrings() {
 void PrefSubtitles::setData(Preferences * pref) {
 	setAssFontScale( pref->initial_sub_scale_ass );
 	setAutoloadSub( pref->autoload_sub );
-	setFontFuzziness( pref->subfuzziness );
+	setSubFuzziness( pref->subfuzziness );
 	setFontEncoding( pref->subcp );
 	setUseEnca( pref->use_enca );
 	setEncaLang( pref->enca_lang );
@@ -169,7 +169,7 @@ void PrefSubtitles::getData(Preferences * pref) {
 
 	pref->initial_sub_scale_ass = assFontScale();
 	TEST_AND_SET(pref->autoload_sub, autoloadSub());
-	TEST_AND_SET(pref->subfuzziness, fontFuzziness());
+	TEST_AND_SET(pref->subfuzziness, subFuzziness());
 	TEST_AND_SET(pref->subcp, fontEncoding());
 	TEST_AND_SET(pref->use_enca, useEnca());
 	TEST_AND_SET(pref->enca_lang, encaLang());
@@ -226,11 +226,11 @@ double PrefSubtitles::assFontScale() {
 }
 
 void PrefSubtitles::setAutoloadSub(bool v) {
-	font_autoload_check->setChecked(v);
+	sub_autoload_check->setChecked(v);
 }
 
 bool PrefSubtitles::autoloadSub() {
-	return font_autoload_check->isChecked();
+	return sub_autoload_check->isChecked();
 }
 
 void PrefSubtitles::setFontEncoding(QString s) {
@@ -261,12 +261,12 @@ bool PrefSubtitles::useEnca() {
 	return use_enca_check->isChecked();
 }
 
-void PrefSubtitles::setFontFuzziness(int n) {
-	font_autoload_combo->setCurrentIndex(n);
+void PrefSubtitles::setSubFuzziness(int n) {
+	sub_autoload_combo->setCurrentIndex(n);
 }
 
-int PrefSubtitles::fontFuzziness() {
-	return font_autoload_combo->currentIndex();
+int PrefSubtitles::subFuzziness() {
+	return sub_autoload_combo->currentIndex();
 }
 
 void PrefSubtitles::setSubtitlesOnScreenshots(bool b) {
@@ -382,10 +382,10 @@ void PrefSubtitles::createHelp() {
 
 	addSectionTitle(tr("Subtitles"));
 
-	setWhatsThis(font_autoload_combo, tr("Autoload"), 
+	setWhatsThis(sub_autoload_combo, tr("Autoload"),
         tr("Select the subtitle autoload method.") );
 
-	setWhatsThis(font_autoload_check, tr("Select first available subtitle"), 
+	setWhatsThis(sub_autoload_check, tr("Select first available subtitle"), 
         tr("If there are one or more subtitle tracks available, one of them "
            "will be automatically selected, usually the first one, although if "
            "one of them matches the user's preferred language that one will "

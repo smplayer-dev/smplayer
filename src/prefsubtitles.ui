@@ -54,19 +54,19 @@
              <bool>false</bool>
             </property>
             <property name="buddy">
-             <cstring>font_autoload_combo</cstring>
+             <cstring>sub_autoload_combo</cstring>
             </property>
            </widget>
           </item>
           <item row="2" column="0" colspan="2">
-           <widget class="QCheckBox" name="font_autoload_check">
+           <widget class="QCheckBox" name="sub_autoload_check">
             <property name="text">
              <string>S&amp;elect first available subtitle</string>
             </property>
            </widget>
           </item>
           <item row="1" column="0">
-           <widget class="QComboBox" name="font_autoload_combo">
+           <widget class="QComboBox" name="sub_autoload_combo">
             <item>
              <property name="text">
               <string>Same name as movie</string>
@@ -74,12 +74,12 @@
             </item>
             <item>
              <property name="text">
-              <string>All subs containing movie name</string>
+              <string>All subtitles containing the movie name</string>
              </property>
             </item>
             <item>
              <property name="text">
-              <string>All subs in directory</string>
+              <string>All subtitles in the directory</string>
              </property>
             </item>
            </widget>
@@ -809,8 +809,8 @@
  </customwidgets>
  <tabstops>
   <tabstop>subtitles_tab</tabstop>
-  <tabstop>font_autoload_combo</tabstop>
-  <tabstop>font_autoload_check</tabstop>
+  <tabstop>sub_autoload_combo</tabstop>
+  <tabstop>sub_autoload_check</tabstop>
   <tabstop>font_encoding_combo</tabstop>
   <tabstop>use_enca_check</tabstop>
   <tabstop>enca_lang_combo</tabstop>
