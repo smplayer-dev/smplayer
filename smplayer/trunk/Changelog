@@ -1,7 +1,20 @@
 Version 17.?:
 
+(2017-04-17)
+ * Fix the audio normalization filter when using mpv > 0.24.
+
+(2017-04-16)
+ * Fix for the thumbnail generator when using old versions of mpv.
+
+(2017-04-14)
+ * Disallow mpv installation on XP.
+ * Add option for ffhevcvdpau.
+
 (2017-04-09)
  * Add option View -> OSD -> Show times with milliseconds (requires mpv >= 0.21).
+
+(2017-04-06)
+ * (mpv) Be sure the suboptions for vo and ao aren't used.
 
 
 Version 17.4:
