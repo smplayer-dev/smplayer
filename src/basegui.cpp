@@ -5177,6 +5177,13 @@ void BaseGui::dropEvent( QDropEvent *e ) {
 	qDebug() << "BaseGui::dropEvent: list of files:" << file_list;
 	qDebug() << "BaseGui::dropEvent: subtitle file:" << sub_file;
 
+	/* If only one file is dropped and it's not a folder nor a subtitle,
+       open it with openFile so that it remembers the position */
+	if (dir_list.isEmpty() && sub_file.isEmpty() && file_list.count() == 1) {
+		openFile(file_list[0]);
+		return;
+	}
+
 	if (!sub_file.isEmpty()) {
 		core->loadSub(sub_file);
 		return;
