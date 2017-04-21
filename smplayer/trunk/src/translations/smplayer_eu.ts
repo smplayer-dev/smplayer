@@ -850,12 +850,12 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Zorigaitzez bideoa hau ezin da irakurri.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>Pausatu</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>Gelditu</translation>
     </message>
@@ -1070,7 +1070,7 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
     <message>
         <location filename="../basegui.cpp" line="1871"/>
         <source>Show times with &amp;milliseconds</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Erakutsi denborak segundumilaenekin</translation>
     </message>
     <message>
         <location filename="../basegui.cpp" line="1886"/>
@@ -1370,79 +1370,79 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Arazoak Youtube-rekin</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>%1 Akatsa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1-ek ustekabean amaitu du.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>YouTube-dl osagaiak huts egin du abiatzean.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) ezartzeak arazo zuzen du dezake.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>Klikatu hemen lortzeko</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>%1-ek huts egin du abiatzean.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Mesedez egiaztatu %1-en helburua hobespenetan.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 kraskatu egin da.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube Nabigatzailea ez dago ezarrita.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>Ikusi %1 lortzeko.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube Nabigatzaileak huts egin du abiatzean.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Zihurtatu zuzen ezarrita dagoela.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Sistema tablet modura aldatu da. SMPlayer ere tablet modura aldatu behar da?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Sistema tablet modutik irten da. SMPlayer ere tablet modutik irten behar da?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Gogoratu nire erabakia eta ez galdetu berriro</translation>
     </message>
@@ -1598,12 +1598,12 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Zerbitzariak itzuli du &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>Irteera kodea: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>Ikusi oharra argibide gehiagorako.</translation>
     </message>
@@ -1869,8 +1869,8 @@ Itxurapen elkarrizketa erakutsiko da orain, egin ahal izan dezazun.</translation
         <translation>Aldatu eduki gainean</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>Jauzi hona %1</translation>
     </message>
@@ -5312,10 +5312,6 @@ Gainidaztea nahi duzu?</translation>
         <translation>&amp;Bidali agirizen laburrak (8+3) %1-ri</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">&amp;Jakinarazi %1-ren matxurak</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>Idatzi tartez bananduta.</translation>
@@ -5328,7 +5324,7 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Jakinarazi %1-ren matxurak</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5363,12 +5359,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Jakinarazi %1-ren matxurak</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aukera hau hautaturik badago, oharleiho bat agertuko da %1-ren matxura jakinaraziz. Bestela hutsegite hauek isilean ezikusiko dira.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5379,14 +5375,6 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>Aukera hau hautaturik badago, SMPlayer-ek %1-ri agirizenen bertsio labur bat bidaliko dio.</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">Jakinarazi %1-ren matxurak</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Aukera hau hautaturik badago, leiho bat agertuko da %1-ren matxura jakinaraziz. Bestela hutsegite hauek isilean ezikusiko dira.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8798,14 +8786,6 @@ Gainidaztea nahi duzu?</translation>
         <translation>Filmaren izen berdina</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">Azpidatzi guztiek filmaren izena dute</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">Azpidatzi guztiak zuzenbidean</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>Erabili &amp;ASS liburutegia</translation>
@@ -8840,12 +8820,12 @@ Gainidaztea nahi duzu?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Filmaren izena duten azpidatzi guztiak</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Zuzenbideko azpidatzi guztiak</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10236,26 +10216,6 @@ Gainidaztea nahi duzu?</translation>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>Hautatu erabiltzeko vdpau kodekak. Denek ezin dute lanik egin.</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

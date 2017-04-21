@@ -850,12 +850,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>למרבה הצער סרטון זה לא יכול להתנגן.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>השהה</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>הפסק</translation>
     </message>
@@ -1370,79 +1370,79 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>בעיות עם Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1598,12 +1598,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>השרת החזיר &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>קוד יציאה: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>ראה את היומן למידע נוסף.</translation>
     </message>
@@ -1869,8 +1869,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>תמיד השאר בשיא</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>‭%1 לא ץופק</translation>
     </message>
@@ -8782,14 +8782,6 @@ Do you want to overwrite?</source>
         <translation>אותו שם כשם סרט</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">כל הכתוביות שמכילות שם סרט</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">כל הכתוביות במדור</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>השתמש בספריית &amp;ASS</translation>
@@ -10220,26 +10212,6 @@ Do you want to overwrite?</source>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>בחר את הקודקים של vdpau להשתמש. לא כולם עשויים לעבוד.</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

@@ -850,12 +850,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Deja šio video atkurti nepavyks.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>Pauzė</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>Stabdyti</translation>
     </message>
@@ -1370,79 +1370,79 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Problemos su Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>%1 klaida</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Microsoft Visual C++ 2010 Redistributable Package (x86) įdiegimas gali išspręsti problemą.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>Nepavyko paleisti %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Patikrinkite nuostatose %1 kelią.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 užstrigo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube naršyklė neįdiegta.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>Aplankykite %1 ir įdiekite.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Nepavyko paleisti YouTube naršyklės.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Įsitikinkite, kad ji yra teisingai įdiegta.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Sistema persijungė į planšetės režimą. Ar SMPlayer turėtų irgi persijungti į planšetės režimą?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Sistema išėjo iš planšetės režimo. Ar SMPlayer turėtų irgi išeiti iš planšetės režimo?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Prisiminti mano sprendimą ir daugiau nebeklausti</translation>
     </message>
@@ -1598,12 +1598,12 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Serveris atsakė „%1“</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>Klaidos kodas: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>Daugiau informacijos žurnale.</translation>
     </message>
@@ -1869,8 +1869,8 @@ Bus atvertas konfigūravimo dialogas - galite sukonfigūruoti dabar.</translatio
         <translation>Perjungti visada viršuje režimą</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>Peršokti į %1</translation>
     </message>
@@ -5312,10 +5312,6 @@ Norite perrašyti?</translation>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">Pran&amp;ešti apie %1 strigtis</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation type="unfinished"></translation>
@@ -5379,10 +5375,6 @@ Norite perrašyti?</translation>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">Pranešti apie %1 strigtis</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8794,14 +8786,6 @@ Norite perrašyti?</translation>
         <translation>Vardas kaip ir filmo</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">Visi subtitrai turi filmo vardą</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">Visi subtitrai kataloge</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>Naudoti &amp;ASS biblioteka</translation>
@@ -10234,26 +10218,6 @@ Norite perrašyti?</translation>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>Pasirinkite kuriuos vdpau kodekus naudoti. Nevisi gali veikti.</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

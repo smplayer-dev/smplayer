@@ -850,12 +850,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Desværre kan denne video ikke afspilles.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>Pause</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>Stop</translation>
     </message>
@@ -1370,79 +1370,79 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Problemer med YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>%1 Fejl</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 er afsluttet uventet.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Det lykkedes ikke at starte komponenten youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Det kan måske løse problemet at installere Microsoft Visual C++ 2010 Redistributable Package (x86).</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>Klik her, for at hente det</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>%1 kunne ikke starte.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Tjek venligst stien %1 i præferencer.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 er holdt op med at virke.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube-browseren er ikke installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>Besøg %1 for at hente den.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube-browseren kunne ikke køre.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Sørg for det er korrekt installeret.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Systemet har skiftet til tablettilstand. Skal SMPlayer også skifte til tablettilstand?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Systemet har forladt tablettilstand. Skal SMPlayer også forlade tablettilstand?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Husk mit valg og spørg ikke igen</translation>
     </message>
@@ -1598,12 +1598,12 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Serveren returnerede &quot;%1&quot;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>Afslutningskode: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>Se loggen for mere info.</translation>
     </message>
@@ -1869,8 +1869,8 @@ Opsætningsdialogen vil nu blive vist så du kan gøre det.</translation>
         <translation>Øverst til/fra</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>Gå til %1</translation>
     </message>
@@ -5312,10 +5312,6 @@ Vil du overskrive den?</translation>
         <translation>&amp;Videregiv korte filnavne (8+3) til %1</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">&amp;Rapportér %1 nedbrud</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>Skriv dem adskilt af mellemrum.</translation>
@@ -5328,7 +5324,7 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>&amp;Giv besked om når %1 holder op med at virke</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5363,12 +5359,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Giv besked om når %1 holder op med at virke</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Hvis indstillingen er slået til, vises et pop op-vindue for at give besked om når %1 holder op med at virke. Ellers vil disse fejl blive ignoreres uden at give besked.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5379,14 +5375,6 @@ Vil du overskrive den?</translation>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>Hvid indstillingen er slået til, videregiver SMPlayer den korte udgave af filnavnene til %1.</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">Rapportér %1 nedbrud</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Hvis indstillingen er slået til, vises et vindue for at informerer dig om %1 nedbrud. Ellers ignoreres disse fejl.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8798,14 +8786,6 @@ Vil du overskrive den?</translation>
         <translation>Samme navn som film</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">Alle undertekster med filmnavnet</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">Alle undertekster i mappen</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>Brug &amp;ASS-biblioteket</translation>
@@ -8840,12 +8820,12 @@ Vil du overskrive den?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle undertekster som indeholder filmnavnet</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Alle undertekster i mappen</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10236,26 +10216,6 @@ Vil du overskrive den?</translation>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>Vælg det ønskede vdpau-codec. Det er ikke alle der vil virke.</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

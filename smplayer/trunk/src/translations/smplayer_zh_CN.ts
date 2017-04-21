@@ -850,12 +850,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>抱歉此视频不能播放</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>暂停</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>停止</translation>
     </message>
@@ -1370,79 +1370,79 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>Youtube的问题</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>%1 错误</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 已意外结束。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>youtube-dl 运行失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>安装 Microsoft Visual C++ 2010 Redistributable Package (x86) 或许可以解决此问题。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>点击这里获取</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>%1 启动失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>请检查首选项中的 %1 路径。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 已崩溃。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube 浏览器未安装。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>请访问 %1 获取。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube 浏览器启动失败。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>请确保已正确安装。</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>系统已经切换为平板模式。需要将 SMPlayer 切换为平板模式吗？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>系统已经退出了平板模式，SMPlayer也需要关闭平板模式吗？</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>记住我的选择，下次不再提醒</translation>
     </message>
@@ -1598,12 +1598,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>服务器返回&apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>退出代码: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>更多信息请参阅日志。</translation>
     </message>
@@ -1869,8 +1869,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>切换保持在最前端</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>跳转到 %1</translation>
     </message>
@@ -5311,10 +5311,6 @@ Do you want to overwrite?</source>
         <translation>传送短文件名(8+3)到 %1 (&amp;P)</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">报告 %1 崩溃 (&amp;e)</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>使用空格分隔。</translation>
@@ -5378,14 +5374,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>如果勾选此选项，SMPlayer 将会将短文件名传送给 %1。</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">报告 %1 崩溃</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">如果勾选此选项，将会出现一个窗口通知 %1 崩溃。否则这些故障将被忽略。</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8797,14 +8785,6 @@ Do you want to overwrite?</source>
         <translation>与影片的名称相同</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">所有包含影片名称的字幕</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">目录中的所有字幕</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>使用 ASS 库(&amp;A)</translation>
@@ -10233,26 +10213,6 @@ Do you want to overwrite?</source>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>选择要使用的 VDPAU 编解码器。它们并非都能工作。</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh264vdpau(&amp;2)</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ffmpeg12vdpau(&amp;M)</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ffwmv3vdpau(&amp;W)</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ffvc1vdpau(&amp;V)</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodivxvdpau(&amp;X)</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

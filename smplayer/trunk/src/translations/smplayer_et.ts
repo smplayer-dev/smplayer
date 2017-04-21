@@ -850,12 +850,12 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Seda videot ei õnnestunud esitada.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>Paus</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>Stopp</translation>
     </message>
@@ -1370,79 +1370,79 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>YouTube&apos;iga seotud tõrge</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>%1 tõrge</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 lõppes ootamatult.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Komponent youtube-dl ei käivitunud korrektselt.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Probleemi võib lahendada komponendi Microsoft Visual C++ 2010 Redistributable Package (x86) paigaldamine.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>Vajuta siia, et seda alla laadida</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>%1 ei käivitunud.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Palun veendu, et komponendi %1 rada on õigesti valitud.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 jooksis kokku.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>YouTube Browser ei ole paigaldatud.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>Seda saab alla laadida lehelt %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>YouTube Browserit ei õnnestunud käivitada.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Veendu, et see oleks korrektselt paigaldatud.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>Arvuti on tahvelarvutirežiimis. Kas SMPlayer peaks samuti tahvelarvutirežiimis olema?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>Arvuti väljus tahvelarvutirežiimist. Kas SMPlayer peaks samuti tahvelarvutirežiimist väljuma?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Pea see valik meeles ja ära küsi enam uuesti</translation>
     </message>
@@ -1598,12 +1598,12 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Server tagastas &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>Väljumise kood: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>Rohkem infot vaata logist.</translation>
     </message>
@@ -1869,8 +1869,8 @@ Seadistamiseks avatakse nüüd seadistusaken.</translation>
         <translation>Muuda pealmiseks jäämise valikut</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>Hüppa ajahetke %1</translation>
     </message>
@@ -5312,10 +5312,6 @@ Kas kirjutada see üle?</translation>
         <translation>&amp;Edasta programmile %1 lühikesed failinimed (8+3)</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">&amp;Teavita programmi %1 vigadest</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>Eralda parameetrid tühikuga.</translation>
@@ -5379,14 +5375,6 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>Kui see on märgitud, siis edastab SMPlayer programmile %1 failide lühikesed nimed.</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">Teavita programmi %1 vigadest</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Kui see on märgitud, siis programmi %1 tõrgete puhul avaneb aken, mille kaudu saab vigadest teatada. Vastasel juhul tõrkeid ignoreeritakse.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8796,14 +8784,6 @@ Kas kirjutada see üle?</translation>
         <location filename="../prefsubtitles.ui" line="72"/>
         <source>Same name as movie</source>
         <translation>Sama nimi mis filmil</translation>
-    </message>
-    <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">Kõik subtiitrid, mis sisaldavad filmi nime</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">Kõik subtiitrid kaustas</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="230"/>

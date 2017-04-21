@@ -850,12 +850,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Non é posíbel reproducir este vídeo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>Pausar</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -1370,79 +1370,79 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Problemas co Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>Erro de %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>O %1 rematou inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Produciuse un fallo na execución do compoñente youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>Instalar o paquete redistribuíbel (x86) Microsoft Visual C++ 2010 pode arranxar o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>Prema aquí para obtelo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>Fallo ao iniciar o %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Comproba a ruta ao %1 nas preferencias.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 quebrou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>Non está instalado o navegador de YouTube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>Visite %1 para obtelo.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Produciuse un fallo na execución do navegador de Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Asegúrese de que está correctamente instalado</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>O sistema cambiou ao modo tableta. Desexa que o SMPlayer cambie ao modo tableta tamén?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>O sistema saiu do modo tableta. Debería o SMPlayer desactivar o modo tableta tamén?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Lembrar esta decisión e non prenguntar máis</translation>
     </message>
@@ -1598,12 +1598,12 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>O servidor respondeu «%1».</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>Comproba o rexistro para obter máis información.</translation>
     </message>
@@ -1869,8 +1869,8 @@ Vaise mostrar o diálogo de configuración agora, para que o poidas facer.</tran
         <translation>Cambiar «En primeiro plano»</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>Saltar a %1</translation>
     </message>
@@ -5312,10 +5312,6 @@ Desexas sobrescribilo?</translation>
         <translation>&amp;Pasar nomes curtos de ficheiros (8+3) ao %1</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">Informar de &amp;quebras de %1</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>Escríbaas separadas por espazos.</translation>
@@ -5328,7 +5324,7 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Informar dos fall&amp;os do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5363,12 +5359,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Informar dos fallos do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se marca esta opción, cando o %1 falle aparecerá unha xanela para informarlo. Se non a marca, eses fallos ignoraranse.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5379,14 +5375,6 @@ Desexas sobrescribilo?</translation>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>Se marca esta opción, SMPlayer pasará a %1 a versión curta dos nomes de ficheiro.</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">Informar das quebras do %1</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Se marca esta opción, cando o %1 quebre aparecerá unha xanela para informarlo. Se non a marca, eses fallos ignoraranse.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8798,14 +8786,6 @@ Desexas sobrescribilo?</translation>
         <translation>O mesmo nome que a película</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">Todos os subtítulos que conteñan o nome da película</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">Todos os subtítulos no cartafol</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>Usar a biblioteca &amp;ASS</translation>
@@ -8840,12 +8820,12 @@ Desexas sobrescribilo?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos os subtítulos que conteñan o nome da película</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Todos os subtítulos no cartafol</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10236,26 +10216,6 @@ Desexas sobrescribilo?</translation>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>Seleccione os códecs vdpau. Posibelmente non todos funcionen.</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

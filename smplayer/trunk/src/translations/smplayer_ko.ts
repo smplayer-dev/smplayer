@@ -850,12 +850,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>유감스럽게도 이 비디오는 재생할 수 없습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>일시 중지</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>정지</translation>
     </message>
@@ -1370,79 +1370,79 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>유투브 문제</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>%1 오류</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1이 갑자기 종료되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Youtube-dl 컴포넌트 실행에 실패했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>마이크로소프트 비주얼 C++ 2010 재배포 패키지(x86)를 설치하면 문제가 해결될 것입니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>구하려면 여기를 누르세요</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>%1를 시작하지 못했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>환경설정에서 %1 경로를 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1가 다운되었습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>유투브 브라우저가 설치되어 있지 않습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>설치하려면 %1 을 방문하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>유투브 브라우저 실행에 실패했습니다.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>제대로 설치되어 있는지 확인하세요.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>시스템이 태블릿 모드로 전환되었습니다. SMPlayer도 태블릿 모드로 전환할까요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>시스템이 태블릿 모드를 종료했습니다. SMPlayer도 태블릿 모드를 끌까요?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>내 결정을 기억하고 다시 묻지 않기</translation>
     </message>
@@ -1598,12 +1598,12 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>서버 응답: &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>종료 코드: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>더 보려면 로그를 확인하세요.</translation>
     </message>
@@ -1869,8 +1869,8 @@ The configuration dialog will be shown now, so you can do it.</source>
         <translation>항상 위에 토글하기</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>%1 으로 이동하기</translation>
     </message>
@@ -5311,10 +5311,6 @@ Do you want to overwrite?</source>
         <translation>%1에 짧은 파일명(8+3)으로 전달하기</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">%1 크래시 보고하기</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>공백으로 구분하여 입력하세요.</translation>
@@ -5327,7 +5323,7 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 충돌 알리기(&amp;E)</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5362,12 +5358,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>%1 충돌 알리기</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>이 옵션 사용시 %1 충돌에 관한 정보를 출력하는 팝업 윈도우가 뜰 것입니다. 그렇지 않으면, 이러한 실패는 조용히 무시될 것입니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5378,14 +5374,6 @@ Do you want to overwrite?</source>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>이 옵션에 체크하면 SMPlayer는 짧은 파일명을 %1로 전달할 것입니다.</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">%1 크래시 보고하기</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">이 옵션에 체크하면 %1 크래시를 알리는 창이 뜰 것입니다. 그렇지 않으면 이 크래시는 조용히 무시됩니다.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -8798,14 +8786,6 @@ Do you want to overwrite?</source>
         <translation>동영상과 같은 이름으로</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">동영상의 이름을 포함하는 모든 자막</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">폴더에 있는 모든 자막</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>&amp;ASS 라이브러리 사용하기</translation>
@@ -8840,12 +8820,12 @@ Do you want to overwrite?</source>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>영화 이름을 포함하는 모든 자막</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>폴더의 모든 자막</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -10234,26 +10214,6 @@ Do you want to overwrite?</source>
         <location filename="../vdpauproperties.ui" line="20"/>
         <source>Select the vdpau codecs to use. Not all of them may work.</source>
         <translation>사용할 vdpau 코덱을 선택하세요. 전부 동작하지는 않습니다.</translation>
-    </message>
-    <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
     </message>
     <message>
         <location filename="../vdpauproperties.ui" line="79"/>

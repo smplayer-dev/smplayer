@@ -850,12 +850,12 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Infelizmente esse vídeo não pode ser reproduzido.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5333"/>
+        <location filename="../basegui.cpp" line="5340"/>
         <source>Pause</source>
         <translation>Pausa</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5334"/>
+        <location filename="../basegui.cpp" line="5341"/>
         <source>Stop</source>
         <translation>Parar</translation>
     </message>
@@ -1370,79 +1370,79 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Problemas com o Youtube</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6035"/>
-        <location filename="../basegui.cpp" line="6087"/>
+        <location filename="../basegui.cpp" line="6042"/>
+        <location filename="../basegui.cpp" line="6094"/>
         <source>%1 Error</source>
         <translation>Erro em %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6036"/>
+        <location filename="../basegui.cpp" line="6043"/>
         <source>%1 has finished unexpectedly.</source>
         <translation>%1 terminou inesperadamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6061"/>
+        <location filename="../basegui.cpp" line="6068"/>
         <source>The component youtube-dl failed to run.</source>
         <translation>Falha na execução do youtube-dl.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6062"/>
+        <location filename="../basegui.cpp" line="6069"/>
         <source>Installing the Microsoft Visual C++ 2010 Redistributable Package (x86) may fix the problem.</source>
         <translation>A instalação do Microsoft Visual C++ 2010 Redistributable Package (x86) deve resolver o problema.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6064"/>
+        <location filename="../basegui.cpp" line="6071"/>
         <source>Click here to get it</source>
         <translation>Clique aqui para obtê-lo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6089"/>
+        <location filename="../basegui.cpp" line="6096"/>
         <source>%1 failed to start.</source>
         <translation>Falha ao iniciar %1.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6090"/>
+        <location filename="../basegui.cpp" line="6097"/>
         <source>Please check the %1 path in preferences.</source>
         <translation>Por favor verifique o caminho do %1 nas Preferências.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6092"/>
+        <location filename="../basegui.cpp" line="6099"/>
         <source>%1 has crashed.</source>
         <translation>%1 travou.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6174"/>
+        <location filename="../basegui.cpp" line="6181"/>
         <source>The YouTube Browser is not installed.</source>
         <translation>O navegador do Youtube não está instalado.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6175"/>
-        <location filename="../basegui.cpp" line="6187"/>
+        <location filename="../basegui.cpp" line="6182"/>
+        <location filename="../basegui.cpp" line="6194"/>
         <source>Visit %1 to get it.</source>
         <translation>VIsite %1 para baixar isso.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6185"/>
+        <location filename="../basegui.cpp" line="6192"/>
         <source>The YouTube Browser failed to run.</source>
         <translation>Falha na execução do navegador do YouTube.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6186"/>
+        <location filename="../basegui.cpp" line="6193"/>
         <source>Be sure it&apos;s installed correctly.</source>
         <translation>Tenha certeza de que foi instalado corretamente.</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6352"/>
+        <location filename="../basegui.cpp" line="6359"/>
         <source>The system has switched to tablet mode. Should SMPlayer change to tablet mode as well?</source>
         <translation>O sistema mudou para o modo tablet. Deseja que o SMPlayer mude para o modo tablet também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6354"/>
+        <location filename="../basegui.cpp" line="6361"/>
         <source>The system has exited tablet mode. Should SMPlayer turn off the tablet mode as well?</source>
         <translation>O sistema saiu do modo tablet. Deseja que o SMPlayer saia também?</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6358"/>
+        <location filename="../basegui.cpp" line="6365"/>
         <source>Remember my decision and don&apos;t ask again</source>
         <translation>Lembre-se da minha decisão e não pergunte novamente.</translation>
     </message>
@@ -1598,12 +1598,12 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>O servidor está &apos;%1&apos;</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6037"/>
+        <location filename="../basegui.cpp" line="6044"/>
         <source>Exit code: %1</source>
         <translation>Código de saída: %1</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="6093"/>
+        <location filename="../basegui.cpp" line="6100"/>
         <source>See the log for more info.</source>
         <translation>Veja o registo para mais informações.</translation>
     </message>
@@ -1869,8 +1869,8 @@ A janela de configuração irá agora ser mostrada para que você o possa fazer.
         <translation>Ativar/Desativar fica no topo</translation>
     </message>
     <message>
-        <location filename="../basegui.cpp" line="5537"/>
-        <location filename="../basegui.cpp" line="5877"/>
+        <location filename="../basegui.cpp" line="5544"/>
+        <location filename="../basegui.cpp" line="5884"/>
         <source>Jump to %1</source>
         <translation>Ir para %1</translation>
     </message>
@@ -5312,10 +5312,6 @@ Deseja substituí-lo?</translation>
         <translation>&amp;Passar nomes de arquivo curtos (8+3) para o %1</translation>
     </message>
     <message>
-        <source>R&amp;eport %1 crashes</source>
-        <translation type="obsolete">R&amp;eportar travamento do %1</translation>
-    </message>
-    <message>
         <location filename="../prefadvanced.cpp" line="511"/>
         <source>Write them separated by spaces.</source>
         <translation>Escreva-as separadas por espaços.</translation>
@@ -5328,7 +5324,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="96"/>
         <source>Notify %1 crash&amp;es</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificar travam&amp;entos do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="99"/>
@@ -5363,12 +5359,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefadvanced.cpp" line="530"/>
         <source>Notify %1 crashes</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificar travamentos do %1</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="531"/>
         <source>If this option is checked, a popup window will be displayed to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se esta opção estiver marcada, será exibida uma janela para informar sobre travamentos no %1. Caso contrário, essas falhas serão ignoradas.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="544"/>
@@ -5379,14 +5375,6 @@ Deseja substituí-lo?</translation>
         <location filename="../prefadvanced.cpp" line="545"/>
         <source>If this option is checked, SMPlayer will pass to %1 the short version of the filenames.</source>
         <translation>Se essa opção estiver acionada, o SMPlayer passará uma versão reduzida dos nomes de arquivo para o %1.</translation>
-    </message>
-    <message>
-        <source>Report %1 crashes</source>
-        <translation type="obsolete">Reportar travamentos do %1</translation>
-    </message>
-    <message>
-        <source>If this option is checked, a window will appear to inform about %1 crashes. Otherwise those failures will be silently ignored.</source>
-        <translation type="obsolete">Se esta opção estiver marcada, será exibida uma janela para informar sobre travamentos no %1. Caso contrário, essas falhas serão ignoradas.</translation>
     </message>
     <message>
         <location filename="../prefadvanced.cpp" line="536"/>
@@ -7761,7 +7749,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefinterface.cpp" line="845"/>
         <source>This option sets the number of pixels that the floating control will be away from the bottom of the screen. Useful when the screen is a TV, as the overscan might prevent the control to be visible.</source>
-        <translation>Esta opção define o número de pixeis entre o controle flutuante e a parte inferior da tela. Útil quando a tela for uma TV, permitindo assim a correta visualização do controle.</translation>
+        <translation>Esta opção define o número de pixels entre o controle flutuante e a parte inferior da tela. Útil quando a tela for uma TV, permitindo assim a correta visualização do controle.</translation>
     </message>
     <message>
         <location filename="../prefinterface.cpp" line="855"/>
@@ -8798,14 +8786,6 @@ Deseja substituí-lo?</translation>
         <translation>Mesmo nome que o filme</translation>
     </message>
     <message>
-        <source>All subs containing movie name</source>
-        <translation type="obsolete">Todas as legendas contendo o nome do filme</translation>
-    </message>
-    <message>
-        <source>All subs in directory</source>
-        <translation type="obsolete">Todas as legendas no pasta</translation>
-    </message>
-    <message>
         <location filename="../prefsubtitles.ui" line="230"/>
         <source>Use the &amp;ASS library</source>
         <translation>Usar biblioteca &amp;ASS</translation>
@@ -8840,12 +8820,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.ui" line="77"/>
         <source>All subtitles containing the movie name</source>
-        <translation type="unfinished"></translation>
+        <translation>Todas as legendas contendo o nome do filme</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="82"/>
         <source>All subtitles in the directory</source>
-        <translation type="unfinished"></translation>
+        <translation>Todas as legendas na pasta</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.ui" line="123"/>
@@ -8970,7 +8950,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="456"/>
         <source>The size in pixels.</source>
-        <translation>O tamanho em pixéis.</translation>
+        <translation>O tamanho em pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="458"/>
@@ -9000,7 +8980,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="474"/>
         <source>Specifies the left margin in pixels.</source>
-        <translation>Especifica a margem esquerda em pixéis.</translation>
+        <translation>Especifica a margem esquerda em pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="476"/>
@@ -9010,7 +8990,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="477"/>
         <source>Specifies the right margin in pixels.</source>
-        <translation>Especifica a margem direita em pixéis.</translation>
+        <translation>Especifica a margem direita em pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="479"/>
@@ -9020,7 +9000,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="480"/>
         <source>Specifies the vertical margin in pixels.</source>
-        <translation>Especifica a margem vertical em pixéis.</translation>
+        <translation>Especifica a margem vertical em pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="482"/>
@@ -9218,12 +9198,12 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../prefsubtitles.cpp" line="495"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the width of the outline around the text in pixels.</source>
-        <translation>Se o contorno estiver definido como &lt;i&gt;linha externa&lt;/i&gt;, esta opção especifica a largura da linha em volta do texto.</translation>
+        <translation>Se o contorno estiver definido como &lt;i&gt;linha externa&lt;/i&gt;, esta opção especifica a largura da linha em volta do texto em pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="499"/>
         <source>If border style is set to &lt;i&gt;outline&lt;/i&gt;, this option specifies the depth of the drop shadow behind the text in pixels.</source>
-        <translation>Se o contorno estiver definido como &lt;i&gt;linha externa&lt;/i&gt;, esta opção especifica a profundidade da sombra atrás do texto.</translation>
+        <translation>Se o contorno estiver definido como &lt;i&gt;linha externa&lt;/i&gt;, esta opção especifica a profundidade da sombra atrás do texto em pixels.</translation>
     </message>
     <message>
         <location filename="../prefsubtitles.cpp" line="435"/>
@@ -10238,26 +10218,6 @@ Deseja substituí-lo?</translation>
         <translation>Selecione os codecs vdpau a usar. Nem todos devem funcionar.</translation>
     </message>
     <message>
-        <source>ffh&amp;264vdpau</source>
-        <translation type="obsolete">ffh&amp;264vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;mpeg12vdpau</source>
-        <translation type="obsolete">ff&amp;mpeg12vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;wmv3vdpau</source>
-        <translation type="obsolete">ff&amp;wmv3vdpau</translation>
-    </message>
-    <message>
-        <source>ff&amp;vc1vdpau</source>
-        <translation type="obsolete">ff&amp;vc1vdpau</translation>
-    </message>
-    <message>
-        <source>ffodiv&amp;xvdpau</source>
-        <translation type="obsolete">ffodiv&amp;xvdpau</translation>
-    </message>
-    <message>
         <location filename="../vdpauproperties.ui" line="79"/>
         <source>&amp;Disable software video filters</source>
         <translation>&amp;Desabilitar filtros de software de vídeo</translation>
@@ -10556,7 +10516,7 @@ Deseja substituí-lo?</translation>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="51"/>
         <source>This option specifies the maximum width in pixels that the generated preview image will have.</source>
-        <translation>Esta opção especifica a largura máxima dos pixeis que a imagem gerada terá.</translation>
+        <translation>Esta opção especifica a largura máxima em pixels que a imagem de pré-visualização gerada terá.</translation>
     </message>
     <message>
         <location filename="../videopreview/videopreviewconfigdialog.cpp" line="52"/>
