@@ -1,5 +1,9 @@
 Version 17.?:
 
+(2017-04-21)
+ * Bugfix: remember the position of the video when it's opened by
+   drag & drop.
+
 (2017-04-17)
  * Fix the audio normalization filter when using mpv > 0.24.
 
