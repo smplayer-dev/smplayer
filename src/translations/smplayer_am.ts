@@ -6656,26 +6656,26 @@ Do you want to overwrite?</source>
         <translation>የ ግራ መጫን ተግባር &amp;አታስነሳ ሁለቴ በምጫን ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="149"/>
-        <location filename="../prefinput.cpp" line="416"/>
+        <location filename="../prefinput.cpp" line="151"/>
+        <location filename="../prefinput.cpp" line="418"/>
         <source>Media seeking</source>
         <translation>መገናኛ መፈለጊያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="150"/>
-        <location filename="../prefinput.cpp" line="419"/>
+        <location filename="../prefinput.cpp" line="152"/>
+        <location filename="../prefinput.cpp" line="421"/>
         <source>Volume control</source>
         <translation>መጠን መቆጣጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="151"/>
-        <location filename="../prefinput.cpp" line="422"/>
+        <location filename="../prefinput.cpp" line="153"/>
+        <location filename="../prefinput.cpp" line="424"/>
         <source>Zoom video</source>
         <translation>ቪዲዮ ማሳያ</translation>
     </message>
     <message>
         <location filename="../prefinput.cpp" line="57"/>
-        <location filename="../prefinput.cpp" line="162"/>
+        <location filename="../prefinput.cpp" line="164"/>
         <source>None</source>
         <translation>ምንም</translation>
     </message>
@@ -6685,7 +6685,7 @@ Do you want to overwrite?</source>
         <translation>እርስዎ እዚህ ማንኛውንም አቋራጭ ቁልፍ መቀየር ይችላሉ: ይህን ለማድረግ ሁለት ጊዜ ይጫኑ ወይንም ይጫኑ በ አቋራጭ ቁልፍ ማስገቢያ ክፍል ውስጥ: እርስዎ በ አማራጭ ይችላሉ ማስቀመጥ ዝርዝሩን ከ ሌሎች ተጠቃሚዎች ጋር ለ መካፈል: ወይንም ለ መጫን በ ሌላ ኮምፒዩተር ውስጥ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="171"/>
+        <location filename="../prefinput.cpp" line="173"/>
         <source>Here you can change any key shortcut. To do it double click or start typing over a shortcut cell. Optionally you can also save the list to share it with other people or load it in another computer.</source>
         <translation>እርስዎ እዚህ ማንኛውንም አቋራጭ ቁልፍ መቀየር ይችላሉ: ይህን ለማድረግ ሁለት ጊዜ ይጫኑ ወይንም ይጫኑ በ አቋራጭ ቁልፍ ማስገቢያ ክፍል ውስጥ: እርስዎ በ አማራጭ ይችላሉ ማስቀመጥ ዝርዝሩን ከ ሌሎች ተጠቃሚዎች ጋር ለ መካፈል: ወይንም ለ መጫን በ ሌላ ኮምፒዩተር ውስጥ</translation>
     </message>
@@ -6705,42 +6705,42 @@ Do you want to overwrite?</source>
         <translation>የ &amp;ጎማ ተግባር</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="358"/>
+        <location filename="../prefinput.cpp" line="360"/>
         <source>Shortcut editor</source>
         <translation>አቋራጭ ማረሚያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="359"/>
+        <location filename="../prefinput.cpp" line="361"/>
         <source>This table allows you to change the key shortcuts of most available actions. Double click or press enter on a item, or press the &lt;b&gt;Change shortcut&lt;/b&gt; button to enter in the &lt;i&gt;Modify shortcut&lt;/i&gt; dialog. There are two ways to change a shortcut: if the &lt;b&gt;Capture&lt;/b&gt; button is on then just press the new key or combination of keys that you want to assign for the action (unfortunately this doesn&apos;t work for all keys). If the &lt;b&gt;Capture&lt;/b&gt; button is off then you could enter the full name of the key.</source>
         <translation>ይህ ሰንጠረዥ እርስዎን የሚያስችለው የ አቋራጭ ቁልፎችን መቀየር ነው: ዝግጁ ለሆኑ ተግባሮች: ሁለት ጊዜ ይጫኑ ወይንም ማስገቢያውን ይጫኑ በ እቃው ላይ ወይንም ይጫኑ የ &lt;b&gt;አቋራጭ መቀየሪያ &lt;/b&gt; ቁልፍ ለ ማስገባት የ &lt;i&gt;አቋራጭ ማሻሻያ&lt;/i&gt; ንግግር: ሁለት መንገዶች አሉ አቋራጭ ቁልፎችን ለ መቀየር የ &lt;b&gt;መያዣ&lt;/b&gt; ቁልፍ በ ላዩ ላይ አድርገው ይጫኑ አዲሱን ቁልፍ ወይንም ቁልፎች በማጣመር እርስዎ መመደብ የሚፈልጉትን ለ ተግባሩ: (ነገር ግን ይህ ለ ሁሉም ቁልፎች አይሰራም). ይህ &lt;b&gt;መያዣ&lt;/b&gt; ቁልፍ ከ ጠፋ እርስዎ ማስገባት ይችላሉ ሙሉ ስም ለ ቁልፉ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="377"/>
+        <location filename="../prefinput.cpp" line="379"/>
         <source>Left click</source>
         <translation>የ ግራ መጫኛ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="378"/>
+        <location filename="../prefinput.cpp" line="380"/>
         <source>Select the action for left click on the mouse.</source>
         <translation>ይምረጡ ተግባር ለ ግራ መጫኛ በ አይጡ ላይ:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="380"/>
+        <location filename="../prefinput.cpp" line="382"/>
         <source>Double click</source>
         <translation>ሁለት ጊዜ መጫኛ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="381"/>
+        <location filename="../prefinput.cpp" line="383"/>
         <source>Select the action for double click on the mouse.</source>
         <translation>ይምረጡ ተግባር ለ ሁለት ጊዜ መጫኛ በ አይጡ ላይ:</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="392"/>
+        <location filename="../prefinput.cpp" line="394"/>
         <source>Wheel function</source>
         <translation>የ ጎማ ተግባር</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="393"/>
+        <location filename="../prefinput.cpp" line="395"/>
         <source>Select the action for the mouse wheel.</source>
         <translation>ይምረጡ ተግባር ለ አይጥ ጎማ</translation>
     </message>
@@ -6760,42 +6760,42 @@ Do you want to overwrite?</source>
         <translation>ማስቆሚያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="71"/>
+        <location filename="../prefinput.cpp" line="73"/>
         <source>Fullscreen</source>
         <translation>በ ሙሉ መመልከቻ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="72"/>
+        <location filename="../prefinput.cpp" line="74"/>
         <source>Compact</source>
         <translation>በ ዝቅተኛ ዘዴ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="73"/>
+        <location filename="../prefinput.cpp" line="75"/>
         <source>Screenshot</source>
         <translation>የ መመልከቻ ፎቶ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="77"/>
+        <location filename="../prefinput.cpp" line="79"/>
         <source>Mute</source>
         <translation>መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="83"/>
+        <location filename="../prefinput.cpp" line="85"/>
         <source>Frame counter</source>
         <translation>የ ክፈፍ መቁጠሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="80"/>
+        <location filename="../prefinput.cpp" line="82"/>
         <source>Reset zoom</source>
         <translation>ማሳያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="81"/>
+        <location filename="../prefinput.cpp" line="83"/>
         <source>Exit fullscreen</source>
         <translation>ከ ሙሉ መመልከቻ ዘዴ መውጫ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="85"/>
+        <location filename="../prefinput.cpp" line="87"/>
         <source>Double size</source>
         <translation>በ ድርብ ዘዴ</translation>
     </message>
@@ -6810,48 +6810,48 @@ Do you want to overwrite?</source>
         <translation>ማስቆሚያ / የ ክፈፍ ደረጃ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="79"/>
+        <location filename="../prefinput.cpp" line="81"/>
         <source>Playlist</source>
         <translation>የ ማጫወቻ ዝርዝር</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="84"/>
+        <location filename="../prefinput.cpp" line="86"/>
         <source>Preferences</source>
         <translation>ምርጫዎች</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="148"/>
+        <location filename="../prefinput.cpp" line="150"/>
         <source>No function</source>
         <translation>ምንም ተግባር የለም</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="152"/>
-        <location filename="../prefinput.cpp" line="425"/>
+        <location filename="../prefinput.cpp" line="154"/>
+        <location filename="../prefinput.cpp" line="427"/>
         <source>Change speed</source>
         <translation>ፍጥነት መቀየሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="82"/>
+        <location filename="../prefinput.cpp" line="84"/>
         <source>Normal speed</source>
         <translation>መደበኛ ፍጥነት</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="356"/>
+        <location filename="../prefinput.cpp" line="358"/>
         <source>Keyboard</source>
         <translation>የ ፊደል ገበታ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="375"/>
+        <location filename="../prefinput.cpp" line="377"/>
         <source>Mouse</source>
         <translation>አይጥ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="383"/>
+        <location filename="../prefinput.cpp" line="385"/>
         <source>Middle click</source>
         <translation>በ መሀከል መጫኛ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="384"/>
+        <location filename="../prefinput.cpp" line="386"/>
         <source>Select the action for middle click on the mouse.</source>
         <translation>ይምረጡ ተግባር ለ መሀከል መጫኛ በ አይጡ ላይ:</translation>
     </message>
@@ -6901,12 +6901,12 @@ Do you want to overwrite?</source>
         <translation>ወደ ፊት መሄጃ (ረጅም)</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="78"/>
+        <location filename="../prefinput.cpp" line="80"/>
         <source>OSD - Next level</source>
         <translation>OSD - የሚቀጥለው ደረጃ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="90"/>
+        <location filename="../prefinput.cpp" line="92"/>
         <source>Show context menu</source>
         <translation>የ አገባብ ዝርዝር ማሳያ</translation>
     </message>
@@ -6926,208 +6926,218 @@ Do you want to overwrite?</source>
         <translation>መጠን መቀነሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="386"/>
+        <location filename="../prefinput.cpp" line="388"/>
         <source>X Button 1</source>
         <translation>X ቁልፍ 1</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="387"/>
+        <location filename="../prefinput.cpp" line="389"/>
         <source>Select the action for the X button 1.</source>
         <translation>ይምረጡ ተግባር ለ X ቁልፍ 1.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="389"/>
+        <location filename="../prefinput.cpp" line="391"/>
         <source>X Button 2</source>
         <translation>X ቁልፍ 2</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="390"/>
+        <location filename="../prefinput.cpp" line="392"/>
         <source>Select the action for the X button 2.</source>
         <translation>ይምረጡ ተግባር ለ X ቁልፍ 2.</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="88"/>
+        <location filename="../prefinput.cpp" line="90"/>
         <source>Show video equalizer</source>
         <translation>የ ቪዲዮ መቆጣጠሪያ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="89"/>
+        <location filename="../prefinput.cpp" line="91"/>
         <source>Show audio equalizer</source>
         <translation>የ ድምዓ መቆጣጠሪያ ማሳያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="74"/>
+        <location filename="../prefinput.cpp" line="76"/>
         <source>Always on top</source>
         <translation>ሁልጊዜ ከ ላይ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="75"/>
+        <location filename="../prefinput.cpp" line="71"/>
+        <source>Play next</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="72"/>
+        <source>Play previous</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../prefinput.cpp" line="77"/>
         <source>Never on top</source>
         <translation>በፍጹም ከ ላይ አታድርግ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="76"/>
+        <location filename="../prefinput.cpp" line="78"/>
         <source>On top while playing</source>
         <translation>ከ ላይ በሚጫወት ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="86"/>
+        <location filename="../prefinput.cpp" line="88"/>
         <source>Next chapter</source>
         <translation>የሚቀጥለው ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="87"/>
+        <location filename="../prefinput.cpp" line="89"/>
         <source>Previous chapter</source>
         <translation>ያለፈው ምእራፍ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="93"/>
+        <location filename="../prefinput.cpp" line="95"/>
         <source>Activate option under mouse in DVD menus</source>
         <translation>በ አይጥ ውስጥ የ ዲቪዲ ዝርዝር ማስጀመሪያ ምርጫ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="94"/>
+        <location filename="../prefinput.cpp" line="96"/>
         <source>Return to main DVD menu</source>
         <translation>ወደ ዋናው ዲቪዲ ዝርዝር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="95"/>
+        <location filename="../prefinput.cpp" line="97"/>
         <source>Return to previous menu in DVD menus</source>
         <translation>ወዳለፈው ዝርዝር በ ዲቪዲ ውስጥ እንደገና መመለሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="96"/>
+        <location filename="../prefinput.cpp" line="98"/>
         <source>Move cursor up in DVD menus</source>
         <translation>መጠቆሚያውን ወደ ላይ በ ዲቪዲ ዝርዝር ውስጥ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="97"/>
+        <location filename="../prefinput.cpp" line="99"/>
         <source>Move cursor down in DVD menus</source>
         <translation>መጠቆሚያውን ወደ ታች በ ዲቪዲ ዝርዝር ውስጥ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="98"/>
+        <location filename="../prefinput.cpp" line="100"/>
         <source>Move cursor left in DVD menus</source>
         <translation>መጠቆሚያውን ወደ ግራ በ ዲቪዲ ዝርዝር ውስጥ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="99"/>
+        <location filename="../prefinput.cpp" line="101"/>
         <source>Move cursor right in DVD menus</source>
         <translation>መጠቆሚያውን ወደ ቀኝ በ ዲቪዲ ዝርዝር ውስጥ ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="100"/>
+        <location filename="../prefinput.cpp" line="102"/>
         <source>Activate highlighted option in DVD menus</source>
         <translation>የ ደመቀውን ምርጫ በ ዲቪዲ ዝርዝር ውስጥ ማስጀመሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="163"/>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="165"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>Move window</source>
         <translation>መስኮት ማንቀሳቀሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="165"/>
-        <location filename="../prefinput.cpp" line="399"/>
+        <location filename="../prefinput.cpp" line="167"/>
+        <location filename="../prefinput.cpp" line="401"/>
         <source>Seek and volume</source>
         <translation>መፈለጊያ እና መጠን</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="370"/>
+        <location filename="../prefinput.cpp" line="372"/>
         <source>Use the multimedia keys as global shortcuts</source>
         <translation>በርካታ መገናኛ ቁልፎችን ይጠቀሙ ለ አለም አቀፍ አቋራጮች</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="371"/>
+        <location filename="../prefinput.cpp" line="373"/>
         <source>When this option is enabled the multimedia keys (Play, Stop, Volume+/-, Mute, etc.) will work even when SMPlayer is running in the background.</source>
         <translation>ይህን ምርጫ ሲያስችሉ ለ በርካታ መገናኛ ቁልፎች (ማጫወቻ: ማስቆሚያ: መጠን +/-: ማጥፊያ: ወዘተ) ይሰራል የ SMPlayer ከ በስተ ጀርባ ሲሄድ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="395"/>
+        <location filename="../prefinput.cpp" line="397"/>
         <source>Drag function</source>
         <translation>መጎተቻ ተግባር</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="396"/>
+        <location filename="../prefinput.cpp" line="398"/>
         <source>This option controls what to do when the mouse is moved while pressing the left button.</source>
         <translation>ይህ ምርጫ የሚቆጣጠረው ምን እንደሚሰራ ነው የ አይጥ ቁልፍ የ ግራ ቁልፍ ተጭነው ይዘው ሲያንቀሳቅሱ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="397"/>
+        <location filename="../prefinput.cpp" line="399"/>
         <source>the main window is moved</source>
         <translation>ዋናው መስኮት ተንቀሳቅሷል</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="400"/>
+        <location filename="../prefinput.cpp" line="402"/>
         <source>a horizontal movement changes the time position while a vertical movement changes the volume</source>
         <translation>የ አግድም እንቅስቃሴ መቀየሪያ ጊዜ ቦታ የ ቁመት እንቅስቃሴ መጠን ሲቀየር</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="404"/>
+        <location filename="../prefinput.cpp" line="406"/>
         <source>Don&apos;t trigger the left click function with a double click</source>
         <translation>የ ግራ መጫን ተግባር አታስነሳ በ ሁለቴ በምጫን ጊዜ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="405"/>
+        <location filename="../prefinput.cpp" line="407"/>
         <source>If this option is enabled when you double click on the video area only the double click function will be triggered. The left click action won&apos;t be activated.</source>
         <translation>ይህን ምርጫ ካስቻሉ: እርስዎ ሁለት ጊዜ ሲጫኑ በ ቪዲዮ ቦታ ላይ ሁለት ጊዜ መጫኛ ተግባር ብቻ ይጀምራል: የ ግራ መጫኛ ተግባር አይጀምርም</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="408"/>
+        <location filename="../prefinput.cpp" line="410"/>
         <source>By enabling this option the left click is delayed %1 milliseconds because it&apos;s necessary to wait that time to know if there&apos;s a double click or not.</source>
         <translation>ይህን ምርጫ ካስቻሉ: የ ግራ መጫኛ ይዘገያል በ  በ %1 ሚሊ ሰከንዶች ምክንያቱም ይህ በጣም አስፈላጊ ነው ለ መጠበቅ ሁለት ጊዜ መጫኛ እንዳለ ወይንም እንደሌለ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="91"/>
+        <location filename="../prefinput.cpp" line="93"/>
         <source>Change function of wheel</source>
         <translation>ተግባር መቀየሪያ ጎማ</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="435"/>
-        <location filename="../prefinput.cpp" line="155"/>
+        <location filename="../prefinput.cpp" line="157"/>
         <source>Media &amp;seeking</source>
         <translation>መገናኛ &amp;መፈለጊያ</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="449"/>
-        <location filename="../prefinput.cpp" line="156"/>
+        <location filename="../prefinput.cpp" line="158"/>
         <source>&amp;Zoom video</source>
         <translation>ቪዲዮ &amp;ማሳያ</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="442"/>
-        <location filename="../prefinput.cpp" line="157"/>
+        <location filename="../prefinput.cpp" line="159"/>
         <source>&amp;Volume control</source>
         <translation>&amp;መጠን መቆጣጠሪያ</translation>
     </message>
     <message>
         <location filename="../prefinput.ui" line="456"/>
-        <location filename="../prefinput.cpp" line="158"/>
+        <location filename="../prefinput.cpp" line="160"/>
         <source>&amp;Change speed</source>
         <translation>ፍጥነት &amp;መቀየሪያ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="414"/>
+        <location filename="../prefinput.cpp" line="416"/>
         <source>Mouse wheel functions</source>
         <translation>የ አይጥ ጎማ ተግባር</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="417"/>
+        <location filename="../prefinput.cpp" line="419"/>
         <source>Check it to enable seeking as one function.</source>
         <translation>እንደ አንድ ተግባር ለ ማስቻል ምልክት ያድርጉ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="420"/>
+        <location filename="../prefinput.cpp" line="422"/>
         <source>Check it to enable changing volume as one function.</source>
         <translation>እንደ አንድ ተግባር መጠን ለ መቀየር ለ ማስቻል ምልክት ያድርጉ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="423"/>
+        <location filename="../prefinput.cpp" line="425"/>
         <source>Check it to enable zooming as one function.</source>
         <translation>እንደ አንድ ተግባር ለ ማሳያ ለ ማስቻል ምልክት ያድርጉ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="426"/>
+        <location filename="../prefinput.cpp" line="428"/>
         <source>Check it to enable changing speed as one function.</source>
         <translation>እንደ አንድ ተግባር ፍጥነት ለ መቀየር ለ ማስቻል ምልክት ያድርጉ</translation>
     </message>
@@ -7142,12 +7152,12 @@ Do you want to overwrite?</source>
         <translation>ተግባር ይምረጡ የሚሄደውን በሚጠቀሙ ጊዜ የ &quot;ተግባር መቀየሪያ ጎማ&quot; ምርጫ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="411"/>
+        <location filename="../prefinput.cpp" line="413"/>
         <source>Reverse mouse wheel seeking</source>
         <translation>በ አይጥ ቁልፍ መፈለጊያ እንደ ነበር መመለሻ</translation>
     </message>
     <message>
-        <location filename="../prefinput.cpp" line="412"/>
+        <location filename="../prefinput.cpp" line="414"/>
         <source>Check it to seek in the opposite direction.</source>
         <translation>በ ተቃራኒ አቅጣጫ ለ መፈለግ ምልክት ያድርጉ</translation>
     </message>
